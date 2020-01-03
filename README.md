@@ -1,12 +1,12 @@
+# Games Library
+
+Basically my game collection is at a point where a games library manager is needed. I built a basic version of this in Vue a while back in a private repo. Now I'm going to build it in React and add a different feature set. Basically, I want to be able to quickly filter down games to help my decide what to play based on how many people are playing with me and what genres we are in the mood for.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-# Games Library
-
-Basically my game collection is at a point where a games library manager is needed. I built a basic version of this in Vue a while back in a private repo. Now I'm going to build it in React and add a different feature set. Basically, I want to be able to quickly filter down games to help my decide what to play based on how many people are playing with me and what genres we are in the mood for.
 
 ### `npm start`
 

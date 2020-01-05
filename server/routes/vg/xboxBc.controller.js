@@ -1,5 +1,4 @@
-const logger = require('../../config//logger');
-
+const logger = require('../../config/logger');
 const xbTo360 = require('../../xboxBc/XboxToXbox360.json');
 const xbToOne = require('../../xboxBc/XboxToXboxOne.json');
 const xb360ToOne = require('../../xboxBc/Xbox360ToXboxOne.json');
@@ -21,6 +20,7 @@ module.exports.xboxBackward = function(req, res) {
       }
     } catch (error) {
       console.log('error', error);
+      logger.log('error', error);
       res.status(503).json({
         error: true,
         message: 'ERROR: THERE WAS A PROBLEM PROCESSING THE BACKWARD COMPATIBILITY REQUEST!',
@@ -28,7 +28,7 @@ module.exports.xboxBackward = function(req, res) {
       });
     }
   } else {
-    console.log('error', req.body);
+    console.log('error in request', req.body);
     res.status(503).json({
       error: true,
       message: 'ERROR: YOU MUST SEND BOTH A GAME ID AND PLATFORM ID!',

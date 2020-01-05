@@ -1,0 +1,27 @@
+@import './theme.scss';
+
+html {
+  body {
+    font-family: $primary-font;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    a,
+    p,
+    div,
+    span,
+    article,
+    section {
+      font-family: $primary-font;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: $secondary-font;
+      text-transform: uppercase;
+    }
+  }
+}

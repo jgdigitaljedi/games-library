@@ -7,7 +7,6 @@ const dataCtrl = require('./dataViz.controller');
 const updateCtrl = require('./updateData.controller');
 const ebayCtrl = require('./ebay.controller');
 const exportCtrl = require('./exportCsv.controller');
-const bgCtrl = require('./beatGames.controller');
 const xboxbc = require('./xboxBc.controller');
 
 // XBOX Backward Compatibility

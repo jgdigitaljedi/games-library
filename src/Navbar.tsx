@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, FunctionComponent } from 'react';
 import { Link } from '@reach/router';
 import { css } from '@emotion/core';
 import colors from './style/colors';
 
-const Navbar = () => {
+const Navbar: FunctionComponent = () => {
   const [padding] = useState(15);
   return (
     <header

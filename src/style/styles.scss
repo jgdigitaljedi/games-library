@@ -1,4 +1,5 @@
 @import './theme.scss';
+@import './mixins/index.scss';
 
 html {
   body {
@@ -22,6 +23,19 @@ html {
     h6 {
       font-family: $secondary-font;
       text-transform: uppercase;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+      &:visited {
+        color: $black;
+      }
+      &:hover {
+        color: $accent;
+      }
+      &:active {
+        color: $warn;
+      }
     }
   }
 }

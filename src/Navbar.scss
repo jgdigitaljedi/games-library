@@ -1,7 +1,12 @@
+@import './style/theme.scss';
 .navbar {
   display: flex;
+  background-color: $secondary;
   width: 100%;
+  padding: 1rem;
   a {
     margin: auto 1rem;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }

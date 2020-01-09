@@ -1,11 +1,12 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import DatTable from './DatTable';
 import { SelectButton } from 'primereact/selectbutton';
 import changeViewWhat from './actionCreators/viewWhat';
-import { connect } from 'react-redux';
+import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
+import cloneDeep from 'lodash/cloneDeep';
 
 interface IInputOptions {
   label: string;
@@ -23,7 +24,8 @@ interface MapDispatchProps {
 interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
-  let data;
+  const viewWhat = useSelector((state: any) => state.viewWhat);
+  const [data, setData] = useState({ data: [] });
   const viewChoices: IInputOptions[] = [
     { label: 'Games', value: 'games' },
     { label: 'Consoles', value: 'consoles' },
@@ -32,11 +34,22 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   async function getData() {
     if (props.viewWhat === 'games') {
-      data = await axios.get('http://localhost:4001/api/games');
+      const data = await axios.get('http://localhost:4001/api/games');
       console.log('data', data);
+      const dCopy = cloneDeep(data.data);
+      data.data = dCopy.map((d: any) => {
+        d.genres = d.igdb.genres.join(', ');
+        return d;
+      });
+      setData(data);
+    } else if (props.viewWhat === 'consoles') {
+      const data = await axios.get('http://localhost:4001/api/consoles');
+      setData(data);
     }
   }
-  getData();
+  if (!data || !data.data || !data.data.length) {
+    getData();
+  }
   return (
     <section className="library">
       <SelectButton
@@ -44,8 +57,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         onChange={e => (props.setViewWhat ? props.setViewWhat(e.value) : null)}
         options={viewChoices}
       ></SelectButton>
-      {/* <DatTable {...data}></DatTable> */}
-      {/* <DatTable data={data}></DatTable> */}
+      <DatTable data={data.data}></DatTable>
     </section>
   );
 };

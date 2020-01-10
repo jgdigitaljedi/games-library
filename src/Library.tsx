@@ -24,7 +24,12 @@ interface MapDispatchProps {
 interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
+  const [view, setView] = useState('');
   const viewWhat = useSelector((state: any) => state.viewWhat);
+  if (view !== viewWhat) {
+    setView(viewWhat);
+    getData();
+  }
   const [data, setData] = useState({ data: [] });
   const viewChoices: IInputOptions[] = [
     { label: 'Games', value: 'games' },
@@ -35,7 +40,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   async function getData() {
     if (props.viewWhat === 'games') {
       const data = await axios.get('http://localhost:4001/api/games');
-      console.log('data', data);
       const dCopy = cloneDeep(data.data);
       data.data = dCopy.map((d: any) => {
         d.genres = d.igdb.genres.join(', ');
@@ -45,11 +49,12 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     } else if (props.viewWhat === 'consoles') {
       const data = await axios.get('http://localhost:4001/api/consoles');
       setData(data);
+    } else if (props.viewWhat === 'accessories') {
+      const data = await axios.get('http://localhost:4001/api/acc');
+      setData(data);
     }
   }
-  if (!data || !data.data || !data.data.length) {
-    getData();
-  }
+
   return (
     <section className="library">
       <SelectButton

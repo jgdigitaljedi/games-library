@@ -1,9 +1,10 @@
 import React, { Component, CSSProperties } from 'react';
 import { DataTable } from 'primereact/datatable';
-import { Column, ColumnProps } from 'primereact/column';
+import { Column } from 'primereact/column';
 import { connect } from 'react-redux';
 import ErrorBoundary from './ErrorBoundary';
-import cloneDeep from 'lodash/cloneDeep';
+import tableProps from './tableProps.service';
+import get from 'lodash/get';
 
 interface IProps {
   data: any[];
@@ -14,29 +15,37 @@ interface MapStateProps {
   viewWhat: string;
 }
 
-interface ICols {}
+interface ICols {
+  field: string;
+  header: string;
+  sortable?: boolean;
+}
 
-class TheTable extends Component<IProps> {
-  cols: ColumnProps[] | null;
+interface IState {
+  cols: ICols[];
+  viewWhat: string;
+}
+
+class TheTable extends Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
-    this.cols = [{ field: '', header: '' }];
-    this._getCols();
+    this.state = { cols: [{ field: '', header: '' }], viewWhat: props.viewWhat || '' };
   }
-  public componentDidUpdate(prevProps: IProps, prevState: any, snapshot: any) {
+
+  public componentDidMount() {
     this._getCols();
   }
 
   public render() {
-    // let cols = this._getCols();
-    if (!this.cols) {
+    if (this.state.viewWhat !== this.props.viewWhat) {
       this._getCols();
+      this.setState({ viewWhat: this.props.viewWhat || '' });
     }
 
-    const colProps = cloneDeep(this.cols) || [{ field: '', header: '' }];
+    const colProps = this.state.cols || [{ field: '', header: '' }];
 
     let dynamicColumns = colProps.map((col, i) => {
-      if (col.field === 'gb.image') {
+      if (col.header === 'Image') {
         return <Column key={col.field} header={col.header} body={this._imageTemplate} />;
       }
       return (
@@ -52,43 +61,28 @@ class TheTable extends Component<IProps> {
     );
   }
 
-  private _imageTemplate(rowData: { gb: { image: string } }, column: object): JSX.Element {
+  private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {
     const imageStyle = {
       maxWidth: '6rem',
       maxHeight: '6rem',
       height: 'auto',
       width: 'auto'
     } as CSSProperties;
-    return <img src={rowData.gb.image} alt="Game cover" style={imageStyle} />;
+    return (
+      <img
+        src={
+          get(rowData, 'gb.image') ||
+          get(rowData, 'image') ||
+          'http://localhost:3000/Video-Game-Controller-Icon.svg.png'
+        }
+        alt="Game cover"
+        style={imageStyle}
+      />
+    );
   }
 
   private _getCols() {
-    console.log('getCols called', this.props);
-    const gamesCols = [
-      { field: 'gb.image', header: 'Image' },
-      { field: 'igdb.name', header: 'Name', sortable: true },
-      { field: 'consoleName', header: 'Console', sortable: true },
-      { field: 'multiplayerNumber', header: 'Players', sortable: true },
-      { field: 'igdb.firstReleaseDate', header: 'Release Date' },
-      { field: 'datePurchased', header: 'Purchase Date' },
-      { field: 'genres', header: 'Genres' },
-      { field: 'howAcquired', header: 'How Acquired' },
-      { field: 'igdb.total_rating', header: 'Rating', sortable: true },
-      { field: 'howAcquired', header: 'How Acquired', sortable: true }
-    ];
-    let cols;
-    switch (this.props.viewWhat) {
-      case 'games':
-        cols = gamesCols;
-        break;
-      case 'consoles':
-        cols = [{ field: '', header: '' }];
-        break;
-      default:
-        cols = gamesCols;
-        break;
-    }
-    this.cols = cols;
+    this.setState({ cols: tableProps(this.props.viewWhat || '') });
   }
 }
 

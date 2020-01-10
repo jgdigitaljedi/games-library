@@ -2,6 +2,8 @@
 
 Basically my game collection is at a point where a games library manager is needed. I built a basic version of this in Vue a while back in a private repo. Now I'm going to build it in React and add a different feature set. Basically, I want to be able to quickly filter down games to help my decide what to play based on how many people are playing with me and what genres we are in the mood for.
 
+I intentionally made some questionable decisions to force myself to use different parts of React and experiment with different scenarios. For example, the DatTable.tsx file should have the colum data passed in props to keep the component dumb. Instead, I'm using state and hitting a method to get them to force myself to think about state and re-rendering.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

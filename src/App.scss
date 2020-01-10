@@ -1,6 +1,9 @@
 @import './style/theme.scss';
 @import './style/styles.scss';
-@import './Navbar.scss';
+@import './components/navbar/Navbar.scss';
+@import './Library.scss';
+@import './components/DatTable/DatTable.scss';
+@import './components/filterGroup/FilterGroup.scss';
 .App {
   min-height: 100vh;
   height: 100%;

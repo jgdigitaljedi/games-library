@@ -1,12 +1,12 @@
 import React, { FunctionComponent, useState } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import DatTable from './DatTable';
+import DatTable from './components/DatTable/DatTable';
 import { SelectButton } from 'primereact/selectbutton';
 import changeViewWhat from './actionCreators/viewWhat';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
-import cloneDeep from 'lodash/cloneDeep';
+import FilterGroup from './components/filterGroup/FilterGroup';
 
 interface IInputOptions {
   label: string;
@@ -34,34 +34,64 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const viewChoices: IInputOptions[] = [
     { label: 'Games', value: 'games' },
     { label: 'Consoles', value: 'consoles' },
-    { label: 'Accessories', value: 'accessories' }
+    { label: 'Accessories', value: 'accessories' },
+    { label: 'Clones', value: 'clones' },
+    { label: 'Collectibles', value: 'collectibles' },
+    { label: 'Hardware', value: 'hardware' }
   ];
 
-  async function getData() {
-    if (props.viewWhat === 'games') {
-      const data = await axios.get('http://localhost:4001/api/games');
-      const dCopy = cloneDeep(data.data);
-      data.data = dCopy.map((d: any) => {
-        d.genres = d.igdb.genres.join(', ');
-        return d;
+  function cleanedData(data: any): any[] {
+    return data.data.map((d: any) => {
+      const keys = Object.keys(d);
+      keys.forEach((key: string) => {
+        if (typeof d[key] === 'boolean') {
+          d[key] = d[key].toString();
+        }
       });
-      setData(data);
-    } else if (props.viewWhat === 'consoles') {
-      const data = await axios.get('http://localhost:4001/api/consoles');
-      setData(data);
-    } else if (props.viewWhat === 'accessories') {
-      const data = await axios.get('http://localhost:4001/api/acc');
-      setData(data);
+      if (props.viewWhat === 'games') {
+        d.genres = d.igdb.genres.join(', ');
+      }
+      return d;
+    });
+  }
+
+  async function getData() {
+    let url = '';
+    switch (props.viewWhat) {
+      case 'games':
+        url = 'http://localhost:4001/api/games';
+        break;
+      case 'consoles':
+        url = 'http://localhost:4001/api/consoles';
+        break;
+      case 'accessories':
+        url = 'http://localhost:4001/api/acc';
+        break;
+      case 'clones':
+        url = 'http://localhost:4001/api/clones';
+        break;
+      case 'collectibles':
+        url = 'http://localhost:4001/api/collectibles';
+        break;
     }
+    const data = await axios.get(url);
+    const cleaned = cleanedData(data);
+    data.data = cleaned;
+    setData(data);
   }
 
   return (
     <section className="library">
-      <SelectButton
-        value={props.viewWhat}
-        onChange={e => (props.setViewWhat ? props.setViewWhat(e.value) : null)}
-        options={viewChoices}
-      ></SelectButton>
+      <div className="button-container">
+        <SelectButton
+          value={props.viewWhat}
+          onChange={e => (props.setViewWhat ? props.setViewWhat(e.value) : null)}
+          options={viewChoices}
+        ></SelectButton>
+      </div>
+      <div className="button-container">
+        <FilterGroup />
+      </div>
       <DatTable data={data.data}></DatTable>
     </section>
   );

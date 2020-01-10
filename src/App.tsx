@@ -5,7 +5,7 @@ import React from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './store';
-import Navbar from './Navbar';
+import Navbar from './components/navbar/Navbar';
 import { Router } from '@reach/router';
 import Home from './Home';
 import Decider from './Decider';

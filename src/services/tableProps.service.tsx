@@ -4,7 +4,7 @@ export default function(view: string) {
     { field: 'igdb.name', header: 'Name', sortable: true },
     { field: 'consoleName', header: 'Console', sortable: true },
     { field: 'multiplayerNumber', header: 'Players', sortable: true },
-    { field: 'igdb.firstReleaseDate', header: 'Release Date' },
+    { field: 'igdb.first_release_date', header: 'Release Date' },
     { field: 'datePurchased', header: 'Purchase Date' },
     { field: 'genres', header: 'Genres' },
     { field: 'howAcquired', header: 'How Acquired' },
@@ -37,6 +37,44 @@ export default function(view: string) {
         { field: 'forConsoleName', header: 'Console', sortable: true },
         { field: 'type', header: 'Type', sortable: true },
         { field: 'quantity', header: 'quantity' },
+        { field: 'purchaseDate', header: 'Purchase Date' },
+        { field: 'pricePaid', header: 'Purchase Price' },
+        { field: 'howAcquired', header: 'How Acquired', sortable: true }
+      ];
+      break;
+    case 'clones':
+      cols = [
+        { field: 'image', header: 'Image' },
+        { field: 'name', header: 'Name', sortable: true },
+        { field: 'company', header: 'Company', sortable: true },
+        { field: 'wireless', header: 'Wireless', sortable: true },
+        { field: 'gamesIncludedAmount', header: 'Original Games', sortable: true },
+        { field: 'gamesAddedNumber', header: 'Games Added', sortable: true },
+        { field: 'hacked', header: 'Hacked', sortable: true },
+        { field: 'datePurchased', header: 'Purchase Date' },
+        { field: 'pricePaid', header: 'Purchase Price' }
+      ];
+      break;
+    case 'collectibles':
+      cols = [
+        { field: 'image', header: 'Image' },
+        { field: 'Name', header: 'Name', sortable: true },
+        { field: 'company', header: 'Company', sortable: true },
+        { field: 'type', header: 'Type', sortable: true },
+        { field: 'quantity', header: 'Quantity' },
+        { field: 'officialLicensed', header: 'Official', sortable: true },
+        { field: 'purchaseDate', header: 'Purchase Date' },
+        { field: 'pricePaid', header: 'Purchase Price' },
+        { field: 'howAcquired', header: 'How Acquired', sortable: true }
+      ];
+      break;
+    case 'hardware':
+      cols = [
+        { field: 'image', header: 'Image' },
+        { field: 'name', header: 'Name', sortable: true },
+        { field: 'type', header: 'Type', sortable: true },
+        { field: 'company', header: 'Company', sortable: true },
+        { field: 'quantity', header: 'Quantity' },
         { field: 'purchaseDate', header: 'Purchase Date' },
         { field: 'pricePaid', header: 'Purchase Price' },
         { field: 'howAcquired', header: 'How Acquired', sortable: true }

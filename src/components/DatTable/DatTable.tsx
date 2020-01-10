@@ -2,8 +2,8 @@ import React, { Component, CSSProperties } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { connect } from 'react-redux';
-import ErrorBoundary from './ErrorBoundary';
-import tableProps from './tableProps.service';
+import ErrorBoundary from '../ErrorBoundary';
+import tableProps from '../../services/tableProps.service';
 import get from 'lodash/get';
 
 interface IProps {
@@ -54,7 +54,7 @@ class TheTable extends Component<IProps, IState> {
     });
     return (
       <div className="data-table-container">
-        <DataTable value={this.props.data} paginator={true} rows={10}>
+        <DataTable value={this.props.data} paginator={true} rows={10} style={{ height: '50%' }}>
           {dynamicColumns}
         </DataTable>
       </div>

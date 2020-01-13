@@ -1,13 +1,22 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import { Link } from '@reach/router';
 
 const Navbar: FunctionComponent = () => {
+  const [active, setActive] = useState('Home');
   return (
     <header className="navbar">
-      <Link to="/">Home</Link>
-      <Link to="/library">Library</Link>
-      <Link to="/decider">Decider</Link>
-      <Link to="/lists">Lists</Link>
+      <Link to="/" className={active === 'Home' ? 'active' : ''}>
+        Home
+      </Link>
+      <Link to="/library" className={active === 'library' ? 'active' : ''}>
+        Library
+      </Link>
+      <Link to="/decider" className={active === 'decider' ? 'active' : ''}>
+        Decider
+      </Link>
+      <Link to="/lists" className={active === 'lists' ? 'active' : ''}>
+        Lists
+      </Link>
     </header>
   );
 };

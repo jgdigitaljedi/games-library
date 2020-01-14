@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, FormEvent } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { connect, useSelector } from 'react-redux';
@@ -26,8 +26,17 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   }
 
   const debounceFiltering = debounce(val => {
-    console.log('debounce');
+    console.log('debounce', val);
   }, 500);
+
+  const handleChange = (e: FormEvent<any>) => {
+    const target = e.target as HTMLInputElement;
+    setFilterStr(target.value);
+    // debounceFiltering(target.value);
+    // return debounce(() => {
+    //   return console.log('debounce', target);
+    // }, 500);
+  };
 
   return (
     <div className="filter-group">
@@ -38,11 +47,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
       />
       <InputText
         value={filterStr}
-        onChange={e => {
-          const target = e.target as HTMLInputElement;
-          setFilterStr(target.value);
-          debounceFiltering(target.value);
-        }}
+        onChange={handleChange && debounceFiltering}
         placeholder="Filter String"
         disabled={!selectedFilter || !selectedFilter.length}
       />

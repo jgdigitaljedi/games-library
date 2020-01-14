@@ -73,6 +73,9 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       case 'collectibles':
         url = 'http://localhost:4001/api/collectibles';
         break;
+      case 'hardware':
+        url = 'http://localhost:4001/api/hardware';
+        break;
     }
     const data = await axios.get(url);
     const cleaned = cleanedData(data);
@@ -85,7 +88,13 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       <div className="button-container">
         <SelectButton
           value={props.viewWhat}
-          onChange={e => (props.setViewWhat ? props.setViewWhat(e.value) : null)}
+          onChange={e =>
+            props.setViewWhat
+              ? e.value
+                ? props.setViewWhat(e.value)
+                : props.setViewWhat('games')
+              : null
+          }
           options={viewChoices}
         ></SelectButton>
       </div>

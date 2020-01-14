@@ -6,8 +6,12 @@
   a {
     margin: auto $gutter;
     font-size: 2rem;
-    font-weight: bold;
+    // font-weight: bold;
     font-family: $secondary-font;
     text-transform: uppercase;
+    &.active {
+      color: darken($warn, 15%);
+      font-weight: bold;
+    }
   }
 }

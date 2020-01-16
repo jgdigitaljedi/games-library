@@ -9,7 +9,9 @@ interface MapStateProps {
   viewWhat: string;
 }
 
-interface IProps extends MapStateProps {}
+interface IProps extends MapStateProps {
+  filterCallback: Function;
+}
 
 const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   const viewWhat = useSelector((state: any) => state.viewWhat);
@@ -26,8 +28,8 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   }
 
   const debounceFiltering = useCallback(
-    debounce((value: string) => {
-      console.log('value', value);
+    debounce((value: string, sf: any) => {
+      props.filterCallback(value, sf);
     }, 500),
     []
   );
@@ -35,7 +37,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   const handleChange = (e: FormEvent<any>) => {
     const target = e.target as HTMLInputElement;
     setFilterStr(target.value);
-    debounceFiltering(target.value);
+    debounceFiltering(target.value, selectedFilter);
   };
 
   return (

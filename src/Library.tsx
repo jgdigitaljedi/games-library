@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, SetStateAction } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import DatTable from './components/DatTable/DatTable';
 import { SelectButton } from 'primereact/selectbutton';
@@ -6,6 +6,7 @@ import changeViewWhat from './actionCreators/viewWhat';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
+import get from 'lodash/get';
 import FilterGroup from './components/filterGroup/FilterGroup';
 
 interface IInputOptions {
@@ -21,16 +22,21 @@ interface MapDispatchProps {
   setViewWhat: (viewWhat: string) => void;
 }
 
+interface IData {
+  data: any[];
+}
 interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
-  const [view, setView] = useState('');
   const viewWhat = useSelector((state: any) => state.viewWhat);
+  const [view, setView]: [string, any] = useState('');
+  const [data, setData]: [IData, any] = useState({ data: [{}] });
+  const [ogData, setOgData]: [any[], any] = useState([]);
+  console.log('viewWhat', viewWhat);
   if (view !== viewWhat) {
     setView(viewWhat);
     getData();
   }
-  const [data, setData] = useState({ data: [] });
   const viewChoices: IInputOptions[] = [
     { label: 'Games', value: 'games' },
     { label: 'Consoles', value: 'consoles' },
@@ -55,6 +61,19 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     });
   }
 
+  function filterCallback(value: string, selectedFilter: any): void {
+    console.log('value from cb', value);
+    console.log('sf from cb', selectedFilter);
+    console.log('data', data);
+    if (value) {
+      const filteredData = ogData.filter((d: any) => {
+        console.log('d', d);
+        return d;
+        // get(d, selectedFilter).toLowerCase().indexOf(value)
+      });
+    }
+  }
+
   async function getData() {
     let url = '';
     switch (props.viewWhat) {
@@ -77,10 +96,13 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         url = 'http://localhost:4001/api/hardware';
         break;
     }
-    const data = await axios.get(url);
-    const cleaned = cleanedData(data);
-    data.data = cleaned;
-    setData(data);
+    const result = await axios.get(url);
+    const cleaned = cleanedData(result);
+    console.log('cleaned', cleaned);
+    setOgData(cleaned);
+    // result.data = cleaned;
+    setData({ data: cleaned });
+    console.log('ogData', ogData);
   }
 
   return (
@@ -99,7 +121,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         ></SelectButton>
       </div>
       <div className="button-container">
-        <FilterGroup />
+        <FilterGroup filterCallback={filterCallback} />
       </div>
       <DatTable data={data.data}></DatTable>
     </section>

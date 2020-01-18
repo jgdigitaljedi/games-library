@@ -36,12 +36,14 @@ class TheTable extends Component<IProps, IState> {
     this._getCols();
   }
 
-  public render() {
+  public componentDidUpdate() {
     if (this.state.viewWhat !== this.props.viewWhat) {
       this._getCols();
       this.setState({ viewWhat: this.props.viewWhat || '' });
     }
+  }
 
+  public render() {
     const colProps = this.state.cols || [{ field: '', header: '' }];
 
     let dynamicColumns = colProps.map((col, i) => {

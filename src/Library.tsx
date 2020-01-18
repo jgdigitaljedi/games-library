@@ -35,10 +35,8 @@ interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat = useSelector((state: any) => state.viewWhat);
-  // const masterData = useSelector((state: any) => state.masterData);
   const filteredData = useSelector((state: any) => state.filteredData);
   const [view, setView]: [string, any] = useState('');
-  const [data, setData]: [IData, any] = useState({ data: [{}] });
 
   if (view !== viewWhat) {
     setView(viewWhat);
@@ -55,12 +53,12 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   function cleanedData(data: any): any[] {
     return data.data.map((d: any) => {
-      // const keys = Object.keys(d);
-      // keys.forEach((key: string) => {
-      //   if (typeof d[key] === 'boolean') {
-      //     d[key] = d[key].toString();
-      //   }
-      // });
+      const keys = Object.keys(d);
+      keys.forEach((key: string) => {
+        if (typeof d[key] === 'boolean') {
+          d[key] = d[key].toString();
+        }
+      });
       if (props.viewWhat === 'games') {
         d.genres = d.igdb.genres.join(', ');
       }
@@ -92,7 +90,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     }
     const result = await axios.get(url);
     const cleaned = cleanedData(result);
-    setData({ data: cleaned });
     if (props && props.setMasterData && props.setFilteredData) {
       props.setMasterData(cleaned);
       props.setFilteredData(cleaned);

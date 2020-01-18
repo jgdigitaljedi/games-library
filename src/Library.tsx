@@ -1,12 +1,14 @@
-import React, { FunctionComponent, useState, SetStateAction } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import DatTable from './components/DatTable/DatTable';
 import { SelectButton } from 'primereact/selectbutton';
 import changeViewWhat from './actionCreators/viewWhat';
+import changeMasterData from './actionCreators/masterData';
+import changeFilteredData from './actionCreators/filteredData';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
-import get from 'lodash/get';
+// import get from 'lodash/get';
 import FilterGroup from './components/filterGroup/FilterGroup';
 
 interface IInputOptions {
@@ -16,10 +18,14 @@ interface IInputOptions {
 
 interface MapStateProps {
   viewWhat: string;
+  masterData: object[];
+  filteredData: object[];
 }
 
 interface MapDispatchProps {
   setViewWhat: (viewWhat: string) => void;
+  setMasterData: (masterData: object[]) => void;
+  setFilteredData: (filteredData: object[]) => void;
 }
 
 interface IData {
@@ -29,10 +35,11 @@ interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat = useSelector((state: any) => state.viewWhat);
+  // const masterData = useSelector((state: any) => state.masterData);
+  const filteredData = useSelector((state: any) => state.filteredData);
   const [view, setView]: [string, any] = useState('');
   const [data, setData]: [IData, any] = useState({ data: [{}] });
-  const [ogData, setOgData]: [any[], any] = useState([]);
-  console.log('viewWhat', viewWhat);
+
   if (view !== viewWhat) {
     setView(viewWhat);
     getData();
@@ -48,30 +55,17 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   function cleanedData(data: any): any[] {
     return data.data.map((d: any) => {
-      const keys = Object.keys(d);
-      keys.forEach((key: string) => {
-        if (typeof d[key] === 'boolean') {
-          d[key] = d[key].toString();
-        }
-      });
+      // const keys = Object.keys(d);
+      // keys.forEach((key: string) => {
+      //   if (typeof d[key] === 'boolean') {
+      //     d[key] = d[key].toString();
+      //   }
+      // });
       if (props.viewWhat === 'games') {
         d.genres = d.igdb.genres.join(', ');
       }
       return d;
     });
-  }
-
-  function filterCallback(value: string, selectedFilter: any): void {
-    console.log('value from cb', value);
-    console.log('sf from cb', selectedFilter);
-    console.log('data', data);
-    if (value) {
-      const filteredData = ogData.filter((d: any) => {
-        console.log('d', d);
-        return d;
-        // get(d, selectedFilter).toLowerCase().indexOf(value)
-      });
-    }
   }
 
   async function getData() {
@@ -98,11 +92,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     }
     const result = await axios.get(url);
     const cleaned = cleanedData(result);
-    console.log('cleaned', cleaned);
-    setOgData(cleaned);
-    // result.data = cleaned;
     setData({ data: cleaned });
-    console.log('ogData', ogData);
+    if (props && props.setMasterData && props.setFilteredData) {
+      props.setMasterData(cleaned);
+      props.setFilteredData(cleaned);
+    }
   }
 
   return (
@@ -121,21 +115,33 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         ></SelectButton>
       </div>
       <div className="button-container">
-        <FilterGroup filterCallback={filterCallback} />
+        <FilterGroup />
       </div>
-      <DatTable data={data.data}></DatTable>
+      <DatTable data={filteredData}></DatTable>
     </section>
   );
 };
 
-const mapStateToProps = ({ viewWhat }: { viewWhat: string }): MapStateProps => {
+const mapStateToProps = ({
+  viewWhat,
+  masterData,
+  filteredData
+}: {
+  viewWhat: string;
+  masterData: object[];
+  filteredData: object[];
+}): MapStateProps => {
   return {
-    viewWhat
+    viewWhat,
+    masterData,
+    filteredData
   };
 };
 
 const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
-  setViewWhat: (viewWhat: string) => dispatch(changeViewWhat(viewWhat))
+  setViewWhat: (viewWhat: string) => dispatch(changeViewWhat(viewWhat)),
+  setMasterData: (masterData: object[]) => dispatch(changeMasterData(masterData)),
+  setFilteredData: (filteredData: object[]) => dispatch(changeFilteredData(filteredData))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Library);

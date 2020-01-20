@@ -56,7 +56,14 @@ class TheTable extends Component<IProps, IState> {
     });
     return (
       <div className="data-table-container">
-        <DataTable value={this.props.data} paginator={true} rows={10} style={{ height: '50%' }}>
+        <DataTable
+          value={this.props.data}
+          paginator={true}
+          rows={20}
+          pageLinkSize={10}
+          responsive={true}
+          scrollable={true}
+        >
           {dynamicColumns}
         </DataTable>
       </div>
@@ -65,8 +72,8 @@ class TheTable extends Component<IProps, IState> {
 
   private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {
     const imageStyle = {
-      maxWidth: '6rem',
-      maxHeight: '6rem',
+      maxWidth: '5rem',
+      maxHeight: '5rem',
       height: 'auto',
       width: 'auto'
     } as CSSProperties;

@@ -1,4 +1,10 @@
+@import '../../style/theme.scss';
 .data-table-container {
   height: 100%;
   display: flex;
+  .p-datatable-scrollable-wrapper {
+    height: calc(100vh - 242px);
+    overflow-y: scroll;
+    background-color: $black;
+  }
 }

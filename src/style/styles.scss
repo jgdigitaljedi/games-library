@@ -45,5 +45,11 @@ html {
         color: $warn;
       }
     }
+    .p-button-text,
+    .p-dropdown-label,
+    .p-dropdown-item,
+    .p-inputtext {
+      font-family: $primary-font;
+    }
   }
 }

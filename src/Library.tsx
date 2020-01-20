@@ -5,11 +5,10 @@ import { SelectButton } from 'primereact/selectbutton';
 import changeViewWhat from './actionCreators/viewWhat';
 import changeMasterData from './actionCreators/masterData';
 import changeFilteredData from './actionCreators/filteredData';
+import FilterGroup from './components/filterGroup/FilterGroup';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
-// import get from 'lodash/get';
-import FilterGroup from './components/filterGroup/FilterGroup';
 
 interface IInputOptions {
   label: string;

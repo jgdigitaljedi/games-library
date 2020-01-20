@@ -7,6 +7,7 @@ export default function(view: string) {
     { field: 'igdb.first_release_date', header: 'Release Date' },
     { field: 'datePurchased', header: 'Purchase Date', sortable: true },
     { field: 'genres', header: 'Genres' },
+    { field: 'igdb.esrb', header: 'ESRB', sortable: true },
     { field: 'howAcquired', header: 'How Acquired' },
     { field: 'igdb.total_rating', header: 'Rating', sortable: true },
     { field: 'howAcquired', header: 'How Acquired', sortable: true }
@@ -22,6 +23,8 @@ export default function(view: string) {
         { field: 'igdb.name', header: 'Name', sortable: true },
         { field: 'gb.company', header: 'Company', sortable: true },
         { field: 'igdb.generation', header: 'Gen', sortable: true },
+        { field: 'gb.original_price', header: 'Original Price', sortable: true },
+        { field: 'gb.install_base', header: 'Units Sold' },
         { field: 'condition', header: 'Condition', sortable: true },
         { field: 'box', header: 'box', sortable: true },
         { field: 'datePurchased', header: 'Purchase Date', sortable: true },

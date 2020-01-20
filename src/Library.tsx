@@ -27,9 +27,6 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IData {
-  data: any[];
-}
 interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
@@ -60,6 +57,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       });
       if (props.viewWhat === 'games') {
         d.genres = d.igdb.genres.join(', ');
+      } else if (props.viewWhat === 'consoles') {
+        d.gb.install_base =
+          typeof d.gb.install_base === 'number'
+            ? d.gb.install_base.toLocaleString()
+            : parseInt(d.gb.install_base).toLocaleString();
       }
       return d;
     });

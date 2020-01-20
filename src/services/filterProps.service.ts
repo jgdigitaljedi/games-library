@@ -6,7 +6,8 @@ export default function(view: string) {
         { label: 'Console', value: 'consoleName' },
         { label: '# Players', value: 'multilayerNumber' },
         { value: 'genres', label: 'Genres' },
-        { value: 'howAcquired', label: 'How Acquired' }
+        { value: 'howAcquired', label: 'How Acquired' },
+        { value: 'igdb.esrb', label: 'ESRB Rating' }
       ];
     case 'consoles':
       return [

@@ -4,7 +4,7 @@ export default function(view: string) {
     { field: 'igdb.name', header: 'Name', sortable: true },
     { field: 'consoleName', header: 'Console', sortable: true },
     { field: 'multiplayerNumber', header: 'Players', sortable: true },
-    { field: 'igdb.first_release_date', header: 'Release Date' },
+    { field: 'igdb.first_release_date', header: 'Release Date', sortable: true },
     { field: 'datePurchased', header: 'Purchase Date', sortable: true },
     { field: 'genres', header: 'Genres' },
     { field: 'igdb.esrb', header: 'ESRB', sortable: true },
@@ -61,7 +61,7 @@ export default function(view: string) {
     case 'collectibles':
       cols = [
         { field: 'image', header: 'Image' },
-        { field: 'Name', header: 'Name', sortable: true },
+        { field: 'name', header: 'Name', sortable: true },
         { field: 'company', header: 'Company', sortable: true },
         { field: 'type', header: 'Type', sortable: true },
         { field: 'quantity', header: 'Quantity' },

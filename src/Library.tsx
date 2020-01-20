@@ -47,26 +47,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     { label: 'Hardware', value: 'hardware' }
   ];
 
-  function cleanedData(data: any): any[] {
-    return data.data.map((d: any) => {
-      const keys = Object.keys(d);
-      keys.forEach((key: string) => {
-        if (typeof d[key] === 'boolean') {
-          d[key] = d[key].toString();
-        }
-      });
-      if (props.viewWhat === 'games') {
-        d.genres = d.igdb.genres.join(', ');
-      } else if (props.viewWhat === 'consoles') {
-        d.gb.install_base =
-          typeof d.gb.install_base === 'number'
-            ? d.gb.install_base.toLocaleString()
-            : parseInt(d.gb.install_base).toLocaleString();
-      }
-      return d;
-    });
-  }
-
   async function getData() {
     let url = '';
     switch (props.viewWhat) {
@@ -90,10 +70,9 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         break;
     }
     const result = await axios.get(url);
-    const cleaned = cleanedData(result);
     if (props && props.setMasterData && props.setFilteredData) {
-      props.setMasterData(cleaned);
-      props.setFilteredData(cleaned);
+      props.setMasterData(result.data);
+      props.setFilteredData(result.data);
     }
   }
 

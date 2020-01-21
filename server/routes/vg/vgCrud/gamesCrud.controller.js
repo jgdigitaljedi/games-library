@@ -36,7 +36,7 @@ module.exports.save = function(game) {
 module.exports.getGames = function() {
   return db.games.find().map(g => {
     g.genres = g.igdb.genres.join(', ');
-    g.igdb.first_release_date = moment(g.igdb.first_release_date).format('YYYY-MM-DD');
+    g.igdb.first_release_date = moment(new Date(g.igdb.first_release_date)).format('YYYY-MM-DD');
     // g.datePurchased = moment(g.datePurchased).format('MM-DD-YYYY');
     return g;
   });

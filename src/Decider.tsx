@@ -1,17 +1,17 @@
-import React, { FunctionComponent, useState, useEffect } from 'react';
+import React, { FunctionComponent, useState, useEffect, FormEvent, useCallback } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import { InputText } from 'primereact/inputtext';
-import { RadioButton } from 'primereact/radiobutton';
 import axios from 'axios';
 import { Dropdown } from 'primereact/dropdown';
 import flatten from 'lodash/flatten';
+import cloneDeep from 'lodash/cloneDeep';
+import { filters } from './services/deciderFiltering.service';
+import debounce from 'lodash/debounce';
 
 interface IFormState {
   name: string;
   players: number;
-  wireless: number;
   // location: string | null;
-  hd: number;
   genre: string;
   esrb: string;
 }
@@ -20,9 +20,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [formState, setFormState]: [IFormState, any] = useState({
     name: '',
     players: 0,
-    wireless: 0,
     // location: null,
-    hd: 0,
     genre: '',
     esrb: ''
   });
@@ -30,6 +28,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [data, setData]: [any[], any] = useState([{}]);
   const [genreArray, setGenreArray]: [string[], any] = useState([]);
   const [esrbArray, setEsrbArray]: [string[], any] = useState([]);
+  const [nameStr, setNameStr]: [string, any] = useState('');
 
   async function getData() {
     const result = await axios.get('http://localhost:4001/api/games');
@@ -81,29 +80,62 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
           return { label: g, value: g };
         });
       setEsrbArray(newRatings);
-      console.log('esrb', esrbArray);
     }
   }
 
-  function filterResults() {
-    // getGenreArray();
-    // getEsrbArray();
+  function checkForReset() {
+    const keys = Object.entries(formState);
+    return keys.filter(([key, value]) => value && value !== '').length === 0;
   }
+
+  function filterResults() {
+    if (checkForReset()) {
+      setData(masterData);
+      return;
+    }
+    console.log('formState', formState);
+    let newData = cloneDeep(masterData);
+    if (formState.name !== '') {
+      newData = filters.filterName([...newData], formState.name);
+    }
+    if (formState.players !== 0) {
+      newData = filters.filterPlayers([...newData], formState.players);
+    }
+    if (formState.genre !== '') {
+      newData = filters.filterGenre([...newData], formState.genre);
+    }
+    if (formState.esrb !== '') {
+      newData = filters.filterEsrb([...newData], formState.esrb);
+    }
+    setData(newData);
+    console.log('data', data);
+    getGenreArray();
+    getEsrbArray();
+  }
+
+  const debounceFiltering = useCallback(
+    debounce((value: string): void => {
+      const fsCopy = Object.assign({}, formState);
+      fsCopy.name = value;
+      setFormState(fsCopy);
+      filterResults();
+      console.log('value', value);
+    }, 500),
+    [formState]
+  );
+
+  const handleChange = (e: FormEvent<any>): void => {
+    const target = e.target as HTMLInputElement;
+    setNameStr(target.value);
+    debounceFiltering(target.value);
+  };
 
   return (
     <section className="decider">
       <form className="decider--form">
         <div className="decider--form__input-group">
           <label htmlFor="name">Name</label>
-          <InputText
-            id="name"
-            value={formState.name || ''}
-            onChange={e => {
-              const target = e.target as HTMLInputElement;
-              setFormState({ name: target.value });
-              filterResults();
-            }}
-          />
+          <InputText id="name" value={nameStr} onChange={handleChange} />
         </div>
         <div className="decider--form__input-group">
           <label htmlFor="players">Min # Players</label>
@@ -113,57 +145,12 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
             value={formState.players || ''}
             onChange={e => {
               const target = e.target as HTMLInputElement;
-              setFormState({ players: target.value });
+              const fsCopy = Object.assign({}, formState);
+              fsCopy.players = target.value ? parseInt(target.value) : 0;
+              setFormState(fsCopy);
               filterResults();
             }}
           />
-        </div>
-        <div className="decider--form__input-group stack">
-          <div>
-            <RadioButton
-              inputId="wireless"
-              name="wireless"
-              value={1}
-              onChange={e => {
-                setFormState({ wireless: 1 });
-                filterResults();
-              }}
-              checked={formState.wireless === 1}
-            />
-            <label htmlFor="wireless" className="p-radiobutton-label">
-              Wireless Controllers
-            </label>
-          </div>
-          <div>
-            <RadioButton
-              inputId="wired"
-              name="wired"
-              value={2}
-              onChange={e => {
-                setFormState({ wireless: 2 });
-                filterResults();
-              }}
-              checked={formState.wireless === 2}
-            />
-            <label htmlFor="wired" className="p-radiobutton-label">
-              Wired Controllers
-            </label>
-          </div>
-          <div>
-            <RadioButton
-              inputId="nomatter"
-              name="nomatter"
-              value={0}
-              onChange={e => {
-                setFormState({ wireless: 0 });
-                filterResults();
-              }}
-              checked={formState.wireless === 0}
-            />
-            <label htmlFor="nomatter" className="p-radiobutton-label">
-              No Preference
-            </label>
-          </div>
         </div>
         <div className="decider--form__input-group">
           <label htmlFor="genre">Genre</label>
@@ -172,7 +159,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
             name="genre"
             value={formState.genre || ''}
             onChange={e => {
-              setFormState({ genre: e.value });
+              const fsCopy = Object.assign({}, formState);
+              fsCopy.genre = e.value;
+              setFormState(fsCopy);
               filterResults();
             }}
             options={genreArray || []}
@@ -185,7 +174,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
             name="esrb"
             value={formState.esrb || ''}
             onChange={e => {
-              setFormState({ esrb: e.value });
+              const fsCopy = Object.assign({}, formState);
+              fsCopy.esrb = e.value;
+              setFormState(fsCopy);
               filterResults();
             }}
             options={esrbArray || []}

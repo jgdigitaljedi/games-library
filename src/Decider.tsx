@@ -11,23 +11,28 @@ import debounce from 'lodash/debounce';
 interface IFormState {
   name: string;
   players: number;
-  // location: string | null;
   genre: string;
   esrb: string;
+}
+
+interface IDropdown {
+  label: string;
+  value: string;
 }
 
 const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [formState, setFormState]: [IFormState, any] = useState({
     name: '',
     players: 0,
-    // location: null,
     genre: '',
     esrb: ''
   });
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
-  const [genreArray, setGenreArray]: [string[], any] = useState([]);
-  const [esrbArray, setEsrbArray]: [string[], any] = useState([]);
+  const [genreArray, setGenreArray]: [IDropdown[], any] = useState([
+    { label: 'NOT SET', value: '' }
+  ]);
+  const [esrbArray, setEsrbArray]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr]: [string, any] = useState('');
 
   async function getData() {
@@ -60,6 +65,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         .map((g: string) => {
           return { label: g, value: g };
         });
+      newGenres.unshift({ label: 'NOT SET', value: '' });
       setGenreArray(newGenres);
     }
   }
@@ -79,6 +85,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         .map((g: string) => {
           return { label: g, value: g };
         });
+      newRatings.unshift({ label: 'NOT SET', value: '' });
       setEsrbArray(newRatings);
     }
   }
@@ -159,8 +166,10 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
             name="genre"
             value={formState.genre || ''}
             onChange={e => {
-              const fsCopy = Object.assign({}, formState);
+              console.log('e', e);
+              const fsCopy = cloneDeep(formState);
               fsCopy.genre = e.value;
+              console.log('target.value', e.value);
               setFormState(fsCopy);
               filterResults();
             }}

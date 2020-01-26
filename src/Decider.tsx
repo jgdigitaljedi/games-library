@@ -7,6 +7,7 @@ import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import { filters } from './services/deciderFiltering.service';
 import debounce from 'lodash/debounce';
+import GameCard from './components/GameCard/GameCard';
 
 interface IFormState {
   name: string;
@@ -93,11 +94,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       setData(masterData);
       return;
     }
-    console.log('formState', formState);
     let newData = cloneDeep(masterData);
     if (formState.name !== '') {
       newData = filters.filterName([...newData], formState.name);
-      console.log('newData', newData);
     }
     if (formState.players !== 0) {
       newData = filters.filterPlayers([...newData], formState.players);
@@ -196,7 +195,14 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
           />
         </div>
       </form>
-      <div className="decider--results"></div>
+      <div className="decider--counter">
+        <h3>{data.length} games</h3>
+      </div>
+      <div className="decider--results">
+        {data.map((d, index) => (
+          <GameCard data={d} key={index} />
+        ))}
+      </div>
     </section>
   );
 };

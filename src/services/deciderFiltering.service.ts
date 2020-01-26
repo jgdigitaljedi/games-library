@@ -13,7 +13,8 @@ export const filters = {
   },
   filterPlayers: (data: object[], players: number): object[] => {
     return data.filter(d => {
-      return get(d, 'multiplayerNumber') >= players;
+      const mpn = get(d, 'multiplayerNumber');
+      return parseInt(mpn) >= players;
     });
   },
   filterEsrb: (data: object[], esrb: string): object[] => {

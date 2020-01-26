@@ -1,0 +1,23 @@
+.game-card {
+  width: 10rem;
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+  cursor: pointer;
+  padding-top: 0;
+  .p-card-body {
+    padding: 0 0.75rem 0.75rem 0.75rem;
+  }
+  .game-card--content {
+    img {
+      width: 10rem;
+      height: 9rem;
+      object-fit: cover;
+    }
+    h5 {
+      text-align: center;
+      word-wrap: break-word;
+    }
+  }
+}

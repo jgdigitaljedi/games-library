@@ -4,9 +4,11 @@ export const filters = {
   filterName: (data: object[], str: string): object[] => {
     const lc = str.toLowerCase();
     return data.filter(d => {
-      return get(d, 'igdb.name')
-        .toLowerCase()
-        .indexOf(lc);
+      return (
+        get(d, 'igdb.name')
+          .toLowerCase()
+          .indexOf(lc) >= 0
+      );
     });
   },
   filterPlayers: (data: object[], players: number): object[] => {

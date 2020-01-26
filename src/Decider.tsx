@@ -42,15 +42,13 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       setMasterData(result.data);
     }
   }
-  useEffect(() => {
-    if (!masterData || masterData.length === 1) {
-      getData();
-      getGenreArray();
-      getEsrbArray();
-    }
-  });
 
-  function getGenreArray() {
+  const checkForReset = useCallback(() => {
+    const keys = Object.entries(formState);
+    return keys.filter(([key, value]) => value && value !== '').length === 0;
+  }, [formState]);
+
+  const getGenreArray = useCallback(() => {
     if (data && data.length > 1) {
       const newGenres = flatten(data.map(d => d.igdb.genres || null).filter((d: string) => d))
         .reduce((acc: string[], g: string) => {
@@ -68,9 +66,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       newGenres.unshift({ label: 'NOT SET', value: '' });
       setGenreArray(newGenres);
     }
-  }
+  }, [data, setGenreArray]);
 
-  function getEsrbArray() {
+  const getEsrbArray = useCallback(() => {
     if (data && data.length > 1) {
       const newRatings = flatten(data.map(d => d.igdb.esrb || null).filter((d: string) => d))
         .reduce((acc: string[], g: string) => {
@@ -88,14 +86,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       newRatings.unshift({ label: 'NOT SET', value: '' });
       setEsrbArray(newRatings);
     }
-  }
+  }, [data, setEsrbArray]);
 
-  function checkForReset() {
-    const keys = Object.entries(formState);
-    return keys.filter(([key, value]) => value && value !== '').length === 0;
-  }
-
-  function filterResults() {
+  const filterResults = useCallback(() => {
     if (checkForReset()) {
       setData(masterData);
       return;
@@ -104,6 +97,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     let newData = cloneDeep(masterData);
     if (formState.name !== '') {
       newData = filters.filterName([...newData], formState.name);
+      console.log('newData', newData);
     }
     if (formState.players !== 0) {
       newData = filters.filterPlayers([...newData], formState.players);
@@ -115,17 +109,30 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       newData = filters.filterEsrb([...newData], formState.esrb);
     }
     setData(newData);
-    console.log('data', data);
+  }, [masterData, checkForReset, formState]);
+
+  useEffect(() => {
+    if (!masterData || masterData.length === 1) {
+      getData();
+      getGenreArray();
+      getEsrbArray();
+    }
+  });
+
+  useEffect(() => {
     getGenreArray();
     getEsrbArray();
-  }
+  }, [data, getGenreArray, getEsrbArray]);
+
+  useEffect(() => {
+    filterResults();
+  }, [formState, filterResults]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {
       const fsCopy = Object.assign({}, formState);
       fsCopy.name = value;
       setFormState(fsCopy);
-      filterResults();
       console.log('value', value);
     }, 500),
     [formState]
@@ -155,7 +162,6 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
               const fsCopy = Object.assign({}, formState);
               fsCopy.players = target.value ? parseInt(target.value) : 0;
               setFormState(fsCopy);
-              filterResults();
             }}
           />
         </div>
@@ -164,14 +170,13 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
           <Dropdown
             id="genre"
             name="genre"
-            value={formState.genre || ''}
+            value={formState.genre}
             onChange={e => {
               console.log('e', e);
               const fsCopy = cloneDeep(formState);
               fsCopy.genre = e.value;
               console.log('target.value', e.value);
               setFormState(fsCopy);
-              filterResults();
             }}
             options={genreArray || []}
           />
@@ -181,12 +186,11 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
           <Dropdown
             id="esrb"
             name="esrb"
-            value={formState.esrb || ''}
+            value={formState.esrb}
             onChange={e => {
               const fsCopy = Object.assign({}, formState);
               fsCopy.esrb = e.value;
               setFormState(fsCopy);
-              filterResults();
             }}
             options={esrbArray || []}
           />

@@ -37,6 +37,7 @@ router.post('/updategame/:id', updateCtrl.updateGame);
 
 // DB Game CRUD
 router.get('/games', vgDbCtrl.getMyGames);
+router.get('/gamescombined', vgDbCtrl.getCombinedGameData);
 router.put('/games', vgDbCtrl.saveGame);
 router.delete('/games/:id', vgDbCtrl.deleteGame);
 router.patch('/games/:id', vgDbCtrl.editGame);

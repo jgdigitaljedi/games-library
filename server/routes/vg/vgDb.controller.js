@@ -7,11 +7,23 @@ const hwCrud = require('./vgCrud/hwCrud.controller');
 const wlCrud = require('./vgCrud/wishlistCrud.controller');
 const logger = require('../../config/logger');
 
+const backwardCompatible = {
+  '7': [
+    { consoleName: 'Sony PlayStation 2', consoleId: 8 },
+    { consoleName: 'Sony PlayStation 3', consoleId: 9 }
+  ],
+  '5': [{ consoleName: 'Nintendo Wii U', consoleId: 41 }]
+};
+
+function bc(id) {
+  return backwardCompatible[id.toString()] || [];
+}
+
 /***********************************************************
  * Games CRUD
  ***********************************************************/
 
-module.exports.saveGame = function (req, res) {
+module.exports.saveGame = function(req, res) {
   if (req.body && req.body.hasOwnProperty('game')) {
     gamesCrud
       .save(req.body.game)
@@ -36,14 +48,44 @@ module.exports.saveGame = function (req, res) {
   }
 };
 
-module.exports.getMyGames = function (req, res) {
+module.exports.getMyGames = function(req, res) {
   const games = gamesCrud.getGames();
   res.status(200).json(games);
 };
 
+module.exports.getCombinedGameData = function(req, res) {
+  const games = gamesCrud.getGames();
+  const indexes = [];
+  const combined = games.reduce((acc, game) => {
+    if (!acc) {
+      acc = [];
+    }
+    if (game && game.igdb && game.igdb.id) {
+      if (indexes.indexOf(game.igdb.id) >= 0) {
+        const ind = indexes.indexOf(game.igdb.id);
+        acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
+        acc[ind].consoleArr.forEach(con => {
+          const bcConsoles = bc(game.consoleIgdbId);
+          bcConsoles.forEach(c => acc[ind].consoleArr.push(c));
+        });
+      } else {
+        indexes.push(game.igdb.id);
+        game.consoleArr = [{ consoleName: game.consoleName, consoleId: game.consoleIgdbId }];
+        const bcConsoles = bc(game.consoleIgdbId);
+        bcConsoles.forEach(c => game.consoleArr.push(c));
+        acc.push(game);
+      }
+    }
+    return acc;
+  }, []);
+  res
+    .status(200)
+    .json(combined.sort((a, b) => new Date(a.datePruchased) < new Date(b.datePurchased)));
+};
+
 // module.exports.searchMyGames = function (req, res) { };
 
-module.exports.deleteGame = function (req, res) {
+module.exports.deleteGame = function(req, res) {
   if (req.params.id) {
     res.status(200).send(gamesCrud.delete(req.params.id));
   } else {
@@ -51,7 +93,7 @@ module.exports.deleteGame = function (req, res) {
   }
 };
 
-module.exports.editGame = function (req, res) {
+module.exports.editGame = function(req, res) {
   if (req.params.id && req.body.platform) {
     gamesCrud
       .edit(req.params.id, req.body.platform)
@@ -72,7 +114,7 @@ module.exports.editGame = function (req, res) {
  * Consoles CRUD
  *********************************************/
 
-module.exports.savePlatform = function (req, res) {
+module.exports.savePlatform = function(req, res) {
   if (req.body && req.body.hasOwnProperty('platform')) {
     consolesCrud
       .save(req.body.platform)
@@ -97,12 +139,12 @@ module.exports.savePlatform = function (req, res) {
   }
 };
 
-module.exports.getMyPlatforms = function (req, res) {
+module.exports.getMyPlatforms = function(req, res) {
   const platforms = consolesCrud.getPlatforms();
   res.status(200).json(platforms);
 };
 
-module.exports.searchMyPlatforms = function (req, res) {
+module.exports.searchMyPlatforms = function(req, res) {
   if (req.body && req.body.hasOwnProperty('key') && req.body.hasOwnProperty('value')) {
     const search = consolesCrud.searchMyPlatforms(req.body.key, req.body.value);
     if (search.error) {
@@ -113,7 +155,7 @@ module.exports.searchMyPlatforms = function (req, res) {
   }
 };
 
-module.exports.deleteConsole = function (req, res) {
+module.exports.deleteConsole = function(req, res) {
   if (req.params.id) {
     res.status(200).send(consolesCrud.delete(req.params.id));
   } else {
@@ -121,7 +163,7 @@ module.exports.deleteConsole = function (req, res) {
   }
 };
 
-module.exports.editConsole = function (req, res) {
+module.exports.editConsole = function(req, res) {
   if (req.params.id && req.body.platform) {
     consolesCrud
       .edit(req.params.id, req.body.platform)
@@ -142,7 +184,7 @@ module.exports.editConsole = function (req, res) {
  * Accessories CRUD
  *********************************************/
 
-module.exports.saveAcc = function (req, res) {
+module.exports.saveAcc = function(req, res) {
   if (req.body && req.body.hasOwnProperty('acc')) {
     accCrud
       .save(req.body.acc)
@@ -167,12 +209,12 @@ module.exports.saveAcc = function (req, res) {
   }
 };
 
-module.exports.getMyAcc = function (req, res) {
+module.exports.getMyAcc = function(req, res) {
   const acc = accCrud.getAcc();
   res.status(200).json(acc);
 };
 
-module.exports.deleteAcc = function (req, res) {
+module.exports.deleteAcc = function(req, res) {
   if (req.params.id) {
     res.status(200).send(accCrud.delete(req.params.id));
   } else {
@@ -180,7 +222,7 @@ module.exports.deleteAcc = function (req, res) {
   }
 };
 
-module.exports.editAcc = function (req, res) {
+module.exports.editAcc = function(req, res) {
   if (req.params.id && req.body.platform) {
     accCrud
       .edit(req.params.id, req.body.platform)
@@ -201,7 +243,7 @@ module.exports.editAcc = function (req, res) {
  * Collectibles CRUD
  *********************************************/
 
-module.exports.saveColl = function (req, res) {
+module.exports.saveColl = function(req, res) {
   if (req.body && req.body.hasOwnProperty('coll')) {
     collCrud
       .save(req.body.coll)
@@ -226,12 +268,12 @@ module.exports.saveColl = function (req, res) {
   }
 };
 
-module.exports.getMyColl = function (req, res) {
+module.exports.getMyColl = function(req, res) {
   const coll = collCrud.getColl();
   res.status(200).json(coll);
 };
 
-module.exports.deleteColl = function (req, res) {
+module.exports.deleteColl = function(req, res) {
   if (req.params.id) {
     res.status(200).send(collCrud.delete(req.params.id));
   } else {
@@ -239,7 +281,7 @@ module.exports.deleteColl = function (req, res) {
   }
 };
 
-module.exports.editColl = function (req, res) {
+module.exports.editColl = function(req, res) {
   if (req.params.id && req.body.platform) {
     collCrud
       .edit(req.params.id, req.body.platform)
@@ -260,7 +302,7 @@ module.exports.editColl = function (req, res) {
  * Clones CRUD
  *********************************************/
 
-module.exports.saveClone = function (req, res) {
+module.exports.saveClone = function(req, res) {
   if (req.body && req.body.hasOwnProperty('clone')) {
     clonesCrud
       .save(req.body.clone)
@@ -285,12 +327,12 @@ module.exports.saveClone = function (req, res) {
   }
 };
 
-module.exports.getMyClones = function (req, res) {
+module.exports.getMyClones = function(req, res) {
   const coll = clonesCrud.getClones();
   res.status(200).json(coll);
 };
 
-module.exports.deleteClone = function (req, res) {
+module.exports.deleteClone = function(req, res) {
   if (req.params.id) {
     res.status(200).send(clonesCrud.delete(req.params.id));
   } else {
@@ -298,7 +340,7 @@ module.exports.deleteClone = function (req, res) {
   }
 };
 
-module.exports.editClone = function (req, res) {
+module.exports.editClone = function(req, res) {
   if (req.params.id && req.body.platform) {
     clonesCrud
       .edit(req.params.id, req.body.platform)
@@ -319,7 +361,7 @@ module.exports.editClone = function (req, res) {
  * Hardware CRUD
  *********************************************/
 
-module.exports.saveHardware = function (req, res) {
+module.exports.saveHardware = function(req, res) {
   if (req.body && req.body.hasOwnProperty('hw')) {
     hwCrud
       .save(req.body.hw)
@@ -344,12 +386,12 @@ module.exports.saveHardware = function (req, res) {
   }
 };
 
-module.exports.getMyHardware = function (req, res) {
+module.exports.getMyHardware = function(req, res) {
   const hw = hwCrud.getHw();
   res.status(200).json(hw);
 };
 
-module.exports.deleteHardware = function (req, res) {
+module.exports.deleteHardware = function(req, res) {
   if (req.params.id) {
     res.status(200).send(hwCrud.delete(req.params.id));
   } else {
@@ -357,7 +399,7 @@ module.exports.deleteHardware = function (req, res) {
   }
 };
 
-module.exports.editHardware = function (req, res) {
+module.exports.editHardware = function(req, res) {
   if (req.params.id && req.body.platform) {
     hwCrud
       .edit(req.params.id, req.body.platform)
@@ -374,12 +416,11 @@ module.exports.editHardware = function (req, res) {
   }
 };
 
-
 /*********************************************
  * Wishlist CRUD
  *********************************************/
 
-module.exports.saveWishlist = function (req, res) {
+module.exports.saveWishlist = function(req, res) {
   if (req.body && req.body.hasOwnProperty('wl') && req.params.hasOwnProperty('which')) {
     const which = req.params.which;
     wlCrud
@@ -405,7 +446,7 @@ module.exports.saveWishlist = function (req, res) {
   }
 };
 
-module.exports.getMyWishlist = function (req, res) {
+module.exports.getMyWishlist = function(req, res) {
   if (req.params && req.params.hasOwnProperty('which')) {
     const wl = wlCrud.getWl(req.params.which);
     res.status(200).json(wl);
@@ -414,7 +455,7 @@ module.exports.getMyWishlist = function (req, res) {
   }
 };
 
-module.exports.deleteWishlist = function (req, res) {
+module.exports.deleteWishlist = function(req, res) {
   if (req.params.id && req.params.which) {
     res.status(200).send(wlCrud.delete(req.params.which, req.params.id));
   } else {
@@ -422,7 +463,7 @@ module.exports.deleteWishlist = function (req, res) {
   }
 };
 
-module.exports.editWishlist = function (req, res) {
+module.exports.editWishlist = function(req, res) {
   if (req.params.id && req.body.platform && req.params.hasOwnProperty('which')) {
     wlCrud
       .edit(req.params.which, req.params.id, req.body.platform)

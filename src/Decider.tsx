@@ -37,7 +37,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [nameStr, setNameStr]: [string, any] = useState('');
 
   async function getData() {
-    const result = await axios.get('http://localhost:4001/api/games');
+    const result = await axios.get('http://localhost:4001/api/gamescombined');
     if (result && result.data) {
       setData(result.data);
       setMasterData(result.data);
@@ -132,7 +132,6 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       const fsCopy = Object.assign({}, formState);
       fsCopy.name = value;
       setFormState(fsCopy);
-      console.log('value', value);
     }, 500),
     [formState]
   );
@@ -171,10 +170,8 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
             name="genre"
             value={formState.genre}
             onChange={e => {
-              console.log('e', e);
               const fsCopy = cloneDeep(formState);
               fsCopy.genre = e.value;
-              console.log('target.value', e.value);
               setFormState(fsCopy);
             }}
             options={genreArray || []}

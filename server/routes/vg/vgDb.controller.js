@@ -6,13 +6,27 @@ const clonesCrud = require('./vgCrud/clonesCrud.controller');
 const hwCrud = require('./vgCrud/hwCrud.controller');
 const wlCrud = require('./vgCrud/wishlistCrud.controller');
 const logger = require('../../config/logger');
+const xb360ToOne = require('../../xboxBc/Xbox360ToXboxOne.json');
+const xboxTo360 = require('../../xboxBc/XboxToXbox360.json');
+const xboxToOne = require('../../xboxBc/XboxToXboxOne.json');
 
 const backwardCompatible = {
   '7': [
     { consoleName: 'Sony PlayStation 2', consoleId: 8 },
     { consoleName: 'Sony PlayStation 3', consoleId: 9 }
   ],
-  '5': [{ consoleName: 'Nintendo Wii U', consoleId: 41 }]
+  '5': [{ consoleName: 'Nintendo Wii U', consoleId: 41 }],
+  '24': [{ consoleName: 'Nintendo DS Lite', consoleId: 20 }],
+  '22': [{ consoleName: 'Nintendo Game Boy Advance', consoleId: 24 }],
+  '33': [
+    { consoleName: 'Nintendo Game Boy Advance', consoleId: 24 },
+    { consoleName: 'Nintendo Game Boy Color', consoleId: 22 }
+  ]
+};
+
+const chexBox = {
+  '12': [xb360ToOne],
+  '11': [xboxTo360, xboxToOne]
 };
 
 function bc(id) {

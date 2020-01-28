@@ -12,7 +12,10 @@ const GameCard: FunctionComponent<any> = props => {
       {props && props.data && props.data.igdb ? (
         // <div className="game-card--content" onClick={() => cardClicked(props.data)}>
         <div className="game-card--content" onClick={() => props.cardClicked(props.data)}>
-          <img src={props.data.gb.image || ''} alt={props.data.igdb.name || ''} />
+          <img src={props.data.gb.image || ''} alt={props.data.igdb.name || ''} onError={(e: any) => {
+            e.target.onerror = null;
+            e.target.src = 'Video-Game-Controller-Icon.svg.png';
+          }} />
           <div className="game-card--content__title">
             <h5>{props.data.igdb.name}</h5>
           </div>

@@ -24,13 +24,30 @@ const backwardCompatible = {
   ]
 };
 
-const chexBox = {
-  '12': [xb360ToOne],
-  '11': [xboxTo360, xboxToOne]
-};
+const xb360ToOneIds = xb360ToOne.map(c => c.igdbId);
+const xbTo360Ids = xboxTo360.map(c => c.igdbId);
+const xbToOneIds = xboxToOne.map(c => c.igdbId);
 
 function bc(id) {
   return backwardCompatible[id.toString()] || [];
+}
+
+function xboxBcCheck(id, og) {
+  if (og) {
+    const toOneInd = xbToOneIds.indexOf(id);
+    const to360Ind = xbTo360Ids.indexOf(id);
+    const ogArr = [];
+    if (toOneInd >= 0) {
+      ogArr.push({ consoleId: 49, consoleName: 'Microsoft Xbox One' });
+    }
+    if (to360Ind >= 0) {
+      ogArr.push({ consoleId: 12, consoleName: 'Microsoft Xbox 360' });
+    }
+    return ogArr;
+  } else {
+    const tsToOneInd = xb360ToOneIds.indexOf(id);
+    return tsToOneInd >= 0 ? [{ consoleId: 49, consoleName: 'Microsoft Xbox One' }] : [];
+  }
 }
 
 /***********************************************************
@@ -81,12 +98,27 @@ module.exports.getCombinedGameData = function(req, res) {
         acc[ind].consoleArr.forEach(con => {
           const bcConsoles = bc(game.consoleIgdbId);
           bcConsoles.forEach(c => acc[ind].consoleArr.push(c));
+          const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
+          xbBc.forEach(c => acc[ind].consoleArr.push(c));
+          if (game.igdb.id === 991) {
+            console.log('xbBc', xbBc);
+          }
         });
       } else {
         indexes.push(game.igdb.id);
         game.consoleArr = [{ consoleName: game.consoleName, consoleId: game.consoleIgdbId }];
         const bcConsoles = bc(game.consoleIgdbId);
         bcConsoles.forEach(c => game.consoleArr.push(c));
+        if (game.consoleIgdbId === 11 || game.consoleIgdbId === 12) {
+          const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
+          if (xbBc && xbBc.legnth) {
+            xbBc.forEach(c => game.consoleArr.push(c));
+          }
+          if (game.igdb.id === 991) {
+            console.log('xbBc', xbBc);
+          }
+        }
+        // @TODO: decide what to do for outer else
         acc.push(game);
       }
     }

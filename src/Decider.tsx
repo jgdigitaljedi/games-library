@@ -8,6 +8,9 @@ import cloneDeep from 'lodash/cloneDeep';
 import { filters } from './services/deciderFiltering.service';
 import debounce from 'lodash/debounce';
 import GameCard from './components/GameCard/GameCard';
+import {Dialog} from 'primereact/dialog';
+import {IGame} from './common.model';
+
 
 interface IFormState {
   name: string;
@@ -35,6 +38,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   ]);
   const [esrbArray, setEsrbArray]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr]: [string, any] = useState('');
+  const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
 
   async function getData() {
     const result = await axios.get('http://localhost:4001/api/gamescombined');
@@ -109,6 +113,11 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     }
     setData(newData);
   }, [masterData, checkForReset, formState]);
+
+  const cardClicked = useCallback(card => {
+    // console.log('card', card);
+    // setSelectedCard(card);
+  },[selectedCard]);
 
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
@@ -197,9 +206,12 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       </div>
       <div className="decider--results">
         {data.map((d, index) => (
-          <GameCard data={d} key={index} />
+          <GameCard data={d} key={index} onClick={cardClicked(d)}/>
         ))}
       </div>
+      <Dialog visible={!!selectedCard} header={''} modal={true} onHide={() => setSelectedCard(null)}>
+        <pre>{selectedCard}</pre>
+      </Dialog>
     </section>
   );
 };

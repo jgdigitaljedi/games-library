@@ -16,17 +16,19 @@ const backwardCompatible = {
     { consoleName: 'Sony PlayStation 3', consoleId: 9 }
   ],
   '5': [{ consoleName: 'Nintendo Wii U', consoleId: 41 }],
-  '24': [{ consoleName: 'Nintendo DS Lite', consoleId: 20 }],
-  '22': [{ consoleName: 'Nintendo Game Boy Advance', consoleId: 24 }],
+  '24': [{ consoleName: 'Nintendo DS Lite', consoleId: 20 }, { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }],
+  '22': [{ consoleName: 'Nintendo Game Boy Advance', consoleId: 24 }, { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }],
   '33': [
     { consoleName: 'Nintendo Game Boy Advance', consoleId: 24 },
-    { consoleName: 'Nintendo Game Boy Color', consoleId: 22 }
-  ]
+    { consoleName: 'Nintendo Game Boy Color', consoleId: 22 },
+    { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
+  ],
+  '20': [{consoleName: 'Nintendo 3DS', consoleId: 37}]
 };
 
-const xb360ToOneIds = xb360ToOne.map(c => c.igdbId);
-const xbTo360Ids = xboxTo360.map(c => c.igdbId);
-const xbToOneIds = xboxToOne.map(c => c.igdbId);
+const xb360ToOneIds = xb360ToOne.map(c => +c.igdbId);
+const xbTo360Ids = xboxTo360.map(c => +c.igdbId);
+const xbToOneIds = xboxToOne.map(c => +c.igdbId);
 
 function bc(id) {
   return backwardCompatible[id.toString()] || [];
@@ -92,17 +94,15 @@ module.exports.getCombinedGameData = function(req, res) {
       acc = [];
     }
     if (game && game.igdb && game.igdb.id) {
-      if (indexes.indexOf(game.igdb.id) >= 0) {
-        const ind = indexes.indexOf(game.igdb.id);
+      const ind = indexes.indexOf(game.igdb.id)
+      if (ind >= 0) {
         acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
+        const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
+        xbBc.forEach(c => acc[ind].consoleArr.push(c));
         acc[ind].consoleArr.forEach(con => {
-          const bcConsoles = bc(game.consoleIgdbId);
+          // const bcConsoles = bc(game.consoleIgdbId);
+          const bcConsoles = bc(con.consoleId);
           bcConsoles.forEach(c => acc[ind].consoleArr.push(c));
-          const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
-          xbBc.forEach(c => acc[ind].consoleArr.push(c));
-          if (game.igdb.id === 991) {
-            console.log('xbBc', xbBc);
-          }
         });
       } else {
         indexes.push(game.igdb.id);
@@ -110,12 +110,10 @@ module.exports.getCombinedGameData = function(req, res) {
         const bcConsoles = bc(game.consoleIgdbId);
         bcConsoles.forEach(c => game.consoleArr.push(c));
         if (game.consoleIgdbId === 11 || game.consoleIgdbId === 12) {
-          const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
-          if (xbBc && xbBc.legnth) {
+          const xbBc = xboxBcCheck(+game.igdb.id, +game.consoleIgdbId === 11);
+          if (xbBc && xbBc.length) {
+            // game.consoleArr = [...game.consoleArr, xbBc];
             xbBc.forEach(c => game.consoleArr.push(c));
-          }
-          if (game.igdb.id === 991) {
-            console.log('xbBc', xbBc);
           }
         }
         // @TODO: decide what to do for outer else

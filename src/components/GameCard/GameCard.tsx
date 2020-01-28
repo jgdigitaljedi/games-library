@@ -10,7 +10,8 @@ const GameCard: FunctionComponent<any> = props => {
   return (
     <Card className="game-card">
       {props && props.data && props.data.igdb ? (
-        <div className="game-card--content" onClick={() => cardClicked(props.data)}>
+        // <div className="game-card--content" onClick={() => cardClicked(props.data)}>
+        <div className="game-card--content" onClick={() => props.cardClicked(props.data)}>
           <img src={props.data.gb.image || ''} alt={props.data.igdb.name || ''} />
           <div className="game-card--content__title">
             <h5>{props.data.igdb.name}</h5>

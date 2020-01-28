@@ -39,6 +39,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [esrbArray, setEsrbArray]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr]: [string, any] = useState('');
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
+  const [showModal, setShowModal]: [boolean, any] = useState(false);
 
   async function getData() {
     const result = await axios.get('http://localhost:4001/api/gamescombined');
@@ -114,10 +115,11 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     setData(newData);
   }, [masterData, checkForReset, formState]);
 
-  const cardClicked = useCallback(card => {
-    // console.log('card', card);
-    // setSelectedCard(card);
-  },[selectedCard]);
+  const cardClicked = useCallback((card: IGame) => {
+    setSelectedCard(card);
+    setShowModal(true);
+    console.log('card in method', card);
+  }, []);
 
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
@@ -206,11 +208,14 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       </div>
       <div className="decider--results">
         {data.map((d, index) => (
-          <GameCard data={d} key={index} onClick={cardClicked(d)}/>
+          <GameCard data={d} key={index} cardClicked={cardClicked}/>
         ))}
       </div>
-      <Dialog visible={!!selectedCard} header={''} modal={true} onHide={() => setSelectedCard(null)}>
-        <pre>{selectedCard}</pre>
+      <Dialog visible={showModal} header={selectedCard ? selectedCard['igdb']['name'] : ''} modal={true} onHide={() => {
+        setSelectedCard(null);
+        setShowModal(false);
+      }}>
+        Modal {selectedCard ? selectedCard['igdb']['name'] : ""}
       </Dialog>
     </section>
   );

@@ -1,8 +1,46 @@
+@import '../../style/theme.scss';
+
 .game-dialog {
   .game-dialog--body {
     display: flex;
     flex-direction: column;
     min-width: 65vw;
+    .game-dialog--body__image-and-deck {
+      display: flex;
+      img {
+        max-width: 40rem;
+        max-height: 30rem;
+      }
+      .right-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem 2rem;
+        p {
+          margin: 0 0 2rem;
+          font-size: 1.2rem;
+        }
+        .card-row {
+          display: flex;
+          table {
+            max-width: 20rem;
+            font-size: 1rem;
+            tr {
+              td {
+                border-bottom: 1pt solid $white;
+              }
+              td.table-cat {
+                font-weight: bold;
+                color: $warn;
+                font-family: $secondary-font;
+              }
+            }
+          }
+          img {
+            max-height: 12rem;
+          }
+        }
+      }
+    }
     .game-dialog--body__consoles {
       display: flex;
       justify-content: space-around;

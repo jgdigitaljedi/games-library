@@ -86,6 +86,10 @@ class TheTable extends Component<IProps, IState> {
         }
         alt="Game cover"
         style={imageStyle}
+        onError={(e: any) => {
+          e.target.onerror = null;
+          e.target.src = 'Video-Game-Controller-Icon.svg.png';
+        }}
       />
     );
   }

@@ -8,9 +8,9 @@ import cloneDeep from 'lodash/cloneDeep';
 import { filters } from './services/deciderFiltering.service';
 import debounce from 'lodash/debounce';
 import GameCard from './components/GameCard/GameCard';
-import {Dialog} from 'primereact/dialog';
-import {IGame} from './common.model';
-
+import { Dialog } from 'primereact/dialog';
+import { IGame } from './common.model';
+import GameDialog from './components/GameDialog/GameDialog';
 
 interface IFormState {
   name: string;
@@ -208,14 +208,20 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       </div>
       <div className="decider--results">
         {data.map((d, index) => (
-          <GameCard data={d} key={index} cardClicked={cardClicked}/>
+          <GameCard data={d} key={index} cardClicked={cardClicked} />
         ))}
       </div>
-      <Dialog visible={showModal} header={selectedCard ? selectedCard['igdb']['name'] : ''} modal={true} onHide={() => {
-        setSelectedCard(null);
-        setShowModal(false);
-      }}>
-        Modal {selectedCard ? selectedCard['igdb']['name'] : ""}
+      <Dialog
+        visible={showModal}
+        header={selectedCard ? selectedCard['igdb']['name'] : ''}
+        modal={true}
+        onHide={() => {
+          setSelectedCard(null);
+          setShowModal(false);
+        }}
+      >
+        {/* Modal {selectedCard ? selectedCard['igdb']['name'] : ""} */}
+        <GameDialog game={selectedCard} />
       </Dialog>
     </section>
   );

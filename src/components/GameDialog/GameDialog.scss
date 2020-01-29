@@ -1,0 +1,11 @@
+.game-dialog {
+  .game-dialog--body {
+    display: flex;
+    flex-direction: column;
+    min-width: 65vw;
+    .game-dialog--body__consoles {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

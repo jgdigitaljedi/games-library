@@ -73,14 +73,21 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                   </tr>
                 </tbody>
               </table>
-              <img
-                src={
-                  game && game.igdb && game.igdb.esrb
-                    ? ratingImages(game.igdb.esrb)
-                    : 'Video-Game-Controller_icon.svg.png'
-                }
-                alt="ESRB Rating"
-              />
+              <div className="image-container">
+                <img
+                  src={
+                    game && game.igdb && game.igdb.esrb
+                      ? ratingImages(game.igdb.esrb)
+                      : 'Video-Game-Controller_Icon.svg.png'
+                  }
+                  alt="ESRB Rating"
+                  onError={(e: any) => {
+                    e.target.onerror = null;
+                    e.target.src = 'Video-Game-Controller-Icon.svg.png';
+                  }}
+                  />
+                  { game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3> }
+              </div>
             </div>
           </div>
         </div>
@@ -88,7 +95,6 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
         <div className="game-dialog--body__consoles">
           {game && game.consoleArr ? (
             game.consoleArr.map((con: IConsoleArr, index: number) => (
-              // <h5 key={index}>{con.consoleName}</h5>
               <img
                 src={(assetsService.platformLogos as IRatings)[con.consoleName]}
                 alt={con.consoleName}

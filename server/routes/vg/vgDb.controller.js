@@ -9,6 +9,7 @@ const logger = require('../../config/logger');
 const xb360ToOne = require('../../xboxBc/Xbox360ToXboxOne.json');
 const xboxTo360 = require('../../xboxBc/XboxToXbox360.json');
 const xboxToOne = require('../../xboxBc/XboxToXboxOne.json');
+const sortBy = require('lodash/sortBy');
 
 const backwardCompatible = {
   '7': [
@@ -124,7 +125,7 @@ module.exports.getCombinedGameData = function(req, res) {
   }, []);
   res
     .status(200)
-    .json(combined.sort((a, b) => new Date(a.datePruchased) < new Date(b.datePurchased)));
+    .json(sortBy(combined, 'datePurchased').reverse());
 };
 
 // module.exports.searchMyGames = function (req, res) { };

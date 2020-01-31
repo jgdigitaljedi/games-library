@@ -1,10 +1,12 @@
 @import '../../style/theme.scss';
 
 .game-dialog {
+  max-width: 1200px;
+  width: 100%;
   .game-dialog--body {
     display: flex;
     flex-direction: column;
-    min-width: 65vw;
+    width: 100%;
     .game-dialog--body__image-and-deck {
       display: flex;
       img {
@@ -35,9 +37,14 @@
               }
             }
           }
-          img {
-            max-height: 12rem;
-            margin-left: 2rem;
+          .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;;
+            img {
+              max-height: 12rem;
+              margin-left: 2rem;
+            }
           }
         }
       }

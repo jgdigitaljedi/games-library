@@ -1,32 +1,31 @@
 import React, { FunctionComponent, PropsWithChildren } from 'react';
 import './GameDialog.scss';
 import { IConsoleArr, IGame } from '../../common.model';
+import assetsService from '../../services/assets.service';
 
 interface IRatings {
   [key: string]: string;
 }
 
-const GameDialog: FunctionComponent<PropsWithChildren<any>> = (props) => {
+const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
   const game: IGame = props.game;
   const ratingImages = (letter: string): string => {
-    const ratings: IRatings  = {
-      E: 'ESRB_2013_Everyone.svg',
-      M: 'ESRB_2013_Mature.svg',
-      T: 'ESRB_2013_Teen.svg',
-      RP: 'ESRB_2013_Rating_Pending.svg',
-      'E10+': 'ESRB_2013_Everyone_10+.svg',
-    };
-    return ratings.hasOwnProperty(letter) ?  ratings[letter] : '';
+    const ratings: IRatings = assetsService.ratings;
+    return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
 
   return game ? (
     <section className="game-dialog">
       <div className="game-dialog--body">
         <div className="game-dialog--body__image-and-deck">
-          <img src={game.gb.image} onError={(e: any) => {
-            e.target.onerror = null;
-            e.target.src = 'Video-Game-Controller-Icon.svg.png';
-          }} alt={game.igdb.name + ' cover image'} />
+          <img
+            src={game.gb.image}
+            onError={(e: any) => {
+              e.target.onerror = null;
+              e.target.src = 'Video-Game-Controller-Icon.svg.png';
+            }}
+            alt={game.igdb.name + ' cover image'}
+          />
           <div className="right-container">
             <p>{game.gb.deck}</p>
             <div className="card-row">
@@ -74,21 +73,37 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = (props) => {
                   </tr>
                 </tbody>
               </table>
-              <img src={game && game.igdb && game.igdb.esrb ? ratingImages(game.igdb.esrb) : 'Video-Game-Controller_icon.svg.png'} alt="ESRB Rating" />
+              <img
+                src={
+                  game && game.igdb && game.igdb.esrb
+                    ? ratingImages(game.igdb.esrb)
+                    : 'Video-Game-Controller_icon.svg.png'
+                }
+                alt="ESRB Rating"
+              />
             </div>
           </div>
         </div>
         <h4>{game && game.igdb ? game.igdb.name : ''} can be played on:</h4>
         <div className="game-dialog--body__consoles">
           {game && game.consoleArr ? (
-            game.consoleArr.map((con: IConsoleArr, index: number) => <h5 key={index}>{con.consoleName}</h5>)
+            game.consoleArr.map((con: IConsoleArr, index: number) => (
+              // <h5 key={index}>{con.consoleName}</h5>
+              <img
+                src={(assetsService.platformLogos as IRatings)[con.consoleName]}
+                alt={con.consoleName}
+                key={index}
+              />
+            ))
           ) : (
             <></>
           )}
         </div>
       </div>
     </section>
-  ) : <></>;
+  ) : (
+    <></>
+  );
 };
 
 export default GameDialog;

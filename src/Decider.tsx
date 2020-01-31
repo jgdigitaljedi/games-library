@@ -17,6 +17,7 @@ interface IFormState {
   players: number;
   genre: string;
   esrb: string;
+  platform: string;
 }
 
 interface IDropdown {
@@ -29,7 +30,8 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     name: '',
     players: 0,
     genre: '',
-    esrb: ''
+    esrb: '',
+    platform: ''
   });
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
@@ -37,6 +39,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     { label: 'NOT SET', value: '' }
   ]);
   const [esrbArray, setEsrbArray]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
+  const [platformArray, setPlatformArray]: [IDropdown[], any] = useState([
+    { label: 'NOT SET', value: '' }
+  ]);
   const [nameStr, setNameStr]: [string, any] = useState('');
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
@@ -74,6 +79,27 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     }
   }, [data, setGenreArray]);
 
+  const getPlatformArray = useCallback(() => {
+    if (data && data.length > 1) {
+      const newPlatforms = flatten(data.map(d => d.consoleName || null).filter((d: string) => d))
+        .reduce((acc: string[], g: string) => {
+          if (!acc) {
+            acc = [];
+          }
+          if (acc && acc.indexOf(g) === -1 && g) {
+            acc.push(g);
+          }
+          return acc;
+        }, [])
+        .map((g: string) => {
+          return { label: g, value: g };
+        })
+        .sort();
+      newPlatforms.unshift({ label: 'NOT SET', value: '' });
+      setPlatformArray(newPlatforms);
+    }
+  }, [data, setPlatformArray]);
+
   const getEsrbArray = useCallback(() => {
     if (data && data.length > 1) {
       const newRatings = flatten(data.map(d => d.igdb.esrb || null).filter((d: string) => d))
@@ -103,6 +129,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     if (formState.name !== '') {
       newData = filters.filterName([...newData], formState.name);
     }
+    if (formState.platform !== '') {
+      newData = filters.filterPlatform([...newData], formState.platform);
+    }
     if (formState.players !== 0) {
       newData = filters.filterPlayers([...newData], formState.players);
     }
@@ -126,13 +155,15 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
       getData();
       getGenreArray();
       getEsrbArray();
+      getPlatformArray();
     }
   });
 
   useEffect(() => {
     getGenreArray();
     getEsrbArray();
-  }, [data, getGenreArray, getEsrbArray]);
+    getPlatformArray();
+  }, [data, getGenreArray, getEsrbArray, getPlatformArray]);
 
   useEffect(() => {
     filterResults();
@@ -172,6 +203,20 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
               fsCopy.players = target.value ? parseInt(target.value) : 0;
               setFormState(fsCopy);
             }}
+          />
+        </div>
+        <div className="decider--form__input-group">
+          <label htmlFor="platform">Platform</label>
+          <Dropdown
+            id="platform"
+            name="platform"
+            value={formState.platform}
+            onChange={e => {
+              const fsCopy = cloneDeep(formState);
+              fsCopy.platform = e.value;
+              setFormState(fsCopy);
+            }}
+            options={platformArray || []}
           />
         </div>
         <div className="decider--form__input-group">

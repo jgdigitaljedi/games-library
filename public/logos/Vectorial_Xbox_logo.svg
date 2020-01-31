@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 id="svg2" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" inkscape:version="0.48.4 r9939" sodipodi:docname="disegno.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 947.7 156.2"
+	 style="enable-background:new 0 0 947.7 156.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00D400;}
+</style>
+<metadata  id="metadata7">
+	<rdf:RDF>
+		<cc:Work  rdf:about="">
+			<dc:format>image/svg+xml</dc:format>
+			<dc:type  rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+			<dc:title></dc:title>
+		</cc:Work>
+	</rdf:RDF>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="156.2" width="947.7" x="-101.6" y="-20.1"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="g5824" transform="translate(876.93424,-446.99181)">
+	<path id="path5326" class="st0" d="M-644.5,447h-40.9l-75.4,61.4l-75.4-61.4h-40.9l95.8,78.1l-95.8,78.1h40.9l75.4-61.4l75.4,61.4
+		h40.9l-95.8-78.1L-644.5,447z"/>
+	<path id="path5318" class="st0" d="M-590.1,575.9c-6.8-10.9-11.5-23.6-13.3-37.2h159.1c-1.9,13.7-6.6,26.3-13.3,37.2H-590.1z
+		 M-590.1,474.2h132.4c6.8,10.9,11.5,23.6,13.3,37.2h-159.1C-601.5,497.8-596.9,485.1-590.1,474.2 M-429,518.8l11.3-5.8
+		c-2.3-25.1-11.6-47.9-25.8-65.9v0h0h-41h-78.6h-41h0v0c-13.9,17.6-23.1,39.9-25.6,64.4h-25.3v27.2h25.3
+		c2.5,24.5,11.8,46.8,25.6,64.4v0h0h41h78.6h41h0v-0.1c14.2-18,23.5-40.8,25.8-65.9l-11.3-5.8L-429,518.8L-429,518.8z"/>
+	<path id="path5314" class="st0" d="M-346.6,575.9c-9-14.4-14.3-32-14.3-50.9c0-18.9,5.3-36.4,14.3-50.9h132.4
+		c9,14.4,14.3,32,14.3,50.9c0,18.9-5.3,36.4-14.3,50.9H-346.6z M-200,447L-200,447L-200,447l-41.1,0h-78.6h-41h0v0
+		c-16.4,20.9-26.4,48.2-26.4,78c0,29.9,10,57.2,26.4,78v0h0h41h78.6h41h0v-0.1c16.4-20.9,26.4-48.2,26.4-78
+		C-173.6,495.2-183.6,467.9-200,447"/>
+	<path id="path5322" class="st0" d="M70.8,447H29.9l-75.4,61.4l-75.4-61.4h-40.9l95.8,78.1l-95.8,78.1h40.9l75.4-61.4l75.4,61.4
+		h40.9L-25,525.1L70.8,447z"/>
+</g>
+</svg>

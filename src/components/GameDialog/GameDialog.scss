@@ -37,6 +37,7 @@
           }
           img {
             max-height: 12rem;
+            margin-left: 2rem;
           }
         }
       }
@@ -44,6 +45,12 @@
     .game-dialog--body__consoles {
       display: flex;
       justify-content: space-around;
+      background-color: $white;
+      padding: 1rem;
+      img {
+        max-height: 10rem;
+        max-width: 8rem;
+      }
     }
   }
 }

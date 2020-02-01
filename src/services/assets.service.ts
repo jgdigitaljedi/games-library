@@ -37,13 +37,15 @@ export default {
     'TurboGrafx-16/PC Engine': 'logos/TurboGrafx16logo.jpg',
     'Atari 2600': 'logos/Atari2600logo.svg',
     'Nintendo GameCube (Game Boy Player)': 'logos/Game_Boy_Player_logo.svg',
-    '3DO Interactive Multiplayer': 'logos/3do.gif'
+    '3DO Interactive Multiplayer': 'logos/3do.gif',
+    'PC (Microsoft Windows)': 'logos/windows.png'
   },
   ratings: {
     E: 'ESRB_2013_Everyone.svg',
     M: 'ESRB_2013_Mature.svg',
     T: 'ESRB_2013_Teen.svg',
     RP: 'ESRB_2013_Rating_Pending.svg',
-    'E10+': 'ESRB_2013_Everyone_10+.svg'
+    'E10+': 'ESRB_2013_Everyone_10+.svg',
+    KA: 'ESRB_KA.png'
   }
 };

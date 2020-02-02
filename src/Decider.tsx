@@ -3,6 +3,7 @@ import { RouteComponentProps } from '@reach/router';
 import { InputText } from 'primereact/inputtext';
 import axios from 'axios';
 import { Dropdown } from 'primereact/dropdown';
+import { InputSwitch } from 'primereact/inputswitch';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import { filters } from './services/deciderFiltering.service';
@@ -18,6 +19,7 @@ interface IFormState {
   genre: string;
   esrb: string;
   platform: string;
+  everDrive: boolean;
 }
 
 interface IDropdown {
@@ -31,7 +33,8 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     players: 0,
     genre: '',
     esrb: '',
-    platform: ''
+    platform: '',
+    everDrive: false
   });
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
@@ -46,13 +49,18 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
 
-  async function getData() {
-    const result = await axios.get('http://localhost:4001/api/gamescombined');
-    if (result && result.data) {
-      setData(result.data);
-      setMasterData(result.data);
-    }
-  }
+  const getData = useCallback(
+    async (ed?: boolean) => {
+      const result = await axios.post('http://localhost:4001/api/gamescombined', {
+        everDrive: ed
+      });
+      if (result && result.data) {
+        setData(result.data);
+        setMasterData(result.data);
+      }
+    },
+    [formState]
+  );
 
   const checkForReset = useCallback(() => {
     const keys = Object.entries(formState);
@@ -147,7 +155,6 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const cardClicked = useCallback((card: IGame) => {
     setSelectedCard(card);
     setShowModal(true);
-    console.log('card in method', card);
   }, []);
 
   useEffect(() => {
@@ -245,6 +252,18 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
               setFormState(fsCopy);
             }}
             options={esrbArray || []}
+          />
+        </div>
+        <div className="decider--form__input-group">
+          <label htmlFor="everdrive">Include EverDrives?</label>
+          <InputSwitch
+            checked={formState.everDrive}
+            onChange={e => {
+              const fsCopy = Object.assign({}, formState);
+              fsCopy.everDrive = e.value;
+              setFormState(fsCopy);
+              getData(e.value);
+            }}
           />
         </div>
       </form>

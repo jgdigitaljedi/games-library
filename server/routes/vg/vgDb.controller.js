@@ -9,6 +9,7 @@ const logger = require('../../config/logger');
 const xb360ToOne = require('../../xboxBc/Xbox360ToXboxOne.json');
 const xboxTo360 = require('../../xboxBc/XboxToXbox360.json');
 const xboxToOne = require('../../xboxBc/XboxToXboxOne.json');
+const everDrives = require('../../extra/everDrive.json');
 const sortBy = require('lodash/sortBy');
 
 const backwardCompatible = {
@@ -17,14 +18,20 @@ const backwardCompatible = {
     { consoleName: 'Sony PlayStation 3', consoleId: 9 }
   ],
   '5': [{ consoleName: 'Nintendo Wii U', consoleId: 41 }],
-  '24': [{ consoleName: 'Nintendo DS Lite', consoleId: 20 }, { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }],
-  '22': [{ consoleName: 'Nintendo Game Boy Advance', consoleId: 24 }, { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }],
+  '24': [
+    { consoleName: 'Nintendo DS Lite', consoleId: 20 },
+    { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
+  ],
+  '22': [
+    { consoleName: 'Nintendo Game Boy Advance', consoleId: 24 },
+    { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
+  ],
   '33': [
     { consoleName: 'Nintendo Game Boy Advance', consoleId: 24 },
     { consoleName: 'Nintendo Game Boy Color', consoleId: 22 },
     { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
   ],
-  '20': [{consoleName: 'Nintendo 3DS', consoleId: 37}]
+  '20': [{ consoleName: 'Nintendo 3DS', consoleId: 37 }]
 };
 
 const xb360ToOneIds = xb360ToOne.map(c => +c.igdbId);
@@ -88,14 +95,17 @@ module.exports.getMyGames = function(req, res) {
 };
 
 module.exports.getCombinedGameData = function(req, res) {
-  const games = gamesCrud.getGames();
+  let games = gamesCrud.getGames();
+  if (req && req.body && req.body.everDrive) {
+    games = [...games, ...everDrives];
+  }
   const indexes = [];
   const combined = games.reduce((acc, game) => {
     if (!acc) {
       acc = [];
     }
     if (game && game.igdb && game.igdb.id) {
-      const ind = indexes.indexOf(game.igdb.id)
+      const ind = indexes.indexOf(game.igdb.id);
       if (ind >= 0) {
         acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
         const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
@@ -123,9 +133,7 @@ module.exports.getCombinedGameData = function(req, res) {
     }
     return acc;
   }, []);
-  res
-    .status(200)
-    .json(sortBy(combined, 'datePurchased').reverse());
+  res.status(200).json(sortBy(combined, 'datePurchased').reverse());
 };
 
 // module.exports.searchMyGames = function (req, res) { };

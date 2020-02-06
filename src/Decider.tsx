@@ -59,7 +59,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         setMasterData(result.data);
       }
     },
-    [formState]
+    []
   );
 
   const checkForReset = useCallback(() => {

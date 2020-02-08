@@ -28971,6 +28971,51 @@
   },
   {
     "igdb": {
+      "name": "Pebble Beach Golf Links",
+      "id": 4273,
+      "genres": [
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/03/1995",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-3325",
+      "gbid": 3325,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/3014068-box_pbgl.png",
+      "deck": "An enhanced update to the original golf simulation game of the same name, featuring new higher-definition graphics, an updated user interface (including a new Swing Gauge), and video commentary for each Hole.",
+      "platforms": "Super Nintendo Entertainment System, PlayStation, 3DO, Saturn, Arcade"
+    },
+    "consoleName": "3DO Interactive Multiplayer",
+    "consoleIgdbId": 50,
+    "consoleGbid": 26,
+    "consoleGbGuid": "3045-26",
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": "0",
+    "physical": true,
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:27 pm",
+    "updatedAt": "02/08/2020 04:27 pm",
+    "_id": "33f9f91cf614427eae53dcaf5cbd767f",
+    "consoleArr": [
+      {
+        "consoleName": "3DO Interactive Multiplayer",
+        "consoleId": 50
+      }
+    ]
+  },
+  {
+    "igdb": {
       "name": "Combat",
       "id": 16759,
       "genres": [

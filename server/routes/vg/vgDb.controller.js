@@ -6,59 +6,9 @@ const clonesCrud = require('./vgCrud/clonesCrud.controller');
 const hwCrud = require('./vgCrud/hwCrud.controller');
 const wlCrud = require('./vgCrud/wishlistCrud.controller');
 const logger = require('../../config/logger');
-const xb360ToOne = require('../../xboxBc/Xbox360ToXboxOne.json');
-const xboxTo360 = require('../../xboxBc/XboxToXbox360.json');
-const xboxToOne = require('../../xboxBc/XboxToXboxOne.json');
 const everDrives = require('../../extra/everDrive.json');
+const db = require('../../db');
 const sortBy = require('lodash/sortBy');
-
-const backwardCompatible = {
-  '7': [
-    { consoleName: 'Sony PlayStation 2', consoleId: 8 },
-    { consoleName: 'Sony PlayStation 3', consoleId: 9 }
-  ],
-  '5': [{ consoleName: 'Nintendo Wii U', consoleId: 41 }],
-  '24': [
-    { consoleName: 'Nintendo DS Lite', consoleId: 20 },
-    { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
-  ],
-  '22': [
-    { consoleName: 'Nintendo Game Boy Advance', consoleId: 24 },
-    { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
-  ],
-  '33': [
-    { consoleName: 'Nintendo Game Boy Advance', consoleId: 24 },
-    { consoleName: 'Nintendo Game Boy Color', consoleId: 22 },
-    { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
-  ],
-  '20': [{ consoleName: 'Nintendo 3DS', consoleId: 37 }]
-};
-
-const xb360ToOneIds = xb360ToOne.map(c => +c.igdbId);
-const xbTo360Ids = xboxTo360.map(c => +c.igdbId);
-const xbToOneIds = xboxToOne.map(c => +c.igdbId);
-
-function bc(id) {
-  return backwardCompatible[id.toString()] || [];
-}
-
-function xboxBcCheck(id, og) {
-  if (og) {
-    const toOneInd = xbToOneIds.indexOf(id);
-    const to360Ind = xbTo360Ids.indexOf(id);
-    const ogArr = [];
-    if (toOneInd >= 0) {
-      ogArr.push({ consoleId: 49, consoleName: 'Microsoft Xbox One' });
-    }
-    if (to360Ind >= 0) {
-      ogArr.push({ consoleId: 12, consoleName: 'Microsoft Xbox 360' });
-    }
-    return ogArr;
-  } else {
-    const tsToOneInd = xb360ToOneIds.indexOf(id);
-    return tsToOneInd >= 0 ? [{ consoleId: 49, consoleName: 'Microsoft Xbox One' }] : [];
-  }
-}
 
 /***********************************************************
  * Games CRUD
@@ -95,48 +45,12 @@ module.exports.getMyGames = function(req, res) {
 };
 
 module.exports.getCombinedGameData = function(req, res) {
-  let games = gamesCrud.getGames();
+  let combined = db.combinedGames.find();
   if (req && req.body && req.body.everDrive) {
-    games = [...games, ...everDrives];
+    combined = [...combined, ...everDrives];
   }
-  const indexes = [];
-  const combined = games.reduce((acc, game) => {
-    if (!acc) {
-      acc = [];
-    }
-    if (game && game.igdb && game.igdb.id) {
-      const ind = indexes.indexOf(game.igdb.id);
-      if (ind >= 0) {
-        acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
-        const xbBc = xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
-        xbBc.forEach(c => acc[ind].consoleArr.push(c));
-        acc[ind].consoleArr.forEach(con => {
-          // const bcConsoles = bc(game.consoleIgdbId);
-          const bcConsoles = bc(con.consoleId);
-          bcConsoles.forEach(c => acc[ind].consoleArr.push(c));
-        });
-      } else {
-        indexes.push(game.igdb.id);
-        game.consoleArr = [{ consoleName: game.consoleName, consoleId: game.consoleIgdbId }];
-        const bcConsoles = bc(game.consoleIgdbId);
-        bcConsoles.forEach(c => game.consoleArr.push(c));
-        if (game.consoleIgdbId === 11 || game.consoleIgdbId === 12) {
-          const xbBc = xboxBcCheck(+game.igdb.id, +game.consoleIgdbId === 11);
-          if (xbBc && xbBc.length) {
-            // game.consoleArr = [...game.consoleArr, xbBc];
-            xbBc.forEach(c => game.consoleArr.push(c));
-          }
-        }
-        // @TODO: decide what to do for outer else
-        acc.push(game);
-      }
-    }
-    return acc;
-  }, []);
   res.status(200).json(sortBy(combined, 'datePurchased').reverse());
 };
-
-// module.exports.searchMyGames = function (req, res) { };
 
 module.exports.deleteGame = function(req, res) {
   if (req.params.id) {

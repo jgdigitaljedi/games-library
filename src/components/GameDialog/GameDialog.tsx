@@ -14,6 +14,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
 
+  console.log('game', game);
   return game ? (
     <section className="game-dialog">
       <div className="game-dialog--body">
@@ -85,8 +86,15 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                     e.target.onerror = null;
                     e.target.src = 'Video-Game-Controller-Icon.svg.png';
                   }}
-                  />
-                  { game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3> }
+                />
+                {game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3>}
+                <div className="extra-data">
+                  {game.extraData &&
+                    game.extraData.length &&
+                    game.extraData.map(g => {
+                      return <div>{g}</div>;
+                    })}
+                </div>
               </div>
             </div>
           </div>

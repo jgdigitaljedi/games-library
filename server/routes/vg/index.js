@@ -7,10 +7,6 @@ const dataCtrl = require('./dataViz.controller');
 const updateCtrl = require('./updateData.controller');
 const ebayCtrl = require('./ebay.controller');
 const exportCtrl = require('./exportCsv.controller');
-const xboxbc = require('./xboxBc.controller');
-
-// XBOX Backward Compatibility
-router.post('/xboxbc', xboxbc.xboxBackward);
 
 // IGDB search
 router.post('/searchgame', vgCtrl.searchGame);

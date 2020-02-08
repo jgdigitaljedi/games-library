@@ -7,7 +7,8 @@
     "build-css": "node-sass-chokidar src/App.scss -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/App.scss -o src/ --watch --recursive",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "data:process": "node scripts/combineData.js"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",

@@ -1,7 +1,7 @@
 @import '../../style/theme.scss';
 
 .game-dialog {
-  max-width: 1200px;
+  max-width: 1600px;
   width: 100%;
   .game-dialog--body {
     display: flex;
@@ -40,10 +40,20 @@
           .image-container {
             display: flex;
             flex-direction: column;
-            align-items: center;;
+            align-items: center;
             img {
               max-height: 12rem;
               margin-left: 2rem;
+            }
+            .extra-data {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              margin-left: 2.5rem;
+              div {
+                margin-top: 1rem;
+              }
             }
           }
         }

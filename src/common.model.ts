@@ -13,7 +13,7 @@ export interface IGame {
     first_release_date: string;
     developers: string;
     esrb: string;
-  }
+  };
   gb: {
     aliases: string;
     guid: string;
@@ -21,7 +21,7 @@ export interface IGame {
     image: string;
     deck: string;
     platforms: string;
-  }
+  };
   consoleName: string;
   consoleIgdbId: number;
   consoleGbid: number;
@@ -41,4 +41,5 @@ export interface IGame {
   _id: string;
   genres: string;
   consoleArr?: IConsoleArr[];
+  extraData?: string[];
 }

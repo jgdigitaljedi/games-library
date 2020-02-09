@@ -41,6 +41,29 @@
     "extraData": [
       "Nintendo 64 exclusive"
     ],
+    "extraDataFull": {
+      "name": "GoldenEye 007",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6449",
+      "igdbId": 1638,
+      "gbId": 3166,
+      "gbGuid": "3030-3166",
+      "tgdbId": 160,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -87,6 +110,7 @@
     "updatedAt": "11/18/2018 07:44 am",
     "_id": "4fe0cc594ff84f39ae7139498bd4d3df",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -136,6 +160,29 @@
     "extraData": [
       "Nintendo 64 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Donkey Kong 64",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6430",
+      "igdbId": 1096,
+      "gbId": 15000,
+      "gbGuid": "3030-15000",
+      "tgdbId": 250,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -185,6 +232,29 @@
     "extraData": [
       "Nintendo 64 exclusive"
     ],
+    "extraDataFull": {
+      "name": "F1 Pole Position 64",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6437",
+      "igdbId": 3494,
+      "gbId": 3764,
+      "gbGuid": "3030-3764",
+      "tgdbId": 1098,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -234,6 +304,7 @@
     "updatedAt": "11/18/2018 07:52 am",
     "_id": "a40c10b7e3fc42b6bf70738e86e952d4",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -282,6 +353,29 @@
     "extraData": [
       "Nintendo 64 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Perfect Dark",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6497",
+      "igdbId": 1463,
+      "gbId": 21256,
+      "gbGuid": "3030-21256",
+      "tgdbId": 173,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -328,6 +422,7 @@
     "updatedAt": "11/18/2018 07:53 am",
     "_id": "e029c2299684454780527033f8a574c5",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -374,6 +469,7 @@
     "updatedAt": "11/18/2018 07:54 am",
     "_id": "45fa4ac1f1bd45d5b7003012c17de082",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -420,6 +516,7 @@
     "updatedAt": "11/18/2018 07:54 am",
     "_id": "4359ca54349b4597a66360a1c6bc74ed",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -467,6 +564,7 @@
     "updatedAt": "11/18/2018 07:55 am",
     "_id": "84c1347b3cab4a96a3d917b57cb701f2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -514,6 +612,7 @@
     "updatedAt": "11/18/2018 07:56 am",
     "_id": "6339b590b6e842bba81460c67e2496fe",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -561,6 +660,7 @@
     "updatedAt": "11/18/2018 07:56 am",
     "_id": "61efe5b69eff4b1d8ee8c34d207ea16f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -608,6 +708,7 @@
     "updatedAt": "11/23/2018 07:20 pm",
     "_id": "68bb73443f8f4819bdbd16c515baa663",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -655,6 +756,7 @@
     "updatedAt": "11/23/2018 07:21 pm",
     "_id": "755bd895fb484dc88fa3cc05da11f351",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -702,6 +804,7 @@
     "updatedAt": "12/28/2018 08:41 pm",
     "_id": "5e0530dbddf94721a5c859b66a88d715",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -750,6 +853,29 @@
     "extraData": [
       "Nintendo 64 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Wipeout 64",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n64140",
+      "igdbId": 1539,
+      "gbId": 12064,
+      "gbGuid": "3030-12064",
+      "tgdbId": 1238,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -799,6 +925,29 @@
     "extraData": [
       "N64 launch title"
     ],
+    "extraDataFull": {
+      "name": "Super Mario 64",
+      "id": "n64118",
+      "details": [
+        "N64 launch title"
+      ],
+      "igdbId": 1074,
+      "gbId": 2931,
+      "gbGuid": "3030-2931",
+      "tgdbId": 216,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -846,6 +995,7 @@
     "updatedAt": "03/18/2019 05:24 pm",
     "_id": "85cb34119eb44c3388ee7a2f3336a3a5",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -893,6 +1043,7 @@
     "updatedAt": "03/23/2019 03:40 pm",
     "_id": "fa0f0d3ca4684c8f91471e5202eaef04",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -939,6 +1090,7 @@
     "updatedAt": "05/18/2019 03:32 pm",
     "_id": "7f7d29e659764b1d82092705d6d14f43",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -999,6 +1151,7 @@
     "updatedAt": "05/25/2019 07:29 pm",
     "_id": "625a4313115d4be7a8512e93a16d97f2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1046,6 +1199,7 @@
     "updatedAt": "05/25/2019 07:33 pm",
     "_id": "cd5231b684684eb682e97286c708328a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1093,6 +1247,7 @@
     "updatedAt": "06/28/2019 06:13 am",
     "_id": "22cf8a31b061475b9e5ef033876ac16f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1140,6 +1295,7 @@
     "updatedAt": "07/28/2019 08:37 am",
     "_id": "e8382c1b00a74b0a80070dab2317aab2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1186,6 +1342,7 @@
     "updatedAt": "09/12/2019 12:05 pm",
     "_id": "8a6ae93a9dbb45b4b33ac6ce099b9893",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1233,6 +1390,7 @@
     "updatedAt": "11/10/2019 06:41 am",
     "_id": "83ae77d6d6014654bea5a4014fa44b02",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1279,6 +1437,7 @@
     "updatedAt": "11/10/2019 06:44 am",
     "_id": "52383e750a5e4d2b9eb94397da3da6a9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -1327,6 +1486,7 @@
     "updatedAt": "02/01/2020 06:46 am",
     "_id": "5780c540fb054b25b1b228ae678c6640",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo 64",
@@ -4284,10 +4444,6 @@
     "updatedAt": "02/01/2020 07:24 am",
     "_id": "6033daab990a4ca7963c62cd75f6f73d",
     "consoleArr": [
-      {
-        "consoleName": "PC (Microsoft Windows)",
-        "consoleId": 6
-      },
       {
         "consoleName": "PC (Microsoft Windows)",
         "consoleId": 6
@@ -7518,6 +7674,7 @@
     "updatedAt": "11/18/2018 07:58 am",
     "_id": "bc981df550dc4554b2a713c72e895e2d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7572,6 +7729,7 @@
     "updatedAt": "11/18/2018 07:58 am",
     "_id": "1373fc910741461d941e16c8d2733807",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7627,6 +7785,7 @@
     "updatedAt": "05/18/2019 03:29 pm",
     "_id": "154e749a921a45579c1086c3d8c5dbec",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7683,6 +7842,7 @@
     "updatedAt": "05/18/2019 03:30 pm",
     "_id": "5575e60878714f4badbf23b7862dc188",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7737,6 +7897,7 @@
     "updatedAt": "05/18/2019 03:31 pm",
     "_id": "468aec1e17354835abe8c785f34ddf4c",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7796,6 +7957,42 @@
       "Sony PlayStation exclusive",
       "Sony PlayStation multitap compatible title - 4 players"
     ],
+    "extraDataFull": {
+      "name": "Twisted Metal III",
+      "details": [
+        "Sony PlayStation exclusive",
+        "Sony PlayStation multitap compatible title - 4 players"
+      ],
+      "id": "psx491",
+      "igdbId": 4697,
+      "gbId": 4635,
+      "gbGuid": "3030-4635",
+      "tgdbId": 9312,
+      "isExclusive": [
+        {
+          "name": "Sony PlayStation",
+          "id": "ccl20",
+          "igdbId": 7,
+          "gbId": 22,
+          "gbGuid": "3045-22",
+          "tgdbId": 10
+        }
+      ],
+      "special": [
+        {
+          "value": "Sony PlayStation multitap compatible title - 4 players",
+          "forPlatform": {
+            "name": "Sony PlayStation",
+            "id": "ccl20",
+            "igdbId": 7,
+            "gbId": 22,
+            "gbGuid": "3045-22",
+            "tgdbId": 10
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7851,6 +8048,7 @@
     "updatedAt": "09/12/2019 12:04 pm",
     "_id": "123e2022b8fa4fe99cb86e72a05f8dc0",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7905,6 +8103,7 @@
     "updatedAt": "10/05/2019 06:59 am",
     "_id": "a47b826d967a4a3bbec4406fbe3ecad9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -7962,6 +8161,31 @@
     "extraData": [
       "Sony PlayStation multitap compatible title - 4 players"
     ],
+    "extraDataFull": {
+      "name": "Pong: The Next Level",
+      "id": "psx346",
+      "details": [
+        "Sony PlayStation multitap compatible title - 4 players"
+      ],
+      "igdbId": 9187,
+      "gbId": 977,
+      "gbGuid": "3030-977",
+      "special": [
+        {
+          "value": "Sony PlayStation multitap compatible title - 4 players",
+          "forPlatform": {
+            "name": "Sony PlayStation",
+            "id": "ccl20",
+            "igdbId": 7,
+            "gbId": 22,
+            "gbGuid": "3045-22",
+            "tgdbId": 10
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8017,6 +8241,7 @@
     "updatedAt": "11/10/2019 06:39 am",
     "_id": "013bba790c434a909821d07897668cf2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8073,6 +8298,29 @@
     "extraData": [
       "Sony PlayStation exclusive"
     ],
+    "extraDataFull": {
+      "name": "Namco Museum Vol. 1",
+      "details": [
+        "Sony PlayStation exclusive"
+      ],
+      "id": "psx316",
+      "igdbId": 20611,
+      "gbId": 31411,
+      "gbGuid": "3030-31411",
+      "tgdbId": 21248,
+      "isExclusive": [
+        {
+          "name": "Sony PlayStation",
+          "id": "ccl20",
+          "igdbId": 7,
+          "gbId": 22,
+          "gbGuid": "3045-22",
+          "tgdbId": 10
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8129,6 +8377,7 @@
     "updatedAt": "12/29/2019 05:38 am",
     "_id": "217d23f0ed0f44ae962f95a8e5d3485b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8183,6 +8432,7 @@
     "updatedAt": "01/25/2020 03:23 pm",
     "_id": "69f9f7b365da483c89a41715be55e600",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8238,6 +8488,7 @@
     "updatedAt": "02/01/2020 06:47 am",
     "_id": "da631748676749d8bf64b3853b5a0672",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8295,6 +8546,7 @@
     "updatedAt": "02/05/2020 06:27 pm",
     "_id": "7a91eec69319444a8c0450d6a415f5a1",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation",
@@ -8353,6 +8605,7 @@
     "updatedAt": "11/18/2018 09:32 am",
     "_id": "d520564671cd48f3acd95a7fdce076a5",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8402,6 +8655,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Amplitude",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps226",
+      "igdbId": 2141,
+      "gbId": 1420,
+      "gbGuid": "3030-1420",
+      "tgdbId": 36610,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8450,6 +8726,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Buzz! The Mega Quiz",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps270",
+      "igdbId": 23089,
+      "gbId": 10866,
+      "gbGuid": "3030-10866",
+      "tgdbId": 28233,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8496,6 +8795,7 @@
     "updatedAt": "11/18/2018 09:34 am",
     "_id": "f6d74c8f4e3e4a90a4b614831b500c69",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8550,6 +8850,7 @@
     "updatedAt": "11/18/2018 09:35 am",
     "_id": "4ae77fb9944b456a966b768fabd10445",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8599,6 +8900,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Frequency",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps2163",
+      "igdbId": 9111,
+      "gbId": 5825,
+      "gbGuid": "3030-5825",
+      "tgdbId": 7266,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8646,6 +8970,7 @@
     "updatedAt": "11/18/2018 09:36 am",
     "_id": "0e514c17404949699182acc2a3ee0cf9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8695,6 +9020,7 @@
     "updatedAt": "11/18/2018 09:37 am",
     "_id": "ca6ec1d1ee0644dabe87c1fc521d375e",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8743,6 +9069,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Guitar Hero",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps2202",
+      "igdbId": 1285,
+      "gbId": 6311,
+      "gbGuid": "3030-6311",
+      "tgdbId": 7189,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8790,6 +9139,7 @@
     "updatedAt": "11/18/2018 09:38 am",
     "_id": "110bbfe1b766444c8665fa0e7377b1be",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8837,6 +9187,7 @@
     "updatedAt": "11/18/2018 09:39 am",
     "_id": "f6f85587c50a4314bbd20c5135be018a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8884,6 +9235,7 @@
     "updatedAt": "11/18/2018 09:39 am",
     "_id": "0549f43dd4004137b7ca65b3d26096d8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8933,6 +9285,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Heroes of Might and Magic: Quest for the Dragon Bone Staff",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps2220",
+      "igdbId": 13459,
+      "gbId": 17108,
+      "gbGuid": "3030-17108",
+      "tgdbId": 12928,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -8980,6 +9355,7 @@
     "updatedAt": "11/18/2018 09:41 am",
     "_id": "697daca7fa1b4d448ecfed71f5cc2601",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9028,6 +9404,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Hot Shots Golf 3",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps2222",
+      "igdbId": 23459,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": 7297,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9076,6 +9475,7 @@
     "updatedAt": "11/18/2018 09:43 am",
     "_id": "7f9d7a8c963d47fb9b83de0058fb5af3",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9122,6 +9522,7 @@
     "updatedAt": "11/18/2018 09:43 am",
     "_id": "b3c87b0dea0442f38c1f3e859bde002a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9172,6 +9573,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "SOCOM 3: U.S. Navy SEALs",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps2341",
+      "igdbId": 8241,
+      "gbId": 14048,
+      "gbGuid": "3030-14048",
+      "tgdbId": 4792,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9218,6 +9642,7 @@
     "updatedAt": "11/18/2018 09:45 am",
     "_id": "d2c5baa792f048039ab2a431b7f560e6",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9264,6 +9689,7 @@
     "updatedAt": "11/18/2018 09:45 am",
     "_id": "40f4283258ec4bf58d457f26704613a9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9310,6 +9736,7 @@
     "updatedAt": "11/18/2018 09:46 am",
     "_id": "3b78a88a150c4db6844999b1e63c9dd4",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9359,6 +9786,7 @@
     "updatedAt": "11/18/2018 09:46 am",
     "_id": "254a6be968fb4927ba7137ac60715fee",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9406,6 +9834,7 @@
     "updatedAt": "11/18/2018 09:47 am",
     "_id": "e4fb14b33adb4a6bbec5736c23499ac8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9452,6 +9881,7 @@
     "updatedAt": "11/18/2018 09:48 am",
     "_id": "3bdf1c9e07d54bbeb7fa5f54dfefa6e1",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9499,6 +9929,7 @@
     "updatedAt": "11/18/2018 09:48 am",
     "_id": "3653a9b4cd6641979e46e43f6215f459",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9545,6 +9976,7 @@
     "updatedAt": "11/18/2018 09:49 am",
     "_id": "9cf9975c0ce6420dab37815e50a65649",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9593,6 +10025,7 @@
     "updatedAt": "11/18/2018 09:49 am",
     "_id": "40c7efc686c74266bd2c9893b9310612",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9639,6 +10072,7 @@
     "updatedAt": "11/18/2018 09:50 am",
     "_id": "20e7d64f7d4643408b15962e3cdd609f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9686,6 +10120,7 @@
     "updatedAt": "11/18/2018 09:50 am",
     "_id": "2d8373c1b4b947b9ae63aadcca045606",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9736,6 +10171,7 @@
     "updatedAt": "11/18/2018 09:51 am",
     "_id": "b0516e5cf75c4b3caa52c6c34ee2628d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9783,6 +10219,7 @@
     "updatedAt": "11/18/2018 09:52 am",
     "_id": "38806caa232f4e879aa396205fddfa50",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9829,6 +10266,7 @@
     "updatedAt": "11/18/2018 09:52 am",
     "_id": "d7404a4b76804333bd3b12bf63ef1cfe",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9875,6 +10313,7 @@
     "updatedAt": "11/18/2018 09:53 am",
     "_id": "43701d7d580f45cb837b1093545a9cf2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9921,6 +10360,7 @@
     "updatedAt": "11/18/2018 09:53 am",
     "_id": "4e2ed6a1bec44ae29e4bd05b42cce8ce",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -9970,6 +10410,7 @@
     "updatedAt": "02/16/2019 12:05 pm",
     "_id": "4b5763acf1e04981ace0e2756439d2ac",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10026,6 +10467,7 @@
     "updatedAt": "02/16/2019 12:08 pm",
     "_id": "fb94ce510f944a0e96d73c4c5b4ae20d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10073,6 +10515,7 @@
     "updatedAt": "02/16/2019 12:09 pm",
     "_id": "805310c35c024a2d9d43392ffc6af16d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10125,6 +10568,39 @@
       "Sony PlayStation 2 launch title",
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "SSX",
+      "id": "ps2345",
+      "details": [
+        "Sony PlayStation 2 launch title",
+        "Sony PlayStation 2 exclusive"
+      ],
+      "igdbId": 4175,
+      "gbId": 1932,
+      "gbGuid": "3030-1932",
+      "tgdbId": 5424,
+      "isLaunchTitle": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10176,6 +10652,29 @@
     "extraData": [
       "Sony PlayStation 2 launch title"
     ],
+    "extraDataFull": {
+      "name": "Tekken Tag Tournament",
+      "id": "ps2417",
+      "details": [
+        "Sony PlayStation 2 launch title"
+      ],
+      "igdbId": 1249,
+      "gbId": 10162,
+      "gbGuid": "3030-10162",
+      "tgdbId": 3770,
+      "isLaunchTitle": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10225,6 +10724,7 @@
     "updatedAt": "05/05/2019 07:33 pm",
     "_id": "fc41ffe11e1845aeb4d4c578aa2eb9d9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10272,6 +10772,7 @@
     "updatedAt": "05/25/2019 07:34 pm",
     "_id": "e0911a11e6d64bf3ae148b51f3380dca",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10318,6 +10819,7 @@
     "updatedAt": "05/25/2019 07:35 pm",
     "_id": "44b7b366f5d04b29a9e09b3099015298",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10367,6 +10869,29 @@
     "extraData": [
       "Sony PlayStation 2 exclusive"
     ],
+    "extraDataFull": {
+      "name": "The Getaway",
+      "details": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "id": "ps2421",
+      "igdbId": 8237,
+      "gbId": 1470,
+      "gbGuid": "3030-1470",
+      "tgdbId": 7449,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation 2",
+          "id": "ccl21",
+          "igdbId": 8,
+          "gbId": 19,
+          "gbGuid": "3045-19",
+          "tgdbId": 11
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10413,6 +10938,7 @@
     "updatedAt": "12/29/2019 05:31 am",
     "_id": "426801f2af464a01b69aa5635168cfb8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -10459,6 +10985,7 @@
     "updatedAt": "02/08/2020 04:06 pm",
     "_id": "c7e7107d918546c7b84f72661212b511",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation 2",
@@ -12434,10 +12961,6 @@
         "consoleName": "Microsoft Xbox 360"
       },
       {
-        "consoleName": "Xbox",
-        "consoleId": 11
-      },
-      {
         "consoleId": 12,
         "consoleName": "Microsoft Xbox 360"
       }
@@ -13740,6 +14263,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
     ],
+    "extraDataFull": {
+      "igdbId": 20,
+      "name": "BioShock",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
+      ],
+      "id": "x36070",
+      "gbId": 17280,
+      "gbGuid": "3030-17280",
+      "tgdbId": 13,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -13794,6 +14343,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
     ],
+    "extraDataFull": {
+      "igdbId": 21,
+      "name": "BioShock 2",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
+      ],
+      "id": "x36071",
+      "gbId": 20827,
+      "gbGuid": "3030-20827",
+      "tgdbId": 649,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -13847,6 +14422,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
     ],
+    "extraDataFull": {
+      "igdbId": 538,
+      "name": "BioShock Infinite",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
+      ],
+      "id": "x36072",
+      "gbId": 32317,
+      "gbGuid": "3030-32317",
+      "tgdbId": 936,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -13902,6 +14503,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "name": "Fable III",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "id": "x360259",
+      "igdbId": 504,
+      "gbId": 27878,
+      "gbGuid": "3030-27878",
+      "tgdbId": 872,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -13955,6 +14592,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
     ],
+    "extraDataFull": {
+      "name": "Gears of War",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+      ],
+      "id": "x360306",
+      "igdbId": 547,
+      "gbId": 12231,
+      "gbGuid": "3030-12231",
+      "tgdbId": 23,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14008,6 +14681,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "name": "Mass Effect",
+      "igdbId": 73,
+      "id": "x360433",
+      "gbId": 16909,
+      "gbGuid": "3030-16909",
+      "tgdbId": 186,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14016,10 +14715,6 @@
       {
         "consoleId": 49,
         "consoleName": "Microsoft Xbox One"
-      },
-      {
-        "consoleName": "Xbox 360",
-        "consoleId": 12
       },
       {
         "consoleId": 49,
@@ -14071,6 +14766,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "igdbId": 1051,
+      "name": "Mirror's Edge",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "id": "x360453",
+      "gbId": 21213,
+      "gbGuid": "3030-21213",
+      "tgdbId": 46,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14124,6 +14845,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "The Orange Box",
+      "igdbId": 339,
+      "id": "x360703",
+      "gbId": 17729,
+      "gbGuid": "3030-17729",
+      "tgdbId": 10918,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14177,6 +14924,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
     ],
+    "extraDataFull": {
+      "name": "Gears of War 2",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+      ],
+      "id": "x360307",
+      "igdbId": 548,
+      "gbId": 20662,
+      "gbGuid": "3030-20662",
+      "tgdbId": 24,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14230,6 +15013,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
     ],
+    "extraDataFull": {
+      "name": "Gears of War 3",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+      ],
+      "id": "x360308",
+      "igdbId": 492,
+      "gbId": 30615,
+      "gbGuid": "3030-30615",
+      "tgdbId": 935,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14283,6 +15102,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content"
     ],
+    "extraDataFull": {
+      "name": "Halo 3: ODST",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content"
+      ],
+      "id": "x360337",
+      "igdbId": 989,
+      "gbId": 24035,
+      "gbGuid": "3030-24035",
+      "tgdbId": 193,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14336,6 +15191,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection"
     ],
+    "extraDataFull": {
+      "name": "Halo 4",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection"
+      ],
+      "id": "x360338",
+      "igdbId": 991,
+      "gbId": 35533,
+      "gbGuid": "3030-35533",
+      "tgdbId": 3597,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14389,6 +15280,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content"
     ],
+    "extraDataFull": {
+      "name": "Halo: Reach",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content"
+      ],
+      "id": "x360341",
+      "igdbId": 990,
+      "gbId": 26786,
+      "gbGuid": "3030-26786",
+      "tgdbId": 638,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14443,6 +15370,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition"
     ],
+    "extraDataFull": {
+      "name": "Halo Wars",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition"
+      ],
+      "id": "x360339",
+      "igdbId": 988,
+      "gbId": 20521,
+      "gbGuid": "3030-20521",
+      "tgdbId": 847,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14497,6 +15460,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "igdbId": 74,
+      "name": "Mass Effect 2",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "id": "x360434",
+      "gbId": 21590,
+      "gbGuid": "3030-21590",
+      "tgdbId": 187,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14550,6 +15539,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "Far Cry 2",
+      "igdbId": 361,
+      "id": "x360264",
+      "gbId": 20665,
+      "gbGuid": "3030-20665",
+      "tgdbId": 770,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14605,6 +15620,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "name": "Crackdown",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "id": "x360161",
+      "igdbId": 2896,
+      "gbId": 4065,
+      "gbGuid": "3030-4065",
+      "tgdbId": 7167,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14655,6 +15706,7 @@
     "updatedAt": "02/16/2019 12:03 pm",
     "_id": "81d2f3d135104d7186ef2b3d34b38643",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14705,6 +15757,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "name": "Crackdown 2",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "id": "x360162",
+      "igdbId": 2897,
+      "gbId": 26790,
+      "gbGuid": "3030-26790",
+      "tgdbId": 12062,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14759,6 +15847,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "name": "Fable II",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "id": "x360257",
+      "igdbId": 522,
+      "gbId": 20514,
+      "gbGuid": "3030-20514",
+      "tgdbId": 807,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14810,6 +15934,7 @@
     "updatedAt": "02/16/2019 12:16 pm",
     "_id": "d16d26e1a52d4a749b180518ac968bbf",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14859,6 +15984,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "Crysis 2",
+      "igdbId": 471,
+      "id": "x360168",
+      "gbId": 26754,
+      "gbGuid": "3030-26754",
+      "tgdbId": 903,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14911,6 +16062,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "Doom 3: BFG Edition",
+      "igdbId": 6968,
+      "id": "x360221",
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": 51262,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -14966,6 +16143,42 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
     ],
+    "extraDataFull": {
+      "name": "Banjo-Kazooie: Nuts & Bolts",
+      "details": [
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+      ],
+      "id": "x36047",
+      "igdbId": 3008,
+      "gbId": 20586,
+      "gbGuid": "3030-20586",
+      "tgdbId": 14169,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15016,6 +16229,7 @@
     "updatedAt": "03/23/2019 03:42 pm",
     "_id": "6587b6375c28451f9d25205aa60d56bc",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15065,6 +16279,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "Crysis 3",
+      "igdbId": 1268,
+      "id": "x360169",
+      "gbId": 37957,
+      "gbGuid": "3030-37957",
+      "tgdbId": 9598,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15116,6 +16356,7 @@
     "updatedAt": "03/23/2019 03:44 pm",
     "_id": "ca0ad44691d347539a600214ebfa64ac",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15164,6 +16405,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "name": "Dead Space 2",
+      "igdbId": 38,
+      "id": "x360191",
+      "gbId": 25444,
+      "gbGuid": "3030-25444",
+      "tgdbId": 308,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15214,6 +16481,7 @@
     "updatedAt": "03/23/2019 03:47 pm",
     "_id": "fe15d952e9324e1792334a39d2097ec3",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15262,6 +16530,7 @@
     "updatedAt": "03/23/2019 03:48 pm",
     "_id": "54605f2796fa4f4ea585f134f2147853",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15312,6 +16581,29 @@
     "extraData": [
       "Microsoft Xbox 360 full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Forza Motorsport 3",
+      "details": [
+        "Microsoft Xbox 360 full exclusive"
+      ],
+      "id": "x360283",
+      "igdbId": 3069,
+      "gbId": 24995,
+      "gbGuid": "3030-24995",
+      "tgdbId": 838,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15362,6 +16654,29 @@
     "extraData": [
       "Microsoft Xbox 360 full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Forza Motorsport 4",
+      "details": [
+        "Microsoft Xbox 360 full exclusive"
+      ],
+      "id": "x360284",
+      "igdbId": 3068,
+      "gbId": 33400,
+      "gbGuid": "3030-33400",
+      "tgdbId": 8864,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15412,6 +16727,52 @@
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
     ],
+    "extraDataFull": {
+      "id": "x360510",
+      "name": "Perfect Dark Zero",
+      "details": [
+        "Microsoft Xbox 360 launch title",
+        "Microsoft Xbox 360 full exclusive",
+        "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+      ],
+      "igdbId": 1465,
+      "gbId": 14558,
+      "gbGuid": "3030-14558",
+      "tgdbId": 52,
+      "isLaunchTitle": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox 360",
+          "id": "ccl26",
+          "igdbId": 12,
+          "gbId": 20,
+          "gbGuid": "3045-20",
+          "tgdbId": 15
+        }
+      ],
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ]
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15462,6 +16823,7 @@
     "updatedAt": "05/18/2019 03:38 pm",
     "_id": "4d0becc9c95b4f809ec5e253817052ae",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15511,6 +16873,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "Rage",
+      "igdbId": 509,
+      "id": "x360548",
+      "gbId": 20672,
+      "gbGuid": "3030-20672",
+      "tgdbId": 895,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15563,6 +16951,7 @@
     "updatedAt": "06/09/2019 09:04 am",
     "_id": "4b24e8bcc7194b49926acd4936dd1f39",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15611,6 +17000,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "igdbId": 473,
+      "name": "Battlefield: Bad Company",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "id": "x36055",
+      "gbId": 20655,
+      "gbGuid": "3030-20655",
+      "tgdbId": 10898,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15662,6 +17077,7 @@
     "updatedAt": "11/15/2019 01:08 pm",
     "_id": "270fc6647f4e4c7fa5eb55a3e2062c46",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15708,6 +17124,7 @@
     "updatedAt": "11/15/2019 01:14 pm",
     "_id": "4f9a2b26eb4940698fbbaa515bf43559",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15757,6 +17174,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "igdbId": 996,
+      "name": "Army of Two",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "id": "x36028",
+      "gbId": 20479,
+      "gbGuid": "3030-20479",
+      "tgdbId": 11,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15809,6 +17252,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "name": "Dragon Age: Origins",
+      "igdbId": 76,
+      "id": "x360228",
+      "gbId": 20738,
+      "gbGuid": "3030-20738",
+      "tgdbId": 867,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15862,6 +17331,7 @@
     "updatedAt": "11/15/2019 01:17 pm",
     "_id": "d7d867e272ba4e80aebd315639a2f665",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15909,6 +17379,7 @@
     "updatedAt": "11/15/2019 01:18 pm",
     "_id": "11daf470134149d7b16874314fa43d20",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -15958,6 +17429,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Also released on Xbox One"
     ],
+    "extraDataFull": {
+      "igdbId": 1262,
+      "name": "South Park: The Stick of Truth",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Also released on Xbox One"
+      ],
+      "id": "x360645",
+      "gbId": 36978,
+      "gbGuid": "3030-36978",
+      "tgdbId": 17410,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Also released on Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -16018,6 +17515,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One"
     ],
+    "extraDataFull": {
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "name": "Super Street Fighter IV",
+      "igdbId": 884,
+      "id": "x360670",
+      "gbId": 20456,
+      "gbGuid": "3030-20456",
+      "tgdbId": 2304,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -16070,6 +17593,32 @@
     "extraData": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
     ],
+    "extraDataFull": {
+      "igdbId": 2587,
+      "name": "Skate 3",
+      "details": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      ],
+      "id": "x360618",
+      "gbId": 28135,
+      "gbGuid": "3030-28135",
+      "tgdbId": 8306,
+      "special": [
+        {
+          "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+          "forPlatform": {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox 360",
@@ -16123,6 +17672,32 @@
     "extraData": [
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "name": "Spy Hunter",
+      "id": "nes361",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 4167,
+      "gbId": 10448,
+      "gbGuid": "3030-10448",
+      "tgdbId": 2106,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16172,6 +17747,7 @@
     "updatedAt": "11/16/2018 08:54 am",
     "_id": "1926d463d25a4d08a11b89323118dd9e",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16221,6 +17797,32 @@
     "extraData": [
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "name": "BurgerTime",
+      "id": "nes69",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 4609,
+      "gbId": 4702,
+      "gbGuid": "3030-4702",
+      "tgdbId": 205,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16267,6 +17869,7 @@
     "updatedAt": "11/16/2018 08:55 am",
     "_id": "2ee86f1969124d0a8746d0c4e8fe3b55",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16314,6 +17917,7 @@
     "updatedAt": "11/16/2018 08:55 am",
     "_id": "522cf4beaee747879d97ef444894564f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16360,6 +17964,7 @@
     "updatedAt": "11/16/2018 08:57 am",
     "_id": "69681bf5ad37479297f0a556d9a27137",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16423,6 +18028,7 @@
     "updatedAt": "11/16/2018 08:58 am",
     "_id": "e0336c83a4894a1ea5c6daef98b6d295",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16469,6 +18075,7 @@
     "updatedAt": "11/16/2018 08:59 am",
     "_id": "85f667c1d6cc41798f5fb0d6c5fe9f9a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16516,6 +18123,7 @@
     "updatedAt": "11/16/2018 09:00 am",
     "_id": "793a082286a74012a4a1558a5e1638d8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16565,6 +18173,29 @@
     "extraData": [
       "NES exclusive game"
     ],
+    "extraDataFull": {
+      "id": "nes233",
+      "name": "Little Nemo: The Dream Master",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 9160,
+      "gbId": 15110,
+      "gbGuid": "3030-15110",
+      "tgdbId": 1482,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16614,6 +18245,29 @@
     "extraData": [
       "NES exclusive game"
     ],
+    "extraDataFull": {
+      "id": "nes257",
+      "name": "Mickey Mousecapade",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 8126,
+      "gbId": 17706,
+      "gbGuid": "3030-17706",
+      "tgdbId": 1435,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16660,6 +18314,7 @@
     "updatedAt": "11/16/2018 09:04 am",
     "_id": "c7627586b2e84b77b590861e855329cd",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16708,6 +18363,7 @@
     "updatedAt": "11/16/2018 09:05 am",
     "_id": "617b31e7a1dd4200a9c86a3695864965",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16755,6 +18411,7 @@
     "updatedAt": "11/16/2018 09:05 am",
     "_id": "7385f4169d384026ac53d6d00889a316",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16801,6 +18458,7 @@
     "updatedAt": "11/16/2018 09:06 am",
     "_id": "0ad8520c0f75468099588bab5c32a2ed",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16852,6 +18510,54 @@
       "NES black box game: Action Series",
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "id": "nes378",
+      "details": [
+        "NES launch title",
+        "NES black box game: Action Series",
+        "NES hang tab game"
+      ],
+      "name": "Super Mario Bros.",
+      "igdbId": 358,
+      "gbId": 15544,
+      "gbGuid": "3030-15544",
+      "tgdbId": 140,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "special": [
+        {
+          "value": "NES black box game: Action Series",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        },
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16899,6 +18605,7 @@
     "updatedAt": "11/16/2018 09:07 am",
     "_id": "ac907f48b0944281ad6fb181c2f1b3ed",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16946,6 +18653,7 @@
     "updatedAt": "11/16/2018 09:08 am",
     "_id": "bc2bd3d958c547738701c9dba2ce0d4f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -16992,6 +18700,7 @@
     "updatedAt": "11/16/2018 09:09 am",
     "_id": "1dbf97d5e7df4dadaa8ca7595779cb08",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17039,6 +18748,7 @@
     "updatedAt": "11/16/2018 09:10 am",
     "_id": "af78291e64f149f29a1020a97fac437a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17086,6 +18796,7 @@
     "updatedAt": "11/16/2018 09:10 am",
     "_id": "44400d20ca5d4279a6f8ab571fdea9e7",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17130,14 +18841,11 @@
     "updatedAt": "11/16/2018 09:11 am",
     "_id": "0825930a6be74080badfb5659943335a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
         "consoleId": 18
-      },
-      {
-        "consoleName": "Dreamcast",
-        "consoleId": 23
       },
       {
         "consoleName": "Dreamcast",
@@ -17185,6 +18893,7 @@
     "updatedAt": "11/28/2018 06:18 pm",
     "_id": "6ee5e3084204462ca560ab6266265f2d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17233,6 +18942,7 @@
     "updatedAt": "12/28/2018 06:32 am",
     "_id": "21ac457a3d9342bb93b39e111df2953a",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17280,6 +18990,7 @@
     "updatedAt": "01/15/2019 06:20 am",
     "_id": "6abf6c7fc9e5416ebcf30c74c1534aa6",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17328,6 +19039,32 @@
     "extraData": [
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "name": "The Legend Of Zelda ",
+      "id": "nes416",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 1022,
+      "gbId": 11949,
+      "gbGuid": "3030-11949",
+      "tgdbId": 63984,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17375,6 +19112,7 @@
     "updatedAt": "01/27/2019 07:33 am",
     "_id": "bd47b603721a4e5282043fae62ab9c19",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17422,6 +19160,7 @@
     "updatedAt": "03/23/2019 03:38 pm",
     "_id": "1f164e62f2c54290901142a25f0f9c3e",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17473,6 +19212,54 @@
       "NES black box game: Programmable Series",
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "id": "nes136",
+      "details": [
+        "NES launch title",
+        "NES black box game: Programmable Series",
+        "NES hang tab game"
+      ],
+      "name": "Excitebike",
+      "igdbId": 4600,
+      "gbId": 15025,
+      "gbGuid": "3030-15025",
+      "tgdbId": 213,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "special": [
+        {
+          "value": "NES black box game: Programmable Series",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        },
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17522,6 +19309,32 @@
     "extraData": [
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "name": "Rad Racer",
+      "id": "nes319",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 8359,
+      "gbId": 2386,
+      "gbGuid": "3030-2386",
+      "tgdbId": 211,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17570,6 +19383,7 @@
     "updatedAt": "11/30/2019 07:56 am",
     "_id": "4db55648507b41ff8f76214da2d18478",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17621,6 +19435,54 @@
       "NES black box game: Light Gun Series",
       "NES hang tab game"
     ],
+    "extraDataFull": {
+      "id": "nes179",
+      "details": [
+        "NES launch title",
+        "NES black box game: Light Gun Series",
+        "NES hang tab game"
+      ],
+      "name": "Hogan's Alley",
+      "igdbId": 4601,
+      "gbId": 6490,
+      "gbGuid": "3030-6490",
+      "tgdbId": 1317,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "special": [
+        {
+          "value": "NES black box game: Light Gun Series",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        },
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17670,6 +19532,29 @@
     "extraData": [
       "NES exclusive game"
     ],
+    "extraDataFull": {
+      "id": "nes33",
+      "name": "Back To The Future",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 8516,
+      "gbId": 18697,
+      "gbGuid": "3030-18697",
+      "tgdbId": 36798,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17718,6 +19603,29 @@
     "extraData": [
       "NES exclusive game"
     ],
+    "extraDataFull": {
+      "id": "nes10",
+      "name": "Adventures of Tom Sawyer",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 48109,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": null,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17764,6 +19672,7 @@
     "updatedAt": "02/05/2020 06:28 pm",
     "_id": "1db0041f792a4d99817aa4c3be15dbc8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17811,6 +19720,7 @@
     "updatedAt": "02/08/2020 04:04 pm",
     "_id": "b6f0a4213b92456d81e02712e4720d7f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo Entertainment System (NES)",
@@ -17859,6 +19769,22 @@
     "extraData": [
       "Super Nintendo Entertainment System exclusive"
     ],
+    "extraDataFull": {
+      "name": "Uniracers",
+      "details": [
+        "Super Nintendo Entertainment System exclusive"
+      ],
+      "id": "snes411",
+      "igdbId": 16743,
+      "gbId": 16228,
+      "gbGuid": "3030-16228",
+      "tgdbId": 2212,
+      "isExclusive": [
+        null
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -17906,6 +19832,7 @@
     "updatedAt": "11/16/2018 02:07 pm",
     "_id": "28f1ebc6b7d24151926b92ed1e9cb439",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -17952,6 +19879,7 @@
     "updatedAt": "11/16/2018 02:07 pm",
     "_id": "4f66118895a94dd1833cf7230ea6d7cf",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18000,6 +19928,7 @@
     "updatedAt": "11/16/2018 02:08 pm",
     "_id": "9d08b78ad2aa4c918032eb239da1a84b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18048,6 +19977,22 @@
     "extraData": [
       "SNES laucnh title"
     ],
+    "extraDataFull": {
+      "name": "Super Mario World",
+      "id": "snes343",
+      "details": [
+        "SNES laucnh title"
+      ],
+      "igdbId": 1070,
+      "gbId": 1334,
+      "gbGuid": "3030-1334",
+      "tgdbId": 136,
+      "isLaunchTitle": [
+        null
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18095,6 +20040,7 @@
     "updatedAt": "11/16/2018 07:41 pm",
     "_id": "e65138d76dd84148bfeb38fce077160d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18155,6 +20101,22 @@
     "extraData": [
       "SNES laucnh title"
     ],
+    "extraDataFull": {
+      "name": "F-Zero",
+      "id": "snes90",
+      "details": [
+        "SNES laucnh title"
+      ],
+      "igdbId": 3490,
+      "gbId": 15242,
+      "gbGuid": "3030-15242",
+      "tgdbId": 43448,
+      "isLaunchTitle": [
+        null
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18203,6 +20165,22 @@
     "extraData": [
       "SNES laucnh title"
     ],
+    "extraDataFull": {
+      "name": "Gradius III",
+      "id": "snes118",
+      "details": [
+        "SNES laucnh title"
+      ],
+      "igdbId": 1481,
+      "gbId": 7617,
+      "gbGuid": "3030-7617",
+      "tgdbId": 1918,
+      "isLaunchTitle": [
+        null
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18250,6 +20228,7 @@
     "updatedAt": "11/16/2018 07:43 pm",
     "_id": "759442dba96c46a498f53cfab80bdc60",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18296,6 +20275,7 @@
     "updatedAt": "03/09/2019 03:50 pm",
     "_id": "e00aeecd67fb44f6b1a1136845f7bbe6",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18344,6 +20324,7 @@
     "updatedAt": "12/29/2019 05:36 am",
     "_id": "785d404d47c04f648a96c80fcfd17dc9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18391,6 +20372,7 @@
     "updatedAt": "12/29/2019 05:36 am",
     "_id": "44be3b711efc4314bebfbb0e7db0c29e",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18440,6 +20422,7 @@
     "updatedAt": "01/25/2020 03:21 pm",
     "_id": "3f712f0c44a04dbf809e73d8d23d2a92",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18488,6 +20471,7 @@
     "updatedAt": "02/01/2020 06:45 am",
     "_id": "483a35be8d164b7692c1bf8fe04650cb",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -18534,6 +20518,7 @@
     "updatedAt": "02/08/2020 04:03 pm",
     "_id": "c1782bba2c3c419e99a957303360dbb7",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Super Nintendo Entertainment System (SNES)",
@@ -19282,6 +21267,7 @@
     "updatedAt": "11/18/2018 03:33 pm",
     "_id": "6f40230065034383b458c67dc0e3670c",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19330,6 +21316,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc24",
+      "name": "F-Zero X",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 3492,
+      "gbId": 20448,
+      "gbGuid": "3030-20448",
+      "tgdbId": 10836,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19381,6 +21390,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc80",
+      "name": "The Legend of Zelda: The Wind Waker",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 1033,
+      "gbId": 18508,
+      "gbGuid": "3030-18508",
+      "tgdbId": 174,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19430,6 +21462,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc42",
+      "name": "Mario Kart: Double Dash!!",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 2344,
+      "gbId": 18757,
+      "gbGuid": "3030-18757",
+      "tgdbId": 166,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19477,6 +21532,7 @@
     "updatedAt": "11/18/2018 03:40 pm",
     "_id": "b1ef232909db4f38811c2e756976bb0c",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19528,6 +21584,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc45",
+      "name": "Mario Party 6",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 2333,
+      "gbId": 8380,
+      "gbGuid": "3030-8380",
+      "tgdbId": 2317,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19576,6 +21655,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc41",
+      "name": "Mario Golf: Toadstool Tour",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 3403,
+      "gbId": 1598,
+      "gbGuid": "3030-1598",
+      "tgdbId": 6260,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19624,6 +21726,7 @@
     "updatedAt": "11/18/2018 03:42 pm",
     "_id": "1b519c2990544e1492f97cea20e640c2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19671,6 +21774,7 @@
     "updatedAt": "11/18/2018 03:43 pm",
     "_id": "76cd9ef726494205b32247a98e2ab289",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19718,6 +21822,7 @@
     "updatedAt": "11/18/2018 03:43 pm",
     "_id": "308b7384f14047f9a8668280d5a4f9fb",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19765,6 +21870,7 @@
     "updatedAt": "11/18/2018 03:44 pm",
     "_id": "39eb6b8a3edf403bb3eec70a8283e746",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19811,6 +21917,7 @@
     "updatedAt": "11/18/2018 03:45 pm",
     "_id": "afdbcd7440c94f4292fe7d4a31d2c829",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19858,6 +21965,7 @@
     "updatedAt": "11/18/2018 03:45 pm",
     "_id": "9ca5accfaf0c450c846a34dec0096cef",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19905,6 +22013,7 @@
     "updatedAt": "11/18/2018 03:46 pm",
     "_id": "b12f166d9dc243c8805d05cc9ea83496",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -19953,6 +22062,7 @@
     "updatedAt": "11/18/2018 03:47 pm",
     "_id": "0414004cd53d498cb31e6dce70fad950",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20000,6 +22110,7 @@
     "updatedAt": "11/18/2018 03:47 pm",
     "_id": "70f6771487d2448e826aa22d59aad1ac",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20049,6 +22160,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc75",
+      "name": "Super Mario Sunshine",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 1075,
+      "gbId": 6649,
+      "gbGuid": "3030-6649",
+      "tgdbId": 2236,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20098,6 +22232,7 @@
     "updatedAt": "11/18/2018 03:48 pm",
     "_id": "d192afbb5a5c483e87fc0083c744d4a0",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20149,6 +22284,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc77",
+      "name": "Super Smash Bros. Melee",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 1627,
+      "gbId": 17743,
+      "gbGuid": "3030-17743",
+      "tgdbId": 5654,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20195,6 +22353,7 @@
     "updatedAt": "11/18/2018 03:49 pm",
     "_id": "d8bdb1eb1e1d417e8b52407081371181",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20242,6 +22401,7 @@
     "updatedAt": "01/11/2019 08:17 am",
     "_id": "c2918317fabd4f64914816616187cc45",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20291,6 +22451,7 @@
     "updatedAt": "02/02/2019 02:04 pm",
     "_id": "c1b207abcc174ae39f90ab078cb98dba",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20339,6 +22500,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc79",
+      "name": "The Legend of Zelda: Four Swords Adventures",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 1034,
+      "gbId": 7856,
+      "gbGuid": "3030-7856",
+      "tgdbId": 6996,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20389,6 +22573,39 @@
       "Nintendo GameCube launch title",
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc72",
+      "name": "Star Wars Rogue Squadron II: Rogue Leader",
+      "details": [
+        "Nintendo GameCube launch title",
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 4181,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": 7055,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20436,6 +22653,7 @@
     "updatedAt": "10/05/2019 07:02 am",
     "_id": "6d49efb91e134236b9ba74d839377bad",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20482,6 +22700,7 @@
     "updatedAt": "01/25/2020 03:19 pm",
     "_id": "f8196043858e4a318c8db4ff716d3dd7",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20530,6 +22749,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc57",
+      "name": "Naruto: Clash of Ninja",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 4026,
+      "gbId": 20544,
+      "gbGuid": "3030-20544",
+      "tgdbId": 7009,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20577,6 +22819,7 @@
     "updatedAt": "02/05/2020 06:28 pm",
     "_id": "a88a1ca4860143b0b1e4d9683ab4c12e",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20625,6 +22868,7 @@
     "updatedAt": "02/08/2020 04:05 pm",
     "_id": "bc5c82add4604df58c7aa04b3e4b1929",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -20676,6 +22920,29 @@
     "extraData": [
       "Nintendo GameCube console exclusive"
     ],
+    "extraDataFull": {
+      "id": "ngc73",
+      "name": "Star Wars Rogue Squadron III: Rebel Strike",
+      "details": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "igdbId": 4182,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": 7054,
+      "isExclusive": [
+        {
+          "name": "Nintendo GameCube",
+          "id": "ccl4",
+          "igdbId": 21,
+          "gbId": 23,
+          "gbGuid": "3045-23",
+          "tgdbId": 2
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Nintendo GameCube",
@@ -21048,6 +23315,7 @@
     "updatedAt": "11/18/2018 09:20 am",
     "_id": "fb975d381648417b99ed839c1aff5f51",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21094,11 +23362,8 @@
     "updatedAt": "11/18/2018 09:21 am",
     "_id": "19dbe584b4de49419f3039de3236a163",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
-      {
-        "consoleName": "Dreamcast",
-        "consoleId": 23
-      },
       {
         "consoleName": "Dreamcast",
         "consoleId": 23
@@ -21144,6 +23409,7 @@
     "updatedAt": "11/18/2018 09:22 am",
     "_id": "08e98091c36d4630bebfea7a84e4a1f8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21193,6 +23459,29 @@
     "extraData": [
       "Sega Dreamcast launch title"
     ],
+    "extraDataFull": {
+      "name": "Sonic Adventure",
+      "id": "sdc57",
+      "details": [
+        "Sega Dreamcast launch title"
+      ],
+      "igdbId": 7860,
+      "gbId": 7852,
+      "gbGuid": "3030-7852",
+      "tgdbId": 2416,
+      "isLaunchTitle": [
+        {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21239,6 +23528,7 @@
     "updatedAt": "11/18/2018 09:24 am",
     "_id": "f21d5c09cb024a608fae8cef111e9b8c",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21297,11 +23587,8 @@
     "updatedAt": "11/18/2018 09:25 am",
     "_id": "dcfcec738e534ae5990f3501f98d0956",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
-      {
-        "consoleName": "Dreamcast",
-        "consoleId": 23
-      },
       {
         "consoleName": "Dreamcast",
         "consoleId": 23
@@ -21345,6 +23632,7 @@
     "updatedAt": "11/18/2018 09:27 am",
     "_id": "fa4a74f1d1d0411191e43a163f384e30",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21393,6 +23681,29 @@
     "extraData": [
       "Sega Dreamcast launch title"
     ],
+    "extraDataFull": {
+      "name": "The House of the Dead 2",
+      "id": "sdc67",
+      "details": [
+        "Sega Dreamcast launch title"
+      ],
+      "igdbId": 13777,
+      "gbId": 422,
+      "gbGuid": "3030-422",
+      "tgdbId": 3961,
+      "isLaunchTitle": [
+        {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21439,6 +23750,7 @@
     "updatedAt": "11/18/2018 09:29 am",
     "_id": "ac326289a52a4d8c900642a106711bc6",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21488,6 +23800,39 @@
       "Sega Dreamcast launch title",
       "Sega Dreamcast exclusive"
     ],
+    "extraDataFull": {
+      "name": "Mortal Kombat Gold",
+      "id": "sdc33",
+      "details": [
+        "Sega Dreamcast launch title",
+        "Sega Dreamcast exclusive"
+      ],
+      "igdbId": 45155,
+      "gbId": 4652,
+      "gbGuid": "3030-4652",
+      "tgdbId": 3648,
+      "isLaunchTitle": [
+        {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      ],
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21536,6 +23881,7 @@
     "updatedAt": "11/18/2018 09:30 am",
     "_id": "d16817d935814388925680cc61f79d03",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21583,6 +23929,7 @@
     "updatedAt": "11/23/2018 07:21 pm",
     "_id": "82c7efa1195c45eabc3aaa1c8b65a281",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21632,6 +23979,29 @@
     "extraData": [
       "Sega Dreamcast launch title"
     ],
+    "extraDataFull": {
+      "name": "SoulCalibur",
+      "id": "sdc60",
+      "details": [
+        "Sega Dreamcast launch title"
+      ],
+      "igdbId": 1564,
+      "gbId": 12411,
+      "gbGuid": "3030-12411",
+      "tgdbId": 7767,
+      "isLaunchTitle": [
+        {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21679,6 +24049,7 @@
     "updatedAt": "02/02/2019 02:08 pm",
     "_id": "7a74aec006af4c278e0e13e5522c11ad",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21728,6 +24099,29 @@
     "extraData": [
       "Sega Dreamcast exclusive"
     ],
+    "extraDataFull": {
+      "name": "NBA 2K",
+      "details": [
+        "Sega Dreamcast exclusive"
+      ],
+      "id": "sdc34",
+      "igdbId": 8832,
+      "gbId": 6839,
+      "gbGuid": "3030-6839",
+      "tgdbId": 11998,
+      "isExclusive": [
+        {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -21775,6 +24169,7 @@
     "updatedAt": "12/29/2019 05:35 am",
     "_id": "ff6bc7e61d4d42358008437f4aaabd5b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Dreamcast",
@@ -22355,6 +24750,42 @@
       "Genesis launch title",
       "Sega Genesis/Mega Drive black box grid game"
     ],
+    "extraDataFull": {
+      "name": "Altered Beast",
+      "id": "smd7",
+      "details": [
+        "Genesis launch title",
+        "Sega Genesis/Mega Drive black box grid game"
+      ],
+      "igdbId": 2604,
+      "gbId": 2536,
+      "gbGuid": "3030-2536",
+      "tgdbId": 118,
+      "isLaunchTitle": [
+        {
+          "name": "Sega Mega Drive/Genesis",
+          "id": "ccl14",
+          "igdbId": 29,
+          "gbId": 6,
+          "gbGuid": "3045-6",
+          "tgdbId": 18
+        }
+      ],
+      "special": [
+        {
+          "value": "Sega Genesis/Mega Drive black box grid game",
+          "forPlatform": {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        }
+      ],
+      "isExclusive": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22401,6 +24832,7 @@
     "updatedAt": "11/16/2018 07:45 pm",
     "_id": "7743d4e0dcd24da7ba0ccb4d9b671add",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22450,6 +24882,42 @@
       "Sega Genesis exclusive",
       "Sega Genesis Team Player compatible title"
     ],
+    "extraDataFull": {
+      "name": "College Football's National Championship II",
+      "details": [
+        "Sega Genesis exclusive",
+        "Sega Genesis Team Player compatible title"
+      ],
+      "id": "smd41",
+      "igdbId": 46535,
+      "gbId": 43820,
+      "gbGuid": "3030-43820",
+      "tgdbId": 4321,
+      "isExclusive": [
+        {
+          "name": "Sega Mega Drive/Genesis",
+          "id": "ccl14",
+          "igdbId": 29,
+          "gbId": 6,
+          "gbGuid": "3045-6",
+          "tgdbId": 18
+        }
+      ],
+      "special": [
+        {
+          "value": "Sega Genesis Team Player compatible title",
+          "forPlatform": {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        }
+      ],
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22499,6 +24967,32 @@
     "extraData": [
       "Sega Genesis/Mega Drive black box grid game"
     ],
+    "extraDataFull": {
+      "id": "smd43",
+      "name": "Columns",
+      "igdbId": 4446,
+      "gbId": 5487,
+      "gbGuid": "3030-5487",
+      "tgdbId": 465,
+      "details": [
+        "Sega Genesis/Mega Drive black box grid game"
+      ],
+      "special": [
+        {
+          "value": "Sega Genesis/Mega Drive black box grid game",
+          "forPlatform": {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22548,6 +25042,29 @@
     "extraData": [
       "Sega Genesis exclusive"
     ],
+    "extraDataFull": {
+      "name": "General Chaos",
+      "details": [
+        "Sega Genesis exclusive"
+      ],
+      "id": "smd98",
+      "igdbId": 10149,
+      "gbId": 2267,
+      "gbGuid": "3030-2267",
+      "tgdbId": 1939,
+      "isExclusive": [
+        {
+          "name": "Sega Mega Drive/Genesis",
+          "id": "ccl14",
+          "igdbId": 29,
+          "gbId": 6,
+          "gbGuid": "3045-6",
+          "tgdbId": 18
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22597,6 +25114,29 @@
     "extraData": [
       "Sega Genesis exclusive"
     ],
+    "extraDataFull": {
+      "name": "Jurassic Park",
+      "details": [
+        "Sega Genesis exclusive"
+      ],
+      "id": "smd125",
+      "igdbId": 4519,
+      "gbId": 73443,
+      "gbGuid": "3030-73443",
+      "tgdbId": 537,
+      "isExclusive": [
+        {
+          "name": "Sega Mega Drive/Genesis",
+          "id": "ccl14",
+          "igdbId": 29,
+          "gbId": 6,
+          "gbGuid": "3045-6",
+          "tgdbId": 18
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22648,6 +25188,7 @@
     "updatedAt": "11/16/2018 07:50 pm",
     "_id": "2c6ceb120bef451f927fe53765638aa5",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22698,6 +25239,32 @@
     "extraData": [
       "Sega Genesis/Mega Drive black box grid game"
     ],
+    "extraDataFull": {
+      "id": "smd132",
+      "name": "MERCS",
+      "igdbId": 4487,
+      "gbId": 10360,
+      "gbGuid": "3030-10360",
+      "tgdbId": 30618,
+      "details": [
+        "Sega Genesis/Mega Drive black box grid game"
+      ],
+      "special": [
+        {
+          "value": "Sega Genesis/Mega Drive black box grid game",
+          "forPlatform": {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22747,6 +25314,31 @@
     "extraData": [
       "Sega Genesis Team Player compatible title"
     ],
+    "extraDataFull": {
+      "name": "NBA Jam Tournament Edition",
+      "id": "smd156",
+      "details": [
+        "Sega Genesis Team Player compatible title"
+      ],
+      "igdbId": 19712,
+      "gbId": 14792,
+      "gbGuid": "3030-14792",
+      "special": [
+        {
+          "value": "Sega Genesis Team Player compatible title",
+          "forPlatform": {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22796,6 +25388,29 @@
     "extraData": [
       "Sega Genesis exclusive"
     ],
+    "extraDataFull": {
+      "name": "NFL Football '94 Starring Joe Montana",
+      "details": [
+        "Sega Genesis exclusive"
+      ],
+      "id": "smd159",
+      "igdbId": 46268,
+      "gbId": 164,
+      "gbGuid": "3030-164",
+      "tgdbId": 659,
+      "isExclusive": [
+        {
+          "name": "Sega Mega Drive/Genesis",
+          "id": "ccl14",
+          "igdbId": 29,
+          "gbId": 6,
+          "gbGuid": "3045-6",
+          "tgdbId": 18
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22844,6 +25459,7 @@
     "updatedAt": "11/17/2018 11:32 am",
     "_id": "8db3ca2a804a4127a5619f5acc997d84",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22891,6 +25507,7 @@
     "updatedAt": "11/17/2018 11:32 am",
     "_id": "d9924c7256a548c39cfc98bc1336316b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22937,6 +25554,7 @@
     "updatedAt": "11/17/2018 11:33 am",
     "_id": "a7bb1f9305b84cdb887bb48128ee70f9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -22985,6 +25603,7 @@
     "updatedAt": "11/17/2018 11:34 am",
     "_id": "0073e02160d141dab82788c8b98244a2",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23031,6 +25650,7 @@
     "updatedAt": "11/17/2018 11:34 am",
     "_id": "f76ab328e3c34e7da7c7a5b07d0f437b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23080,6 +25700,7 @@
     "updatedAt": "11/17/2018 11:35 am",
     "_id": "b1b2ae795f1d47c2805ccb9b05e1fe7b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23130,6 +25751,29 @@
     "extraData": [
       "Sega Genesis exclusive"
     ],
+    "extraDataFull": {
+      "name": "X-Men",
+      "details": [
+        "Sega Genesis exclusive"
+      ],
+      "id": "smd278",
+      "igdbId": 4531,
+      "gbId": 5428,
+      "gbGuid": "3030-5428",
+      "tgdbId": 10681,
+      "isExclusive": [
+        {
+          "name": "Sega Mega Drive/Genesis",
+          "id": "ccl14",
+          "igdbId": 29,
+          "gbId": 6,
+          "gbGuid": "3045-6",
+          "tgdbId": 18
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23178,6 +25822,7 @@
     "updatedAt": "02/23/2019 02:58 pm",
     "_id": "22f38bc423d7464891505a384b8bc4d1",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23224,6 +25869,7 @@
     "updatedAt": "09/02/2019 06:30 am",
     "_id": "f004018b44cb4f07b3ade3d96f72f987",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23273,6 +25919,32 @@
     "extraData": [
       "Sega Genesis/Mega Drive black box grid game"
     ],
+    "extraDataFull": {
+      "id": "smd208",
+      "name": "Sonic The Hedgehog",
+      "igdbId": 3192,
+      "gbId": 2465,
+      "gbGuid": "3030-2465",
+      "tgdbId": 40416,
+      "details": [
+        "Sega Genesis/Mega Drive black box grid game"
+      ],
+      "special": [
+        {
+          "value": "Sega Genesis/Mega Drive black box grid game",
+          "forPlatform": {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23321,6 +25993,7 @@
     "updatedAt": "11/30/2019 07:55 am",
     "_id": "cf7e86e479354fa98ad0a14bc0922abe",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23367,6 +26040,7 @@
     "updatedAt": "11/30/2019 07:56 am",
     "_id": "567f2901f54b4d4a8291ad6426bfb3f6",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23415,6 +26089,7 @@
     "updatedAt": "01/25/2020 03:17 pm",
     "_id": "d45d0cb6bd3346b490f8b72b8ffebf47",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23462,6 +26137,7 @@
     "updatedAt": "01/25/2020 03:22 pm",
     "_id": "7e37bed0102943c9ab8e56edf0b4b681",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23510,6 +26186,7 @@
     "updatedAt": "02/01/2020 06:47 am",
     "_id": "1d2dd375655d491abab2deb4e5a43956",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23557,6 +26234,7 @@
     "updatedAt": "02/08/2020 04:03 pm",
     "_id": "4f0efbf63aed414299d5209f6daa879b",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Mega Drive/Genesis",
@@ -23606,6 +26284,29 @@
     "extraData": [
       "Sega 32x exclusive"
     ],
+    "extraDataFull": {
+      "name": "Metal Head",
+      "details": [
+        "Sega 32x exclusive"
+      ],
+      "id": "s32x6",
+      "igdbId": 19780,
+      "gbId": 4621,
+      "gbGuid": "3030-4621",
+      "tgdbId": 4918,
+      "isExclusive": [
+        {
+          "name": "Sega 32X",
+          "id": "ccl16",
+          "igdbId": 30,
+          "gbId": 31,
+          "gbGuid": "3045-31",
+          "tgdbId": 33
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23655,6 +26356,29 @@
     "extraData": [
       "Sega 32X launch title"
     ],
+    "extraDataFull": {
+      "name": "Star Wars Arcade",
+      "id": "s32x10",
+      "details": [
+        "Sega 32X launch title"
+      ],
+      "igdbId": 39822,
+      "gbId": 10715,
+      "gbGuid": "3030-10715",
+      "tgdbId": 4926,
+      "isLaunchTitle": [
+        {
+          "name": "Sega 32X",
+          "id": "ccl16",
+          "igdbId": 30,
+          "gbId": 31,
+          "gbGuid": "3045-31",
+          "tgdbId": 33
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23701,6 +26425,7 @@
     "updatedAt": "11/18/2018 06:17 am",
     "_id": "1d35bb41166143858a32881dddd62ab1",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23747,6 +26472,29 @@
     "extraData": [
       "Sega 32X launch title"
     ],
+    "extraDataFull": {
+      "name": "Virtua Racing Deluxe",
+      "id": "s32x13",
+      "details": [
+        "Sega 32X launch title"
+      ],
+      "igdbId": 45880,
+      "gbId": 11455,
+      "gbGuid": "3030-11455",
+      "tgdbId": 4929,
+      "isLaunchTitle": [
+        {
+          "name": "Sega 32X",
+          "id": "ccl16",
+          "igdbId": 30,
+          "gbId": 31,
+          "gbGuid": "3045-31",
+          "tgdbId": 33
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23794,6 +26542,7 @@
     "updatedAt": "03/02/2019 12:47 pm",
     "_id": "84a62910a08e4e41890f02300a6b8210",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23841,6 +26590,7 @@
     "updatedAt": "07/27/2019 03:01 pm",
     "_id": "a4865cb63f434af69cb195da9aee5e34",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23889,6 +26639,29 @@
     "extraData": [
       "Sega 32x exclusive"
     ],
+    "extraDataFull": {
+      "name": "Cosmic Carnage",
+      "details": [
+        "Sega 32x exclusive"
+      ],
+      "id": "s32x0",
+      "igdbId": 45883,
+      "gbId": 13797,
+      "gbGuid": "3030-13797",
+      "tgdbId": 4914,
+      "isExclusive": [
+        {
+          "name": "Sega 32X",
+          "id": "ccl16",
+          "igdbId": 30,
+          "gbId": 31,
+          "gbGuid": "3045-31",
+          "tgdbId": 33
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23938,6 +26711,29 @@
     "extraData": [
       "Sega 32x exclusive"
     ],
+    "extraDataFull": {
+      "name": "Motocross Championship",
+      "details": [
+        "Sega 32x exclusive"
+      ],
+      "id": "s32x7",
+      "igdbId": 19779,
+      "gbId": 4838,
+      "gbGuid": "3030-4838",
+      "tgdbId": 9076,
+      "isExclusive": [
+        {
+          "name": "Sega 32X",
+          "id": "ccl16",
+          "igdbId": 30,
+          "gbId": 31,
+          "gbGuid": "3045-31",
+          "tgdbId": 33
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -23984,6 +26780,7 @@
     "updatedAt": "07/27/2019 03:04 pm",
     "_id": "aa2053d8999741b6931a54f7a98ce8cf",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -24031,6 +26828,7 @@
     "updatedAt": "07/27/2019 03:05 pm",
     "_id": "56fcff9276fd470bbf1cbf55284a46a4",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -24080,6 +26878,29 @@
     "extraData": [
       "Sega 32x exclusive"
     ],
+    "extraDataFull": {
+      "name": "Tempo",
+      "details": [
+        "Sega 32x exclusive"
+      ],
+      "id": "s32x11",
+      "igdbId": 45881,
+      "gbId": 3595,
+      "gbGuid": "3030-3595",
+      "tgdbId": 4927,
+      "isExclusive": [
+        {
+          "name": "Sega 32X",
+          "id": "ccl16",
+          "igdbId": 30,
+          "gbId": 31,
+          "gbGuid": "3045-31",
+          "tgdbId": 33
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -24126,6 +26947,7 @@
     "updatedAt": "02/08/2020 07:05 am",
     "_id": "27ad76ec9fed461eb41eee4a941a1d93",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
@@ -24172,6 +26994,7 @@
     "updatedAt": "11/18/2018 06:21 am",
     "_id": "6ac2e17d46ee48c7bc1a47c579040545",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Saturn",
@@ -24220,6 +27043,7 @@
     "updatedAt": "11/18/2018 06:24 am",
     "_id": "f8b6c3806ef24408a346cb6adcbd6362",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Saturn",
@@ -24267,6 +27091,7 @@
     "updatedAt": "12/04/2018 07:45 am",
     "_id": "f8c451babc0e461b8875082ab88e4a65",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Saturn",
@@ -24316,6 +27141,7 @@
     "updatedAt": "04/20/2019 04:55 pm",
     "_id": "85e86314e1c8428db251313c6d90b879",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Saturn",
@@ -24362,6 +27188,7 @@
     "updatedAt": "02/08/2020 04:05 pm",
     "_id": "244c57b948694e85a057c619ef691213",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Saturn",
@@ -24583,6 +27410,29 @@
     "extraData": [
       "Sega Game Gear exclusive"
     ],
+    "extraDataFull": {
+      "name": "Super Columns",
+      "details": [
+        "Sega Game Gear exclusive"
+      ],
+      "id": "sgg30",
+      "igdbId": 19690,
+      "gbId": 35111,
+      "gbGuid": "3030-35111",
+      "tgdbId": 25230,
+      "isExclusive": [
+        {
+          "name": "Sega Game Gear",
+          "id": "ccl19",
+          "igdbId": 35,
+          "gbId": 5,
+          "gbGuid": "3045-5",
+          "tgdbId": 20
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega Game Gear",
@@ -24630,6 +27480,7 @@
     "updatedAt": "09/12/2019 12:03 pm",
     "_id": "354a1de002e74be6a95960a7ddb700c0",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Game Gear",
@@ -24678,6 +27529,7 @@
     "updatedAt": "12/29/2019 05:33 am",
     "_id": "9e4d7a58feef46cf968050b46d1e3cf9",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega Game Gear",
@@ -25229,6 +28081,39 @@
       "Sony PSP launch title",
       "Sony PlayStation Portable exclusive"
     ],
+    "extraDataFull": {
+      "id": "spsp279",
+      "name": "Wipeout Pure",
+      "details": [
+        "Sony PSP launch title",
+        "Sony PlayStation Portable exclusive"
+      ],
+      "igdbId": 1542,
+      "gbId": 14796,
+      "gbGuid": "3030-14796",
+      "tgdbId": 7123,
+      "isLaunchTitle": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25282,6 +28167,7 @@
     "updatedAt": "11/21/2018 03:44 pm",
     "_id": "dac095a072414f85a26f2b9e87461995",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25329,6 +28215,7 @@
     "updatedAt": "11/21/2018 03:45 pm",
     "_id": "5e755888faec44e5ac03962e7fac4ad8",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25377,6 +28264,7 @@
     "updatedAt": "11/21/2018 03:46 pm",
     "_id": "073cfe49910644058ba40d60f4e68279",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25424,6 +28312,7 @@
     "updatedAt": "11/21/2018 03:47 pm",
     "_id": "e8fc820fd19b41a6a7d24df57e61841d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25473,6 +28362,29 @@
     "extraData": [
       "Sony PSP launch title"
     ],
+    "extraDataFull": {
+      "id": "spsp262",
+      "name": "Twisted Metal: Head-On",
+      "details": [
+        "Sony PSP launch title"
+      ],
+      "igdbId": 5414,
+      "gbId": 9259,
+      "gbGuid": "3030-9259",
+      "tgdbId": 7120,
+      "isLaunchTitle": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25524,6 +28436,29 @@
     "extraData": [
       "Sony PlayStation Portable exclusive"
     ],
+    "extraDataFull": {
+      "name": "Daxter",
+      "details": [
+        "Sony PlayStation Portable exclusive"
+      ],
+      "id": "spsp62",
+      "igdbId": 1533,
+      "gbId": 14604,
+      "gbGuid": "3030-14604",
+      "tgdbId": 7078,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25572,11 +28507,30 @@
     "extraData": [
       "Sony PlayStation Portable exclusive"
     ],
+    "extraDataFull": {
+      "name": "Killzone: Liberation",
+      "details": [
+        "Sony PlayStation Portable exclusive"
+      ],
+      "id": "spsp130",
+      "igdbId": 1868,
+      "gbId": 5556,
+      "gbGuid": "3030-5556",
+      "tgdbId": 15156,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
-      {
-        "consoleName": "PlayStation Portable",
-        "consoleId": 38
-      },
       {
         "consoleName": "PlayStation Portable",
         "consoleId": 38
@@ -25622,6 +28576,7 @@
     "updatedAt": "05/05/2019 07:34 pm",
     "_id": "f4eaecbf79764bdb8258d3e2c98dc03e",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25668,6 +28623,7 @@
     "updatedAt": "06/28/2019 06:12 am",
     "_id": "0926d94dd6aa4e36a62205ddd7819702",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25716,6 +28672,29 @@
     "extraData": [
       "Sony PSP launch title"
     ],
+    "extraDataFull": {
+      "id": "spsp141",
+      "name": "Lumines",
+      "details": [
+        "Sony PSP launch title"
+      ],
+      "igdbId": 4689,
+      "gbId": 5057,
+      "gbGuid": "3030-5057",
+      "tgdbId": 7095,
+      "isLaunchTitle": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25762,6 +28741,7 @@
     "updatedAt": "08/27/2019 11:30 am",
     "_id": "5958efe3c0404ad28cc360d45f31ea66",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25811,6 +28791,29 @@
     "extraData": [
       "Sony PlayStation Portable exclusive"
     ],
+    "extraDataFull": {
+      "name": "Sonic Rivals",
+      "details": [
+        "Sony PlayStation Portable exclusive"
+      ],
+      "id": "spsp223",
+      "igdbId": 19260,
+      "gbId": 836,
+      "gbGuid": "3030-836",
+      "tgdbId": 18037,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25858,6 +28861,7 @@
     "updatedAt": "11/10/2019 06:34 am",
     "_id": "30e42882f2174cdf95b8166e0aef91c1",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25907,6 +28911,29 @@
     "extraData": [
       "Sony PlayStation Portable exclusive"
     ],
+    "extraDataFull": {
+      "name": "MediEvil: Resurrection",
+      "details": [
+        "Sony PlayStation Portable exclusive"
+      ],
+      "id": "spsp151",
+      "igdbId": 4005,
+      "gbId": 14258,
+      "gbGuid": "3030-14258",
+      "tgdbId": 7099,
+      "isExclusive": [
+        {
+          "name": "Sony Playstation Portable",
+          "id": "ccl24",
+          "igdbId": 38,
+          "gbId": 18,
+          "gbGuid": "3045-18",
+          "tgdbId": 13
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "PlayStation Portable",
@@ -25955,6 +28982,7 @@
     "updatedAt": "11/21/2018 05:45 am",
     "_id": "5a8e679dec65456fb04e47921e8561b5",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26002,6 +29030,7 @@
     "updatedAt": "02/04/2019 06:42 am",
     "_id": "ec1358c9d8424a0396645fcda22f9b72",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26057,6 +29086,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "The Legend of Zelda: Twilight Princess HD",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu385",
+      "igdbId": 18017,
+      "gbId": 51484,
+      "gbGuid": "3030-51484",
+      "tgdbId": 33799,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26105,6 +29157,7 @@
     "updatedAt": "11/21/2018 05:49 am",
     "_id": "cad9e138aafa416dbfd3488ee7b1e6ef",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26153,6 +29206,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Mario & Sonic at the Sochi 2014 Olympic Winter Games",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu200",
+      "igdbId": 3990,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": null,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26200,6 +29276,7 @@
     "updatedAt": "11/21/2018 05:50 am",
     "_id": "aa44f9eb539449b0875a8cfdbfda8528",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26254,6 +29331,39 @@
       "Nintendo Wii U launch title",
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "id": "wiiu241",
+      "name": "Nintendo Land",
+      "details": [
+        "Nintendo Wii U launch title",
+        "Nintendo Wii U full exclusive"
+      ],
+      "igdbId": 2172,
+      "gbId": 38549,
+      "gbGuid": "3030-38549",
+      "tgdbId": 11743,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26303,6 +29413,29 @@
     "extraData": [
       "Nintendo Wii U launch title"
     ],
+    "extraDataFull": {
+      "id": "wiiu324",
+      "name": "Sonic & All-Stars Racing Transformed",
+      "details": [
+        "Nintendo Wii U launch title"
+      ],
+      "igdbId": 2174,
+      "gbId": 38173,
+      "gbGuid": "3030-38173",
+      "tgdbId": 12102,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26353,6 +29486,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Star Fox Guard",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu339",
+      "igdbId": 19687,
+      "gbId": 46595,
+      "gbGuid": "3030-46595",
+      "tgdbId": 36918,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26402,6 +29558,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Star Fox Zero",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu340",
+      "igdbId": 11196,
+      "gbId": 46584,
+      "gbGuid": "3030-46584",
+      "tgdbId": 31302,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26451,6 +29630,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Super Mario 3D World",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu353",
+      "igdbId": 2180,
+      "gbId": 42931,
+      "gbGuid": "3030-42931",
+      "tgdbId": 18153,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26499,6 +29701,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Super Mario Maker",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu354",
+      "igdbId": 7339,
+      "gbId": 46580,
+      "gbGuid": "3030-46580",
+      "tgdbId": 31277,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26549,6 +29774,29 @@
     "extraData": [
       "Nintendo Wii U platform exclusive"
     ],
+    "extraDataFull": {
+      "name": "Super Smash Bros. for Wii U",
+      "details": [
+        "Nintendo Wii U platform exclusive"
+      ],
+      "id": "wiiu356",
+      "igdbId": 9602,
+      "gbId": 35573,
+      "gbGuid": "3030-35573",
+      "tgdbId": 11151,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26600,6 +29848,29 @@
     "extraData": [
       "Nintendo Wii U full exclusive"
     ],
+    "extraDataFull": {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "details": [
+        "Nintendo Wii U full exclusive"
+      ],
+      "id": "wiiu384",
+      "igdbId": 2276,
+      "gbId": 41348,
+      "gbGuid": "3030-41348",
+      "tgdbId": 17824,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -26649,6 +29920,29 @@
     "extraData": [
       "Nintendo Wii U platform exclusive"
     ],
+    "extraDataFull": {
+      "name": "Hyrule Warriors",
+      "details": [
+        "Nintendo Wii U platform exclusive"
+      ],
+      "id": "wiiu170",
+      "igdbId": 5314,
+      "gbId": 44782,
+      "gbGuid": "3030-44782",
+      "tgdbId": 23230,
+      "isExclusive": [
+        {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Wii U",
@@ -28119,6 +31413,7 @@
     "updatedAt": "01/14/2019 07:52 am",
     "_id": "4a138bee7d4f450ba060315ed50d3de5",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28167,6 +31462,29 @@
     "extraData": [
       "Microsoft Xbox One full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Halo: The Master Chief Collection",
+      "details": [
+        "Microsoft Xbox One full exclusive"
+      ],
+      "id": "mxb193",
+      "igdbId": 7348,
+      "gbId": 46552,
+      "gbGuid": "3030-46552",
+      "tgdbId": 21398,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox One",
+          "id": "ccl27",
+          "igdbId": 49,
+          "gbId": 145,
+          "gbGuid": "3045-145",
+          "tgdbId": 4920
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28213,6 +31531,7 @@
     "updatedAt": "11/21/2018 06:19 am",
     "_id": "379898a319b247dc98abc7c60eecb44f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28261,6 +31580,29 @@
     "extraData": [
       "Microsoft Xbox One console exclusive"
     ],
+    "extraDataFull": {
+      "name": "Gears of War 4",
+      "details": [
+        "Microsoft Xbox One console exclusive"
+      ],
+      "id": "mxb180",
+      "igdbId": 11186,
+      "gbId": 45269,
+      "gbGuid": "3030-45269",
+      "tgdbId": 32352,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox One",
+          "id": "ccl27",
+          "igdbId": 49,
+          "gbId": 145,
+          "gbGuid": "3045-145",
+          "tgdbId": 4920
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28309,11 +31651,8 @@
     "updatedAt": "01/14/2019 07:52 am",
     "_id": "61b8e6c633204415bc4392f833f85a83",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
-      {
-        "consoleName": "Xbox One",
-        "consoleId": 49
-      },
       {
         "consoleName": "Xbox One",
         "consoleId": 49
@@ -28361,6 +31700,29 @@
     "extraData": [
       "Microsoft Xbox One full exclusive"
     ],
+    "extraDataFull": {
+      "name": "Halo 5: Guardians",
+      "details": [
+        "Microsoft Xbox One full exclusive"
+      ],
+      "id": "mxb190",
+      "igdbId": 6803,
+      "gbId": 42905,
+      "gbGuid": "3030-42905",
+      "tgdbId": 21335,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox One",
+          "id": "ccl27",
+          "igdbId": 49,
+          "gbId": 145,
+          "gbGuid": "3045-145",
+          "tgdbId": 4920
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28409,6 +31771,29 @@
     "extraData": [
       "Microsoft Xbox One console exclusive"
     ],
+    "extraDataFull": {
+      "name": "Titanfall",
+      "details": [
+        "Microsoft Xbox One console exclusive"
+      ],
+      "id": "mxb1217",
+      "igdbId": 2115,
+      "gbId": 42860,
+      "gbGuid": "3030-42860",
+      "tgdbId": 17252,
+      "isExclusive": [
+        {
+          "name": "Microsoft Xbox One",
+          "id": "ccl27",
+          "igdbId": 49,
+          "gbId": 145,
+          "gbGuid": "3045-145",
+          "tgdbId": 4920
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28457,6 +31842,7 @@
     "updatedAt": "02/07/2019 09:26 pm",
     "_id": "19a3ae4821d4413491337daeb4b9d1a1",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28505,6 +31891,7 @@
     "updatedAt": "04/13/2019 01:20 pm",
     "_id": "2191f28389e84ce587e5b062795720af",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28552,6 +31939,7 @@
     "updatedAt": "04/13/2019 01:22 pm",
     "_id": "c14a440cf8334ad497efc5f9231e5879",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28595,6 +31983,7 @@
     "updatedAt": "05/26/2019 08:36 pm",
     "_id": "91d4d8948c684fb9b555523c6ea6d04f",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28642,6 +32031,7 @@
     "updatedAt": "05/05/2019 07:38 pm",
     "_id": "c7a6f66b737743b4b1dcde8161b11d7d",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -28689,6 +32079,7 @@
     "updatedAt": "02/01/2020 08:33 am",
     "_id": "72d9f267630341e5b6bae17e676940c3",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Xbox One",
@@ -29057,6 +32448,39 @@
       "Atari 2600 launch title",
       "Atari 2600 exclusive"
     ],
+    "extraDataFull": {
+      "name": "Combat",
+      "id": "a2621",
+      "details": [
+        "Atari 2600 launch title",
+        "Atari 2600 exclusive"
+      ],
+      "igdbId": 16759,
+      "gbId": 5368,
+      "gbGuid": "3030-5368",
+      "tgdbId": 4887,
+      "isLaunchTitle": [
+        {
+          "name": "Atari 2600",
+          "id": "ccl28",
+          "igdbId": 59,
+          "gbId": 40,
+          "gbGuid": "3045-40",
+          "tgdbId": 22
+        }
+      ],
+      "isExclusive": [
+        {
+          "name": "Atari 2600",
+          "id": "ccl28",
+          "igdbId": 59,
+          "gbId": 40,
+          "gbGuid": "3045-40",
+          "tgdbId": 22
+        }
+      ],
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29105,6 +32529,29 @@
     "extraData": [
       "Atari 2600 launch title"
     ],
+    "extraDataFull": {
+      "name": "Video Olympics (Pong Sports)",
+      "id": "a26113",
+      "details": [
+        "Atari 2600 launch title"
+      ],
+      "igdbId": 54791,
+      "gbId": 3294,
+      "gbGuid": "3030-3294",
+      "tgdbId": 7957,
+      "isLaunchTitle": [
+        {
+          "name": "Atari 2600",
+          "id": "ccl28",
+          "igdbId": 59,
+          "gbId": 40,
+          "gbGuid": "3045-40",
+          "tgdbId": 22
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29151,6 +32598,7 @@
     "updatedAt": "11/30/2019 07:58 am",
     "_id": "206ba55e7cb34d5cbfd9a1518d4076e6",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29197,6 +32645,7 @@
     "updatedAt": "11/30/2019 08:01 am",
     "_id": "e0cdc76b59064b4ebf87c7153e460da0",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29243,6 +32692,7 @@
     "updatedAt": "11/30/2019 08:01 am",
     "_id": "8b043398ce9241b394f9f27c3d943d39",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29290,6 +32740,7 @@
     "updatedAt": "11/30/2019 08:02 am",
     "_id": "d67858950b954ba59bdffdbc2a3e2404",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29338,6 +32789,7 @@
     "updatedAt": "12/29/2019 05:39 am",
     "_id": "2ebd9a9a98ac420cb9e3b433faac4ae7",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29384,6 +32836,7 @@
     "updatedAt": "12/31/2019 06:06 am",
     "_id": "e8762f05ce8b417cb88dcb836a78b488",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Atari 2600",
@@ -29430,6 +32883,7 @@
     "updatedAt": "08/16/2019 06:53 am",
     "_id": "1db4818710ec4a1faef09e04b4ec86b0",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "Sega CD",
@@ -29478,6 +32932,29 @@
     "extraData": [
       "Sega CD launch title"
     ],
+    "extraDataFull": {
+      "name": "Sewer Shark",
+      "id": "scd32",
+      "details": [
+        "Sega CD launch title"
+      ],
+      "igdbId": 4293,
+      "gbId": 7427,
+      "gbGuid": "3030-7427",
+      "tgdbId": 739,
+      "isLaunchTitle": [
+        {
+          "name": "Sega CD",
+          "id": "ccl15",
+          "igdbId": 78,
+          "gbId": 29,
+          "gbGuid": "3045-29",
+          "tgdbId": 21
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega CD",
@@ -29527,6 +33004,29 @@
     "extraData": [
       "Sega CD launch title"
     ],
+    "extraDataFull": {
+      "name": "Night Trap",
+      "id": "scd25",
+      "details": [
+        "Sega CD launch title"
+      ],
+      "igdbId": 2486,
+      "gbId": 18648,
+      "gbGuid": "3030-18648",
+      "tgdbId": 5071,
+      "isLaunchTitle": [
+        {
+          "name": "Sega CD",
+          "id": "ccl15",
+          "igdbId": 78,
+          "gbId": 29,
+          "gbGuid": "3045-29",
+          "tgdbId": 21
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega CD",
@@ -29575,6 +33075,29 @@
     "extraData": [
       "Sega CD exclusive"
     ],
+    "extraDataFull": {
+      "name": "Ground Zero: Texas",
+      "details": [
+        "Sega CD exclusive"
+      ],
+      "id": "scd14",
+      "igdbId": 5390,
+      "gbId": 20309,
+      "gbGuid": "3030-20309",
+      "tgdbId": 5018,
+      "isExclusive": [
+        {
+          "name": "Sega CD",
+          "id": "ccl15",
+          "igdbId": 78,
+          "gbId": 29,
+          "gbGuid": "3045-29",
+          "tgdbId": 21
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "Sega CD",
@@ -29622,6 +33145,7 @@
     "updatedAt": "09/13/2019 08:58 pm",
     "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
     "extraData": [],
+    "extraDataFull": [],
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -29670,6 +33194,29 @@
     "extraData": [
       "TurboGrafx 16 launch title"
     ],
+    "extraDataFull": {
+      "id": "tg161",
+      "name": "Alien Crush",
+      "details": [
+        "TurboGrafx 16 launch title"
+      ],
+      "igdbId": 12492,
+      "gbId": 19109,
+      "gbGuid": "3030-19109",
+      "tgdbId": 8186,
+      "isLaunchTitle": [
+        {
+          "name": "NEC TurboGrafx 16",
+          "id": "ccl33",
+          "igdbId": 86,
+          "gbId": 55,
+          "gbGuid": "3045-55",
+          "tgdbId": 34
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    },
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -29721,6 +33268,43 @@
       "TurboGrafx-16 Multitap compatible title",
       "TurboGrafx-16 5 player"
     ],
+    "extraDataFull": {
+      "id": "tg1621",
+      "name": "Dungeon Explorer",
+      "details": [
+        "TurboGrafx 16 launch title",
+        "TurboGrafx-16 Multitap compatible title",
+        "TurboGrafx-16 5 player"
+      ],
+      "igdbId": 74314,
+      "gbId": 7849,
+      "gbGuid": "3030-7849",
+      "tgdbId": 442,
+      "isLaunchTitle": [
+        {
+          "name": "NEC TurboGrafx 16",
+          "id": "ccl33",
+          "igdbId": 86,
+          "gbId": 55,
+          "gbGuid": "3045-55",
+          "tgdbId": 34
+        }
+      ],
+      "special": [
+        {
+          "value": "TurboGrafx-16 Multitap compatible title, TurboGrafx-16 5 player",
+          "forPlatform": {
+            "name": "NEC TurboGrafx 16",
+            "id": "ccl33",
+            "igdbId": 86,
+            "gbId": 55,
+            "gbGuid": "3045-55",
+            "tgdbId": 34
+          }
+        }
+      ],
+      "isExclusive": false
+    },
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -29770,6 +33354,32 @@
       "TurboGrafx-16 Multitap compatible title",
       "TurboGrafx-16 simultaneous 2 player"
     ],
+    "extraDataFull": {
+      "name": "Takin' it to the Hoop",
+      "id": "tg1648",
+      "details": [
+        "TurboGrafx-16 Multitap compatible title",
+        "TurboGrafx-16 simultaneous 2 player"
+      ],
+      "igdbId": 44338,
+      "gbId": 30612,
+      "gbGuid": "3030-30612",
+      "special": [
+        {
+          "value": "TurboGrafx-16 Multitap compatible title, TurboGrafx-16 simultaneous 2 player",
+          "forPlatform": {
+            "name": "NEC TurboGrafx 16",
+            "id": "ccl33",
+            "igdbId": 86,
+            "gbId": 55,
+            "gbGuid": "3045-55",
+            "tgdbId": 34
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    },
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",

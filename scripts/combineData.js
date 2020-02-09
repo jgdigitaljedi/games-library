@@ -26,16 +26,19 @@ const supp = keys.map(key => {
       if (game && game.igdb && game.igdb.id) {
         const index = ids.indexOf(game.igdb.id);
         if (game.extraData) {
+          game.extraDataFull = [...game.extraDataFull, ...file[index]];
           game.extraData = [...game.extraData, ...file[index].details];
         } else {
           if (file[index]) {
             game.extraData = file[index].details;
+            game.extraDataFull = file[index];
           } else {
             game.extraData = [];
+            game.extraDataFull = [];
           }
         }
-        return game;
       }
+      return game;
     });
   } else {
     return sorted[key];
@@ -51,7 +54,10 @@ const combined = flat.reduce((acc, game) => {
   if (game && game.igdb && game.igdb.id) {
     const ind = indexes.indexOf(game.igdb.id);
     if (ind >= 0) {
-      acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
+      const theIds = acc[ind].consoleArr.map(c => c.consoleId);
+      if (theIds.indexOf(game.consoleIgdbId) < 0) {
+        acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
+      }
       const xbBc = bc.xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
       xbBc.forEach(c => acc[ind].consoleArr.push(c));
       acc[ind].consoleArr.forEach(con => {
@@ -73,7 +79,12 @@ const combined = flat.reduce((acc, game) => {
         const xbBc = bc.xboxBcCheck(+game.igdb.id, +game.consoleIgdbId === 11);
         if (xbBc && xbBc.length) {
           // game.consoleArr = [...game.consoleArr, xbBc];
-          xbBc.forEach(c => game.consoleArr.push(c));
+          xbBc.forEach(c => {
+            const xbIds = game.consoleArr.map(g => g.consoleId);
+            if (xbIds.indexOf(c.consoleId) < 0) {
+              game.consoleArr.push(c);
+            }
+          });
         }
       }
       // @TODO: decide what to do for outer else

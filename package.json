@@ -1,6 +1,6 @@
 {
   "name": "game-library",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "scripts": {
     "start": "NODE_ENV=development nodemon server/server.js & npm run watch-css & react-scripts start",
     "build": "react-scripts build",
@@ -8,7 +8,9 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/App.scss -o src/ --watch --recursive",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "data:process": "node scripts/combineData.js"
+    "process:combined": "node scripts/combineData.js",
+    "process:lists": "node scripts/makeListsData.js",
+    "process": "process:combined & process:lists"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",

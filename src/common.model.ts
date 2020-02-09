@@ -42,4 +42,5 @@ export interface IGame {
   genres: string;
   consoleArr?: IConsoleArr[];
   extraData?: string[];
+  extraDataFull?: object[];
 }

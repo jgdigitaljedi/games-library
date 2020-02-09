@@ -1,53 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const _flatten = require('lodash/flatten');
-
-const fileLookup = require('./fileLookup').getFileRef;
 const bc = require('./backwardCompatible');
-const games = require('../server/db/games.json');
+const games = require('../server/db/gamesExtra.json');
+const chalk = require('chalk');
 
-// sort the games by console first to make iterating through files more efficient
-const sorted = games.reduce((acc, obj) => {
-  if (acc[obj.consoleIgdbId.toString()]) {
-    acc[obj.consoleIgdbId.toString()].push(obj);
-  } else {
-    acc[obj.consoleIgdbId.toString()] = [obj];
-  }
-  return acc;
-}, {});
-
-const keys = Object.keys(sorted);
-
-const supp = keys.map(key => {
-  const file = fileLookup(key);
-  if (file) {
-    const ids = file.map(f => f.igdbId);
-    return sorted[key].map(game => {
-      if (game && game.igdb && game.igdb.id) {
-        const index = ids.indexOf(game.igdb.id);
-        if (game.extraData) {
-          game.extraDataFull = [...game.extraDataFull, ...file[index]];
-          game.extraData = [...game.extraData, ...file[index].details];
-        } else {
-          if (file[index]) {
-            game.extraData = file[index].details;
-            game.extraDataFull = file[index];
-          } else {
-            game.extraData = [];
-            game.extraDataFull = [];
-          }
-        }
-      }
-      return game;
-    });
-  } else {
-    return sorted[key];
-  }
-});
-
-const flat = _flatten(supp);
 const indexes = [];
-const combined = flat.reduce((acc, game) => {
+const combined = games.reduce((acc, game) => {
   if (!acc) {
     acc = [];
   }
@@ -93,8 +51,12 @@ const combined = flat.reduce((acc, game) => {
   }
   return acc;
 }, []);
-const writable = JSON.stringify(combined, null, 2);
+const writable = JSON.stringify(combined);
 
 fs.writeFile(path.join(__dirname, '../server/db/combinedGames.json'), writable, error => {
-  console.log('error', error);
+  if (error) {
+    console.log(chalk.red.bold('ERROR COMBINING DATA', error));
+  } else {
+    console.log(chalk.cyan('SUCCESSFULLY COMBINED DATA!'));
+  }
 });

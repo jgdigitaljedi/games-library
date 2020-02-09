@@ -10,7 +10,8 @@
     "eject": "react-scripts eject",
     "process:combined": "node scripts/combineData.js",
     "process:lists": "node scripts/makeListsData.js",
-    "process": "process:combined & process:lists"
+    "process:supp": "node scripts/supplementGameData.js",
+    "process": "npm run process:supp && npm run process:combined && npm run process:lists"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",

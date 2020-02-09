@@ -30,7 +30,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
           <div className="right-container">
             <p>{game.gb.deck}</p>
             <div className="card-row">
-              <table>
+              <table style={{ marginRight: '2rem' }}>
                 <tbody>
                   <tr>
                     <td className="table-cat">Originally released</td>
@@ -53,6 +53,14 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                     <td>{game.physical ? 'YES' : 'NO'}</td>
                   </tr>
                   <tr>
+                    <td className="table-cat">CIB</td>
+                    <td>{game.cib ? 'YES' : 'NO'}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table>
+                <tbody>
+                  <tr>
                     <td className="table-cat">Case</td>
                     <td>{game.case}</td>
                   </tr>
@@ -72,31 +80,39 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                     <td className="table-cat">How Acquired</td>
                     <td>{game.howAcquired}</td>
                   </tr>
+                  <tr>
+                    <td className="table-cat">Rating</td>
+                    <td>{`${game.igdb.total_rating} out of 100`}</td>
+                  </tr>
                 </tbody>
               </table>
-              <div className="image-container">
-                <img
-                  src={
-                    game && game.igdb && game.igdb.esrb
-                      ? ratingImages(game.igdb.esrb)
-                      : 'Video-Game-Controller_Icon.svg.png'
-                  }
-                  alt="ESRB Rating"
-                  onError={(e: any) => {
-                    e.target.onerror = null;
-                    e.target.src = 'Video-Game-Controller-Icon.svg.png';
-                  }}
-                />
-                {game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3>}
-                <div className="extra-data">
-                  {game.extraData &&
-                    game.extraData.length &&
-                    game.extraData.map(g => {
-                      return <div>{g}</div>;
-                    })}
-                </div>
-              </div>
             </div>
+          </div>
+        </div>
+        <div className="image-container">
+          <img
+            src={
+              game && game.igdb && game.igdb.esrb
+                ? ratingImages(game.igdb.esrb)
+                : 'Video-Game-Controller_Icon.svg.png'
+            }
+            alt="ESRB Rating"
+            onError={(e: any) => {
+              e.target.onerror = null;
+              e.target.src = 'Video-Game-Controller-Icon.svg.png';
+            }}
+          />
+          {game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3>}
+          <div className="extra-data">
+            {game.extraData &&
+              game.extraData.length > 0 &&
+              game.extraData.map(g => {
+                if (g) {
+                  return <div>{g}</div>;
+                } else {
+                  return null;
+                }
+              })}
           </div>
         </div>
         <h4>{game && game.igdb ? game.igdb.name : ''} can be played on:</h4>

@@ -49,18 +49,15 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
 
-  const getData = useCallback(
-    async (ed?: boolean) => {
-      const result = await axios.post('http://localhost:4001/api/gamescombined', {
-        everDrive: ed
-      });
-      if (result && result.data) {
-        setData(result.data);
-        setMasterData(result.data);
-      }
-    },
-    []
-  );
+  const getData = useCallback(async (ed?: boolean) => {
+    const result = await axios.post('http://localhost:4001/api/gamescombined', {
+      everDrive: ed
+    });
+    if (result && result.data) {
+      setData(result.data);
+      setMasterData(result.data);
+    }
+  }, []);
 
   const checkForReset = useCallback(() => {
     const keys = Object.entries(formState);
@@ -279,6 +276,8 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         visible={showModal}
         header={selectedCard ? selectedCard['igdb']['name'] : ''}
         modal={true}
+        closeOnEscape={true}
+        dismissableMask={true}
         onHide={() => {
           setSelectedCard(null);
           setShowModal(false);

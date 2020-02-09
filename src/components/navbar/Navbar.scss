@@ -3,14 +3,15 @@
   display: flex;
   background-color: $secondary;
   padding: 1rem;
-  a {
+  a,
+  a:visited {
     margin: auto $gutter;
     font-size: 2rem;
-    // font-weight: bold;
+    color: $light-orange;
     font-family: $secondary-font;
     text-transform: uppercase;
     &.active {
-      color: darken($warn, 15%);
+      color: darken($light-khaki, 15%);
       font-weight: bold;
     }
   }

@@ -53,8 +53,13 @@ html {
     }
   }
 
-  .p-dialog-content {
-    max-height: calc(100vh - 5rem);
-    overflow-y: auto;
+  .p-dialog {
+    width: 90%;
+    max-width: 1200px;
+    .p-dialog-content {
+      padding: 0;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+    }
   }
 }

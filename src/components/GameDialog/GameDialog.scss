@@ -1,14 +1,18 @@
 @import '../../style/theme.scss';
 
 .game-dialog {
-  max-width: 1600px;
+  // max-width: 1600px;
   width: 100%;
   .game-dialog--body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    h4 {
+      padding-left: $gutter;
+    }
     .game-dialog--body__image-and-deck {
       display: flex;
+      padding: $gutter;
       img {
         max-width: 40rem;
         max-height: 30rem;
@@ -24,38 +28,43 @@
         .card-row {
           display: flex;
           table {
-            max-width: 20rem;
+            max-width: 30rem;
             font-size: 1rem;
             tr {
               td {
+                padding: 0.25rem;
                 border-bottom: 1pt solid $white;
               }
               td.table-cat {
                 font-weight: bold;
-                color: $warn;
+                color: $light-blue;
                 font-family: $secondary-font;
               }
             }
           }
-          .image-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            img {
-              max-height: 12rem;
-              margin-left: 2rem;
-            }
-            .extra-data {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              flex-direction: column;
-              margin-left: 2.5rem;
-              div {
-                margin-top: 1rem;
-              }
-            }
-          }
+        }
+      }
+    }
+    .image-container {
+      margin: 1rem 0;
+      display: flex;
+      width: 100%;
+      // flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        max-height: 6rem;
+        margin-left: 2rem;
+      }
+      .extra-data {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 2.5rem;
+        color: $light-green;
+        div {
+          margin-top: 1rem;
         }
       }
     }

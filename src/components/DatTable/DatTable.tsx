@@ -71,11 +71,17 @@ class TheTable extends Component<IProps, IState> {
   }
 
   private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {
+    // const imageStyle = {
+    //   maxWidth: '5rem',
+    //   maxHeight: '5rem',
+    //   height: 'auto',
+    //   width: 'auto'
+    // } as CSSProperties;
     const imageStyle = {
-      maxWidth: '5rem',
-      maxHeight: '5rem',
-      height: 'auto',
-      width: 'auto'
+      width: '7rem',
+      height: '4rem',
+      objectFit: 'cover',
+      objectPosition: '50% 0%'
     } as CSSProperties;
     return (
       <img

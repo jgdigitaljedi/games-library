@@ -74,8 +74,10 @@
       background-color: $white;
       padding: 1rem;
       img {
-        max-height: 10rem;
-        max-width: 8rem;
+        max-height: 8rem;
+        max-width: 100%;
+        height: auto;
+        width: auto;
       }
     }
   }

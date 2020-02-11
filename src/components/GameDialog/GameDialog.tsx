@@ -14,7 +14,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
 
-  console.log('game', game);
+  // console.log('game', 100);
   return game ? (
     <section className="game-dialog">
       <div className="game-dialog--body">
@@ -123,6 +123,9 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                 src={(assetsService.platformLogos as IRatings)[con.consoleName]}
                 alt={con.consoleName}
                 key={index}
+                style={{
+                  maxWidth: `${90 / (game && game.consoleArr ? game.consoleArr.length : 1)}%`
+                }}
               />
             ))
           ) : (

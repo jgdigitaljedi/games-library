@@ -30,7 +30,7 @@ export const filters = {
   },
   filterGenre: (data: IGame[], genre: string): IGame[] => {
     return data.filter(d => {
-      return get(d, 'genres').indexOf(genre) >= 0;
+      return get(d, 'igdb.genres').indexOf(genre) >= 0;
     });
   }
 };

@@ -1,4 +1,5 @@
 import React, { FunctionComponent, PropsWithChildren } from 'react';
+import { Rating } from 'primereact/rating';
 import './GameDialog.scss';
 import { IConsoleArr, IGame } from '../../common.model';
 import assetsService from '../../services/assets.service';
@@ -82,7 +83,15 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                   </tr>
                   <tr>
                     <td className="table-cat">Rating</td>
-                    <td>{`${game.igdb.total_rating} out of 100`}</td>
+                    <td>
+                      <Rating
+                        value={Math.round(game.igdb.total_rating / 20)}
+                        readonly
+                        stars={5}
+                        cancel={!game.igdb.total_rating}
+                        disabled={!game.igdb.total_rating}
+                        />
+                    </td>
                   </tr>
                 </tbody>
               </table>

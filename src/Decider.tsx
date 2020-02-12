@@ -49,10 +49,10 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     { label: 'NOT SET', value: '' }
   ]);
   const [esrbArray, setEsrbArray]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
-  const [platformArray, setPlatformArray]: [IDropdown[], any] = useState([
+  const [filteredPlatforms, setFilteredPlatforms]: [IDropdown[], any] = useState([
     { label: 'NOT SET', value: '' }
   ]);
-  const [filteredPlatforms, setFilteredPlatforms]: [IDropdown[], any] = useState([
+  const [masterPa, setMasterPa]: [IDropdown[], any] = useState([
     { label: 'NOT SET', value: '' }
   ]);
   const [nameStr, setNameStr]: [string, any] = useState('');
@@ -77,7 +77,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
 
   const getGenreArray = useCallback(() => {
     if (data && data.length > 1) {
-      const newGenres = flatten(data.map(d => d.igdb.genres || null).filter((d: string) => d))
+      const newGenres = sortBy(flatten(data.map(d => d.igdb.genres || null).filter((d: string) => d))
         .reduce((acc: string[], g: string) => {
           if (!acc) {
             acc = [];
@@ -89,7 +89,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         }, [])
         .map((g: string) => {
           return { label: g, value: g };
-        });
+        }), 'label');
       newGenres.unshift({ label: 'NOT SET', value: '' });
       setGenreArray(newGenres);
     }
@@ -97,7 +97,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
 
   const getPlatformArray = useCallback(() => {
     if (data && data.length > 1) {
-      const newPlatforms = flatten(data.map(d => d.consoleName || null).filter((d: string) => d))
+      const newPlatforms = sortBy(flatten(data.map(d => d.consoleName || null).filter((d: string) => d))
         .reduce((acc: string[], g: string) => {
           if (!acc) {
             acc = [];
@@ -109,17 +109,16 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         }, [])
         .map((g: string) => {
           return { label: g, value: g };
-        })
-        .sort();
+        }), 'label');
       newPlatforms.unshift({ label: 'NOT SET', value: '' });
-      setPlatformArray(sortBy(newPlatforms, 'label'));
-      setFilteredPlatforms(cloneDeep(sortBy(newPlatforms, 'label')));
+      setFilteredPlatforms(newPlatforms);
+      setMasterPa(newPlatforms);
     }
-  }, [data, setPlatformArray]);
+  }, [data, setMasterPa]);
 
   const getEsrbArray = useCallback(() => {
     if (data && data.length > 1) {
-      const newRatings = flatten(data.map(d => d.igdb.esrb || null).filter((d: string) => d))
+      const newRatings = sortBy(flatten(data.map(d => d.igdb.esrb || null).filter((d: string) => d))
         .reduce((acc: string[], g: string) => {
           if (!acc) {
             acc = [];
@@ -131,7 +130,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         }, [])
         .map((g: string) => {
           return { label: g, value: g };
-        });
+        }), 'label');
       newRatings.unshift({ label: 'NOT SET', value: '' });
       setEsrbArray(newRatings);
     }
@@ -178,7 +177,7 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   useEffect(() => {
     getGenreArray();
     getEsrbArray();
-    getPlatformArray();
+    // getPlatformArray();
   }, [data, getGenreArray, getEsrbArray, getPlatformArray]);
 
   useEffect(() => {
@@ -201,37 +200,28 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   };
 
   const autoCompletePlatform = (data: IAutoCompleteData) => {
-    console.log('text', data);
-    console.log('platformArray', platformArray);
     if (data.query && data.query.length) {
       const query = data.query.toLowerCase().trim();
-      const filteredPlatforms = cloneDeep(platformArray).filter(p => {
+      const filteredPlatforms = cloneDeep(masterPa).filter(p => {
         return p.label.toLowerCase().indexOf(query) >= 0;
       });
-      console.log('filtered', filteredPlatforms);
       setFilteredPlatforms(filteredPlatforms);
     } else {
-      setFilteredPlatforms(cloneDeep(platformArray));
+      setFilteredPlatforms(cloneDeep(masterPa));
     }
   };
 
   const acKeyUp = (e: any) => {
-    console.log('key', e.keyCode);
     if (e.keyCode === 8) { // backspace
-      console.log('key val', acValue);
+      autoCompletePlatform({originalEvent: e, query: acValue});
+      if (!acValue) {
+        const fsCopy = cloneDeep(formState);
+        fsCopy.platform = '';
+        setFormState(fsCopy);
+        setFilteredPlatforms(cloneDeep(masterPa));
+      }
     }
   };
-  /* <Dropdown
-            id="platform"
-            name="platform"
-            value={formState.platform}
-            onChange={e => {
-              const fsCopy = cloneDeep(formState);
-              fsCopy.platform = e.value;
-              setFormState(fsCopy);
-            }}
-            options={platformArray || []}
-          /> */
 
   return (
     <section className="decider">
@@ -265,13 +255,12 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
             field="label"
             completeMethod={autoCompletePlatform}
             onClear={e => {
-              setFilteredPlatforms(cloneDeep(platformArray));
+              setFilteredPlatforms(cloneDeep(masterPa));
             }}
             onChange={e => {
               setAcValue(e.value);
             }}
             onSelect={e => {
-              console.log('e', e);
               const fsCopy = cloneDeep(formState);
               fsCopy.platform = e.value.value;
               setAcValue(e.value.value);

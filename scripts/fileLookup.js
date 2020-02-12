@@ -16,6 +16,8 @@ const ps2 = require('./data/SonyPlaystation2.json');
 const psp = require('./data/SonyPlaystationPortable.json');
 const snes = require('./data/SuperNintendoEntertainmentSystem.json');
 const tg16 = require('./data/TurboGrafx16.json');
+const xbox = require('./data/MicrosoftXbox.json');
+const wii = require('./data/NintendoWii.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -23,7 +25,7 @@ const igdbIdToFile = {
   '4': n64,
   '21': gc,
   '130': null, // Nintendo Switch
-  '5': null, // Nintendo Wii
+  '5': wii, // Nintendo Wii
   '41': wiiU,
   '37': null, // Nintendo 3DS
   '24': null, // GBA
@@ -31,7 +33,7 @@ const igdbIdToFile = {
   '30': s32x,
   '23': sDc,
   '32': sat,
-  '11': null, // Microsoft Xbox
+  '11': xbox, // Microsoft Xbox
   '12': xb360,
   '49': xbOne,
   '7': ps1,

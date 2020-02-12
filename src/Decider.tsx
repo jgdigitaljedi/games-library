@@ -4,8 +4,10 @@ import { InputText } from 'primereact/inputtext';
 import axios from 'axios';
 import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
+import { AutoComplete } from 'primereact/autocomplete';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
+import sortBy from 'lodash/sortBy';
 import { filters } from './services/deciderFiltering.service';
 import debounce from 'lodash/debounce';
 import GameCard from './components/GameCard/GameCard';
@@ -27,6 +29,11 @@ interface IDropdown {
   value: string;
 }
 
+interface IAutoCompleteData {
+  originalEvent: Event;
+  query: string;
+}
+
 const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [formState, setFormState]: [IFormState, any] = useState({
     name: '',
@@ -45,9 +52,13 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   const [platformArray, setPlatformArray]: [IDropdown[], any] = useState([
     { label: 'NOT SET', value: '' }
   ]);
+  const [filteredPlatforms, setFilteredPlatforms]: [IDropdown[], any] = useState([
+    { label: 'NOT SET', value: '' }
+  ]);
   const [nameStr, setNameStr]: [string, any] = useState('');
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
+  const [acValue, setAcValue]: [string, any] = useState('');
 
   const getData = useCallback(async (ed?: boolean) => {
     const result = await axios.post('http://localhost:4001/api/gamescombined', {
@@ -101,7 +112,8 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         })
         .sort();
       newPlatforms.unshift({ label: 'NOT SET', value: '' });
-      setPlatformArray(newPlatforms);
+      setPlatformArray(sortBy(newPlatforms, 'label'));
+      setFilteredPlatforms(cloneDeep(sortBy(newPlatforms, 'label')));
     }
   }, [data, setPlatformArray]);
 
@@ -188,6 +200,39 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
     debounceFiltering(target.value);
   };
 
+  const autoCompletePlatform = (data: IAutoCompleteData) => {
+    console.log('text', data);
+    console.log('platformArray', platformArray);
+    if (data.query && data.query.length) {
+      const query = data.query.toLowerCase().trim();
+      const filteredPlatforms = cloneDeep(platformArray).filter(p => {
+        return p.label.toLowerCase().indexOf(query) >= 0;
+      });
+      console.log('filtered', filteredPlatforms);
+      setFilteredPlatforms(filteredPlatforms);
+    } else {
+      setFilteredPlatforms(cloneDeep(platformArray));
+    }
+  };
+
+  const acKeyUp = (e: any) => {
+    console.log('key', e.keyCode);
+    if (e.keyCode === 8) { // backspace
+      console.log('key val', acValue);
+    }
+  };
+  /* <Dropdown
+            id="platform"
+            name="platform"
+            value={formState.platform}
+            onChange={e => {
+              const fsCopy = cloneDeep(formState);
+              fsCopy.platform = e.value;
+              setFormState(fsCopy);
+            }}
+            options={platformArray || []}
+          /> */
+
   return (
     <section className="decider">
       <form className="decider--form">
@@ -211,16 +256,28 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
         </div>
         <div className="decider--form__input-group">
           <label htmlFor="platform">Platform</label>
-          <Dropdown
+          <AutoComplete
             id="platform"
             name="platform"
-            value={formState.platform}
+            value={acValue}
+            dropdown={true}
+            suggestions={filteredPlatforms || []}
+            field="label"
+            completeMethod={autoCompletePlatform}
+            onClear={e => {
+              setFilteredPlatforms(cloneDeep(platformArray));
+            }}
             onChange={e => {
+              setAcValue(e.value);
+            }}
+            onSelect={e => {
+              console.log('e', e);
               const fsCopy = cloneDeep(formState);
-              fsCopy.platform = e.value;
+              fsCopy.platform = e.value.value;
+              setAcValue(e.value.value);
               setFormState(fsCopy);
             }}
-            options={platformArray || []}
+            onKeyUp={acKeyUp}
           />
         </div>
         <div className="decider--form__input-group">

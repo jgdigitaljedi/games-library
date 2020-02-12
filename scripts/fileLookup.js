@@ -18,6 +18,9 @@ const snes = require('./data/SuperNintendoEntertainmentSystem.json');
 const tg16 = require('./data/TurboGrafx16.json');
 const xbox = require('./data/MicrosoftXbox.json');
 const wii = require('./data/NintendoWii.json');
+const gb = require('./data/NintendoGameBoy.json');
+const ds = require('./data/NintendoDS.json');
+const gba = require('./data/NintendoGameBoyAdvance.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -25,15 +28,15 @@ const igdbIdToFile = {
   '4': n64,
   '21': gc,
   '130': null, // Nintendo Switch
-  '5': wii, // Nintendo Wii
+  '5': wii,
   '41': wiiU,
   '37': null, // Nintendo 3DS
-  '24': null, // GBA
+  '24': gba,
   '29': gen,
   '30': s32x,
   '23': sDc,
   '32': sat,
-  '11': xbox, // Microsoft Xbox
+  '11': xbox,
   '12': xb360,
   '49': xbOne,
   '7': ps1,
@@ -41,9 +44,9 @@ const igdbIdToFile = {
   '9': null, // PS3
   '48': null, // ps4
   '38': psp,
-  '20': null, // Nintendo DS
-  '33': null, // GameBoy
-  '22': null, // GBA
+  '20': ds,
+  '33': gb,
+  '22': null,
   '50': null, // 3DO
   '78': scd,
   '35': sGg,

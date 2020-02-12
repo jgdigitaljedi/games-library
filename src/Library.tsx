@@ -73,6 +73,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     if (props && props.setMasterData && props.setFilteredData) {
       props.setMasterData(result.data);
       props.setFilteredData(result.data);
+      console.log('result.data', result.data);
     }
   }
 

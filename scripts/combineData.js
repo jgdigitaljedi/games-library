@@ -3,6 +3,7 @@ const path = require('path');
 const bc = require('./backwardCompatible');
 const games = require('../server/db/gamesExtra.json');
 const chalk = require('chalk');
+const _uniqBy = require('lodash/uniqBy');
 
 const indexes = [];
 const combined = games.reduce((acc, game) => {
@@ -51,7 +52,13 @@ const combined = games.reduce((acc, game) => {
   }
   return acc;
 }, []);
-const writable = JSON.stringify(combined);
+
+const dedupe = combined.map(game => {
+  game.consoleArr = _uniqBy(game.consoleArr, 'consoleId');
+  return game;
+});
+
+const writable = JSON.stringify(dedupe);
 
 fs.writeFile(path.join(__dirname, '../server/db/combinedGames.json'), writable, error => {
   if (error) {

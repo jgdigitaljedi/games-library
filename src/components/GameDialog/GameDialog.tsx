@@ -15,9 +15,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
 
-  // console.log('game', 100);
   return game ? (
-    <section className="game-dialog">
+    <section className="game-dialog" role="dialog">
       <div className="game-dialog--body">
         <div className="game-dialog--body__image-and-deck">
           <img
@@ -90,7 +89,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
                         stars={5}
                         cancel={!game.igdb.total_rating}
                         disabled={!game.igdb.total_rating}
-                        />
+                      />
                     </td>
                   </tr>
                 </tbody>

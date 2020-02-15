@@ -21,6 +21,7 @@ const wii = require('./data/NintendoWii.json');
 const gb = require('./data/NintendoGameBoy.json');
 const ds = require('./data/NintendoDS.json');
 const gba = require('./data/NintendoGameBoyAdvance.json');
+const gbc = require('./data/NintendoGameBoyColor.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -46,7 +47,7 @@ const igdbIdToFile = {
   '38': psp,
   '20': ds,
   '33': gb,
-  '22': null,
+  '22': gbc,
   '50': null, // 3DO
   '78': scd,
   '35': sGg,

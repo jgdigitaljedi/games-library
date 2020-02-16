@@ -1,0 +1,7 @@
+@import '../../style/theme.scss';
+@import './FilterBar/FilterBar.scss';
+
+.filter-sort-header {
+  display: flex;
+  justify-content: center;
+}

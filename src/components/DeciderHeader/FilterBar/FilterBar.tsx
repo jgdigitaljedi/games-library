@@ -1,7 +1,6 @@
 import React, { FunctionComponent, useState, useCallback, useEffect, FormEvent } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame } from '../../../common.model';
-import Axios from 'axios';
+import { IGame, IFormState } from '../../../common.model';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import sortBy from 'lodash/sortBy';
@@ -11,15 +10,6 @@ import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
-
-interface IFormState {
-  name: string;
-  players: number;
-  genre: string;
-  esrb: string;
-  platform: string;
-  everDrive: boolean;
-}
 
 interface IDropdown {
   label: string;
@@ -44,8 +34,9 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     platform: '',
     everDrive: false
   });
-  let masterData = props.data;
-  const [data, setData]: [any[], any] = useState([{}]);
+  const masterData = props.data;
+
+  const [data, setData]: [any[], any] = useState(masterData);
   const [genreArray, setGenreArray]: [IDropdown[], any] = useState([
     { label: 'NOT SET', value: '' }
   ]);
@@ -55,8 +46,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   ]);
   const [masterPa, setMasterPa]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr]: [string, any] = useState('');
-  const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
-  const [showModal, setShowModal]: [boolean, any] = useState(false);
   const [acValue, setAcValue]: [string, any] = useState('');
 
   const checkForReset = useCallback(() => {
@@ -158,14 +147,8 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     setData(newData);
   }, [masterData, checkForReset, formState]);
 
-  const cardClicked = useCallback((card: IGame) => {
-    setSelectedCard(card);
-    setShowModal(true);
-  }, []);
-
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
-      // getData();
       getGenreArray();
       getEsrbArray();
       getPlatformArray();
@@ -175,7 +158,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   useEffect(() => {
     getGenreArray();
     getEsrbArray();
-    // getPlatformArray();
+    getPlatformArray();
   }, [data, getGenreArray, getEsrbArray, getPlatformArray]);
 
   useEffect(() => {

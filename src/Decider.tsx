@@ -1,18 +1,26 @@
 import React, { FunctionComponent, useState, useEffect, useCallback } from 'react';
-import { RouteComponentProps } from '@reach/router';
 import axios from 'axios';
-// import flatten from 'lodash/flatten';
-// import cloneDeep from 'lodash/cloneDeep';
-// import sortBy from 'lodash/sortBy';
-// import { filters } from './services/deciderFiltering.service';
-// import debounce from 'lodash/debounce';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
-import { IGame } from './common.model';
+import { IGame, IFormState } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
+import { connect, useSelector } from 'react-redux';
+import { Dispatch } from 'redux';
+import changeDeciderFilters from './actionCreators/deciderFilters';
+import { RouteComponentProps } from '@reach/router';
 
-const Decider: FunctionComponent<RouteComponentProps> = () => {
+interface MapStateProps {
+  deciderFilters: IFormState;
+}
+
+interface MapDispatchProps {
+  setDeciderFilters: (deciderFilters: IFormState) => void;
+}
+
+interface IProps extends MapDispatchProps, MapStateProps {}
+
+const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
@@ -36,9 +44,6 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
       getData();
-      // getGenreArray();
-      // getEsrbArray();
-      // getPlatformArray();
     }
   });
 
@@ -48,7 +53,9 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
 
   return (
     <div className="decider-container">
-      <DeciderHeader data />
+      <div className="decioder-bar-wrapper">
+        <DeciderHeader data={data} />
+      </div>
       <div className="decider--counter">
         <h3>{data.length} games</h3>
       </div>
@@ -75,4 +82,14 @@ const Decider: FunctionComponent<RouteComponentProps> = () => {
   );
 };
 
-export default Decider;
+const mapStateToProps = ({ deciderFilters }: { deciderFilters: IFormState }): MapStateProps => {
+  return {
+    deciderFilters
+  };
+};
+
+const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
+  setDeciderFilters: (deciderFilters: IFormState) => dispatch(changeDeciderFilters(deciderFilters))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Decider);

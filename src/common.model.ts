@@ -44,3 +44,12 @@ export interface IGame {
   extraData?: string[];
   extraDataFull?: object[];
 }
+
+export interface IFormState {
+  name: string;
+  players: number;
+  genre: string;
+  esrb: string;
+  platform: string;
+  everDrive: boolean;
+}

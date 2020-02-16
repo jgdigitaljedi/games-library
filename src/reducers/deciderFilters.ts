@@ -1,0 +1,18 @@
+import { IFormState } from '../common.model';
+
+const initState = {
+  name: '',
+  players: 0,
+  genre: '',
+  esrb: '',
+  platform: '',
+  everDrive: false
+};
+
+export default function deciderFilters(state = initState, action: any): IFormState {
+  if (action.type === 'CHANGE_DECIDERFILTER') {
+    return action.payload;
+  } else {
+    return state;
+  }
+}

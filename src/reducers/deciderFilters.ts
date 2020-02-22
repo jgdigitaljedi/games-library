@@ -10,7 +10,7 @@ const initState = {
 };
 
 export default function deciderFilters(state = initState, action: any): IFormState {
-  if (action.type === 'CHANGE_DECIDERFILTER') {
+  if (action.type === 'CHANGE_DECIDERFILTERS') {
     return action.payload;
   } else {
     return state;

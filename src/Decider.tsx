@@ -5,26 +5,16 @@ import { Dialog } from 'primereact/dialog';
 import { IGame, IFormState } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
-import { connect, useSelector } from 'react-redux';
-import { Dispatch } from 'redux';
-import changeDeciderFilters from './actionCreators/deciderFilters';
+import { useSelector } from 'react-redux';
 import { RouteComponentProps } from '@reach/router';
 
-interface MapStateProps {
-  deciderFilters: IFormState;
-}
-
-interface MapDispatchProps {
-  setDeciderFilters: (deciderFilters: IFormState) => void;
-}
-
-interface IProps extends MapDispatchProps, MapStateProps {}
-
-const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
+const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
+  const deciderFilters: IFormState = useSelector((state: any) => state.deciderFilters);
+  console.log('deciderFilters', deciderFilters);
 
   const getData = useCallback(async (ed?: boolean) => {
     const result = await axios.post('http://localhost:4001/api/gamescombined', {
@@ -82,14 +72,15 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   );
 };
 
-const mapStateToProps = ({ deciderFilters }: { deciderFilters: IFormState }): MapStateProps => {
-  return {
-    deciderFilters
-  };
-};
+// const mapStateToProps = ({ deciderFilters }: { deciderFilters: IFormState }): MapStateProps => {
+//   return {
+//     deciderFilters
+//   };
+// };
 
-const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
-  setDeciderFilters: (deciderFilters: IFormState) => dispatch(changeDeciderFilters(deciderFilters))
-});
+// const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
+//   setDeciderFilters: (deciderFilters: IFormState) => dispatch(changeDeciderFilters(deciderFilters))
+// });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Decider);
+// export default connect(mapStateToProps)(Decider);
+export default Decider;

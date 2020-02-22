@@ -10,6 +10,8 @@ import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
+import { useSelector, useDispatch } from 'react-redux';
+import changeDeciderFilters from '../../../actionCreators/deciderFilters';
 
 interface IDropdown {
   label: string;
@@ -26,6 +28,7 @@ interface IProps extends RouteComponentProps {
 }
 
 const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
+  const dispatch = useDispatch();
   const [formState, setFormState]: [IFormState, any] = useState({
     name: '',
     players: 0,
@@ -47,6 +50,9 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   const [masterPa, setMasterPa]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr]: [string, any] = useState('');
   const [acValue, setAcValue]: [string, any] = useState('');
+
+  const deciderFilters: IFormState = useSelector((state: any) => state.deciderFilters);
+  console.log('deciderFilters', deciderFilters);
 
   const checkForReset = useCallback(() => {
     const keys = Object.entries(formState);
@@ -145,7 +151,8 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       newData = filters.filterEsrb([...newData], formState.esrb);
     }
     setData(newData);
-  }, [masterData, checkForReset, formState]);
+    dispatch(changeDeciderFilters(formState));
+  }, [masterData, checkForReset, formState, dispatch]);
 
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
@@ -163,7 +170,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
 
   useEffect(() => {
     filterResults();
-  }, [formState, filterResults]);
+  }, [formState, filterResults, deciderFilters]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {

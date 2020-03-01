@@ -5,14 +5,13 @@ import { Dialog } from 'primereact/dialog';
 import { IGame } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
-import { useSelector } from 'react-redux';
 import { RouteComponentProps } from '@reach/router';
 import { DataContext } from './context/DataContext';
 import { filters } from './services/deciderFiltering.service';
 import { cloneDeep as _cloneDeep } from 'lodash';
 
 const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
-  const [dc, setDc] = useContext(DataContext);
+  const [dc] = useContext(DataContext);
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);

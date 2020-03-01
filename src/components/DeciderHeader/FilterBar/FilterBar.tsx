@@ -7,11 +7,10 @@ import React, {
   useContext
 } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame, IFormState } from '../../../common.model';
+import { IGame } from '../../../common.model';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import sortBy from 'lodash/sortBy';
-import { filters } from '../../../services/deciderFiltering.service';
 import debounce from 'lodash/debounce';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
@@ -36,8 +35,6 @@ interface IProps extends RouteComponentProps {
 const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   const [dc, setDc] = useContext(DataContext);
   const masterData = props.data;
-
-  const [data, setData]: [any[], any] = useState(masterData);
   const [genreArray, setGenreArray]: [IDropdown[], any] = useState([
     { label: 'NOT SET', value: '' }
   ]);
@@ -49,15 +46,10 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   const [nameStr, setNameStr]: [string, any] = useState('');
   const [acValue, setAcValue]: [string, any] = useState('');
 
-  const checkForReset = useCallback(() => {
-    const keys = Object.entries(dc);
-    return keys.filter(([key, value]) => value && value !== '').length === 0;
-  }, [dc]);
-
   const getGenreArray = useCallback(() => {
-    if (data && data.length > 1) {
+    if (masterData && masterData.length > 1) {
       const newGenres = sortBy(
-        flatten(data.map(d => d.igdb.genres || null).filter((d: string) => d))
+        flatten(masterData.map(d => d.igdb.genres || null).filter((d: any) => d))
           .reduce((acc: string[], g: string) => {
             if (!acc) {
               acc = [];
@@ -75,13 +67,13 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       newGenres.unshift({ label: 'NOT SET', value: '' });
       setGenreArray(newGenres);
     }
-  }, [data, setGenreArray]);
+  }, [masterData, setGenreArray]);
 
   const getPlatformArray = useCallback(() => {
-    if (data && data.length > 1) {
+    if (masterData && masterData.length > 1) {
       const newPlatforms = sortBy(
-        flatten(data.map(d => d.consoleName || null).filter((d: string) => d))
-          .reduce((acc: string[], g: string) => {
+        flatten(masterData.map(d => d.consoleName || null).filter((d: any) => d))
+          .reduce((acc: string[], g: any) => {
             if (!acc) {
               acc = [];
             }
@@ -99,13 +91,13 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       setFilteredPlatforms(newPlatforms);
       setMasterPa(newPlatforms);
     }
-  }, [data, setMasterPa]);
+  }, [masterData, setMasterPa]);
 
   const getEsrbArray = useCallback(() => {
-    if (data && data.length > 1) {
+    if (masterData && masterData.length > 1) {
       const newRatings = sortBy(
-        flatten(data.map(d => d.igdb.esrb || null).filter((d: string) => d))
-          .reduce((acc: string[], g: string) => {
+        flatten(masterData.map(d => d.igdb.esrb || null).filter((d: any) => d))
+          .reduce((acc: string[], g: any) => {
             if (!acc) {
               acc = [];
             }
@@ -122,32 +114,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       newRatings.unshift({ label: 'NOT SET', value: '' });
       setEsrbArray(newRatings);
     }
-  }, [data, setEsrbArray]);
-
-  const filterResults = useCallback(() => {
-    // if (checkForReset()) {
-    //   setData(masterData);
-    //   return;
-    // }
-    console.log('masterData', masterData);
-    let newData = cloneDeep(masterData);
-    if (dc.name !== '') {
-      newData = filters.filterName([...newData], dc.name);
-    }
-    if (dc.platform !== '') {
-      newData = filters.filterPlatform([...newData], dc.platform);
-    }
-    if (dc.players !== 0) {
-      newData = filters.filterPlayers([...newData], dc.players);
-    }
-    if (dc.genre !== '') {
-      newData = filters.filterGenre([...newData], dc.genre);
-    }
-    if (dc.esrb !== '') {
-      newData = filters.filterEsrb([...newData], dc.esrb);
-    }
-    setData(newData);
-  }, [masterData, checkForReset, dc]);
+  }, [masterData, setEsrbArray]);
 
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
@@ -161,18 +128,12 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     getGenreArray();
     getEsrbArray();
     getPlatformArray();
-  }, [data, getGenreArray, getEsrbArray, getPlatformArray]);
-
-  useEffect(() => {
-    filterResults();
-  }, [dc, filterResults]);
+  }, [masterData, getGenreArray, getEsrbArray, getPlatformArray]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {
       const fsCopy = Object.assign({}, dc);
       fsCopy.name = value;
-      // setFormState(fsCopy);
-      console.log('fsCopy', fsCopy);
       setDc(fsCopy);
     }, 500),
     [dc]
@@ -203,7 +164,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       if (!acValue) {
         const fsCopy = cloneDeep(dc);
         fsCopy.platform = '';
-        // setFormState(fsCopy);
         setDc(fsCopy);
         setFilteredPlatforms(cloneDeep(masterPa));
       }
@@ -226,7 +186,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const target = e.target as HTMLInputElement;
             const fsCopy = Object.assign({}, dc);
             fsCopy.players = target.value ? parseInt(target.value) : 0;
-            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
         />
@@ -251,7 +210,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const fsCopy = cloneDeep(dc);
             fsCopy.platform = e.value.value;
             setAcValue(e.value.value);
-            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
           onKeyUp={acKeyUp}
@@ -266,7 +224,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
           onChange={e => {
             const fsCopy = cloneDeep(dc);
             fsCopy.genre = e.value;
-            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
           options={genreArray || []}
@@ -281,7 +238,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
           onChange={e => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.esrb = e.value;
-            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
           options={esrbArray || []}
@@ -294,7 +250,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
           onChange={e => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.everDrive = e.value;
-            // setFormState(fsCopy);
             setDc(fsCopy);
             // getData(e.value);
           }}

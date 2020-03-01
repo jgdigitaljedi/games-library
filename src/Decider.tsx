@@ -1,20 +1,23 @@
-import React, { FunctionComponent, useState, useEffect, useCallback } from 'react';
+import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
 import axios from 'axios';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
-import { IGame, IFormState } from './common.model';
+import { IGame } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
 import { useSelector } from 'react-redux';
 import { RouteComponentProps } from '@reach/router';
+import { DataContext } from './context/DataContext';
+import { filters } from './services/deciderFiltering.service';
+import { cloneDeep as _cloneDeep } from 'lodash';
 
 const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
+  const [dc, setDc] = useContext(DataContext);
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
-  const deciderFilters: IFormState = useSelector((state: any) => state.deciderFilters);
-  console.log('deciderFilters', deciderFilters);
+  const filteredData: IGame[] = useSelector((state: any) => state.masterData);
 
   const getData = useCallback(async (ed?: boolean) => {
     const result = await axios.post('http://localhost:4001/api/gamescombined', {
@@ -31,15 +34,51 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     setShowModal(true);
   }, []);
 
+  // const checkForReset = useCallback(() => {
+  //   const keys = Object.entries(dc);
+  //   return keys.filter(([key, value]) => value && value !== '').length === 0;
+  // }, []);
+
+  const filterResults = useCallback(() => {
+    // if (checkForReset()) {
+    //   setData(masterData);
+    //   console.log('reset bitch');
+    //   return;
+    // }
+    let newData = _cloneDeep(masterData);
+    if (dc.name !== '') {
+      newData = filters.filterName([...newData], dc.name);
+    }
+    if (dc.platform !== '') {
+      newData = filters.filterPlatform([...newData], dc.platform);
+    }
+    if (dc.players !== 0) {
+      newData = filters.filterPlayers([...newData], dc.players);
+    }
+    if (dc.genre !== '') {
+      newData = filters.filterGenre([...newData], dc.genre);
+    }
+    if (dc.esrb !== '') {
+      newData = filters.filterEsrb([...newData], dc.esrb);
+    }
+    setData(newData);
+  }, [dc, masterData]);
+
+  useEffect(() => {
+    filterResults();
+  }, [dc, filterResults]);
+
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
       getData();
     }
   });
 
-  // useEffect(() => {
-  //   filterResults();
-  // }, [formState, filterResults]);
+  useEffect(() => {
+    if (filteredData) {
+      setData(filteredData);
+    }
+  }, [filteredData]);
 
   return (
     <div className="decider-container">
@@ -71,16 +110,4 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     </div>
   );
 };
-
-// const mapStateToProps = ({ deciderFilters }: { deciderFilters: IFormState }): MapStateProps => {
-//   return {
-//     deciderFilters
-//   };
-// };
-
-// const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
-//   setDeciderFilters: (deciderFilters: IFormState) => dispatch(changeDeciderFilters(deciderFilters))
-// });
-
-// export default connect(mapStateToProps)(Decider);
 export default Decider;

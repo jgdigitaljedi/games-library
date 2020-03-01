@@ -1,4 +1,11 @@
-import React, { FunctionComponent, useState, useCallback, useEffect, FormEvent } from 'react';
+import React, {
+  FunctionComponent,
+  useState,
+  useCallback,
+  useEffect,
+  FormEvent,
+  useContext
+} from 'react';
 import { RouteComponentProps } from '@reach/router';
 import { IGame, IFormState } from '../../../common.model';
 import flatten from 'lodash/flatten';
@@ -10,8 +17,7 @@ import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
-import { useSelector, useDispatch } from 'react-redux';
-import changeDeciderFilters from '../../../actionCreators/deciderFilters';
+import { DataContext } from '../../../context/DataContext';
 
 interface IDropdown {
   label: string;
@@ -28,7 +34,7 @@ interface IProps extends RouteComponentProps {
 }
 
 const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
-  const dispatch = useDispatch();
+  const [dc, setDc] = useContext(DataContext);
   const [formState, setFormState]: [IFormState, any] = useState({
     name: '',
     players: 0,
@@ -50,9 +56,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   const [masterPa, setMasterPa]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr]: [string, any] = useState('');
   const [acValue, setAcValue]: [string, any] = useState('');
-
-  const deciderFilters: IFormState = useSelector((state: any) => state.deciderFilters);
-  console.log('deciderFilters', deciderFilters);
 
   const checkForReset = useCallback(() => {
     const keys = Object.entries(formState);
@@ -134,6 +137,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       setData(masterData);
       return;
     }
+    console.log('masterData', masterData);
     let newData = cloneDeep(masterData);
     if (formState.name !== '') {
       newData = filters.filterName([...newData], formState.name);
@@ -151,8 +155,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       newData = filters.filterEsrb([...newData], formState.esrb);
     }
     setData(newData);
-    dispatch(changeDeciderFilters(formState));
-  }, [masterData, checkForReset, formState, dispatch]);
+  }, [masterData, checkForReset, formState]);
 
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
@@ -170,13 +173,14 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
 
   useEffect(() => {
     filterResults();
-  }, [formState, filterResults, deciderFilters]);
+  }, [formState, filterResults]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {
       const fsCopy = Object.assign({}, formState);
       fsCopy.name = value;
       setFormState(fsCopy);
+      setDc(fsCopy);
     }, 500),
     [formState]
   );
@@ -207,6 +211,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
         const fsCopy = cloneDeep(formState);
         fsCopy.platform = '';
         setFormState(fsCopy);
+        setDc(fsCopy);
         setFilteredPlatforms(cloneDeep(masterPa));
       }
     }
@@ -229,6 +234,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const fsCopy = Object.assign({}, formState);
             fsCopy.players = target.value ? parseInt(target.value) : 0;
             setFormState(fsCopy);
+            setDc(fsCopy);
           }}
         />
       </div>
@@ -253,6 +259,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             fsCopy.platform = e.value.value;
             setAcValue(e.value.value);
             setFormState(fsCopy);
+            setDc(fsCopy);
           }}
           onKeyUp={acKeyUp}
         />
@@ -267,6 +274,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const fsCopy = cloneDeep(formState);
             fsCopy.genre = e.value;
             setFormState(fsCopy);
+            setDc(fsCopy);
           }}
           options={genreArray || []}
         />
@@ -281,6 +289,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const fsCopy = Object.assign({}, formState);
             fsCopy.esrb = e.value;
             setFormState(fsCopy);
+            setDc(fsCopy);
           }}
           options={esrbArray || []}
         />
@@ -293,6 +302,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const fsCopy = Object.assign({}, formState);
             fsCopy.everDrive = e.value;
             setFormState(fsCopy);
+            setDc(fsCopy);
             // getData(e.value);
           }}
         />

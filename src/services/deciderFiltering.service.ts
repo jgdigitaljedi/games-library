@@ -1,7 +1,17 @@
 import get from 'lodash/get';
-import { IGame } from '../common.model';
+import { IGame, IFormState } from '../common.model';
 
 export const filters = {
+  defaultFormState: (): IFormState => {
+    return {
+      name: '',
+      players: 0,
+      genre: '',
+      esrb: '',
+      platform: '',
+      everDrive: false
+    };
+  },
   filterName: (data: IGame[], str: string): IGame[] => {
     const lc = str.toLowerCase();
     return data.filter(d => {

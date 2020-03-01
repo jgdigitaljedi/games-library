@@ -11,19 +11,22 @@ import Home from './Home';
 import Decider from './Decider';
 import Library from './Library';
 import Lists from './Lists';
+import { DataContextProvider } from './context/DataContext';
 
 function App(): JSX.Element {
   return (
     <React.StrictMode>
       <Provider store={store}>
         <div className="App">
-          <Navbar />
-          <Router>
-            <Home path="/" />
-            <Decider path="/decider" />
-            <Library path="/library" />
-            <Lists path="/lists" />
-          </Router>
+          <DataContextProvider>
+            <Navbar />
+            <Router>
+              <Home path="/" />
+              <Decider path="/decider" />
+              <Library path="/library" />
+              <Lists path="/lists" />
+            </Router>
+          </DataContextProvider>
         </div>
       </Provider>
     </React.StrictMode>

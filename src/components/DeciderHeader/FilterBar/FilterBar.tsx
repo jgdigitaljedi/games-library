@@ -35,14 +35,6 @@ interface IProps extends RouteComponentProps {
 
 const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   const [dc, setDc] = useContext(DataContext);
-  const [formState, setFormState]: [IFormState, any] = useState({
-    name: '',
-    players: 0,
-    genre: '',
-    esrb: '',
-    platform: '',
-    everDrive: false
-  });
   const masterData = props.data;
 
   const [data, setData]: [any[], any] = useState(masterData);
@@ -58,9 +50,9 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   const [acValue, setAcValue]: [string, any] = useState('');
 
   const checkForReset = useCallback(() => {
-    const keys = Object.entries(formState);
+    const keys = Object.entries(dc);
     return keys.filter(([key, value]) => value && value !== '').length === 0;
-  }, [formState]);
+  }, [dc]);
 
   const getGenreArray = useCallback(() => {
     if (data && data.length > 1) {
@@ -133,29 +125,29 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   }, [data, setEsrbArray]);
 
   const filterResults = useCallback(() => {
-    if (checkForReset()) {
-      setData(masterData);
-      return;
-    }
+    // if (checkForReset()) {
+    //   setData(masterData);
+    //   return;
+    // }
     console.log('masterData', masterData);
     let newData = cloneDeep(masterData);
-    if (formState.name !== '') {
-      newData = filters.filterName([...newData], formState.name);
+    if (dc.name !== '') {
+      newData = filters.filterName([...newData], dc.name);
     }
-    if (formState.platform !== '') {
-      newData = filters.filterPlatform([...newData], formState.platform);
+    if (dc.platform !== '') {
+      newData = filters.filterPlatform([...newData], dc.platform);
     }
-    if (formState.players !== 0) {
-      newData = filters.filterPlayers([...newData], formState.players);
+    if (dc.players !== 0) {
+      newData = filters.filterPlayers([...newData], dc.players);
     }
-    if (formState.genre !== '') {
-      newData = filters.filterGenre([...newData], formState.genre);
+    if (dc.genre !== '') {
+      newData = filters.filterGenre([...newData], dc.genre);
     }
-    if (formState.esrb !== '') {
-      newData = filters.filterEsrb([...newData], formState.esrb);
+    if (dc.esrb !== '') {
+      newData = filters.filterEsrb([...newData], dc.esrb);
     }
     setData(newData);
-  }, [masterData, checkForReset, formState]);
+  }, [masterData, checkForReset, dc]);
 
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
@@ -173,16 +165,17 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
 
   useEffect(() => {
     filterResults();
-  }, [formState, filterResults]);
+  }, [dc, filterResults]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {
-      const fsCopy = Object.assign({}, formState);
+      const fsCopy = Object.assign({}, dc);
       fsCopy.name = value;
-      setFormState(fsCopy);
+      // setFormState(fsCopy);
+      console.log('fsCopy', fsCopy);
       setDc(fsCopy);
     }, 500),
-    [formState]
+    [dc]
   );
 
   const handleChange = (e: FormEvent<any>): void => {
@@ -208,9 +201,9 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       // backspace
       autoCompletePlatform({ originalEvent: e, query: acValue });
       if (!acValue) {
-        const fsCopy = cloneDeep(formState);
+        const fsCopy = cloneDeep(dc);
         fsCopy.platform = '';
-        setFormState(fsCopy);
+        // setFormState(fsCopy);
         setDc(fsCopy);
         setFilteredPlatforms(cloneDeep(masterPa));
       }
@@ -228,12 +221,12 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
         <InputText
           type="number"
           id="players"
-          value={formState.players || ''}
+          value={dc.players || ''}
           onChange={e => {
             const target = e.target as HTMLInputElement;
-            const fsCopy = Object.assign({}, formState);
+            const fsCopy = Object.assign({}, dc);
             fsCopy.players = target.value ? parseInt(target.value) : 0;
-            setFormState(fsCopy);
+            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
         />
@@ -255,10 +248,10 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             setAcValue(e.value);
           }}
           onSelect={e => {
-            const fsCopy = cloneDeep(formState);
+            const fsCopy = cloneDeep(dc);
             fsCopy.platform = e.value.value;
             setAcValue(e.value.value);
-            setFormState(fsCopy);
+            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
           onKeyUp={acKeyUp}
@@ -269,11 +262,11 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
         <Dropdown
           id="genre"
           name="genre"
-          value={formState.genre}
+          value={dc.genre}
           onChange={e => {
-            const fsCopy = cloneDeep(formState);
+            const fsCopy = cloneDeep(dc);
             fsCopy.genre = e.value;
-            setFormState(fsCopy);
+            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
           options={genreArray || []}
@@ -284,11 +277,11 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
         <Dropdown
           id="esrb"
           name="esrb"
-          value={formState.esrb}
+          value={dc.esrb}
           onChange={e => {
-            const fsCopy = Object.assign({}, formState);
+            const fsCopy = Object.assign({}, dc);
             fsCopy.esrb = e.value;
-            setFormState(fsCopy);
+            // setFormState(fsCopy);
             setDc(fsCopy);
           }}
           options={esrbArray || []}
@@ -297,11 +290,11 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       <div className="decider--form__input-group">
         <label htmlFor="everdrive">Include EverDrives?</label>
         <InputSwitch
-          checked={formState.everDrive}
+          checked={dc.everDrive}
           onChange={e => {
-            const fsCopy = Object.assign({}, formState);
+            const fsCopy = Object.assign({}, dc);
             fsCopy.everDrive = e.value;
-            setFormState(fsCopy);
+            // setFormState(fsCopy);
             setDc(fsCopy);
             // getData(e.value);
           }}

@@ -17,7 +17,6 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [data, setData]: [any[], any] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
-  const filteredData: IGame[] = useSelector((state: any) => state.masterData);
 
   const getData = useCallback(async (ed?: boolean) => {
     const result = await axios.post('http://localhost:4001/api/gamescombined', {
@@ -34,17 +33,16 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     setShowModal(true);
   }, []);
 
-  // const checkForReset = useCallback(() => {
-  //   const keys = Object.entries(dc);
-  //   return keys.filter(([key, value]) => value && value !== '').length === 0;
-  // }, []);
+  const checkForReset = useCallback(form => {
+    const keys = Object.entries(form);
+    return keys.filter(([key, value]) => value && value !== '').length === 0;
+  }, []);
 
   const filterResults = useCallback(() => {
-    // if (checkForReset()) {
-    //   setData(masterData);
-    //   console.log('reset bitch');
-    //   return;
-    // }
+    if (checkForReset(dc)) {
+      setData(masterData);
+      return;
+    }
     let newData = _cloneDeep(masterData);
     if (dc.name !== '') {
       newData = filters.filterName([...newData], dc.name);
@@ -62,7 +60,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
     setData(newData);
-  }, [dc, masterData]);
+  }, [dc, masterData, checkForReset]);
 
   useEffect(() => {
     filterResults();
@@ -73,12 +71,6 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       getData();
     }
   });
-
-  useEffect(() => {
-    if (filteredData) {
-      setData(filteredData);
-    }
-  }, [filteredData]);
 
   return (
     <div className="decider-container">

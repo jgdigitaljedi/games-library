@@ -46,10 +46,18 @@ module.exports.getMyGames = function(req, res) {
 
 module.exports.getCombinedGameData = function(req, res) {
   let combined = db.combinedGames.find();
-  if (req && req.body && req.body.everDrive) {
-    combined = [...combined, ...everDrives];
-  }
+  // if (req && req.body && req.body.everDrive) {
+  //   combined = [...combined, ...everDrives];
+  // }
   res.status(200).json(sortBy(combined, 'datePurchased').reverse());
+};
+
+module.exports.everDrives = function(req, res) {
+  try {
+    res.status(200).json(everDrives);
+  } catch (error) {
+    res.status(503).send(error);
+  }
 };
 
 module.exports.deleteGame = function(req, res) {

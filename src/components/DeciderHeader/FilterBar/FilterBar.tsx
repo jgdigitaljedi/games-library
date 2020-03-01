@@ -251,7 +251,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.everDrive = e.value;
             setDc(fsCopy);
-            // getData(e.value);
           }}
         />
       </div>

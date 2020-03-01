@@ -14,8 +14,16 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [dc] = useContext(DataContext);
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
+  const [everDrives, setEverDrives]: [any[], any] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
+
+  const getEverdrives = useCallback(async () => {
+    const result = await axios.get('http://localhost:4001/api/everdrives');
+    if (result && result.data) {
+      setEverDrives(result.data);
+    }
+  }, []);
 
   const getData = useCallback(async (ed?: boolean) => {
     const result = await axios.post('http://localhost:4001/api/gamescombined', {
@@ -42,7 +50,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       setData(masterData);
       return;
     }
-    let newData = _cloneDeep(masterData);
+    let newData = dc.everDrive ? [...masterData, ...everDrives] : _cloneDeep(masterData);
     if (dc.name !== '') {
       newData = filters.filterName([...newData], dc.name);
     }
@@ -59,7 +67,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
     setData(newData);
-  }, [dc, masterData, checkForReset]);
+  }, [dc, masterData, checkForReset, everDrives]);
 
   useEffect(() => {
     filterResults();
@@ -68,6 +76,9 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   useEffect(() => {
     if (!masterData || masterData.length === 1) {
       getData();
+    }
+    if (!everDrives || everDrives.length === 1) {
+      getEverdrives();
     }
   });
 

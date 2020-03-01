@@ -38,6 +38,9 @@ router.put('/games', vgDbCtrl.saveGame);
 router.delete('/games/:id', vgDbCtrl.deleteGame);
 router.patch('/games/:id', vgDbCtrl.editGame);
 
+// get everDrive data
+router.get('/everdrives', vgDbCtrl.everDrives);
+
 // DB Platform/Console CRUD
 router.get('/consoles', vgDbCtrl.getMyPlatforms);
 router.post('/consoles', vgDbCtrl.searchMyPlatforms);

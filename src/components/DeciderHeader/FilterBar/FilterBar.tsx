@@ -122,12 +122,6 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
       getEsrbArray();
       getPlatformArray();
     }
-  });
-
-  useEffect(() => {
-    getGenreArray();
-    getEsrbArray();
-    getPlatformArray();
   }, [masterData, getGenreArray, getEsrbArray, getPlatformArray]);
 
   const debounceFiltering = useCallback(

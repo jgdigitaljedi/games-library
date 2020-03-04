@@ -6,11 +6,14 @@ export default function(view: string) {
     { field: 'multiplayerNumber', header: 'Players', sortable: true },
     { field: 'igdb.first_release_date', header: 'Release Date', sortable: true },
     { field: 'datePurchased', header: 'Purchase Date', sortable: true },
+    { field: 'pricePaid', header: 'Purchase Price', sortable: true },
+    { field: 'case', header: 'Case/Box', sortable: true },
+    { field: 'condition', header: 'Condition', sortable: true },
     { field: 'genres', header: 'Genres' },
     { field: 'igdb.esrb', header: 'ESRB', sortable: true },
     { field: 'howAcquired', header: 'How Acquired' },
     { field: 'igdb.total_rating', header: 'Rating', sortable: true },
-    { field: 'howAcquired', header: 'How Acquired', sortable: true }
+    { field: 'notes', header: 'Notes', sortable: false }
   ];
   let cols;
   switch (view) {
@@ -22,6 +25,7 @@ export default function(view: string) {
         { field: 'gb.image', header: 'Image' },
         { field: 'igdb.name', header: 'Name', sortable: true },
         { field: 'gb.company', header: 'Company', sortable: true },
+        { field: 'aliases', header: 'Aliases', sortable: true },
         { field: 'igdb.generation', header: 'Gen', sortable: true },
         { field: 'gb.original_price', header: 'Original Price', sortable: true },
         { field: 'gb.install_base', header: 'Units Sold' },
@@ -29,7 +33,8 @@ export default function(view: string) {
         { field: 'box', header: 'box', sortable: true },
         { field: 'datePurchased', header: 'Purchase Date', sortable: true },
         { field: 'purchasePrice', header: 'Purchase Price', sortable: true },
-        { field: 'howAcquired', header: 'How Acquired', sortable: true }
+        { field: 'howAcquired', header: 'How Acquired', sortable: true },
+        { field: 'notes', header: 'Notes', sortable: true }
       ];
       break;
     case 'accessories':

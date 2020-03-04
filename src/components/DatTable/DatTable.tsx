@@ -72,7 +72,7 @@ class TheTable extends Component<IProps, IState> {
 
   private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {
     const imageStyle = {
-      width: '7rem',
+      width: '100%',
       height: '4rem',
       objectFit: 'cover',
       objectPosition: '50% 0%'

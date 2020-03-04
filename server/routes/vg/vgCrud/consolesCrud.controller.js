@@ -36,6 +36,11 @@ module.exports.save = function(platform) {
 module.exports.getPlatforms = function() {
   return db.consoles.find().map(c => {
     c.box = c.box.toString();
+    if (c && c.gb && c.gb.aliases) {
+      c.aliases = c.gb.aliases.split(/\n/).join(', ');
+    } else {
+      c.aliases = '';
+    }
     c.gb.install_base =
       typeof c.gb.install_base === 'number'
         ? c.gb.install_base.toLocaleString()

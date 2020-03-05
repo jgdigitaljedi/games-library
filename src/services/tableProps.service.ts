@@ -59,6 +59,7 @@ export default function(view: string) {
         { field: 'gamesIncludedAmount', header: 'Original Games', sortable: true },
         { field: 'gamesAddedNumber', header: 'Games Added', sortable: true },
         { field: 'hacked', header: 'Hacked', sortable: true },
+        { field: 'addons', header: 'Addons', sortable: true },
         { field: 'datePurchased', header: 'Purchase Date', sortable: true },
         { field: 'pricePaid', header: 'Purchase Price' }
       ];

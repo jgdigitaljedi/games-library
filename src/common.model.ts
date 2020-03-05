@@ -53,3 +53,8 @@ export interface IFormState {
   platform: string;
   everDrive: boolean;
 }
+
+export interface IDropdown {
+  label: string;
+  value: string;
+}

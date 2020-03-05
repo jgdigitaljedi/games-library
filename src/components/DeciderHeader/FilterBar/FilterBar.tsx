@@ -7,7 +7,7 @@ import React, {
   useContext
 } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame } from '../../../common.model';
+import { IGame, IDropdown } from '../../../common.model';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import sortBy from 'lodash/sortBy';
@@ -17,11 +17,6 @@ import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
 import { DataContext } from '../../../context/DataContext';
-
-interface IDropdown {
-  label: string;
-  value: string;
-}
 
 interface IAutoCompleteData {
   originalEvent: Event;

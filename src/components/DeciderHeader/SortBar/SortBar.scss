@@ -1,6 +1,6 @@
 @import '../../../style/theme.scss';
 
-.decider--form {
+.sort-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -8,16 +8,10 @@
   label {
     margin-right: 1rem;
   }
-  .decider--form__input-group {
+  .sort-bar--input-group {
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
     margin-bottom: 1rem;
-    &.stack {
-      flex-direction: column;
-      div:not(:last-child) {
-        margin-bottom: 0.3rem;
-      }
-    }
   }
 }

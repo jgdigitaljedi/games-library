@@ -9,9 +9,12 @@ import { RouteComponentProps } from '@reach/router';
 import { DataContext } from './context/DataContext';
 import { filters } from './services/deciderFiltering.service';
 import { cloneDeep as _cloneDeep } from 'lodash';
+import { SortContext } from './context/SortContext';
+import sortsService from './services/sorts.service';
 
 const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
   const [dc] = useContext(DataContext);
+  const [sc] = useContext(SortContext);
   const [masterData, setMasterData]: [any[], any] = useState([{}]);
   const [data, setData]: [any[], any] = useState([{}]);
   const [everDrives, setEverDrives]: [any[], any] = useState([{}]);
@@ -81,6 +84,11 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       getEverdrives();
     }
   });
+
+  useEffect(() => {
+    setData(sortsService.sortData(data, sc.prop, sc.dir));
+    // eslint-disable-next-line
+  }, [sc]);
 
   return (
     <div className="decider-container">

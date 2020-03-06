@@ -11,14 +11,14 @@ import Home from './Home';
 import Decider from './Decider';
 import Library from './Library';
 import Lists from './Lists';
-import { DataContextProvider } from './context/DataContext';
+import { CombinedContextProvider } from './context/CombinedContext';
 
 function App(): JSX.Element {
   return (
     <React.StrictMode>
       <Provider store={store}>
         <div className="App">
-          <DataContextProvider>
+          <CombinedContextProvider>
             <Navbar />
             <Router>
               <Home path="/" />
@@ -26,7 +26,7 @@ function App(): JSX.Element {
               <Library path="/library" />
               <Lists path="/lists" />
             </Router>
-          </DataContextProvider>
+          </CombinedContextProvider>
         </div>
       </Provider>
     </React.StrictMode>

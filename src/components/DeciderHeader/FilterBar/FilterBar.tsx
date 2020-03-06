@@ -112,7 +112,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
   }, [masterData, setEsrbArray]);
 
   useEffect(() => {
-    if (!masterData || masterData.length === 1) {
+    if (masterData && masterData.length > 1) {
       getGenreArray();
       getEsrbArray();
       getPlatformArray();

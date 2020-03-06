@@ -5,7 +5,7 @@ export interface ISortContext {
   dir: string;
 }
 
-const defaultSortState = { prop: 'date_purchased', dir: 'descending' };
+const defaultSortState = { prop: 'datePurchased', dir: 'descending' };
 
 const SortContext = createContext<[ISortContext, Dispatch<SetStateAction<ISortContext>>]>([
   defaultSortState,

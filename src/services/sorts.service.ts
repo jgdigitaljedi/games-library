@@ -4,7 +4,7 @@ import { IGame } from '../common.model';
 export default {
   sortDropdownCats: () => {
     return [
-      { label: 'Purchase Date', value: 'date_purchased' },
+      { label: 'Purchase Date', value: 'datePurchased' },
       { label: 'Name', value: 'igdb.name' },
       { label: 'Release Date', value: 'igdb.first_release_date' },
       { label: 'Purchase Price', value: 'pricePaid' },
@@ -23,6 +23,7 @@ export default {
       // basic check to make sure things are legit
       let sorted;
       if (cat.toLowerCase().indexOf('date') >= 0) {
+        console.log('in date', cat);
         // sortBy ain't gonna work with dates
         sorted = data.sort((a, b) => {
           const aDate: string = _get(a, cat);
@@ -36,8 +37,32 @@ export default {
           if (!bDate) {
             return -1;
           }
-          // eslint-ignore-next-line
           return new Date(aDate) > new Date(bDate) ? 1 : -1;
+        });
+
+      } else if (cat === 'igdb.name') {
+        sorted = data.sort((a, b) => {
+          const aLower = _get(a, cat).toLowerCase();
+          const bLower = _get(b, cat).toLowerCase();
+          if (aLower > bLower) {
+            return 1;
+          }
+          if (bLower > aLower) {
+            return -1;
+          }
+          return 0;
+        });
+      } else if (cat === 'multiplayerNumber') {
+        sorted = data.sort((a, b) => {
+          const aLower = parseInt(_get(a, cat).toString());
+          const bLower = parseInt(_get(b, cat).toString());
+          if (aLower > bLower) {
+            return 1;
+          }
+          if (bLower > aLower) {
+            return -1;
+          }
+          return 0;
         });
       } else {
         sorted = _sortBy(data, cat);

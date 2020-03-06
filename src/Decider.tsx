@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
+import React, { FunctionComponent, useState, useEffect, useCallback, useContext, Dispatch, SetStateAction } from 'react';
 import axios from 'axios';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
@@ -15,9 +15,9 @@ import sortsService from './services/sorts.service';
 const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
   const [dc] = useContext(DataContext);
   const [sc] = useContext(SortContext);
-  const [masterData, setMasterData]: [any[], any] = useState([{}]);
-  const [data, setData]: [any[], any] = useState([{}]);
-  const [everDrives, setEverDrives]: [any[], any] = useState([{}]);
+  const [masterData, setMasterData]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
+  const [data, setData]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
+  const [everDrives, setEverDrives]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
   const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
   const [showModal, setShowModal]: [boolean, any] = useState(false);
 
@@ -34,6 +34,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     });
     if (result && result.data) {
       setData(result.data);
+      console.log('data', result.data);
       setMasterData(result.data);
     }
   }, []);
@@ -86,7 +87,9 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   });
 
   useEffect(() => {
-    setData(sortsService.sortData(data, sc.prop, sc.dir));
+    console.log('sc', sc);
+    setData(sortsService.sortData([...data], sc.prop, sc.dir));
+    console.log('data', data);
     // eslint-disable-next-line
   }, [sc]);
 

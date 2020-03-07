@@ -114,9 +114,9 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
           <div className="extra-data">
             {game.extraData &&
               game.extraData.length > 0 &&
-              game.extraData.map(g => {
+              game.extraData.map((g, ind) => {
                 if (g) {
-                  return <div>{g}</div>;
+                  return <div key={ind}>{g}</div>;
                 } else {
                   return null;
                 }

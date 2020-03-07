@@ -22,24 +22,31 @@ export default {
     if (typeof cat === 'string' && typeof dir === 'string') {
       // basic check to make sure things are legit
       let sorted;
+      const noData: IGame[] = [];
       if (cat.toLowerCase().indexOf('date') >= 0) {
-        console.log('in date', cat);
         // sortBy ain't gonna work with dates
-        sorted = data.sort((a, b) => {
-          const aDate: string = _get(a, cat);
-          const bDate: string = _get(b, cat);
-          if ((!aDate && !bDate) || aDate === bDate) {
-            return 0;
-          }
-          if (!aDate) {
-            return 1;
-          }
-          if (!bDate) {
-            return -1;
-          }
-          return new Date(aDate) > new Date(bDate) ? 1 : -1;
-        });
-
+        sorted = data
+          .filter(g => {
+            const hasData = _get(g, cat);
+            if (!hasData) {
+              noData.push(g);
+            }
+            return hasData;
+          })
+          .sort((a, b) => {
+            const aDate: string = _get(a, cat);
+            const bDate: string = _get(b, cat);
+            if ((!aDate && !bDate) || aDate === bDate) {
+              return 0;
+            }
+            if (!aDate) {
+              return 1;
+            }
+            if (!bDate) {
+              return -1;
+            }
+            return new Date(aDate) > new Date(bDate) ? 1 : -1;
+          });
       } else if (cat === 'igdb.name') {
         sorted = data.sort((a, b) => {
           const aLower = _get(a, cat).toLowerCase();
@@ -52,26 +59,44 @@ export default {
           }
           return 0;
         });
-      } else if (cat === 'multiplayerNumber') {
-        sorted = data.sort((a, b) => {
-          const aLower = parseInt(_get(a, cat).toString());
-          const bLower = parseInt(_get(b, cat).toString());
-          if (aLower > bLower) {
-            return 1;
-          }
-          if (bLower > aLower) {
-            return -1;
-          }
-          return 0;
-        });
+      } else if (cat === 'multiplayerNumber' || cat === 'pricePaid') {
+        sorted = data
+          .filter(g => {
+            const gData = _get(g, cat);
+            if (!gData) {
+              noData.push(g);
+            }
+            return gData;
+          })
+          .sort((a, b) => {
+            const aLower = parseFloat(_get(a, cat).toString());
+            const bLower = parseFloat(_get(b, cat).toString());
+            if (aLower > bLower) {
+              return 1;
+            }
+            if (bLower > aLower) {
+              return -1;
+            }
+            return 0;
+          });
       } else {
-        sorted = _sortBy(data, cat);
+        sorted = _sortBy(
+          data.filter(g => {
+            const gData = _get(g, cat);
+            if (!gData) {
+              noData.push(g);
+            }
+            return gData;
+          }),
+          cat
+        );
       }
+      // the idea is that I'm splitting of games without the required data point then putting them on the end of the return
       if (dir === 'descending') {
         // should it be reversed
-        return sorted.reverse();
+        return [...sorted.reverse(), ...noData];
       }
-      return sorted;
+      return [...sorted, ...noData];
     }
     return data;
   }

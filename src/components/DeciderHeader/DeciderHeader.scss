@@ -15,8 +15,13 @@
   .filter-sort-header--section-head {
     display: flex;
     align-items: baseline;
-    i.pi {
-      font-size: 1.17rem;
+  }
+  .filter-sort-header--section {
+    display: flex;
+    justify-content: flex-start;
+    // align-items: center;
+    .filter-sort-header--section-head {
+      margin-right: 2rem;
     }
   }
 }

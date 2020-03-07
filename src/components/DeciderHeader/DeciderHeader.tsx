@@ -5,16 +5,20 @@ import SortBar from './SortBar/SortBar';
 const DeciderHeader: FunctionComponent<any> = props => {
   return (
     <section className="filter-sort-header">
-      <div className="filter-sort-header--section-head">
-        <i className="pi pi-filter"></i>
-        <h3>Filter</h3>
+      <div className="filter-sort-header--section">
+        <div className="filter-sort-header--section-head">
+          <i className="pi pi-filter"></i>
+          <h3>Filter</h3>
+        </div>
+        <FilterBar data={props.data} />
       </div>
-      <FilterBar data={props.data} />
-      <div className="filter-sort-header--section-head">
-        <i className="pi pi-sort-alt"></i>
-        <h3>Sort</h3>
+      <div className="filter-sort-header--section">
+        <div className="filter-sort-header--section-head">
+          <i className="pi pi-sort-alt"></i>
+          <h3>Sort</h3>
+        </div>
+        <SortBar data={props.data} />
       </div>
-      <SortBar data={props.data} />
     </section>
   );
 };

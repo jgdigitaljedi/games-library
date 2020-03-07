@@ -12,14 +12,7 @@ interface IProps extends RouteComponentProps {
 const SortBar: FunctionComponent<IProps> = (props: IProps) => {
   const categories = SortService.sortDropdownCats();
   const directions = SortService.sortDropdownDirections();
-  // const [cat, setCat] = useState(categories[0].value);
-  // const [dir, setDir] = useState(directions[0].value);
   const [sc, setSc] = useContext(SortContext);
-  // setSc({ prop: categories[0].value, dir: directions[0].value });
-
-  // useEffect(() => {
-  //   const data = SortService.sortData(props.data, sc.prop, sc.dir);
-  // }, [sc, props.data]);
 
   return (
     <form className="sort-bar">

@@ -233,12 +233,12 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
         />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="everdrive">Include EverDrives?</label>
+        <label htmlFor="everdrive">EverDrives?</label>
         <InputSwitch
           checked={dc.everDrive}
           onChange={e => {
-            const fsCopy = Object.assign({}, dc);
-            fsCopy.everDrive = e.value;
+            const fsCopy = { ...dc };
+            fsCopy.everDrive = !!e.value;
             setDc(fsCopy);
           }}
         />

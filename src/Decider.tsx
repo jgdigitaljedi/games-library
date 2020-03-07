@@ -1,4 +1,12 @@
-import React, { FunctionComponent, useState, useEffect, useCallback, useContext, Dispatch, SetStateAction } from 'react';
+import React, {
+  FunctionComponent,
+  useState,
+  useEffect,
+  useCallback,
+  useContext,
+  Dispatch,
+  SetStateAction
+} from 'react';
 import axios from 'axios';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
@@ -28,16 +36,26 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     }
   }, []);
 
-  const getData = useCallback(async (ed?: boolean) => {
-    const result = await axios.post('http://localhost:4001/api/gamescombined', {
-      everDrive: ed
-    });
-    if (result && result.data) {
-      setData(result.data);
-      console.log('data', result.data);
-      setMasterData(result.data);
-    }
-  }, []);
+  const sortData = useCallback(
+    dat => {
+      setData(sortsService.sortData([...dat], sc.prop, sc.dir));
+    },
+    [sc.dir, sc.prop]
+  );
+
+  const getData = useCallback(
+    async (ed?: boolean) => {
+      const result = await axios.post('http://localhost:4001/api/gamescombined', {
+        everDrive: ed
+      });
+      if (result && result.data) {
+        setData(result.data);
+        setMasterData(result.data);
+        sortData(result.data);
+      }
+    },
+    [setData, setMasterData, sortData]
+  );
 
   const cardClicked = useCallback((card: IGame) => {
     setSelectedCard(card);
@@ -50,11 +68,12 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   }, []);
 
   const filterResults = useCallback(() => {
+    let newData = dc.everDrive ? [...masterData, ...everDrives] : _cloneDeep(masterData);
     if (checkForReset(dc)) {
-      setData(masterData);
+      setData(newData);
+      sortData(newData);
       return;
     }
-    let newData = dc.everDrive ? [...masterData, ...everDrives] : _cloneDeep(masterData);
     if (dc.name !== '') {
       newData = filters.filterName([...newData], dc.name);
     }
@@ -71,27 +90,28 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
     setData(newData);
-  }, [dc, masterData, checkForReset, everDrives]);
+    sortData(newData);
+    //eslint-disable-next-line
+  }, [dc, masterData, checkForReset, everDrives, sortData]);
 
   useEffect(() => {
     filterResults();
   }, [dc, filterResults]);
 
   useEffect(() => {
-    if (!masterData || masterData.length === 1) {
+    if (!data || data.length === 1 || !masterData || masterData.length === 1) {
       getData();
     }
     if (!everDrives || everDrives.length === 1) {
       getEverdrives();
     }
-  });
+    // eslint-disable-next-line
+  }, []);
 
   useEffect(() => {
-    console.log('sc', sc);
-    setData(sortsService.sortData([...data], sc.prop, sc.dir));
-    console.log('data', data);
+    sortData(data);
     // eslint-disable-next-line
-  }, [sc]);
+  }, [sc, sortData]);
 
   return (
     <div className="decider-container">
@@ -103,7 +123,11 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       </div>
       <div className="decider--results">
         {data.map((d, index) => (
-          <GameCard data={d} key={index} cardClicked={cardClicked} />
+          <GameCard
+            data={d}
+            key={`${index}-${d?.igdb?.name || 'game'}`}
+            cardClicked={cardClicked}
+          />
         ))}
       </div>
       <Dialog

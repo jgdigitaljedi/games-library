@@ -115,9 +115,11 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     if (masterData && masterData.length > 1) {
       getGenreArray();
       getEsrbArray();
-      getPlatformArray();
+      if (!filteredPlatforms || filteredPlatforms.length === 1) {
+        getPlatformArray();
+      }
     }
-  }, [masterData, getGenreArray, getEsrbArray, getPlatformArray]);
+  }, [masterData, getGenreArray, getEsrbArray, getPlatformArray, filteredPlatforms]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {

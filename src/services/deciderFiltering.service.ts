@@ -1,5 +1,5 @@
 import get from 'lodash/get';
-import { IGame, IFormState } from '../common.model';
+import { IGame, IFormState, IConsoleArr } from '../common.model';
 
 export const filters = {
   defaultFormState: (): IFormState => {
@@ -24,7 +24,8 @@ export const filters = {
   },
   filterPlatform: (data: IGame[], platform: string): IGame[] => {
     return data.filter(d => {
-      return d.consoleName === platform;
+      // return d.consoleName === platform;
+      return (d.consoleArr as IConsoleArr[]).map(d => d.consoleName).indexOf(platform) >= 0;
     });
   },
   filterPlayers: (data: IGame[], players: number): IGame[] => {

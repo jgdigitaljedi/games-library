@@ -7,6 +7,7 @@ const dataCtrl = require('./dataViz.controller');
 const updateCtrl = require('./updateData.controller');
 const ebayCtrl = require('./ebay.controller');
 const exportCtrl = require('./exportCsv.controller');
+const listsCtrl = require('./lists.controller');
 
 // IGDB search
 router.post('/searchgame', vgCtrl.searchGame);
@@ -22,6 +23,9 @@ router.post('/searchgenre', vgCtrl.getGenre);
 
 // Data Viz
 router.post('/dataviz', dataCtrl.dataVizData);
+
+// Lists
+router.post('/lists', listsCtrl.getList);
 
 // eBay price search
 router.post('/ebay', ebayCtrl.getEbayPrices);

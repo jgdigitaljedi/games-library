@@ -11,6 +11,7 @@ import Home from './Home';
 import Decider from './Decider';
 import Library from './Library';
 import Lists from './Lists';
+import Viz from './Viz';
 import { CombinedContextProvider } from './context/CombinedContext';
 
 function App(): JSX.Element {
@@ -25,6 +26,7 @@ function App(): JSX.Element {
               <Decider path="/decider" />
               <Library path="/library" />
               <Lists path="/lists" />
+              <Viz path="/viz" />
             </Router>
           </CombinedContextProvider>
         </div>

@@ -40,6 +40,9 @@ const Navbar: FunctionComponent = () => {
       >
         Lists
       </Link>
+      <Link to="/viz" className={active === 'viz' ? 'active' : ''} onClick={() => setActive('viz')}>
+        Viz
+      </Link>
     </header>
   );
 };

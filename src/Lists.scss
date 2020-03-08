@@ -1,0 +1,20 @@
+@import './style/theme.scss';
+.lists {
+  .lists-head {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    label {
+      margin-right: 2rem;
+      color: $white;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

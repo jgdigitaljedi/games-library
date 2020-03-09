@@ -3,6 +3,28 @@ export interface IConsoleArr {
   consoleId: number;
 }
 
+export interface IExtraReturn {
+  name: string;
+  id: string;
+  igdbId: number;
+  gbId: number;
+  gbGuid: string;
+  tgdbId: number;
+}
+
+interface IExtraDataFull {
+  name: string;
+  details?: string[];
+  id: string;
+  igdbId: number;
+  gbId: number;
+  gbGuid: string;
+  tgdbId?: number;
+  isExclusive: IExtraReturn[] | boolean;
+  isLaunchTitle: IExtraReturn[] | boolean;
+  special: any[];
+}
+
 export interface IGame {
   igdb: {
     name: string;
@@ -42,7 +64,7 @@ export interface IGame {
   genres: string;
   consoleArr?: IConsoleArr[];
   extraData?: string[];
-  extraDataFull?: object[];
+  extraDataFull?: IExtraDataFull[];
 }
 
 export interface IFormState {

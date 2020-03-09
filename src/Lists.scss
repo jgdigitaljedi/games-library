@@ -5,11 +5,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    label {
-      margin-right: 2rem;
-      color: $white;
-      font-weight: bold;
-      font-size: 1.2rem;
+    .lists-head--group {
+      display: flex;
+      margin: 0 2rem;
+      justify-content: center;
+      align-items: center;
+      label {
+        margin-right: 1.5rem;
+        color: $white;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
     }
   }
   .list-container {

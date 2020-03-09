@@ -1,0 +1,39 @@
+@import '../../style/theme.scss';
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  .list-view--row {
+    display: flex;
+    padding: 0.5rem;
+    border-color: $white;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: $white;
+    align-items: center;
+    cursor: pointer;
+    .list-view--row__cell {
+      max-width: calc(100vw - 38rem);
+      color: $light-green;
+      &.item-name {
+        width: 25rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $light-orange;
+        font-weight: bold;
+      }
+    }
+    img {
+      // width: 100%;
+      width: 5rem;
+      height: 3rem;
+      object-fit: cover;
+      object-position: 50% 0%;
+    }
+    img,
+    div {
+      margin-right: 2rem;
+    }
+  }
+}

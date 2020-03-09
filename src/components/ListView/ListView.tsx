@@ -14,12 +14,9 @@ const ListView: FunctionComponent<any> = ({
   const rowClicked = (e: any, game: IGame) => {
     e.preventDefault();
     listRowClick(game);
-    console.log('whichData', whichData);
-    console.log('game', game);
   };
 
   const getData = (game: IGame): string => {
-    console.log('game', game);
     let cellData;
     switch (whichData) {
       case 'exclusives':
@@ -53,8 +50,10 @@ const ListView: FunctionComponent<any> = ({
       case 'special':
         cellData = _flatten(game.extraDataFull?.map(d => d.special?.map(i => i.value))).join(', ');
         break;
+      case 'multiplayer':
+        cellData = `${game.multiplayerNumber} players`;
+        break;
     }
-    console.log('cellData', cellData);
     return cellData || '';
   };
 

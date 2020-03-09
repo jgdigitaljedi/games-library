@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 
-const games = require('../server/db/gamesExtra.json');
+const games = require('../server/db/combinedGames.json');
 
 const multiplayer = []; // games that are 3 or more players in multiplayer modes; party games
 const extraData = []; // games with extra data; might be interesting
@@ -41,42 +41,62 @@ games.forEach(game => {
   }
 });
 
-fs.writeFile(path.join(__dirname, '../server/db/listMultiplayer.json'), JSON.stringify(multiplayer), error => {
-  if (error) {
-    writeError(error, 'MULTIPLAYER');
-  } else {
-    writeSuccess('Multiplayer list')
+fs.writeFile(
+  path.join(__dirname, '../server/db/listMultiplayer.json'),
+  JSON.stringify(multiplayer),
+  error => {
+    if (error) {
+      writeError(error, 'MULTIPLAYER');
+    } else {
+      writeSuccess('Multiplayer list');
+    }
   }
-});
+);
 
-fs.writeFile(path.join(__dirname, '../server/db/listExtraData.json'), JSON.stringify(extraData), error => {
-  if (error) {
-    writeError(error, 'EXTRA DATA');
-  } else {
-    writeSuccess('Extra data list')
+fs.writeFile(
+  path.join(__dirname, '../server/db/listExtraData.json'),
+  JSON.stringify(extraData),
+  error => {
+    if (error) {
+      writeError(error, 'EXTRA DATA');
+    } else {
+      writeSuccess('Extra data list');
+    }
   }
-});
+);
 
-fs.writeFile(path.join(__dirname, '../server/db/listLaunch.json'), JSON.stringify(launch), error => {
-  if (error) {
-    writeError(error, 'LAUNCH TITLES');
-  } else {
-    writeSuccess('Launch title list')
+fs.writeFile(
+  path.join(__dirname, '../server/db/listLaunch.json'),
+  JSON.stringify(launch),
+  error => {
+    if (error) {
+      writeError(error, 'LAUNCH TITLES');
+    } else {
+      writeSuccess('Launch title list');
+    }
   }
-});
+);
 
-fs.writeFile(path.join(__dirname, '../server/db/listExclusives.json'), JSON.stringify(exclusives), error => {
-  if (error) {
-    writeError(error, 'EXCLUSIVES');
-  } else {
-    writeSuccess('Exclusives list')
+fs.writeFile(
+  path.join(__dirname, '../server/db/listExclusives.json'),
+  JSON.stringify(exclusives),
+  error => {
+    if (error) {
+      writeError(error, 'EXCLUSIVES');
+    } else {
+      writeSuccess('Exclusives list');
+    }
   }
-});
+);
 
-fs.writeFile(path.join(__dirname, '../server/db/listSpecial.json'), JSON.stringify(special), error => {
-  if (error) {
-    writeError(error, 'SPECIAL');
-  } else {
-    writeSuccess('Special list')
+fs.writeFile(
+  path.join(__dirname, '../server/db/listSpecial.json'),
+  JSON.stringify(special),
+  error => {
+    if (error) {
+      writeError(error, 'SPECIAL');
+    } else {
+      writeSuccess('Special list');
+    }
   }
-});
+);

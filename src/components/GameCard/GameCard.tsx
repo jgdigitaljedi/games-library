@@ -1,21 +1,27 @@
 import React, { FunctionComponent } from 'react';
 import { Card } from 'primereact/card';
+import { IGame } from '../../common.model';
 
-const GameCard: FunctionComponent<any> = props => {
+interface IProps {
+  data: IGame;
+  cardClicked: Function;
+}
+
+const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
   return (
     <Card className="game-card">
-      {props && props.data && props.data.igdb ? (
-        <div className="game-card--content" onClick={() => props.cardClicked(props.data)}>
+      {data && data.igdb ? (
+        <div className="game-card--content" onClick={() => cardClicked(data)}>
           <img
-            src={props.data.gb.image || ''}
-            alt={props.data.igdb.name || ''}
+            src={data.gb.image || ''}
+            alt={data.igdb.name || ''}
             onError={(e: any) => {
               e.target.onerror = null;
               e.target.src = 'Video-Game-Controller-Icon.svg.png';
             }}
           />
           <div className="game-card--content__title">
-            <h5>{props.data.igdb.name}</h5>
+            <h5>{data.igdb.name}</h5>
           </div>
         </div>
       ) : null}

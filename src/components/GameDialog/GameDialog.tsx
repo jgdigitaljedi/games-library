@@ -8,8 +8,7 @@ interface IRatings {
   [key: string]: string;
 }
 
-const GameDialog: FunctionComponent<PropsWithChildren<any>> = props => {
-  const game: IGame = props.game;
+const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';

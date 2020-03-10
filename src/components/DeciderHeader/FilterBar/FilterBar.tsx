@@ -4,10 +4,12 @@ import React, {
   useCallback,
   useEffect,
   FormEvent,
-  useContext
+  useContext,
+  Dispatch,
+  SetStateAction
 } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame, IDropdown } from '../../../common.model';
+import { IGame, IDropdown, IFormState } from '../../../common.model';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import sortBy from 'lodash/sortBy';
@@ -27,21 +29,27 @@ interface IProps extends RouteComponentProps {
   data: IGame[];
 }
 
-const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
-  const [dc, setDc] = useContext(DataContext);
-  const masterData = props.data;
-  const [genreArray, setGenreArray]: [IDropdown[], any] = useState([
+const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
+  const [dc, setDc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
+  const masterData: IGame[] = data;
+  const [genreArray, setGenreArray]: [
+    IDropdown[],
+    Dispatch<SetStateAction<IDropdown[]>>
+  ] = useState([{ label: 'NOT SET', value: '' }]);
+  const [esrbArray, setEsrbArray]: [IDropdown[], Dispatch<SetStateAction<IDropdown[]>>] = useState([
     { label: 'NOT SET', value: '' }
   ]);
-  const [esrbArray, setEsrbArray]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
-  const [filteredPlatforms, setFilteredPlatforms]: [IDropdown[], any] = useState([
+  const [filteredPlatforms, setFilteredPlatforms]: [
+    IDropdown[],
+    Dispatch<SetStateAction<IDropdown[]>>
+  ] = useState([{ label: 'NOT SET', value: '' }]);
+  const [masterPa, setMasterPa]: [IDropdown[], Dispatch<SetStateAction<IDropdown[]>>] = useState([
     { label: 'NOT SET', value: '' }
   ]);
-  const [masterPa, setMasterPa]: [IDropdown[], any] = useState([{ label: 'NOT SET', value: '' }]);
-  const [nameStr, setNameStr]: [string, any] = useState('');
-  const [acValue, setAcValue]: [string, any] = useState('');
+  const [nameStr, setNameStr]: [string, Dispatch<SetStateAction<string>>] = useState('');
+  const [acValue, setAcValue]: [string, Dispatch<SetStateAction<string>>] = useState('');
 
-  const getGenreArray = useCallback(() => {
+  const getGenreArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newGenres = sortBy(
         flatten(masterData.map(d => d.igdb.genres || null).filter((d: any) => d))
@@ -64,7 +72,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     }
   }, [masterData, setGenreArray]);
 
-  const getPlatformArray = useCallback(() => {
+  const getPlatformArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newPlatforms = sortBy(
         flatten(masterData.map(d => d.consoleName || null).filter((d: any) => d))
@@ -88,7 +96,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     }
   }, [masterData, setMasterPa]);
 
-  const getEsrbArray = useCallback(() => {
+  const getEsrbArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newRatings = sortBy(
         flatten(masterData.map(d => d.igdb.esrb || null).filter((d: any) => d))
@@ -111,7 +119,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     }
   }, [masterData, setEsrbArray]);
 
-  useEffect(() => {
+  useEffect((): void => {
     if (masterData && masterData.length > 1) {
       getGenreArray();
       getEsrbArray();
@@ -136,7 +144,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     debounceFiltering(target.value);
   };
 
-  const autoCompletePlatform = (data: IAutoCompleteData) => {
+  const autoCompletePlatform = (data: IAutoCompleteData): void => {
     if (data.query && data.query.length) {
       const query = data.query.toLowerCase().trim();
       const filteredPlatforms = cloneDeep(masterPa).filter(p => {
@@ -148,7 +156,7 @@ const FilterBar: FunctionComponent<IProps> = (props: IProps) => {
     }
   };
 
-  const acKeyUp = (e: any) => {
+  const acKeyUp = (e: any): void => {
     if (e.keyCode === 8) {
       // backspace
       autoCompletePlatform({ originalEvent: e, query: acValue });

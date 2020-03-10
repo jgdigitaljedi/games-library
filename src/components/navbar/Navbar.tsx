@@ -1,8 +1,8 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, Dispatch, SetStateAction } from 'react';
 import { Link } from '@reach/router';
 
 const Navbar: FunctionComponent = () => {
-  const [active, setActive] = useState('');
+  const [active, setActive]: [string, Dispatch<SetStateAction<string>>] = useState('');
 
   function routeOnLoad() {
     const pn = window.location.pathname;

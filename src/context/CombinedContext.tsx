@@ -11,13 +11,6 @@ interface ICombined {
   };
 }
 
-// const defaultSortState = { prop: 'igdb.first_release_date', dir: 'descending' };
-// const defaultFormState = filters.defaultFormState();
-// const CombinedContext = createContext<[ICombined, Dispatch<SetStateAction<ICombined>>]>([
-//   { data: defaultFormState, sortData: defaultSortState },
-//   () => ({ data: defaultFormState, sortData: defaultSortState })
-// ]);
-
 const CombinedContextProvider = ({
   children,
   data,

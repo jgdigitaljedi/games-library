@@ -9,6 +9,7 @@ import FilterGroup from './components/filterGroup/FilterGroup';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
+import { IGame } from './common.model';
 
 interface IInputOptions {
   label: string;
@@ -30,8 +31,8 @@ interface MapDispatchProps {
 interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
-  const viewWhat = useSelector((state: any) => state.viewWhat);
-  const filteredData = useSelector((state: any) => state.filteredData);
+  const viewWhat: string = useSelector((state: any) => state.viewWhat);
+  const filteredData: IGame[] = useSelector((state: any) => state.filteredData);
   const [view, setView]: [string, any] = useState('');
 
   if (view !== viewWhat) {

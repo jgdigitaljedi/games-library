@@ -2,15 +2,13 @@ import React, { FunctionComponent } from 'react';
 import { IGame } from '../../common.model';
 import { flatten as _flatten } from 'lodash';
 
-const ListView: FunctionComponent<any> = ({
-  data,
-  listRowClick,
-  whichData
-}: {
+interface IProps {
   data: IGame[];
   listRowClick: Function;
   whichData: string;
-}) => {
+}
+
+const ListView: FunctionComponent<IProps> = ({ data, listRowClick, whichData }: IProps) => {
   const rowClicked = (e: any, game: IGame) => {
     e.preventDefault();
     listRowClick(game);

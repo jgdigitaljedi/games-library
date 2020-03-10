@@ -1,4 +1,11 @@
-import React, { FunctionComponent, useState, FormEvent, useCallback } from 'react';
+import React, {
+  FunctionComponent,
+  useState,
+  FormEvent,
+  useCallback,
+  Dispatch as dispatch,
+  SetStateAction
+} from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { connect, useSelector } from 'react-redux';
@@ -7,6 +14,7 @@ import filterPropsService from '../../services/filterProps.service';
 import { Dispatch } from 'redux';
 import debounce from 'lodash/debounce';
 import get from 'lodash/get';
+import { IGame, IDropdown } from '../../common.model';
 
 interface MapStateProps {
   viewWhat: string;
@@ -21,12 +29,17 @@ interface MapDispatchProps {
 interface IProps extends MapStateProps, MapDispatchProps {}
 
 const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
-  const viewWhat = useSelector((state: any) => state.viewWhat);
-  const masterData = useSelector((state: any) => state.masterData);
-  const [selectedFilter, setSelectedFilter] = useState('');
-  const [view, setView] = useState('');
-  const [filters, setFilters] = useState(filterPropsService(viewWhat));
-  const [filterStr, setFilterStr] = useState('');
+  const viewWhat: string = useSelector((state: any) => state.viewWhat);
+  const masterData: IGame[] = useSelector((state: any) => state.masterData);
+  const [selectedFilter, setSelectedFilter]: [string, dispatch<SetStateAction<string>>] = useState(
+    ''
+  );
+  const [view, setView]: [string, dispatch<SetStateAction<string>>] = useState('');
+  const [filters, setFilters]: [
+    IDropdown[] | undefined,
+    dispatch<SetStateAction<IDropdown[] | undefined>>
+  ] = useState(filterPropsService(viewWhat));
+  const [filterStr, setFilterStr]: [string, dispatch<SetStateAction<string>>] = useState('');
 
   if (viewWhat !== view) {
     setView(viewWhat);
@@ -36,7 +49,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   }
 
   const debounceFiltering = useCallback(
-    debounce((value: string, sf: any) => {
+    debounce((value: string, sf: any): void => {
       const newData = masterData.filter((d: any) => {
         return (
           get(d, sf)
@@ -49,7 +62,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
     [masterData]
   );
 
-  const handleChange = (e: FormEvent<any>) => {
+  const handleChange = (e: FormEvent<any>): void => {
     const target = e.target as HTMLInputElement;
     setFilterStr(target.value);
     debounceFiltering(target.value, selectedFilter);

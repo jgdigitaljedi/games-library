@@ -10,19 +10,19 @@ import React, {
 import axios from 'axios';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
-import { IGame } from './common.model';
+import { IGame, IFormState } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
 import { RouteComponentProps } from '@reach/router';
 import { DataContext } from './context/DataContext';
 import { filters } from './services/deciderFiltering.service';
 import { cloneDeep as _cloneDeep } from 'lodash';
-import { SortContext } from './context/SortContext';
+import { SortContext, ISortContext } from './context/SortContext';
 import sortsService from './services/sorts.service';
 
 const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
-  const [dc] = useContext(DataContext);
-  const [sc] = useContext(SortContext);
+  const [dc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
+  const [sc]: [ISortContext, Dispatch<SetStateAction<ISortContext>>] = useContext(SortContext);
   const [masterData, setMasterData]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
   const [data, setData]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
   const [everDrives, setEverDrives]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);

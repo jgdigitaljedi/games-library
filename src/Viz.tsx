@@ -10,7 +10,7 @@ import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
 import { IGame } from './common.model';
 import { Dropdown } from 'primereact/dropdown';
-import ChartDataService from './services/chartData.service';
+import ChartDataService, { IChartData } from './services/chartData.service';
 import { Chart } from 'primereact/chart';
 
 const Viz: FunctionComponent<RouteComponentProps> = () => {
@@ -24,7 +24,10 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     { label: 'bar', value: 'bar' },
     { label: 'line', value: 'line' }
   ];
-  const [data, setData]: [IGame[], Dispatch<SetStateAction<any>>] = useState([]);
+  const [data, setData]: [IChartData, Dispatch<SetStateAction<IChartData>>] = useState({
+    labels: [''],
+    datasets: [{ label: '', backgroundColor: '', data: [0] }]
+  });
   const [masterData, setMasterData]: [IGame[], Dispatch<SetStateAction<any>>] = useState([]);
   const [chartType, setChartType]: [string, Dispatch<SetStateAction<string>>] = useState(
     chartTypes[0].value
@@ -82,7 +85,9 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
         </div>
       </div>
       <div className="viz-chart-container">
-        {data && data.length && <Chart type={chartType} data={data} />}
+        {data && data.datasets?.length && data.datasets[0].data?.length && (
+          <Chart type={chartType} data={data} />
+        )}
       </div>
     </div>
   );

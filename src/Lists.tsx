@@ -44,7 +44,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
 
   useEffect(() => {
     getList(whichList);
-  }, []);
+  }, [getList, whichList]);
 
   return (
     <div className="lists">

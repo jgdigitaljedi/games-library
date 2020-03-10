@@ -1132,7 +1132,7 @@
   {
     "name": "F-Zero",
     "id": "snes90",
-    "details": ["SNES laucnh title"],
+    "details": ["SNES launch title"],
     "igdbId": 3490,
     "gbId": 15242,
     "gbGuid": "3030-15242",
@@ -1496,7 +1496,7 @@
   {
     "name": "Gradius III",
     "id": "snes118",
-    "details": ["SNES laucnh title"],
+    "details": ["SNES launch title"],
     "igdbId": 1481,
     "gbId": 7617,
     "gbGuid": "3030-7617",
@@ -3169,7 +3169,7 @@
   {
     "name": "Pilotwings",
     "id": "snes246",
-    "details": ["SNES laucnh title"],
+    "details": ["SNES launch title"],
     "igdbId": 9619,
     "gbId": 14727,
     "gbGuid": "3030-14727",
@@ -3587,7 +3587,7 @@
   {
     "name": "SimCity",
     "id": "snes279",
-    "details": ["SNES laucnh title"],
+    "details": ["SNES launch title"],
     "igdbId": 1272,
     "gbId": 15035,
     "gbGuid": "3030-15035",
@@ -4460,7 +4460,7 @@
   {
     "name": "Super Mario World",
     "id": "snes343",
-    "details": ["SNES laucnh title"],
+    "details": ["SNES launch title"],
     "igdbId": 1070,
     "gbId": 1334,
     "gbGuid": "3030-1334",

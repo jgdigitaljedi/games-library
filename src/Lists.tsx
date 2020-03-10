@@ -15,6 +15,7 @@ import GameDialog from './components/GameDialog/GameDialog';
 import { Dialog } from 'primereact/dialog';
 import { InputSwitch } from 'primereact/inputswitch';
 import ListView from './components/ListView/ListView';
+import { sortBy as _sortBy } from 'lodash';
 
 const Lists: FunctionComponent<RouteComponentProps> = () => {
   const lists = [
@@ -46,7 +47,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     Axios.post('http://localhost:4001/api/lists', { which })
       .then(result => {
         if (result && result.data) {
-          setData(result.data);
+          setData(_sortBy(result.data, 'consoleName'));
         }
       })
       .catch(error => {

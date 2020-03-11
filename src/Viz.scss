@@ -19,7 +19,10 @@
       }
     }
   }
-  .viz-chart-container {
+  .viz-chart--container {
+    width: 100%;
+    height: calc(100vh - 250px);
+    justify-content: center;
     display: flex;
   }
 }

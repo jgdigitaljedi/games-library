@@ -1,10 +1,15 @@
 export default {
-  primary: '#586994',
-  secondary: '#7D869C',
-  accent: '#395756',
-  warn: '#D5573B',
-  error: '#49111C',
-  success: '#1B3022',
-  white: '#fafafa',
-  black: '#0a0908'
+  primary: '#02111b',
+  secondary: '#3f4045',
+  accent: '#30292f',
+  warn: '#bf4e30',
+  error: '#4f000b',
+  success: '#1d7874',
+  white: '#fcfcfc',
+  black: '#0a0908',
+  extraLight: '#5d737e',
+  lightBlue: '#56cbf9',
+  lightGreen: '#40f99b',
+  lightKhaki: '#efd6ac',
+  lightOrange: '#fa8334'
 };

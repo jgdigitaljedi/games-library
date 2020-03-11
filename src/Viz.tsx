@@ -15,8 +15,8 @@ import { Chart } from 'primereact/chart';
 
 const Viz: FunctionComponent<RouteComponentProps> = () => {
   const dataSets = [
-    { label: 'Games by release date', value: 'gamesReleaseDate' },
-    { label: 'Money spent on games over time', value: 'moneyOnGames' },
+    { label: 'Games by release date', value: 'igdb.first_release_date' },
+    { label: 'Money spent on games over time', value: 'pricePaid' },
     { label: 'Growth of games collection over time', value: 'numOfGamesTime' }
   ];
 
@@ -35,6 +35,12 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
   const [chartData, setChartData]: [string, Dispatch<SetStateAction<string>>] = useState(
     dataSets[0].value
   );
+
+  const chartOptions = {
+    responsive: true,
+    responsiveAnimationDuration: 300,
+    maintainAspectRatio: false
+  };
 
   const getData = useCallback(
     async (ed?: boolean) => {
@@ -84,9 +90,9 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           />
         </div>
       </div>
-      <div className="viz-chart-container">
+      <div className="viz-chart--container">
         {data && data.datasets?.length && data.datasets[0].data?.length && (
-          <Chart type={chartType} data={data} />
+          <Chart type={chartType} data={data} options={chartOptions} width="100%" />
         )}
       </div>
     </div>

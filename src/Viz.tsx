@@ -16,7 +16,7 @@ import { Chart } from 'primereact/chart';
 const Viz: FunctionComponent<RouteComponentProps> = () => {
   const dataSets = [
     { label: 'Games by release date', value: 'igdb.first_release_date' },
-    { label: 'Money spent on games over time', value: 'pricePaid' },
+    { label: 'Money spent on games over time', value: 'datePurchased' },
     { label: 'Growth of games collection over time', value: 'numOfGamesTime' }
   ];
 
@@ -55,7 +55,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     [setData, setMasterData]
   );
 
-  const getchartData = useCallback(() => {
+  const getChartData = useCallback(() => {
     setData(ChartDataService.makeDataSet(masterData, chartData));
   }, [chartData, masterData]);
 
@@ -63,7 +63,8 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     if (!masterData || !masterData.length) {
       getData(false);
     }
-  }, [getData, masterData]);
+    getChartData();
+  }, [getData, masterData, getChartData]);
 
   return (
     <div className="viz">
@@ -74,7 +75,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
             value={chartData}
             onChange={e => {
               setChartData(e.value);
-              getchartData();
+              getChartData();
             }}
             options={dataSets}
           />

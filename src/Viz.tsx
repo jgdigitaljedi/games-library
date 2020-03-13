@@ -86,6 +86,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
             value={chartType}
             onChange={e => {
               setChartType(e.value);
+              getChartData();
             }}
             options={chartTypes}
           />

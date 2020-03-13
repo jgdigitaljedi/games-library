@@ -2,6 +2,18 @@ import { get as _get, sortBy as _sortBy } from 'lodash';
 import { IGame } from '../common.model';
 
 export default {
+  sortDateWithSlash: (data: string[]) => {
+    return data.sort((a, b) => {
+      if (a === b) {
+        return 0;
+      }
+      const aSplit = a.split('/');
+      const bSplit = b.split('/');
+      const aFormatted = new Date(`${aSplit[0]}-01-20${aSplit[1]}`);
+      const bFormatted = new Date(`${bSplit[0]}-01-20${bSplit[1]}`);
+      return aFormatted > bFormatted ? 1 : -1;
+    });
+  },
   sortDropdownCats: () => {
     return [
       { label: 'Purchase Date', value: 'datePurchased' },

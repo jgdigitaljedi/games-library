@@ -90,9 +90,19 @@ body {
     background-color: darken($light-orange, 20%);
     border-color: darken($light-orange, 20%);
   }
-  .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight, body .p-dropdown-panel .p-dropdown-items .p-dropdown-item-group.p-highlight {
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight,
+  body .p-dropdown-panel .p-dropdown-items .p-dropdown-item-group.p-highlight {
     background-color: darken($light-orange, 10%);
     border-color: darken($light-orange, 10%);
   }
+  .p-menu .p-menu-list .p-menuitem {
+    &.active a span {
+      color: darken($light-khaki, 15%);
+      font-weight: bold;
+    }
+    .p-menuitem-link {
+      display: flex;
+      font-size: 1.2rem;
+    }
+  }
 }
-

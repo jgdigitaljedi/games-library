@@ -7,6 +7,12 @@ interface IDataSets {
   label: string;
   backgroundColor: string;
   data: number[];
+  pointBackgroundColor?: string;
+  lineTension?: number;
+  borderColor?: string;
+  borderWidth?: number;
+  hoverBackgroundColor?: string;
+  pointRadius?: number;
 }
 
 export interface IChartData {
@@ -150,7 +156,12 @@ export default {
         {
           label: dataTitles[which] || 'Stuff',
           backgroundColor: Colors.lightOrange,
-          data: dataObjFinal
+          data: dataObjFinal,
+          pointBackgroundColor: Colors.lightBlue,
+          lineTension: 0.6,
+          borderColor: Colors.navSelected,
+          borderWidth: 2,
+          pointRadius: 4
         }
       ]
     };

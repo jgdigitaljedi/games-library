@@ -15,4 +15,26 @@
       font-weight: bold;
     }
   }
+  .mobile-nav {
+    display: none;
+  }
+  @media screen and (max-width: 700px) {
+    .main-nav {
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+      i {
+        font-size: 2rem;
+        color: $light-orange;
+      }
+      .mobile-nav--menu {
+        position: absolute;
+        z-index: 1000;
+        i {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

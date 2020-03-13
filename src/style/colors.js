@@ -11,5 +11,6 @@ export default {
   lightBlue: '#56cbf9',
   lightGreen: '#40f99b',
   lightKhaki: '#efd6ac',
-  lightOrange: '#fa8334'
+  lightOrange: '#fa8334',
+  navSelected: '#e3b66c'
 };

@@ -25,3 +25,15 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .filter-sort-header {
+    border-radius: 0;
+    padding: 0.5rem;
+    .filter-sort-header--section {
+      .filter-sort-header--section-head {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

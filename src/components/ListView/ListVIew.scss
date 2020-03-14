@@ -36,4 +36,25 @@
       margin-right: 2rem;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .list-view--row {
+      padding: 0.2rem;
+      .list-view--row__cell {
+        max-width: 33%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .list-view--row {
+      padding: 0.5rem;
+      .list-view--row__cell {
+        max-width: 50%;
+      }
+    }
+    img {
+      display: none;
+    }
+  }
 }

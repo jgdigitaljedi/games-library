@@ -96,13 +96,21 @@ body {
     border-color: darken($light-orange, 10%);
   }
   .p-menu .p-menu-list .p-menuitem {
-    &.active a span {
-      color: darken($light-khaki, 15%);
-      font-weight: bold;
-    }
-    .p-menuitem-link {
+    a.p-menuitem-link {
       display: flex;
       font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      span {
+        color: $light-orange;
+      }
+      span.p-menuitem-text {
+        font-weight: bold;
+        font-family: $secondary-font;
+      }
+    }
+    &.active a.p-menuitem-link span {
+      color: darken($light-khaki, 15%);
     }
   }
 }

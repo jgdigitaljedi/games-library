@@ -80,5 +80,19 @@
         width: auto;
       }
     }
+
+    @media screen and (max-width: 800px) {
+      .game-dialog--body__image-and-deck {
+        flex-direction: column;
+        flex-wrap: wrap;
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 400px;
+          width: auto;
+          height: auto;
+        }
+      }
+    }
   }
 }

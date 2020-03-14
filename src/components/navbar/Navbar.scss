@@ -11,7 +11,7 @@
     font-family: $secondary-font;
     text-transform: uppercase;
     &.active {
-      color: darken($light-khaki, 15%);
+      color: $light-blue;
       font-weight: bold;
     }
   }

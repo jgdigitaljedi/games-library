@@ -17,7 +17,8 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
   const dataSets = [
     { label: 'Games by release date', value: 'igdb.first_release_date' },
     { label: 'Money spent on games over time', value: 'datePurchased' },
-    { label: 'Growth of games collection over time', value: 'numOfGamesTime' }
+    { label: 'Growth of games collection over time', value: 'numOfGamesTime' },
+    { label: 'Games by price group', value: 'pricePaid' }
   ];
 
   const chartTypes = [

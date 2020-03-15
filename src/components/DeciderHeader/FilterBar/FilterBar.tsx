@@ -187,6 +187,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             fsCopy.players = target.value ? parseInt(target.value) : 0;
             setDc(fsCopy);
           }}
+          style={{ width: '7rem' }}
         />
       </div>
       <div className="decider--form__input-group">

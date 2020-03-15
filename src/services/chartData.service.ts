@@ -28,6 +28,18 @@ interface IIndexedWithNum {
   [key: string]: number;
 }
 
+function priceToPriceGroup(price: number): string {
+  if (price < 16) {
+    return 'Cheap ($15 or less)';
+  } else if (price < 40 && price > 15) {
+    return 'Medium ($16 - $39)';
+  } else if (price > 39 && price < 66) {
+    return 'High ($40 - $65)';
+  } else {
+    return 'Very High ($66+)';
+  }
+}
+
 function getYear(gameDate: string): number {
   return new Date(gameDate).getFullYear();
 }
@@ -40,7 +52,8 @@ function getMonthYear(gameData: string): string {
 const dataTitles: IDataTitlesIndex = {
   'igdb.first_release_date': 'Game Release Date',
   datePurchased: 'Money Spent Over Time',
-  numOfGamesTime: 'Games collection growth over time (only games with purchase date)'
+  numOfGamesTime: 'Games collection growth over time (only games with purchase date)',
+  pricePaid: 'Games by price group'
 };
 
 function getPriceOverTimeData(data: IGame[]) {
@@ -93,6 +106,7 @@ function getGameByReleaseYearData({
       }
     }
   });
+
   return { labels, dataObj };
 }
 
@@ -128,6 +142,42 @@ function getGamesCollectionGrowthData(data: IGame[]) {
   return { labels, dataObj };
 }
 
+function getPriceGroups(data: IGame[]) {
+  const labels: string[] = [
+    'Cheap ($15 or less)',
+    'Medium ($16 - $39)',
+    'High ($40 - $65)',
+    'Very High ($66+)'
+  ];
+  const dataObjUnordered: IIndexedWithNum = {
+    'Cheap ($15 or less)': 0,
+    'Medium ($16 - $39)': 0,
+    'High ($40 - $65)': 0,
+    'Very High ($66+)': 0
+  };
+  data.forEach(d => {
+    const gameData = _get(d, 'pricePaid');
+    let dataFormatted;
+    if (gameData) {
+      dataFormatted = priceToPriceGroup(
+        typeof gameData === 'number' ? gameData : parseFloat(gameData)
+      );
+      if (dataFormatted) {
+        if (!dataObjUnordered.hasOwnProperty(dataFormatted)) {
+          dataObjUnordered[dataFormatted] = 1;
+        } else {
+          dataObjUnordered[dataFormatted]++;
+        }
+      }
+    }
+  });
+  const dataObj: IIndexedWithNum = {};
+  labels.forEach(label => {
+    dataObj[label] = dataObjUnordered[label];
+  });
+  return { labels, dataObj };
+}
+
 export default {
   makeDataSet: (data: IGame[], which: string): IChartData => {
     let jointData;
@@ -137,13 +187,15 @@ export default {
       jointData = getPriceOverTimeData(data);
     } else if (which === 'numOfGamesTime') {
       jointData = getGamesCollectionGrowthData(data);
+    } else if (which === 'pricePaid') {
+      jointData = getPriceGroups(data);
     } else {
       jointData = { labels: [], dataObj: {} };
     }
     const { labels, dataObj } = jointData;
 
     let labelsSorted;
-    if (which === 'datePurchased' || which === 'numOfGamesTime') {
+    if (which === 'datePurchased' || which === 'numOfGamesTime' || which === 'pricePaid') {
       labelsSorted = labels;
     } else {
       labelsSorted = labels.sort();

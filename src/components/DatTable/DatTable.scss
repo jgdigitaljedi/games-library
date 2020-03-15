@@ -8,4 +8,10 @@
     background-color: $black;
     font-size: 0.8rem;
   }
+  @media screen and (max-width: 1200px) {
+    td,
+    th {
+      word-wrap: break-word;
+    }
+  }
 }

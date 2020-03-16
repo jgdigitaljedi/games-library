@@ -3,7 +3,10 @@
     "igdb": {
       "name": "1941: Counter Attack",
       "id": 6077,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 64,
       "total_rating_count": 8,
       "first_release_date": "01/31/1990",
@@ -34,13 +37,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:06 pm",
     "updatedAt": "02/01/2020 01:06 pm",
-    "_id": "5be204c597ca4072a8189129d59d29ee"
+    "_id": "5be204c597ca4072a8189129d59d29ee",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "1943: Kai",
       "id": 42079,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/30/1987",
@@ -71,13 +82,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:07 pm",
     "updatedAt": "02/01/2020 01:07 pm",
-    "_id": "d207c2b4c3ff48008ca3f9222bb0779b"
+    "_id": "d207c2b4c3ff48008ca3f9222bb0779b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "21 Emon: Mezase! Hotel Ou",
       "id": 57442,
-      "genres": ["Quiz/Trivia"],
+      "genres": [
+        "Quiz/Trivia"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/15/1994",
@@ -108,13 +127,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:07 pm",
     "updatedAt": "02/01/2020 01:07 pm",
-    "_id": "ad04b402493a415e938336756dc2c13d"
+    "_id": "ad04b402493a415e938336756dc2c13d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "The Addams Family",
       "id": 14209,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": 67,
       "total_rating_count": 1,
       "first_release_date": "12/30/1992",
@@ -145,13 +172,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:08 pm",
     "updatedAt": "02/01/2020 01:08 pm",
-    "_id": "a969ab85323b4a51964287df5c1cb166"
+    "_id": "a969ab85323b4a51964287df5c1cb166",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Aero Blasters",
       "id": 12491,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -182,13 +217,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:09 pm",
     "updatedAt": "02/01/2020 01:09 pm",
-    "_id": "b6d32c624e224d5cbc307d7ba8e33fde"
+    "_id": "b6d32c624e224d5cbc307d7ba8e33fde",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "After Burner II",
       "id": 5352,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": 75,
       "total_rating_count": 5,
       "first_release_date": "12/30/1987",
@@ -219,13 +262,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:09 pm",
     "updatedAt": "02/01/2020 01:09 pm",
-    "_id": "020c3ceba97745f2b1d02435bbd2d4ad"
+    "_id": "020c3ceba97745f2b1d02435bbd2d4ad",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Air Zonk",
       "id": 42129,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/11/1993",
@@ -256,13 +307,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:10 pm",
     "updatedAt": "02/01/2020 01:10 pm",
-    "_id": "8d11e1e4a9504c70991cdf743d921953"
+    "_id": "8d11e1e4a9504c70991cdf743d921953",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Aoi Blink",
       "id": 42093,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/26/1990",
@@ -293,13 +352,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:11 pm",
     "updatedAt": "02/01/2020 01:11 pm",
-    "_id": "06c7f1bdd6cc45f099097b81f373e1f0"
+    "_id": "06c7f1bdd6cc45f099097b81f373e1f0",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Formation Armed F",
       "id": 42091,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/22/1990",
@@ -330,13 +397,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:12 pm",
     "updatedAt": "02/01/2020 01:12 pm",
-    "_id": "8920e17e1b834725be35283651ebf7c7"
+    "_id": "8920e17e1b834725be35283651ebf7c7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Atomic Robo-Kid Special",
       "id": 42090,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/18/1990",
@@ -367,13 +442,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:13 pm",
     "updatedAt": "02/01/2020 01:13 pm",
-    "_id": "04054a57a484486a9df3e3ef605dd672"
+    "_id": "04054a57a484486a9df3e3ef605dd672",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Andre Panza Kick Boxing",
       "id": 42128,
-      "genres": ["Fighting", "Sport"],
+      "genres": [
+        "Fighting",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -404,13 +488,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:15 pm",
     "updatedAt": "02/01/2020 01:15 pm",
-    "_id": "0a1e2895950e478f86ca3b018442285c"
+    "_id": "0a1e2895950e478f86ca3b018442285c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Ballistix",
       "id": 5878,
-      "genres": ["Sport", "Arcade"],
+      "genres": [
+        "Sport",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -441,13 +534,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:17 pm",
     "updatedAt": "02/01/2020 01:17 pm",
-    "_id": "31135824abc84121878e9c76b12f7476"
+    "_id": "31135824abc84121878e9c76b12f7476",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bari Bari Densetsu",
       "id": 42088,
-      "genres": ["Racing"],
+      "genres": [
+        "Racing"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1989",
@@ -478,13 +579,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:17 pm",
     "updatedAt": "02/01/2020 01:17 pm",
-    "_id": "177685a8de824758b4b2f41475a8fd91"
+    "_id": "177685a8de824758b4b2f41475a8fd91",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Barunba",
       "id": 42087,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/26/1990",
@@ -515,7 +624,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:17 pm",
     "updatedAt": "02/01/2020 01:17 pm",
-    "_id": "503115a1d17f4063a73fd5e2fd740834"
+    "_id": "503115a1d17f4063a73fd5e2fd740834",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -559,13 +674,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:18 pm",
     "updatedAt": "02/01/2020 01:18 pm",
-    "_id": "50d4fadf385a401498df34693d57526e"
+    "_id": "50d4fadf385a401498df34693d57526e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Battle Lode Runner",
       "id": 42086,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/28/1993",
@@ -596,13 +719,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:19 pm",
     "updatedAt": "02/01/2020 01:19 pm",
-    "_id": "a0f4e2824a1049c88ade577341f9ce0d"
+    "_id": "a0f4e2824a1049c88ade577341f9ce0d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Battle Royale",
       "id": 8938,
-      "genres": ["Sport", "Arcade"],
+      "genres": [
+        "Sport",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -633,13 +765,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:19 pm",
     "updatedAt": "02/01/2020 01:19 pm",
-    "_id": "e58e83392eb342cc81da7ed96fcd2b63"
+    "_id": "e58e83392eb342cc81da7ed96fcd2b63",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Blazing Lazers",
       "id": 42125,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -670,13 +810,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:21 pm",
     "updatedAt": "02/01/2020 01:21 pm",
-    "_id": "0a42abcff950445c91a2e8446fa3c5ba"
+    "_id": "0a42abcff950445c91a2e8446fa3c5ba",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bloody Wolf",
       "id": 42117,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -707,13 +856,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:22 pm",
     "updatedAt": "02/01/2020 01:22 pm",
-    "_id": "7155d1b0d48143e288708f86f9266df8"
+    "_id": "7155d1b0d48143e288708f86f9266df8",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bomberman",
       "id": 3446,
-      "genres": ["Puzzle", "Arcade"],
+      "genres": [
+        "Puzzle",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/06/1990",
@@ -744,7 +902,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:22 pm",
     "updatedAt": "02/01/2020 01:22 pm",
-    "_id": "c89b960391a04908bf45baf482c5921a"
+    "_id": "c89b960391a04908bf45baf482c5921a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -781,13 +945,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:22 pm",
     "updatedAt": "02/01/2020 01:22 pm",
-    "_id": "ef7fff0eedd548d7beaf8d1f09262b2f"
+    "_id": "ef7fff0eedd548d7beaf8d1f09262b2f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bomberman '94",
       "id": 3448,
-      "genres": ["Strategy", "Tactical"],
+      "genres": [
+        "Strategy",
+        "Tactical"
+      ],
       "total_rating": 88,
       "total_rating_count": 10,
       "first_release_date": "12/09/1993",
@@ -818,13 +991,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:23 pm",
     "updatedAt": "02/01/2020 01:23 pm",
-    "_id": "52c294041d374ed98b277f29958d812f"
+    "_id": "52c294041d374ed98b277f29958d812f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bonk's Adventure",
       "id": 7794,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": 78,
       "total_rating_count": 4,
       "first_release_date": "12/30/1989",
@@ -855,13 +1036,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:23 pm",
     "updatedAt": "02/01/2020 01:23 pm",
-    "_id": "1cbda92eac884b72a8d07d082df13c98"
+    "_id": "1cbda92eac884b72a8d07d082df13c98",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bonk's Revenge",
       "id": 7795,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": 77,
       "total_rating_count": 3,
       "first_release_date": "12/30/1991",
@@ -892,13 +1081,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:24 pm",
     "updatedAt": "02/01/2020 01:24 pm",
-    "_id": "cc2ab0f703db4073b70ac2738bf0fbc2"
+    "_id": "cc2ab0f703db4073b70ac2738bf0fbc2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bonk III: Bonk's Big Adventure",
       "id": 12493,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1993",
@@ -929,7 +1126,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:24 pm",
     "updatedAt": "02/01/2020 01:24 pm",
-    "_id": "8179bd32db4f4d539754681b59551f65"
+    "_id": "8179bd32db4f4d539754681b59551f65",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -966,7 +1169,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:25 pm",
     "updatedAt": "02/01/2020 01:25 pm",
-    "_id": "7c98868cc42946448c35e29bfd3d0885"
+    "_id": "7c98868cc42946448c35e29bfd3d0885",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -1003,13 +1212,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:25 pm",
     "updatedAt": "02/01/2020 01:25 pm",
-    "_id": "fc58951c2a0b41c4aeb764f8274de1ab"
+    "_id": "fc58951c2a0b41c4aeb764f8274de1ab",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Break In",
       "id": 70097,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/15/2017",
@@ -1040,13 +1257,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:26 pm",
     "updatedAt": "02/01/2020 01:26 pm",
-    "_id": "e8c4884cf8124352839bd6af3376b709"
+    "_id": "e8c4884cf8124352839bd6af3376b709",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bubblegum Crash",
       "id": 43201,
-      "genres": ["Adventure"],
+      "genres": [
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/05/1991",
@@ -1077,13 +1302,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:26 pm",
     "updatedAt": "02/01/2020 01:26 pm",
-    "_id": "66e01e0163314f19b8871da02a53d492"
+    "_id": "66e01e0163314f19b8871da02a53d492",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Bullfight Ring no Hasha",
       "id": 59428,
-      "genres": ["Sport", "Hack and slash/Beat 'em up"],
+      "genres": [
+        "Sport",
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/07/1989",
@@ -1114,13 +1348,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:27 pm",
     "updatedAt": "02/01/2020 01:27 pm",
-    "_id": "c19c556231ac4e268f443b3fb7886715"
+    "_id": "c19c556231ac4e268f443b3fb7886715",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Burning Angels",
       "id": 37719,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/06/1990",
@@ -1151,13 +1393,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:27 pm",
     "updatedAt": "02/01/2020 01:27 pm",
-    "_id": "db526f0c9e5e4b6dbf7d6fda92931f9d"
+    "_id": "db526f0c9e5e4b6dbf7d6fda92931f9d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Cadash",
       "id": 6652,
-      "genres": ["Fighting", "Role-playing (RPG)", "Adventure"],
+      "genres": [
+        "Fighting",
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -1188,13 +1440,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:28 pm",
     "updatedAt": "02/01/2020 01:28 pm",
-    "_id": "1f03dc6202314716897384178774abd4"
+    "_id": "1f03dc6202314716897384178774abd4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Champion Wrestler",
       "id": 38092,
-      "genres": ["Fighting"],
+      "genres": [
+        "Fighting"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/13/1991",
@@ -1225,13 +1485,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:29 pm",
     "updatedAt": "02/01/2020 01:29 pm",
-    "_id": "a2916975d6254fd8b4ea0bc1c47022aa"
+    "_id": "a2916975d6254fd8b4ea0bc1c47022aa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Champions Forever Boxing",
       "id": 42115,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -1262,13 +1530,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:29 pm",
     "updatedAt": "02/01/2020 01:29 pm",
-    "_id": "4617198c710b4242a8babbe7d4c8a9b4"
+    "_id": "4617198c710b4242a8babbe7d4c8a9b4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Chase H.Q.",
       "id": 6802,
-      "genres": ["Racing", "Arcade"],
+      "genres": [
+        "Racing",
+        "Arcade"
+      ],
       "total_rating": 65,
       "total_rating_count": 8,
       "first_release_date": "12/30/1988",
@@ -1299,13 +1576,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:30 pm",
     "updatedAt": "02/01/2020 01:30 pm",
-    "_id": "4b4aa957a69e433187f0b5f302546d5d"
+    "_id": "4b4aa957a69e433187f0b5f302546d5d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Chew Man Fu",
       "id": 42114,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -1336,13 +1621,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:30 pm",
     "updatedAt": "02/01/2020 01:30 pm",
-    "_id": "b9e3efd98e79487f8ab9eb1522cd90ea"
+    "_id": "b9e3efd98e79487f8ab9eb1522cd90ea",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "China Warrior",
       "id": 42127,
-      "genres": ["Fighting"],
+      "genres": [
+        "Fighting"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/20/1987",
@@ -1373,7 +1666,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:31 pm",
     "updatedAt": "02/01/2020 01:31 pm",
-    "_id": "211bd16ea67e4c6398c8805ad511552e"
+    "_id": "211bd16ea67e4c6398c8805ad511552e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -1410,13 +1709,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:32 pm",
     "updatedAt": "02/01/2020 01:32 pm",
-    "_id": "6ca59628f6dc45348fa1cde1fe05def6"
+    "_id": "6ca59628f6dc45348fa1cde1fe05def6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "City Hunter",
       "id": 37718,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/01/1990",
@@ -1447,13 +1754,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:32 pm",
     "updatedAt": "02/01/2020 01:32 pm",
-    "_id": "617fdd796fd4412d988e9a8ee75c9822"
+    "_id": "617fdd796fd4412d988e9a8ee75c9822",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Columns",
       "id": 117538,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -1484,13 +1799,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:33 pm",
     "updatedAt": "02/01/2020 01:33 pm",
-    "_id": "3aa749df2be44b03bca22862fc36729b"
+    "_id": "3aa749df2be44b03bca22862fc36729b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Coryoon",
       "id": 37717,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/28/1991",
@@ -1521,7 +1844,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:33 pm",
     "updatedAt": "02/01/2020 01:33 pm",
-    "_id": "a48499e7d98447e0aa736027710a83f7"
+    "_id": "a48499e7d98447e0aa736027710a83f7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -1558,7 +1887,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:34 pm",
     "updatedAt": "02/01/2020 01:34 pm",
-    "_id": "ebd217dc668c4d17af7386e3c5e58f3f"
+    "_id": "ebd217dc668c4d17af7386e3c5e58f3f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -1595,13 +1930,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:34 pm",
     "updatedAt": "02/01/2020 01:34 pm",
-    "_id": "4f4a9a50c9524002a0a89c4188aa587f"
+    "_id": "4f4a9a50c9524002a0a89c4188aa587f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Cyber-Core",
       "id": 42112,
-      "genres": ["Shooter", "Adventure"],
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -1632,13 +1976,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:35 pm",
     "updatedAt": "02/01/2020 01:35 pm",
-    "_id": "17e314cc7a41479db9c44b17b721ae95"
+    "_id": "17e314cc7a41479db9c44b17b721ae95",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Cyber Cross",
       "id": 42083,
-      "genres": ["Platform", "Hack and slash/Beat 'em up"],
+      "genres": [
+        "Platform",
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/22/1989",
@@ -1669,13 +2022,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:35 pm",
     "updatedAt": "02/01/2020 01:35 pm",
-    "_id": "48a7987fc3de454ba5e3d6554cb9557f"
+    "_id": "48a7987fc3de454ba5e3d6554cb9557f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Cyber Dodge",
       "id": 42054,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/01/1992",
@@ -1706,13 +2067,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:35 pm",
     "updatedAt": "02/01/2020 01:35 pm",
-    "_id": "9aa7a03be5f5487a8fc87ab46939c4c6"
+    "_id": "9aa7a03be5f5487a8fc87ab46939c4c6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Cyber Knight",
       "id": 16471,
-      "genres": ["Role-playing (RPG)", "Strategy"],
+      "genres": [
+        "Role-playing (RPG)",
+        "Strategy"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/09/1990",
@@ -1743,13 +2113,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:36 pm",
     "updatedAt": "02/01/2020 01:36 pm",
-    "_id": "7d69101f5178493794f837784babd1f0"
+    "_id": "7d69101f5178493794f837784babd1f0",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Darius Alpha",
       "id": 38075,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/15/1990",
@@ -1780,13 +2158,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:36 pm",
     "updatedAt": "02/01/2020 01:36 pm",
-    "_id": "72c476830078440697375b27f717548e"
+    "_id": "72c476830078440697375b27f717548e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Disney's Darkwing Duck",
       "id": 81487,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/30/1993",
@@ -1817,13 +2203,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:37 pm",
     "updatedAt": "02/01/2020 01:37 pm",
-    "_id": "398ed25f767347a0849724222a6d49c2"
+    "_id": "398ed25f767347a0849724222a6d49c2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Davis Cup",
       "id": 62580,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -1854,13 +2248,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:37 pm",
     "updatedAt": "02/01/2020 01:37 pm",
-    "_id": "bf17ae0348ca47cb9cf944d2acbbc9de"
+    "_id": "bf17ae0348ca47cb9cf944d2acbbc9de",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Dead Moon",
       "id": 42111,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -1891,13 +2293,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:38 pm",
     "updatedAt": "02/01/2020 01:38 pm",
-    "_id": "c180bfec50f94fce95e9c527b99274ee"
+    "_id": "c180bfec50f94fce95e9c527b99274ee",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Deep Blue",
       "id": 75524,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/30/1989",
@@ -1928,13 +2339,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:38 pm",
     "updatedAt": "02/01/2020 01:38 pm",
-    "_id": "94b53fafff624376ae0cdb49bc47fdcc"
+    "_id": "94b53fafff624376ae0cdb49bc47fdcc",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Devil's Crush",
       "id": 6827,
-      "genres": ["Pinball"],
+      "genres": [
+        "Pinball"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -1965,13 +2384,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:39 pm",
     "updatedAt": "02/01/2020 01:39 pm",
-    "_id": "1dbeb4c690854b7ea919f857918009bb"
+    "_id": "1dbeb4c690854b7ea919f857918009bb",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Die Hard",
       "id": 47188,
-      "genres": ["Shooter", "Adventure"],
+      "genres": [
+        "Shooter",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -2002,13 +2430,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:39 pm",
     "updatedAt": "02/01/2020 01:39 pm",
-    "_id": "7e1b6f2f266d4701a87ad212c41c311f"
+    "_id": "7e1b6f2f266d4701a87ad212c41c311f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Digital Champ",
       "id": 42076,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/11/1989",
@@ -2039,13 +2475,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:40 pm",
     "updatedAt": "02/01/2020 01:40 pm",
-    "_id": "2ed76720dc544abfa87ab0c599ba7e92"
+    "_id": "2ed76720dc544abfa87ab0c599ba7e92",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Double Dragon 2: The Revenge",
       "id": 6790,
-      "genres": ["Fighting", "Hack and slash/Beat 'em up", "Arcade"],
+      "genres": [
+        "Fighting",
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
       "total_rating": 82,
       "total_rating_count": 40,
       "first_release_date": "12/30/1988",
@@ -2076,13 +2522,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:40 pm",
     "updatedAt": "02/01/2020 01:40 pm",
-    "_id": "4ab89525dd93480c95fa2bd5e067f170"
+    "_id": "4ab89525dd93480c95fa2bd5e067f170",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Double Dungeons",
       "id": 42110,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -2113,7 +2567,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:40 pm",
     "updatedAt": "02/01/2020 01:40 pm",
-    "_id": "7d049beba9744e3bafa1dc974e1f6407"
+    "_id": "7d049beba9744e3bafa1dc974e1f6407",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -2150,13 +2610,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:41 pm",
     "updatedAt": "02/01/2020 01:41 pm",
-    "_id": "7b50afcaf5894078b296fdc3f5f9dcfb"
+    "_id": "7b50afcaf5894078b296fdc3f5f9dcfb",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Dragon Egg!",
       "id": 37722,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/26/1991",
@@ -2187,13 +2655,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:42 pm",
     "updatedAt": "02/01/2020 01:42 pm",
-    "_id": "6cd2ac17f5044f0f9b6e6baae9e63e3b"
+    "_id": "6cd2ac17f5044f0f9b6e6baae9e63e3b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Dragon Spirit",
       "id": 12055,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/31/1987",
@@ -2224,13 +2701,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:43 pm",
     "updatedAt": "02/01/2020 01:43 pm",
-    "_id": "ca681522ea094c9fb7b592fd727c7fa1"
+    "_id": "ca681522ea094c9fb7b592fd727c7fa1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Dragon Slayer: The Legend of Heroes",
       "id": 5579,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/30/1989",
@@ -2261,13 +2746,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:44 pm",
     "updatedAt": "02/01/2020 01:44 pm",
-    "_id": "d66cb166a0744987b41801153dad26ea"
+    "_id": "d66cb166a0744987b41801153dad26ea",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Dragon's Curse",
       "id": 42109,
-      "genres": ["Adventure"],
+      "genres": [
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -2298,13 +2791,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:44 pm",
     "updatedAt": "02/01/2020 01:44 pm",
-    "_id": "8e8b42a001ee4637b3c2453bb74affa6"
+    "_id": "8e8b42a001ee4637b3c2453bb74affa6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Drop Off",
       "id": 42108,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -2335,13 +2836,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:44 pm",
     "updatedAt": "02/01/2020 01:44 pm",
-    "_id": "b58db5234cee4e328763a293ba442888"
+    "_id": "b58db5234cee4e328763a293ba442888",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Dungeons & Dragons: Order of the Griffon",
       "id": 42102,
-      "genres": ["Role-playing (RPG)", "Adventure"],
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -2372,13 +2882,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:45 pm",
     "updatedAt": "02/01/2020 01:45 pm",
-    "_id": "d56bd9ff56064437b49784726b07cd13"
+    "_id": "d56bd9ff56064437b49784726b07cd13",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Energy",
       "id": 63332,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/18/1989",
@@ -2409,13 +2927,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:46 pm",
     "updatedAt": "02/01/2020 01:46 pm",
-    "_id": "2028d28e26844da589d210313e9f108d"
+    "_id": "2028d28e26844da589d210313e9f108d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "F-1 Dream",
       "id": 39482,
-      "genres": ["Racing", "Sport"],
+      "genres": [
+        "Racing",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1988",
@@ -2446,7 +2973,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:46 pm",
     "updatedAt": "02/01/2020 01:46 pm",
-    "_id": "63699369b7c84957b59112660280a500"
+    "_id": "63699369b7c84957b59112660280a500",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -2483,13 +3016,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 01:47 pm",
     "updatedAt": "02/01/2020 01:47 pm",
-    "_id": "4109fb0dddbd4904a8fd818fa80a641c"
+    "_id": "4109fb0dddbd4904a8fd818fa80a641c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Faceball 2000",
       "id": 19701,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": 76,
       "total_rating_count": 1,
       "first_release_date": "11/30/1991",
@@ -2520,13 +3061,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:05 pm",
     "updatedAt": "02/01/2020 03:05 pm",
-    "_id": "5eb6e3a446bf4d5fa448a6301c45949b"
+    "_id": "5eb6e3a446bf4d5fa448a6301c45949b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Falcon",
       "id": 12088,
-      "genres": ["Simulator"],
+      "genres": [
+        "Simulator"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -2557,13 +3106,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:05 pm",
     "updatedAt": "02/01/2020 03:05 pm",
-    "_id": "e87d4571c64b4687a5e23827e6332ffa"
+    "_id": "e87d4571c64b4687a5e23827e6332ffa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Fantasy Zone",
       "id": 6684,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 81,
       "total_rating_count": 8,
       "first_release_date": "03/19/1986",
@@ -2594,13 +3152,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:05 pm",
     "updatedAt": "02/01/2020 03:05 pm",
-    "_id": "b0fc428e0e744d47a7ebf54899c5c82c"
+    "_id": "b0fc428e0e744d47a7ebf54899c5c82c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Fighting Run",
       "id": 44333,
-      "genres": ["Racing", "Hack and slash/Beat 'em up"],
+      "genres": [
+        "Racing",
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1991",
@@ -2631,13 +3198,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:06 pm",
     "updatedAt": "02/01/2020 03:06 pm",
-    "_id": "f7921471c2444c4fb58b5132d0f1b101"
+    "_id": "f7921471c2444c4fb58b5132d0f1b101",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Final Blaster",
       "id": 37713,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/27/1990",
@@ -2668,13 +3243,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:07 pm",
     "updatedAt": "02/01/2020 03:07 pm",
-    "_id": "17fd30648dbf4be28a466e5d78b04639"
+    "_id": "17fd30648dbf4be28a466e5d78b04639",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Final Lap Twin",
       "id": 42124,
-      "genres": ["Racing"],
+      "genres": [
+        "Racing"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -2705,13 +3288,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:07 pm",
     "updatedAt": "02/01/2020 03:07 pm",
-    "_id": "a3e03efe21c9488db9aab401c8c181f3"
+    "_id": "a3e03efe21c9488db9aab401c8c181f3",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Final Match Tennis",
       "id": 42060,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/28/1991",
@@ -2742,13 +3333,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:07 pm",
     "updatedAt": "02/01/2020 03:07 pm",
-    "_id": "057e5584b5a1444aac91084b258f4b9b"
+    "_id": "057e5584b5a1444aac91084b258f4b9b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "FINAL SOLDIER",
       "id": 37712,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/22/1991",
@@ -2779,13 +3378,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:08 pm",
     "updatedAt": "02/01/2020 03:08 pm",
-    "_id": "14f143b5e393430e8ce21432068a929c"
+    "_id": "14f143b5e393430e8ce21432068a929c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Fire Pro Wrestling 2nd Bout",
       "id": 38086,
-      "genres": ["Fighting", "Sport"],
+      "genres": [
+        "Fighting",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/29/1991",
@@ -2816,13 +3424,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:08 pm",
     "updatedAt": "02/01/2020 03:08 pm",
-    "_id": "7dbf55357ac44c9395e66e9760ab6f7d"
+    "_id": "7dbf55357ac44c9395e66e9760ab6f7d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Fire Pro Wrestling 3: Legend Bout",
       "id": 42071,
-      "genres": ["Fighting", "Sport"],
+      "genres": [
+        "Fighting",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/12/1992",
@@ -2853,13 +3470,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:09 pm",
     "updatedAt": "02/01/2020 03:09 pm",
-    "_id": "0bd7fc88ab094ace9dcc0b877fb76355"
+    "_id": "0bd7fc88ab094ace9dcc0b877fb76355",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Fire Pro Wrestling: Combination Tag",
       "id": 38087,
-      "genres": ["Fighting", "Sport"],
+      "genres": [
+        "Fighting",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/21/1989",
@@ -2890,13 +3516,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:09 pm",
     "updatedAt": "02/01/2020 03:09 pm",
-    "_id": "7eb870e8459b442191767ff3271985b2"
+    "_id": "7eb870e8459b442191767ff3271985b2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Forgotten Worlds",
       "id": 6794,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 61,
       "total_rating_count": 9,
       "first_release_date": "12/30/1988",
@@ -2927,13 +3562,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:09 pm",
     "updatedAt": "02/01/2020 03:09 pm",
-    "_id": "54748399c8bf4160855a55bbc17c6dd0"
+    "_id": "54748399c8bf4160855a55bbc17c6dd0",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Formation Soccer: Human Cup '90",
       "id": 42046,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/26/1990",
@@ -2964,13 +3607,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:10 pm",
     "updatedAt": "02/01/2020 03:10 pm",
-    "_id": "685d38965db34818b4a85b3bac97d80d"
+    "_id": "685d38965db34818b4a85b3bac97d80d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Formation Soccer On J. League",
       "id": 44329,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/14/1994",
@@ -3001,13 +3652,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:10 pm",
     "updatedAt": "02/01/2020 03:10 pm",
-    "_id": "3aff5aba7a664571afe8541b7982a91a"
+    "_id": "3aff5aba7a664571afe8541b7982a91a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Galaga '88",
       "id": 15535,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 87,
       "total_rating_count": 9,
       "first_release_date": "11/30/1987",
@@ -3038,13 +3698,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:11 pm",
     "updatedAt": "02/01/2020 03:11 pm",
-    "_id": "af266a7c1b084b5dafffb24b614a16b6"
+    "_id": "af266a7c1b084b5dafffb24b614a16b6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Ganbare Golf Boys",
       "id": 44330,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/27/1989",
@@ -3075,13 +3743,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:12 pm",
     "updatedAt": "02/01/2020 03:12 pm",
-    "_id": "035bd07625eb463581ce0afc6082cced"
+    "_id": "035bd07625eb463581ce0afc6082cced",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Thunder Blade",
       "id": 12862,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -3112,13 +3789,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:12 pm",
     "updatedAt": "02/01/2020 03:12 pm",
-    "_id": "bbb3412dc4c749609e5281f5e694391e"
+    "_id": "bbb3412dc4c749609e5281f5e694391e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Ghost Manor",
       "id": 23207,
-      "genres": ["Puzzle", "Adventure", "Arcade"],
+      "genres": [
+        "Puzzle",
+        "Adventure",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1983",
@@ -3149,7 +3836,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:13 pm",
     "updatedAt": "02/01/2020 03:13 pm",
-    "_id": "c1d5c189368242c8b30c03c1b85df508"
+    "_id": "c1d5c189368242c8b30c03c1b85df508",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -3186,13 +3879,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:13 pm",
     "updatedAt": "02/01/2020 03:13 pm",
-    "_id": "ef2e2e0d10aa483eb2dfb1bfe2b1b9ee"
+    "_id": "ef2e2e0d10aa483eb2dfb1bfe2b1b9ee",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Gradius",
       "id": 1476,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 72,
       "total_rating_count": 23,
       "first_release_date": "05/28/1985",
@@ -3223,13 +3925,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:14 pm",
     "updatedAt": "02/01/2020 03:14 pm",
-    "_id": "6e82af755b104f5e98ff177edaf33ae1"
+    "_id": "6e82af755b104f5e98ff177edaf33ae1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Gunboat: River Combat Simulation",
       "id": 12127,
-      "genres": ["Simulator"],
+      "genres": [
+        "Simulator"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -3260,13 +3970,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:14 pm",
     "updatedAt": "02/01/2020 03:14 pm",
-    "_id": "ab59c51461054f77bf542cd038516d2d"
+    "_id": "ab59c51461054f77bf542cd038516d2d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Hatris",
       "id": 40063,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": 63,
       "total_rating_count": 1,
       "first_release_date": "12/30/1992",
@@ -3297,13 +4015,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:15 pm",
     "updatedAt": "02/01/2020 03:15 pm",
-    "_id": "270a784c004740b689edbc3bb904bb9c"
+    "_id": "270a784c004740b689edbc3bb904bb9c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Heavy Unit",
       "id": 46859,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1988",
@@ -3334,13 +4060,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:16 pm",
     "updatedAt": "02/01/2020 03:16 pm",
-    "_id": "f3f14832835646dc8e1fc8e5234bfd1a"
+    "_id": "f3f14832835646dc8e1fc8e5234bfd1a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Hit the Ice: The Official Video Hockey League",
       "id": 42107,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -3371,13 +4105,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:16 pm",
     "updatedAt": "02/01/2020 03:16 pm",
-    "_id": "817b6df58f3e4111a96e0c316b4144a2"
+    "_id": "817b6df58f3e4111a96e0c316b4144a2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Image Fight",
       "id": 10452,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -3408,13 +4151,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:17 pm",
     "updatedAt": "02/01/2020 03:17 pm",
-    "_id": "70c753a46862422e9ecb0eb35fc07235"
+    "_id": "70c753a46862422e9ecb0eb35fc07235",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Impossamole",
       "id": 12611,
-      "genres": ["Platform", "Adventure"],
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -3445,13 +4197,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:17 pm",
     "updatedAt": "02/01/2020 03:17 pm",
-    "_id": "b605002ccfdb46d997c96e0666cac651"
+    "_id": "b605002ccfdb46d997c96e0666cac651",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "J. League Greatest Eleven Soccer",
       "id": 37684,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/13/1993",
@@ -3482,13 +4242,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:18 pm",
     "updatedAt": "02/01/2020 03:18 pm",
-    "_id": "e186e015fc234d79903380ff0b2e0be8"
+    "_id": "e186e015fc234d79903380ff0b2e0be8",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Jack Nicklaus' Greatest 18 Holes of Major Championship Golf",
       "id": 18101,
-      "genres": ["Simulator", "Sport"],
+      "genres": [
+        "Simulator",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -3519,13 +4288,24 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:19 pm",
     "updatedAt": "02/01/2020 03:19 pm",
-    "_id": "0524639220d9425b8ef0f4b8615926d1"
+    "_id": "0524639220d9425b8ef0f4b8615926d1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Jackie Chan's Action Kung Fu",
       "id": 12522,
-      "genres": ["Fighting", "Platform", "Hack and slash/Beat 'em up", "Arcade"],
+      "genres": [
+        "Fighting",
+        "Platform",
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
       "total_rating": 71,
       "total_rating_count": 7,
       "first_release_date": "12/30/1990",
@@ -3556,13 +4336,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:19 pm",
     "updatedAt": "02/01/2020 03:19 pm",
-    "_id": "6d73b64606884adea8f384daef48dbe8"
+    "_id": "6d73b64606884adea8f384daef48dbe8",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "J.J. & Jeff",
       "id": 42106,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/29/1987",
@@ -3593,13 +4381,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:20 pm",
     "updatedAt": "02/01/2020 03:20 pm",
-    "_id": "d06129ab74b642949678973fd68b4a2d"
+    "_id": "d06129ab74b642949678973fd68b4a2d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Keith Courage in Alpha Zones",
       "id": 42122,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/29/1988",
@@ -3630,13 +4426,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:21 pm",
     "updatedAt": "02/01/2020 03:21 pm",
-    "_id": "c703994878d34eb69e3478513ad8985f"
+    "_id": "c703994878d34eb69e3478513ad8985f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Kickball",
       "id": 58961,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/23/1990",
@@ -3667,13 +4471,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:21 pm",
     "updatedAt": "02/01/2020 03:21 pm",
-    "_id": "899b6fc009c946229c23b67fd3ec5dea"
+    "_id": "899b6fc009c946229c23b67fd3ec5dea",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Klax",
       "id": 4484,
-      "genres": ["Puzzle", "Strategy", "Arcade"],
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Arcade"
+      ],
       "total_rating": 68,
       "total_rating_count": 4,
       "first_release_date": "01/31/1990",
@@ -3704,13 +4518,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:22 pm",
     "updatedAt": "02/01/2020 03:22 pm",
-    "_id": "169983f09d4e4a4d9ceb5ec16d3f6929"
+    "_id": "169983f09d4e4a4d9ceb5ec16d3f6929",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Knight Rider Special",
       "id": 42058,
-      "genres": ["Racing", "Adventure"],
+      "genres": [
+        "Racing",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/21/1989",
@@ -3741,13 +4564,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:22 pm",
     "updatedAt": "02/01/2020 03:22 pm",
-    "_id": "ebdf22d3b47843909be0b5668af4fc12"
+    "_id": "ebdf22d3b47843909be0b5668af4fc12",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Legend of Hero Tonma",
       "id": 10453,
-      "genres": ["Shooter", "Platform", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Platform",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -3778,13 +4611,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:23 pm",
     "updatedAt": "02/01/2020 03:23 pm",
-    "_id": "18efaa4af8cc426a92ba0211b09fbd25"
+    "_id": "18efaa4af8cc426a92ba0211b09fbd25",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "The Legendary Axe",
       "id": 42121,
-      "genres": ["Platform", "Hack and slash/Beat 'em up"],
+      "genres": [
+        "Platform",
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/22/1988",
@@ -3815,13 +4657,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:23 pm",
     "updatedAt": "02/01/2020 03:23 pm",
-    "_id": "0925b8487f5f4da7aea4d81e98cf5d46"
+    "_id": "0925b8487f5f4da7aea4d81e98cf5d46",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Legendary Axe II",
       "id": 42120,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -3852,13 +4702,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:23 pm",
     "updatedAt": "02/01/2020 03:23 pm",
-    "_id": "0632f0c80bbd44cbab0cf5132d0becd4"
+    "_id": "0632f0c80bbd44cbab0cf5132d0becd4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Lode Runner: Lost Labyrinth",
       "id": 64123,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/26/1990",
@@ -3889,13 +4747,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:24 pm",
     "updatedAt": "02/01/2020 03:24 pm",
-    "_id": "8d03478ff03a4be28f636de0d6081815"
+    "_id": "8d03478ff03a4be28f636de0d6081815",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Magical Chase",
       "id": 42126,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/14/1991",
@@ -3926,13 +4792,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:24 pm",
     "updatedAt": "02/01/2020 03:24 pm",
-    "_id": "b2e02dd5e6284394a1f59a931b7d219e"
+    "_id": "b2e02dd5e6284394a1f59a931b7d219e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Maniac Pro Wrestling",
       "id": 42070,
-      "genres": ["Fighting", "Sport"],
+      "genres": [
+        "Fighting",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/23/1990",
@@ -3963,13 +4838,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:25 pm",
     "updatedAt": "02/01/2020 03:25 pm",
-    "_id": "d488c55746694b2380fe570e49643670"
+    "_id": "d488c55746694b2380fe570e49643670",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Marchen Maze",
       "id": 46812,
-      "genres": ["Shooter", "Platform"],
+      "genres": [
+        "Shooter",
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/13/1988",
@@ -4000,13 +4884,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:26 pm",
     "updatedAt": "02/01/2020 03:26 pm",
-    "_id": "73c0a3accecb46d0b2cf044bb76b7f2d"
+    "_id": "73c0a3accecb46d0b2cf044bb76b7f2d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Metal Stoker",
       "id": 42059,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/11/1991",
@@ -4037,13 +4929,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:26 pm",
     "updatedAt": "02/01/2020 03:26 pm",
-    "_id": "9c871169e97642dcb22deb87364aa792"
+    "_id": "9c871169e97642dcb22deb87364aa792",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Military Madness",
       "id": 44334,
-      "genres": ["Strategy", "Turn-based strategy (TBS)"],
+      "genres": [
+        "Strategy",
+        "Turn-based strategy (TBS)"
+      ],
       "total_rating": 77,
       "total_rating_count": 5,
       "first_release_date": "02/08/1989",
@@ -4074,13 +4975,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:27 pm",
     "updatedAt": "02/01/2020 03:27 pm",
-    "_id": "be9fc66dde424e3d9fa87d00aca5ad5d"
+    "_id": "be9fc66dde424e3d9fa87d00aca5ad5d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Monster Pro Wrestling",
       "id": 42069,
-      "genres": ["Fighting", "Sport", "Strategy"],
+      "genres": [
+        "Fighting",
+        "Sport",
+        "Strategy"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/21/1991",
@@ -4111,13 +5022,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:27 pm",
     "updatedAt": "02/01/2020 03:27 pm",
-    "_id": "04ca7d34880c4066b971f34f7d9ba823"
+    "_id": "04ca7d34880c4066b971f34f7d9ba823",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Moto Roader",
       "id": 42104,
-      "genres": ["Racing", "Arcade"],
+      "genres": [
+        "Racing",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/02/1989",
@@ -4148,13 +5068,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:28 pm",
     "updatedAt": "02/01/2020 03:28 pm",
-    "_id": "b87deacabb8a4fd0ab4bd0c6b99ad798"
+    "_id": "b87deacabb8a4fd0ab4bd0c6b99ad798",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "MOTO ROADER II",
       "id": 37708,
-      "genres": ["Racing"],
+      "genres": [
+        "Racing"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/28/1991",
@@ -4185,13 +5113,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:28 pm",
     "updatedAt": "02/01/2020 03:28 pm",
-    "_id": "b05677e16c234bf595dfe880dda0082f"
+    "_id": "b05677e16c234bf595dfe880dda0082f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Naxat Stadium",
       "id": 37670,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/25/1990",
@@ -4222,13 +5158,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:29 pm",
     "updatedAt": "02/01/2020 03:29 pm",
-    "_id": "49c8d2fd7321403084fc3b108cf33596"
+    "_id": "49c8d2fd7321403084fc3b108cf33596",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Neutopia",
       "id": 28524,
-      "genres": ["Adventure"],
+      "genres": [
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/16/1989",
@@ -4259,13 +5203,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:29 pm",
     "updatedAt": "02/01/2020 03:29 pm",
-    "_id": "82ce67e261744412a1f4813703e22b8d"
+    "_id": "82ce67e261744412a1f4813703e22b8d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Neutopia II",
       "id": 28523,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": 80,
       "total_rating_count": "",
       "first_release_date": "10/26/1991",
@@ -4296,13 +5248,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:30 pm",
     "updatedAt": "02/01/2020 03:30 pm",
-    "_id": "15f7e682c74a4e65bb64b0a2269b11d6"
+    "_id": "15f7e682c74a4e65bb64b0a2269b11d6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "New Adventure Island",
       "id": 28521,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": 73,
       "total_rating_count": 2,
       "first_release_date": "07/25/1992",
@@ -4333,13 +5293,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:30 pm",
     "updatedAt": "02/01/2020 03:30 pm",
-    "_id": "25380ea58f60443ba8c6f33b8d89a329"
+    "_id": "25380ea58f60443ba8c6f33b8d89a329",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "The NewZealand Story",
       "id": 7628,
-      "genres": ["Shooter", "Platform"],
+      "genres": [
+        "Shooter",
+        "Platform"
+      ],
       "total_rating": 82,
       "total_rating_count": 13,
       "first_release_date": "12/30/1988",
@@ -4370,13 +5339,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:31 pm",
     "updatedAt": "02/01/2020 03:31 pm",
-    "_id": "d9962a18fc0f4b62a0b505ef705b5257"
+    "_id": "d9962a18fc0f4b62a0b505ef705b5257",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Night Creatures",
       "id": 42103,
-      "genres": ["Hack and slash/Beat 'em up"],
+      "genres": [
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/09/1992",
@@ -4407,13 +5384,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:31 pm",
     "updatedAt": "02/01/2020 03:31 pm",
-    "_id": "d6718f3fe67c494eb01719d7ab25b7d7"
+    "_id": "d6718f3fe67c494eb01719d7ab25b7d7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Niko Niko Pun",
       "id": 42057,
-      "genres": ["Platform", "Puzzle"],
+      "genres": [
+        "Platform",
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/12/1991",
@@ -4444,13 +5430,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:31 pm",
     "updatedAt": "02/01/2020 03:31 pm",
-    "_id": "398fcf9bc4ae4be2af6c7e3e931e2b75"
+    "_id": "398fcf9bc4ae4be2af6c7e3e931e2b75",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Ninja Spirit",
       "id": 6819,
-      "genres": ["Platform", "Arcade"],
+      "genres": [
+        "Platform",
+        "Arcade"
+      ],
       "total_rating": 80,
       "total_rating_count": 6,
       "first_release_date": "12/30/1988",
@@ -4481,13 +5476,24 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/01/2020 03:32 pm",
     "updatedAt": "02/01/2020 03:32 pm",
-    "_id": "b6b40dc9831345609a2938b74cbddc9a"
+    "_id": "b6b40dc9831345609a2938b74cbddc9a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "The Ninja Warriors",
       "id": 5406,
-      "genres": ["Fighting", "Platform", "Hack and slash/Beat 'em up", "Arcade"],
+      "genres": [
+        "Fighting",
+        "Platform",
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -4518,13 +5524,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:15 am",
     "updatedAt": "02/02/2020 07:15 am",
-    "_id": "b5a0181a2fea4cf39f4daf2b98c86ee7"
+    "_id": "b5a0181a2fea4cf39f4daf2b98c86ee7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Operation Wolf",
       "id": 12190,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 70,
       "total_rating_count": 14,
       "first_release_date": "10/31/1987",
@@ -4555,13 +5570,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:15 am",
     "updatedAt": "02/02/2020 07:15 am",
-    "_id": "9e75ab3db1364baa922478103ba42396"
+    "_id": "9e75ab3db1364baa922478103ba42396",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Ordyne",
       "id": 39968,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -4592,13 +5615,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:16 am",
     "updatedAt": "02/02/2020 07:16 am",
-    "_id": "bc3a4aa444614a368dfcaab59fa22149"
+    "_id": "bc3a4aa444614a368dfcaab59fa22149",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Out Live",
       "id": 37666,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/14/1989",
@@ -4629,7 +5660,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:16 am",
     "updatedAt": "02/02/2020 07:16 am",
-    "_id": "3b57a7a422f6415a90c19bedd71f6c54"
+    "_id": "3b57a7a422f6415a90c19bedd71f6c54",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -4666,13 +5703,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:18 am",
     "updatedAt": "02/02/2020 07:18 am",
-    "_id": "328f70b639164dccbc0e6a7b7ead9ce7"
+    "_id": "328f70b639164dccbc0e6a7b7ead9ce7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "P47 Thunderbolt",
       "id": 12838,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -4703,13 +5749,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:18 am",
     "updatedAt": "02/02/2020 07:18 am",
-    "_id": "621bc5374b514bf8bff155d40e91ffd5"
+    "_id": "621bc5374b514bf8bff155d40e91ffd5",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Pac-Land",
       "id": 6822,
-      "genres": ["Platform", "Puzzle", "Arcade"],
+      "genres": [
+        "Platform",
+        "Puzzle",
+        "Arcade"
+      ],
       "total_rating": 70,
       "total_rating_count": 8,
       "first_release_date": "07/31/1984",
@@ -4740,13 +5796,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:19 am",
     "updatedAt": "02/02/2020 07:19 am",
-    "_id": "defd85f8c50c42e3b200c71b2a1680ef"
+    "_id": "defd85f8c50c42e3b200c71b2a1680ef",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Parasol Stars: The Story of Bubble Bobble III",
       "id": 42101,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/14/1991",
@@ -4777,13 +5841,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:19 am",
     "updatedAt": "02/02/2020 07:19 am",
-    "_id": "72e4f095663b4fc2a067c98749fe07f3"
+    "_id": "72e4f095663b4fc2a067c98749fe07f3",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Parodius Da! - Shinwa Kara Owarai He",
       "id": 42095,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/19/1992",
@@ -4814,13 +5886,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:20 am",
     "updatedAt": "02/02/2020 07:20 am",
-    "_id": "8a79667421f841dfaf33fe7a1c14c465"
+    "_id": "8a79667421f841dfaf33fe7a1c14c465",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Populous",
       "id": 248,
-      "genres": ["Real Time Strategy (RTS)", "Simulator", "Strategy"],
+      "genres": [
+        "Real Time Strategy (RTS)",
+        "Simulator",
+        "Strategy"
+      ],
       "total_rating": 67,
       "total_rating_count": 21,
       "first_release_date": "06/04/1989",
@@ -4851,13 +5933,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:20 am",
     "updatedAt": "02/02/2020 07:20 am",
-    "_id": "359eadbcbf1543bf949b269d86522fa6"
+    "_id": "359eadbcbf1543bf949b269d86522fa6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power Drift",
       "id": 12719,
-      "genres": ["Racing", "Arcade"],
+      "genres": [
+        "Racing",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/31/1988",
@@ -4888,13 +5979,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:21 am",
     "updatedAt": "02/02/2020 07:21 am",
-    "_id": "9b319d46c04c43b68d35a04d23b442ee"
+    "_id": "9b319d46c04c43b68d35a04d23b442ee",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power Eleven",
       "id": 42043,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/20/1991",
@@ -4925,13 +6024,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:21 am",
     "updatedAt": "02/02/2020 07:21 am",
-    "_id": "c4b93b9fd578420e8fc1a5fd7f3c3f4d"
+    "_id": "c4b93b9fd578420e8fc1a5fd7f3c3f4d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power Gate",
       "id": 42130,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/29/1991",
@@ -4962,13 +6069,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:21 am",
     "updatedAt": "02/02/2020 07:21 am",
-    "_id": "2859d529896d4f19a057c202eab15afa"
+    "_id": "2859d529896d4f19a057c202eab15afa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power Golf",
       "id": 42100,
-      "genres": ["Sport", "Pinball"],
+      "genres": [
+        "Sport",
+        "Pinball"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -4999,13 +6115,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:22 am",
     "updatedAt": "02/02/2020 07:22 am",
-    "_id": "64e0882881d04de08215caafec158550"
+    "_id": "64e0882881d04de08215caafec158550",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power League II",
       "id": 38089,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/07/1989",
@@ -5036,13 +6160,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:22 am",
     "updatedAt": "02/02/2020 07:22 am",
-    "_id": "cb977f48ba98488f9c4cf783577acdff"
+    "_id": "cb977f48ba98488f9c4cf783577acdff",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power League III",
       "id": 42096,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/09/1990",
@@ -5073,13 +6205,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:23 am",
     "updatedAt": "02/02/2020 07:23 am",
-    "_id": "65e487a7449e4df29ed2013b6176c268"
+    "_id": "65e487a7449e4df29ed2013b6176c268",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power League IV",
       "id": 43191,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/08/1991",
@@ -5110,13 +6250,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:23 am",
     "updatedAt": "02/02/2020 07:23 am",
-    "_id": "1547f32528044cf9b0707c009bbd7a26"
+    "_id": "1547f32528044cf9b0707c009bbd7a26",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power League V",
       "id": 37661,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/06/1992",
@@ -5147,13 +6295,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:23 am",
     "updatedAt": "02/02/2020 07:23 am",
-    "_id": "69d9022845b44af69bfcc0071b9ab0a0"
+    "_id": "69d9022845b44af69bfcc0071b9ab0a0",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Power League '93",
       "id": 37662,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/14/1993",
@@ -5184,7 +6340,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:24 am",
     "updatedAt": "02/02/2020 07:24 am",
-    "_id": "f20d36f5f7234af6800515691262c66c"
+    "_id": "f20d36f5f7234af6800515691262c66c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -5221,13 +6383,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:24 am",
     "updatedAt": "02/02/2020 07:24 am",
-    "_id": "52398fb4286341389eebe6f429436ec4"
+    "_id": "52398fb4286341389eebe6f429436ec4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Pro Yakyuu World Stadium",
       "id": 62299,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/30/1988",
@@ -5258,13 +6428,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:25 am",
     "updatedAt": "02/02/2020 07:25 am",
-    "_id": "baa8a4443ff34d868da75a328591568f"
+    "_id": "baa8a4443ff34d868da75a328591568f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Pro Yakyuu World Stadium '91",
       "id": 37660,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/20/1991",
@@ -5295,7 +6473,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:25 am",
     "updatedAt": "02/02/2020 07:25 am",
-    "_id": "4897477b78c84bb2bf8698ea615bcf65"
+    "_id": "4897477b78c84bb2bf8698ea615bcf65",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -5332,7 +6516,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:26 am",
     "updatedAt": "02/02/2020 07:26 am",
-    "_id": "53732134f1dc446e874599e2738825fb"
+    "_id": "53732134f1dc446e874599e2738825fb",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -5369,13 +6559,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:26 am",
     "updatedAt": "02/02/2020 07:26 am",
-    "_id": "9a3ca4544bab409a81b3387c10f432a1"
+    "_id": "9a3ca4544bab409a81b3387c10f432a1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Puzznic",
       "id": 12199,
-      "genres": ["Puzzle", "Strategy", "Arcade"],
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -5406,13 +6606,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:27 am",
     "updatedAt": "02/02/2020 07:27 am",
-    "_id": "157e57f967a447a38f603c49fbfe4c02"
+    "_id": "157e57f967a447a38f603c49fbfe4c02",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "R-Type",
       "id": 6840,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 79,
       "total_rating_count": 27,
       "first_release_date": "06/30/1987",
@@ -5443,13 +6652,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:27 am",
     "updatedAt": "02/02/2020 07:27 am",
-    "_id": "38a7c8ecfa07456a9e9a9091f0e79265"
+    "_id": "38a7c8ecfa07456a9e9a9091f0e79265",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Rabio Lepus Special",
       "id": 38066,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/18/1990",
@@ -5480,13 +6697,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:28 am",
     "updatedAt": "02/02/2020 07:28 am",
-    "_id": "190421e6608f40248564bb72e0ff4bec"
+    "_id": "190421e6608f40248564bb72e0ff4bec",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Racing Damashii",
       "id": 49067,
-      "genres": ["Racing", "Sport"],
+      "genres": [
+        "Racing",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/27/1991",
@@ -5517,13 +6743,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:28 am",
     "updatedAt": "02/02/2020 07:28 am",
-    "_id": "8b35379e8ab04a388babd663dc2884f4"
+    "_id": "8b35379e8ab04a388babd663dc2884f4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Raiden",
       "id": 6841,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 80,
       "total_rating_count": 12,
       "first_release_date": "08/31/1990",
@@ -5554,7 +6789,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:28 am",
     "updatedAt": "02/02/2020 07:28 am",
-    "_id": "17da87d2ccc24acea3f27d6664cf9eb5"
+    "_id": "17da87d2ccc24acea3f27d6664cf9eb5",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -5591,13 +6832,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:29 am",
     "updatedAt": "02/02/2020 07:29 am",
-    "_id": "b4c83b62e3e74101ba97baa54323e948"
+    "_id": "b4c83b62e3e74101ba97baa54323e948",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Saint Dragon",
       "id": 12207,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -5628,13 +6877,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:30 am",
     "updatedAt": "02/02/2020 07:30 am",
-    "_id": "fd7b75a0d3f84a6495e1666d2c756746"
+    "_id": "fd7b75a0d3f84a6495e1666d2c756746",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Salamander",
       "id": 1477,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": 68,
       "total_rating_count": 12,
       "first_release_date": "12/30/1986",
@@ -5665,13 +6923,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:31 am",
     "updatedAt": "02/02/2020 07:31 am",
-    "_id": "ad1ac9c9832c457a8d4603bd93cdeff5"
+    "_id": "ad1ac9c9832c457a8d4603bd93cdeff5",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Samurai Ghost",
       "id": 42119,
-      "genres": ["Arcade"],
+      "genres": [
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -5702,13 +6968,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:31 am",
     "updatedAt": "02/02/2020 07:31 am",
-    "_id": "80c3f60a85d845eb840f46a8e3fc10fa"
+    "_id": "80c3f60a85d845eb840f46a8e3fc10fa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Sengoku Mahjong",
       "id": 43202,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/07/1988",
@@ -5739,13 +7013,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:32 am",
     "updatedAt": "02/02/2020 07:32 am",
-    "_id": "09f21ec3d0914ee7af0b3d29b2d744c1"
+    "_id": "09f21ec3d0914ee7af0b3d29b2d744c1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Shanghai",
       "id": 12765,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": 90,
       "total_rating_count": 8,
       "first_release_date": "12/30/1986",
@@ -5776,13 +7058,24 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:32 am",
     "updatedAt": "02/02/2020 07:32 am",
-    "_id": "9042b1def72b4bc2b7645ecf3d154435"
+    "_id": "9042b1def72b4bc2b7645ecf3d154435",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Shinobi",
       "id": 6899,
-      "genres": ["Fighting", "Shooter", "Platform", "Arcade"],
+      "genres": [
+        "Fighting",
+        "Shooter",
+        "Platform",
+        "Arcade"
+      ],
       "total_rating": 61,
       "total_rating_count": 21,
       "first_release_date": "12/30/1987",
@@ -5813,13 +7106,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:33 am",
     "updatedAt": "02/02/2020 07:33 am",
-    "_id": "509db4c18c224660a13bd856d04ab9a4"
+    "_id": "509db4c18c224660a13bd856d04ab9a4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Shiryou Sensen",
       "id": 42041,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/23/1989",
@@ -5850,13 +7151,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:33 am",
     "updatedAt": "02/02/2020 07:33 am",
-    "_id": "cfb6106f17f8413ab10407ab7f5d24b1"
+    "_id": "cfb6106f17f8413ab10407ab7f5d24b1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Shockman",
       "id": 42098,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/26/1991",
@@ -5887,13 +7196,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:34 am",
     "updatedAt": "02/02/2020 07:34 am",
-    "_id": "5dfee4c446b44bb98412ee02d442fbfd"
+    "_id": "5dfee4c446b44bb98412ee02d442fbfd",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Shogi Shoshinsha Muyou",
       "id": 57740,
-      "genres": ["Quiz/Trivia"],
+      "genres": [
+        "Quiz/Trivia"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1991",
@@ -5924,13 +7241,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:34 am",
     "updatedAt": "02/02/2020 07:34 am",
-    "_id": "de64caa35f844a02a0f77e3e1bc520a1"
+    "_id": "de64caa35f844a02a0f77e3e1bc520a1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Side Arms: Hyper Dyne",
       "id": 12849,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1986",
@@ -5961,13 +7286,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:35 am",
     "updatedAt": "02/02/2020 07:35 am",
-    "_id": "84653a20304f4e6eb7bd7f249794d765"
+    "_id": "84653a20304f4e6eb7bd7f249794d765",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Silent Debuggers",
       "id": 44343,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -5998,13 +7331,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:35 am",
     "updatedAt": "02/02/2020 07:35 am",
-    "_id": "5c2853fa9fa043a991dbc7971d5cdd26"
+    "_id": "5c2853fa9fa043a991dbc7971d5cdd26",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Sindibad - Chitei No Dai Meikyu",
       "id": 37690,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/01/1990",
@@ -6035,13 +7376,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:35 am",
     "updatedAt": "02/02/2020 07:35 am",
-    "_id": "f3fddaaccb1140c0919944c03259be77"
+    "_id": "f3fddaaccb1140c0919944c03259be77",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Sinistron",
       "id": 44342,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -6072,13 +7421,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:36 am",
     "updatedAt": "02/02/2020 07:36 am",
-    "_id": "c5b7bcf10b3444368797fdb060baf88f"
+    "_id": "c5b7bcf10b3444368797fdb060baf88f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Skweek",
       "id": 15370,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -6109,13 +7466,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:36 am",
     "updatedAt": "02/02/2020 07:36 am",
-    "_id": "2a5fb016c1cd4d3ba8d68b05524cc818"
+    "_id": "2a5fb016c1cd4d3ba8d68b05524cc818",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Soldier Blade",
       "id": 15841,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": 90,
       "total_rating_count": 2,
       "first_release_date": "12/30/1992",
@@ -6146,13 +7511,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:37 am",
     "updatedAt": "02/02/2020 07:37 am",
-    "_id": "4badfec458f04b0dab74c1256617c6fe"
+    "_id": "4badfec458f04b0dab74c1256617c6fe",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Somer Assault",
       "id": 44341,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -6183,13 +7556,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:37 am",
     "updatedAt": "02/02/2020 07:37 am",
-    "_id": "054c39437cb0463886a46ed21fa4fc38"
+    "_id": "054c39437cb0463886a46ed21fa4fc38",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Sonic Spike",
       "id": 44340,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/26/1990",
@@ -6220,13 +7601,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:38 am",
     "updatedAt": "02/02/2020 07:38 am",
-    "_id": "f477a7459cca4fcb9741ca5e6b1ade70"
+    "_id": "f477a7459cca4fcb9741ca5e6b1ade70",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Son Son II",
       "id": 37689,
-      "genres": ["Platform"],
+      "genres": [
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/26/1989",
@@ -6257,13 +7646,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:38 am",
     "updatedAt": "02/02/2020 07:38 am",
-    "_id": "4097a02178b84ff4bba2b68261b82d5b"
+    "_id": "4097a02178b84ff4bba2b68261b82d5b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Space Harrier",
       "id": 12857,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": 70,
       "total_rating_count": 9,
       "first_release_date": "12/30/1985",
@@ -6294,7 +7691,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:38 am",
     "updatedAt": "02/02/2020 07:38 am",
-    "_id": "6fb91357cc3e4b66957c448bc47cc69d"
+    "_id": "6fb91357cc3e4b66957c448bc47cc69d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -6331,13 +7734,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:39 am",
     "updatedAt": "02/02/2020 07:39 am",
-    "_id": "e1bc7fdb1f5b4e089427ea1f7b9c5620"
+    "_id": "e1bc7fdb1f5b4e089427ea1f7b9c5620",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Spin Pair",
       "id": 38071,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/13/1990",
@@ -6368,13 +7779,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:40 am",
     "updatedAt": "02/02/2020 07:40 am",
-    "_id": "e55aee3389354df0ae94cd284873ce59"
+    "_id": "e55aee3389354df0ae94cd284873ce59",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Spiral Wave",
       "id": 42045,
-      "genres": ["Shooter", "Simulator"],
+      "genres": [
+        "Shooter",
+        "Simulator"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/12/1991",
@@ -6405,13 +7825,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:40 am",
     "updatedAt": "02/02/2020 07:40 am",
-    "_id": "dd7b98a5c59f4d86a506a17465d71f86"
+    "_id": "dd7b98a5c59f4d86a506a17465d71f86",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Stratego",
       "id": 22893,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": 70,
       "total_rating_count": 1,
       "first_release_date": "08/23/1992",
@@ -6442,13 +7870,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:41 am",
     "updatedAt": "02/02/2020 07:41 am",
-    "_id": "7ceee47de1654c898cadfeb4d8f1acdc"
+    "_id": "7ceee47de1654c898cadfeb4d8f1acdc",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Street Fighter II: Champion Edition",
       "id": 39496,
-      "genres": ["Fighting"],
+      "genres": [
+        "Fighting"
+      ],
       "total_rating": 81,
       "total_rating_count": 8,
       "first_release_date": "03/30/1992",
@@ -6479,13 +7915,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:41 am",
     "updatedAt": "02/02/2020 07:41 am",
-    "_id": "f3de5ecd1738440aa206dd310d9ba320"
+    "_id": "f3de5ecd1738440aa206dd310d9ba320",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Super Metal Crusher",
       "id": 38069,
-      "genres": ["Simulator", "Strategy"],
+      "genres": [
+        "Simulator",
+        "Strategy"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1991",
@@ -6516,13 +7961,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:42 am",
     "updatedAt": "02/02/2020 07:42 am",
-    "_id": "ef5729aa18e143de88db0a03bbf7f143"
+    "_id": "ef5729aa18e143de88db0a03bbf7f143",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "SUPER MOMOTARO DENTETSU",
       "id": 38068,
-      "genres": ["Puzzle", "Strategy", "Quiz/Trivia"],
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Quiz/Trivia"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/14/1989",
@@ -6553,13 +8008,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:42 am",
     "updatedAt": "02/02/2020 07:42 am",
-    "_id": "0adde01f0a0b4d6d9d81216886f15eb4"
+    "_id": "0adde01f0a0b4d6d9d81216886f15eb4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Super Momotaro Dentetsu II",
       "id": 38067,
-      "genres": ["Puzzle", "Strategy"],
+      "genres": [
+        "Puzzle",
+        "Strategy"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/18/1992",
@@ -6590,13 +8054,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:43 am",
     "updatedAt": "02/02/2020 07:43 am",
-    "_id": "42422067b376460baa2b8625e9cda027"
+    "_id": "42422067b376460baa2b8625e9cda027",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Super Star Soldier",
       "id": 44339,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/05/1990",
@@ -6627,13 +8100,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:43 am",
     "updatedAt": "02/02/2020 07:43 am",
-    "_id": "174f029946b440c8bb49e7cf408b1adf"
+    "_id": "174f029946b440c8bb49e7cf408b1adf",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Super Volleyball",
       "id": 46192,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -6664,13 +8145,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:44 am",
     "updatedAt": "02/02/2020 07:44 am",
-    "_id": "655b0922e0bf44858b9571563a883f6c"
+    "_id": "655b0922e0bf44858b9571563a883f6c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Takeda Shingen",
       "id": 81334,
-      "genres": ["Strategy"],
+      "genres": [
+        "Strategy"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -6701,13 +8190,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:45 am",
     "updatedAt": "02/02/2020 07:45 am",
-    "_id": "5a4a01a98b6244ed9c04e5183c3c6080"
+    "_id": "5a4a01a98b6244ed9c04e5183c3c6080",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Disney's TaleSpin",
       "id": 8067,
-      "genres": ["Shooter", "Platform"],
+      "genres": [
+        "Shooter",
+        "Platform"
+      ],
       "total_rating": 77,
       "total_rating_count": 11,
       "first_release_date": "12/30/1991",
@@ -6738,13 +8236,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:45 am",
     "updatedAt": "02/02/2020 07:45 am",
-    "_id": "3e942acdd3c6495f85c1c877f14aa895"
+    "_id": "3e942acdd3c6495f85c1c877f14aa895",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Tatsu no Ko Fighter",
       "id": 60762,
-      "genres": ["Platform", "Hack and slash/Beat 'em up"],
+      "genres": [
+        "Platform",
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/19/1989",
@@ -6775,13 +8282,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:46 am",
     "updatedAt": "02/02/2020 07:46 am",
-    "_id": "a82940d3e9e84320b83e92e26c06f88a"
+    "_id": "a82940d3e9e84320b83e92e26c06f88a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Tatsujin",
       "id": 38096,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/22/1992",
@@ -6812,7 +8327,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:46 am",
     "updatedAt": "02/02/2020 07:46 am",
-    "_id": "34b3ea366bb1453988c79e762d083ea9"
+    "_id": "34b3ea366bb1453988c79e762d083ea9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -6849,13 +8370,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:46 am",
     "updatedAt": "02/02/2020 07:46 am",
-    "_id": "223e24db40e741969e4e0ce15c766c04"
+    "_id": "223e24db40e741969e4e0ce15c766c04",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Thunder Blade",
       "id": 12862,
-      "genres": ["Shooter", "Arcade"],
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -6886,13 +8416,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:47 am",
     "updatedAt": "02/02/2020 07:47 am",
-    "_id": "d2c1953139fc4839b901fa1e7f692c05"
+    "_id": "d2c1953139fc4839b901fa1e7f692c05",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Tiger Road",
       "id": 12864,
-      "genres": ["Fighting", "Hack and slash/Beat 'em up"],
+      "genres": [
+        "Fighting",
+        "Hack and slash/Beat 'em up"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -6923,13 +8462,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:47 am",
     "updatedAt": "02/02/2020 07:47 am",
-    "_id": "e6fa1e3dda8f4da99a8eef62fe9fe0fa"
+    "_id": "e6fa1e3dda8f4da99a8eef62fe9fe0fa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Time Cruise II",
       "id": 37654,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/06/1991",
@@ -6960,13 +8507,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:48 am",
     "updatedAt": "02/02/2020 07:48 am",
-    "_id": "100af440dd5f4c78a2a11864df3fdbf5"
+    "_id": "100af440dd5f4c78a2a11864df3fdbf5",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Timeball",
       "id": 7791,
-      "genres": ["Puzzle"],
+      "genres": [
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -6997,13 +8552,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:48 am",
     "updatedAt": "02/02/2020 07:48 am",
-    "_id": "060fed241b8144c2b3ada7b9deb1d81a"
+    "_id": "060fed241b8144c2b3ada7b9deb1d81a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Titan",
       "id": 12487,
-      "genres": ["Arcade"],
+      "genres": [
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -7034,13 +8597,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:49 am",
     "updatedAt": "02/02/2020 07:49 am",
-    "_id": "c9aaa334eb0a4d5c8c72c86854ceb355"
+    "_id": "c9aaa334eb0a4d5c8c72c86854ceb355",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Toilet Kids",
       "id": 38072,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/05/1992",
@@ -7071,13 +8642,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:49 am",
     "updatedAt": "02/02/2020 07:49 am",
-    "_id": "39462ea6689046b28cda312714693e26"
+    "_id": "39462ea6689046b28cda312714693e26",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "The Tower of Druaga",
       "id": 4207,
-      "genres": ["Role-playing (RPG)"],
+      "genres": [
+        "Role-playing (RPG)"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/19/1984",
@@ -7108,13 +8687,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:50 am",
     "updatedAt": "02/02/2020 07:50 am",
-    "_id": "ef1d116cb1bc49b39f050f3d9d09f622"
+    "_id": "ef1d116cb1bc49b39f050f3d9d09f622",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Toy Shop Boys",
       "id": 43195,
-      "genres": ["Shooter", "Platform"],
+      "genres": [
+        "Shooter",
+        "Platform"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/13/1990",
@@ -7145,7 +8733,13 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:50 am",
     "updatedAt": "02/02/2020 07:50 am",
-    "_id": "800be48916d1477a95df15aa32b50460"
+    "_id": "800be48916d1477a95df15aa32b50460",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
@@ -7182,13 +8776,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:51 am",
     "updatedAt": "02/02/2020 07:51 am",
-    "_id": "02419f2dedbc475dbd073a8648d9bc0e"
+    "_id": "02419f2dedbc475dbd073a8648d9bc0e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Tsuppari Oozumou: Heisei Han",
       "id": 62527,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/18/1993",
@@ -7219,13 +8821,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:51 am",
     "updatedAt": "02/02/2020 07:51 am",
-    "_id": "72cd4f2a9d624e0e92726cd21e63b490"
+    "_id": "72cd4f2a9d624e0e92726cd21e63b490",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Turrican",
       "id": 5164,
-      "genres": ["Shooter", "Platform"],
+      "genres": [
+        "Shooter",
+        "Platform"
+      ],
       "total_rating": 84,
       "total_rating_count": 10,
       "first_release_date": "12/30/1990",
@@ -7256,13 +8867,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:52 am",
     "updatedAt": "02/02/2020 07:52 am",
-    "_id": "a59ac8cc697842b4bd9b506c38f1666f"
+    "_id": "a59ac8cc697842b4bd9b506c38f1666f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "TV Sports Basketball",
       "id": 8672,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -7293,13 +8912,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:52 am",
     "updatedAt": "02/02/2020 07:52 am",
-    "_id": "25e44cd153af475abd9a16e83c75f230"
+    "_id": "25e44cd153af475abd9a16e83c75f230",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "TV Sports Football",
       "id": 8671,
-      "genres": ["Sport", "Adventure"],
+      "genres": [
+        "Sport",
+        "Adventure"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -7330,13 +8958,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:52 am",
     "updatedAt": "02/02/2020 07:52 am",
-    "_id": "553a99a538ca41ea8aa6638d3146b625"
+    "_id": "553a99a538ca41ea8aa6638d3146b625",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "TV Sports Hockey",
       "id": 8675,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -7367,13 +9003,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:52 am",
     "updatedAt": "02/02/2020 07:52 am",
-    "_id": "1613c282178540cd8c56f1c90e1ff77e"
+    "_id": "1613c282178540cd8c56f1c90e1ff77e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Veigues Tactical Gladiator",
       "id": 37733,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -7404,13 +9048,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:53 am",
     "updatedAt": "02/02/2020 07:53 am",
-    "_id": "9a9fb3c280734e78a153bf00375977d9"
+    "_id": "9a9fb3c280734e78a153bf00375977d9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Victory Run",
       "id": 42118,
-      "genres": ["Racing", "Arcade"],
+      "genres": [
+        "Racing",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/27/1987",
@@ -7441,13 +9094,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:53 am",
     "updatedAt": "02/02/2020 07:53 am",
-    "_id": "ac5b99cc6079400cadb3ec5323c7a9ea"
+    "_id": "ac5b99cc6079400cadb3ec5323c7a9ea",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Vigilante",
       "id": 10444,
-      "genres": ["Hack and slash/Beat 'em up", "Arcade"],
+      "genres": [
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -7478,13 +9140,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:54 am",
     "updatedAt": "02/02/2020 07:54 am",
-    "_id": "13a35a9dc61247f2a1c0da444a802478"
+    "_id": "13a35a9dc61247f2a1c0da444a802478",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Volfied",
       "id": 4469,
-      "genres": ["Arcade"],
+      "genres": [
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -7515,13 +9185,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:54 am",
     "updatedAt": "02/02/2020 07:54 am",
-    "_id": "6ed2ffa906de4986a5bbfbe825a504a6"
+    "_id": "6ed2ffa906de4986a5bbfbe825a504a6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Wai Wai Mahjong",
       "id": 37652,
-      "genres": ["Puzzle", "Quiz/Trivia"],
+      "genres": [
+        "Puzzle",
+        "Quiz/Trivia"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/18/1989",
@@ -7552,13 +9231,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:55 am",
     "updatedAt": "02/02/2020 07:55 am",
-    "_id": "972c38b6b8e8439f867d6bb791b81eac"
+    "_id": "972c38b6b8e8439f867d6bb791b81eac",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Wallaby!!",
       "id": 37651,
-      "genres": ["Puzzle", "Racing"],
+      "genres": [
+        "Puzzle",
+        "Racing"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/12/1991",
@@ -7589,13 +9277,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:55 am",
     "updatedAt": "02/02/2020 07:55 am",
-    "_id": "cbd23b7949a5431b8e7b14dc7b9878c9"
+    "_id": "cbd23b7949a5431b8e7b14dc7b9878c9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Winning Shot",
       "id": 43190,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/02/1989",
@@ -7626,13 +9322,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:55 am",
     "updatedAt": "02/02/2020 07:55 am",
-    "_id": "8321e38c20474bd8997a633cb9be74bd"
+    "_id": "8321e38c20474bd8997a633cb9be74bd",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Wonder Momo",
       "id": 38559,
-      "genres": ["Hack and slash/Beat 'em up", "Arcade"],
+      "genres": [
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/23/1987",
@@ -7663,13 +9368,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:56 am",
     "updatedAt": "02/02/2020 07:56 am",
-    "_id": "3c5f86e58cfc42a284a90c1cf5f38b3b"
+    "_id": "3c5f86e58cfc42a284a90c1cf5f38b3b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "World Class Baseball",
       "id": 37734,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -7700,13 +9413,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:56 am",
     "updatedAt": "02/02/2020 07:56 am",
-    "_id": "650db8498ac34b79a5898aad0807daf2"
+    "_id": "650db8498ac34b79a5898aad0807daf2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "World Court Tennis",
       "id": 37732,
-      "genres": ["Role-playing (RPG)", "Sport"],
+      "genres": [
+        "Role-playing (RPG)",
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/10/1988",
@@ -7737,13 +9459,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:56 am",
     "updatedAt": "02/02/2020 07:56 am",
-    "_id": "e23303498eef41ceace00c15e45ea257"
+    "_id": "e23303498eef41ceace00c15e45ea257",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "World Jockey",
       "id": 37650,
-      "genres": ["Racing", "Sport", "Strategy"],
+      "genres": [
+        "Racing",
+        "Sport",
+        "Strategy"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/19/1991",
@@ -7774,13 +9506,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:57 am",
     "updatedAt": "02/02/2020 07:57 am",
-    "_id": "13d5c459e105469195ce2475356b930f"
+    "_id": "13d5c459e105469195ce2475356b930f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "World Sports Competition",
       "id": 37731,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1993",
@@ -7811,13 +9551,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:58 am",
     "updatedAt": "02/02/2020 07:58 am",
-    "_id": "86308eb9042e4946ad4a95e0b443a55a"
+    "_id": "86308eb9042e4946ad4a95e0b443a55a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Xevious: Fardraut Densetsu",
       "id": 38074,
-      "genres": ["Shooter"],
+      "genres": [
+        "Shooter"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/27/1990",
@@ -7848,13 +9596,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:58 am",
     "updatedAt": "02/02/2020 07:58 am",
-    "_id": "4390db080e894331aa677c4c9786e909"
+    "_id": "4390db080e894331aa677c4c9786e909",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Yo' Bro",
       "id": 42023,
-      "genres": ["Sport"],
+      "genres": [
+        "Sport"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1991",
@@ -7885,13 +9641,23 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:58 am",
     "updatedAt": "02/02/2020 07:58 am",
-    "_id": "f199420a628148988a48d93a9d4b17e2"
+    "_id": "f199420a628148988a48d93a9d4b17e2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Yuu Yuu Jinsei",
       "id": 37649,
-      "genres": ["Puzzle", "Simulator", "Quiz/Trivia"],
+      "genres": [
+        "Puzzle",
+        "Simulator",
+        "Quiz/Trivia"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/21/1988",
@@ -7922,13 +9688,21 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 07:59 am",
     "updatedAt": "02/02/2020 07:59 am",
-    "_id": "c0e6cb3a76c4433f8c391273d5415c3a"
+    "_id": "c0e6cb3a76c4433f8c391273d5415c3a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Zero 4 Champ",
       "id": 37648,
-      "genres": ["Racing"],
+      "genres": [
+        "Racing"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/07/1991",
@@ -7959,13 +9733,22 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 08:00 am",
     "updatedAt": "02/02/2020 08:00 am",
-    "_id": "b223733f01ee4be8ab0fdec923f0323a"
+    "_id": "b223733f01ee4be8ab0fdec923f0323a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   },
   {
     "igdb": {
       "name": "Zipang",
       "id": 42066,
-      "genres": ["Platform", "Puzzle"],
+      "genres": [
+        "Platform",
+        "Puzzle"
+      ],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/13/1990",
@@ -7996,6 +9779,12 @@
     "notes": "Turbo EverDrive",
     "createdAt": "02/02/2020 08:00 am",
     "updatedAt": "02/02/2020 08:00 am",
-    "_id": "6a05af84785341408ff54a217eda0ef9"
+    "_id": "6a05af84785341408ff54a217eda0ef9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
   }
 ]

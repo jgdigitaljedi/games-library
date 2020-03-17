@@ -6,13 +6,27 @@ const _cloneDeep = require('lodash/cloneDeep');
 const games = require('../server/db/gamesExtra.json');
 const platforms = require('../server/db/consoles.json');
 
+// add month that most games purchased
+// add year that most games purchased
+// add year that most consoles purchased
+// add games IGDB ratings breakdown
+// add consoles by company
+// add consoles by release date decade
+// add games by relase date decade
+
 let genres = {},
   conGames = {},
-  conMostGames = [],
-  conLeastGames = [];
+  conGamesCounts = {},
+  esrbCounts = {},
+  gameMedia = {
+    physical: 0,
+    digital: 0
+  },
+  cibGames = 0,
+  howAcquiredGames = {};
 
 function handleGenres(game) {
-  const gameGenres = game && game.igdb && game.igdb.genres ? game.igdb.genres : null;
+  const gameGenres = game && game.igdb && game.igdb.genres ? game.igdb.genres : ['NO GENRE'];
   if (gameGenres) {
     gameGenres.forEach(g => {
       const lc = g.toLowerCase();
@@ -22,6 +36,40 @@ function handleGenres(game) {
         genres[lc] = 1;
       }
     });
+  }
+}
+
+function handleEsrb(game) {
+  const esrb = game && game.igdb && game.igdb.esrb ? game.igdb.esrb : 'NOT RATED';
+  if (esrb) {
+    if (esrbCounts.hasOwnProperty(esrb)) {
+      esrbCounts[esrb]++;
+    } else {
+      esrbCounts[esrb] = 1;
+    }
+  }
+}
+
+function handleGameMedia(game) {
+  if (game.physical) {
+    gameMedia.physical++;
+  } else {
+    gameMedia.digital++;
+  }
+}
+
+function handleCib(game) {
+  if (game.cib) {
+    cibGames++;
+  }
+}
+
+function handleAcqusition(game) {
+  const ha = game && game.howAcquired ? game.howAcquired : 'UNKNOWN';
+  if (howAcquiredGames.hasOwnProperty(ha)) {
+    howAcquiredGames[ha]++;
+  } else {
+    howAcquiredGames[ha] = 1;
   }
 }
 
@@ -36,7 +84,9 @@ function makeConGames() {
 }
 
 function handleConGamesData() {
-  let gamesSumObj = {};
+  Object.keys(conGames).forEach(con => {
+    conGamesCounts[con] = conGames[con].length;
+  });
 }
 
 function createMostRecentArr(data, num) {
@@ -63,6 +113,7 @@ function getMostExpensive(data, num) {
     .sort((a, b) => {
       const aPrice = a.hasOwnProperty('pricePaid') ? a.pricePaid : a.purchasePrice;
       const bPrice = b.hasOwnProperty('pricePaid') ? b.pricePaid : b.purchasePrice;
+      /* eslint-disable-next-line */
       if ((!aPrice && !bPrice) || aPrice == bPrice) {
         return 0;
       }
@@ -89,6 +140,10 @@ const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
 
 games.forEach(game => {
   handleGenres(game);
+  handleEsrb(game);
+  handleGameMedia(game);
+  handleCib(game);
+  handleAcqusition(game);
 });
 
 const finalData = {
@@ -96,6 +151,11 @@ const finalData = {
   mostRecentlyAddedPlatforms: mostRecentConsoleArr,
   mostPaidForGames: highestPricePaidGames,
   mostPaidForPlatforms: highestPricePaidPlatforms,
+  gamePerConsoleCounts: conGamesCounts,
+  gamesPerEsrb: esrbCounts,
+  physicalVsDigitalGames: { ...gameMedia },
+  gamesAcquisition: howAcquiredGames,
+  cibGames,
   gamesWithGenre: genres
 };
 

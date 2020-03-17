@@ -9,7 +9,7 @@ interface IProps {
 
 const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
   return (
-    <Card className="game-card">
+    <Card className={`game-card ${!data.physical ? 'digital-copy' : ''}`}>
       {data && data.igdb ? (
         <div className="game-card--content" onClick={() => cardClicked(data)}>
           <img

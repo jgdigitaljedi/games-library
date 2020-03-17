@@ -1,3 +1,4 @@
+@import '../../style/theme.scss';
 .game-card {
   width: 10rem;
   height: 13rem;
@@ -7,8 +8,11 @@
   cursor: pointer;
   padding-top: 0;
   border-radius: 10px;
+  &.digital-copy {
+    background-color: $success;
+  }
   .p-card-body {
-    padding: 0 0.75rem ;
+    padding: 0 0.75rem;
   }
   .game-card--content {
     img {
@@ -20,14 +24,14 @@
     }
     .game-card--content__title {
       height: 3rem;
-      position: relative;;
+      position: relative;
       display: flex;
       align-items: center;
       justify-content: center;
       h5 {
         text-align: center;
         word-wrap: break-word;
-        margin: 0;;
+        margin: 0;
       }
     }
   }

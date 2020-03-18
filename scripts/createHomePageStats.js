@@ -6,9 +6,6 @@ const _cloneDeep = require('lodash/cloneDeep');
 const games = require('../server/db/gamesExtra.json');
 const platforms = require('../server/db/consoles.json');
 
-// add month that most games purchased
-// add year that most games purchased
-// add year that most consoles purchased
 // add games IGDB ratings breakdown
 // add consoles by company
 // add consoles by release date decade
@@ -23,7 +20,37 @@ let genres = {},
     digital: 0
   },
   cibGames = 0,
-  howAcquiredGames = {};
+  howAcquiredGames = {},
+  gamesBoughtByMonth = {},
+  igdbRatingsBreakdown = [
+    {'Great (90+)': 0},
+    {'Good (70 - 89)': 0},
+    {'Fair (50 - 69)': 0},
+    {'Poor (30 - 49)': 0},
+    {'Terrible (< 30)': 0}
+  ];
+
+  function handleIgdbRating(game) {
+    const rating = game && game.igdb && game.igdb.hasOwnProperty('total_rating') ? game.igdb.total_rating : null;
+    if (rating !== null) {// it could potentially be 0 so general falsy check no good here
+      if (rating >= 90) {
+        igdbRatingsBreakdown[]
+      }
+    }
+  }
+
+function purchasesByMonth(game) {
+  const myDate = game.datePurchased || null;
+  if (myDate) {
+    const dSplit = myDate.split('-');
+    const monthYear = `${dSplit[1]}/${dSplit[0]}`;
+    if (gamesBoughtByMonth.hasOwnProperty(monthYear)) {
+      gamesBoughtByMonth[monthYear]++;
+    } else {
+      gamesBoughtByMonth[monthYear] = 1;
+    }
+  }
+}
 
 function handleGenres(game) {
   const gameGenres = game && game.igdb && game.igdb.genres ? game.igdb.genres : ['NO GENRE'];
@@ -131,6 +158,21 @@ function getMostExpensive(data, num) {
     .slice(0, num);
 }
 
+function sortByDateCounts(a, b) {
+  const aNum = a.games;
+  const bNum = b.games;
+  if ((!aNum && !bNum) || aNum === bNum) {
+    return 0;
+  }
+  if (!aNum && bNum) {
+    return 1;
+  }
+  if (aNum && !bNum) {
+    return -1;
+  }
+  return aNum > bNum ? -1 : 1;
+}
+
 makeConGames();
 handleConGamesData();
 const mostRecentGameArr = createMostRecentArr(games, 5);
@@ -144,7 +186,38 @@ games.forEach(game => {
   handleGameMedia(game);
   handleCib(game);
   handleAcqusition(game);
+  purchasesByMonth(game);
+  handleIgdbRating(game);
 });
+
+const mostGamesInMonth = Object.keys(gamesBoughtByMonth)
+  .map(month => {
+    return {
+      dateFormatted: month,
+      games: gamesBoughtByMonth[month]
+    };
+  })
+  .sort(sortByDateCounts);
+
+const gamesBoughtInYear = Object.keys(gamesBoughtByMonth).reduce((acc, obj) => {
+  const objSplit = obj.split('/');
+  const year = objSplit[1];
+  if (acc.hasOwnProperty(year)) {
+    acc[year] += gamesBoughtByMonth[obj];
+  } else {
+    acc[year] = gamesBoughtByMonth[obj];
+  }
+  return acc;
+}, {});
+
+const gamesInYearSorted = Object.keys(gamesBoughtInYear)
+  .map(year => {
+    return {
+      dateFormatted: year,
+      games: gamesBoughtInYear[year]
+    };
+  })
+  .sort(sortByDateCounts);
 
 const finalData = {
   mostRecentlyAddedGames: mostRecentGameArr,
@@ -156,7 +229,9 @@ const finalData = {
   physicalVsDigitalGames: { ...gameMedia },
   gamesAcquisition: howAcquiredGames,
   cibGames,
-  gamesWithGenre: genres
+  gamesWithGenre: genres,
+  gamesAddedInMonth: mostGamesInMonth,
+  gamesAddedPerYear: gamesInYearSorted
 };
 
 fs.writeFile(

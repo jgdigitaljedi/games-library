@@ -45,6 +45,9 @@ router.patch('/games/:id', vgDbCtrl.editGame);
 // get everDrive data
 router.get('/everdrives', vgDbCtrl.everDrives);
 
+// get stats data
+router.get('/stats', vgDbCtrl.collectionStats);
+
 // DB Platform/Console CRUD
 router.get('/consoles', vgDbCtrl.getMyPlatforms);
 router.post('/consoles', vgDbCtrl.searchMyPlatforms);

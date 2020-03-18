@@ -6,10 +6,9 @@ const _cloneDeep = require('lodash/cloneDeep');
 const games = require('../server/db/gamesExtra.json');
 const platforms = require('../server/db/consoles.json');
 
-// add games IGDB ratings breakdown
-// add consoles by company
-// add consoles by release date decade
-// add games by relase date decade
+/*** ideas for possible future additions
+ * add games by relase date decade
+ ***/
 
 let genres = {},
   conGames = {},
@@ -23,21 +22,54 @@ let genres = {},
   howAcquiredGames = {},
   gamesBoughtByMonth = {},
   igdbRatingsBreakdown = [
-    {'Great (90+)': 0},
-    {'Good (70 - 89)': 0},
-    {'Fair (50 - 69)': 0},
-    {'Poor (30 - 49)': 0},
-    {'Terrible (< 30)': 0}
-  ];
+    { category: 'Great (90+)', value: 0 },
+    { category: 'Good (70 - 89)', value: 0 },
+    { category: 'Fair (50 - 69)', value: 0 },
+    { category: 'Poor (30 - 49)', value: 0 },
+    { category: 'Terrible (< 30)', value: 0 }
+  ],
+  consolesByCompany = { UNKNOWN: 0 },
+  consolesByGeneration = { UNKNOWN: 0 };
 
-  function handleIgdbRating(game) {
-    const rating = game && game.igdb && game.igdb.hasOwnProperty('total_rating') ? game.igdb.total_rating : null;
-    if (rating !== null) {// it could potentially be 0 so general falsy check no good here
-      if (rating >= 90) {
-        igdbRatingsBreakdown[]
-      }
+function handleConsoleByGeneration(con) {
+  const gen = con && con.igdb && con.igdb.generation ? con.igdb.generation.toString() : null;
+  if (gen && consolesByGeneration.hasOwnProperty(gen)) {
+    consolesByGeneration[gen]++;
+  } else if (gen) {
+    consolesByGeneration[gen] = 1;
+  } else {
+    consolesByGeneration.UNKNOWN++;
+  }
+}
+
+function handleConsoleByCompany(con) {
+  if (con && con.gb && con.gb.company && consolesByCompany.hasOwnProperty(con.gb.company)) {
+    consolesByCompany[con.gb.company]++;
+  } else if (con && con.gb && con.gb.company) {
+    consolesByCompany[con.gb.company] = 1;
+  } else {
+    consolesByCompany.UNKNOWN++;
+  }
+}
+
+function handleIgdbRating(game) {
+  const rating =
+    game && game.igdb && game.igdb.hasOwnProperty('total_rating') ? game.igdb.total_rating : null;
+  if (rating !== null) {
+    // it could potentially be 0 so general falsy check no good here
+    if (rating >= 90) {
+      igdbRatingsBreakdown[0].value++;
+    } else if (rating >= 70 && rating < 90) {
+      igdbRatingsBreakdown[1].value++;
+    } else if (rating >= 50 && rating < 70) {
+      igdbRatingsBreakdown[2].value++;
+    } else if (rating >= 30 && rating < 50) {
+      igdbRatingsBreakdown[3].value++;
+    } else {
+      igdbRatingsBreakdown[4].value++;
     }
   }
+}
 
 function purchasesByMonth(game) {
   const myDate = game.datePurchased || null;
@@ -190,6 +222,11 @@ games.forEach(game => {
   handleIgdbRating(game);
 });
 
+platforms.forEach(platform => {
+  handleConsoleByCompany(platform);
+  handleConsoleByGeneration(platform);
+});
+
 const mostGamesInMonth = Object.keys(gamesBoughtByMonth)
   .map(month => {
     return {
@@ -219,6 +256,13 @@ const gamesInYearSorted = Object.keys(gamesBoughtInYear)
   })
   .sort(sortByDateCounts);
 
+const genSorted = Object.keys(consolesByGeneration).sort((a, b) => parseInt(a) > parseInt(b));
+
+const consolesByGenSorted = {};
+genSorted.forEach(gen => {
+  consolesByGenSorted[gen] = consolesByGeneration[gen];
+});
+
 const finalData = {
   mostRecentlyAddedGames: mostRecentGameArr,
   mostRecentlyAddedPlatforms: mostRecentConsoleArr,
@@ -231,7 +275,10 @@ const finalData = {
   cibGames,
   gamesWithGenre: genres,
   gamesAddedInMonth: mostGamesInMonth,
-  gamesAddedPerYear: gamesInYearSorted
+  gamesAddedPerYear: gamesInYearSorted,
+  igdbRatingsBreakdown,
+  consolesByCompany,
+  consolesByGenerationSorted: consolesByGenSorted
 };
 
 fs.writeFile(

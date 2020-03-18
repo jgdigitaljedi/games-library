@@ -7,6 +7,7 @@ const hwCrud = require('./vgCrud/hwCrud.controller');
 const wlCrud = require('./vgCrud/wishlistCrud.controller');
 const logger = require('../../config/logger');
 const everDrives = require('../../extra/everDrive.json');
+const stats = require('../../extra/collectionStats.json');
 const db = require('../../db');
 const sortBy = require('lodash/sortBy');
 
@@ -55,6 +56,14 @@ module.exports.getCombinedGameData = function(req, res) {
 module.exports.everDrives = function(req, res) {
   try {
     res.status(200).json(everDrives);
+  } catch (error) {
+    res.status(503).send(error);
+  }
+};
+
+module.exports.collectionStats = function(req, res) {
+  try {
+    res.status(200).json(stats);
   } catch (error) {
     res.status(503).send(error);
   }

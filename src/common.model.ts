@@ -80,3 +80,43 @@ export interface IDropdown {
   label: string;
   value: string;
 }
+
+interface IIgdbConsole {
+  name: string;
+  id: number;
+  logo: string;
+  generation: number;
+  version: string;
+}
+
+interface IGbGame {
+  install_base: string | number;
+  image: string;
+  original_price: string | number;
+  aliases: string;
+  company: string;
+  guid: string;
+  online_support: boolean;
+  gbid: number;
+}
+
+export interface IConsole {
+  igdb: IIgdbConsole;
+  gb: IGbGame;
+  condition: string;
+  box: boolean;
+  mods: string;
+  notes: string;
+  connectedBy: string;
+  upscaler: boolean;
+  datePurchased: string;
+  purchasePrice: string | number;
+  ghostConsole: boolean;
+  aliases: string;
+  storage: string | number;
+  unit: string;
+  howAcquired: string;
+  createdAt: string;
+  updatedAt: string;
+  _id: string;
+}

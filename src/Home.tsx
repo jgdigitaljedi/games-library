@@ -86,26 +86,28 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           <div>{data.cibGames}</div>
         </div>
       )} */}
-      {data && data.mostRecentlyAddedGames && (
-        <div className="container-column">
-          <h3>Most Recently Added Games</h3>
-          <ListView
-            data={data.mostRecentlyAddedGames}
-            whichData="createdAt"
-            listRowClick={itemClicked}
-          />
-        </div>
-      )}
-      {data && data.mostRecentlyAddedPlatforms && (
-        <div className="container-column">
-          <h3>Most Recently Added Consoles</h3>
-          <ListView
-            data={data.mostRecentlyAddedPlatforms}
-            whichData="createdAt"
-            listRowClick={itemClicked}
-          />
-        </div>
-      )}
+      <div className="home--row">
+        {data && data.mostRecentlyAddedGames && (
+          <div className="container-column">
+            <h3>Most Recently Added Games</h3>
+            <ListView
+              data={data.mostRecentlyAddedGames}
+              whichData="createdAt"
+              listRowClick={itemClicked}
+            />
+          </div>
+        )}
+        {data && data.mostRecentlyAddedPlatforms && (
+          <div className="container-column">
+            <h3>Most Recently Added Consoles</h3>
+            <ListView
+              data={data.mostRecentlyAddedPlatforms}
+              whichData="createdAt"
+              listRowClick={itemClicked}
+            />
+          </div>
+        )}
+      </div>
       {data && data.gamePerConsoleCounts && (
         <div className="chart-container" style={{ width: '100%' }}>
           <Chart
@@ -116,22 +118,28 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           />
         </div>
       )}
-      {data && data.mostPaidForGames && (
-        <div className="container-column">
-          <h3>Highest Price Paid for Games</h3>
-          <ListView data={data.mostPaidForGames} whichData="pricePaid" listRowClick={itemClicked} />
-        </div>
-      )}
-      {data && data.mostPaidForPlatforms && (
-        <div className="container-column">
-          <h3>Highest Price Paird for Platforms</h3>
-          <ListView
-            data={data.mostPaidForPlatforms}
-            whichData="purchasePrice"
-            listRowClick={itemClicked}
-          />
-        </div>
-      )}
+      <div className="home--row">
+        {data && data.mostPaidForGames && (
+          <div className="container-column">
+            <h3>Highest Price Paid for Games</h3>
+            <ListView
+              data={data.mostPaidForGames}
+              whichData="pricePaid"
+              listRowClick={itemClicked}
+            />
+          </div>
+        )}
+        {data && data.mostPaidForPlatforms && (
+          <div className="container-column">
+            <h3>Highest Price Paird for Platforms</h3>
+            <ListView
+              data={data.mostPaidForPlatforms}
+              whichData="purchasePrice"
+              listRowClick={itemClicked}
+            />
+          </div>
+        )}
+      </div>
       {data && data.gamesAcquisition && (
         <div className="chart-container" style={{ width: '100%' }}>
           <Chart

@@ -9,6 +9,13 @@
   .container-column {
     margin: $gutter;
   }
+  .home--row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: $gutter 0;
+    flex-wrap: wrap;
+  }
   .chart-container {
     min-height: 500px;
     height: auto;

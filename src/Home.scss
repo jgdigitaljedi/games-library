@@ -1,0 +1,20 @@
+@import './style/theme.scss';
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $gutter;
+  h3 {
+    color: $white;
+  }
+  .container-column {
+    margin: $gutter;
+  }
+  .chart-container {
+    min-height: 500px;
+    height: auto;
+    margin: $gutter 0;
+    .p-chart {
+      height: 100%;
+    }
+  }
+}

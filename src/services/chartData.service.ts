@@ -1,4 +1,4 @@
-import { IGame } from '../common.model';
+import { IGame, IConsole } from '../common.model';
 import { get as _get, sum as _sum } from 'lodash';
 import Colors from '../style/colors';
 import SortService from './sorts.service';
@@ -217,5 +217,27 @@ export default {
         }
       ]
     };
+  },
+  returnSimpleDataSet: (data: any, title: string) => {
+    console.log('data', data);
+    if (data && title) {
+      return {
+        labels: Object.keys(data),
+        datasets: [
+          {
+            label: title || 'Stuff',
+            backgroundColor: Colors.lightOrange,
+            data: Object.values(data) || [],
+            pointBackgroundColor: Colors.lightBlue,
+            lineTension: 0.6,
+            borderColor: Colors.navSelected,
+            borderWidth: 2,
+            pointRadius: 4
+          }
+        ]
+      };
+    } else {
+      return {};
+    }
   }
 };

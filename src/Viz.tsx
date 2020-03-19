@@ -37,11 +37,15 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     dataSets[0].value
   );
 
-  const chartOptions = {
+  const extraChartOptions = ChartDataService.getExtraChartOptions();
+
+  const basicOptions = {
     responsive: true,
     responsiveAnimationDuration: 300,
     maintainAspectRatio: false
   };
+
+  const chartOptions = { ...basicOptions, ...extraChartOptions };
 
   const getData = useCallback(
     async (ed?: boolean) => {

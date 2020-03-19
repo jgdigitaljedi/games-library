@@ -12,6 +12,7 @@ import { IGame, IConsole } from './common.model';
 import ListView from './components/ListView/ListView';
 import { Chart } from 'primereact/chart';
 import ChartService from './services/chartData.service';
+import Colors from './style/colors';
 
 interface INumIndex {
   [key: string]: number;
@@ -51,8 +52,15 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   const chartOptions = {
     responsive: true,
     responsiveAnimationDuration: 300,
-    maintainAspectRatio: false
+    maintainAspectRatio: false,
+    legend: {
+      labels: {
+        fontColor: Colors.lightKhaki
+      }
+    }
   };
+
+  const extraChartOptions = ChartService.getExtraChartOptions();
 
   const getData = useCallback(async () => {
     const result = await Axios.get('http://localhost:4001/api/stats');
@@ -103,7 +111,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           <Chart
             type="bar"
             data={ChartService.returnSimpleDataSet(data.gamePerConsoleCounts, 'Games per platform')}
-            options={chartOptions}
+            options={{ ...chartOptions, ...extraChartOptions }}
             width="100%"
           />
         </div>
@@ -132,7 +140,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
               data.gamesAcquisition,
               'Games per Acquisition Type'
             )}
-            options={chartOptions}
+            options={{ ...chartOptions, ...extraChartOptions }}
             width="100%"
           />
         </div>
@@ -143,7 +151,8 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
             type="pie"
             data={ChartService.returnSimpleDataSet(
               data.physicalVsDigitalGames,
-              'Physical vs Digital Games'
+              'Physical vs Digital Games',
+              true
             )}
             options={chartOptions}
             width="100%"

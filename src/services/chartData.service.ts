@@ -1,7 +1,11 @@
-import { IGame, IConsole } from '../common.model';
+import { IGame } from '../common.model';
 import { get as _get, sum as _sum } from 'lodash';
 import Colors from '../style/colors';
 import SortService from './sorts.service';
+
+interface ITicks {
+  fontColor?: string;
+}
 
 interface IDataSets {
   label: string;
@@ -218,15 +222,17 @@ export default {
       ]
     };
   },
-  returnSimpleDataSet: (data: any, title: string) => {
-    console.log('data', data);
+  returnSimpleDataSet: (data: any, title: string, bgColorArr?: boolean) => {
+    const bgColor = bgColorArr
+      ? [Colors.lightOrange, Colors.lightBlue, Colors.lightGreen]
+      : Colors.lightOrange;
     if (data && title) {
       return {
         labels: Object.keys(data),
         datasets: [
           {
             label: title || 'Stuff',
-            backgroundColor: Colors.lightOrange,
+            backgroundColor: bgColor,
             data: Object.values(data) || [],
             pointBackgroundColor: Colors.lightBlue,
             lineTension: 0.6,
@@ -239,5 +245,38 @@ export default {
     } else {
       return {};
     }
+  },
+  getExtraChartOptions: () => {
+    return {
+      title: {
+        color: Colors.white
+      },
+      legend: {
+        labels: {
+          fontColor: Colors.lightKhaki
+        }
+      },
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              fontColor: Colors.white,
+              color: Colors.white
+            },
+            gridLines: {
+              color: Colors.extraLight
+            }
+          }
+        ],
+        xAxes: [
+          {
+            ticks: {
+              fontColor: Colors.white,
+              color: Colors.white
+            }
+          }
+        ]
+      }
+    };
   }
 };

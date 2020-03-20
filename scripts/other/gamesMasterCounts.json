@@ -1,0 +1,106 @@
+{
+  "Atari 2600": {
+    "exclusives": 114,
+    "launchTitles": 9
+  },
+  "Microsoft Xbox": {
+    "exclusives": 104,
+    "launchTitles": 12
+  },
+  "Microsoft Xbox 360": {
+    "exclusives": 394,
+    "launchTitles": 18
+  },
+  "Microsoft Xbox One": {
+    "exclusives": 228,
+    "launchTitles": 23
+  },
+  "Nintendo 64": {
+    "exclusives": 144,
+    "launchTitles": 2
+  },
+  "Nintendo DS": {
+    "exclusives": 527,
+    "launchTitles": 7
+  },
+  "Nintendo Entertainment System": {
+    "exclusives": 389,
+    "launchTitles": 17,
+    "fourScore": 23,
+    "blackBox": 30,
+    "hangTab": 91
+  },
+  "Nintendo Game Boy": {
+    "exclusives": 139,
+    "launchTitles": 5
+  },
+  "Nintendo Game Boy Advance": {
+    "exclusives": 275,
+    "launchTitles": 17
+  },
+  "Nintendo Game Boy Color": {
+    "exclusives": 116,
+    "launchTitles": 4
+  },
+  "Nintendo GameCube": {
+    "exclusives": 83,
+    "launchTitles": 12
+  },
+  "Nintendo Wii": {
+    "exclusives": 323,
+    "launchTitles": 21
+  },
+  "Nintendo Wii U": {
+    "exclusives": 422,
+    "launchTitles": 32
+  },
+  "Sega 32X": {
+    "exclusives": 13,
+    "launchTitles": 3
+  },
+  "Sega CD": {
+    "exclusives": 36,
+    "launchTitles": 10
+  },
+  "Sega Dreamcast": {
+    "exclusives": 67,
+    "launchTitles": 17
+  },
+  "Sega Game Gear": {
+    "exclusives": 32,
+    "launchTitles": 6
+  },
+  "Sega Genesis": {
+    "exclusives": 166,
+    "launchTitles": 7,
+    "teamPlayer": 47,
+    "blackBoxGrid": 99
+  },
+  "Sega Saturn": {
+    "exclusives": 55,
+    "launchTitles": 6
+  },
+  "Sony PlayStation": {
+    "exclusives": 371,
+    "launchTitles": 11,
+    "multitap": 100
+  },
+  "Sony PlayStation 2": {
+    "exclusives": 479,
+    "launchTitles": 30
+  },
+  "Sony PlayStation Portable": {
+    "exclusives": 279,
+    "launchTitles": 16
+  },
+  "Super Nintendo Entertainment System": {
+    "exclusives": 354,
+    "launchTitles": 5,
+    "multitap": 104
+  },
+  "NEC TurboGrafx 16": {
+    "exclusives": 20,
+    "launchTitles": 9,
+    "multitap": 36
+  }
+}

@@ -232,7 +232,9 @@ export default {
           Colors.accent,
           Colors.secondary,
           Colors.success,
-          Colors.warn
+          Colors.warn,
+          Colors.error,
+          Colors.extraLight
         ]
       : Colors.lightOrange;
     if (data && title) {

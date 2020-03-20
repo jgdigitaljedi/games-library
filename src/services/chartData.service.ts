@@ -224,7 +224,16 @@ export default {
   },
   returnSimpleDataSet: (data: any, title: string, bgColorArr?: boolean) => {
     const bgColor = bgColorArr
-      ? [Colors.lightOrange, Colors.lightBlue, Colors.lightGreen]
+      ? [
+          Colors.lightOrange,
+          Colors.lightBlue,
+          Colors.lightGreen,
+          Colors.lightKhaki,
+          Colors.accent,
+          Colors.secondary,
+          Colors.success,
+          Colors.warn
+        ]
       : Colors.lightOrange;
     if (data && title) {
       return {
@@ -248,13 +257,11 @@ export default {
   },
   getExtraChartOptions: () => {
     return {
-      title: {
-        color: Colors.white
-      },
       legend: {
         labels: {
           fontColor: Colors.lightKhaki
-        }
+        },
+        position: 'bottom'
       },
       scales: {
         yAxes: [

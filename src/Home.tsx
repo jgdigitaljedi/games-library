@@ -62,6 +62,18 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
 
   const extraChartOptions = ChartService.getExtraChartOptions();
 
+  function addTitle(text: string) {
+    return {
+      title: {
+        text,
+        position: 'top',
+        fontColor: Colors.white,
+        display: true,
+        fontSize: 16
+      }
+    };
+  }
+
   const getData = useCallback(async () => {
     const result = await Axios.get('http://localhost:4001/api/stats');
     if (result && result.data) {
@@ -76,6 +88,12 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
 
   useEffect(() => {
     getData();
+    console.log('dasasd', {
+      ...chartOptions,
+      ...extraChartOptions,
+      ...addTitle('Games per platform')
+    });
+    // eslint-disable-next-line
   }, [getData]);
 
   return (
@@ -112,8 +130,13 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         <div className="chart-container" style={{ width: '100%' }}>
           <Chart
             type="bar"
-            data={ChartService.returnSimpleDataSet(data.gamePerConsoleCounts, 'Games per platform')}
-            options={{ ...chartOptions, ...extraChartOptions }}
+            data={ChartService.returnSimpleDataSet(data.gamePerConsoleCounts, 'Games')}
+            options={{
+              ...chartOptions,
+              ...extraChartOptions,
+              ...addTitle('Games per platform'),
+              ...{ legend: { display: false } }
+            }}
             width="100%"
           />
         </div>
@@ -131,7 +154,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         )}
         {data && data.mostPaidForPlatforms && (
           <div className="container-column">
-            <h3>Highest Price Paird for Platforms</h3>
+            <h3>Highest Price Paid for Platforms</h3>
             <ListView
               data={data.mostPaidForPlatforms}
               whichData="purchasePrice"
@@ -148,25 +171,54 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
               data.gamesAcquisition,
               'Games per Acquisition Type'
             )}
-            options={{ ...chartOptions, ...extraChartOptions }}
+            options={{
+              ...chartOptions,
+              ...extraChartOptions,
+              ...addTitle('Games per Acquisition Source'),
+              ...{ legend: { display: false } }
+            }}
             width="100%"
           />
         </div>
       )}
-      {data && data.physicalVsDigitalGames && (
-        <div className="chart-container" style={{ width: '50%' }}>
-          <Chart
-            type="pie"
-            data={ChartService.returnSimpleDataSet(
-              data.physicalVsDigitalGames,
-              'Physical vs Digital Games',
-              true
-            )}
-            options={chartOptions}
-            width="100%"
-          />
-        </div>
-      )}
+      <div className="home--row">
+        {data && data.physicalVsDigitalGames && (
+          <div className="chart-container" style={{ width: '50%' }}>
+            <Chart
+              type="pie"
+              data={ChartService.returnSimpleDataSet(
+                data.physicalVsDigitalGames,
+                'Physical vs Digital Games',
+                true
+              )}
+              options={{
+                ...chartOptions,
+                ...addTitle('Physical Copy vs Digital Download'),
+                ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
+              }}
+              width="100%"
+            />
+          </div>
+        )}
+        {data && data.gamesPerEsrb && (
+          <div className="chart-container" style={{ width: '50%' }}>
+            <Chart
+              type="pie"
+              data={ChartService.returnSimpleDataSet(
+                data.gamesPerEsrb,
+                'Games per ESRB rating',
+                true
+              )}
+              options={{
+                ...chartOptions,
+                ...addTitle('Games per ESRB Rating'),
+                ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
+              }}
+              width="100%"
+            />
+          </div>
+        )}
+      </div>
     </div>
   );
 };

@@ -2,31 +2,30 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Bouncy Bob",
-        "id": 53092,
+        "name": "Sonic Generations",
+        "id": 506,
         "genres": [
           "Platform",
-          "Indie",
-          "Arcade"
+          "Adventure"
         ],
-        "total_rating": 53,
-        "total_rating_count": 2,
-        "first_release_date": "10/23/2017",
+        "total_rating": 76,
+        "total_rating_count": 122,
+        "first_release_date": "10/31/2011",
         "developers": "",
-        "esrb": "E10+"
+        "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-70828",
-        "gbid": 70828,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg",
-        "deck": "",
-        "platforms": "PC, Nintendo Switch"
+        "guid": "3030-34833",
+        "gbid": 34833,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/12541/3026803-sonic%20generations.png",
+        "deck": "Old school and new school collide in this 20th Anniversary celebration of the Sonic franchise.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Nintendo 3DS, Nintendo 3DS eShop"
       },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
       "condition": "Other",
       "case": "none",
       "pricePaid": "",
@@ -35,119 +34,111 @@
       "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "",
-      "howAcquired": "eShop",
+      "howAcquired": "XBOX Live",
       "notes": "",
-      "createdAt": "03/21/2020 07:42 am",
-      "updatedAt": "03/21/2020 07:42 am",
-      "_id": "3288b79e62404f4682a10a186392fa69"
+      "createdAt": "03/21/2020 09:07 am",
+      "updatedAt": "03/21/2020 09:07 am",
+      "_id": "77ce6f549a3f400aa974f5a7809f1fdb",
+      "extraData": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "extraDataFull": [
+        {
+          "igdbId": 506,
+          "name": "Sonic Generations",
+          "details": [
+            "Xbox 360 game backward compatible with Xbox One"
+          ],
+          "id": "x360634",
+          "gbId": 34833,
+          "gbGuid": "3030-34833",
+          "tgdbId": 8065,
+          "special": [
+            {
+              "value": "Xbox 360 game backward compatible with Xbox One",
+              "forPlatform": {
+                "name": "Microsoft Xbox 360",
+                "id": "ccl26",
+                "igdbId": 12,
+                "gbId": 20,
+                "gbGuid": "3045-20",
+                "tgdbId": 15
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
     },
     {
       "igdb": {
-        "name": "Super Hero Fight Club: Reloaded",
-        "id": 112984,
+        "name": "Sonic Generations",
+        "id": 128798,
         "genres": [
-          "Indie"
+          "Platform",
+          "Adventure"
         ],
         "total_rating": "",
         "total_rating_count": "",
-        "first_release_date": "",
+        "first_release_date": "11/21/2011",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-72191",
-        "gbid": 72191,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/12/125828/3081158-header.jpg",
-        "deck": "A 4 player competitive game in the same vein as Starwahl but with parodies of superheroes and action movie characters.",
-        "platforms": "PC, Nintendo Switch"
+        "guid": "",
+        "gbid": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-Sy7uEq73jSA%2FTvEnQFxQKFI%2FAAAAAAAAA2s%2FhbUHvaZvJQ8%2Fs1600%2Fsonic_generations_banner.png&f=1&nofb=1",
+        "deck": "",
+        "platforms": ""
       },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
+      "consoleName": "Xbox One",
+      "consoleIgdbId": 49,
+      "consoleGbid": 145,
+      "consoleGbGuid": "3045-145",
       "condition": "Other",
       "case": "none",
       "pricePaid": "",
       "physical": "",
       "cib": "",
       "pirated": "",
-      "multiplayerNumber": "2",
+      "multiplayerNumber": "1",
       "datePurchased": "",
-      "howAcquired": "eShop",
+      "howAcquired": "XBOX Live",
       "notes": "",
-      "createdAt": "03/21/2020 07:42 am",
-      "updatedAt": "03/21/2020 07:42 am",
-      "_id": "e9f2fab3d4004b59bfd896a09f61d6d4"
+      "createdAt": "03/21/2020 09:06 am",
+      "updatedAt": "03/21/2020 09:06 am",
+      "_id": "873425f4747a440bbe152fd0cefd5c4b",
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Brawl",
-        "id": 28092,
+        "name": "The Technomancer",
+        "id": 9919,
         "genres": [
-          "Fighting",
-          "Indie"
+          "Role-playing (RPG)",
+          "Adventure"
         ],
-        "total_rating": 60,
-        "total_rating_count": 3,
-        "first_release_date": "04/23/2015",
+        "total_rating": 63,
+        "total_rating_count": 30,
+        "first_release_date": "06/27/2016",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-49291",
-        "gbid": 49291,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2746614-brawl.jpeg",
-        "deck": "Brawl is a reworked version of Bloober Team's critically ravaged 2014 title Basement Crawl offering several improvements.",
-        "platforms": "Mac, PC, PlayStation 4, Linux, Nintendo Switch"
+        "guid": "3030-49405",
+        "gbid": 49405,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2994851-box_ttm.png",
+        "deck": "A sci-fi RPG set during the 'War of Water' on Mars.",
+        "platforms": "PC, Xbox One, PlayStation 4"
       },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "03/21/2020 07:41 am",
-      "updatedAt": "03/21/2020 07:41 am",
-      "_id": "ace22985eaff4e62a1f406bc0b02e4ab"
-    },
-    {
-      "igdb": {
-        "name": "Car Quest",
-        "id": 110881,
-        "genres": [
-          "Platform",
-          "Puzzle",
-          "Racing",
-          "Adventure"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "10/24/2018",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-71537",
-        "gbid": 71537,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/110112/3072927-car_quest_art.png",
-        "deck": "Car Quest is an exploration and puzzle-focused 3D platformer.",
-        "platforms": "Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
+      "consoleName": "Xbox One",
+      "consoleIgdbId": 49,
+      "consoleGbid": 145,
+      "consoleGbGuid": "3045-145",
       "condition": "Other",
       "case": "none",
       "pricePaid": "",
@@ -156,38 +147,81 @@
       "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "",
-      "howAcquired": "eShop",
+      "howAcquired": "XBOX Live",
       "notes": "",
-      "createdAt": "03/21/2020 07:40 am",
-      "updatedAt": "03/21/2020 07:40 am",
-      "_id": "40c428deae76477fadfa6105878db202"
+      "createdAt": "03/21/2020 09:04 am",
+      "updatedAt": "03/21/2020 09:04 am",
+      "_id": "00fd11b534264051acfa957a225a773f",
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "TETRIS 99",
-        "id": 115282,
+        "name": "Super Bomberman R",
+        "id": 26760,
         "genres": [
-          "Puzzle",
           "Arcade"
         ],
-        "total_rating": 83,
-        "total_rating_count": 37,
-        "first_release_date": "02/12/2019",
+        "total_rating": 61,
+        "total_rating_count": 30,
+        "first_release_date": "03/02/2017",
         "developers": "",
-        "esrb": "E"
+        "esrb": "E10+"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-72146",
-        "gbid": 72146,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3080807-box_t99.png",
-        "deck": "Tetris goes \"battle royale\" in this free online-only game for the Switch from the developers behind the Tetris: The Grand Master series, featuring last-player-standing matches with up to 99 players at once!",
-        "platforms": "Nintendo Switch"
+        "guid": "3030-57692",
+        "gbid": 57692,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3029622-box_sbr.png",
+        "deck": "Super Bomberman R celebrates the 33rd anniversary of the Bomberman series with its first console release in 7 years.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
       },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
+      "consoleName": "Xbox One",
+      "consoleIgdbId": 49,
+      "consoleGbid": 145,
+      "consoleGbGuid": "3045-145",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "",
+      "howAcquired": "XBOX Live",
+      "notes": "",
+      "createdAt": "03/21/2020 09:04 am",
+      "updatedAt": "03/21/2020 09:04 am",
+      "_id": "cd0eecb5a5224dbe80089867780d88a2",
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Star Wars: Republic Commando",
+        "id": 148,
+        "genres": [
+          "Shooter",
+          "Tactical"
+        ],
+        "total_rating": 82,
+        "total_rating_count": 121,
+        "first_release_date": "02/16/2005",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.mobygames.com%2Fimages%2Fcovers%2Fl%2F42764-star-wars-republic-commando-windows-front-cover.jpg&f=1&nofb=1",
+        "deck": "",
+        "platforms": ""
+      },
+      "consoleName": "Xbox One",
+      "consoleIgdbId": 49,
+      "consoleGbid": 145,
+      "consoleGbGuid": "3045-145",
       "condition": "Other",
       "case": "none",
       "pricePaid": "",
@@ -196,11 +230,13 @@
       "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "",
-      "howAcquired": "eShop",
+      "howAcquired": "XBOX Live",
       "notes": "",
-      "createdAt": "03/21/2020 07:39 am",
-      "updatedAt": "03/21/2020 07:39 am",
-      "_id": "014956d59c50412eb1fa09f49eb49b66"
+      "createdAt": "03/21/2020 09:03 am",
+      "updatedAt": "03/21/2020 09:03 am",
+      "_id": "f08bc8de526e425b82987ceb7a4c0850",
+      "extraData": [],
+      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -770,7 +806,7 @@
     "Nintendo Entertainment System (NES)": 40,
     "PlayStation 2": 51,
     "PlayStation": 17,
-    "Xbox 360": 54,
+    "Xbox 360": 55,
     "Atari 2600": 11,
     "Dreamcast": 23,
     "Wii": 26,
@@ -789,20 +825,20 @@
     "PlayStation Portable": 16,
     "Nintendo 3DS": 11,
     "Game Boy Advance": 13,
-    "Xbox One": 14
+    "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 223,
-    "T": 140,
-    "E": 191,
-    "NOT RATED": 179,
+    "M": 227,
+    "T": 145,
+    "E": 193,
+    "NOT RATED": 181,
     "RP": 11,
-    "E10+": 70,
+    "E10+": 72,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 573,
-    "digital": 242
+    "digital": 257
   },
   "gamesAcquisition": {
     "GameStop": 66,
@@ -822,8 +858,8 @@
     "Amazon": 5,
     "flea market": 5,
     "Goodwill": 2,
-    "XBOX Store": 4,
-    "XBOX Live": 2,
+    "XBOX Store": 3,
+    "XBOX Live": 18,
     "gift from mom": 1,
     "Toys 'R Us": 2,
     "from Becca when bought Xbox One": 1,
@@ -842,23 +878,23 @@
   },
   "cibGames": 237,
   "gamesWithGenre": {
-    "shooter": 283,
-    "simulator": 75,
-    "strategy": 76,
-    "tactical": 18,
-    "role-playing (rpg)": 104,
+    "shooter": 288,
+    "simulator": 76,
+    "strategy": 77,
+    "tactical": 19,
+    "role-playing (rpg)": 106,
     "music": 22,
-    "adventure": 280,
-    "indie": 59,
+    "adventure": 290,
+    "indie": 62,
     "hack and slash/beat 'em up": 48,
-    "arcade": 63,
-    "platform": 163,
+    "arcade": 65,
+    "platform": 167,
     "point-and-click": 5,
-    "puzzle": 82,
+    "puzzle": 84,
     "visual novel": 1,
-    "sport": 116,
+    "sport": 118,
     "racing": 107,
-    "fighting": 55,
+    "fighting": 54,
     "turn-based strategy (tbs)": 11,
     "pinball": 4,
     "real time strategy (rts)": 7,
@@ -893,7 +929,7 @@
     },
     {
       "dateFormatted": "01/2019",
-      "games": 21
+      "games": 20
     },
     {
       "dateFormatted": "12/2019",
@@ -975,7 +1011,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2019",
-      "games": 228
+      "games": 227
     },
     {
       "dateFormatted": "2020",
@@ -997,15 +1033,15 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 56
+      "value": 58
     },
     {
       "category": "Good (70 - 89)",
-      "value": 518
+      "value": 526
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 136
+      "value": 140
     },
     {
       "category": "Poor (30 - 49)",
@@ -1013,7 +1049,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 91
+      "value": 92
     }
   ],
   "consolesByCompany": {

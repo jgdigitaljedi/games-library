@@ -2,26 +2,25 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Mafia III",
-        "id": 11492,
+        "name": "Xenoraid",
+        "id": 24028,
         "genres": [
           "Shooter",
-          "Racing",
-          "Adventure"
+          "Indie"
         ],
-        "total_rating": 68,
-        "total_rating_count": 223,
-        "first_release_date": "10/06/2016",
+        "total_rating": 69,
+        "total_rating_count": 6,
+        "first_release_date": "09/29/2016",
         "developers": "",
-        "esrb": "M"
+        "esrb": "E10+"
       },
       "gb": {
-        "aliases": "Mafia 3",
-        "guid": "3030-50449",
-        "gbid": 50449,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2986575-box_m3.png",
-        "deck": "The third game in the open world crime series. Mafia III follows Vietnam veteran, mixed-race Lincoln Clay in 1960s New Bordeaux, when racism is blooming, as he aspires for revenge against those who have harmed his family.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4"
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://cdn1.downloadpark.mobi/thumbs/qg4l2104/xenoraid-android-game-1.jpg",
+        "deck": "",
+        "platforms": ""
       },
       "consoleName": "PlayStation 4",
       "consoleIgdbId": 48,
@@ -33,155 +32,36 @@
       "physical": "",
       "cib": "",
       "pirated": "",
-      "multiplayerNumber": "1",
+      "multiplayerNumber": "2",
       "datePurchased": "",
       "howAcquired": "",
       "notes": "",
-      "createdAt": "03/20/2020 09:12 pm",
-      "updatedAt": "03/20/2020 09:12 pm",
-      "_id": "d9510734e82b412ebaacc26c8f9a084e"
+      "createdAt": "03/20/2020 10:16 pm",
+      "updatedAt": "03/20/2020 10:16 pm",
+      "_id": "d21dc441a5844095843ee5cac349eaae"
     },
     {
       "igdb": {
-        "name": "LittleBigPlanet 3",
-        "id": 7330,
+        "name": "Worms Battlegrounds",
+        "id": 8967,
         "genres": [
           "Platform",
-          "Adventure"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 60,
-        "first_release_date": "11/17/2014",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "LBP3",
-        "guid": "3030-46567",
-        "gbid": 46567,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2703325-littlebigplanet%203%20v3.jpeg",
-        "deck": "Sackboy arrives on PlayStation 4 with some new friends.",
-        "platforms": "PlayStation 3, PlayStation Network (PS3), PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/20/2020 09:12 pm",
-      "updatedAt": "03/20/2020 09:12 pm",
-      "_id": "64d9ff2e814c4840807ef64aa9453558"
-    },
-    {
-      "igdb": {
-        "name": "Lego The Hobbit",
-        "id": 4844,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
+          "Strategy",
+          "Turn-based strategy (TBS)"
         ],
         "total_rating": 71,
-        "total_rating_count": 49,
-        "first_release_date": "04/07/2014",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-44652",
-        "gbid": 44652,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2617757-box_legoth.jpg",
-        "deck": "LEGO returns to Middle-earth with this video game adaptation of the first two Hobbit movies.",
-        "platforms": "Mac, Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Nintendo 3DS, PlayStation Vita, Wii U, PlayStation Network (Vita), Xbox One, PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/20/2020 09:11 pm",
-      "updatedAt": "03/20/2020 09:11 pm",
-      "_id": "8038dd03fe1a4140ac3f56617c28934b"
-    },
-    {
-      "igdb": {
-        "name": "Lego Harry Potter Collection",
-        "id": 25083,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 71,
-        "total_rating_count": 10,
-        "first_release_date": "10/20/2016",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-56893",
-        "gbid": 56893,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/135472/3047475-397962-lego-harry-potter-collection-playstation-4-front-cover.png.jpg",
-        "deck": "Both LEGO Harry Potter games have been remastered for PlayStaton 4 & Xbox One",
-        "platforms": "Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/20/2020 09:11 pm",
-      "updatedAt": "03/20/2020 09:11 pm",
-      "_id": "e7314a6a8113442282144ecd77d1bb22"
-    },
-    {
-      "igdb": {
-        "name": "Lara Croft and the Temple of Osiris",
-        "id": 7325,
-        "genres": [
-          "Shooter",
-          "Puzzle",
-          "Adventure"
-        ],
-        "total_rating": 73,
-        "total_rating_count": 67,
-        "first_release_date": "12/08/2014",
+        "total_rating_count": 20,
+        "first_release_date": "05/29/2014",
         "developers": "",
         "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-46556",
-        "gbid": 46556,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2701424-box_lcattos.jpg",
-        "deck": "An isometric action-adventure game where players must puzzle and platform their way through tombs and engage in dual-stick shooter combat.",
-        "platforms": "PC, Xbox One, PlayStation 4"
+        "guid": "3030-45386",
+        "gbid": 45386,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2642262-box_wormsbg.jpg",
+        "deck": "The latest entry of the Worms franchise comes to the PS4 and Xbox One in 2014.",
+        "platforms": "Xbox One, PlayStation 4"
       },
       "consoleName": "PlayStation 4",
       "consoleIgdbId": 48,
@@ -197,9 +77,128 @@
       "datePurchased": "",
       "howAcquired": "",
       "notes": "",
-      "createdAt": "03/20/2020 09:10 pm",
-      "updatedAt": "03/20/2020 09:10 pm",
-      "_id": "80c86ebaaae24ea2ad0a151b6c7423c4"
+      "createdAt": "03/20/2020 10:15 pm",
+      "updatedAt": "03/20/2020 10:15 pm",
+      "_id": "106e586342b34de1915b12c413a850de"
+    },
+    {
+      "igdb": {
+        "name": "WipEout: Omega Collection",
+        "id": 26195,
+        "genres": [
+          "Racing"
+        ],
+        "total_rating": 87,
+        "total_rating_count": 30,
+        "first_release_date": "06/05/2017",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-57212",
+        "gbid": 57212,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2944405-wipeout%20-%20omega%20collection%20v4.jpg",
+        "deck": "The Omega Collection brings WipEout HD, Fury, and 2048 to PlayStation 4 in one package.",
+        "platforms": "PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 10:15 pm",
+      "updatedAt": "03/20/2020 10:15 pm",
+      "_id": "38a12136e51c478a9a6441273ce845bc"
+    },
+    {
+      "igdb": {
+        "name": "What Remains of Edith Finch",
+        "id": 11233,
+        "genres": [
+          "Puzzle",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 338,
+        "first_release_date": "04/24/2017",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-48329",
+        "gbid": 48329,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2986568-box_wroef.png",
+        "deck": "Edith Finch returns to her old familial home to discover the stories that have been kept from her. The stories of how generations of her family have died early of unrelated, but often kooky, causes.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 10:14 pm",
+      "updatedAt": "03/20/2020 10:14 pm",
+      "_id": "53fd433d745d46e78b73bf427ac6d49d"
+    },
+    {
+      "igdb": {
+        "name": "Until Dawn",
+        "id": 7609,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 359,
+        "first_release_date": "08/24/2015",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-39358",
+        "gbid": 39358,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2805496-until%20dawn%20v6.jpg",
+        "deck": "In this PlayStation 4 horror game, eight teenagers are being hunted while they stay at a mountain retreat.",
+        "platforms": "PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 10:14 pm",
+      "updatedAt": "03/20/2020 10:14 pm",
+      "_id": "166ea25281fb480e83fb618869dd2810"
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -759,7 +758,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PlayStation 4": 82,
+    "PlayStation 4": 123,
     "PC (Microsoft Windows)": 115,
     "Nintendo Switch": 19,
     "Game Boy": 6,
@@ -791,21 +790,21 @@
     "Xbox One": 14
   },
   "gamesPerEsrb": {
-    "M": 213,
-    "T": 131,
-    "E": 180,
-    "NOT RATED": 166,
+    "M": 222,
+    "T": 140,
+    "E": 186,
+    "NOT RATED": 175,
     "RP": 11,
-    "E10+": 60,
+    "E10+": 68,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 573,
-    "digital": 189
+    "digital": 230
   },
   "gamesAcquisition": {
     "GameStop": 66,
-    "UNKNOWN": 171,
+    "UNKNOWN": 212,
     "eShop": 5,
     "PSN": 16,
     "GameOver": 206,
@@ -841,24 +840,24 @@
   },
   "cibGames": 237,
   "gamesWithGenre": {
-    "shooter": 273,
-    "simulator": 70,
-    "strategy": 74,
-    "tactical": 17,
-    "role-playing (rpg)": 100,
-    "music": 21,
-    "adventure": 262,
-    "indie": 44,
-    "hack and slash/beat 'em up": 47,
-    "arcade": 58,
-    "platform": 148,
-    "point-and-click": 3,
-    "puzzle": 75,
+    "shooter": 282,
+    "simulator": 74,
+    "strategy": 76,
+    "tactical": 18,
+    "role-playing (rpg)": 103,
+    "music": 22,
+    "adventure": 277,
+    "indie": 55,
+    "hack and slash/beat 'em up": 48,
+    "arcade": 61,
+    "platform": 158,
+    "point-and-click": 5,
+    "puzzle": 78,
     "visual novel": 1,
-    "sport": 109,
-    "racing": 95,
-    "fighting": 52,
-    "turn-based strategy (tbs)": 10,
+    "sport": 115,
+    "racing": 105,
+    "fighting": 54,
+    "turn-based strategy (tbs)": 11,
     "pinball": 4,
     "real time strategy (rts)": 7,
     "quiz/trivia": 6,
@@ -996,15 +995,15 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 55
+      "value": 56
     },
     {
       "category": "Good (70 - 89)",
-      "value": 484
+      "value": 512
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 123
+      "value": 133
     },
     {
       "category": "Poor (30 - 49)",
@@ -1012,7 +1011,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 86
+      "value": 88
     }
   ],
   "consolesByCompany": {

@@ -2,200 +2,204 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Tom Clancy's Rainbow Six",
-        "id": 1842,
+        "name": "Mafia III",
+        "id": 11492,
         "genres": [
           "Shooter",
-          "Simulator",
-          "Strategy",
-          "Tactical"
+          "Racing",
+          "Adventure"
         ],
-        "total_rating": 80,
-        "total_rating_count": 35,
-        "first_release_date": "08/20/1998",
+        "total_rating": 68,
+        "total_rating_count": 223,
+        "first_release_date": "10/06/2016",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Mafia 3",
+        "guid": "3030-50449",
+        "gbid": 50449,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2986575-box_m3.png",
+        "deck": "The third game in the open world crime series. Mafia III follows Vietnam veteran, mixed-race Lincoln Clay in 1960s New Bordeaux, when racism is blooming, as he aspires for revenge against those who have harmed his family.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 09:12 pm",
+      "updatedAt": "03/20/2020 09:12 pm",
+      "_id": "d9510734e82b412ebaacc26c8f9a084e"
+    },
+    {
+      "igdb": {
+        "name": "LittleBigPlanet 3",
+        "id": 7330,
+        "genres": [
+          "Platform",
+          "Adventure"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 60,
+        "first_release_date": "11/17/2014",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "LBP3",
+        "guid": "3030-46567",
+        "gbid": 46567,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2703325-littlebigplanet%203%20v3.jpeg",
+        "deck": "Sackboy arrives on PlayStation 4 with some new friends.",
+        "platforms": "PlayStation 3, PlayStation Network (PS3), PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 09:12 pm",
+      "updatedAt": "03/20/2020 09:12 pm",
+      "_id": "64d9ff2e814c4840807ef64aa9453558"
+    },
+    {
+      "igdb": {
+        "name": "Lego The Hobbit",
+        "id": 4844,
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 71,
+        "total_rating_count": 49,
+        "first_release_date": "04/07/2014",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-44652",
+        "gbid": 44652,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2617757-box_legoth.jpg",
+        "deck": "LEGO returns to Middle-earth with this video game adaptation of the first two Hobbit movies.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Nintendo 3DS, PlayStation Vita, Wii U, PlayStation Network (Vita), Xbox One, PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 09:11 pm",
+      "updatedAt": "03/20/2020 09:11 pm",
+      "_id": "8038dd03fe1a4140ac3f56617c28934b"
+    },
+    {
+      "igdb": {
+        "name": "Lego Harry Potter Collection",
+        "id": 25083,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": 71,
+        "total_rating_count": 10,
+        "first_release_date": "10/20/2016",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-56893",
+        "gbid": 56893,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/135472/3047475-397962-lego-harry-potter-collection-playstation-4-front-cover.png.jpg",
+        "deck": "Both LEGO Harry Potter games have been remastered for PlayStaton 4 & Xbox One",
+        "platforms": "Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/20/2020 09:11 pm",
+      "updatedAt": "03/20/2020 09:11 pm",
+      "_id": "e7314a6a8113442282144ecd77d1bb22"
+    },
+    {
+      "igdb": {
+        "name": "Lara Croft and the Temple of Osiris",
+        "id": 7325,
+        "genres": [
+          "Shooter",
+          "Puzzle",
+          "Adventure"
+        ],
+        "total_rating": 73,
+        "total_rating_count": 67,
+        "first_release_date": "12/08/2014",
         "developers": "",
         "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-7887",
-        "gbid": 7887,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/48222/1085899-rb6box.jpg",
-        "deck": "Tom Clancy's Rainbow Six puts the player in charge of an elite international team of counter terrorist operatives in a title that emphasizes planning, stealth, and tactics.",
-        "platforms": "Mac, PlayStation, Dreamcast, Nintendo 64, Game Boy Color, PC"
+        "guid": "3030-46556",
+        "gbid": 46556,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2701424-box_lcattos.jpg",
+        "deck": "An isometric action-adventure game where players must puzzle and platform their way through tombs and engage in dual-stick shooter combat.",
+        "platforms": "PC, Xbox One, PlayStation 4"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "1",
+      "pricePaid": "",
       "physical": "",
       "cib": "",
       "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-16",
+      "multiplayerNumber": "4",
+      "datePurchased": "",
       "howAcquired": "",
       "notes": "",
-      "createdAt": "03/16/2020 07:36 pm",
-      "updatedAt": "03/16/2020 07:36 pm",
-      "_id": "412bd5b219a745f8ae6ea34980fb71aa"
-    },
-    {
-      "igdb": {
-        "name": "Thief Gold",
-        "id": 9227,
-        "genres": [
-          "Shooter",
-          "Simulator",
-          "Sport",
-          "Adventure"
-        ],
-        "total_rating": 91,
-        "total_rating_count": 18,
-        "first_release_date": "10/25/1999",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Thi4f\r, Thief IV\r, Thief 4",
-        "guid": "3030-26400",
-        "gbid": 26400,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2604875-box_thief.png",
-        "deck": "Developed by Eidos Montréal and coming more than 10 years after the previous Thief game, this is the fourth installment in and a reboot of the Thief franchise.",
-        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-02",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:35 pm",
-      "updatedAt": "03/16/2020 07:35 pm",
-      "_id": "96a2d391742342dd8ed4e734a02cd438"
-    },
-    {
-      "igdb": {
-        "name": "Thief: Deadly Shadows",
-        "id": 3,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 83,
-        "total_rating_count": 78,
-        "first_release_date": "05/24/2004",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Thief 3, Thief III",
-        "guid": "3030-2335",
-        "gbid": 2335,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2531067-box_tds.png",
-        "deck": "Thief: Deadly Shadows is the third game in the Thief Franchise. It continues the exploits of series protagonist and master thief, Garrett, in a fantasy world that merges elements of the late medieval era with the Victorian age.",
-        "platforms": "Xbox, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-02",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:34 pm",
-      "updatedAt": "03/16/2020 07:34 pm",
-      "_id": "e920ae8f776f41ce84741bfed00892e8"
-    },
-    {
-      "igdb": {
-        "name": "Metro 2033",
-        "id": 495,
-        "genres": [
-          "Shooter",
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 85,
-        "total_rating_count": 392,
-        "first_release_date": "03/15/2010",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Metro 2033: The Last Refuge",
-        "guid": "3030-20964",
-        "gbid": 20964,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/1301207-1256226508.jpg",
-        "deck": "Metro 2033 is a post-apocalyptic first-person-shooter, set in the underground community built in the ruins of a Russian municipal train system, based on the best-selling novel by Dmitry Glukhovsky.",
-        "platforms": "Xbox 360, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "5",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-02",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:32 pm",
-      "updatedAt": "03/16/2020 07:32 pm",
-      "_id": "8c58dcef58f04c0eab44ffe183a28626"
-    },
-    {
-      "igdb": {
-        "name": "The Elder Scrolls: Arena",
-        "id": 52,
-        "genres": [
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 19,
-        "first_release_date": "03/24/1994",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Elder Scrolls 1",
-        "guid": "3030-7513",
-        "gbid": 7513,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/15693/630354-564545_53892_front_1_.jpg",
-        "deck": "The Elder Scrolls: Arena is the first in its series. The Emperor has been imprisoned in another dimension by the evil Jagar Tharn, who is impersonating him. It's up to the player to find all eight pieces of the Staff of Chaos to defeat Jagar and bring order back to Tamriel.",
-        "platforms": "PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-16",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:31 pm",
-      "updatedAt": "03/16/2020 07:31 pm",
-      "_id": "cad6d6e5ecdc40b0891d465d7f316764"
+      "createdAt": "03/20/2020 09:10 pm",
+      "updatedAt": "03/20/2020 09:10 pm",
+      "_id": "80c86ebaaae24ea2ad0a151b6c7423c4"
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -501,6 +505,45 @@
     },
     {
       "igdb": {
+        "name": "Doom: Eternal",
+        "id": 103298,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 89,
+        "total_rating_count": 7,
+        "first_release_date": "03/19/2020",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-68917",
+        "gbid": 68917,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
+        "deck": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-20",
+      "howAcquired": "GameStop",
+      "notes": "purchased on release day",
+      "createdAt": "03/20/2020 08:44 pm",
+      "updatedAt": "03/20/2020 08:44 pm",
+      "_id": "14b8bedaee0f45a29d562e459ad9901c"
+    },
+    {
+      "igdb": {
         "name": "The Witcher 3: Wild Hunt - Complete Edition",
         "id": 119402,
         "genres": [
@@ -537,46 +580,6 @@
       "createdAt": "02/22/2020 05:51 am",
       "updatedAt": "02/22/2020 05:51 am",
       "_id": "eafcabb43f5b477cb11979c7949222c1"
-    },
-    {
-      "igdb": {
-        "name": "Pokémon Shield",
-        "id": 115653,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 69,
-        "total_rating_count": 22,
-        "first_release_date": "11/14/2019",
-        "developers": "",
-        "esrb": "RP"
-      },
-      "gb": {
-        "aliases": "Pokemon Sword / Shield",
-        "guid": "3030-59938",
-        "gbid": 59938,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/3141963-cq5dam.thumbnail.319.319%20%2810%29%20copy.png",
-        "deck": "Upcoming Pokémon RPG for the Nintendo Switch set in the Galar region.",
-        "platforms": "Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-02-01",
-      "howAcquired": "GameStop",
-      "notes": "",
-      "createdAt": "02/08/2020 07:06 am",
-      "updatedAt": "02/08/2020 07:06 am",
-      "_id": "2e24047ec4174a35b2296bbbb25830f8"
     }
   ],
   "mostPaidForPlatforms": [
@@ -756,9 +759,9 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PlayStation 4": 82,
     "PC (Microsoft Windows)": 115,
     "Nintendo Switch": 19,
-    "PlayStation 4": 36,
     "Game Boy": 6,
     "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
@@ -788,28 +791,28 @@
     "Xbox One": 14
   },
   "gamesPerEsrb": {
-    "T": 128,
-    "M": 185,
-    "E": 176,
-    "NOT RATED": 162,
+    "M": 213,
+    "T": 131,
+    "E": 180,
+    "NOT RATED": 166,
     "RP": 11,
-    "E10+": 53,
+    "E10+": 60,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 572,
-    "digital": 144
+    "physical": 573,
+    "digital": 189
   },
   "gamesAcquisition": {
-    "UNKNOWN": 127,
+    "GameStop": 66,
+    "UNKNOWN": 171,
     "eShop": 5,
-    "PSN": 15,
+    "PSN": 16,
     "GameOver": 206,
     "Video Games Monthly": 24,
     "bought from Solis": 17,
     "Target": 4,
     "eBay": 47,
-    "GameStop": 65,
     "Steam": 71,
     "Walmart": 13,
     "Retro Game Treasure": 40,
@@ -836,29 +839,29 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 236,
+  "cibGames": 237,
   "gamesWithGenre": {
-    "shooter": 254,
-    "simulator": 69,
-    "strategy": 73,
-    "tactical": 13,
-    "role-playing (rpg)": 94,
-    "music": 20,
-    "adventure": 236,
-    "indie": 36,
-    "hack and slash/beat 'em up": 41,
-    "arcade": 54,
-    "platform": 144,
+    "shooter": 273,
+    "simulator": 70,
+    "strategy": 74,
+    "tactical": 17,
+    "role-playing (rpg)": 100,
+    "music": 21,
+    "adventure": 262,
+    "indie": 44,
+    "hack and slash/beat 'em up": 47,
+    "arcade": 58,
+    "platform": 148,
     "point-and-click": 3,
-    "puzzle": 72,
+    "puzzle": 75,
     "visual novel": 1,
-    "sport": 106,
-    "racing": 93,
-    "fighting": 51,
+    "sport": 109,
+    "racing": 95,
+    "fighting": 52,
     "turn-based strategy (tbs)": 10,
     "pinball": 4,
     "real time strategy (rts)": 7,
-    "quiz/trivia": 5,
+    "quiz/trivia": 6,
     "action": 1,
     "fps": 1
   },
@@ -885,7 +888,7 @@
     },
     {
       "dateFormatted": "03/2020",
-      "games": 22
+      "games": 23
     },
     {
       "dateFormatted": "01/2019",
@@ -975,7 +978,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 83
+      "games": 84
     },
     {
       "dateFormatted": "2018",
@@ -997,11 +1000,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 446
+      "value": 484
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 116
+      "value": 123
     },
     {
       "category": "Poor (30 - 49)",
@@ -1009,7 +1012,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 85
+      "value": 86
     }
   ],
   "consolesByCompany": {

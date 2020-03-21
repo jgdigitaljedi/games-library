@@ -14,7 +14,8 @@
     "process:supp": "node scripts/supplementGameData.js",
     "process:stats": "node scripts/createHomePageStats.js",
     "process:viz": "node scripts/createVizStats.js",
-    "process": "npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz"
+    "process": "npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz",
+    "copyGames:windows": "./scripts/copyGamesFromOtherProject.sh"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",

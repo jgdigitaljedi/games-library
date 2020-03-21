@@ -2,30 +2,70 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Xenoraid",
-        "id": 24028,
+        "name": "Bouncy Bob",
+        "id": 53092,
         "genres": [
-          "Shooter",
-          "Indie"
+          "Platform",
+          "Indie",
+          "Arcade"
         ],
-        "total_rating": 69,
-        "total_rating_count": 6,
-        "first_release_date": "09/29/2016",
+        "total_rating": 53,
+        "total_rating_count": 2,
+        "first_release_date": "10/23/2017",
         "developers": "",
         "esrb": "E10+"
       },
       "gb": {
         "aliases": "",
-        "guid": "",
-        "gbid": "",
-        "image": "https://cdn1.downloadpark.mobi/thumbs/qg4l2104/xenoraid-android-game-1.jpg",
+        "guid": "3030-70828",
+        "gbid": 70828,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/110673/3026329-gb_default-16_9.jpg",
         "deck": "",
-        "platforms": ""
+        "platforms": "PC, Nintendo Switch"
       },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "03/21/2020 07:42 am",
+      "updatedAt": "03/21/2020 07:42 am",
+      "_id": "3288b79e62404f4682a10a186392fa69"
+    },
+    {
+      "igdb": {
+        "name": "Super Hero Fight Club: Reloaded",
+        "id": 112984,
+        "genres": [
+          "Indie"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-72191",
+        "gbid": 72191,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/12/125828/3081158-header.jpg",
+        "deck": "A 4 player competitive game in the same vein as Starwahl but with parodies of superheroes and action movie characters.",
+        "platforms": "PC, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
       "condition": "Other",
       "case": "none",
       "pricePaid": "",
@@ -34,158 +74,80 @@
       "pirated": "",
       "multiplayerNumber": "2",
       "datePurchased": "",
-      "howAcquired": "PSN",
+      "howAcquired": "eShop",
       "notes": "",
-      "createdAt": "03/20/2020 10:16 pm",
-      "updatedAt": "03/20/2020 10:16 pm",
-      "_id": "d21dc441a5844095843ee5cac349eaae"
+      "createdAt": "03/21/2020 07:42 am",
+      "updatedAt": "03/21/2020 07:42 am",
+      "_id": "e9f2fab3d4004b59bfd896a09f61d6d4"
     },
     {
       "igdb": {
-        "name": "Worms Battlegrounds",
-        "id": 8967,
+        "name": "Brawl",
+        "id": 28092,
         "genres": [
-          "Platform",
-          "Strategy",
-          "Turn-based strategy (TBS)"
-        ],
-        "total_rating": 71,
-        "total_rating_count": 20,
-        "first_release_date": "05/29/2014",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-45386",
-        "gbid": 45386,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2642262-box_wormsbg.jpg",
-        "deck": "The latest entry of the Worms franchise comes to the PS4 and Xbox One in 2014.",
-        "platforms": "Xbox One, PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "03/20/2020 10:15 pm",
-      "updatedAt": "03/20/2020 10:15 pm",
-      "_id": "106e586342b34de1915b12c413a850de"
-    },
-    {
-      "igdb": {
-        "name": "WipEout: Omega Collection",
-        "id": 26195,
-        "genres": [
-          "Racing"
-        ],
-        "total_rating": 87,
-        "total_rating_count": 30,
-        "first_release_date": "06/05/2017",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-57212",
-        "gbid": 57212,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2944405-wipeout%20-%20omega%20collection%20v4.jpg",
-        "deck": "The Omega Collection brings WipEout HD, Fury, and 2048 to PlayStation 4 in one package.",
-        "platforms": "PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "03/20/2020 10:15 pm",
-      "updatedAt": "03/20/2020 10:15 pm",
-      "_id": "38a12136e51c478a9a6441273ce845bc"
-    },
-    {
-      "igdb": {
-        "name": "What Remains of Edith Finch",
-        "id": 11233,
-        "genres": [
-          "Puzzle",
-          "Adventure",
+          "Fighting",
           "Indie"
         ],
-        "total_rating": 86,
-        "total_rating_count": 338,
-        "first_release_date": "04/24/2017",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-48329",
-        "gbid": 48329,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2986568-box_wroef.png",
-        "deck": "Edith Finch returns to her old familial home to discover the stories that have been kept from her. The stories of how generations of her family have died early of unrelated, but often kooky, causes.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "03/20/2020 10:14 pm",
-      "updatedAt": "03/20/2020 10:14 pm",
-      "_id": "53fd433d745d46e78b73bf427ac6d49d"
-    },
-    {
-      "igdb": {
-        "name": "Until Dawn",
-        "id": 7609,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 359,
-        "first_release_date": "08/24/2015",
+        "total_rating": 60,
+        "total_rating_count": 3,
+        "first_release_date": "04/23/2015",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-39358",
-        "gbid": 39358,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2805496-until%20dawn%20v6.jpg",
-        "deck": "In this PlayStation 4 horror game, eight teenagers are being hunted while they stay at a mountain retreat.",
-        "platforms": "PlayStation 4"
+        "guid": "3030-49291",
+        "gbid": 49291,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2746614-brawl.jpeg",
+        "deck": "Brawl is a reworked version of Bloober Team's critically ravaged 2014 title Basement Crawl offering several improvements.",
+        "platforms": "Mac, PC, PlayStation 4, Linux, Nintendo Switch"
       },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "03/21/2020 07:41 am",
+      "updatedAt": "03/21/2020 07:41 am",
+      "_id": "ace22985eaff4e62a1f406bc0b02e4ab"
+    },
+    {
+      "igdb": {
+        "name": "Car Quest",
+        "id": 110881,
+        "genres": [
+          "Platform",
+          "Puzzle",
+          "Racing",
+          "Adventure"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "10/24/2018",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-71537",
+        "gbid": 71537,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/110112/3072927-car_quest_art.png",
+        "deck": "Car Quest is an exploration and puzzle-focused 3D platformer.",
+        "platforms": "Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
       "condition": "Other",
       "case": "none",
       "pricePaid": "",
@@ -194,11 +156,51 @@
       "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "",
-      "howAcquired": "PSN",
+      "howAcquired": "eShop",
       "notes": "",
-      "createdAt": "03/20/2020 10:14 pm",
-      "updatedAt": "03/20/2020 10:14 pm",
-      "_id": "166ea25281fb480e83fb618869dd2810"
+      "createdAt": "03/21/2020 07:40 am",
+      "updatedAt": "03/21/2020 07:40 am",
+      "_id": "40c428deae76477fadfa6105878db202"
+    },
+    {
+      "igdb": {
+        "name": "TETRIS 99",
+        "id": 115282,
+        "genres": [
+          "Puzzle",
+          "Arcade"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 37,
+        "first_release_date": "02/12/2019",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-72146",
+        "gbid": 72146,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3080807-box_t99.png",
+        "deck": "Tetris goes \"battle royale\" in this free online-only game for the Switch from the developers behind the Tetris: The Grand Master series, featuring last-player-standing matches with up to 99 players at once!",
+        "platforms": "Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "03/21/2020 07:39 am",
+      "updatedAt": "03/21/2020 07:39 am",
+      "_id": "014956d59c50412eb1fa09f49eb49b66"
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -760,7 +762,7 @@
   "gamePerConsoleCounts": {
     "PlayStation 4": 123,
     "PC (Microsoft Windows)": 115,
-    "Nintendo Switch": 19,
+    "Nintendo Switch": 31,
     "Game Boy": 6,
     "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
@@ -790,22 +792,22 @@
     "Xbox One": 14
   },
   "gamesPerEsrb": {
-    "M": 222,
+    "M": 223,
     "T": 140,
-    "E": 186,
-    "NOT RATED": 175,
+    "E": 191,
+    "NOT RATED": 179,
     "RP": 11,
-    "E10+": 68,
+    "E10+": 70,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 573,
-    "digital": 230
+    "digital": 242
   },
   "gamesAcquisition": {
     "GameStop": 66,
     "UNKNOWN": 127,
-    "eShop": 5,
+    "eShop": 17,
     "PSN": 101,
     "GameOver": 206,
     "Video Games Monthly": 24,
@@ -840,23 +842,23 @@
   },
   "cibGames": 237,
   "gamesWithGenre": {
-    "shooter": 282,
-    "simulator": 74,
+    "shooter": 283,
+    "simulator": 75,
     "strategy": 76,
     "tactical": 18,
-    "role-playing (rpg)": 103,
+    "role-playing (rpg)": 104,
     "music": 22,
-    "adventure": 277,
-    "indie": 55,
+    "adventure": 280,
+    "indie": 59,
     "hack and slash/beat 'em up": 48,
-    "arcade": 61,
-    "platform": 158,
+    "arcade": 63,
+    "platform": 163,
     "point-and-click": 5,
-    "puzzle": 78,
+    "puzzle": 82,
     "visual novel": 1,
-    "sport": 115,
-    "racing": 105,
-    "fighting": 54,
+    "sport": 116,
+    "racing": 107,
+    "fighting": 55,
     "turn-based strategy (tbs)": 11,
     "pinball": 4,
     "real time strategy (rts)": 7,
@@ -999,11 +1001,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 512
+      "value": 518
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 133
+      "value": 136
     },
     {
       "category": "Poor (30 - 49)",
@@ -1011,7 +1013,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 88
+      "value": 91
     }
   ],
   "consolesByCompany": {

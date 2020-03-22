@@ -50,6 +50,15 @@ const Navbar: FunctionComponent = () => {
         setActive('viz');
         navigate('/viz');
       }
+    },
+    {
+      label: 'Manage',
+      icon: 'pi pi-sitemap',
+      className: active === 'manage' ? 'active' : '',
+      command: () => {
+        setActive('manage');
+        navigate('/manage');
+      }
     }
   ];
 
@@ -100,6 +109,13 @@ const Navbar: FunctionComponent = () => {
           onClick={() => setActive('viz')}
         >
           Viz
+        </Link>
+        <Link
+          to="/manage"
+          className={active === 'manage' ? 'active' : ''}
+          onClick={() => setActive('manage')}
+        >
+          Manage
         </Link>
       </div>
       <div className="mobile-nav">

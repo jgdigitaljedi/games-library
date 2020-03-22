@@ -4,10 +4,24 @@ Basically my game collection is at a point where a games library manager is need
 
 I intentionally made some questionable decisions to force myself to use different parts of React and experiment with different scenarios. For example, the DatTable.tsx file should have the colum data passed in props to keep the component dumb. Instead, I'm using state and hitting a method to get them to force myself to think about state and re-rendering.
 
+## Immediate plans
+
+1. redo data structure of games and consoles to remove GB and use more IGDB data
+
+- make sure games data structure includes an area for `containsGames` which can be used to list which games are in a compilation
+
+2. add route that will have forms for adding new things to collection
+3. adjust views to represent new data structure
+4. use `containsGames` to update my library with compilation game data
+
+- add toggle in Decider to allow for expanding games in compiltations to game cards so they are searchable, filterable, etc
+
 ## Plans
 
 As this has grown, I've decided it should become something I launch with user logins, etc. It will eventually because closed source for this reason. Below are some things I will end up doing to it to get it ready for that transition.
 
+- make combining script always select physical copy of a game if collection has both physical and digital
+  - also prevent combining script from including backwards compatibility consoles if game is a digital copy
 - better filters in Decider section.
 - more charts in Viz section.
 - figure out home screen. Current home screen is experiment and I decided most of it is best suited for Viz. Maybe just some lists?

@@ -10,6 +10,7 @@ import React, {
 import axios from 'axios';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
+import { ProgressSpinner } from 'primereact/progressspinner';
 import { IGame, IFormState } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
@@ -122,13 +123,16 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         <h3>{data.length} games</h3>
       </div>
       <div className="decider--results">
-        {data.map((d, index) => (
-          <GameCard
-            data={d}
-            key={`${index}-${d?.igdb?.name || 'game'}`}
-            cardClicked={cardClicked}
-          />
-        ))}
+        {data &&
+          data.length > 1 &&
+          data.map((d, index) => (
+            <GameCard
+              data={d}
+              key={`${index}-${d?.igdb?.name || 'game'}`}
+              cardClicked={cardClicked}
+            />
+          ))}
+        {(!data || data.length === 1) && <ProgressSpinner />}
       </div>
       <Dialog
         visible={showModal}

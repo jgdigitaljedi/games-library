@@ -1,0 +1,126 @@
+{
+  "Nintendo Game Boy": {
+    "isLaunchTitle": 1,
+    "isExclusive": 0
+  },
+  "Sega Mega Drive/Genesis": {
+    "isLaunchTitle": 1,
+    "isExclusive": 6,
+    "special": {
+      "blackBoxGrid": {
+        "count": 5,
+        "text": "Sega Mega Drive/Genesis black box grid"
+      },
+      "teamPlayer": {
+        "count": 2,
+        "text": "Sega Genesis Team Player compatible title"
+      }
+    }
+  },
+  "Sony PlayStation": {
+    "isLaunchTitle": 0,
+    "isExclusive": 3,
+    "special": {
+      "multitap": {
+        "count": 2,
+        "text": "Sony PlayStation multitap compatible title"
+      }
+    }
+  },
+  "Nintendo Entertainment System (NES)": {
+    "isLaunchTitle": 3,
+    "isExclusive": 4,
+    "special": {
+      "hangTabGame": {
+        "count": 8,
+        "text": "NES hang tab game"
+      },
+      "blackBox": {
+        "count": 3,
+        "text": "NES black box game"
+      }
+    }
+  },
+  "Sega CD": {
+    "isLaunchTitle": 2,
+    "isExclusive": 2
+  },
+  "Nintendo GameCube": {
+    "isLaunchTitle": 1,
+    "isExclusive": 11
+  },
+  "Nintendo DS": {
+    "isLaunchTitle": 0,
+    "isExclusive": 6
+  },
+  "TurboGrafx-16/PC Engine": {
+    "isLaunchTitle": 0,
+    "isExclusive": 0,
+    "special": {
+      "multitap": {
+        "count": 2,
+        "text": "TurboGrafx-16 Multitap compatible title"
+      }
+    }
+  },
+  "NEC TurboGrafx 16": {
+    "isLaunchTitle": 2,
+    "isExclusive": 0
+  },
+  "Nintendo Wii U": {
+    "isLaunchTitle": 2,
+    "isExclusive": 10
+  },
+  "Atari 2600": {
+    "isLaunchTitle": 2,
+    "isExclusive": 1
+  },
+  "Sega Dreamcast": {
+    "isLaunchTitle": 4,
+    "isExclusive": 2
+  },
+  "Sony Playstation Portable": {
+    "isLaunchTitle": 3,
+    "isExclusive": 6
+  },
+  "Sony Playstation 2": {
+    "isLaunchTitle": 2,
+    "isExclusive": 9
+  },
+  "Microsoft Xbox": {
+    "isLaunchTitle": 3,
+    "isExclusive": 8
+  },
+  "Sega Game Gear": {
+    "isLaunchTitle": 0,
+    "isExclusive": 1
+  },
+  "Sega 32X": {
+    "isLaunchTitle": 3,
+    "isExclusive": 4
+  },
+  "Nintendo Game Boy Color": {
+    "isLaunchTitle": 0,
+    "isExclusive": 2
+  },
+  "Microsoft Xbox 360": {
+    "isLaunchTitle": 1,
+    "isExclusive": 15
+  },
+  "Nintendo 64": {
+    "isLaunchTitle": 1,
+    "isExclusive": 5
+  },
+  "Nintendo Wii": {
+    "isLaunchTitle": 4,
+    "isExclusive": 12
+  },
+  "Microsoft Xbox One": {
+    "isLaunchTitle": 1,
+    "isExclusive": 5
+  },
+  "Nintendo Game Boy Advance": {
+    "isLaunchTitle": 2,
+    "isExclusive": 3
+  }
+}

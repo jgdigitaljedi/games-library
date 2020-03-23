@@ -8,7 +8,8 @@ I intentionally made some questionable decisions to force myself to use differen
 
 1. redo data structure of games and consoles to remove GB and use more IGDB data
 
-- make sure games data structure includes an area for `containsGames` which can be used to list which games are in a compilation
+   - make sure games data structure includes an area for `containsGames` which can be used to list which games are in a compilation
+   - make console names consistent between project data
 
 2. add route that will have forms for adding new things to collection
 3. adjust views to represent new data structure

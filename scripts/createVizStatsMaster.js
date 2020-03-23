@@ -58,42 +58,42 @@ let masterData = {};
 
 const multitap = [exclusiveLaunch[19], exclusiveLaunch[22], exclusiveLaunch[23]];
 
-function getExclusivesCount(data) {
+module.exports.getExclusivesCount = data => {
   return data.filter(d => d.isExclusive).length;
-}
+};
 
-function getLaunchTitlesCount(data) {
+module.exports.getLaunchTitlesCount = data => {
   return data.filter(d => d.isLaunchTitle).length;
-}
+};
 
-function wordInDetails(data, word) {
+module.exports.wordInDetails = (data, word) => {
   return data.filter(game => {
     return game.details.filter(de => de.toLowerCase().indexOf(word) >= 0).length;
   }).length;
-}
+};
 
 module.exports.createMaster = () => {
   return new Promise((resolve, reject) => {
     exclusiveLaunch.forEach(platform => {
       masterData[platform.name] = {
-        exclusives: getExclusivesCount(platform.data),
-        launchTitles: getLaunchTitlesCount(platform.data)
+        exclusives: this.getExclusivesCount(platform.data),
+        launchTitles: this.getLaunchTitlesCount(platform.data)
       };
     });
 
     multitap.forEach(platform => {
-      masterData[platform.name].multitap = wordInDetails(platform.data, 'multitap');
+      masterData[platform.name].multitap = this.wordInDetails(platform.data, 'multitap');
     });
 
-    masterData['Nintendo Entertainment System'].fourScore = wordInDetails(
+    masterData['Nintendo Entertainment System'].fourScore = this.wordInDetails(
       nes,
       'four score compatible'
     );
-    masterData['Nintendo Entertainment System'].blackBox = wordInDetails(nes, 'black box');
-    masterData['Nintendo Entertainment System'].hangTab = wordInDetails(nes, 'hang tab');
+    masterData['Nintendo Entertainment System'].blackBox = this.wordInDetails(nes, 'black box');
+    masterData['Nintendo Entertainment System'].hangTab = this.wordInDetails(nes, 'hang tab');
 
-    masterData['Sega Genesis'].teamPlayer = wordInDetails(gen, 'team player');
-    masterData['Sega Genesis'].blackBoxGrid = wordInDetails(gen, 'black box grid');
+    masterData['Sega Genesis'].teamPlayer = this.wordInDetails(gen, 'team player');
+    masterData['Sega Genesis'].blackBoxGrid = this.wordInDetails(gen, 'black box grid');
 
     fs.writeFile(
       // this is being done this way because I am still working on updating this data and adding to it in another repo

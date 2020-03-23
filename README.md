@@ -32,7 +32,7 @@ As this has grown, I've decided it should become something I launch with user lo
 - refactor to use only IGDB data. The fact that it uses IGDB and GB data is a matter of me wanting ALL THE DATA and having the original app in a private repo where I knew it wouldn't be an issue.
 - add eBay support like I did in my gs-scraper app
 - refactor to move as much data manipulation to backend as possible.
-- rewrite backend. This backend is from another project and is OLD. I just copy-pasta'd it over to here because the backend was not meant to be my focus but just something I needed ASAP.
+- rewrite backend. This backend is from another project and is OLD. I just copy-pasta'd it over to here because the backend was not meant to be my focus but just something I needed ASAP. It also won't scale as it was a quick-and-dirty solution that would always handle my collection but would be a resource hog if there were potentially thousands of people's collections.
 - make it all less ugly. Very little time has been spent on design. The focus was learning React and creating something useful for myself.
 - auth system
 - move backend to DB (mongo or a SQL, I should think about this before doing it)

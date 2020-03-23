@@ -47,6 +47,7 @@ router.get('/everdrives', vgDbCtrl.everDrives);
 
 // get stats data
 router.get('/stats', vgDbCtrl.collectionStats);
+router.get('/gamestats', vgDbCtrl.gameStats);
 
 // DB Platform/Console CRUD
 router.get('/consoles', vgDbCtrl.getMyPlatforms);

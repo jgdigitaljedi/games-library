@@ -161,7 +161,7 @@ createMaster()
       }
     });
     fs.writeFile(
-      path.join(__dirname, '../server/db/gameStats.json'),
+      path.join(__dirname, '../server/extra/gameStats.json'),
       JSON.stringify(inCollection, null, 2),
       error => {
         if (error) {

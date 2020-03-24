@@ -6,7 +6,7 @@ I intentionally made some questionable decisions to force myself to use differen
 
 ## Immediate plans
 
-Development on this repo is about to slow down drastically. This repo began as a place for me to learn React. The app I ended up creating has some ideas I want to take to the next level, but this codebase is A MESS! This is because I wasn't planning on this scaling and I was experimenting with React a lot. I'll still hash out some small things here because I actually use this app, but mostly another repo is being thrown up for me to iterate on some of these ideas.
+Development on this repo is about to slow down drastically. This repo began as a place for me to learn React. The app I ended up creating has some ideas I want to take to the next level, but this codebase is A MESS! This is because I wasn't planning on this scaling and I was experimenting with React a lot. I'll still hash out some small things here because I actually use this app, but mostly another repo is being thrown up for me to iterate on some of these ideas. Any further changes here will just be features I want to add to use right now, but I will try to hold off on adding things until I stand up a new repo.
 
 1. redo data structure of games and consoles to remove GB and use more IGDB data and none of GB
 

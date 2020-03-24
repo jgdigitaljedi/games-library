@@ -19,6 +19,9 @@ Development on this repo is about to slow down drastically. This repo began as a
 5. make backend processing scripts happen everytime there is a new game added, deleted, edited, etc (probably should make the scripts more modular so the whole library doesn't get processed in one shot)
 
 - add toggle in Decider to allow for expanding games in compiltations to game cards so they are searchable, filterable, etc
+- add toggle in decider to show or hide digital games
+
+Once the above is done, I will be moving into a new repo to rebuild using what I learned about React during this time to make something better.
 
 ## Plans
 

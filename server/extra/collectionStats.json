@@ -2,6 +2,45 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Far Cry 3: Blood Dragon",
+        "id": 2001,
+        "genres": [
+          "Shooter",
+          "Adventure"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 207,
+        "first_release_date": "04/29/2013",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-42241",
+        "gbid": 42241,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2468656-box_fc3bd.png",
+        "deck": "Inspired by the sci-fi action movies of the 1980s, Far Cry 3: Blood Dragon is a standalone expansion to 2012's Far Cry 3, switching a modern tropical setting with the neon-covered retro-future of 2007.",
+        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3.74",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-23",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "03/24/2020 08:16 am",
+      "updatedAt": "03/24/2020 08:16 am",
+      "_id": "72857df44b9b4b0b925768750f8a2bd5"
+    },
+    {
+      "igdb": {
         "name": "Sonic Generations",
         "id": 506,
         "genres": [
@@ -193,48 +232,6 @@
       "createdAt": "03/21/2020 09:04 am",
       "updatedAt": "03/21/2020 09:04 am",
       "_id": "cd0eecb5a5224dbe80089867780d88a2",
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Star Wars: Republic Commando",
-        "id": 148,
-        "genres": [
-          "Shooter",
-          "Tactical"
-        ],
-        "total_rating": 82,
-        "total_rating_count": 121,
-        "first_release_date": "02/16/2005",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "",
-        "gbid": "",
-        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.mobygames.com%2Fimages%2Fcovers%2Fl%2F42764-star-wars-republic-commando-windows-front-cover.jpg&f=1&nofb=1",
-        "deck": "",
-        "platforms": ""
-      },
-      "consoleName": "Xbox One",
-      "consoleIgdbId": 49,
-      "consoleGbid": 145,
-      "consoleGbGuid": "3045-145",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "",
-      "howAcquired": "XBOX Live",
-      "notes": "",
-      "createdAt": "03/21/2020 09:03 am",
-      "updatedAt": "03/21/2020 09:03 am",
-      "_id": "f08bc8de526e425b82987ceb7a4c0850",
       "extraData": [],
       "extraDataFull": []
     }
@@ -796,8 +793,8 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 116,
     "PlayStation 4": 123,
-    "PC (Microsoft Windows)": 115,
     "Nintendo Switch": 31,
     "Game Boy": 6,
     "Xbox": 41,
@@ -828,7 +825,7 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 227,
+    "M": 228,
     "T": 145,
     "E": 193,
     "NOT RATED": 181,
@@ -838,9 +835,10 @@
   },
   "physicalVsDigitalGames": {
     "physical": 573,
-    "digital": 257
+    "digital": 258
   },
   "gamesAcquisition": {
+    "Steam": 72,
     "GameStop": 66,
     "UNKNOWN": 127,
     "eShop": 17,
@@ -850,7 +848,6 @@
     "bought from Solis": 17,
     "Target": 4,
     "eBay": 47,
-    "Steam": 71,
     "Walmart": 13,
     "Retro Game Treasure": 40,
     "Classic Game Fest": 9,
@@ -878,13 +875,13 @@
   },
   "cibGames": 237,
   "gamesWithGenre": {
-    "shooter": 288,
+    "shooter": 289,
+    "adventure": 291,
     "simulator": 76,
     "strategy": 77,
     "tactical": 19,
     "role-playing (rpg)": 106,
     "music": 22,
-    "adventure": 290,
     "indie": 62,
     "hack and slash/beat 'em up": 48,
     "arcade": 65,
@@ -925,7 +922,7 @@
     },
     {
       "dateFormatted": "03/2020",
-      "games": 23
+      "games": 24
     },
     {
       "dateFormatted": "01/2019",
@@ -1015,7 +1012,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 84
+      "games": 85
     },
     {
       "dateFormatted": "2018",
@@ -1037,7 +1034,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 526
+      "value": 527
     },
     {
       "category": "Fair (50 - 69)",

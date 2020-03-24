@@ -827,10 +827,10 @@
   "gamesPerEsrb": {
     "M": 228,
     "T": 145,
+    "E10+": 72,
     "E": 193,
     "NOT RATED": 181,
     "RP": 11,
-    "E10+": 72,
     "KA": 1
   },
   "physicalVsDigitalGames": {
@@ -886,8 +886,8 @@
     "hack and slash/beat 'em up": 48,
     "arcade": 65,
     "platform": 167,
-    "point-and-click": 5,
     "puzzle": 84,
+    "point-and-click": 5,
     "visual novel": 1,
     "sport": 118,
     "racing": 107,
@@ -902,27 +902,27 @@
   "gamesAddedInMonth": [
     {
       "dateFormatted": "02/2020",
-      "games": 47
+      "games": 48
     },
     {
       "dateFormatted": "11/2019",
-      "games": 41
+      "games": 44
     },
     {
       "dateFormatted": "05/2019",
-      "games": 28
+      "games": 33
     },
     {
       "dateFormatted": "03/2019",
-      "games": 28
+      "games": 29
     },
     {
       "dateFormatted": "02/2019",
-      "games": 26
+      "games": 27
     },
     {
       "dateFormatted": "03/2020",
-      "games": 24
+      "games": 26
     },
     {
       "dateFormatted": "01/2019",
@@ -930,14 +930,26 @@
     },
     {
       "dateFormatted": "12/2019",
-      "games": 16
+      "games": 17
     },
     {
       "dateFormatted": "01/2020",
+      "games": 15
+    },
+    {
+      "dateFormatted": "09/2019",
       "games": 14
     },
     {
       "dateFormatted": "07/2019",
+      "games": 14
+    },
+    {
+      "dateFormatted": "06/2019",
+      "games": 14
+    },
+    {
+      "dateFormatted": "08/2019",
       "games": 13
     },
     {
@@ -945,24 +957,12 @@
       "games": 13
     },
     {
-      "dateFormatted": "08/2019",
-      "games": 12
-    },
-    {
       "dateFormatted": "12/2018",
       "games": 12
     },
     {
-      "dateFormatted": "06/2019",
-      "games": 11
-    },
-    {
-      "dateFormatted": "09/2019",
-      "games": 10
-    },
-    {
       "dateFormatted": "10/2019",
-      "games": 9
+      "games": 10
     },
     {
       "dateFormatted": "11/2018",
@@ -1008,11 +1008,11 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2019",
-      "games": 227
+      "games": 248
     },
     {
       "dateFormatted": "2020",
-      "games": 85
+      "games": 89
     },
     {
       "dateFormatted": "2018",

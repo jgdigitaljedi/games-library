@@ -8,7 +8,7 @@ I intentionally made some questionable decisions to force myself to use differen
 
 Development on this repo is about to slow down drastically. This repo began as a place for me to learn React. The app I ended up creating has some ideas I want to take to the next level, but this codebase is A MESS! This is because I wasn't planning on this scaling and I was experimenting with React a lot. I'll still hash out some small things here because I actually use this app, but mostly another repo is being thrown up for me to iterate on some of these ideas.
 
-1. redo data structure of games and consoles to remove GB and use more IGDB data
+1. redo data structure of games and consoles to remove GB and use more IGDB data and none of GB
 
    - make sure games data structure includes an area for `containsGames` which can be used to list which games are in a compilation
    - make console names consistent between project data
@@ -16,6 +16,7 @@ Development on this repo is about to slow down drastically. This repo began as a
 2. add route that will have forms for adding new things to collection
 3. adjust views to represent new data structure
 4. use `containsGames` to update my library with compilation game data
+5. make backend processing scripts happen everytime there is a new game added, deleted, edited, etc (probably should make the scripts more modular so the whole library doesn't get processed in one shot)
 
 - add toggle in Decider to allow for expanding games in compiltations to game cards so they are searchable, filterable, etc
 

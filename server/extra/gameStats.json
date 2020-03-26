@@ -1,4 +1,8 @@
 {
+  "Sony Playstation 4": {
+    "isLaunchTitle": 3,
+    "isExclusive": 28
+  },
   "Nintendo Game Boy": {
     "isLaunchTitle": 1,
     "isExclusive": 0

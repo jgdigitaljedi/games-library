@@ -22,6 +22,7 @@ const gb = require('./data/NintendoGameBoy.json');
 const ds = require('./data/NintendoDS.json');
 const gba = require('./data/NintendoGameBoyAdvance.json');
 const gbc = require('./data/NintendoGameBoyColor.json');
+const ps4 = require('./data/SonyPlayStation4.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -43,7 +44,7 @@ const igdbIdToFile = {
   '7': ps1,
   '8': ps2,
   '9': null, // PS3
-  '48': null, // ps4
+  '48': ps4, // ps4
   '38': psp,
   '20': ds,
   '33': gb,

@@ -26,6 +26,7 @@ const ps2 = require('./data/SonyPlaystation2.json'); // exclusives and launch ti
 const psp = require('./data/SonyPlayStationPortable.json'); // exclusives and launch titles
 const snes = require('./data/SuperNintendoEntertainmentSystem.json'); // exclusives, launch titles, and multitap
 const tg16 = require('./data/TurboGrafx16.json'); // exclusives, launch titles, and multitap
+const ps4 = require('./data/SonyPlayStation4.json'); // exclusives and launch titles
 
 const exclusiveLaunch = [
   { name: 'Atari 2600', data: atari }, // 0
@@ -51,7 +52,8 @@ const exclusiveLaunch = [
   { name: 'Sony PlayStation 2', data: ps2 }, // 20
   { name: 'Sony PlayStation Portable', data: psp }, // 21
   { name: 'Super Nintendo Entertainment System', data: snes }, // 22
-  { name: 'NEC TurboGrafx 16', data: tg16 } // 23
+  { name: 'NEC TurboGrafx 16', data: tg16 }, // 23
+  { name: 'Sony PlayStation 4', data: ps4 } // 48
 ];
 
 let masterData = {};

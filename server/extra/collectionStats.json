@@ -493,7 +493,9 @@
       "notes": "Has drumset with cymbals pack, microphone, and 1 guitar",
       "createdAt": "11/21/2018 06:09 am",
       "updatedAt": "11/21/2018 06:09 am",
-      "_id": "52ef32fca1864e18b6f8ec1952ec0bd9"
+      "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
@@ -574,7 +576,9 @@
       "notes": "",
       "createdAt": "03/20/2020 08:44 pm",
       "updatedAt": "03/20/2020 08:44 pm",
-      "_id": "14b8bedaee0f45a29d562e459ad9901c"
+      "_id": "14b8bedaee0f45a29d562e459ad9901c",
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {

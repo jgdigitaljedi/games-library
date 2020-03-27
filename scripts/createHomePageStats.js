@@ -151,8 +151,8 @@ function handleConGamesData() {
 function createMostRecentArr(data, num) {
   return _cloneDeep(data)
     .sort((a, b) => {
-      const aDate = a.createdAt;
-      const bDate = b.createdAt;
+      const aDate = a.datePurchased;
+      const bDate = b.datePurchased;
       if ((!aDate && !bDate) || aDate === bDate) {
         return 0;
       }

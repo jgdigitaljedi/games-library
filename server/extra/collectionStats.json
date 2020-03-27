@@ -41,202 +41,199 @@
     },
     {
       "igdb": {
-        "name": "Sonic Generations",
-        "id": 506,
+        "name": "Doom: Eternal",
+        "id": 103298,
         "genres": [
-          "Platform",
-          "Adventure"
+          "Shooter"
         ],
-        "total_rating": 76,
-        "total_rating_count": 122,
-        "first_release_date": "10/31/2011",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-34833",
-        "gbid": 34833,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/12541/3026803-sonic%20generations.png",
-        "deck": "Old school and new school collide in this 20th Anniversary celebration of the Sonic franchise.",
-        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Nintendo 3DS, Nintendo 3DS eShop"
-      },
-      "consoleName": "Xbox 360",
-      "consoleIgdbId": 12,
-      "consoleGbid": 20,
-      "consoleGbGuid": "3045-20",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "",
-      "howAcquired": "XBOX Live",
-      "notes": "",
-      "createdAt": "03/21/2020 09:07 am",
-      "updatedAt": "03/21/2020 09:07 am",
-      "_id": "77ce6f549a3f400aa974f5a7809f1fdb",
-      "extraData": [
-        "Xbox 360 game backward compatible with Xbox One"
-      ],
-      "extraDataFull": [
-        {
-          "igdbId": 506,
-          "name": "Sonic Generations",
-          "details": [
-            "Xbox 360 game backward compatible with Xbox One"
-          ],
-          "id": "x360634",
-          "gbId": 34833,
-          "gbGuid": "3030-34833",
-          "tgdbId": 8065,
-          "special": [
-            {
-              "value": "Xbox 360 game backward compatible with Xbox One",
-              "forPlatform": {
-                "name": "Microsoft Xbox 360",
-                "id": "ccl26",
-                "igdbId": 12,
-                "gbId": 20,
-                "gbGuid": "3045-20",
-                "tgdbId": 15
-              }
-            }
-          ],
-          "isExclusive": false,
-          "isLaunchTitle": false
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Sonic Generations",
-        "id": 128798,
-        "genres": [
-          "Platform",
-          "Adventure"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "11/21/2011",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "",
-        "gbid": "",
-        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-Sy7uEq73jSA%2FTvEnQFxQKFI%2FAAAAAAAAA2s%2FhbUHvaZvJQ8%2Fs1600%2Fsonic_generations_banner.png&f=1&nofb=1",
-        "deck": "",
-        "platforms": ""
-      },
-      "consoleName": "Xbox One",
-      "consoleIgdbId": 49,
-      "consoleGbid": 145,
-      "consoleGbGuid": "3045-145",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "",
-      "howAcquired": "XBOX Live",
-      "notes": "",
-      "createdAt": "03/21/2020 09:06 am",
-      "updatedAt": "03/21/2020 09:06 am",
-      "_id": "873425f4747a440bbe152fd0cefd5c4b",
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "The Technomancer",
-        "id": 9919,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 63,
-        "total_rating_count": 30,
-        "first_release_date": "06/27/2016",
+        "total_rating": 89,
+        "total_rating_count": 7,
+        "first_release_date": "03/19/2020",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-49405",
-        "gbid": 49405,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2994851-box_ttm.png",
-        "deck": "A sci-fi RPG set during the 'War of Water' on Mars.",
-        "platforms": "PC, Xbox One, PlayStation 4"
+        "guid": "3030-68917",
+        "gbid": 68917,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
+        "deck": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
       },
-      "consoleName": "Xbox One",
-      "consoleIgdbId": 49,
-      "consoleGbid": 145,
-      "consoleGbGuid": "3045-145",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "",
-      "physical": "",
-      "cib": "",
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
       "pirated": "",
       "multiplayerNumber": "1",
-      "datePurchased": "",
-      "howAcquired": "XBOX Live",
+      "datePurchased": "2020-03-20",
+      "howAcquired": "GameStop",
       "notes": "",
-      "createdAt": "03/21/2020 09:04 am",
-      "updatedAt": "03/21/2020 09:04 am",
-      "_id": "00fd11b534264051acfa957a225a773f",
+      "createdAt": "03/20/2020 08:44 pm",
+      "updatedAt": "03/20/2020 08:44 pm",
+      "_id": "14b8bedaee0f45a29d562e459ad9901c",
       "extraData": [],
       "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Super Bomberman R",
-        "id": 26760,
+        "name": "Tom Clancy's Rainbow Six",
+        "id": 1842,
         "genres": [
-          "Arcade"
+          "Shooter",
+          "Simulator",
+          "Strategy",
+          "Tactical"
         ],
-        "total_rating": 61,
-        "total_rating_count": 30,
-        "first_release_date": "03/02/2017",
+        "total_rating": 80,
+        "total_rating_count": 35,
+        "first_release_date": "08/20/1998",
         "developers": "",
-        "esrb": "E10+"
+        "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-57692",
-        "gbid": 57692,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3029622-box_sbr.png",
-        "deck": "Super Bomberman R celebrates the 33rd anniversary of the Bomberman series with its first console release in 7 years.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "guid": "3030-7887",
+        "gbid": 7887,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/48222/1085899-rb6box.jpg",
+        "deck": "Tom Clancy's Rainbow Six puts the player in charge of an elite international team of counter terrorist operatives in a title that emphasizes planning, stealth, and tactics.",
+        "platforms": "Mac, PlayStation, Dreamcast, Nintendo 64, Game Boy Color, PC"
       },
-      "consoleName": "Xbox One",
-      "consoleIgdbId": 49,
-      "consoleGbid": 145,
-      "consoleGbGuid": "3045-145",
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "",
+      "pricePaid": "1",
       "physical": "",
       "cib": "",
       "pirated": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "",
-      "howAcquired": "XBOX Live",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-16",
+      "howAcquired": "",
       "notes": "",
-      "createdAt": "03/21/2020 09:04 am",
-      "updatedAt": "03/21/2020 09:04 am",
-      "_id": "cd0eecb5a5224dbe80089867780d88a2",
-      "extraData": [],
-      "extraDataFull": []
+      "createdAt": "03/16/2020 07:36 pm",
+      "updatedAt": "03/16/2020 07:36 pm",
+      "_id": "412bd5b219a745f8ae6ea34980fb71aa"
+    },
+    {
+      "igdb": {
+        "name": "The Elder Scrolls: Arena",
+        "id": 52,
+        "genres": [
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 19,
+        "first_release_date": "03/24/1994",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Elder Scrolls 1",
+        "guid": "3030-7513",
+        "gbid": 7513,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/15693/630354-564545_53892_front_1_.jpg",
+        "deck": "The Elder Scrolls: Arena is the first in its series. The Emperor has been imprisoned in another dimension by the evil Jagar Tharn, who is impersonating him. It's up to the player to find all eight pieces of the Staff of Chaos to defeat Jagar and bring order back to Tamriel.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-16",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/16/2020 07:31 pm",
+      "updatedAt": "03/16/2020 07:31 pm",
+      "_id": "cad6d6e5ecdc40b0891d465d7f316764"
+    },
+    {
+      "igdb": {
+        "name": "Daikatana",
+        "id": 8201,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 50,
+        "total_rating_count": 13,
+        "first_release_date": "05/22/2000",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-7747",
+        "gbid": 7747,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3509/647683-daikatana_pc_na.jpg",
+        "deck": "John Romero's Daikatana is a tale that begins in the dystopian future of 2455AD Japan, where a simple martial arts instructor must recover a magical sword and travel through time to return Earth to its rightful setting. Suck it down.",
+        "platforms": "Nintendo 64, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-16",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "03/16/2020 07:29 pm",
+      "updatedAt": "03/16/2020 07:29 pm",
+      "_id": "8ff786ae7dfc40e3b11c8972c8d45407"
     }
   ],
   "mostRecentlyAddedPlatforms": [
+    {
+      "igdb": {
+        "name": "Game Boy Color",
+        "id": 22,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/rto9wxryawmx7vhpemk4.jpg",
+        "generation": 5,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "118690000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1426240-logo.jpg",
+        "original_price": "70.00",
+        "aliases": "Gameboy Color\nGame Boy Colour\nGameboy Colour\nGBC",
+        "company": "Nintendo",
+        "guid": "3045-57",
+        "online_support": false,
+        "gbid": 57
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "",
+      "notes": "Berry colored, but going to be modded soon",
+      "connectedBy": "None",
+      "upscaler": false,
+      "datePurchased": "2020-03-06",
+      "purchasePrice": "50",
+      "ghostConsole": false,
+      "aliases": "Gameboy Color, Game Boy Colour, Gameboy Colour, GBC",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "01/07/2019 07:33 am",
+      "updatedAt": "01/07/2019 07:33 am",
+      "_id": "3c056a8b4492443592f146ef227ea951"
+    },
     {
       "igdb": {
         "name": "Nintendo 3DS",
@@ -271,40 +268,6 @@
       "createdAt": "02/22/2020 06:43 pm",
       "updatedAt": "02/22/2020 06:43 pm",
       "_id": "3a5e8a117ae241558a7b76b2f7a4fc67"
-    },
-    {
-      "igdb": {
-        "name": "PC (Microsoft Windows)",
-        "id": 6,
-        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/irwvwpl023f8y19tidgq.jpg",
-        "generation": "",
-        "version": "Initial version"
-      },
-      "gb": {
-        "install_base": "",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnotebookitalia.it%2Fimages%2Fstories%2Fasus_rog_zephyrus_2019%2Fasus_rog_zephyrus_s_gx502_1.jpg&f=1&nofb=1",
-        "original_price": "",
-        "aliases": "",
-        "company": "",
-        "guid": "",
-        "online_support": false
-      },
-      "condition": "Excellent",
-      "box": true,
-      "mods": "",
-      "notes": "",
-      "connectedBy": "None",
-      "upscaler": false,
-      "datePurchased": "2019-06-27",
-      "purchasePrice": "2800",
-      "ghostConsole": false,
-      "aliases": "mswin",
-      "storage": "1",
-      "unit": "TB",
-      "howAcquired": "Amazon",
-      "createdAt": "02/01/2020 06:43 am",
-      "updatedAt": "02/01/2020 06:43 am",
-      "_id": "a1de4a91c4e04a4cb8ace611c4eff65b"
     },
     {
       "igdb": {

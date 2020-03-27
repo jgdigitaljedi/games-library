@@ -1,8 +1,6 @@
 import React, {
   FunctionComponent,
   useCallback,
-  Dispatch,
-  SetStateAction,
   useState,
   useEffect
 } from 'react';
@@ -48,7 +46,7 @@ interface IStats {
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // @ts-ignore
-  const [data, setData]: [IStats, Dispatch<SetStateAction<IStats>>] = useState({});
+  const [data, setData] = useState<IStats>({});
   const chartOptions = {
     responsive: true,
     responsiveAnimationDuration: 300,

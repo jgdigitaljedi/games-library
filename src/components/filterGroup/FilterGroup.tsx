@@ -3,8 +3,6 @@ import React, {
   useState,
   FormEvent,
   useCallback,
-  Dispatch as dispatch,
-  SetStateAction
 } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
@@ -26,20 +24,15 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapStateProps, MapDispatchProps {}
+interface IProps extends MapStateProps, MapDispatchProps { }
 
 const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
   const masterData: IGame[] = useSelector((state: any) => state.masterData);
-  const [selectedFilter, setSelectedFilter]: [string, dispatch<SetStateAction<string>>] = useState(
-    ''
-  );
-  const [view, setView]: [string, dispatch<SetStateAction<string>>] = useState('');
-  const [filters, setFilters]: [
-    IDropdown[] | undefined,
-    dispatch<SetStateAction<IDropdown[] | undefined>>
-  ] = useState(filterPropsService(viewWhat));
-  const [filterStr, setFilterStr]: [string, dispatch<SetStateAction<string>>] = useState('');
+  const [selectedFilter, setSelectedFilter] = useState<string>('');
+  const [view, setView] = useState<string>('');
+  const [filters, setFilters] = useState<IDropdown[] | undefined>(filterPropsService(viewWhat));
+  const [filterStr, setFilterStr] = useState<string>('');
 
   if (viewWhat !== view) {
     setView(viewWhat);

@@ -24,11 +24,11 @@ import sortsService from './services/sorts.service';
 const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
   const [dc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
   const [sc]: [ISortContext, Dispatch<SetStateAction<ISortContext>>] = useContext(SortContext);
-  const [masterData, setMasterData]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
-  const [data, setData]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
-  const [everDrives, setEverDrives]: [any[], Dispatch<SetStateAction<any[]>>] = useState([{}]);
-  const [selectedCard, setSelectedCard]: [IGame | null, any] = useState(null);
-  const [showModal, setShowModal]: [boolean, any] = useState(false);
+  const [masterData, setMasterData] = useState<any[]>([{}]);
+  const [data, setData] = useState<any[]>([{}]);
+  const [everDrives, setEverDrives] = useState<any[]>([{}]);
+  const [selectedCard, setSelectedCard] = useState<IGame | null>(null);
+  const [showModal, setShowModal] = useState<boolean>(false);
 
   const getEverdrives = useCallback(async () => {
     const result = await axios.get('http://localhost:4001/api/everdrives');

@@ -2,9 +2,7 @@ import React, {
   FunctionComponent,
   useCallback,
   useState,
-  useEffect,
-  SetStateAction,
-  Dispatch
+  useEffect
 } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
@@ -25,17 +23,11 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     { label: 'Multiplayer party games', value: 'multiplayer' },
     { label: 'Special games', value: 'special' }
   ];
-  const [whichList, setWhichList]: [string, Dispatch<SetStateAction<string>>] = useState(
-    lists[0].value
-  );
-  const [data, setData]: [IGame[], any] = useState([]);
-  const [selectedGame, setSelectedGame]: [IGame | null, any] = useState(null);
-  const [showModal, setShowModal]: [boolean, Dispatch<SetStateAction<boolean>>] = useState(
-    false as boolean
-  );
-  const [cardView, setCardView]: [boolean, Dispatch<SetStateAction<boolean>>] = useState(
-    false as boolean
-  );
+  const [whichList, setWhichList] = useState<string>(lists[0].value);
+  const [data, setData] = useState<IGame[]>([]);
+  const [selectedGame, setSelectedGame] = useState<IGame | null>(null);
+  const [showModal, setShowModal] = useState<boolean>(false);
+  const [cardView, setCardView] = useState<boolean>(false);
 
   const cardClicked = (game: IGame): void => {
     setSelectedGame(game);

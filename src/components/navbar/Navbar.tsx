@@ -1,9 +1,9 @@
-import React, { FunctionComponent, useState, Dispatch, SetStateAction } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import { Menu } from 'primereact/menu';
 import { Link, navigate } from '@reach/router';
 
 const Navbar: FunctionComponent = () => {
-  const [active, setActive]: [string, Dispatch<SetStateAction<string>>] = useState('');
+  const [active, setActive] = useState<string>('');
   let menuEle: any;
   const items = [
     {

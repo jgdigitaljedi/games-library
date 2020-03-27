@@ -28,12 +28,12 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps {}
+interface IProps extends MapDispatchProps, MapStateProps { }
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
   const filteredData: IGame[] = useSelector((state: any) => state.filteredData);
-  const [view, setView]: [string, any] = useState('');
+  const [view, setView] = useState<any>('');
 
   if (view !== viewWhat) {
     setView(viewWhat);

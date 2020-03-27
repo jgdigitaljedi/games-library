@@ -32,22 +32,12 @@ interface IProps extends RouteComponentProps {
 const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const [dc, setDc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
   const masterData: IGame[] = data;
-  const [genreArray, setGenreArray]: [
-    IDropdown[],
-    Dispatch<SetStateAction<IDropdown[]>>
-  ] = useState([{ label: 'NOT SET', value: '' }]);
-  const [esrbArray, setEsrbArray]: [IDropdown[], Dispatch<SetStateAction<IDropdown[]>>] = useState([
-    { label: 'NOT SET', value: '' }
-  ]);
-  const [filteredPlatforms, setFilteredPlatforms]: [
-    IDropdown[],
-    Dispatch<SetStateAction<IDropdown[]>>
-  ] = useState([{ label: 'NOT SET', value: '' }]);
-  const [masterPa, setMasterPa]: [IDropdown[], Dispatch<SetStateAction<IDropdown[]>>] = useState([
-    { label: 'NOT SET', value: '' }
-  ]);
-  const [nameStr, setNameStr]: [string, Dispatch<SetStateAction<string>>] = useState('');
-  const [acValue, setAcValue]: [string, Dispatch<SetStateAction<string>>] = useState('');
+  const [genreArray, setGenreArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
+  const [esrbArray, setEsrbArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
+  const [filteredPlatforms, setFilteredPlatforms] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
+  const [masterPa, setMasterPa] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
+  const [nameStr, setNameStr] = useState<string>('');
+  const [acValue, setAcValue] = useState<string>('');
 
   const getGenreArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {

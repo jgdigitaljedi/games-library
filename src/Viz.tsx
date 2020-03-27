@@ -1,8 +1,6 @@
 import React, {
   FunctionComponent,
   useCallback,
-  Dispatch,
-  SetStateAction,
   useState,
   useEffect
 } from 'react';
@@ -25,17 +23,13 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     { label: 'bar', value: 'bar' },
     { label: 'line', value: 'line' }
   ];
-  const [data, setData]: [IChartData, Dispatch<SetStateAction<IChartData>>] = useState({
+  const [data, setData] = useState<IChartData>({
     labels: [''],
     datasets: [{ label: '', backgroundColor: '', data: [0] }]
   });
-  const [masterData, setMasterData]: [IGame[], Dispatch<SetStateAction<any>>] = useState([]);
-  const [chartType, setChartType]: [string, Dispatch<SetStateAction<string>>] = useState(
-    chartTypes[0].value
-  );
-  const [chartData, setChartData]: [string, Dispatch<SetStateAction<string>>] = useState(
-    dataSets[0].value
-  );
+  const [masterData, setMasterData] = useState<IGame[]>([]);
+  const [chartType, setChartType] = useState<string>(chartTypes[0].value);
+  const [chartData, setChartData] = useState<string>(dataSets[0].value);
 
   const extraChartOptions = ChartDataService.getExtraChartOptions();
 

@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, useCallback } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import DatTable from './components/DatTable/DatTable';
 import { SelectButton } from 'primereact/selectbutton';
@@ -28,7 +28,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps { }
+interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
@@ -47,6 +47,18 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     { label: 'Collectibles', value: 'collectibles' },
     { label: 'Hardware', value: 'hardware' }
   ];
+
+  const rowClicked = useCallback(
+    clicked => {
+      console.log('callback', clicked);
+      console.log('view', view);
+      /** Basically I'm gonna wanna open a dialog. This dialog should have a component that handles all forms for each item type.
+       * The dialog should take 'selected' and 'view' from here, render the correct for type for the seelcted, and allow the user
+       * to do CRUD to the selected item.
+       **/
+    },
+    [view]
+  );
 
   async function getData() {
     let url = '';
@@ -95,7 +107,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       <div className="button-container">
         <FilterGroup />
       </div>
-      <DatTable data={filteredData}></DatTable>
+      <DatTable data={filteredData} rowClicked={rowClicked}></DatTable>
     </section>
   );
 };

@@ -13,7 +13,6 @@ import Library from './Library';
 import Lists from './Lists';
 import Viz from './Viz';
 import { CombinedContextProvider } from './context/CombinedContext';
-import Manage from './Manage';
 
 function App(): JSX.Element {
   return (
@@ -28,7 +27,6 @@ function App(): JSX.Element {
               <Library path="/library" />
               <Lists path="/lists" />
               <Viz path="/viz" />
-              <Manage path="/manage" />
             </Router>
           </CombinedContextProvider>
         </div>

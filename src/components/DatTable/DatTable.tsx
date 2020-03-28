@@ -9,6 +9,7 @@ import get from 'lodash/get';
 interface IProps {
   data: any[];
   viewWhat?: string;
+  rowClicked?: Function;
 }
 
 interface MapStateProps {
@@ -24,12 +25,17 @@ interface ICols {
 interface IState {
   cols: ICols[];
   viewWhat: string;
+  selected: any;
 }
 
 class TheTable extends Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
-    this.state = { cols: [{ field: '', header: '' }], viewWhat: props.viewWhat || '' };
+    this.state = {
+      cols: [{ field: '', header: '' }],
+      viewWhat: props.viewWhat || '',
+      selected: null
+    };
   }
 
   public componentDidMount() {
@@ -63,11 +69,20 @@ class TheTable extends Component<IProps, IState> {
           pageLinkSize={10}
           responsive={true}
           scrollable={true}
+          selectionMode="single"
+          selection={this.state.selected}
+          onSelectionChange={e => this.rowSelected(e.value)}
         >
           {dynamicColumns}
         </DataTable>
       </div>
     );
+  }
+
+  private rowSelected(row: any) {
+    // console.log('row', row);
+    this.setState({ selected: row });
+    this.props.rowClicked && this.props.rowClicked(row);
   }
 
   private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {

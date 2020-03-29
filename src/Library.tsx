@@ -10,10 +10,13 @@ import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
 import { IGame } from './common.model';
+import { Button } from 'primereact/button';
+import { Dialog } from 'primereact/dialog';
 
 interface IInputOptions {
   label: string;
   value: string;
+  singular?: string;
 }
 
 interface MapStateProps {
@@ -34,30 +37,52 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
   const filteredData: IGame[] = useSelector((state: any) => state.filteredData);
   const [view, setView] = useState<any>('');
+  const [showModal, setShowModal] = useState<boolean>(false);
+  const [selectedItem, setSelectedItem] = useState<any>(null);
 
   if (view !== viewWhat) {
     setView(viewWhat);
     getData();
   }
   const viewChoices: IInputOptions[] = [
-    { label: 'Games', value: 'games' },
-    { label: 'Consoles', value: 'consoles' },
-    { label: 'Accessories', value: 'accessories' },
-    { label: 'Clones', value: 'clones' },
-    { label: 'Collectibles', value: 'collectibles' },
-    { label: 'Hardware', value: 'hardware' }
+    { label: 'Games', value: 'games', singular: 'Game' },
+    { label: 'Consoles', value: 'consoles', singular: 'Console' },
+    { label: 'Accessories', value: 'accessories', singular: 'Accessory' },
+    { label: 'Clones', value: 'clones', singular: 'Clone' },
+    { label: 'Collectibles', value: 'collectibles', singular: 'Collectible' },
+    { label: 'Hardware', value: 'hardware', singular: 'Item' }
   ];
+
+  const getSingular = useCallback(() => {
+    return viewChoices.filter(v => v.value === view)[0]?.singular;
+  }, [view, viewChoices]);
+
+  const openFormDialog = useCallback(
+    (selected?: any) => {
+      console.log('open dialog', selected);
+      setShowModal(true);
+    },
+    [setShowModal]
+  );
+
+  const addSomething = useCallback(() => {
+    setSelectedItem({ name: `Add ${getSingular()}` });
+    openFormDialog();
+  }, [openFormDialog, getSingular]);
 
   const rowClicked = useCallback(
     clicked => {
       console.log('callback', clicked);
       console.log('view', view);
+      const selected = { ...clicked, ...{ name: clicked?.igdb?.name || clicked?.name } };
+      setSelectedItem(selected);
+      openFormDialog(clicked);
       /** Basically I'm gonna wanna open a dialog. This dialog should have a component that handles all forms for each item type.
        * The dialog should take 'selected' and 'view' from here, render the correct for type for the seelcted, and allow the user
        * to do CRUD to the selected item.
        **/
     },
-    [view]
+    [view, openFormDialog]
   );
 
   async function getData() {
@@ -90,7 +115,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   }
 
   return (
-    <section className="library">
+    <div className="library">
       <div className="button-container">
         <SelectButton
           value={props.viewWhat}
@@ -104,11 +129,31 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           options={viewChoices}
         ></SelectButton>
       </div>
-      <div className="button-container">
+      <div className="filter-add">
+        <div></div>
         <FilterGroup />
+        <Button
+          icon="pi pi-plus"
+          label={`Add ${getSingular()}`}
+          className="p-button-raised p-button-rounded"
+          onClick={addSomething}
+        />
       </div>
       <DatTable data={filteredData} rowClicked={rowClicked}></DatTable>
-    </section>
+      <Dialog
+        visible={showModal}
+        header={selectedItem?.name}
+        modal={true}
+        closeOnEscape={true}
+        dismissableMask={true}
+        onHide={() => {
+          setSelectedItem(null);
+          setShowModal(false);
+        }}
+      >
+        {/* <GameDialog game={selectedCard} /> */}
+      </Dialog>
+    </div>
   );
 };
 

@@ -5,4 +5,10 @@
     justify-content: center;
     width: 100%;
   }
+  .filter-add {
+    padding: $gutter;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
 }

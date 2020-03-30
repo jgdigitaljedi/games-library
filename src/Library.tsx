@@ -33,7 +33,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps {}
+interface IProps extends MapDispatchProps, MapStateProps { }
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
@@ -152,7 +152,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         header={selectedItem?.name}
         modal={true}
         closeOnEscape={true}
-        dismissableMask={true}
         onHide={() => {
           setSelectedItem(null);
           setShowModal(false);

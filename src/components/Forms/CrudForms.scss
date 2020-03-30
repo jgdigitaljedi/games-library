@@ -2,4 +2,11 @@
 @import './GameForm/GameForm.scss';
 
 .crud-form {
+  padding: $gutter;
+  max-height: calc(100vh - 300px);
+  form {
+    label {
+      margin-right: $gutter;
+    }
+  }
 }

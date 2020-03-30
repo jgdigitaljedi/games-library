@@ -5,8 +5,13 @@
   padding: $gutter;
   max-height: calc(100vh - 300px);
   form {
+    display: flex;
+    flex-direction: column;
     label {
       margin-right: $gutter;
+    }
+    .crud-form--form__row {
+      margin: 0.5rem 0;
     }
   }
 }

@@ -2,6 +2,195 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Katamari Damacy REROLL",
+        "id": 109458,
+        "genres": [
+          "Puzzle"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 26,
+        "first_release_date": "12/06/2018",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Katamari Damacy Reroll",
+        "guid": "3030-11867",
+        "gbid": 11867,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1832918-box_katamarid.png",
+        "deck": "In this quirky Japanese game, the tiny Prince must roll up anything and everything in his path to rebuild the heavens after the King of All Cosmos destroys all the stars in the universe during a drunken bender.",
+        "platforms": "PlayStation 2, PlayStation Network (PS3), PC, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "11",
+      "physical": true,
+      "cib": true,
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-29",
+      "howAcquired": "bought from Solis",
+      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
+      "createdAt": "03/29/2020 07:16 pm",
+      "updatedAt": "03/29/2020 07:16 pm",
+      "_id": "40d60898bcc84ad5a87f3b5bc9c20577"
+    },
+    {
+      "igdb": {
+        "name": "Dragon Quest Builders",
+        "id": 24069,
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 37,
+        "first_release_date": "01/27/2016",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-50284",
+        "gbid": 50284,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2997890-dragon%20quest%20builders%20v1.jpg",
+        "deck": "A spin-off from the long-running JRPG series, Builders tasks the player with rebuilding the ruined world of Alfegard... using some very familiar looking square blocks.",
+        "platforms": "PlayStation 3, PlayStation Network (PS3), PlayStation Vita, PlayStation Network (Vita), PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "11",
+      "physical": true,
+      "cib": true,
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-29",
+      "howAcquired": "bought from Solis",
+      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
+      "createdAt": "03/29/2020 07:16 pm",
+      "updatedAt": "03/29/2020 07:16 pm",
+      "_id": "999dfb15d408411b9d4ee462894ee99e"
+    },
+    {
+      "igdb": {
+        "name": "Prince of Persia: The Fallen King",
+        "id": 21267,
+        "genres": [
+          "Platform",
+          "Adventure"
+        ],
+        "total_rating": 51,
+        "total_rating_count": 4,
+        "first_release_date": "12/01/2008",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-21809",
+        "gbid": 21809,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1797992-box_poptfk.png",
+        "deck": " A Prince of Persia game exclusive to the DS. Players control the Prince with the stylus in a 2-D action-platformer.  ",
+        "platforms": "Nintendo DS"
+      },
+      "consoleName": "Nintendo DS",
+      "consoleIgdbId": 20,
+      "consoleGbid": 52,
+      "consoleGbGuid": "3045-52",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "11",
+      "physical": true,
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-29",
+      "howAcquired": "bought from Solis",
+      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
+      "createdAt": "03/29/2020 07:17 pm",
+      "updatedAt": "03/29/2020 07:17 pm",
+      "_id": "4881af78a7ff43a9a6d993abc6a9fa4f",
+      "extraData": [
+        "Nintendo DS exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Prince Of Persia: The Fallen King",
+          "details": [
+            "Nintendo DS exclusive"
+          ],
+          "id": "nds384",
+          "igdbId": 21267,
+          "gbId": 21809,
+          "gbGuid": "3030-21809",
+          "tgdbId": 19230,
+          "isExclusive": [
+            {
+              "name": "Nintendo DS",
+              "id": "ccl11",
+              "igdbId": 20,
+              "gbId": 52,
+              "gbGuid": "3045-52",
+              "tgdbId": 8
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Gauntlet: Seven Sorrows",
+        "id": 5844,
+        "genres": [
+          "Hack and slash/Beat 'em up",
+          "Adventure"
+        ],
+        "total_rating": 58,
+        "total_rating_count": 3,
+        "first_release_date": "12/11/2005",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-16449",
+        "gbid": 16449,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2171266-box_gss.png",
+        "deck": "Gauntlet: Seven Sorrows continues the traditions of the long running multiplayer hack and slash, franchise Gauntlet.",
+        "platforms": "PlayStation 2, Xbox, Xbox 360 Games Store"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "11",
+      "physical": true,
+      "cib": true,
+      "pirated": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-03-29",
+      "howAcquired": "bought from Solis",
+      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
+      "createdAt": "03/29/2020 07:19 pm",
+      "updatedAt": "03/29/2020 07:19 pm",
+      "_id": "1d1c309f471e4b90971ba19a7b3d88f5",
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Far Cry 3: Blood Dragon",
         "id": 2001,
         "genres": [
@@ -38,164 +227,6 @@
       "createdAt": "03/24/2020 08:16 am",
       "updatedAt": "03/24/2020 08:16 am",
       "_id": "72857df44b9b4b0b925768750f8a2bd5"
-    },
-    {
-      "igdb": {
-        "name": "Doom: Eternal",
-        "id": 103298,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 89,
-        "total_rating_count": 7,
-        "first_release_date": "03/19/2020",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-68917",
-        "gbid": 68917,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-        "deck": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-20",
-      "howAcquired": "GameStop",
-      "notes": "",
-      "createdAt": "03/20/2020 08:44 pm",
-      "updatedAt": "03/20/2020 08:44 pm",
-      "_id": "14b8bedaee0f45a29d562e459ad9901c",
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Tom Clancy's Rainbow Six",
-        "id": 1842,
-        "genres": [
-          "Shooter",
-          "Simulator",
-          "Strategy",
-          "Tactical"
-        ],
-        "total_rating": 80,
-        "total_rating_count": 35,
-        "first_release_date": "08/20/1998",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-7887",
-        "gbid": 7887,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/48222/1085899-rb6box.jpg",
-        "deck": "Tom Clancy's Rainbow Six puts the player in charge of an elite international team of counter terrorist operatives in a title that emphasizes planning, stealth, and tactics.",
-        "platforms": "Mac, PlayStation, Dreamcast, Nintendo 64, Game Boy Color, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-16",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:36 pm",
-      "updatedAt": "03/16/2020 07:36 pm",
-      "_id": "412bd5b219a745f8ae6ea34980fb71aa"
-    },
-    {
-      "igdb": {
-        "name": "The Elder Scrolls: Arena",
-        "id": 52,
-        "genres": [
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 19,
-        "first_release_date": "03/24/1994",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Elder Scrolls 1",
-        "guid": "3030-7513",
-        "gbid": 7513,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/15693/630354-564545_53892_front_1_.jpg",
-        "deck": "The Elder Scrolls: Arena is the first in its series. The Emperor has been imprisoned in another dimension by the evil Jagar Tharn, who is impersonating him. It's up to the player to find all eight pieces of the Staff of Chaos to defeat Jagar and bring order back to Tamriel.",
-        "platforms": "PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-16",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:31 pm",
-      "updatedAt": "03/16/2020 07:31 pm",
-      "_id": "cad6d6e5ecdc40b0891d465d7f316764"
-    },
-    {
-      "igdb": {
-        "name": "Daikatana",
-        "id": 8201,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 50,
-        "total_rating_count": 13,
-        "first_release_date": "05/22/2000",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-7747",
-        "gbid": 7747,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3509/647683-daikatana_pc_na.jpg",
-        "deck": "John Romero's Daikatana is a tale that begins in the dystopian future of 2455AD Japan, where a simple martial arts instructor must recover a magical sword and travel through time to return Earth to its rightful setting. Suck it down.",
-        "platforms": "Nintendo 64, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-16",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "03/16/2020 07:29 pm",
-      "updatedAt": "03/16/2020 07:29 pm",
-      "_id": "8ff786ae7dfc40e3b11c8972c8d45407"
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -760,15 +791,15 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Switch": 33,
+    "Nintendo DS": 18,
+    "PlayStation 2": 52,
     "PC (Microsoft Windows)": 116,
     "PlayStation 4": 123,
-    "Nintendo Switch": 31,
     "Game Boy": 6,
     "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
-    "Nintendo DS": 17,
     "Nintendo Entertainment System (NES)": 40,
-    "PlayStation 2": 51,
     "PlayStation": 17,
     "Xbox 360": 55,
     "Atari 2600": 11,
@@ -792,19 +823,20 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "E": 195,
+    "E10+": 73,
+    "T": 146,
     "M": 228,
-    "T": 145,
-    "E10+": 72,
-    "E": 193,
     "NOT RATED": 181,
     "RP": 11,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 573,
+    "physical": 577,
     "digital": 258
   },
   "gamesAcquisition": {
+    "bought from Solis": 21,
     "Steam": 72,
     "GameStop": 66,
     "UNKNOWN": 127,
@@ -812,7 +844,6 @@
     "PSN": 101,
     "GameOver": 206,
     "Video Games Monthly": 24,
-    "bought from Solis": 17,
     "Target": 4,
     "eBay": 47,
     "Walmart": 13,
@@ -840,20 +871,20 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 237,
+  "cibGames": 240,
   "gamesWithGenre": {
+    "puzzle": 85,
+    "role-playing (rpg)": 107,
+    "adventure": 294,
+    "platform": 168,
+    "hack and slash/beat 'em up": 49,
     "shooter": 289,
-    "adventure": 291,
     "simulator": 76,
     "strategy": 77,
     "tactical": 19,
-    "role-playing (rpg)": 106,
     "music": 22,
     "indie": 62,
-    "hack and slash/beat 'em up": 48,
     "arcade": 65,
-    "platform": 167,
-    "puzzle": 84,
     "point-and-click": 5,
     "visual novel": 1,
     "sport": 118,
@@ -880,16 +911,16 @@
       "games": 33
     },
     {
+      "dateFormatted": "03/2020",
+      "games": 30
+    },
+    {
       "dateFormatted": "03/2019",
       "games": 29
     },
     {
       "dateFormatted": "02/2019",
       "games": 27
-    },
-    {
-      "dateFormatted": "03/2020",
-      "games": 26
     },
     {
       "dateFormatted": "01/2019",
@@ -979,7 +1010,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 89
+      "games": 93
     },
     {
       "dateFormatted": "2018",
@@ -1001,11 +1032,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 527
+      "value": 529
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 140
+      "value": 142
     },
     {
       "category": "Poor (30 - 49)",

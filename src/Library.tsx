@@ -12,6 +12,8 @@ import axios from 'axios';
 import { IGame } from './common.model';
 import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
+import GameForm from './components/Forms/GameForm/GameForm';
+import PlatformForm from './components/Forms/PlatformForm/PlatformForm';
 
 interface IInputOptions {
   label: string;
@@ -85,6 +87,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     [view, openFormDialog]
   );
 
+  const saveItem = useCallback((item, which) => {
+    console.log('save item', item);
+    console.log('save which', which);
+  }, []);
+
   async function getData() {
     let url = '';
     switch (props.viewWhat) {
@@ -151,6 +158,15 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           setShowModal(false);
         }}
       >
+        <div className="form-dialog--header">
+          <Button
+            label={`Remove ${selectedItem?.name} from collection`}
+            icon="pi pi-trash"
+            className="p-button-danger"
+          />
+        </div>
+        {view === 'games' && <GameForm game={selectedItem} saveClicked={saveItem} />}
+        {view === 'consoles' && <PlatformForm platform={selectedItem} saveClicked={saveItem} />}
         {/* <GameDialog game={selectedCard} /> */}
       </Dialog>
     </div>

@@ -113,4 +113,54 @@ body {
       color: $light-blue;
     }
   }
+  .p-button.p-component {
+    &.p-button-danger {
+      background-color: $error;
+      border: 1px solid $error;
+      &:hover {
+        border: 1px solid $error;
+        background-color: darken($color: $error, $amount: 10%);
+      }
+    }
+    &.p-button-success {
+      background-color: $success;
+      border: 1px solid $success;
+      &:hover {
+        border: 1px solid $success;
+        background-color: darken($color: $success, $amount: 10%);
+      }
+    }
+    &.p-button-warn {
+      background-color: $warn;
+      border: 1px solid $warn;
+      &:hover {
+        border: 1px solid $warn;
+        background-color: darken($color: $warn, $amount: 10%);
+      }
+    }
+    &.p-button-primary {
+      background-color: $light-orange;
+      border: 1px solid $light-orange;
+      &:hover {
+        border: 1px solid $light-orange;
+        background-color: darken($color: $light-orange, $amount: 10%);
+      }
+    }
+    &.p-button-secondary {
+      background-color: $secondary;
+      border: 1px solid $secondary;
+      &:hover {
+        border: 1px solid $secondary;
+        background-color: darken($color: $secondary, $amount: 10%);
+      }
+    }
+    &.p-button-info {
+      background-color: $light-blue;
+      border: 1px solid $light-blue;
+      &:hover {
+        border: 1px solid $light-blue;
+        background-color: darken($color: $light-blue, $amount: 10%);
+      }
+    }
+  }
 }

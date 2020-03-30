@@ -65,6 +65,7 @@ export interface IGame {
   consoleArr?: IConsoleArr[];
   extraData?: string[];
   extraDataFull?: IExtraDataFull[];
+  compilation: null | IGame[];
 }
 
 export interface IFormState {

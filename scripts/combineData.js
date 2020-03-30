@@ -7,6 +7,7 @@ const _uniqBy = require('lodash/uniqBy');
 
 const indexes = [];
 const combined = games.reduce((acc, game) => {
+  game.compilation = null;
   if (!acc) {
     acc = [];
   }
@@ -49,6 +50,8 @@ const combined = games.reduce((acc, game) => {
       // @TODO: decide what to do for outer else
       acc.push(game);
     }
+  } else {
+    console.log('GAME MISSED:', game);
   }
   return acc;
 }, []);

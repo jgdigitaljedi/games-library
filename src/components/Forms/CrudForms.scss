@@ -4,22 +4,28 @@
 .crud-form {
   padding: 0 $gutter $gutter $gutter;
   max-height: calc(100vh - 300px);
-  form {
+  .crud-form--flex-wrapper {
     display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    height: 100%;
-    label {
-      margin-right: $gutter;
-      width: 20ch;
+    justify-content: space-between;
+    img {
+      max-height: 30rem;
+      width: auto;
+      max-width: 50%;
+      object-fit: contain;
     }
-    .crud-form--form__row {
-      margin: 0.5rem 0;
+    form {
       display: flex;
-      align-items: center;
-      img {
-        max-height: 8rem;
-        margin-left: 2rem;
+      flex-direction: column;
+      overflow-y: auto;
+      height: 100%;
+      label {
+        margin-right: $gutter;
+        width: 20ch;
+      }
+      .crud-form--form__row {
+        margin: 0.5rem 0;
+        display: flex;
+        align-items: center;
       }
     }
   }

@@ -78,6 +78,7 @@ export interface IFormState {
   esrb: string;
   platform: string;
   everDrive: boolean;
+  physical?: boolean;
 }
 
 export interface IDropdown {

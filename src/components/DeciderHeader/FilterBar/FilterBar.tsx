@@ -34,7 +34,9 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const masterData: IGame[] = data;
   const [genreArray, setGenreArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [esrbArray, setEsrbArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
-  const [filteredPlatforms, setFilteredPlatforms] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
+  const [filteredPlatforms, setFilteredPlatforms] = useState<IDropdown[]>([
+    { label: 'NOT SET', value: '' }
+  ]);
   const [masterPa, setMasterPa] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr] = useState<string>('');
   const [acValue, setAcValue] = useState<string>('');
@@ -231,6 +233,17 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             setDc(fsCopy);
           }}
           options={esrbArray || []}
+        />
+      </div>
+      <div className="decider--form__input-group">
+        <label htmlFor="physical">Physical only?</label>
+        <InputSwitch
+          checked={dc.physical}
+          onChange={e => {
+            const fsCopy = { ...dc };
+            fsCopy.physical = !!e.value;
+            setDc(fsCopy);
+          }}
         />
       </div>
       <div className="decider--form__input-group">

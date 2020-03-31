@@ -9,7 +9,8 @@ export const filters = {
       genre: '',
       esrb: '',
       platform: '',
-      everDrive: false
+      everDrive: false,
+      physical: false
     };
   },
   filterName: (data: IGame[], str: string): IGame[] => {

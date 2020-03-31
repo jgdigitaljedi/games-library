@@ -90,6 +90,9 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     if (dc.esrb !== '') {
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
+    if (dc.physical) {
+      newData = _cloneDeep(newData).filter(g => g.physical);
+    }
     setData(newData);
     sortData(newData);
     //eslint-disable-next-line

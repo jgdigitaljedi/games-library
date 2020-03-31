@@ -2,6 +2,49 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Lifeforce",
+        "id": 55022,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "12/30/1987",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Salamander",
+        "guid": "3030-13960",
+        "gbid": 13960,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
+        "deck": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
+        "platforms": "Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Arcade, Wii Shop, Nintendo 3DS eShop, Wii U, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "14",
+      "physical": true,
+      "cib": "",
+      "pirated": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-03-31",
+      "howAcquired": "eBay",
+      "notes": "",
+      "createdAt": "03/31/2020 04:32 pm",
+      "updatedAt": "03/31/2020 04:32 pm",
+      "_id": "a387166a181448089c7f1ba3f5ed57ea",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
+      "description": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Katamari Damacy REROLL",
         "id": 109458,
         "genres": [
@@ -196,47 +239,6 @@
       "description": "Gauntlet: Seven Sorrows continues the traditions of the long running multiplayer hack and slash, franchise Gauntlet.",
       "extraData": [],
       "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Far Cry 3: Blood Dragon",
-        "id": 2001,
-        "genres": [
-          "Shooter",
-          "Adventure"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 207,
-        "first_release_date": "04/29/2013",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-42241",
-        "gbid": 42241,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2468656-box_fc3bd.png",
-        "deck": "Inspired by the sci-fi action movies of the 1980s, Far Cry 3: Blood Dragon is a standalone expansion to 2012's Far Cry 3, switching a modern tropical setting with the neon-covered retro-future of 2007.",
-        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3.74",
-      "physical": "",
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-23",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "03/24/2020 08:16 am",
-      "updatedAt": "03/24/2020 08:16 am",
-      "_id": "72857df44b9b4b0b925768750f8a2bd5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2468656-box_fc3bd.png",
-      "description": "Inspired by the sci-fi action movies of the 1980s, Far Cry 3: Blood Dragon is a standalone expansion to 2012's Far Cry 3, switching a modern tropical setting with the neon-covered retro-future of 2007."
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -811,6 +813,7 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Entertainment System (NES)": 41,
     "Nintendo Switch": 33,
     "Nintendo DS": 18,
     "PlayStation 2": 52,
@@ -819,7 +822,6 @@
     "Game Boy": 6,
     "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
-    "Nintendo Entertainment System (NES)": 40,
     "PlayStation": 17,
     "Xbox 360": 55,
     "Atari 2600": 11,
@@ -843,19 +845,20 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "NOT RATED": 182,
     "E": 195,
     "E10+": 73,
     "T": 146,
     "M": 228,
-    "NOT RATED": 181,
     "RP": 11,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 577,
+    "physical": 578,
     "digital": 258
   },
   "gamesAcquisition": {
+    "eBay": 48,
     "bought from Solis": 21,
     "Steam": 72,
     "GameStop": 66,
@@ -865,7 +868,6 @@
     "GameOver": 206,
     "Video Games Monthly": 24,
     "Target": 4,
-    "eBay": 47,
     "Walmart": 13,
     "Retro Game Treasure": 40,
     "Classic Game Fest": 9,
@@ -893,12 +895,12 @@
   },
   "cibGames": 240,
   "gamesWithGenre": {
+    "shooter": 290,
     "puzzle": 85,
     "role-playing (rpg)": 107,
     "adventure": 294,
     "platform": 168,
     "hack and slash/beat 'em up": 49,
-    "shooter": 289,
     "simulator": 76,
     "strategy": 77,
     "tactical": 19,
@@ -932,7 +934,7 @@
     },
     {
       "dateFormatted": "03/2020",
-      "games": 30
+      "games": 31
     },
     {
       "dateFormatted": "03/2019",
@@ -1030,7 +1032,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 93
+      "games": 94
     },
     {
       "dateFormatted": "2018",
@@ -1064,7 +1066,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 92
+      "value": 93
     }
   ],
   "consolesByCompany": {

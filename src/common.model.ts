@@ -68,6 +68,7 @@ export interface IGame {
   compilation: null | IGame[];
   name?: string;
   image?: string;
+  description?: string;
 }
 
 export interface IFormState {

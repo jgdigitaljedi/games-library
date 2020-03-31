@@ -37,7 +37,9 @@
       "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
       "createdAt": "03/29/2020 07:16 pm",
       "updatedAt": "03/29/2020 07:16 pm",
-      "_id": "40d60898bcc84ad5a87f3b5bc9c20577"
+      "_id": "40d60898bcc84ad5a87f3b5bc9c20577",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1832918-box_katamarid.png",
+      "description": "In this quirky Japanese game, the tiny Prince must roll up anything and everything in his path to rebuild the heavens after the King of All Cosmos destroys all the stars in the universe during a drunken bender."
     },
     {
       "igdb": {
@@ -77,7 +79,9 @@
       "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
       "createdAt": "03/29/2020 07:16 pm",
       "updatedAt": "03/29/2020 07:16 pm",
-      "_id": "999dfb15d408411b9d4ee462894ee99e"
+      "_id": "999dfb15d408411b9d4ee462894ee99e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2997890-dragon%20quest%20builders%20v1.jpg",
+      "description": "A spin-off from the long-running JRPG series, Builders tasks the player with rebuilding the ruined world of Alfegard... using some very familiar looking square blocks."
     },
     {
       "igdb": {
@@ -118,6 +122,8 @@
       "createdAt": "03/29/2020 07:17 pm",
       "updatedAt": "03/29/2020 07:17 pm",
       "_id": "4881af78a7ff43a9a6d993abc6a9fa4f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1797992-box_poptfk.png",
+      "description": " A Prince of Persia game exclusive to the DS. Players control the Prince with the stylus in a 2-D action-platformer.  ",
       "extraData": [
         "Nintendo DS exclusive"
       ],
@@ -186,6 +192,8 @@
       "createdAt": "03/29/2020 07:19 pm",
       "updatedAt": "03/29/2020 07:19 pm",
       "_id": "1d1c309f471e4b90971ba19a7b3d88f5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2171266-box_gss.png",
+      "description": "Gauntlet: Seven Sorrows continues the traditions of the long running multiplayer hack and slash, franchise Gauntlet.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -226,7 +234,9 @@
       "notes": "",
       "createdAt": "03/24/2020 08:16 am",
       "updatedAt": "03/24/2020 08:16 am",
-      "_id": "72857df44b9b4b0b925768750f8a2bd5"
+      "_id": "72857df44b9b4b0b925768750f8a2bd5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2468656-box_fc3bd.png",
+      "description": "Inspired by the sci-fi action movies of the 1980s, Far Cry 3: Blood Dragon is a standalone expansion to 2012's Far Cry 3, switching a modern tropical setting with the neon-covered retro-future of 2007."
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -446,6 +456,8 @@
       "createdAt": "07/27/2019 03:01 pm",
       "updatedAt": "07/27/2019 03:01 pm",
       "_id": "a4865cb63f434af69cb195da9aee5e34",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
+      "description": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -488,6 +500,8 @@
       "createdAt": "11/21/2018 06:09 am",
       "updatedAt": "11/21/2018 06:09 am",
       "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
+      "description": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -530,6 +544,8 @@
       "createdAt": "09/13/2019 08:58 pm",
       "updatedAt": "09/13/2019 08:58 pm",
       "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
+      "description": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -571,6 +587,8 @@
       "createdAt": "03/20/2020 08:44 pm",
       "updatedAt": "03/20/2020 08:44 pm",
       "_id": "14b8bedaee0f45a29d562e459ad9901c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
+      "description": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -611,7 +629,9 @@
       "notes": "",
       "createdAt": "02/22/2020 05:51 am",
       "updatedAt": "02/22/2020 05:51 am",
-      "_id": "eafcabb43f5b477cb11979c7949222c1"
+      "_id": "eafcabb43f5b477cb11979c7949222c1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
+      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia."
     }
   ],
   "mostPaidForPlatforms": [

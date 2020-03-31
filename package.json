@@ -13,8 +13,9 @@
     "process:lists": "node scripts/makeListsData.js",
     "process:supp": "node scripts/supplementGameData.js",
     "process:stats": "node scripts/createHomePageStats.js",
+    "process:transition": "node scripts/transitionDataStructure.js",
     "process:viz": "node scripts/createVizStats.js",
-    "process": "npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz",
+    "process": "npm run process:transition && npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz",
     "copyGames:windows": "./scripts/copyGamesFromOtherProject.sh"
   },
   "dependencies": {

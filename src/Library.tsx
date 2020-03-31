@@ -33,7 +33,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps { }
+interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
@@ -162,6 +162,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
             label={`Remove ${selectedItem?.name} from collection`}
             icon="pi pi-trash"
             className="p-button-danger"
+          />
+          <Button
+            label={`Save ${selectedItem?.name}`}
+            icon="pi pi-save"
+            className="p-button-success"
           />
         </div>
         {view === 'games' && <GameForm game={selectedItem} saveClicked={saveItem} />}

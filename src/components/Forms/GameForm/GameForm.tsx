@@ -76,6 +76,8 @@ const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
             onChange={handleChange}
             attr-which="pricePaid"
             type="number"
+            keyfilter="pnum"
+            min={0}
           />
         </div>
         <div className="crud-form--form__row">
@@ -86,6 +88,8 @@ const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
             onChange={handleChange}
             attr-which="multiplayerNumber"
             type="number"
+            keyfilter="pnum"
+            min={1}
           />
         </div>
         <div className="crud-form--form__row">
@@ -136,11 +140,23 @@ const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
         </div>
         <div className="crud-form--form__row">
           <label htmlFor="image">Image URL</label>
-          <InputSwitch
+          <InputText
             id="image"
-            checked={!!gameForm?.image}
+            value={gameForm?.image}
             onChange={handleChange}
             attr-which="image"
+          />
+          <img src={gameForm?.image} alt="game cover art or logo" />
+        </div>
+        <div className="crud-form--form__row">
+          <label htmlFor="description">Description</label>
+          <InputTextarea
+            id="description"
+            value={gameForm?.description}
+            onChange={handleChange}
+            attr-which="description"
+            autoResize={true}
+            cols={50}
           />
         </div>
       </form>

@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const _sortBy = require('lodash/sortBy');
 
 const fileLookup = require('./fileLookup').getFileRef;
-const games = require('../server/db/games.json');
+const games = require('../server/db/gamesTransitioned.json');
 const ps1ToPs2 = require('./other/ps1ToPs2Bc.json');
 const banned = require('./other/bannedInternationally.json');
 
@@ -57,6 +57,7 @@ const supp = keys.map(key => {
           }
         }
       }
+
       return game;
     });
   } else {

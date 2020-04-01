@@ -33,7 +33,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps { }
+interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
@@ -87,10 +87,20 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     [view, openFormDialog]
   );
 
-  const saveItem = useCallback((item, which) => {
-    console.log('save item', item);
-    console.log('save which', which);
-  }, []);
+  const closeDialog = useCallback(
+    (name: string, status?: boolean) => {
+      console.log('close name', name);
+      if (name && status) {
+        // throw notification for successful save here
+      } else if (name) {
+        // throw failure notification here
+      }
+      // if no name sent then just exit (cancel clicked). Exit for others too
+      setSelectedItem(null);
+      setShowModal(false);
+    },
+    [setShowModal]
+  );
 
   async function getData() {
     let url = '';
@@ -164,8 +174,8 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
             className="p-button-danger"
           />
         </div>
-        {view === 'games' && <GameForm game={selectedItem} saveClicked={saveItem} />}
-        {view === 'consoles' && <PlatformForm platform={selectedItem} saveClicked={saveItem} />}
+        {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} />}
+        {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} />}
         {/* <GameDialog game={selectedCard} /> */}
       </Dialog>
     </div>

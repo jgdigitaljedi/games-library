@@ -3,16 +3,23 @@ import { IGame } from '../../../common.model';
 import { InputText } from 'primereact/inputtext';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputTextarea } from 'primereact/inputtextarea';
+import { Calendar } from 'primereact/calendar';
 import { Dropdown } from 'primereact/dropdown';
+import { Button } from 'primereact/button';
 import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
+import HelpersService from '../../../services/helpers.service';
 
 interface IProps {
   game: IGame;
-  saveClicked: Function;
+  closeDialog: Function;
 }
 
-const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
-  const [gameForm, setGameForm] = useState<IGame>();
+interface IGameEdit extends IGame {
+  newDatePurchased: Date;
+}
+
+const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
+  const [gameForm, setGameForm] = useState<IGameEdit>();
   const caseOptions = [
     { label: 'Original', value: 'original' },
     { label: 'Custom', value: 'custom' },
@@ -48,13 +55,27 @@ const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
     [gameForm, setGameForm]
   );
 
+  const updateGame = useCallback(() => {
+    // make save call
+    // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+    console.log('gameForm in save', gameForm);
+    closeDialog(gameForm?.name);
+  }, [gameForm, closeDialog]);
+
+  const cancelClicked = () => {
+    closeDialog(null);
+  };
+
   useEffect(() => {
-    setGameForm(game);
+    if (game?.datePurchased) {
+      (game as IGameEdit).newDatePurchased = HelpersService.getTodayYMD(game.datePurchased);
+    }
+    setGameForm(game as IGameEdit);
   }, [game]);
 
   return (
     <div className="crud-form game-form--wrapper">
-      <hr />
+      {/* <hr /> */}
       <div className="crud-form--flex-wrapper">
         <form className="crud-from--form game-form--form">
           <div className="crud-form--form__row">
@@ -80,6 +101,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
               type="number"
               keyfilter="pnum"
               min={0}
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="date-purchased">Date Purchased</label>
+            <Calendar
+              id="newDatePurchased"
+              showIcon={true}
+              value={gameForm?.newDatePurchased}
+              onChange={handleChange}
+              attr-which="newDatePurchased"
             />
           </div>
           <div className="crud-form--form__row">
@@ -162,6 +193,21 @@ const GameForm: FunctionComponent<IProps> = ({ game, saveClicked }: IProps) => {
           </div>
         </form>
         <img src={gameForm?.image} alt="game cover art or logo" />
+      </div>
+      <hr />
+      <div className="crud-form--footer">
+        <Button
+          label="Cancel"
+          onClick={cancelClicked}
+          icon="pi pi-times"
+          className="p-button-info"
+        />
+        <Button
+          label={`Save ${gameForm?.name}`}
+          onClick={updateGame}
+          icon="pi pi-save"
+          className="p-button-success"
+        />
       </div>
     </div>
   );

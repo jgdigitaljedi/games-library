@@ -2,6 +2,93 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Panzer Dragoon: Remake",
+        "id": 113350,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "Arcade"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "03/25/2020",
+        "developers": "",
+        "esrb": "RP"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-73811",
+        "gbid": 73811,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
+        "deck": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995.",
+        "platforms": "PC, Nintendo Switch, Google Stadia"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "25",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-31",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/01/2020 06:00 am",
+      "updatedAt": "04/01/2020 06:00 am",
+      "_id": "2f046f41f1484315bcc9d09d13257f11",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
+      "description": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Untitled Goose Game",
+        "id": 72813,
+        "genres": [
+          "Simulator",
+          "Indie"
+        ],
+        "total_rating": 84,
+        "total_rating_count": 66,
+        "first_release_date": "09/19/2019",
+        "developers": "",
+        "esrb": "RP"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-62001",
+        "gbid": 62001,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
+        "deck": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "20",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-03-31",
+      "howAcquired": "PSN",
+      "notes": "",
+      "createdAt": "04/01/2020 06:01 am",
+      "updatedAt": "04/01/2020 06:01 am",
+      "_id": "3f36ef03f4e546bb9d94611c6b20e5aa",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
+      "description": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Lifeforce",
         "id": 55022,
         "genres": [
@@ -30,7 +117,6 @@
       "pricePaid": "14",
       "physical": true,
       "cib": "",
-      "pirated": "",
       "multiplayerNumber": "2",
       "datePurchased": "2020-03-31",
       "howAcquired": "eBay",
@@ -40,6 +126,7 @@
       "_id": "a387166a181448089c7f1ba3f5ed57ea",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
       "description": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
+      "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
     },
@@ -73,7 +160,6 @@
       "pricePaid": "11",
       "physical": true,
       "cib": true,
-      "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "2020-03-29",
       "howAcquired": "bought from Solis",
@@ -82,7 +168,8 @@
       "updatedAt": "03/29/2020 07:16 pm",
       "_id": "40d60898bcc84ad5a87f3b5bc9c20577",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1832918-box_katamarid.png",
-      "description": "In this quirky Japanese game, the tiny Prince must roll up anything and everything in his path to rebuild the heavens after the King of All Cosmos destroys all the stars in the universe during a drunken bender."
+      "description": "In this quirky Japanese game, the tiny Prince must roll up anything and everything in his path to rebuild the heavens after the King of All Cosmos destroys all the stars in the universe during a drunken bender.",
+      "miltiplayerNumber": 1
     },
     {
       "igdb": {
@@ -115,7 +202,6 @@
       "pricePaid": "11",
       "physical": true,
       "cib": true,
-      "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "2020-03-29",
       "howAcquired": "bought from Solis",
@@ -124,121 +210,8 @@
       "updatedAt": "03/29/2020 07:16 pm",
       "_id": "999dfb15d408411b9d4ee462894ee99e",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2997890-dragon%20quest%20builders%20v1.jpg",
-      "description": "A spin-off from the long-running JRPG series, Builders tasks the player with rebuilding the ruined world of Alfegard... using some very familiar looking square blocks."
-    },
-    {
-      "igdb": {
-        "name": "Prince of Persia: The Fallen King",
-        "id": 21267,
-        "genres": [
-          "Platform",
-          "Adventure"
-        ],
-        "total_rating": 51,
-        "total_rating_count": 4,
-        "first_release_date": "12/01/2008",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-21809",
-        "gbid": 21809,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1797992-box_poptfk.png",
-        "deck": " A Prince of Persia game exclusive to the DS. Players control the Prince with the stylus in a 2-D action-platformer.  ",
-        "platforms": "Nintendo DS"
-      },
-      "consoleName": "Nintendo DS",
-      "consoleIgdbId": 20,
-      "consoleGbid": 52,
-      "consoleGbGuid": "3045-52",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "11",
-      "physical": true,
-      "cib": "",
-      "pirated": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-29",
-      "howAcquired": "bought from Solis",
-      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
-      "createdAt": "03/29/2020 07:17 pm",
-      "updatedAt": "03/29/2020 07:17 pm",
-      "_id": "4881af78a7ff43a9a6d993abc6a9fa4f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1797992-box_poptfk.png",
-      "description": " A Prince of Persia game exclusive to the DS. Players control the Prince with the stylus in a 2-D action-platformer.  ",
-      "extraData": [
-        "Nintendo DS exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "name": "Prince Of Persia: The Fallen King",
-          "details": [
-            "Nintendo DS exclusive"
-          ],
-          "id": "nds384",
-          "igdbId": 21267,
-          "gbId": 21809,
-          "gbGuid": "3030-21809",
-          "tgdbId": 19230,
-          "isExclusive": [
-            {
-              "name": "Nintendo DS",
-              "id": "ccl11",
-              "igdbId": 20,
-              "gbId": 52,
-              "gbGuid": "3045-52",
-              "tgdbId": 8
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Gauntlet: Seven Sorrows",
-        "id": 5844,
-        "genres": [
-          "Hack and slash/Beat 'em up",
-          "Adventure"
-        ],
-        "total_rating": 58,
-        "total_rating_count": 3,
-        "first_release_date": "12/11/2005",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-16449",
-        "gbid": 16449,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2171266-box_gss.png",
-        "deck": "Gauntlet: Seven Sorrows continues the traditions of the long running multiplayer hack and slash, franchise Gauntlet.",
-        "platforms": "PlayStation 2, Xbox, Xbox 360 Games Store"
-      },
-      "consoleName": "PlayStation 2",
-      "consoleIgdbId": 8,
-      "consoleGbid": 19,
-      "consoleGbGuid": "3045-19",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "11",
-      "physical": true,
-      "cib": true,
-      "pirated": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-03-29",
-      "howAcquired": "bought from Solis",
-      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
-      "createdAt": "03/29/2020 07:19 pm",
-      "updatedAt": "03/29/2020 07:19 pm",
-      "_id": "1d1c309f471e4b90971ba19a7b3d88f5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2171266-box_gss.png",
-      "description": "Gauntlet: Seven Sorrows continues the traditions of the long running multiplayer hack and slash, franchise Gauntlet.",
-      "extraData": [],
-      "extraDataFull": []
+      "description": "A spin-off from the long-running JRPG series, Builders tasks the player with rebuilding the ruined world of Alfegard... using some very familiar looking square blocks.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -450,7 +423,6 @@
       "pricePaid": "200",
       "physical": true,
       "cib": true,
-      "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "2019-07-27",
       "howAcquired": "Classic Game Fest",
@@ -460,6 +432,7 @@
       "_id": "a4865cb63f434af69cb195da9aee5e34",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
       "description": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
+      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -494,7 +467,6 @@
       "pricePaid": "100",
       "physical": true,
       "cib": "",
-      "pirated": "",
       "multiplayerNumber": "4",
       "datePurchased": "",
       "howAcquired": "GameStop",
@@ -504,6 +476,7 @@
       "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
       "description": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
+      "miltiplayerNumber": 4,
       "extraData": [],
       "extraDataFull": []
     },
@@ -538,7 +511,6 @@
       "pricePaid": "70",
       "physical": true,
       "cib": "",
-      "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "2019-09-13",
       "howAcquired": "GameOver",
@@ -548,6 +520,7 @@
       "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
       "description": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
+      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -581,7 +554,6 @@
       "pricePaid": "60",
       "physical": true,
       "cib": true,
-      "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "2020-03-20",
       "howAcquired": "GameStop",
@@ -591,6 +563,7 @@
       "_id": "14b8bedaee0f45a29d562e459ad9901c",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
       "description": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -624,7 +597,6 @@
       "pricePaid": "60",
       "physical": true,
       "cib": true,
-      "pirated": "",
       "multiplayerNumber": "1",
       "datePurchased": "2020-02-15",
       "howAcquired": "Target",
@@ -633,7 +605,8 @@
       "updatedAt": "02/22/2020 05:51 am",
       "_id": "eafcabb43f5b477cb11979c7949222c1",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia."
+      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostPaidForPlatforms": [
@@ -813,12 +786,12 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Switch": 34,
+    "PlayStation 4": 124,
     "Nintendo Entertainment System (NES)": 41,
-    "Nintendo Switch": 33,
     "Nintendo DS": 18,
     "PlayStation 2": 52,
     "PC (Microsoft Windows)": 116,
-    "PlayStation 4": 123,
     "Game Boy": 6,
     "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
@@ -845,26 +818,26 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "RP": 13,
     "NOT RATED": 182,
     "E": 195,
     "E10+": 73,
     "T": 146,
     "M": 228,
-    "RP": 11,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 578,
-    "digital": 258
+    "digital": 260
   },
   "gamesAcquisition": {
+    "eShop": 18,
+    "PSN": 102,
     "eBay": 48,
     "bought from Solis": 21,
     "Steam": 72,
     "GameStop": 66,
     "UNKNOWN": 127,
-    "eShop": 17,
-    "PSN": 101,
     "GameOver": 206,
     "Video Games Monthly": 24,
     "Target": 4,
@@ -895,18 +868,18 @@
   },
   "cibGames": 240,
   "gamesWithGenre": {
-    "shooter": 290,
+    "shooter": 291,
+    "adventure": 295,
+    "arcade": 66,
+    "simulator": 77,
+    "indie": 63,
     "puzzle": 85,
     "role-playing (rpg)": 107,
-    "adventure": 294,
     "platform": 168,
     "hack and slash/beat 'em up": 49,
-    "simulator": 76,
     "strategy": 77,
     "tactical": 19,
     "music": 22,
-    "indie": 62,
-    "arcade": 65,
     "point-and-click": 5,
     "visual novel": 1,
     "sport": 118,
@@ -929,12 +902,12 @@
       "games": 44
     },
     {
-      "dateFormatted": "05/2019",
+      "dateFormatted": "03/2020",
       "games": 33
     },
     {
-      "dateFormatted": "03/2020",
-      "games": 31
+      "dateFormatted": "05/2019",
+      "games": 33
     },
     {
       "dateFormatted": "03/2019",
@@ -1032,7 +1005,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 94
+      "games": 96
     },
     {
       "dateFormatted": "2018",
@@ -1054,7 +1027,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 529
+      "value": 530
     },
     {
       "category": "Fair (50 - 69)",
@@ -1066,7 +1039,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 93
+      "value": 94
     }
   ],
   "consolesByCompany": {

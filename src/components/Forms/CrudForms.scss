@@ -2,9 +2,9 @@
 @import './GameForm/GameForm.scss';
 
 .crud-form {
-  padding: 0 $gutter $gutter $gutter;
   max-height: calc(100vh - 300px);
   .crud-form--flex-wrapper {
+    padding: 0 $gutter $gutter $gutter;
     display: flex;
     justify-content: space-between;
     img {
@@ -27,6 +27,15 @@
         display: flex;
         align-items: center;
       }
+    }
+  }
+  .crud-form--footer {
+    display: flex;
+    align-items: center;
+    padding: $gutter;
+    background-color: $accent;
+    button {
+      margin-right: $gutter;
     }
   }
 }

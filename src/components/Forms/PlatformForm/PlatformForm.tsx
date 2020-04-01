@@ -3,10 +3,10 @@ import { IConsole } from '../../../common.model';
 
 interface IProps {
   platform: IConsole;
-  saveClicked: Function;
+  closeDialog: Function;
 }
 
-const PlatformForm: FunctionComponent<IProps> = ({ platform }: IProps) => {
+const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog }: IProps) => {
   return (
     <div className="crud-form platform-form">
       <div>Platform Form</div>

@@ -33,7 +33,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps {}
+interface IProps extends MapDispatchProps, MapStateProps { }
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
@@ -168,11 +168,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         }}
       >
         <div className="crud-form-outer-wrapper form-dialog--header">
-          <Button
+          {selectedItem && selectedItem.name && selectedItem.name !== 'Add Game' && selectedItem.name !== 'Add Platform' && <Button
             label={`Remove ${selectedItem?.name} from collection`}
             icon="pi pi-trash"
             className="p-button-danger"
-          />
+          />}
         </div>
         {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} />}
         {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} />}

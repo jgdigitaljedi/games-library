@@ -19,7 +19,9 @@ interface IGameEdit extends IGame {
 }
 
 const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
+  console.log('game', game);
   const [gameForm, setGameForm] = useState<IGameEdit>();
+  const [addMode, setAddMode] = useState<boolean>(false);
   const caseOptions = [
     { label: 'Original', value: 'original' },
     { label: 'Custom', value: 'custom' },
@@ -63,19 +65,31 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   }, [gameForm, closeDialog]);
 
   const cancelClicked = () => {
+    resetGameForm();
     closeDialog(null);
   };
 
+  const resetGameForm = useCallback(() => {
+    setGameForm(HelpersService.resetGameForm());
+    console.log('reset', gameForm);
+  }, [gameForm, setGameForm]);
+
   useEffect(() => {
+    if (game?.name === 'Add Game') {
+      console.log('in if', game);
+      setAddMode(true);
+      resetGameForm();
+    }
+    // else {
+    setGameForm(game as IGameEdit);
+    // }
     if (game?.datePurchased) {
       (game as IGameEdit).newDatePurchased = HelpersService.getTodayYMD(game.datePurchased);
     }
-    setGameForm(game as IGameEdit);
-  }, [game]);
+  }, [game, resetGameForm, setAddMode]);
 
   return (
     <div className="crud-form game-form--wrapper">
-      {/* <hr /> */}
       <div className="crud-form--flex-wrapper">
         <form className="crud-from--form game-form--form">
           <div className="crud-form--form__row">
@@ -192,7 +206,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             />
           </div>
         </form>
-        <img src={gameForm?.image} alt="game cover art or logo" />
+        {gameForm?.image && <img src={gameForm?.image} alt="game cover art or logo" />}
       </div>
       <hr />
       <div className="crud-form--footer">

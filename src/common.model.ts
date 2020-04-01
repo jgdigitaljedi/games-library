@@ -53,7 +53,7 @@ export interface IGame {
   pricePaid: string;
   physical: boolean;
   cib: string | boolean;
-  pirated: string;
+  // pirated: string;
   multiplayerNumber: string | number;
   datePurchased: string;
   howAcquired: string;

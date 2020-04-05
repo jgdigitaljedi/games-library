@@ -14,6 +14,7 @@ import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import GameForm from './components/Forms/GameForm/GameForm';
 import PlatformForm from './components/Forms/PlatformForm/PlatformForm';
+import helpersService from './services/helpers.service';
 
 interface IInputOptions {
   label: string;
@@ -33,7 +34,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapDispatchProps, MapStateProps { }
+interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
@@ -68,9 +69,13 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   );
 
   const addSomething = useCallback(() => {
-    setSelectedItem({ name: `Add ${getSingular()}` });
+    if (view === 'games') {
+      setSelectedItem(helpersService.resetGameForm());
+    } else {
+      setSelectedItem({ name: `Add ${getSingular()}` });
+    }
     openFormDialog();
-  }, [openFormDialog, getSingular]);
+  }, [openFormDialog, getSingular, view]);
 
   const rowClicked = useCallback(
     clicked => {
@@ -168,11 +173,16 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         }}
       >
         <div className="crud-form-outer-wrapper form-dialog--header">
-          {selectedItem && selectedItem.name && selectedItem.name !== 'Add Game' && selectedItem.name !== 'Add Platform' && <Button
-            label={`Remove ${selectedItem?.name} from collection`}
-            icon="pi pi-trash"
-            className="p-button-danger"
-          />}
+          {selectedItem &&
+            selectedItem.name &&
+            selectedItem.name !== 'Add Game' &&
+            selectedItem.name !== 'Add Platform' && (
+              <Button
+                label={`Remove ${selectedItem?.name} from collection`}
+                icon="pi pi-trash"
+                className="p-button-danger"
+              />
+            )}
         </div>
         {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} />}
         {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} />}

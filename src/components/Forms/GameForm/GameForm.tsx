@@ -71,22 +71,17 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
 
   const resetGameForm = useCallback(() => {
     setGameForm(HelpersService.resetGameForm());
-    console.log('reset', gameForm);
-  }, [gameForm, setGameForm]);
+  }, [setGameForm]);
 
   useEffect(() => {
-    if (game?.name === 'Add Game') {
-      console.log('in if', game);
+    if (game && (game.name === '' || game.name === 'Add Game')) {
       setAddMode(true);
-      resetGameForm();
     }
-    // else {
     setGameForm(game as IGameEdit);
-    // }
     if (game?.datePurchased) {
       (game as IGameEdit).newDatePurchased = HelpersService.getTodayYMD(game.datePurchased);
     }
-  }, [game, resetGameForm, setAddMode]);
+  }, [game, setAddMode]);
 
   return (
     <div className="crud-form game-form--wrapper">
@@ -94,7 +89,23 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
         <form className="crud-from--form game-form--form">
           <div className="crud-form--form__row">
             <label htmlFor="name">Name</label>
-            <InputText id="name" value={gameForm?.name} onChange={handleChange} attr-which="name" />
+            {!addMode && (
+              <InputText
+                id="name"
+                value={gameForm?.name}
+                onChange={handleChange}
+                attr-which="name"
+              />
+            )}
+            {addMode && (
+              // <InputText
+              //   id="name"
+              //   value={gameForm?.name}
+              //   onChange={handleChange}
+              //   attr-which="name"
+              // />
+              <span>CHANGE TO AUTONCOMPLETE USING IGDB</span>
+            )}
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="how-acquired">How Acquired</label>

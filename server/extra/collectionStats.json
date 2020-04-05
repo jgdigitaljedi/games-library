@@ -2,6 +2,93 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Borderlands",
+        "id": 498,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 525,
+        "first_release_date": "10/19/2009",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Borderlands: Game of the Year Edition",
+        "guid": "3030-20487",
+        "gbid": 20487,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
+        "deck": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "7.50",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-04-03",
+      "howAcquired": "PSN",
+      "notes": "BOTY edition purchased during Spring Sale",
+      "createdAt": "04/05/2020 07:04 am",
+      "updatedAt": "04/05/2020 07:04 am",
+      "_id": "d1b78e9209bb46ffb4cf79e5f4a76cd5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
+      "description": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Devil May Cry 5",
+        "id": 76253,
+        "genres": [
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 169,
+        "first_release_date": "03/07/2019",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "DMC5",
+        "guid": "3030-68910",
+        "gbid": 68910,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
+        "deck": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "17.50",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-03",
+      "howAcquired": "PSN",
+      "notes": "",
+      "createdAt": "04/05/2020 07:02 am",
+      "updatedAt": "04/05/2020 07:02 am",
+      "_id": "3bfe620fa1d1450797b9762f27cab88f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
+      "description": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Panzer Dragoon: Remake",
         "id": 113350,
         "genres": [
@@ -129,89 +216,6 @@
       "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Katamari Damacy REROLL",
-        "id": 109458,
-        "genres": [
-          "Puzzle"
-        ],
-        "total_rating": 83,
-        "total_rating_count": 26,
-        "first_release_date": "12/06/2018",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "Katamari Damacy Reroll",
-        "guid": "3030-11867",
-        "gbid": 11867,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1832918-box_katamarid.png",
-        "deck": "In this quirky Japanese game, the tiny Prince must roll up anything and everything in his path to rebuild the heavens after the King of All Cosmos destroys all the stars in the universe during a drunken bender.",
-        "platforms": "PlayStation 2, PlayStation Network (PS3), PC, Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "11",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-29",
-      "howAcquired": "bought from Solis",
-      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
-      "createdAt": "03/29/2020 07:16 pm",
-      "updatedAt": "03/29/2020 07:16 pm",
-      "_id": "40d60898bcc84ad5a87f3b5bc9c20577",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1832918-box_katamarid.png",
-      "description": "In this quirky Japanese game, the tiny Prince must roll up anything and everything in his path to rebuild the heavens after the King of All Cosmos destroys all the stars in the universe during a drunken bender.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Dragon Quest Builders",
-        "id": 24069,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 37,
-        "first_release_date": "01/27/2016",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-50284",
-        "gbid": 50284,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2997890-dragon%20quest%20builders%20v1.jpg",
-        "deck": "A spin-off from the long-running JRPG series, Builders tasks the player with rebuilding the ruined world of Alfegard... using some very familiar looking square blocks.",
-        "platforms": "PlayStation 3, PlayStation Network (PS3), PlayStation Vita, PlayStation Network (Vita), PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "11",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-29",
-      "howAcquired": "bought from Solis",
-      "notes": "bought 4 games from him for $45 so just splitting the cost between the 4",
-      "createdAt": "03/29/2020 07:16 pm",
-      "updatedAt": "03/29/2020 07:16 pm",
-      "_id": "999dfb15d408411b9d4ee462894ee99e",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2997890-dragon%20quest%20builders%20v1.jpg",
-      "description": "A spin-off from the long-running JRPG series, Builders tasks the player with rebuilding the ruined world of Alfegard... using some very familiar looking square blocks.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -786,8 +790,8 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PlayStation 4": 126,
     "Nintendo Switch": 34,
-    "PlayStation 4": 124,
     "Nintendo Entertainment System (NES)": 41,
     "Nintendo DS": 18,
     "PlayStation 2": 52,
@@ -818,21 +822,21 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "M": 230,
     "RP": 13,
     "NOT RATED": 182,
     "E": 195,
     "E10+": 73,
     "T": 146,
-    "M": 228,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 578,
-    "digital": 260
+    "digital": 262
   },
   "gamesAcquisition": {
+    "PSN": 104,
     "eShop": 18,
-    "PSN": 102,
     "eBay": 48,
     "bought from Solis": 21,
     "Steam": 72,
@@ -868,15 +872,15 @@
   },
   "cibGames": 240,
   "gamesWithGenre": {
-    "shooter": 291,
+    "shooter": 292,
+    "role-playing (rpg)": 108,
+    "hack and slash/beat 'em up": 50,
     "adventure": 295,
     "arcade": 66,
     "simulator": 77,
     "indie": 63,
     "puzzle": 85,
-    "role-playing (rpg)": 107,
     "platform": 168,
-    "hack and slash/beat 'em up": 49,
     "strategy": 77,
     "tactical": 19,
     "music": 22,
@@ -986,6 +990,10 @@
       "games": 3
     },
     {
+      "dateFormatted": "04/2020",
+      "games": 2
+    },
+    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1005,7 +1013,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 96
+      "games": 98
     },
     {
       "dateFormatted": "2018",
@@ -1027,7 +1035,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 530
+      "value": 532
     },
     {
       "category": "Fair (50 - 69)",

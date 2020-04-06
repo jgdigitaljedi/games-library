@@ -29,47 +29,54 @@ async function getIgdb(game) {
     request
       .then(result => {
         // console.log('result', result.data);
-        const singleResult = result.data[0];
-        const igdbSection = Object.assign(game.igdb, singleResult);
-        game.igdb = igdbSection;
-        game.image = `https:${singleResult.cover.url}`;
-        const multi = _get(singleResult, 'multiplayer_modes[0]');
-        if (multi) {
-          console.log('multi', multi);
-          game.multiplayernumber =
-            multi.offlinecoopmax > multi.offlinemax ? multi.offlinecoopmax : multi.offlinemax;
+        const singleResult = Array.isArray(result.data) ? result.data[0] : result.data;
+        if (singleResult) {
+          const igdbSection = Object.assign(game.igdb, singleResult);
+          game.igdb = igdbSection;
+
+          const cover = _get(singleResult, 'cover.url');
+          if (cover) {
+            game.image = `https:${cover}`;
+          } else {
+            game.image = game.gb.image;
+          }
+          const multi = _get(singleResult, 'multiplayer_modes[0]');
+          if (multi) {
+            game.multiplayerNumber =
+              multi.offlinecoopmax > multi.offlinemax ? multi.offlinecoopmax : multi.offlinemax;
+          } else {
+            game.multiplayerNumber = game.multiplayerNumber || 1;
+          }
+          game.description = singleResult.summary || game.description;
+          delete game.gb;
+          resolve(game);
         } else {
-          game.multiplayernumber = 1;
+          // console.log(chalk.yellow('MISSED', game.name));
+          fs.writeFileSync(path.join(__dirname, './missedShit.json'), JSON.stringify(game));
+          resolve(game);
         }
-        game.description = singleResult.summary || game.description;
-        delete game.gb;
-        resolve(game);
       })
       .catch(error => {
         console.log('error', error);
-        reject(error);
+        reject(game);
       });
   });
 }
 
 // for testing so I don't exhaust my API key
-const gamesShort = games.splice(0, 5);
+// const gamesShort = games.splice(0, 20);
 
-const converted = gamesShort.map(async game => {
+const converted = games.map(async game => {
   return await getIgdb(game);
 });
 
 Promise.all(converted).then(results => {
   const flat = _flatten(results);
-  fs.writeFile(
-    path.join(__dirname, './testIgdbConversion.json'),
-    JSON.stringify(flat, null, 2),
-    error => {
-      if (error) {
-        console.log(chalk.red.bold('ERROR WIRITING IGDB CONVERSION', error));
-      } else {
-        console.log(chalk.cyan('SUCCESSFULLY WROTE IGDB CONVERSION FOR GAMES'));
-      }
+  fs.writeFile(path.join(__dirname, './testIgdbConversion.json'), JSON.stringify(flat), error => {
+    if (error) {
+      console.log(chalk.red.bold('ERROR WIRITING IGDB CONVERSION', error));
+    } else {
+      console.log(chalk.cyan('SUCCESSFULLY WROTE IGDB CONVERSION FOR GAMES'));
     }
-  );
+  });
 });

@@ -9,7 +9,7 @@ function gameNewProps(game) {
   game.image = _get(game, 'gb.image');
   game.description = _get(game, 'gb.deck');
   delete game.pirated;
-  game.miltiplayerNumber = game.multiplayerNumber ? parseInt(game.multiplayerNumber) : 1;
+  game.multiplayerNumber = game.multiplayerNumber ? parseInt(game.multiplayerNumber) : 1;
   return game;
 }
 

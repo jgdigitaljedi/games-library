@@ -31,7 +31,7 @@
       "pricePaid": "7.50",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "2",
+      "multiplayerNumber": 2,
       "datePurchased": "2020-04-03",
       "howAcquired": "PSN",
       "notes": "BOTY edition purchased during Spring Sale",
@@ -40,7 +40,6 @@
       "_id": "d1b78e9209bb46ffb4cf79e5f4a76cd5",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
       "description": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
-      "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
     },
@@ -74,7 +73,7 @@
       "pricePaid": "17.50",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2020-04-03",
       "howAcquired": "PSN",
       "notes": "",
@@ -83,7 +82,6 @@
       "_id": "3bfe620fa1d1450797b9762f27cab88f",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
       "description": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
-      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -119,7 +117,7 @@
       "pricePaid": "25",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2020-03-31",
       "howAcquired": "eShop",
       "notes": "",
@@ -127,8 +125,7 @@
       "updatedAt": "04/01/2020 06:00 am",
       "_id": "2f046f41f1484315bcc9d09d13257f11",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
-      "description": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995.",
-      "miltiplayerNumber": 1
+      "description": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995."
     },
     {
       "igdb": {
@@ -161,7 +158,7 @@
       "pricePaid": "20",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2020-03-31",
       "howAcquired": "PSN",
       "notes": "",
@@ -170,7 +167,6 @@
       "_id": "3f36ef03f4e546bb9d94611c6b20e5aa",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
       "description": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
-      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -204,7 +200,7 @@
       "pricePaid": "14",
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "2",
+      "multiplayerNumber": 2,
       "datePurchased": "2020-03-31",
       "howAcquired": "eBay",
       "notes": "",
@@ -213,7 +209,6 @@
       "_id": "a387166a181448089c7f1ba3f5ed57ea",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
       "description": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
-      "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
     }
@@ -427,7 +422,7 @@
       "pricePaid": "200",
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2019-07-27",
       "howAcquired": "Classic Game Fest",
       "notes": "",
@@ -436,7 +431,6 @@
       "_id": "a4865cb63f434af69cb195da9aee5e34",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
       "description": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
-      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -471,7 +465,7 @@
       "pricePaid": "100",
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "4",
+      "multiplayerNumber": 4,
       "datePurchased": "",
       "howAcquired": "GameStop",
       "notes": "Has drumset with cymbals pack, microphone, and 1 guitar",
@@ -480,7 +474,6 @@
       "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
       "description": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
-      "miltiplayerNumber": 4,
       "extraData": [],
       "extraDataFull": []
     },
@@ -515,7 +508,7 @@
       "pricePaid": "70",
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2019-09-13",
       "howAcquired": "GameOver",
       "notes": "",
@@ -524,7 +517,6 @@
       "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
       "description": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
-      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -558,7 +550,7 @@
       "pricePaid": "60",
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2020-03-20",
       "howAcquired": "GameStop",
       "notes": "",
@@ -567,7 +559,6 @@
       "_id": "14b8bedaee0f45a29d562e459ad9901c",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
       "description": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
@@ -601,7 +592,7 @@
       "pricePaid": "60",
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
+      "multiplayerNumber": 1,
       "datePurchased": "2020-02-15",
       "howAcquired": "Target",
       "notes": "",
@@ -609,8 +600,7 @@
       "updatedAt": "02/22/2020 05:51 am",
       "_id": "eafcabb43f5b477cb11979c7949222c1",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
-      "miltiplayerNumber": 1
+      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia."
     }
   ],
   "mostPaidForPlatforms": [

@@ -1,0 +1,305 @@
+[
+  {
+    "igdb": {
+      "name": "Borderlands",
+      "id": 498,
+      "genres": [
+        "Shooter",
+        "Role-playing (RPG)"
+      ],
+      "total_rating": 81,
+      "total_rating_count": 525,
+      "first_release_date": "10/19/2009",
+      "developers": "",
+      "esrb": "M",
+      "bundles": [
+        {
+          "id": 21758,
+          "name": "Borderlands: Game of the Year Edition"
+        }
+      ],
+      "cover": {
+        "id": 94389,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20tx.jpg"
+      },
+      "multiplayer_modes": [
+        {
+          "id": 1762,
+          "offlinecoopmax": 2,
+          "offlinemax": 0
+        }
+      ],
+      "platforms": [
+        {
+          "id": 6,
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "id": 9,
+          "name": "PlayStation 3"
+        },
+        {
+          "id": 12,
+          "name": "Xbox 360"
+        },
+        {
+          "id": 14,
+          "name": "Mac"
+        }
+      ],
+      "summary": "With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the conventions of modern shooters. Borderlands places you in the role of a mercenary on the lawless and desolate planet of Pandora, hell-bent on finding a legendary stockpile of powerful alien technology known as The Vault. \n \nRole Playing Shooter (RPS) - combines frantic first-person shooting action with accessible role-playing character progression. \n \nCo-Op Frenzy - Fly solo in single player or drop in and out with up to 4 Player Co-Op online for a maniacal multiplayer experience. \n \nBazillions of Guns - Gun lust fulfilled with rocket-launching shotguns, enemy-torching revolvers, SMGs that fire lightning rounds, and tons more. \n \nRadical Art Style - New visual style combines traditional rendering techniques with hand-drawn textures to create a unique and eye-catching spin on the First Person genre. \n \nIntense Vehicular Combat - Get behind the wheel and engage in intense vehicle-to-vehicle combat."
+    },
+    "consoleName": "PlayStation 4",
+    "consoleIgdbId": 48,
+    "consoleGbid": 146,
+    "consoleGbGuid": "3045-146",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "7.50",
+    "physical": "",
+    "cib": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "2020-04-03",
+    "howAcquired": "PSN",
+    "notes": "BOTY edition purchased during Spring Sale",
+    "createdAt": "04/05/2020 07:04 am",
+    "updatedAt": "04/05/2020 07:04 am",
+    "_id": "d1b78e9209bb46ffb4cf79e5f4a76cd5",
+    "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co20tx.jpg",
+    "description": "With its addictive action, frantic first-person shooter combat, massive arsenal of weaponry, RPG elements and four-player co-op, Borderlands is a breakthrough experience that challenges all the conventions of modern shooters. Borderlands places you in the role of a mercenary on the lawless and desolate planet of Pandora, hell-bent on finding a legendary stockpile of powerful alien technology known as The Vault. \n \nRole Playing Shooter (RPS) - combines frantic first-person shooting action with accessible role-playing character progression. \n \nCo-Op Frenzy - Fly solo in single player or drop in and out with up to 4 Player Co-Op online for a maniacal multiplayer experience. \n \nBazillions of Guns - Gun lust fulfilled with rocket-launching shotguns, enemy-torching revolvers, SMGs that fire lightning rounds, and tons more. \n \nRadical Art Style - New visual style combines traditional rendering techniques with hand-drawn textures to create a unique and eye-catching spin on the First Person genre. \n \nIntense Vehicular Combat - Get behind the wheel and engage in intense vehicle-to-vehicle combat.",
+    "miltiplayerNumber": 2,
+    "extraData": [],
+    "extraDataFull": [],
+    "multiplayernumber": 2
+  },
+  {
+    "igdb": {
+      "name": "Devil May Cry 5",
+      "id": 76253,
+      "genres": [
+        "Hack and slash/Beat 'em up"
+      ],
+      "total_rating": 88,
+      "total_rating_count": 169,
+      "first_release_date": "03/07/2019",
+      "developers": "",
+      "esrb": "M",
+      "alternative_names": [
+        {
+          "id": 12809,
+          "name": "Devil May Cry V"
+        },
+        {
+          "id": 23155,
+          "name": "DMC 5"
+        },
+        {
+          "id": 23156,
+          "name": "DMC V"
+        }
+      ],
+      "cover": {
+        "id": 82048,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rb4.jpg"
+      },
+      "platforms": [
+        {
+          "id": 6,
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "id": 48,
+          "name": "PlayStation 4"
+        },
+        {
+          "id": 49,
+          "name": "Xbox One"
+        }
+      ],
+      "summary": "A brand new entry in the legendary over-the-top action series comes to Xbox One, PlayStation 4, and PC in Spring 2019, complete with its signature blend of high-octane stylized action and otherworldly and original characters the series is known for. Director Hideaki Itsuno and the core team have reunited to create the most over the top, technically advanced, utterly insane action experience of this generation. \n \nYears have passed since the legions of hell have set foot in this world, but now a new demonic invasion has begun, and humanity’s last hope will rest in the hands of three lone demon hunters, each offering a radically different play style. United by fate and a thirst for vengeance, these demon hunters will have to face their demons if they hope to survive."
+    },
+    "consoleName": "PlayStation 4",
+    "consoleIgdbId": 48,
+    "consoleGbid": 146,
+    "consoleGbGuid": "3045-146",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "17.50",
+    "physical": "",
+    "cib": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "2020-04-03",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "04/05/2020 07:02 am",
+    "updatedAt": "04/05/2020 07:02 am",
+    "_id": "3bfe620fa1d1450797b9762f27cab88f",
+    "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rb4.jpg",
+    "description": "A brand new entry in the legendary over-the-top action series comes to Xbox One, PlayStation 4, and PC in Spring 2019, complete with its signature blend of high-octane stylized action and otherworldly and original characters the series is known for. Director Hideaki Itsuno and the core team have reunited to create the most over the top, technically advanced, utterly insane action experience of this generation. \n \nYears have passed since the legions of hell have set foot in this world, but now a new demonic invasion has begun, and humanity’s last hope will rest in the hands of three lone demon hunters, each offering a radically different play style. United by fate and a thirst for vengeance, these demon hunters will have to face their demons if they hope to survive.",
+    "miltiplayerNumber": 1,
+    "extraData": [],
+    "extraDataFull": [],
+    "multiplayernumber": 1
+  },
+  {
+    "igdb": {
+      "name": "Panzer Dragoon: Remake",
+      "id": 113350,
+      "genres": [
+        "Shooter",
+        "Adventure",
+        "Arcade"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/25/2020",
+      "developers": "",
+      "esrb": "RP",
+      "cover": {
+        "id": 95414,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/co21me.jpg"
+      },
+      "platforms": [
+        {
+          "id": 6,
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "id": 130,
+          "name": "Nintendo Switch"
+        }
+      ],
+      "summary": "A new, remade version of the Panzer Dragoon game – true to the original, with improved graphics and controls, that suit modern gaming standards! \n \nVisual and sound is under development and may differ from final product. \n \nKey Features \n \nPilot through seven unbelievably realistic levels ranging from tropical blue ocean cities to intricate subterranean ruins. \n \nFight the Prototype Dragon who appears together with evil giant dragonflies, frightening man-sized wasps, giant sandworms, and lethal flying battleships. \n \nAttack approaching from all sides enemies quickly and without mercy, with improved 360-degree controls and lock-on targeting."
+    },
+    "consoleName": "Nintendo Switch",
+    "consoleIgdbId": 130,
+    "consoleGbid": 157,
+    "consoleGbGuid": "3045-157",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "25",
+    "physical": "",
+    "cib": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "2020-03-31",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "04/01/2020 06:00 am",
+    "updatedAt": "04/01/2020 06:00 am",
+    "_id": "2f046f41f1484315bcc9d09d13257f11",
+    "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co21me.jpg",
+    "description": "A new, remade version of the Panzer Dragoon game – true to the original, with improved graphics and controls, that suit modern gaming standards! \n \nVisual and sound is under development and may differ from final product. \n \nKey Features \n \nPilot through seven unbelievably realistic levels ranging from tropical blue ocean cities to intricate subterranean ruins. \n \nFight the Prototype Dragon who appears together with evil giant dragonflies, frightening man-sized wasps, giant sandworms, and lethal flying battleships. \n \nAttack approaching from all sides enemies quickly and without mercy, with improved 360-degree controls and lock-on targeting.",
+    "miltiplayerNumber": 1,
+    "multiplayernumber": 1
+  },
+  {
+    "igdb": {
+      "name": "Untitled Goose Game",
+      "id": 72813,
+      "genres": [
+        "Simulator",
+        "Indie"
+      ],
+      "total_rating": 84,
+      "total_rating_count": 66,
+      "first_release_date": "09/19/2019",
+      "developers": "",
+      "esrb": "RP",
+      "cover": {
+        "id": 87780,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1vqc.jpg"
+      },
+      "platforms": [
+        {
+          "id": 6,
+          "name": "PC (Microsoft Windows)"
+        },
+        {
+          "id": 14,
+          "name": "Mac"
+        },
+        {
+          "id": 48,
+          "name": "PlayStation 4"
+        },
+        {
+          "id": 49,
+          "name": "Xbox One"
+        },
+        {
+          "id": 130,
+          "name": "Nintendo Switch"
+        }
+      ],
+      "summary": "It's a lovely morning in the village and you are a horrible goose. \n \nUntitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day."
+    },
+    "consoleName": "PlayStation 4",
+    "consoleIgdbId": 48,
+    "consoleGbid": 146,
+    "consoleGbGuid": "3045-146",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "20",
+    "physical": "",
+    "cib": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "2020-03-31",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "04/01/2020 06:01 am",
+    "updatedAt": "04/01/2020 06:01 am",
+    "_id": "3f36ef03f4e546bb9d94611c6b20e5aa",
+    "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1vqc.jpg",
+    "description": "It's a lovely morning in the village and you are a horrible goose. \n \nUntitled Goose Game is a slapstick-stealth-sandbox, where you are a goose let loose on an unsuspecting village. Make your way around town, from peoples' back gardens to the high street shops to the village green, setting up pranks, stealing hats, honking a lot, and generally ruining everyone’s day.",
+    "miltiplayerNumber": 1,
+    "extraData": [],
+    "extraDataFull": [],
+    "multiplayernumber": 1
+  },
+  {
+    "igdb": {
+      "name": "Lifeforce",
+      "id": 55022,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1987",
+      "developers": "",
+      "esrb": "",
+      "cover": {
+        "id": 29434,
+        "url": "//images.igdb.com/igdb/image/upload/t_thumb/nh1q2swkrr5mi3pdl7tw.jpg"
+      },
+      "platforms": [
+        {
+          "id": 15,
+          "name": "Commodore C64/128"
+        }
+      ]
+    },
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleIgdbId": 18,
+    "consoleGbid": 21,
+    "consoleGbGuid": "3045-21",
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": "14",
+    "physical": true,
+    "cib": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "2020-03-31",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "03/31/2020 04:32 pm",
+    "updatedAt": "03/31/2020 04:32 pm",
+    "_id": "a387166a181448089c7f1ba3f5ed57ea",
+    "image": "https://images.igdb.com/igdb/image/upload/t_thumb/nh1q2swkrr5mi3pdl7tw.jpg",
+    "description": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
+    "miltiplayerNumber": 2,
+    "extraData": [],
+    "extraDataFull": [],
+    "multiplayernumber": 1
+  }
+]

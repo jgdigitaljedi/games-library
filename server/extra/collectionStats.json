@@ -2,198 +2,69 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Borderlands",
-        "id": 498,
+        "name": "The Incredibles",
+        "id": 3782,
         "genres": [
-          "Shooter",
-          "Role-playing (RPG)"
+          "Platform",
+          "Hack and slash/Beat 'em up",
+          "Adventure"
         ],
-        "total_rating": 81,
-        "total_rating_count": 525,
-        "first_release_date": "10/19/2009",
+        "total_rating": 55,
+        "total_rating_count": 21,
+        "first_release_date": "10/25/2004",
         "developers": "",
-        "esrb": "M"
+        "esrb": "T"
       },
       "gb": {
-        "aliases": "Borderlands: Game of the Year Edition",
-        "guid": "3030-20487",
-        "gbid": 20487,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
-        "deck": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
-        "platforms": "Mac, Xbox 360, PlayStation 3, PC, Xbox One, PlayStation 4"
+        "aliases": "Incredibles",
+        "guid": "3030-759",
+        "gbid": 759,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2284719-box_ti.png",
+        "deck": "The Incredibles stars a family of people with superpowers who try to conceal them from the outside world for fear of prejudice. Bob Parr has superhuman strength, Dash has super speed, Violet can turn invisible and project force fields and Elastigirl can stretch.",
+        "platforms": "Game Boy Advance, Mac, PlayStation 2, GameCube, Xbox, Nintendo DS, PlayStation Network (PS3), PC"
       },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "7.50",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-04-03",
-      "howAcquired": "PSN",
-      "notes": "BOTY edition purchased during Spring Sale",
-      "createdAt": "04/05/2020 07:04 am",
-      "updatedAt": "04/05/2020 07:04 am",
-      "_id": "d1b78e9209bb46ffb4cf79e5f4a76cd5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
-      "description": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Devil May Cry 5",
-        "id": 76253,
-        "genres": [
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": 88,
-        "total_rating_count": 169,
-        "first_release_date": "03/07/2019",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "DMC5",
-        "guid": "3030-68910",
-        "gbid": 68910,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
-        "deck": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "17.50",
-      "physical": "",
+      "consoleName": "Game Boy Advance",
+      "consoleIgdbId": 24,
+      "consoleGbid": 4,
+      "consoleGbGuid": "3045-4",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "8",
+      "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-04-03",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "04/05/2020 07:02 am",
-      "updatedAt": "04/05/2020 07:02 am",
-      "_id": "3bfe620fa1d1450797b9762f27cab88f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
-      "description": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
+      "datePurchased": "2020-04-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "got 5 games this month so making them all $8 a piece",
+      "createdAt": "04/07/2020 06:24 am",
+      "updatedAt": "04/07/2020 06:24 am",
+      "_id": "451bf9770d074e3b8e14409aeacc7d86",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2284719-box_ti.png",
+      "description": "The Incredibles stars a family of people with superpowers who try to conceal them from the outside world for fear of prejudice. Bob Parr has superhuman strength, Dash has super speed, Violet can turn invisible and project force fields and Elastigirl can stretch.",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Panzer Dragoon: Remake",
-        "id": 113350,
+        "name": "Super Mario Bros. 2",
+        "id": 1067,
         "genres": [
-          "Shooter",
-          "Adventure",
-          "Arcade"
+          "Platform"
         ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "03/25/2020",
+        "total_rating": 77,
+        "total_rating_count": 288,
+        "first_release_date": "08/31/1988",
         "developers": "",
-        "esrb": "RP"
+        "esrb": "E"
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-73811",
-        "gbid": 73811,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
-        "deck": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995.",
-        "platforms": "PC, Nintendo Switch, Google Stadia"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "25",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-31",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "04/01/2020 06:00 am",
-      "updatedAt": "04/01/2020 06:00 am",
-      "_id": "2f046f41f1484315bcc9d09d13257f11",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
-      "description": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Untitled Goose Game",
-        "id": 72813,
-        "genres": [
-          "Simulator",
-          "Indie"
-        ],
-        "total_rating": 84,
-        "total_rating_count": 66,
-        "first_release_date": "09/19/2019",
-        "developers": "",
-        "esrb": "RP"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-62001",
-        "gbid": 62001,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
-        "deck": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "20",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-31",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "04/01/2020 06:01 am",
-      "updatedAt": "04/01/2020 06:01 am",
-      "_id": "3f36ef03f4e546bb9d94611c6b20e5aa",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
-      "description": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Lifeforce",
-        "id": 55022,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1987",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Salamander",
-        "guid": "3030-13960",
-        "gbid": 13960,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
-        "deck": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
-        "platforms": "Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Arcade, Wii Shop, Nintendo 3DS eShop, Wii U, PlayStation 4, Nintendo Switch"
+        "aliases": "Super Mario USA, Super Mario Bros. USA, SMB2",
+        "guid": "3030-7406",
+        "gbid": 7406,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362269-nes_supermariobros2.jpg",
+        "deck": "Mario and his friends find themselves in the mysterious world of Sub-Con, where they must fight new enemies (with new techniques) to stop the master plans of the evil toad king, Wart.",
+        "platforms": "Nintendo Entertainment System, Wii Shop, Nintendo 3DS eShop, Wii U"
       },
       "consoleName": "Nintendo Entertainment System (NES)",
       "consoleIgdbId": 18,
@@ -201,19 +72,181 @@
       "consoleGbGuid": "3045-21",
       "condition": "Good",
       "case": "custom",
-      "pricePaid": "14",
+      "pricePaid": "8",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "got 5 games this month so making them all $8 a piece",
+      "createdAt": "04/07/2020 06:23 am",
+      "updatedAt": "04/07/2020 06:23 am",
+      "_id": "dfdc6ac4d6d144768c93fb3a7e4da91a",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362269-nes_supermariobros2.jpg",
+      "description": "Mario and his friends find themselves in the mysterious world of Sub-Con, where they must fight new enemies (with new techniques) to stop the master plans of the evil toad king, Wart.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Mortal Kombat: Deception",
+        "id": 1613,
+        "genres": [
+          "Fighting",
+          "Puzzle"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 51,
+        "first_release_date": "10/03/2004",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Mortal Kombat: Mystification",
+        "guid": "3030-383",
+        "gbid": 383,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1881075-box_mkd.png",
+        "deck": "The sixth installment in the violent fighting game franchise, introducing a manual \"Combo Breaker\" system and online multiplayer while adding a more in-depth Konquest Mode.",
+        "platforms": "PlayStation Portable, PlayStation 2, GameCube, Xbox"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "8",
       "physical": true,
       "cib": "",
       "multiplayerNumber": "2",
-      "datePurchased": "2020-03-31",
-      "howAcquired": "eBay",
-      "notes": "",
-      "createdAt": "03/31/2020 04:32 pm",
-      "updatedAt": "03/31/2020 04:32 pm",
-      "_id": "a387166a181448089c7f1ba3f5ed57ea",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
-      "description": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
+      "datePurchased": "2020-04-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "got 5 games this month so making them all $8 a piece",
+      "createdAt": "04/07/2020 06:24 am",
+      "updatedAt": "04/07/2020 06:24 am",
+      "_id": "e85dd2cfa69e42f38e6a13ca4cbe895f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1881075-box_mkd.png",
+      "description": "The sixth installment in the violent fighting game franchise, introducing a manual \"Combo Breaker\" system and online multiplayer while adding a more in-depth Konquest Mode.",
       "miltiplayerNumber": 2,
+      "extraData": [
+        "Xbox game plays on Xbox 360 - There is flickering on the title screen"
+      ],
+      "extraDataFull": [
+        {
+          "igdbId": 1613,
+          "name": "Mortal Kombat: Deception",
+          "details": [
+            "Xbox game plays on Xbox 360 - There is flickering on the title screen"
+          ],
+          "id": "xbox250",
+          "gbId": 383,
+          "gbGuid": "3030-383",
+          "tgdbId": 4817,
+          "special": [
+            {
+              "value": "Xbox game plays on Xbox 360 - There is flickering on the title screen",
+              "forPlatform": {
+                "name": "Microsoft Xbox",
+                "id": "ccl25",
+                "igdbId": 11,
+                "gbId": 32,
+                "gbGuid": "3045-32",
+                "tgdbId": 14
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Power Drome",
+        "id": 5985,
+        "genres": [
+          "Racing",
+          "Sport",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "06/14/2004",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Power Drome",
+        "guid": "3030-29925",
+        "gbid": 29925,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2428414-box_pdrome.png",
+        "deck": "Powerdrome is a sport born in the gutters of a universe ripped apart by war, devised as the fastest, most viscerally intense racing experience imaginable. Powerdrome is a budget title similar to F-Zero and Wipeout.",
+        "platforms": "PlayStation 2, Xbox, PC"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "8",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-04-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "got 5 games this month so making them all $8 a piece",
+      "createdAt": "04/07/2020 06:29 am",
+      "updatedAt": "04/07/2020 06:29 am",
+      "_id": "2174836aa8d842f19b6dfb70d6e27e9d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2428414-box_pdrome.png",
+      "description": "Powerdrome is a sport born in the gutters of a universe ripped apart by war, devised as the fastest, most viscerally intense racing experience imaginable. Powerdrome is a budget title similar to F-Zero and Wipeout.",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Spec Ops: Covert Assault",
+        "id": 9346,
+        "genres": [
+          "Shooter",
+          "Tactical"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "06/27/2001",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-19656",
+        "gbid": 19656,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2179499-box_soca.png",
+        "deck": "Spec Ops: Covert Assault is a third person military shooter, which features teams of two soldiers completing various missions.",
+        "platforms": "PlayStation, PlayStation Network (PS3), PlayStation Network (PSP)"
+      },
+      "consoleName": "PlayStation",
+      "consoleIgdbId": 7,
+      "consoleGbid": 22,
+      "consoleGbGuid": "3045-22",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "8",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "got 5 games this month so making them all $8 a piece",
+      "createdAt": "04/07/2020 06:26 am",
+      "updatedAt": "04/07/2020 06:26 am",
+      "_id": "dfd645fad6ea412290cb6faf55626678",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2179499-box_soca.png",
+      "description": "Spec Ops: Covert Assault is a third person military shooter, which features teams of two soldiers completing various missions.",
+      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     }
@@ -790,16 +823,17 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Game Boy Advance": 14,
+    "Nintendo Entertainment System (NES)": 42,
+    "Xbox": 42,
+    "PlayStation 2": 53,
+    "PlayStation": 18,
     "PlayStation 4": 126,
     "Nintendo Switch": 34,
-    "Nintendo Entertainment System (NES)": 41,
     "Nintendo DS": 18,
-    "PlayStation 2": 52,
     "PC (Microsoft Windows)": 116,
     "Game Boy": 6,
-    "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
-    "PlayStation": 17,
     "Xbox 360": 55,
     "Atari 2600": 11,
     "Dreamcast": 23,
@@ -818,23 +852,23 @@
     "Sega Game Gear": 3,
     "PlayStation Portable": 16,
     "Nintendo 3DS": 11,
-    "Game Boy Advance": 13,
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 230,
+    "T": 149,
+    "E": 196,
+    "M": 231,
     "RP": 13,
     "NOT RATED": 182,
-    "E": 195,
     "E10+": 73,
-    "T": 146,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 578,
+    "physical": 583,
     "digital": 262
   },
   "gamesAcquisition": {
+    "Video Games Monthly": 29,
     "PSN": 104,
     "eShop": 18,
     "eBay": 48,
@@ -843,7 +877,6 @@
     "GameStop": 66,
     "UNKNOWN": 127,
     "GameOver": 206,
-    "Video Games Monthly": 24,
     "Target": 4,
     "Walmart": 13,
     "Retro Game Treasure": 40,
@@ -872,23 +905,23 @@
   },
   "cibGames": 240,
   "gamesWithGenre": {
-    "shooter": 292,
+    "platform": 170,
+    "hack and slash/beat 'em up": 52,
+    "adventure": 296,
+    "fighting": 55,
+    "puzzle": 86,
+    "racing": 108,
+    "sport": 119,
+    "shooter": 293,
+    "tactical": 20,
     "role-playing (rpg)": 108,
-    "hack and slash/beat 'em up": 50,
-    "adventure": 295,
     "arcade": 66,
     "simulator": 77,
     "indie": 63,
-    "puzzle": 85,
-    "platform": 168,
     "strategy": 77,
-    "tactical": 19,
     "music": 22,
     "point-and-click": 5,
     "visual novel": 1,
-    "sport": 118,
-    "racing": 107,
-    "fighting": 54,
     "turn-based strategy (tbs)": 11,
     "pinball": 4,
     "real time strategy (rts)": 7,
@@ -962,6 +995,10 @@
       "games": 10
     },
     {
+      "dateFormatted": "04/2020",
+      "games": 7
+    },
+    {
       "dateFormatted": "11/2018",
       "games": 7
     },
@@ -990,10 +1027,6 @@
       "games": 3
     },
     {
-      "dateFormatted": "04/2020",
-      "games": 2
-    },
-    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1013,7 +1046,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 98
+      "games": 103
     },
     {
       "dateFormatted": "2018",
@@ -1035,11 +1068,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 532
+      "value": 534
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 142
+      "value": 143
     },
     {
       "category": "Poor (30 - 49)",
@@ -1047,7 +1080,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 94
+      "value": 96
     }
   ],
   "consolesByCompany": {

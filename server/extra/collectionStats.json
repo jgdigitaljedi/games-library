@@ -2,253 +2,216 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "The Incredibles",
-        "id": 3782,
+        "name": "Drawful 2",
+        "id": 19083,
         "genres": [
-          "Platform",
-          "Hack and slash/Beat 'em up",
-          "Adventure"
+          "Strategy",
+          "Quiz/Trivia",
+          "Indie"
         ],
-        "total_rating": 55,
-        "total_rating_count": 21,
-        "first_release_date": "10/25/2004",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Incredibles",
-        "guid": "3030-759",
-        "gbid": 759,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2284719-box_ti.png",
-        "deck": "The Incredibles stars a family of people with superpowers who try to conceal them from the outside world for fear of prejudice. Bob Parr has superhuman strength, Dash has super speed, Violet can turn invisible and project force fields and Elastigirl can stretch.",
-        "platforms": "Game Boy Advance, Mac, PlayStation 2, GameCube, Xbox, Nintendo DS, PlayStation Network (PS3), PC"
-      },
-      "consoleName": "Game Boy Advance",
-      "consoleIgdbId": 24,
-      "consoleGbid": 4,
-      "consoleGbGuid": "3045-4",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "8",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-06",
-      "howAcquired": "Video Games Monthly",
-      "notes": "got 5 games this month so making them all $8 a piece",
-      "createdAt": "04/07/2020 06:24 am",
-      "updatedAt": "04/07/2020 06:24 am",
-      "_id": "451bf9770d074e3b8e14409aeacc7d86",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2284719-box_ti.png",
-      "description": "The Incredibles stars a family of people with superpowers who try to conceal them from the outside world for fear of prejudice. Bob Parr has superhuman strength, Dash has super speed, Violet can turn invisible and project force fields and Elastigirl can stretch.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Super Mario Bros. 2",
-        "id": 1067,
-        "genres": [
-          "Platform"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 288,
-        "first_release_date": "08/31/1988",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "Super Mario USA, Super Mario Bros. USA, SMB2",
-        "guid": "3030-7406",
-        "gbid": 7406,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362269-nes_supermariobros2.jpg",
-        "deck": "Mario and his friends find themselves in the mysterious world of Sub-Con, where they must fight new enemies (with new techniques) to stop the master plans of the evil toad king, Wart.",
-        "platforms": "Nintendo Entertainment System, Wii Shop, Nintendo 3DS eShop, Wii U"
-      },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "8",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-06",
-      "howAcquired": "Video Games Monthly",
-      "notes": "got 5 games this month so making them all $8 a piece",
-      "createdAt": "04/07/2020 06:23 am",
-      "updatedAt": "04/07/2020 06:23 am",
-      "_id": "dfdc6ac4d6d144768c93fb3a7e4da91a",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362269-nes_supermariobros2.jpg",
-      "description": "Mario and his friends find themselves in the mysterious world of Sub-Con, where they must fight new enemies (with new techniques) to stop the master plans of the evil toad king, Wart.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Mortal Kombat: Deception",
-        "id": 1613,
-        "genres": [
-          "Fighting",
-          "Puzzle"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 51,
-        "first_release_date": "10/03/2004",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Mortal Kombat: Mystification",
-        "guid": "3030-383",
-        "gbid": 383,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1881075-box_mkd.png",
-        "deck": "The sixth installment in the violent fighting game franchise, introducing a manual \"Combo Breaker\" system and online multiplayer while adding a more in-depth Konquest Mode.",
-        "platforms": "PlayStation Portable, PlayStation 2, GameCube, Xbox"
-      },
-      "consoleName": "Xbox",
-      "consoleIgdbId": 11,
-      "consoleGbid": 32,
-      "consoleGbGuid": "3045-32",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "8",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-04-06",
-      "howAcquired": "Video Games Monthly",
-      "notes": "got 5 games this month so making them all $8 a piece",
-      "createdAt": "04/07/2020 06:24 am",
-      "updatedAt": "04/07/2020 06:24 am",
-      "_id": "e85dd2cfa69e42f38e6a13ca4cbe895f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1881075-box_mkd.png",
-      "description": "The sixth installment in the violent fighting game franchise, introducing a manual \"Combo Breaker\" system and online multiplayer while adding a more in-depth Konquest Mode.",
-      "miltiplayerNumber": 2,
-      "extraData": [
-        "Xbox game plays on Xbox 360 - There is flickering on the title screen"
-      ],
-      "extraDataFull": [
-        {
-          "igdbId": 1613,
-          "name": "Mortal Kombat: Deception",
-          "details": [
-            "Xbox game plays on Xbox 360 - There is flickering on the title screen"
-          ],
-          "id": "xbox250",
-          "gbId": 383,
-          "gbGuid": "3030-383",
-          "tgdbId": 4817,
-          "special": [
-            {
-              "value": "Xbox game plays on Xbox 360 - There is flickering on the title screen",
-              "forPlatform": {
-                "name": "Microsoft Xbox",
-                "id": "ccl25",
-                "igdbId": 11,
-                "gbId": 32,
-                "gbGuid": "3045-32",
-                "tgdbId": 14
-              }
-            }
-          ],
-          "isExclusive": false,
-          "isLaunchTitle": false
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Power Drome",
-        "id": 5985,
-        "genres": [
-          "Racing",
-          "Sport",
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "06/14/2004",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Power Drome",
-        "guid": "3030-29925",
-        "gbid": 29925,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2428414-box_pdrome.png",
-        "deck": "Powerdrome is a sport born in the gutters of a universe ripped apart by war, devised as the fastest, most viscerally intense racing experience imaginable. Powerdrome is a budget title similar to F-Zero and Wipeout.",
-        "platforms": "PlayStation 2, Xbox, PC"
-      },
-      "consoleName": "PlayStation 2",
-      "consoleIgdbId": 8,
-      "consoleGbid": 19,
-      "consoleGbGuid": "3045-19",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "8",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-04-06",
-      "howAcquired": "Video Games Monthly",
-      "notes": "got 5 games this month so making them all $8 a piece",
-      "createdAt": "04/07/2020 06:29 am",
-      "updatedAt": "04/07/2020 06:29 am",
-      "_id": "2174836aa8d842f19b6dfb70d6e27e9d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2428414-box_pdrome.png",
-      "description": "Powerdrome is a sport born in the gutters of a universe ripped apart by war, devised as the fastest, most viscerally intense racing experience imaginable. Powerdrome is a budget title similar to F-Zero and Wipeout.",
-      "miltiplayerNumber": 4,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Spec Ops: Covert Assault",
-        "id": 9346,
-        "genres": [
-          "Shooter",
-          "Tactical"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "06/27/2001",
+        "total_rating": 79,
+        "total_rating_count": 9,
+        "first_release_date": "06/20/2016",
         "developers": "",
         "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-19656",
-        "gbid": 19656,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2179499-box_soca.png",
-        "deck": "Spec Ops: Covert Assault is a third person military shooter, which features teams of two soldiers completing various missions.",
-        "platforms": "PlayStation, PlayStation Network (PS3), PlayStation Network (PSP)"
+        "guid": "3030-54286",
+        "gbid": 54286,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
+        "deck": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
       },
-      "consoleName": "PlayStation",
-      "consoleIgdbId": 7,
-      "consoleGbid": 22,
-      "consoleGbGuid": "3045-22",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "8",
-      "physical": true,
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0.09",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/08/2020 06:13 am",
+      "updatedAt": "04/08/2020 06:13 am",
+      "_id": "04f504ce4f0a4c778197fae0e6a2282b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
+      "description": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
+        "name": "Golf Story",
+        "id": 35626,
+        "genres": [
+          "Role-playing (RPG)",
+          "Simulator",
+          "Sport",
+          "Indie"
+        ],
+        "total_rating": 82,
+        "total_rating_count": 28,
+        "first_release_date": "09/27/2017",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-60512",
+        "gbid": 60512,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
+        "deck": "Give up all you hold dear for one final shot at the top in this golfing RPG.",
+        "platforms": "Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "7",
+      "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-04-06",
-      "howAcquired": "Video Games Monthly",
-      "notes": "got 5 games this month so making them all $8 a piece",
-      "createdAt": "04/07/2020 06:26 am",
-      "updatedAt": "04/07/2020 06:26 am",
-      "_id": "dfd645fad6ea412290cb6faf55626678",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2179499-box_soca.png",
-      "description": "Spec Ops: Covert Assault is a third person military shooter, which features teams of two soldiers completing various missions.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
+      "datePurchased": "2020-04-07",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/08/2020 06:12 am",
+      "updatedAt": "04/08/2020 06:12 am",
+      "_id": "2eef5a28ee4e4fca845622eda30f2182",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
+      "description": "Give up all you hold dear for one final shot at the top in this golfing RPG.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "The Jackbox Party Pack 2",
+        "id": 19081,
+        "genres": [
+          "Music",
+          "Strategy",
+          "Quiz/Trivia",
+          "Indie"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 17,
+        "first_release_date": "10/11/2015",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-51103",
+        "gbid": 51103,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
+        "deck": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
+        "platforms": "Mac, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "8",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:45 am",
+      "updatedAt": "04/08/2020 06:45 am",
+      "_id": "728704b2d3224a3286ef5dce1bfbe44b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
+      "description": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
+      "miltiplayerNumber": 8
+    },
+    {
+      "igdb": {
+        "name": "Sniper Elite III",
+        "id": 8366,
+        "genres": [
+          "Shooter",
+          "Simulator",
+          "Tactical",
+          "Adventure"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 95,
+        "first_release_date": "06/23/2014",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Sniper Elite 3",
+        "guid": "3030-41928",
+        "gbid": 41928,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
+        "deck": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:44 am",
+      "updatedAt": "04/08/2020 06:44 am",
+      "_id": "9793db37e23b4d949822e9a6b1a3295a",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
+      "description": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Killing Floor 2",
+        "id": 6748,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 76,
+        "total_rating_count": 76,
+        "first_release_date": "11/17/2016",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-46434",
+        "gbid": 46434,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
+        "deck": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:43 am",
+      "updatedAt": "04/08/2020 06:43 am",
+      "_id": "93cffceeaec346d3a1549394ac1b76ce",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
+      "description": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -823,15 +786,15 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Switch": 36,
+    "PC (Microsoft Windows)": 156,
     "Game Boy Advance": 14,
     "Nintendo Entertainment System (NES)": 42,
     "Xbox": 42,
     "PlayStation 2": 53,
     "PlayStation": 18,
     "PlayStation 4": 126,
-    "Nintendo Switch": 34,
     "Nintendo DS": 18,
-    "PC (Microsoft Windows)": 116,
     "Game Boy": 6,
     "Sega Mega Drive/Genesis": 29,
     "Xbox 360": 55,
@@ -855,25 +818,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "T": 149,
-    "E": 196,
-    "M": 231,
+    "T": 157,
+    "E": 202,
+    "M": 238,
+    "E10+": 82,
+    "NOT RATED": 194,
     "RP": 13,
-    "NOT RATED": 182,
-    "E10+": 73,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 583,
-    "digital": 262
+    "digital": 304
   },
   "gamesAcquisition": {
+    "eShop": 20,
+    "Steam": 112,
     "Video Games Monthly": 29,
     "PSN": 104,
-    "eShop": 18,
     "eBay": 48,
     "bought from Solis": 21,
-    "Steam": 72,
     "GameStop": 66,
     "UNKNOWN": 127,
     "GameOver": 206,
@@ -905,31 +868,35 @@
   },
   "cibGames": 240,
   "gamesWithGenre": {
-    "platform": 170,
-    "hack and slash/beat 'em up": 52,
-    "adventure": 296,
-    "fighting": 55,
-    "puzzle": 86,
-    "racing": 108,
-    "sport": 119,
-    "shooter": 293,
-    "tactical": 20,
-    "role-playing (rpg)": 108,
-    "arcade": 66,
-    "simulator": 77,
-    "indie": 63,
-    "strategy": 77,
-    "music": 22,
-    "point-and-click": 5,
+    "strategy": 89,
+    "quiz/trivia": 8,
+    "indie": 89,
+    "role-playing (rpg)": 115,
+    "simulator": 86,
+    "sport": 121,
+    "music": 24,
+    "shooter": 298,
+    "tactical": 22,
+    "adventure": 319,
+    "puzzle": 98,
+    "platform": 177,
+    "arcade": 70,
+    "point-and-click": 7,
+    "hack and slash/beat 'em up": 57,
+    "turn-based strategy (tbs)": 13,
+    "real time strategy (rts)": 10,
+    "fighting": 56,
+    "racing": 110,
     "visual novel": 1,
-    "turn-based strategy (tbs)": 11,
     "pinball": 4,
-    "real time strategy (rts)": 7,
-    "quiz/trivia": 6,
     "action": 1,
     "fps": 1
   },
   "gamesAddedInMonth": [
+    {
+      "dateFormatted": "04/2020",
+      "games": 49
+    },
     {
       "dateFormatted": "02/2020",
       "games": 48
@@ -995,10 +962,6 @@
       "games": 10
     },
     {
-      "dateFormatted": "04/2020",
-      "games": 7
-    },
-    {
       "dateFormatted": "11/2018",
       "games": 7
     },
@@ -1046,7 +1009,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 103
+      "games": 145
     },
     {
       "dateFormatted": "2018",
@@ -1064,15 +1027,15 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 58
+      "value": 60
     },
     {
       "category": "Good (70 - 89)",
-      "value": 534
+      "value": 565
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 143
+      "value": 152
     },
     {
       "category": "Poor (30 - 49)",

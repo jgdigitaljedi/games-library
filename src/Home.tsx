@@ -1,9 +1,4 @@
-import React, {
-  FunctionComponent,
-  useCallback,
-  useState,
-  useEffect
-} from 'react';
+import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
 import { IGame, IConsole } from './common.model';
@@ -73,7 +68,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   }
 
   const getData = useCallback(async () => {
-    const result = await Axios.get('http://localhost:4001/api/stats');
+    const result = await Axios.get('http://localhost:4001/api/vg/stats');
     if (result && result.data) {
       setData(result.data);
       console.log('result.data', result.data);

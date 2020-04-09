@@ -1,9 +1,4 @@
-import React, {
-  FunctionComponent,
-  useCallback,
-  useState,
-  useEffect
-} from 'react';
+import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
 import { IGame } from './common.model';
@@ -43,7 +38,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
 
   const getData = useCallback(
     async (ed?: boolean) => {
-      const result = await Axios.post('http://localhost:4001/api/gamescombined', {
+      const result = await Axios.post('http://localhost:4001/api/vg/gamescombined', {
         everDrive: ed
       });
       if (result && result.data) {

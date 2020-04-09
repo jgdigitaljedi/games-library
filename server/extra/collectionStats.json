@@ -2,111 +2,26 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Borderlands",
-        "id": 498,
+        "name": "Drawful 2",
+        "id": 19083,
         "genres": [
-          "Shooter",
-          "Role-playing (RPG)"
+          "Strategy",
+          "Quiz/Trivia",
+          "Indie"
         ],
-        "total_rating": 81,
-        "total_rating_count": 525,
-        "first_release_date": "10/19/2009",
+        "total_rating": 79,
+        "total_rating_count": 9,
+        "first_release_date": "06/20/2016",
         "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Borderlands: Game of the Year Edition",
-        "guid": "3030-20487",
-        "gbid": 20487,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
-        "deck": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
-        "platforms": "Mac, Xbox 360, PlayStation 3, PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "7.50",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": 2,
-      "datePurchased": "2020-04-03",
-      "howAcquired": "PSN",
-      "notes": "BOTY edition purchased during Spring Sale",
-      "createdAt": "04/05/2020 07:04 am",
-      "updatedAt": "04/05/2020 07:04 am",
-      "_id": "d1b78e9209bb46ffb4cf79e5f4a76cd5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2560037-blclean.jpg",
-      "description": "Borderlands is a first-person shooter RPG from Gearbox Software that puts players into the shoes of one of four playable characters as they traverse the hostile planet of Pandora in search of a mysterious \"Vault,\" said to contain priceless unknown riches and alien technologies.",
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Devil May Cry 5",
-        "id": 76253,
-        "genres": [
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": 88,
-        "total_rating_count": 169,
-        "first_release_date": "03/07/2019",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "DMC5",
-        "guid": "3030-68910",
-        "gbid": 68910,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
-        "deck": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "17.50",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": 1,
-      "datePurchased": "2020-04-03",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "04/05/2020 07:02 am",
-      "updatedAt": "04/05/2020 07:02 am",
-      "_id": "3bfe620fa1d1450797b9762f27cab88f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027479-box_dmc5.png",
-      "description": "Set several years after Devil May Cry 4. which was released a decade prior, the series returns with three playable characters including the original and recurring protagonist, Dante and the protagonist of the fourth installment, Nero.",
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Panzer Dragoon: Remake",
-        "id": 113350,
-        "genres": [
-          "Shooter",
-          "Adventure",
-          "Arcade"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "03/25/2020",
-        "developers": "",
-        "esrb": "RP"
+        "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-73811",
-        "gbid": 73811,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
-        "deck": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995.",
-        "platforms": "PC, Nintendo Switch, Google Stadia"
+        "guid": "3030-54286",
+        "gbid": 54286,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
+        "deck": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
       },
       "consoleName": "Nintendo Switch",
       "consoleIgdbId": 130,
@@ -114,103 +29,184 @@
       "consoleGbGuid": "3045-157",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "25",
+      "pricePaid": "0.09",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": 1,
-      "datePurchased": "2020-03-31",
+      "multiplayerNumber": 4,
+      "datePurchased": "2020-04-07",
       "howAcquired": "eShop",
       "notes": "",
-      "createdAt": "04/01/2020 06:00 am",
-      "updatedAt": "04/01/2020 06:00 am",
-      "_id": "2f046f41f1484315bcc9d09d13257f11",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3107217-screen%20shot%202019-06-11%20at%2012.29.25%20pm.png",
-      "description": "Panzer Dragoon is a full remake of the classic Sega Saturn title from 1995."
+      "createdAt": "04/08/2020 06:13 am",
+      "updatedAt": "04/08/2020 06:13 am",
+      "_id": "04f504ce4f0a4c778197fae0e6a2282b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
+      "description": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features."
     },
     {
       "igdb": {
-        "name": "Untitled Goose Game",
-        "id": 72813,
+        "name": "Golf Story",
+        "id": 35626,
         "genres": [
+          "Role-playing (RPG)",
           "Simulator",
+          "Sport",
           "Indie"
         ],
-        "total_rating": 84,
-        "total_rating_count": 66,
-        "first_release_date": "09/19/2019",
+        "total_rating": 82,
+        "total_rating_count": 28,
+        "first_release_date": "09/27/2017",
         "developers": "",
-        "esrb": "RP"
+        "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-62001",
-        "gbid": 62001,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
-        "deck": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "guid": "3030-60512",
+        "gbid": 60512,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
+        "deck": "Give up all you hold dear for one final shot at the top in this golfing RPG.",
+        "platforms": "Nintendo Switch"
       },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "20",
+      "pricePaid": "7",
       "physical": "",
       "cib": "",
       "multiplayerNumber": 1,
-      "datePurchased": "2020-03-31",
-      "howAcquired": "PSN",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "eShop",
       "notes": "",
-      "createdAt": "04/01/2020 06:01 am",
-      "updatedAt": "04/01/2020 06:01 am",
-      "_id": "3f36ef03f4e546bb9d94611c6b20e5aa",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3151026-box_ugg.jpg",
-      "description": "A comedic stealth \"slapstick\" game where it's a beautiful morning in the village and you're a horrible goose.",
-      "extraData": [],
-      "extraDataFull": []
+      "createdAt": "04/08/2020 06:12 am",
+      "updatedAt": "04/08/2020 06:12 am",
+      "_id": "2eef5a28ee4e4fca845622eda30f2182",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
+      "description": "Give up all you hold dear for one final shot at the top in this golfing RPG."
     },
     {
       "igdb": {
-        "name": "Lifeforce",
-        "id": 55022,
+        "name": "The Jackbox Party Pack 2",
+        "id": 19081,
+        "genres": [
+          "Music",
+          "Strategy",
+          "Quiz/Trivia",
+          "Indie"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 17,
+        "first_release_date": "10/11/2015",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-51103",
+        "gbid": 51103,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
+        "deck": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
+        "platforms": "Mac, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": 8,
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:45 am",
+      "updatedAt": "04/08/2020 06:45 am",
+      "_id": "728704b2d3224a3286ef5dce1bfbe44b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
+      "description": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation)."
+    },
+    {
+      "igdb": {
+        "name": "Sniper Elite III",
+        "id": 8366,
+        "genres": [
+          "Shooter",
+          "Simulator",
+          "Tactical",
+          "Adventure"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 95,
+        "first_release_date": "06/23/2014",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Sniper Elite 3",
+        "guid": "3030-41928",
+        "gbid": 41928,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
+        "deck": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": 1,
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:44 am",
+      "updatedAt": "04/08/2020 06:44 am",
+      "_id": "9793db37e23b4d949822e9a6b1a3295a",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
+      "description": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot."
+    },
+    {
+      "igdb": {
+        "name": "Killing Floor 2",
+        "id": 6748,
         "genres": [
           "Shooter"
         ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1987",
+        "total_rating": 76,
+        "total_rating_count": 76,
+        "first_release_date": "11/17/2016",
         "developers": "",
-        "esrb": ""
+        "esrb": "M"
       },
       "gb": {
-        "aliases": "Salamander",
-        "guid": "3030-13960",
-        "gbid": 13960,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
-        "deck": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
-        "platforms": "Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Arcade, Wii Shop, Nintendo 3DS eShop, Wii U, PlayStation 4, Nintendo Switch"
+        "aliases": "",
+        "guid": "3030-46434",
+        "gbid": 46434,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
+        "deck": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons.",
+        "platforms": "PC, Xbox One, PlayStation 4"
       },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "14",
-      "physical": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
       "cib": "",
-      "multiplayerNumber": 2,
-      "datePurchased": "2020-03-31",
-      "howAcquired": "eBay",
-      "notes": "",
-      "createdAt": "03/31/2020 04:32 pm",
-      "updatedAt": "03/31/2020 04:32 pm",
-      "_id": "a387166a181448089c7f1ba3f5ed57ea",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361964-nes_lifeforce.jpg",
-      "description": "Life Force is the US title for the Japanese video game Salamander. Though similar to Gradius, Life Force does have some unique modifications to differentiate it from its more well-known predecessor.",
-      "extraData": [],
-      "extraDataFull": []
+      "multiplayerNumber": 1,
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:43 am",
+      "updatedAt": "04/08/2020 06:43 am",
+      "_id": "93cffceeaec346d3a1549394ac1b76ce",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
+      "description": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons."
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -780,16 +776,17 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Switch": 36,
+    "PC (Microsoft Windows)": 156,
+    "Game Boy Advance": 14,
+    "Nintendo Entertainment System (NES)": 42,
+    "Xbox": 42,
+    "PlayStation 2": 53,
+    "PlayStation": 18,
     "PlayStation 4": 126,
-    "Nintendo Switch": 34,
-    "Nintendo Entertainment System (NES)": 41,
     "Nintendo DS": 18,
-    "PlayStation 2": 52,
-    "PC (Microsoft Windows)": 116,
     "Game Boy": 6,
-    "Xbox": 41,
     "Sega Mega Drive/Genesis": 29,
-    "PlayStation": 17,
     "Xbox 360": 55,
     "Atari 2600": 11,
     "Dreamcast": 23,
@@ -808,32 +805,31 @@
     "Sega Game Gear": 3,
     "PlayStation Portable": 16,
     "Nintendo 3DS": 11,
-    "Game Boy Advance": 13,
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 230,
+    "T": 157,
+    "E": 202,
+    "M": 238,
+    "E10+": 82,
+    "NOT RATED": 194,
     "RP": 13,
-    "NOT RATED": 182,
-    "E": 195,
-    "E10+": 73,
-    "T": 146,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 578,
-    "digital": 262
+    "physical": 583,
+    "digital": 304
   },
   "gamesAcquisition": {
+    "eShop": 20,
+    "Steam": 112,
+    "Video Games Monthly": 29,
     "PSN": 104,
-    "eShop": 18,
     "eBay": 48,
     "bought from Solis": 21,
-    "Steam": 72,
     "GameStop": 66,
     "UNKNOWN": 127,
     "GameOver": 206,
-    "Video Games Monthly": 24,
     "Target": 4,
     "Walmart": 13,
     "Retro Game Treasure": 40,
@@ -862,31 +858,35 @@
   },
   "cibGames": 240,
   "gamesWithGenre": {
-    "shooter": 292,
-    "role-playing (rpg)": 108,
-    "hack and slash/beat 'em up": 50,
-    "adventure": 295,
-    "arcade": 66,
-    "simulator": 77,
-    "indie": 63,
-    "puzzle": 85,
-    "platform": 168,
-    "strategy": 77,
-    "tactical": 19,
-    "music": 22,
-    "point-and-click": 5,
+    "strategy": 89,
+    "quiz/trivia": 8,
+    "indie": 89,
+    "role-playing (rpg)": 115,
+    "simulator": 86,
+    "sport": 121,
+    "music": 24,
+    "shooter": 298,
+    "tactical": 22,
+    "adventure": 319,
+    "puzzle": 98,
+    "platform": 177,
+    "arcade": 70,
+    "point-and-click": 7,
+    "hack and slash/beat 'em up": 57,
+    "turn-based strategy (tbs)": 13,
+    "real time strategy (rts)": 10,
+    "fighting": 56,
+    "racing": 110,
     "visual novel": 1,
-    "sport": 118,
-    "racing": 107,
-    "fighting": 54,
-    "turn-based strategy (tbs)": 11,
     "pinball": 4,
-    "real time strategy (rts)": 7,
-    "quiz/trivia": 6,
     "action": 1,
     "fps": 1
   },
   "gamesAddedInMonth": [
+    {
+      "dateFormatted": "04/2020",
+      "games": 49
+    },
     {
       "dateFormatted": "02/2020",
       "games": 48
@@ -980,10 +980,6 @@
       "games": 3
     },
     {
-      "dateFormatted": "04/2020",
-      "games": 2
-    },
-    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1003,7 +999,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 98
+      "games": 145
     },
     {
       "dateFormatted": "2018",
@@ -1021,15 +1017,15 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 58
+      "value": 60
     },
     {
       "category": "Good (70 - 89)",
-      "value": 532
+      "value": 565
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 142
+      "value": 152
     },
     {
       "category": "Poor (30 - 49)",
@@ -1037,7 +1033,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 94
+      "value": 96
     }
   ],
   "consolesByCompany": {

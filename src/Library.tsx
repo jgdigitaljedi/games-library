@@ -111,22 +111,22 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     let url = '';
     switch (props.viewWhat) {
       case 'games':
-        url = 'http://localhost:4001/api/games';
+        url = 'http://localhost:4001/api/vg/games';
         break;
       case 'consoles':
-        url = 'http://localhost:4001/api/consoles';
+        url = 'http://localhost:4001/api/vg/consoles';
         break;
       case 'accessories':
-        url = 'http://localhost:4001/api/acc';
+        url = 'http://localhost:4001/api/vg/acc';
         break;
       case 'clones':
-        url = 'http://localhost:4001/api/clones';
+        url = 'http://localhost:4001/api/vg/clones';
         break;
       case 'collectibles':
-        url = 'http://localhost:4001/api/collectibles';
+        url = 'http://localhost:4001/api/vg/collectibles';
         break;
       case 'hardware':
-        url = 'http://localhost:4001/api/hardware';
+        url = 'http://localhost:4001/api/vg/hardware';
         break;
     }
     const result = await axios.get(url);

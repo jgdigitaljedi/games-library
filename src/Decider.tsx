@@ -31,7 +31,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [showModal, setShowModal] = useState<boolean>(false);
 
   const getEverdrives = useCallback(async () => {
-    const result = await axios.get('http://localhost:4001/api/vg/everdrives');
+    const result = await axios.get(`${window.urlPrefix}/api/vg/everdrives`);
     if (result && result.data) {
       setEverDrives(result.data);
     }
@@ -46,7 +46,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   const getData = useCallback(
     async (ed?: boolean) => {
-      const result = await axios.post('http://localhost:4001/api/vg/gamescombined', {
+      const result = await axios.post(`${window.urlPrefix}/api/vg/gamescombined`, {
         everDrive: ed
       });
       if (result && result.data) {

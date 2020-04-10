@@ -13,6 +13,15 @@ import Library from './Library';
 import Lists from './Lists';
 import Viz from './Viz';
 import { CombinedContextProvider } from './context/CombinedContext';
+import UrlService from './services/url.service';
+
+declare global {
+  interface Window {
+    urlPrefix: string;
+  }
+}
+
+window.urlPrefix = UrlService.prefix;
 
 function App(): JSX.Element {
   return (

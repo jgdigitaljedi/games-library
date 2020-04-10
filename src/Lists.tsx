@@ -31,7 +31,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
 
   const getList = useCallback(which => {
     setWhichList(which);
-    Axios.post('http://localhost:4001/api/vg/lists', { which })
+    Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
       .then(result => {
         if (result && result.data) {
           setData(_sortBy(result.data, 'consoleName'));

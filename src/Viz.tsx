@@ -38,7 +38,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
 
   const getData = useCallback(
     async (ed?: boolean) => {
-      const result = await Axios.post('http://localhost:4001/api/vg/gamescombined', {
+      const result = await Axios.post(`${window.urlPrefix}/api/vg/gamescombined`, {
         everDrive: ed
       });
       if (result && result.data) {

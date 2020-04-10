@@ -68,10 +68,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   }
 
   const getData = useCallback(async () => {
-    const result = await Axios.get('http://localhost:4001/api/vg/stats');
+    const result = await Axios.get(`${window.urlPrefix}/api/vg/stats`);
     if (result && result.data) {
       setData(result.data);
-      console.log('result.data', result.data);
     }
   }, []);
 
@@ -81,11 +80,6 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
 
   useEffect(() => {
     getData();
-    console.log('dasasd', {
-      ...chartOptions,
-      ...extraChartOptions,
-      ...addTitle('Games per platform')
-    });
     // eslint-disable-next-line
   }, [getData]);
 

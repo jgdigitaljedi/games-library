@@ -26,25 +26,10 @@ const supp = keys.map(key => {
   const file = fileLookup(key);
   if (file) {
     const ids = file.map(f => f.igdbId);
-    const gbids = file.map(f => f.gbId);
     return sorted[key].map(game => {
       if (game && game.igdb && game.igdb.id) {
         const index = ids.indexOf(game.igdb.id);
-        if (game.extraData) {
-          game.extraDataFull = [...game.extraDataFull, file[index]];
-          game.extraData = [...game.extraData, ...file[index].details];
-        } else {
-          if (file[index]) {
-            game.extraData = file[index].details;
-            game.extraDataFull = [file[index]];
-          } else {
-            game.extraData = [];
-            game.extraDataFull = [];
-          }
-        }
-      } else if (game && game.gb && game.gb.gbid) {
-        const index = gbids.indexOf(game.gb.gbId);
-        if (game.extraData) {
+        if (game.extraData && index > -1) {
           game.extraDataFull = [...game.extraDataFull, file[index]];
           game.extraData = [...game.extraData, ...file[index].details];
         } else {

@@ -1,130 +1,130 @@
 {
   "Nintendo DS": {
     "isLaunchTitle": 0,
-    "isExclusive": 7
+    "isExclusive": 14
   },
   "Sony Playstation 4": {
-    "isLaunchTitle": 3,
-    "isExclusive": 28
+    "isLaunchTitle": 6,
+    "isExclusive": 56
   },
   "Nintendo Game Boy": {
-    "isLaunchTitle": 1,
+    "isLaunchTitle": 2,
     "isExclusive": 0
   },
   "Sega Mega Drive/Genesis": {
-    "isLaunchTitle": 1,
-    "isExclusive": 6,
+    "isLaunchTitle": 2,
+    "isExclusive": 12,
     "special": {
       "blackBoxGrid": {
-        "count": 5,
+        "count": 10,
         "text": "Sega Mega Drive/Genesis black box grid"
       },
       "teamPlayer": {
-        "count": 2,
+        "count": 4,
         "text": "Sega Genesis Team Player compatible title"
       }
     }
   },
   "Sony PlayStation": {
     "isLaunchTitle": 0,
-    "isExclusive": 3,
+    "isExclusive": 6,
     "special": {
       "multitap": {
-        "count": 2,
+        "count": 4,
         "text": "Sony PlayStation multitap compatible title"
       }
     }
   },
   "Nintendo Entertainment System (NES)": {
-    "isLaunchTitle": 3,
-    "isExclusive": 4,
+    "isLaunchTitle": 6,
+    "isExclusive": 8,
     "special": {
       "hangTabGame": {
-        "count": 8,
+        "count": 16,
         "text": "NES hang tab game"
       },
       "blackBox": {
-        "count": 3,
+        "count": 6,
         "text": "NES black box game"
       }
     }
   },
   "Sega CD": {
-    "isLaunchTitle": 2,
-    "isExclusive": 2
+    "isLaunchTitle": 4,
+    "isExclusive": 4
   },
   "Nintendo GameCube": {
-    "isLaunchTitle": 1,
-    "isExclusive": 11
+    "isLaunchTitle": 2,
+    "isExclusive": 22
+  },
+  "NEC TurboGrafx 16": {
+    "isLaunchTitle": 4,
+    "isExclusive": 0
   },
   "TurboGrafx-16/PC Engine": {
     "isLaunchTitle": 0,
     "isExclusive": 0,
     "special": {
       "multitap": {
-        "count": 2,
+        "count": 4,
         "text": "TurboGrafx-16 Multitap compatible title"
       }
     }
   },
-  "NEC TurboGrafx 16": {
-    "isLaunchTitle": 2,
-    "isExclusive": 0
-  },
   "Nintendo Wii U": {
-    "isLaunchTitle": 2,
-    "isExclusive": 10
+    "isLaunchTitle": 4,
+    "isExclusive": 20
   },
   "Atari 2600": {
-    "isLaunchTitle": 2,
-    "isExclusive": 1
-  },
-  "Sega Dreamcast": {
     "isLaunchTitle": 4,
     "isExclusive": 2
   },
+  "Sega Dreamcast": {
+    "isLaunchTitle": 8,
+    "isExclusive": 4
+  },
   "Sony Playstation Portable": {
-    "isLaunchTitle": 3,
-    "isExclusive": 6
+    "isLaunchTitle": 6,
+    "isExclusive": 12
   },
   "Sony Playstation 2": {
-    "isLaunchTitle": 2,
-    "isExclusive": 9
+    "isLaunchTitle": 4,
+    "isExclusive": 18
   },
   "Microsoft Xbox": {
-    "isLaunchTitle": 3,
-    "isExclusive": 8
+    "isLaunchTitle": 6,
+    "isExclusive": 16
   },
   "Sega Game Gear": {
     "isLaunchTitle": 0,
-    "isExclusive": 1
+    "isExclusive": 2
   },
   "Sega 32X": {
-    "isLaunchTitle": 3,
-    "isExclusive": 4
+    "isLaunchTitle": 6,
+    "isExclusive": 8
   },
   "Nintendo Game Boy Color": {
     "isLaunchTitle": 0,
-    "isExclusive": 2
+    "isExclusive": 4
   },
   "Microsoft Xbox 360": {
-    "isLaunchTitle": 1,
-    "isExclusive": 15
+    "isLaunchTitle": 2,
+    "isExclusive": 30
   },
   "Nintendo 64": {
-    "isLaunchTitle": 1,
-    "isExclusive": 5
+    "isLaunchTitle": 2,
+    "isExclusive": 10
   },
   "Nintendo Wii": {
-    "isLaunchTitle": 4,
-    "isExclusive": 12
+    "isLaunchTitle": 8,
+    "isExclusive": 24
   },
   "Microsoft Xbox One": {
-    "isLaunchTitle": 1,
-    "isExclusive": 5
+    "isLaunchTitle": 2,
+    "isExclusive": 10
   },
   "Nintendo Game Boy Advance": {
-    "isLaunchTitle": 2,
-    "isExclusive": 3
+    "isLaunchTitle": 4,
+    "isExclusive": 6
   }
 }

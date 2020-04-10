@@ -2,48 +2,6 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Drawful 2",
-        "id": 19083,
-        "genres": [
-          "Strategy",
-          "Quiz/Trivia",
-          "Indie"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 9,
-        "first_release_date": "06/20/2016",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-54286",
-        "gbid": 54286,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
-        "deck": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0.09",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": 4,
-      "datePurchased": "2020-04-07",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "04/08/2020 06:13 am",
-      "updatedAt": "04/08/2020 06:13 am",
-      "_id": "04f504ce4f0a4c778197fae0e6a2282b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
-      "description": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features."
-    },
-    {
-      "igdb": {
         "name": "Golf Story",
         "id": 35626,
         "genres": [
@@ -56,15 +14,18 @@
         "total_rating_count": 28,
         "first_release_date": "09/27/2017",
         "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-60512",
-        "gbid": 60512,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
-        "deck": "Give up all you hold dear for one final shot at the top in this golfing RPG.",
-        "platforms": "Nintendo Switch"
+        "esrb": "E",
+        "cover": {
+          "id": 80131,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ptv.jpg"
+        },
+        "platforms": [
+          {
+            "id": 130,
+            "name": "Nintendo Switch"
+          }
+        ],
+        "summary": "Play the story of a golfer, forced to give up all that he holds dear for one final shot at accomplishing his dream. \n \nBut all is not so simple in the world of golf. To best today's players you have to be able to keep up with them not just on the course, but also off it."
       },
       "consoleName": "Nintendo Switch",
       "consoleIgdbId": 130,
@@ -82,74 +43,113 @@
       "createdAt": "04/08/2020 06:12 am",
       "updatedAt": "04/08/2020 06:12 am",
       "_id": "2eef5a28ee4e4fca845622eda30f2182",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
-      "description": "Give up all you hold dear for one final shot at the top in this golfing RPG."
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1ptv.jpg",
+      "description": "Play the story of a golfer, forced to give up all that he holds dear for one final shot at accomplishing his dream. \n \nBut all is not so simple in the world of golf. To best today's players you have to be able to keep up with them not just on the course, but also off it."
     },
     {
       "igdb": {
-        "name": "The Jackbox Party Pack 2",
-        "id": 19081,
+        "name": "Drawful 2",
+        "id": 19083,
         "genres": [
-          "Music",
           "Strategy",
           "Quiz/Trivia",
           "Indie"
         ],
-        "total_rating": 70,
-        "total_rating_count": 17,
-        "first_release_date": "10/11/2015",
+        "total_rating": 79,
+        "total_rating_count": 9,
+        "first_release_date": "06/20/2016",
         "developers": "",
-        "esrb": "T"
+        "esrb": "T",
+        "cover": {
+          "id": 82607,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rqn.jpg"
+        },
+        "multiplayer_modes": [
+          {
+            "id": 8059,
+            "offlinecoopmax": 0,
+            "offlinemax": 0
+          }
+        ],
+        "platforms": [
+          {
+            "id": 3,
+            "name": "Linux"
+          },
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          },
+          {
+            "id": 14,
+            "name": "Mac"
+          },
+          {
+            "id": 48,
+            "name": "PlayStation 4"
+          },
+          {
+            "id": 49,
+            "name": "Xbox One"
+          },
+          {
+            "id": 130,
+            "name": "Nintendo Switch"
+          }
+        ],
+        "summary": "The team behind the hit party games Fibbage, Quiplash, and YOU DON’T KNOW JACK presents Drawful 2, the game of terrible drawings and hilariously wrong answers! \n \nYou use your phone or tablet to draw weird and funny things like “pitcher of nachos” or “death by trombone.” The other players type in what they think the (probably terrible) drawing is and those become the multiple-choice wrong answers. Then everyone - even an audience of potentially thousands – tries to guess the REAL answer. \n \nDrawful 2 is a go-to party game that everyone can play and enjoy!"
       },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-51103",
-        "gbid": 51103,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
-        "deck": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
-        "platforms": "Mac, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "1",
+      "pricePaid": "0.09",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": 8,
+      "multiplayerNumber": 1,
       "datePurchased": "2020-04-07",
-      "howAcquired": "Steam",
-      "notes": "Humble Bundle purchase",
-      "createdAt": "04/08/2020 06:45 am",
-      "updatedAt": "04/08/2020 06:45 am",
-      "_id": "728704b2d3224a3286ef5dce1bfbe44b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
-      "description": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation)."
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/08/2020 06:13 am",
+      "updatedAt": "04/08/2020 06:13 am",
+      "_id": "04f504ce4f0a4c778197fae0e6a2282b",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1rqn.jpg",
+      "description": "The team behind the hit party games Fibbage, Quiplash, and YOU DON’T KNOW JACK presents Drawful 2, the game of terrible drawings and hilariously wrong answers! \n \nYou use your phone or tablet to draw weird and funny things like “pitcher of nachos” or “death by trombone.” The other players type in what they think the (probably terrible) drawing is and those become the multiple-choice wrong answers. Then everyone - even an audience of potentially thousands – tries to guess the REAL answer. \n \nDrawful 2 is a go-to party game that everyone can play and enjoy!"
     },
     {
       "igdb": {
-        "name": "Sniper Elite III",
-        "id": 8366,
+        "name": "Agents of Mayhem",
+        "id": 19440,
         "genres": [
           "Shooter",
-          "Simulator",
-          "Tactical",
           "Adventure"
         ],
-        "total_rating": 70,
-        "total_rating_count": 95,
-        "first_release_date": "06/23/2014",
+        "total_rating": 72,
+        "total_rating_count": 40,
+        "first_release_date": "08/14/2017",
         "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Sniper Elite 3",
-        "guid": "3030-41928",
-        "gbid": 41928,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
-        "deck": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
-        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "esrb": "",
+        "cover": {
+          "id": 96713,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co22mh.jpg"
+        },
+        "platforms": [
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          },
+          {
+            "id": 48,
+            "name": "PlayStation 4"
+          },
+          {
+            "id": 49,
+            "name": "Xbox One"
+          }
+        ],
+        "summary": "Agents of Mayhem is the new open world game from Volition, the studio that brought you the Saints Row franchise. Play as a cast of unique and diverse Super Agents from all over the world, and lead them in MAYHEM’s epic fight to save the city of Seoul from the destructive schemes of the evil supervillain organization LEGION!"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -163,32 +163,41 @@
       "datePurchased": "2020-04-07",
       "howAcquired": "Steam",
       "notes": "Humble Bundle purchase",
-      "createdAt": "04/08/2020 06:44 am",
-      "updatedAt": "04/08/2020 06:44 am",
-      "_id": "9793db37e23b4d949822e9a6b1a3295a",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
-      "description": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot."
+      "createdAt": "04/08/2020 06:16 am",
+      "updatedAt": "04/08/2020 06:16 am",
+      "_id": "99a264074d53409e816994293941ad18",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co22mh.jpg",
+      "description": "Agents of Mayhem is the new open world game from Volition, the studio that brought you the Saints Row franchise. Play as a cast of unique and diverse Super Agents from all over the world, and lead them in MAYHEM’s epic fight to save the city of Seoul from the destructive schemes of the evil supervillain organization LEGION!"
     },
     {
       "igdb": {
-        "name": "Killing Floor 2",
-        "id": 6748,
+        "name": "Alien Spidy",
+        "id": 9965,
         "genres": [
-          "Shooter"
+          "Platform",
+          "Adventure",
+          "Indie"
         ],
-        "total_rating": 76,
-        "total_rating_count": 76,
-        "first_release_date": "11/17/2016",
+        "total_rating": 54,
+        "total_rating_count": 5,
+        "first_release_date": "03/19/2013",
         "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-46434",
-        "gbid": 46434,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
-        "deck": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons.",
-        "platforms": "PC, Xbox One, PlayStation 4"
+        "esrb": "E",
+        "cover": {
+          "id": 13004,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/spce1t6leoda19m8vctt.jpg"
+        },
+        "platforms": [
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          },
+          {
+            "id": 14,
+            "name": "Mac"
+          }
+        ],
+        "summary": "After losing contact with his explorer friend Virgi, our fearless alien hero Spidy heads to Earth in his spacecraft to find her. While entering the Earth’s atmosphere, his spacecraft suddenly fails and starts to break up, causing Spidy to crash-land on the strange planet, with his craft scattered across forests, throughout ponds and into dark caves. Spidy finds himself alone on an alien world and faces the epic challenge of tracking down Virgi, battling strange new enemies and finding the missing pieces from his spacecraft in order to repair the damage and make their escape home.\n\nThe stage is set for the adventure of a lifetime as Spidy embarks on a perilous journey through a visually stunning 2D/3D world, where quick reflexes and fast-paced platform action create a fun and rewarding gameplay experience, which is easy to pick up, but challenging to master."
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -202,11 +211,55 @@
       "datePurchased": "2020-04-07",
       "howAcquired": "Steam",
       "notes": "Humble Bundle purchase",
-      "createdAt": "04/08/2020 06:43 am",
-      "updatedAt": "04/08/2020 06:43 am",
-      "_id": "93cffceeaec346d3a1549394ac1b76ce",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
-      "description": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons."
+      "createdAt": "04/08/2020 06:17 am",
+      "updatedAt": "04/08/2020 06:17 am",
+      "_id": "cf3a8e5e7c09465aa5d5d7919537f9cd",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/spce1t6leoda19m8vctt.jpg",
+      "description": "After losing contact with his explorer friend Virgi, our fearless alien hero Spidy heads to Earth in his spacecraft to find her. While entering the Earth’s atmosphere, his spacecraft suddenly fails and starts to break up, causing Spidy to crash-land on the strange planet, with his craft scattered across forests, throughout ponds and into dark caves. Spidy finds himself alone on an alien world and faces the epic challenge of tracking down Virgi, battling strange new enemies and finding the missing pieces from his spacecraft in order to repair the damage and make their escape home.\n\nThe stage is set for the adventure of a lifetime as Spidy embarks on a perilous journey through a visually stunning 2D/3D world, where quick reflexes and fast-paced platform action create a fun and rewarding gameplay experience, which is easy to pick up, but challenging to master."
+    },
+    {
+      "igdb": {
+        "name": "Ducati: 90th Anniversary - The Official Videogame",
+        "id": 19804,
+        "genres": [
+          "Racing",
+          "Simulator",
+          "Sport"
+        ],
+        "total_rating": 50,
+        "total_rating_count": "",
+        "first_release_date": "06/08/2016",
+        "developers": "",
+        "esrb": "",
+        "cover": {
+          "id": 16064,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/vmlqodhaoczyxxaaygjk.jpg"
+        },
+        "platforms": [
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          }
+        ],
+        "summary": "Ducati - 90th Anniversary The Official Videogame comes from the creators of RIDE and Ducati passion itself, and is a true spin-off, entirely dedicated to the historic Ducati brand and presenting ninety years of motorcycle legends in a spectacular and exciting videogame.\n\nThe latest title from Milestone Studios boasts extensive content. The bikes themselves of course, with 39 different Ducati models included in the game, 29 of which have never before been seen in this context, divided into 7 eras, from the 1950's to the latest, high-performance Bologna-built bikes. You can race with the legendary 125 Desmo (1958) or with the 500 Pantah (1970), the beautiful 750 F1 (1980), but also with the first Monster 900 (1990) or the various evolutions of the \"naked\" par excellence, such as the high-performance Monster S4RS Tricolore. The Superbikes had to be incorporated of course and include the 848 (2000) and the highly exclusive 1199 Panigale Superleggera (2014), as well as the Desmosecidici GP15 ridden by Andrea Doviszioso and many Ducati production milestone models."
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": 1,
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:18 am",
+      "updatedAt": "04/08/2020 06:18 am",
+      "_id": "b56b739bbe454cd08eafa2b84fd1bf5f",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/vmlqodhaoczyxxaaygjk.jpg",
+      "description": "Ducati - 90th Anniversary The Official Videogame comes from the creators of RIDE and Ducati passion itself, and is a true spin-off, entirely dedicated to the historic Ducati brand and presenting ninety years of motorcycle legends in a spectacular and exciting videogame.\n\nThe latest title from Milestone Studios boasts extensive content. The bikes themselves of course, with 39 different Ducati models included in the game, 29 of which have never before been seen in this context, divided into 7 eras, from the 1950's to the latest, high-performance Bologna-built bikes. You can race with the legendary 125 Desmo (1958) or with the 500 Pantah (1970), the beautiful 750 F1 (1980), but also with the first Monster 900 (1990) or the various evolutions of the \"naked\" par excellence, such as the high-performance Monster S4RS Tricolore. The Superbikes had to be incorporated of course and include the 848 (2000) and the highly exclusive 1199 Panigale Superleggera (2014), as well as the Desmosecidici GP15 ridden by Andrea Doviszioso and many Ducati production milestone models."
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -399,15 +452,50 @@
         "total_rating_count": 7,
         "first_release_date": "12/30/1994",
         "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-9331",
-        "gbid": 9331,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
-        "deck": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
-        "platforms": "Game Boy Advance, Genesis, Super Nintendo Entertainment System, Jaguar, Sega CD, Sega 32X, NUON, Wii Shop, PC"
+        "esrb": "T",
+        "cover": {
+          "id": 5439,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/km1e8jd3lvduaefrtfow.jpg"
+        },
+        "platforms": [
+          {
+            "id": 5,
+            "name": "Wii"
+          },
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          },
+          {
+            "id": 19,
+            "name": "Super Nintendo Entertainment System (SNES)"
+          },
+          {
+            "id": 24,
+            "name": "Game Boy Advance"
+          },
+          {
+            "id": 29,
+            "name": "Sega Mega Drive/Genesis"
+          },
+          {
+            "id": 30,
+            "name": "Sega 32X"
+          },
+          {
+            "id": 47,
+            "name": "Virtual Console (Nintendo)"
+          },
+          {
+            "id": 62,
+            "name": "Atari Jaguar"
+          },
+          {
+            "id": 78,
+            "name": "Sega CD"
+          }
+        ],
+        "summary": "Pitfall: The Mayan Adventure is a side-scrolling action game in which you play adventurer Pitfall Harry Jr in search of his father Pitfall Harry. You battle your way through the Mayan jungles, waterfalls, deserted mines and can bungee jump and boomerang your way to safety. There are 13 levels and the action is fast and gripping. You will need to be attentive—and quick. Or prepare to die."
       },
       "consoleName": "Sega 32X",
       "consoleIgdbId": 30,
@@ -425,8 +513,8 @@
       "createdAt": "07/27/2019 03:01 pm",
       "updatedAt": "07/27/2019 03:01 pm",
       "_id": "a4865cb63f434af69cb195da9aee5e34",
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
-      "description": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/km1e8jd3lvduaefrtfow.jpg",
+      "description": "Pitfall: The Mayan Adventure is a side-scrolling action game in which you play adventurer Pitfall Harry Jr in search of his father Pitfall Harry. You battle your way through the Mayan jungles, waterfalls, deserted mines and can bungee jump and boomerang your way to safety. There are 13 levels and the action is fast and gripping. You will need to be attentive—and quick. Or prepare to die.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -442,15 +530,28 @@
         "total_rating_count": 22,
         "first_release_date": "10/05/2015",
         "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "RB4",
-        "guid": "3030-49077",
-        "gbid": 49077,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
-        "deck": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
-        "platforms": "Xbox One, PlayStation 4"
+        "esrb": "T",
+        "alternative_names": [
+          {
+            "id": 11616,
+            "name": "RB4"
+          }
+        ],
+        "cover": {
+          "id": 89091,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1wqr.jpg"
+        },
+        "platforms": [
+          {
+            "id": 48,
+            "name": "PlayStation 4"
+          },
+          {
+            "id": 49,
+            "name": "Xbox One"
+          }
+        ],
+        "summary": "Rock Band, the award-winning social and interactive music performance experience, is back! Form your own band, rock the world, and live out your ultimate rock and roll fantasy, with your friends, family, or as a solo act. Rock Band 4 delivers the ultimate platform for gamers to experience music, giving players the chance to rock in the shoes of the biggest guitarists, bassists, drummers, and singers of all time. Rock Band 4 delivers the most authentic music game ever, challenging rockers to master lead guitar, bass guitar, drums, and vocals."
       },
       "consoleName": "PlayStation 4",
       "consoleIgdbId": 48,
@@ -468,8 +569,8 @@
       "createdAt": "11/21/2018 06:09 am",
       "updatedAt": "11/21/2018 06:09 am",
       "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
-      "description": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wqr.jpg",
+      "description": "Rock Band, the award-winning social and interactive music performance experience, is back! Form your own band, rock the world, and live out your ultimate rock and roll fantasy, with your friends, family, or as a solo act. Rock Band 4 delivers the ultimate platform for gamers to experience music, giving players the chance to rock in the shoes of the biggest guitarists, bassists, drummers, and singers of all time. Rock Band 4 delivers the most authentic music game ever, challenging rockers to master lead guitar, bass guitar, drums, and vocals.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -485,15 +586,40 @@
         "total_rating_count": 7,
         "first_release_date": "10/31/1988",
         "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-15148",
-        "gbid": 15148,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
-        "deck": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
-        "platforms": "Xbox 360, PlayStation 3, TurboGrafx-16, Arcade, Wii Shop, PC, iPhone, FM Towns"
+        "esrb": "T",
+        "bundles": [
+          {
+            "id": 28445,
+            "name": "NAMCO MUSEUM"
+          }
+        ],
+        "cover": {
+          "id": 69138,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1hci.jpg"
+        },
+        "platforms": [
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          },
+          {
+            "id": 47,
+            "name": "Virtual Console (Nintendo)"
+          },
+          {
+            "id": 52,
+            "name": "Arcade"
+          },
+          {
+            "id": 86,
+            "name": "TurboGrafx-16/PC Engine"
+          },
+          {
+            "id": 118,
+            "name": "FM Towns"
+          }
+        ],
+        "summary": "Splatterhouse is a sidescrolling beat 'em up video game in which the player controls Rick, a parapsychology student who is trapped inside West Mansion. After his resurrection by the Terror Mask, Rick makes his way through the mansion, fighting off hordes of creatures in a vain attempt to save his girlfriend Jennifer from a grisly fate. Players of this game will also recognize a number of western horror film influences, such as Friday the 13th and Evil Dead 2. \n \nSimilar to many sidescrolling beat 'em up games, Rick can only move in a two-dimensional environment. The playing field does not feature a three-dimensional area, a feature that was added later in the series with Splatterhouse 3. He has the ability to jump and can punch and kick. Rick also has a Special Attack, where he will perform a drop kick that sends him skidding along the ground, damaging any enemies he hits. Rick can also perform a low kick, low punch, and jumping attacks, as well as pick up and use various weapons placed in the levels. \n \nAll of the levels consist of walking left to right, with occasional auto-scrolling segments. However, alternative pathways through sections of the house are possible by falling down through holes or jumping up onto ladders. In this way, branching gameplay is possible, if only prevalent in the middle levels. Levels culminate in boss fights that take place in a single room. Unlike traditional side-scrolling fighters, boss fights have varying objectives and styles. Unlike most arcade games in the genre, Splatterhouse sends players back to checkpoints after losing lives or reaching game over, discouraging \"credit feeding\" as a method of overcoming the various challenges."
       },
       "consoleName": "TurboGrafx-16/PC Engine",
       "consoleIgdbId": 86,
@@ -511,8 +637,8 @@
       "createdAt": "09/13/2019 08:58 pm",
       "updatedAt": "09/13/2019 08:58 pm",
       "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
-      "description": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1hci.jpg",
+      "description": "Splatterhouse is a sidescrolling beat 'em up video game in which the player controls Rick, a parapsychology student who is trapped inside West Mansion. After his resurrection by the Terror Mask, Rick makes his way through the mansion, fighting off hordes of creatures in a vain attempt to save his girlfriend Jennifer from a grisly fate. Players of this game will also recognize a number of western horror film influences, such as Friday the 13th and Evil Dead 2. \n \nSimilar to many sidescrolling beat 'em up games, Rick can only move in a two-dimensional environment. The playing field does not feature a three-dimensional area, a feature that was added later in the series with Splatterhouse 3. He has the ability to jump and can punch and kick. Rick also has a Special Attack, where he will perform a drop kick that sends him skidding along the ground, damaging any enemies he hits. Rick can also perform a low kick, low punch, and jumping attacks, as well as pick up and use various weapons placed in the levels. \n \nAll of the levels consist of walking left to right, with occasional auto-scrolling segments. However, alternative pathways through sections of the house are possible by falling down through holes or jumping up onto ladders. In this way, branching gameplay is possible, if only prevalent in the middle levels. Levels culminate in boss fights that take place in a single room. Unlike traditional side-scrolling fighters, boss fights have varying objectives and styles. Unlike most arcade games in the genre, Splatterhouse sends players back to checkpoints after losing lives or reaching game over, discouraging \"credit feeding\" as a method of overcoming the various challenges.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -527,15 +653,44 @@
         "total_rating_count": 7,
         "first_release_date": "03/19/2020",
         "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-68917",
-        "gbid": 68917,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-        "deck": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
+        "esrb": "M",
+        "alternative_names": [
+          {
+            "id": 22426,
+            "name": "Doom Eternal"
+          }
+        ],
+        "cover": {
+          "id": 75007,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lvj.jpg"
+        },
+        "franchise": {
+          "id": 798,
+          "name": "Doom"
+        },
+        "platforms": [
+          {
+            "id": 6,
+            "name": "PC (Microsoft Windows)"
+          },
+          {
+            "id": 48,
+            "name": "PlayStation 4"
+          },
+          {
+            "id": 49,
+            "name": "Xbox One"
+          },
+          {
+            "id": 130,
+            "name": "Nintendo Switch"
+          },
+          {
+            "id": 170,
+            "name": "Google Stadia"
+          }
+        ],
+        "summary": "Developed by id Software, DOOM Eternal is the direct sequel to DOOM (2016). Experience the ultimate combination of speed and power with the next leap in push-forward, first-person combat. \n \nAs the DOOM Slayer, return to take your vengeance against the forces of Hell. Set to an all-new pulse pounding soundtrack composed by Mick Gordon, fight across dimensions as you slay new and classic demons with powerful new weapons and abilities."
       },
       "consoleName": "PlayStation 4",
       "consoleIgdbId": 48,
@@ -553,8 +708,8 @@
       "createdAt": "03/20/2020 08:44 pm",
       "updatedAt": "03/20/2020 08:44 pm",
       "_id": "14b8bedaee0f45a29d562e459ad9901c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-      "description": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1lvj.jpg",
+      "description": "Developed by id Software, DOOM Eternal is the direct sequel to DOOM (2016). Experience the ultimate combination of speed and power with the next leap in push-forward, first-person combat. \n \nAs the DOOM Slayer, return to take your vengeance against the forces of Hell. Set to an all-new pulse pounding soundtrack composed by Mick Gordon, fight across dimensions as you slay new and classic demons with powerful new weapons and abilities.",
       "extraData": [],
       "extraDataFull": []
     },
@@ -569,15 +724,18 @@
         "total_rating_count": 25,
         "first_release_date": "10/14/2019",
         "developers": "",
-        "esrb": "RP"
-      },
-      "gb": {
-        "aliases": "The Witcher III: Wild Hunt",
-        "guid": "3030-41484",
-        "gbid": 41484,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-        "deck": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "esrb": "RP",
+        "cover": {
+          "id": 89387,
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1wyz.jpg"
+        },
+        "platforms": [
+          {
+            "id": 130,
+            "name": "Nintendo Switch"
+          }
+        ],
+        "summary": "Winner of over 250 Game of the Year awards, The Witcher 3: Wild Hunt is a story-driven, open world adventure set in a dark fantasy universe. \nYou are Geralt of Rivia, mercenary monster slayer. At your disposal is every tool of the trade: razor-sharp swords, lethal mixtures, stealthy \ncrossbows, and powerful combat magic. Before you stands a war-torn, monster-infested continent you can explore at will. Your current \ncontract? Tracking down the Child of Prophecy, a living weapon that can alter the shape of the world. \nThe Complete Edition contains every piece of downloadable content released for the game, including two massive story expansions: Hearts of \nStone & Blood and Wine. It's the perfect opportunity to enter this world for the first time or relive the adventure — on the go!"
       },
       "consoleName": "Nintendo Switch",
       "consoleIgdbId": 130,
@@ -595,8 +753,8 @@
       "createdAt": "02/22/2020 05:51 am",
       "updatedAt": "02/22/2020 05:51 am",
       "_id": "eafcabb43f5b477cb11979c7949222c1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia."
+      "image": "https://images.igdb.com/igdb/image/upload/t_thumb/co1wyz.jpg",
+      "description": "Winner of over 250 Game of the Year awards, The Witcher 3: Wild Hunt is a story-driven, open world adventure set in a dark fantasy universe. \nYou are Geralt of Rivia, mercenary monster slayer. At your disposal is every tool of the trade: razor-sharp swords, lethal mixtures, stealthy \ncrossbows, and powerful combat magic. Before you stands a war-torn, monster-infested continent you can explore at will. Your current \ncontract? Tracking down the Child of Prophecy, a living weapon that can alter the shape of the world. \nThe Complete Edition contains every piece of downloadable content released for the game, including two massive story expansions: Hearts of \nStone & Blood and Wine. It's the perfect opportunity to enter this world for the first time or relive the adventure — on the go!"
     }
   ],
   "mostPaidForPlatforms": [
@@ -808,11 +966,11 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "T": 157,
     "E": 202,
-    "M": 238,
-    "E10+": 82,
+    "T": 157,
     "NOT RATED": 194,
+    "E10+": 82,
+    "M": 238,
     "RP": 13,
     "KA": 1
   },
@@ -849,34 +1007,34 @@
     "garage sale": 9,
     "Brandy's friend from BCBS": 20,
     "Jeremy was giving away": 1,
-    "trade with Brian Davidson": 1,
     "gift from Brandy": 1,
-    "bundled with console": 1,
+    "trade with Brian Davidson": 1,
     "bought from Lani": 5,
     "gift from Dee": 1,
+    "bundled with console": 1,
     "retro store in WF": 4
   },
   "cibGames": 240,
   "gamesWithGenre": {
-    "strategy": 89,
-    "quiz/trivia": 8,
-    "indie": 89,
     "role-playing (rpg)": 115,
     "simulator": 86,
     "sport": 121,
-    "music": 24,
+    "indie": 89,
+    "strategy": 89,
+    "quiz/trivia": 8,
     "shooter": 298,
-    "tactical": 22,
     "adventure": 319,
-    "puzzle": 98,
     "platform": 177,
-    "arcade": 70,
-    "point-and-click": 7,
-    "hack and slash/beat 'em up": 57,
-    "turn-based strategy (tbs)": 13,
-    "real time strategy (rts)": 10,
-    "fighting": 56,
     "racing": 110,
+    "real time strategy (rts)": 10,
+    "hack and slash/beat 'em up": 57,
+    "puzzle": 98,
+    "arcade": 70,
+    "fighting": 56,
+    "point-and-click": 7,
+    "turn-based strategy (tbs)": 13,
+    "music": 24,
+    "tactical": 22,
     "visual novel": 1,
     "pinball": 4,
     "action": 1,

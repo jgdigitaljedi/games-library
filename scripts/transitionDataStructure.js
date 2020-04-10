@@ -6,8 +6,8 @@ const _get = require('lodash/get');
 const games = require('../server/db/games.json');
 
 function gameNewProps(game) {
-  game.image = _get(game, 'gb.image');
-  game.description = _get(game, 'gb.deck');
+  // game.image = _get(game, 'gb.image');
+  // game.description = _get(game, 'gb.deck');
   delete game.pirated;
   game.multiplayerNumber = game.multiplayerNumber ? parseInt(game.multiplayerNumber) : 1;
   return game;

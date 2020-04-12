@@ -4,7 +4,7 @@
   "scripts": {
     "start": "NODE_ENV=development nodemon server/server.js & npm run watch-css & react-scripts start",
     "start:ui": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "node-sass-chokidar src/App.scss -o src/ & react-scripts build",
     "build-css": "node-sass-chokidar src/App.scss -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/App.scss -o src/ --watch --recursive",
     "test": "react-scripts test",

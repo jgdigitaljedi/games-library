@@ -2,6 +2,50 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Final Fantasy VII Remake",
+        "id": 11169,
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 10,
+        "first_release_date": "04/09/2020",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "FFVII Remake\r, FF7 Remake\r, FFVII HD\r, FF7 HD",
+        "guid": "3030-49974",
+        "gbid": 49974,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
+        "deck": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
+        "platforms": "PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-12",
+      "howAcquired": "Amazon",
+      "notes": "",
+      "createdAt": "04/13/2020 06:56 am",
+      "updatedAt": "04/13/2020 06:56 am",
+      "_id": "cbb84958a60e4615b213e8b3a64f2ff8",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
+      "description": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Drawful 2",
         "id": 19083,
         "genres": [
@@ -171,46 +215,6 @@
       "_id": "9793db37e23b4d949822e9a6b1a3295a",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
       "description": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Killing Floor 2",
-        "id": 6748,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 76,
-        "total_rating_count": 76,
-        "first_release_date": "11/17/2016",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-46434",
-        "gbid": 46434,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
-        "deck": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-07",
-      "howAcquired": "Steam",
-      "notes": "Humble Bundle purchase",
-      "createdAt": "04/08/2020 06:43 am",
-      "updatedAt": "04/08/2020 06:43 am",
-      "_id": "93cffceeaec346d3a1549394ac1b76ce",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958572-box_kf2.png",
-      "description": "The direct sequel to Tripwire's earlier wave-based horror FPS, Killing Floor 2 brings the fighting to the continental Europe with new heroes, monsters, and weapons.",
       "miltiplayerNumber": 1
     }
   ],
@@ -526,6 +530,50 @@
     },
     {
       "igdb": {
+        "name": "Final Fantasy VII Remake",
+        "id": 11169,
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 10,
+        "first_release_date": "04/09/2020",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "FFVII Remake\r, FF7 Remake\r, FFVII HD\r, FF7 HD",
+        "guid": "3030-49974",
+        "gbid": 49974,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
+        "deck": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
+        "platforms": "PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-12",
+      "howAcquired": "Amazon",
+      "notes": "",
+      "createdAt": "04/13/2020 06:56 am",
+      "updatedAt": "04/13/2020 06:56 am",
+      "_id": "cbb84958a60e4615b213e8b3a64f2ff8",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
+      "description": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Doom: Eternal",
         "id": 103298,
         "genres": [
@@ -566,47 +614,6 @@
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "The Witcher 3: Wild Hunt - Complete Edition",
-        "id": 119402,
-        "genres": [
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 91,
-        "total_rating_count": 25,
-        "first_release_date": "10/14/2019",
-        "developers": "",
-        "esrb": "RP"
-      },
-      "gb": {
-        "aliases": "The Witcher III: Wild Hunt",
-        "guid": "3030-41484",
-        "gbid": 41484,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-        "deck": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-02-15",
-      "howAcquired": "Target",
-      "notes": "",
-      "createdAt": "02/22/2020 05:51 am",
-      "updatedAt": "02/22/2020 05:51 am",
-      "_id": "eafcabb43f5b477cb11979c7949222c1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostPaidForPlatforms": [
@@ -786,6 +793,7 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PlayStation 4": 127,
     "Nintendo Switch": 36,
     "PC (Microsoft Windows)": 156,
     "Game Boy Advance": 14,
@@ -793,7 +801,6 @@
     "Xbox": 42,
     "PlayStation 2": 53,
     "PlayStation": 18,
-    "PlayStation 4": 126,
     "Nintendo DS": 18,
     "Game Boy": 6,
     "Sega Mega Drive/Genesis": 29,
@@ -818,7 +825,7 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "T": 157,
+    "T": 158,
     "E": 202,
     "M": 238,
     "E10+": 82,
@@ -827,10 +834,11 @@
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 583,
+    "physical": 584,
     "digital": 304
   },
   "gamesAcquisition": {
+    "Amazon": 6,
     "eShop": 20,
     "Steam": 112,
     "Video Games Monthly": 29,
@@ -845,7 +853,6 @@
     "Retro Game Treasure": 40,
     "Classic Game Fest": 9,
     "traded with Solis": 1,
-    "Amazon": 5,
     "flea market": 5,
     "Goodwill": 2,
     "XBOX Store": 3,
@@ -866,18 +873,18 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 240,
+  "cibGames": 241,
   "gamesWithGenre": {
+    "role-playing (rpg)": 116,
+    "adventure": 320,
     "strategy": 89,
     "quiz/trivia": 8,
     "indie": 89,
-    "role-playing (rpg)": 115,
     "simulator": 86,
     "sport": 121,
     "music": 24,
     "shooter": 298,
     "tactical": 22,
-    "adventure": 319,
     "puzzle": 98,
     "platform": 177,
     "arcade": 70,
@@ -895,7 +902,7 @@
   "gamesAddedInMonth": [
     {
       "dateFormatted": "04/2020",
-      "games": 49
+      "games": 50
     },
     {
       "dateFormatted": "02/2020",
@@ -1009,7 +1016,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 145
+      "games": 146
     },
     {
       "dateFormatted": "2018",
@@ -1031,7 +1038,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 565
+      "value": 566
     },
     {
       "category": "Fair (50 - 69)",

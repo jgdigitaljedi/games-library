@@ -12,7 +12,7 @@ const Navbar: FunctionComponent = () => {
       className: active === 'home' ? 'active' : '',
       command: () => {
         setActive('home');
-        navigate('/home');
+        navigate(`/gameslib/home`);
       }
     },
     {
@@ -21,7 +21,7 @@ const Navbar: FunctionComponent = () => {
       className: active === 'library' ? 'active' : '',
       command: () => {
         setActive('library');
-        navigate('/library');
+        navigate(`/gameslib/library`);
       }
     },
     {
@@ -30,7 +30,7 @@ const Navbar: FunctionComponent = () => {
       className: active === 'decider' ? 'active' : '',
       command: () => {
         setActive('decider');
-        navigate('/decider');
+        navigate(`/gameslib/decider`);
       }
     },
     {
@@ -39,7 +39,7 @@ const Navbar: FunctionComponent = () => {
       className: active === 'lists' ? 'active' : '',
       command: () => {
         setActive('lists');
-        navigate('/lists');
+        navigate(`/gameslib/lists`);
       }
     },
     {
@@ -48,7 +48,7 @@ const Navbar: FunctionComponent = () => {
       className: active === 'viz' ? 'active' : '',
       command: () => {
         setActive('viz');
-        navigate('/viz');
+        navigate(`/gameslib/viz`);
       }
     }
   ];
@@ -67,35 +67,35 @@ const Navbar: FunctionComponent = () => {
     <header className="navbar">
       <div className="main-nav">
         <Link
-          to="/"
+          to="/gameslib"
           className={active === 'home' ? 'active' : ''}
           onClick={() => setActive('home')}
         >
           Home
         </Link>
         <Link
-          to="/library"
+          to="/gameslib/library"
           className={active === 'library' ? 'active' : ''}
           onClick={() => setActive('library')}
         >
           Library
         </Link>
         <Link
-          to="/decider"
+          to="/gameslib/decider"
           className={active === 'decider' ? 'active' : ''}
           onClick={() => setActive('decider')}
         >
           Decider
         </Link>
         <Link
-          to="/lists"
+          to="/gameslib/lists"
           className={active === 'lists' ? 'active' : ''}
           onClick={() => setActive('lists')}
         >
           Lists
         </Link>
         <Link
-          to="/viz"
+          to="/gameslib/viz"
           className={active === 'viz' ? 'active' : ''}
           onClick={() => setActive('viz')}
         >

@@ -108,7 +108,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
             alt="ESRB Rating"
             onError={(e: any) => {
               e.target.onerror = null;
-              e.target.src = 'Video-Game-Controller-Icon.svg.png';
+              e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
           />
           {game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3>}
@@ -129,7 +129,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           {game && game.consoleArr ? (
             game.consoleArr.map((con: IConsoleArr, index: number) => (
               <img
-                src={(assetsService.platformLogos as IRatings)[con.consoleName]}
+                src={`${urlPrefix}${(assetsService.platformLogos as IRatings)[con.consoleName]}`}
                 alt={con.consoleName}
                 key={index}
                 style={{

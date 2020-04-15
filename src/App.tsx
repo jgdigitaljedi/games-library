@@ -25,19 +25,19 @@ window.urlPrefix = UrlService.prefix;
 
 function App(): JSX.Element {
   // @TODO: figure out if current routing situation is a nginx issue or it needs addding routingPrefix to each route conditionally
-  // const routingPrefix = UrlService.routing;
+  const routingPrefix = UrlService.routing;
   return (
     <React.StrictMode>
       <Provider store={store}>
         <div className="App">
           <CombinedContextProvider>
             <Navbar />
-            <Router>
+            <Router basepath="/gameslib">
               <Home path="/" />
               <Decider path="/decider" />
               <Library path="/library" />
               <Lists path="/lists" />
-              <Viz path="/viz" />
+              <Viz path={`/viz`} />
             </Router>
           </CombinedContextProvider>
         </div>

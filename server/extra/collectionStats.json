@@ -2,6 +2,134 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Night Trap: 25th Anniversary Edition",
+        "id": 28249,
+        "genres": [
+          "Strategy",
+          "Adventure"
+        ],
+        "total_rating": 50,
+        "total_rating_count": 1,
+        "first_release_date": "08/14/2017",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-18648",
+        "gbid": 18648,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/752380-night_trap_scd_us.jpg",
+        "deck": "A controversial horror-themed FMV adventure game starring semi-famous actress Dana Plato. As an operative of a special task force, players have to use a hacked surveillance system and numerous traps to protect a group of teenage girls from vampiric creatures.",
+        "platforms": "Mac, 3DO, Sega CD, Sega 32X, PC, PlayStation Network (Vita), PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2.99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-14",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/15/2020 06:19 am",
+      "updatedAt": "04/15/2020 06:19 am",
+      "_id": "3d234cf624a84b0883a9cd6bc40e8dac",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/752380-night_trap_scd_us.jpg",
+      "description": "A controversial horror-themed FMV adventure game starring semi-famous actress Dana Plato. As an operative of a special task force, players have to use a hacked surveillance system and numerous traps to protect a group of teenage girls from vampiric creatures.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Morphite",
+        "id": 27314,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 74,
+        "total_rating_count": 1,
+        "first_release_date": "09/18/2017",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-61330",
+        "gbid": 61330,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2974344-box_morphite.png",
+        "deck": "Sci-fi shooter for PC, PS4, X-one, Switch and IOS.",
+        "platforms": "Mac, PC, iPhone, iPad, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2.99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-14",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/15/2020 06:18 am",
+      "updatedAt": "04/15/2020 06:18 am",
+      "_id": "abfcd9941dc54149820e50e473b773f9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2974344-box_morphite.png",
+      "description": "Sci-fi shooter for PC, PS4, X-one, Switch and IOS.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "ToeJam & Earl: Back in the Groove",
+        "id": 11122,
+        "genres": [
+          "Music",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 14,
+        "first_release_date": "02/28/2019",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-55200",
+        "gbid": 55200,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3084418-box_tjaebitg.jpg",
+        "deck": "ToeJam & Earl return for a fourth outing.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3.74",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-04-14",
+      "howAcquired": "eShop",
+      "notes": "",
+      "createdAt": "04/15/2020 06:18 am",
+      "updatedAt": "04/15/2020 06:18 am",
+      "_id": "87cf9e91869243debfef6004518db2be",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3084418-box_tjaebitg.jpg",
+      "description": "ToeJam & Earl return for a fourth outing.",
+      "miltiplayerNumber": 2
+    },
+    {
+      "igdb": {
         "name": "Final Fantasy VII Remake",
         "id": 11169,
         "genres": [
@@ -86,136 +214,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
       "description": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
       "miltiplayerNumber": 4
-    },
-    {
-      "igdb": {
-        "name": "Golf Story",
-        "id": 35626,
-        "genres": [
-          "Role-playing (RPG)",
-          "Simulator",
-          "Sport",
-          "Indie"
-        ],
-        "total_rating": 82,
-        "total_rating_count": 28,
-        "first_release_date": "09/27/2017",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-60512",
-        "gbid": 60512,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
-        "deck": "Give up all you hold dear for one final shot at the top in this golfing RPG.",
-        "platforms": "Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "7",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-07",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "04/08/2020 06:12 am",
-      "updatedAt": "04/08/2020 06:12 am",
-      "_id": "2eef5a28ee4e4fca845622eda30f2182",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163920-screenshot_2020-02-04%20golf%20story%20nintendo%20switch%20gamestop%281%29.png",
-      "description": "Give up all you hold dear for one final shot at the top in this golfing RPG.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "The Jackbox Party Pack 2",
-        "id": 19081,
-        "genres": [
-          "Music",
-          "Strategy",
-          "Quiz/Trivia",
-          "Indie"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 17,
-        "first_release_date": "10/11/2015",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-51103",
-        "gbid": 51103,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
-        "deck": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
-        "platforms": "Mac, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "8",
-      "datePurchased": "2020-04-07",
-      "howAcquired": "Steam",
-      "notes": "Humble Bundle purchase",
-      "createdAt": "04/08/2020 06:45 am",
-      "updatedAt": "04/08/2020 06:45 am",
-      "_id": "728704b2d3224a3286ef5dce1bfbe44b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
-      "description": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
-      "miltiplayerNumber": 8
-    },
-    {
-      "igdb": {
-        "name": "Sniper Elite III",
-        "id": 8366,
-        "genres": [
-          "Shooter",
-          "Simulator",
-          "Tactical",
-          "Adventure"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 95,
-        "first_release_date": "06/23/2014",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Sniper Elite 3",
-        "guid": "3030-41928",
-        "gbid": 41928,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
-        "deck": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
-        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-07",
-      "howAcquired": "Steam",
-      "notes": "Humble Bundle purchase",
-      "createdAt": "04/08/2020 06:44 am",
-      "updatedAt": "04/08/2020 06:44 am",
-      "_id": "9793db37e23b4d949822e9a6b1a3295a",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14876/2607255-sniperelite3-clean.jpg",
-      "description": "In Sniper Elite III, players once again take on the role of World War II sniper Karl Fairburne, this time as he travels to Northern Africa to uncover a secret Nazi plot.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -793,8 +791,8 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Switch": 39,
     "PlayStation 4": 127,
-    "Nintendo Switch": 36,
     "PC (Microsoft Windows)": 156,
     "Game Boy Advance": 14,
     "Nintendo Entertainment System (NES)": 42,
@@ -825,21 +823,21 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "T": 158,
+    "T": 160,
+    "NOT RATED": 195,
     "E": 202,
     "M": 238,
     "E10+": 82,
-    "NOT RATED": 194,
     "RP": 13,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 584,
-    "digital": 304
+    "digital": 307
   },
   "gamesAcquisition": {
+    "eShop": 23,
     "Amazon": 6,
-    "eShop": 20,
     "Steam": 112,
     "Video Games Monthly": 29,
     "PSN": 104,
@@ -875,15 +873,15 @@
   },
   "cibGames": 241,
   "gamesWithGenre": {
+    "strategy": 90,
+    "adventure": 323,
+    "shooter": 299,
+    "indie": 91,
+    "music": 25,
     "role-playing (rpg)": 116,
-    "adventure": 320,
-    "strategy": 89,
     "quiz/trivia": 8,
-    "indie": 89,
     "simulator": 86,
     "sport": 121,
-    "music": 24,
-    "shooter": 298,
     "tactical": 22,
     "puzzle": 98,
     "platform": 177,
@@ -902,7 +900,7 @@
   "gamesAddedInMonth": [
     {
       "dateFormatted": "04/2020",
-      "games": 50
+      "games": 53
     },
     {
       "dateFormatted": "02/2020",
@@ -1016,7 +1014,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 146
+      "games": 149
     },
     {
       "dateFormatted": "2018",
@@ -1038,11 +1036,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 566
+      "value": 568
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 152
+      "value": 153
     },
     {
       "category": "Poor (30 - 49)",

@@ -3,12 +3,14 @@ import { Rating } from 'primereact/rating';
 import './GameDialog.scss';
 import { IConsoleArr, IGame } from '../../common.model';
 import assetsService from '../../services/assets.service';
+import UrlService from '../../services/url.service';
 
 interface IRatings {
   [key: string]: string;
 }
 
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
+  const urlPrefix = UrlService.assets;
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
@@ -22,7 +24,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
             src={game.gb.image}
             onError={(e: any) => {
               e.target.onerror = null;
-              e.target.src = 'Video-Game-Controller-Icon.svg.png';
+              e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
             alt={game.igdb.name + ' cover image'}
           />
@@ -100,8 +102,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           <img
             src={
               game && game.igdb && game.igdb.esrb
-                ? ratingImages(game.igdb.esrb)
-                : 'Video-Game-Controller_Icon.svg.png'
+                ? `${urlPrefix}/${ratingImages(game.igdb.esrb)}`
+                : `${urlPrefix}Video-Game-Controller_Icon.svg.png`
             }
             alt="ESRB Rating"
             onError={(e: any) => {

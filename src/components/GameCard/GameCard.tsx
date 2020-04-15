@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { Card } from 'primereact/card';
 import { IGame } from '../../common.model';
+import UrlService from '../../services/url.service';
 
 interface IProps {
   data: IGame;
@@ -8,6 +9,7 @@ interface IProps {
 }
 
 const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
+  const urlPrefix = UrlService.assets;
   return (
     <Card className={`game-card ${!data.physical ? 'digital-copy' : ''}`}>
       {data && data.igdb ? (
@@ -17,7 +19,7 @@ const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
             alt={data.igdb.name || ''}
             onError={(e: any) => {
               e.target.onerror = null;
-              e.target.src = 'Video-Game-Controller-Icon.svg.png';
+              e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
           />
           <div className="game-card--content__title">

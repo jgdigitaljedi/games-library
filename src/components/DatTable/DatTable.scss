@@ -1,4 +1,6 @@
 @import '../../style/theme.scss';
+@import '../../style/mixins/index.scss';
+
 .data-table-container {
   height: 100%;
   display: flex;
@@ -7,11 +9,9 @@
     overflow-y: scroll;
     background-color: $black;
     font-size: 0.8rem;
-  }
-  @media screen and (max-width: 1200px) {
-    td,
-    th {
-      word-wrap: break-word;
+
+    @include bp_lte(md) {
+      height: calc(100vh - 280px);
     }
   }
 }

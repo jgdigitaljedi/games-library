@@ -31,7 +31,7 @@ function App(): JSX.Element {
           <CombinedContextProvider>
             <Navbar />
             <Router basepath="/gameslib">
-              <Home path="/" />
+              <Home default path="/" />
               <Decider path="/decider" />
               <Library path="/library" />
               <Lists path="/lists" />

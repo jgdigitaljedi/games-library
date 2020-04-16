@@ -7,7 +7,11 @@
     color: $white;
   }
   .container-column {
-    margin: $gutter;
+    width: 50%;
+
+    @include bp_lte(lg) {
+      width: 100%;
+    }
   }
   .home--row {
     display: flex;
@@ -15,6 +19,11 @@
     width: 100%;
     margin: $gutter 0;
     flex-wrap: wrap;
+
+    @include bp_lte(lg) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   .chart-container {
     min-height: 500px;

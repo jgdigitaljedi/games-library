@@ -28,7 +28,6 @@
   }
 }
 
-// @media screen and (max-width: 700px) {
 @include bp_lte(md) {
   .viz {
     padding: 1rem 0;

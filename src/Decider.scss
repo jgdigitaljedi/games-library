@@ -25,7 +25,6 @@
     width: 100%;
   }
 }
-// @media screen and (max-width: 800px) {
 @include bp_lte(md) {
   .decider-container {
     padding: 0;

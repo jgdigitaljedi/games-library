@@ -1,4 +1,5 @@
 @import '../../style/theme.scss';
+@import '../../style/mixins/index.scss';
 
 .game-dialog {
   // max-width: 1600px;
@@ -81,7 +82,7 @@
       }
     }
 
-    @media screen and (max-width: 800px) {
+    @include bp_lte(lg) {
       .game-dialog--body__image-and-deck {
         flex-direction: column;
         flex-wrap: wrap;

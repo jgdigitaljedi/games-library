@@ -74,6 +74,49 @@ html {
 
 // primereact overrides
 body {
+  .p-datatable {
+    width: 100%;
+    table {
+      // primereact's breakpoint for responsive table
+      @media screen and (max-width: 640px) {
+        width: auto;
+        // width: unset;
+      }
+      .p-datatable-scrollable-body-table {
+        @media screen and (max-width: 640px) {
+          // width: 100%;
+        }
+      }
+      .p-datatable-scrollable-colgroup {
+        width: 100%;
+      }
+      .p-datatable-tbody > tr,
+      .p-datatable-tbody > tr {
+        @media screen and (max-width: 640px) {
+          width: 100%;
+          border-bottom: 1px solid $light-orange;
+        }
+
+        td,
+        th {
+          @include bp_lte(xl) {
+            word-wrap: break-word;
+            padding: 0.1rem 0.25rem;
+          }
+          .table-image {
+            width: 100%;
+            height: 4rem;
+            object-fit: cover;
+            object-position: 50% 0%;
+            @media screen and (max-width: 640px) {
+              max-width: 4rem;
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
   .p-button {
     background-color: darken($light-orange, 10%);
     border: 1px solid darken($light-orange, 10%);

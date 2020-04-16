@@ -1,4 +1,5 @@
 @import '../../../style/theme.scss';
+@import '../../../style/mixins/index.scss';
 
 .sort-bar {
   display: flex;
@@ -16,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@include bp_lte(md) {
   .sort-bar {
     justify-content: flex-start;
   }

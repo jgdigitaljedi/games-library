@@ -85,12 +85,14 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
 
   return (
     <div className="home">
-      {/* {data && data.cibGames && (
-        <div className="text-container">
-          <h3>Complete in box games</h3>
-          <div>{data.cibGames}</div>
-        </div>
-      )} */}
+      {/* <div className="home--row">
+        {data && data.cibGames && (
+          <div className="text-container">
+            <h3>Complete in box games</h3>
+            <div>{data.cibGames}</div>
+          </div>
+        )}
+      </div> */}
       <div className="home--row">
         {data && data.mostRecentlyAddedGames && (
           <div className="container-column">

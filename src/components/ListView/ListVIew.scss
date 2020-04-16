@@ -1,4 +1,5 @@
 @import '../../style/theme.scss';
+@import '../../style/mixins/index.scss';
 
 .list-view {
   display: flex;
@@ -37,7 +38,7 @@
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @include breakpoints(md) {
     .list-view--row {
       padding: 0.2rem;
       .list-view--row__cell {
@@ -46,7 +47,7 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @include bp_lte(md) {
     .list-view--row {
       padding: 0.5rem;
       .list-view--row__cell {

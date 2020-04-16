@@ -1,3 +1,5 @@
+@import '../../style/mixins/index.scss';
+
 .filter-group {
   display: flex;
   align-items: center;
@@ -9,7 +11,7 @@
     width: 25ch;
   }
 }
-@media screen and (max-width: 700px) {
+@include bp_lte(md) {
   .filter-group {
     flex-direction: column;
     .p-dropdown {

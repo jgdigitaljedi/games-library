@@ -86,12 +86,12 @@ class TheTable extends Component<IProps, IState> {
   }
 
   private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {
-    const imageStyle = {
-      width: '100%',
-      height: '4rem',
-      objectFit: 'cover',
-      objectPosition: '50% 0%'
-    } as CSSProperties;
+    // const imageStyle = {
+    //   width: '100%',
+    //   height: '4rem',
+    //   objectFit: 'cover',
+    //   objectPosition: '50% 0%'
+    // } as CSSProperties;
     return (
       <img
         src={
@@ -100,7 +100,8 @@ class TheTable extends Component<IProps, IState> {
           'http://localhost:3000/Video-Game-Controller-Icon.svg.png'
         }
         alt="Game cover"
-        style={imageStyle}
+        // style={imageStyle}
+        className="table-image"
         onError={(e: any) => {
           e.target.onerror = null;
           e.target.src = 'Video-Game-Controller-Icon.svg.png';

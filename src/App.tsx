@@ -24,8 +24,6 @@ declare global {
 window.urlPrefix = UrlService.prefix;
 
 function App(): JSX.Element {
-  // @TODO: figure out if current routing situation is a nginx issue or it needs addding routingPrefix to each route conditionally
-  const routingPrefix = UrlService.routing;
   return (
     <React.StrictMode>
       <Provider store={store}>

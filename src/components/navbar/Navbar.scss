@@ -1,4 +1,6 @@
 @import '../../style/theme.scss';
+@import '../../style/mixins/index.scss';
+
 .navbar {
   display: flex;
   background-color: $secondary;
@@ -19,6 +21,7 @@
     display: none;
   }
   @media screen and (max-width: 700px) {
+    // @include breakpoints(md) {
     .main-nav {
       display: none;
     }

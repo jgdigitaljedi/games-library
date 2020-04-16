@@ -1,0 +1,52 @@
+$xs: 440px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin breakpoints($media) {
+  @if $media == xs {
+    @media screen and (max-width: #{$xs}) {
+      @content;
+    }
+  } @else if $media == sm {
+    @media screen and (min-width: #{$xs}) and (max-width: #{$sm - 1px}) {
+      @content;
+    }
+  } @else if $media == md {
+    @media screen and (min-width: #{$sm}) and (max-width: #{$md - 1px}) {
+      @content;
+    }
+  } @else if $media == lg {
+    @media screen and (min-width: #{$md}) and (max-width: #{$lg - 1px}) {
+      @content;
+    }
+  } @else if $media == xl {
+    @media screen and (min-width: #{$xl}) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg, and xl";
+  }
+}
+
+// less than or equal
+@mixin bp_lte($media) {
+  @if $media == sm {
+    @media screen and (max-width: #{$sm}) {
+      @content;
+    }
+  } @else if $media == md {
+    @media screen and (max-width: #{$md}) {
+      @content;
+    }
+  } @else if $media == lg {
+    @media screen and (max-width: #{$lg}) {
+      @content;
+    }
+  } @else if $media == xl {
+    @media screen and (max-width: #{$xl}) {
+      @content;
+    }
+  }
+}

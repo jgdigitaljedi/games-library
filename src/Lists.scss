@@ -1,4 +1,6 @@
 @import './style/theme.scss';
+@import './style/mixins/index.scss';
+
 .lists {
   .lists-head {
     padding: 2rem;
@@ -23,7 +25,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  @media screen and (max-width: 800px) {
+  // @media screen and (max-width: 800px) {
+  @include bp_lte(md) {
     .lists-head {
       padding: 1rem 0;
       flex-direction: column;

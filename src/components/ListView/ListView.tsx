@@ -80,8 +80,8 @@ const ListView: FunctionComponent<IProps> = ({
           return (
             <div className="list-view--row" onClick={e => rowClicked(e, game)} key={index}>
               <img src={game.gb.image} alt={`${game.igdb.name} art`} />
-              <div className="list-view--row__cell item-name">{game.igdb.name}</div>
-              <div className="list-view--row__cell">{getData(game)}</div>
+              <div className="list-view--row__cell item-name info-text">{game.igdb.name}</div>
+              <div className="list-view--row__cell info-text">{getData(game)}</div>
             </div>
           );
         })}
@@ -91,8 +91,8 @@ const ListView: FunctionComponent<IProps> = ({
           return (
             <div className="list-view--row" onClick={e => rowClicked(e, con)} key={index}>
               <img src={con.gb.image} alt={`${con.igdb.name} art`} />
-              <div className="list-view--row__cell item-name">{con.igdb.name}</div>
-              <div className="list-view--row__cell">{getData(con)}</div>
+              <div className="list-view--row__cell item-name info-text">{con.igdb.name}</div>
+              <div className="list-view--row__cell info-text">{getData(con)}</div>
             </div>
           );
         })}

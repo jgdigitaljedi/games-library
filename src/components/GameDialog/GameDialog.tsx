@@ -133,7 +133,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                 alt={con.consoleName}
                 key={index}
                 style={{
-                  maxWidth: `${90 / (game && game.consoleArr ? game.consoleArr.length : 1)}%`
+                  maxWidth: `${90 / (game && game.consoleArr ? game.consoleArr.length : 1)}%`,
+                  objectFit: 'contain'
                 }}
               />
             ))

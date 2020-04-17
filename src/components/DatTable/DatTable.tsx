@@ -1,4 +1,4 @@
-import React, { Component, CSSProperties } from 'react';
+import React, { Component } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { connect } from 'react-redux';
@@ -38,8 +38,29 @@ class TheTable extends Component<IProps, IState> {
     };
   }
 
+  updateDimensions = () => {
+    const tableEle = document.getElementsByClassName('p-datatable-scrollable-body-table');
+    const raw = Array.from(tableEle)[0];
+    if (window.innerWidth <= 640) {
+      // @ts-ignore
+      raw.style.width = '100%';
+      setTimeout(() => {
+        // @ts-ignore
+        raw.style.width = 'auto';
+      }, 50);
+    } else {
+      // @ts-ignore
+      raw.style.width = '100%';
+    }
+  };
+
   public componentDidMount() {
+    window.addEventListener('resize', this.updateDimensions);
     this._getCols();
+  }
+
+  public componentWillUnmount() {
+    window.removeEventListener('resize', this.updateDimensions);
   }
 
   public componentDidUpdate() {
@@ -47,6 +68,17 @@ class TheTable extends Component<IProps, IState> {
       this._getCols();
       this.setState({ viewWhat: this.props.viewWhat || '' });
     }
+    this.updateDimensions();
+    // const tableEle = document.getElementsByClassName('p-datatable-scrollable-body-table');
+    // const raw = Array.from(tableEle)[0];
+    // if (window.innerWidth <= 640) {
+    //   // @ts-ignore
+    //   raw.style.width = '100%';
+    //   setTimeout(() => {
+    //     // @ts-ignore
+    //     raw.style.width = 'auto';
+    //   }, 300);
+    // }
   }
 
   public render() {
@@ -86,12 +118,6 @@ class TheTable extends Component<IProps, IState> {
   }
 
   private _imageTemplate(rowData: { gb: { image: string } }): JSX.Element {
-    // const imageStyle = {
-    //   width: '100%',
-    //   height: '4rem',
-    //   objectFit: 'cover',
-    //   objectPosition: '50% 0%'
-    // } as CSSProperties;
     return (
       <img
         src={

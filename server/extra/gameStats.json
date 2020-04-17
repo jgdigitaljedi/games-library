@@ -1,4 +1,8 @@
 {
+  "Nintendo GameCube": {
+    "isLaunchTitle": 1,
+    "isExclusive": 12
+  },
   "Nintendo DS": {
     "isLaunchTitle": 0,
     "isExclusive": 7
@@ -52,10 +56,6 @@
   "Sega CD": {
     "isLaunchTitle": 2,
     "isExclusive": 2
-  },
-  "Nintendo GameCube": {
-    "isLaunchTitle": 1,
-    "isExclusive": 11
   },
   "TurboGrafx-16/PC Engine": {
     "isLaunchTitle": 0,

@@ -164,12 +164,17 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   return (
     <form className="decider--form">
       <div className="decider--form__input-group">
-        <label htmlFor="name">Name</label>
-        <InputText id="name" value={nameStr} onChange={handleChange} />
+        <label htmlFor="name" className="info-text">
+          Name
+        </label>
+        <InputText id="name" value={nameStr} onChange={handleChange} className="info-text" />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="players">Min # Players</label>
+        <label htmlFor="players" className="info-text">
+          Min # Players
+        </label>
         <InputText
+          className="info-text"
           type="number"
           id="players"
           value={dc.players || ''}
@@ -183,8 +188,11 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="platform">Platform</label>
+        <label htmlFor="platform" className="info-text">
+          Platform
+        </label>
         <AutoComplete
+          className="info-text"
           id="platform"
           name="platform"
           value={acValue}
@@ -208,8 +216,11 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="genre">Genre</label>
+        <label htmlFor="genre" className="info-text">
+          Genre
+        </label>
         <Dropdown
+          className="info-text"
           id="genre"
           name="genre"
           value={dc.genre}
@@ -222,8 +233,11 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="esrb">ESRB Rating</label>
+        <label htmlFor="esrb" className="info-text">
+          ESRB Rating
+        </label>
         <Dropdown
+          className="info-text"
           id="esrb"
           name="esrb"
           value={dc.esrb}
@@ -236,7 +250,9 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="physical">Physical only?</label>
+        <label htmlFor="physical" className="info-text">
+          Physical only?
+        </label>
         <InputSwitch
           checked={dc.physical}
           onChange={e => {
@@ -247,7 +263,9 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         />
       </div>
       <div className="decider--form__input-group">
-        <label htmlFor="everdrive">EverDrives?</label>
+        <label htmlFor="everdrive" className="info-text">
+          EverDrives?
+        </label>
         <InputSwitch
           checked={dc.everDrive}
           onChange={e => {

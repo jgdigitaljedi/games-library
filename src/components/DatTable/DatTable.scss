@@ -11,7 +11,7 @@
     font-size: 0.8rem;
 
     @include bp_lte(md) {
-      height: calc(100vh - 280px);
+      height: calc(100vh - 282px);
     }
   }
 }

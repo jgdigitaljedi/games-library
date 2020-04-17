@@ -55,7 +55,7 @@ const Navbar: FunctionComponent = () => {
 
   function routeOnLoad() {
     const pn = window.location.pathname;
-    let route = pn === '/' ? 'home' : pn.substr(1);
+    let route = pn === '/gameslib' ? 'home' : pn.replace('/gameslib/', '');
     setActive(route);
   }
 

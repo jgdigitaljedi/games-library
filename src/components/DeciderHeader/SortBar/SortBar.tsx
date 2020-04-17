@@ -17,8 +17,11 @@ const SortBar: FunctionComponent<IProps> = (props: IProps) => {
   return (
     <form className="sort-bar">
       <div className="sort-bar--input-group">
-        <label htmlFor="category">Category</label>
+        <label htmlFor="category" className="info-text">
+          Category
+        </label>
         <Dropdown
+          className="info-text"
           id="cateogry"
           name="category"
           value={sc.prop}
@@ -29,8 +32,11 @@ const SortBar: FunctionComponent<IProps> = (props: IProps) => {
         ></Dropdown>
       </div>
       <div className="sort-bar--input-group">
-        <label htmlFor="direction">Direction</label>
+        <label htmlFor="direction" className="info-text">
+          Direction
+        </label>
         <Dropdown
+          className="info-text"
           id="direction"
           name="direction"
           value={sc.dir}

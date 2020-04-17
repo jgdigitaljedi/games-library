@@ -1,9 +1,4 @@
-import React, {
-  FunctionComponent,
-  useState,
-  FormEvent,
-  useCallback,
-} from 'react';
+import React, { FunctionComponent, useState, FormEvent, useCallback } from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { connect, useSelector } from 'react-redux';
@@ -24,7 +19,7 @@ interface MapDispatchProps {
   setFilteredData: (filteredData: object[]) => void;
 }
 
-interface IProps extends MapStateProps, MapDispatchProps { }
+interface IProps extends MapStateProps, MapDispatchProps {}
 
 const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);

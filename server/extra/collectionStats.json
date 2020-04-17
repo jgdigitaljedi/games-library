@@ -2,6 +2,158 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Eternal Darkness: Sanity's Requiem",
+        "id": 3907,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 34,
+        "first_release_date": "06/23/2002",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-7512",
+        "gbid": 7512,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
+        "deck": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
+        "platforms": "GameCube"
+      },
+      "consoleName": "Nintendo GameCube",
+      "consoleIgdbId": 21,
+      "consoleGbid": 23,
+      "consoleGbGuid": "3045-23",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-16",
+      "howAcquired": "eBay",
+      "notes": "",
+      "createdAt": "04/17/2020 05:06 am",
+      "updatedAt": "04/17/2020 05:06 am",
+      "_id": "5a12b44cc1f34e58bf28237fda8fc1ad",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
+      "description": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "ngc22",
+          "name": "Eternal Darkness: Sanity's Requiem",
+          "details": [
+            "Nintendo GameCube console exclusive"
+          ],
+          "igdbId": 3907,
+          "gbId": 7512,
+          "gbGuid": "3030-7512",
+          "tgdbId": 6970,
+          "isExclusive": [
+            {
+              "name": "Nintendo GameCube",
+              "id": "ccl4",
+              "igdbId": 21,
+              "gbId": 23,
+              "gbGuid": "3045-23",
+              "tgdbId": 2
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Over 9000 Zombies!",
+        "id": 9605,
+        "genres": [
+          "Shooter",
+          "Indie",
+          "Arcade"
+        ],
+        "total_rating": 60,
+        "total_rating_count": 2,
+        "first_release_date": "02/24/2015",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-48906",
+        "gbid": 48906,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/26/264041/2727968-9kz_logo_horizontal.jpg",
+        "deck": "Over 9000 Zombies! is a top-down, arcade-style, zombie shooter published by Mastertronic. It was first released for Steam Early Access on July 2nd, 2014.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1.79",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-16",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "04/17/2020 05:08 am",
+      "updatedAt": "04/17/2020 05:08 am",
+      "_id": "01ce99c643cc42beae207d36122b77f7",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/26/264041/2727968-9kz_logo_horizontal.jpg",
+      "description": "Over 9000 Zombies! is a top-down, arcade-style, zombie shooter published by Mastertronic. It was first released for Steam Early Access on July 2nd, 2014.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Super Blood Hockey",
+        "id": 31160,
+        "genres": [
+          "Sport",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 3,
+        "first_release_date": "08/16/2017",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-54602",
+        "gbid": 54602,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3105948-box_sbh.png",
+        "deck": "Super Blood Hockey is a violent homage to retro ice hockey games.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "4.58",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-04-16",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "04/17/2020 05:07 am",
+      "updatedAt": "04/17/2020 05:07 am",
+      "_id": "e57cb51398164c4dbe320d0b91cdda53",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3105948-box_sbh.png",
+      "description": "Super Blood Hockey is a violent homage to retro ice hockey games.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
         "name": "Night Trap: 25th Anniversary Edition",
         "id": 28249,
         "genres": [
@@ -84,136 +236,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2974344-box_morphite.png",
       "description": "Sci-fi shooter for PC, PS4, X-one, Switch and IOS.",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "ToeJam & Earl: Back in the Groove",
-        "id": 11122,
-        "genres": [
-          "Music",
-          "Adventure",
-          "Indie"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 14,
-        "first_release_date": "02/28/2019",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-55200",
-        "gbid": 55200,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3084418-box_tjaebitg.jpg",
-        "deck": "ToeJam & Earl return for a fourth outing.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3.74",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-04-14",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "04/15/2020 06:18 am",
-      "updatedAt": "04/15/2020 06:18 am",
-      "_id": "87cf9e91869243debfef6004518db2be",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3084418-box_tjaebitg.jpg",
-      "description": "ToeJam & Earl return for a fourth outing.",
-      "miltiplayerNumber": 2
-    },
-    {
-      "igdb": {
-        "name": "Final Fantasy VII Remake",
-        "id": 11169,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 88,
-        "total_rating_count": 10,
-        "first_release_date": "04/09/2020",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "FFVII Remake\r, FF7 Remake\r, FFVII HD\r, FF7 HD",
-        "guid": "3030-49974",
-        "gbid": 49974,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
-        "deck": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
-        "platforms": "PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-12",
-      "howAcquired": "Amazon",
-      "notes": "",
-      "createdAt": "04/13/2020 06:56 am",
-      "updatedAt": "04/13/2020 06:56 am",
-      "_id": "cbb84958a60e4615b213e8b3a64f2ff8",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
-      "description": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Drawful 2",
-        "id": 19083,
-        "genres": [
-          "Strategy",
-          "Quiz/Trivia",
-          "Indie"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 9,
-        "first_release_date": "06/20/2016",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-54286",
-        "gbid": 54286,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
-        "deck": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0.09",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-04-07",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "04/08/2020 06:13 am",
-      "updatedAt": "04/08/2020 06:13 am",
-      "_id": "04f504ce4f0a4c778197fae0e6a2282b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992610-box_df2.png",
-      "description": "A standalone sequel to the Jackbox Party Pack hit Drawful, adding a new series of ridiculous prompts and many new gameplay features.",
-      "miltiplayerNumber": 4
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -528,6 +550,75 @@
     },
     {
       "igdb": {
+        "name": "Eternal Darkness: Sanity's Requiem",
+        "id": 3907,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 34,
+        "first_release_date": "06/23/2002",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-7512",
+        "gbid": 7512,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
+        "deck": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
+        "platforms": "GameCube"
+      },
+      "consoleName": "Nintendo GameCube",
+      "consoleIgdbId": 21,
+      "consoleGbid": 23,
+      "consoleGbGuid": "3045-23",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-16",
+      "howAcquired": "eBay",
+      "notes": "",
+      "createdAt": "04/17/2020 05:06 am",
+      "updatedAt": "04/17/2020 05:06 am",
+      "_id": "5a12b44cc1f34e58bf28237fda8fc1ad",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
+      "description": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "ngc22",
+          "name": "Eternal Darkness: Sanity's Requiem",
+          "details": [
+            "Nintendo GameCube console exclusive"
+          ],
+          "igdbId": 3907,
+          "gbId": 7512,
+          "gbGuid": "3030-7512",
+          "tgdbId": 6970,
+          "isExclusive": [
+            {
+              "name": "Nintendo GameCube",
+              "id": "ccl4",
+              "igdbId": 21,
+              "gbId": 23,
+              "gbGuid": "3045-23",
+              "tgdbId": 2
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
         "name": "Final Fantasy VII Remake",
         "id": 11169,
         "genres": [
@@ -566,49 +657,6 @@
       "_id": "cbb84958a60e4615b213e8b3a64f2ff8",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
       "description": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Doom: Eternal",
-        "id": 103298,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 89,
-        "total_rating_count": 7,
-        "first_release_date": "03/19/2020",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-68917",
-        "gbid": 68917,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-        "deck": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-03-20",
-      "howAcquired": "GameStop",
-      "notes": "",
-      "createdAt": "03/20/2020 08:44 pm",
-      "updatedAt": "03/20/2020 08:44 pm",
-      "_id": "14b8bedaee0f45a29d562e459ad9901c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-      "description": "The direct sequel to 2016's Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
@@ -791,9 +839,10 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo GameCube": 32,
+    "PC (Microsoft Windows)": 158,
     "Nintendo Switch": 39,
     "PlayStation 4": 127,
-    "PC (Microsoft Windows)": 156,
     "Game Boy Advance": 14,
     "Nintendo Entertainment System (NES)": 42,
     "Xbox": 42,
@@ -810,7 +859,6 @@
     "Sega 32X": 14,
     "Sega CD": 6,
     "3DO Interactive Multiplayer": 7,
-    "Nintendo GameCube": 31,
     "Super Nintendo Entertainment System (SNES)": 15,
     "Game Boy Color": 7,
     "Nintendo 64": 28,
@@ -823,25 +871,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "M": 240,
+    "NOT RATED": 196,
     "T": 160,
-    "NOT RATED": 195,
     "E": 202,
-    "M": 238,
     "E10+": 82,
     "RP": 13,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 584,
-    "digital": 307
+    "physical": 585,
+    "digital": 309
   },
   "gamesAcquisition": {
+    "eBay": 49,
+    "Steam": 114,
     "eShop": 23,
     "Amazon": 6,
-    "Steam": 112,
     "Video Games Monthly": 29,
     "PSN": 104,
-    "eBay": 48,
     "bought from Solis": 21,
     "GameStop": 66,
     "UNKNOWN": 127,
@@ -871,21 +919,21 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 241,
+  "cibGames": 242,
   "gamesWithGenre": {
+    "adventure": 324,
+    "shooter": 300,
+    "indie": 93,
+    "arcade": 71,
+    "sport": 122,
     "strategy": 90,
-    "adventure": 323,
-    "shooter": 299,
-    "indie": 91,
     "music": 25,
     "role-playing (rpg)": 116,
     "quiz/trivia": 8,
     "simulator": 86,
-    "sport": 121,
     "tactical": 22,
     "puzzle": 98,
     "platform": 177,
-    "arcade": 70,
     "point-and-click": 7,
     "hack and slash/beat 'em up": 57,
     "turn-based strategy (tbs)": 13,
@@ -900,7 +948,7 @@
   "gamesAddedInMonth": [
     {
       "dateFormatted": "04/2020",
-      "games": 53
+      "games": 56
     },
     {
       "dateFormatted": "02/2020",
@@ -1014,7 +1062,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 149
+      "games": 152
     },
     {
       "dateFormatted": "2018",
@@ -1036,11 +1084,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 568
+      "value": 570
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 153
+      "value": 154
     },
     {
       "category": "Poor (30 - 49)",

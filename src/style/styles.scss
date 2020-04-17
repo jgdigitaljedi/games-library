@@ -74,6 +74,11 @@ html {
 
 // primereact overrides
 body {
+  .p-dialog {
+    @include bp_lte(lg) {
+      width: 100%;
+    }
+  }
   .p-datatable {
     width: 100%;
     .p-datatable-scrollable-body {

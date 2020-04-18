@@ -2,6 +2,78 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Journey",
+        "id": 1352,
+        "genres": [
+          "Music",
+          "Platform",
+          "Role-playing (RPG)",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 90,
+        "total_rating_count": 512,
+        "first_release_date": "03/12/2012",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-31772",
+        "gbid": 31772,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/44183/2388618-2172218_journey_detailcropped.png",
+        "deck": "Journey is thatgamecompany's third release for Sony. Roam the lands discovering the history of an ancient civilization on a trek toward a distant mountain. Go at it alone or explore with strangers online.",
+        "platforms": "PlayStation 3, PlayStation Network (PS3), PC, iPhone, PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-17",
+      "howAcquired": "PSN",
+      "notes": "free via Sony's \"Play at Home\" initiative",
+      "createdAt": "04/18/2020 07:19 am",
+      "updatedAt": "04/18/2020 07:19 am",
+      "_id": "a9dfd813cc4b4cc5a513a4b5132ec199",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/44183/2388618-2172218_journey_detailcropped.png",
+      "description": "Journey is thatgamecompany's third release for Sony. Roam the lands discovering the history of an ancient civilization on a trek toward a distant mountain. Go at it alone or explore with strangers online.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Sony PlayStation 4 platform exclusive (PlayStation Network)"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Journey",
+          "details": [
+            "Sony PlayStation 4 platform exclusive (PlayStation Network)"
+          ],
+          "id": "sps4322",
+          "igdbId": 1352,
+          "gbId": 31772,
+          "gbGuid": "3030-31772",
+          "isExclusive": [
+            {
+              "name": "Sony Playstation 4",
+              "id": "ccl23",
+              "igdbId": 48,
+              "gbId": 146,
+              "gbGuid": "3045-146",
+              "tgdbId": 4919
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
         "name": "Eternal Darkness: Sanity's Requiem",
         "id": 3907,
         "genres": [
@@ -192,49 +264,6 @@
       "_id": "3d234cf624a84b0883a9cd6bc40e8dac",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/752380-night_trap_scd_us.jpg",
       "description": "A controversial horror-themed FMV adventure game starring semi-famous actress Dana Plato. As an operative of a special task force, players have to use a hacked surveillance system and numerous traps to protect a group of teenage girls from vampiric creatures.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Morphite",
-        "id": 27314,
-        "genres": [
-          "Shooter",
-          "Adventure",
-          "Indie"
-        ],
-        "total_rating": 74,
-        "total_rating_count": 1,
-        "first_release_date": "09/18/2017",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-61330",
-        "gbid": 61330,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2974344-box_morphite.png",
-        "deck": "Sci-fi shooter for PC, PS4, X-one, Switch and IOS.",
-        "platforms": "Mac, PC, iPhone, iPad, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2.99",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-14",
-      "howAcquired": "eShop",
-      "notes": "",
-      "createdAt": "04/15/2020 06:18 am",
-      "updatedAt": "04/15/2020 06:18 am",
-      "_id": "abfcd9941dc54149820e50e473b773f9",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2974344-box_morphite.png",
-      "description": "Sci-fi shooter for PC, PS4, X-one, Switch and IOS.",
       "miltiplayerNumber": 1
     }
   ],
@@ -839,10 +868,10 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PlayStation 4": 128,
     "Nintendo GameCube": 32,
     "PC (Microsoft Windows)": 158,
     "Nintendo Switch": 39,
-    "PlayStation 4": 127,
     "Game Boy Advance": 14,
     "Nintendo Entertainment System (NES)": 42,
     "Xbox": 42,
@@ -871,25 +900,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "E": 203,
     "M": 240,
     "NOT RATED": 196,
     "T": 160,
-    "E": 202,
     "E10+": 82,
     "RP": 13,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 585,
-    "digital": 309
+    "digital": 310
   },
   "gamesAcquisition": {
+    "PSN": 105,
     "eBay": 49,
     "Steam": 114,
     "eShop": 23,
     "Amazon": 6,
     "Video Games Monthly": 29,
-    "PSN": 104,
     "bought from Solis": 21,
     "GameStop": 66,
     "UNKNOWN": 127,
@@ -921,19 +950,19 @@
   },
   "cibGames": 242,
   "gamesWithGenre": {
-    "adventure": 324,
+    "music": 26,
+    "platform": 178,
+    "role-playing (rpg)": 117,
+    "adventure": 325,
+    "indie": 94,
     "shooter": 300,
-    "indie": 93,
     "arcade": 71,
     "sport": 122,
     "strategy": 90,
-    "music": 25,
-    "role-playing (rpg)": 116,
     "quiz/trivia": 8,
     "simulator": 86,
     "tactical": 22,
     "puzzle": 98,
-    "platform": 177,
     "point-and-click": 7,
     "hack and slash/beat 'em up": 57,
     "turn-based strategy (tbs)": 13,
@@ -948,7 +977,7 @@
   "gamesAddedInMonth": [
     {
       "dateFormatted": "04/2020",
-      "games": 56
+      "games": 57
     },
     {
       "dateFormatted": "02/2020",
@@ -1062,7 +1091,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 152
+      "games": 153
     },
     {
       "dateFormatted": "2018",
@@ -1080,7 +1109,7 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 60
+      "value": 61
     },
     {
       "category": "Good (70 - 89)",

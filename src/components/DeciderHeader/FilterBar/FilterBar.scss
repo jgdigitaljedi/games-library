@@ -17,6 +17,11 @@
     @include bp_lte(md) {
       margin-bottom: 0.3rem;
     }
+    @media screen and (max-width: 404px) {
+      .console-input input {
+        width: calc(100% - 2.357em);
+      }
+    }
     &.stack {
       flex-direction: column;
       div:not(:last-child) {

@@ -186,6 +186,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                 ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
               }}
               width="100%"
+              height="500px"
             />
           </div>
         )}
@@ -204,6 +205,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                 ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
               }}
               width="100%"
+              height="500px"
             />
           </div>
         )}

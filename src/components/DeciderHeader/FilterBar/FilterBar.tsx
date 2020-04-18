@@ -192,7 +192,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           Platform
         </label>
         <AutoComplete
-          className="info-text"
+          className="info-text console-input"
           id="platform"
           name="platform"
           value={acValue}

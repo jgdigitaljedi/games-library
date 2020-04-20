@@ -7,7 +7,7 @@ export default {
     'Sega 32X': 'logos/Sega_32X_logo.svg',
     'Sega Saturn': 'logos/SEGA_Saturn_logo.png',
     'Nintendo 64': 'logos/Nintendo_64_Logo.svg',
-    PlayStation: 'logos/PlayStation_logo_colour.svg',
+    PlayStation: 'logos/Playstation_logo_colour.svg',
     Dreamcast: 'logos/Dreamcast_logo.svg',
     'PlayStation 2': 'logos/PlayStation_2_logo.svg',
     'Sony PlayStation 2': 'logos/PlayStation_2_logo.svg',

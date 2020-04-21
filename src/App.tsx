@@ -1,12 +1,12 @@
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/luna-blue/theme.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './store';
 import Navbar from './components/navbar/Navbar';
-import { Router } from '@reach/router';
+import { Router, navigate } from '@reach/router';
 import Home from './Home';
 import Decider from './Decider';
 import Library from './Library';
@@ -24,6 +24,18 @@ declare global {
 window.urlPrefix = UrlService.prefix;
 
 function App(): JSX.Element {
+  useEffect(() => {
+    const currentPath = window.location.pathname.split('/');
+    const lastPath = currentPath[currentPath.length - 1];
+    if (
+      lastPath === 'decider' ||
+      lastPath === 'library' ||
+      lastPath === 'lists' ||
+      lastPath === 'viz'
+    ) {
+      navigate(`/${lastPath}`);
+    }
+  }, []);
   return (
     <React.StrictMode>
       <Provider store={store}>

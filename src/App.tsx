@@ -25,16 +25,21 @@ window.urlPrefix = UrlService.prefix;
 
 function App(): JSX.Element {
   useEffect(() => {
-    const currentPath = window.location.pathname.split('/');
-    const lastPath = currentPath[currentPath.length - 1];
-    if (
-      lastPath === 'decider' ||
-      lastPath === 'library' ||
-      lastPath === 'lists' ||
-      lastPath === 'viz'
-    ) {
-      navigate(`/${lastPath}`);
+    const search = window.location.search;
+    console.log('search', search);
+    if (search) {
+      navigate(`/gameslib/${search.substring(1)}`);
     }
+    // const currentPath = window.location.pathname.split('/');
+    // const lastPath = currentPath[currentPath.length - 1];
+    // if (
+    //   lastPath === 'decider' ||
+    //   lastPath === 'library' ||
+    //   lastPath === 'lists' ||
+    //   lastPath === 'viz'
+    // ) {
+    //   navigate(`/${lastPath}`);
+    // }
   }, []);
   return (
     <React.StrictMode>
@@ -42,12 +47,12 @@ function App(): JSX.Element {
         <div className="App">
           <CombinedContextProvider>
             <Navbar />
-            <Router basepath="/gameslib">
-              <Home default path="/" />
-              <Decider path="/decider" />
-              <Library path="/library" />
-              <Lists path="/lists" />
-              <Viz path={`/viz`} />
+            <Router>
+              <Home default path="/gameslib" />
+              <Decider path="/gameslib/decider" />
+              <Library path="/gameslib/library" />
+              <Lists path="/gameslib/lists" />
+              <Viz path={`/gameslib/viz`} />
             </Router>
           </CombinedContextProvider>
         </div>

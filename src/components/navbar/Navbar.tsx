@@ -1,8 +1,20 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, useEffect } from 'react';
 import { Menu } from 'primereact/menu';
 import { Link, navigate } from '@reach/router';
 
 const Navbar: FunctionComponent = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      const pnSplit = window.location.pathname.split('/');
+      const path = pnSplit[pnSplit.length - 1];
+      if (path === '' || path === 'gameslib' || path === 'home') {
+        setActive('home');
+      } else if (path === 'library' || path === 'decider' || path === 'viz' || path === 'lists') {
+        setActive(path);
+      }
+    });
+  });
+
   const [active, setActive] = useState<string>('');
   let menuEle: any;
   const items = [

@@ -1,52 +1,6 @@
 [
   {
     "igdb": {
-      "name": "1941: Counter Attack",
-      "id": 6077,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
-      "total_rating": 64,
-      "total_rating_count": 8,
-      "first_release_date": "01/31/1990",
-      "developers": "",
-      "esrb": "E"
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": "",
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:06 pm",
-    "updatedAt": "02/01/2020 01:06 pm",
-    "_id": "5be204c597ca4072a8189129d59d29ee",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "1943: Kai",
       "id": 42079,
       "genres": [
@@ -1540,52 +1494,6 @@
   },
   {
     "igdb": {
-      "name": "Chase H.Q.",
-      "id": 6802,
-      "genres": [
-        "Racing",
-        "Arcade"
-      ],
-      "total_rating": 65,
-      "total_rating_count": 8,
-      "first_release_date": "12/30/1988",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-13281",
-      "gbid": 13281,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2726768-1911875248-28005.jpg",
-      "deck": "A driving game about chasing criminals through hi-speed pursuits and bringing them to justice! It was released by Taito for arcades in 1988 and then ported to various different home systems.",
-      "platforms": "Amiga, Game Boy, Game Gear, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Arcade, Wii Shop, Sharp X68000, FM Towns"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:30 pm",
-    "updatedAt": "02/01/2020 01:30 pm",
-    "_id": "4b4aa957a69e433187f0b5f302546d5d",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Chew Man Fu",
       "id": 42114,
       "genres": [
@@ -1986,52 +1894,6 @@
   },
   {
     "igdb": {
-      "name": "Cyber Cross",
-      "id": 42083,
-      "genres": [
-        "Platform",
-        "Hack and slash/Beat 'em up"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "06/22/1989",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-42804",
-      "gbid": 42804,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2491008-cyber_cross_pce.jpg",
-      "deck": "An action brawler game for the PC Engine that homages tokusatsu TV shows such as Super Sentai or Kamen Rider.",
-      "platforms": "TurboGrafx-16"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:35 pm",
-    "updatedAt": "02/01/2020 01:35 pm",
-    "_id": "48a7987fc3de454ba5e3d6554cb9557f",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Cyber Dodge",
       "id": 42054,
       "genres": [
@@ -2114,96 +1976,6 @@
     "createdAt": "02/01/2020 01:36 pm",
     "updatedAt": "02/01/2020 01:36 pm",
     "_id": "7d69101f5178493794f837784babd1f0",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Darius Alpha",
-      "id": 38075,
-      "genres": [
-        "Shooter"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "04/15/1990",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-16956",
-      "gbid": 16956,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/1317941-hudariusalpha.jpg",
-      "deck": "A very rare TurboGrafx-16 shmup and part of Taito's long-lived Darius series. It could be enhanced by playing it on the SuperGrafx.",
-      "platforms": "TurboGrafx-16, SuperGrafx"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:36 pm",
-    "updatedAt": "02/01/2020 01:36 pm",
-    "_id": "72c476830078440697375b27f717548e",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Disney's Darkwing Duck",
-      "id": 81487,
-      "genres": [
-        "Platform"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "03/30/1993",
-      "developers": "",
-      "esrb": "E"
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-17216",
-      "gbid": 17216,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/661506-ddd.jpg",
-      "deck": "This little-known TurboGrafx game was based on the popular Disney cartoon series from the 90s about a masked vigilante who protects his city from a variety of criminals and supervillains.",
-      "platforms": "TurboGrafx-16"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:37 pm",
-    "updatedAt": "02/01/2020 01:37 pm",
-    "_id": "398ed25f767347a0849724222a6d49c2",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -2485,53 +2257,6 @@
   },
   {
     "igdb": {
-      "name": "Double Dragon 2: The Revenge",
-      "id": 6790,
-      "genres": [
-        "Fighting",
-        "Hack and slash/Beat 'em up",
-        "Arcade"
-      ],
-      "total_rating": 82,
-      "total_rating_count": 40,
-      "first_release_date": "12/30/1988",
-      "developers": "",
-      "esrb": "E10+"
-    },
-    "gb": {
-      "aliases": "Double Dragon 2",
-      "guid": "3030-4816",
-      "gbid": 4816,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2361674-nes_doubledragoniitherevenge.jpg",
-      "deck": "Help Billy and Jimmy avenge Marion's death in this sequel to the beat-em-up arcade classic.",
-      "platforms": "Amiga, Genesis, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-CD, TurboGrafx-16, Arcade, Wii Shop, PC, Wii U, PlayStation 4, Nintendo Switch"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:40 pm",
-    "updatedAt": "02/01/2020 01:40 pm",
-    "_id": "4ab89525dd93480c95fa2bd5e067f170",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Double Dungeons",
       "id": 42110,
       "genres": [
@@ -2711,51 +2436,6 @@
   },
   {
     "igdb": {
-      "name": "Dragon Slayer: The Legend of Heroes",
-      "id": 5579,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "11/30/1989",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": "",
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:44 pm",
-    "updatedAt": "02/01/2020 01:44 pm",
-    "_id": "d66cb166a0744987b41801153dad26ea",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Dragon's Curse",
       "id": 42109,
       "genres": [
@@ -2837,52 +2517,6 @@
     "createdAt": "02/01/2020 01:44 pm",
     "updatedAt": "02/01/2020 01:44 pm",
     "_id": "b58db5234cee4e328763a293ba442888",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Dungeons & Dragons: Order of the Griffon",
-      "id": 42102,
-      "genres": [
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "01/31/1992",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "Dungeons and Dragons: Order of the Griffon",
-      "guid": "3030-19681",
-      "gbid": 19681,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/1215337-order_of_the_griffon_coverart.png",
-      "deck": "A party-based RPG that uses the basic D&amp;D system. It was released exclusively for the TurboGrafx-16 by Westwood Associates. The player's party is sent by Lord Korrigan of Radlebb Keep to stop an army of undead led by the vampire lord Koriszegy.",
-      "platforms": "TurboGrafx-16"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 01:45 pm",
-    "updatedAt": "02/01/2020 01:45 pm",
-    "_id": "d56bd9ff56064437b49784726b07cd13",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -3017,51 +2651,6 @@
     "createdAt": "02/01/2020 01:47 pm",
     "updatedAt": "02/01/2020 01:47 pm",
     "_id": "4109fb0dddbd4904a8fd818fa80a641c",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Faceball 2000",
-      "id": 19701,
-      "genres": [
-        "Shooter"
-      ],
-      "total_rating": 76,
-      "total_rating_count": 1,
-      "first_release_date": "11/30/1991",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": "",
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:05 pm",
-    "updatedAt": "02/01/2020 03:05 pm",
-    "_id": "5eb6e3a446bf4d5fa448a6301c45949b",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -3343,51 +2932,6 @@
   },
   {
     "igdb": {
-      "name": "FINAL SOLDIER",
-      "id": 37712,
-      "genres": [
-        "Shooter"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "09/22/1991",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-4471",
-      "gbid": 4471,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/556935-pce_final_soldier_bx.jpg",
-      "deck": "A vertical-scrolling shoot 'em up and part of the Star Soldier franchise.",
-      "platforms": "TurboGrafx-16, Wii Shop, Wii U"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:08 pm",
-    "updatedAt": "02/01/2020 03:08 pm",
-    "_id": "14f143b5e393430e8ce21432068a929c",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Fire Pro Wrestling 2nd Bout",
       "id": 38086,
       "genres": [
@@ -3517,52 +3061,6 @@
     "createdAt": "02/01/2020 03:09 pm",
     "updatedAt": "02/01/2020 03:09 pm",
     "_id": "7eb870e8459b442191767ff3271985b2",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Forgotten Worlds",
-      "id": 6794,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
-      "total_rating": 61,
-      "total_rating_count": 9,
-      "first_release_date": "12/30/1988",
-      "developers": "",
-      "esrb": "E"
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": "",
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:09 pm",
-    "updatedAt": "02/01/2020 03:09 pm",
-    "_id": "54748399c8bf4160855a55bbc17c6dd0",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -3783,10 +3281,10 @@
     "physical": "",
     "cib": "",
     "pirated": "",
-    "multiplayerNumber": "",
+    "multiplayerNumber": "1",
     "datePurchased": "",
     "howAcquired": "",
-    "notes": "Turbo EverDrive",
+    "notes": "",
     "createdAt": "02/01/2020 03:12 pm",
     "updatedAt": "02/01/2020 03:12 pm",
     "_id": "bbb3412dc4c749609e5281f5e694391e",
@@ -4152,52 +3650,6 @@
     "createdAt": "02/01/2020 03:17 pm",
     "updatedAt": "02/01/2020 03:17 pm",
     "_id": "70c753a46862422e9ecb0eb35fc07235",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Impossamole",
-      "id": 12611,
-      "genres": [
-        "Platform",
-        "Adventure"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "12/30/1990",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-17648",
-      "gbid": 17648,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/628838-impossamole__gbh____front.jpg",
-      "deck": "A 2D platformer game from Core Design where their recurring character Monty Mole is recruited by aliens and given superpowers to help regain their lost sacred scrolls. Need a scroll? Better call Impossamole!",
-      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Jaguar, TurboGrafx-16, PC"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:17 pm",
-    "updatedAt": "02/01/2020 03:17 pm",
-    "_id": "b605002ccfdb46d997c96e0666cac651",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -4757,51 +4209,6 @@
   },
   {
     "igdb": {
-      "name": "Magical Chase",
-      "id": 42126,
-      "genres": [
-        "Shooter"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "12/14/1991",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": "",
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:24 pm",
-    "updatedAt": "02/01/2020 03:24 pm",
-    "_id": "b2e02dd5e6284394a1f59a931b7d219e",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Maniac Pro Wrestling",
       "id": 42070,
       "genres": [
@@ -5303,52 +4710,6 @@
   },
   {
     "igdb": {
-      "name": "The NewZealand Story",
-      "id": 7628,
-      "genres": [
-        "Shooter",
-        "Platform"
-      ],
-      "total_rating": 82,
-      "total_rating_count": 13,
-      "first_release_date": "12/30/1988",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "Kiwi Kraze",
-      "guid": "3030-20020",
-      "gbid": 20020,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2371282-genesis_newzealandstory_jp.jpg",
-      "deck": "The New Zealand Story follows the exploits of a flightless native bird of New Zealand called a Kiwi, who happens to look very little like a real kiwi bird.",
-      "platforms": "Amiga, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Commodore 128, Arcade, Wii Shop, Sharp X68000, FM Towns"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:31 pm",
-    "updatedAt": "02/01/2020 03:31 pm",
-    "_id": "d9962a18fc0f4b62a0b505ef705b5257",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Night Creatures",
       "id": 42103,
       "genres": [
@@ -5385,52 +4746,6 @@
     "createdAt": "02/01/2020 03:31 pm",
     "updatedAt": "02/01/2020 03:31 pm",
     "_id": "d6718f3fe67c494eb01719d7ab25b7d7",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Niko Niko Pun",
-      "id": 42057,
-      "genres": [
-        "Platform",
-        "Puzzle"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "12/12/1991",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "Nikoniko Pun",
-      "guid": "3030-55699",
-      "gbid": 55699,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2888728-9660898517-31909.jpg",
-      "deck": "A platformer with mini-games intended for a younger audience.",
-      "platforms": "TurboGrafx-16"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/01/2020 03:31 pm",
-    "updatedAt": "02/01/2020 03:31 pm",
-    "_id": "398fcf9bc4ae4be2af6c7e3e931e2b75",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -5477,54 +4792,6 @@
     "createdAt": "02/01/2020 03:32 pm",
     "updatedAt": "02/01/2020 03:32 pm",
     "_id": "b6b40dc9831345609a2938b74cbddc9a",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "The Ninja Warriors",
-      "id": 5406,
-      "genres": [
-        "Fighting",
-        "Platform",
-        "Hack and slash/Beat 'em up",
-        "Arcade"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "12/30/1988",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-1618",
-      "gbid": 1618,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2365584-tg16_theninjawarriors_2_jp.jpg",
-      "deck": "A side-scrolling, hack &amp; slash brawler, developed by Taito. It started as an Arcade game in 1987, then moved to home computers and consoles such as the C64 and TurboGrafx-16. Its robotic protagonists used varied combos and intricate finishing moves that helped give the brawler some depth.",
-      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Sega CD, TurboGrafx-16, Arcade, Wii Shop, PlayStation 4, Nintendo Switch"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/02/2020 07:15 am",
-    "updatedAt": "02/02/2020 07:15 am",
-    "_id": "b5a0181a2fea4cf39f4daf2b98c86ee7",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -6842,51 +6109,6 @@
   },
   {
     "igdb": {
-      "name": "Saint Dragon",
-      "id": 12207,
-      "genres": [
-        "Shooter"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "12/30/1989",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "Tenseiryuu",
-      "guid": "3030-19735",
-      "gbid": 19735,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2152042-saintdragon.jpg",
-      "deck": "A horizontal shoot 'em up in which the player controls a segmented cyborg dragon in a dark futuristic setting.",
-      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, TurboGrafx-16"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/02/2020 07:30 am",
-    "updatedAt": "02/02/2020 07:30 am",
-    "_id": "fd7b75a0d3f84a6495e1666d2c756746",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Salamander",
       "id": 1477,
       "genres": [
@@ -7971,53 +7193,6 @@
   },
   {
     "igdb": {
-      "name": "SUPER MOMOTARO DENTETSU",
-      "id": 38068,
-      "genres": [
-        "Puzzle",
-        "Strategy",
-        "Quiz/Trivia"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "10/14/1989",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-32742",
-      "gbid": 32742,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/1529176-supermomotaroudentetsu_front.jpg",
-      "deck": "A train-based boardgame for the PC Engine, Famicom, and Game Boy.",
-      "platforms": "Game Boy, Nintendo Entertainment System, TurboGrafx-16"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/02/2020 07:42 am",
-    "updatedAt": "02/02/2020 07:42 am",
-    "_id": "0adde01f0a0b4d6d9d81216886f15eb4",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Super Momotaro Dentetsu II",
       "id": 38067,
       "genres": [
@@ -8371,52 +7546,6 @@
     "createdAt": "02/02/2020 07:46 am",
     "updatedAt": "02/02/2020 07:46 am",
     "_id": "223e24db40e741969e4e0ce15c766c04",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
-      "name": "Thunder Blade",
-      "id": 12862,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "12/30/1987",
-      "developers": "",
-      "esrb": "E10+"
-    },
-    "gb": {
-      "aliases": "3D Thunder Blade",
-      "guid": "3030-5623",
-      "gbid": 5623,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/1108332-thunderblade.jpg",
-      "deck": "A helicopter shoot-'em-up developed by Sega. The Arcade version made use of Sega's 3D super scaler technology to create city environments where the buildings would appear to have depth. The subsequent home versions sadly lacked this feature.",
-      "platforms": "Amiga, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, TurboGrafx-16, Arcade, PC, Sharp X68000, Nintendo 3DS eShop"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/02/2020 07:47 am",
-    "updatedAt": "02/02/2020 07:47 am",
-    "_id": "d2c1953139fc4839b901fa1e7f692c05",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",
@@ -9241,52 +8370,6 @@
   },
   {
     "igdb": {
-      "name": "Wallaby!!",
-      "id": 37651,
-      "genres": [
-        "Puzzle",
-        "Racing"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "01/12/1991",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-45502",
-      "gbid": 45502,
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2604506-untitled.png",
-      "deck": "A breeding/racing simulator developed by Tenky for the PC Engine.",
-      "platforms": "TurboGrafx-16, Wii Shop, Wii U"
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/02/2020 07:55 am",
-    "updatedAt": "02/02/2020 07:55 am",
-    "_id": "cbd23b7949a5431b8e7b14dc7b9878c9",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Winning Shot",
       "id": 43190,
       "genres": [
@@ -9651,53 +8734,6 @@
   },
   {
     "igdb": {
-      "name": "Yuu Yuu Jinsei",
-      "id": 37649,
-      "genres": [
-        "Puzzle",
-        "Simulator",
-        "Quiz/Trivia"
-      ],
-      "total_rating": "",
-      "total_rating_count": "",
-      "first_release_date": "04/21/1988",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": "",
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "consoleName": "TurboGrafx-16/PC Engine",
-    "consoleIgdbId": 86,
-    "consoleGbid": 55,
-    "consoleGbGuid": "3045-55",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": "",
-    "cib": "",
-    "pirated": "",
-    "multiplayerNumber": "",
-    "datePurchased": "",
-    "howAcquired": "",
-    "notes": "Turbo EverDrive",
-    "createdAt": "02/02/2020 07:59 am",
-    "updatedAt": "02/02/2020 07:59 am",
-    "_id": "c0e6cb3a76c4433f8c391273d5415c3a",
-    "consoleArr": [
-      {
-        "consoleName": "TurboGrafx-16/PC Engine",
-        "consoleId": 86
-      }
-    ]
-  },
-  {
-    "igdb": {
       "name": "Zero 4 Champ",
       "id": 37648,
       "genres": [
@@ -9780,6 +8816,4375 @@
     "createdAt": "02/02/2020 08:00 am",
     "updatedAt": "02/02/2020 08:00 am",
     "_id": "6a05af84785341408ff54a217eda0ef9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Adventure Island",
+      "id": 4594,
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "total_rating": 62,
+      "total_rating_count": 41,
+      "first_release_date": "09/11/1986",
+      "developers": "",
+      "esrb": "E"
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:18 am",
+    "updatedAt": "04/30/2020 06:18 am",
+    "_id": "980c127830264b19a1ffd47fc31a0844",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Appare! Gateball",
+      "id": 42092,
+      "genres": [
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/21/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-37327",
+      "gbid": 37327,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/103881/2112913-cover.jpg",
+      "deck": "Appare! Gateball is a sports game developed by Westone and published by Hudson for the PC Engine (TurboGrafx-16) platform.",
+      "platforms": "TurboGrafx-16, Wii Shop"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:20 am",
+    "updatedAt": "04/30/2020 06:20 am",
+    "_id": "e5917ec837d84947ac3eb4c75f7b0db1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Armed Formation F",
+      "id": 39620,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/31/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-37330",
+      "gbid": 37330,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/103881/2112958-cover.jpg",
+      "deck": "A vertically-scrolling shoot 'em up released in the Arcade and for the Japanese PC Engine.",
+      "platforms": "TurboGrafx-16, Arcade, PlayStation 4, Nintendo Switch"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:21 am",
+    "updatedAt": "04/30/2020 06:21 am",
+    "_id": "87894095773c42588041cc9e1e9892d1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Artist Tool",
+      "id": 59534,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/28/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51479",
+      "gbid": 51479,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2797378-0406714143-55072.jpg",
+      "deck": "An art program for the PC Engine. Compatible with three peripherals: a drawing tablet, a scanner and a printer.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:21 am",
+    "updatedAt": "04/30/2020 06:21 am",
+    "_id": "be4e016d613d4941b1b0cc326526f78d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "AV Poker: World Gambler",
+      "id": 42089,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/30/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:23 am",
+    "updatedAt": "04/30/2020 06:23 am",
+    "_id": "8db8d79cc2004f8d82c597e2037cf747",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Benkei Gaiden",
+      "id": 80572,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51748",
+      "gbid": 51748,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2803078-3849406414-51554.jpg",
+      "deck": "A fantasy turn-based RPG set in a land similar to ancient Japan.",
+      "platforms": "TurboGrafx-16, Wii Shop, PlayStation Network (PS3)"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:24 am",
+    "updatedAt": "04/30/2020 06:24 am",
+    "_id": "3e8a7f496f544a4bba92d9969229172e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Bikkuriman World: Gekitou Sei Senshi",
+      "id": 48544,
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/26/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:25 am",
+    "updatedAt": "04/30/2020 06:25 am",
+    "_id": "eda00a1bdff044c2a985fd82718cc9d2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Body Conquest II ~The Messiah~",
+      "id": 38099,
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "07/30/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:26 am",
+    "updatedAt": "04/30/2020 06:26 am",
+    "_id": "e495d563dd1041d38e77d4995caf04fa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Bomberman: Users Battle",
+      "id": 42055,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-40058",
+      "gbid": 40058,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/2344249-bomberman_users_battle.png",
+      "deck": "This multiplayer-only Bomberman release is exceedingly rare and seems to have been produced for demo kiosks, tournaments, or both.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "5",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:27 am",
+    "updatedAt": "04/30/2020 06:27 am",
+    "_id": "d26168e30ae3424b81329e15afb91cd6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Bouken Danshaku Don: The Lost Sunheart",
+      "id": 37720,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/03/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Bouken Danshaku Don Sun=Heart Hen",
+      "guid": "3030-55775",
+      "gbid": 55775,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2890058-3532549557-51799.jpg",
+      "deck": "A horizontal shoot 'em up with a surreal edge. A group of evil eyes have stolen parts of the Sunheart, and the player needs to recover them.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:28 am",
+    "updatedAt": "04/30/2020 06:28 am",
+    "_id": "c01f8e0a20164802976501e2e55617e1",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Cyber Cross",
+      "id": 42083,
+      "genres": [
+        "Platform",
+        "Hack and slash/Beat 'em up"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "06/22/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-42804",
+      "gbid": 42804,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2491008-cyber_cross_pce.jpg",
+      "deck": "An action brawler game for the PC Engine that homages tokusatsu TV shows such as Super Sentai or Kamen Rider.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:30 am",
+    "updatedAt": "04/30/2020 06:30 am",
+    "_id": "1215d9fbd2f14489a45b4b9f2a03d523",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Chibi Maruko-chan: Quiz de Piihyara",
+      "id": 92181,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33953",
+      "gbid": 33953,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1688266-588923_3684_front.jpg",
+      "deck": "A Chibi Maruko-chan quiz game for PC Engine.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:32 am",
+    "updatedAt": "04/30/2020 06:32 am",
+    "_id": "627920e5d3ab420caaa7109f59ce6fc7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Disney's Darkwing Duck",
+      "id": 81487,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/30/1993",
+      "developers": "",
+      "esrb": "E"
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-17216",
+      "gbid": 17216,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5768/661506-ddd.jpg",
+      "deck": "This little-known TurboGrafx game was based on the popular Disney cartoon series from the 90s about a masked vigilante who protects his city from a variety of criminals and supervillains.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:35 am",
+    "updatedAt": "04/30/2020 06:35 am",
+    "_id": "52a982575a5e4abbbcd48221ebe60ca5",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Daichikun Crisis: Do Natural",
+      "id": 42029,
+      "genres": [
+        "Real Time Strategy (RTS)",
+        "Simulator",
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/21/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51719",
+      "gbid": 51719,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2802457-0923353506-41772.jpg",
+      "deck": "A real-time strategy game in which a family of cow-people have to grow and sell crops on an island crawling with monsters.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:36 am",
+    "updatedAt": "04/30/2020 06:36 am",
+    "_id": "76c2be00c99d41e5a68e72695c0f6ffb",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Daisenpuu",
+      "id": 42027,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/12/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:37 am",
+    "updatedAt": "04/30/2020 06:37 am",
+    "_id": "165baab7dfb44ceaaf064013590c27d6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Darius Alpha",
+      "id": 38075,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "04/15/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-16956",
+      "gbid": 16956,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30116/1317941-hudariusalpha.jpg",
+      "deck": "A very rare TurboGrafx-16 shmup and part of Taito's long-lived Darius series. It could be enhanced by playing it on the SuperGrafx.",
+      "platforms": "TurboGrafx-16, SuperGrafx"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:37 am",
+    "updatedAt": "04/30/2020 06:37 am",
+    "_id": "c2aa63d63edb4d7eac3036386aeba2e0",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Detana!! TwinBee",
+      "id": 42077,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/27/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:39 am",
+    "updatedAt": "04/30/2020 06:39 am",
+    "_id": "6b60df478410430c8125e483433d6eaa",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Don Doko Don",
+      "id": 39360,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/01/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-9352",
+      "gbid": 9352,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5822/545303-don_doko_don_nes_box_front.jpg",
+      "deck": "A single-screen Arcade action platformer starring hammer-wielding dwarves.",
+      "platforms": "Nintendo Entertainment System, TurboGrafx-16, Arcade"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:41 am",
+    "updatedAt": "04/30/2020 06:41 am",
+    "_id": "40ee126d8f0246298fe0b30ae721195d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Doraemon: Nobita no Dorabian Night",
+      "id": 38077,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/05/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33915",
+      "gbid": 33915,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1687316-doraemon_nobita_no_dorabian_night_box_front.jpg",
+      "deck": "A Doraemon platformer for the TurboGrafx-16 and TurboGrafx CD.",
+      "platforms": "TurboGrafx-CD, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:42 am",
+    "updatedAt": "04/30/2020 06:42 am",
+    "_id": "2a56d6666f344d079d01b368cc17a069",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Dragon Saber",
+      "id": 38097,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/26/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-5564",
+      "gbid": 5564,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/1379134-dragon_saber_flyer.png",
+      "deck": "A vertical shoot 'em up featuring dragon protagonists. It is the sequel to Namco's earlier game Dragon Spirit.",
+      "platforms": "PlayStation, TurboGrafx-16, Arcade, Wii Shop"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:42 am",
+    "updatedAt": "04/30/2020 06:42 am",
+    "_id": "456f5cb4f2c54089aa9bfe3095006637",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "F1 Circus",
+      "id": 37715,
+      "genres": [
+        "Racing"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/13/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-52483",
+      "gbid": 52483,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2820033-9906273220-51710.jpg",
+      "deck": "The first game in Nichibutsu's Formula One top-down racing series.",
+      "platforms": "Nintendo Entertainment System, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "4",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:44 am",
+    "updatedAt": "04/30/2020 06:44 am",
+    "_id": "add8898489c84f149614444b18aacd93",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "F1 Circus '91",
+      "id": 44328,
+      "genres": [
+        "Racing",
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "07/11/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-55437",
+      "gbid": 55437,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2883734-9893583686-51711.jpg",
+      "deck": "A Formula One licensed racing game for the PC Engine and the second game in Nichibutsu's F1 Circus series.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:45 am",
+    "updatedAt": "04/30/2020 06:45 am",
+    "_id": "1fbc0dfd0004484b8fd586d0896958f2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "F1 Circus '92",
+      "id": 37714,
+      "genres": [
+        "Racing",
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/17/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-56586",
+      "gbid": 56586,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2891908-4628813724-f1-ci.jpg",
+      "deck": "A Formula One racing game for the PC Engine. The last of the F1 Circus games to be released for the system.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:46 am",
+    "updatedAt": "04/30/2020 06:46 am",
+    "_id": "ec5fad446fc74d42bd85c2d7bb9d5c38",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "F1 Triple Battle",
+      "id": 44332,
+      "genres": [
+        "Racing",
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/26/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51754",
+      "gbid": 51754,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2803398-5889934100-51714.jpg",
+      "deck": "A three-player split-screen Formula One racing game for the PC Engine.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "3",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:46 am",
+    "updatedAt": "04/30/2020 06:46 am",
+    "_id": "a8b9dcdef24049839bcf8fb2c3c7bf50",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "FINAL SOLDIER",
+      "id": 37712,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/22/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-4471",
+      "gbid": 4471,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/17245/556935-pce_final_soldier_bx.jpg",
+      "deck": "A vertical-scrolling shoot 'em up and part of the Star Soldier franchise.",
+      "platforms": "TurboGrafx-16, Wii Shop, Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:49 am",
+    "updatedAt": "04/30/2020 06:49 am",
+    "_id": "2bfa765a6565428fb2e863cf77239983",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Fushigi no Yume no Alice",
+      "id": 66157,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33627",
+      "gbid": 33627,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/44493/1669059-alicefront.jpg",
+      "deck": "A platformer from FACE inspired by Alice in Wonderland.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:51 am",
+    "updatedAt": "04/30/2020 06:51 am",
+    "_id": "2a66286e08634765b7a6d2ab512e325a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Gai Flame",
+      "id": 43189,
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/14/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Gai Flame",
+      "guid": "3030-33115",
+      "gbid": 33115,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/2557451-untitled.png",
+      "deck": "Mecha strategy game developed by Masaya in 1987.",
+      "platforms": "TurboGrafx-16, Wii Shop, NEC PC-8801, NEC PC-9801, Sharp X1"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:52 am",
+    "updatedAt": "04/30/2020 06:52 am",
+    "_id": "6787b2b28f7449f7b8a728c8bc9f04a6",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Gaia no Monshou",
+      "id": 42063,
+      "genres": [
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/22/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-40511",
+      "gbid": 40511,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/2557452-untitled.png",
+      "deck": "A fantasy-themed turn-based strategy game developed and published by Masaya.",
+      "platforms": "MSX, TurboGrafx-16, NEC PC-8801, Sharp X1, Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:53 am",
+    "updatedAt": "04/30/2020 06:53 am",
+    "_id": "a3322f5024064bb191ef8fb7ced1c036",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Gekisha Boy",
+      "id": 63467,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/01/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-42480",
+      "gbid": 42480,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/2474672-box.png",
+      "deck": "A side-scrolling comedy action game about taking photos.",
+      "platforms": "PlayStation, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:54 am",
+    "updatedAt": "04/30/2020 06:54 am",
+    "_id": "a6ef37f2d3654c708d0531709041ef7e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Genji Tsuushin Agedama",
+      "id": 42073,
+      "genres": [
+        "Shooter",
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/12/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-43385",
+      "gbid": 43385,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2522346-genji_tsuushin_agedama.jpg",
+      "deck": "A superhero-themed auto-scrolling action game from NEC Interchannel. It is based on the anime of the same name.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:54 am",
+    "updatedAt": "04/30/2020 06:54 am",
+    "_id": "1128b60ebfc24dff88ecfb0abeb82f0a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Genpei Touma Den - Kannoni",
+      "id": 42035,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/20/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:55 am",
+    "updatedAt": "04/30/2020 06:55 am",
+    "_id": "90f778c4093c4368862f5c12f89b4030",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Gokuraku! Chuka Taisen",
+      "id": 37711,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "04/12/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:55 am",
+    "updatedAt": "04/30/2020 06:55 am",
+    "_id": "ae29b842470d4f1485c4ac9788451c58",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "GUNHED",
+      "id": 37710,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/05/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:57 am",
+    "updatedAt": "04/30/2020 06:57 am",
+    "_id": "6986b5934f304abc8b0575a61171c456",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Hana Taaka Daka!",
+      "id": 38076,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/07/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Hana Taaka Daka!?",
+      "guid": "3030-50366",
+      "gbid": 50366,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/2766040-3618692580-32074.jpg",
+      "deck": "After a malicious tanuki kidnaps a fox's girlfriend, he prays at a shrine for a savior. Enter: the tengu.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:57 am",
+    "updatedAt": "04/30/2020 06:57 am",
+    "_id": "4350aae331af44bc849a5f0681156085",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Hisou Kihei Kai Serd",
+      "id": 42034,
+      "genres": [
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/21/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Hisou Kihei Kai-Serd",
+      "guid": "3030-51882",
+      "gbid": 51882,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2805902-5264338736-51975.jpg",
+      "deck": "A mecha strategy game from Masaya.",
+      "platforms": "TurboGrafx-16, Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 06:58 am",
+    "updatedAt": "04/30/2020 06:58 am",
+    "_id": "25317ad8f21a4b1cbf2fbb5711ce7aab",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Hani In The Sky",
+      "id": 37685,
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "02/27/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Hani in the Sky",
+      "guid": "3030-17587",
+      "gbid": 17587,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2382307-hani_in_the_sky_pce.jpg",
+      "deck": "A vertical-scrolling shoot-'em-up from Face for the PC Engine. It was never released outside of Japan. It was eventually followed by a sequel, Hany on the Road.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:00 am",
+    "updatedAt": "04/30/2020 07:00 am",
+    "_id": "28807bc5b27542d68938623e22230949",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Hanii on the Road",
+      "id": 42068,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/06/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Hani on the Road",
+      "guid": "3030-36405",
+      "gbid": 36405,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/2566848-7622243348-58899.jpg",
+      "deck": "A side-scrolling runner action game for the PC Engine that features the Hani (or Hany) character from Hany in the Sky.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:00 am",
+    "updatedAt": "04/30/2020 07:00 am",
+    "_id": "abda58be59bb47e28a331fb6a8f55b57",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Honoo no Toukyuuji: Dodge Danpei",
+      "id": 45621,
+      "genres": [
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/09/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-44153",
+      "gbid": 44153,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2891815-9009847784-31149.jpg",
+      "deck": "A dodgeball game based on a serial manga. It was developed by SunSoft and published on various Japanese consoles.",
+      "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, Nintendo Entertainment System, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:01 am",
+    "updatedAt": "04/30/2020 07:01 am",
+    "_id": "5e1b49f21a454cffb0c60eae58506d23",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Idol Hanafuda Fan Club",
+      "id": 37664,
+      "genres": [
+        "Puzzle"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/29/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:02 am",
+    "updatedAt": "04/30/2020 07:02 am",
+    "_id": "5ad6daa34d834d4082014b42b5b494ec",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Impossamole",
+      "id": 12611,
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-17648",
+      "gbid": 17648,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1987/628838-impossamole__gbh____front.jpg",
+      "deck": "A 2D platformer game from Core Design where their recurring character Monty Mole is recruited by aliens and given superpowers to help regain their lost sacred scrolls. Need a scroll? Better call Impossamole!",
+      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Jaguar, TurboGrafx-16, PC"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:03 am",
+    "updatedAt": "04/30/2020 07:03 am",
+    "_id": "2c0a842d5821441c9b9b366922e7ed84",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Jigoku Meguri",
+      "id": 37709,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/01/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:04 am",
+    "updatedAt": "04/30/2020 07:04 am",
+    "_id": "05bff39491fc496bb1de6e55068ee18b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Jinmu Denshou Yaksa",
+      "id": 37683,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "07/19/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-42829",
+      "gbid": 42829,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2491041-jinmu_denshou_pce.jpg",
+      "deck": "A pseudo-3D third-person rail shooter of the Space Harrier mold. It had multiple developer credits and is exclusive to the PC Engine.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:04 am",
+    "updatedAt": "04/30/2020 07:04 am",
+    "_id": "d5e5074a61d84dd4ad0373c16a1e69dd",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Juuouki",
+      "id": 38073,
+      "genres": [
+        "Fighting"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/27/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 07:05 am",
+    "updatedAt": "04/30/2020 07:05 am",
+    "_id": "60d4b95543bf475ab74c82e10fd13da8",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Kaizou Choujin Shubibinman",
+      "id": 42052,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/17/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-2114",
+      "gbid": 2114,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/2299595-gjdhghfj.png",
+      "deck": "The first game in the Kaizou Choujin Shubibiman sci-fi action-platformer series, developed by Masaya for the PC Engine. Unlike its sequel, which later became Shockman, it was never released outside of Japan.",
+      "platforms": "TurboGrafx-16, Wii Shop, PlayStation Network (PS3), PlayStation Network (PSP), Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:20 am",
+    "updatedAt": "04/30/2020 11:20 am",
+    "_id": "5e298eef20b84ac0b033ae523e59ba81",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Kattobi! Takuhai Kun",
+      "id": 37682,
+      "genres": [
+        "Simulator",
+        "Quiz/Trivia",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/08/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-48308",
+      "gbid": 48308,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2705856-kattobitakuhaikun_pce.jpg",
+      "deck": "A top-down driving game where the player must deliver various packages around town, upgrading their moped as they complete jobs. The game has a subversive sense of humor.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:21 am",
+    "updatedAt": "04/30/2020 11:21 am",
+    "_id": "f315f00c88354334a3356ada182f1fd9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "KiKi KaiKai",
+      "id": 1535,
+      "genres": [
+        "Shooter",
+        "Turn-based strategy (TBS)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/17/1986",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-1761",
+      "gbid": 1761,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/6/60460/1666789-kikikaikai_pce.jpg",
+      "deck": "An Arcade game released by Taito about a priestess named Sayo-chan who must rescue the gods of fortune from monsters.",
+      "platforms": "MSX, TurboGrafx-16, Arcade, PC, PlayStation 4, Nintendo Switch"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:22 am",
+    "updatedAt": "04/30/2020 11:22 am",
+    "_id": "7065f51ed39b4db7a129f802c3a1e33e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "King Of Casino",
+      "id": 42105,
+      "genres": [
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/31/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-34390",
+      "gbid": 34390,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/1727821-589006_98517_front.jpg",
+      "deck": "This TurboGrafx-16 gambling game features roulette, poker, blackjack, keno, and slots.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "5",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:22 am",
+    "updatedAt": "04/30/2020 11:22 am",
+    "_id": "c61058dd90f6474c8c9622e1baf907c0",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Kore ga Pro Yakyuu '89",
+      "id": 42037,
+      "genres": [
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/19/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51747",
+      "gbid": 51747,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2803058-9878848049-41793.jpg",
+      "deck": "A baseball game for the PC Engine. Features twelve actual Japanese baseball teams.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:23 am",
+    "updatedAt": "04/30/2020 11:23 am",
+    "_id": "8f5c8a5d265e4c77b9df94348518f143",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Kore ga Pro Yakyuu '90",
+      "id": 37686,
+      "genres": [
+        "Sport",
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "06/28/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-52411",
+      "gbid": 52411,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2817858-3865209137-41924.jpg",
+      "deck": "A baseball game for the PC Engine that features athletes and teams from the 1990 Nippon Professional Baseball league.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:24 am",
+    "updatedAt": "04/30/2020 11:24 am",
+    "_id": "ba65cbb332fd4665b98430e1477a1759",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Kyuukyoku Mahjong",
+      "id": 37681,
+      "genres": [
+        "Puzzle"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/29/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:25 am",
+    "updatedAt": "04/30/2020 11:25 am",
+    "_id": "ab5a9cce365340de8dc3c2d52d4f7531",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Kyuukyoku Mahjong II",
+      "id": 37680,
+      "genres": [
+        "Puzzle"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/29/1993",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:26 am",
+    "updatedAt": "04/30/2020 11:26 am",
+    "_id": "52befb22470949d1be729fc1dd7ac575",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Lady Sword: Ryakudatsusareta 10-nin no Otome",
+      "id": 42050,
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "06/14/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "レディソード",
+      "guid": "3030-33596",
+      "gbid": 33596,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/59247/1667315-ls.jpg",
+      "deck": "An unlicensed eroge dungeon-crawler RPG developed by Games Express for the PC Engine in 1992.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:26 am",
+    "updatedAt": "04/30/2020 11:26 am",
+    "_id": "d80fdb87eab34ba3b5bb84933baaee09",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Maison Ikkoku",
+      "id": 41803,
+      "genres": [
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/31/1987",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33733",
+      "gbid": 33733,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/5/59247/1676430-_____nes.jpg",
+      "deck": "Adventure game developed by Microcabin in 1986.",
+      "platforms": "MSX, Nintendo Entertainment System, TurboGrafx-16, NEC PC-8801, NEC PC-9801, Sharp X1, FM-7"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:29 am",
+    "updatedAt": "04/30/2020 11:29 am",
+    "_id": "77f2ec5fb31447e5826484a88212aaba",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Makai Hakkenden Shada",
+      "id": 37675,
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "04/30/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-42796",
+      "gbid": 42796,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2490775-makai_hakkenden_shada_pce.jpg",
+      "deck": "A PC Engine Action-RPG based on the famous Japanese novel series Nansou Satomi Hakkenden. The gameplay is at least partly inspired by Falcom's Ys series.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:31 am",
+    "updatedAt": "04/30/2020 11:31 am",
+    "_id": "9ecb835672334b749ffd2353449675d4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Makai Prince Dorabochan",
+      "id": 38090,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/20/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-52585",
+      "gbid": 52585,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2823180-3500863010-31698.jpg",
+      "deck": "A side-scrolling 2D platformer featuring a magical demon prince. As well as his own magic, he can also depend on his loyal Moai servants to make bridges. The predecessor of The Twisted Tales of Spike McFang.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:32 am",
+    "updatedAt": "04/30/2020 11:32 am",
+    "_id": "4c46b7ff2ad245b7ae574ace7fed467c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Magical Chase",
+      "id": 42126,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/14/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:34 am",
+    "updatedAt": "04/30/2020 11:34 am",
+    "_id": "5ad3f3f5397842e98c32cae9d086922e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Mizubaku Daibouken",
+      "id": 38084,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "02/16/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:35 am",
+    "updatedAt": "04/30/2020 11:35 am",
+    "_id": "2e89508bbfaa40c9bbd8a2df8f396b71",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Momotarou Densetsu Gaiden",
+      "id": 37673,
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/03/1993",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Momotarou Densetsu Gaiden: Dai 1-Shu",
+      "guid": "3030-3017",
+      "gbid": 3017,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5822/520049-momotarou.jpg",
+      "deck": "A spin-off of Hudson's Peach Boy RPG series that focuses on three side characters instead.",
+      "platforms": "Game Boy, Nintendo Entertainment System, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "4",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:37 am",
+    "updatedAt": "04/30/2020 11:37 am",
+    "_id": "9730d6246f374e7db814311e60e67913",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Momotarou Densetsu II",
+      "id": 37655,
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/21/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Momotarou Densetsu 2",
+      "guid": "3030-6259",
+      "gbid": 6259,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/9261/306507-immagini_foto_nec_necmomo2.jpg",
+      "deck": "A sequel to Hudson's RPG featuring Momotarou: the Peach Boy of Japanese folklore. The oni are cooking up another scheme and it's up to Momotarou and his companions to travel the world and stop them.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "4",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:37 am",
+    "updatedAt": "04/30/2020 11:37 am",
+    "_id": "548a09b2886a44b8a94128aa8625d31b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Momotarou Densetsu Turbo",
+      "id": 42049,
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/19/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Momotaro Densetsu Turbo",
+      "guid": "3030-16626",
+      "gbid": 16626,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/1790460-momotarou_densetsu_turbo__j_.jpg",
+      "deck": "A turn-based RPG featuring the famous Peach Boy of Japanese folklore, and the enhanced remake of the first Momotarou Densetsu game. It was released shortly before the game's official sequel, also for PC Engine.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:38 am",
+    "updatedAt": "04/30/2020 11:38 am",
+    "_id": "71da8af939a042f481b5a075accb7338",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Momotarou Katsugeki",
+      "id": 38082,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/20/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:39 am",
+    "updatedAt": "04/30/2020 11:39 am",
+    "_id": "76738d3d8f1a4da68bb7abb2a80adad2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Morita Shogi PC",
+      "id": 37672,
+      "genres": [
+        "Puzzle",
+        "Quiz/Trivia"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/26/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-55558",
+      "gbid": 55558,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2886407-3634923522-31908.jpg",
+      "deck": "A shogi game that offers a graphical mode that reimagines the shogi pieces as RPG monsters.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 11:40 am",
+    "updatedAt": "04/30/2020 11:40 am",
+    "_id": "56dc7ed1acf34ef7b199b2da3343ea7c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Mr. Heli",
+      "id": 10446,
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/30/1987",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Mr. Heli no Daibouken\r, Battle Chopper",
+      "guid": "3030-1864",
+      "gbid": 1864,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/1790470-mr._heli_no_daibouken__j_.jpg",
+      "deck": "An Arcade cute 'em up from Irem. Mr. Heli can destroy parts of the environment with his bombs and missiles to uncover valuable crystals which can be spent on power-ups.",
+      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, TurboGrafx-16, Arcade, Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:27 pm",
+    "updatedAt": "04/30/2020 05:27 pm",
+    "_id": "312a516395b74ecab5ad495937fb9603",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "NAXAT OPEN",
+      "id": 37707,
+      "genres": [
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-8811",
+      "gbid": 8811,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2490961-naxat_open_pce.jpg",
+      "deck": "A golf sim from Naxat Soft, which lent their name to the game, and developed by contract developers TOSE. It was released around the same time as Power Golf in Japan.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "4",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:28 pm",
+    "updatedAt": "04/30/2020 05:28 pm",
+    "_id": "179c29c8e9f24e5493a0c213d4a6b28a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Nazo No Masquerade",
+      "id": 37669,
+      "genres": [
+        "Strategy",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/01/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51974",
+      "gbid": 51974,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2807267-6009673845-51818.jpg",
+      "deck": "A murder mystery adventure game exclusive to the Japanese PC Engine.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:29 pm",
+    "updatedAt": "04/30/2020 05:29 pm",
+    "_id": "3b966d2663804e818d620af5eae2352b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Necromancer",
+      "id": 18661,
+      "genres": [
+        "Arcade"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1982",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-39859",
+      "gbid": 39859,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2333808-jaseiken_necromancer_pce.jpg",
+      "deck": "A fantasy RPG developed and published by Hudson for the PC Engine. It was never released outside Japan.",
+      "platforms": "TurboGrafx-16, Wii Shop, PlayStation Network (PS3), Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:30 pm",
+    "updatedAt": "04/30/2020 05:30 pm",
+    "_id": "d600bd9b13334df3a7977fd6eb6001e9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Nekketsu Koukou Dodgeball Bu: MD Soccer Hen",
+      "id": 46677,
+      "genres": [
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/05/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51977",
+      "gbid": 51977,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2807346-5630695091-37620.jpg",
+      "deck": "A PC Engine exclusive version of the popular Kunio-kun dodgeball game, with added features and a graphical update.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:31 pm",
+    "updatedAt": "04/30/2020 05:31 pm",
+    "_id": "81c03b97a75b4e5d93087010fd5ee193",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "The New Zealand Story",
+      "id": 39064,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Kiwi Kraze",
+      "guid": "3030-20020",
+      "gbid": 20020,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2371282-genesis_newzealandstory_jp.jpg",
+      "deck": "The New Zealand Story follows the exploits of a flightless native bird of New Zealand called a Kiwi, who happens to look very little like a real kiwi bird.",
+      "platforms": "Amiga, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Commodore 128, Arcade, Wii Shop, Sharp X68000, FM Towns"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:32 pm",
+    "updatedAt": "04/30/2020 05:32 pm",
+    "_id": "e377a438d3b04abba8c2aca6386de722",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "NHK Taiga Drama Taiheiki",
+      "id": 37667,
+      "genres": [
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/30/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-55776",
+      "gbid": 55776,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2890112-0229000710-51842.jpg",
+      "deck": "A war strategy game based on a period drama TV show which in turn was based on a 14th century epic novel.",
+      "platforms": "Genesis, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:33 pm",
+    "updatedAt": "04/30/2020 05:33 pm",
+    "_id": "69c5a01d3a2c47a0bf9d3f96ba4f3a0e",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Ninja Ryūkenden",
+      "id": 38083,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/23/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:34 pm",
+    "updatedAt": "04/30/2020 05:34 pm",
+    "_id": "d726a56da3f94b6d95542e8834656b51",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "The Ninja Warriors",
+      "id": 5406,
+      "genres": [
+        "Fighting",
+        "Platform",
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-1618",
+      "gbid": 1618,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2365584-tg16_theninjawarriors_2_jp.jpg",
+      "deck": "A side-scrolling, hack &amp; slash brawler, developed by Taito. It started as an Arcade game in 1987, then moved to home computers and consoles such as the C64 and TurboGrafx-16. Its robotic protagonists used varied combos and intricate finishing moves that helped give the brawler some depth.",
+      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Sega CD, TurboGrafx-16, Arcade, Wii Shop, PlayStation 4, Nintendo Switch"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:35 pm",
+    "updatedAt": "04/30/2020 05:35 pm",
+    "_id": "f9e308e84b6d44bf9cf1cd5505b3be91",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Obocchama Kun",
+      "id": 42040,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/14/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-55433",
+      "gbid": 55433,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2883487-4055657731-30731.jpg",
+      "deck": "A comedic platformer based on an anime about a spoiled rich kid.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:36 pm",
+    "updatedAt": "04/30/2020 05:36 pm",
+    "_id": "f6aeb0892f6742bf96af08907ccb7529",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Dungeons & Dragons: Order of the Griffon",
+      "id": 42102,
+      "genres": [
+        "Role-playing (RPG)",
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/31/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Dungeons and Dragons: Order of the Griffon",
+      "guid": "3030-19681",
+      "gbid": 19681,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30116/1215337-order_of_the_griffon_coverart.png",
+      "deck": "A party-based RPG that uses the basic D&amp;D system. It was released exclusively for the TurboGrafx-16 by Westwood Associates. The player's party is sent by Lord Korrigan of Radlebb Keep to stop an army of undead led by the vampire lord Koriszegy.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:37 pm",
+    "updatedAt": "04/30/2020 05:37 pm",
+    "_id": "e9690662a6a64b79a3290ae9eda6f8bd",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "OutRun",
+      "id": 2051,
+      "genres": [
+        "Racing",
+        "Arcade"
+      ],
+      "total_rating": 78,
+      "total_rating_count": 40,
+      "first_release_date": "09/24/1986",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "3D OutRun",
+      "guid": "3030-11260",
+      "gbid": 11260,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2371323-genesis_outrun_eu.jpg",
+      "deck": "Yu Suzuki's classic 1986 Sega arcade \"driving game\" puts players behind the wheel of a red convertible sports car on a trip through American- and European-inspired landscapes.",
+      "platforms": "Amiga, Game Gear, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, Saturn, TurboGrafx-16, Arcade, PC, Nintendo 3DS eShop, Nintendo Switch"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "",
+    "case": "",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:38 pm",
+    "updatedAt": "04/30/2020 05:38 pm",
+    "_id": "7bb0452df4fc4983805448b510b8145a",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Pachio Kun Juuban Shoubu",
+      "id": 46501,
+      "genres": [
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/12/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Pachiokun: Juban Shobu",
+      "guid": "3030-55781",
+      "gbid": 55781,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2890265-7335100873-31909.jpg",
+      "deck": "A pachinko game for the PC Engine starring the Coconuts Japan mascot character Pachio-kun.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:39 pm",
+    "updatedAt": "04/30/2020 05:39 pm",
+    "_id": "5e000ff92fcf466190d40da43a0f412b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "PC Genjin 3 Special",
+      "id": 37663,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "04/30/1993",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:41 pm",
+    "updatedAt": "04/30/2020 05:41 pm",
+    "_id": "616e97aef02c4443b8245fd55eb61f4f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "PC Pachi Slot 777",
+      "id": 44321,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/30/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:42 pm",
+    "updatedAt": "04/30/2020 05:42 pm",
+    "_id": "86378ba9913e411abcfe4818abdad850",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "QUIZ Toukou Shashin",
+      "id": 37659,
+      "genres": [
+        "Puzzle"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "06/12/1994",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "5",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:45 pm",
+    "updatedAt": "04/30/2020 05:45 pm",
+    "_id": "8e8387d325974aa9913c721db407d677",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Rabio Lepus Special",
+      "id": 38066,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/18/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-40408",
+      "gbid": 40408,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/2360911-589085_4555_front.jpg",
+      "deck": "Enhanced and remixed version of Rabbit Punch/Rabio Lepus.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:46 pm",
+    "updatedAt": "04/30/2020 05:46 pm",
+    "_id": "4215be3270604be7b6af7280ec9bae91",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Rock On",
+      "id": 37658,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/21/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33688",
+      "gbid": 33688,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/4/44493/1674295-rockonfront.jpg",
+      "deck": "An eccentric horizontal shoot 'em up for the PC Engine. The priceless \"FISA\" treasure of the ancient people can be obtained by any Buster foolhardy enough to pursue it.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:46 pm",
+    "updatedAt": "04/30/2020 05:46 pm",
+    "_id": "0bd52d64dd184a98954e349770693e6b",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "R-Type II",
+      "id": 6854,
+      "genres": [
+        "Shooter",
+        "Arcade"
+      ],
+      "total_rating": 76,
+      "total_rating_count": 9,
+      "first_release_date": "12/30/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "R-Type 2",
+      "guid": "3030-19750",
+      "gbid": 19750,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7930/699490-r_type_ii_eu_box_art.jpg",
+      "deck": "The sequel to arcade smash shoot-'em-up R-Type.",
+      "platforms": "Amiga, Game Boy, Atari ST, TurboGrafx-16, Arcade, Android, Ouya"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/30/2020 05:47 pm",
+    "updatedAt": "04/30/2020 05:47 pm",
+    "_id": "b128253e30ce447f8f30bcff169fff12",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Chase H.Q. II: Special Criminal Investigation",
+      "id": 11999,
+      "genres": [
+        "Racing"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Chase HQ II: Special Criminal Investigation\r, Chase HQ 2: Special Criminal Investigation\r, Chase H.Q. 2: Special Criminal Investigation\r, SCI: Special Criminal Investigation\r, S.C.I.: Special Criminal Investigation",
+      "guid": "3030-17224",
+      "gbid": 17224,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2687565-8546716525-28013.jpg",
+      "deck": "Jump into a sports car and stop the criminals from escaping. This sequel to Chase HQ adds the ability to shoot guns at criminals from the sunroof.",
+      "platforms": "Amiga, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, PlayStation 2, Saturn, TurboGrafx-16, Arcade, Wii Shop"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:02 am",
+    "updatedAt": "05/01/2020 05:02 am",
+    "_id": "cc305524a0b64a97973cef60b995e0e2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Sadakichi Seven: Hideyoshi no Ougon",
+      "id": 64289,
+      "genres": [
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "11/17/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-40512",
+      "gbid": 40512,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2366779-sadakichi_seven_pce.jpg",
+      "deck": "A comedic espionage-themed adventure game for the PC Engine, published by Hudson.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:03 am",
+    "updatedAt": "05/01/2020 05:03 am",
+    "_id": "523cb9e93a004068954ed935768962f5",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Sekigahara",
+      "id": 43203,
+      "genres": [
+        "Strategy"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/13/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-52484",
+      "gbid": 52484,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2820054-8361206062-31756.jpg",
+      "deck": "A strategy wargame sim based on the Sengoku era of feudal Japan. The game is named for the decisive battle that ended the Sengoku era.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:04 am",
+    "updatedAt": "05/01/2020 05:04 am",
+    "_id": "0b45326ca5994ff28af6003a4d00f34c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Shougi Shodan Icchokusen",
+      "id": 42032,
+      "genres": [
+        "Puzzle",
+        "Quiz/Trivia"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/09/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-52430",
+      "gbid": 52430,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2818277-4381320399-31909.jpg",
+      "deck": "A Shogi game for the PC Engine. Features a story mode that stars Momotarou, the legendary Peach Boy.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:06 am",
+    "updatedAt": "05/01/2020 05:06 am",
+    "_id": "4a39b59dffd743e8b8dae71e259a8ad9",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Strip Fighter II",
+      "id": 38079,
+      "genres": [
+        "Fighting"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/31/1993",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Strip Fighter 2",
+      "guid": "3030-6319",
+      "gbid": 6319,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8153/1108369-575509_81810_front.jpg",
+      "deck": "Strip Fighter II is a fighting game done in the Street Fighter II format. The only difference is that the game stars a cast of only Women fighters in sexy outfits.",
+      "platforms": "TurboGrafx-16, Sharp X68000"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "2",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:08 am",
+    "updatedAt": "05/01/2020 05:08 am",
+    "_id": "30e2dedcc5d84382835736971345bbad",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "SUPER MOMOTARO DENTETSU",
+      "id": 38068,
+      "genres": [
+        "Puzzle",
+        "Strategy",
+        "Quiz/Trivia"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/14/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-32742",
+      "gbid": 32742,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2453/1529176-supermomotaroudentetsu_front.jpg",
+      "deck": "A train-based boardgame for the PC Engine, Famicom, and Game Boy.",
+      "platforms": "Game Boy, Nintendo Entertainment System, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "4",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:09 am",
+    "updatedAt": "05/01/2020 05:09 am",
+    "_id": "8fca7ca3163d4795bcae79254cddcc52",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Chase H.Q.",
+      "id": 6802,
+      "genres": [
+        "Racing",
+        "Arcade"
+      ],
+      "total_rating": 65,
+      "total_rating_count": 8,
+      "first_release_date": "12/30/1988",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-13281",
+      "gbid": 13281,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2726768-1911875248-28005.jpg",
+      "deck": "A driving game about chasing criminals through hi-speed pursuits and bringing them to justice! It was released by Taito for arcades in 1988 and then ported to various different home systems.",
+      "platforms": "Amiga, Game Boy, Game Gear, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, TurboGrafx-16, Arcade, Wii Shop, Sharp X68000, FM Towns"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:11 am",
+    "updatedAt": "05/01/2020 05:11 am",
+    "_id": "6e9dc6a91f3f4155bdaf905cfcbd2ab7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Saint Dragon",
+      "id": 12207,
+      "genres": [
+        "Shooter"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "12/30/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Tenseiryuu",
+      "guid": "3030-19735",
+      "gbid": 19735,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3164743-3293557672-83499.jpg",
+      "deck": "A horizontal shoot 'em up in which the player controls a segmented cyborg dragon in a dark futuristic setting.",
+      "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, TurboGrafx-16, PlayStation 4, Nintendo Switch"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:13 am",
+    "updatedAt": "05/01/2020 05:13 am",
+    "_id": "5a04fdcbc825486fae165c2f91dda71f",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Eternal City",
+      "id": 91920,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33335",
+      "gbid": 33335,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2883595-0103041908-51709.jpg",
+      "deck": "An action-platformer with interconnected zones from Naxat Soft. The designs are by Masamune Shirow. It was released only in Japan.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:17 am",
+    "updatedAt": "05/01/2020 05:17 am",
+    "_id": "858e81c732a54d0db04ad4d7922a84d3",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Tower Of Druaga: Tower Of Defender",
+      "id": 76964,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/22/2009",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Druaga no Tou",
+      "guid": "3030-4567",
+      "gbid": 4567,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1710709-tower_of_druaga__the.jpg",
+      "deck": "Players climb the tower, defeat Druaga and rescue Princess Ki in this maze-style, action role-playing game. Originally released by Namco for arcades in 1984, its combination of hack &amp; slash combat and RPG elements laid the foundations for the action RPG genre.",
+      "platforms": "Game Boy, MSX, Nintendo Entertainment System, TurboGrafx-16, Arcade, Wii Shop, Nintendo 3DS eShop"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:18 am",
+    "updatedAt": "05/01/2020 05:18 am",
+    "_id": "3fd2fc0b6378455698252fd2ea91de35",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Tsuru Teruhito no Jissen Kabushiki Bi-Game",
+      "id": 59431,
+      "genres": [
+        "Simulator"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/31/1989",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-51718",
+      "gbid": 51718,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2802445-7249629086-31910.jpg",
+      "deck": "A stock-trading simulation game for the PC Engine. Earn a fortune through savvy buying and selling.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:19 am",
+    "updatedAt": "05/01/2020 05:19 am",
+    "_id": "2daa5eb084a84982933ec19db1686c59",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Wallaby!! Usagi no Kuni no Kangaroo Race",
+      "id": 62084,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-45502",
+      "gbid": 45502,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/2604506-untitled.png",
+      "deck": "A breeding/racing simulator developed by Tenky for the PC Engine.",
+      "platforms": "TurboGrafx-16, Wii Shop, Wii U"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:20 am",
+    "updatedAt": "05/01/2020 05:20 am",
+    "_id": "a0b3e62ad6414ea2bc351f588782bbd4",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Valkyrie no Densetsu",
+      "id": 42080,
+      "genres": [
+        "Adventure"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "09/08/1990",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Valkyrie no Densetsu",
+      "guid": "3030-17440",
+      "gbid": 17440,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/9261/293652-valkyriecouv.jpg",
+      "deck": "A top-down action-adventure game somewhat similar to The Legend of Zelda.",
+      "platforms": "TurboGrafx-16, Arcade, Wii Shop"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:27 am",
+    "updatedAt": "05/01/2020 05:27 am",
+    "_id": "65552aaa7bd74b1d861e9f12a6358a68",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "W Ring: The Double Rings",
+      "id": 64746,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Double Ring",
+      "guid": "3030-39354",
+      "gbid": 39354,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/103881/2292833-w_ring_cover.jpg",
+      "deck": "A Japanese PC Engine exclusive horizontal shoot 'em up. Power-ups appear as rings around the player's ship.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:29 am",
+    "updatedAt": "05/01/2020 05:29 am",
+    "_id": "17730001da9c41829b2c2b7d585900f8",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Wonderboy in Monsterland",
+      "id": 37265,
+      "genres": [
+        "Platform",
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/29/1987",
+      "developers": "",
+      "esrb": "E"
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:30 am",
+    "updatedAt": "05/01/2020 05:30 am",
+    "_id": "6400edba6b6e414d9eadb0bbad84d005",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ]
+  },
+  {
+    "igdb": {
+      "name": "Youkai Douchuuki",
+      "id": 48597,
+      "genres": [
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "03/31/1987",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:33 am",
+    "updatedAt": "05/01/2020 05:33 am",
+    "_id": "110e254057a445fa87472096ea266ecd",
     "consoleArr": [
       {
         "consoleName": "TurboGrafx-16/PC Engine",

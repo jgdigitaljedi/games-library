@@ -26,20 +26,9 @@ window.urlPrefix = UrlService.prefix;
 function App(): JSX.Element {
   useEffect(() => {
     const search = window.location.search;
-    console.log('search', search);
     if (search) {
       navigate(`/gameslib/${search.substring(1)}`);
     }
-    // const currentPath = window.location.pathname.split('/');
-    // const lastPath = currentPath[currentPath.length - 1];
-    // if (
-    //   lastPath === 'decider' ||
-    //   lastPath === 'library' ||
-    //   lastPath === 'lists' ||
-    //   lastPath === 'viz'
-    // ) {
-    //   navigate(`/${lastPath}`);
-    // }
   }, []);
   return (
     <React.StrictMode>

@@ -50,9 +50,6 @@ function exclusiveAndLaunch(games, ids, list) {
 }
 
 const meFixed = megaEd.map(item => {
-  if (!item.igdb.genres || !Array.isArray(item.igdb.genres)) {
-    item.genres = [];
-  }
   item.notes = 'Mega EverDrive';
   return item;
 });
@@ -61,10 +58,16 @@ const tgEL = exclusiveAndLaunch(tgEd, tgSpecialIds, tgSpecial);
 const genEL = exclusiveAndLaunch(meFixed, genSpecialIds, genSpecial);
 
 const combined = [...tgEL, ...genEL];
+const cleaned = combined.map(game => {
+  if (!game.igdb.genres || !Array.isArray(game.igdb.genres)) {
+    game.igdb.genres = [];
+  }
+  return game;
+});
 
 fs.writeFile(
   path.join(__dirname, '../server/extra/everDrive.json'),
-  JSON.stringify(combined),
+  JSON.stringify(cleaned),
   error => {
     if (error) {
       console.log(chalk.red.bold(error));

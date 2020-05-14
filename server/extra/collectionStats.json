@@ -2,6 +2,171 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Call Of Duty: Modern Warfare",
+        "id": 119177,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 93,
+        "first_release_date": "10/24/2019",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Call of Duty: Modern Warfare 4, Call of Duty 2019",
+        "guid": "3030-73517",
+        "gbid": 73517,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
+        "deck": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "64",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-13",
+      "howAcquired": "Battle.net",
+      "notes": "got the battle pass edition",
+      "createdAt": "05/14/2020 06:29 am",
+      "updatedAt": "05/14/2020 06:29 am",
+      "_id": "962e91ffb0ba4e48b3f90041f9531018",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
+      "description": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Daemon X Machina",
+        "id": 103338,
+        "genres": [
+          "Shooter",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 71,
+        "total_rating_count": 18,
+        "first_release_date": "09/12/2019",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-68946",
+        "gbid": 68946,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124244-dxm.jpg",
+        "deck": "A mecha action game with seamless ground and aerial combat sporting a cel-shaded art style coming in 2019 exclusively to Nintendo Switch. Developed by Armored Core veterans at Marvelous First Studio and published by Nintendo in the West.",
+        "platforms": "PC, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "15",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-12",
+      "howAcquired": "bought from Solis",
+      "notes": "",
+      "createdAt": "05/13/2020 10:25 am",
+      "updatedAt": "05/13/2020 10:25 am",
+      "_id": "fcc842ae26384db79c7efedb90c6e9b4",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124244-dxm.jpg",
+      "description": "A mecha action game with seamless ground and aerial combat sporting a cel-shaded art style coming in 2019 exclusively to Nintendo Switch. Developed by Armored Core veterans at Marvelous First Studio and published by Nintendo in the West.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Marvel Ultimate Alliance 3: The Black Order",
+        "id": 113109,
+        "genres": [
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 27,
+        "first_release_date": "07/18/2019",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "MUA3",
+        "guid": "3030-71296",
+        "gbid": 71296,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3094188-6218910193-D4RrsjIXkAAJR-c.jpg%3Aorig",
+        "deck": "After a decade, Marvel Ultimate Alliance is back exclusively on Nintendo Switch.",
+        "platforms": "Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "15",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-05-12",
+      "howAcquired": "bought from Solis",
+      "notes": "",
+      "createdAt": "05/13/2020 10:25 am",
+      "updatedAt": "05/13/2020 10:25 am",
+      "_id": "3f8dee74dc704c3abfade356d4a8742f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3094188-6218910193-D4RrsjIXkAAJR-c.jpg%3Aorig",
+      "description": "After a decade, Marvel Ultimate Alliance is back exclusively on Nintendo Switch.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
+        "name": "Star Wars Battlefront II",
+        "id": 26401,
+        "genres": [
+          "Shooter",
+          "Adventure"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 193,
+        "first_release_date": "11/16/2017",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Battlefront 2",
+        "guid": "3030-53692",
+        "gbid": 53692,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2932265-wario64_2017-apr-15.jpg",
+        "deck": "EA's second Star Wars Battlefront features cross-era characters and locations from the original, prequel and sequel Star Wars movie trilogies. It also includes multiplayer character classes and a story-driven single-player campaign.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "17",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-09",
+      "howAcquired": "Origin",
+      "notes": "Celebration Edition",
+      "createdAt": "05/14/2020 06:31 am",
+      "updatedAt": "05/14/2020 06:31 am",
+      "_id": "64fff80c778e4b1b8ea6f3fc4469cb81",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2932265-wario64_2017-apr-15.jpg",
+      "description": "EA's second Star Wars Battlefront features cross-era characters and locations from the original, prequel and sequel Star Wars movie trilogies. It also includes multiplayer character classes and a story-driven single-player campaign.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Dead To Rights",
         "id": 3872,
         "genres": [
@@ -57,238 +222,6 @@
           "tgdbId": 2313
         }
       ]
-    },
-    {
-      "igdb": {
-        "name": "Assassin's Creed III",
-        "id": 1266,
-        "genres": [
-          "Strategy",
-          "Adventure"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 755,
-        "first_release_date": "10/29/2012",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Assassin's Creed 3, Assassins Creed III, Assassins Creed 3, AC3, ACIII, Assassin's Creed III Remastered",
-        "guid": "3030-37494",
-        "gbid": 37494,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2141562-box_ac3.png",
-        "deck": "The fifth console entry in the Assassin's Creed franchise. It introduces the half-Native American, half-English Assassin Connor and is set in North America in the late eighteenth century amid the American Revolutionary War.",
-        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Wii U, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "Xbox 360",
-      "consoleIgdbId": 12,
-      "consoleGbid": 20,
-      "consoleGbGuid": "3045-20",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "05/08/2020 06:29 am",
-      "updatedAt": "05/08/2020 06:29 am",
-      "_id": "dfdb4850ac1f41a8a29ed90f1ced8570",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2141562-box_ac3.png",
-      "description": "The fifth console entry in the Assassin's Creed franchise. It introduces the half-Native American, half-English Assassin Connor and is set in North America in the late eighteenth century amid the American Revolutionary War.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Xbox 360 game backward compatible with Xbox One"
-      ],
-      "extraDataFull": [
-        {
-          "igdbId": 1266,
-          "name": "Assassin's Creed III",
-          "details": [
-            "Xbox 360 game backward compatible with Xbox One"
-          ],
-          "id": "x36032",
-          "gbId": 37494,
-          "gbGuid": "3030-37494",
-          "tgdbId": 9302,
-          "special": [
-            {
-              "value": "Xbox 360 game backward compatible with Xbox One",
-              "forPlatform": {
-                "name": "Microsoft Xbox 360",
-                "id": "ccl26",
-                "igdbId": 12,
-                "gbId": 20,
-                "gbGuid": "3045-20",
-                "tgdbId": 15
-              }
-            }
-          ],
-          "isExclusive": false,
-          "isLaunchTitle": false
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Tom Clancy's Rainbow Six 3: Black Arrow",
-        "id": 47321,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "09/04/2004",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-17491",
-        "gbid": 17491,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2360879-box_rs3ba.png",
-        "deck": "Tom Clancy's Rainbow Six 3: Black Arrow is the successful expansion to Rainbow Six 3. Multiplayer updates like \"Retrieval\" mode and split screen co-operative play help distinguish Black Arrow from its predecessors. ",
-        "platforms": "Xbox"
-      },
-      "consoleName": "Xbox",
-      "consoleIgdbId": 11,
-      "consoleGbid": 32,
-      "consoleGbGuid": "3045-32",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "05/08/2020 06:39 am",
-      "updatedAt": "05/08/2020 06:39 am",
-      "_id": "7bfda36d16354cf6943e1c53cc0d3b23",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2360879-box_rs3ba.png",
-      "description": "Tom Clancy's Rainbow Six 3: Black Arrow is the successful expansion to Rainbow Six 3. Multiplayer updates like \"Retrieval\" mode and split screen co-operative play help distinguish Black Arrow from its predecessors. ",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Xbox game plays on Xbox 360"
-      ],
-      "extraDataFull": [
-        {
-          "igdbId": 47321,
-          "name": "Tom Clancy's Rainbow Six 3: Black Arrow",
-          "details": [
-            "Xbox game plays on Xbox 360"
-          ],
-          "id": "xbox452",
-          "gbId": 17491,
-          "gbGuid": "3030-17491",
-          "tgdbId": 8037,
-          "special": [
-            {
-              "value": "Xbox game plays on Xbox 360",
-              "forPlatform": {
-                "name": "Microsoft Xbox",
-                "id": "ccl25",
-                "igdbId": 11,
-                "gbId": 32,
-                "gbGuid": "3045-32",
-                "tgdbId": 14
-              }
-            }
-          ],
-          "isExclusive": false,
-          "isLaunchTitle": false
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Rise to Honor",
-        "id": 69829,
-        "genres": [
-          "Hack and slash/Beat 'em up",
-          "Adventure"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "02/16/2004",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Jet Li: Rise to Honor",
-        "guid": "3030-13809",
-        "gbid": 13809,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525193-box_jlroh.png",
-        "deck": "Jet Li stars as police officer Kit Yun as he fights his way from Hong Kong to San Francisco to fulfill a dead man's wish.",
-        "platforms": "PlayStation 2"
-      },
-      "consoleName": "PlayStation 2",
-      "consoleIgdbId": 8,
-      "consoleGbid": 19,
-      "consoleGbGuid": "3045-19",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "05/08/2020 06:36 am",
-      "updatedAt": "05/08/2020 06:36 am",
-      "_id": "72530ab538ad4ad69337efce90e51eaf",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525193-box_jlroh.png",
-      "description": "Jet Li stars as police officer Kit Yun as he fights his way from Hong Kong to San Francisco to fulfill a dead man's wish.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "I Spy Spooky Mansion",
-        "id": 19844,
-        "genres": [
-          "Puzzle"
-        ],
-        "total_rating": 50,
-        "total_rating_count": 1,
-        "first_release_date": "09/09/2009",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "",
-        "gbid": "",
-        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.nintendolife.com%2Fgames%2Fwii%2Fi_spy_spooky_mansion%2Fcover_large.jpg&f=1&nofb=1",
-        "deck": "",
-        "platforms": ""
-      },
-      "consoleName": "Wii",
-      "consoleIgdbId": 5,
-      "consoleGbid": 36,
-      "consoleGbGuid": "3045-36",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "05/08/2020 06:35 am",
-      "updatedAt": "05/08/2020 06:35 am",
-      "_id": "4a5f4fe009a34b7d8ad5b811b7674a2b",
-      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.nintendolife.com%2Fgames%2Fwii%2Fi_spy_spooky_mansion%2Fcover_large.jpg&f=1&nofb=1",
-      "description": "",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -603,6 +536,46 @@
     },
     {
       "igdb": {
+        "name": "Call Of Duty: Modern Warfare",
+        "id": 119177,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 93,
+        "first_release_date": "10/24/2019",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Call of Duty: Modern Warfare 4, Call of Duty 2019",
+        "guid": "3030-73517",
+        "gbid": 73517,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
+        "deck": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "64",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-13",
+      "howAcquired": "Battle.net",
+      "notes": "got the battle pass edition",
+      "createdAt": "05/14/2020 06:29 am",
+      "updatedAt": "05/14/2020 06:29 am",
+      "_id": "962e91ffb0ba4e48b3f90041f9531018",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
+      "description": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Eternal Darkness: Sanity's Requiem",
         "id": 3907,
         "genres": [
@@ -669,50 +642,6 @@
           "special": []
         }
       ]
-    },
-    {
-      "igdb": {
-        "name": "Final Fantasy VII Remake",
-        "id": 11169,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 88,
-        "total_rating_count": 10,
-        "first_release_date": "04/09/2020",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "FFVII Remake\r, FF7 Remake\r, FFVII HD\r, FF7 HD",
-        "guid": "3030-49974",
-        "gbid": 49974,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
-        "deck": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
-        "platforms": "PlayStation 4"
-      },
-      "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-12",
-      "howAcquired": "Amazon",
-      "notes": "",
-      "createdAt": "04/13/2020 06:56 am",
-      "updatedAt": "04/13/2020 06:56 am",
-      "_id": "cbb84958a60e4615b213e8b3a64f2ff8",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
-      "description": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostPaidForPlatforms": [
@@ -892,14 +821,14 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 160,
+    "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
     "Xbox": 43,
     "PlayStation 2": 54,
     "Wii": 27,
     "PlayStation 4": 128,
-    "PC (Microsoft Windows)": 158,
-    "Nintendo Switch": 39,
     "Game Boy Advance": 14,
     "Nintendo Entertainment System (NES)": 42,
     "PlayStation": 18,
@@ -924,26 +853,28 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 242,
+    "M": 243,
+    "T": 164,
     "NOT RATED": 197,
-    "T": 161,
     "E": 204,
     "E10+": 82,
     "RP": 13,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 590,
-    "digital": 310
+    "physical": 592,
+    "digital": 312
   },
   "gamesAcquisition": {
+    "Battle.net": 1,
+    "bought from Solis": 23,
+    "Origin": 1,
     "Video Games Monthly": 34,
     "PSN": 105,
     "eBay": 49,
     "Steam": 114,
     "eShop": 23,
     "Amazon": 6,
-    "bought from Solis": 21,
     "GameStop": 66,
     "UNKNOWN": 127,
     "GameOver": 206,
@@ -972,16 +903,16 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 247,
+  "cibGames": 249,
   "gamesWithGenre": {
-    "shooter": 302,
-    "adventure": 328,
+    "shooter": 305,
+    "hack and slash/beat 'em up": 60,
+    "role-playing (rpg)": 118,
+    "adventure": 329,
     "strategy": 91,
-    "hack and slash/beat 'em up": 58,
     "puzzle": 99,
     "music": 26,
     "platform": 178,
-    "role-playing (rpg)": 117,
     "indie": 94,
     "arcade": 71,
     "sport": 122,
@@ -1068,16 +999,16 @@
       "games": 10
     },
     {
+      "dateFormatted": "05/2020",
+      "games": 9
+    },
+    {
       "dateFormatted": "11/2018",
       "games": 7
     },
     {
       "dateFormatted": "08/2018",
       "games": 6
-    },
-    {
-      "dateFormatted": "05/2020",
-      "games": 5
     },
     {
       "dateFormatted": "03/2017",
@@ -1119,7 +1050,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 158
+      "games": 162
     },
     {
       "dateFormatted": "2018",
@@ -1141,7 +1072,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 572
+      "value": 576
     },
     {
       "category": "Fair (50 - 69)",

@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const _uniq = require('lodash/uniq');
+const genTeamPlayer = require('./genesisTeamPlayer');
 
 const tgEd = require('../server/extra/everDrives/turboEverdrive.json');
 const megaEd = require('../server/extra/everDrives/megaEverdriveGames.json');
@@ -56,8 +57,9 @@ const meFixed = megaEd.map(item => {
 
 const tgEL = exclusiveAndLaunch(tgEd, tgSpecialIds, tgSpecial);
 const genEL = exclusiveAndLaunch(meFixed, genSpecialIds, genSpecial);
+const genELTp = genTeamPlayer.teamPlayerData(genEL);
 
-const combined = [...tgEL, ...genEL];
+const combined = [...tgEL, ...genELTp];
 const cleaned = combined.map(game => {
   if (!game.igdb.genres || !Array.isArray(game.igdb.genres)) {
     game.igdb.genres = [];

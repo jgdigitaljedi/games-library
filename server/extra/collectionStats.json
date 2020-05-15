@@ -2,6 +2,164 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "South Park: The Fractured But Whole",
+        "id": 11161,
+        "genres": [
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 84,
+        "total_rating_count": 145,
+        "first_release_date": "10/16/2017",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-49968",
+        "gbid": 49968,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2971288-box_sptfbw.png",
+        "deck": "South Park takes on superheroes in this follow up to The Stick of Truth.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "12.50",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-15",
+      "howAcquired": "Epic Games Store",
+      "notes": "",
+      "createdAt": "05/15/2020 05:25 am",
+      "updatedAt": "05/15/2020 05:25 am",
+      "_id": "7f06b693825b40feaca3da805b62a351",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2971288-box_sptfbw.png",
+      "description": "South Park takes on superheroes in this follow up to The Stick of Truth.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in Suadia Arabia: Banned because of extremely offensive content"
+      ],
+      "extraDataFull": [
+        {
+          "name": "South Park: The Fractured But Whole",
+          "details": [
+            "banned in Suadia Arabia: Banned because of extremely offensive content"
+          ],
+          "id": "bi172",
+          "igdbId": 11161,
+          "gbId": 49968,
+          "gbGuid": "3030-49968",
+          "tgdbId": 50582
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Alan Wake",
+        "id": 1062,
+        "genres": [
+          "Shooter",
+          "Adventure"
+        ],
+        "total_rating": 82,
+        "total_rating_count": 504,
+        "first_release_date": "05/13/2010",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-20982",
+        "gbid": 20982,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2134607-345678908765.png",
+        "deck": "When famous novelist Alan Wake goes on vacation with his wife Alice, he has no idea that the idyllic town of Bright Falls will soon be the site of a terrible battle between light and dark that could threaten everything, even Wake's own sanity.",
+        "platforms": "Xbox 360, Xbox 360 Games Store, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1.49",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-15",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "05/15/2020 05:24 am",
+      "updatedAt": "05/15/2020 05:24 am",
+      "_id": "ef2bdadb74604394ac0015018bc7257f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2134607-345678908765.png",
+      "description": "When famous novelist Alan Wake goes on vacation with his wife Alice, he has no idea that the idyllic town of Bright Falls will soon be the site of a terrible battle between light and dark that could threaten everything, even Wake's own sanity.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Grand Theft Auto V",
+        "id": 1020,
+        "genres": [
+          "Shooter",
+          "Racing",
+          "Sport",
+          "Adventure"
+        ],
+        "total_rating": 94,
+        "total_rating_count": 2442,
+        "first_release_date": "09/16/2013",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Grand Theft Auto Five\r, GTAV\r, GTA5\r, GTA V\r, GTA 5\r, GTA Online\r, Grand Theft Auto Online",
+        "guid": "3030-36765",
+        "gbid": 36765,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2463980-grand%20theft%20auto%20v.jpg",
+        "deck": "Rockstar returns to the fictional state of San Andreas with a crew of three criminal protagonists who work together to pull off high-profile heists.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-14",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "05/15/2020 04:55 am",
+      "updatedAt": "05/15/2020 04:55 am",
+      "_id": "48b36999f5254d419b5f572da4f68f0c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2463980-grand%20theft%20auto%20v.jpg",
+      "description": "Rockstar returns to the fictional state of San Andreas with a crew of three criminal protagonists who work together to pull off high-profile heists.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+        "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Grand Theft Auto V",
+          "details": [
+            "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+            "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+          ],
+          "id": "bi136",
+          "igdbId": 1020,
+          "gbId": 36765,
+          "gbGuid": "3030-36765",
+          "tgdbId": 7917
+        }
+      ]
+    },
+    {
+      "igdb": {
         "name": "Call Of Duty: Modern Warfare",
         "id": 119177,
         "genres": [
@@ -81,147 +239,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124244-dxm.jpg",
       "description": "A mecha action game with seamless ground and aerial combat sporting a cel-shaded art style coming in 2019 exclusively to Nintendo Switch. Developed by Armored Core veterans at Marvelous First Studio and published by Nintendo in the West.",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Marvel Ultimate Alliance 3: The Black Order",
-        "id": 113109,
-        "genres": [
-          "Role-playing (RPG)",
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 27,
-        "first_release_date": "07/18/2019",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "MUA3",
-        "guid": "3030-71296",
-        "gbid": 71296,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3094188-6218910193-D4RrsjIXkAAJR-c.jpg%3Aorig",
-        "deck": "After a decade, Marvel Ultimate Alliance is back exclusively on Nintendo Switch.",
-        "platforms": "Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "15",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-05-12",
-      "howAcquired": "bought from Solis",
-      "notes": "",
-      "createdAt": "05/13/2020 10:25 am",
-      "updatedAt": "05/13/2020 10:25 am",
-      "_id": "3f8dee74dc704c3abfade356d4a8742f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3094188-6218910193-D4RrsjIXkAAJR-c.jpg%3Aorig",
-      "description": "After a decade, Marvel Ultimate Alliance is back exclusively on Nintendo Switch.",
-      "miltiplayerNumber": 4
-    },
-    {
-      "igdb": {
-        "name": "Star Wars Battlefront II",
-        "id": 26401,
-        "genres": [
-          "Shooter",
-          "Adventure"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 193,
-        "first_release_date": "11/16/2017",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Battlefront 2",
-        "guid": "3030-53692",
-        "gbid": 53692,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2932265-wario64_2017-apr-15.jpg",
-        "deck": "EA's second Star Wars Battlefront features cross-era characters and locations from the original, prequel and sequel Star Wars movie trilogies. It also includes multiplayer character classes and a story-driven single-player campaign.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "17",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-09",
-      "howAcquired": "Origin",
-      "notes": "Celebration Edition",
-      "createdAt": "05/14/2020 06:31 am",
-      "updatedAt": "05/14/2020 06:31 am",
-      "_id": "64fff80c778e4b1b8ea6f3fc4469cb81",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2932265-wario64_2017-apr-15.jpg",
-      "description": "EA's second Star Wars Battlefront features cross-era characters and locations from the original, prequel and sequel Star Wars movie trilogies. It also includes multiplayer character classes and a story-driven single-player campaign.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Dead To Rights",
-        "id": 3872,
-        "genres": [
-          "Shooter",
-          "Adventure"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 17,
-        "first_release_date": "06/02/2002",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-3032",
-        "gbid": 3032,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2428392-box_dtr.png",
-        "deck": "Dead to Rights is an action game by Namco that puts you in the shoes of Jack Slate, a fugitive cop who's been framed for murder.",
-        "platforms": "Game Boy Advance, PlayStation 2, GameCube, Xbox, Xbox 360 Games Store, PC"
-      },
-      "consoleName": "Nintendo GameCube",
-      "consoleIgdbId": 21,
-      "consoleGbid": 23,
-      "consoleGbGuid": "3045-23",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "05/08/2020 06:30 am",
-      "updatedAt": "05/08/2020 06:30 am",
-      "_id": "32eddca589f5432ab81661c993bfaa5d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2428392-box_dtr.png",
-      "description": "Dead to Rights is an action game by Namco that puts you in the shoes of Jack Slate, a fugitive cop who's been framed for murder.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in Germany: Banned because of high-impact gory violence."
-      ],
-      "extraDataFull": [
-        {
-          "name": "Dead To Rights",
-          "details": [
-            "banned in Germany: Banned because of high-impact gory violence."
-          ],
-          "id": "bi56",
-          "igdbId": 3872,
-          "gbId": 3032,
-          "gbGuid": "3030-3032",
-          "tgdbId": 2313
-        }
-      ]
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -821,7 +838,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 160,
+    "PC (Microsoft Windows)": 164,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
@@ -853,8 +870,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 243,
-    "T": 164,
+    "M": 246,
+    "T": 165,
     "NOT RATED": 197,
     "E": 204,
     "E10+": 82,
@@ -863,9 +880,11 @@
   },
   "physicalVsDigitalGames": {
     "physical": 592,
-    "digital": 312
+    "digital": 316
   },
   "gamesAcquisition": {
+    "Epic Games Store": 2,
+    "UNKNOWN": 129,
     "Battle.net": 1,
     "bought from Solis": 23,
     "Origin": 1,
@@ -876,7 +895,6 @@
     "eShop": 23,
     "Amazon": 6,
     "GameStop": 66,
-    "UNKNOWN": 127,
     "GameOver": 206,
     "Target": 4,
     "Walmart": 13,
@@ -905,17 +923,18 @@
   },
   "cibGames": 249,
   "gamesWithGenre": {
-    "shooter": 305,
+    "role-playing (rpg)": 119,
+    "shooter": 308,
+    "adventure": 332,
+    "racing": 111,
+    "sport": 123,
     "hack and slash/beat 'em up": 60,
-    "role-playing (rpg)": 118,
-    "adventure": 329,
     "strategy": 91,
     "puzzle": 99,
     "music": 26,
     "platform": 178,
     "indie": 94,
     "arcade": 71,
-    "sport": 122,
     "quiz/trivia": 8,
     "simulator": 86,
     "tactical": 22,
@@ -923,7 +942,6 @@
     "turn-based strategy (tbs)": 13,
     "real time strategy (rts)": 10,
     "fighting": 56,
-    "racing": 110,
     "visual novel": 1,
     "pinball": 4,
     "action": 1,
@@ -932,7 +950,7 @@
   "gamesAddedInMonth": [
     {
       "dateFormatted": "04/2020",
-      "games": 57
+      "games": 58
     },
     {
       "dateFormatted": "02/2020",
@@ -991,16 +1009,16 @@
       "games": 13
     },
     {
+      "dateFormatted": "05/2020",
+      "games": 12
+    },
+    {
       "dateFormatted": "12/2018",
       "games": 12
     },
     {
       "dateFormatted": "10/2019",
       "games": 10
-    },
-    {
-      "dateFormatted": "05/2020",
-      "games": 9
     },
     {
       "dateFormatted": "11/2018",
@@ -1050,7 +1068,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 162
+      "games": 166
     },
     {
       "dateFormatted": "2018",
@@ -1068,11 +1086,11 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 61
+      "value": 62
     },
     {
       "category": "Good (70 - 89)",
-      "value": 576
+      "value": 579
     },
     {
       "category": "Fair (50 - 69)",

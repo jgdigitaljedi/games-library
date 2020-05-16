@@ -1,9 +1,9 @@
 // Sega Genesis Team Player compatible title
 
-module.exports.teamPlayerData = games => {
+module.exports.teamPlayerData = (games, detail) => {
   return games.map(game => {
     const special = game.extraData;
-    const tp = special && special.indexOf('Sega Genesis Team Player compatible title') >= 0;
+    const tp = special && special.indexOf(detail) >= 0;
     if (tp) {
       game.multiplayerNumber = 4;
       console.log('game.igdb.name', game.igdb.name);

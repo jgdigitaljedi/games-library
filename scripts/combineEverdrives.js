@@ -6,12 +6,16 @@ const genTeamPlayer = require('./genesisTeamPlayer');
 
 const tgEd = require('../server/extra/everDrives/turboEverdrive.json');
 const megaEd = require('../server/extra/everDrives/megaEverdriveGames.json');
+const megaEd32x = require('../server/extra/everDrives/megaEverdrive32xGames.json');
 
 const tgSpecial = require('./data/TurboGrafx16.json');
 const tgSpecialIds = idArray(tgSpecial);
 
 const genSpecial = require('./data/SegaGenesis.json');
 const genSpecialIds = idArray(genSpecial);
+
+const md32xSpecial = require('./data/Sega32x.json');
+const md32xSpecialIds = idArray(md32xSpecial);
 
 function getJoinedId(game, collectionList) {
   let igdb, gb;
@@ -55,11 +59,18 @@ const meFixed = megaEd.map(item => {
   return item;
 });
 
+const md32xFixed = megaEd32x.map(item => {
+  item.notes = 'Mega EverDrive - 32X';
+  return item;
+});
+
 const tgEL = exclusiveAndLaunch(tgEd, tgSpecialIds, tgSpecial);
 const genEL = exclusiveAndLaunch(meFixed, genSpecialIds, genSpecial);
-const genELTp = genTeamPlayer.teamPlayerData(genEL);
+const genELTp = genTeamPlayer.teamPlayerData(genEL, 'Sega Genesis Team Player compatible title');
+const md32EL = exclusiveAndLaunch(md32xFixed, md32xSpecialIds, md32xSpecial);
+const md32ELTp = genTeamPlayer.teamPlayerData(md32EL, 'Sega 32X Team Player compatible title');
 
-const combined = [...tgEL, ...genELTp];
+const combined = [...tgEL, ...genELTp, ...md32ELTp];
 const cleaned = combined.map(game => {
   if (!game.igdb.genres || !Array.isArray(game.igdb.genres)) {
     game.igdb.genres = [];

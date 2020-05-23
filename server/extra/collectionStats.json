@@ -2,124 +2,192 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "South Park: The Fractured But Whole",
-        "id": 11161,
+        "name": "Rage",
+        "id": 509,
         "genres": [
-          "Role-playing (RPG)"
+          "Shooter",
+          "Racing"
         ],
-        "total_rating": 84,
-        "total_rating_count": 145,
-        "first_release_date": "10/16/2017",
+        "total_rating": 78,
+        "total_rating_count": 181,
+        "first_release_date": "10/03/2011",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-49968",
-        "gbid": 49968,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2971288-box_sptfbw.png",
-        "deck": "South Park takes on superheroes in this follow up to The Stick of Truth.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "guid": "3030-20672",
+        "gbid": 20672,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2080541-box_rage.png",
+        "deck": "id Software's Rage combines first-person shooting, vehicular action, and \"open but directed\" exploration to tell the story of Earth's wretched civilization after a cataclysmic meteor strike. Militaristic authority figures, freedom-fighting rebels, criminal raiders, and twisted mutants battle each other for control of the barren wasteland Earth has become.",
+        "platforms": "Xbox 360, PlayStation 3, PC"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
       "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "12.50",
+      "pricePaid": "5",
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-05-15",
-      "howAcquired": "Epic Games Store",
-      "notes": "",
-      "createdAt": "05/15/2020 05:25 am",
-      "updatedAt": "05/15/2020 05:25 am",
-      "_id": "7f06b693825b40feaca3da805b62a351",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2971288-box_sptfbw.png",
-      "description": "South Park takes on superheroes in this follow up to The Stick of Truth.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in Suadia Arabia: Banned because of extremely offensive content"
-      ],
-      "extraDataFull": [
-        {
-          "name": "South Park: The Fractured But Whole",
-          "details": [
-            "banned in Suadia Arabia: Banned because of extremely offensive content"
-          ],
-          "id": "bi172",
-          "igdbId": 11161,
-          "gbId": 49968,
-          "gbGuid": "3030-49968",
-          "tgdbId": 50582
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Alan Wake",
-        "id": 1062,
-        "genres": [
-          "Shooter",
-          "Adventure"
-        ],
-        "total_rating": 82,
-        "total_rating_count": 504,
-        "first_release_date": "05/13/2010",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-20982",
-        "gbid": 20982,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2134607-345678908765.png",
-        "deck": "When famous novelist Alan Wake goes on vacation with his wife Alice, he has no idea that the idyllic town of Bright Falls will soon be the site of a terrible battle between light and dark that could threaten everything, even Wake's own sanity.",
-        "platforms": "Xbox 360, Xbox 360 Games Store, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1.49",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-15",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "05/15/2020 05:24 am",
-      "updatedAt": "05/15/2020 05:24 am",
-      "_id": "ef2bdadb74604394ac0015018bc7257f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2134607-345678908765.png",
-      "description": "When famous novelist Alan Wake goes on vacation with his wife Alice, he has no idea that the idyllic town of Bright Falls will soon be the site of a terrible battle between light and dark that could threaten everything, even Wake's own sanity.",
+      "datePurchased": "2020-05-23",
+      "howAcquired": "Steam",
+      "notes": "got half off through Humble Bundle",
+      "createdAt": "05/23/2020 07:17 am",
+      "updatedAt": "05/23/2020 07:17 am",
+      "_id": "efb2b65546c449f98fc16c99cec2d37a",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2080541-box_rage.png",
+      "description": "id Software's Rage combines first-person shooting, vehicular action, and \"open but directed\" exploration to tell the story of Earth's wretched civilization after a cataclysmic meteor strike. Militaristic authority figures, freedom-fighting rebels, criminal raiders, and twisted mutants battle each other for control of the barren wasteland Earth has become.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Grand Theft Auto V",
-        "id": 1020,
+        "name": "Magicka 2",
+        "id": 9807,
         "genres": [
-          "Shooter",
-          "Racing",
-          "Sport",
+          "Role-playing (RPG)",
           "Adventure"
         ],
-        "total_rating": 94,
-        "total_rating_count": 2442,
-        "first_release_date": "09/16/2013",
+        "total_rating": 67,
+        "total_rating_count": 35,
+        "first_release_date": "05/25/2015",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-46571",
+        "gbid": 46571,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2649477-magicka%202%20v1.jpg",
+        "deck": "The sequel to the comedic fantasy world of Magicka tells the tale of a new group of powerful Wizards as they battle evil in a world almost devoid of other Wizards.",
+        "platforms": "Mac, PC, PlayStation 4, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3.75",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-23",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "05/23/2020 07:17 am",
+      "updatedAt": "05/23/2020 07:17 am",
+      "_id": "dd6bdb2d84a74cdd8de06a406a7fc217",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2649477-magicka%202%20v1.jpg",
+      "description": "The sequel to the comedic fantasy world of Magicka tells the tale of a new group of powerful Wizards as they battle evil in a world almost devoid of other Wizards.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Grim Dawn",
+        "id": 1907,
+        "genres": [
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 74,
+        "first_release_date": "02/24/2016",
+        "developers": "",
+        "esrb": "RP"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-29823",
+        "gbid": 29823,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87610/2831613-gd_key_art_vertical_01.jpg",
+        "deck": "An action-RPG in the same vein as Diablo, from Crate Entertainment.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "5",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-22",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "05/23/2020 07:07 am",
+      "updatedAt": "05/23/2020 07:07 am",
+      "_id": "1478d1780c5d484d8b4ddc5a16453588",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87610/2831613-gd_key_art_vertical_01.jpg",
+      "description": "An action-RPG in the same vein as Diablo, from Crate Entertainment.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Borderlands 3",
+        "id": 19164,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 85,
+        "first_release_date": "09/12/2019",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
-        "aliases": "Grand Theft Auto Five\r, GTAV\r, GTA5\r, GTA V\r, GTA 5\r, GTA Online\r, Grand Theft Auto Online",
-        "guid": "3030-36765",
-        "gbid": 36765,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2463980-grand%20theft%20auto%20v.jpg",
-        "deck": "Rockstar returns to the fictional state of San Andreas with a crew of three criminal protagonists who work together to pull off high-profile heists.",
-        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4"
+        "aliases": "",
+        "guid": "3030-52536",
+        "gbid": 52536,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3091537-box_bl3.png",
+        "deck": "Return to the Borderlands as one of a new team of Vault Hunters to stop a crazed, live-streaming cult known as The Children of the Vault spreading like an interstellar plague.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "50",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-17",
+      "howAcquired": "Steam",
+      "notes": "used Green Man Gaming to get half off on Super Deluxe Edition (Season pass and all DLC)",
+      "createdAt": "05/18/2020 07:59 am",
+      "updatedAt": "05/18/2020 07:59 am",
+      "_id": "d18155858a7a4cf8ac13b3faeea66c00",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3091537-box_bl3.png",
+      "description": "Return to the Borderlands as one of a new team of Vault Hunters to stop a crazed, live-streaming cult known as The Children of the Vault spreading like an interstellar plague.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Path of Exile",
+        "id": 1911,
+        "genres": [
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 186,
+        "first_release_date": "10/22/2013",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-32562",
+        "gbid": 32562,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958570-box_poe.png",
+        "deck": "Path of Exile is a free-to-play PC online action Role-Playing Game set in a dark fantasy world.",
+        "platforms": "PC, Xbox One, PlayStation 4"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -130,114 +198,14 @@
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-05-14",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "05/15/2020 04:55 am",
-      "updatedAt": "05/15/2020 04:55 am",
-      "_id": "48b36999f5254d419b5f572da4f68f0c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2463980-grand%20theft%20auto%20v.jpg",
-      "description": "Rockstar returns to the fictional state of San Andreas with a crew of three criminal protagonists who work together to pull off high-profile heists.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
-        "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
-      ],
-      "extraDataFull": [
-        {
-          "name": "Grand Theft Auto V",
-          "details": [
-            "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
-            "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
-          ],
-          "id": "bi136",
-          "igdbId": 1020,
-          "gbId": 36765,
-          "gbGuid": "3030-36765",
-          "tgdbId": 7917
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Call Of Duty: Modern Warfare",
-        "id": 119177,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 93,
-        "first_release_date": "10/24/2019",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Call of Duty: Modern Warfare 4, Call of Duty 2019",
-        "guid": "3030-73517",
-        "gbid": 73517,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
-        "deck": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "64",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-13",
-      "howAcquired": "Battle.net",
-      "notes": "got the battle pass edition",
-      "createdAt": "05/14/2020 06:29 am",
-      "updatedAt": "05/14/2020 06:29 am",
-      "_id": "962e91ffb0ba4e48b3f90041f9531018",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
-      "description": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Daemon X Machina",
-        "id": 103338,
-        "genres": [
-          "Shooter",
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": 71,
-        "total_rating_count": 18,
-        "first_release_date": "09/12/2019",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-68946",
-        "gbid": 68946,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124244-dxm.jpg",
-        "deck": "A mecha action game with seamless ground and aerial combat sporting a cel-shaded art style coming in 2019 exclusively to Nintendo Switch. Developed by Armored Core veterans at Marvelous First Studio and published by Nintendo in the West.",
-        "platforms": "PC, Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "15",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-12",
-      "howAcquired": "bought from Solis",
-      "notes": "",
-      "createdAt": "05/13/2020 10:25 am",
-      "updatedAt": "05/13/2020 10:25 am",
-      "_id": "fcc842ae26384db79c7efedb90c6e9b4",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124244-dxm.jpg",
-      "description": "A mecha action game with seamless ground and aerial combat sporting a cel-shaded art style coming in 2019 exclusively to Nintendo Switch. Developed by Armored Core veterans at Marvelous First Studio and published by Nintendo in the West.",
+      "datePurchased": "2020-05-16",
+      "howAcquired": "Steam",
+      "notes": "free to play",
+      "createdAt": "05/23/2020 07:08 am",
+      "updatedAt": "05/23/2020 07:08 am",
+      "_id": "e344099777e744b8a8391dd4c8dbb55e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958570-box_poe.png",
+      "description": "Path of Exile is a free-to-play PC online action Role-Playing Game set in a dark fantasy world.",
       "miltiplayerNumber": 1
     }
   ],
@@ -838,7 +806,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 164,
+    "PC (Microsoft Windows)": 169,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
@@ -870,28 +838,28 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 246,
+    "M": 249,
+    "NOT RATED": 198,
+    "RP": 14,
     "T": 165,
-    "NOT RATED": 197,
     "E": 204,
     "E10+": 82,
-    "RP": 13,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 592,
-    "digital": 316
+    "digital": 321
   },
   "gamesAcquisition": {
+    "Steam": 117,
+    "UNKNOWN": 131,
     "Epic Games Store": 2,
-    "UNKNOWN": 129,
     "Battle.net": 1,
     "bought from Solis": 23,
     "Origin": 1,
     "Video Games Monthly": 34,
     "PSN": 105,
     "eBay": 49,
-    "Steam": 114,
     "eShop": 23,
     "Amazon": 6,
     "GameStop": 66,
@@ -923,17 +891,17 @@
   },
   "cibGames": 249,
   "gamesWithGenre": {
-    "role-playing (rpg)": 119,
-    "shooter": 308,
-    "adventure": 332,
-    "racing": 111,
+    "shooter": 310,
+    "racing": 112,
+    "role-playing (rpg)": 122,
+    "adventure": 335,
+    "hack and slash/beat 'em up": 62,
+    "indie": 96,
     "sport": 123,
-    "hack and slash/beat 'em up": 60,
     "strategy": 91,
     "puzzle": 99,
     "music": 26,
     "platform": 178,
-    "indie": 94,
     "arcade": 71,
     "quiz/trivia": 8,
     "simulator": 86,
@@ -981,6 +949,10 @@
       "games": 20
     },
     {
+      "dateFormatted": "05/2020",
+      "games": 17
+    },
+    {
       "dateFormatted": "12/2019",
       "games": 17
     },
@@ -1007,10 +979,6 @@
     {
       "dateFormatted": "04/2019",
       "games": 13
-    },
-    {
-      "dateFormatted": "05/2020",
-      "games": 12
     },
     {
       "dateFormatted": "12/2018",
@@ -1068,7 +1036,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 166
+      "games": 171
     },
     {
       "dateFormatted": "2018",
@@ -1090,11 +1058,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 579
+      "value": 583
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 155
+      "value": 156
     },
     {
       "category": "Poor (30 - 49)",

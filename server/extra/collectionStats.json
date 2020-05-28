@@ -2,6 +2,104 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Dragon Age: Origins",
+        "id": 76,
+        "genres": [
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 89,
+        "total_rating_count": 925,
+        "first_release_date": "11/02/2009",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Dragon Age, DAO",
+        "guid": "3030-20738",
+        "gbid": 20738,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2558592-daoclean.jpg",
+        "deck": "Dragon Age: Origins is an epic fantasy role-playing game featuring a rich story, personality-driven characters, and tactical, bloody combat. It is considered a spiritual successor to the Baldur's Gate series.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "5",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-28",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "05/28/2020 06:25 am",
+      "updatedAt": "05/28/2020 06:25 am",
+      "_id": "2105d85431cb41bdbee354031404bcb3",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2558592-daoclean.jpg",
+      "description": "Dragon Age: Origins is an epic fantasy role-playing game featuring a rich story, personality-driven characters, and tactical, bloody combat. It is considered a spiritual successor to the Baldur's Gate series.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+      ],
+      "extraDataFull": [
+        {
+          "name": "Dragon Age: Origins",
+          "details": [
+            "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+          ],
+          "id": "bi157",
+          "igdbId": 76,
+          "gbId": 20738,
+          "gbGuid": "3030-20738",
+          "tgdbId": 867
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Sid Meier's Civilization VI",
+        "id": 19130,
+        "genres": [
+          "Simulator",
+          "Strategy",
+          "Turn-based strategy (TBS)"
+        ],
+        "total_rating": 84,
+        "total_rating_count": 210,
+        "first_release_date": "10/20/2016",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-53696",
+        "gbid": 53696,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3113100-box_civ6.png",
+        "deck": "The 6th mainline entry in the acclaimed 4X series.",
+        "platforms": "Mac, PC, iPad, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-25",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "05/28/2020 06:26 am",
+      "updatedAt": "05/28/2020 06:26 am",
+      "_id": "c27c58a1d324413cacc1c49d97143bf9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3113100-box_civ6.png",
+      "description": "The 6th mainline entry in the acclaimed 4X series.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Rage",
         "id": 509,
         "genres": [
@@ -123,89 +221,6 @@
       "_id": "1478d1780c5d484d8b4ddc5a16453588",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87610/2831613-gd_key_art_vertical_01.jpg",
       "description": "An action-RPG in the same vein as Diablo, from Crate Entertainment.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Borderlands 3",
-        "id": 19164,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 85,
-        "first_release_date": "09/12/2019",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-52536",
-        "gbid": 52536,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3091537-box_bl3.png",
-        "deck": "Return to the Borderlands as one of a new team of Vault Hunters to stop a crazed, live-streaming cult known as The Children of the Vault spreading like an interstellar plague.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "50",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-17",
-      "howAcquired": "Steam",
-      "notes": "used Green Man Gaming to get half off on Super Deluxe Edition (Season pass and all DLC)",
-      "createdAt": "05/18/2020 07:59 am",
-      "updatedAt": "05/18/2020 07:59 am",
-      "_id": "d18155858a7a4cf8ac13b3faeea66c00",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3091537-box_bl3.png",
-      "description": "Return to the Borderlands as one of a new team of Vault Hunters to stop a crazed, live-streaming cult known as The Children of the Vault spreading like an interstellar plague.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Path of Exile",
-        "id": 1911,
-        "genres": [
-          "Role-playing (RPG)",
-          "Hack and slash/Beat 'em up",
-          "Adventure",
-          "Indie"
-        ],
-        "total_rating": 80,
-        "total_rating_count": 186,
-        "first_release_date": "10/22/2013",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-32562",
-        "gbid": 32562,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958570-box_poe.png",
-        "deck": "Path of Exile is a free-to-play PC online action Role-Playing Game set in a dark fantasy world.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-16",
-      "howAcquired": "Steam",
-      "notes": "free to play",
-      "createdAt": "05/23/2020 07:08 am",
-      "updatedAt": "05/23/2020 07:08 am",
-      "_id": "e344099777e744b8a8391dd4c8dbb55e",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958570-box_poe.png",
-      "description": "Path of Exile is a free-to-play PC online action Role-Playing Game set in a dark fantasy world.",
       "miltiplayerNumber": 1
     }
   ],
@@ -806,7 +821,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 169,
+    "PC (Microsoft Windows)": 171,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
@@ -838,22 +853,23 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 249,
+    "M": 250,
+    "E10+": 83,
     "NOT RATED": 198,
     "RP": 14,
     "T": 165,
     "E": 204,
-    "E10+": 82,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 592,
-    "digital": 321
+    "digital": 323
   },
   "gamesAcquisition": {
+    "GOG": 1,
+    "Epic Games Store": 3,
     "Steam": 117,
     "UNKNOWN": 131,
-    "Epic Games Store": 2,
     "Battle.net": 1,
     "bought from Solis": 23,
     "Origin": 1,
@@ -891,23 +907,23 @@
   },
   "cibGames": 249,
   "gamesWithGenre": {
+    "role-playing (rpg)": 123,
+    "simulator": 87,
+    "strategy": 92,
+    "turn-based strategy (tbs)": 14,
     "shooter": 310,
     "racing": 112,
-    "role-playing (rpg)": 122,
     "adventure": 335,
     "hack and slash/beat 'em up": 62,
     "indie": 96,
     "sport": 123,
-    "strategy": 91,
     "puzzle": 99,
     "music": 26,
     "platform": 178,
     "arcade": 71,
     "quiz/trivia": 8,
-    "simulator": 86,
     "tactical": 22,
     "point-and-click": 7,
-    "turn-based strategy (tbs)": 13,
     "real time strategy (rts)": 10,
     "fighting": 56,
     "visual novel": 1,
@@ -950,7 +966,7 @@
     },
     {
       "dateFormatted": "05/2020",
-      "games": 17
+      "games": 19
     },
     {
       "dateFormatted": "12/2019",
@@ -1036,7 +1052,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 171
+      "games": 173
     },
     {
       "dateFormatted": "2018",
@@ -1058,7 +1074,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 583
+      "value": 585
     },
     {
       "category": "Fair (50 - 69)",

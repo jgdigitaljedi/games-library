@@ -2,6 +2,172 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "BioShock: The Collection",
+        "id": 19839,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 45,
+        "first_release_date": "09/12/2016",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-54453",
+        "gbid": 54453,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/118833/2881502-bioshock_collection_hero.jpg",
+        "deck": "Remastered versions of the BioShock trilogy in one collection.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "10",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-25",
+      "howAcquired": "Steam",
+      "notes": "Bioshock 1, 2, & Infinite remastered",
+      "createdAt": "06/02/2020 06:56 am",
+      "updatedAt": "06/02/2020 06:56 am",
+      "_id": "26ced5149ee0498f8437f374690f5177",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/118833/2881502-bioshock_collection_hero.jpg",
+      "description": "Remastered versions of the BioShock trilogy in one collection.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "XIII",
+        "id": 1987,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 76,
+        "total_rating_count": 68,
+        "first_release_date": "11/17/2003",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Thirteen",
+        "guid": "3030-2955",
+        "gbid": 2955,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2146389-box_xiii.png",
+        "deck": "XIII is a cel-shaded first-person shooter based on the comic book of the same name, which was in turn inspired by Robert Ludlum's book The Bourne Identity.",
+        "platforms": "Mac, PlayStation 2, GameCube, Xbox, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-24",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/02/2020 06:54 am",
+      "updatedAt": "06/02/2020 06:54 am",
+      "_id": "5ed71ed8854b4c41992ff724f811f0a9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2146389-box_xiii.png",
+      "description": "XIII is a cel-shaded first-person shooter based on the comic book of the same name, which was in turn inspired by Robert Ludlum's book The Bourne Identity.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Torchlight II",
+        "id": 1337,
+        "genres": [
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 82,
+        "total_rating_count": 182,
+        "first_release_date": "09/19/2012",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Torchlight 2, TL2",
+        "guid": "3030-32255",
+        "gbid": 32255,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2090837-torchlight_2_cover_art.png",
+        "deck": "The sequel to Runic Games' Torchlight, it features four new classes, a much bigger world, online co-op play, and a host of other new features.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "5",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-30",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/02/2020 06:53 am",
+      "updatedAt": "06/02/2020 06:53 am",
+      "_id": "28d974ca6b2946249d1327f76c698f95",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2090837-torchlight_2_cover_art.png",
+      "description": "The sequel to Runic Games' Torchlight, it features four new classes, a much bigger world, online co-op play, and a host of other new features.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Worms: Reloaded",
+        "id": 1017,
+        "genres": [
+          "Platform",
+          "Strategy"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 24,
+        "first_release_date": "08/25/2010",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-30148",
+        "gbid": 30148,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/95284/1452467-worms_reloaded_update_psd_jpgcopy.jpg",
+        "deck": "Worms Reloaded is a traditional 2D Worms game released on Steam.  It is an \"Extended Version\" of the Xbox Live Arcade releases of Worms.",
+        "platforms": "Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-05-28",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "06/02/2020 06:55 am",
+      "updatedAt": "06/02/2020 06:55 am",
+      "_id": "4aa34b825c644943924d4cdf6845d8ef",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/95284/1452467-worms_reloaded_update_psd_jpgcopy.jpg",
+      "description": "Worms Reloaded is a traditional 2D Worms game released on Steam.  It is an \"Extended Version\" of the Xbox Live Arcade releases of Worms.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
         "name": "Dragon Age: Origins",
         "id": 76,
         "genres": [
@@ -55,173 +221,6 @@
           "tgdbId": 867
         }
       ]
-    },
-    {
-      "igdb": {
-        "name": "Sid Meier's Civilization VI",
-        "id": 19130,
-        "genres": [
-          "Simulator",
-          "Strategy",
-          "Turn-based strategy (TBS)"
-        ],
-        "total_rating": 84,
-        "total_rating_count": 210,
-        "first_release_date": "10/20/2016",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-53696",
-        "gbid": 53696,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3113100-box_civ6.png",
-        "deck": "The 6th mainline entry in the acclaimed 4X series.",
-        "platforms": "Mac, PC, iPad, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-25",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "05/28/2020 06:26 am",
-      "updatedAt": "05/28/2020 06:26 am",
-      "_id": "c27c58a1d324413cacc1c49d97143bf9",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3113100-box_civ6.png",
-      "description": "The 6th mainline entry in the acclaimed 4X series.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Rage",
-        "id": 509,
-        "genres": [
-          "Shooter",
-          "Racing"
-        ],
-        "total_rating": 78,
-        "total_rating_count": 181,
-        "first_release_date": "10/03/2011",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-20672",
-        "gbid": 20672,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2080541-box_rage.png",
-        "deck": "id Software's Rage combines first-person shooting, vehicular action, and \"open but directed\" exploration to tell the story of Earth's wretched civilization after a cataclysmic meteor strike. Militaristic authority figures, freedom-fighting rebels, criminal raiders, and twisted mutants battle each other for control of the barren wasteland Earth has become.",
-        "platforms": "Xbox 360, PlayStation 3, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "5",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-23",
-      "howAcquired": "Steam",
-      "notes": "got half off through Humble Bundle",
-      "createdAt": "05/23/2020 07:17 am",
-      "updatedAt": "05/23/2020 07:17 am",
-      "_id": "efb2b65546c449f98fc16c99cec2d37a",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2080541-box_rage.png",
-      "description": "id Software's Rage combines first-person shooting, vehicular action, and \"open but directed\" exploration to tell the story of Earth's wretched civilization after a cataclysmic meteor strike. Militaristic authority figures, freedom-fighting rebels, criminal raiders, and twisted mutants battle each other for control of the barren wasteland Earth has become.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Magicka 2",
-        "id": 9807,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 67,
-        "total_rating_count": 35,
-        "first_release_date": "05/25/2015",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-46571",
-        "gbid": 46571,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2649477-magicka%202%20v1.jpg",
-        "deck": "The sequel to the comedic fantasy world of Magicka tells the tale of a new group of powerful Wizards as they battle evil in a world almost devoid of other Wizards.",
-        "platforms": "Mac, PC, PlayStation 4, Linux"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3.75",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-23",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "05/23/2020 07:17 am",
-      "updatedAt": "05/23/2020 07:17 am",
-      "_id": "dd6bdb2d84a74cdd8de06a406a7fc217",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2649477-magicka%202%20v1.jpg",
-      "description": "The sequel to the comedic fantasy world of Magicka tells the tale of a new group of powerful Wizards as they battle evil in a world almost devoid of other Wizards.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Grim Dawn",
-        "id": 1907,
-        "genres": [
-          "Role-playing (RPG)",
-          "Hack and slash/Beat 'em up",
-          "Adventure",
-          "Indie"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 74,
-        "first_release_date": "02/24/2016",
-        "developers": "",
-        "esrb": "RP"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-29823",
-        "gbid": 29823,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87610/2831613-gd_key_art_vertical_01.jpg",
-        "deck": "An action-RPG in the same vein as Diablo, from Crate Entertainment.",
-        "platforms": "PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "5",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-05-22",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "05/23/2020 07:07 am",
-      "updatedAt": "05/23/2020 07:07 am",
-      "_id": "1478d1780c5d484d8b4ddc5a16453588",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87610/2831613-gd_key_art_vertical_01.jpg",
-      "description": "An action-RPG in the same vein as Diablo, from Crate Entertainment.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -821,7 +820,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 171,
+    "PC (Microsoft Windows)": 175,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
@@ -853,9 +852,9 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 250,
-    "E10+": 83,
-    "NOT RATED": 198,
+    "M": 252,
+    "NOT RATED": 199,
+    "E10+": 84,
     "RP": 14,
     "T": 165,
     "E": 204,
@@ -863,12 +862,12 @@
   },
   "physicalVsDigitalGames": {
     "physical": 592,
-    "digital": 323
+    "digital": 327
   },
   "gamesAcquisition": {
-    "GOG": 1,
+    "Steam": 119,
+    "GOG": 3,
     "Epic Games Store": 3,
-    "Steam": 117,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
@@ -907,19 +906,19 @@
   },
   "cibGames": 249,
   "gamesWithGenre": {
-    "role-playing (rpg)": 123,
+    "shooter": 312,
+    "role-playing (rpg)": 125,
+    "adventure": 337,
+    "hack and slash/beat 'em up": 63,
+    "indie": 97,
+    "platform": 179,
+    "strategy": 93,
     "simulator": 87,
-    "strategy": 92,
     "turn-based strategy (tbs)": 14,
-    "shooter": 310,
     "racing": 112,
-    "adventure": 335,
-    "hack and slash/beat 'em up": 62,
-    "indie": 96,
     "sport": 123,
     "puzzle": 99,
     "music": 26,
-    "platform": 178,
     "arcade": 71,
     "quiz/trivia": 8,
     "tactical": 22,
@@ -961,12 +960,12 @@
       "games": 27
     },
     {
-      "dateFormatted": "01/2019",
-      "games": 20
+      "dateFormatted": "05/2020",
+      "games": 21
     },
     {
-      "dateFormatted": "05/2020",
-      "games": 19
+      "dateFormatted": "01/2019",
+      "games": 20
     },
     {
       "dateFormatted": "12/2019",
@@ -1033,6 +1032,10 @@
       "games": 3
     },
     {
+      "dateFormatted": "06/2020",
+      "games": 2
+    },
+    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1052,7 +1055,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 173
+      "games": 177
     },
     {
       "dateFormatted": "2018",
@@ -1074,7 +1077,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 585
+      "value": 589
     },
     {
       "category": "Fair (50 - 69)",

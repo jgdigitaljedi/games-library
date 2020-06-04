@@ -51,6 +51,20 @@
             }
           }
         }
+        .game-notes {
+          display: flex;
+          width: 100%;
+          font-size: 1rem;
+          align-items: baseline;
+          margin: 0.5rem 0;
+          .game-notes--head {
+            font-weight: bold;
+            color: $light-orange;
+            font-family: $secondary-font;
+            margin: 0 1rem 0 0.3rem;
+            font-size: 1.1rem;
+          }
+        }
       }
     }
     .image-container {

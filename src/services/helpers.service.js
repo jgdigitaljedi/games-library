@@ -35,6 +35,7 @@ export default {
       multiplayerNumber: '',
       datePurchased: '',
       howAcquired: '',
+      physicalDigital: 'physical',
       notes: '',
       createdAt: '',
       updatedAt: '',

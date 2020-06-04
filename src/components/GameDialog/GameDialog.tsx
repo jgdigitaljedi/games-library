@@ -96,6 +96,12 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                 </tbody>
               </table>
             </div>
+            {game.notes && game.notes.length && (
+              <div className="game-notes">
+                <div className="game-notes--head">Notes</div>
+                <div>{game.notes}</div>
+              </div>
+            )}
           </div>
         </div>
         <div className="image-container">

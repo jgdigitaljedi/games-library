@@ -16,7 +16,11 @@ const combined = games.reduce((acc, game) => {
     if (ind >= 0) {
       const theIds = acc[ind].consoleArr.map(c => c.consoleId);
       if (theIds.indexOf(game.consoleIgdbId) < 0) {
-        acc[ind].consoleArr.push({ consoleName: game.consoleName, consoleId: game.consoleIgdbId });
+        acc[ind].consoleArr.push({
+          consoleName: game.consoleName,
+          consoleId: game.consoleIgdbId,
+          physical: game.physical
+        });
       }
       const xbBc = bc.xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
       xbBc.forEach(c => acc[ind].consoleArr.push(c));
@@ -32,7 +36,9 @@ const combined = games.reduce((acc, game) => {
       });
     } else {
       indexes.push(game.igdb.id);
-      game.consoleArr = [{ consoleName: game.consoleName, consoleId: game.consoleIgdbId }];
+      game.consoleArr = [
+        { consoleName: game.consoleName, consoleId: game.consoleIgdbId, physical: game.physical }
+      ];
       const bcConsoles = bc.bc(game.consoleIgdbId);
       bcConsoles.forEach(c => game.consoleArr.push(c));
       if (game.consoleIgdbId === 11 || game.consoleIgdbId === 12) {
@@ -58,6 +64,16 @@ const combined = games.reduce((acc, game) => {
 
 const dedupe = combined.map(game => {
   game.consoleArr = _uniqBy(game.consoleArr, 'consoleId');
+  const physicalDigital = game.consoleArr.map(g => !!g.physical);
+  let pd;
+  if (physicalDigital.indexOf(true) >= 0 && physicalDigital.indexOf(false) >= 0) {
+    pd = 'both';
+  } else if (physicalDigital.indexOf(true) >= 0) {
+    pd = 'physical';
+  } else {
+    pd = 'digital';
+  }
+  game.physicalDigital = pd;
   return game;
 });
 

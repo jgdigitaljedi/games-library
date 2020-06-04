@@ -10,8 +10,20 @@ interface IProps {
 
 const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
   const urlPrefix = UrlService.assets;
+
+  const physicalDigitalClass = (game: IGame): string => {
+    const which = game.physicalDigital;
+    if (which === 'digital') {
+      return 'digital-copy';
+    } else if (which === 'both') {
+      return 'both-copies';
+    }
+    return 'physical-copy';
+  };
+
   return (
-    <Card className={`game-card ${!data.physical ? 'digital-copy' : ''}`}>
+    // <Card className={`game-card ${!data.physical ? 'digital-copy' : ''}`}>
+    <Card className={`game-card ${physicalDigitalClass(data)}`}>
       {data && data.igdb ? (
         <div className="game-card--content" onClick={() => cardClicked(data)}>
           <img

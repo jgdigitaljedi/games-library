@@ -1,4 +1,4 @@
-import React, { FunctionComponent, PropsWithChildren } from 'react';
+import React, { FunctionComponent, PropsWithChildren, useEffect, useState } from 'react';
 import { Rating } from 'primereact/rating';
 import './GameDialog.scss';
 import { IConsoleArr, IGame } from '../../common.model';
@@ -9,12 +9,29 @@ interface IRatings {
   [key: string]: string;
 }
 
+interface IConsolesOwned {
+  consoleName: string;
+  physical?: boolean;
+  consoleId: number;
+}
+
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
   const urlPrefix = UrlService.assets;
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
+  const [consolesOwnedFor, setConsolesOwnedFor] = useState<IConsolesOwned[]>([]);
+
+  useEffect(() => {
+    if (game) {
+      const owned =
+        game.consoleArr && game.consoleArr.length
+          ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))
+          : [];
+      setConsolesOwnedFor(owned);
+    }
+  }, [game]);
 
   return game ? (
     <section className="game-dialog" role="dialog">
@@ -96,6 +113,16 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                 </tbody>
               </table>
             </div>
+            {consolesOwnedFor && consolesOwnedFor.length && (
+              <div className="owned-for">
+                {consolesOwnedFor.map((con, index) => (
+                  <div className="consoles-owned-wrapper" key={index}>
+                    <div className="owned-for--name">{con.consoleName}</div>
+                    <div>{con.physical ? 'physical' : 'digital'}</div>
+                  </div>
+                ))}
+              </div>
+            )}
             {game.notes && game.notes.length && (
               <div className="game-notes">
                 <div className="game-notes--head">Notes</div>

@@ -11,6 +11,10 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    .items-count {
+      color: $white;
+      font-weight: bold;
+    }
   }
   .form-dialog--header {
     display: flex;

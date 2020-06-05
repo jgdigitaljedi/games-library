@@ -152,7 +152,9 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         ></SelectButton>
       </div>
       <div className="filter-add">
-        <div></div>
+        <div className="items-count">
+          {filteredData.length} {viewWhat}
+        </div>
         <FilterGroup />
         <Button
           icon="pi pi-plus"

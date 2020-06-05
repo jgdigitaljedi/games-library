@@ -51,6 +51,21 @@
             }
           }
         }
+        .owned-for {
+          margin: 1rem 0.3rem;
+          .consoles-owned-wrapper {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 0.3rem;
+            .owned-for--name {
+              color: $warn;
+              font-weight: bold;
+              font-size: 1rem;
+              margin-right: 1rem;
+              font-family: $secondary-font;
+            }
+          }
+        }
         .game-notes {
           display: flex;
           width: 100%;

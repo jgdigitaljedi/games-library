@@ -52,17 +52,21 @@
           }
         }
         .owned-for {
-          margin: 1rem 0.3rem;
-          .consoles-owned-wrapper {
-            display: flex;
-            align-items: baseline;
-            margin-bottom: 0.3rem;
-            .owned-for--name {
-              color: $warn;
-              font-weight: bold;
-              font-size: 1rem;
-              margin-right: 1rem;
-              font-family: $secondary-font;
+          border: 1px solid $extra-light;
+          border-collapse: collapse;
+          margin-top: 1rem;
+          th,
+          td {
+            border: 1px solid $extra-light;
+            border-collapse: collapse;
+          }
+          th {
+            color: $warn;
+          }
+          @include bp_lte('sm') {
+            th,
+            td {
+              font-size: 0.75rem;
             }
           }
         }

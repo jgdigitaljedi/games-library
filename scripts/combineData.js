@@ -19,7 +19,13 @@ const combined = games.reduce((acc, game) => {
         acc[ind].consoleArr.push({
           consoleName: game.consoleName,
           consoleId: game.consoleIgdbId,
-          physical: game.physical
+          physical: game.physical,
+          pricePaid: game.pricePaid,
+          datePurchased: game.datePurchased,
+          howAcquired: game.howAcquired,
+          condition: game.condition,
+          case: game.case,
+          cib: game.cib
         });
       }
       const xbBc = bc.xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
@@ -37,7 +43,17 @@ const combined = games.reduce((acc, game) => {
     } else {
       indexes.push(game.igdb.id);
       game.consoleArr = [
-        { consoleName: game.consoleName, consoleId: game.consoleIgdbId, physical: game.physical }
+        {
+          consoleName: game.consoleName,
+          consoleId: game.consoleIgdbId,
+          physical: game.physical,
+          pricePaid: game.pricePaid,
+          datePurchased: game.datePurchased,
+          howAcquired: game.howAcquired,
+          condition: game.condition,
+          case: game.case,
+          cib: game.cib
+        }
       ];
       const bcConsoles = bc.bc(game.consoleIgdbId);
       bcConsoles.forEach(c => game.consoleArr.push(c));

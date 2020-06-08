@@ -13,6 +13,12 @@ interface IConsolesOwned {
   consoleName: string;
   physical?: boolean;
   consoleId: number;
+  datePurchased?: string;
+  cib?: boolean;
+  case?: string;
+  howAcquired?: string;
+  pricePaid?: number;
+  condition?: string;
 }
 
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
@@ -55,48 +61,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                     <td>{game.igdb.first_release_date}</td>
                   </tr>
                   <tr>
-                    <td className="table-cat">Developer</td>
-                    <td>{game.igdb['developers']}</td>
-                  </tr>
-                  <tr>
                     <td className="table-cat">Max # Players</td>
                     <td>{game.multiplayerNumber}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Genres</td>
-                    <td>{game.igdb.genres.join(', ')}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Physical Copy</td>
-                    <td>{game.physical ? 'YES' : 'NO'}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">CIB</td>
-                    <td>{game.cib ? 'YES' : 'NO'}</td>
-                  </tr>
-                </tbody>
-              </table>
-              <table>
-                <tbody>
-                  <tr>
-                    <td className="table-cat">Case</td>
-                    <td>{game.case}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Condition</td>
-                    <td>{game.condition}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Purchase Date</td>
-                    <td>{game.datePurchased}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Purchase Price</td>
-                    <td>$ {game.pricePaid}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">How Acquired</td>
-                    <td>{game.howAcquired}</td>
                   </tr>
                   <tr>
                     <td className="table-cat">Rating</td>
@@ -112,16 +78,50 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                   </tr>
                 </tbody>
               </table>
+              <table>
+                <tbody>
+                  <tr>
+                    <td className="table-cat">Developer</td>
+                    <td>{game.igdb['developers']}</td>
+                  </tr>
+                  <tr>
+                    <td className="table-cat">Genres</td>
+                    <td>{game.igdb.genres.join(', ')}</td>
+                  </tr>
+                  <tr>
+                    <td className="table-cat">Physical/Digital</td>
+                    <td>{game.physicalDigital}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             {consolesOwnedFor && consolesOwnedFor.length && (
-              <div className="owned-for">
-                {consolesOwnedFor.map((con, index) => (
-                  <div className="consoles-owned-wrapper" key={index}>
-                    <div className="owned-for--name">{con.consoleName}</div>
-                    <div>{con.physical ? 'physical' : 'digital'}</div>
-                  </div>
-                ))}
-              </div>
+              <table className="owned-for">
+                <tr>
+                  <th>Platform</th>
+                  <th>Price Paid</th>
+                  <th>Date Purchased</th>
+                  <th>How Acquired</th>
+                  <th>Physical</th>
+                  <th>Condition</th>
+                  <th>Case</th>
+                  <th>CIB</th>
+                </tr>
+                <tbody>
+                  {consolesOwnedFor.map((con, index) => (
+                    <tr>
+                      <td>{con.consoleName}</td>
+                      <td>${con.pricePaid}</td>
+                      <td>{con.datePurchased}</td>
+                      <td>{con.howAcquired}</td>
+                      <td>{con.physical ? 'Physical' : 'Digital'}</td>
+                      <td>{con.condition}</td>
+                      <td>{con.case}</td>
+                      <td>{con.cib ? 'YES' : 'NO'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             )}
             {game.notes && game.notes.length && (
               <div className="game-notes">

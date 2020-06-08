@@ -1,4 +1,8 @@
 {
+  "Nintendo 64": {
+    "isLaunchTitle": 1,
+    "isExclusive": 6
+  },
   "Sony Playstation 4": {
     "isLaunchTitle": 3,
     "isExclusive": 29
@@ -110,10 +114,6 @@
   "Microsoft Xbox 360": {
     "isLaunchTitle": 1,
     "isExclusive": 15
-  },
-  "Nintendo 64": {
-    "isLaunchTitle": 1,
-    "isExclusive": 5
   },
   "Nintendo Wii": {
     "isLaunchTitle": 4,

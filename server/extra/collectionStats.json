@@ -804,6 +804,8 @@
   ],
   "gamePerConsoleCounts": {
     "PC (Microsoft Windows)": 186,
+    "PlayStation Portable": 18,
+    "Nintendo 64": 30,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
@@ -825,37 +827,35 @@
     "3DO Interactive Multiplayer": 7,
     "Super Nintendo Entertainment System (SNES)": 15,
     "Game Boy Color": 7,
-    "Nintendo 64": 28,
     "TurboGrafx-16/PC Engine": 4,
     "PlayStation 3": 39,
     "Wii U": 15,
     "Sega Game Gear": 3,
-    "PlayStation Portable": 16,
     "Nintendo 3DS": 11,
     "Xbox One": 28
   },
   "gamesPerEsrb": {
     "M": 255,
-    "T": 169,
-    "E": 206,
-    "NOT RATED": 201,
+    "T": 170,
+    "E": 208,
+    "NOT RATED": 202,
     "E10+": 84,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 592,
+    "physical": 596,
     "digital": 338
   },
   "gamesAcquisition": {
     "Steam": 124,
     "GOG": 6,
+    "Video Games Monthly": 38,
     "Epic Games Store": 6,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
     "Origin": 1,
-    "Video Games Monthly": 34,
     "PSN": 105,
     "eBay": 49,
     "eShop": 23,
@@ -887,27 +887,29 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 249,
+  "cibGames": 250,
   "gamesWithGenre": {
     "shooter": 315,
     "role-playing (rpg)": 127,
     "adventure": 341,
     "real time strategy (rts)": 11,
-    "strategy": 94,
+    "strategy": 96,
     "indie": 99,
-    "simulator": 90,
+    "simulator": 91,
+    "puzzle": 101,
+    "quiz/trivia": 10,
+    "sport": 125,
+    "sports": 1,
+    "baseball": 1,
+    "fighting": 57,
+    "turn-based strategy (tbs)": 15,
     "music": 27,
-    "sport": 124,
     "platform": 181,
     "racing": 113,
     "hack and slash/beat 'em up": 63,
-    "turn-based strategy (tbs)": 14,
-    "puzzle": 99,
     "arcade": 71,
-    "quiz/trivia": 8,
     "tactical": 22,
     "point-and-click": 7,
-    "fighting": 56,
     "visual novel": 1,
     "pinball": 4,
     "action": 1,
@@ -951,6 +953,10 @@
       "games": 20
     },
     {
+      "dateFormatted": "06/2020",
+      "games": 17
+    },
+    {
       "dateFormatted": "12/2019",
       "games": 17
     },
@@ -969,10 +975,6 @@
     {
       "dateFormatted": "06/2019",
       "games": 14
-    },
-    {
-      "dateFormatted": "06/2020",
-      "games": 13
     },
     {
       "dateFormatted": "08/2019",
@@ -1038,7 +1040,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 188
+      "games": 192
     },
     {
       "dateFormatted": "2018",
@@ -1060,11 +1062,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 598
+      "value": 599
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 158
+      "value": 160
     },
     {
       "category": "Poor (30 - 49)",
@@ -1072,7 +1074,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 98
+      "value": 99
     }
   ],
   "consolesByCompany": {

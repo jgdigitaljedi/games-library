@@ -84,68 +84,66 @@
     },
     {
       "igdb": {
-        "name": "Torchlight II",
-        "id": 1337,
+        "name": "Total Annihilation",
+        "id": 918,
         "genres": [
-          "Role-playing (RPG)",
-          "Hack and slash/Beat 'em up",
-          "Adventure",
-          "Indie"
+          "Real Time Strategy (RTS)",
+          "Strategy"
         ],
-        "total_rating": 82,
-        "total_rating_count": 182,
-        "first_release_date": "09/19/2012",
+        "total_rating": 84,
+        "total_rating_count": 36,
+        "first_release_date": "09/29/1997",
         "developers": "",
-        "esrb": ""
+        "esrb": "T"
       },
       "gb": {
-        "aliases": "Torchlight 2, TL2",
-        "guid": "3030-32255",
-        "gbid": 32255,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2090837-torchlight_2_cover_art.png",
-        "deck": "The sequel to Runic Games' Torchlight, it features four new classes, a much bigger world, online co-op play, and a host of other new features.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+        "aliases": "",
+        "guid": "3030-3594",
+        "gbid": 3594,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
+        "deck": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
+        "platforms": "Mac, PC"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
       "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "5",
+      "pricePaid": "0",
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-05-30",
+      "datePurchased": "2020-06-07",
       "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "06/02/2020 06:53 am",
-      "updatedAt": "06/02/2020 06:53 am",
-      "_id": "28d974ca6b2946249d1327f76c698f95",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/3/30036/2090837-torchlight_2_cover_art.png",
-      "description": "The sequel to Runic Games' Torchlight, it features four new classes, a much bigger world, online co-op play, and a host of other new features.",
+      "notes": "free",
+      "createdAt": "06/08/2020 06:49 am",
+      "updatedAt": "06/08/2020 06:49 am",
+      "_id": "688589b367e54088a6b686a2818bd4ee",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
+      "description": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Worms: Reloaded",
-        "id": 1017,
+        "name": "Hotline Miami",
+        "id": 1384,
         "genres": [
-          "Platform",
-          "Strategy"
+          "Shooter",
+          "Indie"
         ],
-        "total_rating": 75,
-        "total_rating_count": 24,
-        "first_release_date": "08/25/2010",
+        "total_rating": 85,
+        "total_rating_count": 718,
+        "first_release_date": "10/22/2012",
         "developers": "",
-        "esrb": "E10+"
+        "esrb": "M"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-30148",
-        "gbid": 30148,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/95284/1452467-worms_reloaded_update_psd_jpgcopy.jpg",
-        "deck": "Worms Reloaded is a traditional 2D Worms game released on Steam.  It is an \"Extended Version\" of the Xbox Live Arcade releases of Worms.",
-        "platforms": "Mac, PC"
+        "guid": "3030-39452",
+        "gbid": 39452,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3107395-box_hm.png",
+        "deck": "A top-down action combat game with an 80s aesthetic, a brutal style, and a thoughtful, slightly surreal philosophy underlying the story about the nature of violence.",
+        "platforms": "Mac, PlayStation Network (PS3), PC, Android, PlayStation Network (Vita), PlayStation 4, Linux"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -155,72 +153,57 @@
       "pricePaid": "2",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-05-28",
-      "howAcquired": "Steam",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-07",
+      "howAcquired": "GOG",
       "notes": "",
-      "createdAt": "06/02/2020 06:55 am",
-      "updatedAt": "06/02/2020 06:55 am",
-      "_id": "4aa34b825c644943924d4cdf6845d8ef",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/95284/1452467-worms_reloaded_update_psd_jpgcopy.jpg",
-      "description": "Worms Reloaded is a traditional 2D Worms game released on Steam.  It is an \"Extended Version\" of the Xbox Live Arcade releases of Worms.",
-      "miltiplayerNumber": 4
+      "createdAt": "06/08/2020 06:49 am",
+      "updatedAt": "06/08/2020 06:49 am",
+      "_id": "4e79f49ef1634c41959f715984cafb6f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3107395-box_hm.png",
+      "description": "A top-down action combat game with an 80s aesthetic, a brutal style, and a thoughtful, slightly surreal philosophy underlying the story about the nature of violence.",
+      "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Dragon Age: Origins",
-        "id": 76,
+        "name": "Descent II",
+        "id": 668,
         "genres": [
-          "Role-playing (RPG)"
+          "Shooter",
+          "Simulator"
         ],
-        "total_rating": 89,
-        "total_rating_count": 925,
-        "first_release_date": "11/02/2009",
+        "total_rating": 81,
+        "total_rating_count": 14,
+        "first_release_date": "03/12/1996",
         "developers": "",
-        "esrb": "M"
+        "esrb": "T"
       },
       "gb": {
-        "aliases": "Dragon Age, DAO",
-        "guid": "3030-20738",
-        "gbid": 20738,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2558592-daoclean.jpg",
-        "deck": "Dragon Age: Origins is an epic fantasy role-playing game featuring a rich story, personality-driven characters, and tactical, bloody combat. It is considered a spiritual successor to the Baldur's Gate series.",
-        "platforms": "Mac, Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC"
+        "aliases": "Descent 2",
+        "guid": "3030-5507",
+        "gbid": 5507,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/677143-descentii_dos.jpg",
+        "deck": "The Material Defender returns in this underground 360 degree action shooter, this time retrofitted with a prototype warp core in his ship that will take him to distant worlds. The game features a new array of destructive weapons and berserk robots that ups the ante from its predecessor.",
+        "platforms": "Amiga, Mac, PC"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
       "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "5",
+      "pricePaid": "1",
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-05-28",
+      "datePurchased": "2020-06-07",
       "howAcquired": "GOG",
       "notes": "",
-      "createdAt": "05/28/2020 06:25 am",
-      "updatedAt": "05/28/2020 06:25 am",
-      "_id": "2105d85431cb41bdbee354031404bcb3",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2558592-daoclean.jpg",
-      "description": "Dragon Age: Origins is an epic fantasy role-playing game featuring a rich story, personality-driven characters, and tactical, bloody combat. It is considered a spiritual successor to the Baldur's Gate series.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
-      ],
-      "extraDataFull": [
-        {
-          "name": "Dragon Age: Origins",
-          "details": [
-            "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
-          ],
-          "id": "bi157",
-          "igdbId": 76,
-          "gbId": 20738,
-          "gbGuid": "3030-20738",
-          "tgdbId": 867
-        }
-      ]
+      "createdAt": "06/08/2020 06:48 am",
+      "updatedAt": "06/08/2020 06:48 am",
+      "_id": "b62cf5adf41e41698c43ed6ced5acb65",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/677143-descentii_dos.jpg",
+      "description": "The Material Defender returns in this underground 360 degree action shooter, this time retrofitted with a prototype warp core in his ship that will take him to distant worlds. The game features a new array of destructive weapons and berserk robots that ups the ante from its predecessor.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -820,7 +803,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 175,
+    "PC (Microsoft Windows)": 186,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
@@ -852,22 +835,22 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 252,
-    "NOT RATED": 199,
+    "M": 255,
+    "T": 169,
+    "E": 206,
+    "NOT RATED": 201,
     "E10+": 84,
     "RP": 14,
-    "T": 165,
-    "E": 204,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 592,
-    "digital": 327
+    "digital": 338
   },
   "gamesAcquisition": {
-    "Steam": 119,
-    "GOG": 3,
-    "Epic Games Store": 3,
+    "Steam": 124,
+    "GOG": 6,
+    "Epic Games Store": 6,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
@@ -906,24 +889,24 @@
   },
   "cibGames": 249,
   "gamesWithGenre": {
-    "shooter": 312,
-    "role-playing (rpg)": 125,
-    "adventure": 337,
+    "shooter": 315,
+    "role-playing (rpg)": 127,
+    "adventure": 341,
+    "real time strategy (rts)": 11,
+    "strategy": 94,
+    "indie": 99,
+    "simulator": 90,
+    "music": 27,
+    "sport": 124,
+    "platform": 181,
+    "racing": 113,
     "hack and slash/beat 'em up": 63,
-    "indie": 97,
-    "platform": 179,
-    "strategy": 93,
-    "simulator": 87,
     "turn-based strategy (tbs)": 14,
-    "racing": 112,
-    "sport": 123,
     "puzzle": 99,
-    "music": 26,
     "arcade": 71,
     "quiz/trivia": 8,
     "tactical": 22,
     "point-and-click": 7,
-    "real time strategy (rts)": 10,
     "fighting": 56,
     "visual novel": 1,
     "pinball": 4,
@@ -988,6 +971,10 @@
       "games": 14
     },
     {
+      "dateFormatted": "06/2020",
+      "games": 13
+    },
+    {
       "dateFormatted": "08/2019",
       "games": 13
     },
@@ -1032,10 +1019,6 @@
       "games": 3
     },
     {
-      "dateFormatted": "06/2020",
-      "games": 2
-    },
-    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1055,7 +1038,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 177
+      "games": 188
     },
     {
       "dateFormatted": "2018",
@@ -1077,11 +1060,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 589
+      "value": 598
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 156
+      "value": 158
     },
     {
       "category": "Poor (30 - 49)",

@@ -6,11 +6,16 @@ const chalk = require('chalk');
 const _uniqBy = require('lodash/uniqBy');
 
 const indexes = [];
-const combined = games.reduce((acc, game) => {
+const combined = games.reduce((acc, game, index) => {
+  if (parseInt(game.igdb.id) === 9999) {
+    game.igdb.id = parseInt(`${game.igdb.id}${index}`);
+  }
   game.compilation = null;
   if (!acc) {
     acc = [];
   }
+
+  let jikkyou;
   if (game && game.igdb && game.igdb.id) {
     const ind = indexes.indexOf(game.igdb.id);
     if (ind >= 0) {
@@ -32,7 +37,8 @@ const combined = games.reduce((acc, game) => {
       xbBc.forEach(c => acc[ind].consoleArr.push(c));
       acc[ind].consoleArr.forEach(con => {
         // const bcConsoles = bc(game.consoleIgdbId);
-        const bcConsoles = bc.bc(con.consoleId);
+        const bcConsoles =
+          con.consoleId && parseInt(con.consoleId) < 9000 ? bc.bc(con.consoleId) : [];
         bcConsoles.forEach(c => {
           const caIds = acc[ind].consoleArr.map(g => g.consoleId);
           if (caIds.indexOf(c.consoleId) < 0) {
@@ -55,7 +61,8 @@ const combined = games.reduce((acc, game) => {
           cib: game.cib
         }
       ];
-      const bcConsoles = bc.bc(game.consoleIgdbId);
+      const bcConsoles =
+        game.consoleIgdbId && parseInt(game.consoleIgdbId) < 9000 ? bc.bc(game.consoleIgdbId) : [];
       bcConsoles.forEach(c => game.consoleArr.push(c));
       if (game.consoleIgdbId === 11 || game.consoleIgdbId === 12) {
         const xbBc = bc.xboxBcCheck(+game.igdb.id, +game.consoleIgdbId === 11);
@@ -91,15 +98,6 @@ const physicalDigitalAssignment = game => {
 const dedupe = combined.map(game => {
   game.consoleArr = _uniqBy(game.consoleArr, 'consoleId');
   const pd = physicalDigitalAssignment(game);
-  // const physicalDigital = game.consoleArr.map(g => !!g.physical);
-  // let pd;
-  // if (physicalDigital.indexOf(true) >= 0 && physicalDigital.indexOf(false) >= 0) {
-  //   pd = 'both';
-  // } else if (physicalDigital.indexOf(true) >= 0) {
-  //   pd = 'physical';
-  // } else {
-  //   pd = 'digital';
-  // }
   game.physicalDigital = pd;
   return game;
 });

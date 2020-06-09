@@ -35,7 +35,7 @@ export default {
       multiplayerNumber: '',
       datePurchased: '',
       howAcquired: '',
-      physicalDigital: 'physical',
+      physicalDigital: ['physical'],
       notes: '',
       createdAt: '',
       updatedAt: '',
@@ -47,5 +47,43 @@ export default {
       description: '',
       newDatePurchased: new Date()
     };
+  },
+  physicalDigitalBc: game => {
+    const which = game.physicalDigital;
+    const phy = which.indexOf('physical') >= 0;
+    const bc = which.indexOf('backwardComp') >= 0;
+    const digi = which.indexOf('digital') >= 0;
+    if (phy && bc && digi) {
+      return 'trifecta';
+    } else if (phy && digi) {
+      return 'both-copies';
+    } else if (phy && bc) {
+      return 'backward-compatible';
+    } else if (phy) {
+      return 'physical-copy';
+    } else if (digi) {
+      return 'digital-copy';
+    } else {
+      return 'nope';
+    }
+  },
+  physicalDigitalBcText: game => {
+    const which = game.physicalDigital;
+    const phy = which.indexOf('physical') >= 0;
+    const bc = which.indexOf('backwardComp') >= 0;
+    const digi = which.indexOf('digital') >= 0;
+    if (phy && bc && digi) {
+      return 'All 3';
+    } else if (phy && digi) {
+      return 'Physical & Digital';
+    } else if (phy && bc) {
+      return 'Physical & BC';
+    } else if (phy) {
+      return 'Physical';
+    } else if (digi) {
+      return 'Digital';
+    } else {
+      return '';
+    }
   }
 };

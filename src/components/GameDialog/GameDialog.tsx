@@ -4,6 +4,7 @@ import './GameDialog.scss';
 import { IConsoleArr, IGame } from '../../common.model';
 import assetsService from '../../services/assets.service';
 import UrlService from '../../services/url.service';
+import helpersService from '../../services/helpers.service';
 
 interface IRatings {
   [key: string]: string;
@@ -89,8 +90,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                     <td>{game.igdb.genres.join(', ')}</td>
                   </tr>
                   <tr>
-                    <td className="table-cat">Physical/Digital</td>
-                    <td>{game.physicalDigital}</td>
+                    <td className="table-cat">Physical/Digital/BC</td>
+                    <td>{helpersService.physicalDigitalBcText(game)}</td>
                   </tr>
                 </tbody>
               </table>

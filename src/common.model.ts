@@ -55,7 +55,7 @@ export interface IGame {
   cib: string | boolean;
   // pirated: string;
   multiplayerNumber: string | number;
-  physicalDigital: string;
+  physicalDigital: string[];
   datePurchased: string;
   howAcquired: string;
   notes: string;

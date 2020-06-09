@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { Card } from 'primereact/card';
 import { IGame } from '../../common.model';
 import UrlService from '../../services/url.service';
+import helpersService from '../../services/helpers.service';
 
 interface IProps {
   data: IGame;
@@ -11,19 +12,8 @@ interface IProps {
 const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
   const urlPrefix = UrlService.assets;
 
-  const physicalDigitalClass = (game: IGame): string => {
-    const which = game.physicalDigital;
-    if (which === 'digital') {
-      return 'digital-copy';
-    } else if (which === 'both') {
-      return 'both-copies';
-    }
-    return 'physical-copy';
-  };
-
   return (
-    // <Card className={`game-card ${!data.physical ? 'digital-copy' : ''}`}>
-    <Card className={`game-card ${physicalDigitalClass(data)}`}>
+    <Card className={`game-card ${helpersService.physicalDigitalBc(data)}`}>
       {data && data.igdb ? (
         <div className="game-card--content" onClick={() => cardClicked(data)}>
           <img

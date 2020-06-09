@@ -78,17 +78,28 @@ const combined = games.reduce((acc, game) => {
   return acc;
 }, []);
 
+const physicalDigitalAssignment = game => {
+  return game.consoleArr.map(con => {
+    if (!con.hasOwnProperty('physical')) {
+      return 'backwardComp';
+    }
+    const pd = !!con.physical;
+    return pd ? 'physical' : 'digital';
+  });
+};
+
 const dedupe = combined.map(game => {
   game.consoleArr = _uniqBy(game.consoleArr, 'consoleId');
-  const physicalDigital = game.consoleArr.map(g => !!g.physical);
-  let pd;
-  if (physicalDigital.indexOf(true) >= 0 && physicalDigital.indexOf(false) >= 0) {
-    pd = 'both';
-  } else if (physicalDigital.indexOf(true) >= 0) {
-    pd = 'physical';
-  } else {
-    pd = 'digital';
-  }
+  const pd = physicalDigitalAssignment(game);
+  // const physicalDigital = game.consoleArr.map(g => !!g.physical);
+  // let pd;
+  // if (physicalDigital.indexOf(true) >= 0 && physicalDigital.indexOf(false) >= 0) {
+  //   pd = 'both';
+  // } else if (physicalDigital.indexOf(true) >= 0) {
+  //   pd = 'physical';
+  // } else {
+  //   pd = 'digital';
+  // }
   game.physicalDigital = pd;
   return game;
 });

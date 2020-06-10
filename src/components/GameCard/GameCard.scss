@@ -1,7 +1,7 @@
 @import '../../style/theme.scss';
 .game-card {
   width: 10rem;
-  height: 13rem;
+  height: 15.5rem;
   display: flex;
   justify-content: center;
   margin: 0.5rem;
@@ -34,10 +34,21 @@
   .game-card--content {
     img {
       width: 10rem;
-      height: 9rem;
+      height: 12rem;
       object-fit: cover;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
+    }
+    &__overlay {
+      background-color: rgba(0, 0, 0, 0.65);
+      width: 10rem;
+      position: absolute;
+      z-index: 10;
+      margin-top: -1.5rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
     }
     .game-card--content__title {
       height: 3rem;

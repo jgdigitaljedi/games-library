@@ -24,6 +24,16 @@ const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
               e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
           />
+          <div className="game-card--content__overlay">
+            <div>
+              {data.consoleArr && data.consoleArr.length}
+              <i className="pi pi-image" />
+            </div>
+            <div>
+              {data.multiplayerNumber || '?'}
+              <i className="pi pi-users" />
+            </div>
+          </div>
           <div className="game-card--content__title">
             <h5>{data.igdb.name}</h5>
           </div>

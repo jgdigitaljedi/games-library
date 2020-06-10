@@ -5,6 +5,13 @@ const games = require('../server/db/gamesExtra.json');
 const chalk = require('chalk');
 const _uniqBy = require('lodash/uniqBy');
 
+function getGameNotes(cons) {
+  return cons
+    .map(con => (con.notes && con.notes.length ? `${con.consoleName}: ${con.notes}` : null))
+    .filter(c => c)
+    .join(', ');
+}
+
 const indexes = [];
 const combined = games.reduce((acc, game, index) => {
   if (parseInt(game.igdb.id) === 9999) {
@@ -15,7 +22,6 @@ const combined = games.reduce((acc, game, index) => {
     acc = [];
   }
 
-  let jikkyou;
   if (game && game.igdb && game.igdb.id) {
     const ind = indexes.indexOf(game.igdb.id);
     if (ind >= 0) {
@@ -30,7 +36,8 @@ const combined = games.reduce((acc, game, index) => {
           howAcquired: game.howAcquired,
           condition: game.condition,
           case: game.case,
-          cib: game.cib
+          cib: game.cib,
+          notes: game.notes
         });
       }
       const xbBc = bc.xboxBcCheck(game.igdb.id, game.consoleIgdbId === 11);
@@ -58,7 +65,8 @@ const combined = games.reduce((acc, game, index) => {
           howAcquired: game.howAcquired,
           condition: game.condition,
           case: game.case,
-          cib: game.cib
+          cib: game.cib,
+          notes: game.notes
         }
       ];
       const bcConsoles =
@@ -99,6 +107,7 @@ const dedupe = combined.map(game => {
   game.consoleArr = _uniqBy(game.consoleArr, 'consoleId');
   const pd = physicalDigitalAssignment(game);
   game.physicalDigital = pd;
+  game.notes = getGameNotes(game.consoleArr);
   return game;
 });
 

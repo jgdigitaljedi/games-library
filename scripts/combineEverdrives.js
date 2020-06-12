@@ -71,10 +71,11 @@ const md32EL = exclusiveAndLaunch(md32xFixed, md32xSpecialIds, md32xSpecial);
 const md32ELTp = genTeamPlayer.teamPlayerData(md32EL, 'Sega 32X Team Player compatible title');
 
 const combined = [...tgEL, ...genELTp, ...md32ELTp];
-const cleaned = combined.map(game => {
+const cleaned = combined.map((game, index) => {
   if (!game.igdb.genres || !Array.isArray(game.igdb.genres)) {
     game.igdb.genres = [];
   }
+  game.physicalDigital = ['EverDrive'];
   return game;
 });
 

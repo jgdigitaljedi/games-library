@@ -23,7 +23,6 @@ interface IConsolesOwned {
 }
 
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
-  console.log('game', game);
   const urlPrefix = UrlService.assets;
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;

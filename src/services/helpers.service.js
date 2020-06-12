@@ -50,10 +50,13 @@ export default {
   },
   physicalDigitalBc: game => {
     const which = game.physicalDigital;
+    const everDrive = which.indexOf('EverDrive') >= 0;
     const phy = which.indexOf('physical') >= 0;
     const bc = which.indexOf('backwardComp') >= 0;
     const digi = which.indexOf('digital') >= 0;
-    if (phy && bc && digi) {
+    if (everDrive) {
+      return 'everDrive';
+    } else if (phy && bc && digi) {
       return 'trifecta';
     } else if (phy && digi) {
       return 'both-copies';
@@ -72,7 +75,10 @@ export default {
     const phy = which.indexOf('physical') >= 0;
     const bc = which.indexOf('backwardComp') >= 0;
     const digi = which.indexOf('digital') >= 0;
-    if (phy && bc && digi) {
+    const everDrive = which.indexOf('EverDrive') >= 0;
+    if (everDrive) {
+      return 'EverDrive';
+    } else if (phy && bc && digi) {
       return 'All 3';
     } else if (phy && digi) {
       return 'Physical & Digital';

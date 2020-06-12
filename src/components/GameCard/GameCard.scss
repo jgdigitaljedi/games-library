@@ -49,6 +49,11 @@
       display: flex;
       justify-content: space-around;
       align-items: baseline;
+      color: $white;
+      .data-point {
+        display: flex;
+        align-items: center;
+      }
     }
     .game-card--content__title {
       height: 3rem;

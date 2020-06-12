@@ -84,6 +84,89 @@
     },
     {
       "igdb": {
+        "name": "Samurai Shodown NeoGeo Collection",
+        "id": 116809,
+        "genres": [
+          "Fighting"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "06/10/2020",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-72764",
+        "gbid": 72764,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3196101-maxresdefault.jpg",
+        "deck": "A compilation of the six Samurai Shodown titles which appeared on the NeoGeo platform plus one bonus, previously unreleased game.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-06-11",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "06/11/2020 02:05 pm",
+      "updatedAt": "06/11/2020 02:05 pm",
+      "_id": "767f07cece1f4318b10a58fcb4fd6a0d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3196101-maxresdefault.jpg",
+      "description": "A compilation of the six Samurai Shodown titles which appeared on the NeoGeo platform plus one bonus, previously unreleased game.",
+      "miltiplayerNumber": 2
+    },
+    {
+      "igdb": {
+        "name": "ARK: Survival Evolved",
+        "id": 10239,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 87,
+        "first_release_date": "08/28/2017",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-49642",
+        "gbid": 49642,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2991349-box_ase.png",
+        "deck": "A multiplayer first-person survival game set in a world populated by dinosaurs.",
+        "platforms": "Mac, PC, iPhone, Android, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-11",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "06/11/2020 02:03 pm",
+      "updatedAt": "06/11/2020 02:03 pm",
+      "_id": "336b4afbefb94da590219d4933208c79",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2991349-box_ase.png",
+      "description": "A multiplayer first-person survival game set in a world populated by dinosaurs.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Total Annihilation",
         "id": 918,
         "genres": [
@@ -121,88 +204,6 @@
       "_id": "688589b367e54088a6b686a2818bd4ee",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
       "description": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Hotline Miami",
-        "id": 1384,
-        "genres": [
-          "Shooter",
-          "Indie"
-        ],
-        "total_rating": 85,
-        "total_rating_count": 718,
-        "first_release_date": "10/22/2012",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-39452",
-        "gbid": 39452,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3107395-box_hm.png",
-        "deck": "A top-down action combat game with an 80s aesthetic, a brutal style, and a thoughtful, slightly surreal philosophy underlying the story about the nature of violence.",
-        "platforms": "Mac, PlayStation Network (PS3), PC, Android, PlayStation Network (Vita), PlayStation 4, Linux"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-07",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "06/08/2020 06:49 am",
-      "updatedAt": "06/08/2020 06:49 am",
-      "_id": "4e79f49ef1634c41959f715984cafb6f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3107395-box_hm.png",
-      "description": "A top-down action combat game with an 80s aesthetic, a brutal style, and a thoughtful, slightly surreal philosophy underlying the story about the nature of violence.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Descent II",
-        "id": 668,
-        "genres": [
-          "Shooter",
-          "Simulator"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 14,
-        "first_release_date": "03/12/1996",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Descent 2",
-        "guid": "3030-5507",
-        "gbid": 5507,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/677143-descentii_dos.jpg",
-        "deck": "The Material Defender returns in this underground 360 degree action shooter, this time retrofitted with a prototype warp core in his ship that will take him to distant worlds. The game features a new array of destructive weapons and berserk robots that ups the ante from its predecessor.",
-        "platforms": "Amiga, Mac, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "1",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-07",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "06/08/2020 06:48 am",
-      "updatedAt": "06/08/2020 06:48 am",
-      "_id": "b62cf5adf41e41698c43ed6ced5acb65",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/677143-descentii_dos.jpg",
-      "description": "The Material Defender returns in this underground 360 degree action shooter, this time retrofitted with a prototype warp core in his ship that will take him to distant worlds. The game features a new array of destructive weapons and berserk robots that ups the ante from its predecessor.",
       "miltiplayerNumber": 1
     }
   ],
@@ -803,7 +804,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 186,
+    "PC (Microsoft Windows)": 188,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -836,22 +837,22 @@
   },
   "gamesPerEsrb": {
     "M": 255,
-    "T": 170,
+    "NOT RATED": 203,
+    "T": 171,
     "E": 208,
-    "NOT RATED": 202,
     "E10+": 84,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 338
+    "digital": 340
   },
   "gamesAcquisition": {
     "Steam": 124,
     "GOG": 6,
+    "Epic Games Store": 8,
     "Video Games Monthly": 38,
-    "Epic Games Store": 6,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
@@ -889,19 +890,19 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
-    "shooter": 315,
-    "role-playing (rpg)": 127,
-    "adventure": 341,
+    "shooter": 316,
+    "role-playing (rpg)": 128,
+    "adventure": 342,
+    "fighting": 58,
+    "indie": 100,
     "real time strategy (rts)": 11,
     "strategy": 96,
-    "indie": 99,
     "simulator": 91,
     "puzzle": 101,
     "quiz/trivia": 10,
     "sport": 125,
     "sports": 1,
     "baseball": 1,
-    "fighting": 57,
     "turn-based strategy (tbs)": 15,
     "music": 27,
     "platform": 181,
@@ -954,7 +955,7 @@
     },
     {
       "dateFormatted": "06/2020",
-      "games": 17
+      "games": 19
     },
     {
       "dateFormatted": "12/2019",
@@ -1040,7 +1041,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 192
+      "games": 194
     },
     {
       "dateFormatted": "2018",
@@ -1062,7 +1063,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 599
+      "value": 600
     },
     {
       "category": "Fair (50 - 69)",
@@ -1074,7 +1075,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 99
+      "value": 100
     }
   ],
   "consolesByCompany": {

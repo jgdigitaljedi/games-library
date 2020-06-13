@@ -2,88 +2,6 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "BioShock: The Collection",
-        "id": 19839,
-        "genres": [
-          "Shooter",
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 86,
-        "total_rating_count": 45,
-        "first_release_date": "09/12/2016",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-54453",
-        "gbid": 54453,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/118833/2881502-bioshock_collection_hero.jpg",
-        "deck": "Remastered versions of the BioShock trilogy in one collection.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "10",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-25",
-      "howAcquired": "Steam",
-      "notes": "Bioshock 1, 2, & Infinite remastered",
-      "createdAt": "06/02/2020 06:56 am",
-      "updatedAt": "06/02/2020 06:56 am",
-      "_id": "26ced5149ee0498f8437f374690f5177",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/11/118833/2881502-bioshock_collection_hero.jpg",
-      "description": "Remastered versions of the BioShock trilogy in one collection.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "XIII",
-        "id": 1987,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 76,
-        "total_rating_count": 68,
-        "first_release_date": "11/17/2003",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Thirteen",
-        "guid": "3030-2955",
-        "gbid": 2955,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2146389-box_xiii.png",
-        "deck": "XIII is a cel-shaded first-person shooter based on the comic book of the same name, which was in turn inspired by Robert Ludlum's book The Bourne Identity.",
-        "platforms": "Mac, PlayStation 2, GameCube, Xbox, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-24",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "06/02/2020 06:54 am",
-      "updatedAt": "06/02/2020 06:54 am",
-      "_id": "5ed71ed8854b4c41992ff724f811f0a9",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2146389-box_xiii.png",
-      "description": "XIII is a cel-shaded first-person shooter based on the comic book of the same name, which was in turn inspired by Robert Ludlum's book The Bourne Identity.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
         "name": "Mirror's Edge",
         "id": 1051,
         "genres": [
@@ -220,6 +138,90 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3196101-maxresdefault.jpg",
       "description": "A compilation of the six Samurai Shodown titles which appeared on the NeoGeo platform plus one bonus, previously unreleased game.",
       "miltiplayerNumber": 2
+    },
+    {
+      "igdb": {
+        "name": "ARK: Survival Evolved",
+        "id": 10239,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 87,
+        "first_release_date": "08/28/2017",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-49642",
+        "gbid": 49642,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2991349-box_ase.png",
+        "deck": "A multiplayer first-person survival game set in a world populated by dinosaurs.",
+        "platforms": "Mac, PC, iPhone, Android, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-11",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "06/11/2020 02:03 pm",
+      "updatedAt": "06/11/2020 02:03 pm",
+      "_id": "336b4afbefb94da590219d4933208c79",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2991349-box_ase.png",
+      "description": "A multiplayer first-person survival game set in a world populated by dinosaurs.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Total Annihilation",
+        "id": 918,
+        "genres": [
+          "Real Time Strategy (RTS)",
+          "Strategy"
+        ],
+        "total_rating": 84,
+        "total_rating_count": 36,
+        "first_release_date": "09/29/1997",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-3594",
+        "gbid": 3594,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
+        "deck": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
+        "platforms": "Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-07",
+      "howAcquired": "GOG",
+      "notes": "free",
+      "createdAt": "06/08/2020 06:49 am",
+      "updatedAt": "06/08/2020 06:49 am",
+      "_id": "688589b367e54088a6b686a2818bd4ee",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
+      "description": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -851,8 +853,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 256,
     "T": 172,
+    "M": 256,
     "NOT RATED": 203,
     "E": 208,
     "E10+": 84,
@@ -865,8 +867,8 @@
   },
   "gamesAcquisition": {
     "Steam": 126,
-    "GOG": 6,
     "Epic Games Store": 8,
+    "GOG": 6,
     "Video Games Monthly": 38,
     "UNKNOWN": 131,
     "Battle.net": 1,
@@ -906,9 +908,9 @@
   "cibGames": 250,
   "gamesWithGenre": {
     "shooter": 318,
-    "role-playing (rpg)": 129,
-    "adventure": 343,
     "platform": 182,
+    "adventure": 343,
+    "role-playing (rpg)": 129,
     "fighting": 58,
     "indie": 100,
     "real time strategy (rts)": 11,
@@ -961,16 +963,16 @@
       "games": 27
     },
     {
-      "dateFormatted": "06/2020",
-      "games": 21
-    },
-    {
       "dateFormatted": "05/2020",
-      "games": 21
+      "games": 23
     },
     {
       "dateFormatted": "01/2019",
       "games": 20
+    },
+    {
+      "dateFormatted": "06/2020",
+      "games": 19
     },
     {
       "dateFormatted": "12/2019",

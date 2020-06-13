@@ -2,123 +2,24 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Mirror's Edge",
-        "id": 1051,
-        "genres": [
-          "Shooter",
-          "Platform",
-          "Adventure"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 541,
-        "first_release_date": "11/10/2008",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-21213",
-        "gbid": 21213,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1810159-box_medge.png",
-        "deck": "In a futuristic totalitarian dystopia, a master courier (in a group of renegade \"runners\") investigates a conspiracy, while outrunning the deadly government military, in this parkour-inspired first-person action game.",
-        "platforms": "Xbox 360, PlayStation 3, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-12",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "06/12/2020 06:43 am",
-      "updatedAt": "06/12/2020 06:43 am",
-      "_id": "1f9547e883414d2daeb2a8eccafbb3a7",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1810159-box_medge.png",
-      "description": "In a futuristic totalitarian dystopia, a master courier (in a group of renegade \"runners\") investigates a conspiracy, while outrunning the deadly government military, in this parkour-inspired first-person action game.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Mass Effect",
-        "id": 73,
-        "genres": [
-          "Shooter",
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 88,
-        "total_rating_count": 1384,
-        "first_release_date": "11/19/2007",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "ME",
-        "guid": "3030-16909",
-        "gbid": 16909,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2577246-me1.jpg",
-        "deck": "Humanity is still a newcomer on the futuristic galactic stage, and it's up to the charismatic Commander Shepard to investigate the actions of a rogue agent while under threat from a dangerous synthetic race known as the Geth.",
-        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "4",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-12",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "06/12/2020 06:42 am",
-      "updatedAt": "06/12/2020 06:42 am",
-      "_id": "bdb0d340748b474ea7f25a3adf513ff0",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2577246-me1.jpg",
-      "description": "Humanity is still a newcomer on the futuristic galactic stage, and it's up to the charismatic Commander Shepard to investigate the actions of a rogue agent while under threat from a dangerous synthetic race known as the Geth.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
-      ],
-      "extraDataFull": [
-        {
-          "name": "Mass Effect",
-          "details": [
-            "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
-          ],
-          "id": "bi151",
-          "igdbId": 73,
-          "gbId": 16909,
-          "gbGuid": "3030-16909",
-          "tgdbId": 186
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Samurai Shodown NeoGeo Collection",
-        "id": 116809,
+        "name": "The King of Fighters 2002",
+        "id": 5884,
         "genres": [
           "Fighting"
         ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "06/10/2020",
+        "total_rating": 63,
+        "total_rating_count": 25,
+        "first_release_date": "01/09/2002",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-72764",
-        "gbid": 72764,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3196101-maxresdefault.jpg",
-        "deck": "A compilation of the six Samurai Shodown titles which appeared on the NeoGeo platform plus one bonus, previously unreleased game.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "guid": "3030-25902",
+        "gbid": 25902,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1839021-box_kof2002um.png",
+        "deck": "The King of Fighters 2002 Unlimited Match is an enhanced remake of the original KOF2002 that includes every character from the \"NESTS Saga.\"",
+        "platforms": "PlayStation 2, Arcade, Xbox 360 Games Store, PC"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -129,39 +30,116 @@
       "physical": "",
       "cib": "",
       "multiplayerNumber": "2",
-      "datePurchased": "2020-06-11",
-      "howAcquired": "Epic Games Store",
+      "datePurchased": "2020-06-13",
+      "howAcquired": "Twitch",
       "notes": "free",
-      "createdAt": "06/11/2020 02:05 pm",
-      "updatedAt": "06/11/2020 02:05 pm",
-      "_id": "767f07cece1f4318b10a58fcb4fd6a0d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3196101-maxresdefault.jpg",
-      "description": "A compilation of the six Samurai Shodown titles which appeared on the NeoGeo platform plus one bonus, previously unreleased game.",
+      "createdAt": "06/13/2020 07:46 am",
+      "updatedAt": "06/13/2020 07:46 am",
+      "_id": "92eff0bd40a145618de1669e7003e1a6",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1839021-box_kof2002um.png",
+      "description": "The King of Fighters 2002 Unlimited Match is an enhanced remake of the original KOF2002 that includes every character from the \"NESTS Saga.\"",
       "miltiplayerNumber": 2
     },
     {
       "igdb": {
-        "name": "ARK: Survival Evolved",
-        "id": 10239,
+        "name": "The King of Fighters 2000",
+        "id": 15431,
         "genres": [
-          "Shooter",
-          "Role-playing (RPG)",
-          "Adventure",
-          "Indie"
+          "Fighting"
         ],
-        "total_rating": 70,
-        "total_rating_count": 87,
-        "first_release_date": "08/28/2017",
+        "total_rating": 78,
+        "total_rating_count": 27,
+        "first_release_date": "01/20/2000",
         "developers": "",
-        "esrb": "T"
+        "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-49642",
-        "gbid": 49642,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2991349-box_ase.png",
-        "deck": "A multiplayer first-person survival game set in a world populated by dinosaurs.",
-        "platforms": "Mac, PC, iPhone, Android, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+        "guid": "3030-15728",
+        "gbid": 15728,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/840916-kof00_ng_jp.jpg",
+        "deck": "The seventh installment of SNK's King of Fighters series and the last game they developed before their bankruptcy. It features an expansion of the \"Striker\" system, including numerous Striker-only characters for additional options.",
+        "platforms": "Mac, PlayStation 2, Neo Geo, Dreamcast, Arcade, PC, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-06-13",
+      "howAcquired": "Twitch",
+      "notes": "free",
+      "createdAt": "06/13/2020 07:46 am",
+      "updatedAt": "06/13/2020 07:46 am",
+      "_id": "f8b59e9a46c24ff583e1fb67cf974119",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/840916-kof00_ng_jp.jpg",
+      "description": "The seventh installment of SNK's King of Fighters series and the last game they developed before their bankruptcy. It features an expansion of the \"Striker\" system, including numerous Striker-only characters for additional options.",
+      "miltiplayerNumber": 2
+    },
+    {
+      "igdb": {
+        "name": "Samurai Shodown II",
+        "id": 19986,
+        "genres": [
+          "Fighting"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 14,
+        "first_release_date": "01/01/1994",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Samurai Shodown 2\r, Shin Samurai Spirits: Haohmaru Jigokuhen",
+        "guid": "3030-16407",
+        "gbid": 16407,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2130/656716-samsho2.jpg",
+        "deck": "The second entry in SNK's historical-fantasy fighting game series adds a variety of new fearsome warriors, advanced techniques (such as rolling, ducking, and hopping), and deadly special moves (including powerful ones used specifically with the Rage Meter).",
+        "platforms": "Mac, Neo Geo, Neo Geo CD, Arcade, Xbox 360 Games Store, Wii Shop, PC, iPhone, iPad, Android, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-06-13",
+      "howAcquired": "Twitch",
+      "notes": "free",
+      "createdAt": "06/13/2020 07:45 am",
+      "updatedAt": "06/13/2020 07:45 am",
+      "_id": "777dd7684e7145c2833edc879b3f983b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2130/656716-samsho2.jpg",
+      "description": "The second entry in SNK's historical-fantasy fighting game series adds a variety of new fearsome warriors, advanced techniques (such as rolling, ducking, and hopping), and deadly special moves (including powerful ones used specifically with the Rage Meter).",
+      "miltiplayerNumber": 2
+    },
+    {
+      "igdb": {
+        "name": "Pulstar",
+        "id": 7255,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "01/27/1995",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-7778",
+        "gbid": 7778,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8153/457863-pulstar.jpg",
+        "deck": "A sci-fi horizontal-scrolling shoot 'em up developed for arcades by Aicom that is heavily inspired by the R-Type series. It's also known for its use of pre-rendered 3D graphics.",
+        "platforms": "Mac, Neo Geo, Neo Geo CD, Arcade, PC, Browser, Linux, Nintendo Switch"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -172,37 +150,36 @@
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-06-11",
-      "howAcquired": "Epic Games Store",
+      "datePurchased": "2020-06-13",
+      "howAcquired": "Twitch",
       "notes": "free",
-      "createdAt": "06/11/2020 02:03 pm",
-      "updatedAt": "06/11/2020 02:03 pm",
-      "_id": "336b4afbefb94da590219d4933208c79",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2991349-box_ase.png",
-      "description": "A multiplayer first-person survival game set in a world populated by dinosaurs.",
+      "createdAt": "06/13/2020 07:44 am",
+      "updatedAt": "06/13/2020 07:44 am",
+      "_id": "22b5339388b74283b5e80d89a528a722",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8153/457863-pulstar.jpg",
+      "description": "A sci-fi horizontal-scrolling shoot 'em up developed for arcades by Aicom that is heavily inspired by the R-Type series. It's also known for its use of pre-rendered 3D graphics.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Total Annihilation",
-        "id": 918,
+        "name": "Fatal Fury Special",
+        "id": 5385,
         "genres": [
-          "Real Time Strategy (RTS)",
-          "Strategy"
+          "Fighting"
         ],
-        "total_rating": 84,
-        "total_rating_count": 36,
-        "first_release_date": "09/29/1997",
+        "total_rating": 71,
+        "total_rating_count": 15,
+        "first_release_date": "01/15/1993",
         "developers": "",
-        "esrb": "T"
+        "esrb": ""
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-3594",
-        "gbid": 3594,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
-        "deck": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
-        "platforms": "Mac, PC"
+        "aliases": "Garou Densetsu Special",
+        "guid": "3030-19200",
+        "gbid": 19200,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4737/451375-ffspecial.jpg",
+        "deck": "The definitive version of Fatal Fury 2, improving both the game's speed and the playable character roster.",
+        "platforms": "Game Gear, Super Nintendo Entertainment System, Mac, Neo Geo, Sega CD, TurboGrafx-CD, Neo Geo CD, Arcade, Xbox 360 Games Store, Wii Shop, PC, Sharp X68000, iPhone, FM Towns, iPad, Android, Browser, Linux, Nintendo Switch"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -212,16 +189,16 @@
       "pricePaid": "0",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-07",
-      "howAcquired": "GOG",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-06-13",
+      "howAcquired": "Twitch",
       "notes": "free",
-      "createdAt": "06/08/2020 06:49 am",
-      "updatedAt": "06/08/2020 06:49 am",
-      "_id": "688589b367e54088a6b686a2818bd4ee",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/18329/610012-ta_box.jpg",
-      "description": "After 3000 years of galactic scale warfare the remnants of two once great armies duke it out for the total annihilation of the other in this 1997, critically acclaimed RTS.",
-      "miltiplayerNumber": 1
+      "createdAt": "06/13/2020 07:43 am",
+      "updatedAt": "06/13/2020 07:43 am",
+      "_id": "926aa2d79cd0456fbc7016b359ede370",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4737/451375-ffspecial.jpg",
+      "description": "The definitive version of Fatal Fury 2, improving both the game's speed and the playable character roster.",
+      "miltiplayerNumber": 2
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -821,7 +798,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 190,
+    "PC (Microsoft Windows)": 197,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -853,19 +830,20 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "T": 172,
+    "NOT RATED": 208,
+    "E": 209,
+    "T": 173,
     "M": 256,
-    "NOT RATED": 203,
-    "E": 208,
     "E10+": 84,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 342
+    "digital": 349
   },
   "gamesAcquisition": {
+    "Twitch": 7,
     "Steam": 126,
     "Epic Games Store": 8,
     "GOG": 6,
@@ -907,11 +885,11 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
-    "shooter": 318,
+    "fighting": 63,
+    "shooter": 319,
     "platform": 182,
     "adventure": 343,
     "role-playing (rpg)": 129,
-    "fighting": 58,
     "indie": 100,
     "real time strategy (rts)": 11,
     "strategy": 96,
@@ -963,16 +941,16 @@
       "games": 27
     },
     {
+      "dateFormatted": "06/2020",
+      "games": 26
+    },
+    {
       "dateFormatted": "05/2020",
       "games": 23
     },
     {
       "dateFormatted": "01/2019",
       "games": 20
-    },
-    {
-      "dateFormatted": "06/2020",
-      "games": 19
     },
     {
       "dateFormatted": "12/2019",
@@ -1058,7 +1036,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 196
+      "games": 203
     },
     {
       "dateFormatted": "2018",
@@ -1080,11 +1058,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 602
+      "value": 605
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 160
+      "value": 162
     },
     {
       "category": "Poor (30 - 49)",
@@ -1092,7 +1070,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 100
+      "value": 102
     }
   ],
   "consolesByCompany": {

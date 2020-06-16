@@ -2,6 +2,47 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "198X",
+        "id": 100562,
+        "genres": [
+          "Indie",
+          "Arcade"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 12,
+        "first_release_date": "06/19/2019",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-73576",
+        "gbid": 73576,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3115637-image.jpeg",
+        "deck": "A coming age story told through various classic arcade game genres including beat'em ups, shoot 'em ups, racing and many more. Set in the 1980's, the game follows a boy discovering a local arcade where he finds new meaning in life through playing games. ",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-16",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "06/16/2020 09:44 am",
+      "updatedAt": "06/16/2020 09:44 am",
+      "_id": "373c6dd6a2af4d85a4d3f8505cb8401f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3115637-image.jpeg",
+      "description": "A coming age story told through various classic arcade game genres including beat'em ups, shoot 'em ups, racing and many more. Set in the 1980's, the game follows a boy discovering a local arcade where he finds new meaning in life through playing games. ",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Deus Ex",
         "id": 41,
         "genres": [
@@ -164,48 +205,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2130/656716-samsho2.jpg",
       "description": "The second entry in SNK's historical-fantasy fighting game series adds a variety of new fearsome warriors, advanced techniques (such as rolling, ducking, and hopping), and deadly special moves (including powerful ones used specifically with the Rage Meter).",
       "miltiplayerNumber": 2
-    },
-    {
-      "igdb": {
-        "name": "Pulstar",
-        "id": 7255,
-        "genres": [
-          "Shooter",
-          "Arcade",
-          "SHMUP"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "01/27/1995",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-7778",
-        "gbid": 7778,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8153/457863-pulstar.jpg",
-        "deck": "A sci-fi horizontal-scrolling shoot 'em up developed for arcades by Aicom that is heavily inspired by the R-Type series. It's also known for its use of pre-rendered 3D graphics.",
-        "platforms": "Mac, Neo Geo, Neo Geo CD, Arcade, PC, Browser, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-13",
-      "howAcquired": "Twitch",
-      "notes": "",
-      "createdAt": "06/13/2020 07:44 am",
-      "updatedAt": "06/13/2020 07:44 am",
-      "_id": "22b5339388b74283b5e80d89a528a722",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8153/457863-pulstar.jpg",
-      "description": "A sci-fi horizontal-scrolling shoot 'em up developed for arcades by Aicom that is heavily inspired by the R-Type series. It's also known for its use of pre-rendered 3D graphics.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -806,7 +805,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 198,
+    "PC (Microsoft Windows)": 199,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -838,8 +837,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "NOT RATED": 209,
     "M": 257,
-    "NOT RATED": 208,
     "E": 209,
     "T": 173,
     "E10+": 84,
@@ -848,12 +847,12 @@
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 350
+    "digital": 351
   },
   "gamesAcquisition": {
+    "Steam": 127,
     "GOG": 7,
     "Twitch": 7,
-    "Steam": 126,
     "Epic Games Store": 8,
     "Video Games Monthly": 38,
     "UNKNOWN": 131,
@@ -893,15 +892,15 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
-    "shooter": 321,
+    "indie": 101,
+    "arcade": 78,
+    "shooter": 322,
     "role-playing (rpg)": 130,
-    "fps": 39,
+    "fps": 53,
     "fighting": 63,
-    "arcade": 77,
     "shmup": 2,
     "platform": 182,
     "adventure": 343,
-    "indie": 100,
     "real time strategy (rts)": 11,
     "strategy": 96,
     "simulator": 91,
@@ -947,7 +946,7 @@
     },
     {
       "dateFormatted": "06/2020",
-      "games": 27
+      "games": 28
     },
     {
       "dateFormatted": "02/2019",
@@ -1045,7 +1044,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 204
+      "games": 205
     },
     {
       "dateFormatted": "2018",
@@ -1067,7 +1066,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 605
+      "value": 606
     },
     {
       "category": "Fair (50 - 69)",

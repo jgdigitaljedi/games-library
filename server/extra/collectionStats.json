@@ -2,10 +2,53 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Deus Ex",
+        "id": 41,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "FPS"
+        ],
+        "total_rating": 90,
+        "total_rating_count": 504,
+        "first_release_date": "06/25/2000",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "DX",
+        "guid": "3030-17533",
+        "gbid": 17533,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5480/608405-dxcover_1.jpg",
+        "deck": "A celebrated cyberpunk-themed first-person role-playing game, Deus Ex puts players behind the shades of JC Denton--an operative thrust into a world of byzantine global conspiracies.",
+        "platforms": "Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": ".97",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-16",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/16/2020 08:03 am",
+      "updatedAt": "06/16/2020 08:03 am",
+      "_id": "030e8803b873413bb045f91a048a1a4c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5480/608405-dxcover_1.jpg",
+      "description": "A celebrated cyberpunk-themed first-person role-playing game, Deus Ex puts players behind the shades of JC Denton--an operative thrust into a world of byzantine global conspiracies.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "The King of Fighters 2002",
         "id": 5884,
         "genres": [
-          "Fighting"
+          "Fighting",
+          "Arcade"
         ],
         "total_rating": 63,
         "total_rating_count": 25,
@@ -32,7 +75,7 @@
       "multiplayerNumber": "2",
       "datePurchased": "2020-06-13",
       "howAcquired": "Twitch",
-      "notes": "free",
+      "notes": "",
       "createdAt": "06/13/2020 07:46 am",
       "updatedAt": "06/13/2020 07:46 am",
       "_id": "92eff0bd40a145618de1669e7003e1a6",
@@ -45,7 +88,8 @@
         "name": "The King of Fighters 2000",
         "id": 15431,
         "genres": [
-          "Fighting"
+          "Fighting",
+          "Arcade"
         ],
         "total_rating": 78,
         "total_rating_count": 27,
@@ -72,7 +116,7 @@
       "multiplayerNumber": "2",
       "datePurchased": "2020-06-13",
       "howAcquired": "Twitch",
-      "notes": "free",
+      "notes": "",
       "createdAt": "06/13/2020 07:46 am",
       "updatedAt": "06/13/2020 07:46 am",
       "_id": "f8b59e9a46c24ff583e1fb67cf974119",
@@ -85,7 +129,8 @@
         "name": "Samurai Shodown II",
         "id": 19986,
         "genres": [
-          "Fighting"
+          "Fighting",
+          "Arcade"
         ],
         "total_rating": 83,
         "total_rating_count": 14,
@@ -112,7 +157,7 @@
       "multiplayerNumber": "2",
       "datePurchased": "2020-06-13",
       "howAcquired": "Twitch",
-      "notes": "free",
+      "notes": "",
       "createdAt": "06/13/2020 07:45 am",
       "updatedAt": "06/13/2020 07:45 am",
       "_id": "777dd7684e7145c2833edc879b3f983b",
@@ -125,7 +170,9 @@
         "name": "Pulstar",
         "id": 7255,
         "genres": [
-          "Shooter"
+          "Shooter",
+          "Arcade",
+          "SHMUP"
         ],
         "total_rating": "",
         "total_rating_count": "",
@@ -152,53 +199,13 @@
       "multiplayerNumber": "1",
       "datePurchased": "2020-06-13",
       "howAcquired": "Twitch",
-      "notes": "free",
+      "notes": "",
       "createdAt": "06/13/2020 07:44 am",
       "updatedAt": "06/13/2020 07:44 am",
       "_id": "22b5339388b74283b5e80d89a528a722",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8153/457863-pulstar.jpg",
       "description": "A sci-fi horizontal-scrolling shoot 'em up developed for arcades by Aicom that is heavily inspired by the R-Type series. It's also known for its use of pre-rendered 3D graphics.",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Fatal Fury Special",
-        "id": 5385,
-        "genres": [
-          "Fighting"
-        ],
-        "total_rating": 71,
-        "total_rating_count": 15,
-        "first_release_date": "01/15/1993",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Garou Densetsu Special",
-        "guid": "3030-19200",
-        "gbid": 19200,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4737/451375-ffspecial.jpg",
-        "deck": "The definitive version of Fatal Fury 2, improving both the game's speed and the playable character roster.",
-        "platforms": "Game Gear, Super Nintendo Entertainment System, Mac, Neo Geo, Sega CD, TurboGrafx-CD, Neo Geo CD, Arcade, Xbox 360 Games Store, Wii Shop, PC, Sharp X68000, iPhone, FM Towns, iPad, Android, Browser, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-06-13",
-      "howAcquired": "Twitch",
-      "notes": "free",
-      "createdAt": "06/13/2020 07:43 am",
-      "updatedAt": "06/13/2020 07:43 am",
-      "_id": "926aa2d79cd0456fbc7016b359ede370",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4737/451375-ffspecial.jpg",
-      "description": "The definitive version of Fatal Fury 2, improving both the game's speed and the playable character roster.",
-      "miltiplayerNumber": 2
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -516,7 +523,8 @@
         "name": "Call Of Duty: Modern Warfare",
         "id": 119177,
         "genres": [
-          "Shooter"
+          "Shooter",
+          "FPS"
         ],
         "total_rating": 79,
         "total_rating_count": 93,
@@ -543,7 +551,7 @@
       "multiplayerNumber": "1",
       "datePurchased": "2020-05-13",
       "howAcquired": "Battle.net",
-      "notes": "got the battle pass edition",
+      "notes": "",
       "createdAt": "05/14/2020 06:29 am",
       "updatedAt": "05/14/2020 06:29 am",
       "_id": "962e91ffb0ba4e48b3f90041f9531018",
@@ -798,7 +806,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 197,
+    "PC (Microsoft Windows)": 198,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -830,23 +838,23 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "M": 257,
     "NOT RATED": 208,
     "E": 209,
     "T": 173,
-    "M": 256,
     "E10+": 84,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 349
+    "digital": 350
   },
   "gamesAcquisition": {
+    "GOG": 7,
     "Twitch": 7,
     "Steam": 126,
     "Epic Games Store": 8,
-    "GOG": 6,
     "Video Games Monthly": 38,
     "UNKNOWN": 131,
     "Battle.net": 1,
@@ -885,11 +893,14 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
+    "shooter": 321,
+    "role-playing (rpg)": 130,
+    "fps": 39,
     "fighting": 63,
-    "shooter": 319,
+    "arcade": 77,
+    "shmup": 2,
     "platform": 182,
     "adventure": 343,
-    "role-playing (rpg)": 129,
     "indie": 100,
     "real time strategy (rts)": 11,
     "strategy": 96,
@@ -903,13 +914,11 @@
     "music": 27,
     "racing": 113,
     "hack and slash/beat 'em up": 63,
-    "arcade": 71,
     "tactical": 22,
     "point-and-click": 7,
     "visual novel": 1,
     "pinball": 4,
-    "action": 1,
-    "fps": 1
+    "action": 1
   },
   "gamesAddedInMonth": [
     {
@@ -937,12 +946,12 @@
       "games": 29
     },
     {
-      "dateFormatted": "02/2019",
+      "dateFormatted": "06/2020",
       "games": 27
     },
     {
-      "dateFormatted": "06/2020",
-      "games": 26
+      "dateFormatted": "02/2019",
+      "games": 27
     },
     {
       "dateFormatted": "05/2020",
@@ -1036,7 +1045,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 203
+      "games": 204
     },
     {
       "dateFormatted": "2018",
@@ -1054,7 +1063,7 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 62
+      "value": 63
     },
     {
       "category": "Good (70 - 89)",

@@ -18,7 +18,8 @@
     "process:transition": "node scripts/transitionDataStructure.js",
     "process:viz": "node scripts/createVizStats.js",
     "process": "npm run process:transition && npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz",
-    "copyGames:windows": "./scripts/copyGamesFromOtherProject.sh"
+    "copyGames:windows": "./scripts/copyGamesFromOtherProject.sh",
+    "copyGames:mac": "./scripts/copyFromOsx.sh"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",

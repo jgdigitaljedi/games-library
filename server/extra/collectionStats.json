@@ -896,7 +896,7 @@
     "arcade": 78,
     "shooter": 322,
     "role-playing (rpg)": 130,
-    "fps": 53,
+    "fps": 127,
     "fighting": 63,
     "shmup": 2,
     "platform": 182,
@@ -917,6 +917,7 @@
     "point-and-click": 7,
     "visual novel": 1,
     "pinball": 4,
+    "horror": 1,
     "action": 1
   },
   "gamesAddedInMonth": [

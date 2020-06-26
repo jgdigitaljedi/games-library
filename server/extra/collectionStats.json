@@ -2,25 +2,26 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "198X",
-        "id": 100562,
+        "name": "Worms World Party Remastered",
+        "id": 20025,
         "genres": [
+          "Strategy",
           "Indie",
-          "Arcade"
+          "Turn-based"
         ],
-        "total_rating": 77,
-        "total_rating_count": 12,
-        "first_release_date": "06/19/2019",
+        "total_rating": 55,
+        "total_rating_count": 4,
+        "first_release_date": "07/15/2015",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-73576",
-        "gbid": 73576,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3115637-image.jpeg",
-        "deck": "A coming age story told through various classic arcade game genres including beat'em ups, shoot 'em ups, racing and many more. Set in the 1980's, the game follows a boy discovering a local arcade where he finds new meaning in life through playing games. ",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "guid": "3030-18822",
+        "gbid": 18822,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/6/60173/1459460-worms___world_party_a2.jpg",
+        "deck": "More worm-based mayhem from Team17.",
+        "platforms": "Game Boy Advance, PlayStation, N-Gage, Dreamcast, PC"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -30,181 +31,181 @@
       "pricePaid": "3",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-16",
-      "howAcquired": "Steam",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-06-25",
+      "howAcquired": "GOG",
       "notes": "",
-      "createdAt": "06/16/2020 09:44 am",
-      "updatedAt": "06/16/2020 09:44 am",
-      "_id": "373c6dd6a2af4d85a4d3f8505cb8401f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3115637-image.jpeg",
-      "description": "A coming age story told through various classic arcade game genres including beat'em ups, shoot 'em ups, racing and many more. Set in the 1980's, the game follows a boy discovering a local arcade where he finds new meaning in life through playing games. ",
-      "miltiplayerNumber": 1
+      "createdAt": "06/26/2020 06:55 am",
+      "updatedAt": "06/26/2020 06:55 am",
+      "_id": "c8d07cfa52d7499a8cdfd59e33b88053",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/6/60173/1459460-worms___world_party_a2.jpg",
+      "description": "More worm-based mayhem from Team17.",
+      "miltiplayerNumber": 4
     },
     {
       "igdb": {
-        "name": "Deus Ex",
-        "id": 41,
+        "name": "Worms Armageddon",
+        "id": 948,
         "genres": [
           "Shooter",
-          "Role-playing (RPG)",
-          "FPS"
+          "Platform",
+          "Strategy",
+          "Turn-based"
         ],
-        "total_rating": 90,
-        "total_rating_count": 504,
-        "first_release_date": "06/25/2000",
+        "total_rating": 82,
+        "total_rating_count": 168,
+        "first_release_date": "01/28/1999",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "WA",
+        "guid": "3030-17255",
+        "gbid": 17255,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1798144-box_wormsarm.png",
+        "deck": "Worms Armageddon is the third instalment in the turn-based war game from Team17. Players attack their foes with a vast array of weapons.",
+        "platforms": "Mac, PlayStation, Dreamcast, Nintendo 64, Game Boy Color, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-06-25",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/26/2020 06:54 am",
+      "updatedAt": "06/26/2020 06:54 am",
+      "_id": "41087cfde97b4cfc889a25f1a01f0d67",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1798144-box_wormsarm.png",
+      "description": "Worms Armageddon is the third instalment in the turn-based war game from Team17. Players attack their foes with a vast array of weapons.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
+        "name": "Worms United",
+        "id": 47081,
+        "genres": [
+          "Strategy",
+          "Turn-based"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "02/01/1996",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgame-ost.com%2Fstatic%2Fcovers_soundtracks%2F8%2F5%2F85373_722740.jpg&f=1&nofb=1",
+        "deck": "",
+        "platforms": ""
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1.20",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-06-25",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/26/2020 06:53 am",
+      "updatedAt": "06/26/2020 06:53 am",
+      "_id": "f2f1d4c47a724ecb8f1efaaa684de57a",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgame-ost.com%2Fstatic%2Fcovers_soundtracks%2F8%2F5%2F85373_722740.jpg&f=1&nofb=1",
+      "description": "",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
+        "name": "Worms W.M.D",
+        "id": 19696,
+        "genres": [
+          "Strategy",
+          "Turn-based strategy (TBS)"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 34,
+        "first_release_date": "08/22/2016",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-54180",
+        "gbid": 54180,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
+        "deck": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "6",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-06-25",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/26/2020 06:50 am",
+      "updatedAt": "06/26/2020 06:50 am",
+      "_id": "de0851ce23cd411ab17d554175f8a131",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
+      "description": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
+        "name": "Battlefield 1",
+        "id": 18320,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 436,
+        "first_release_date": "10/20/2016",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
-        "aliases": "DX",
-        "guid": "3030-17533",
-        "gbid": 17533,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5480/608405-dxcover_1.jpg",
-        "deck": "A celebrated cyberpunk-themed first-person role-playing game, Deus Ex puts players behind the shades of JC Denton--an operative thrust into a world of byzantine global conspiracies.",
-        "platforms": "Mac, PC"
+        "aliases": "BF1",
+        "guid": "3030-48113",
+        "gbid": 48113,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2860787-bf1.jpg",
+        "deck": "The long-running Battlefield series goes even further back in time in the 15th installment, this time to the first World War.",
+        "platforms": "PC, Xbox One, PlayStation 4"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
       "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": ".97",
+      "pricePaid": "5",
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-06-16",
-      "howAcquired": "GOG",
+      "datePurchased": "2020-06-24",
+      "howAcquired": "Origin",
       "notes": "",
-      "createdAt": "06/16/2020 08:03 am",
-      "updatedAt": "06/16/2020 08:03 am",
-      "_id": "030e8803b873413bb045f91a048a1a4c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5480/608405-dxcover_1.jpg",
-      "description": "A celebrated cyberpunk-themed first-person role-playing game, Deus Ex puts players behind the shades of JC Denton--an operative thrust into a world of byzantine global conspiracies.",
+      "createdAt": "06/26/2020 06:49 am",
+      "updatedAt": "06/26/2020 06:49 am",
+      "_id": "0a9feaa6ac974216a532a598baa4dd88",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2860787-bf1.jpg",
+      "description": "The long-running Battlefield series goes even further back in time in the 15th installment, this time to the first World War.",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "The King of Fighters 2002",
-        "id": 5884,
-        "genres": [
-          "Fighting",
-          "Arcade"
-        ],
-        "total_rating": 63,
-        "total_rating_count": 25,
-        "first_release_date": "01/09/2002",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-25902",
-        "gbid": 25902,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1839021-box_kof2002um.png",
-        "deck": "The King of Fighters 2002 Unlimited Match is an enhanced remake of the original KOF2002 that includes every character from the \"NESTS Saga.\"",
-        "platforms": "PlayStation 2, Arcade, Xbox 360 Games Store, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-06-13",
-      "howAcquired": "Twitch",
-      "notes": "",
-      "createdAt": "06/13/2020 07:46 am",
-      "updatedAt": "06/13/2020 07:46 am",
-      "_id": "92eff0bd40a145618de1669e7003e1a6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1839021-box_kof2002um.png",
-      "description": "The King of Fighters 2002 Unlimited Match is an enhanced remake of the original KOF2002 that includes every character from the \"NESTS Saga.\"",
-      "miltiplayerNumber": 2
-    },
-    {
-      "igdb": {
-        "name": "The King of Fighters 2000",
-        "id": 15431,
-        "genres": [
-          "Fighting",
-          "Arcade"
-        ],
-        "total_rating": 78,
-        "total_rating_count": 27,
-        "first_release_date": "01/20/2000",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-15728",
-        "gbid": 15728,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/840916-kof00_ng_jp.jpg",
-        "deck": "The seventh installment of SNK's King of Fighters series and the last game they developed before their bankruptcy. It features an expansion of the \"Striker\" system, including numerous Striker-only characters for additional options.",
-        "platforms": "Mac, PlayStation 2, Neo Geo, Dreamcast, Arcade, PC, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-06-13",
-      "howAcquired": "Twitch",
-      "notes": "",
-      "createdAt": "06/13/2020 07:46 am",
-      "updatedAt": "06/13/2020 07:46 am",
-      "_id": "f8b59e9a46c24ff583e1fb67cf974119",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/840916-kof00_ng_jp.jpg",
-      "description": "The seventh installment of SNK's King of Fighters series and the last game they developed before their bankruptcy. It features an expansion of the \"Striker\" system, including numerous Striker-only characters for additional options.",
-      "miltiplayerNumber": 2
-    },
-    {
-      "igdb": {
-        "name": "Samurai Shodown II",
-        "id": 19986,
-        "genres": [
-          "Fighting",
-          "Arcade"
-        ],
-        "total_rating": 83,
-        "total_rating_count": 14,
-        "first_release_date": "01/01/1994",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "Samurai Shodown 2\r, Shin Samurai Spirits: Haohmaru Jigokuhen",
-        "guid": "3030-16407",
-        "gbid": 16407,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2130/656716-samsho2.jpg",
-        "deck": "The second entry in SNK's historical-fantasy fighting game series adds a variety of new fearsome warriors, advanced techniques (such as rolling, ducking, and hopping), and deadly special moves (including powerful ones used specifically with the Rage Meter).",
-        "platforms": "Mac, Neo Geo, Neo Geo CD, Arcade, Xbox 360 Games Store, Wii Shop, PC, iPhone, iPad, Android, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-06-13",
-      "howAcquired": "Twitch",
-      "notes": "",
-      "createdAt": "06/13/2020 07:45 am",
-      "updatedAt": "06/13/2020 07:45 am",
-      "_id": "777dd7684e7145c2833edc879b3f983b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2130/656716-samsho2.jpg",
-      "description": "The second entry in SNK's historical-fantasy fighting game series adds a variety of new fearsome warriors, advanced techniques (such as rolling, ducking, and hopping), and deadly special moves (including powerful ones used specifically with the Rage Meter).",
-      "miltiplayerNumber": 2
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -563,7 +564,8 @@
         "name": "Eternal Darkness: Sanity's Requiem",
         "id": 3907,
         "genres": [
-          "Adventure"
+          "Adventure",
+          "Horror"
         ],
         "total_rating": 85,
         "total_rating_count": 34,
@@ -805,7 +807,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 199,
+    "PC (Microsoft Windows)": 204,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -837,28 +839,28 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 209,
-    "M": 257,
+    "NOT RATED": 212,
+    "E10+": 85,
+    "M": 258,
     "E": 209,
     "T": 173,
-    "E10+": 84,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 351
+    "digital": 356
   },
   "gamesAcquisition": {
+    "GOG": 11,
+    "Origin": 2,
     "Steam": 127,
-    "GOG": 7,
     "Twitch": 7,
     "Epic Games Store": 8,
     "Video Games Monthly": 38,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
-    "Origin": 1,
     "PSN": 105,
     "eBay": 49,
     "eShop": 23,
@@ -892,32 +894,47 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
-    "indie": 101,
-    "arcade": 78,
-    "shooter": 322,
+    "strategy": 100,
+    "indie": 103,
+    "turn-based": 7,
+    "shooter": 324,
+    "platform": 183,
+    "turn-based strategy (tbs)": 16,
+    "arcade": 81,
     "role-playing (rpg)": 130,
-    "fps": 127,
+    "fps": 146,
     "fighting": 63,
-    "shmup": 2,
-    "platform": 182,
-    "adventure": 343,
+    "shmup": 8,
+    "adventure": 344,
+    "third-person shooter": 8,
     "real time strategy (rts)": 11,
-    "strategy": 96,
     "simulator": 91,
-    "puzzle": 101,
+    "puzzle": 102,
     "quiz/trivia": 10,
-    "sport": 125,
-    "sports": 1,
-    "baseball": 1,
-    "turn-based strategy (tbs)": 15,
-    "music": 27,
+    "sport": 126,
+    "party": 9,
+    "baseball": 2,
+    "japanese": 2,
+    "import": 2,
+    "music": 28,
+    "fishing": 1,
     "racing": 113,
     "hack and slash/beat 'em up": 63,
+    "mech": 1,
+    "horror": 2,
+    "hockey": 1,
+    "point-and-click": 11,
+    "golf": 4,
     "tactical": 22,
-    "point-and-click": 7,
+    "on-rails-shooter": 1,
+    "building": 1,
     "visual novel": 1,
     "pinball": 4,
-    "horror": 1,
+    "third=person shooter": 1,
+    "run-n-gun": 1,
+    "vehicular combat": 3,
+    "snowboarding": 1,
+    "skiing": 1,
     "action": 1
   },
   "gamesAddedInMonth": [
@@ -934,6 +951,10 @@
       "games": 44
     },
     {
+      "dateFormatted": "06/2020",
+      "games": 33
+    },
+    {
       "dateFormatted": "03/2020",
       "games": 33
     },
@@ -944,10 +965,6 @@
     {
       "dateFormatted": "03/2019",
       "games": 29
-    },
-    {
-      "dateFormatted": "06/2020",
-      "games": 28
     },
     {
       "dateFormatted": "02/2019",
@@ -1045,7 +1062,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 205
+      "games": 210
     },
     {
       "dateFormatted": "2018",
@@ -1067,11 +1084,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 606
+      "value": 609
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 162
+      "value": 163
     },
     {
       "category": "Poor (30 - 49)",
@@ -1079,7 +1096,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 102
+      "value": 103
     }
   ],
   "consolesByCompany": {

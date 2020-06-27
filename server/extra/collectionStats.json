@@ -2,6 +2,87 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Cities: Skylines",
+        "id": 9066,
+        "genres": [
+          "Simulator",
+          "Strategy"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 313,
+        "first_release_date": "03/09/2015",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-47402",
+        "gbid": 47402,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/17/171291/2670675-temp-packshot-v2.jpg",
+        "deck": "Cities: Skylines is a city-building simulation heavily inspired by the SimCity franchise.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "6",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-26",
+      "howAcquired": "Steam",
+      "notes": "Steam summer sale",
+      "createdAt": "06/27/2020 08:08 am",
+      "updatedAt": "06/27/2020 08:08 am",
+      "_id": "478bbcb1c8c74eb8951c9023b87a7d26",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/17/171291/2670675-temp-packshot-v2.jpg",
+      "description": "Cities: Skylines is a city-building simulation heavily inspired by the SimCity franchise.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Wolfenstein II: The New Colossus",
+        "id": 36952,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 303,
+        "first_release_date": "10/26/2017",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Wolfenstein 2",
+        "guid": "3030-59906",
+        "gbid": 59906,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/165036/2945459-wolfensteinii_boxart-template-1200x1476.jpg",
+        "deck": "BJ's back in America.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "5",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-26",
+      "howAcquired": "Steam",
+      "notes": "Steam summer sale",
+      "createdAt": "06/27/2020 08:07 am",
+      "updatedAt": "06/27/2020 08:07 am",
+      "_id": "dcee08e8110a4b3fb3da406760dbc181",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/165036/2945459-wolfensteinii_boxart-template-1200x1476.jpg",
+      "description": "BJ's back in America.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Worms World Party Remastered",
         "id": 20025,
         "genres": [
@@ -125,87 +206,6 @@
       "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgame-ost.com%2Fstatic%2Fcovers_soundtracks%2F8%2F5%2F85373_722740.jpg&f=1&nofb=1",
       "description": "",
       "miltiplayerNumber": 4
-    },
-    {
-      "igdb": {
-        "name": "Worms W.M.D",
-        "id": 19696,
-        "genres": [
-          "Strategy",
-          "Turn-based strategy (TBS)"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 34,
-        "first_release_date": "08/22/2016",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-54180",
-        "gbid": 54180,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
-        "deck": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "6",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-06-25",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "06/26/2020 06:50 am",
-      "updatedAt": "06/26/2020 06:50 am",
-      "_id": "de0851ce23cd411ab17d554175f8a131",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
-      "description": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
-      "miltiplayerNumber": 4
-    },
-    {
-      "igdb": {
-        "name": "Battlefield 1",
-        "id": 18320,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 83,
-        "total_rating_count": 436,
-        "first_release_date": "10/20/2016",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "BF1",
-        "guid": "3030-48113",
-        "gbid": 48113,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2860787-bf1.jpg",
-        "deck": "The long-running Battlefield series goes even further back in time in the 15th installment, this time to the first World War.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "5",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-24",
-      "howAcquired": "Origin",
-      "notes": "",
-      "createdAt": "06/26/2020 06:49 am",
-      "updatedAt": "06/26/2020 06:49 am",
-      "_id": "0a9feaa6ac974216a532a598baa4dd88",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2860787-bf1.jpg",
-      "description": "The long-running Battlefield series goes even further back in time in the 15th installment, this time to the first World War.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -807,7 +807,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 204,
+    "PC (Microsoft Windows)": 206,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -839,22 +839,22 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "E": 210,
+    "M": 259,
     "NOT RATED": 212,
     "E10+": 85,
-    "M": 258,
-    "E": 209,
     "T": 173,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 356
+    "digital": 358
   },
   "gamesAcquisition": {
+    "Steam": 129,
     "GOG": 11,
     "Origin": 2,
-    "Steam": 127,
     "Twitch": 7,
     "Epic Games Store": 8,
     "Video Games Monthly": 38,
@@ -894,10 +894,11 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
-    "strategy": 100,
+    "simulator": 92,
+    "strategy": 101,
+    "shooter": 325,
     "indie": 103,
     "turn-based": 7,
-    "shooter": 324,
     "platform": 183,
     "turn-based strategy (tbs)": 16,
     "arcade": 81,
@@ -908,7 +909,6 @@
     "adventure": 344,
     "third-person shooter": 8,
     "real time strategy (rts)": 11,
-    "simulator": 91,
     "puzzle": 102,
     "quiz/trivia": 10,
     "sport": 126,
@@ -952,7 +952,7 @@
     },
     {
       "dateFormatted": "06/2020",
-      "games": 33
+      "games": 35
     },
     {
       "dateFormatted": "03/2020",
@@ -1062,7 +1062,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 210
+      "games": 212
     },
     {
       "dateFormatted": "2018",
@@ -1084,7 +1084,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 609
+      "value": 611
     },
     {
       "category": "Fair (50 - 69)",

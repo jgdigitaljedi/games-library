@@ -46,7 +46,8 @@
         "name": "Wolfenstein II: The New Colossus",
         "id": 36952,
         "genres": [
-          "Shooter"
+          "Shooter",
+          "FPS"
         ],
         "total_rating": 85,
         "total_rating_count": 303,
@@ -73,7 +74,7 @@
       "multiplayerNumber": "1",
       "datePurchased": "2020-06-26",
       "howAcquired": "Steam",
-      "notes": "Steam summer sale",
+      "notes": "",
       "createdAt": "06/27/2020 08:07 am",
       "updatedAt": "06/27/2020 08:07 am",
       "_id": "dcee08e8110a4b3fb3da406760dbc181",
@@ -897,13 +898,13 @@
     "simulator": 92,
     "strategy": 101,
     "shooter": 325,
+    "fps": 147,
     "indie": 103,
     "turn-based": 7,
     "platform": 183,
     "turn-based strategy (tbs)": 16,
     "arcade": 81,
     "role-playing (rpg)": 130,
-    "fps": 146,
     "fighting": 63,
     "shmup": 8,
     "adventure": 344,

@@ -2,6 +2,88 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Worms W.M.D",
+        "id": 19696,
+        "genres": [
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "party"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 34,
+        "first_release_date": "08/22/2016",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-54180",
+        "gbid": 54180,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
+        "deck": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "9",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "8",
+      "datePurchased": "2020-07-01",
+      "howAcquired": "PSN",
+      "notes": "",
+      "createdAt": "07/02/2020 07:53 am",
+      "updatedAt": "07/02/2020 07:53 am",
+      "_id": "6c65c9b1078d435797f1f1aa935de993",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
+      "description": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
+      "miltiplayerNumber": 8
+    },
+    {
+      "igdb": {
+        "name": "Need for Speed: Heat",
+        "id": 119161,
+        "genres": [
+          "Racing"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 36,
+        "first_release_date": "11/07/2019",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "NFS Heat",
+        "guid": "3030-73586",
+        "gbid": 73586,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3120760-box_nfsh.png",
+        "deck": "Street racers drive around a Miami-inspired city where they hustle for cash during the day and build up their reputation during the night, all while fending off a corrupt, aggressive police task force dedicated to bringing street racing to a halt.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "28",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-30",
+      "howAcquired": "Steam",
+      "notes": "steam summer sale",
+      "createdAt": "07/02/2020 07:55 am",
+      "updatedAt": "07/02/2020 07:55 am",
+      "_id": "c49837dcb519447a9a4bbe4e5f2afb3e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3120760-box_nfsh.png",
+      "description": "Street racers drive around a Miami-inspired city where they hustle for cash during the day and build up their reputation during the night, all while fending off a corrupt, aggressive police task force dedicated to bringing street racing to a halt.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Black Mesa",
         "id": 6739,
         "genres": [
@@ -125,91 +207,6 @@
       "_id": "872d72860fa040d39172798e85850196",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/12139/2916310-2604138297-Snipe.jpg",
       "description": "Sniper: Ghost Warrior 3 is a first person shooter that mainly focuses on sniping like its predecessors. It is more open world this time around with different ways of going about missions.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Sniper: Ghost Warrior 2",
-        "id": 1368,
-        "genres": [
-          "Shooter",
-          "Tactical",
-          "FPS"
-        ],
-        "total_rating": 56,
-        "total_rating_count": 55,
-        "first_release_date": "03/11/2013",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-33002",
-        "gbid": 33002,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2391159-box_snipergw2.png",
-        "deck": "Follow the exploits of Captain Cole Anderson as he tries to stop a bio-weapon being unleashed.",
-        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3.33",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-27",
-      "howAcquired": "Steam",
-      "notes": "bought in bundle with all 3 Sniper: Ghost Warrior games for 9.99",
-      "createdAt": "06/28/2020 07:53 am",
-      "updatedAt": "06/28/2020 07:53 am",
-      "_id": "1ac244e8bc48435e9b4b1cdb427b4dac",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2391159-box_snipergw2.png",
-      "description": "Follow the exploits of Captain Cole Anderson as he tries to stop a bio-weapon being unleashed.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Sniper: Ghost Warrior",
-        "id": 1367,
-        "genres": [
-          "Shooter",
-          "Simulator",
-          "Tactical",
-          "FPS"
-        ],
-        "total_rating": 57,
-        "total_rating_count": 52,
-        "first_release_date": "06/23/2010",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-30566",
-        "gbid": 30566,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1373126-sniperbox.png",
-        "deck": "Sniper: Ghost Warrior is a military simulation game developed by CITY-interactive with focus on sniper activities like spotting enemies and honing sniper skills, including a 12 player multiplayer mode.",
-        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3.33",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-27",
-      "howAcquired": "Steam",
-      "notes": "bought in bundle with all 3 Sniper: Ghost Warrior games for 9.99",
-      "createdAt": "06/28/2020 07:52 am",
-      "updatedAt": "06/28/2020 07:52 am",
-      "_id": "60a42e580aca44d48f1363071345a31f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1373126-sniperbox.png",
-      "description": "Sniper: Ghost Warrior is a military simulation game developed by CITY-interactive with focus on sniper activities like spotting enemies and honing sniper skills, including a 12 player multiplayer mode.",
       "miltiplayerNumber": 1
     }
   ],
@@ -812,7 +809,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 211,
+    "PC (Microsoft Windows)": 213,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -844,20 +841,21 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "E10+": 86,
+    "T": 174,
     "NOT RATED": 213,
     "M": 263,
     "E": 210,
-    "E10+": 85,
-    "T": 173,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 363
+    "digital": 365
   },
   "gamesAcquisition": {
-    "Steam": 134,
+    "PSN": 106,
+    "Steam": 135,
     "GOG": 11,
     "Origin": 2,
     "Twitch": 7,
@@ -866,7 +864,6 @@
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
-    "PSN": 105,
     "eBay": 49,
     "eShop": 23,
     "Amazon": 6,
@@ -899,6 +896,10 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
+    "strategy": 102,
+    "turn-based strategy (tbs)": 17,
+    "party": 10,
+    "racing": 114,
     "shooter": 330,
     "platform": 184,
     "adventure": 346,
@@ -906,9 +907,7 @@
     "fps": 152,
     "tactical": 24,
     "simulator": 93,
-    "strategy": 101,
     "turn-based": 7,
-    "turn-based strategy (tbs)": 16,
     "arcade": 81,
     "role-playing (rpg)": 130,
     "fighting": 63,
@@ -918,13 +917,11 @@
     "puzzle": 102,
     "quiz/trivia": 10,
     "sport": 126,
-    "party": 9,
     "baseball": 2,
     "japanese": 2,
     "import": 2,
     "music": 28,
     "fishing": 1,
-    "racing": 113,
     "hack and slash/beat 'em up": 63,
     "mech": 1,
     "horror": 2,
@@ -957,7 +954,7 @@
     },
     {
       "dateFormatted": "06/2020",
-      "games": 40
+      "games": 41
     },
     {
       "dateFormatted": "03/2020",
@@ -1048,6 +1045,10 @@
       "games": 3
     },
     {
+      "dateFormatted": "07/2020",
+      "games": 1
+    },
+    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1067,7 +1068,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 217
+      "games": 219
     },
     {
       "dateFormatted": "2018",
@@ -1089,7 +1090,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 612
+      "value": 614
     },
     {
       "category": "Fair (50 - 69)",

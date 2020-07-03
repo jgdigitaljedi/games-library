@@ -2,6 +2,90 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Hue",
+        "id": 18927,
+        "genres": [
+          "Platform",
+          "Puzzle",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 72,
+        "total_rating_count": 43,
+        "first_release_date": "08/29/2016",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-53283",
+        "gbid": 53283,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2994274-box_hue.png",
+        "deck": "A Curve Digital and Fiddlesticks colour shifter platforming adventure",
+        "platforms": "Mac, PC, PlayStation Network (Vita), Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-07-03",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "07/03/2020 09:01 am",
+      "updatedAt": "07/03/2020 09:01 am",
+      "_id": "b863ccb5c028442095d2fb493cf9d6a3",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2994274-box_hue.png",
+      "description": "A Curve Digital and Fiddlesticks colour shifter platforming adventure",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "AER: Memories of Old",
+        "id": 11560,
+        "genres": [
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 69,
+        "total_rating_count": 20,
+        "first_release_date": "10/24/2017",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-53653",
+        "gbid": 53653,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2849502-header.jpg",
+        "deck": "As Auk, a girl with the ability to transform into a bird, explore what's left of a world forsaken by the gods.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-07-01",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "07/03/2020 09:00 am",
+      "updatedAt": "07/03/2020 09:00 am",
+      "_id": "9f38b1f560b648d78c390c7c74cb81c1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2849502-header.jpg",
+      "description": "As Auk, a girl with the ability to transform into a bird, explore what's left of a world forsaken by the gods.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Worms W.M.D",
         "id": 19696,
         "genres": [
@@ -124,89 +208,6 @@
       "_id": "7ec0ffc3c8084b41bb86793fa8a9c5a6",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/3178494-index.jpg",
       "description": "A fan-made re-imagining of the 1998 FPS hit Half-Life.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Turok",
-        "id": 26701,
-        "genres": [
-          "Shooter",
-          "Adventure",
-          "FPS"
-        ],
-        "total_rating": 64,
-        "total_rating_count": 10,
-        "first_release_date": "12/16/2015",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-11051",
-        "gbid": 11051,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525276-box_turok.png",
-        "deck": "In this unsuccessful reboot of the Turok franchise, space marine Joseph Turok must hunt down his former mentor and fight for survival on an alien planet filled with hostile soldiers, genetically-engineered dinosaurs, and other dangerous monsters.",
-        "platforms": "Xbox 360, PlayStation 3, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "5",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-28",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "06/28/2020 07:55 am",
-      "updatedAt": "06/28/2020 07:55 am",
-      "_id": "5716c74b9c164f2b8b36124981ca64d1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525276-box_turok.png",
-      "description": "In this unsuccessful reboot of the Turok franchise, space marine Joseph Turok must hunt down his former mentor and fight for survival on an alien planet filled with hostile soldiers, genetically-engineered dinosaurs, and other dangerous monsters.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Sniper: Ghost Warrior 3",
-        "id": 10964,
-        "genres": [
-          "Shooter",
-          "FPS"
-        ],
-        "total_rating": 62,
-        "total_rating_count": 40,
-        "first_release_date": "04/24/2017",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-52701",
-        "gbid": 52701,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/12139/2916310-2604138297-Snipe.jpg",
-        "deck": "Sniper: Ghost Warrior 3 is a first person shooter that mainly focuses on sniping like its predecessors. It is more open world this time around with different ways of going about missions.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3.33",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-06-27",
-      "howAcquired": "Steam",
-      "notes": "bought in bundle with all 3 Sniper: Ghost Warrior games for 9.99",
-      "createdAt": "06/28/2020 07:54 am",
-      "updatedAt": "06/28/2020 07:54 am",
-      "_id": "872d72860fa040d39172798e85850196",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/12139/2916310-2604138297-Snipe.jpg",
-      "description": "Sniper: Ghost Warrior 3 is a first person shooter that mainly focuses on sniping like its predecessors. It is more open world this time around with different ways of going about missions.",
       "miltiplayerNumber": 1
     }
   ],
@@ -809,7 +810,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 213,
+    "PC (Microsoft Windows)": 215,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
@@ -841,9 +842,9 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "E10+": 86,
+    "NOT RATED": 214,
+    "E10+": 87,
     "T": 174,
-    "NOT RATED": 213,
     "M": 263,
     "E": 210,
     "RP": 14,
@@ -851,15 +852,15 @@
   },
   "physicalVsDigitalGames": {
     "physical": 596,
-    "digital": 365
+    "digital": 367
   },
   "gamesAcquisition": {
+    "Epic Games Store": 10,
     "PSN": 106,
     "Steam": 135,
     "GOG": 11,
     "Origin": 2,
     "Twitch": 7,
-    "Epic Games Store": 8,
     "Video Games Monthly": 38,
     "UNKNOWN": 131,
     "Battle.net": 1,
@@ -896,14 +897,15 @@
   },
   "cibGames": 250,
   "gamesWithGenre": {
+    "platform": 185,
+    "puzzle": 103,
+    "adventure": 348,
+    "indie": 106,
     "strategy": 102,
     "turn-based strategy (tbs)": 17,
     "party": 10,
     "racing": 114,
     "shooter": 330,
-    "platform": 184,
-    "adventure": 346,
-    "indie": 104,
     "fps": 152,
     "tactical": 24,
     "simulator": 93,
@@ -914,7 +916,6 @@
     "shmup": 8,
     "third-person shooter": 8,
     "real time strategy (rts)": 11,
-    "puzzle": 102,
     "quiz/trivia": 10,
     "sport": 126,
     "baseball": 2,
@@ -1033,6 +1034,10 @@
       "games": 4
     },
     {
+      "dateFormatted": "07/2020",
+      "games": 3
+    },
+    {
       "dateFormatted": "10/2018",
       "games": 3
     },
@@ -1043,10 +1048,6 @@
     {
       "dateFormatted": "05/2016",
       "games": 3
-    },
-    {
-      "dateFormatted": "07/2020",
-      "games": 1
     },
     {
       "dateFormatted": "05/2018",
@@ -1068,7 +1069,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 219
+      "games": 221
     },
     {
       "dateFormatted": "2018",
@@ -1090,11 +1091,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 614
+      "value": 615
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 167
+      "value": 168
     },
     {
       "category": "Poor (30 - 49)",

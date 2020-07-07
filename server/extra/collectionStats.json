@@ -2,213 +2,326 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Hue",
-        "id": 18927,
+        "name": "Track & Field II",
+        "id": 20903,
         "genres": [
-          "Platform",
-          "Puzzle",
-          "Adventure",
-          "Indie"
+          "Sport",
+          "Track",
+          "Power pad"
         ],
-        "total_rating": 72,
-        "total_rating_count": 43,
-        "first_release_date": "08/29/2016",
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "12/30/1984",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Track & Field 2\r, Konamic Sports in Seoul",
+        "guid": "3030-11289",
+        "gbid": 11289,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362327-nes_trackandfieldii.jpg",
+        "deck": "Run, hurdle, dive, swim, shoot, hop, skip and jump to a gold medal in this seminal Olympic games-style effort from Konami. In Japan, the game was released to tie in with the 1988 Summer Olympics in Seoul.",
+        "platforms": "Nintendo Entertainment System"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-07-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+      "createdAt": "07/07/2020 12:25 pm",
+      "updatedAt": "07/07/2020 12:25 pm",
+      "_id": "93699ecba0e34c2091ef68ff7ca00960",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362327-nes_trackandfieldii.jpg",
+      "description": "Run, hurdle, dive, swim, shoot, hop, skip and jump to a gold medal in this seminal Olympic games-style effort from Konami. In Japan, the game was released to tie in with the 1988 Summer Olympics in Seoul.",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "NES exclusive game"
+      ],
+      "extraDataFull": [
+        {
+          "id": "nes443",
+          "name": "Track & Field II",
+          "details": [
+            "NES exclusive game"
+          ],
+          "igdbId": 20903,
+          "gbId": 11289,
+          "gbGuid": "3030-11289",
+          "tgdbId": 324,
+          "isExclusive": [
+            {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "The Black Bass",
+        "id": 17458,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Fishing"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "10/17/1988",
         "developers": "",
         "esrb": ""
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-53283",
-        "gbid": 53283,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2994274-box_hue.png",
-        "deck": "A Curve Digital and Fiddlesticks colour shifter platforming adventure",
-        "platforms": "Mac, PC, PlayStation Network (Vita), Xbox One, PlayStation 4, Linux, Nintendo Switch"
+        "aliases": "Black Bass II\r, Black Bass 2",
+        "guid": "3030-5643",
+        "gbid": 5643,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361174-nes_blackbass.jpg",
+        "deck": "A fishing game sequel for the NES where the object of the game is to catch as many black bass as possible from sunrise to sunset.",
+        "platforms": "Nintendo Entertainment System"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-07-03",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "07/03/2020 09:01 am",
-      "updatedAt": "07/03/2020 09:01 am",
-      "_id": "b863ccb5c028442095d2fb493cf9d6a3",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2994274-box_hue.png",
-      "description": "A Curve Digital and Fiddlesticks colour shifter platforming adventure",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-07-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+      "createdAt": "07/07/2020 12:24 pm",
+      "updatedAt": "07/07/2020 12:24 pm",
+      "_id": "911e07204597452aac2e4526058453c7",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361174-nes_blackbass.jpg",
+      "description": "A fishing game sequel for the NES where the object of the game is to catch as many black bass as possible from sunrise to sunset.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "NES exclusive game"
+      ],
+      "extraDataFull": [
+        {
+          "id": "nes405",
+          "name": "The Black Bass",
+          "details": [
+            "NES exclusive game"
+          ],
+          "igdbId": 17458,
+          "gbId": 5643,
+          "gbGuid": "3030-5643",
+          "tgdbId": 1650,
+          "isExclusive": [
+            {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
     },
     {
       "igdb": {
-        "name": "AER: Memories of Old",
-        "id": 11560,
+        "name": "The Granstream Saga",
+        "id": 19156,
         "genres": [
-          "Adventure",
-          "Indie"
+          "Role-playing (RPG)",
+          "Adventure"
         ],
-        "total_rating": 69,
-        "total_rating_count": 20,
-        "first_release_date": "10/24/2017",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-53653",
-        "gbid": 53653,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2849502-header.jpg",
-        "deck": "As Auk, a girl with the ability to transform into a bird, explore what's left of a world forsaken by the gods.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-07-01",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "07/03/2020 09:00 am",
-      "updatedAt": "07/03/2020 09:00 am",
-      "_id": "9f38b1f560b648d78c390c7c74cb81c1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/2849502-header.jpg",
-      "description": "As Auk, a girl with the ability to transform into a bird, explore what's left of a world forsaken by the gods.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Worms W.M.D",
-        "id": 19696,
-        "genres": [
-          "Strategy",
-          "Turn-based strategy (TBS)",
-          "party"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 34,
-        "first_release_date": "08/22/2016",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-54180",
-        "gbid": 54180,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
-        "deck": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "9",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "8",
-      "datePurchased": "2020-07-01",
-      "howAcquired": "PSN",
-      "notes": "",
-      "createdAt": "07/02/2020 07:53 am",
-      "updatedAt": "07/02/2020 07:53 am",
-      "_id": "6c65c9b1078d435797f1f1aa935de993",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2960773-box_wormswmd.png",
-      "description": "Team17 celebrated the 21st anniversary of Worms by releasing a new Worms game.",
-      "miltiplayerNumber": 8
-    },
-    {
-      "igdb": {
-        "name": "Need for Speed: Heat",
-        "id": 119161,
-        "genres": [
-          "Racing"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 36,
-        "first_release_date": "11/07/2019",
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "11/05/1997",
         "developers": "",
         "esrb": "T"
       },
       "gb": {
-        "aliases": "NFS Heat",
-        "guid": "3030-73586",
-        "gbid": 73586,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3120760-box_nfsh.png",
-        "deck": "Street racers drive around a Miami-inspired city where they hustle for cash during the day and build up their reputation during the night, all while fending off a corrupt, aggressive police task force dedicated to bringing street racing to a halt.",
-        "platforms": "PC, Xbox One, PlayStation 4"
+        "aliases": "",
+        "guid": "3030-11768",
+        "gbid": 11768,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14761/859928-front_cover.jpg",
+        "deck": "The Granstream Saga is an action RPG released for the PlayStation in 1997 and is the final game developed by Quintet. It was one of the first RPGs with fully 3D polygon graphics and featured third-person hack &amp; slash combat. The plot, set on floating continents, utilized anime cutscenes.",
+        "platforms": "PlayStation"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "28",
-      "physical": "",
+      "consoleName": "PlayStation",
+      "consoleIgdbId": 7,
+      "consoleGbid": 22,
+      "consoleGbGuid": "3045-22",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-06-30",
-      "howAcquired": "Steam",
-      "notes": "steam summer sale",
-      "createdAt": "07/02/2020 07:55 am",
-      "updatedAt": "07/02/2020 07:55 am",
-      "_id": "c49837dcb519447a9a4bbe4e5f2afb3e",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3120760-box_nfsh.png",
-      "description": "Street racers drive around a Miami-inspired city where they hustle for cash during the day and build up their reputation during the night, all while fending off a corrupt, aggressive police task force dedicated to bringing street racing to a halt.",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-07-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+      "createdAt": "07/07/2020 12:28 pm",
+      "updatedAt": "07/07/2020 12:28 pm",
+      "_id": "c48f9035dfc747478d5ef2fcfb1c5338",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14761/859928-front_cover.jpg",
+      "description": "The Granstream Saga is an action RPG released for the PlayStation in 1997 and is the final game developed by Quintet. It was one of the first RPGs with fully 3D polygon graphics and featured third-person hack &amp; slash combat. The plot, set on floating continents, utilized anime cutscenes.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Sony PlayStation exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "The Granstream Saga",
+          "details": [
+            "Sony PlayStation exclusive"
+          ],
+          "id": "psx455",
+          "igdbId": 19156,
+          "gbId": 11768,
+          "gbGuid": "3030-11768",
+          "tgdbId": 12085,
+          "isExclusive": [
+            {
+              "name": "Sony PlayStation",
+              "id": "ccl20",
+              "igdbId": 7,
+              "gbId": 22,
+              "gbGuid": "3045-22",
+              "tgdbId": 10
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
     },
     {
       "igdb": {
-        "name": "Black Mesa",
-        "id": 6739,
-        "genres": [
-          "Shooter",
-          "Platform",
-          "Adventure",
-          "Indie",
-          "FPS"
-        ],
-        "total_rating": 89,
-        "total_rating_count": 130,
-        "first_release_date": "03/05/2020",
+        "name": "Courier Crisis",
+        "id": 45491,
+        "genres": [],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "11/29/1997",
         "developers": "",
         "esrb": ""
       },
       "gb": {
-        "aliases": "Black Mesa: Source",
-        "guid": "3030-39814",
-        "gbid": 39814,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/3178494-index.jpg",
-        "deck": "A fan-made re-imagining of the 1998 FPS hit Half-Life.",
-        "platforms": "PC"
+        "aliases": "",
+        "guid": "3030-14442",
+        "gbid": 14442,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1676356-courier_crisis_box_front4.jpg",
+        "deck": "Deliver items for customers as a bike courier.",
+        "platforms": "PlayStation, Saturn"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "13",
-      "physical": "",
+      "consoleName": "PlayStation",
+      "consoleIgdbId": 7,
+      "consoleGbid": 22,
+      "consoleGbGuid": "3045-22",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
       "cib": "",
+      "multiplayerNumber": "7",
+      "datePurchased": "2020-07-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+      "createdAt": "07/07/2020 12:27 pm",
+      "updatedAt": "07/07/2020 12:27 pm",
+      "_id": "10bc3c5e331e4353a872d39071e23cf3",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1676356-courier_crisis_box_front4.jpg",
+      "description": "Deliver items for customers as a bike courier.",
+      "miltiplayerNumber": 7,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Kingdom Hearts",
+        "id": 1219,
+        "genres": [
+          "Role-playing (RPG)",
+          "Sport"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 291,
+        "first_release_date": "03/27/2002",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "KH\r, Kingdom Hearts: Final Mix",
+        "guid": "3030-10983",
+        "gbid": 10983,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1897536-box_khearts.png",
+        "deck": "A unique mix of Disney and Square Enix characters join spiky-haired hero Sora on his epic journey to save multiple worlds from the evil of the Heartless and find his lost friends Riku and Kairi.",
+        "platforms": "PlayStation 2"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-06-28",
-      "howAcquired": "Steam",
-      "notes": "Steam summer sale",
-      "createdAt": "06/28/2020 07:56 am",
-      "updatedAt": "06/28/2020 07:56 am",
-      "_id": "7ec0ffc3c8084b41bb86793fa8a9c5a6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/97089/3178494-index.jpg",
-      "description": "A fan-made re-imagining of the 1998 FPS hit Half-Life.",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-07-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+      "createdAt": "07/07/2020 12:28 pm",
+      "updatedAt": "07/07/2020 12:28 pm",
+      "_id": "a2a761e50c5c46a0ad3955a288c9fbed",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1897536-box_khearts.png",
+      "description": "A unique mix of Disney and Square Enix characters join spiky-haired hero Sora on his epic journey to save multiple worlds from the evil of the Heartless and find his lost friends Riku and Kairi.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Kingdom Hearts",
+          "details": [
+            "Sony PlayStation 2 exclusive"
+          ],
+          "id": "ps2243",
+          "igdbId": 1219,
+          "gbId": 10983,
+          "gbGuid": "3030-10983",
+          "tgdbId": 2559,
+          "isExclusive": [
+            {
+              "name": "Sony Playstation 2",
+              "id": "ccl21",
+              "igdbId": 8,
+              "gbId": 19,
+              "gbGuid": "3045-19",
+              "tgdbId": 11
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -564,73 +677,44 @@
     },
     {
       "igdb": {
-        "name": "Eternal Darkness: Sanity's Requiem",
-        "id": 3907,
+        "name": "The Witcher 3: Wild Hunt - Complete Edition",
+        "id": 119402,
         "genres": [
-          "Adventure",
-          "Horror"
+          "Role-playing (RPG)"
         ],
-        "total_rating": 85,
-        "total_rating_count": 34,
-        "first_release_date": "06/23/2002",
+        "total_rating": 91,
+        "total_rating_count": 25,
+        "first_release_date": "10/14/2019",
         "developers": "",
-        "esrb": "M"
+        "esrb": "RP"
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-7512",
-        "gbid": 7512,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
-        "deck": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
-        "platforms": "GameCube"
+        "aliases": "The Witcher III: Wild Hunt",
+        "guid": "3030-41484",
+        "gbid": 41484,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
+        "deck": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
       },
-      "consoleName": "Nintendo GameCube",
-      "consoleIgdbId": 21,
-      "consoleGbid": 23,
-      "consoleGbGuid": "3045-23",
-      "condition": "Good",
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
       "case": "original",
       "pricePaid": "60",
       "physical": true,
       "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-04-16",
-      "howAcquired": "eBay",
+      "datePurchased": "2020-02-15",
+      "howAcquired": "Target",
       "notes": "",
-      "createdAt": "04/17/2020 05:06 am",
-      "updatedAt": "04/17/2020 05:06 am",
-      "_id": "5a12b44cc1f34e58bf28237fda8fc1ad",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
-      "description": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Nintendo GameCube console exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "id": "ngc22",
-          "name": "Eternal Darkness: Sanity's Requiem",
-          "details": [
-            "Nintendo GameCube console exclusive"
-          ],
-          "igdbId": 3907,
-          "gbId": 7512,
-          "gbGuid": "3030-7512",
-          "tgdbId": 6970,
-          "isExclusive": [
-            {
-              "name": "Nintendo GameCube",
-              "id": "ccl4",
-              "igdbId": 21,
-              "gbId": 23,
-              "gbGuid": "3045-23",
-              "tgdbId": 2
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
+      "createdAt": "02/22/2020 05:51 am",
+      "updatedAt": "02/22/2020 05:51 am",
+      "_id": "eafcabb43f5b477cb11979c7949222c1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
+      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostPaidForPlatforms": [
@@ -810,19 +894,19 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Nintendo Entertainment System (NES)": 44,
+    "PlayStation 2": 55,
+    "PlayStation": 20,
     "PC (Microsoft Windows)": 215,
+    "PlayStation 4": 129,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
     "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
     "Xbox": 43,
-    "PlayStation 2": 54,
     "Wii": 27,
-    "PlayStation 4": 128,
     "Game Boy Advance": 14,
-    "Nintendo Entertainment System (NES)": 42,
-    "PlayStation": 18,
     "Nintendo DS": 18,
     "Game Boy": 6,
     "Sega Mega Drive/Genesis": 29,
@@ -842,26 +926,26 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 214,
-    "E10+": 87,
-    "T": 174,
+    "E": 212,
+    "NOT RATED": 216,
+    "T": 175,
+    "E10+": 88,
     "M": 263,
-    "E": 210,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 596,
-    "digital": 367
+    "physical": 601,
+    "digital": 368
   },
   "gamesAcquisition": {
+    "Video Games Monthly": 43,
     "Epic Games Store": 10,
-    "PSN": 106,
+    "PSN": 107,
     "Steam": 135,
     "GOG": 11,
     "Origin": 2,
     "Twitch": 7,
-    "Video Games Monthly": 38,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
@@ -895,34 +979,36 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 250,
+  "cibGames": 251,
   "gamesWithGenre": {
+    "sport": 129,
+    "track": 1,
+    "power pad": 1,
+    "simulator": 94,
+    "fishing": 2,
+    "role-playing (rpg)": 132,
+    "adventure": 349,
     "platform": 185,
     "puzzle": 103,
-    "adventure": 348,
     "indie": 106,
-    "strategy": 102,
-    "turn-based strategy (tbs)": 17,
+    "strategy": 103,
+    "turn-based strategy (tbs)": 18,
     "party": 10,
     "racing": 114,
     "shooter": 330,
     "fps": 152,
     "tactical": 24,
-    "simulator": 93,
     "turn-based": 7,
     "arcade": 81,
-    "role-playing (rpg)": 130,
     "fighting": 63,
     "shmup": 8,
     "third-person shooter": 8,
     "real time strategy (rts)": 11,
     "quiz/trivia": 10,
-    "sport": 126,
     "baseball": 2,
     "japanese": 2,
     "import": 2,
     "music": 28,
-    "fishing": 1,
     "hack and slash/beat 'em up": 63,
     "mech": 1,
     "horror": 2,
@@ -990,7 +1076,7 @@
       "games": 15
     },
     {
-      "dateFormatted": "09/2019",
+      "dateFormatted": "06/2019",
       "games": 14
     },
     {
@@ -998,15 +1084,15 @@
       "games": 14
     },
     {
-      "dateFormatted": "06/2019",
+      "dateFormatted": "09/2019",
       "games": 14
     },
     {
-      "dateFormatted": "08/2019",
+      "dateFormatted": "04/2019",
       "games": 13
     },
     {
-      "dateFormatted": "04/2019",
+      "dateFormatted": "08/2019",
       "games": 13
     },
     {
@@ -1016,6 +1102,10 @@
     {
       "dateFormatted": "10/2019",
       "games": 10
+    },
+    {
+      "dateFormatted": "07/2020",
+      "games": 9
     },
     {
       "dateFormatted": "11/2018",
@@ -1032,10 +1122,6 @@
     {
       "dateFormatted": "02/2017",
       "games": 4
-    },
-    {
-      "dateFormatted": "07/2020",
-      "games": 3
     },
     {
       "dateFormatted": "10/2018",
@@ -1069,7 +1155,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 221
+      "games": 227
     },
     {
       "dateFormatted": "2018",
@@ -1091,7 +1177,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 615
+      "value": 617
     },
     {
       "category": "Fair (50 - 69)",
@@ -1103,7 +1189,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 103
+      "value": 107
     }
   ],
   "consolesByCompany": {

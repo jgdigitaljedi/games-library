@@ -2,6 +2,92 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Dead Age",
+        "id": 24765,
+        "genres": [
+          "Role-playing (RPG)",
+          "Simulator",
+          "Strategy",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 68,
+        "total_rating_count": 5,
+        "first_release_date": "11/03/2016",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-54697",
+        "gbid": 54697,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3046314-box_da.png",
+        "deck": "Dead Age",
+        "platforms": "Mac, PC, iPhone, iPad, Android, Xbox One, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-07-14",
+      "howAcquired": "Green Man Gaming",
+      "notes": "redeemed on Steam",
+      "createdAt": "07/11/2020 07:31 am",
+      "updatedAt": "07/11/2020 07:31 am",
+      "_id": "96fdea8d4b9c4208901784e883cd3f12",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3046314-box_da.png",
+      "description": "Dead Age",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Streets of Rage 4",
+        "id": 107262,
+        "genres": [
+          "Hack and slash/Beat 'em up",
+          "Indie"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 58,
+        "first_release_date": "04/29/2020",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-70072",
+        "gbid": 70072,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3188967-box_sor4.png",
+        "deck": "From the studios behind the indie games Streets of Fury and Wonder Boy: The Dragon's Trap comes an official fourth installment of Sega's Streets of Rage beat-'em-up series.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "50",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-07-10",
+      "howAcquired": "Limited Run Games",
+      "notes": "Limited Run Games physical copy with soundtrack CD and poster",
+      "createdAt": "07/11/2020 07:28 am",
+      "updatedAt": "07/11/2020 07:28 am",
+      "_id": "c14ee53144934ef08062fefb2141eacc",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3188967-box_sor4.png",
+      "description": "From the studios behind the indie games Streets of Fury and Wonder Boy: The Dragon's Trap comes an official fourth installment of Sega's Streets of Rage beat-'em-up series.",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
         "name": "Track & Field II",
         "id": 20903,
         "genres": [
@@ -141,117 +227,6 @@
           "special": []
         }
       ]
-    },
-    {
-      "igdb": {
-        "name": "The Granstream Saga",
-        "id": 19156,
-        "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "11/05/1997",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-11768",
-        "gbid": 11768,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14761/859928-front_cover.jpg",
-        "deck": "The Granstream Saga is an action RPG released for the PlayStation in 1997 and is the final game developed by Quintet. It was one of the first RPGs with fully 3D polygon graphics and featured third-person hack &amp; slash combat. The plot, set on floating continents, utilized anime cutscenes.",
-        "platforms": "PlayStation"
-      },
-      "consoleName": "PlayStation",
-      "consoleIgdbId": 7,
-      "consoleGbid": 22,
-      "consoleGbGuid": "3045-22",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-07-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
-      "createdAt": "07/07/2020 12:28 pm",
-      "updatedAt": "07/07/2020 12:28 pm",
-      "_id": "c48f9035dfc747478d5ef2fcfb1c5338",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14761/859928-front_cover.jpg",
-      "description": "The Granstream Saga is an action RPG released for the PlayStation in 1997 and is the final game developed by Quintet. It was one of the first RPGs with fully 3D polygon graphics and featured third-person hack &amp; slash combat. The plot, set on floating continents, utilized anime cutscenes.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Sony PlayStation exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "name": "The Granstream Saga",
-          "details": [
-            "Sony PlayStation exclusive"
-          ],
-          "id": "psx455",
-          "igdbId": 19156,
-          "gbId": 11768,
-          "gbGuid": "3030-11768",
-          "tgdbId": 12085,
-          "isExclusive": [
-            {
-              "name": "Sony PlayStation",
-              "id": "ccl20",
-              "igdbId": 7,
-              "gbId": 22,
-              "gbGuid": "3045-22",
-              "tgdbId": 10
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Courier Crisis",
-        "id": 45491,
-        "genres": [],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "11/29/1997",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-14442",
-        "gbid": 14442,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1676356-courier_crisis_box_front4.jpg",
-        "deck": "Deliver items for customers as a bike courier.",
-        "platforms": "PlayStation, Saturn"
-      },
-      "consoleName": "PlayStation",
-      "consoleIgdbId": 7,
-      "consoleGbid": 22,
-      "consoleGbGuid": "3045-22",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "7",
-      "datePurchased": "2020-07-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
-      "createdAt": "07/07/2020 12:27 pm",
-      "updatedAt": "07/07/2020 12:27 pm",
-      "_id": "10bc3c5e331e4353a872d39071e23cf3",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2579/1676356-courier_crisis_box_front4.jpg",
-      "description": "Deliver items for customers as a bike courier.",
-      "miltiplayerNumber": 7,
-      "extraData": [],
-      "extraDataFull": []
     },
     {
       "igdb": {
@@ -677,44 +652,73 @@
     },
     {
       "igdb": {
-        "name": "The Witcher 3: Wild Hunt - Complete Edition",
-        "id": 119402,
+        "name": "Eternal Darkness: Sanity's Requiem",
+        "id": 3907,
         "genres": [
-          "Role-playing (RPG)"
+          "Adventure",
+          "Horror"
         ],
-        "total_rating": 91,
-        "total_rating_count": 25,
-        "first_release_date": "10/14/2019",
+        "total_rating": 85,
+        "total_rating_count": 34,
+        "first_release_date": "06/23/2002",
         "developers": "",
-        "esrb": "RP"
+        "esrb": "M"
       },
       "gb": {
-        "aliases": "The Witcher III: Wild Hunt",
-        "guid": "3030-41484",
-        "gbid": 41484,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-        "deck": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch"
+        "aliases": "",
+        "guid": "3030-7512",
+        "gbid": 7512,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
+        "deck": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
+        "platforms": "GameCube"
       },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
+      "consoleName": "Nintendo GameCube",
+      "consoleIgdbId": 21,
+      "consoleGbid": 23,
+      "consoleGbGuid": "3045-23",
+      "condition": "Good",
       "case": "original",
       "pricePaid": "60",
       "physical": true,
       "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-02-15",
-      "howAcquired": "Target",
+      "datePurchased": "2020-04-16",
+      "howAcquired": "eBay",
       "notes": "",
-      "createdAt": "02/22/2020 05:51 am",
-      "updatedAt": "02/22/2020 05:51 am",
-      "_id": "eafcabb43f5b477cb11979c7949222c1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2945734-the%20witcher%203%20-%20wild%20hunt.jpg",
-      "description": "CD Projekt RED's third Witcher combines the series' non-linear storytelling with a sprawling open world that concludes the saga of Geralt of Rivia.",
-      "miltiplayerNumber": 1
+      "createdAt": "04/17/2020 05:06 am",
+      "updatedAt": "04/17/2020 05:06 am",
+      "_id": "5a12b44cc1f34e58bf28237fda8fc1ad",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
+      "description": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "ngc22",
+          "name": "Eternal Darkness: Sanity's Requiem",
+          "details": [
+            "Nintendo GameCube console exclusive"
+          ],
+          "igdbId": 3907,
+          "gbId": 7512,
+          "gbGuid": "3030-7512",
+          "tgdbId": 6970,
+          "isExclusive": [
+            {
+              "name": "Nintendo GameCube",
+              "id": "ccl4",
+              "igdbId": 21,
+              "gbId": 23,
+              "gbGuid": "3045-23",
+              "tgdbId": 2
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
     }
   ],
   "mostPaidForPlatforms": [
@@ -894,14 +898,14 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 217,
+    "Nintendo Switch": 42,
     "Nintendo Entertainment System (NES)": 44,
     "PlayStation 2": 55,
     "PlayStation": 20,
-    "PC (Microsoft Windows)": 215,
     "PlayStation 4": 129,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
-    "Nintendo Switch": 41,
     "Nintendo GameCube": 33,
     "Xbox 360": 56,
     "Xbox": 43,
@@ -926,19 +930,21 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "M": 264,
+    "NOT RATED": 218,
     "E": 212,
-    "NOT RATED": 216,
     "T": 175,
     "E10+": 88,
-    "M": 263,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 601,
-    "digital": 368
+    "physical": 602,
+    "digital": 370
   },
   "gamesAcquisition": {
+    "Green Man Gaming": 2,
+    "Limited Run Games": 1,
     "Video Games Monthly": 43,
     "Epic Games Store": 10,
     "PSN": 107,
@@ -979,19 +985,20 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 251,
+  "cibGames": 252,
   "gamesWithGenre": {
+    "role-playing (rpg)": 133,
+    "simulator": 96,
+    "strategy": 105,
+    "adventure": 350,
+    "indie": 109,
+    "hack and slash/beat 'em up": 64,
     "sport": 129,
     "track": 1,
     "power pad": 1,
-    "simulator": 94,
     "fishing": 2,
-    "role-playing (rpg)": 132,
-    "adventure": 349,
     "platform": 185,
     "puzzle": 103,
-    "indie": 106,
-    "strategy": 103,
     "turn-based strategy (tbs)": 18,
     "party": 10,
     "racing": 114,
@@ -1009,7 +1016,6 @@
     "japanese": 2,
     "import": 2,
     "music": 28,
-    "hack and slash/beat 'em up": 63,
     "mech": 1,
     "horror": 2,
     "hockey": 1,
@@ -1076,7 +1082,7 @@
       "games": 15
     },
     {
-      "dateFormatted": "06/2019",
+      "dateFormatted": "09/2019",
       "games": 14
     },
     {
@@ -1084,16 +1090,20 @@
       "games": 14
     },
     {
-      "dateFormatted": "09/2019",
+      "dateFormatted": "06/2019",
       "games": 14
+    },
+    {
+      "dateFormatted": "08/2019",
+      "games": 13
     },
     {
       "dateFormatted": "04/2019",
       "games": 13
     },
     {
-      "dateFormatted": "08/2019",
-      "games": 13
+      "dateFormatted": "07/2020",
+      "games": 12
     },
     {
       "dateFormatted": "12/2018",
@@ -1102,10 +1112,6 @@
     {
       "dateFormatted": "10/2019",
       "games": 10
-    },
-    {
-      "dateFormatted": "07/2020",
-      "games": 9
     },
     {
       "dateFormatted": "11/2018",
@@ -1155,7 +1161,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 227
+      "games": 230
     },
     {
       "dateFormatted": "2018",
@@ -1177,11 +1183,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 617
+      "value": 618
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 168
+      "value": 170
     },
     {
       "category": "Poor (30 - 49)",

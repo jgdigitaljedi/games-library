@@ -46,6 +46,49 @@
     },
     {
       "igdb": {
+        "name": "Crazy Machines 3",
+        "id": 19291,
+        "genres": [
+          "Puzzle",
+          "Simulator",
+          "Strategy",
+          "Indie"
+        ],
+        "total_rating": 73,
+        "total_rating_count": 5,
+        "first_release_date": "10/17/2016",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-53091",
+        "gbid": 53091,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/31/310686/2835796-header.jpg",
+        "deck": "Crazy Machines 3 is a physics based puzzle game from FAKT Software.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": ".99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-07-13",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "07/17/2020 12:16 pm",
+      "updatedAt": "07/17/2020 12:16 pm",
+      "_id": "fa5c30670cb349958ef5efd400b856a0",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/31/310686/2835796-header.jpg",
+      "description": "Crazy Machines 3 is a physics based puzzle game from FAKT Software.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Streets of Rage 4",
         "id": 107262,
         "genres": [
@@ -88,215 +131,86 @@
     },
     {
       "igdb": {
-        "name": "Track & Field II",
-        "id": 20903,
+        "name": "Halo: The Master Chief Collection",
+        "id": 7348,
         "genres": [
-          "Sport",
-          "Track",
-          "Power pad"
+          "Shooter",
+          "FPS"
         ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1984",
+        "total_rating": 86,
+        "total_rating_count": 116,
+        "first_release_date": "11/10/2014",
         "developers": "",
-        "esrb": "E"
+        "esrb": "M"
       },
       "gb": {
-        "aliases": "Track & Field 2\r, Konamic Sports in Seoul",
-        "guid": "3030-11289",
-        "gbid": 11289,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362327-nes_trackandfieldii.jpg",
-        "deck": "Run, hurdle, dive, swim, shoot, hop, skip and jump to a gold medal in this seminal Olympic games-style effort from Konami. In Japan, the game was released to tie in with the 1988 Summer Olympics in Seoul.",
-        "platforms": "Nintendo Entertainment System"
+        "aliases": "Halo MCC",
+        "guid": "3030-46552",
+        "gbid": 46552,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2840/2643305-halo-the-master-chief-collection-keyart-vertical-final-jpg.jpg",
+        "deck": "Chronicle the classic adventures of the Master Chief with a compilation of the first four main chronological installments of the Halo series, enhanced for the Xbox One with updated graphics and easy access to every multiplayer mode in the series' history.",
+        "platforms": "PC, Xbox One"
       },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "",
-      "physical": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "10",
+      "physical": "",
       "cib": "",
       "multiplayerNumber": "2",
-      "datePurchased": "2020-07-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
-      "createdAt": "07/07/2020 12:25 pm",
-      "updatedAt": "07/07/2020 12:25 pm",
-      "_id": "93699ecba0e34c2091ef68ff7ca00960",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362327-nes_trackandfieldii.jpg",
-      "description": "Run, hurdle, dive, swim, shoot, hop, skip and jump to a gold medal in this seminal Olympic games-style effort from Konami. In Japan, the game was released to tie in with the 1988 Summer Olympics in Seoul.",
-      "miltiplayerNumber": 2,
-      "extraData": [
-        "NES exclusive game"
-      ],
-      "extraDataFull": [
-        {
-          "id": "nes443",
-          "name": "Track & Field II",
-          "details": [
-            "NES exclusive game"
-          ],
-          "igdbId": 20903,
-          "gbId": 11289,
-          "gbGuid": "3030-11289",
-          "tgdbId": 324,
-          "isExclusive": [
-            {
-              "name": "Nintendo Entertainment System (NES)",
-              "id": "ccl1",
-              "igdbId": 18,
-              "gbId": 21,
-              "gbGuid": "3045-21",
-              "tgdbId": 7
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
+      "datePurchased": "2020-07-09",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "07/17/2020 12:15 pm",
+      "updatedAt": "07/17/2020 12:15 pm",
+      "_id": "81b327bfdaef4f63bf55b52b7df01f5b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2840/2643305-halo-the-master-chief-collection-keyart-vertical-final-jpg.jpg",
+      "description": "Chronicle the classic adventures of the Master Chief with a compilation of the first four main chronological installments of the Halo series, enhanced for the Xbox One with updated graphics and easy access to every multiplayer mode in the series' history.",
+      "miltiplayerNumber": 2
     },
     {
       "igdb": {
-        "name": "The Black Bass",
-        "id": 17458,
+        "name": "Payday 2",
+        "id": 2058,
         "genres": [
-          "Simulator",
-          "Sport",
-          "Fishing"
+          "Shooter",
+          "Role-playing (RPG)",
+          "Tactical"
         ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "10/17/1988",
+        "total_rating": 75,
+        "total_rating_count": 246,
+        "first_release_date": "08/12/2013",
         "developers": "",
-        "esrb": ""
+        "esrb": "M"
       },
       "gb": {
-        "aliases": "Black Bass II\r, Black Bass 2",
-        "guid": "3030-5643",
-        "gbid": 5643,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361174-nes_blackbass.jpg",
-        "deck": "A fishing game sequel for the NES where the object of the game is to catch as many black bass as possible from sunrise to sunset.",
-        "platforms": "Nintendo Entertainment System"
+        "aliases": "Payday: The Heist 2\r, Payday 2: Crimewave Edition",
+        "guid": "3030-38596",
+        "gbid": 38596,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2489461-box_payday2.png",
+        "deck": "Team up with three other masked heisters and take on a new epic crime spree in the sequel to Overkill's original crime-themed first-person shooter.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
       },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "",
-      "physical": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-07-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
-      "createdAt": "07/07/2020 12:24 pm",
-      "updatedAt": "07/07/2020 12:24 pm",
-      "_id": "911e07204597452aac2e4526058453c7",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361174-nes_blackbass.jpg",
-      "description": "A fishing game sequel for the NES where the object of the game is to catch as many black bass as possible from sunrise to sunset.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "NES exclusive game"
-      ],
-      "extraDataFull": [
-        {
-          "id": "nes405",
-          "name": "The Black Bass",
-          "details": [
-            "NES exclusive game"
-          ],
-          "igdbId": 17458,
-          "gbId": 5643,
-          "gbGuid": "3030-5643",
-          "tgdbId": 1650,
-          "isExclusive": [
-            {
-              "name": "Nintendo Entertainment System (NES)",
-              "id": "ccl1",
-              "igdbId": 18,
-              "gbId": 21,
-              "gbGuid": "3045-21",
-              "tgdbId": 7
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Kingdom Hearts",
-        "id": 1219,
-        "genres": [
-          "Role-playing (RPG)",
-          "Sport"
-        ],
-        "total_rating": 80,
-        "total_rating_count": 291,
-        "first_release_date": "03/27/2002",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "KH\r, Kingdom Hearts: Final Mix",
-        "guid": "3030-10983",
-        "gbid": 10983,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1897536-box_khearts.png",
-        "deck": "A unique mix of Disney and Square Enix characters join spiky-haired hero Sora on his epic journey to save multiple worlds from the evil of the Heartless and find his lost friends Riku and Kairi.",
-        "platforms": "PlayStation 2"
-      },
-      "consoleName": "PlayStation 2",
-      "consoleIgdbId": 8,
-      "consoleGbid": 19,
-      "consoleGbGuid": "3045-19",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-07-07",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
-      "createdAt": "07/07/2020 12:28 pm",
-      "updatedAt": "07/07/2020 12:28 pm",
-      "_id": "a2a761e50c5c46a0ad3955a288c9fbed",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1897536-box_khearts.png",
-      "description": "A unique mix of Disney and Square Enix characters join spiky-haired hero Sora on his epic journey to save multiple worlds from the evil of the Heartless and find his lost friends Riku and Kairi.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Sony PlayStation 2 exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "name": "Kingdom Hearts",
-          "details": [
-            "Sony PlayStation 2 exclusive"
-          ],
-          "id": "ps2243",
-          "igdbId": 1219,
-          "gbId": 10983,
-          "gbGuid": "3030-10983",
-          "tgdbId": 2559,
-          "isExclusive": [
-            {
-              "name": "Sony Playstation 2",
-              "id": "ccl21",
-              "igdbId": 8,
-              "gbId": 19,
-              "gbGuid": "3045-19",
-              "tgdbId": 11
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
+      "datePurchased": "2020-07-09",
+      "howAcquired": "Steam",
+      "notes": "summer sale",
+      "createdAt": "07/17/2020 12:15 pm",
+      "updatedAt": "07/17/2020 12:15 pm",
+      "_id": "cd1ea6f502b9447e9ac43634d2487d30",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2489461-box_payday2.png",
+      "description": "Team up with three other masked heisters and take on a new epic crime spree in the sequel to Overkill's original crime-themed first-person shooter.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -898,7 +812,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 217,
+    "PC (Microsoft Windows)": 220,
     "Nintendo Switch": 42,
     "Nintendo Entertainment System (NES)": 44,
     "PlayStation 2": 55,
@@ -930,8 +844,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 264,
-    "NOT RATED": 218,
+    "M": 266,
+    "NOT RATED": 219,
     "E": 212,
     "T": 175,
     "E10+": 88,
@@ -940,15 +854,15 @@
   },
   "physicalVsDigitalGames": {
     "physical": 602,
-    "digital": 370
+    "digital": 373
   },
   "gamesAcquisition": {
     "Green Man Gaming": 2,
+    "Steam": 138,
     "Limited Run Games": 1,
     "Video Games Monthly": 43,
     "Epic Games Store": 10,
     "PSN": 107,
-    "Steam": 135,
     "GOG": 11,
     "Origin": 2,
     "Twitch": 7,
@@ -987,24 +901,24 @@
   },
   "cibGames": 252,
   "gamesWithGenre": {
-    "role-playing (rpg)": 133,
-    "simulator": 96,
-    "strategy": 105,
+    "role-playing (rpg)": 134,
+    "simulator": 97,
+    "strategy": 106,
     "adventure": 350,
-    "indie": 109,
+    "indie": 110,
+    "puzzle": 104,
     "hack and slash/beat 'em up": 64,
+    "shooter": 332,
+    "fps": 153,
+    "tactical": 25,
     "sport": 129,
     "track": 1,
     "power pad": 1,
     "fishing": 2,
     "platform": 185,
-    "puzzle": 103,
     "turn-based strategy (tbs)": 18,
     "party": 10,
     "racing": 114,
-    "shooter": 330,
-    "fps": 152,
-    "tactical": 24,
     "turn-based": 7,
     "arcade": 81,
     "fighting": 63,
@@ -1078,6 +992,10 @@
       "games": 17
     },
     {
+      "dateFormatted": "07/2020",
+      "games": 15
+    },
+    {
       "dateFormatted": "01/2020",
       "games": 15
     },
@@ -1100,10 +1018,6 @@
     {
       "dateFormatted": "04/2019",
       "games": 13
-    },
-    {
-      "dateFormatted": "07/2020",
-      "games": 12
     },
     {
       "dateFormatted": "12/2018",
@@ -1161,7 +1075,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 230
+      "games": 233
     },
     {
       "dateFormatted": "2018",
@@ -1183,7 +1097,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 618
+      "value": 621
     },
     {
       "category": "Fair (50 - 69)",

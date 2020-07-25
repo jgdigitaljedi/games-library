@@ -1,4 +1,8 @@
 {
+  "Nintendo GameCube": {
+    "isLaunchTitle": 1,
+    "isExclusive": 14
+  },
   "Nintendo Entertainment System (NES)": {
     "isLaunchTitle": 3,
     "isExclusive": 6,
@@ -34,10 +38,6 @@
   "Sony Playstation 4": {
     "isLaunchTitle": 3,
     "isExclusive": 29
-  },
-  "Nintendo GameCube": {
-    "isLaunchTitle": 1,
-    "isExclusive": 12
   },
   "Nintendo DS": {
     "isLaunchTitle": 0,

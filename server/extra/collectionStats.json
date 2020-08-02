@@ -2,24 +2,24 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Hat Trick",
-        "id": 12326,
+        "name": "Jinks",
+        "id": 12330,
         "genres": [
-          "Sport"
+          "Arcade"
         ],
         "total_rating": "",
         "total_rating_count": "",
-        "first_release_date": "12/30/1984",
+        "first_release_date": "12/30/1987",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-4310",
-        "gbid": 4310,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2059537-hat_trick__1987___atari_.jpg",
-        "deck": "A two-on-two ice hockey game.",
-        "platforms": "Commodore 64, Atari 7800, PC"
+        "guid": "3030-17151",
+        "gbid": 17151,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2365975-a7800_jinks.jpg",
+        "deck": "Jinks is a Breakout clone with a space story set in the future, released for several home computers and the Atari 7800.\n",
+        "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, Atari 8-bit, Atari 7800"
       },
       "consoleName": "Atari 7800",
       "consoleIgdbId": 60,
@@ -27,245 +27,224 @@
       "consoleGbGuid": "3045-70",
       "condition": "Good",
       "case": "original",
-      "pricePaid": "15",
+      "pricePaid": "7",
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-07-24",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-01",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "07/25/2020 07:37 am",
-      "updatedAt": "07/25/2020 07:37 am",
-      "_id": "ddd1fa3be43e45b88810f0b9fe96db37",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2059537-hat_trick__1987___atari_.jpg",
-      "description": "A two-on-two ice hockey game.",
-      "miltiplayerNumber": 2
+      "createdAt": "08/01/2020 09:19 pm",
+      "updatedAt": "08/01/2020 09:19 pm",
+      "_id": "e486792fbf1149a2863417b573bad4e5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2365975-a7800_jinks.jpg",
+      "description": "Jinks is a Breakout clone with a space story set in the future, released for several home computers and the Atari 7800.\n",
+      "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Mario Superstar Baseball",
-        "id": 3986,
+        "name": "Commando",
+        "id": 5668,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 76,
+        "total_rating_count": 29,
+        "first_release_date": "04/30/1985",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "Senjou no Okami\r, Wolf of the Battlefield\r, Space Invasion",
+        "guid": "3030-6850",
+        "gbid": 6850,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/2359915-commando_flyer.png",
+        "deck": "DESTROY THE ENEMY ARMY as Super Joe in this influential top-down shooter.",
+        "platforms": "Amiga, Amstrad CPC, Apple II, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 2600, Intellivision, Atari 7800, Arcade, Wii Shop, PC, NEC PC-8801, BBC Micro, FM-7, Android, Commodore 16"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "7",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-01",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/01/2020 09:18 pm",
+      "updatedAt": "08/01/2020 09:18 pm",
+      "_id": "57cb3cb64205493788c8efbc967d69a2",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/2359915-commando_flyer.png",
+      "description": "DESTROY THE ENEMY ARMY as Super Joe in this influential top-down shooter.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "NES hang tab game"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Commando",
+          "id": "nes88",
+          "details": [
+            "NES hang tab game"
+          ],
+          "igdbId": 5668,
+          "gbId": 6850,
+          "gbGuid": "3030-6850",
+          "tgdbId": 206,
+          "special": [
+            {
+              "value": "NES hang tab game",
+              "forPlatform": {
+                "name": "Nintendo Entertainment System (NES)",
+                "id": "ccl1",
+                "igdbId": 18,
+                "gbId": 21,
+                "gbGuid": "3045-21",
+                "tgdbId": 7
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Ice Hockey",
+        "id": 18532,
         "genres": [
           "Sport"
         ],
-        "total_rating": 59,
-        "total_rating_count": 19,
-        "first_release_date": "07/20/2005",
+        "total_rating": 66,
+        "total_rating_count": 16,
+        "first_release_date": "01/20/1988",
         "developers": "",
         "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-814",
-        "gbid": 814,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2261130-box_mssb.png",
-        "deck": "Mario and friends head to the field in this crazy baseball game. Play through several games against iconic captains in the highly replayable single player mode or play with friends in a baseball game, minigames, or on the Toy Field.",
-        "platforms": "GameCube"
+        "guid": "3030-20778",
+        "gbid": 20778,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361841-nes_icehockey.jpg",
+        "deck": "A one to two player ice hockey game in which players can choose between six different countries to play as. In addition, players can choose three different classes of characters, three period lengths, plus the speed of the game. Players control 5 players on their team including the goalie.",
+        "platforms": "Nintendo Entertainment System, Wii Shop, Famicom Disk System, Wii U, Nintendo Switch"
       },
-      "consoleName": "Nintendo GameCube",
-      "consoleIgdbId": 21,
-      "consoleGbid": 23,
-      "consoleGbGuid": "3045-23",
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
       "condition": "Good",
       "case": "custom",
-      "pricePaid": "27",
+      "pricePaid": "8",
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-07-24",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-01",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "07/25/2020 07:40 am",
-      "updatedAt": "07/25/2020 07:40 am",
-      "_id": "b501ad88e3454d458f0e6327c0dc3efd",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2261130-box_mssb.png",
-      "description": "Mario and friends head to the field in this crazy baseball game. Play through several games against iconic captains in the highly replayable single player mode or play with friends in a baseball game, minigames, or on the Toy Field.",
-      "miltiplayerNumber": 4,
-      "extraData": [
-        "Nintendo GameCube console exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "id": "ngc47",
-          "name": "Mario Superstar Baseball",
-          "details": [
-            "Nintendo GameCube console exclusive"
-          ],
-          "igdbId": 3986,
-          "gbId": 814,
-          "gbGuid": "3030-814",
-          "tgdbId": 6261,
-          "isExclusive": [
-            {
-              "name": "Nintendo GameCube",
-              "id": "ccl4",
-              "igdbId": 21,
-              "gbId": 23,
-              "gbGuid": "3045-23",
-              "tgdbId": 2
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Star Fox Adventures",
-        "id": 2686,
-        "genres": [
-          "Shooter",
-          "Puzzle",
-          "Simulator",
-          "Adventure"
-        ],
-        "total_rating": 65,
-        "total_rating_count": 53,
-        "first_release_date": "09/21/2002",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "DInosaur Planet, StarFox Adventures",
-        "guid": "3030-19026",
-        "gbid": 19026,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1806119-box_sfoxa.png",
-        "deck": "Rare's last game for a major Nintendo console, Star Fox Adventures is a spin-off action-adventure game (in the Star Fox series of shooters) starring Fox McCloud, who must find a way to save the aptly-named Dinosaur Planet from destruction.",
-        "platforms": "GameCube"
-      },
-      "consoleName": "Nintendo GameCube",
-      "consoleIgdbId": 21,
-      "consoleGbid": 23,
-      "consoleGbGuid": "3045-23",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "20",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-07-24",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "07/25/2020 07:38 am",
-      "updatedAt": "07/25/2020 07:38 am",
-      "_id": "1422bb81dcf74e99bbeefb6005ea82b6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1806119-box_sfoxa.png",
-      "description": "Rare's last game for a major Nintendo console, Star Fox Adventures is a spin-off action-adventure game (in the Star Fox series of shooters) starring Fox McCloud, who must find a way to save the aptly-named Dinosaur Planet from destruction.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Nintendo GameCube console exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "id": "ngc70",
-          "name": "Star Fox Adventures",
-          "details": [
-            "Nintendo GameCube console exclusive"
-          ],
-          "igdbId": 2686,
-          "gbId": 19026,
-          "gbGuid": "3030-19026",
-          "tgdbId": 6263,
-          "isExclusive": [
-            {
-              "name": "Nintendo GameCube",
-              "id": "ccl4",
-              "igdbId": 21,
-              "gbId": 23,
-              "gbGuid": "3045-23",
-              "tgdbId": 2
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Star Fox",
-        "id": 8581,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 68,
-        "first_release_date": "02/20/1993",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Starwing\r, Star Wing\r, StarFox",
-        "guid": "3030-3984",
-        "gbid": 3984,
-        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi0.wp.com%2Fsnesaday.com%2Fwp-content%2Fuploads%2F2014%2F11%2Fstar_fox_us_box_art.jpg&f=1&nofb=1",
-        "deck": "As the leader of an elite squad of anthropomorphic animal pilots, fly throughout the Lylat star system in the prototype Arwing spacecraft to prevent the galactic conquest of a mad scientist in this 3D shooter for the SNES (with real-time polygonal graphics powered by the new Super FX chip).",
-        "platforms": "Super Nintendo Entertainment System, Nintendo Switch"
-      },
-      "consoleName": "Super Nintendo Entertainment System (SNES)",
-      "consoleIgdbId": 19,
-      "consoleGbid": 9,
-      "consoleGbGuid": "3045-9",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "20",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-07-24",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "07/25/2020 07:37 am",
-      "updatedAt": "07/25/2020 07:37 am",
-      "_id": "41b8bbe8a4314c31a6289365ceebe729",
-      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi0.wp.com%2Fsnesaday.com%2Fwp-content%2Fuploads%2F2014%2F11%2Fstar_fox_us_box_art.jpg&f=1&nofb=1",
-      "description": "As the leader of an elite squad of anthropomorphic animal pilots, fly throughout the Lylat star system in the prototype Arwing spacecraft to prevent the galactic conquest of a mad scientist in this 3D shooter for the SNES (with real-time polygonal graphics powered by the new Super FX chip).",
-      "miltiplayerNumber": 1,
+      "createdAt": "08/01/2020 09:17 pm",
+      "updatedAt": "08/01/2020 09:17 pm",
+      "_id": "64f504f006f142379523d06bfbc96ef2",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361841-nes_icehockey.jpg",
+      "description": "A one to two player ice hockey game in which players can choose between six different countries to play as. In addition, players can choose three different classes of characters, three period lengths, plus the speed of the game. Players control 5 players on their team including the goalie.",
+      "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Killzone 3",
-        "id": 1867,
+        "name": "You Don't Know Jack",
+        "id": 5304,
         "genres": [
-          "Shooter",
-          "FPS"
+          "Strategy",
+          "Quiz/Trivia",
+          "party"
         ],
-        "total_rating": 81,
-        "total_rating_count": 89,
-        "first_release_date": "02/21/2011",
+        "total_rating": 85,
+        "total_rating_count": 8,
+        "first_release_date": "02/07/2011",
         "developers": "",
-        "esrb": "M"
+        "esrb": "T"
       },
       "gb": {
-        "aliases": "KZ3",
-        "guid": "3030-30431",
-        "gbid": 30431,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
-        "deck": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
-        "platforms": "PlayStation 3"
+        "aliases": "YDKJ 2011",
+        "guid": "3030-31816",
+        "gbid": 31816,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/1714375-you_don_t_know_jack_cover.jpg",
+        "deck": "A revival of the classic trivia party game series.",
+        "platforms": "Xbox 360, PlayStation 3, Wii, Nintendo DS, PC, iPhone, iPad"
       },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
       "condition": "Good",
       "case": "original",
-      "pricePaid": "4",
+      "pricePaid": "5",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-08-01",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/01/2020 09:21 pm",
+      "updatedAt": "08/01/2020 09:21 pm",
+      "_id": "26730fb7fdc04dd2bd3656c15705a93e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/1714375-you_don_t_know_jack_cover.jpg",
+      "description": "A revival of the classic trivia party game series.",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Final Fantasy IX",
+        "id": 421,
+        "genres": [
+          "Role-playing (RPG)",
+          "Turn-based strategy (TBS)",
+          "Adventure"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 454,
+        "first_release_date": "07/06/2000",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "FF9\r, FFIX\r, Final Fantasy 9",
+        "guid": "3030-8825",
+        "gbid": 8825,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1814634-box_ff9.png",
+        "deck": "Zidane Tribal and his troupe attempt to abduct Princess Garnet of Alexandria in this throwback to the classics of the series.",
+        "platforms": "PlayStation, PlayStation Network (PS3), PC, iPhone, PlayStation Network (PSP), iPad, Android, PlayStation Network (Vita), Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PlayStation",
+      "consoleIgdbId": 7,
+      "consoleGbid": 22,
+      "consoleGbGuid": "3045-22",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "24",
       "physical": true,
       "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-07-24",
+      "datePurchased": "2020-08-01",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "07/25/2020 07:41 am",
-      "updatedAt": "07/25/2020 07:41 am",
-      "_id": "6f620a723a8f4e7f86812b437ce9aafa",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
-      "description": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
-      "miltiplayerNumber": 1
+      "createdAt": "08/01/2020 09:20 pm",
+      "updatedAt": "08/01/2020 09:20 pm",
+      "_id": "fd28f32c62fc449099f2bfdbb1db92e5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1814634-box_ff9.png",
+      "description": "Zidane Tribal and his troupe attempt to abduct Princess Garnet of Alexandria in this throwback to the classics of the series.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -867,19 +846,19 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "Atari 7800": 1,
+    "Atari 7800": 3,
+    "Nintendo Entertainment System (NES)": 46,
+    "Xbox 360": 57,
+    "PlayStation": 21,
     "Nintendo GameCube": 35,
     "Super Nintendo Entertainment System (SNES)": 16,
     "PlayStation 3": 40,
     "PC (Microsoft Windows)": 220,
     "Nintendo Switch": 42,
-    "Nintendo Entertainment System (NES)": 44,
     "PlayStation 2": 55,
-    "PlayStation": 20,
     "PlayStation 4": 129,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
-    "Xbox 360": 56,
     "Xbox": 43,
     "Wii": 27,
     "Game Boy Advance": 14,
@@ -900,20 +879,21 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 221,
-    "E": 213,
-    "T": 176,
+    "NOT RATED": 222,
+    "E10+": 89,
+    "E": 215,
+    "T": 178,
     "M": 267,
-    "E10+": 88,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 607,
+    "physical": 613,
     "digital": 373
   },
   "gamesAcquisition": {
-    "GameOver": 211,
+    "GameOver": 216,
+    "eBay": 50,
     "Green Man Gaming": 2,
     "Steam": 138,
     "Limited Run Games": 1,
@@ -926,7 +906,6 @@
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
-    "eBay": 49,
     "eShop": 23,
     "Amazon": 6,
     "GameStop": 66,
@@ -955,16 +934,20 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 254,
+  "cibGames": 258,
   "gamesWithGenre": {
-    "sport": 131,
-    "shooter": 335,
+    "arcade": 83,
+    "shooter": 336,
+    "sport": 132,
+    "strategy": 107,
+    "quiz/trivia": 11,
+    "party": 11,
+    "role-playing (rpg)": 135,
+    "turn-based strategy (tbs)": 19,
+    "adventure": 352,
     "puzzle": 105,
     "simulator": 98,
-    "adventure": 351,
     "fps": 154,
-    "role-playing (rpg)": 134,
-    "strategy": 106,
     "indie": 110,
     "hack and slash/beat 'em up": 64,
     "tactical": 25,
@@ -972,16 +955,12 @@
     "power pad": 1,
     "fishing": 2,
     "platform": 185,
-    "turn-based strategy (tbs)": 18,
-    "party": 10,
     "racing": 114,
     "turn-based": 7,
-    "arcade": 81,
     "fighting": 63,
     "shmup": 8,
     "third-person shooter": 8,
     "real time strategy (rts)": 11,
-    "quiz/trivia": 10,
     "baseball": 2,
     "japanese": 2,
     "import": 2,
@@ -1041,7 +1020,7 @@
     },
     {
       "dateFormatted": "07/2020",
-      "games": 20
+      "games": 21
     },
     {
       "dateFormatted": "01/2019",
@@ -1092,6 +1071,10 @@
       "games": 6
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 5
+    },
+    {
       "dateFormatted": "03/2017",
       "games": 4
     },
@@ -1131,7 +1114,7 @@
     },
     {
       "dateFormatted": "2020",
-      "games": 238
+      "games": 244
     },
     {
       "dateFormatted": "2018",
@@ -1153,11 +1136,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 623
+      "value": 627
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 172
+      "value": 173
     },
     {
       "category": "Poor (30 - 49)",
@@ -1165,7 +1148,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 108
+      "value": 109
     }
   ],
   "consolesByCompany": {

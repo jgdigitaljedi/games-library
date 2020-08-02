@@ -1,14 +1,10 @@
 {
-  "Nintendo GameCube": {
-    "isLaunchTitle": 1,
-    "isExclusive": 14
-  },
   "Nintendo Entertainment System (NES)": {
     "isLaunchTitle": 3,
     "isExclusive": 6,
     "special": {
       "hangTabGame": {
-        "count": 8,
+        "count": 9,
         "text": "NES hang tab game"
       },
       "blackBox": {
@@ -16,6 +12,10 @@
         "text": "NES black box game"
       }
     }
+  },
+  "Nintendo GameCube": {
+    "isLaunchTitle": 1,
+    "isExclusive": 14
   },
   "Sony Playstation 2": {
     "isLaunchTitle": 2,

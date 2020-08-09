@@ -3,6 +3,7 @@ export default {
     '3DO Interactive Multiplayer': 'logos/3do.gif',
     'Atari 2600': 'logos/Atari2600logo.svg',
     'Atari 7800': 'logos/atari7800.svg',
+    'Atari 5200': 'logos/Atari_5200_Logo.svg',
     Dreamcast: 'logos/Dreamcast_logo.svg',
     'Game Boy': 'logos/Gameboy_logo.svg',
     'Game Boy Advance': 'logos/Gameboy_advance_logo.svg',

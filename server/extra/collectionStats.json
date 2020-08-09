@@ -2,24 +2,69 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Jinks",
-        "id": 12330,
+        "name": "Pole Position",
+        "id": 5691,
         "genres": [
+          "Racing",
+          "Simulator",
+          "Sport",
           "Arcade"
         ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1987",
+        "total_rating": 67,
+        "total_rating_count": 23,
+        "first_release_date": "08/31/1982",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-17151",
-        "gbid": 17151,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2365975-a7800_jinks.jpg",
-        "deck": "Jinks is a Breakout clone with a space story set in the future, released for several home computers and the Atari 7800.\n",
-        "platforms": "Amiga, Amstrad CPC, Atari ST, Commodore 64, Atari 8-bit, Atari 7800"
+        "guid": "3030-10087",
+        "gbid": 10087,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
+        "deck": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
+        "platforms": "Amstrad CPC, Commodore 64, ZX Spectrum, Atari 8-bit, Atari 2600, Intellivision, Atari 5200, Vectrex, Arcade, PC"
+      },
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-07",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/08/2020 08:10 am",
+      "updatedAt": "08/08/2020 08:10 am",
+      "_id": "446020ae66e74a0db3a4e8f14c1d837c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
+      "description": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "RealSports Baseball",
+        "id": 117409,
+        "genres": [
+          "Sport",
+          "Baseball"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "12/30/1988",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-3020",
+        "gbid": 3020,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366222-a5200_realsportsbaseball.jpg",
+        "deck": "The baseball entry in Atari's RealSports series.",
+        "platforms": "Atari 2600, Atari 5200, Atari 7800, Xbox 360 Games Store"
       },
       "consoleName": "Atari 7800",
       "consoleIgdbId": 60,
@@ -30,109 +75,125 @@
       "pricePaid": "7",
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-01",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-07",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "08/01/2020 09:19 pm",
-      "updatedAt": "08/01/2020 09:19 pm",
-      "_id": "e486792fbf1149a2863417b573bad4e5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2365975-a7800_jinks.jpg",
-      "description": "Jinks is a Breakout clone with a space story set in the future, released for several home computers and the Atari 7800.\n",
+      "createdAt": "08/08/2020 08:05 am",
+      "updatedAt": "08/08/2020 08:05 am",
+      "_id": "5de4d79aaa7049ccbaeecd76dac8b1f6",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366222-a5200_realsportsbaseball.jpg",
+      "description": "The baseball entry in Atari's RealSports series.",
+      "miltiplayerNumber": 2
+    },
+    {
+      "igdb": {
+        "name": "Karateka",
+        "id": 4602,
+        "genres": [
+          "Fighting",
+          "Hack and slash/Beat 'em up",
+          "Indie"
+        ],
+        "total_rating": 69,
+        "total_rating_count": 11,
+        "first_release_date": "12/30/1984",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-9948",
+        "gbid": 9948,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2891/810861-karateka_artwork.jpg",
+        "deck": "The first commercial title developed by Jordan Mechner, Karateka is an action game that sets the player as a nameless Karate master off on a quest to rescue the beautiful Princess Mariko from the vile warlord, Akuma.",
+        "platforms": "Amstrad CPC, Apple II, Atari ST, Commodore 64, ZX Spectrum, Nintendo Entertainment System, Atari 8-bit, Atari 7800, PC, iPhone, iPad, Android"
+      },
+      "consoleName": "Atari 7800",
+      "consoleIgdbId": 60,
+      "consoleGbid": 70,
+      "consoleGbGuid": "3045-70",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "5",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-07",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/08/2020 08:05 am",
+      "updatedAt": "08/08/2020 08:05 am",
+      "_id": "7094ebd1865642b880a235882d07c04e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2891/810861-karateka_artwork.jpg",
+      "description": "The first commercial title developed by Jordan Mechner, Karateka is an action game that sets the player as a nameless Karate master off on a quest to rescue the beautiful Princess Mariko from the vile warlord, Akuma.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Commando",
-        "id": 5668,
+        "name": "Ivan ''Ironman'' Stewart's Super Off Road",
+        "id": 12735,
         "genres": [
-          "Shooter"
+          "Racing",
+          "Arcade"
         ],
-        "total_rating": 76,
-        "total_rating_count": 29,
-        "first_release_date": "04/30/1985",
+        "total_rating": 70,
+        "total_rating_count": 14,
+        "first_release_date": "12/30/1989",
         "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "Senjou no Okami\r, Wolf of the Battlefield\r, Space Invasion",
-        "guid": "3030-6850",
-        "gbid": 6850,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/2359915-commando_flyer.png",
-        "deck": "DESTROY THE ENEMY ARMY as Super Joe in this influential top-down shooter.",
-        "platforms": "Amiga, Amstrad CPC, Apple II, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 2600, Intellivision, Atari 7800, Arcade, Wii Shop, PC, NEC PC-8801, BBC Micro, FM-7, Android, Commodore 16"
-      },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "7",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-01",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/01/2020 09:18 pm",
-      "updatedAt": "08/01/2020 09:18 pm",
-      "_id": "57cb3cb64205493788c8efbc967d69a2",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/2359915-commando_flyer.png",
-      "description": "DESTROY THE ENEMY ARMY as Super Joe in this influential top-down shooter.",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "NES hang tab game"
-      ],
-      "extraDataFull": [
-        {
-          "name": "Commando",
-          "id": "nes88",
-          "details": [
-            "NES hang tab game"
-          ],
-          "igdbId": 5668,
-          "gbId": 6850,
-          "gbGuid": "3030-6850",
-          "tgdbId": 206,
-          "special": [
-            {
-              "value": "NES hang tab game",
-              "forPlatform": {
-                "name": "Nintendo Entertainment System (NES)",
-                "id": "ccl1",
-                "igdbId": 18,
-                "gbId": 21,
-                "gbGuid": "3045-21",
-                "tgdbId": 7
-              }
-            }
-          ],
-          "isExclusive": false,
-          "isLaunchTitle": false
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Ice Hockey",
-        "id": 18532,
-        "genres": [
-          "Sport"
-        ],
-        "total_rating": 66,
-        "total_rating_count": 16,
-        "first_release_date": "01/20/1988",
-        "developers": "",
-        "esrb": "E"
+        "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-20778",
-        "gbid": 20778,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361841-nes_icehockey.jpg",
-        "deck": "A one to two player ice hockey game in which players can choose between six different countries to play as. In addition, players can choose three different classes of characters, three period lengths, plus the speed of the game. Players control 5 players on their team including the goalie.",
-        "platforms": "Nintendo Entertainment System, Wii Shop, Famicom Disk System, Wii U, Nintendo Switch"
+        "guid": "3030-32988",
+        "gbid": 32988,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2374598-genesis_superoffroad.jpg",
+        "deck": "Super Off Road is an isometric off-road racer that featured upgradeable vehicles as well as tracks that could be raced in any direction.",
+        "platforms": "Game Boy, Game Gear, Atari Lynx, Sega Master System, Super Nintendo Entertainment System, Commodore 64, Nintendo Entertainment System, Arcade"
+      },
+      "consoleName": "Super Nintendo Entertainment System (SNES)",
+      "consoleIgdbId": 19,
+      "consoleGbid": 9,
+      "consoleGbGuid": "3045-9",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "8",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-07",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/08/2020 08:08 am",
+      "updatedAt": "08/08/2020 08:08 am",
+      "_id": "7222d652fd1c4f62bc5d566c5aea62e1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2374598-genesis_superoffroad.jpg",
+      "description": "Super Off Road is an isometric off-road racer that featured upgradeable vehicles as well as tracks that could be raced in any direction.",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Kung Fu",
+        "id": 2901,
+        "genres": [
+          "Fighting",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 58,
+        "total_rating_count": 33,
+        "first_release_date": "11/30/1984",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Kung Fu\r, Spartan X\r, Seiken Achō",
+        "guid": "3030-5996",
+        "gbid": 5996,
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages4.wikia.nocookie.net%2F__cb20080719020858%2Fnes%2Fimages%2F5%2F5d%2FKung_Fu.JPG&f=1&nofb=1",
+        "deck": "Help Thomas save his girlfriend, Sylvia, as he battles minions and dragons over five side-scrolling, action packed levels, Kung-Fu style. Based on the Jackie Chan movie Wheels on Meals, Kung-Fu Master (Spartan X in Japan) is often credited for creating the beat 'em up genre.",
+        "platforms": "Amstrad CPC, Apple II, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 2600, Atari 7800, Arcade"
       },
       "consoleName": "Nintendo Entertainment System (NES)",
       "consoleIgdbId": 18,
@@ -143,111 +204,56 @@
       "pricePaid": "8",
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-08-01",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/01/2020 09:17 pm",
-      "updatedAt": "08/01/2020 09:17 pm",
-      "_id": "64f504f006f142379523d06bfbc96ef2",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361841-nes_icehockey.jpg",
-      "description": "A one to two player ice hockey game in which players can choose between six different countries to play as. In addition, players can choose three different classes of characters, three period lengths, plus the speed of the game. Players control 5 players on their team including the goalie.",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "You Don't Know Jack",
-        "id": 5304,
-        "genres": [
-          "Strategy",
-          "Quiz/Trivia",
-          "party"
-        ],
-        "total_rating": 85,
-        "total_rating_count": 8,
-        "first_release_date": "02/07/2011",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "YDKJ 2011",
-        "guid": "3030-31816",
-        "gbid": 31816,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/1714375-you_don_t_know_jack_cover.jpg",
-        "deck": "A revival of the classic trivia party game series.",
-        "platforms": "Xbox 360, PlayStation 3, Wii, Nintendo DS, PC, iPhone, iPad"
-      },
-      "consoleName": "Xbox 360",
-      "consoleIgdbId": 12,
-      "consoleGbid": 20,
-      "consoleGbGuid": "3045-20",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "5",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-08-01",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/01/2020 09:21 pm",
-      "updatedAt": "08/01/2020 09:21 pm",
-      "_id": "26730fb7fdc04dd2bd3656c15705a93e",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/1714375-you_don_t_know_jack_cover.jpg",
-      "description": "A revival of the classic trivia party game series.",
-      "miltiplayerNumber": 4,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Final Fantasy IX",
-        "id": 421,
-        "genres": [
-          "Role-playing (RPG)",
-          "Turn-based strategy (TBS)",
-          "Adventure"
-        ],
-        "total_rating": 86,
-        "total_rating_count": 454,
-        "first_release_date": "07/06/2000",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "FF9\r, FFIX\r, Final Fantasy 9",
-        "guid": "3030-8825",
-        "gbid": 8825,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1814634-box_ff9.png",
-        "deck": "Zidane Tribal and his troupe attempt to abduct Princess Garnet of Alexandria in this throwback to the classics of the series.",
-        "platforms": "PlayStation, PlayStation Network (PS3), PC, iPhone, PlayStation Network (PSP), iPad, Android, PlayStation Network (Vita), Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PlayStation",
-      "consoleIgdbId": 7,
-      "consoleGbid": 22,
-      "consoleGbGuid": "3045-22",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "24",
-      "physical": true,
-      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-01",
+      "datePurchased": "2020-08-07",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "08/01/2020 09:20 pm",
-      "updatedAt": "08/01/2020 09:20 pm",
-      "_id": "fd28f32c62fc449099f2bfdbb1db92e5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1814634-box_ff9.png",
-      "description": "Zidane Tribal and his troupe attempt to abduct Princess Garnet of Alexandria in this throwback to the classics of the series.",
+      "createdAt": "08/08/2020 08:21 am",
+      "updatedAt": "08/08/2020 08:21 am",
+      "_id": "5707768bd705463eb0af792ae8a5757a",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages4.wikia.nocookie.net%2F__cb20080719020858%2Fnes%2Fimages%2F5%2F5d%2FKung_Fu.JPG&f=1&nofb=1",
+      "description": "Help Thomas save his girlfriend, Sylvia, as he battles minions and dragons over five side-scrolling, action packed levels, Kung-Fu style. Based on the Jackie Chan movie Wheels on Meals, Kung-Fu Master (Spartan X in Japan) is often credited for creating the beat 'em up genre.",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
+    {
+      "igdb": {
+        "name": "Atari 5200",
+        "id": 66,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8g.jpg",
+        "generation": 2,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": null,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/10083-5200.jpg",
+        "original_price": "270.00",
+        "aliases": null,
+        "company": "Atari",
+        "guid": "3045-67",
+        "online_support": false,
+        "gbid": 67
+      },
+      "condition": "Not Working/No Physical Damage",
+      "box": false,
+      "mods": "",
+      "notes": "will do cap replacement, power mod, and AV mod eventually",
+      "connectedBy": "None",
+      "upscaler": false,
+      "datePurchased": "2020-08-07",
+      "purchasePrice": "20",
+      "ghostConsole": false,
+      "aliases": "Atari 5200 SuperSystem",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "08/08/2020 08:09 am",
+      "updatedAt": "08/08/2020 08:09 am",
+      "_id": "2406f3916d734a889cd664ca47970ef2"
+    },
     {
       "igdb": {
         "name": "Atari 7800",
@@ -269,7 +275,7 @@
       "condition": "Not Working/No Physical Damage",
       "box": false,
       "mods": "",
-      "notes": "video only outputs static. Purchased cap kit to fix and will likely do composite mod; Was given free by cashier at Game Over as a anniversary gift",
+      "notes": "Given for free from Game Over as anniversary gift. Did a cap replacement and composite video mod.",
       "connectedBy": "None",
       "upscaler": false,
       "datePurchased": "2020-07-24",
@@ -387,41 +393,6 @@
       "createdAt": "11/30/2019 07:54 am",
       "updatedAt": "11/30/2019 07:54 am",
       "_id": "f1b51917929d4bc4ba0852556ccbe72c"
-    },
-    {
-      "igdb": {
-        "name": "TurboGrafx-16/PC Engine",
-        "id": 86,
-        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/qbliruqsqjira1hgibln.jpg",
-        "generation": 4,
-        "version": "Initial version"
-      },
-      "gb": {
-        "install_base": "10000000",
-        "image": "https://www.giantbomb.com/api/image/scale_medium/176127-turbografx_16.jpg",
-        "original_price": "199.00",
-        "aliases": "PC Engine\nTurboExpress\nCore Grafx II",
-        "company": "NEC",
-        "guid": "3045-55",
-        "online_support": false,
-        "gbid": 55
-      },
-      "condition": "Good",
-      "box": false,
-      "mods": "",
-      "notes": "",
-      "connectedBy": "Composite",
-      "upscaler": true,
-      "datePurchased": "2019-09-13",
-      "purchasePrice": "140",
-      "ghostConsole": false,
-      "aliases": "PC Engine, TurboExpress, Core Grafx II",
-      "storage": "",
-      "unit": "",
-      "howAcquired": "GameOver",
-      "createdAt": "09/13/2019 08:56 pm",
-      "updatedAt": "09/13/2019 08:56 pm",
-      "_id": "dc21427b69464b50b2206acca6308a08"
     }
   ],
   "mostPaidForGames": [
@@ -846,16 +817,17 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "Atari 7800": 3,
-    "Nintendo Entertainment System (NES)": 46,
-    "Xbox 360": 57,
+    "Atari 5200": 1,
+    "Atari 7800": 5,
+    "Super Nintendo Entertainment System (SNES)": 17,
+    "Nintendo Entertainment System (NES)": 47,
+    "Xbox 360": 58,
+    "PlayStation 2": 57,
     "PlayStation": 21,
     "Nintendo GameCube": 35,
-    "Super Nintendo Entertainment System (SNES)": 16,
     "PlayStation 3": 40,
     "PC (Microsoft Windows)": 220,
     "Nintendo Switch": 42,
-    "PlayStation 2": 55,
     "PlayStation 4": 129,
     "PlayStation Portable": 18,
     "Nintendo 64": 30,
@@ -879,25 +851,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 222,
+    "NOT RATED": 227,
+    "E": 217,
+    "M": 268,
     "E10+": 89,
-    "E": 215,
     "T": 178,
-    "M": 267,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 613,
+    "physical": 621,
     "digital": 373
   },
   "gamesAcquisition": {
-    "GameOver": 216,
+    "GameOver": 221,
+    "Video Games Monthly": 46,
     "eBay": 50,
     "Green Man Gaming": 2,
     "Steam": 138,
     "Limited Run Games": 1,
-    "Video Games Monthly": 43,
     "Epic Games Store": 10,
     "PSN": 107,
     "GOG": 11,
@@ -934,52 +906,54 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 258,
+  "cibGames": 262,
   "gamesWithGenre": {
-    "arcade": 83,
-    "shooter": 336,
-    "sport": 132,
-    "strategy": 107,
+    "racing": 116,
+    "simulator": 100,
+    "sport": 134,
+    "arcade": 85,
+    "baseball": 5,
+    "fighting": 65,
+    "hack and slash/beat 'em up": 66,
+    "indie": 111,
+    "platform": 186,
+    "adventure": 353,
+    "shooter": 337,
+    "strategy": 108,
+    "tactical": 26,
+    "third person shooter": 1,
+    "hockey": 3,
     "quiz/trivia": 11,
     "party": 11,
     "role-playing (rpg)": 135,
     "turn-based strategy (tbs)": 19,
-    "adventure": 352,
     "puzzle": 105,
-    "simulator": 98,
     "fps": 154,
-    "indie": 110,
-    "hack and slash/beat 'em up": 64,
-    "tactical": 25,
     "track": 1,
     "power pad": 1,
     "fishing": 2,
-    "platform": 185,
-    "racing": 114,
+    "action": 2,
     "turn-based": 7,
-    "fighting": 63,
     "shmup": 8,
     "third-person shooter": 8,
     "real time strategy (rts)": 11,
-    "baseball": 2,
     "japanese": 2,
     "import": 2,
     "music": 28,
     "mech": 1,
     "horror": 2,
-    "hockey": 1,
     "point-and-click": 11,
-    "golf": 4,
+    "golf": 6,
     "on-rails-shooter": 1,
     "building": 1,
     "visual novel": 1,
+    "skateboarding": 5,
+    "snowboarding": 2,
     "pinball": 4,
     "third=person shooter": 1,
     "run-n-gun": 1,
     "vehicular combat": 3,
-    "snowboarding": 1,
-    "skiing": 1,
-    "action": 1
+    "skiing": 1
   },
   "gamesAddedInMonth": [
     {
@@ -1047,6 +1021,10 @@
       "games": 14
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 13
+    },
+    {
       "dateFormatted": "08/2019",
       "games": 13
     },
@@ -1069,10 +1047,6 @@
     {
       "dateFormatted": "08/2018",
       "games": 6
-    },
-    {
-      "dateFormatted": "08/2020",
-      "games": 5
     },
     {
       "dateFormatted": "03/2017",
@@ -1109,12 +1083,12 @@
   ],
   "gamesAddedPerYear": [
     {
-      "dateFormatted": "2019",
-      "games": 248
+      "dateFormatted": "2020",
+      "games": 252
     },
     {
-      "dateFormatted": "2020",
-      "games": 244
+      "dateFormatted": "2019",
+      "games": 248
     },
     {
       "dateFormatted": "2018",
@@ -1136,11 +1110,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 627
+      "value": 629
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 173
+      "value": 178
     },
     {
       "category": "Poor (30 - 49)",
@@ -1148,7 +1122,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 109
+      "value": 110
     }
   ],
   "consolesByCompany": {
@@ -1159,11 +1133,11 @@
     "Sony": 6,
     "Matsushita Electric Corporation of America (Panasonic)": 1,
     "NEC": 1,
-    "Atari": 1,
+    "Atari": 2,
     "Atari SA": 1
   },
   "consolesByGenerationSorted": {
-    "2": 1,
+    "2": 2,
     "3": 2,
     "4": 7,
     "5": 6,

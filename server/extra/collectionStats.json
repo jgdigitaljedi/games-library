@@ -2,6 +2,48 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Titanfall 2",
+        "id": 17447,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 340,
+        "first_release_date": "10/27/2016",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-49139",
+        "gbid": 49139,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2895132-t2.jpg",
+        "deck": "The sequel to Respawn's sci-fi mech-filled first-person shooter, Titanfall 2 adds a deep single-player campaign and revamped multiplayer.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "10",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-23",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "08/23/2020 07:58 pm",
+      "updatedAt": "08/23/2020 07:58 pm",
+      "_id": "e14bd1eff0ca428d87beb3ba49485fd9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2895132-t2.jpg",
+      "description": "The sequel to Respawn's sci-fi mech-filled first-person shooter, Titanfall 2 adds a deep single-player campaign and revamped multiplayer.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Super Mario World 2: Yoshi's Island",
         "id": 1073,
         "genres": [
@@ -160,91 +202,44 @@
     },
     {
       "igdb": {
-        "name": "Jet Force Gemini",
-        "id": 1355,
+        "name": "PGA TOUR 2K21",
+        "id": 133939,
         "genres": [
-          "Shooter",
-          "Platform",
-          "Adventure"
-        ],
-        "total_rating": 77,
-        "total_rating_count": 28,
-        "first_release_date": "10/10/1999",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-12696",
-        "gbid": 12696,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3509/647357-jetforcegemini_na.jpg",
-        "deck": "A sci-fi third-person shooter from Rare that puts players on a quest to rid the universe of the evil tyrant Mizar and his massive insectoid army.",
-        "platforms": "Nintendo 64"
-      },
-      "consoleName": "Nintendo 64",
-      "consoleIgdbId": 4,
-      "consoleGbid": 43,
-      "consoleGbGuid": "3045-43",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "50",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-08-22",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/23/2020 07:36 pm",
-      "updatedAt": "08/23/2020 07:36 pm",
-      "_id": "c28a802d706f4943b891fa42c90568c6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3509/647357-jetforcegemini_na.jpg",
-      "description": "A sci-fi third-person shooter from Rare that puts players on a quest to rid the universe of the evil tyrant Mizar and his massive insectoid army.",
-      "miltiplayerNumber": 4,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Pole Position",
-        "id": 5691,
-        "genres": [
-          "Racing",
           "Simulator",
           "Sport",
-          "Arcade"
+          "Golf"
         ],
-        "total_rating": 67,
-        "total_rating_count": 23,
-        "first_release_date": "08/31/1982",
+        "total_rating": 78,
+        "total_rating_count": 3,
+        "first_release_date": "08/20/2020",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-10087",
-        "gbid": 10087,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
-        "deck": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
-        "platforms": "Amstrad CPC, Commodore 64, ZX Spectrum, Atari 8-bit, Atari 2600, Intellivision, Atari 5200, Vectrex, Arcade, PC"
+        "guid": "3030-78301",
+        "gbid": 78301,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
+        "deck": "2K Sports' second PGA golf game.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
       },
-      "consoleName": "Atari 5200",
-      "consoleIgdbId": 66,
-      "consoleGbid": 67,
-      "consoleGbGuid": "3045-67",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "70",
+      "physical": "",
+      "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-07",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/08/2020 08:10 am",
-      "updatedAt": "08/08/2020 08:10 am",
-      "_id": "446020ae66e74a0db3a4e8f14c1d837c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
-      "description": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "Steam",
+      "notes": "Deluxe Edition",
+      "createdAt": "08/23/2020 07:59 pm",
+      "updatedAt": "08/23/2020 07:59 pm",
+      "_id": "df12e91c7db84587a0e3970ad8f7ea8d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
+      "description": "2K Sports' second PGA golf game.",
       "miltiplayerNumber": 1
     }
   ],
@@ -516,6 +511,48 @@
     },
     {
       "igdb": {
+        "name": "PGA TOUR 2K21",
+        "id": 133939,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Golf"
+        ],
+        "total_rating": 78,
+        "total_rating_count": 3,
+        "first_release_date": "08/20/2020",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-78301",
+        "gbid": 78301,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
+        "deck": "2K Sports' second PGA golf game.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "70",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "Steam",
+      "notes": "Deluxe Edition",
+      "createdAt": "08/23/2020 07:59 pm",
+      "updatedAt": "08/23/2020 07:59 pm",
+      "_id": "df12e91c7db84587a0e3970ad8f7ea8d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
+      "description": "2K Sports' second PGA golf game.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Splatterhouse",
         "id": 6929,
         "genres": [
@@ -598,76 +635,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
       "description": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Eternal Darkness: Sanity's Requiem",
-        "id": 3907,
-        "genres": [
-          "Adventure",
-          "Horror"
-        ],
-        "total_rating": 85,
-        "total_rating_count": 34,
-        "first_release_date": "06/23/2002",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-7512",
-        "gbid": 7512,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
-        "deck": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
-        "platforms": "GameCube"
-      },
-      "consoleName": "Nintendo GameCube",
-      "consoleIgdbId": 21,
-      "consoleGbid": 23,
-      "consoleGbGuid": "3045-23",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-04-16",
-      "howAcquired": "eBay",
-      "notes": "",
-      "createdAt": "04/17/2020 05:06 am",
-      "updatedAt": "04/17/2020 05:06 am",
-      "_id": "5a12b44cc1f34e58bf28237fda8fc1ad",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1849082-box_edsr.png",
-      "description": "Eternal Darkness: Sanity's Requiem is an action-adventure game notable for its Lovecraftian horror, multiple playable characters from different time periods, and fourth-wall-breaking \"sanity effects\".",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Nintendo GameCube console exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "id": "ngc22",
-          "name": "Eternal Darkness: Sanity's Requiem",
-          "details": [
-            "Nintendo GameCube console exclusive"
-          ],
-          "igdbId": 3907,
-          "gbId": 7512,
-          "gbGuid": "3030-7512",
-          "tgdbId": 6970,
-          "isExclusive": [
-            {
-              "name": "Nintendo GameCube",
-              "id": "ccl4",
-              "igdbId": 21,
-              "gbId": 23,
-              "gbGuid": "3045-23",
-              "tgdbId": 2
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
     }
   ],
   "mostPaidForPlatforms": [
@@ -847,6 +814,7 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 225,
     "Super Nintendo Entertainment System (SNES)": 18,
     "Nintendo Entertainment System (NES)": 49,
     "Nintendo 64": 31,
@@ -857,7 +825,6 @@
     "PlayStation": 21,
     "Nintendo GameCube": 35,
     "PlayStation 3": 40,
-    "PC (Microsoft Windows)": 220,
     "Nintendo Switch": 42,
     "PlayStation 4": 129,
     "PlayStation Portable": 18,
@@ -881,24 +848,24 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 230,
+    "M": 269,
+    "NOT RATED": 234,
     "T": 179,
     "E": 217,
-    "M": 268,
     "E10+": 89,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 625,
-    "digital": 373
+    "digital": 378
   },
   "gamesAcquisition": {
+    "Steam": 143,
     "GameOver": 225,
     "Video Games Monthly": 46,
     "eBay": 50,
     "Green Man Gaming": 2,
-    "Steam": 138,
     "Limited Run Games": 1,
     "Epic Games Store": 10,
     "PSN": 107,
@@ -938,19 +905,22 @@
   },
   "cibGames": 263,
   "gamesWithGenre": {
+    "shooter": 341,
+    "adventure": 357,
+    "fps": 158,
     "platform": 188,
-    "shooter": 339,
-    "sport": 135,
+    "sport": 136,
     "arcade": 86,
     "skateboarding": 6,
     "surfing": 1,
-    "adventure": 354,
+    "simulator": 101,
+    "golf": 7,
+    "role-playing (rpg)": 136,
+    "indie": 114,
     "racing": 116,
-    "simulator": 100,
     "baseball": 5,
     "fighting": 65,
     "hack and slash/beat 'em up": 66,
-    "indie": 111,
     "game show": 1,
     "party game": 1,
     "strategy": 108,
@@ -959,10 +929,8 @@
     "hockey": 3,
     "quiz/trivia": 11,
     "party": 11,
-    "role-playing (rpg)": 135,
     "turn-based strategy (tbs)": 19,
-    "puzzle": 105,
-    "fps": 154,
+    "puzzle": 106,
     "track": 1,
     "power pad": 1,
     "fishing": 2,
@@ -977,7 +945,6 @@
     "mech": 1,
     "horror": 2,
     "point-and-click": 11,
-    "golf": 6,
     "on-rails-shooter": 1,
     "building": 1,
     "visual novel": 1,
@@ -1026,16 +993,16 @@
       "games": 23
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 22
+    },
+    {
       "dateFormatted": "07/2020",
       "games": 21
     },
     {
       "dateFormatted": "01/2019",
       "games": 20
-    },
-    {
-      "dateFormatted": "08/2020",
-      "games": 17
     },
     {
       "dateFormatted": "12/2019",
@@ -1117,7 +1084,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 256
+      "games": 261
     },
     {
       "dateFormatted": "2019",
@@ -1143,7 +1110,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 631
+      "value": 635
     },
     {
       "category": "Fair (50 - 69)",
@@ -1155,7 +1122,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 111
+      "value": 112
     }
   ],
   "consolesByCompany": {

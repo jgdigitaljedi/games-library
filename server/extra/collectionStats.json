@@ -2,6 +2,209 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Super Mario World 2: Yoshi's Island",
+        "id": 1073,
+        "genres": [
+          "Platform"
+        ],
+        "total_rating": 95,
+        "total_rating_count": 360,
+        "first_release_date": "08/04/1995",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Yoshi's Island",
+        "guid": "3030-2866",
+        "gbid": 2866,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364715-snes_yoshis_island.jpg",
+        "deck": "A spin-off of the Super Mario platforming series, Yoshi's Island puts players in control of a tribe of Yoshies as they guide the infant Mario past the forces of the evil Kamek.",
+        "platforms": "Game Boy Advance, Super Nintendo Entertainment System, Nintendo Switch"
+      },
+      "consoleName": "Super Nintendo Entertainment System (SNES)",
+      "consoleIgdbId": 19,
+      "consoleGbid": 9,
+      "consoleGbGuid": "3045-9",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "25",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/23/2020 07:35 pm",
+      "updatedAt": "08/23/2020 07:35 pm",
+      "_id": "53634c5508d44096895ce46bda2af9f3",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364715-snes_yoshis_island.jpg",
+      "description": "A spin-off of the Super Mario platforming series, Yoshi's Island puts players in control of a tribe of Yoshies as they guide the infant Mario past the forces of the evil Kamek.",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Super C",
+        "id": 84919,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 1,
+        "first_release_date": "08/26/2007",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Super Contra\r, Probotector II: Return of the Evil Forces",
+        "guid": "3030-10077",
+        "gbid": 10077,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2799396-7245693820-18113.jpg",
+        "deck": "Super Contra, also known as Super C, is the sequel to Contra. In addition to side-scrolling levels like its predecessor, Super Contra introduces top-down levels, which replace the third-person segments of the original. The NES version, uses the same gameplay engine as the NES version of Contra, with some levels not featured in the arcade version.",
+        "platforms": "Amiga, Nintendo Entertainment System, Arcade, Xbox 360 Games Store, Wii Shop, PC, Nintendo 3DS eShop, Wii U"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "19",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/23/2020 07:35 pm",
+      "updatedAt": "08/23/2020 07:35 pm",
+      "_id": "d58c4d97ca0844f5b53db23f5991b78d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2799396-7245693820-18113.jpg",
+      "description": "Super Contra, also known as Super C, is the sequel to Contra. In addition to side-scrolling levels like its predecessor, Super Contra introduces top-down levels, which replace the third-person segments of the original. The NES version, uses the same gameplay engine as the NES version of Contra, with some levels not featured in the arcade version.",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Town & Country Surf Designs: Wood & Water Rage",
+        "id": 48119,
+        "genres": [
+          "Sport",
+          "Arcade",
+          "Skateboarding",
+          "Surfing"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "12/30/1987",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "T&C Surf Designs: Wood & Water Rage",
+        "guid": "3030-2963",
+        "gbid": 2963,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362325-nes_tandcsurfdesigns.jpg",
+        "deck": "One of the first extreme sports games released for consoles that included both surfing and skateboarding.",
+        "platforms": "Nintendo Entertainment System"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/23/2020 07:34 pm",
+      "updatedAt": "08/23/2020 07:34 pm",
+      "_id": "868dc6c326474a29ae26f3ccc47823bf",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362325-nes_tandcsurfdesigns.jpg",
+      "description": "One of the first extreme sports games released for consoles that included both surfing and skateboarding.",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "NES exclusive game"
+      ],
+      "extraDataFull": [
+        {
+          "id": "nes442",
+          "name": "Town & Country Surf Designs: Wood & Water Rage",
+          "details": [
+            "NES exclusive game"
+          ],
+          "igdbId": 48119,
+          "gbId": 2963,
+          "gbGuid": "3030-2963",
+          "tgdbId": 1461,
+          "isExclusive": [
+            {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Jet Force Gemini",
+        "id": 1355,
+        "genres": [
+          "Shooter",
+          "Platform",
+          "Adventure"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 28,
+        "first_release_date": "10/10/1999",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-12696",
+        "gbid": 12696,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3509/647357-jetforcegemini_na.jpg",
+        "deck": "A sci-fi third-person shooter from Rare that puts players on a quest to rid the universe of the evil tyrant Mizar and his massive insectoid army.",
+        "platforms": "Nintendo 64"
+      },
+      "consoleName": "Nintendo 64",
+      "consoleIgdbId": 4,
+      "consoleGbid": 43,
+      "consoleGbGuid": "3045-43",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "50",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/23/2020 07:36 pm",
+      "updatedAt": "08/23/2020 07:36 pm",
+      "_id": "c28a802d706f4943b891fa42c90568c6",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3509/647357-jetforcegemini_na.jpg",
+      "description": "A sci-fi third-person shooter from Rare that puts players on a quest to rid the universe of the evil tyrant Mizar and his massive insectoid army.",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
         "name": "Pole Position",
         "id": 5691,
         "genres": [
@@ -43,179 +246,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
       "description": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "RealSports Baseball",
-        "id": 117409,
-        "genres": [
-          "Sport",
-          "Baseball"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1988",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-3020",
-        "gbid": 3020,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366222-a5200_realsportsbaseball.jpg",
-        "deck": "The baseball entry in Atari's RealSports series.",
-        "platforms": "Atari 2600, Atari 5200, Atari 7800, Xbox 360 Games Store"
-      },
-      "consoleName": "Atari 7800",
-      "consoleIgdbId": 60,
-      "consoleGbid": 70,
-      "consoleGbGuid": "3045-70",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "7",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-08-07",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/08/2020 08:05 am",
-      "updatedAt": "08/08/2020 08:05 am",
-      "_id": "5de4d79aaa7049ccbaeecd76dac8b1f6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366222-a5200_realsportsbaseball.jpg",
-      "description": "The baseball entry in Atari's RealSports series.",
-      "miltiplayerNumber": 2
-    },
-    {
-      "igdb": {
-        "name": "Karateka",
-        "id": 4602,
-        "genres": [
-          "Fighting",
-          "Hack and slash/Beat 'em up",
-          "Indie"
-        ],
-        "total_rating": 69,
-        "total_rating_count": 11,
-        "first_release_date": "12/30/1984",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-9948",
-        "gbid": 9948,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2891/810861-karateka_artwork.jpg",
-        "deck": "The first commercial title developed by Jordan Mechner, Karateka is an action game that sets the player as a nameless Karate master off on a quest to rescue the beautiful Princess Mariko from the vile warlord, Akuma.",
-        "platforms": "Amstrad CPC, Apple II, Atari ST, Commodore 64, ZX Spectrum, Nintendo Entertainment System, Atari 8-bit, Atari 7800, PC, iPhone, iPad, Android"
-      },
-      "consoleName": "Atari 7800",
-      "consoleIgdbId": 60,
-      "consoleGbid": 70,
-      "consoleGbGuid": "3045-70",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "5",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-07",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/08/2020 08:05 am",
-      "updatedAt": "08/08/2020 08:05 am",
-      "_id": "7094ebd1865642b880a235882d07c04e",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2891/810861-karateka_artwork.jpg",
-      "description": "The first commercial title developed by Jordan Mechner, Karateka is an action game that sets the player as a nameless Karate master off on a quest to rescue the beautiful Princess Mariko from the vile warlord, Akuma.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Ivan ''Ironman'' Stewart's Super Off Road",
-        "id": 12735,
-        "genres": [
-          "Racing",
-          "Arcade"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 14,
-        "first_release_date": "12/30/1989",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-32988",
-        "gbid": 32988,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2374598-genesis_superoffroad.jpg",
-        "deck": "Super Off Road is an isometric off-road racer that featured upgradeable vehicles as well as tracks that could be raced in any direction.",
-        "platforms": "Game Boy, Game Gear, Atari Lynx, Sega Master System, Super Nintendo Entertainment System, Commodore 64, Nintendo Entertainment System, Arcade"
-      },
-      "consoleName": "Super Nintendo Entertainment System (SNES)",
-      "consoleIgdbId": 19,
-      "consoleGbid": 9,
-      "consoleGbGuid": "3045-9",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "8",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-08-07",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/08/2020 08:08 am",
-      "updatedAt": "08/08/2020 08:08 am",
-      "_id": "7222d652fd1c4f62bc5d566c5aea62e1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2374598-genesis_superoffroad.jpg",
-      "description": "Super Off Road is an isometric off-road racer that featured upgradeable vehicles as well as tracks that could be raced in any direction.",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Kung Fu",
-        "id": 2901,
-        "genres": [
-          "Fighting",
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": 58,
-        "total_rating_count": 33,
-        "first_release_date": "11/30/1984",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Kung Fu\r, Spartan X\r, Seiken Achō",
-        "guid": "3030-5996",
-        "gbid": 5996,
-        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages4.wikia.nocookie.net%2F__cb20080719020858%2Fnes%2Fimages%2F5%2F5d%2FKung_Fu.JPG&f=1&nofb=1",
-        "deck": "Help Thomas save his girlfriend, Sylvia, as he battles minions and dragons over five side-scrolling, action packed levels, Kung-Fu style. Based on the Jackie Chan movie Wheels on Meals, Kung-Fu Master (Spartan X in Japan) is often credited for creating the beat 'em up genre.",
-        "platforms": "Amstrad CPC, Apple II, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 2600, Atari 7800, Arcade"
-      },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "8",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-07",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/08/2020 08:21 am",
-      "updatedAt": "08/08/2020 08:21 am",
-      "_id": "5707768bd705463eb0af792ae8a5757a",
-      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages4.wikia.nocookie.net%2F__cb20080719020858%2Fnes%2Fimages%2F5%2F5d%2FKung_Fu.JPG&f=1&nofb=1",
-      "description": "Help Thomas save his girlfriend, Sylvia, as he battles minions and dragons over five side-scrolling, action packed levels, Kung-Fu style. Based on the Jackie Chan movie Wheels on Meals, Kung-Fu Master (Spartan X in Japan) is often credited for creating the beat 'em up genre.",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -817,10 +847,11 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Super Nintendo Entertainment System (SNES)": 18,
+    "Nintendo Entertainment System (NES)": 49,
+    "Nintendo 64": 31,
     "Atari 5200": 1,
     "Atari 7800": 5,
-    "Super Nintendo Entertainment System (SNES)": 17,
-    "Nintendo Entertainment System (NES)": 47,
     "Xbox 360": 58,
     "PlayStation 2": 57,
     "PlayStation": 21,
@@ -830,7 +861,6 @@
     "Nintendo Switch": 42,
     "PlayStation 4": 129,
     "PlayStation Portable": 18,
-    "Nintendo 64": 30,
     "Xbox": 43,
     "Wii": 27,
     "Game Boy Advance": 14,
@@ -851,20 +881,20 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 227,
+    "NOT RATED": 230,
+    "T": 179,
     "E": 217,
     "M": 268,
     "E10+": 89,
-    "T": 178,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 621,
+    "physical": 625,
     "digital": 373
   },
   "gamesAcquisition": {
-    "GameOver": 221,
+    "GameOver": 225,
     "Video Games Monthly": 46,
     "eBay": 50,
     "Green Man Gaming": 2,
@@ -906,19 +936,23 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 262,
+  "cibGames": 263,
   "gamesWithGenre": {
+    "platform": 188,
+    "shooter": 339,
+    "sport": 135,
+    "arcade": 86,
+    "skateboarding": 6,
+    "surfing": 1,
+    "adventure": 354,
     "racing": 116,
     "simulator": 100,
-    "sport": 134,
-    "arcade": 85,
     "baseball": 5,
     "fighting": 65,
     "hack and slash/beat 'em up": 66,
     "indie": 111,
-    "platform": 186,
-    "adventure": 353,
-    "shooter": 337,
+    "game show": 1,
+    "party game": 1,
     "strategy": 108,
     "tactical": 26,
     "third person shooter": 1,
@@ -947,7 +981,6 @@
     "on-rails-shooter": 1,
     "building": 1,
     "visual novel": 1,
-    "skateboarding": 5,
     "snowboarding": 2,
     "pinball": 4,
     "third=person shooter": 1,
@@ -1001,6 +1034,10 @@
       "games": 20
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 17
+    },
+    {
       "dateFormatted": "12/2019",
       "games": 17
     },
@@ -1019,10 +1056,6 @@
     {
       "dateFormatted": "06/2019",
       "games": 14
-    },
-    {
-      "dateFormatted": "08/2020",
-      "games": 13
     },
     {
       "dateFormatted": "08/2019",
@@ -1084,7 +1117,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 252
+      "games": 256
     },
     {
       "dateFormatted": "2019",
@@ -1106,11 +1139,11 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 63
+      "value": 64
     },
     {
       "category": "Good (70 - 89)",
-      "value": 629
+      "value": 631
     },
     {
       "category": "Fair (50 - 69)",
@@ -1122,7 +1155,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 110
+      "value": 111
     }
   ],
   "consolesByCompany": {

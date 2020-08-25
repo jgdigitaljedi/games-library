@@ -3,6 +3,8 @@ const path = require('path');
 const chalk = require('chalk');
 
 const atari = require('./data/Atari2600.json'); // exclusives and launch titles
+const a52 = require('./data/Atari5200.json'); // exclusives, launch titles, and 4 player
+const a78 = require('./data/Atari7800.json'); // exclusives and launch titles
 const xbox = require('./data/MicrosoftXbox.json'); // exclusives and launch titles
 const xbox360 = require('./data/MicrosoftXbox360.json'); // exclusives and launch titles
 const xboxOne = require('./data/MicrosoftXboxOne.json'); // exclusives and launch titles
@@ -53,6 +55,8 @@ const exclusiveLaunch = [
   { name: 'Sony PlayStation Portable', data: psp }, // 21
   { name: 'Super Nintendo Entertainment System', data: snes }, // 22
   { name: 'NEC TurboGrafx 16', data: tg16 }, // 23
+  { name: 'Atari 5200', data: a52 }, // 24
+  { name: 'Atari 7800', data: a78 }, // 25
   { name: 'Sony PlayStation 4', data: ps4 } // 48
 ];
 
@@ -96,6 +100,8 @@ module.exports.createMaster = () => {
 
     masterData['Sega Genesis'].teamPlayer = this.wordInDetails(gen, 'team player');
     masterData['Sega Genesis'].blackBoxGrid = this.wordInDetails(gen, 'black box grid');
+
+    masterData['Atari 5200'].fourPlayer = this.wordInDetails(a52, 'player game');
 
     fs.writeFile(
       // this is being done this way because I am still working on updating this data and adding to it in another repo

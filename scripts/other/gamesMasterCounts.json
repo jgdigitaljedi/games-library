@@ -103,6 +103,15 @@
     "launchTitles": 9,
     "multitap": 36
   },
+  "Atari 5200": {
+    "exclusives": 3,
+    "launchTitles": 3,
+    "fourPlayer": 4
+  },
+  "Atari 7800": {
+    "exclusives": 8,
+    "launchTitles": 7
+  },
   "Sony PlayStation 4": {
     "exclusives": 708,
     "launchTitles": 33

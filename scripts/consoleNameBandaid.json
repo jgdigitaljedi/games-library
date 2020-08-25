@@ -52,6 +52,14 @@
     "dataName": "Atari 2600"
   },
   {
+    "appName": "Atari 5200",
+    "dataName": "Atari 5200"
+  },
+  {
+    "appName": "Atari 7800",
+    "dataName": "Atari 7800"
+  },
+  {
     "appName": "Dreamcast",
     "dataName": "Sega Dreamcast"
   },
@@ -73,7 +81,7 @@
   },
   {
     "appName": "3DO Interactive Multiplayer",
-    "dataName": "3DO Interactive ultiplayer"
+    "dataName": "3DO Interactive Multiplayer"
   },
   {
     "appName": "Nintendo GameCube",

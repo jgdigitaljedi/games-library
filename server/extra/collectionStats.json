@@ -2,6 +2,130 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Golf It!",
+        "id": 30099,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Indie",
+          "Golf"
+        ],
+        "total_rating": 71,
+        "total_rating_count": 6,
+        "first_release_date": "02/16/2017",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-58340",
+        "gbid": 58340,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/34/341179/2919551-golfit-272x380.jpg",
+        "deck": "Golf It! is a multiplayer Minigolf game with a multiplayer Editor.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "6.29",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-26",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "08/26/2020 07:24 am",
+      "updatedAt": "08/26/2020 07:24 am",
+      "_id": "cbb9ccba15534b3f96f89edd6921b8eb",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/34/341179/2919551-golfit-272x380.jpg",
+      "description": "Golf It! is a multiplayer Minigolf game with a multiplayer Editor.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Crysis Wars",
+        "id": 28034,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "09/11/2008",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-55563",
+        "gbid": 55563,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/775/2952508-crysis%20wars.jpg",
+        "deck": "Standalone multiplayer game based on the multiplayer mode of Crysis. Packaged with Crysis Warhead.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-25",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "08/26/2020 07:25 am",
+      "updatedAt": "08/26/2020 07:25 am",
+      "_id": "441f428422454f73b5b51b9806f34406",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/775/2952508-crysis%20wars.jpg",
+      "description": "Standalone multiplayer game based on the multiplayer mode of Crysis. Packaged with Crysis Warhead.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Crysis Warhead",
+        "id": 336,
+        "genres": [
+          "Shooter",
+          "Adventure"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 140,
+        "first_release_date": "09/17/2008",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-21230",
+        "gbid": 21230,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2090569-box_crysiswar.png",
+        "deck": "A standalone expansion pack to Crysis, Warhead's campaign follows Sergeant Michael 'Psycho' Sykes, as he faces his own trials and challenges on the other side of the island, parallel to the events of the first game.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "5",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-25",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "08/26/2020 07:25 am",
+      "updatedAt": "08/26/2020 07:25 am",
+      "_id": "1ceecff773ec4eef81a54255767b411d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2090569-box_crysiswar.png",
+      "description": "A standalone expansion pack to Crysis, Warhead's campaign follows Sergeant Michael 'Psycho' Sykes, as he faces his own trials and challenges on the other side of the island, parallel to the events of the first game.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Titanfall 2",
         "id": 17447,
         "genres": [
@@ -84,163 +208,6 @@
       "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Super C",
-        "id": 84919,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 1,
-        "first_release_date": "08/26/2007",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Super Contra\r, Probotector II: Return of the Evil Forces",
-        "guid": "3030-10077",
-        "gbid": 10077,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2799396-7245693820-18113.jpg",
-        "deck": "Super Contra, also known as Super C, is the sequel to Contra. In addition to side-scrolling levels like its predecessor, Super Contra introduces top-down levels, which replace the third-person segments of the original. The NES version, uses the same gameplay engine as the NES version of Contra, with some levels not featured in the arcade version.",
-        "platforms": "Amiga, Nintendo Entertainment System, Arcade, Xbox 360 Games Store, Wii Shop, PC, Nintendo 3DS eShop, Wii U"
-      },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "19",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-08-22",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/23/2020 07:35 pm",
-      "updatedAt": "08/23/2020 07:35 pm",
-      "_id": "d58c4d97ca0844f5b53db23f5991b78d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2799396-7245693820-18113.jpg",
-      "description": "Super Contra, also known as Super C, is the sequel to Contra. In addition to side-scrolling levels like its predecessor, Super Contra introduces top-down levels, which replace the third-person segments of the original. The NES version, uses the same gameplay engine as the NES version of Contra, with some levels not featured in the arcade version.",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Town & Country Surf Designs: Wood & Water Rage",
-        "id": 48119,
-        "genres": [
-          "Sport",
-          "Arcade",
-          "Skateboarding",
-          "Surfing"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1987",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "T&C Surf Designs: Wood & Water Rage",
-        "guid": "3030-2963",
-        "gbid": 2963,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362325-nes_tandcsurfdesigns.jpg",
-        "deck": "One of the first extreme sports games released for consoles that included both surfing and skateboarding.",
-        "platforms": "Nintendo Entertainment System"
-      },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
-      "condition": "Good",
-      "case": "original",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-08-22",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "08/23/2020 07:34 pm",
-      "updatedAt": "08/23/2020 07:34 pm",
-      "_id": "868dc6c326474a29ae26f3ccc47823bf",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2362325-nes_tandcsurfdesigns.jpg",
-      "description": "One of the first extreme sports games released for consoles that included both surfing and skateboarding.",
-      "miltiplayerNumber": 2,
-      "extraData": [
-        "NES exclusive game"
-      ],
-      "extraDataFull": [
-        {
-          "id": "nes442",
-          "name": "Town & Country Surf Designs: Wood & Water Rage",
-          "details": [
-            "NES exclusive game"
-          ],
-          "igdbId": 48119,
-          "gbId": 2963,
-          "gbGuid": "3030-2963",
-          "tgdbId": 1461,
-          "isExclusive": [
-            {
-              "name": "Nintendo Entertainment System (NES)",
-              "id": "ccl1",
-              "igdbId": 18,
-              "gbId": 21,
-              "gbGuid": "3045-21",
-              "tgdbId": 7
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "PGA TOUR 2K21",
-        "id": 133939,
-        "genres": [
-          "Simulator",
-          "Sport",
-          "Golf"
-        ],
-        "total_rating": 78,
-        "total_rating_count": 3,
-        "first_release_date": "08/20/2020",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-78301",
-        "gbid": 78301,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
-        "deck": "2K Sports' second PGA golf game.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "70",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-22",
-      "howAcquired": "Steam",
-      "notes": "Deluxe Edition",
-      "createdAt": "08/23/2020 07:59 pm",
-      "updatedAt": "08/23/2020 07:59 pm",
-      "_id": "df12e91c7db84587a0e3970ad8f7ea8d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
-      "description": "2K Sports' second PGA golf game.",
-      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -814,7 +781,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 225,
+    "PC (Microsoft Windows)": 236,
     "Super Nintendo Entertainment System (SNES)": 18,
     "Nintendo Entertainment System (NES)": 49,
     "Nintendo 64": 31,
@@ -848,9 +815,9 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 269,
-    "NOT RATED": 234,
-    "T": 179,
+    "NOT RATED": 238,
+    "M": 272,
+    "T": 183,
     "E": 217,
     "E10+": 89,
     "RP": 14,
@@ -858,10 +825,11 @@
   },
   "physicalVsDigitalGames": {
     "physical": 625,
-    "digital": 378
+    "digital": 389
   },
   "gamesAcquisition": {
-    "Steam": 143,
+    "Steam": 144,
+    "GOG": 21,
     "GameOver": 225,
     "Video Games Monthly": 46,
     "eBay": 50,
@@ -869,7 +837,6 @@
     "Limited Run Games": 1,
     "Epic Games Store": 10,
     "PSN": 107,
-    "GOG": 11,
     "Origin": 2,
     "Twitch": 7,
     "UNKNOWN": 131,
@@ -905,31 +872,31 @@
   },
   "cibGames": 263,
   "gamesWithGenre": {
-    "shooter": 341,
-    "adventure": 357,
-    "fps": 158,
+    "simulator": 103,
+    "sport": 137,
+    "indie": 115,
+    "golf": 8,
+    "shooter": 347,
+    "adventure": 360,
+    "fps": 160,
     "platform": 188,
-    "sport": 136,
     "arcade": 86,
     "skateboarding": 6,
     "surfing": 1,
-    "simulator": 101,
-    "golf": 7,
-    "role-playing (rpg)": 136,
-    "indie": 114,
+    "role-playing (rpg)": 141,
+    "tactical": 27,
+    "strategy": 109,
+    "turn-based strategy (tbs)": 20,
     "racing": 116,
     "baseball": 5,
     "fighting": 65,
     "hack and slash/beat 'em up": 66,
     "game show": 1,
     "party game": 1,
-    "strategy": 108,
-    "tactical": 26,
     "third person shooter": 1,
     "hockey": 3,
     "quiz/trivia": 11,
     "party": 11,
-    "turn-based strategy (tbs)": 19,
     "puzzle": 106,
     "track": 1,
     "power pad": 1,
@@ -981,6 +948,10 @@
       "games": 33
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 29
+    },
+    {
       "dateFormatted": "03/2019",
       "games": 29
     },
@@ -989,16 +960,12 @@
       "games": 27
     },
     {
+      "dateFormatted": "07/2020",
+      "games": 25
+    },
+    {
       "dateFormatted": "05/2020",
       "games": 23
-    },
-    {
-      "dateFormatted": "08/2020",
-      "games": 22
-    },
-    {
-      "dateFormatted": "07/2020",
-      "games": 21
     },
     {
       "dateFormatted": "01/2019",
@@ -1084,7 +1051,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 261
+      "games": 272
     },
     {
       "dateFormatted": "2019",
@@ -1106,15 +1073,15 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 64
+      "value": 65
     },
     {
       "category": "Good (70 - 89)",
-      "value": 635
+      "value": 642
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 178
+      "value": 179
     },
     {
       "category": "Poor (30 - 49)",
@@ -1122,7 +1089,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 112
+      "value": 114
     }
   ],
   "consolesByCompany": {

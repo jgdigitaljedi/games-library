@@ -1,4 +1,6 @@
 const a2600 = require('./data/Atari2600.json');
+const a5200 = require('./data/Atari5200.json');
+const a7800 = require('./data/Atari7800.json');
 const xb360 = require('./data/MicrosoftXbox360.json');
 const xbOne = require('./data/MicrosoftXboxOne.json');
 const n64 = require('./data/Nintendo64.json');
@@ -54,7 +56,9 @@ const igdbIdToFile = {
   '35': sGg,
   '86': tg16,
   '59': a2600,
-  '6': null // PC
+  '6': null, //pc
+  '66': a5200,
+  '60': a7800
 };
 
 module.exports.getFileRef = id => {

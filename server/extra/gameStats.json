@@ -13,6 +13,10 @@
       }
     }
   },
+  "Atari 7800": {
+    "isLaunchTitle": 1,
+    "isExclusive": 0
+  },
   "Nintendo GameCube": {
     "isLaunchTitle": 1,
     "isExclusive": 14
@@ -126,5 +130,9 @@
   "Nintendo Game Boy Advance": {
     "isLaunchTitle": 2,
     "isExclusive": 3
+  },
+  "Super Nintendo Entertainment System (SNES)": {
+    "isLaunchTitle": 3,
+    "isExclusive": 1
   }
 }

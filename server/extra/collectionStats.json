@@ -2,67 +2,28 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Golf It!",
-        "id": 30099,
+        "name": "Shadowrun: Dragonfall - Director's Cut",
+        "id": 8864,
         "genres": [
-          "Simulator",
-          "Sport",
-          "Indie",
-          "Golf"
+          "Role-playing (RPG)",
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "Adventure",
+          "Indie"
         ],
-        "total_rating": 71,
-        "total_rating_count": 6,
-        "first_release_date": "02/16/2017",
+        "total_rating": 84,
+        "total_rating_count": 46,
+        "first_release_date": "09/17/2014",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-58340",
-        "gbid": 58340,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/34/341179/2919551-golfit-272x380.jpg",
-        "deck": "Golf It! is a multiplayer Minigolf game with a multiplayer Editor.",
-        "platforms": "PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "6.29",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-26",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "08/26/2020 07:24 am",
-      "updatedAt": "08/26/2020 07:24 am",
-      "_id": "cbb9ccba15534b3f96f89edd6921b8eb",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/34/341179/2919551-golfit-272x380.jpg",
-      "description": "Golf It! is a multiplayer Minigolf game with a multiplayer Editor.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Crysis Wars",
-        "id": 28034,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "09/11/2008",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-55563",
-        "gbid": 55563,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/775/2952508-crysis%20wars.jpg",
-        "deck": "Standalone multiplayer game based on the multiplayer mode of Crysis. Packaged with Crysis Warhead.",
-        "platforms": "PC"
+        "guid": "3030-47411",
+        "gbid": 47411,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2670996-dfdcimage.jpg",
+        "deck": "A standalone version of Shadowrun Returns's expansion, Shadowrun: Dragonfall, with new quests and areas, and improved combat and UI.  Also includes a game editor that allows players to create their own SR adventures and share with others",
+        "platforms": "Mac, PC, iPad, Android, Linux"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
@@ -73,78 +34,126 @@
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-25",
-      "howAcquired": "GOG",
+      "datePurchased": "2020-08-28",
+      "howAcquired": "Epic Games Store",
       "notes": "",
-      "createdAt": "08/26/2020 07:25 am",
-      "updatedAt": "08/26/2020 07:25 am",
-      "_id": "441f428422454f73b5b51b9806f34406",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/775/2952508-crysis%20wars.jpg",
-      "description": "Standalone multiplayer game based on the multiplayer mode of Crysis. Packaged with Crysis Warhead.",
+      "createdAt": "08/28/2020 07:06 pm",
+      "updatedAt": "08/28/2020 07:06 pm",
+      "_id": "e632651fa9904aaea42f23eb1b863a13",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2670996-dfdcimage.jpg",
+      "description": "A standalone version of Shadowrun Returns's expansion, Shadowrun: Dragonfall, with new quests and areas, and improved combat and UI.  Also includes a game editor that allows players to create their own SR adventures and share with others",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Crysis Warhead",
-        "id": 336,
+        "name": "Shadowrun Returns",
+        "id": 3020,
         "genres": [
-          "Shooter",
-          "Adventure"
+          "Role-playing (RPG)",
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "Adventure",
+          "Indie"
         ],
-        "total_rating": 77,
-        "total_rating_count": 140,
-        "first_release_date": "09/17/2008",
+        "total_rating": 75,
+        "total_rating_count": 107,
+        "first_release_date": "07/24/2013",
         "developers": "",
-        "esrb": "M"
+        "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-21230",
-        "gbid": 21230,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2090569-box_crysiswar.png",
-        "deck": "A standalone expansion pack to Crysis, Warhead's campaign follows Sergeant Michael 'Psycho' Sykes, as he faces his own trials and challenges on the other side of the island, parallel to the events of the first game.",
-        "platforms": "PC"
+        "guid": "3030-37894",
+        "gbid": 37894,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/16944/2968682-shadowrun-returns-cover-thumb.jpg",
+        "deck": "Shadowrun Returns is a turn-based RPG created by Harebrained Schemes.",
+        "platforms": "Mac, PC, iPad, Android, Linux"
       },
       "consoleName": "PC (Microsoft Windows)",
       "consoleIgdbId": 6,
       "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "5",
+      "pricePaid": "0",
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-25",
-      "howAcquired": "GOG",
+      "datePurchased": "2020-08-28",
+      "howAcquired": "Epic Games Store",
       "notes": "",
-      "createdAt": "08/26/2020 07:25 am",
-      "updatedAt": "08/26/2020 07:25 am",
-      "_id": "1ceecff773ec4eef81a54255767b411d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2090569-box_crysiswar.png",
-      "description": "A standalone expansion pack to Crysis, Warhead's campaign follows Sergeant Michael 'Psycho' Sykes, as he faces his own trials and challenges on the other side of the island, parallel to the events of the first game.",
+      "createdAt": "08/28/2020 07:05 pm",
+      "updatedAt": "08/28/2020 07:05 pm",
+      "_id": "2d77ae8eccb147a4b1ded5e00c98f068",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/16944/2968682-shadowrun-returns-cover-thumb.jpg",
+      "description": "Shadowrun Returns is a turn-based RPG created by Harebrained Schemes.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Titanfall 2",
-        "id": 17447,
+        "name": "Shadowrun: Hong Kong",
+        "id": 11772,
+        "genres": [
+          "Role-playing (RPG)",
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "Tactical",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 27,
+        "first_release_date": "08/19/2015",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-48586",
+        "gbid": 48586,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2717105-srhk.jpg",
+        "deck": "A new Shadowrun CRPG by Harebrained Schemes partially funded through Kickstarter.",
+        "platforms": "Mac, PC, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-28",
+      "howAcquired": "Epic Games Store",
+      "notes": "",
+      "createdAt": "08/28/2020 07:05 pm",
+      "updatedAt": "08/28/2020 07:05 pm",
+      "_id": "044b8928a2054ad4adc94f177d56f0bf",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2717105-srhk.jpg",
+      "description": "A new Shadowrun CRPG by Harebrained Schemes partially funded through Kickstarter.",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Remnant: From the Ashes",
+        "id": 105049,
         "genres": [
           "Shooter",
-          "Adventure",
-          "FPS"
+          "Role-playing (RPG)",
+          "Adventure"
         ],
-        "total_rating": 85,
-        "total_rating_count": 340,
-        "first_release_date": "10/27/2016",
+        "total_rating": 76,
+        "total_rating_count": 55,
+        "first_release_date": "08/19/2019",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-49139",
-        "gbid": 49139,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2895132-t2.jpg",
-        "deck": "The sequel to Respawn's sci-fi mech-filled first-person shooter, Titanfall 2 adds a deep single-player campaign and revamped multiplayer.",
+        "guid": "3030-69755",
+        "gbid": 69755,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3121656-box_rfta.png",
+        "deck": "Remnant: From the Ashes is a third-person survival action game where up to 4 players can fight, adapt and overcome the perils of diverse and deadly environments.",
         "platforms": "PC, Xbox One, PlayStation 4"
       },
       "consoleName": "PC (Microsoft Windows)",
@@ -152,62 +161,61 @@
       "consoleGbGuid": "",
       "condition": "Other",
       "case": "none",
-      "pricePaid": "10",
+      "pricePaid": "0",
       "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-23",
-      "howAcquired": "Steam",
+      "datePurchased": "2020-08-28",
+      "howAcquired": "Epic Games Store",
       "notes": "",
-      "createdAt": "08/23/2020 07:58 pm",
-      "updatedAt": "08/23/2020 07:58 pm",
-      "_id": "e14bd1eff0ca428d87beb3ba49485fd9",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2895132-t2.jpg",
-      "description": "The sequel to Respawn's sci-fi mech-filled first-person shooter, Titanfall 2 adds a deep single-player campaign and revamped multiplayer.",
+      "createdAt": "08/28/2020 07:04 pm",
+      "updatedAt": "08/28/2020 07:04 pm",
+      "_id": "591bd044943b4e9897e13c96e2a880ec",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3121656-box_rfta.png",
+      "description": "Remnant: From the Ashes is a third-person survival action game where up to 4 players can fight, adapt and overcome the perils of diverse and deadly environments.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Super Mario World 2: Yoshi's Island",
-        "id": 1073,
+        "name": "HITMAN",
+        "id": 11157,
         "genres": [
-          "Platform"
+          "Shooter",
+          "Tactical",
+          "Adventure"
         ],
-        "total_rating": 95,
-        "total_rating_count": 360,
-        "first_release_date": "08/04/1995",
+        "total_rating": 80,
+        "total_rating_count": 311,
+        "first_release_date": "03/10/2016",
         "developers": "",
-        "esrb": ""
+        "esrb": "M"
       },
       "gb": {
-        "aliases": "Yoshi's Island",
-        "guid": "3030-2866",
-        "gbid": 2866,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364715-snes_yoshis_island.jpg",
-        "deck": "A spin-off of the Super Mario platforming series, Yoshi's Island puts players in control of a tribe of Yoshies as they guide the infant Mario past the forces of the evil Kamek.",
-        "platforms": "Game Boy Advance, Super Nintendo Entertainment System, Nintendo Switch"
+        "aliases": "Hitman 6",
+        "guid": "3030-45150",
+        "gbid": 45150,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124186-1671936150-packs.jpg",
+        "deck": "The sixth game in IO Interactive's stealth murder franchise, simply titled Hitman, adopts an episodic design which continually introduces new assassination contracts for players to undertake.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Google Stadia"
       },
-      "consoleName": "Super Nintendo Entertainment System (SNES)",
-      "consoleIgdbId": 19,
-      "consoleGbid": 9,
-      "consoleGbGuid": "3045-9",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "25",
-      "physical": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
       "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-08-22",
-      "howAcquired": "GameOver",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-28",
+      "howAcquired": "Epic Games Store",
       "notes": "",
-      "createdAt": "08/23/2020 07:35 pm",
-      "updatedAt": "08/23/2020 07:35 pm",
-      "_id": "53634c5508d44096895ce46bda2af9f3",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364715-snes_yoshis_island.jpg",
-      "description": "A spin-off of the Super Mario platforming series, Yoshi's Island puts players in control of a tribe of Yoshies as they guide the infant Mario past the forces of the evil Kamek.",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
+      "createdAt": "08/28/2020 07:02 pm",
+      "updatedAt": "08/28/2020 07:02 pm",
+      "_id": "67ff680d1dc04842946b62587e9148b2",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124186-1671936150-packs.jpg",
+      "description": "The sixth game in IO Interactive's stealth murder franchise, simply titled Hitman, adopts an episodic design which continually introduces new assassination contracts for players to undertake.",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -781,7 +789,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 236,
+    "PC (Microsoft Windows)": 281,
     "Super Nintendo Entertainment System (SNES)": 18,
     "Nintendo Entertainment System (NES)": 49,
     "Nintendo 64": 31,
@@ -815,30 +823,30 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 238,
-    "M": 272,
-    "T": 183,
-    "E": 217,
-    "E10+": 89,
+    "NOT RATED": 259,
+    "T": 196,
+    "M": 277,
+    "E": 219,
+    "E10+": 93,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 625,
-    "digital": 389
+    "digital": 434
   },
   "gamesAcquisition": {
-    "Steam": 144,
+    "Epic Games Store": 21,
+    "Twitch": 39,
+    "Steam": 146,
     "GOG": 21,
     "GameOver": 225,
     "Video Games Monthly": 46,
     "eBay": 50,
     "Green Man Gaming": 2,
     "Limited Run Games": 1,
-    "Epic Games Store": 10,
     "PSN": 107,
     "Origin": 2,
-    "Twitch": 7,
     "UNKNOWN": 131,
     "Battle.net": 1,
     "bought from Solis": 23,
@@ -872,32 +880,33 @@
   },
   "cibGames": 263,
   "gamesWithGenre": {
-    "simulator": 103,
-    "sport": 137,
-    "indie": 115,
+    "role-playing (rpg)": 157,
+    "strategy": 118,
+    "turn-based strategy (tbs)": 24,
+    "adventure": 385,
+    "indie": 144,
+    "tactical": 29,
+    "shooter": 359,
+    "arcade": 92,
+    "fighting": 67,
+    "sport": 139,
+    "hack and slash/beat 'em up": 69,
+    "point-and-click": 12,
+    "fps": 161,
+    "simulator": 109,
     "golf": 8,
-    "shooter": 347,
-    "adventure": 360,
-    "fps": 160,
-    "platform": 188,
-    "arcade": 86,
+    "platform": 191,
     "skateboarding": 6,
     "surfing": 1,
-    "role-playing (rpg)": 141,
-    "tactical": 27,
-    "strategy": 109,
-    "turn-based strategy (tbs)": 20,
-    "racing": 116,
+    "racing": 117,
     "baseball": 5,
-    "fighting": 65,
-    "hack and slash/beat 'em up": 66,
     "game show": 1,
     "party game": 1,
     "third person shooter": 1,
     "hockey": 3,
     "quiz/trivia": 11,
     "party": 11,
-    "puzzle": 106,
+    "puzzle": 111,
     "track": 1,
     "power pad": 1,
     "fishing": 2,
@@ -908,10 +917,9 @@
     "real time strategy (rts)": 11,
     "japanese": 2,
     "import": 2,
-    "music": 28,
+    "music": 29,
     "mech": 1,
     "horror": 2,
-    "point-and-click": 11,
     "on-rails-shooter": 1,
     "building": 1,
     "visual novel": 1,
@@ -920,7 +928,8 @@
     "third=person shooter": 1,
     "run-n-gun": 1,
     "vehicular combat": 3,
-    "skiing": 1
+    "skiing": 1,
+    "card & board game": 1
   },
   "gamesAddedInMonth": [
     {
@@ -936,6 +945,10 @@
       "games": 44
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 41
+    },
+    {
       "dateFormatted": "06/2020",
       "games": 41
     },
@@ -946,10 +959,6 @@
     {
       "dateFormatted": "05/2019",
       "games": 33
-    },
-    {
-      "dateFormatted": "08/2020",
-      "games": 29
     },
     {
       "dateFormatted": "03/2019",
@@ -965,7 +974,7 @@
     },
     {
       "dateFormatted": "05/2020",
-      "games": 23
+      "games": 24
     },
     {
       "dateFormatted": "01/2019",
@@ -1051,7 +1060,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 272
+      "games": 285
     },
     {
       "dateFormatted": "2019",
@@ -1077,19 +1086,19 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 642
+      "value": 669
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 179
+      "value": 189
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 11
+      "value": 12
     },
     {
       "category": "Terrible (< 30)",
-      "value": 114
+      "value": 121
     }
   ],
   "consolesByCompany": {

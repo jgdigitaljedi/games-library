@@ -103,7 +103,12 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   }, [dc, filterResults]);
 
   useEffect(() => {
-    if (!data || data.length === 1 || !masterData || masterData.length === 1) {
+    if (
+      !data ||
+      (data.length === 1 && !data[0].hasOwnProperty('_id')) ||
+      !masterData ||
+      (masterData.length === 1 && !masterData[0].hasOwnProperty('_id'))
+    ) {
       getData();
     }
     if (!everDrives || everDrives.length === 1) {
@@ -127,7 +132,8 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       </div>
       <div className="decider--results">
         {data &&
-          data.length > 1 &&
+          data.length &&
+          data[0].hasOwnProperty('_id') &&
           data.map((d, index) => (
             <GameCard
               data={d}
@@ -135,7 +141,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
               cardClicked={cardClicked}
             />
           ))}
-        {(!data || data.length === 1) && <ProgressSpinner />}
+        {(!data || (data.length === 1 && !data[0].hasOwnProperty('_id'))) && <ProgressSpinner />}
       </div>
       <Dialog
         visible={showModal}

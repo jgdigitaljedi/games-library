@@ -10430,7 +10430,7 @@
     "igdb": {
       "name": "Darius Alpha",
       "id": 38075,
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/15/1990",
@@ -10810,7 +10810,7 @@
     "igdb": {
       "name": "FINAL SOLDIER",
       "id": 37712,
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/22/1991",
@@ -10896,7 +10896,7 @@
     "igdb": {
       "name": "Gai Flame",
       "id": 43189,
-      "genres": ["Role-playing (RPG)"],
+      "genres": ["Role-playing (RPG)", "Mech", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/14/1988",
@@ -10939,7 +10939,7 @@
     "igdb": {
       "name": "Gaia no Monshou",
       "id": 42063,
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/22/1988",
@@ -10982,7 +10982,7 @@
     "igdb": {
       "name": "Gekisha Boy",
       "id": 63467,
-      "genres": [],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/01/1992",
@@ -11025,7 +11025,7 @@
     "igdb": {
       "name": "Genji Tsuushin Agedama",
       "id": 42073,
-      "genres": ["Shooter", "Platform"],
+      "genres": ["Shooter", "Platform", "Auto-scroller"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/12/1991",
@@ -11140,7 +11140,7 @@
     "igdb": {
       "name": "GUNHED",
       "id": 37710,
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/05/1989",
@@ -11219,7 +11219,7 @@
     "igdb": {
       "name": "Hisou Kihei Kai Serd",
       "id": 42034,
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Mech"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/21/1990",
@@ -11262,7 +11262,7 @@
     "igdb": {
       "name": "Hani In The Sky",
       "id": 37685,
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/27/1989",
@@ -11305,7 +11305,7 @@
     "igdb": {
       "name": "Hanii on the Road",
       "id": 42068,
-      "genres": ["Platform"],
+      "genres": ["Platform", "Action"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/06/1990",
@@ -11348,7 +11348,7 @@
     "igdb": {
       "name": "Honoo no Toukyuuji: Dodge Danpei",
       "id": 45621,
-      "genres": ["Sport"],
+      "genres": ["Sport", "Dodgeball"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/09/1992",
@@ -11506,7 +11506,7 @@
     "igdb": {
       "name": "Jinmu Denshou Yaksa",
       "id": 37683,
-      "genres": ["Platform"],
+      "genres": ["Platform", "On-rails-shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/19/1989",
@@ -11714,7 +11714,7 @@
     "igdb": {
       "name": "King Of Casino",
       "id": 42105,
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Casino"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -11781,7 +11781,7 @@
     "igdb": {
       "name": "Kore ga Pro Yakyuu '89",
       "id": 42037,
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/19/1989",
@@ -11824,7 +11824,7 @@
     "igdb": {
       "name": "Kore ga Pro Yakyuu '90",
       "id": 37686,
-      "genres": ["Sport", "Strategy"],
+      "genres": ["Sport", "Strategy", "Baseball"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/28/1990",
@@ -12434,7 +12434,7 @@
     "igdb": {
       "name": "NAXAT OPEN",
       "id": 37707,
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -12520,7 +12520,7 @@
     "igdb": {
       "name": "Necromancer",
       "id": 18661,
-      "genres": ["Arcade"],
+      "genres": ["Arcade", "Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1982",
@@ -12563,7 +12563,7 @@
     "igdb": {
       "name": "Nekketsu Koukou Dodgeball Bu: MD Soccer Hen",
       "id": 46677,
-      "genres": ["Sport"],
+      "genres": ["Sport", "Dodgeball"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/05/1992",
@@ -13125,7 +13125,7 @@
     "igdb": {
       "name": "Rock On",
       "id": 37658,
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/21/1989",
@@ -13168,7 +13168,7 @@
     "igdb": {
       "name": "R-Type II",
       "id": 6854,
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "SHMUP"],
       "total_rating": 76,
       "total_rating_count": 9,
       "first_release_date": "12/30/1989",
@@ -13512,7 +13512,7 @@
     "igdb": {
       "name": "Saint Dragon",
       "id": 12207,
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -13555,7 +13555,7 @@
     "igdb": {
       "name": "Eternal City",
       "id": 91920,
-      "genres": [],
+      "genres": ["Action", "Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -13598,7 +13598,7 @@
     "igdb": {
       "name": "Tower Of Druaga: Tower Of Defender",
       "id": 76964,
-      "genres": [],
+      "genres": ["Action", "Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/22/2009",
@@ -13684,7 +13684,7 @@
     "igdb": {
       "name": "Wallaby!! Usagi no Kuni no Kangaroo Race",
       "id": 62084,
-      "genres": [],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -13727,7 +13727,7 @@
     "igdb": {
       "name": "Valkyrie no Densetsu",
       "id": 42080,
-      "genres": ["Adventure"],
+      "genres": ["Adventure", "Action"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/08/1990",
@@ -13770,7 +13770,7 @@
     "igdb": {
       "name": "W Ring: The Double Rings",
       "id": 64746,
-      "genres": [],
+      "genres": ["Shooter", "Shmup"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -14034,7 +14034,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Gambling"],
       "name": "Menghuan Shuiguo Pan: 777 Casino",
       "id": 4392,
       "total_rating": null,
@@ -14122,7 +14122,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "ATP Tour Championship Tennis",
       "id": 46234,
       "total_rating": null,
@@ -14190,7 +14190,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Wrestling"],
       "name": "Aa Harimanada",
       "id": 49121,
       "total_rating": null,
@@ -14322,7 +14322,7 @@
   },
   {
     "igdb": {
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "name": "Advanced Daisenryaku: Deutsch Dengeki Sakusen",
       "id": 65524,
       "total_rating": null,
@@ -14479,7 +14479,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Aero Blasters",
       "id": 12491,
       "total_rating": null,
@@ -15262,7 +15262,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "Andre Agassi Tennis",
       "id": 4525,
       "total_rating": null,
@@ -15439,7 +15439,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Arch Rivals: The Arcade Game",
       "id": 4515,
       "total_rating": null,
@@ -15597,7 +15597,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Golf"],
       "name": "Arnold Palmer Tournament Golf",
       "id": 12869,
       "total_rating": null,
@@ -15924,7 +15924,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Atomic Robo-Kid",
       "id": 11921,
       "total_rating": null,
@@ -16013,7 +16013,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Rugby"],
       "name": "Australian Rugby League",
       "id": 45756,
       "total_rating": null,
@@ -16620,7 +16620,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Barkley: Shut Up and Jam!",
       "id": 4520,
       "total_rating": null,
@@ -16689,7 +16689,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Barkley: Shut Up and Jam 2",
       "id": 4524,
       "total_rating": null,
@@ -16839,7 +16839,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Fishing"],
       "name": "Bass Masters Classic: Pro Edition",
       "id": 46285,
       "total_rating": null,
@@ -16884,7 +16884,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Fishing"],
       "name": "Bass Masters Classic: Pro Edition",
       "id": 46285,
       "total_rating": null,
@@ -16998,7 +16998,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform", "Action"],
       "name": "Batman: Revenge of the Joker",
       "id": 45204,
       "total_rating": null,
@@ -17035,7 +17035,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform", "Action"],
       "name": "Batman Forever",
       "id": 19856,
       "total_rating": 70,
@@ -17149,7 +17149,7 @@
   },
   {
     "igdb": {
-      "genres": ["Role-playing (RPG)", "Sport", "Adventure"],
+      "genres": ["Role-playing (RPG)", "Sport", "Adventure", "Golf"],
       "name": "Battle Golfer Yui",
       "id": 4470,
       "total_rating": null,
@@ -17435,7 +17435,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Wrestling"],
       "name": "Beast Wrestler",
       "id": 46239,
       "total_rating": null,
@@ -17892,7 +17892,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "Bill Walsh College Football '95",
       "id": 5364,
       "total_rating": null,
@@ -17968,7 +17968,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Strategy"],
+      "genres": ["Sport", "Strategy", "Football"],
       "name": "Bill Walsh College Football",
       "id": 5363,
       "total_rating": null,
@@ -18088,7 +18088,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Bio-Hazard Battle",
       "id": 4517,
       "total_rating": null,
@@ -18513,7 +18513,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Boxing"],
       "name": "Boxing Legends of the Ring",
       "id": 38366,
       "total_rating": null,
@@ -18602,7 +18602,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "Brett Hull Hockey 95",
       "id": 46231,
       "total_rating": null,
@@ -18647,7 +18647,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Cricket"],
       "name": "Brian Lara Cricket '96",
       "id": 4383,
       "total_rating": null,
@@ -19051,7 +19051,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Bulls Versus Blazers and the NBA Playoffs",
       "id": 46284,
       "total_rating": null,
@@ -19095,7 +19095,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Bulls vs Lakers and the NBA Playoffs",
       "id": 46067,
       "total_rating": null,
@@ -19139,7 +19139,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Burning Force",
       "id": 39492,
       "total_rating": null,
@@ -19183,7 +19183,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Gambling", "Strategy"],
       "name": "Caesars Palace",
       "id": 9999,
       "total_rating": null,
@@ -19228,7 +19228,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Cal Ripken Jr. Baseball",
       "id": 46230,
       "total_rating": null,
@@ -19272,7 +19272,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Top-down shooter", "Shooter", "Run-n-gun"],
       "name": "Caliber Fifty",
       "id": 73440,
       "total_rating": null,
@@ -19316,7 +19316,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Surfing", "Skateboarding"],
       "name": "California Games",
       "id": 11984,
       "total_rating": 76,
@@ -19386,7 +19386,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Strategy"],
+      "genres": ["Shooter", "Strategy", "Top-down shooter"],
       "name": "Cannon Fodder",
       "id": 5519,
       "total_rating": 85,
@@ -19820,7 +19820,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Champions World Class Soccer",
       "id": 46229,
       "total_rating": null,
@@ -19864,7 +19864,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Bowling"],
       "name": "Championship Bowling",
       "id": 4408,
       "total_rating": null,
@@ -19908,7 +19908,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Pool"],
       "name": "Championship Pool",
       "id": 4538,
       "total_rating": 43,
@@ -20204,7 +20204,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "Chi Chi's Pro Challenge Golf",
       "id": 4442,
       "total_rating": null,
@@ -20354,7 +20354,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Chou Kyuukai Miracle Nine",
       "id": 45733,
       "total_rating": null,
@@ -20608,7 +20608,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Coach K College Basketball",
       "id": 46226,
       "total_rating": null,
@@ -20683,7 +20683,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "College Football USA 96",
       "id": 46536,
       "total_rating": null,
@@ -20758,7 +20758,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "College Football USA 97",
       "id": 46537,
       "total_rating": null,
@@ -20802,7 +20802,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "College Football's National Championship",
       "id": 4386,
       "total_rating": null,
@@ -20889,7 +20889,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Arcade"],
+      "genres": ["Sport", "Arcade", "Basketball"],
       "name": "College Slam",
       "id": 4541,
       "total_rating": 55,
@@ -21185,7 +21185,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Real Time Strategy (RTS)", "Strategy"],
       "name": "Command & Conquer",
       "id": 9999,
       "total_rating": null,
@@ -21395,7 +21395,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Top-down shooter", "Run-n-gun"],
       "name": "Crack Down",
       "id": 12015,
       "total_rating": null,
@@ -21440,7 +21440,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action"],
       "name": "Crayon Shin-chan: Arashi O Yobu - Neandororon Daihenshi",
       "id": 20476,
       "total_rating": 80,
@@ -21484,7 +21484,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Run"],
       "name": "Super Airwolf",
       "id": 45548,
       "total_rating": null,
@@ -21754,7 +21754,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Curse",
       "id": 4448,
       "total_rating": null,
@@ -21957,7 +21957,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Strategy"],
+      "genres": ["Sport", "Strategy", "Football"],
       "name": "Cyberball",
       "id": 12022,
       "total_rating": null,
@@ -22374,7 +22374,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Dangerous Seed",
       "id": 40048,
       "total_rating": null,
@@ -22500,7 +22500,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Racing"],
       "name": "Dashin' Desperadoes",
       "id": 46247,
       "total_rating": null,
@@ -22575,7 +22575,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "David Crane's Amazing Tennis",
       "id": 46534,
       "total_rating": null,
@@ -22644,7 +22644,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "David Robinson's Supreme Court",
       "id": 46533,
       "total_rating": null,
@@ -22731,7 +22731,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "Davis Cup World Tour",
       "id": 46066,
       "total_rating": null,
@@ -22857,7 +22857,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "FPS"],
       "name": "Death Duel",
       "id": 46224,
       "total_rating": null,
@@ -23162,7 +23162,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Strategy"],
+      "genres": ["Shooter", "Strategy", "SHMUP"],
       "name": "Desert Strike: Return to the Gulf",
       "id": 6798,
       "total_rating": 83,
@@ -23207,7 +23207,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "New 3D Golf Simulation: Devil's Course",
       "id": 45748,
       "total_rating": null,
@@ -23244,7 +23244,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Brick-breaker", "Action"],
       "name": "Devilish: The Next Possession",
       "id": 46222,
       "total_rating": null,
@@ -23395,7 +23395,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Dick Vitale's \"Awesome, Baby!\" College Hoops",
       "id": 4424,
       "total_rating": null,
@@ -23439,7 +23439,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Dino Dini's Soccer",
       "id": 45747,
       "total_rating": null,
@@ -23507,7 +23507,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Pinball"],
       "name": "Dino Land",
       "id": 4430,
       "total_rating": null,
@@ -23917,7 +23917,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Platform"],
+      "genres": ["Shooter", "Platform", "Run-n-gun"],
       "name": "Doom Troopers: Mutant Chronicles",
       "id": 4544,
       "total_rating": null,
@@ -24253,7 +24253,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Double Dribble: The Playoff Edition",
       "id": 4433,
       "total_rating": null,
@@ -24960,7 +24960,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport"],
       "name": "EA Sports Double Header",
       "id": 78074,
       "total_rating": null,
@@ -25164,7 +25164,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "ESPN Baseball Tonight",
       "id": 5380,
       "total_rating": null,
@@ -25209,7 +25209,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "ESPN National Hockey Night",
       "id": 5381,
       "total_rating": null,
@@ -25278,7 +25278,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Racing"],
       "name": "ESPN Speedworld",
       "id": 9999,
       "total_rating": null,
@@ -25323,7 +25323,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "ESPN Sunday Night NFL",
       "id": 5382,
       "total_rating": null,
@@ -25565,7 +25565,7 @@
   },
   {
     "igdb": {
-      "genres": ["Platform"],
+      "genres": ["Platform", "Action"],
       "name": "El Viento",
       "id": 81222,
       "total_rating": null,
@@ -25641,7 +25641,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Elemental Master",
       "id": 46218,
       "total_rating": null,
@@ -26033,7 +26033,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator"],
+      "genres": ["Simulator", "Shooter"],
       "name": "F-117 Night Storm",
       "id": 46216,
       "total_rating": null,
@@ -26108,7 +26108,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator"],
+      "genres": ["Simulator", "Shooter"],
       "name": "F-15 Strike Eagle II",
       "id": 12084,
       "total_rating": null,
@@ -26153,7 +26153,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator"],
+      "genres": ["Simulator", "Shooter"],
       "name": "F-22 Interceptor",
       "id": 19494,
       "total_rating": null,
@@ -26461,7 +26461,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "FIFA Soccer 95",
       "id": 4539,
       "total_rating": 66,
@@ -26536,7 +26536,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "FIFA: Road to World Cup 98",
       "id": 705,
       "total_rating": 86,
@@ -26758,7 +26758,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Racing"],
       "name": "Fastest 1",
       "id": 122854,
       "total_rating": null,
@@ -26962,7 +26962,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Role-playing (RPG)"],
       "name": "Fengshen Yingjiezhuan",
       "id": 93061,
       "total_rating": null,
@@ -27050,7 +27050,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform"],
       "name": "Fido Dido",
       "id": 93010,
       "total_rating": null,
@@ -27214,7 +27214,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Fire Mustang",
       "id": 4413,
       "total_rating": null,
@@ -27258,7 +27258,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Wrestling"],
       "name": "Fire Pro Wrestling Gaiden",
       "id": 45534,
       "total_rating": null,
@@ -27295,7 +27295,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Fire Shark",
       "id": 39647,
       "total_rating": null,
@@ -27484,7 +27484,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Boxing"],
       "name": "Foreman for Real",
       "id": 19741,
       "total_rating": null,
@@ -27599,7 +27599,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Frank Thomas Big Hurt Baseball",
       "id": 20405,
       "total_rating": 55,
@@ -27921,7 +27921,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Grind Stormer",
       "id": 4420,
       "total_rating": null,
@@ -28010,7 +28010,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Gaiares",
       "id": 93373,
       "total_rating": null,
@@ -28200,7 +28200,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Strategy", "Puzzle"],
       "name": "Gambler Jiko Chuushinha: Katayama Masayuki no Mahjong Dojo",
       "id": 107590,
       "total_rating": null,
@@ -28402,7 +28402,7 @@
   },
   {
     "igdb": {
-      "genres": ["Adventure"],
+      "genres": ["Adventure", "Hack and slash/Beat 'em up"],
       "name": "Gauntlet Arcade Version",
       "id": 45533,
       "total_rating": null,
@@ -28611,7 +28611,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Boxing"],
       "name": "George Foreman's KO Boxing",
       "id": 48164,
       "total_rating": 53,
@@ -28831,7 +28831,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Advanced Busterhawk Gleylancer",
       "id": 6470,
       "total_rating": null,
@@ -29174,7 +29174,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Top-down shooter"],
       "name": "Granada",
       "id": 46209,
       "total_rating": null,
@@ -29306,7 +29306,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Adventure"],
       "name": "Greendog: The Beached Surfer Dude!",
       "id": 45792,
       "total_rating": null,
@@ -29555,7 +29555,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "HardBall!",
       "id": 12136,
       "total_rating": null,
@@ -29600,7 +29600,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "HardBall '95",
       "id": 45782,
       "total_rating": null,
@@ -29637,7 +29637,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "HardBall III",
       "id": 12466,
       "total_rating": null,
@@ -29681,7 +29681,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "HardBall!",
       "id": 12136,
       "total_rating": null,
@@ -29771,7 +29771,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Platform"],
+      "genres": ["Fighting", "Platform", "Mech"],
       "name": "Heavy Nova",
       "id": 5392,
       "total_rating": null,
@@ -29816,7 +29816,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Heavy Unit: Mega Drive Special",
       "id": 4495,
       "total_rating": null,
@@ -29860,7 +29860,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Role-playing (RPG)", "Arcade"],
+      "genres": ["Shooter", "Role-playing (RPG)", "Arcade", "SHMUP"],
       "name": "Hellfire",
       "id": 19503,
       "total_rating": null,
@@ -30075,7 +30075,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "Hit the Ice: The Video Hockey League",
       "id": 46208,
       "total_rating": null,
@@ -30266,7 +30266,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Dodgeball"],
       "name": "Honoo no Toukyuuji: Dodge Danpei",
       "id": 45621,
       "total_rating": null,
@@ -30400,7 +30400,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action"],
       "name": "Hurricanes",
       "id": 46347,
       "total_rating": null,
@@ -30444,7 +30444,7 @@
   },
   {
     "igdb": {
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "name": "The Hybrid Front",
       "id": 45620,
       "total_rating": null,
@@ -30593,7 +30593,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "IMG International Tour Tennis",
       "id": 46207,
       "total_rating": null,
@@ -30802,7 +30802,7 @@
   },
   {
     "igdb": {
-      "genres": ["Platform"],
+      "genres": ["Platform", "Brawler"],
       "name": "The Incredible Hulk",
       "id": 94829,
       "total_rating": null,
@@ -30847,7 +30847,7 @@
   },
   {
     "igdb": {
-      "genres": ["Platform"],
+      "genres": ["Platform", "Action"],
       "name": "Indiana Jones and the Last Crusade: The Action Game",
       "id": 185,
       "total_rating": 74,
@@ -30892,7 +30892,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Insector X",
       "id": 39455,
       "total_rating": null,
@@ -30937,7 +30937,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Rugby"],
       "name": "International Rugby",
       "id": 45709,
       "total_rating": null,
@@ -30981,7 +30981,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "International Superstar Soccer Deluxe",
       "id": 9862,
       "total_rating": 81,
@@ -31221,7 +31221,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "J. League Pro Striker 2",
       "id": 45727,
       "total_rating": null,
@@ -31282,7 +31282,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "J. League Pro Striker Final Stage",
       "id": 45726,
       "total_rating": null,
@@ -31343,7 +31343,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "Jack Nicklaus' Power Challenge Golf",
       "id": 46532,
       "total_rating": null,
@@ -31418,7 +31418,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Boxing"],
       "name": "James 'Buster' Douglas Knock Out Boxing",
       "id": 46530,
       "total_rating": null,
@@ -31591,7 +31591,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Jammit",
       "id": 39018,
       "total_rating": null,
@@ -31725,7 +31725,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "Jennifer Capriati Tennis",
       "id": 46205,
       "total_rating": null,
@@ -31814,7 +31814,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Jerry Glanville's Pigskin Footbrawl",
       "id": 46188,
       "total_rating": null,
@@ -32001,7 +32001,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Snooker", "Pool"],
       "name": "Jimmy White's 'Whirlwind' Snooker",
       "id": 12159,
       "total_rating": null,
@@ -32091,7 +32091,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Joe Montana Football",
       "id": 5396,
       "total_rating": null,
@@ -32161,7 +32161,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "Joe Montana II: Sports Talk Football",
       "id": 19491,
       "total_rating": null,
@@ -32206,7 +32206,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "John Madden Football '92",
       "id": 4588,
       "total_rating": null,
@@ -32282,7 +32282,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "John Madden Football '93",
       "id": 4245,
       "total_rating": null,
@@ -32326,7 +32326,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "John Madden Football '93: Championship Edition",
       "id": 4482,
       "total_rating": null,
@@ -32363,7 +32363,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "John Madden Football",
       "id": 4400,
       "total_rating": null,
@@ -32407,7 +32407,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "Madden NFL '94",
       "id": 4381,
       "total_rating": null,
@@ -32476,7 +32476,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Jordan vs. Bird: One on One",
       "id": 18837,
       "total_rating": 50,
@@ -32985,7 +32985,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Kick Off 3: European Challenge",
       "id": 45708,
       "total_rating": null,
@@ -33174,7 +33174,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Fishing"],
       "name": "King Salmon: The Big Catch",
       "id": 4480,
       "total_rating": null,
@@ -33294,7 +33294,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting"],
+      "genres": ["Fighting", "Sport", "Hack and slash/Beat 'em up"],
       "name": "King of the Monsters 2",
       "id": 39466,
       "total_rating": null,
@@ -33624,7 +33624,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Lakers vs. Celtics and the NBA Playoffs",
       "id": 73962,
       "total_rating": null,
@@ -33936,7 +33936,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Pinball"],
       "name": "Galahad",
       "id": 46595,
       "total_rating": null,
@@ -34070,7 +34070,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Light gun"],
       "name": "Lethal Enforcers",
       "id": 4501,
       "total_rating": 80,
@@ -34115,7 +34115,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Light gun"],
       "name": "Lethal Enforcers II: Gun Fighters",
       "id": 5398,
       "total_rating": null,
@@ -34160,7 +34160,7 @@
   },
   {
     "igdb": {
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "name": "Liberty or Death",
       "id": 45776,
       "total_rating": null,
@@ -34543,7 +34543,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Arcade", "Simulator"],
       "name": "M-1 Abrams Battle Tank",
       "id": 45775,
       "total_rating": null,
@@ -34612,7 +34612,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Shooter", "SHMUP"],
       "name": "M.U.S.H.A.",
       "id": 4445,
       "total_rating": null,
@@ -34656,7 +34656,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "MLBPA Baseball",
       "id": 46345,
       "total_rating": null,
@@ -34700,7 +34700,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Sports Talk Baseball",
       "id": 46261,
       "total_rating": null,
@@ -34787,7 +34787,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "Madden NFL 95",
       "id": 4506,
       "total_rating": null,
@@ -34832,7 +34832,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "Madden NFL 96",
       "id": 4542,
       "total_rating": null,
@@ -34877,7 +34877,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Madden NFL 97",
       "id": 4589,
       "total_rating": null,
@@ -34922,7 +34922,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Madden NFL 98",
       "id": 4590,
       "total_rating": null,
@@ -35048,7 +35048,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Shooter", "Educational"],
       "name": "Scholastic's The Magic School Bus: Space Exploration Game",
       "id": 46280,
       "total_rating": null,
@@ -35374,7 +35374,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "Mario Lemieux Hockey",
       "id": 4441,
       "total_rating": null,
@@ -35577,7 +35577,7 @@
   },
   {
     "igdb": {
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "name": "Master of Monsters",
       "id": 74049,
       "total_rating": null,
@@ -35621,7 +35621,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Master of Weapon",
       "id": 4532,
       "total_rating": null,
@@ -35709,7 +35709,7 @@
   },
   {
     "igdb": {
-      "genres": ["Platform", "Adventure"],
+      "genres": ["Platform", "Adventure", "SHMUP"],
       "name": "Math Blaster: Episode One - In Search of Spot",
       "id": 4419,
       "total_rating": null,
@@ -35943,7 +35943,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Strategy", "Party"],
       "name": "Mega Bomberman",
       "id": 4513,
       "total_rating": null,
@@ -36324,7 +36324,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform", "Shooter"],
       "name": "Mega Turrican",
       "id": 85286,
       "total_rating": 83,
@@ -36519,7 +36519,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Light gun"],
       "name": "Menacer 6-Game Cartridge",
       "id": 70491,
       "total_rating": null,
@@ -36761,7 +36761,7 @@
   },
   {
     "igdb": {
-      "genres": ["Racing"],
+      "genres": ["Racing", "Party"],
       "name": "Micro Machines: Turbo Tournament 96",
       "id": 4545,
       "total_rating": null,
@@ -36806,7 +36806,7 @@
   },
   {
     "igdb": {
-      "genres": ["Racing"],
+      "genres": ["Racing", "Party"],
       "name": "Micro Machines 2: Turbo Tournament",
       "id": 8775,
       "total_rating": 85,
@@ -37266,7 +37266,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "Mike Ditka Power Football",
       "id": 46679,
       "total_rating": null,
@@ -37310,7 +37310,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Pool"],
       "name": "Minnesota Fats: Pool Legend",
       "id": 4465,
       "total_rating": null,
@@ -37354,7 +37354,7 @@
   },
   {
     "igdb": {
-      "genres": ["Music"],
+      "genres": ["Music", "Educational"],
       "name": "Miracle Piano Teaching System",
       "id": 42376,
       "total_rating": null,
@@ -37398,7 +37398,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform", "Adventure"],
       "name": "The Misadventures of Flink",
       "id": 9999,
       "total_rating": null,
@@ -37443,7 +37443,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Quiz/Trivia"],
       "name": "Monopoly",
       "id": 122241,
       "total_rating": null,
@@ -37735,7 +37735,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Fighting", "Boxing"],
       "name": "Muhammad Ali Heavyweight Boxing",
       "id": 46269,
       "total_rating": 50,
@@ -37824,7 +37824,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Mutant League Football",
       "id": 46254,
       "total_rating": null,
@@ -37868,7 +37868,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "Mutant League Hockey",
       "id": 46253,
       "total_rating": null,
@@ -38106,7 +38106,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Action '95 starring David Robinson",
       "id": 4551,
       "total_rating": null,
@@ -38194,7 +38194,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Action",
       "id": 58315,
       "total_rating": null,
@@ -38238,7 +38238,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA All-Star Challenge",
       "id": 49011,
       "total_rating": 48,
@@ -38282,7 +38282,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Hangtime",
       "id": 3550,
       "total_rating": 54,
@@ -38351,7 +38351,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Jam",
       "id": 8995,
       "total_rating": 75,
@@ -38420,7 +38420,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Live 95",
       "id": 37285,
       "total_rating": null,
@@ -38465,7 +38465,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Live 96",
       "id": 809,
       "total_rating": 78,
@@ -38510,7 +38510,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Live 97",
       "id": 20134,
       "total_rating": 80,
@@ -38554,7 +38554,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Basketball"],
       "name": "NBA Live 98",
       "id": 26013,
       "total_rating": 51,
@@ -38599,7 +38599,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NBA Showdown 94",
       "id": 42481,
       "total_rating": null,
@@ -38636,7 +38636,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "NCAA Final Four Basketball",
       "id": 4385,
       "total_rating": null,
@@ -38704,7 +38704,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "NFL '95",
       "id": 127140,
       "total_rating": null,
@@ -38773,7 +38773,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Madden NFL 98",
       "id": 4590,
       "total_rating": null,
@@ -38818,7 +38818,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Football"],
       "name": "NFL Football '94 Starring Joe Montana",
       "id": 46268,
       "total_rating": null,
@@ -38893,7 +38893,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Prime Time NFL Starring Deion Sanders",
       "id": 45770,
       "total_rating": null,
@@ -38980,7 +38980,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "NFL Quarterback Club",
       "id": 114754,
       "total_rating": null,
@@ -39048,7 +39048,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "NFL Quarterback Club 96",
       "id": 25080,
       "total_rating": 40,
@@ -39117,7 +39117,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Hockey"],
       "name": "NHL '94",
       "id": 5405,
       "total_rating": 70,
@@ -39162,7 +39162,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Hockey"],
       "name": "NHL 95",
       "id": 4509,
       "total_rating": 45,
@@ -39207,7 +39207,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "NHL 96",
       "id": 11650,
       "total_rating": 55,
@@ -39252,7 +39252,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "NHL 97",
       "id": 817,
       "total_rating": 90,
@@ -39297,7 +39297,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Strategy"],
+      "genres": ["Sport", "Strategy", "Hockey"],
       "name": "NHL 98",
       "id": 818,
       "total_rating": 79,
@@ -39342,7 +39342,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Hockey"],
       "name": "NHL All-Star Hockey '95",
       "id": 19559,
       "total_rating": null,
@@ -39387,7 +39387,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Hockey"],
       "name": "NHL Hockey",
       "id": 27062,
       "total_rating": 81,
@@ -39462,7 +39462,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "NHLPA Hockey 93",
       "id": 42479,
       "total_rating": null,
@@ -39506,7 +39506,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "New 3D Golf Simulation: Harukanaru Augusta",
       "id": 45746,
       "total_rating": null,
@@ -39639,7 +39639,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action", "Horror"],
       "name": "Nightmare Circus",
       "id": 46177,
       "total_rating": null,
@@ -39751,7 +39751,7 @@
   },
   {
     "igdb": {
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "name": "Ninja Burai Densetsu",
       "id": 46072,
       "total_rating": null,
@@ -40174,7 +40174,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Adventure"],
       "name": "The Ooze",
       "id": 46251,
       "total_rating": null,
@@ -40382,7 +40382,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform", "Cinematic"],
       "name": "Out of This World",
       "id": 9999,
       "total_rating": null,
@@ -40718,7 +40718,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "PGA European Tour",
       "id": 12713,
       "total_rating": null,
@@ -40763,7 +40763,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "PGA Tour 96",
       "id": 4285,
       "total_rating": null,
@@ -40807,7 +40807,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "PGA Tour Golf",
       "id": 12714,
       "total_rating": null,
@@ -40852,7 +40852,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "PGA Tour Golf II",
       "id": 46343,
       "total_rating": null,
@@ -40896,7 +40896,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport", "Strategy"],
+      "genres": ["Simulator", "Sport", "Strategy", "Golf"],
       "name": "PGA Tour Golf III",
       "id": 45781,
       "total_rating": null,
@@ -41106,7 +41106,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Air hockey"],
       "name": "Paddle Fighter",
       "id": 45716,
       "total_rating": null,
@@ -41194,7 +41194,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Panorama Cotton",
       "id": 45715,
       "total_rating": null,
@@ -41359,7 +41359,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Basketball"],
       "name": "Pat Riley Basketball",
       "id": 28020,
       "total_rating": null,
@@ -41447,7 +41447,7 @@
   },
   {
     "igdb": {
-      "genres": ["Adventure"],
+      "genres": ["Adventure", "Role-playing (RPG)"],
       "name": "Kidou Keisatsu Patlabor: 98-Shiki Kidou Seyo!",
       "id": 46075,
       "total_rating": null,
@@ -41491,7 +41491,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "True Golf Classics: Pebble Beach Golf Links",
       "id": 4533,
       "total_rating": null,
@@ -41535,7 +41535,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Pelé's Soccer",
       "id": 18413,
       "total_rating": null,
@@ -41579,7 +41579,7 @@
   },
   {
     "igdb": {
-      "genres": ["Puzzle"],
+      "genres": ["Puzzle", "Arcade"],
       "name": "Pepenga Pengo",
       "id": 4503,
       "total_rating": null,
@@ -41647,7 +41647,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "Pete Sampras Tennis",
       "id": 4434,
       "total_rating": null,
@@ -41692,7 +41692,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Tennis"],
       "name": "Pete Sampras Tennis 96",
       "id": 70943,
       "total_rating": null,
@@ -42056,7 +42056,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform", "Adventure"],
       "name": "Pinocchio",
       "id": 38844,
       "total_rating": 30,
@@ -42577,7 +42577,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action"],
       "name": "Predator 2",
       "id": 19693,
       "total_rating": null,
@@ -42622,7 +42622,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport", "Strategy"],
+      "genres": ["Simulator", "Sport", "Strategy", "Soccer"],
       "name": "Premier Manager",
       "id": 4483,
       "total_rating": null,
@@ -42666,7 +42666,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Soccer"],
       "name": "Premier Manager 97",
       "id": 45706,
       "total_rating": null,
@@ -42710,7 +42710,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Real Time Strategy (RTS)", "Strategy"],
+      "genres": ["Fighting"],
       "name": "Primal Rage",
       "id": 4271,
       "total_rating": 62,
@@ -42800,7 +42800,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Arcade"],
+      "genres": ["Sport", "Arcade", "Football"],
       "name": "Pro Quarterback",
       "id": 45778,
       "total_rating": null,
@@ -42979,7 +42979,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "Putter Golf",
       "id": 45714,
       "total_rating": null,
@@ -43356,7 +43356,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport", "Baseball"],
       "name": "R.B.I. Baseball 3",
       "id": 93414,
       "total_rating": null,
@@ -43400,7 +43400,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "R.B.I. Baseball 4",
       "id": 46264,
       "total_rating": null,
@@ -43437,7 +43437,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "R.B.I. Baseball '93",
       "id": 46203,
       "total_rating": null,
@@ -43481,7 +43481,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport", "Baseball"],
       "name": "R.B.I. Baseball '94",
       "id": 9999,
       "total_rating": null,
@@ -43868,7 +43868,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Adventure"],
       "name": "Rastan Saga II",
       "id": 4466,
       "total_rating": null,
@@ -43912,7 +43912,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Top-down shooter"],
       "name": "Red Zone",
       "id": 81530,
       "total_rating": null,
@@ -44228,7 +44228,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Educational"],
       "name": "Richard Scarry's Busytown",
       "id": 46202,
       "total_rating": null,
@@ -44394,7 +44394,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Strategy"],
+      "genres": ["Shooter", "Strategy", "Card & Board game"],
       "name": "R.I.S.K.",
       "id": 55184,
       "total_rating": null,
@@ -44574,7 +44574,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Racing", "Arcade"],
+      "genres": ["Fighting", "Racing", "Arcade", "Vehicular combat"],
       "name": "Road Rash 3",
       "id": 7703,
       "total_rating": 80,
@@ -44650,7 +44650,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Racing"],
+      "genres": ["Fighting", "Racing", "Vehicular combat"],
       "name": "Road Rash II",
       "id": 4429,
       "total_rating": 78,
@@ -44976,7 +44976,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Baseball"],
       "name": "Roger Clemens' MVP Baseball",
       "id": 48710,
       "total_rating": 43,
@@ -45305,7 +45305,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "SHMUP"],
       "name": "Sagaia",
       "id": 4468,
       "total_rating": null,
@@ -45604,7 +45604,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Card & Board game"],
       "name": "Scrabble",
       "id": 131524,
       "total_rating": null,
@@ -45737,7 +45737,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport", "Compilation"],
       "name": "Sega Sports 1",
       "id": 56844,
       "total_rating": null,
@@ -45805,7 +45805,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Sensible Soccer: European Champions",
       "id": 13257,
       "total_rating": 85,
@@ -45850,7 +45850,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Educational"],
       "name": "Sesame Street Counting Cafe",
       "id": 46198,
       "total_rating": null,
@@ -45894,7 +45894,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action", "Platform"],
       "name": "Shadow Blasters",
       "id": 4522,
       "total_rating": null,
@@ -46204,7 +46204,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport", "Cricket"],
       "name": "Shane Warne Cricket ",
       "id": 9999,
       "total_rating": null,
@@ -46294,7 +46294,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting"],
+      "genres": ["Fighting", "Brawler"],
       "name": "Shaq-Fu",
       "id": 8536,
       "total_rating": 46,
@@ -46339,7 +46339,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Puzzle"],
       "name": "Shi-Kin-Joh",
       "id": 4410,
       "total_rating": null,
@@ -46746,7 +46746,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Arcade"],
+      "genres": ["Sport", "Arcade", "Pool"],
       "name": "Side Pocket",
       "id": 6048,
       "total_rating": 67,
@@ -46881,7 +46881,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Run-n-gun"],
       "name": "Skeleton Krew",
       "id": 4548,
       "total_rating": null,
@@ -47002,7 +47002,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Slam Dunk: Kyougou Makkou Taiketsu!",
       "id": 45640,
       "total_rating": null,
@@ -47196,7 +47196,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform"],
       "name": "Snow Bros.: Nick & Tom",
       "id": 46173,
       "total_rating": null,
@@ -47435,7 +47435,7 @@
   },
   {
     "igdb": {
-      "genres": ["Platform"],
+      "genres": ["Platform", "Compilation"],
       "name": "Sonic Classics",
       "id": 46204,
       "total_rating": null,
@@ -47680,7 +47680,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Fighting"],
       "name": "SoulBlade",
       "id": 106710,
       "total_rating": null,
@@ -47969,7 +47969,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action"],
       "name": "Spider-Man: The Animated Series",
       "id": 46525,
       "total_rating": null,
@@ -48711,7 +48711,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Strategy"],
+      "genres": ["Shooter", "Strategy", "SHMUP"],
       "name": "Steel Empire",
       "id": 45536,
       "total_rating": null,
@@ -49331,7 +49331,7 @@
   },
   {
     "igdb": {
-      "genres": ["Strategy"],
+      "genres": ["Strategy", "Card & Board game"],
       "name": "Super Battleship",
       "id": 46270,
       "total_rating": null,
@@ -49376,7 +49376,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Platform"],
       "name": "Super Bubble Bobble MD",
       "id": 46290,
       "total_rating": null,
@@ -49450,7 +49450,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Super Fantasy Zone",
       "id": 18278,
       "total_rating": null,
@@ -49565,7 +49565,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Super High Impact",
       "id": 38417,
       "total_rating": null,
@@ -49647,7 +49647,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Super Kick-Off",
       "id": 45797,
       "total_rating": 48,
@@ -49889,7 +49889,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Party", "Action", "Shooter"],
       "name": "Super Smash TV",
       "id": 45598,
       "total_rating": null,
@@ -50085,7 +50085,7 @@
   },
   {
     "igdb": {
-      "genres": ["Hack and slash/Beat 'em up"],
+      "genres": ["Hack and slash/Beat 'em up", "Brawler"],
       "name": "Sword of Sodan",
       "id": 4394,
       "total_rating": null,
@@ -50339,7 +50339,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "On-rails-shooter", "Light gun"],
       "name": "T2: The Arcade Game",
       "id": 12861,
       "total_rating": null,
@@ -50384,7 +50384,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Fishing"],
       "name": "TNN Bass Tournament of Champions",
       "id": 46592,
       "total_rating": null,
@@ -50428,7 +50428,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Fishing"],
       "name": "TNN Outdoors Bass Tournament '96",
       "id": 46244,
       "total_rating": null,
@@ -50724,7 +50724,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Action"],
       "name": "Target Earth",
       "id": 93087,
       "total_rating": null,
@@ -50768,7 +50768,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Task Force Harrier EX",
       "id": 46599,
       "total_rating": null,
@@ -50901,7 +50901,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Team USA Basketball",
       "id": 46260,
       "total_rating": null,
@@ -51083,7 +51083,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Tecmo Cup Football Game",
       "id": 46166,
       "total_rating": null,
@@ -51151,7 +51151,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Tecmo Super Baseball",
       "id": 46246,
       "total_rating": null,
@@ -51195,7 +51195,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Tecmo Super Bowl",
       "id": 4396,
       "total_rating": null,
@@ -51240,7 +51240,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Tecmo Super Bowl II: Special Edition",
       "id": 46598,
       "total_rating": null,
@@ -51284,7 +51284,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Tecmo Super Bowl III: Final Edition",
       "id": 42445,
       "total_rating": null,
@@ -51328,7 +51328,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Hockey"],
       "name": "Tecmo Super Hockey",
       "id": 46597,
       "total_rating": null,
@@ -51403,7 +51403,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Basketball"],
       "name": "Tecmo Super NBA Basketball",
       "id": 46596,
       "total_rating": null,
@@ -51447,7 +51447,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Tecmo World Cup",
       "id": 45766,
       "total_rating": null,
@@ -51643,7 +51643,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Tel-Tel Stadium",
       "id": 47059,
       "total_rating": null,
@@ -52068,7 +52068,7 @@
   },
   {
     "igdb": {
-      "genres": ["Platform"],
+      "genres": ["Platform", "Brawler"],
       "name": "Thunder Fox",
       "id": 39888,
       "total_rating": null,
@@ -52486,7 +52486,7 @@
   },
   {
     "igdb": {
-      "genres": ["Role-playing (RPG)", "Adventure"],
+      "genres": ["Role-playing (RPG)", "Adventure", "Platform"],
       "name": "ToeJam & Earl",
       "id": 8389,
       "total_rating": 90,
@@ -52645,7 +52645,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport", "Baseball"],
       "name": "Tommy Lasorda Baseball",
       "id": 9999,
       "total_rating": null,
@@ -52733,7 +52733,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "Tony La Russa Baseball",
       "id": 78789,
       "total_rating": null,
@@ -52777,7 +52777,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Sport", "Baseball"],
       "name": "Tony La Russa Baseball '95",
       "id": 95378,
       "total_rating": null,
@@ -52903,7 +52903,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "Top Pro Golf",
       "id": 46164,
       "total_rating": null,
@@ -52947,7 +52947,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Total Football",
       "id": 46184,
       "total_rating": null,
@@ -52991,7 +52991,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Boxing"],
       "name": "Toughman Contest",
       "id": 19760,
       "total_rating": null,
@@ -53339,7 +53339,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Platform"],
+      "genres": ["Shooter", "Platform", "SHMUP"],
       "name": "Trouble Shooter",
       "id": 26556,
       "total_rating": null,
@@ -53415,7 +53415,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Troy Aikman NFL Football",
       "id": 40829,
       "total_rating": null,
@@ -53504,7 +53504,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "SHMUP"],
       "name": "Truxton",
       "id": 4418,
       "total_rating": null,
@@ -53619,7 +53619,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "SHMUP"],
       "name": "Twin Cobra",
       "id": 8189,
       "total_rating": null,
@@ -53689,7 +53689,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Twin Hawk",
       "id": 28040,
       "total_rating": null,
@@ -53734,7 +53734,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "Run-n-gun"],
       "name": "Twinkle Tale",
       "id": 46179,
       "total_rating": null,
@@ -53854,7 +53854,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Strategy"],
       "name": "Tyrants: Fight Through Time",
       "id": 9999,
       "total_rating": null,
@@ -53968,7 +53968,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Soccer"],
       "name": "Ultimate Soccer",
       "id": 4540,
       "total_rating": null,
@@ -54036,7 +54036,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Arcade", "Fighting"],
       "name": "Ultraman",
       "id": 131387,
       "total_rating": null,
@@ -54250,7 +54250,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "Unnecessary Roughness 95",
       "id": 47057,
       "total_rating": null,
@@ -54498,7 +54498,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Vapor Trail",
       "id": 39996,
       "total_rating": null,
@@ -54632,7 +54632,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Verytex",
       "id": 46162,
       "total_rating": null,
@@ -55081,7 +55081,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "New 3D Golf Simulation: Waialae no Kiseki",
       "id": 46161,
       "total_rating": null,
@@ -55416,7 +55416,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Shooter"],
       "name": "Wings of Wor",
       "id": 105255,
       "total_rating": null,
@@ -55536,7 +55536,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Arcade"],
+      "genres": ["Shooter", "Arcade", "SHMUP"],
       "name": "Xenon 2: Megablast",
       "id": 12236,
       "total_rating": 79,
@@ -55581,7 +55581,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "Zero Wing",
       "id": 4412,
       "total_rating": 63,
@@ -55664,7 +55664,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Golf"],
       "name": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
       "id": 94921,
       "total_rating": null,
@@ -56005,7 +56005,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "SHMUP"],
       "name": "DarXide",
       "id": 45877,
       "total_rating": null,
@@ -56080,7 +56080,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter"],
+      "genres": ["Shooter", "FPS"],
       "name": "Doom",
       "id": 673,
       "total_rating": 83,
@@ -56156,7 +56156,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Demo"],
       "name": "ecco the dolphin cinepak demo",
       "id": 9999,
       "total_rating": null,
@@ -56194,7 +56194,7 @@
   },
   {
     "igdb": {
-      "genres": ["Simulator", "Sport"],
+      "genres": ["Simulator", "Sport", "Soccer"],
       "name": "FIFA Soccer 96",
       "id": 704,
       "total_rating": 76,
@@ -56429,7 +56429,7 @@
   },
   {
     "igdb": {
-      "genres": ["Shooter", "Simulator"],
+      "genres": ["Shooter", "Simulator", "Mech"],
       "name": "Metal Head",
       "id": 19780,
       "total_rating": null,
@@ -56626,7 +56626,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport", "Arcade"],
+      "genres": ["Sport", "Arcade", "Basketball"],
       "name": "NBA Jam Tournament Edition",
       "id": 19712,
       "total_rating": 68,
@@ -56695,7 +56695,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Football"],
       "name": "NFL Quarterback Club",
       "id": 114754,
       "total_rating": null,
@@ -56891,7 +56891,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "RBI Baseball '95",
       "id": 45876,
       "total_rating": null,
@@ -57454,7 +57454,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting", "Sport"],
+      "genres": ["Fighting", "Sport", "Boxing"],
       "name": "Toughman Contest",
       "id": 19760,
       "total_rating": null,
@@ -57499,7 +57499,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting"],
+      "genres": ["Fighting", "Arcade"],
       "name": "Virtua Fighter",
       "id": 19734,
       "total_rating": 50,
@@ -57544,7 +57544,7 @@
   },
   {
     "igdb": {
-      "genres": ["Racing"],
+      "genres": ["Racing", "Arcade"],
       "name": "Virtua Racing Deluxe",
       "id": 45880,
       "total_rating": null,
@@ -57619,7 +57619,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Wrestling"],
       "name": "WWF Raw",
       "id": 19771,
       "total_rating": 65,
@@ -57688,7 +57688,7 @@
   },
   {
     "igdb": {
-      "genres": ["Fighting"],
+      "genres": ["Fighting", "Wrestling"],
       "name": "WWF WrestleMania: The Arcade Game",
       "id": 4546,
       "total_rating": 52,
@@ -57733,7 +57733,7 @@
   },
   {
     "igdb": {
-      "genres": ["Sport"],
+      "genres": ["Sport", "Baseball"],
       "name": "World Series Baseball Starring Deion Sanders",
       "id": 46428,
       "total_rating": null,

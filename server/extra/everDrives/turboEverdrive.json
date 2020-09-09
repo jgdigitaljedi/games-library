@@ -3,9 +3,7 @@
     "igdb": {
       "name": "1943: Kai",
       "id": 42079,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter", "SHMUP"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/30/1987",
@@ -48,9 +46,7 @@
     "igdb": {
       "name": "21 Emon: Mezase! Hotel Ou",
       "id": 57442,
-      "genres": [
-        "Quiz/Trivia"
-      ],
+      "genres": ["Quiz/Trivia"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/15/1994",
@@ -93,9 +89,7 @@
     "igdb": {
       "name": "The Addams Family",
       "id": 14209,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": 67,
       "total_rating_count": 1,
       "first_release_date": "12/30/1992",
@@ -138,9 +132,7 @@
     "igdb": {
       "name": "Aero Blasters",
       "id": 12491,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -183,9 +175,7 @@
     "igdb": {
       "name": "After Burner II",
       "id": 5352,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": 75,
       "total_rating_count": 5,
       "first_release_date": "12/30/1987",
@@ -228,9 +218,7 @@
     "igdb": {
       "name": "Air Zonk",
       "id": 42129,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/11/1993",
@@ -273,9 +261,7 @@
     "igdb": {
       "name": "Aoi Blink",
       "id": 42093,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/26/1990",
@@ -318,9 +304,7 @@
     "igdb": {
       "name": "Formation Armed F",
       "id": 42091,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/22/1990",
@@ -363,9 +347,7 @@
     "igdb": {
       "name": "Atomic Robo-Kid Special",
       "id": 42090,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/18/1990",
@@ -408,10 +390,7 @@
     "igdb": {
       "name": "Andre Panza Kick Boxing",
       "id": 42128,
-      "genres": [
-        "Fighting",
-        "Sport"
-      ],
+      "genres": ["Fighting", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -454,10 +433,7 @@
     "igdb": {
       "name": "Ballistix",
       "id": 5878,
-      "genres": [
-        "Sport",
-        "Arcade"
-      ],
+      "genres": ["Sport", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -500,9 +476,7 @@
     "igdb": {
       "name": "Bari Bari Densetsu",
       "id": 42088,
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1989",
@@ -545,9 +519,7 @@
     "igdb": {
       "name": "Barunba",
       "id": 42087,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/26/1990",
@@ -640,9 +612,7 @@
     "igdb": {
       "name": "Battle Lode Runner",
       "id": 42086,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/28/1993",
@@ -685,10 +655,7 @@
     "igdb": {
       "name": "Battle Royale",
       "id": 8938,
-      "genres": [
-        "Sport",
-        "Arcade"
-      ],
+      "genres": ["Sport", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -731,9 +698,7 @@
     "igdb": {
       "name": "Blazing Lazers",
       "id": 42125,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -776,10 +741,7 @@
     "igdb": {
       "name": "Bloody Wolf",
       "id": 42117,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -822,10 +784,7 @@
     "igdb": {
       "name": "Bomberman",
       "id": 3446,
-      "genres": [
-        "Puzzle",
-        "Arcade"
-      ],
+      "genres": ["Puzzle", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/06/1990",
@@ -911,10 +870,7 @@
     "igdb": {
       "name": "Bomberman '94",
       "id": 3448,
-      "genres": [
-        "Strategy",
-        "Tactical"
-      ],
+      "genres": ["Strategy", "Tactical"],
       "total_rating": 88,
       "total_rating_count": 10,
       "first_release_date": "12/09/1993",
@@ -957,9 +913,7 @@
     "igdb": {
       "name": "Bonk's Adventure",
       "id": 7794,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": 78,
       "total_rating_count": 4,
       "first_release_date": "12/30/1989",
@@ -1002,9 +956,7 @@
     "igdb": {
       "name": "Bonk's Revenge",
       "id": 7795,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": 77,
       "total_rating_count": 3,
       "first_release_date": "12/30/1991",
@@ -1047,9 +999,7 @@
     "igdb": {
       "name": "Bonk III: Bonk's Big Adventure",
       "id": 12493,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1993",
@@ -1178,9 +1128,7 @@
     "igdb": {
       "name": "Break In",
       "id": 70097,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/15/2017",
@@ -1223,9 +1171,7 @@
     "igdb": {
       "name": "Bubblegum Crash",
       "id": 43201,
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/05/1991",
@@ -1268,10 +1214,7 @@
     "igdb": {
       "name": "Bullfight Ring no Hasha",
       "id": 59428,
-      "genres": [
-        "Sport",
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Sport", "Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/07/1989",
@@ -1314,9 +1257,7 @@
     "igdb": {
       "name": "Burning Angels",
       "id": 37719,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/06/1990",
@@ -1359,11 +1300,7 @@
     "igdb": {
       "name": "Cadash",
       "id": 6652,
-      "genres": [
-        "Fighting",
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
+      "genres": ["Fighting", "Role-playing (RPG)", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -1406,9 +1343,7 @@
     "igdb": {
       "name": "Champion Wrestler",
       "id": 38092,
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/13/1991",
@@ -1451,9 +1386,7 @@
     "igdb": {
       "name": "Champions Forever Boxing",
       "id": 42115,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -1496,9 +1429,7 @@
     "igdb": {
       "name": "Chew Man Fu",
       "id": 42114,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -1541,9 +1472,7 @@
     "igdb": {
       "name": "China Warrior",
       "id": 42127,
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/20/1987",
@@ -1629,9 +1558,7 @@
     "igdb": {
       "name": "City Hunter",
       "id": 37718,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/01/1990",
@@ -1674,9 +1601,7 @@
     "igdb": {
       "name": "Columns",
       "id": 117538,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -1719,9 +1644,7 @@
     "igdb": {
       "name": "Coryoon",
       "id": 37717,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/28/1991",
@@ -1850,10 +1773,7 @@
     "igdb": {
       "name": "Cyber-Core",
       "id": 42112,
-      "genres": [
-        "Shooter",
-        "Adventure"
-      ],
+      "genres": ["Shooter", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -1896,9 +1816,7 @@
     "igdb": {
       "name": "Cyber Dodge",
       "id": 42054,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/01/1992",
@@ -1941,10 +1859,7 @@
     "igdb": {
       "name": "Cyber Knight",
       "id": 16471,
-      "genres": [
-        "Role-playing (RPG)",
-        "Strategy"
-      ],
+      "genres": ["Role-playing (RPG)", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/09/1990",
@@ -1987,9 +1902,7 @@
     "igdb": {
       "name": "Davis Cup",
       "id": 62580,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -2032,9 +1945,7 @@
     "igdb": {
       "name": "Dead Moon",
       "id": 42111,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -2077,10 +1988,7 @@
     "igdb": {
       "name": "Deep Blue",
       "id": 75524,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/30/1989",
@@ -2123,9 +2031,7 @@
     "igdb": {
       "name": "Devil's Crush",
       "id": 6827,
-      "genres": [
-        "Pinball"
-      ],
+      "genres": ["Pinball"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -2168,10 +2074,7 @@
     "igdb": {
       "name": "Die Hard",
       "id": 47188,
-      "genres": [
-        "Shooter",
-        "Adventure"
-      ],
+      "genres": ["Shooter", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -2214,9 +2117,7 @@
     "igdb": {
       "name": "Digital Champ",
       "id": 42076,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/11/1989",
@@ -2259,9 +2160,7 @@
     "igdb": {
       "name": "Double Dungeons",
       "id": 42110,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -2347,9 +2246,7 @@
     "igdb": {
       "name": "Dragon Egg!",
       "id": 37722,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/26/1991",
@@ -2392,10 +2289,7 @@
     "igdb": {
       "name": "Dragon Spirit",
       "id": 12055,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/31/1987",
@@ -2438,9 +2332,7 @@
     "igdb": {
       "name": "Dragon's Curse",
       "id": 42109,
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -2483,9 +2375,7 @@
     "igdb": {
       "name": "Drop Off",
       "id": 42108,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -2528,9 +2418,7 @@
     "igdb": {
       "name": "Energy",
       "id": 63332,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/18/1989",
@@ -2573,10 +2461,7 @@
     "igdb": {
       "name": "F-1 Dream",
       "id": 39482,
-      "genres": [
-        "Racing",
-        "Sport"
-      ],
+      "genres": ["Racing", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1988",
@@ -2662,9 +2547,7 @@
     "igdb": {
       "name": "Falcon",
       "id": 12088,
-      "genres": [
-        "Simulator"
-      ],
+      "genres": ["Simulator"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -2707,10 +2590,7 @@
     "igdb": {
       "name": "Fantasy Zone",
       "id": 6684,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 81,
       "total_rating_count": 8,
       "first_release_date": "03/19/1986",
@@ -2753,10 +2633,7 @@
     "igdb": {
       "name": "Fighting Run",
       "id": 44333,
-      "genres": [
-        "Racing",
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Racing", "Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1991",
@@ -2799,9 +2676,7 @@
     "igdb": {
       "name": "Final Blaster",
       "id": 37713,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/27/1990",
@@ -2844,9 +2719,7 @@
     "igdb": {
       "name": "Final Lap Twin",
       "id": 42124,
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -2889,9 +2762,7 @@
     "igdb": {
       "name": "Final Match Tennis",
       "id": 42060,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/28/1991",
@@ -2934,10 +2805,7 @@
     "igdb": {
       "name": "Fire Pro Wrestling 2nd Bout",
       "id": 38086,
-      "genres": [
-        "Fighting",
-        "Sport"
-      ],
+      "genres": ["Fighting", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/29/1991",
@@ -2980,10 +2848,7 @@
     "igdb": {
       "name": "Fire Pro Wrestling 3: Legend Bout",
       "id": 42071,
-      "genres": [
-        "Fighting",
-        "Sport"
-      ],
+      "genres": ["Fighting", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/12/1992",
@@ -3026,10 +2891,7 @@
     "igdb": {
       "name": "Fire Pro Wrestling: Combination Tag",
       "id": 38087,
-      "genres": [
-        "Fighting",
-        "Sport"
-      ],
+      "genres": ["Fighting", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/21/1989",
@@ -3072,9 +2934,7 @@
     "igdb": {
       "name": "Formation Soccer: Human Cup '90",
       "id": 42046,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/26/1990",
@@ -3117,9 +2977,7 @@
     "igdb": {
       "name": "Formation Soccer On J. League",
       "id": 44329,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/14/1994",
@@ -3162,10 +3020,7 @@
     "igdb": {
       "name": "Galaga '88",
       "id": 15535,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 87,
       "total_rating_count": 9,
       "first_release_date": "11/30/1987",
@@ -3208,9 +3063,7 @@
     "igdb": {
       "name": "Ganbare Golf Boys",
       "id": 44330,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/27/1989",
@@ -3253,10 +3106,7 @@
     "igdb": {
       "name": "Thunder Blade",
       "id": 12862,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -3299,11 +3149,7 @@
     "igdb": {
       "name": "Ghost Manor",
       "id": 23207,
-      "genres": [
-        "Puzzle",
-        "Adventure",
-        "Arcade"
-      ],
+      "genres": ["Puzzle", "Adventure", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1983",
@@ -3389,10 +3235,7 @@
     "igdb": {
       "name": "Gradius",
       "id": 1476,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 72,
       "total_rating_count": 23,
       "first_release_date": "05/28/1985",
@@ -3435,9 +3278,7 @@
     "igdb": {
       "name": "Gunboat: River Combat Simulation",
       "id": 12127,
-      "genres": [
-        "Simulator"
-      ],
+      "genres": ["Simulator"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -3480,9 +3321,7 @@
     "igdb": {
       "name": "Hatris",
       "id": 40063,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": 63,
       "total_rating_count": 1,
       "first_release_date": "12/30/1992",
@@ -3525,9 +3364,7 @@
     "igdb": {
       "name": "Heavy Unit",
       "id": 46859,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1988",
@@ -3570,9 +3407,7 @@
     "igdb": {
       "name": "Hit the Ice: The Official Video Hockey League",
       "id": 42107,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -3615,10 +3450,7 @@
     "igdb": {
       "name": "Image Fight",
       "id": 10452,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -3661,9 +3493,7 @@
     "igdb": {
       "name": "J. League Greatest Eleven Soccer",
       "id": 37684,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/13/1993",
@@ -3706,10 +3536,7 @@
     "igdb": {
       "name": "Jack Nicklaus' Greatest 18 Holes of Major Championship Golf",
       "id": 18101,
-      "genres": [
-        "Simulator",
-        "Sport"
-      ],
+      "genres": ["Simulator", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -3752,12 +3579,7 @@
     "igdb": {
       "name": "Jackie Chan's Action Kung Fu",
       "id": 12522,
-      "genres": [
-        "Fighting",
-        "Platform",
-        "Hack and slash/Beat 'em up",
-        "Arcade"
-      ],
+      "genres": ["Fighting", "Platform", "Hack and slash/Beat 'em up", "Arcade"],
       "total_rating": 71,
       "total_rating_count": 7,
       "first_release_date": "12/30/1990",
@@ -3800,9 +3622,7 @@
     "igdb": {
       "name": "J.J. & Jeff",
       "id": 42106,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/29/1987",
@@ -3845,9 +3665,7 @@
     "igdb": {
       "name": "Keith Courage in Alpha Zones",
       "id": 42122,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/29/1988",
@@ -3890,9 +3708,7 @@
     "igdb": {
       "name": "Kickball",
       "id": 58961,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/23/1990",
@@ -3935,11 +3751,7 @@
     "igdb": {
       "name": "Klax",
       "id": 4484,
-      "genres": [
-        "Puzzle",
-        "Strategy",
-        "Arcade"
-      ],
+      "genres": ["Puzzle", "Strategy", "Arcade"],
       "total_rating": 68,
       "total_rating_count": 4,
       "first_release_date": "01/31/1990",
@@ -3982,10 +3794,7 @@
     "igdb": {
       "name": "Knight Rider Special",
       "id": 42058,
-      "genres": [
-        "Racing",
-        "Adventure"
-      ],
+      "genres": ["Racing", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/21/1989",
@@ -4028,11 +3837,7 @@
     "igdb": {
       "name": "Legend of Hero Tonma",
       "id": 10453,
-      "genres": [
-        "Shooter",
-        "Platform",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Platform", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -4075,10 +3880,7 @@
     "igdb": {
       "name": "The Legendary Axe",
       "id": 42121,
-      "genres": [
-        "Platform",
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Platform", "Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/22/1988",
@@ -4121,9 +3923,7 @@
     "igdb": {
       "name": "Legendary Axe II",
       "id": 42120,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -4166,9 +3966,7 @@
     "igdb": {
       "name": "Lode Runner: Lost Labyrinth",
       "id": 64123,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/26/1990",
@@ -4211,10 +4009,7 @@
     "igdb": {
       "name": "Maniac Pro Wrestling",
       "id": 42070,
-      "genres": [
-        "Fighting",
-        "Sport"
-      ],
+      "genres": ["Fighting", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/23/1990",
@@ -4257,10 +4052,7 @@
     "igdb": {
       "name": "Marchen Maze",
       "id": 46812,
-      "genres": [
-        "Shooter",
-        "Platform"
-      ],
+      "genres": ["Shooter", "Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/13/1988",
@@ -4303,9 +4095,7 @@
     "igdb": {
       "name": "Metal Stoker",
       "id": 42059,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/11/1991",
@@ -4348,10 +4138,7 @@
     "igdb": {
       "name": "Military Madness",
       "id": 44334,
-      "genres": [
-        "Strategy",
-        "Turn-based strategy (TBS)"
-      ],
+      "genres": ["Strategy", "Turn-based strategy (TBS)"],
       "total_rating": 77,
       "total_rating_count": 5,
       "first_release_date": "02/08/1989",
@@ -4394,11 +4181,7 @@
     "igdb": {
       "name": "Monster Pro Wrestling",
       "id": 42069,
-      "genres": [
-        "Fighting",
-        "Sport",
-        "Strategy"
-      ],
+      "genres": ["Fighting", "Sport", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/21/1991",
@@ -4441,10 +4224,7 @@
     "igdb": {
       "name": "Moto Roader",
       "id": 42104,
-      "genres": [
-        "Racing",
-        "Arcade"
-      ],
+      "genres": ["Racing", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/02/1989",
@@ -4487,9 +4267,7 @@
     "igdb": {
       "name": "MOTO ROADER II",
       "id": 37708,
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/28/1991",
@@ -4532,9 +4310,7 @@
     "igdb": {
       "name": "Naxat Stadium",
       "id": 37670,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/25/1990",
@@ -4577,9 +4353,7 @@
     "igdb": {
       "name": "Neutopia",
       "id": 28524,
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/16/1989",
@@ -4622,9 +4396,7 @@
     "igdb": {
       "name": "Neutopia II",
       "id": 28523,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": 80,
       "total_rating_count": "",
       "first_release_date": "10/26/1991",
@@ -4667,9 +4439,7 @@
     "igdb": {
       "name": "New Adventure Island",
       "id": 28521,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": 73,
       "total_rating_count": 2,
       "first_release_date": "07/25/1992",
@@ -4712,9 +4482,7 @@
     "igdb": {
       "name": "Night Creatures",
       "id": 42103,
-      "genres": [
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "05/09/1992",
@@ -4757,10 +4525,7 @@
     "igdb": {
       "name": "Ninja Spirit",
       "id": 6819,
-      "genres": [
-        "Platform",
-        "Arcade"
-      ],
+      "genres": ["Platform", "Arcade"],
       "total_rating": 80,
       "total_rating_count": 6,
       "first_release_date": "12/30/1988",
@@ -4803,10 +4568,7 @@
     "igdb": {
       "name": "Operation Wolf",
       "id": 12190,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 70,
       "total_rating_count": 14,
       "first_release_date": "10/31/1987",
@@ -4849,9 +4611,7 @@
     "igdb": {
       "name": "Ordyne",
       "id": 39968,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -4894,9 +4654,7 @@
     "igdb": {
       "name": "Out Live",
       "id": 37666,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/14/1989",
@@ -4982,10 +4740,7 @@
     "igdb": {
       "name": "P47 Thunderbolt",
       "id": 12838,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -5028,11 +4783,7 @@
     "igdb": {
       "name": "Pac-Land",
       "id": 6822,
-      "genres": [
-        "Platform",
-        "Puzzle",
-        "Arcade"
-      ],
+      "genres": ["Platform", "Puzzle", "Arcade"],
       "total_rating": 70,
       "total_rating_count": 8,
       "first_release_date": "07/31/1984",
@@ -5075,9 +4826,7 @@
     "igdb": {
       "name": "Parasol Stars: The Story of Bubble Bobble III",
       "id": 42101,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/14/1991",
@@ -5120,9 +4869,7 @@
     "igdb": {
       "name": "Parodius Da! - Shinwa Kara Owarai He",
       "id": 42095,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/19/1992",
@@ -5165,11 +4912,7 @@
     "igdb": {
       "name": "Populous",
       "id": 248,
-      "genres": [
-        "Real Time Strategy (RTS)",
-        "Simulator",
-        "Strategy"
-      ],
+      "genres": ["Real Time Strategy (RTS)", "Simulator", "Strategy"],
       "total_rating": 67,
       "total_rating_count": 21,
       "first_release_date": "06/04/1989",
@@ -5212,10 +4955,7 @@
     "igdb": {
       "name": "Power Drift",
       "id": 12719,
-      "genres": [
-        "Racing",
-        "Arcade"
-      ],
+      "genres": ["Racing", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/31/1988",
@@ -5258,9 +4998,7 @@
     "igdb": {
       "name": "Power Eleven",
       "id": 42043,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/20/1991",
@@ -5303,9 +5041,7 @@
     "igdb": {
       "name": "Power Gate",
       "id": 42130,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/29/1991",
@@ -5348,10 +5084,7 @@
     "igdb": {
       "name": "Power Golf",
       "id": 42100,
-      "genres": [
-        "Sport",
-        "Pinball"
-      ],
+      "genres": ["Sport", "Pinball"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -5394,9 +5127,7 @@
     "igdb": {
       "name": "Power League II",
       "id": 38089,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/07/1989",
@@ -5439,9 +5170,7 @@
     "igdb": {
       "name": "Power League III",
       "id": 42096,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/09/1990",
@@ -5484,9 +5213,7 @@
     "igdb": {
       "name": "Power League IV",
       "id": 43191,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/08/1991",
@@ -5529,9 +5256,7 @@
     "igdb": {
       "name": "Power League V",
       "id": 37661,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/06/1992",
@@ -5574,9 +5299,7 @@
     "igdb": {
       "name": "Power League '93",
       "id": 37662,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/14/1993",
@@ -5662,9 +5385,7 @@
     "igdb": {
       "name": "Pro Yakyuu World Stadium",
       "id": 62299,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/30/1988",
@@ -5707,9 +5428,7 @@
     "igdb": {
       "name": "Pro Yakyuu World Stadium '91",
       "id": 37660,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/20/1991",
@@ -5838,11 +5557,7 @@
     "igdb": {
       "name": "Puzznic",
       "id": 12199,
-      "genres": [
-        "Puzzle",
-        "Strategy",
-        "Arcade"
-      ],
+      "genres": ["Puzzle", "Strategy", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -5885,10 +5600,7 @@
     "igdb": {
       "name": "R-Type",
       "id": 6840,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 79,
       "total_rating_count": 27,
       "first_release_date": "06/30/1987",
@@ -5931,9 +5643,7 @@
     "igdb": {
       "name": "Rabio Lepus Special",
       "id": 38066,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/18/1990",
@@ -5976,10 +5686,7 @@
     "igdb": {
       "name": "Racing Damashii",
       "id": 49067,
-      "genres": [
-        "Racing",
-        "Sport"
-      ],
+      "genres": ["Racing", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/27/1991",
@@ -6022,10 +5729,7 @@
     "igdb": {
       "name": "Raiden",
       "id": 6841,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 80,
       "total_rating_count": 12,
       "first_release_date": "08/31/1990",
@@ -6111,10 +5815,7 @@
     "igdb": {
       "name": "Salamander",
       "id": 1477,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 68,
       "total_rating_count": 12,
       "first_release_date": "12/30/1986",
@@ -6157,9 +5858,7 @@
     "igdb": {
       "name": "Samurai Ghost",
       "id": 42119,
-      "genres": [
-        "Arcade"
-      ],
+      "genres": ["Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -6202,9 +5901,7 @@
     "igdb": {
       "name": "Sengoku Mahjong",
       "id": 43202,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/07/1988",
@@ -6247,9 +5944,7 @@
     "igdb": {
       "name": "Shanghai",
       "id": 12765,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": 90,
       "total_rating_count": 8,
       "first_release_date": "12/30/1986",
@@ -6292,12 +5987,7 @@
     "igdb": {
       "name": "Shinobi",
       "id": 6899,
-      "genres": [
-        "Fighting",
-        "Shooter",
-        "Platform",
-        "Arcade"
-      ],
+      "genres": ["Fighting", "Shooter", "Platform", "Arcade"],
       "total_rating": 61,
       "total_rating_count": 21,
       "first_release_date": "12/30/1987",
@@ -6340,9 +6030,7 @@
     "igdb": {
       "name": "Shiryou Sensen",
       "id": 42041,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/23/1989",
@@ -6385,9 +6073,7 @@
     "igdb": {
       "name": "Shockman",
       "id": 42098,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/26/1991",
@@ -6430,9 +6116,7 @@
     "igdb": {
       "name": "Shogi Shoshinsha Muyou",
       "id": 57740,
-      "genres": [
-        "Quiz/Trivia"
-      ],
+      "genres": ["Quiz/Trivia"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1991",
@@ -6475,9 +6159,7 @@
     "igdb": {
       "name": "Side Arms: Hyper Dyne",
       "id": 12849,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1986",
@@ -6520,9 +6202,7 @@
     "igdb": {
       "name": "Silent Debuggers",
       "id": 44343,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -6565,9 +6245,7 @@
     "igdb": {
       "name": "Sindibad - Chitei No Dai Meikyu",
       "id": 37690,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/01/1990",
@@ -6610,9 +6288,7 @@
     "igdb": {
       "name": "Sinistron",
       "id": 44342,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -6655,9 +6331,7 @@
     "igdb": {
       "name": "Skweek",
       "id": 15370,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -6700,9 +6374,7 @@
     "igdb": {
       "name": "Soldier Blade",
       "id": 15841,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": 90,
       "total_rating_count": 2,
       "first_release_date": "12/30/1992",
@@ -6745,9 +6417,7 @@
     "igdb": {
       "name": "Somer Assault",
       "id": 44341,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -6790,9 +6460,7 @@
     "igdb": {
       "name": "Sonic Spike",
       "id": 44340,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/26/1990",
@@ -6835,9 +6503,7 @@
     "igdb": {
       "name": "Son Son II",
       "id": 37689,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/26/1989",
@@ -6880,9 +6546,7 @@
     "igdb": {
       "name": "Space Harrier",
       "id": 12857,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": 70,
       "total_rating_count": 9,
       "first_release_date": "12/30/1985",
@@ -6968,9 +6632,7 @@
     "igdb": {
       "name": "Spin Pair",
       "id": 38071,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/13/1990",
@@ -7013,10 +6675,7 @@
     "igdb": {
       "name": "Spiral Wave",
       "id": 42045,
-      "genres": [
-        "Shooter",
-        "Simulator"
-      ],
+      "genres": ["Shooter", "Simulator"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/12/1991",
@@ -7059,9 +6718,7 @@
     "igdb": {
       "name": "Stratego",
       "id": 22893,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": 70,
       "total_rating_count": 1,
       "first_release_date": "08/23/1992",
@@ -7104,9 +6761,7 @@
     "igdb": {
       "name": "Street Fighter II: Champion Edition",
       "id": 39496,
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "total_rating": 81,
       "total_rating_count": 8,
       "first_release_date": "03/30/1992",
@@ -7149,10 +6804,7 @@
     "igdb": {
       "name": "Super Metal Crusher",
       "id": 38069,
-      "genres": [
-        "Simulator",
-        "Strategy"
-      ],
+      "genres": ["Simulator", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/28/1991",
@@ -7195,10 +6847,7 @@
     "igdb": {
       "name": "Super Momotaro Dentetsu II",
       "id": 38067,
-      "genres": [
-        "Puzzle",
-        "Strategy"
-      ],
+      "genres": ["Puzzle", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/18/1992",
@@ -7241,10 +6890,7 @@
     "igdb": {
       "name": "Super Star Soldier",
       "id": 44339,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/05/1990",
@@ -7287,9 +6933,7 @@
     "igdb": {
       "name": "Super Volleyball",
       "id": 46192,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -7332,9 +6976,7 @@
     "igdb": {
       "name": "Takeda Shingen",
       "id": 81334,
-      "genres": [
-        "Strategy"
-      ],
+      "genres": ["Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -7377,10 +7019,7 @@
     "igdb": {
       "name": "Disney's TaleSpin",
       "id": 8067,
-      "genres": [
-        "Shooter",
-        "Platform"
-      ],
+      "genres": ["Shooter", "Platform"],
       "total_rating": 77,
       "total_rating_count": 11,
       "first_release_date": "12/30/1991",
@@ -7423,10 +7062,7 @@
     "igdb": {
       "name": "Tatsu no Ko Fighter",
       "id": 60762,
-      "genres": [
-        "Platform",
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Platform", "Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/19/1989",
@@ -7469,9 +7105,7 @@
     "igdb": {
       "name": "Tatsujin",
       "id": 38096,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/22/1992",
@@ -7557,10 +7191,7 @@
     "igdb": {
       "name": "Tiger Road",
       "id": 12864,
-      "genres": [
-        "Fighting",
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Fighting", "Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1987",
@@ -7603,9 +7234,7 @@
     "igdb": {
       "name": "Time Cruise II",
       "id": 37654,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/06/1991",
@@ -7648,9 +7277,7 @@
     "igdb": {
       "name": "Timeball",
       "id": 7791,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -7693,9 +7320,7 @@
     "igdb": {
       "name": "Titan",
       "id": 12487,
-      "genres": [
-        "Arcade"
-      ],
+      "genres": ["Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -7738,9 +7363,7 @@
     "igdb": {
       "name": "Toilet Kids",
       "id": 38072,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/05/1992",
@@ -7783,9 +7406,7 @@
     "igdb": {
       "name": "The Tower of Druaga",
       "id": 4207,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/19/1984",
@@ -7828,10 +7449,7 @@
     "igdb": {
       "name": "Toy Shop Boys",
       "id": 43195,
-      "genres": [
-        "Shooter",
-        "Platform"
-      ],
+      "genres": ["Shooter", "Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/13/1990",
@@ -7917,9 +7535,7 @@
     "igdb": {
       "name": "Tsuppari Oozumou: Heisei Han",
       "id": 62527,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/18/1993",
@@ -7962,10 +7578,7 @@
     "igdb": {
       "name": "Turrican",
       "id": 5164,
-      "genres": [
-        "Shooter",
-        "Platform"
-      ],
+      "genres": ["Shooter", "Platform"],
       "total_rating": 84,
       "total_rating_count": 10,
       "first_release_date": "12/30/1990",
@@ -8008,9 +7621,7 @@
     "igdb": {
       "name": "TV Sports Basketball",
       "id": 8672,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -8053,10 +7664,7 @@
     "igdb": {
       "name": "TV Sports Football",
       "id": 8671,
-      "genres": [
-        "Sport",
-        "Adventure"
-      ],
+      "genres": ["Sport", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -8099,9 +7707,7 @@
     "igdb": {
       "name": "TV Sports Hockey",
       "id": 8675,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1991",
@@ -8144,9 +7750,7 @@
     "igdb": {
       "name": "Veigues Tactical Gladiator",
       "id": 37733,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -8189,10 +7793,7 @@
     "igdb": {
       "name": "Victory Run",
       "id": 42118,
-      "genres": [
-        "Racing",
-        "Arcade"
-      ],
+      "genres": ["Racing", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/27/1987",
@@ -8235,10 +7836,7 @@
     "igdb": {
       "name": "Vigilante",
       "id": 10444,
-      "genres": [
-        "Hack and slash/Beat 'em up",
-        "Arcade"
-      ],
+      "genres": ["Hack and slash/Beat 'em up", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -8281,9 +7879,7 @@
     "igdb": {
       "name": "Volfied",
       "id": 4469,
-      "genres": [
-        "Arcade"
-      ],
+      "genres": ["Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -8326,10 +7922,7 @@
     "igdb": {
       "name": "Wai Wai Mahjong",
       "id": 37652,
-      "genres": [
-        "Puzzle",
-        "Quiz/Trivia"
-      ],
+      "genres": ["Puzzle", "Quiz/Trivia"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/18/1989",
@@ -8372,9 +7965,7 @@
     "igdb": {
       "name": "Winning Shot",
       "id": 43190,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/02/1989",
@@ -8417,10 +8008,7 @@
     "igdb": {
       "name": "Wonder Momo",
       "id": 38559,
-      "genres": [
-        "Hack and slash/Beat 'em up",
-        "Arcade"
-      ],
+      "genres": ["Hack and slash/Beat 'em up", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/23/1987",
@@ -8463,9 +8051,7 @@
     "igdb": {
       "name": "World Class Baseball",
       "id": 37734,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1989",
@@ -8508,10 +8094,7 @@
     "igdb": {
       "name": "World Court Tennis",
       "id": 37732,
-      "genres": [
-        "Role-playing (RPG)",
-        "Sport"
-      ],
+      "genres": ["Role-playing (RPG)", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/10/1988",
@@ -8554,11 +8137,7 @@
     "igdb": {
       "name": "World Jockey",
       "id": 37650,
-      "genres": [
-        "Racing",
-        "Sport",
-        "Strategy"
-      ],
+      "genres": ["Racing", "Sport", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/19/1991",
@@ -8601,9 +8180,7 @@
     "igdb": {
       "name": "World Sports Competition",
       "id": 37731,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1993",
@@ -8646,9 +8223,7 @@
     "igdb": {
       "name": "Xevious: Fardraut Densetsu",
       "id": 38074,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/27/1990",
@@ -8691,9 +8266,7 @@
     "igdb": {
       "name": "Yo' Bro",
       "id": 42023,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1991",
@@ -8736,9 +8309,7 @@
     "igdb": {
       "name": "Zero 4 Champ",
       "id": 37648,
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/07/1991",
@@ -8781,10 +8352,7 @@
     "igdb": {
       "name": "Zipang",
       "id": 42066,
-      "genres": [
-        "Platform",
-        "Puzzle"
-      ],
+      "genres": ["Platform", "Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/13/1990",
@@ -8827,10 +8395,7 @@
     "igdb": {
       "name": "Adventure Island",
       "id": 4594,
-      "genres": [
-        "Platform",
-        "Adventure"
-      ],
+      "genres": ["Platform", "Adventure"],
       "total_rating": 62,
       "total_rating_count": 41,
       "first_release_date": "09/11/1986",
@@ -8873,9 +8438,7 @@
     "igdb": {
       "name": "Appare! Gateball",
       "id": 42092,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/21/1989",
@@ -8918,9 +8481,7 @@
     "igdb": {
       "name": "Armed Formation F",
       "id": 39620,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/31/1988",
@@ -9092,10 +8653,7 @@
     "igdb": {
       "name": "Bikkuriman World: Gekitou Sei Senshi",
       "id": 48544,
-      "genres": [
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
+      "genres": ["Role-playing (RPG)", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/26/1992",
@@ -9138,9 +8696,7 @@
     "igdb": {
       "name": "Body Conquest II ~The Messiah~",
       "id": 38099,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/30/1990",
@@ -9269,10 +8825,7 @@
     "igdb": {
       "name": "Cyber Cross",
       "id": 42083,
-      "genres": [
-        "Platform",
-        "Hack and slash/Beat 'em up"
-      ],
+      "genres": ["Platform", "Hack and slash/Beat 'em up"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/22/1989",
@@ -9358,9 +8911,7 @@
     "igdb": {
       "name": "Disney's Darkwing Duck",
       "id": 81487,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/30/1993",
@@ -9403,11 +8954,7 @@
     "igdb": {
       "name": "Daichikun Crisis: Do Natural",
       "id": 42029,
-      "genres": [
-        "Real Time Strategy (RTS)",
-        "Simulator",
-        "Strategy"
-      ],
+      "genres": ["Real Time Strategy (RTS)", "Simulator", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/21/1989",
@@ -9450,9 +8997,7 @@
     "igdb": {
       "name": "Daisenpuu",
       "id": 42027,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/12/1991",
@@ -9495,9 +9040,7 @@
     "igdb": {
       "name": "Darius Alpha",
       "id": 38075,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/15/1990",
@@ -9540,9 +9083,7 @@
     "igdb": {
       "name": "Detana!! TwinBee",
       "id": 42077,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/27/1992",
@@ -9585,9 +9126,7 @@
     "igdb": {
       "name": "Don Doko Don",
       "id": 39360,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/01/1989",
@@ -9630,9 +9169,7 @@
     "igdb": {
       "name": "Doraemon: Nobita no Dorabian Night",
       "id": 38077,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/05/1992",
@@ -9675,9 +9212,7 @@
     "igdb": {
       "name": "Dragon Saber",
       "id": 38097,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/26/1991",
@@ -9720,9 +9255,7 @@
     "igdb": {
       "name": "F1 Circus",
       "id": 37715,
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/13/1990",
@@ -9765,10 +9298,7 @@
     "igdb": {
       "name": "F1 Circus '91",
       "id": 44328,
-      "genres": [
-        "Racing",
-        "Sport"
-      ],
+      "genres": ["Racing", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/11/1991",
@@ -9811,10 +9341,7 @@
     "igdb": {
       "name": "F1 Circus '92",
       "id": 37714,
-      "genres": [
-        "Racing",
-        "Sport"
-      ],
+      "genres": ["Racing", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/17/1992",
@@ -9857,10 +9384,7 @@
     "igdb": {
       "name": "F1 Triple Battle",
       "id": 44332,
-      "genres": [
-        "Racing",
-        "Sport"
-      ],
+      "genres": ["Racing", "Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/26/1989",
@@ -9903,9 +9427,7 @@
     "igdb": {
       "name": "FINAL SOLDIER",
       "id": 37712,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/22/1991",
@@ -9948,9 +9470,7 @@
     "igdb": {
       "name": "Fushigi no Yume no Alice",
       "id": 66157,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -9993,9 +9513,7 @@
     "igdb": {
       "name": "Gai Flame",
       "id": 43189,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/14/1988",
@@ -10038,9 +9556,7 @@
     "igdb": {
       "name": "Gaia no Monshou",
       "id": 42063,
-      "genres": [
-        "Strategy"
-      ],
+      "genres": ["Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/22/1988",
@@ -10126,10 +9642,7 @@
     "igdb": {
       "name": "Genji Tsuushin Agedama",
       "id": 42073,
-      "genres": [
-        "Shooter",
-        "Platform"
-      ],
+      "genres": ["Shooter", "Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/12/1991",
@@ -10215,9 +9728,7 @@
     "igdb": {
       "name": "Gokuraku! Chuka Taisen",
       "id": 37711,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/12/1992",
@@ -10260,9 +9771,7 @@
     "igdb": {
       "name": "GUNHED",
       "id": 37710,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/05/1989",
@@ -10305,9 +9814,7 @@
     "igdb": {
       "name": "Hana Taaka Daka!",
       "id": 38076,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/07/1991",
@@ -10350,9 +9857,7 @@
     "igdb": {
       "name": "Hisou Kihei Kai Serd",
       "id": 42034,
-      "genres": [
-        "Strategy"
-      ],
+      "genres": ["Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/21/1990",
@@ -10395,10 +9900,7 @@
     "igdb": {
       "name": "Hani In The Sky",
       "id": 37685,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/27/1989",
@@ -10441,9 +9943,7 @@
     "igdb": {
       "name": "Hanii on the Road",
       "id": 42068,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/06/1990",
@@ -10486,9 +9986,7 @@
     "igdb": {
       "name": "Honoo no Toukyuuji: Dodge Danpei",
       "id": 45621,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/09/1992",
@@ -10531,9 +10029,7 @@
     "igdb": {
       "name": "Idol Hanafuda Fan Club",
       "id": 37664,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/29/1991",
@@ -10576,10 +10072,7 @@
     "igdb": {
       "name": "Impossamole",
       "id": 12611,
-      "genres": [
-        "Platform",
-        "Adventure"
-      ],
+      "genres": ["Platform", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1990",
@@ -10622,9 +10115,7 @@
     "igdb": {
       "name": "Jigoku Meguri",
       "id": 37709,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/01/1990",
@@ -10667,9 +10158,7 @@
     "igdb": {
       "name": "Jinmu Denshou Yaksa",
       "id": 37683,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "07/19/1989",
@@ -10712,9 +10201,7 @@
     "igdb": {
       "name": "Juuouki",
       "id": 38073,
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/27/1989",
@@ -10757,9 +10244,7 @@
     "igdb": {
       "name": "Kaizou Choujin Shubibinman",
       "id": 42052,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/17/1989",
@@ -10802,11 +10287,7 @@
     "igdb": {
       "name": "Kattobi! Takuhai Kun",
       "id": 37682,
-      "genres": [
-        "Simulator",
-        "Quiz/Trivia",
-        "Adventure"
-      ],
+      "genres": ["Simulator", "Quiz/Trivia", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/08/1990",
@@ -10849,10 +10330,7 @@
     "igdb": {
       "name": "KiKi KaiKai",
       "id": 1535,
-      "genres": [
-        "Shooter",
-        "Turn-based strategy (TBS)"
-      ],
+      "genres": ["Shooter", "Turn-based strategy (TBS)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/17/1986",
@@ -10895,9 +10373,7 @@
     "igdb": {
       "name": "King Of Casino",
       "id": 42105,
-      "genres": [
-        "Strategy"
-      ],
+      "genres": ["Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1990",
@@ -10940,9 +10416,7 @@
     "igdb": {
       "name": "Kore ga Pro Yakyuu '89",
       "id": 42037,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/19/1989",
@@ -10985,10 +10459,7 @@
     "igdb": {
       "name": "Kore ga Pro Yakyuu '90",
       "id": 37686,
-      "genres": [
-        "Sport",
-        "Strategy"
-      ],
+      "genres": ["Sport", "Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/28/1990",
@@ -11031,9 +10502,7 @@
     "igdb": {
       "name": "Kyuukyoku Mahjong",
       "id": 37681,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/29/1992",
@@ -11076,9 +10545,7 @@
     "igdb": {
       "name": "Kyuukyoku Mahjong II",
       "id": 37680,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/29/1993",
@@ -11121,9 +10588,7 @@
     "igdb": {
       "name": "Lady Sword: Ryakudatsusareta 10-nin no Otome",
       "id": 42050,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/14/1992",
@@ -11166,9 +10631,7 @@
     "igdb": {
       "name": "Maison Ikkoku",
       "id": 41803,
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1987",
@@ -11211,9 +10674,7 @@
     "igdb": {
       "name": "Makai Hakkenden Shada",
       "id": 37675,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/30/1989",
@@ -11256,9 +10717,7 @@
     "igdb": {
       "name": "Makai Prince Dorabochan",
       "id": 38090,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/20/1990",
@@ -11301,9 +10760,7 @@
     "igdb": {
       "name": "Magical Chase",
       "id": 42126,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/14/1991",
@@ -11346,9 +10803,7 @@
     "igdb": {
       "name": "Mizubaku Daibouken",
       "id": 38084,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "02/16/1992",
@@ -11391,10 +10846,7 @@
     "igdb": {
       "name": "Momotarou Densetsu Gaiden",
       "id": 37673,
-      "genres": [
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
+      "genres": ["Role-playing (RPG)", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/03/1993",
@@ -11437,10 +10889,7 @@
     "igdb": {
       "name": "Momotarou Densetsu II",
       "id": 37655,
-      "genres": [
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
+      "genres": ["Role-playing (RPG)", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/21/1991",
@@ -11483,10 +10932,7 @@
     "igdb": {
       "name": "Momotarou Densetsu Turbo",
       "id": 42049,
-      "genres": [
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
+      "genres": ["Role-playing (RPG)", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/19/1990",
@@ -11529,9 +10975,7 @@
     "igdb": {
       "name": "Momotarou Katsugeki",
       "id": 38082,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/20/1990",
@@ -11574,10 +11018,7 @@
     "igdb": {
       "name": "Morita Shogi PC",
       "id": 37672,
-      "genres": [
-        "Puzzle",
-        "Quiz/Trivia"
-      ],
+      "genres": ["Puzzle", "Quiz/Trivia"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/26/1991",
@@ -11620,10 +11061,7 @@
     "igdb": {
       "name": "Mr. Heli",
       "id": 10446,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/30/1987",
@@ -11666,9 +11104,7 @@
     "igdb": {
       "name": "NAXAT OPEN",
       "id": 37707,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -11711,10 +11147,7 @@
     "igdb": {
       "name": "Nazo No Masquerade",
       "id": 37669,
-      "genres": [
-        "Strategy",
-        "Adventure"
-      ],
+      "genres": ["Strategy", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/01/1990",
@@ -11757,9 +11190,7 @@
     "igdb": {
       "name": "Necromancer",
       "id": 18661,
-      "genres": [
-        "Arcade"
-      ],
+      "genres": ["Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1982",
@@ -11802,9 +11233,7 @@
     "igdb": {
       "name": "Nekketsu Koukou Dodgeball Bu: MD Soccer Hen",
       "id": 46677,
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/05/1992",
@@ -11847,9 +11276,7 @@
     "igdb": {
       "name": "The New Zealand Story",
       "id": 39064,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "",
@@ -11892,9 +11319,7 @@
     "igdb": {
       "name": "NHK Taiga Drama Taiheiki",
       "id": 37667,
-      "genres": [
-        "Strategy"
-      ],
+      "genres": ["Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/30/1992",
@@ -11980,12 +11405,7 @@
     "igdb": {
       "name": "The Ninja Warriors",
       "id": 5406,
-      "genres": [
-        "Fighting",
-        "Platform",
-        "Hack and slash/Beat 'em up",
-        "Arcade"
-      ],
+      "genres": ["Fighting", "Platform", "Hack and slash/Beat 'em up", "Arcade"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1988",
@@ -12028,9 +11448,7 @@
     "igdb": {
       "name": "Obocchama Kun",
       "id": 42040,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/14/1991",
@@ -12073,10 +11491,7 @@
     "igdb": {
       "name": "Dungeons & Dragons: Order of the Griffon",
       "id": 42102,
-      "genres": [
-        "Role-playing (RPG)",
-        "Adventure"
-      ],
+      "genres": ["Role-playing (RPG)", "Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1992",
@@ -12119,10 +11534,7 @@
     "igdb": {
       "name": "OutRun",
       "id": 2051,
-      "genres": [
-        "Racing",
-        "Arcade"
-      ],
+      "genres": ["Racing", "Arcade"],
       "total_rating": 78,
       "total_rating_count": 40,
       "first_release_date": "09/24/1986",
@@ -12165,9 +11577,7 @@
     "igdb": {
       "name": "Pachio Kun Juuban Shoubu",
       "id": 46501,
-      "genres": [
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/12/1992",
@@ -12210,9 +11620,7 @@
     "igdb": {
       "name": "PC Genjin 3 Special",
       "id": 37663,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "04/30/1993",
@@ -12298,9 +11706,7 @@
     "igdb": {
       "name": "QUIZ Toukou Shashin",
       "id": 37659,
-      "genres": [
-        "Puzzle"
-      ],
+      "genres": ["Puzzle"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "06/12/1994",
@@ -12343,9 +11749,7 @@
     "igdb": {
       "name": "Rabio Lepus Special",
       "id": 38066,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/18/1990",
@@ -12388,9 +11792,7 @@
     "igdb": {
       "name": "Rock On",
       "id": 37658,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/21/1989",
@@ -12433,10 +11835,7 @@
     "igdb": {
       "name": "R-Type II",
       "id": 6854,
-      "genres": [
-        "Shooter",
-        "Arcade"
-      ],
+      "genres": ["Shooter", "Arcade"],
       "total_rating": 76,
       "total_rating_count": 9,
       "first_release_date": "12/30/1989",
@@ -12479,9 +11878,7 @@
     "igdb": {
       "name": "Chase H.Q. II: Special Criminal Investigation",
       "id": 11999,
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -12524,9 +11921,7 @@
     "igdb": {
       "name": "Sadakichi Seven: Hideyoshi no Ougon",
       "id": 64289,
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "11/17/1988",
@@ -12569,9 +11964,7 @@
     "igdb": {
       "name": "Sekigahara",
       "id": 43203,
-      "genres": [
-        "Strategy"
-      ],
+      "genres": ["Strategy"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/13/1990",
@@ -12614,10 +12007,7 @@
     "igdb": {
       "name": "Shougi Shodan Icchokusen",
       "id": 42032,
-      "genres": [
-        "Puzzle",
-        "Quiz/Trivia"
-      ],
+      "genres": ["Puzzle", "Quiz/Trivia"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "08/09/1990",
@@ -12660,9 +12050,7 @@
     "igdb": {
       "name": "Strip Fighter II",
       "id": 38079,
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "01/31/1993",
@@ -12705,11 +12093,7 @@
     "igdb": {
       "name": "SUPER MOMOTARO DENTETSU",
       "id": 38068,
-      "genres": [
-        "Puzzle",
-        "Strategy",
-        "Quiz/Trivia"
-      ],
+      "genres": ["Puzzle", "Strategy", "Quiz/Trivia"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/14/1989",
@@ -12752,10 +12136,7 @@
     "igdb": {
       "name": "Chase H.Q.",
       "id": 6802,
-      "genres": [
-        "Racing",
-        "Arcade"
-      ],
+      "genres": ["Racing", "Arcade"],
       "total_rating": 65,
       "total_rating_count": 8,
       "first_release_date": "12/30/1988",
@@ -12798,9 +12179,7 @@
     "igdb": {
       "name": "Saint Dragon",
       "id": 12207,
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "12/30/1989",
@@ -12929,9 +12308,7 @@
     "igdb": {
       "name": "Tsuru Teruhito no Jissen Kabushiki Bi-Game",
       "id": 59431,
-      "genres": [
-        "Simulator"
-      ],
+      "genres": ["Simulator"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/31/1989",
@@ -13017,9 +12394,7 @@
     "igdb": {
       "name": "Valkyrie no Densetsu",
       "id": 42080,
-      "genres": [
-        "Adventure"
-      ],
+      "genres": ["Adventure"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "09/08/1990",
@@ -13105,10 +12480,7 @@
     "igdb": {
       "name": "Wonderboy in Monsterland",
       "id": 37265,
-      "genres": [
-        "Platform",
-        "Role-playing (RPG)"
-      ],
+      "genres": ["Platform", "Role-playing (RPG)"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "10/29/1987",
@@ -13151,9 +12523,7 @@
     "igdb": {
       "name": "Youkai Douchuuki",
       "id": 48597,
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "total_rating": "",
       "total_rating_count": "",
       "first_release_date": "03/31/1987",

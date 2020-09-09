@@ -1,4 +1,8 @@
 {
+  "Nintendo Game Boy Advance": {
+    "isLaunchTitle": 2,
+    "isExclusive": 4
+  },
   "Nintendo Entertainment System (NES)": {
     "isLaunchTitle": 3,
     "isExclusive": 7,
@@ -126,10 +130,6 @@
   "Microsoft Xbox One": {
     "isLaunchTitle": 1,
     "isExclusive": 5
-  },
-  "Nintendo Game Boy Advance": {
-    "isLaunchTitle": 2,
-    "isExclusive": 3
   },
   "Super Nintendo Entertainment System (SNES)": {
     "isLaunchTitle": 3,

@@ -1,7 +1,7 @@
 [
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Demo"],
       "name": "sample program - celtic - pwm test",
       "id": 9999,
       "total_rating": null,
@@ -46,9 +46,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport", "Golf"],
       "name": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
       "id": 94921,
       "total_rating": null,
@@ -92,9 +90,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "name": "After Burner Complete",
       "id": 113199,
       "total_rating": null,
@@ -102,9 +98,7 @@
       "first_release_date": "12/31/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "After Burner Complete",
@@ -141,9 +135,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing"],
       "name": "BC Racers",
       "id": 5362,
       "total_rating": null,
@@ -151,10 +143,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1,
-        4
-      ]
+      "game_modes": [1, 4]
     },
     "gb": {
       "aliases": "",
@@ -191,10 +180,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Platform",
-        "Adventure"
-      ],
+      "genres": ["Platform", "Adventure"],
       "name": "Blackthorne",
       "id": 452,
       "total_rating": 70,
@@ -202,9 +188,7 @@
       "first_release_date": "09/22/1994",
       "developers": "",
       "esrb": "T",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "Blackhawk",
@@ -241,9 +225,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "name": "Brutal: Above the Claw",
       "id": 45879,
       "total_rating": null,
@@ -287,9 +269,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "name": "Cosmic Carnage",
       "id": 45883,
       "total_rating": null,
@@ -333,9 +313,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter", "SHMUP"],
       "name": "DarXide",
       "id": 45877,
       "total_rating": null,
@@ -379,9 +357,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter", "FPS"],
       "name": "Doom",
       "id": 673,
       "total_rating": 83,
@@ -389,11 +365,7 @@
       "first_release_date": "12/09/1993",
       "developers": "",
       "esrb": "M",
-      "game_modes": [
-        1,
-        2,
-        3
-      ]
+      "game_modes": [1, 2, 3]
     },
     "gb": {
       "aliases": "Doom Classic",
@@ -430,7 +402,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Demo"],
       "name": "ecco the dolphin cinepak demo",
       "id": 9999,
       "total_rating": null,
@@ -475,10 +447,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Simulator",
-        "Sport"
-      ],
+      "genres": ["Simulator", "Sport", "Soccer"],
       "name": "FIFA Soccer 96",
       "id": 704,
       "total_rating": 76,
@@ -486,10 +455,7 @@
       "first_release_date": "09/29/1995",
       "developers": "",
       "esrb": "E",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -526,7 +492,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Demo"],
       "name": "hot chick in vdp mode 2 by devster",
       "id": 9999,
       "total_rating": null,
@@ -571,9 +537,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "name": "Knuckles' Chaotix",
       "id": 19762,
       "total_rating": 79,
@@ -581,10 +545,7 @@
       "first_release_date": "04/19/1995",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -621,9 +582,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "name": "Kolibri",
       "id": 19733,
       "total_rating": null,
@@ -631,10 +590,7 @@
       "first_release_date": "12/30/1995",
       "developers": "",
       "esrb": "E",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -671,10 +627,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter",
-        "Simulator"
-      ],
+      "genres": ["Shooter", "Simulator", "Mech"],
       "name": "Metal Head",
       "id": 19780,
       "total_rating": null,
@@ -682,9 +635,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "",
@@ -721,9 +672,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting"],
       "name": "Mortal Kombat II",
       "id": 1619,
       "total_rating": 75,
@@ -731,10 +680,7 @@
       "first_release_date": "12/30/1993",
       "developers": "",
       "esrb": "M",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "MK2\r\nMKII\r\nMortal Kombat 2",
@@ -771,10 +717,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Racing",
-        "Sport"
-      ],
+      "genres": ["Racing", "Sport"],
       "name": "Motocross Championship",
       "id": 19779,
       "total_rating": null,
@@ -782,10 +725,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -822,10 +762,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Sport",
-        "Arcade"
-      ],
+      "genres": ["Sport", "Arcade", "Basketball"],
       "name": "NBA Jam Tournament Edition",
       "id": 19712,
       "total_rating": 68,
@@ -833,10 +770,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "E",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -873,9 +807,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport", "Football"],
       "name": "NFL Quarterback Club",
       "id": 114754,
       "total_rating": null,
@@ -919,7 +851,7 @@
   },
   {
     "igdb": {
-      "genres": [],
+      "genres": ["Demo"],
       "name": "picture magic boot cart",
       "id": 9999,
       "total_rating": null,
@@ -964,10 +896,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Platform",
-        "Adventure"
-      ],
+      "genres": ["Platform", "Adventure"],
       "name": "Pitfall: The Mayan Adventure",
       "id": 5410,
       "total_rating": 61,
@@ -975,9 +904,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "T",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "",
@@ -1014,11 +941,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting",
-        "Real Time Strategy (RTS)",
-        "Strategy"
-      ],
+      "genres": ["Fighting"],
       "name": "Primal Rage",
       "id": 4271,
       "total_rating": 62,
@@ -1026,9 +949,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        2
-      ]
+      "game_modes": [2]
     },
     "gb": {
       "aliases": "",
@@ -1065,9 +986,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport", "Baseball"],
       "name": "RBI Baseball '95",
       "id": 45876,
       "total_rating": null,
@@ -1111,11 +1030,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Strategy",
-        "Turn-based strategy (TBS)",
-        "Tactical"
-      ],
+      "genres": ["Strategy", "Turn-based strategy (TBS)", "Tactical"],
       "name": "Romance of the Three Kingdoms IV: Wall of Fire",
       "id": 7040,
       "total_rating": 49,
@@ -1123,9 +1038,7 @@
       "first_release_date": "12/08/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "Romance of the Three Kingdoms 4: Wall of Fire\r\nSangokushi IV\r\nSangokushi 4",
@@ -1207,10 +1120,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter",
-        "Simulator"
-      ],
+      "genres": ["Shooter", "Simulator"],
       "name": "Shadow Squadron",
       "id": 19763,
       "total_rating": null,
@@ -1218,10 +1128,7 @@
       "first_release_date": "04/25/1995",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "Stellar Assault  ",
@@ -1258,9 +1165,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "name": "Space Harrier",
       "id": 12857,
       "total_rating": 62,
@@ -1268,9 +1173,7 @@
       "first_release_date": "12/30/1985",
       "developers": "",
       "esrb": "E",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "3D Space Harrier\nSega Ages Space Harrier",
@@ -1307,9 +1210,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Platform"
-      ],
+      "genres": ["Platform"],
       "name": "The Amazing Spider-Man: Web of Fire",
       "id": 45882,
       "total_rating": null,
@@ -1353,10 +1254,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Simulator",
-        "Strategy"
-      ],
+      "genres": ["Simulator", "Strategy"],
       "name": "Star Trek: Starfleet Academy - Starship Bridge Simulator",
       "id": 45878,
       "total_rating": null,
@@ -1364,9 +1262,7 @@
       "first_release_date": "11/30/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "",
@@ -1403,10 +1299,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter",
-        "Simulator"
-      ],
+      "genres": ["Shooter", "Simulator", "Arcade"],
       "name": "Star Wars Arcade",
       "id": 39822,
       "total_rating": null,
@@ -1414,9 +1307,7 @@
       "first_release_date": "06/06/1993",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1
-      ]
+      "game_modes": [1]
     },
     "gb": {
       "aliases": "",
@@ -1453,9 +1344,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter"
-      ],
+      "genres": ["Shooter"],
       "name": "TMEK",
       "id": 45875,
       "total_rating": null,
@@ -1499,10 +1388,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Platform",
-        "Adventure"
-      ],
+      "genres": ["Platform", "Adventure"],
       "name": "Tempo",
       "id": 45881,
       "total_rating": null,
@@ -1546,10 +1432,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting",
-        "Sport"
-      ],
+      "genres": ["Fighting", "Sport", "Boxing"],
       "name": "Toughman Contest",
       "id": 19760,
       "total_rating": null,
@@ -1557,10 +1440,7 @@
       "first_release_date": "12/30/1995",
       "developers": "",
       "esrb": "T",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -1597,9 +1477,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting", "Arcade"],
       "name": "Virtua Fighter",
       "id": 19734,
       "total_rating": 50,
@@ -1607,10 +1485,7 @@
       "first_release_date": "11/30/1993",
       "developers": "",
       "esrb": "T",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -1647,9 +1522,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Racing"
-      ],
+      "genres": ["Racing", "Arcade"],
       "name": "Virtua Racing Deluxe",
       "id": 45880,
       "total_rating": null,
@@ -1693,9 +1566,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport", "Wrestling"],
       "name": "WWF Raw",
       "id": 19771,
       "total_rating": 65,
@@ -1703,10 +1574,7 @@
       "first_release_date": "12/30/1994",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -1743,9 +1611,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Fighting"
-      ],
+      "genres": ["Fighting", "Wrestling"],
       "name": "WWF WrestleMania: The Arcade Game",
       "id": 4546,
       "total_rating": 52,
@@ -1753,10 +1619,7 @@
       "first_release_date": "10/17/1995",
       "developers": "",
       "esrb": "",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",
@@ -1793,9 +1656,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Sport"
-      ],
+      "genres": ["Sport", "Baseball"],
       "name": "World Series Baseball Starring Deion Sanders",
       "id": 46428,
       "total_rating": null,
@@ -1839,10 +1700,7 @@
   },
   {
     "igdb": {
-      "genres": [
-        "Shooter",
-        "Racing"
-      ],
+      "genres": ["Shooter", "Racing"],
       "name": "Zaxxon's Motherbase 2000",
       "id": 19764,
       "total_rating": null,
@@ -1850,10 +1708,7 @@
       "first_release_date": "07/13/1995",
       "developers": "",
       "esrb": "E",
-      "game_modes": [
-        1,
-        2
-      ]
+      "game_modes": [1, 2]
     },
     "gb": {
       "aliases": "",

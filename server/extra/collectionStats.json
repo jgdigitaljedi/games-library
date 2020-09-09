@@ -2,219 +2,241 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Shadowrun: Dragonfall - Director's Cut",
-        "id": 8864,
+        "name": "Madagascar",
+        "id": 3764,
         "genres": [
-          "Role-playing (RPG)",
-          "Strategy",
-          "Turn-based strategy (TBS)",
-          "Adventure",
-          "Indie"
+          "Platform",
+          "Adventure"
         ],
-        "total_rating": 84,
-        "total_rating_count": 46,
-        "first_release_date": "09/17/2014",
+        "total_rating": 70,
+        "total_rating_count": 38,
+        "first_release_date": "05/23/2005",
         "developers": "",
-        "esrb": ""
+        "esrb": "E10+"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-47411",
-        "gbid": 47411,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2670996-dfdcimage.jpg",
-        "deck": "A standalone version of Shadowrun Returns's expansion, Shadowrun: Dragonfall, with new quests and areas, and improved combat and UI.  Also includes a game editor that allows players to create their own SR adventures and share with others",
-        "platforms": "Mac, PC, iPad, Android, Linux"
+        "guid": "3030-5680",
+        "gbid": 5680,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3014425-box_mad.png",
+        "deck": "",
+        "platforms": "Game Boy Advance, PlayStation 2, GameCube, Xbox, Nintendo DS, PC"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
+      "consoleName": "Game Boy Advance",
+      "consoleIgdbId": 24,
+      "consoleGbid": 4,
+      "consoleGbGuid": "3045-4",
+      "condition": "Good",
+      "case": "custom",
       "pricePaid": "0",
-      "physical": "",
+      "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-28",
-      "howAcquired": "Epic Games Store",
+      "datePurchased": "2020-09-08",
+      "howAcquired": "Video Games Monthly",
       "notes": "",
-      "createdAt": "08/28/2020 07:06 pm",
-      "updatedAt": "08/28/2020 07:06 pm",
-      "_id": "e632651fa9904aaea42f23eb1b863a13",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2670996-dfdcimage.jpg",
-      "description": "A standalone version of Shadowrun Returns's expansion, Shadowrun: Dragonfall, with new quests and areas, and improved combat and UI.  Also includes a game editor that allows players to create their own SR adventures and share with others",
-      "miltiplayerNumber": 1
+      "createdAt": "09/09/2020 06:26 am",
+      "updatedAt": "09/09/2020 06:26 am",
+      "_id": "a51eb0acc00f49d89bf9f5b75833d50b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3014425-box_mad.png",
+      "description": "",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Shadowrun Returns",
-        "id": 3020,
+        "name": "Finding Nemo",
+        "id": 3781,
         "genres": [
-          "Role-playing (RPG)",
-          "Strategy",
-          "Turn-based strategy (TBS)",
-          "Adventure",
-          "Indie"
+          "Adventure"
         ],
-        "total_rating": 75,
-        "total_rating_count": 107,
-        "first_release_date": "07/24/2013",
+        "total_rating": 63,
+        "total_rating_count": 14,
+        "first_release_date": "05/04/2003",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-16805",
+        "gbid": 16805,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8272/1146043-914599_front.jpg",
+        "deck": "Finding Nemo is a game based on the film of the same name.",
+        "platforms": "Game Boy Advance, Mac, PlayStation 2, GameCube, Xbox, PC"
+      },
+      "consoleName": "Game Boy Advance",
+      "consoleIgdbId": 24,
+      "consoleGbid": 4,
+      "consoleGbGuid": "3045-4",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "0",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-09-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "09/09/2020 06:26 am",
+      "updatedAt": "09/09/2020 06:26 am",
+      "_id": "37f545a14cfe49a78b12fb8f89eefb0f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8272/1146043-914599_front.jpg",
+      "description": "Finding Nemo is a game based on the film of the same name.",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo Game Boy Advance exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Disney/Pixar Finding Nemo",
+          "details": [
+            "Nintendo Game Boy Advance exclusive"
+          ],
+          "id": "gba67",
+          "igdbId": 3781,
+          "gbId": 16805,
+          "gbGuid": "3030-16805",
+          "tgdbId": 30831,
+          "isExclusive": [
+            {
+              "name": "Nintendo Game Boy Advance",
+              "id": "ccl10",
+              "igdbId": 24,
+              "gbId": 4,
+              "gbGuid": "3045-4",
+              "tgdbId": 5
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Blackwater",
+        "id": 6917,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 45,
+        "total_rating_count": 2,
+        "first_release_date": "10/24/2011",
         "developers": "",
         "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-37894",
-        "gbid": 37894,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/16944/2968682-shadowrun-returns-cover-thumb.jpg",
-        "deck": "Shadowrun Returns is a turn-based RPG created by Harebrained Schemes.",
-        "platforms": "Mac, PC, iPad, Android, Linux"
+        "guid": "3030-35555",
+        "gbid": 35555,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2085663-box_bwater.png",
+        "deck": "A Kinect-based rail shooter for the Xbox 360 based on the controversial PMC.",
+        "platforms": "Xbox 360, Xbox 360 Games Store"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-28",
-      "howAcquired": "Epic Games Store",
-      "notes": "",
-      "createdAt": "08/28/2020 07:05 pm",
-      "updatedAt": "08/28/2020 07:05 pm",
-      "_id": "2d77ae8eccb147a4b1ded5e00c98f068",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/16944/2968682-shadowrun-returns-cover-thumb.jpg",
-      "description": "Shadowrun Returns is a turn-based RPG created by Harebrained Schemes.",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-09-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed",
+      "createdAt": "09/09/2020 06:29 am",
+      "updatedAt": "09/09/2020 06:29 am",
+      "_id": "141c89fc0c994b9e92c70bcfe4679474",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2085663-box_bwater.png",
+      "description": "A Kinect-based rail shooter for the Xbox 360 based on the controversial PMC.",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Shadowrun: Hong Kong",
-        "id": 11772,
+        "name": "Killzone 3",
+        "id": 1867,
         "genres": [
-          "Role-playing (RPG)",
-          "Strategy",
-          "Turn-based strategy (TBS)",
-          "Tactical",
-          "Adventure",
-          "Indie"
+          "Shooter"
         ],
-        "total_rating": 83,
-        "total_rating_count": 27,
-        "first_release_date": "08/19/2015",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-48586",
-        "gbid": 48586,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2717105-srhk.jpg",
-        "deck": "A new Shadowrun CRPG by Harebrained Schemes partially funded through Kickstarter.",
-        "platforms": "Mac, PC, Linux"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-28",
-      "howAcquired": "Epic Games Store",
-      "notes": "",
-      "createdAt": "08/28/2020 07:05 pm",
-      "updatedAt": "08/28/2020 07:05 pm",
-      "_id": "044b8928a2054ad4adc94f177d56f0bf",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/15/154284/2717105-srhk.jpg",
-      "description": "A new Shadowrun CRPG by Harebrained Schemes partially funded through Kickstarter.",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Remnant: From the Ashes",
-        "id": 105049,
-        "genres": [
-          "Shooter",
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 76,
-        "total_rating_count": 55,
-        "first_release_date": "08/19/2019",
+        "total_rating": 81,
+        "total_rating_count": 93,
+        "first_release_date": "02/21/2011",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-69755",
-        "gbid": 69755,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3121656-box_rfta.png",
-        "deck": "Remnant: From the Ashes is a third-person survival action game where up to 4 players can fight, adapt and overcome the perils of diverse and deadly environments.",
-        "platforms": "PC, Xbox One, PlayStation 4"
+        "aliases": "KZ3",
+        "guid": "3030-30431",
+        "gbid": 30431,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
+        "deck": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
+        "platforms": "PlayStation 3"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-28",
-      "howAcquired": "Epic Games Store",
+      "datePurchased": "2020-09-08",
+      "howAcquired": "Video Games Monthly",
       "notes": "",
-      "createdAt": "08/28/2020 07:04 pm",
-      "updatedAt": "08/28/2020 07:04 pm",
-      "_id": "591bd044943b4e9897e13c96e2a880ec",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3121656-box_rfta.png",
-      "description": "Remnant: From the Ashes is a third-person survival action game where up to 4 players can fight, adapt and overcome the perils of diverse and deadly environments.",
+      "createdAt": "09/09/2020 06:28 am",
+      "updatedAt": "09/09/2020 06:28 am",
+      "_id": "94b728c06a6048b09541f4f8023a6de4",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
+      "description": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "HITMAN",
-        "id": 11157,
+        "name": "Final Fantasy XIII",
+        "id": 389,
         "genres": [
-          "Shooter",
-          "Tactical",
+          "Role-playing (RPG)",
           "Adventure"
         ],
-        "total_rating": 80,
-        "total_rating_count": 311,
-        "first_release_date": "03/10/2016",
+        "total_rating": 77,
+        "total_rating_count": 250,
+        "first_release_date": "12/16/2009",
         "developers": "",
-        "esrb": "M"
+        "esrb": "T"
       },
       "gb": {
-        "aliases": "Hitman 6",
-        "guid": "3030-45150",
-        "gbid": 45150,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124186-1671936150-packs.jpg",
-        "deck": "The sixth game in IO Interactive's stealth murder franchise, simply titled Hitman, adopts an episodic design which continually introduces new assassination contracts for players to undertake.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Google Stadia"
+        "aliases": "FFXIII \r, FF13\r, Final Fantasy 13\r, FF XIII\r, FF 13",
+        "guid": "3030-20664",
+        "gbid": 20664,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/112/1205193-front.png",
+        "deck": "This entry into the Final Fantasy universe is set in the worlds of Pulse and Cocoon. Players take control of multiple characters who are caught in a war between these worlds.",
+        "platforms": "Xbox 360, PlayStation 3, PC, Xbox One"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-08-28",
-      "howAcquired": "Epic Games Store",
-      "notes": "",
-      "createdAt": "08/28/2020 07:02 pm",
-      "updatedAt": "08/28/2020 07:02 pm",
-      "_id": "67ff680d1dc04842946b62587e9148b2",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/3124186-1671936150-packs.jpg",
-      "description": "The sixth game in IO Interactive's stealth murder franchise, simply titled Hitman, adopts an episodic design which continually introduces new assassination contracts for players to undertake.",
+      "datePurchased": "2020-09-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed",
+      "createdAt": "09/09/2020 06:27 am",
+      "updatedAt": "09/09/2020 06:27 am",
+      "_id": "ab7ef49ad1b443bfb3fc0b1f1c62add9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/112/1205193-front.png",
+      "description": "This entry into the Final Fantasy universe is set in the worlds of Pulse and Cocoon. Players take control of multiple characters who are caught in a war between these worlds.",
       "miltiplayerNumber": 1
     }
   ],
@@ -789,23 +811,23 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 281,
+    "Game Boy Advance": 16,
+    "Xbox 360": 59,
+    "PlayStation 3": 42,
+    "PC (Microsoft Windows)": 283,
     "Super Nintendo Entertainment System (SNES)": 18,
     "Nintendo Entertainment System (NES)": 49,
     "Nintendo 64": 31,
     "Atari 5200": 1,
     "Atari 7800": 5,
-    "Xbox 360": 58,
     "PlayStation 2": 57,
     "PlayStation": 21,
     "Nintendo GameCube": 35,
-    "PlayStation 3": 40,
     "Nintendo Switch": 42,
     "PlayStation 4": 129,
     "PlayStation Portable": 18,
     "Xbox": 43,
     "Wii": 27,
-    "Game Boy Advance": 14,
     "Nintendo DS": 18,
     "Game Boy": 6,
     "Sega Mega Drive/Genesis": 29,
@@ -823,25 +845,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 259,
-    "T": 196,
-    "M": 277,
-    "E": 219,
-    "E10+": 93,
+    "E10+": 94,
+    "E": 220,
+    "T": 198,
+    "M": 279,
+    "NOT RATED": 260,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 625,
-    "digital": 434
+    "physical": 630,
+    "digital": 436
   },
   "gamesAcquisition": {
+    "Video Games Monthly": 51,
+    "Steam": 148,
     "Epic Games Store": 21,
     "Twitch": 39,
-    "Steam": 146,
     "GOG": 21,
     "GameOver": 225,
-    "Video Games Monthly": 46,
     "eBay": 50,
     "Green Man Gaming": 2,
     "Limited Run Games": 1,
@@ -878,15 +900,16 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 263,
+  "cibGames": 266,
   "gamesWithGenre": {
-    "role-playing (rpg)": 157,
+    "platform": 192,
+    "adventure": 389,
+    "shooter": 363,
+    "role-playing (rpg)": 158,
     "strategy": 118,
     "turn-based strategy (tbs)": 24,
-    "adventure": 385,
     "indie": 144,
     "tactical": 29,
-    "shooter": 359,
     "arcade": 93,
     "fighting": 67,
     "sport": 139,
@@ -895,7 +918,6 @@
     "fps": 167,
     "simulator": 109,
     "golf": 14,
-    "platform": 191,
     "skateboarding": 13,
     "surfing": 2,
     "racing": 117,
@@ -1028,6 +1050,10 @@
       "games": 10
     },
     {
+      "dateFormatted": "09/2020",
+      "games": 7
+    },
+    {
       "dateFormatted": "11/2018",
       "games": 7
     },
@@ -1071,7 +1097,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 285
+      "games": 292
     },
     {
       "dateFormatted": "2019",
@@ -1097,15 +1123,15 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 669
+      "value": 674
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 189
+      "value": 190
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 12
+      "value": 13
     },
     {
       "category": "Terrible (< 30)",

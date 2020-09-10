@@ -126,3 +126,19 @@ export interface IConsole {
   updatedAt: string;
   _id: string;
 }
+
+export interface IAccessory {
+  _id: string;
+}
+
+export interface ICollectible {
+  _id: string;
+}
+
+export interface IHardware {
+  _id: string;
+}
+
+export interface IClone {
+  _id: string;
+}

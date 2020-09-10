@@ -108,6 +108,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             )}
           </div>
           <div className="crud-form--form__row">
+            <label htmlFor="consoleName">For Console</label>
+            <InputText
+              id="consoleName"
+              value={gameForm?.consoleName}
+              onChange={handleChange}
+              attr-which="consoleName"
+              readOnly
+            />
+          </div>
+          <div className="crud-form--form__row">
             <label htmlFor="how-acquired">How Acquired</label>
             <InputText
               id="how-acquired"
@@ -136,6 +146,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               value={gameForm?.newDatePurchased}
               onChange={handleChange}
               attr-which="newDatePurchased"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="genres">Genres/Tags</label>
+            <InputText
+              id="genres"
+              value={gameForm?.genres}
+              onChange={handleChange}
+              attr-which="genres"
+              readOnly
             />
           </div>
           <div className="crud-form--form__row">
@@ -216,8 +236,28 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               cols={50}
             />
           </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="notes">Notes</label>
+            <InputTextarea
+              id="description"
+              value={gameForm?.notes}
+              onChange={handleChange}
+              attr-which="notes"
+              autoResize={true}
+              cols={50}
+            />
+          </div>
         </form>
-        {gameForm?.image && <img src={gameForm?.image} alt="game cover art or logo" />}
+        <div className="crud-form--image-and-data">
+          {gameForm?.image && <img src={gameForm?.image} alt="game cover art or logo" />}
+          {gameForm?.extraData?.length && (
+            <div className="crud-form--image-and-data__extra-data">
+              {gameForm.extraData.map((data, index) => (
+                <p key={index}>{data}</p>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
       <hr />
       <div className="crud-form--footer">

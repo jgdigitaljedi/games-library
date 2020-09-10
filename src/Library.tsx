@@ -15,6 +15,10 @@ import { Dialog } from 'primereact/dialog';
 import GameForm from './components/Forms/GameForm/GameForm';
 import PlatformForm from './components/Forms/PlatformForm/PlatformForm';
 import helpersService from './services/helpers.service';
+import AccForm from './components/Forms/AccForm/AccForm';
+import CollForm from './components/Forms/CollForm/CollForm';
+import HardwareForm from './components/Forms/HardwareForm/HardwareForm';
+import CloneForm from './components/Forms/CloneForm/CloneForm';
 
 interface IInputOptions {
   label: string;
@@ -188,7 +192,12 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         </div>
         {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} />}
         {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} />}
-        {/* <GameDialog game={selectedCard} /> */}
+        {view === 'accessories' && <AccForm acc={selectedItem} closeDialog={closeDialog} />}
+        {view === 'collectibles' && (
+          <CollForm collectible={selectedItem} closeDialog={closeDialog} />
+        )}
+        {view === 'hardware' && <HardwareForm hardware={selectedItem} closeDialog={closeDialog} />}
+        {view === 'clone' && <CloneForm clone={selectedItem} closeDialog={closeDialog} />}
       </Dialog>
     </div>
   );

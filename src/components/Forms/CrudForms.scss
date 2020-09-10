@@ -7,11 +7,16 @@
     padding: 0 $gutter $gutter $gutter;
     display: flex;
     justify-content: space-between;
-    img {
-      max-height: 30rem;
-      width: auto;
-      max-width: 50%;
-      object-fit: contain;
+    .crud-form--image-and-data {
+      img {
+        max-height: 30rem;
+        width: auto;
+        // max-width: 50%;
+        object-fit: contain;
+      }
+      &__extra-data {
+        color: $light-green;
+      }
     }
     form {
       display: flex;

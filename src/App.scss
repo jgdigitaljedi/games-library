@@ -12,6 +12,10 @@
 @import './components/DeciderHeader/DeciderHeader.scss';
 @import './components/ListView/ListVIew.scss';
 @import './components/Forms/CrudForms.scss';
+@import './components/Forms/AccForm/AccForm.scss';
+@import './components/Forms/CollForm/CollForm.scss';
+@import './components/Forms/HardwareForm/HardwareForm.scss';
+@import './components/Forms/CloneForm/CloneForm.scss';
 .App {
   min-height: 100vh;
   height: 100%;

@@ -113,8 +113,8 @@ export interface IConsole {
   box: boolean;
   mods: string;
   notes: string;
-  connectedBy: string;
-  upscaler: boolean;
+  connectedBy?: string;
+  upscaler?: boolean;
   datePurchased: string;
   purchasePrice: string | number;
   ghostConsole: boolean;
@@ -124,6 +124,8 @@ export interface IConsole {
   howAcquired: string;
   createdAt: string;
   updatedAt: string;
+  name?: string;
+  newDatePurchased?: Date;
   _id: string;
 }
 

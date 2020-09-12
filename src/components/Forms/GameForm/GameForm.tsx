@@ -8,6 +8,7 @@ import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
 import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
 import HelpersService from '../../../services/helpers.service';
+import { handleChange } from '../../../services/forms.service';
 
 interface IProps {
   game: IGame;
@@ -35,14 +36,10 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     { label: 'Other', value: 'Other' }
   ];
 
-  const handleChange = (e: any) => {
-    const isSwitch = e.hasOwnProperty('value');
-    const { value } = isSwitch ? e : e.target;
-    const propPath = isSwitch ? e.target.id : e.target.getAttribute('attr-which');
-    const copy = _cloneDeep(gameForm);
-    if (copy) {
-      _set(copy, propPath, value);
-      setGameForm(copy);
+  const userChange = (e: any) => {
+    const newState = handleChange(e, gameForm);
+    if (newState) {
+      setGameForm(newState);
     }
   };
 
@@ -90,18 +87,13 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           <div className="crud-form--form__row">
             <label htmlFor="name">Name</label>
             {!addMode && (
-              <InputText
-                id="name"
-                value={gameForm?.name}
-                onChange={handleChange}
-                attr-which="name"
-              />
+              <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" />
             )}
             {addMode && (
               // <InputText
               //   id="name"
               //   value={gameForm?.name}
-              //   onChange={handleChange}
+              //   onChange={userChange}
               //   attr-which="name"
               // />
               <span>CHANGE TO AUTONCOMPLETE USING IGDB</span>
@@ -112,7 +104,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputText
               id="consoleName"
               value={gameForm?.consoleName}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="consoleName"
               readOnly
             />
@@ -122,7 +114,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputText
               id="how-acquired"
               value={gameForm?.howAcquired}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="howAcquired"
             />
           </div>
@@ -131,7 +123,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputText
               id="price-paid"
               value={gameForm?.pricePaid}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="pricePaid"
               type="number"
               keyfilter="pnum"
@@ -144,7 +136,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               id="newDatePurchased"
               showIcon={true}
               value={gameForm?.newDatePurchased}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="newDatePurchased"
             />
           </div>
@@ -153,7 +145,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputText
               id="genres"
               value={gameForm?.genres}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="genres"
               readOnly
             />
@@ -163,7 +155,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputText
               id="multiplayer-number"
               value={gameForm?.multiplayerNumber}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="multiplayerNumber"
               type="number"
               keyfilter="pnum"
@@ -175,7 +167,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputSwitch
               id="cib"
               checked={!!gameForm?.cib}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="cib"
             />
           </div>
@@ -184,7 +176,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputSwitch
               id="physical"
               checked={!!gameForm?.physical}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="physical"
             />
           </div>
@@ -193,7 +185,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputTextarea
               id="notes"
               value={gameForm?.notes}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="notes"
               autoResize={true}
             />
@@ -221,7 +213,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputText
               id="image"
               value={gameForm?.image}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="image"
             />
           </div>
@@ -230,7 +222,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputTextarea
               id="description"
               value={gameForm?.description}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="description"
               autoResize={true}
               cols={50}
@@ -241,7 +233,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <InputTextarea
               id="description"
               value={gameForm?.notes}
-              onChange={handleChange}
+              onChange={userChange}
               attr-which="notes"
               autoResize={true}
               cols={50}

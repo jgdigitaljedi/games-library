@@ -2,242 +2,311 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Madagascar",
-        "id": 3764,
+        "name": "XONOX Double Ender: Chuck Norris Superkicks/Artillery Duel",
+        "id": 23573,
         "genres": [
-          "Platform",
-          "Adventure"
+          "Fighting",
+          "Arcade",
+          "Shooter"
         ],
-        "total_rating": 70,
-        "total_rating_count": 38,
-        "first_release_date": "05/23/2005",
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "12/30/1983",
         "developers": "",
-        "esrb": "E10+"
+        "esrb": ""
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-5680",
-        "gbid": 5680,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3014425-box_mad.png",
-        "deck": "",
-        "platforms": "Game Boy Advance, PlayStation 2, GameCube, Xbox, Nintendo DS, PC"
+        "aliases": "Kung Fu Superkicks: Pursuit of the Ninja",
+        "guid": "3030-904",
+        "gbid": 904,
+        "image": "https://cdn.shopify.com/s/files/1/0364/6305/products/90075_front_large.jpeg?v=1427935445",
+        "deck": "In this game, players control martial arts master, Chuck Norris, in a never ending fight to stop ninjas.",
+        "platforms": "Commodore 64, VIC-20, Atari 2600, ColecoVision"
       },
-      "consoleName": "Game Boy Advance",
-      "consoleIgdbId": 24,
-      "consoleGbid": 4,
-      "consoleGbGuid": "3045-4",
-      "condition": "Good",
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
+      "condition": "Fair",
       "case": "custom",
-      "pricePaid": "0",
+      "pricePaid": "8.08",
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-08",
-      "howAcquired": "Video Games Monthly",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-09-12",
+      "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "09/09/2020 06:26 am",
-      "updatedAt": "09/09/2020 06:26 am",
-      "_id": "a51eb0acc00f49d89bf9f5b75833d50b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3014425-box_mad.png",
-      "description": "",
-      "miltiplayerNumber": 1,
+      "createdAt": "09/12/2020 05:09 pm",
+      "updatedAt": "09/12/2020 05:09 pm",
+      "_id": "9734c75d2fdc4eda8666ba618f081ce5",
+      "image": "https://cdn.shopify.com/s/files/1/0364/6305/products/90075_front_large.jpeg?v=1427935445",
+      "description": "In this game, players control martial arts master, Chuck Norris, in a never ending fight to stop ninjas.",
+      "name": "XONOX Double Ender: Chuck Norris Superkicks/Artillery Duel",
+      "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Finding Nemo",
-        "id": 3781,
+        "name": "Golden Axe",
+        "id": 5565,
         "genres": [
-          "Adventure"
+          "Hack and slash/Beat 'em up",
+          "Arcade"
         ],
-        "total_rating": 63,
-        "total_rating_count": 14,
-        "first_release_date": "05/04/2003",
+        "total_rating": 70,
+        "total_rating_count": 118,
+        "first_release_date": "05/31/1989",
         "developers": "",
-        "esrb": "E"
+        "esrb": "T"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-16805",
-        "gbid": 16805,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8272/1146043-914599_front.jpg",
-        "deck": "Finding Nemo is a game based on the film of the same name.",
-        "platforms": "Game Boy Advance, Mac, PlayStation 2, GameCube, Xbox, PC"
+        "guid": "3030-14351",
+        "gbid": 14351,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2370592-genesis_goldenaxe.jpg",
+        "deck": "A classic, side-scrolling hack and slash game, Golden Axe was ported to many platforms, including the Sega Genesis/Mega Drive.",
+        "platforms": "Amiga, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Sega CD, TurboGrafx-CD, WonderSwan Color, Zodiac, Arcade, Xbox 360 Games Store, Wii Shop, PlayStation Network (PS3), PC, iPhone, iPad, Android"
       },
-      "consoleName": "Game Boy Advance",
-      "consoleIgdbId": 24,
-      "consoleGbid": 4,
-      "consoleGbGuid": "3045-4",
+      "consoleName": "Sega Mega Drive/Genesis",
+      "consoleIgdbId": 29,
+      "consoleGbid": 6,
+      "consoleGbGuid": "3045-6",
       "condition": "Good",
-      "case": "custom",
-      "pricePaid": "0",
+      "case": "original",
+      "pricePaid": "29.41",
       "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-08",
-      "howAcquired": "Video Games Monthly",
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-09-12",
+      "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "09/09/2020 06:26 am",
-      "updatedAt": "09/09/2020 06:26 am",
-      "_id": "37f545a14cfe49a78b12fb8f89eefb0f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8272/1146043-914599_front.jpg",
-      "description": "Finding Nemo is a game based on the film of the same name.",
-      "miltiplayerNumber": 1,
+      "createdAt": "09/12/2020 05:02 pm",
+      "updatedAt": "09/12/2020 05:02 pm",
+      "_id": "db24c073581847fd992221cd2a99fdca",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2370592-genesis_goldenaxe.jpg",
+      "description": "A classic, side-scrolling hack and slash game, Golden Axe was ported to many platforms, including the Sega Genesis/Mega Drive.",
+      "name": "Golden Axe",
+      "miltiplayerNumber": 2,
       "extraData": [
-        "Nintendo Game Boy Advance exclusive"
+        "Sega Genesis/Mega Drive black box grid game"
       ],
       "extraDataFull": [
         {
-          "name": "Disney/Pixar Finding Nemo",
+          "id": "smd104",
+          "name": "Golden Axe",
+          "igdbId": 5565,
+          "gbId": 14351,
+          "gbGuid": "3030-14351",
+          "tgdbId": 209,
           "details": [
-            "Nintendo Game Boy Advance exclusive"
+            "Sega Genesis/Mega Drive black box grid game"
           ],
-          "id": "gba67",
-          "igdbId": 3781,
-          "gbId": 16805,
-          "gbGuid": "3030-16805",
-          "tgdbId": 30831,
-          "isExclusive": [
+          "special": [
             {
-              "name": "Nintendo Game Boy Advance",
-              "id": "ccl10",
-              "igdbId": 24,
-              "gbId": 4,
-              "gbGuid": "3045-4",
-              "tgdbId": 5
+              "value": "Sega Genesis/Mega Drive black box grid game",
+              "forPlatform": {
+                "name": "Sega Mega Drive/Genesis",
+                "id": "ccl14",
+                "igdbId": 29,
+                "gbId": 6,
+                "gbGuid": "3045-6",
+                "tgdbId": 18
+              }
             }
           ],
-          "isLaunchTitle": false,
-          "special": []
+          "isExclusive": false,
+          "isLaunchTitle": false
         }
       ]
     },
     {
       "igdb": {
-        "name": "Blackwater",
-        "id": 6917,
+        "name": "Fantasy Zone",
+        "id": 6684,
         "genres": [
-          "Shooter"
+          "Shooter",
+          "Arcade",
+          "SHMUP"
         ],
-        "total_rating": 45,
-        "total_rating_count": 2,
-        "first_release_date": "10/24/2011",
+        "total_rating": 83,
+        "total_rating_count": 10,
+        "first_release_date": "03/19/1986",
         "developers": "",
-        "esrb": "T"
+        "esrb": "E"
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-35555",
-        "gbid": 35555,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2085663-box_bwater.png",
-        "deck": "A Kinect-based rail shooter for the Xbox 360 based on the controversial PMC.",
-        "platforms": "Xbox 360, Xbox 360 Games Store"
+        "aliases": "3D Fantasy Zone: Opa-Opa Bros., Sega Ages Fantasy Zone",
+        "guid": "3030-9493",
+        "gbid": 9493,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3413/214159-fantasy_zone.jpg",
+        "deck": "A horizontal Sega shoot 'em up which tasks the player with controlling the spaceship Opa Opa through various surreal stages. Originally an Arcade game, Fantasy Zone was adapted for many home consoles.",
+        "platforms": "Game Gear, Sega Master System, MSX, Nintendo Entertainment System, Saturn, TurboGrafx-16, Arcade, Wii Shop, Sharp X68000, Nintendo 3DS eShop, Nintendo Switch"
       },
-      "consoleName": "Xbox 360",
-      "consoleIgdbId": 12,
-      "consoleGbid": 20,
-      "consoleGbGuid": "3045-20",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "14.70",
       "physical": true,
-      "cib": true,
+      "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-09-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed",
-      "createdAt": "09/09/2020 06:29 am",
-      "updatedAt": "09/09/2020 06:29 am",
-      "_id": "141c89fc0c994b9e92c70bcfe4679474",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2085663-box_bwater.png",
-      "description": "A Kinect-based rail shooter for the Xbox 360 based on the controversial PMC.",
+      "datePurchased": "2020-09-12",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "09/12/2020 05:04 pm",
+      "updatedAt": "09/12/2020 05:04 pm",
+      "_id": "d34f29a0867e45fd88af2b61103a8cf5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3413/214159-fantasy_zone.jpg",
+      "description": "A horizontal Sega shoot 'em up which tasks the player with controlling the spaceship Opa Opa through various surreal stages. Originally an Arcade game, Fantasy Zone was adapted for many home consoles.",
+      "name": "Fantasy Zone",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Killzone 3",
-        "id": 1867,
+        "name": "10-Yard Fight",
+        "id": 2733,
         "genres": [
-          "Shooter"
+          "Sport",
+          "Football"
         ],
-        "total_rating": 81,
-        "total_rating_count": 93,
-        "first_release_date": "02/21/2011",
+        "total_rating": 47,
+        "total_rating_count": 5,
+        "first_release_date": "11/30/1983",
         "developers": "",
-        "esrb": "M"
+        "esrb": "E"
       },
       "gb": {
-        "aliases": "KZ3",
-        "guid": "3030-30431",
-        "gbid": 30431,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
-        "deck": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
-        "platforms": "PlayStation 3"
+        "aliases": "",
+        "guid": "3030-10166",
+        "gbid": 10166,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361099-nes_10yardfight.jpg",
+        "deck": "Originally released to arcades in 1983, Irem's 10-Yard Fight is an early and simplistic example of arcade-style football.",
+        "platforms": "MSX, Nintendo Entertainment System, Arcade, Nintendo Switch"
       },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "9.55",
       "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "09/09/2020 06:28 am",
-      "updatedAt": "09/09/2020 06:28 am",
-      "_id": "94b728c06a6048b09541f4f8023a6de4",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
-      "description": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
-      "miltiplayerNumber": 1
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-09-12",
+      "howAcquired": "GameOver",
+      "notes": "has manual",
+      "createdAt": "09/12/2020 05:01 pm",
+      "updatedAt": "09/12/2020 05:01 pm",
+      "_id": "51da9b81542d4fa6b4065e0a5f1acfdc",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361099-nes_10yardfight.jpg",
+      "description": "Originally released to arcades in 1983, Irem's 10-Yard Fight is an early and simplistic example of arcade-style football.",
+      "name": "10-Yard Fight",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "NES launch title",
+        "NES black box game: Sports Series",
+        "NES hang tab game"
+      ],
+      "extraDataFull": [
+        {
+          "id": "nes0",
+          "details": [
+            "NES launch title",
+            "NES black box game: Sports Series",
+            "NES hang tab game"
+          ],
+          "name": "10-Yard Fight",
+          "igdbId": 2733,
+          "gbId": 10166,
+          "gbGuid": "3030-10166",
+          "tgdbId": 317,
+          "isLaunchTitle": [
+            {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          ],
+          "special": [
+            {
+              "value": "NES black box game: Sports Series",
+              "forPlatform": {
+                "name": "Nintendo Entertainment System (NES)",
+                "id": "ccl1",
+                "igdbId": 18,
+                "gbId": 21,
+                "gbGuid": "3045-21",
+                "tgdbId": 7
+              }
+            },
+            {
+              "value": "NES hang tab game",
+              "forPlatform": {
+                "name": "Nintendo Entertainment System (NES)",
+                "id": "ccl1",
+                "igdbId": 18,
+                "gbId": 21,
+                "gbGuid": "3045-21",
+                "tgdbId": 7
+              }
+            }
+          ],
+          "isExclusive": false
+        }
+      ]
     },
     {
       "igdb": {
-        "name": "Final Fantasy XIII",
-        "id": 389,
+        "name": "Star Fox 64",
+        "id": 2591,
         "genres": [
-          "Role-playing (RPG)",
-          "Adventure"
+          "Shooter"
         ],
-        "total_rating": 77,
-        "total_rating_count": 250,
-        "first_release_date": "12/16/2009",
+        "total_rating": 87,
+        "total_rating_count": 132,
+        "first_release_date": "04/26/1997",
         "developers": "",
-        "esrb": "T"
+        "esrb": "E"
       },
       "gb": {
-        "aliases": "FFXIII \r, FF13\r, Final Fantasy 13\r, FF XIII\r, FF 13",
-        "guid": "3030-20664",
-        "gbid": 20664,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/112/1205193-front.png",
-        "deck": "This entry into the Final Fantasy universe is set in the worlds of Pulse and Cocoon. Players take control of multiple characters who are caught in a war between these worlds.",
-        "platforms": "Xbox 360, PlayStation 3, PC, Xbox One"
+        "aliases": "Lylat Wars, Starfox 64",
+        "guid": "3030-19203",
+        "gbid": 19203,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2836282-sf64.jpg",
+        "deck": "Return to the cockpit of the Arwing fighter craft and save the Lylat system from conquest in this re-telling of the original Star Fox.",
+        "platforms": "Nintendo 64, Wii Shop, Wii U"
       },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
+      "consoleName": "Nintendo 64",
+      "consoleIgdbId": 4,
+      "consoleGbid": 43,
+      "consoleGbGuid": "3045-43",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "18.38",
       "physical": true,
-      "cib": true,
+      "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-09-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed",
-      "createdAt": "09/09/2020 06:27 am",
-      "updatedAt": "09/09/2020 06:27 am",
-      "_id": "ab7ef49ad1b443bfb3fc0b1f1c62add9",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/112/1205193-front.png",
-      "description": "This entry into the Final Fantasy universe is set in the worlds of Pulse and Cocoon. Players take control of multiple characters who are caught in a war between these worlds.",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-09-12",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "09/12/2020 05:06 pm",
+      "updatedAt": "09/12/2020 05:06 pm",
+      "_id": "62b0e18e465244f889f2cb07a469eca9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2836282-sf64.jpg",
+      "description": "Return to the cockpit of the Arwing fighter craft and save the Lylat system from conquest in this re-telling of the original Star Fox.",
+      "name": "Star Fox 64",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -263,8 +332,6 @@
       "box": false,
       "mods": "",
       "notes": "will do cap replacement, power mod, and AV mod eventually",
-      "connectedBy": "None",
-      "upscaler": false,
       "datePurchased": "2020-08-07",
       "purchasePrice": "20",
       "ghostConsole": false,
@@ -274,7 +341,8 @@
       "howAcquired": "GameOver",
       "createdAt": "08/08/2020 08:09 am",
       "updatedAt": "08/08/2020 08:09 am",
-      "_id": "2406f3916d734a889cd664ca47970ef2"
+      "_id": "2406f3916d734a889cd664ca47970ef2",
+      "name": "Atari 5200"
     },
     {
       "igdb": {
@@ -298,8 +366,6 @@
       "box": false,
       "mods": "Capacitor replacement; composite video mod",
       "notes": "Given for free from Game Over as anniversary gift. ",
-      "connectedBy": "None",
-      "upscaler": false,
       "datePurchased": "2020-07-24",
       "purchasePrice": "0",
       "ghostConsole": false,
@@ -309,7 +375,8 @@
       "howAcquired": "GameOver",
       "createdAt": "07/25/2020 07:35 am",
       "updatedAt": "07/25/2020 07:35 am",
-      "_id": "7c459ded0cf542e78ac2bca787a64964"
+      "_id": "7c459ded0cf542e78ac2bca787a64964",
+      "name": "Atari 7800"
     },
     {
       "igdb": {
@@ -333,8 +400,6 @@
       "box": false,
       "mods": "installed in new shell with new buttons and membranes; Bennvenn Aoili v2 screen replacement",
       "notes": "",
-      "connectedBy": "None",
-      "upscaler": false,
       "datePurchased": "2020-03-06",
       "purchasePrice": "50",
       "ghostConsole": false,
@@ -344,7 +409,8 @@
       "howAcquired": "GameOver",
       "createdAt": "01/07/2019 07:33 am",
       "updatedAt": "01/07/2019 07:33 am",
-      "_id": "3c056a8b4492443592f146ef227ea951"
+      "_id": "3c056a8b4492443592f146ef227ea951",
+      "name": "Game Boy Color"
     },
     {
       "igdb": {
@@ -368,8 +434,6 @@
       "box": true,
       "mods": "",
       "notes": "Special Edition Zelda (black) CIB",
-      "connectedBy": "None",
-      "upscaler": false,
       "datePurchased": "2020-02-22",
       "purchasePrice": "160",
       "ghostConsole": false,
@@ -379,7 +443,8 @@
       "howAcquired": "GameOver",
       "createdAt": "02/22/2020 06:43 pm",
       "updatedAt": "02/22/2020 06:43 pm",
-      "_id": "3a5e8a117ae241558a7b76b2f7a4fc67"
+      "_id": "3a5e8a117ae241558a7b76b2f7a4fc67",
+      "name": "Nintendo 3DS"
     },
     {
       "igdb": {
@@ -403,8 +468,6 @@
       "box": false,
       "mods": "capacitors replaced; composite video mod",
       "notes": "",
-      "connectedBy": "Coaxial",
-      "upscaler": false,
       "datePurchased": "2019-11-28",
       "purchasePrice": "40",
       "ghostConsole": false,
@@ -414,7 +477,8 @@
       "howAcquired": "GameOver",
       "createdAt": "11/30/2019 07:54 am",
       "updatedAt": "11/30/2019 07:54 am",
-      "_id": "f1b51917929d4bc4ba0852556ccbe72c"
+      "_id": "f1b51917929d4bc4ba0852556ccbe72c",
+      "name": "Atari 2600"
     }
   ],
   "mostPaidForGames": [
@@ -458,6 +522,7 @@
       "_id": "a4865cb63f434af69cb195da9aee5e34",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
       "description": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
+      "name": "Pitfall: The Mayan Adventure",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
@@ -502,6 +567,7 @@
       "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
       "description": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
+      "name": "Rock Band 4",
       "miltiplayerNumber": 4,
       "extraData": [],
       "extraDataFull": []
@@ -546,6 +612,7 @@
       "_id": "df12e91c7db84587a0e3970ad8f7ea8d",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
       "description": "2K Sports' second PGA golf game.",
+      "name": "PGA TOUR 2K21",
       "miltiplayerNumber": 1
     },
     {
@@ -588,6 +655,7 @@
       "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
       "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
       "description": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
+      "name": "Splatterhouse",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
@@ -631,6 +699,7 @@
       "_id": "962e91ffb0ba4e48b3f90041f9531018",
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
       "description": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
+      "name": "Call Of Duty: Modern Warfare",
       "miltiplayerNumber": 1
     }
   ],
@@ -656,8 +725,6 @@
       "box": true,
       "mods": "RTX 2070 Super; Ryzen 7 3800X; 2TB m.2 NVME SSD; 1TB 2.5\" SSD; 32GB RAM 3600MHz",
       "notes": "Playing on a 32 inch Asus 1440p 144Hz 1ms monitor",
-      "connectedBy": "None",
-      "upscaler": false,
       "datePurchased": "2019-06-27",
       "purchasePrice": "2500",
       "ghostConsole": false,
@@ -667,7 +734,8 @@
       "howAcquired": "Amazon",
       "createdAt": "02/01/2020 06:43 am",
       "updatedAt": "02/01/2020 06:43 am",
-      "_id": "a1de4a91c4e04a4cb8ace611c4eff65b"
+      "_id": "a1de4a91c4e04a4cb8ace611c4eff65b",
+      "name": "PC (Microsoft Windows)"
     },
     {
       "igdb": {
@@ -691,8 +759,6 @@
       "box": true,
       "mods": "",
       "notes": "4TB external HD",
-      "connectedBy": "HDMI",
-      "upscaler": false,
       "datePurchased": "2017-12-01",
       "purchasePrice": "400",
       "ghostConsole": false,
@@ -702,7 +768,8 @@
       "howAcquired": "GameStop",
       "createdAt": "11/16/2018 08:26 am",
       "updatedAt": "05/26/2019 08:33 pm",
-      "_id": "1c877eebf8e04433b949da92e335a921"
+      "_id": "1c877eebf8e04433b949da92e335a921",
+      "name": "PlayStation 4"
     },
     {
       "igdb": {
@@ -726,8 +793,6 @@
       "box": true,
       "mods": "",
       "notes": "128GB micro SD",
-      "connectedBy": "HDMI",
-      "upscaler": false,
       "datePurchased": "2017-12-01",
       "purchasePrice": "300",
       "ghostConsole": false,
@@ -737,7 +802,8 @@
       "createdAt": "11/16/2018 08:01 am",
       "updatedAt": "05/26/2019 08:33 pm",
       "_id": "c8302a06508146169fac09d1ef884b58",
-      "howAcquired": "GameStop"
+      "howAcquired": "GameStop",
+      "name": "Nintendo Switch"
     },
     {
       "igdb": {
@@ -761,8 +827,6 @@
       "box": false,
       "mods": "",
       "notes": "",
-      "connectedBy": "HDMI",
-      "upscaler": false,
       "datePurchased": null,
       "purchasePrice": "300",
       "ghostConsole": false,
@@ -772,7 +836,8 @@
       "createdAt": "11/16/2018 08:04 am",
       "updatedAt": "11/16/2018 08:04 am",
       "_id": "331ff6868757437d85683b3245c2b455",
-      "howAcquired": "GameStop"
+      "howAcquired": "GameStop",
+      "name": "Wii U"
     },
     {
       "igdb": {
@@ -796,8 +861,6 @@
       "box": false,
       "mods": "RGB mod, de-blur mod, custom firmware, region unlocked",
       "notes": "all new caps; completely cleaned inside and out; Funtastic teal color",
-      "connectedBy": "Component",
-      "upscaler": false,
       "datePurchased": "2018-11-30",
       "purchasePrice": "275",
       "ghostConsole": false,
@@ -807,17 +870,20 @@
       "howAcquired": "eBay",
       "createdAt": "12/01/2018 05:53 am",
       "updatedAt": "12/01/2018 05:53 am",
-      "_id": "01e798b295c44281a9bc86690514c8cd"
+      "_id": "01e798b295c44281a9bc86690514c8cd",
+      "name": "Nintendo 64"
     }
   ],
   "gamePerConsoleCounts": {
+    "Atari 2600": 12,
+    "Sega Mega Drive/Genesis": 30,
+    "Nintendo Entertainment System (NES)": 51,
+    "Nintendo 64": 32,
     "Game Boy Advance": 16,
     "Xbox 360": 59,
     "PlayStation 3": 42,
     "PC (Microsoft Windows)": 283,
     "Super Nintendo Entertainment System (SNES)": 18,
-    "Nintendo Entertainment System (NES)": 49,
-    "Nintendo 64": 31,
     "Atari 5200": 1,
     "Atari 7800": 5,
     "PlayStation 2": 57,
@@ -830,8 +896,6 @@
     "Wii": 27,
     "Nintendo DS": 18,
     "Game Boy": 6,
-    "Sega Mega Drive/Genesis": 29,
-    "Atari 2600": 11,
     "Dreamcast": 23,
     "Sega Saturn": 8,
     "Sega 32X": 14,
@@ -845,25 +909,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "NOT RATED": 261,
+    "T": 199,
+    "E": 223,
     "E10+": 94,
-    "E": 220,
-    "T": 198,
     "M": 279,
-    "NOT RATED": 260,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 630,
+    "physical": 635,
     "digital": 436
   },
   "gamesAcquisition": {
+    "GameOver": 230,
     "Video Games Monthly": 51,
     "Steam": 148,
     "Epic Games Store": 21,
     "Twitch": 39,
     "GOG": 21,
-    "GameOver": 225,
     "eBay": 50,
     "Green Man Gaming": 2,
     "Limited Run Games": 1,
@@ -900,20 +964,22 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 266,
+  "cibGames": 267,
   "gamesWithGenre": {
+    "fighting": 68,
+    "arcade": 96,
+    "shooter": 366,
+    "hack and slash/beat 'em up": 70,
+    "shmup": 10,
+    "sport": 140,
+    "football": 8,
     "platform": 192,
     "adventure": 389,
-    "shooter": 363,
     "role-playing (rpg)": 158,
     "strategy": 118,
     "turn-based strategy (tbs)": 24,
     "indie": 144,
     "tactical": 29,
-    "arcade": 93,
-    "fighting": 67,
-    "sport": 139,
-    "hack and slash/beat 'em up": 69,
     "point-and-click": 12,
     "fps": 167,
     "simulator": 109,
@@ -934,7 +1000,6 @@
     "fishing": 2,
     "action": 2,
     "turn-based": 7,
-    "shmup": 9,
     "real time strategy (rts)": 11,
     "japanese": 2,
     "import": 2,
@@ -947,7 +1012,6 @@
     "visual novel": 1,
     "snowboarding": 7,
     "fmv": 1,
-    "football": 7,
     "pinball": 4,
     "vehicular combat": 4,
     "bowling": 2,
@@ -1042,16 +1106,16 @@
       "games": 13
     },
     {
+      "dateFormatted": "09/2020",
+      "games": 12
+    },
+    {
       "dateFormatted": "12/2018",
       "games": 12
     },
     {
       "dateFormatted": "10/2019",
       "games": 10
-    },
-    {
-      "dateFormatted": "09/2020",
-      "games": 7
     },
     {
       "dateFormatted": "11/2018",
@@ -1097,7 +1161,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 292
+      "games": 297
     },
     {
       "dateFormatted": "2019",
@@ -1123,7 +1187,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 674
+      "value": 677
     },
     {
       "category": "Fair (50 - 69)",
@@ -1131,11 +1195,11 @@
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 13
+      "value": 14
     },
     {
       "category": "Terrible (< 30)",
-      "value": 121
+      "value": 122
     }
   ],
   "consolesByCompany": {

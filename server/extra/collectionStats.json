@@ -879,6 +879,7 @@
     "Sega Mega Drive/Genesis": 30,
     "Nintendo Entertainment System (NES)": 51,
     "Nintendo 64": 32,
+    "PlayStation 4": 130,
     "Game Boy Advance": 16,
     "Xbox 360": 59,
     "PlayStation 3": 42,
@@ -890,7 +891,6 @@
     "PlayStation": 21,
     "Nintendo GameCube": 35,
     "Nintendo Switch": 42,
-    "PlayStation 4": 129,
     "PlayStation Portable": 18,
     "Xbox": 43,
     "Wii": 27,
@@ -910,7 +910,7 @@
   },
   "gamesPerEsrb": {
     "NOT RATED": 261,
-    "T": 199,
+    "T": 200,
     "E": 223,
     "E10+": 94,
     "M": 279,
@@ -918,11 +918,12 @@
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 635,
+    "physical": 636,
     "digital": 436
   },
   "gamesAcquisition": {
     "GameOver": 230,
+    "Amazon": 7,
     "Video Games Monthly": 51,
     "Steam": 148,
     "Epic Games Store": 21,
@@ -937,7 +938,6 @@
     "Battle.net": 1,
     "bought from Solis": 23,
     "eShop": 23,
-    "Amazon": 6,
     "GameStop": 66,
     "Target": 4,
     "Walmart": 13,
@@ -964,15 +964,17 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 267,
+  "cibGames": 268,
   "gamesWithGenre": {
     "fighting": 68,
     "arcade": 96,
     "shooter": 366,
     "hack and slash/beat 'em up": 70,
     "shmup": 10,
-    "sport": 140,
+    "sport": 141,
     "football": 8,
+    "simulator": 110,
+    "skateboarding": 14,
     "platform": 192,
     "adventure": 389,
     "role-playing (rpg)": 158,
@@ -982,9 +984,7 @@
     "tactical": 29,
     "point-and-click": 12,
     "fps": 167,
-    "simulator": 109,
     "golf": 14,
-    "skateboarding": 13,
     "surfing": 2,
     "racing": 117,
     "baseball": 7,
@@ -1098,16 +1098,16 @@
       "games": 14
     },
     {
+      "dateFormatted": "09/2020",
+      "games": 13
+    },
+    {
       "dateFormatted": "08/2019",
       "games": 13
     },
     {
       "dateFormatted": "04/2019",
       "games": 13
-    },
-    {
-      "dateFormatted": "09/2020",
-      "games": 12
     },
     {
       "dateFormatted": "12/2018",
@@ -1161,7 +1161,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 297
+      "games": 298
     },
     {
       "dateFormatted": "2019",
@@ -1187,7 +1187,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 677
+      "value": 678
     },
     {
       "category": "Fair (50 - 69)",

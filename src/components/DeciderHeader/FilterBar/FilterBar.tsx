@@ -19,6 +19,7 @@ import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
 import { DataContext } from '../../../context/DataContext';
+import { RadioButton } from 'primereact/radiobutton';
 
 interface IAutoCompleteData {
   originalEvent: Event;
@@ -30,6 +31,7 @@ interface IProps extends RouteComponentProps {
 }
 
 const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
+  console.log('data', data);
   const [dc, setDc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
   const masterData: IGame[] = data;
   const [genreArray, setGenreArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
@@ -274,6 +276,64 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             setDc(fsCopy);
           }}
         />
+      </div>
+
+      <div className="decider--form__input-group">
+        <label htmlFor="floor" className="info-text">
+          Location
+        </label>
+        <div className="p-field-radiobutton">
+          <RadioButton
+            value={null}
+            name="no-preference"
+            onChange={e => {
+              const fsCopy = { ...dc };
+              fsCopy.location = null;
+              setDc(fsCopy);
+            }}
+            checked={dc.location === null}
+          />
+          <label htmlFor="no-preference">No Preference</label>
+        </div>
+        <div className="p-field-radiobutton">
+          <RadioButton
+            value="upstairs"
+            name="upstairs"
+            onChange={e => {
+              const fsCopy = { ...dc };
+              fsCopy.location = 'upstairs';
+              setDc(fsCopy);
+            }}
+            checked={dc.location === 'upstairs'}
+          />
+          <label htmlFor="upstairs">Upstairs</label>
+        </div>
+        <div className="p-field-radiobutton">
+          <RadioButton
+            value="downstairs"
+            name="downstairs"
+            onChange={e => {
+              const fsCopy = { ...dc };
+              fsCopy.location = 'downstairs';
+              setDc(fsCopy);
+            }}
+            checked={dc.location === 'downstairs'}
+          />
+          <label htmlFor="upstairs">Downstairs</label>
+        </div>
+        <div className="p-field-radiobutton">
+          <RadioButton
+            value="both"
+            name="both"
+            onChange={e => {
+              const fsCopy = { ...dc };
+              fsCopy.location = 'both';
+              setDc(fsCopy);
+            }}
+            checked={dc.location === 'both'}
+          />
+          <label htmlFor="both">Both/Either</label>
+        </div>
       </div>
     </form>
   );

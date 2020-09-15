@@ -93,6 +93,9 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     if (dc.physical) {
       newData = _cloneDeep(newData).filter(g => g.physical);
     }
+    if (dc.location) {
+      newData = filters.filterLocation([...newData], dc.location);
+    }
     setData(newData);
     sortData(newData);
     //eslint-disable-next-line

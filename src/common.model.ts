@@ -80,6 +80,7 @@ export interface IFormState {
   platform: string;
   everDrive: boolean;
   physical?: boolean;
+  location?: string | null;
 }
 
 export interface IDropdown {

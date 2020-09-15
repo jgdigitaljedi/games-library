@@ -10,7 +10,8 @@ export const filters = {
       esrb: '',
       platform: '',
       everDrive: false,
-      physical: false
+      physical: false,
+      location: null
     };
   },
   filterName: (data: IGame[], str: string): IGame[] => {
@@ -44,5 +45,13 @@ export const filters = {
     return data.filter(d => {
       return get(d, 'igdb.genres').indexOf(genre) >= 0;
     });
+  },
+  filterLocation: (data: IGame[], location: string | null) => {
+    if (location) {
+      return data.filter(d => {
+        return get(d, 'location') === location;
+      });
+    }
+    return data;
   }
 };

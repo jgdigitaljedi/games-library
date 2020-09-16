@@ -28,7 +28,7 @@ const consoleLocationList = {
   '35': 'both', // Game Gear
   '86': 'upstairs', // TurboGrafx-16
   '59': 'upstairs', // Atari 2600
-  '6': 'both', //pc
+  '6': 'upstairs', //pc
   '66': 'upstairs', // Atari 5200
   '60': 'upstairs' // Atari 7800
 };

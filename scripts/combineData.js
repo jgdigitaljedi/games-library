@@ -5,6 +5,7 @@ const games = require('../server/db/gamesExtra.json');
 const chalk = require('chalk');
 const _uniqBy = require('lodash/uniqBy');
 const getLocation = require('./consoleLocation').getLocation;
+const isHandheld = require('./handheldPlatforms').isHandheld;
 
 function getGameNotes(cons) {
   return cons
@@ -129,7 +130,13 @@ const withLocations = dedupe.map((game, index) => {
   return game;
 });
 
-const writable = JSON.stringify(withLocations);
+const handheldData = withLocations.map(game => {
+  // looking for games that are handheld only
+  game.handheld = isHandheld(game);
+  return game;
+});
+
+const writable = JSON.stringify(handheldData);
 
 fs.writeFile(path.join(__dirname, '../server/db/combinedGames.json'), writable, error => {
   if (error) {

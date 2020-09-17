@@ -96,6 +96,9 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     if (dc.location) {
       newData = filters.filterLocation([...newData], dc.location);
     }
+    if (dc.handheld) {
+      newData = filters.filterHandhelds([...newData], dc.handheld);
+    }
     setData(newData);
     sortData(newData);
     //eslint-disable-next-line

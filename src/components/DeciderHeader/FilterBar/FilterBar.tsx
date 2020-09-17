@@ -30,7 +30,6 @@ interface IProps extends RouteComponentProps {
 }
 
 const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
-  console.log('data', data);
   const [dc, setDc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
   const masterData: IGame[] = data;
   const [genreArray, setGenreArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
@@ -47,6 +46,12 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     { label: 'Upstairs', value: 'upstairs' },
     { label: 'Downstairs', value: 'downstairs' },
     { label: 'Both/Either', value: 'both' }
+  ];
+
+  const handheldArr = [
+    { label: 'Show All', value: 'show' },
+    { label: 'Hide Handhelds', value: 'hide' },
+    { label: 'Show Handhelds Only', value: 'only' }
   ];
 
   const getGenreArray = useCallback((): void => {
@@ -139,6 +144,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   );
 
   const handleChange = (e: FormEvent<any>): void => {
+    console.log('asdasd', e);
     const target = e.target as HTMLInputElement;
     setNameStr(target.value);
     debounceFiltering(target.value);
@@ -283,6 +289,23 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           }}
         />
       </div>
+      <div className="decider--form__input-group">
+        <label htmlFor="handhelds" className="info-text">
+          Handhelds
+        </label>
+        <Dropdown
+          className="info-text"
+          id="handheld"
+          name="handheld"
+          value={dc.handheld}
+          onChange={e => {
+            const fsCopy = Object.assign({}, dc);
+            fsCopy.handheld = e.value;
+            setDc(fsCopy);
+          }}
+          options={handheldArr || []}
+        />
+      </div>
 
       <div className="decider--form__input-group">
         <label htmlFor="esrb" className="info-text">
@@ -290,8 +313,8 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         </label>
         <Dropdown
           className="info-text"
-          id="esrb"
-          name="esrb"
+          id="location"
+          name="location"
           value={dc.location}
           onChange={e => {
             const fsCopy = Object.assign({}, dc);

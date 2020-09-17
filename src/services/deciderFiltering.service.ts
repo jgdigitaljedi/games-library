@@ -1,5 +1,6 @@
 import get from 'lodash/get';
 import { IGame, IFormState, IConsoleArr } from '../common.model';
+import SortService from './sorts.service';
 
 export const filters = {
   defaultFormState: (): IFormState => {
@@ -11,7 +12,8 @@ export const filters = {
       platform: '',
       everDrive: false,
       physical: false,
-      location: null
+      location: null,
+      handheld: 'show'
     };
   },
   filterName: (data: IGame[], str: string): IGame[] => {
@@ -48,9 +50,22 @@ export const filters = {
   },
   filterLocation: (data: IGame[], location: string | null) => {
     if (location) {
-      return data.filter(d => {
+      const result = data.filter(d => {
         return get(d, 'location') === location;
       });
+      if (location === 'upstairs' || location === 'downstairs') {
+        const bothArr = data.filter(d => get(d, 'location') === 'both');
+        return SortService.sortData([...result, ...bothArr], 'dateAdded', 'descending');
+      }
+      return result;
+    }
+    return data;
+  },
+  filterHandhelds: (data: IGame[], handheld: string) => {
+    if (handheld === 'hide') {
+      return data.filter(g => !g.handheld);
+    } else if (handheld === 'only') {
+      return data.filter(g => g.handheld);
     }
     return data;
   }

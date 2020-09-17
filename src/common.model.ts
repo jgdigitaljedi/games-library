@@ -70,6 +70,7 @@ export interface IGame {
   name?: string;
   image?: string;
   description?: string;
+  handheld?: boolean;
 }
 
 export interface IFormState {
@@ -81,6 +82,7 @@ export interface IFormState {
   everDrive: boolean;
   physical?: boolean;
   location?: string | null;
+  handheld?: string;
 }
 
 export interface IDropdown {

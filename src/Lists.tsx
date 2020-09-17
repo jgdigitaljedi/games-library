@@ -58,6 +58,9 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
           <label>Cards?</label>
           <InputSwitch checked={cardView} onChange={e => setCardView(!!e.value)} />
         </div>
+        <div className="lists-head--group">
+          <label>{data.length} games</label>
+        </div>
       </div>
       <div className="list-container">
         {cardView &&

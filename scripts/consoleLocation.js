@@ -12,7 +12,7 @@ const consoleLocationList = {
   '30': 'upstairs', // 32X
   '23': 'upstairs', // Dreamcast
   '32': 'upstairs', // Saturn
-  '11': 'upstairs', // Xbox
+  '11': 'both', // Xbox
   '12': 'downstairs', // Xbox 360
   '49': 'downstairs', // Xbox One
   '7': 'both', // PlayStation

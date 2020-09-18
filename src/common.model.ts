@@ -113,7 +113,7 @@ export interface IConsole {
   igdb: IIgdbConsole;
   gb: IGbGame;
   condition: string;
-  box: boolean;
+  box: string;
   mods: string;
   notes: string;
   connectedBy?: string;

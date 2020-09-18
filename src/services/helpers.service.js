@@ -48,6 +48,9 @@ export default {
       newDatePurchased: new Date()
     };
   },
+  resetPlatformForm: () => {
+    return {};
+  },
   physicalDigitalBc: game => {
     const which = game.physicalDigital;
     const everDrive = which.indexOf('EverDrive') >= 0;

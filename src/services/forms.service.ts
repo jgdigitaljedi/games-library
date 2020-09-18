@@ -11,3 +11,11 @@ export const handleChange = (e: any, state: any) => {
   }
   return null;
 };
+
+export const handleDropdownFn = (e: any, which: string, data: any) => {
+  const copy = _cloneDeep(data);
+  if (copy) {
+    _set(copy, which, e.value);
+  }
+  return copy;
+};

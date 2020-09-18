@@ -1,10 +1,14 @@
 {
+  "Atari 5200": {
+    "isLaunchTitle": 1,
+    "isExclusive": 0
+  },
   "Sega Mega Drive/Genesis": {
     "isLaunchTitle": 1,
     "isExclusive": 6,
     "special": {
       "blackBoxGrid": {
-        "count": 6,
+        "count": 7,
         "text": "Sega Mega Drive/Genesis black box grid"
       },
       "teamPlayer": {

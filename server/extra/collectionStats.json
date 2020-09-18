@@ -45,208 +45,207 @@
     },
     {
       "igdb": {
-        "name": "Nibiru",
-        "id": 120155,
+        "name": "Star Trek: Strategic Operations Simulator",
+        "id": 12319,
         "genres": [
-          "Adventure",
-          "FPS"
+          "Shooter",
+          "Simulator"
         ],
         "total_rating": "",
         "total_rating_count": "",
-        "first_release_date": "",
+        "first_release_date": "12/30/1982",
         "developers": "",
         "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "",
-        "gbid": "",
-        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Feapcgames.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fheader-39-3.jpg&f=1&nofb=1",
+        "guid": "3030-13785",
+        "gbid": 13785,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366237-a5200_startrek.jpg",
         "deck": "",
-        "platforms": ""
+        "platforms": "Apple II, Commodore 64, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Atari 5200, Arcade"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "9",
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "5.48",
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-15",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "09/16/2020 05:59 am",
-      "updatedAt": "09/16/2020 05:59 am",
-      "_id": "29db8a94942f464e8e8be974872d6625",
-      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Feapcgames.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fheader-39-3.jpg&f=1&nofb=1",
-      "description": "",
-      "name": "Nibiru",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "XONOX Double Ender: Chuck Norris Superkicks/Artillery Duel",
-        "id": 23573,
-        "genres": [
-          "Fighting",
-          "Arcade",
-          "Shooter"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1983",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Kung Fu Superkicks: Pursuit of the Ninja",
-        "guid": "3030-904",
-        "gbid": 904,
-        "image": "https://cdn.shopify.com/s/files/1/0364/6305/products/90075_front_large.jpeg?v=1427935445",
-        "deck": "In this game, players control martial arts master, Chuck Norris, in a never ending fight to stop ninjas.",
-        "platforms": "Commodore 64, VIC-20, Atari 2600, ColecoVision"
-      },
-      "consoleName": "Atari 2600",
-      "consoleIgdbId": 59,
-      "consoleGbid": 40,
-      "consoleGbGuid": "3045-40",
-      "condition": "Fair",
-      "case": "custom",
-      "pricePaid": "8.08",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-09-12",
+      "multiplayerNumber": "",
+      "datePurchased": "2020-09-18",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "09/12/2020 05:09 pm",
-      "updatedAt": "09/12/2020 05:09 pm",
-      "_id": "9734c75d2fdc4eda8666ba618f081ce5",
-      "image": "https://cdn.shopify.com/s/files/1/0364/6305/products/90075_front_large.jpeg?v=1427935445",
-      "description": "In this game, players control martial arts master, Chuck Norris, in a never ending fight to stop ninjas.",
-      "name": "XONOX Double Ender: Chuck Norris Superkicks/Artillery Duel",
-      "miltiplayerNumber": 2,
+      "createdAt": "09/18/2020 05:07 pm",
+      "updatedAt": "09/18/2020 05:07 pm",
+      "_id": "c996e6d1001c437c927cbf0f206c18df",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366237-a5200_startrek.jpg",
+      "description": "",
+      "name": "Star Trek: Strategic Operations Simulator",
+      "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Golden Axe",
-        "id": 5565,
+        "name": "Pac-Man",
+        "id": 2750,
         "genres": [
-          "Hack and slash/Beat 'em up",
+          "Puzzle",
+          "Strategy",
           "Arcade"
         ],
-        "total_rating": 70,
-        "total_rating_count": 118,
-        "first_release_date": "05/31/1989",
+        "total_rating": 79,
+        "total_rating_count": 165,
+        "first_release_date": "05/21/1980",
         "developers": "",
-        "esrb": "T"
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Puck-Man\r, ARCADE GAME SERIES: Pac-Man",
+        "guid": "3030-7624",
+        "gbid": 7624,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331111-pacman_box.png",
+        "deck": "One of the most popular arcade games of all time, Pac-Man was released in arcades in 1980 and became a pop culture icon for the decade.",
+        "platforms": "Game Boy, Game Boy Advance, Game Gear, Apple II, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, TI-99/4A, Intellivision, Atari 5200, Atari 7800, iPod, Neo Geo Pocket Color, Arcade, NUON, Xbox 360 Games Store, Wii Shop, Famicom Disk System, PC, iPhone, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Android, Windows Phone, Sharp MZ, Nintendo 3DS eShop, Browser, Commodore 16"
+      },
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "4.10",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-09-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "09/18/2020 05:07 pm",
+      "updatedAt": "09/18/2020 05:07 pm",
+      "_id": "02c2460e36524aa4a21501131a0e42a9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331111-pacman_box.png",
+      "description": "One of the most popular arcade games of all time, Pac-Man was released in arcades in 1980 and became a pop culture icon for the decade.",
+      "name": "Pac-Man",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Galaxian",
+        "id": 4614,
+        "genres": [
+          "Shooter",
+          "Arcade"
+        ],
+        "total_rating": 89,
+        "total_rating_count": 34,
+        "first_release_date": "09/30/1979",
+        "developers": "",
+        "esrb": ""
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-14351",
-        "gbid": 14351,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2370592-genesis_goldenaxe.jpg",
-        "deck": "A classic, side-scrolling hack and slash game, Golden Axe was ported to many platforms, including the Sega Genesis/Mega Drive.",
-        "platforms": "Amiga, Genesis, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Sega CD, TurboGrafx-CD, WonderSwan Color, Zodiac, Arcade, Xbox 360 Games Store, Wii Shop, PlayStation Network (PS3), PC, iPhone, iPad, Android"
+        "guid": "3030-2445",
+        "gbid": 2445,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2693631-9183045957-62199.jpg",
+        "deck": "Battle space aliens and avoid their suicidal attacks to survive in the world of Galaxian, Namco's first installment in the Galaxian franchise. It was a technical breakthrough in 1979, featuring RGB color, multi-colored sprites, a tilemap playfield, vertical scrolling background, and enemies with individual AI routines.",
+        "platforms": "Apple II, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, Atari 5200, Arcade, Wii Shop, Famicom Disk System, PC, Arcadia 2001, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Epoch Cassette Vision, Casio PV-1000"
       },
-      "consoleName": "Sega Mega Drive/Genesis",
-      "consoleIgdbId": 29,
-      "consoleGbid": 6,
-      "consoleGbGuid": "3045-6",
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
       "condition": "Good",
-      "case": "original",
-      "pricePaid": "29.41",
+      "case": "custom",
+      "pricePaid": "3.42",
       "physical": true,
-      "cib": true,
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-09-12",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-09-18",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "09/12/2020 05:02 pm",
-      "updatedAt": "09/12/2020 05:02 pm",
-      "_id": "db24c073581847fd992221cd2a99fdca",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2370592-genesis_goldenaxe.jpg",
-      "description": "A classic, side-scrolling hack and slash game, Golden Axe was ported to many platforms, including the Sega Genesis/Mega Drive.",
-      "name": "Golden Axe",
-      "miltiplayerNumber": 2,
+      "createdAt": "09/18/2020 05:06 pm",
+      "updatedAt": "09/18/2020 05:06 pm",
+      "_id": "1bbc087000aa454c9d0f523b1fbd3640",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2693631-9183045957-62199.jpg",
+      "description": "Battle space aliens and avoid their suicidal attacks to survive in the world of Galaxian, Namco's first installment in the Galaxian franchise. It was a technical breakthrough in 1979, featuring RGB color, multi-colored sprites, a tilemap playfield, vertical scrolling background, and enemies with individual AI routines.",
+      "name": "Galaxian",
+      "miltiplayerNumber": 1,
       "extraData": [
-        "Sega Genesis/Mega Drive black box grid game"
+        "Atari 5200 launch title"
       ],
       "extraDataFull": [
         {
-          "id": "smd104",
-          "name": "Golden Axe",
-          "igdbId": 5565,
-          "gbId": 14351,
-          "gbGuid": "3030-14351",
-          "tgdbId": 209,
+          "name": "Galaxian",
+          "id": "a522",
           "details": [
-            "Sega Genesis/Mega Drive black box grid game"
+            "Atari 5200 launch title"
           ],
-          "special": [
+          "igdbId": 4614,
+          "gbId": 2445,
+          "gbGuid": "3030-2445",
+          "tgdbId": 5158,
+          "isLaunchTitle": [
             {
-              "value": "Sega Genesis/Mega Drive black box grid game",
-              "forPlatform": {
-                "name": "Sega Mega Drive/Genesis",
-                "id": "ccl14",
-                "igdbId": 29,
-                "gbId": 6,
-                "gbGuid": "3045-6",
-                "tgdbId": 18
-              }
+              "name": "Atari 5200",
+              "id": "ccl29",
+              "igdbId": 66,
+              "gbId": 67,
+              "gbGuid": "3045-67",
+              "tgdbId": 26
             }
           ],
           "isExclusive": false,
-          "isLaunchTitle": false
+          "special": []
         }
       ]
     },
     {
       "igdb": {
-        "name": "Fantasy Zone",
-        "id": 6684,
+        "name": "Centipede",
+        "id": 2235,
         "genres": [
           "Shooter",
-          "Arcade",
-          "SHMUP"
+          "Arcade"
         ],
-        "total_rating": 83,
-        "total_rating_count": 10,
-        "first_release_date": "03/19/1986",
+        "total_rating": 70,
+        "total_rating_count": 32,
+        "first_release_date": "06/30/1981",
         "developers": "",
         "esrb": "E"
       },
       "gb": {
-        "aliases": "3D Fantasy Zone: Opa-Opa Bros., Sega Ages Fantasy Zone",
-        "guid": "3030-9493",
-        "gbid": 9493,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3413/214159-fantasy_zone.jpg",
-        "deck": "A horizontal Sega shoot 'em up which tasks the player with controlling the spaceship Opa Opa through various surreal stages. Originally an Arcade game, Fantasy Zone was adapted for many home consoles.",
-        "platforms": "Game Gear, Sega Master System, MSX, Nintendo Entertainment System, Saturn, TurboGrafx-16, Arcade, Wii Shop, Sharp X68000, Nintendo 3DS eShop, Nintendo Switch"
+        "aliases": "",
+        "guid": "3030-1157",
+        "gbid": 1157,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/29460/891006-centiped.png",
+        "deck": "Centipede is a vertical shooter in which you must destroy centipedes and other bugs before they reach the bottom of the screen and destroy you.",
+        "platforms": "Game Boy, Game Boy Advance, Apple II, Commodore 64, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Intellivision, Game Boy Color, Atari 5200, Atari 7800, Game.Com, Arcade, Xbox 360 Games Store, PC, BBC Micro, Windows Phone"
       },
-      "consoleName": "Nintendo Entertainment System (NES)",
-      "consoleIgdbId": 18,
-      "consoleGbid": 21,
-      "consoleGbGuid": "3045-21",
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
       "condition": "Good",
       "case": "custom",
-      "pricePaid": "14.70",
+      "pricePaid": "5.48",
       "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-09-12",
+      "datePurchased": "2020-09-18",
       "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "09/12/2020 05:04 pm",
-      "updatedAt": "09/12/2020 05:04 pm",
-      "_id": "d34f29a0867e45fd88af2b61103a8cf5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3413/214159-fantasy_zone.jpg",
-      "description": "A horizontal Sega shoot 'em up which tasks the player with controlling the spaceship Opa Opa through various surreal stages. Originally an Arcade game, Fantasy Zone was adapted for many home consoles.",
-      "name": "Fantasy Zone",
+      "createdAt": "09/18/2020 05:05 pm",
+      "updatedAt": "09/18/2020 05:05 pm",
+      "_id": "bd84c2007a5f42c3a0e4b5dbb517c1f0",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/29460/891006-centiped.png",
+      "description": "Centipede is a vertical shooter in which you must destroy centipedes and other bugs before they reach the bottom of the screen and destroy you.",
+      "name": "Centipede",
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
@@ -819,9 +818,10 @@
   ],
   "gamePerConsoleCounts": {
     "Nintendo Switch": 43,
+    "Atari 5200": 5,
+    "Sega Mega Drive/Genesis": 31,
     "PC (Microsoft Windows)": 284,
     "Atari 2600": 12,
-    "Sega Mega Drive/Genesis": 30,
     "Nintendo Entertainment System (NES)": 51,
     "Nintendo 64": 32,
     "PlayStation 4": 130,
@@ -829,7 +829,6 @@
     "Xbox 360": 59,
     "PlayStation 3": 42,
     "Super Nintendo Entertainment System (SNES)": 18,
-    "Atari 5200": 1,
     "Atari 7800": 5,
     "PlayStation 2": 57,
     "PlayStation": 21,
@@ -852,8 +851,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "E": 224,
-    "NOT RATED": 262,
+    "E": 226,
+    "NOT RATED": 265,
     "T": 200,
     "E10+": 94,
     "M": 279,
@@ -861,13 +860,13 @@
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 637,
-    "digital": 437
+    "physical": 640,
+    "digital": 439
   },
   "gamesAcquisition": {
     "UNKNOWN": 132,
+    "GameOver": 235,
     "Steam": 149,
-    "GameOver": 230,
     "Amazon": 7,
     "Video Games Monthly": 51,
     "Epic Games Store": 21,
@@ -910,20 +909,21 @@
   "cibGames": 269,
   "gamesWithGenre": {
     "platform": 193,
-    "puzzle": 112,
+    "puzzle": 113,
+    "shooter": 369,
+    "simulator": 111,
+    "strategy": 119,
+    "arcade": 99,
+    "fighting": 69,
+    "sport": 142,
+    "boxing": 3,
     "adventure": 390,
     "fps": 168,
-    "fighting": 68,
-    "arcade": 96,
-    "shooter": 366,
     "hack and slash/beat 'em up": 70,
     "shmup": 10,
-    "sport": 141,
     "football": 8,
-    "simulator": 110,
     "skateboarding": 14,
     "role-playing (rpg)": 158,
-    "strategy": 118,
     "turn-based strategy (tbs)": 24,
     "indie": 144,
     "tactical": 29,
@@ -962,7 +962,6 @@
     "basketball": 5,
     "rpg": 1,
     "tennis": 3,
-    "boxing": 2,
     "run-n-gun": 1,
     "skiing": 1,
     "twin-stick shooter": 4,
@@ -1017,16 +1016,16 @@
       "games": 24
     },
     {
+      "dateFormatted": "09/2020",
+      "games": 20
+    },
+    {
       "dateFormatted": "01/2019",
       "games": 20
     },
     {
       "dateFormatted": "12/2019",
       "games": 17
-    },
-    {
-      "dateFormatted": "09/2020",
-      "games": 15
     },
     {
       "dateFormatted": "01/2020",
@@ -1104,7 +1103,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 300
+      "games": 305
     },
     {
       "dateFormatted": "2019",
@@ -1130,7 +1129,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 678
+      "value": 681
     },
     {
       "category": "Fair (50 - 69)",
@@ -1142,7 +1141,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 124
+      "value": 126
     }
   ],
   "consolesByCompany": {

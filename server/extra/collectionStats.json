@@ -270,10 +270,10 @@
         "online_support": false,
         "gbid": 67
       },
-      "condition": "Not Working/No Physical Damage",
+      "condition": "Good",
       "box": false,
-      "mods": "",
-      "notes": "will do cap replacement, power mod, and AV mod eventually",
+      "mods": "Power mod installed to bypass need for switchbox",
+      "notes": "",
       "datePurchased": "2020-08-07",
       "purchasePrice": "20",
       "ghostConsole": false,

@@ -46,7 +46,7 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog }: IPro
 
   const resetGameForm = useCallback(() => {
     // setPlatformForm(helpersService.resetPlatformForm());
-  }, [setPlatformForm]);
+  }, []);
 
   const updateGame = useCallback(() => {
     // make save call

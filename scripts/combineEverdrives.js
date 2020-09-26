@@ -3,6 +3,8 @@ const path = require('path');
 const chalk = require('chalk');
 const _uniq = require('lodash/uniq');
 const genTeamPlayer = require('./genesisTeamPlayer');
+const getLocation = require('./consoleLocation').getLocation;
+const isHandheld = require('./handheldPlatforms').isHandheld;
 
 const tgEd = require('../server/extra/everDrives/turboEverdrive.json');
 const megaEd = require('../server/extra/everDrives/megaEverdriveGames.json');
@@ -76,6 +78,20 @@ const cleaned = combined.map((game, index) => {
     game.igdb.genres = [];
   }
   game.physicalDigital = ['EverDrive'];
+  const location = game.consoleArr.map(con => {
+    return getLocation(con.consoleId);
+  });
+  if (
+    (location.indexOf('upstairs') >= 0 && location.indexOf('downstairs') >= 0) ||
+    location.indexOf('both') >= 0
+  ) {
+    game.location = 'both';
+  } else if (location.indexOf('upstairs') >= 0) {
+    game.location = 'upstairs';
+  } else {
+    game.location = 'downstairs';
+  }
+  game.handheld = isHandheld(game);
   return game;
 });
 

@@ -8,6 +8,7 @@ const updateCtrl = require('./updateData.controller');
 const ebayCtrl = require('./ebay.controller');
 const exportCtrl = require('./exportCsv.controller');
 const listsCtrl = require('./lists.controller');
+const utilsCtrl = require('./vgUtil.controller');
 
 // IGDB search
 router.post('/searchgame', vgCtrl.searchGame);
@@ -85,5 +86,10 @@ router.get('/wishlist/:which', vgDbCtrl.getMyWishlist);
 router.put('/wishlist/:which', vgDbCtrl.saveWishlist);
 router.delete('/wishlist/:which/:id', vgDbCtrl.deleteWishlist);
 router.patch('/wishlist/:which/:id', vgDbCtrl.editWishlist);
+
+// Utils
+router.get('/utils/platforms', utilsCtrl.getPlatformArray);
+router.get('/utils/esrb', utilsCtrl.getEsrbArray);
+router.get('/utils/genres', utilsCtrl.getGenreArray);
 
 module.exports = router;

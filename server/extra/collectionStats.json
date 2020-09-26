@@ -2,6 +2,137 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "RollerCoaster Tycoon 3",
+        "id": 235,
+        "genres": [
+          "Real Time Strategy (RTS)",
+          "Simulator",
+          "Strategy"
+        ],
+        "total_rating": 78,
+        "total_rating_count": 72,
+        "first_release_date": "10/25/2004",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "RCT3",
+        "guid": "3030-5625",
+        "gbid": 5625,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4938/658805-2003191717543722808_rs.jpg",
+        "deck": "RollerCoaster Tycoon 3 is a strategy and simulation game in which players run their own amusement park and can even create custom rollercoaster rides.",
+        "platforms": "Mac, PC, iPhone, iPad"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-09-25",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "09/26/2020 08:40 am",
+      "updatedAt": "09/26/2020 08:40 am",
+      "_id": "d23b8a9b1fe74667a13c285da28780cb",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4938/658805-2003191717543722808_rs.jpg",
+      "description": "RollerCoaster Tycoon 3 is a strategy and simulation game in which players run their own amusement park and can even create custom rollercoaster rides.",
+      "name": "RollerCoaster Tycoon 3",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Rocket League",
+        "id": 11198,
+        "genres": [
+          "Racing",
+          "Sport",
+          "Indie",
+          "Soccer",
+          "Vehicular combat"
+        ],
+        "total_rating": 87,
+        "total_rating_count": 553,
+        "first_release_date": "07/06/2015",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "ロケットリーグ",
+        "guid": "3030-34407",
+        "gbid": 34407,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2949245-box_rleague.png",
+        "deck": "The sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars, Rocket League is the second vehicular sports-action game developed by Psyonix.",
+        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-09-25",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "09/26/2020 08:38 am",
+      "updatedAt": "09/26/2020 08:38 am",
+      "_id": "e7e34584369b4fba845d52d9ab455aef",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2949245-box_rleague.png",
+      "description": "The sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars, Rocket League is the second vehicular sports-action game developed by Psyonix.",
+      "name": "Rocket League",
+      "miltiplayerNumber": 4
+    },
+    {
+      "igdb": {
+        "name": "Watch Dogs 2",
+        "id": 19441,
+        "genres": [
+          "Shooter",
+          "Racing",
+          "Adventure"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 314,
+        "first_release_date": "11/14/2016",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Watchdogs 2\r, watch dogs 2",
+        "guid": "3030-54066",
+        "gbid": 54066,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2897495-watch%20dogs%202%20v1.jpg",
+        "deck": "The sequel to Watch Dogs moves to San Francisco with a new protagonist.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-09-23",
+      "howAcquired": "Epic Games Store",
+      "notes": "free",
+      "createdAt": "09/26/2020 08:43 am",
+      "updatedAt": "09/26/2020 08:43 am",
+      "_id": "f696b1444a4f4c5c9a89f0c96d6402df",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2897495-watch%20dogs%202%20v1.jpg",
+      "description": "The sequel to Watch Dogs moves to San Francisco with a new protagonist.",
+      "name": "Watch Dogs 2",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Super Mario 3D All-Stars",
         "id": 138225,
         "genres": [
@@ -87,168 +218,6 @@
       "miltiplayerNumber": 1,
       "extraData": [],
       "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Pac-Man",
-        "id": 2750,
-        "genres": [
-          "Puzzle",
-          "Strategy",
-          "Arcade"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 165,
-        "first_release_date": "05/21/1980",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "Puck-Man\r, ARCADE GAME SERIES: Pac-Man",
-        "guid": "3030-7624",
-        "gbid": 7624,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331111-pacman_box.png",
-        "deck": "One of the most popular arcade games of all time, Pac-Man was released in arcades in 1980 and became a pop culture icon for the decade.",
-        "platforms": "Game Boy, Game Boy Advance, Game Gear, Apple II, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, TI-99/4A, Intellivision, Atari 5200, Atari 7800, iPod, Neo Geo Pocket Color, Arcade, NUON, Xbox 360 Games Store, Wii Shop, Famicom Disk System, PC, iPhone, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Android, Windows Phone, Sharp MZ, Nintendo 3DS eShop, Browser, Commodore 16"
-      },
-      "consoleName": "Atari 5200",
-      "consoleIgdbId": 66,
-      "consoleGbid": 67,
-      "consoleGbGuid": "3045-67",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "4.10",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-18",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "09/18/2020 05:07 pm",
-      "updatedAt": "09/18/2020 05:07 pm",
-      "_id": "02c2460e36524aa4a21501131a0e42a9",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331111-pacman_box.png",
-      "description": "One of the most popular arcade games of all time, Pac-Man was released in arcades in 1980 and became a pop culture icon for the decade.",
-      "name": "Pac-Man",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Galaxian",
-        "id": 4614,
-        "genres": [
-          "Shooter",
-          "Arcade"
-        ],
-        "total_rating": 89,
-        "total_rating_count": 34,
-        "first_release_date": "09/30/1979",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-2445",
-        "gbid": 2445,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2693631-9183045957-62199.jpg",
-        "deck": "Battle space aliens and avoid their suicidal attacks to survive in the world of Galaxian, Namco's first installment in the Galaxian franchise. It was a technical breakthrough in 1979, featuring RGB color, multi-colored sprites, a tilemap playfield, vertical scrolling background, and enemies with individual AI routines.",
-        "platforms": "Apple II, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, Atari 5200, Arcade, Wii Shop, Famicom Disk System, PC, Arcadia 2001, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Epoch Cassette Vision, Casio PV-1000"
-      },
-      "consoleName": "Atari 5200",
-      "consoleIgdbId": 66,
-      "consoleGbid": 67,
-      "consoleGbGuid": "3045-67",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "3.42",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-18",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "09/18/2020 05:06 pm",
-      "updatedAt": "09/18/2020 05:06 pm",
-      "_id": "1bbc087000aa454c9d0f523b1fbd3640",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2693631-9183045957-62199.jpg",
-      "description": "Battle space aliens and avoid their suicidal attacks to survive in the world of Galaxian, Namco's first installment in the Galaxian franchise. It was a technical breakthrough in 1979, featuring RGB color, multi-colored sprites, a tilemap playfield, vertical scrolling background, and enemies with individual AI routines.",
-      "name": "Galaxian",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Atari 5200 launch title"
-      ],
-      "extraDataFull": [
-        {
-          "name": "Galaxian",
-          "id": "a522",
-          "details": [
-            "Atari 5200 launch title"
-          ],
-          "igdbId": 4614,
-          "gbId": 2445,
-          "gbGuid": "3030-2445",
-          "tgdbId": 5158,
-          "isLaunchTitle": [
-            {
-              "name": "Atari 5200",
-              "id": "ccl29",
-              "igdbId": 66,
-              "gbId": 67,
-              "gbGuid": "3045-67",
-              "tgdbId": 26
-            }
-          ],
-          "isExclusive": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Centipede",
-        "id": 2235,
-        "genres": [
-          "Shooter",
-          "Arcade"
-        ],
-        "total_rating": 70,
-        "total_rating_count": 32,
-        "first_release_date": "06/30/1981",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-1157",
-        "gbid": 1157,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/29460/891006-centiped.png",
-        "deck": "Centipede is a vertical shooter in which you must destroy centipedes and other bugs before they reach the bottom of the screen and destroy you.",
-        "platforms": "Game Boy, Game Boy Advance, Apple II, Commodore 64, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Intellivision, Game Boy Color, Atari 5200, Atari 7800, Game.Com, Arcade, Xbox 360 Games Store, PC, BBC Micro, Windows Phone"
-      },
-      "consoleName": "Atari 5200",
-      "consoleIgdbId": 66,
-      "consoleGbid": 67,
-      "consoleGbGuid": "3045-67",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "5.48",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-18",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "09/18/2020 05:05 pm",
-      "updatedAt": "09/18/2020 05:05 pm",
-      "_id": "bd84c2007a5f42c3a0e4b5dbb517c1f0",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/29460/891006-centiped.png",
-      "description": "Centipede is a vertical shooter in which you must destroy centipedes and other bugs before they reach the bottom of the screen and destroy you.",
-      "name": "Centipede",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -261,7 +230,7 @@
         "version": "Initial version"
       },
       "gb": {
-        "install_base": null,
+        "install_base": "1000000",
         "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/10083-5200.jpg",
         "original_price": "270.00",
         "aliases": null,
@@ -295,7 +264,7 @@
         "version": "Initial version"
       },
       "gb": {
-        "install_base": null,
+        "install_base": "3770000",
         "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/10088-7800.gif",
         "original_price": "140.00",
         "aliases": null,
@@ -304,7 +273,7 @@
         "online_support": false,
         "gbid": 70
       },
-      "condition": "Not Working/No Physical Damage",
+      "condition": "Good",
       "box": false,
       "mods": "Capacitor replacement; composite video mod",
       "notes": "Given for free from Game Over as anniversary gift. ",
@@ -817,10 +786,10 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 287,
     "Nintendo Switch": 43,
     "Atari 5200": 5,
     "Sega Mega Drive/Genesis": 31,
-    "PC (Microsoft Windows)": 284,
     "Atari 2600": 12,
     "Nintendo Entertainment System (NES)": 51,
     "Nintendo 64": 32,
@@ -851,8 +820,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "E": 226,
-    "NOT RATED": 265,
+    "E": 228,
+    "NOT RATED": 266,
     "T": 200,
     "E10+": 94,
     "M": 279,
@@ -861,15 +830,15 @@
   },
   "physicalVsDigitalGames": {
     "physical": 640,
-    "digital": 439
+    "digital": 442
   },
   "gamesAcquisition": {
+    "Epic Games Store": 24,
     "UNKNOWN": 132,
     "GameOver": 235,
     "Steam": 149,
     "Amazon": 7,
     "Video Games Monthly": 51,
-    "Epic Games Store": 21,
     "Twitch": 39,
     "GOG": 21,
     "eBay": 50,
@@ -908,29 +877,32 @@
   },
   "cibGames": 269,
   "gamesWithGenre": {
+    "real time strategy (rts)": 12,
+    "simulator": 112,
+    "strategy": 120,
+    "racing": 119,
+    "sport": 143,
+    "indie": 145,
+    "soccer": 5,
+    "vehicular combat": 5,
+    "shooter": 370,
+    "adventure": 391,
     "platform": 193,
     "puzzle": 113,
-    "shooter": 369,
-    "simulator": 111,
-    "strategy": 119,
     "arcade": 99,
     "fighting": 69,
-    "sport": 142,
     "boxing": 3,
-    "adventure": 390,
-    "fps": 168,
+    "fps": 172,
     "hack and slash/beat 'em up": 70,
     "shmup": 10,
     "football": 8,
     "skateboarding": 14,
     "role-playing (rpg)": 158,
     "turn-based strategy (tbs)": 24,
-    "indie": 144,
     "tactical": 29,
     "point-and-click": 12,
     "golf": 14,
     "surfing": 2,
-    "racing": 117,
     "baseball": 7,
     "game show": 1,
     "party game": 1,
@@ -943,7 +915,6 @@
     "fishing": 2,
     "action": 2,
     "turn-based": 7,
-    "real time strategy (rts)": 11,
     "japanese": 2,
     "import": 2,
     "music": 29,
@@ -956,7 +927,6 @@
     "snowboarding": 7,
     "fmv": 1,
     "pinball": 4,
-    "vehicular combat": 4,
     "bowling": 2,
     "light gun": 1,
     "basketball": 5,
@@ -965,7 +935,6 @@
     "run-n-gun": 1,
     "skiing": 1,
     "twin-stick shooter": 4,
-    "soccer": 4,
     "compilation": 1,
     "card & board game": 1,
     "dancing": 1
@@ -1017,7 +986,7 @@
     },
     {
       "dateFormatted": "09/2020",
-      "games": 20
+      "games": 23
     },
     {
       "dateFormatted": "01/2019",
@@ -1103,7 +1072,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 305
+      "games": 308
     },
     {
       "dateFormatted": "2019",
@@ -1129,7 +1098,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 681
+      "value": 684
     },
     {
       "category": "Fair (50 - 69)",

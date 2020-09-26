@@ -19,6 +19,7 @@ import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
 import { DataContext } from '../../../context/DataContext';
+import Axios from 'axios';
 
 interface IAutoCompleteData {
   originalEvent: Event;
@@ -78,28 +79,16 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   }, [masterData, setGenreArray]);
 
   const getPlatformArray = useCallback((): void => {
-    if (masterData && masterData.length > 1) {
-      const newPlatforms = sortBy(
-        flatten(masterData.map(d => d.consoleName || null).filter((d: any) => d))
-          .reduce((acc: string[], g: any) => {
-            if (!acc) {
-              acc = [];
-            }
-            if (acc && acc.indexOf(g) === -1 && g) {
-              acc.push(g);
-            }
-            return acc;
-          }, [])
-          .map((g: string) => {
-            return { label: g, value: g };
-          }),
-        'label'
-      );
-      newPlatforms.unshift({ label: 'NOT SET', value: '' });
-      setFilteredPlatforms(newPlatforms);
-      setMasterPa(newPlatforms);
-    }
-  }, [masterData, setMasterPa]);
+    const url = `${window.urlPrefix}/api/vg/utils/platforms`;
+    Axios.get(url)
+      .then(result => {
+        setFilteredPlatforms(result.data);
+        setMasterPa(result.data);
+      })
+      .catch(error => {
+        console.log('error fetching genre array', error);
+      });
+  }, [setMasterPa]);
 
   const getEsrbArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {

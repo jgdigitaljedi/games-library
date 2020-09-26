@@ -9,3 +9,25 @@ export const conditionArr = [
   { label: 'Partially Working', value: 'Partially Working' },
   { label: 'Other', value: 'Other' }
 ];
+
+export const accessoryTypeArr = [
+  { label: 'Controller', value: 'Controller' },
+  { label: 'Controller Charger', value: 'Controller Charger' },
+  { label: 'Controller Battery', value: 'Controller Battery' },
+  { label: 'Controller Addon', value: 'Controller Addon' },
+  { label: 'Console Charger', value: 'Console Charger' },
+  { label: 'Console Case', value: 'Console Case' },
+  { label: 'Console Addon', value: 'Console Addon' },
+  { label: 'Console Stand', value: 'Console Stand' },
+  { label: 'Console Cover', value: 'Console Cover' },
+  { label: 'Console Mod', value: 'Console Mod' },
+  { label: 'Stand/Dock', value: 'Stand/Dock' },
+  { label: 'Headset', value: 'Headset' },
+  { label: 'Microphone', value: 'Microphone' },
+  { label: 'Storage', value: 'Storage' },
+  { label: 'Networking', value: 'Networking' },
+  { label: 'Cable', value: 'Cable' },
+  { label: 'Video Adapter', value: 'Video Adapter' },
+  { label: 'Games Storage', value: 'Games Storage' },
+  { label: 'Other', value: 'Other' }
+];

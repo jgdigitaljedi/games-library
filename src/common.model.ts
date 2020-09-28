@@ -153,7 +153,28 @@ export interface IAccessory {
   _id: string;
 }
 
+interface ICollAssociatedCon {
+  id: number;
+  name: string;
+}
+
 export interface ICollectible {
+  associatedConsoles: ICollAssociatedCon[];
+  associatedGame: string;
+  character: string;
+  company: string;
+  createdAt: string;
+  howAcquired: string;
+  image: string;
+  name: string;
+  notes: string;
+  newPurchaseDate: Date;
+  officialLicensed: string | boolean;
+  pricePaird: string | number;
+  purchaseDate: string;
+  quantity: string | number;
+  type: string;
+  updatedAt: string;
   _id: string;
 }
 
@@ -162,5 +183,21 @@ export interface IHardware {
 }
 
 export interface IClone {
+  name: string;
+  company: string;
+  consolesEmulated: string;
+  controllerNumber: number;
+  gamesAddedNumber: string | number;
+  gamesIncludedAmount: string | number;
+  hacked: boolean;
+  hd: boolean;
+  maxPlayers: string | number;
+  pricePaid: string | number;
+  takesOriginalControllers: boolean;
+  wireless: boolean;
+  updatedAt: string;
+  image: string;
+  datePurchased: string;
+  newPurchaseDate: Date;
   _id: string;
 }

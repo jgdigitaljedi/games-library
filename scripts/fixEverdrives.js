@@ -7,6 +7,7 @@ const ed = require('../server/extra/everDrive.json');
 const fixed = ed.map(d => {
   d.consoleArr = [{ consoleName: d.consoleName, consoleId: d.consoleIgdbId }];
   d.location = 'upstairs';
+  d.handheld = false;
   return d;
 });
 

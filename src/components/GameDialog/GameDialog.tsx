@@ -54,7 +54,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           />
           <div className="right-container">
             <p>{game.gb.deck}</p>
-            <div className="card-row">
+            <div className="card-row tables-row">
               <table style={{ marginRight: '2rem' }}>
                 <tbody>
                   <tr>

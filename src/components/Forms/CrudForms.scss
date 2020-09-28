@@ -7,11 +7,13 @@
     padding: 0 $gutter $gutter $gutter;
     display: flex;
     justify-content: space-between;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
     .crud-form--image-and-data {
       img {
         max-height: 30rem;
         width: auto;
-        // max-width: 50%;
+        max-width: 100%;
         object-fit: contain;
       }
       &__extra-data {

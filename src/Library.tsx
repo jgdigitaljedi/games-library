@@ -197,7 +197,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           <CollForm collectible={selectedItem} closeDialog={closeDialog} />
         )}
         {view === 'hardware' && <HardwareForm hardware={selectedItem} closeDialog={closeDialog} />}
-        {view === 'clone' && <CloneForm clone={selectedItem} closeDialog={closeDialog} />}
+        {view === 'clones' && <CloneForm clone={selectedItem} closeDialog={closeDialog} />}
       </Dialog>
     </div>
   );

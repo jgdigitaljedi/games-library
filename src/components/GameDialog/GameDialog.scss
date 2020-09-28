@@ -29,12 +29,18 @@
         display: flex;
         flex-direction: column;
         padding: 0 2rem 2rem;
+        @include bp_lte(md) {
+          padding: 0.25rem;
+        }
         p {
           margin: 0 0 2rem;
           font-size: 1.2rem;
         }
         .card-row {
           display: flex;
+          @include bp_lte(md) {
+            flex-direction: column;
+          }
           table {
             max-width: 30rem;
             font-size: 1rem;

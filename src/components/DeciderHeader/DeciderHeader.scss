@@ -11,6 +11,9 @@
   flex-direction: column;
   background-color: $white;
   padding: 0.5rem 1.5rem;
+  @include bp_lte(md) {
+    padding: 0 0.5rem;
+  }
   @include box_shadow(2);
   border-radius: 0.5rem;
   .filter-sort-header--section-head {
@@ -23,6 +26,9 @@
     // align-items: center;
     .filter-sort-header--section-head {
       margin-right: 2rem;
+      @include bp_lte(md) {
+        margin-right: 0;
+      }
     }
   }
 }

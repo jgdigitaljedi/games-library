@@ -19,14 +19,24 @@ import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { AutoComplete } from 'primereact/autocomplete';
 import { DataContext } from '../../../context/DataContext';
-import Axios from 'axios';
+import changePlatformsArr from '../../../actionCreators/platformsArr';
+import { connect, useSelector } from 'react-redux';
+import { Dispatch as ReduxDispatch } from 'redux';
 
 interface IAutoCompleteData {
   originalEvent: Event;
   query: string;
 }
 
-interface IProps extends RouteComponentProps {
+interface MapStateProps {
+  platformsArr: IDropdown[];
+}
+
+interface MapDispatchProps {
+  setPlatformsArr: (platformsArr: IDropdown[]) => void;
+}
+
+interface IProps extends RouteComponentProps, MapDispatchProps, MapStateProps {
   data: IGame[];
 }
 
@@ -38,9 +48,10 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const [filteredPlatforms, setFilteredPlatforms] = useState<IDropdown[]>([
     { label: 'NOT SET', value: '' }
   ]);
-  const [masterPa, setMasterPa] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
+  // const [masterPa, setMasterPa] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr] = useState<string>('');
   const [acValue, setAcValue] = useState<string>('');
+  const masterPa: IDropdown[] = useSelector((state: any) => state.platformsArr);
 
   const locationArr = [
     { label: 'No Preference', value: null },
@@ -78,18 +89,6 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     }
   }, [masterData, setGenreArray]);
 
-  const getPlatformArray = useCallback((): void => {
-    const url = `${window.urlPrefix}/api/vg/utils/platforms`;
-    Axios.get(url)
-      .then(result => {
-        setFilteredPlatforms(result.data);
-        setMasterPa(result.data);
-      })
-      .catch(error => {
-        console.log('error fetching genre array', error);
-      });
-  }, [setMasterPa]);
-
   const getEsrbArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newRatings = sortBy(
@@ -117,11 +116,10 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     if (masterData && masterData.length > 1) {
       getGenreArray();
       getEsrbArray();
-      if (!filteredPlatforms || filteredPlatforms.length === 1) {
-        getPlatformArray();
-      }
     }
-  }, [masterData, getGenreArray, getEsrbArray, getPlatformArray, filteredPlatforms]);
+    console.log('masterPa', masterPa);
+    setFilteredPlatforms(masterPa);
+  }, [masterData, getGenreArray, getEsrbArray, masterPa]);
 
   const debounceFiltering = useCallback(
     debounce((value: string): void => {
@@ -317,4 +315,14 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   );
 };
 
-export default FilterBar;
+const mapStateToProps = ({ platformsArr }: { platformsArr: IDropdown[] }): MapStateProps => {
+  return {
+    platformsArr
+  };
+};
+
+const mapDispatchToProps = (dispatch: ReduxDispatch): MapDispatchProps => ({
+  setPlatformsArr: (platformsArr: IDropdown[]) => dispatch(changePlatformsArr(platformsArr))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(FilterBar);

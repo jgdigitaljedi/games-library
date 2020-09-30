@@ -1,15 +1,16 @@
-import React, { FunctionComponent, useState, useCallback } from 'react';
+import React, { FunctionComponent, useState, useCallback, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import DatTable from './components/DatTable/DatTable';
 import { SelectButton } from 'primereact/selectbutton';
 import changeViewWhat from './actionCreators/viewWhat';
 import changeMasterData from './actionCreators/masterData';
 import changeFilteredData from './actionCreators/filteredData';
+import changePlatformsArr from './actionCreators/platformsArr';
 import FilterGroup from './components/filterGroup/FilterGroup';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
 import axios from 'axios';
-import { IGame } from './common.model';
+import { IDropdown, IGame } from './common.model';
 import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import GameForm from './components/Forms/GameForm/GameForm';
@@ -19,6 +20,7 @@ import AccForm from './components/Forms/AccForm/AccForm';
 import CollForm from './components/Forms/CollForm/CollForm';
 import HardwareForm from './components/Forms/HardwareForm/HardwareForm';
 import CloneForm from './components/Forms/CloneForm/CloneForm';
+import { getPlatformArr } from './services/globalData.service';
 
 interface IInputOptions {
   label: string;
@@ -30,12 +32,14 @@ interface MapStateProps {
   viewWhat: string;
   masterData: object[];
   filteredData: object[];
+  platformsArr: IDropdown[];
 }
 
 interface MapDispatchProps {
   setViewWhat: (viewWhat: string) => void;
   setMasterData: (masterData: object[]) => void;
   setFilteredData: (filteredData: object[]) => void;
+  setPlatformsArr: (platformsArr: IDropdown[]) => void;
 }
 
 interface IProps extends MapDispatchProps, MapStateProps {}
@@ -43,6 +47,7 @@ interface IProps extends MapDispatchProps, MapStateProps {}
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
   const filteredData: IGame[] = useSelector((state: any) => state.filteredData);
+  const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
   const [view, setView] = useState<any>('');
   const [showModal, setShowModal] = useState<boolean>(false);
   const [selectedItem, setSelectedItem] = useState<any>(null);
@@ -140,6 +145,20 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     }
   }
 
+  useEffect(() => {
+    if (!platformsArr?.length) {
+      getPlatformArr()
+        .then((result: IDropdown[]) => {
+          if (result && props?.setPlatformsArr) {
+            props.setPlatformsArr(result);
+          }
+        })
+        .catch((error: any) => {
+          console.error('ERROR FETCHING PLATFORMS ARR', error);
+        });
+    }
+  }, [props, platformsArr]);
+
   return (
     <div className="library">
       <div className="button-container">
@@ -206,23 +225,27 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 const mapStateToProps = ({
   viewWhat,
   masterData,
-  filteredData
+  filteredData,
+  platformsArr
 }: {
   viewWhat: string;
   masterData: object[];
   filteredData: object[];
+  platformsArr: IDropdown[];
 }): MapStateProps => {
   return {
     viewWhat,
     masterData,
-    filteredData
+    filteredData,
+    platformsArr
   };
 };
 
 const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
   setViewWhat: (viewWhat: string) => dispatch(changeViewWhat(viewWhat)),
   setMasterData: (masterData: object[]) => dispatch(changeMasterData(masterData)),
-  setFilteredData: (filteredData: object[]) => dispatch(changeFilteredData(filteredData))
+  setFilteredData: (filteredData: object[]) => dispatch(changeFilteredData(filteredData)),
+  setPlatformsArr: (platformsArr: IDropdown[]) => dispatch(changePlatformsArr(platformsArr))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Library);

@@ -2,9 +2,11 @@ import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
 
 export const handleChange = (e: any, state: any) => {
   const isSwitch = e.hasOwnProperty('value');
+  console.log('e', e);
   const { value } = isSwitch ? e : e.target;
   const propPath = isSwitch ? e.target.id : e.target.getAttribute('attr-which');
   const copy = _cloneDeep(state);
+  console.log('copy', copy);
   if (copy) {
     _set(copy, propPath, value);
     return copy;

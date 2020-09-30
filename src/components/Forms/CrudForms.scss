@@ -7,8 +7,10 @@
     padding: 0 $gutter $gutter $gutter;
     display: flex;
     justify-content: space-between;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
+    @include bp_lte(md) {
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+    }
     .crud-form--image-and-data {
       img {
         max-height: 30rem;

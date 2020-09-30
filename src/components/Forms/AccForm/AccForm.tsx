@@ -1,4 +1,3 @@
-import Axios from 'axios';
 import { Button } from 'primereact/button';
 import { Calendar } from 'primereact/calendar';
 import { Dropdown } from 'primereact/dropdown';
@@ -6,38 +5,37 @@ import { InputSwitch } from 'primereact/inputswitch';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
 import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
-import { IAccessory } from '../../../common.model';
+import { connect } from 'react-redux';
+import changePlatformsArr from '../../../actionCreators/platformsArr';
+import { IAccessory, IDropdown } from '../../../common.model';
 import { accessoryTypeArr } from '../../../constants';
 import { handleChange, handleDropdownFn } from '../../../services/forms.service';
 import helpersService from '../../../services/helpers.service';
+import { Dispatch as ReduxDispatch } from 'redux';
 
-interface IProps {
+interface MapStateProps {
+  platformsArr: IDropdown[];
+}
+
+interface MapDispatchProps {
+  setPlatformsArr: (platformsArr: IDropdown[]) => void;
+}
+
+interface IProps extends MapDispatchProps, MapStateProps {
   acc: IAccessory;
   closeDialog: Function;
 }
 
-const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog }) => {
+const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) => {
   const [accForm, setAccForm] = useState<IAccessory>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
-  const [platformArr, setPlatformArr] = useState([]);
 
   const userChange = (e: any) => {
     const newState = handleChange(e, accForm);
     if (newState) {
       setAccForm(newState);
     }
-  };
-
-  const getPlatformArr = () => {
-    const url = `${window.urlPrefix}/api/vg/utils/platforms`;
-    Axios.get(url)
-      .then(result => {
-        setPlatformArr(result.data);
-      })
-      .catch(error => {
-        console.log('error fetching genre array', error);
-      });
   };
 
   const handleDropdown = useCallback(
@@ -55,7 +53,6 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog }) => {
     if (acc?.purchaseDate) {
       (acc as IAccessory).newPurchaseDate = helpersService.getTodayYMD(acc.purchaseDate);
     }
-    getPlatformArr();
   }, [acc, setAddMode]);
 
   const updateAcc = useCallback(() => {
@@ -100,7 +97,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog }) => {
             <label htmlFor="forConsoleName">For Console</label>
             <Dropdown
               value={accForm?.forConsoleName}
-              options={platformArr}
+              options={platformsArr}
               onChange={e => handleDropdown(e, 'forConsoleName')}
               attr-which="forConsoleName"
             />
@@ -197,4 +194,14 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog }) => {
   );
 };
 
-export default AccForm;
+const mapStateToProps = ({ platformsArr }: { platformsArr: IDropdown[] }): MapStateProps => {
+  return {
+    platformsArr
+  };
+};
+
+const mapDispatchToProps = (dispatch: ReduxDispatch): MapDispatchProps => ({
+  setPlatformsArr: (platformsArr: IDropdown[]) => dispatch(changePlatformsArr(platformsArr))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(AccForm);

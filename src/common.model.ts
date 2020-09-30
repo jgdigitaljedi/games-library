@@ -153,8 +153,8 @@ export interface IAccessory {
   _id: string;
 }
 
-interface ICollAssociatedCon {
-  id: number;
+export interface ICollAssociatedCon {
+  id: number | string;
   name: string;
 }
 
@@ -170,7 +170,7 @@ export interface ICollectible {
   notes: string;
   newPurchaseDate: Date;
   officialLicensed: string | boolean;
-  pricePaird: string | number;
+  pricePaid: string | number;
   purchaseDate: string;
   quantity: string | number;
   type: string;

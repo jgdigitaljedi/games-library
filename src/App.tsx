@@ -30,6 +30,7 @@ function App(): JSX.Element {
       navigate(`/gameslib/${search.substring(1)}`);
     }
   }, []);
+
   return (
     <React.StrictMode>
       <Provider store={store}>

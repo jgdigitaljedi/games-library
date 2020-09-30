@@ -11,7 +11,7 @@ import axios from 'axios';
 import GameCard from './components/GameCard/GameCard';
 import { Dialog } from 'primereact/dialog';
 import { ProgressSpinner } from 'primereact/progressspinner';
-import { IGame, IFormState } from './common.model';
+import { IGame, IFormState, IDropdown } from './common.model';
 import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
 import { RouteComponentProps } from '@reach/router';
@@ -20,8 +20,22 @@ import { filters } from './services/deciderFiltering.service';
 import { cloneDeep as _cloneDeep } from 'lodash';
 import { SortContext, ISortContext } from './context/SortContext';
 import sortsService from './services/sorts.service';
+import { connect, useSelector } from 'react-redux';
+import changePlatformsArr from './actionCreators/platformsArr';
+import { Dispatch as ReduxDispatch } from 'redux';
+import { getPlatformArr } from './services/globalData.service';
 
-const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<any>) => {
+interface MapStateProps {
+  platformsArr: IDropdown[];
+}
+
+interface MapDispatchProps {
+  setPlatformsArr: (platformsArr: IDropdown[]) => void;
+}
+
+interface IProps extends RouteComponentProps, MapDispatchProps, MapStateProps {}
+
+const Decider: FunctionComponent<IProps> = (props: IProps) => {
   const [dc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
   const [sc]: [ISortContext, Dispatch<SetStateAction<ISortContext>>] = useContext(SortContext);
   const [masterData, setMasterData] = useState<any[]>([{}]);
@@ -29,6 +43,7 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [everDrives, setEverDrives] = useState<any[]>([{}]);
   const [selectedCard, setSelectedCard] = useState<IGame | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
+  const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
 
   const getEverdrives = useCallback(async () => {
     const result = await axios.get(`${window.urlPrefix}/api/vg/everdrives`);
@@ -128,6 +143,18 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     // eslint-disable-next-line
   }, [sc, sortData]);
 
+  useEffect(() => {
+    if (!platformsArr?.length) {
+      getPlatformArr()
+        .then((result: IDropdown[]) => {
+          props.setPlatformsArr(result);
+        })
+        .catch((error: any) => {
+          console.error('ERROR FETCHING PLATFORMS ARR', error);
+        });
+    }
+  }, [props, platformsArr]);
+
   return (
     <div className="decider-container">
       <div className="decioder-bar-wrapper">
@@ -166,4 +193,15 @@ const Decider: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     </div>
   );
 };
-export default Decider;
+
+const mapStateToProps = ({ platformsArr }: { platformsArr: IDropdown[] }): MapStateProps => {
+  return {
+    platformsArr
+  };
+};
+
+const mapDispatchToProps = (dispatch: ReduxDispatch): MapDispatchProps => ({
+  setPlatformsArr: (platformsArr: IDropdown[]) => dispatch(changePlatformsArr(platformsArr))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Decider);

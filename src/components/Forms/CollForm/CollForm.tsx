@@ -8,6 +8,7 @@ import { ICollectible, IDropdown, ICollAssociatedCon } from '../../../common.mod
 import { handleChange } from '../../../services/forms.service';
 import helpersService from '../../../services/helpers.service';
 import { connect } from 'react-redux';
+import { InputTextarea } from 'primereact/inputtextarea';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -147,6 +148,49 @@ const CollForm: FunctionComponent<IProps> = ({ collectible, closeDialog, platfor
               value={collForm?.newPurchaseDate}
               onChange={userChange}
               attr-which="newPurchaseDate"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="howAcquired">How Acguired</label>
+            <InputText
+              id="howAcquired"
+              value={collForm?.howAcquired}
+              onChange={userChange}
+              attr-which="howAcquired"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="type">Type</label>
+            <InputText id="type" value={collForm?.type} onChange={userChange} attr-which="type" />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="quantity">Quantity</label>
+            <InputText
+              id="quantity"
+              value={collForm?.quantity}
+              onChange={userChange}
+              attr-which="quantity"
+              type="number"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="notes">Notes</label>
+            <InputTextarea
+              id="notes"
+              value={collForm?.notes}
+              onChange={userChange}
+              attr-which="notes"
+              autoResize={true}
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="updatedAt">Last Updated</label>
+            <InputText
+              id="updatedAt"
+              value={collForm?.updatedAt}
+              onChange={userChange}
+              attr-which="updatedAt"
+              readonly
             />
           </div>
         </form>

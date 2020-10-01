@@ -179,6 +179,19 @@ export interface ICollectible {
 }
 
 export interface IHardware {
+  name: string;
+  company: string;
+  conCleaned: string;
+  forConsoles: ICollAssociatedCon[];
+  howAcquired: string;
+  image: string;
+  newPurchaseDate?: Date;
+  notes: string;
+  pricePaid: string | number;
+  purchaseDate: string;
+  quantity: number;
+  type: string;
+  updatedAt: string;
   _id: string;
 }
 

@@ -6,7 +6,6 @@ module.exports.teamPlayerData = (games, detail) => {
     const tp = special && special.indexOf(detail) >= 0;
     if (tp) {
       game.multiplayerNumber = 4;
-      console.log('game.igdb.name', game.igdb.name);
     }
     return game;
   });

@@ -88,8 +88,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   const rowClicked = useCallback(
     clicked => {
-      console.log('callback', clicked);
-      console.log('view', view);
       const selected = { ...clicked, ...{ name: clicked?.igdb?.name || clicked?.name } };
       setSelectedItem(selected);
       openFormDialog(clicked);

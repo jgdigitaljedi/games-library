@@ -61,12 +61,19 @@ const ListView: FunctionComponent<IProps> = ({
         case 'multiplayer':
           cellData = `${game.multiplayerNumber} players`;
           break;
+        case 'multiplatform':
+          cellData = `${game.consoleArr?.map(con => con.consoleName).join(', ')}`;
+          break;
         default:
           cellData = _get(game, whichData);
           break;
       }
     } else {
-      // it is a console
+      // it is a console or it isn't a game with extra data
+      if (whichData === 'multiplatform') {
+        // @ts-ignore
+        cellData = `${game.consoleArr?.map(con => con.consoleName).join(', ')}`;
+      }
       cellData = _get(game, whichData);
     }
     return cellData || '';

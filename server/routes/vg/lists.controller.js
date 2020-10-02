@@ -3,6 +3,7 @@ const extraData = require('../../db/listExtraData.json');
 const launch = require('../../db/listLaunch.json');
 const multiplayer = require('../../db/listMultiplayer.json');
 const special = require('../../db/listSpecial.json');
+const multiplatform = require('../../db/listMultiPlatform.json');
 
 module.exports.getList = function(req, res) {
   try {
@@ -23,6 +24,9 @@ module.exports.getList = function(req, res) {
           break;
         case 'special':
           theList = special;
+          break;
+        case 'multiplatform':
+          theList = multiplatform;
           break;
         default:
           theList = [];

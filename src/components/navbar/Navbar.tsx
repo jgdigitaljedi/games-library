@@ -74,7 +74,6 @@ const Navbar: FunctionComponent = () => {
   if (!active || !active.length) {
     routeOnLoad();
   }
-  console.log('navbar', active);
   return (
     <header className="navbar">
       <div className="main-nav">

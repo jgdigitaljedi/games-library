@@ -21,7 +21,8 @@ db.connect(dbPath, [
   'listExtraData',
   'listLaunch',
   'listMultiplayer',
-  'listSpecial'
+  'listSpecial',
+  'listMutliPlatform'
 ]);
 
 module.exports = db;

@@ -117,7 +117,6 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
       getGenreArray();
       getEsrbArray();
     }
-    console.log('masterPa', masterPa);
     setFilteredPlatforms(masterPa);
   }, [masterData, getGenreArray, getEsrbArray, masterPa]);
 

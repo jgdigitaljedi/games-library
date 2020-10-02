@@ -2,6 +2,138 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "NBA Jam Tournament Edition",
+        "id": 19712,
+        "genres": [
+          "Sport",
+          "Arcade",
+          "Basketball"
+        ],
+        "total_rating": 68,
+        "total_rating_count": 7,
+        "first_release_date": "12/30/1994",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-14792",
+        "gbid": 14792,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1535207-nbajamte_box.png",
+        "deck": "NBA Jam Tournament Edition is a two-on-two Arcade basketball game, adding updated rosters and new game modes to the original.",
+        "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, Jaguar, Sega 32X, Saturn, Arcade, PC"
+      },
+      "consoleName": "Sega 32X",
+      "consoleIgdbId": 30,
+      "consoleGbid": 31,
+      "consoleGbGuid": "3045-31",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "50",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-01",
+      "howAcquired": "eBay",
+      "notes": "",
+      "createdAt": "10/02/2020 05:58 am",
+      "updatedAt": "10/02/2020 05:58 am",
+      "_id": "b12d11154b01445083fcb98ef18402b6",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1535207-nbajamte_box.png",
+      "description": "NBA Jam Tournament Edition is a two-on-two Arcade basketball game, adding updated rosters and new game modes to the original.",
+      "name": "NBA Jam Tournament Edition",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Sega 32X Team Player compatible title"
+      ],
+      "extraDataFull": [
+        {
+          "name": "NBA Jam Tournament Edition",
+          "id": "s32x8",
+          "details": [
+            "Sega 32X Team Player compatible title"
+          ],
+          "igdbId": 19712,
+          "gbId": 14792,
+          "gbGuid": "3030-14792",
+          "special": [
+            {
+              "value": "Sega 32X Team Player compatible title",
+              "forPlatform": {
+                "name": "Sega 32X",
+                "id": "ccl16",
+                "igdbId": 30,
+                "gbId": 31,
+                "gbGuid": "3045-31",
+                "tgdbId": 33
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Battlefield 4",
+        "id": 1979,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 78,
+        "total_rating_count": 506,
+        "first_release_date": "10/28/2013",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "BF4",
+        "guid": "3030-39035",
+        "gbid": 39035,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2575456-box_bf4.png",
+        "deck": "DICE's popular multiplayer-focused shooter series continues, making its debut appearance on the PS4 and Xbox One.",
+        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "8",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-01",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "10/02/2020 05:59 am",
+      "updatedAt": "10/02/2020 05:59 am",
+      "_id": "4b4fd6f0f2544f65b08d3bebc24a31d5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2575456-box_bf4.png",
+      "description": "DICE's popular multiplayer-focused shooter series continues, making its debut appearance on the PS4 and Xbox One.",
+      "name": "Battlefield 4",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+      ],
+      "extraDataFull": [
+        {
+          "name": "Battlefield 4",
+          "details": [
+            "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+          ],
+          "id": "bi13",
+          "igdbId": 1979,
+          "gbId": 39035,
+          "gbGuid": "3030-39035",
+          "tgdbId": 16691
+        }
+      ]
+    },
+    {
+      "igdb": {
         "name": "RollerCoaster Tycoon 3",
         "id": 235,
         "genres": [
@@ -130,94 +262,6 @@
       "description": "The sequel to Watch Dogs moves to San Francisco with a new protagonist.",
       "name": "Watch Dogs 2",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Super Mario 3D All-Stars",
-        "id": 138225,
-        "genres": [
-          "Platform",
-          "Puzzle"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "09/17/2020",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "Super Mario 3D Collection",
-        "guid": "3030-80463",
-        "gbid": 80463,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3240087-screenshot2020-09-03at9.38.18am.png",
-        "deck": "Super Mario 3D All-Stars includes Super Mario 64, Super Mario Sunshine, and Super Mario Galaxy on Nintendo Switch.",
-        "platforms": "Nintendo Switch"
-      },
-      "consoleName": "Nintendo Switch",
-      "consoleIgdbId": 130,
-      "consoleGbid": 157,
-      "consoleGbGuid": "3045-157",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "60",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-18",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "09/16/2020 06:01 am",
-      "updatedAt": "09/16/2020 06:01 am",
-      "_id": "e07424f4d4cd456388d09a382e073287",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3240087-screenshot2020-09-03at9.38.18am.png",
-      "description": "Super Mario 3D All-Stars includes Super Mario 64, Super Mario Sunshine, and Super Mario Galaxy on Nintendo Switch.",
-      "name": "Super Mario 3D All-Stars",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Star Trek: Strategic Operations Simulator",
-        "id": 12319,
-        "genres": [
-          "Shooter",
-          "Simulator"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "12/30/1982",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-13785",
-        "gbid": 13785,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366237-a5200_startrek.jpg",
-        "deck": "",
-        "platforms": "Apple II, Commodore 64, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Atari 5200, Arcade"
-      },
-      "consoleName": "Atari 5200",
-      "consoleIgdbId": 66,
-      "consoleGbid": 67,
-      "consoleGbGuid": "3045-67",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "5.48",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "",
-      "datePurchased": "2020-09-18",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "09/18/2020 05:07 pm",
-      "updatedAt": "09/18/2020 05:07 pm",
-      "_id": "c996e6d1001c437c927cbf0f206c18df",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366237-a5200_startrek.jpg",
-      "description": "",
-      "name": "Star Trek: Strategic Operations Simulator",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -786,7 +830,8 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 287,
+    "Sega 32X": 15,
+    "PC (Microsoft Windows)": 288,
     "Nintendo Switch": 43,
     "Atari 5200": 5,
     "Sega Mega Drive/Genesis": 31,
@@ -809,7 +854,6 @@
     "Game Boy": 6,
     "Dreamcast": 23,
     "Sega Saturn": 8,
-    "Sega 32X": 14,
     "Sega CD": 6,
     "3DO Interactive Multiplayer": 7,
     "Game Boy Color": 7,
@@ -820,28 +864,28 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "E": 228,
+    "E": 229,
+    "M": 280,
     "NOT RATED": 266,
     "T": 200,
     "E10+": 94,
-    "M": 279,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 640,
-    "digital": 442
+    "physical": 641,
+    "digital": 443
   },
   "gamesAcquisition": {
+    "eBay": 51,
+    "Steam": 150,
     "Epic Games Store": 24,
     "UNKNOWN": 132,
     "GameOver": 235,
-    "Steam": 149,
     "Amazon": 7,
     "Video Games Monthly": 51,
     "Twitch": 39,
     "GOG": 21,
-    "eBay": 50,
     "Green Man Gaming": 2,
     "Limited Run Games": 1,
     "PSN": 107,
@@ -875,24 +919,25 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 269,
+  "cibGames": 270,
   "gamesWithGenre": {
+    "sport": 144,
+    "arcade": 100,
+    "basketball": 6,
+    "shooter": 371,
+    "fps": 173,
     "real time strategy (rts)": 12,
     "simulator": 112,
     "strategy": 120,
     "racing": 119,
-    "sport": 143,
     "indie": 145,
     "soccer": 5,
     "vehicular combat": 5,
-    "shooter": 370,
     "adventure": 391,
     "platform": 193,
     "puzzle": 113,
-    "arcade": 99,
     "fighting": 69,
     "boxing": 3,
-    "fps": 172,
     "hack and slash/beat 'em up": 70,
     "shmup": 10,
     "football": 8,
@@ -929,7 +974,6 @@
     "pinball": 4,
     "bowling": 2,
     "light gun": 1,
-    "basketball": 5,
     "rpg": 1,
     "tennis": 3,
     "run-n-gun": 1,
@@ -1057,6 +1101,10 @@
       "games": 3
     },
     {
+      "dateFormatted": "10/2020",
+      "games": 2
+    },
+    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1072,7 +1120,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 308
+      "games": 310
     },
     {
       "dateFormatted": "2019",
@@ -1098,11 +1146,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 684
+      "value": 685
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 190
+      "value": 191
     },
     {
       "category": "Poor (30 - 49)",

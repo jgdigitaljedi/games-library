@@ -9,6 +9,7 @@ const extraData = []; // games with extra data; might be interesting
 const launch = []; // launch titles
 const exclusives = []; // console/platform exclusives
 const special = []; // special categories
+const multiplatform = []; // games I have across multiple platforms
 
 function writeError(error, source) {
   console.log(chalk.red.bold(`ERROR WRITING ${source} LIST: `, error));
@@ -38,6 +39,9 @@ games.forEach(game => {
         special.push(game);
       }
     });
+  }
+  if (game.consoleArr && game.consoleArr.length > 1) {
+    multiplatform.push(game);
   }
 });
 
@@ -97,6 +101,18 @@ fs.writeFile(
       writeError(error, 'SPECIAL');
     } else {
       writeSuccess('Special list');
+    }
+  }
+);
+
+fs.writeFile(
+  path.join(__dirname, '../server/db/listMultiPlatform.json'),
+  JSON.stringify(multiplatform),
+  error => {
+    if (error) {
+      writeError(error, 'MULTIPLATFORM');
+    } else {
+      writeSuccess('MultiPlatform list');
     }
   }
 );

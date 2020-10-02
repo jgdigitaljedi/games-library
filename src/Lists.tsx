@@ -16,7 +16,8 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     // { label: 'Games with extra data', value: 'extraData' },
     { label: 'Platform Launch Titles', value: 'launch' },
     { label: 'Multiplayer party games', value: 'multiplayer' },
-    { label: 'Special games', value: 'special' }
+    { label: 'Special games', value: 'special' },
+    { label: 'Multi-platform Games', value: 'multiplatform' }
   ];
   const [whichList, setWhichList] = useState<string>(lists[0].value);
   const [data, setData] = useState<IGame[]>([]);

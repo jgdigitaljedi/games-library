@@ -1,0 +1,28 @@
+@import '../../style/theme.scss';
+.totals-tables {
+  table,
+  th,
+  td {
+    border: 1px solid $white;
+  }
+
+  table {
+    border-collapse: collapse;
+
+    tr:nth-child(even) {
+      background-color: lighten($primary, 7%);
+    }
+
+    th {
+      color: $white;
+      padding: 0.25rem 1rem;
+      text-align: left;
+    }
+
+    td {
+      padding: 0.25rem 1rem;
+      color: $light-orange;
+      text-align: left;
+    }
+  }
+}

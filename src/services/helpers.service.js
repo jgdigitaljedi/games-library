@@ -96,3 +96,27 @@ export default {
     }
   }
 };
+
+export const consoleGenerationYears = {
+  '1': '1972 - 1984',
+  '2': '1976 - 1992',
+  '3': '1983 - 2003',
+  '4': '1987 - 2004',
+  '5': '1993 - 2005',
+  '6': '1998 - 2013',
+  '7': '2005 - 2017',
+  '8': '2012 - 2020',
+  UNKNOWN: '???'
+};
+
+export const consoleGenerationNames = {
+  '1': 'First Gen',
+  '2': 'Second Gen',
+  '3': 'Third Gen',
+  '4': 'Fourth Gen',
+  '5': 'Fifth Gen',
+  '6': 'Sixth Gen',
+  '7': 'Seventh Gen',
+  '8': 'Eighth Gen',
+  UNKNOWN: 'UNKNOWN'
+};

@@ -6,6 +6,7 @@ import ListView from './components/ListView/ListView';
 import { Chart } from 'primereact/chart';
 import ChartService from './services/chartData.service';
 import Colors from './style/colors';
+import HomeTopTables from './components/HomeTopTables/HomeTopTables';
 
 interface INumIndex {
   [key: string]: number;
@@ -37,6 +38,11 @@ interface IStats {
   igdbRatingsBreakdown: ICatVal;
   consolesByCompany: INumIndex;
   consolesByGenerationSorted: INumIndex;
+  gamesByDecade: INumIndex;
+  totalGames: number;
+  totalPlatforms: number;
+  totalAccessories: number;
+  totalClones: number;
 }
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
@@ -85,14 +91,19 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
 
   return (
     <div className="home">
-      {/* <div className="home--row">
-        {data && data.cibGames && (
-          <div className="text-container">
-            <h3>Complete in box games</h3>
-            <div>{data.cibGames}</div>
-          </div>
-        )}
-      </div> */}
+      {data && data.physicalVsDigitalGames && (
+        <HomeTopTables
+          cibGames={data.cibGames}
+          totalGames={data.totalGames}
+          totalPlatforms={data.totalPlatforms}
+          totalAccessories={data.totalAccessories}
+          totalClones={data.totalClones}
+          consolesByGenerationSorted={data.consolesByGenerationSorted}
+          physicalVsDigitalGames={data.physicalVsDigitalGames}
+          gamesByDecade={data.gamesByDecade}
+          consolesByCompany={data.consolesByCompany}
+        />
+      )}
       <div className="home--row">
         {data && data.mostRecentlyAddedGames && (
           <div className="container-column">

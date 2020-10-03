@@ -5,6 +5,9 @@ const _cloneDeep = require('lodash/cloneDeep');
 
 const games = require('../server/db/gamesExtra.json');
 const platforms = require('../server/db/consoles.json');
+const accessories = require('../server/db/gameAcc.json');
+const collectibles = require('../server/db/collectibles.json');
+const clones = require('../server/db/clones.json');
 
 /*** ideas for possible future additions
  * add games by relase date decade
@@ -29,7 +32,12 @@ let genres = {},
     { category: 'Terrible (< 30)', value: 0 }
   ],
   consolesByCompany = { UNKNOWN: 0 },
-  consolesByGeneration = { UNKNOWN: 0 };
+  consolesByGeneration = { UNKNOWN: 0 },
+  gamesCount = games.length,
+  platformsCount = platforms.length,
+  accessoriesCount = accessories.length,
+  collectiblesCount = collectibles.length,
+  clonesCount = clones.length;
 
 function handleConsoleByGeneration(con) {
   const gen = con && con.igdb && con.igdb.generation ? con.igdb.generation.toString() : null;
@@ -205,12 +213,32 @@ function sortByDateCounts(a, b) {
   return aNum > bNum ? -1 : 1;
 }
 
+function getMostPopularGameDecade() {
+  return games
+    .map(g => {
+      if (g && g.igdb && g.igdb.first_release_date) {
+        return g.igdb.first_release_date;
+      }
+    })
+    .filter(g => g)
+    .reduce((acc, gameDate, index) => {
+      const gameDecade = gameDate.split('/')[2].slice(0, -1) + '0';
+      if (acc[gameDecade]) {
+        acc[gameDecade]++;
+      } else {
+        acc[gameDecade] = 1;
+      }
+      return acc;
+    }, {});
+}
+
 makeConGames();
 handleConGamesData();
 const mostRecentGameArr = createMostRecentArr(games, 5);
 const mostRecentConsoleArr = createMostRecentArr(platforms, 5);
 const highestPricePaidGames = getMostExpensive(games, 5);
 const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
+const gamesByDecade = getMostPopularGameDecade();
 
 games.forEach(game => {
   handleGenres(game);
@@ -278,7 +306,13 @@ const finalData = {
   gamesAddedPerYear: gamesInYearSorted,
   igdbRatingsBreakdown,
   consolesByCompany,
-  consolesByGenerationSorted: consolesByGenSorted
+  consolesByGenerationSorted: consolesByGenSorted,
+  totalGames: gamesCount,
+  totalPlatforms: platformsCount,
+  totalAccessories: accessoriesCount,
+  totalCollectibles: collectiblesCount,
+  totalClones: clonesCount,
+  gamesByDecade
 };
 
 fs.writeFile(

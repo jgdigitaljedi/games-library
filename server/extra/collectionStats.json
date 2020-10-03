@@ -1181,5 +1181,18 @@
     "7": 5,
     "8": 6,
     "UNKNOWN": 1
+  },
+  "totalGames": 1084,
+  "totalPlatforms": 35,
+  "totalAccessories": 119,
+  "totalCollectibles": 33,
+  "totalClones": 7,
+  "gamesByDecade": {
+    "1970": 8,
+    "1980": 72,
+    "1990": 201,
+    "2000": 331,
+    "2010": 441,
+    "2020": 14
   }
 }

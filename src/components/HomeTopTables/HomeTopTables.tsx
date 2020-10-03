@@ -6,6 +6,11 @@ interface INumIndex {
   [key: string]: number;
 }
 
+interface IDateRelated {
+  dateFormatted: string;
+  games: number;
+}
+
 interface IProps {
   consolesByGenerationSorted: INumIndex;
   gamesByDecade: INumIndex;
@@ -16,6 +21,7 @@ interface IProps {
   cibGames: number;
   physicalVsDigitalGames: INumIndex;
   consolesByCompany: INumIndex;
+  gamesAddedPerYear: IDateRelated[];
 }
 
 interface IStringIndex {
@@ -31,7 +37,8 @@ const HomeTopTables: FunctionComponent<IProps> = ({
   totalClones,
   gamesByDecade,
   consolesByGenerationSorted,
-  consolesByCompany
+  consolesByCompany,
+  gamesAddedPerYear
 }) => {
   return (
     <div className="home--row totals-tables">
@@ -75,7 +82,7 @@ const HomeTopTables: FunctionComponent<IProps> = ({
         </table>
       </div>
       <div>
-        <h3>Game Release Date By Decade</h3>
+        <h3>Games per Decade</h3>
         <table>
           <thead>
             <th>Decade</th>
@@ -122,6 +129,23 @@ const HomeTopTables: FunctionComponent<IProps> = ({
               <tr>
                 <td>{company}</td>
                 <td>{(consolesByCompany as INumIndex)[company]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Games Added per Year</h3>
+        <table>
+          <thead>
+            <th>Year</th>
+            <th>Games Added</th>
+          </thead>
+          <tbody>
+            {gamesAddedPerYear.map(year => (
+              <tr>
+                <td>{year.dateFormatted}</td>
+                <td>{year.games}</td>
               </tr>
             ))}
           </tbody>

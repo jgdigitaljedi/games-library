@@ -102,6 +102,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           physicalVsDigitalGames={data.physicalVsDigitalGames}
           gamesByDecade={data.gamesByDecade}
           consolesByCompany={data.consolesByCompany}
+          gamesAddedPerYear={data.gamesAddedPerYear}
         />
       )}
       <div className="home--row">

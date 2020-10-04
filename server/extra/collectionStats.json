@@ -2,266 +2,266 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "NBA Jam Tournament Edition",
-        "id": 19712,
+        "name": "Super Breakout",
+        "id": 12321,
         "genres": [
-          "Sport",
-          "Arcade",
-          "Basketball"
+          "Arcade"
         ],
-        "total_rating": 68,
-        "total_rating_count": 7,
-        "first_release_date": "12/30/1994",
+        "total_rating": 72,
+        "total_rating_count": 8,
+        "first_release_date": "12/30/1978",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-1055",
+        "gbid": 1055,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366241-a5200_superbreakout.jpg",
+        "deck": "Use the Paddle to keep the ball going to get the high score.",
+        "platforms": "Game Boy, Atari ST, Atari 8-bit, Atari 2600, Game Boy Color, Atari 5200, Arcade, Xbox 360 Games Store, PC, iPhone"
+      },
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
+      "condition": "Excellent",
+      "case": "custom",
+      "pricePaid": "4.87",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/04/2020 06:05 pm",
+      "updatedAt": "10/04/2020 06:05 pm",
+      "_id": "0647dfac080a419d96d5a33464de93d7",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366241-a5200_superbreakout.jpg",
+      "description": "Use the Paddle to keep the ball going to get the high score.",
+      "name": "Super Breakout",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Atari 5200 launch title",
+        "Atari 5200 4 player game"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Super Breakout",
+          "id": "a528",
+          "details": [
+            "Atari 5200 launch title",
+            "Atari 5200 4 player game"
+          ],
+          "igdbId": 12321,
+          "gbId": 1055,
+          "gbGuid": "3030-1055",
+          "tgdbId": 5221,
+          "isLaunchTitle": [
+            {
+              "name": "Atari 5200",
+              "id": "ccl29",
+              "igdbId": 66,
+              "gbId": 67,
+              "gbGuid": "3045-67",
+              "tgdbId": 26
+            }
+          ],
+          "special": [
+            {
+              "value": "Atari 5200 4 player game",
+              "forPlatform": {
+                "name": "Atari 5200",
+                "id": "ccl29",
+                "igdbId": 66,
+                "gbId": 67,
+                "gbGuid": "3045-67",
+                "tgdbId": 26
+              }
+            }
+          ],
+          "isExclusive": false
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Xevious",
+        "id": 12346,
+        "genres": [
+          "Shooter",
+          "Arcade"
+        ],
+        "total_rating": 57,
+        "total_rating_count": 13,
+        "first_release_date": "12/30/1982",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "3D Classics Xevious",
+        "guid": "3030-1487",
+        "gbid": 1487,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331123-xevious_box.png",
+        "deck": "Xevious is one of the first vertical scrolling shoot-em-up arcade games.",
+        "platforms": "Game Boy Advance, Amstrad CPC, Apple II, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 7800, Arcade, Xbox 360 Games Store, Wii Shop, Famicom Disk System, Sharp X68000, NEC PC-8801, NEC PC-9801, Sharp X1, FM-7, Sharp MZ, Nintendo 3DS eShop, Wii U"
+      },
+      "consoleName": "Atari 7800",
+      "consoleIgdbId": 60,
+      "consoleGbid": 70,
+      "consoleGbGuid": "3045-70",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "4.87",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/04/2020 06:10 pm",
+      "updatedAt": "10/04/2020 06:10 pm",
+      "_id": "767e54225f294788ba9f2db1046093b1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331123-xevious_box.png",
+      "description": "Xevious is one of the first vertical scrolling shoot-em-up arcade games.",
+      "name": "Xevious",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Yars' Revenge",
+        "id": 9757,
+        "genres": [
+          "Shooter",
+          "Arcade"
+        ],
+        "total_rating": 55,
+        "total_rating_count": 10,
+        "first_release_date": "12/30/1981",
         "developers": "",
         "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-14792",
-        "gbid": 14792,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1535207-nbajamte_box.png",
-        "deck": "NBA Jam Tournament Edition is a two-on-two Arcade basketball game, adding updated rosters and new game modes to the original.",
-        "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, Jaguar, Sega 32X, Saturn, Arcade, PC"
+        "guid": "3030-14821",
+        "gbid": 14821,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367848-a2600_yarsrevenge.jpg",
+        "deck": "Yars' Revenge is a popular Atari 2600 game in which the user controls a fly-like creature on a quest for revenge!",
+        "platforms": "Atari 2600, Game Boy Color, Xbox 360 Games Store, PC"
       },
-      "consoleName": "Sega 32X",
-      "consoleIgdbId": 30,
-      "consoleGbid": 31,
-      "consoleGbGuid": "3045-31",
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
       "condition": "Good",
-      "case": "original",
-      "pricePaid": "50",
+      "case": "custom",
+      "pricePaid": "4.87",
       "physical": true,
-      "cib": true,
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-10-01",
-      "howAcquired": "eBay",
-      "notes": "",
-      "createdAt": "10/02/2020 05:58 am",
-      "updatedAt": "10/02/2020 05:58 am",
-      "_id": "b12d11154b01445083fcb98ef18402b6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1535207-nbajamte_box.png",
-      "description": "NBA Jam Tournament Edition is a two-on-two Arcade basketball game, adding updated rosters and new game modes to the original.",
-      "name": "NBA Jam Tournament Edition",
-      "miltiplayerNumber": 2,
-      "extraData": [
-        "Sega 32X Team Player compatible title"
-      ],
-      "extraDataFull": [
-        {
-          "name": "NBA Jam Tournament Edition",
-          "id": "s32x8",
-          "details": [
-            "Sega 32X Team Player compatible title"
-          ],
-          "igdbId": 19712,
-          "gbId": 14792,
-          "gbGuid": "3030-14792",
-          "special": [
-            {
-              "value": "Sega 32X Team Player compatible title",
-              "forPlatform": {
-                "name": "Sega 32X",
-                "id": "ccl16",
-                "igdbId": 30,
-                "gbId": 31,
-                "gbGuid": "3045-31",
-                "tgdbId": 33
-              }
-            }
-          ],
-          "isExclusive": false,
-          "isLaunchTitle": false
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Battlefield 4",
-        "id": 1979,
-        "genres": [
-          "Shooter",
-          "FPS"
-        ],
-        "total_rating": 78,
-        "total_rating_count": 506,
-        "first_release_date": "10/28/2013",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "BF4",
-        "guid": "3030-39035",
-        "gbid": 39035,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2575456-box_bf4.png",
-        "deck": "DICE's popular multiplayer-focused shooter series continues, making its debut appearance on the PS4 and Xbox One.",
-        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "8",
-      "physical": "",
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-10-01",
-      "howAcquired": "Steam",
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
       "notes": "",
-      "createdAt": "10/02/2020 05:59 am",
-      "updatedAt": "10/02/2020 05:59 am",
-      "_id": "4b4fd6f0f2544f65b08d3bebc24a31d5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2575456-box_bf4.png",
-      "description": "DICE's popular multiplayer-focused shooter series continues, making its debut appearance on the PS4 and Xbox One.",
-      "name": "Battlefield 4",
+      "createdAt": "10/04/2020 06:11 pm",
+      "updatedAt": "10/04/2020 06:11 pm",
+      "_id": "f2a964096b834dfc8f485f3d01f0eb1b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367848-a2600_yarsrevenge.jpg",
+      "description": "Yars' Revenge is a popular Atari 2600 game in which the user controls a fly-like creature on a quest for revenge!",
+      "name": "Yars' Revenge",
       "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
-      ],
-      "extraDataFull": [
-        {
-          "name": "Battlefield 4",
-          "details": [
-            "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
-          ],
-          "id": "bi13",
-          "igdbId": 1979,
-          "gbId": 39035,
-          "gbGuid": "3030-39035",
-          "tgdbId": 16691
-        }
-      ]
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "RollerCoaster Tycoon 3",
-        "id": 235,
+        "name": "Dig Dug",
+        "id": 2636,
         "genres": [
-          "Real Time Strategy (RTS)",
-          "Simulator",
-          "Strategy"
+          "Arcade"
         ],
-        "total_rating": 78,
-        "total_rating_count": 72,
-        "first_release_date": "10/25/2004",
+        "total_rating": 75,
+        "total_rating_count": 45,
+        "first_release_date": "04/18/1982",
         "developers": "",
         "esrb": "E"
       },
       "gb": {
-        "aliases": "RCT3",
-        "guid": "3030-5625",
-        "gbid": 5625,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4938/658805-2003191717543722808_rs.jpg",
-        "deck": "RollerCoaster Tycoon 3 is a strategy and simulation game in which players run their own amusement park and can even create custom rollercoaster rides.",
-        "platforms": "Mac, PC, iPhone, iPad"
+        "aliases": "",
+        "guid": "3030-2587",
+        "gbid": 2587,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/1426059-digdug_front.jpg",
+        "deck": "Dig dug is an arcade game released in 1982.  The objective is to kill the underground monsters by either squishing them under a rock through the tunnels you create or by popping them using your weapon directly.",
+        "platforms": "Game Boy Advance, Apple II, Commodore 64, MSX, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, Nintendo 64, TI-99/4A, Intellivision, Atari 5200, Atari 7800, Arcade, Xbox 360 Games Store, Wii Shop, Famicom Disk System, PC, Sharp X68000, iPhone, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Wii U, Xbox One, PlayStation 4, Casio PV-1000"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "7.79",
+      "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-09-25",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "09/26/2020 08:40 am",
-      "updatedAt": "09/26/2020 08:40 am",
-      "_id": "d23b8a9b1fe74667a13c285da28780cb",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4938/658805-2003191717543722808_rs.jpg",
-      "description": "RollerCoaster Tycoon 3 is a strategy and simulation game in which players run their own amusement park and can even create custom rollercoaster rides.",
-      "name": "RollerCoaster Tycoon 3",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/04/2020 06:11 pm",
+      "updatedAt": "10/04/2020 06:11 pm",
+      "_id": "46b67786cb234de1b22cfcc51e03912c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/1426059-digdug_front.jpg",
+      "description": "Dig dug is an arcade game released in 1982.  The objective is to kill the underground monsters by either squishing them under a rock through the tunnels you create or by popping them using your weapon directly.",
+      "name": "Dig Dug",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
     },
     {
       "igdb": {
-        "name": "Rocket League",
-        "id": 11198,
+        "name": "Frogger",
+        "id": 6795,
         "genres": [
-          "Racing",
-          "Sport",
-          "Indie",
-          "Soccer",
-          "Vehicular combat"
+          "Platform",
+          "Arcade"
         ],
-        "total_rating": 87,
-        "total_rating_count": 553,
-        "first_release_date": "07/06/2015",
+        "total_rating": 67,
+        "total_rating_count": 37,
+        "first_release_date": "06/04/1981",
         "developers": "",
         "esrb": "E"
       },
       "gb": {
-        "aliases": "ロケットリーグ",
-        "guid": "3030-34407",
-        "gbid": 34407,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2949245-box_rleague.png",
-        "deck": "The sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars, Rocket League is the second vehicular sports-action game developed by Psyonix.",
-        "platforms": "Mac, PC, Xbox One, PlayStation 4, Linux, Nintendo Switch"
+        "aliases": "The Official Frogger",
+        "guid": "3030-11903",
+        "gbid": 11903,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367698-a2600_frogger.jpg",
+        "deck": "Frogger is a classic arcade game with a simple objective: safely maneuver your frog across a busy highway and a deadly river without getting squished!",
+        "platforms": "Game Boy, Genesis, Super Nintendo Entertainment System, Apple II, Commodore 64, MSX, ZX Spectrum, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Intellivision, Game Boy Color, Odyssey 2, Dragon 32/64, TRS-80, Atari 5200, TRS-80 CoCo, Game.Com, Arcade, Xbox 360 Games Store, iPhone, BBC Micro, NEC PC-6001, Windows Phone, PlayStation 4, Nintendo Switch, Tomy Tutor, Gakken Compact Vision TV Boy"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "6.82",
+      "physical": true,
       "cib": "",
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-09-25",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "09/26/2020 08:38 am",
-      "updatedAt": "09/26/2020 08:38 am",
-      "_id": "e7e34584369b4fba845d52d9ab455aef",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2949245-box_rleague.png",
-      "description": "The sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars, Rocket League is the second vehicular sports-action game developed by Psyonix.",
-      "name": "Rocket League",
-      "miltiplayerNumber": 4
-    },
-    {
-      "igdb": {
-        "name": "Watch Dogs 2",
-        "id": 19441,
-        "genres": [
-          "Shooter",
-          "Racing",
-          "Adventure"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 314,
-        "first_release_date": "11/14/2016",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "Watchdogs 2\r, watch dogs 2",
-        "guid": "3030-54066",
-        "gbid": 54066,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2897495-watch%20dogs%202%20v1.jpg",
-        "deck": "The sequel to Watch Dogs moves to San Francisco with a new protagonist.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "0",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-09-23",
-      "howAcquired": "Epic Games Store",
-      "notes": "free",
-      "createdAt": "09/26/2020 08:43 am",
-      "updatedAt": "09/26/2020 08:43 am",
-      "_id": "f696b1444a4f4c5c9a89f0c96d6402df",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/2897495-watch%20dogs%202%20v1.jpg",
-      "description": "The sequel to Watch Dogs moves to San Francisco with a new protagonist.",
-      "name": "Watch Dogs 2",
-      "miltiplayerNumber": 1
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/04/2020 06:09 pm",
+      "updatedAt": "10/04/2020 06:09 pm",
+      "_id": "b22f57d738d54cbcacd9a2ea8a8a91f1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367698-a2600_frogger.jpg",
+      "description": "Frogger is a classic arcade game with a simple objective: safely maneuver your frog across a busy highway and a deadly river without getting squished!",
+      "name": "Frogger",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -830,20 +830,20 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Atari 5200": 6,
+    "Atari 7800": 6,
+    "Atari 2600": 20,
+    "Nintendo Entertainment System (NES)": 52,
     "Sega 32X": 15,
     "PC (Microsoft Windows)": 288,
     "Nintendo Switch": 43,
-    "Atari 5200": 5,
     "Sega Mega Drive/Genesis": 31,
-    "Atari 2600": 12,
-    "Nintendo Entertainment System (NES)": 51,
     "Nintendo 64": 32,
     "PlayStation 4": 130,
     "Game Boy Advance": 16,
     "Xbox 360": 59,
     "PlayStation 3": 42,
     "Super Nintendo Entertainment System (SNES)": 18,
-    "Atari 7800": 5,
     "PlayStation 2": 57,
     "PlayStation": 21,
     "Nintendo GameCube": 35,
@@ -864,24 +864,24 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "E": 229,
+    "NOT RATED": 271,
+    "E": 235,
     "M": 280,
-    "NOT RATED": 266,
     "T": 200,
     "E10+": 94,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 641,
+    "physical": 652,
     "digital": 443
   },
   "gamesAcquisition": {
+    "GameOver": 246,
     "eBay": 51,
     "Steam": 150,
     "Epic Games Store": 24,
     "UNKNOWN": 132,
-    "GameOver": 235,
     "Amazon": 7,
     "Video Games Monthly": 51,
     "Twitch": 39,
@@ -919,12 +919,15 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 270,
+  "cibGames": 271,
   "gamesWithGenre": {
-    "sport": 144,
-    "arcade": 100,
+    "arcade": 107,
+    "shooter": 374,
+    "platform": 197,
+    "pinball": 5,
+    "sport": 145,
+    "golf": 15,
     "basketball": 6,
-    "shooter": 371,
     "fps": 173,
     "real time strategy (rts)": 12,
     "simulator": 112,
@@ -934,7 +937,6 @@
     "soccer": 5,
     "vehicular combat": 5,
     "adventure": 391,
-    "platform": 193,
     "puzzle": 113,
     "fighting": 69,
     "boxing": 3,
@@ -946,7 +948,6 @@
     "turn-based strategy (tbs)": 24,
     "tactical": 29,
     "point-and-click": 12,
-    "golf": 14,
     "surfing": 2,
     "baseball": 7,
     "game show": 1,
@@ -971,7 +972,6 @@
     "visual novel": 1,
     "snowboarding": 7,
     "fmv": 1,
-    "pinball": 4,
     "bowling": 2,
     "light gun": 1,
     "rpg": 1,
@@ -1057,6 +1057,10 @@
       "games": 14
     },
     {
+      "dateFormatted": "10/2020",
+      "games": 13
+    },
+    {
       "dateFormatted": "08/2019",
       "games": 13
     },
@@ -1101,10 +1105,6 @@
       "games": 3
     },
     {
-      "dateFormatted": "10/2020",
-      "games": 2
-    },
-    {
       "dateFormatted": "05/2018",
       "games": 1
     },
@@ -1120,7 +1120,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 310
+      "games": 321
     },
     {
       "dateFormatted": "2019",
@@ -1146,19 +1146,19 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 685
+      "value": 688
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 191
+      "value": 195
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 14
+      "value": 15
     },
     {
       "category": "Terrible (< 30)",
-      "value": 126
+      "value": 129
     }
   ],
   "consolesByCompany": {
@@ -1182,15 +1182,15 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1084,
+  "totalGames": 1095,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 33,
   "totalClones": 7,
   "gamesByDecade": {
-    "1970": 8,
-    "1980": 72,
-    "1990": 201,
+    "1970": 9,
+    "1980": 81,
+    "1990": 202,
     "2000": 331,
     "2010": 441,
     "2020": 14

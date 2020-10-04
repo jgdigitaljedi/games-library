@@ -219,6 +219,7 @@ function getMostPopularGameDecade() {
       if (g && g.igdb && g.igdb.first_release_date) {
         return g.igdb.first_release_date;
       }
+      return null;
     })
     .filter(g => g)
     .reduce((acc, gameDate, index) => {

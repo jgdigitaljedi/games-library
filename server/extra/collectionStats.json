@@ -2,264 +2,269 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Super Breakout",
-        "id": 12321,
+        "name": "Animal Crossing: Amiibo Festival",
+        "id": 11190,
         "genres": [
-          "Arcade"
+          "Puzzle",
+          "Quiz/Trivia"
         ],
-        "total_rating": 72,
-        "total_rating_count": 8,
-        "first_release_date": "12/30/1978",
+        "total_rating": 52,
+        "total_rating_count": 12,
+        "first_release_date": "11/12/2015",
         "developers": "",
-        "esrb": ""
+        "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-1055",
-        "gbid": 1055,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366241-a5200_superbreakout.jpg",
-        "deck": "Use the Paddle to keep the ball going to get the high score.",
-        "platforms": "Game Boy, Atari ST, Atari 8-bit, Atari 2600, Game Boy Color, Atari 5200, Arcade, Xbox 360 Games Store, PC, iPhone"
+        "guid": "3030-49995",
+        "gbid": 49995,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2784576-acaf.jpg",
+        "deck": "An Animal Crossing party game for Wii U, which uses amiibo.",
+        "platforms": "Wii U"
       },
-      "consoleName": "Atari 5200",
-      "consoleIgdbId": 66,
-      "consoleGbid": 67,
-      "consoleGbGuid": "3045-67",
+      "consoleName": "Wii U",
+      "consoleIgdbId": 41,
+      "consoleGbid": 139,
+      "consoleGbGuid": "3045-139",
       "condition": "Excellent",
-      "case": "custom",
-      "pricePaid": "4.87",
+      "case": "original",
+      "pricePaid": "",
       "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-10-04",
-      "howAcquired": "GameOver",
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
       "notes": "",
-      "createdAt": "10/04/2020 06:05 pm",
-      "updatedAt": "10/04/2020 06:05 pm",
-      "_id": "0647dfac080a419d96d5a33464de93d7",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366241-a5200_superbreakout.jpg",
-      "description": "Use the Paddle to keep the ball going to get the high score.",
-      "name": "Super Breakout",
-      "miltiplayerNumber": 2,
+      "createdAt": "10/05/2020 06:50 pm",
+      "updatedAt": "10/05/2020 06:50 pm",
+      "_id": "0e0ee7615d7a48a2bc8c9e48bb9db36c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2784576-acaf.jpg",
+      "description": "An Animal Crossing party game for Wii U, which uses amiibo.",
+      "name": "Animal Crossing: Amiibo Festival",
+      "miltiplayerNumber": 1,
       "extraData": [
-        "Atari 5200 launch title",
-        "Atari 5200 4 player game"
+        "Nintendo Wii U full exclusive"
       ],
       "extraDataFull": [
         {
-          "name": "Super Breakout",
-          "id": "a528",
+          "name": "Animal Crossing: Amiibo Festival",
           "details": [
-            "Atari 5200 launch title",
-            "Atari 5200 4 player game"
+            "Nintendo Wii U full exclusive"
           ],
-          "igdbId": 12321,
-          "gbId": 1055,
-          "gbGuid": "3030-1055",
-          "tgdbId": 5221,
-          "isLaunchTitle": [
+          "id": "wiiu20",
+          "igdbId": 11190,
+          "gbId": 49995,
+          "gbGuid": "3030-49995",
+          "tgdbId": 32901,
+          "isExclusive": [
             {
-              "name": "Atari 5200",
-              "id": "ccl29",
-              "igdbId": 66,
-              "gbId": 67,
-              "gbGuid": "3045-67",
-              "tgdbId": 26
+              "name": "Nintendo Wii U",
+              "id": "ccl6",
+              "igdbId": 41,
+              "gbId": 139,
+              "gbGuid": "3045-139",
+              "tgdbId": 38
             }
           ],
-          "special": [
-            {
-              "value": "Atari 5200 4 player game",
-              "forPlatform": {
-                "name": "Atari 5200",
-                "id": "ccl29",
-                "igdbId": 66,
-                "gbId": 67,
-                "gbGuid": "3045-67",
-                "tgdbId": 26
-              }
-            }
-          ],
-          "isExclusive": false
+          "isLaunchTitle": false,
+          "special": []
         }
       ]
     },
     {
       "igdb": {
-        "name": "Xevious",
-        "id": 12346,
+        "name": "ZombiU",
+        "id": 1591,
         "genres": [
           "Shooter",
-          "Arcade"
-        ],
-        "total_rating": 57,
-        "total_rating_count": 13,
-        "first_release_date": "12/30/1982",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "3D Classics Xevious",
-        "guid": "3030-1487",
-        "gbid": 1487,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331123-xevious_box.png",
-        "deck": "Xevious is one of the first vertical scrolling shoot-em-up arcade games.",
-        "platforms": "Game Boy Advance, Amstrad CPC, Apple II, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Atari 7800, Arcade, Xbox 360 Games Store, Wii Shop, Famicom Disk System, Sharp X68000, NEC PC-8801, NEC PC-9801, Sharp X1, FM-7, Sharp MZ, Nintendo 3DS eShop, Wii U"
-      },
-      "consoleName": "Atari 7800",
-      "consoleIgdbId": 60,
-      "consoleGbid": 70,
-      "consoleGbGuid": "3045-70",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "4.87",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-04",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "10/04/2020 06:10 pm",
-      "updatedAt": "10/04/2020 06:10 pm",
-      "_id": "767e54225f294788ba9f2db1046093b1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1331123-xevious_box.png",
-      "description": "Xevious is one of the first vertical scrolling shoot-em-up arcade games.",
-      "name": "Xevious",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Yars' Revenge",
-        "id": 9757,
-        "genres": [
-          "Shooter",
-          "Arcade"
-        ],
-        "total_rating": 55,
-        "total_rating_count": 10,
-        "first_release_date": "12/30/1981",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-14821",
-        "gbid": 14821,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367848-a2600_yarsrevenge.jpg",
-        "deck": "Yars' Revenge is a popular Atari 2600 game in which the user controls a fly-like creature on a quest for revenge!",
-        "platforms": "Atari 2600, Game Boy Color, Xbox 360 Games Store, PC"
-      },
-      "consoleName": "Atari 2600",
-      "consoleIgdbId": 59,
-      "consoleGbid": 40,
-      "consoleGbGuid": "3045-40",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "4.87",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-04",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "10/04/2020 06:11 pm",
-      "updatedAt": "10/04/2020 06:11 pm",
-      "_id": "f2a964096b834dfc8f485f3d01f0eb1b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367848-a2600_yarsrevenge.jpg",
-      "description": "Yars' Revenge is a popular Atari 2600 game in which the user controls a fly-like creature on a quest for revenge!",
-      "name": "Yars' Revenge",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Dig Dug",
-        "id": 2636,
-        "genres": [
-          "Arcade"
+          "Adventure"
         ],
         "total_rating": 75,
-        "total_rating_count": 45,
-        "first_release_date": "04/18/1982",
+        "total_rating_count": 35,
+        "first_release_date": "11/17/2012",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Killer Freaks from Outer Space\r, Attack Of The Killer Rabbids From Outer Space\r, Zombi",
+        "guid": "3030-35619",
+        "gbid": 35619,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2553376-zombiuclean.jpg",
+        "deck": "A first-person survival horror game set in London during a modern-day zombie apocalypse. As a launch title for the Wii U, it features extensive use of the system's GamePad.",
+        "platforms": "PC, Wii U, Xbox One, PlayStation 4"
+      },
+      "consoleName": "Wii U",
+      "consoleIgdbId": 41,
+      "consoleGbid": 139,
+      "consoleGbGuid": "3045-139",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "10/05/2020 06:50 pm",
+      "updatedAt": "10/05/2020 06:50 pm",
+      "_id": "e1d697d7d0934f0ba7bf21cdc603fc71",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2553376-zombiuclean.jpg",
+      "description": "A first-person survival horror game set in London during a modern-day zombie apocalypse. As a launch title for the Wii U, it features extensive use of the system's GamePad.",
+      "name": "ZombiU",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Nintendo Wii U launch title"
+      ],
+      "extraDataFull": [
+        {
+          "id": "wiiu439",
+          "name": "ZombiU",
+          "details": [
+            "Nintendo Wii U launch title"
+          ],
+          "igdbId": 1591,
+          "gbId": 35619,
+          "gbGuid": "3030-35619",
+          "tgdbId": 10709,
+          "isLaunchTitle": [
+            {
+              "name": "Nintendo Wii U",
+              "id": "ccl6",
+              "igdbId": 41,
+              "gbId": 139,
+              "gbGuid": "3045-139",
+              "tgdbId": 38
+            }
+          ],
+          "isExclusive": false,
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Lego Legends of Chima: Laval's Journey",
+        "id": 6839,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": 44,
+        "total_rating_count": 1,
+        "first_release_date": "06/24/2013",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-41020",
+        "gbid": 41020,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2481858-box_legoloclj.png",
+        "deck": "Game based on LEGO's 2013 Legends of Chima line made for handhelds.",
+        "platforms": "Nintendo DS, Nintendo 3DS, PlayStation Vita, PlayStation Network (Vita)"
+      },
+      "consoleName": "Nintendo 3DS",
+      "consoleIgdbId": 37,
+      "consoleGbid": 117,
+      "consoleGbGuid": "3045-117",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "10/05/2020 06:51 pm",
+      "updatedAt": "10/05/2020 06:51 pm",
+      "_id": "603876d7e12d4d3cac2712a3bc4ec3ed",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2481858-box_legoloclj.png",
+      "description": "Game based on LEGO's 2013 Legends of Chima line made for handhelds.",
+      "name": "Lego Legends of Chima: Laval's Journey",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Michael Jackson: The Experience 3D",
+        "id": 85288,
+        "genres": [],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "11/07/2011",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-31724",
+        "gbid": 31724,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1828909-box_mjte.png",
+        "deck": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
+        "platforms": "PlayStation Portable, Xbox 360, PlayStation 3, Wii, Nintendo DS, PlayStation Network (PS3), PlayStation Network (PSP), Nintendo 3DS, PlayStation Vita, PlayStation Network (Vita)"
+      },
+      "consoleName": "Nintendo 3DS",
+      "consoleIgdbId": 37,
+      "consoleGbid": 117,
+      "consoleGbGuid": "3045-117",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "10/05/2020 06:51 pm",
+      "updatedAt": "10/05/2020 06:51 pm",
+      "_id": "a4b62a577a9643cd936f274b5c420d63",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1828909-box_mjte.png",
+      "description": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
+      "name": "Michael Jackson: The Experience 3D",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Safari Adventures: Africa",
+        "id": 51135,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "11/26/2009",
         "developers": "",
         "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-2587",
-        "gbid": 2587,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/1426059-digdug_front.jpg",
-        "deck": "Dig dug is an arcade game released in 1982.  The objective is to kill the underground monsters by either squishing them under a rock through the tunnels you create or by popping them using your weapon directly.",
-        "platforms": "Game Boy Advance, Apple II, Commodore 64, MSX, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, Nintendo 64, TI-99/4A, Intellivision, Atari 5200, Atari 7800, Arcade, Xbox 360 Games Store, Wii Shop, Famicom Disk System, PC, Sharp X68000, iPhone, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Wii U, Xbox One, PlayStation 4, Casio PV-1000"
+        "guid": "3030-28480",
+        "gbid": 28480,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2987951-box_ssa.png",
+        "deck": " ",
+        "platforms": "PlayStation 2, Wii, Nintendo DS, PC"
       },
-      "consoleName": "Atari 2600",
-      "consoleIgdbId": 59,
-      "consoleGbid": 40,
-      "consoleGbGuid": "3045-40",
+      "consoleName": "Nintendo DS",
+      "consoleIgdbId": 20,
+      "consoleGbid": 52,
+      "consoleGbGuid": "3045-52",
       "condition": "Good",
       "case": "custom",
-      "pricePaid": "7.79",
+      "pricePaid": "",
       "physical": true,
       "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-10-04",
-      "howAcquired": "GameOver",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
       "notes": "",
-      "createdAt": "10/04/2020 06:11 pm",
-      "updatedAt": "10/04/2020 06:11 pm",
-      "_id": "46b67786cb234de1b22cfcc51e03912c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/1426059-digdug_front.jpg",
-      "description": "Dig dug is an arcade game released in 1982.  The objective is to kill the underground monsters by either squishing them under a rock through the tunnels you create or by popping them using your weapon directly.",
-      "name": "Dig Dug",
+      "createdAt": "10/05/2020 06:52 pm",
+      "updatedAt": "10/05/2020 06:52 pm",
+      "_id": "ec5d7b114bb44a6da2726ff105b28fd5",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2987951-box_ssa.png",
+      "description": " ",
+      "name": "Safari Adventures: Africa",
       "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Frogger",
-        "id": 6795,
-        "genres": [
-          "Platform",
-          "Arcade"
-        ],
-        "total_rating": 67,
-        "total_rating_count": 37,
-        "first_release_date": "06/04/1981",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "The Official Frogger",
-        "guid": "3030-11903",
-        "gbid": 11903,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367698-a2600_frogger.jpg",
-        "deck": "Frogger is a classic arcade game with a simple objective: safely maneuver your frog across a busy highway and a deadly river without getting squished!",
-        "platforms": "Game Boy, Genesis, Super Nintendo Entertainment System, Apple II, Commodore 64, MSX, ZX Spectrum, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Intellivision, Game Boy Color, Odyssey 2, Dragon 32/64, TRS-80, Atari 5200, TRS-80 CoCo, Game.Com, Arcade, Xbox 360 Games Store, iPhone, BBC Micro, NEC PC-6001, Windows Phone, PlayStation 4, Nintendo Switch, Tomy Tutor, Gakken Compact Vision TV Boy"
-      },
-      "consoleName": "Atari 2600",
-      "consoleIgdbId": 59,
-      "consoleGbid": 40,
-      "consoleGbGuid": "3045-40",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "6.82",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-10-04",
-      "howAcquired": "GameOver",
-      "notes": "",
-      "createdAt": "10/04/2020 06:09 pm",
-      "updatedAt": "10/04/2020 06:09 pm",
-      "_id": "b22f57d738d54cbcacd9a2ea8a8a91f1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367698-a2600_frogger.jpg",
-      "description": "Frogger is a classic arcade game with a simple objective: safely maneuver your frog across a busy highway and a deadly river without getting squished!",
-      "name": "Frogger",
-      "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
     }
@@ -312,7 +317,7 @@
         "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/10088-7800.gif",
         "original_price": "140.00",
         "aliases": null,
-        "company": "Atari SA",
+        "company": "Atari",
         "guid": "3045-70",
         "online_support": false,
         "gbid": 70
@@ -830,6 +835,9 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "Wii U": 17,
+    "Nintendo 3DS": 13,
+    "Nintendo DS": 19,
     "Atari 5200": 6,
     "Atari 7800": 6,
     "Atari 2600": 20,
@@ -850,7 +858,6 @@
     "PlayStation Portable": 18,
     "Xbox": 43,
     "Wii": 27,
-    "Nintendo DS": 18,
     "Game Boy": 6,
     "Dreamcast": 23,
     "Sega Saturn": 8,
@@ -858,32 +865,30 @@
     "3DO Interactive Multiplayer": 7,
     "Game Boy Color": 7,
     "TurboGrafx-16/PC Engine": 4,
-    "Wii U": 15,
     "Sega Game Gear": 3,
-    "Nintendo 3DS": 11,
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "NOT RATED": 271,
-    "E": 235,
-    "M": 280,
+    "E": 237,
+    "M": 281,
+    "E10+": 95,
+    "NOT RATED": 272,
     "T": 200,
-    "E10+": 94,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 652,
+    "physical": 657,
     "digital": 443
   },
   "gamesAcquisition": {
+    "Video Games Monthly": 56,
     "GameOver": 246,
     "eBay": 51,
     "Steam": 150,
     "Epic Games Store": 24,
     "UNKNOWN": 132,
     "Amazon": 7,
-    "Video Games Monthly": 51,
     "Twitch": 39,
     "GOG": 21,
     "Green Man Gaming": 2,
@@ -919,10 +924,13 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 271,
+  "cibGames": 275,
   "gamesWithGenre": {
+    "puzzle": 114,
+    "quiz/trivia": 12,
+    "shooter": 375,
+    "adventure": 394,
     "arcade": 107,
-    "shooter": 374,
     "platform": 197,
     "pinball": 5,
     "sport": 145,
@@ -936,8 +944,6 @@
     "indie": 145,
     "soccer": 5,
     "vehicular combat": 5,
-    "adventure": 391,
-    "puzzle": 113,
     "fighting": 69,
     "boxing": 3,
     "hack and slash/beat 'em up": 70,
@@ -954,7 +960,6 @@
     "party game": 1,
     "third-person shooter": 14,
     "hockey": 3,
-    "quiz/trivia": 11,
     "party": 12,
     "track": 1,
     "power pad": 1,
@@ -1037,6 +1042,10 @@
       "games": 20
     },
     {
+      "dateFormatted": "10/2020",
+      "games": 18
+    },
+    {
       "dateFormatted": "12/2019",
       "games": 17
     },
@@ -1055,10 +1064,6 @@
     {
       "dateFormatted": "06/2019",
       "games": 14
-    },
-    {
-      "dateFormatted": "10/2020",
-      "games": 13
     },
     {
       "dateFormatted": "08/2019",
@@ -1120,7 +1125,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 321
+      "games": 326
     },
     {
       "dateFormatted": "2019",
@@ -1146,19 +1151,19 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 688
+      "value": 689
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 195
+      "value": 196
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 15
+      "value": 16
     },
     {
       "category": "Terrible (< 30)",
-      "value": 129
+      "value": 131
     }
   ],
   "consolesByCompany": {
@@ -1169,8 +1174,7 @@
     "Sony": 6,
     "Matsushita Electric Corporation of America (Panasonic)": 1,
     "NEC": 1,
-    "Atari": 2,
-    "Atari SA": 1
+    "Atari": 3
   },
   "consolesByGenerationSorted": {
     "2": 2,
@@ -1182,17 +1186,17 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1095,
+  "totalGames": 1100,
   "totalPlatforms": 35,
   "totalAccessories": 119,
-  "totalCollectibles": 33,
+  "totalCollectibles": 35,
   "totalClones": 7,
   "gamesByDecade": {
     "1970": 9,
     "1980": 81,
     "1990": 202,
-    "2000": 331,
-    "2010": 441,
+    "2000": 332,
+    "2010": 445,
     "2020": 14
   }
 }

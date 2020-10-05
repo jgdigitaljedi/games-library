@@ -1,4 +1,8 @@
 {
+  "Nintendo Wii U": {
+    "isLaunchTitle": 3,
+    "isExclusive": 11
+  },
   "Atari 5200": {
     "isLaunchTitle": 2,
     "isExclusive": 0
@@ -94,10 +98,6 @@
   "NEC TurboGrafx 16": {
     "isLaunchTitle": 2,
     "isExclusive": 0
-  },
-  "Nintendo Wii U": {
-    "isLaunchTitle": 2,
-    "isExclusive": 10
   },
   "Sega Dreamcast": {
     "isLaunchTitle": 4,

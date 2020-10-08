@@ -1,7 +1,8 @@
 import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
-import { IGame, IConsole } from './common.model';
+import { IConsole } from './models/platforms.model';
+import { IGame } from './models/games.model';
 import ListView from './components/ListView/ListView';
 import { Chart } from 'primereact/chart';
 import ChartService from './services/chartData.service';
@@ -22,7 +23,7 @@ interface ICatVal {
   value: number;
 }
 
-interface IStats {
+export interface IStats {
   mostRecentlyAddedGames: IGame[];
   mostRecentlyAddedPlatforms: IConsole[];
   mostPaidForGames: IGame[];

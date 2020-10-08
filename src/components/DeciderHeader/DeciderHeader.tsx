@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import FilterBar from './FilterBar/FilterBar';
 import SortBar from './SortBar/SortBar';
-import { IGame } from '../../common.model';
+import { IGame } from '../../models/games.model';
 
 interface IProps {
   data: IGame[];

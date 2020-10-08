@@ -9,7 +9,8 @@ import React, {
   SetStateAction
 } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame, IDropdown, IFormState } from '../../../common.model';
+import { IDropdown, IFormState } from '../../../models/common.model';
+import { IGame } from '../../../models/games.model';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import sortBy from 'lodash/sortBy';

@@ -1,5 +1,7 @@
 import get from 'lodash/get';
-import { IGame, IFormState, IConsoleArr } from '../common.model';
+import { IFormState } from '../models/common.model';
+import { IConsoleArr } from '../models/platforms.model';
+import { IGame } from '../models/games.model';
 import SortService from './sorts.service';
 
 export const filters = {

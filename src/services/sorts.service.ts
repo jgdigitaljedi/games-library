@@ -1,5 +1,5 @@
 import { get as _get, sortBy as _sortBy } from 'lodash';
-import { IGame } from '../common.model';
+import { IGame } from '../models/games.model';
 
 export default {
   sortDateWithSlash: (data: string[]) => {

@@ -1,5 +1,5 @@
 import React, { FunctionComponent, useState, useEffect, useCallback } from 'react';
-import { IConsole } from '../../../common.model';
+import { IConsole } from '../../../models/platforms.model';
 import { InputText } from 'primereact/inputtext';
 import { handleChange, handleDropdownFn } from '../../../services/forms.service';
 import helpersService from '../../../services/helpers.service';

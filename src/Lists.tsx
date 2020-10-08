@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
-import { IGame } from './common.model';
+import { IGame } from './models/games.model';
 import { Dropdown } from 'primereact/dropdown';
 import GameCard from './components/GameCard/GameCard';
 import GameDialog from './components/GameDialog/GameDialog';

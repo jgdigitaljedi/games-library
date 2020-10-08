@@ -3,7 +3,7 @@ import { Calendar } from 'primereact/calendar';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
 import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
-import { IHardware } from '../../../common.model';
+import { IHardware } from '../../../models/common.model';
 import { handleChange } from '../../../services/forms.service';
 import helpersService from '../../../services/helpers.service';
 

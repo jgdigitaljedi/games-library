@@ -1,5 +1,5 @@
 import React, { createContext, useState, Dispatch, SetStateAction } from 'react';
-import { IFormState } from '../common.model';
+import { IFormState } from '../models/common.model';
 import { filters } from '../services/deciderFiltering.service';
 
 const defaultFormState = filters.defaultFormState();

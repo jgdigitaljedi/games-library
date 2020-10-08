@@ -1,7 +1,8 @@
 import React from 'react';
 import { DataContext, DataContextProvider } from './DataContext';
 import { SortContext, SortContextProvider } from './SortContext';
-import { IGame, IDropdown, IFormState } from '../common.model';
+import { IDropdown, IFormState } from '../models/common.model';
+import { IGame } from '../models/games.model';
 
 interface ICombined {
   data: IFormState;

@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useContext } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame } from '../../../common.model';
+import { IGame } from '../../../models/games.model';
 import SortService from '../../../services/sorts.service';
 import { Dropdown } from 'primereact/dropdown';
 import { SortContext } from '../../../context/SortContext';

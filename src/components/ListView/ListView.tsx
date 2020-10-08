@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
-import { IGame, IConsole } from '../../common.model';
+import { IConsole } from '../../models/platforms.model';
+import { IGame } from '../../models/games.model';
 import { flatten as _flatten, get as _get } from 'lodash';
 
 interface IProps {

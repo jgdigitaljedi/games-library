@@ -7,7 +7,8 @@ import filterPropsService from '../../services/filterProps.service';
 import { Dispatch } from 'redux';
 import debounce from 'lodash/debounce';
 import get from 'lodash/get';
-import { IGame, IDropdown } from '../../common.model';
+import { IDropdown } from '../../models/common.model';
+import { IGame } from '../../models/games.model';
 
 interface MapStateProps {
   viewWhat: string;

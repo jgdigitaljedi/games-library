@@ -13,3 +13,9 @@ export const getPlatformArr = () => {
       });
   });
 };
+
+export const getPlatformData = async () => {
+  const url = `${window.urlPrefix}/api/vg/consoles`;
+  const platforms = await Axios.get(url);
+  return platforms;
+};

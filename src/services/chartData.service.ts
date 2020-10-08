@@ -1,7 +1,8 @@
-import { IGame } from '../common.model';
+import { IGame } from '../models/games.model';
 import { get as _get, sum as _sum } from 'lodash';
 import Colors from '../style/colors';
 import SortService from './sorts.service';
+import { IDataTitlesIndex, IIndexedWithNum } from '../models/common.model';
 
 interface ITicks {
   fontColor?: string;
@@ -22,14 +23,6 @@ interface IDataSets {
 export interface IChartData {
   labels: any[];
   datasets: IDataSets[];
-}
-
-interface IDataTitlesIndex {
-  [key: string]: string;
-}
-
-interface IIndexedWithNum {
-  [key: string]: number;
 }
 
 function priceToPriceGroup(price: number): string {

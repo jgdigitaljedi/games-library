@@ -1,12 +1,13 @@
 import { IGame } from '../models/games.model';
-import { get as _get, sum as _sum } from 'lodash';
 import Colors from '../style/colors';
-import SortService from './sorts.service';
-import { IDataTitlesIndex, IIndexedWithNum } from '../models/common.model';
-
-interface ITicks {
-  fontColor?: string;
-}
+import { IDataTitlesIndex } from '../models/common.model';
+import {
+  getPriceOverTimeData,
+  getGameByReleaseYearData,
+  getGamesCollectionGrowthData,
+  getPriceGroups
+} from './chartDataGames.service';
+import { IStats } from '../Home';
 
 interface IDataSets {
   label: string;
@@ -25,27 +26,6 @@ export interface IChartData {
   datasets: IDataSets[];
 }
 
-function priceToPriceGroup(price: number): string {
-  if (price < 16) {
-    return 'Cheap ($15 or less)';
-  } else if (price < 40 && price > 15) {
-    return 'Medium ($16 - $39)';
-  } else if (price > 39 && price < 66) {
-    return 'High ($40 - $65)';
-  } else {
-    return 'Very High ($66+)';
-  }
-}
-
-function getYear(gameDate: string): number {
-  return new Date(gameDate).getFullYear();
-}
-
-function getMonthYear(gameData: string): string {
-  const dObj = new Date(gameData);
-  return `${dObj.getMonth() + 1}/${dObj.getFullYear()}`;
-}
-
 const dataTitles: IDataTitlesIndex = {
   'igdb.first_release_date': 'Game Release Date',
   datePurchased: 'Money Spent Over Time',
@@ -53,126 +33,19 @@ const dataTitles: IDataTitlesIndex = {
   pricePaid: 'Games by price group'
 };
 
-function getPriceOverTimeData(data: IGame[]) {
-  let labels: string[] = [];
-  const dataObjUnordered: IIndexedWithNum = {};
-  data.forEach((game: IGame) => {
-    const gameDate = _get(game, 'datePurchased');
-    const gamePrice = _get(game, 'pricePaid');
-    if (gameDate && gamePrice) {
-      const monthYear = getMonthYear(gameDate);
-      if (!dataObjUnordered.hasOwnProperty(monthYear)) {
-        dataObjUnordered[monthYear] = parseFloat(gamePrice);
-      } else {
-        dataObjUnordered[monthYear] += parseFloat(gamePrice);
-      }
+function makeDataSets(which: string, dataObjFinal: any) {
+  return [
+    {
+      label: dataTitles[which] || 'Stuff',
+      backgroundColor: Colors.lightOrange,
+      data: dataObjFinal,
+      pointBackgroundColor: Colors.lightBlue,
+      lineTension: 0.6,
+      borderColor: Colors.navSelected,
+      borderWidth: 2,
+      pointRadius: 4
     }
-  });
-  const dataObj: IIndexedWithNum = {};
-  SortService.sortDateWithSlash(Object.keys(dataObjUnordered)).forEach(d => {
-    dataObj[d] = dataObjUnordered[d];
-  });
-  labels = Object.keys(dataObj);
-
-  return { labels, dataObj };
-}
-
-function getGameByReleaseYearData({
-  data,
-  which
-}: {
-  data: IGame[];
-  which: string;
-}): { labels: string[]; dataObj: any } {
-  const labels: string[] = [];
-  const dataObj: IIndexedWithNum = {};
-  data.forEach(d => {
-    const gameData = _get(d, which);
-    let dataFormatted;
-    if (gameData) {
-      dataFormatted = getYear(gameData).toString();
-      if (dataFormatted) {
-        if (labels.indexOf(dataFormatted) === -1) {
-          labels.push(dataFormatted);
-        }
-        if (!dataObj.hasOwnProperty(dataFormatted)) {
-          dataObj[dataFormatted] = 1;
-        } else {
-          dataObj[dataFormatted]++;
-        }
-      }
-    }
-  });
-
-  return { labels, dataObj };
-}
-
-function getGamesCollectionGrowthData(data: IGame[]) {
-  const dataObjUnordered: IIndexedWithNum = {};
-  const dataObjRaw: IIndexedWithNum = {};
-  data.forEach(d => {
-    const gameData = _get(d, 'datePurchased');
-    let dataFormatted;
-    if (gameData) {
-      dataFormatted = getMonthYear(gameData).toString();
-      if (dataFormatted) {
-        if (!dataObjUnordered.hasOwnProperty(dataFormatted)) {
-          dataObjUnordered[dataFormatted] = 1;
-        } else {
-          dataObjUnordered[dataFormatted]++;
-        }
-      }
-    }
-  });
-  SortService.sortDateWithSlash(Object.keys(dataObjUnordered)).forEach(d => {
-    // @ts-ignore
-    dataObjRaw[d] = parseInt(dataObjUnordered[d]);
-  });
-  const labels: string[] = [];
-  const dataObj: IIndexedWithNum = {};
-  Object.keys(dataObjRaw).forEach((d, index) => {
-    labels.push(d);
-    const valueArr = Object.values(dataObjRaw).slice(0, index);
-    dataObj[d] = _sum(valueArr);
-  });
-
-  return { labels, dataObj };
-}
-
-function getPriceGroups(data: IGame[]) {
-  const labels: string[] = [
-    'Cheap ($15 or less)',
-    'Medium ($16 - $39)',
-    'High ($40 - $65)',
-    'Very High ($66+)'
   ];
-  const dataObjUnordered: IIndexedWithNum = {
-    'Cheap ($15 or less)': 0,
-    'Medium ($16 - $39)': 0,
-    'High ($40 - $65)': 0,
-    'Very High ($66+)': 0
-  };
-  data.forEach(d => {
-    const gameData = _get(d, 'pricePaid');
-    let dataFormatted;
-    if (gameData) {
-      dataFormatted = priceToPriceGroup(
-        typeof gameData === 'number' ? gameData : parseFloat(gameData)
-      );
-      if (dataFormatted) {
-        if (!dataObjUnordered.hasOwnProperty(dataFormatted)) {
-          dataObjUnordered[dataFormatted] = 1;
-        } else {
-          dataObjUnordered[dataFormatted]++;
-        }
-      }
-    }
-  });
-  const dataObj: IIndexedWithNum = {};
-  labels.forEach(label => {
-    dataObj[label] = dataObjUnordered[label];
-  });
-  return { labels, dataObj };
 }
 
 export default {
@@ -201,18 +74,30 @@ export default {
 
     return {
       labels: labelsSorted,
-      datasets: [
-        {
-          label: dataTitles[which] || 'Stuff',
+      datasets: makeDataSets(which, dataObjFinal)
+    };
+  },
+  makeDataSetForPlatforms: (data: IStats, which: string) => {
+    if (which === 'platforms.company') {
+      // jointData = getPlatformsByCompany(data);
+      return {
+        labels: Object.keys(data.consolesByCompany),
+        datasets: {
+          label: 'Consoles per Company',
           backgroundColor: Colors.lightOrange,
-          data: dataObjFinal,
+          data: Object.values(data.consolesByCompany) || [],
           pointBackgroundColor: Colors.lightBlue,
           lineTension: 0.6,
           borderColor: Colors.navSelected,
           borderWidth: 2,
           pointRadius: 4
         }
-      ]
+      };
+    }
+
+    return {
+      labels: [],
+      datasets: []
     };
   },
   returnSimpleDataSet: (data: any, title: string, bgColorArr?: boolean) => {

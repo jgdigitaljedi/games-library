@@ -13,9 +13,20 @@ interface IIgdbConsole {
   version: string;
 }
 
+interface IGBConsole {
+  aliases: string;
+  company: string;
+  gbid: number;
+  guid: string;
+  image: string;
+  install_base: string;
+  online_support: boolean;
+  original_price: string;
+}
+
 export interface IConsole {
   igdb: IIgdbConsole;
-  gb: IGbGame;
+  gb: IGBConsole;
   condition: string;
   box: string;
   mods: string;

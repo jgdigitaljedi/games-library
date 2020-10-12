@@ -1,13 +1,11 @@
 import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
-import { IConsoleArr } from './models/platforms.model';
 import { IGame } from './models/games.model';
 import { Dropdown } from 'primereact/dropdown';
 import ChartDataService, { IChartData } from './services/chartData.service';
 import { Chart } from 'primereact/chart';
 import { IStats } from './Home';
-import { getPlatformData } from './services/globalData.service';
 
 const Viz: FunctionComponent<RouteComponentProps> = () => {
   const dataSets = [
@@ -18,7 +16,8 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     { label: 'Games per Platform', value: 'gpp' },
     { label: 'Games per Acquisition Type', value: 'gat' },
     { label: 'Games per ESRB Rating', value: 'esrb' },
-    { label: 'Consoles by Company', value: 'cbc' }
+    { label: 'Consoles by Company', value: 'platforms.company' },
+    { label: 'Games by Decade', value: 'gbd' }
   ];
 
   const chartTypes = [
@@ -30,7 +29,6 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     datasets: [{ label: '', backgroundColor: '', data: [0] }]
   });
   const [stats, setStats] = useState<IStats>();
-  const [platforms, setPlatforms] = useState<IConsoleArr>();
   const [masterData, setMasterData] = useState<IGame[]>([]);
   const [chartType, setChartType] = useState<string>(chartTypes[0].value);
   const [chartData, setChartData] = useState<string>(dataSets[0].value);
@@ -65,13 +63,6 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     }
   }, []);
 
-  const getPlatformsWithData = useCallback(async () => {
-    const result = await getPlatformData();
-    if (result?.data) {
-      setPlatforms(result.data);
-    }
-  }, []);
-
   const getChartData = useCallback(async () => {
     if (chartData === 'gpp' && stats) {
       setData(
@@ -92,8 +83,22 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           true
         ) as IChartData
       );
-    } else if (chartData === 'cbc') {
-      // setData(ChartDataService.)
+    } else if (chartData === 'platforms.company' && stats) {
+      setData(
+        ChartDataService.returnSimpleDataSet(
+          stats.consolesByCompany,
+          'Consoles per Company',
+          true
+        ) as IChartData
+      );
+    } else if (chartData === 'gbd' && stats) {
+      setData(
+        ChartDataService.returnSimpleDataSet(
+          stats.gamesByDecade,
+          'Games per Decade',
+          true
+        ) as IChartData
+      );
     } else {
       setData(ChartDataService.makeDataSet(masterData, chartData));
     }
@@ -106,8 +111,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     }
     getChartData();
     getStats();
-    getPlatformsWithData();
-  }, [getData, masterData, getChartData, getStats, getPlatformsWithData]);
+  }, [getData, masterData, getChartData, getStats]);
 
   return (
     <div className="viz">

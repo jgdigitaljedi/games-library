@@ -2,6 +2,49 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Metro Exodus: Gold Edition",
+        "id": 95059,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "02/14/2019",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-59897",
+        "gbid": 59897,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027478-box_metroex.png",
+        "deck": "The third Metro game sees protagonist Artyom and his companions leaving Moscow in search of a new home.",
+        "platforms": "PC, Xbox One, PlayStation 4, Google Stadia, Amazon Luna"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "38.99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-10",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "10/12/2020 07:06 am",
+      "updatedAt": "10/12/2020 07:06 am",
+      "_id": "ca97fb42d17c4d30bc682b5d47aba96c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027478-box_metroex.png",
+      "description": "The third Metro game sees protagonist Artyom and his companions leaving Moscow in search of a new home.",
+      "name": "Metro Exodus: Gold Edition",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Animal Crossing: Amiibo Festival",
         "id": 11190,
         "genres": [
@@ -188,7 +231,10 @@
       "igdb": {
         "name": "Michael Jackson: The Experience 3D",
         "id": 85288,
-        "genres": [],
+        "genres": [
+          "Music",
+          "Rythym"
+        ],
         "total_rating": "",
         "total_rating_count": "",
         "first_release_date": "11/07/2011",
@@ -223,50 +269,6 @@
       "description": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
       "name": "Michael Jackson: The Experience 3D",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Safari Adventures: Africa",
-        "id": 51135,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "11/26/2009",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-28480",
-        "gbid": 28480,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2987951-box_ssa.png",
-        "deck": " ",
-        "platforms": "PlayStation 2, Wii, Nintendo DS, PC"
-      },
-      "consoleName": "Nintendo DS",
-      "consoleIgdbId": 20,
-      "consoleGbid": 52,
-      "consoleGbGuid": "3045-52",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "10/05/2020 06:52 pm",
-      "updatedAt": "10/05/2020 06:52 pm",
-      "_id": "ec5d7b114bb44a6da2726ff105b28fd5",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2987951-box_ssa.png",
-      "description": " ",
-      "name": "Safari Adventures: Africa",
-      "miltiplayerNumber": 1,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -835,6 +837,7 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 289,
     "Wii U": 17,
     "Nintendo 3DS": 13,
     "Nintendo DS": 19,
@@ -843,7 +846,6 @@
     "Atari 2600": 20,
     "Nintendo Entertainment System (NES)": 52,
     "Sega 32X": 15,
-    "PC (Microsoft Windows)": 288,
     "Nintendo Switch": 43,
     "Sega Mega Drive/Genesis": 31,
     "Nintendo 64": 32,
@@ -869,25 +871,25 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "NOT RATED": 273,
     "E": 237,
     "M": 281,
     "E10+": 95,
-    "NOT RATED": 272,
     "T": 200,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 657,
-    "digital": 443
+    "digital": 444
   },
   "gamesAcquisition": {
+    "UNKNOWN": 133,
     "Video Games Monthly": 56,
     "GameOver": 246,
     "eBay": 51,
     "Steam": 150,
     "Epic Games Store": 24,
-    "UNKNOWN": 132,
     "Amazon": 7,
     "Twitch": 39,
     "GOG": 21,
@@ -926,17 +928,20 @@
   },
   "cibGames": 275,
   "gamesWithGenre": {
+    "shooter": 376,
+    "adventure": 395,
+    "fps": 174,
     "puzzle": 114,
     "quiz/trivia": 12,
-    "shooter": 375,
-    "adventure": 394,
+    "music": 30,
+    "rythym": 1,
     "arcade": 107,
+    "shmup": 11,
     "platform": 197,
     "pinball": 5,
     "sport": 145,
     "golf": 15,
     "basketball": 6,
-    "fps": 173,
     "real time strategy (rts)": 12,
     "simulator": 112,
     "strategy": 120,
@@ -947,7 +952,6 @@
     "fighting": 69,
     "boxing": 3,
     "hack and slash/beat 'em up": 70,
-    "shmup": 10,
     "football": 8,
     "skateboarding": 14,
     "role-playing (rpg)": 158,
@@ -968,7 +972,6 @@
     "turn-based": 7,
     "japanese": 2,
     "import": 2,
-    "music": 29,
     "mech": 3,
     "horror": 2,
     "on-rails-shooter": 3,
@@ -1043,7 +1046,7 @@
     },
     {
       "dateFormatted": "10/2020",
-      "games": 18
+      "games": 19
     },
     {
       "dateFormatted": "12/2019",
@@ -1125,7 +1128,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 326
+      "games": 327
     },
     {
       "dateFormatted": "2019",
@@ -1163,7 +1166,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 131
+      "value": 132
     }
   ],
   "consolesByCompany": {
@@ -1186,7 +1189,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1100,
+  "totalGames": 1101,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1196,7 +1199,7 @@
     "1980": 81,
     "1990": 202,
     "2000": 332,
-    "2010": 445,
+    "2010": 446,
     "2020": 14
   }
 }

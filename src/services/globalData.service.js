@@ -19,3 +19,10 @@ export const getPlatformData = async () => {
   const platforms = await Axios.get(url);
   return platforms;
 };
+
+export const getEbayPrices = async data => {
+  const url = `${window.urlPrefix}/api/vg/ebay`;
+  const ebay = await Axios.post(url, data);
+  console.log('ebay', ebay);
+  return ebay;
+};

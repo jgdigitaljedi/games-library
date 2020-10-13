@@ -6,6 +6,7 @@ import { IGame } from '../../models/games.model';
 import assetsService from '../../services/assets.service';
 import UrlService from '../../services/url.service';
 import helpersService from '../../services/helpers.service';
+import { getEbayPrices } from '../../services/globalData.service';
 
 interface IRatings {
   [key: string]: string;
@@ -31,6 +32,17 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   };
   const [consolesOwnedFor, setConsolesOwnedFor] = useState<IConsolesOwned[]>([]);
 
+  const getEbayPrice = () => {
+    const queryString = `${game.name} ${game.consoleName}`;
+    getEbayPrices(queryString)
+      .then((result: any) => {
+        console.log('ebay', result);
+      })
+      .catch((error: any) => {
+        console.log('ebay error', error);
+      });
+  };
+
   useEffect(() => {
     if (game) {
       const owned =
@@ -38,6 +50,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))
           : [];
       setConsolesOwnedFor(owned);
+      // getEbayPrice();
     }
   }, [game]);
 

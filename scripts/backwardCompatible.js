@@ -22,7 +22,7 @@ const backwardCompatible = {
     { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
   ],
   '20': [{ consoleName: 'Nintendo 3DS', consoleId: 37 }],
-  '59': [{ consoleName: 'Atari 7800', consoleId: '60' }]
+  '59': [{ consoleName: 'Atari 7800', consoleId: 60 }]
 };
 
 const xb360ToOneIds = xb360ToOne.map(c => +c.igdbId);

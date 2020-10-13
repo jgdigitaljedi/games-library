@@ -62,6 +62,15 @@ const Navbar: FunctionComponent = () => {
         setActive('viz');
         navigate(`/gameslib/viz`);
       }
+    },
+    {
+      label: 'Gallery',
+      icon: 'pi pi-image',
+      className: active === 'gallery' ? 'active' : '',
+      command: () => {
+        setActive('gallery');
+        navigate(`/gameslib/gallery`);
+      }
     }
   ];
 
@@ -111,6 +120,13 @@ const Navbar: FunctionComponent = () => {
           onClick={() => setActive('viz')}
         >
           Viz
+        </Link>
+        <Link
+          to="/gameslib/gallery"
+          className={active === 'gallery' ? 'active' : ''}
+          onClick={() => setActive('gallery')}
+        >
+          Gallery
         </Link>
       </div>
       <div className="mobile-nav">

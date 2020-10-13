@@ -1,6 +1,6 @@
 import get from 'lodash/get';
 import { IFormState } from '../models/common.model';
-import { IConsoleArr } from '../models/platforms.model';
+// import { IConsoleArr } from '../models/platforms.model';
 import { IGame } from '../models/games.model';
 import SortService from './sorts.service';
 
@@ -30,8 +30,8 @@ export const filters = {
   },
   filterPlatform: (data: IGame[], platform: string): IGame[] => {
     return data.filter(d => {
-      // return d.consoleName === platform;
-      return (d.consoleArr as IConsoleArr[]).map(d => d.consoleName).indexOf(platform) >= 0;
+      return d.consoleName === platform;
+      // return (d.consoleArr as IConsoleArr[]).map(d => d.consoleName).indexOf(platform) >= 0;
     });
   },
   filterPlayers: (data: IGame[], players: number): IGame[] => {

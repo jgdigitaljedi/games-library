@@ -14,6 +14,7 @@ import Lists from './Lists';
 import Viz from './Viz';
 import { CombinedContextProvider } from './context/CombinedContext';
 import UrlService from './services/url.service';
+import GalleryComponent from './Gallery';
 
 declare global {
   interface Window {
@@ -43,6 +44,7 @@ function App(): JSX.Element {
               <Library path="/gameslib/library" />
               <Lists path="/gameslib/lists" />
               <Viz path={`/gameslib/viz`} />
+              <GalleryComponent path={`/gameslib/gallery`} />
             </Router>
           </CombinedContextProvider>
         </div>

@@ -2,10 +2,10 @@ import { RouteComponentProps } from '@reach/router';
 import { AxiosResponse } from 'axios';
 import React, { FunctionComponent, useEffect, useState } from 'react';
 import { IDataTitlesIndex } from './models/common.model';
-import { getGalleryList } from './services/globalData.service';
 import { Carousel } from 'primereact/carousel';
 import { Card } from 'primereact/card';
 import { Dialog } from 'primereact/dialog';
+import AssetsService from './services/assets.service';
 import './Gallery.scss';
 
 
@@ -58,7 +58,7 @@ const getImageDate = (image: string) => {
   };
 
   useEffect(() => {
-    getGalleryList()
+    AssetsService.getGalleryList()
       .then((list: AxiosResponse) => {
         setList(list.data);
       })  
@@ -80,6 +80,8 @@ const getImageDate = (image: string) => {
               </Dialog>
             </Card>
           )
+        } else {
+          return <></>;
         }
       })}
     </div>

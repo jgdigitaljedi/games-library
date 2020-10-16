@@ -1,13 +1,12 @@
 import { IGame } from '../models/games.model';
 import Colors from '../style/colors';
-import { IDataTitlesIndex } from '../models/common.model';
+import { IDataTitlesIndex, IStats } from '../models/common.model';
 import {
   getPriceOverTimeData,
   getGameByReleaseYearData,
   getGamesCollectionGrowthData,
   getPriceGroups
 } from './chartDataGames.service';
-import { IStats } from '../Home';
 
 interface IDataSets {
   label: string;

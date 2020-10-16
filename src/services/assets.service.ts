@@ -1,3 +1,5 @@
+import Axios from "axios";
+
 export default {
   platformLogos: {
     '3DO Interactive Multiplayer': 'logos/3do.gif',
@@ -49,5 +51,10 @@ export default {
     RP: 'ESRB_2013_Rating_Pending.svg',
     'E10+': 'ESRB_2013_Everyone_10+.svg',
     KA: 'ESRB_KA.png'
+  },
+  getGalleryList: async () => {
+    const url = `${window.urlPrefix}/api/vg/gallerylist`;
+    const list = await Axios.get(url);
+    return list;
   }
 };

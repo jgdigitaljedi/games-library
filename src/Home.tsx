@@ -1,50 +1,12 @@
 import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
-import { IConsole } from './models/platforms.model';
-import { IGame } from './models/games.model';
 import ListView from './components/ListView/ListView';
 import { Chart } from 'primereact/chart';
 import ChartService from './services/chartData.service';
 import Colors from './style/colors';
 import HomeTopTables from './components/HomeTopTables/HomeTopTables';
-
-interface INumIndex {
-  [key: string]: number;
-}
-
-interface IDateRelated {
-  dateFormatted: string;
-  games: number;
-}
-
-interface ICatVal {
-  category: string;
-  value: number;
-}
-
-export interface IStats {
-  mostRecentlyAddedGames: IGame[];
-  mostRecentlyAddedPlatforms: IConsole[];
-  mostPaidForGames: IGame[];
-  mostPaidForPlatforms: IConsole[];
-  gamePerConsoleCounts: INumIndex;
-  gamesPerEsrb: INumIndex;
-  physicalVsDigitalGames: INumIndex;
-  gamesAcquisition: INumIndex;
-  cibGames: number;
-  gamesWithGenre: INumIndex;
-  gamesAddedInMonth: IDateRelated[];
-  gamesAddedPerYear: IDateRelated[];
-  igdbRatingsBreakdown: ICatVal;
-  consolesByCompany: INumIndex;
-  consolesByGenerationSorted: INumIndex;
-  gamesByDecade: INumIndex;
-  totalGames: number;
-  totalPlatforms: number;
-  totalAccessories: number;
-  totalClones: number;
-}
+import { IStats } from './models/common.model';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // @ts-ignore

@@ -1,4 +1,6 @@
 import { ICollAssociatedCon } from './collectibles.model';
+import { IGame } from './games.model';
+import { IConsole } from './platforms.model';
 
 export interface IFormState {
   name: string;
@@ -60,4 +62,37 @@ export interface IClone {
   datePurchased: string;
   newPurchaseDate: Date;
   _id: string;
+}
+
+export interface IDateRelated {
+  dateFormatted: string;
+  games: number;
+}
+
+interface ICatVal {
+  category: string;
+  value: number;
+}
+
+export interface IStats {
+  mostRecentlyAddedGames: IGame[];
+  mostRecentlyAddedPlatforms: IConsole[];
+  mostPaidForGames: IGame[];
+  mostPaidForPlatforms: IConsole[];
+  gamePerConsoleCounts: IIndexedWithNum;
+  gamesPerEsrb: IIndexedWithNum;
+  physicalVsDigitalGames: IIndexedWithNum;
+  gamesAcquisition: IIndexedWithNum;
+  cibGames: number;
+  gamesWithGenre: IIndexedWithNum;
+  gamesAddedInMonth: IDateRelated[];
+  gamesAddedPerYear: IDateRelated[];
+  igdbRatingsBreakdown: ICatVal;
+  consolesByCompany: IIndexedWithNum;
+  consolesByGenerationSorted: IIndexedWithNum;
+  gamesByDecade: IIndexedWithNum;
+  totalGames: number;
+  totalPlatforms: number;
+  totalAccessories: number;
+  totalClones: number;
 }

@@ -5,7 +5,7 @@ import { IGame } from './models/games.model';
 import { Dropdown } from 'primereact/dropdown';
 import ChartDataService, { IChartData } from './services/chartData.service';
 import { Chart } from 'primereact/chart';
-import { IStats } from './Home';
+import { IStats } from './models/common.model';
 
 const Viz: FunctionComponent<RouteComponentProps> = () => {
   const dataSets = [

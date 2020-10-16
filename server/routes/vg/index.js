@@ -9,6 +9,10 @@ const ebayCtrl = require('./ebay.controller');
 const exportCtrl = require('./exportCsv.controller');
 const listsCtrl = require('./lists.controller');
 const utilsCtrl = require('./vgUtil.controller');
+const gallery = require('./gallery.controller.js');
+
+// gallery images
+router.get('/gallerylist', gallery.imageCategories);
 
 // IGDB search
 router.post('/searchgame', vgCtrl.searchGame);

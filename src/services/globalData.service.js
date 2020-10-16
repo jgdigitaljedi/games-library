@@ -26,3 +26,9 @@ export const getEbayPrices = async data => {
   console.log('ebay', ebay);
   return ebay;
 };
+
+export const getGalleryList = async () => {
+  const url = `${window.urlPrefix}/api/vg/gallerylist`;
+  const ebay = await Axios.get(url);
+  return ebay;
+};

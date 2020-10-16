@@ -98,6 +98,7 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog }: IPro
               options={conditionArr}
               onChange={e => handleDropdown(e, 'condition')}
               attr-which="condition"
+              id="condition"
             />
           </div>
           <div className="crud-form--form__row">

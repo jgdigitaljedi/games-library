@@ -135,18 +135,22 @@ body {
       }
     }
   }
-  .p-button {
+  .p-button,
+  .p-button.p-highlight.p-component {
     background-color: darken($light-orange, 10%);
     border: 1px solid darken($light-orange, 10%);
+    color: $white;
 
     &:enabled:hover,
     &:enabled:active {
       background-color: darken($light-orange, 20%);
       border: 1px solid darken($light-orange, 20%);
+      color: white;
     }
   }
   .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
     background-color: darken($light-orange, 10%);
+    color: $white;
   }
   .p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
     background-color: darken($light-orange, 20%);
@@ -186,49 +190,61 @@ body {
     &.p-button-danger {
       background-color: $error;
       border: 1px solid $error;
+      color: $white;
       &:hover {
         border: 1px solid $error;
         background-color: darken($color: $error, $amount: 10%);
+        color: $white;
       }
     }
     &.p-button-success {
       background-color: $success;
       border: 1px solid $success;
+      color: $white;
       &:hover {
         border: 1px solid $success;
         background-color: darken($color: $success, $amount: 10%);
+        color: $white;
       }
     }
     &.p-button-warn {
       background-color: $warn;
       border: 1px solid $warn;
+      color: $white;
       &:hover {
         border: 1px solid $warn;
         background-color: darken($color: $warn, $amount: 10%);
+        color: $white;
       }
     }
     &.p-button-primary {
       background-color: $light-orange;
       border: 1px solid $light-orange;
+      color: $white;
       &:hover {
         border: 1px solid $light-orange;
         background-color: darken($color: $light-orange, $amount: 10%);
+        color: $white;
       }
     }
     &.p-button-secondary {
       background-color: $secondary;
       border: 1px solid $secondary;
+      color: $white;
       &:hover {
         border: 1px solid $secondary;
         background-color: darken($color: $secondary, $amount: 10%);
+        color: $white;
       }
     }
     &.p-button-info {
       background-color: $light-blue;
       border: 1px solid $light-blue;
+      color: $white;
       &:hover {
         border: 1px solid $light-blue;
         background-color: darken($color: $light-blue, $amount: 10%);
+        color: $white;
       }
     }
   }

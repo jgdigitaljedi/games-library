@@ -110,18 +110,18 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="how-acquired">How Acquired</label>
+            <label htmlFor="howAcquired">How Acquired</label>
             <InputText
-              id="how-acquired"
+              id="howAcquired"
               value={gameForm?.howAcquired}
               onChange={userChange}
               attr-which="howAcquired"
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="price-paid">Price Paid</label>
+            <label htmlFor="pricePaid">Price Paid</label>
             <InputText
-              id="price-paid"
+              id="pricePaid"
               value={gameForm?.pricePaid}
               onChange={userChange}
               attr-which="pricePaid"
@@ -197,6 +197,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               options={caseOptions}
               onChange={e => handleDropdown(e, 'case')}
               attr-which="case"
+              id="case"
             />
           </div>
           <div className="crud-form--form__row">
@@ -206,6 +207,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               options={conditionOptions}
               onChange={e => handleDropdown(e, 'condition')}
               attr-which="condition"
+              id="condition"
             />
           </div>
           <div className="crud-form--form__row">

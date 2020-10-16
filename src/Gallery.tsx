@@ -73,7 +73,7 @@ const getImageDate = (image: string) => {
           return (
             <Card className="carousel-card">
               <Carousel value={list[key]} numVisible={4} numScroll={4} header={<h2>{key}</h2>} itemTemplate={slideTemplate} responsiveOptions={responsiveOptions} />
-              <Dialog header={dialogHeader} visible={!!openDialog} onHide={() => setOpenDialog(null)}>
+              <Dialog header={dialogHeader} visible={!!openDialog} onHide={() => setOpenDialog(null)} position="top">
                 <div className="dialog-image">
                   <img src={openDialog as string} alt="" className="dialog-image--image" />
                 </div>

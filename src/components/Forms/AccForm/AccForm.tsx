@@ -92,6 +92,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) 
               options={accessoryTypeArr}
               onChange={e => handleDropdown(e, 'condition')}
               attr-which="condition"
+              id="condition"
             />
           </div>
           <div className="crud-form--form__row">
@@ -101,6 +102,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) 
               options={platformsArr}
               onChange={e => handleDropdown(e, 'forConsoleName')}
               attr-which="forConsoleName"
+              id="forConsoleName"
             />
           </div>
           <div className="crud-form--form__row">

@@ -99,7 +99,6 @@ class TheTable extends Component<IProps, IState> {
           paginator={true}
           rows={20}
           pageLinkSize={10}
-          responsive={true}
           scrollable={true}
           selectionMode="single"
           selection={this.state.selected}

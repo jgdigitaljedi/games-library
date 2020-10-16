@@ -183,6 +183,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
         modal={true}
         closeOnEscape={true}
         dismissableMask={true}
+        position="top"
         onHide={() => {
           setSelectedCard(null);
           setShowModal(false);

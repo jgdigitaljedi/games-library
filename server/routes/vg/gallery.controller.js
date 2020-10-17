@@ -2,7 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports.imageCategories = (req, res) => {
-  fs.readdir(path.join(__dirname, '../../../public/galleryPics'), (err, files) => {
+  const fullPath = process.env.NODE_ENV === 'production'
+    ? path.join(__dirname, '../../../galleryPics')
+    : path.join(__dirname, '../../../public/galleryPics');
+  fs.readdir(fullPath, (err, files) => {
     if (err) {
       res.status(500).send({error: "ERROR: Problem fetching images list"});
     }

@@ -23,6 +23,10 @@ export interface IDataTitlesIndex {
   [key: string]: string;
 }
 
+export interface IIndexStringArr {
+  [key: string]: string[];
+}
+
 export interface IIndexedWithNum {
   [key: string]: number;
 }

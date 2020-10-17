@@ -1,10 +1,10 @@
 import { RouteComponentProps } from '@reach/router';
 import { AxiosResponse } from 'axios';
 import React, { FunctionComponent, useEffect, useState } from 'react';
-import { IDataTitlesIndex } from './models/common.model';
-import { Carousel } from 'primereact/carousel';
+import { IIndexStringArr } from './models/common.model';
 import { Card } from 'primereact/card';
 import { Dialog } from 'primereact/dialog';
+import { Galleria } from 'primereact/galleria';
 import AssetsService from './services/assets.service';
 import './Gallery.scss';
 
@@ -12,10 +12,9 @@ import './Gallery.scss';
 interface IProps extends RouteComponentProps {}
 
 const GalleryComponent: FunctionComponent<IProps> = () => {
-  const [list, setList] = useState<IDataTitlesIndex>();
+  const [list, setList] = useState<IIndexStringArr>();
   const [openDialog, setOpenDialog] = useState<string | null>(null);
   const [dialogHeader, setDialogHeader] = useState('');
-  const imageDir = 'galleryPics/';
   const responsiveOptions = [
     {
         breakpoint: '1024px',
@@ -47,14 +46,12 @@ const getImageDate = (image: string) => {
   return `${dateSplit[1]}/${dateSplit[2]}/${dateSplit[0]}`;
 };
 
-  const slideTemplate = (image: string) => {
-    const imageDate = getImageDate(image);
-    return (
-        <div className="slide-template">
-          <img src={`${imageDir}${image}`} alt="" onClick={openImage} />
-          <h4>{imageDate}</h4>
-        </div>
-    );
+  const itemTemplate = (item: string) => {
+    return <img className="item-template" src={`galleryPics/${item}`} alt="pic of collection" onClick={openImage} />;
+  };
+
+  const thumbnailTemplate = (item: string) => {
+    return <img src={`galleryPics/${item}`} alt="thumb of collection" className="thumb-template" />;
   };
 
   useEffect(() => {
@@ -68,18 +65,19 @@ const getImageDate = (image: string) => {
   }, []);
   return (
     <div className="gallery-wrapper">
-      {list && Object.keys(list as IDataTitlesIndex).map(key => {
+      {list && Object.keys(list as IIndexStringArr).map(key => {
         if (key && list && list[key]) {
           return (
-            <Card className="carousel-card">
-              <Carousel value={list[key]} numVisible={4} numScroll={4} header={<h2>{key}</h2>} itemTemplate={slideTemplate} responsiveOptions={responsiveOptions} />
-              <Dialog header={dialogHeader} visible={!!openDialog} onHide={() => setOpenDialog(null)} position="top">
+            <Card className="galleria-card">
+              <h3>{key}</h3>
+              <Galleria value={list[key] as string[]} item={itemTemplate} thumbnail={thumbnailTemplate} responsiveOptions={responsiveOptions} numVisible={4} />
+              <Dialog header={dialogHeader} visible={!!openDialog} onHide={() => setOpenDialog(null)} position="top" style={{height: '92vh', width: 'auto', maxWidth: '100%'}}>
                 <div className="dialog-image">
                   <img src={openDialog as string} alt="" className="dialog-image--image" />
                 </div>
               </Dialog>
             </Card>
-          )
+          );
         } else {
           return <></>;
         }

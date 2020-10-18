@@ -1,0 +1,9 @@
+.decider-cards {
+  width: 100%;
+
+  &--scroller {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

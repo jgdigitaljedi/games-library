@@ -8,12 +8,7 @@ import React, {
   SetStateAction
 } from 'react';
 import axios from 'axios';
-import GameCard from './components/GameCard/GameCard';
-import { Dialog } from 'primereact/dialog';
-import { ProgressSpinner } from 'primereact/progressspinner';
 import { IFormState, IDropdown } from './models/common.model';
-import { IGame } from './models/games.model';
-import GameDialog from './components/GameDialog/GameDialog';
 import DeciderHeader from './components/DeciderHeader/DeciderHeader';
 import { RouteComponentProps } from '@reach/router';
 import { DataContext } from './context/DataContext';
@@ -25,6 +20,7 @@ import { connect, useSelector } from 'react-redux';
 import changePlatformsArr from './actionCreators/platformsArr';
 import { Dispatch as ReduxDispatch } from 'redux';
 import { getPlatformArr } from './services/globalData.service';
+import DeciderCards from './components/DeciderCards/DeciderCards';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -42,8 +38,6 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   const [masterData, setMasterData] = useState<any[]>([{}]);
   const [data, setData] = useState<any[]>([{}]);
   const [everDrives, setEverDrives] = useState<any[]>([{}]);
-  const [selectedCard, setSelectedCard] = useState<IGame | null>(null);
-  const [showModal, setShowModal] = useState<boolean>(false);
   const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
 
   const getEverdrives = useCallback(async () => {
@@ -73,11 +67,6 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     },
     [setData, setMasterData, sortData]
   );
-
-  const cardClicked = useCallback((card: IGame) => {
-    setSelectedCard(card);
-    setShowModal(true);
-  }, []);
 
   const checkForReset = useCallback(form => {
     const keys = Object.entries(form);
@@ -165,33 +154,8 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
         <h3>{data.length} games</h3>
       </div>
       <div className="decider--results">
-        {data &&
-          data.length &&
-          data[0].hasOwnProperty('_id') &&
-          data.map((d, index) => (
-            <GameCard
-              data={d}
-              key={`${index}-${d?.igdb?.name || 'game'}`}
-              cardClicked={cardClicked}
-            />
-          ))}
-        {(!data || (data.length === 1 && !data[0].hasOwnProperty('_id'))) && <ProgressSpinner />}
+        <DeciderCards data={data} />
       </div>
-      <Dialog
-        visible={showModal}
-        header={selectedCard ? selectedCard['igdb']['name'] : ''}
-        modal={true}
-        closeOnEscape={true}
-        dismissableMask={true}
-        position="top"
-        onHide={() => {
-          setSelectedCard(null);
-          setShowModal(false);
-        }}
-      >
-        {/* Modal {selectedCard ? selectedCard['igdb']['name'] : ""} */}
-        <GameDialog game={selectedCard} />
-      </Dialog>
     </div>
   );
 };

@@ -2,8 +2,8 @@
   "parser": "@typescript-eslint/parser",
   "extends": ["react-app"],
   "rules": {
-    "no-use-before-define": [0],
-    "@typescript-eslint/no-use-before-define": [0]
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2018,

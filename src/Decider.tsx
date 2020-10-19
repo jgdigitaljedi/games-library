@@ -21,6 +21,7 @@ import changePlatformsArr from './actionCreators/platformsArr';
 import { Dispatch as ReduxDispatch } from 'redux';
 import { getPlatformArr } from './services/globalData.service';
 import DeciderCards from './components/DeciderCards/DeciderCards';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -156,6 +157,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       <div className="decider--results">
         <DeciderCards data={data} />
       </div>
+      <ScrollToTop position="right" />
     </div>
   );
 };

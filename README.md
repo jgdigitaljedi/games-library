@@ -17,13 +17,11 @@ Also, it has become a fast-and-loose mess. That's somewhat intentional as I'd ra
 5. make backend processing scripts happen everytime there is a new game added, deleted, edited, etc (probably should make the scripts more modular so the whole library doesn't get processed in one shot)
 
 - add toggle in Decider to allow for expanding games in compiltations to game cards so they are searchable, filterable, etc
-- add toggle in decider to show or hide digital games
 
 Once the above is done, I will be moving into a new repo to rebuild using what I learned about React during this time to make something better.
 
 ## Plans
 
-- add Gallery view for pictures of my collection to be added
 - more charts in Viz section.
 - add section to add to collection. Currently I do this in another app of mine in a private repo then import the results.
 - add ability to import collection from common games collections apps like GameEye.

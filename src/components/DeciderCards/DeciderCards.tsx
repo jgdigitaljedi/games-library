@@ -67,7 +67,8 @@ const DeciderCards: FunctionComponent<IProps> = ({data}) => {
           next={loadMore}
           hasMore={data.length > loaded.length}
           loader={<h4>Loading...</h4>}
-          scrollThreshold={0.99}>
+          scrollThreshold={0.99}
+          scrollableTarget="scrollableDiv">
             {items()}
         </InfiniteScroll>
       }

@@ -9,6 +9,7 @@ import { Dialog } from 'primereact/dialog';
 import { InputSwitch } from 'primereact/inputswitch';
 import ListView from './components/ListView/ListView';
 import { sortBy as _sortBy } from 'lodash';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const Lists: FunctionComponent<RouteComponentProps> = () => {
   const lists = [
@@ -76,6 +77,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
           })}
         {!cardView && <ListView data={data} listRowClick={cardClicked} whichData={whichList} />}
       </div>
+      <ScrollToTop position="right" />
       <Dialog
         visible={showModal}
         header={selectedGame ? selectedGame['igdb']['name'] : ''}

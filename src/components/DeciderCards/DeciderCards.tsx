@@ -42,6 +42,14 @@ const DeciderCards: FunctionComponent<IProps> = ({data}) => {
     );
   };
 
+  const scrollerMessages = (message: string) => {
+    return (
+      <div className="scroller-message">
+        <h4>{message}</h4>
+      </div>
+    );
+  }
+
   useEffect(() => {
     if (!magicNumber) {
       setMagicNumber(calculateNumToLoad(window.innerHeight, window.innerWidth));
@@ -66,7 +74,8 @@ const DeciderCards: FunctionComponent<IProps> = ({data}) => {
           dataLength={loaded.length}
           next={loadMore}
           hasMore={data.length > loaded.length}
-          loader={<h4>Loading...</h4>}
+          loader={scrollerMessages('Scroll to load more')}
+          endMessage={scrollerMessages(`That's all, folks!`)}
           scrollThreshold={0.99}
           scrollableTarget="scrollableDiv">
             {items()}

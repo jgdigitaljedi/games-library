@@ -1,3 +1,4 @@
+@import '../../style/theme.scss';
 .decider-cards {
   width: 100%;
 
@@ -6,5 +7,13 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+  }
+  .scroller-message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h4 {
+      color: $white;
+    }
   }
 }

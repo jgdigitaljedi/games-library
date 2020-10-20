@@ -10,8 +10,8 @@ function dealWithFilters(width: number) {
     return 500;
   } else if (width >= 769 && width < 870) {
     return 347;
-  } else if (width >= 692 && width < 769) {
-    
+  } else {
+    return 0;
   }
 }
 

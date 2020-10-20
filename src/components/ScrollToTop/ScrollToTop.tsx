@@ -9,6 +9,7 @@ interface IProps {
 
 const ScrollToTop: FunctionComponent<IProps> = ({position}) => {
   const [showScroll, setShowScroll] = useState<boolean>(false);
+  const [animationClass, setAnimationClass] = useState('hide');
 
   const scrollTop = () =>{
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -17,8 +18,12 @@ const ScrollToTop: FunctionComponent<IProps> = ({position}) => {
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 400) {
       setShowScroll(true);
+      setAnimationClass('show');
     } else if (showScroll && window.pageYOffset <= 400) {
-      setShowScroll(false);
+      setAnimationClass('hide');
+      setTimeout(() => {
+        setShowScroll(false);
+      }, 490);
     }
   };
 
@@ -27,7 +32,7 @@ const ScrollToTop: FunctionComponent<IProps> = ({position}) => {
   return (
     <>
     {showScroll && <div className="scroll-to-top">
-      <Button className={`p-button-warning scroll-to-top-button position-${position}`} icon="pi pi-angle-double-up" onClick={scrollTop} />
+      <Button className={`p-button-warning scroll-to-top-button position-${position} stt-${animationClass}`} icon="pi pi-angle-double-up" onClick={scrollTop} />
     </div>
   }
   </>

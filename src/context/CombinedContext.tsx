@@ -4,14 +4,6 @@ import { SortContext, SortContextProvider } from './SortContext';
 import { IDropdown, IFormState } from '../models/common.model';
 import { IGame } from '../models/games.model';
 
-interface ICombined {
-  data: IFormState;
-  sortData: {
-    prop: string;
-    dir: string;
-  };
-}
-
 const CombinedContextProvider = ({
   children,
   data,

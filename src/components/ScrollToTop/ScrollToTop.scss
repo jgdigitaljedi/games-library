@@ -1,7 +1,4 @@
 .scroll-to-top {
-  // width: calc(100vw - 1rem);
-  // height: 6rem;
-  // bottom: 1rem;
   .scroll-to-top-button {
     position: fixed;
     display: flex;
@@ -14,11 +11,16 @@
     font-size: 3rem;
     z-index: 1000;
     cursor: pointer;
-    animation: fadeInOut 0.5s;
     transition: opacity 0.5s;
-    opacity: 0.75;
+    opacity: 0.8;
     &:hover {
       opacity: 1;
+    }
+    &.stt-show {
+      animation: fadeIn 0.5s;
+    }
+    &.stt-hide {
+      animation: fadeOut 0.5s;
     }
     &.position-right {
       right: 0;
@@ -35,6 +37,15 @@
     opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
   }
 }

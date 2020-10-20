@@ -2,8 +2,16 @@
 function dealWithFilters(width: number) {
   if (width >= 2000) {
     return 170;
-  } else if (width > 700 && width < 2000) {
+  } else if (width >= 1110 && width < 2000) {
     return 230;
+  } else if (width > 870 && width < 1110) {
+    return 390;
+  } else if (width >= 769 && width < 870) {
+    return 500;
+  } else if (width >= 769 && width < 870) {
+    return 347;
+  } else if (width >= 692 && width < 769) {
+    
   }
 }
 
@@ -25,6 +33,8 @@ export const calculateNumToLoad = (height: number, width: number) => {
   const perRow = Math.floor((width - padding) / gameCardWidth);
   const numRows = Math.floor(remaining / gameCardHeight);
 
+  // this always leaves a couple extra at the bottom
+  // that is intentional so it has something to scroll to to trigger adding more
   return Math.floor(perRow * numRows);
 
 };

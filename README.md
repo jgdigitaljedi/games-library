@@ -2,7 +2,7 @@
 
 This started as my first React app since I had already built a version of this in Vue and could just steal my own backend and scripts and worry about the GUI. It became something I actually deploy to a raspberry pi on my home network and use.
 
-Also, it has become a fast-and-loose mess. That's somewhat intentional as I'd rather sling out a new feature than think about composition and best practices. I do that enough at my day job.
+Also, it has become a fast-and-loose mess. That's somewhat intentional as I'd rather sling out a new feature than think too  much about composition and best practices right now. I do that enough at my day job. I am, however, cleaning things up slowly at this point because, now that I've worked professionally in React for a while, I'm starting to really get used to things being tidy.
 
 ## Immediate plans
 
@@ -64,16 +64,6 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 

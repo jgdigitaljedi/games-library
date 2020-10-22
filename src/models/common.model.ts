@@ -5,7 +5,7 @@ import { IConsole } from './platforms.model';
 export interface IFormState {
   name: string;
   players: number;
-  genre: string;
+  genre: string[];
   esrb: string;
   platform: string[];
   everDrive: boolean;

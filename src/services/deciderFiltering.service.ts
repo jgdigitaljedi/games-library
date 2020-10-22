@@ -9,7 +9,7 @@ export const filters = {
     return {
       name: '',
       players: 0,
-      genre: '',
+      genre: [],
       esrb: '',
       platform: [],
       everDrive: false,
@@ -50,10 +50,14 @@ export const filters = {
       return get(d, 'igdb.esrb') === esrb;
     });
   },
-  filterGenre: (data: IGame[], genre: string): IGame[] => {
-    return data.filter(d => {
-      return get(d, 'igdb.genres').indexOf(genre) >= 0;
-    });
+  filterGenre: (data: IGame[], genre: string[]): IGame[] => {
+    if (genre?.length) {
+      return data.filter(d => {
+        // return get(d, 'igdb.genres').indexOf(genre) >= 0;
+        return genre.some(g => get(d, 'igdb.genres').indexOf(g) >= 0);
+      });
+    }
+    return data;
   },
   filterLocation: (data: IGame[], location: string | null) => {
     if (location) {

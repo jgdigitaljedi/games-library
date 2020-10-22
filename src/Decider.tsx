@@ -90,7 +90,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     if (dc.players !== 0) {
       newData = filters.filterPlayers([...newData], dc.players);
     }
-    if (dc.genre !== '') {
+    if (dc.genre !== []) {
       newData = filters.filterGenre([...newData], dc.genre);
     }
     if (dc.esrb !== '') {

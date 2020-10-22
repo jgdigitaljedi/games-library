@@ -73,7 +73,7 @@ module.exports.getGenreArray = (req, res) => {
         }),
       'label'
     );
-    newGenres.unshift({ label: 'NOT SET', value: '' });
+    // newGenres.unshift({ label: 'NOT SET', value: '' });
     res.json(newGenres);
   } else {
     res.json([]);

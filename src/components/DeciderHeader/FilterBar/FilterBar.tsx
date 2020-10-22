@@ -106,18 +106,24 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     }
   }, [masterData, setEsrbArray]);
 
-
-
-  const selectedItemTemplate = (value: string) => {
-    if (!acValue || !acValue.length) {
-      return <span>Select a platform(s)</span>;
-    } else if (acValue?.length === 1 || (acValue.length > 1 && value === acValue[0])) {
-      return <span>{acValue[0]}</span>;
-    } else if (acValue.length > 1 && value === acValue[acValue.length - 1]) {
-      return <span>...({acValue.length})</span>;
+  const templateLogic = (value: string, collection: any, placeholder: string) => {
+    if (!collection || !collection.length) {
+      return <span>{placeholder}</span>;
+    } else if (collection?.length === 1 || (collection.length > 1 && value === collection[0])) {
+      return <span>{collection[0]}</span>;
+    } else if (collection.length > 1 && value === collection[collection.length - 1]) {
+      return <span>...({collection.length})</span>;
     } else {
       return <></>;
     }
+  };
+
+  const selectedItemTemplate = (value: string) => {
+    return templateLogic(value, acValue, 'Select platform(s)');
+  };
+
+  const selectedGenreTemplate = (value: string) => {
+    return templateLogic(value, dc.genre, 'Select genre(s)');
   };
 
   useEffect((): void => {
@@ -184,6 +190,8 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             setDc(fsCopy);
           }}
           filter
+          name="platform"
+          id="platform"
           maxSelectedLabels={30}
           placeholder="Select a platform"
           selectedItemTemplate={selectedItemTemplate}
@@ -193,7 +201,23 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         <label htmlFor="genre" className="info-text">
           Genre
         </label>
-        <Dropdown
+        <MultiSelect
+          value={dc.genre}
+          options={genreArray}
+          optionLabel="label"
+          onChange={(e) => {
+            const fsCopy = cloneDeep(dc);
+            fsCopy.genre = e.value;
+            setDc(fsCopy);
+          }}
+          name="genre"
+          id="genre"
+          filter
+          maxSelectedLabels={30}
+          placeholder="Select a genre"
+          selectedItemTemplate={selectedGenreTemplate}
+        />
+        {/* <Dropdown
           className="info-text"
           id="genre"
           name="genre"
@@ -204,7 +228,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             setDc(fsCopy);
           }}
           options={genreArray || []}
-        />
+        /> */}
       </div>
       <div className="decider--form__input-group">
         <label htmlFor="esrb" className="info-text">

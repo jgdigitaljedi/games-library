@@ -3,7 +3,7 @@ import { IFormState } from '../models/common.model';
 const initState = {
   name: '',
   players: 0,
-  genre: '',
+  genre: [],
   esrb: '',
   platform: [],
   everDrive: false

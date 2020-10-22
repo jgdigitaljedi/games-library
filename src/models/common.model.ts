@@ -7,7 +7,7 @@ export interface IFormState {
   players: number;
   genre: string;
   esrb: string;
-  platform: string;
+  platform: string[];
   everDrive: boolean;
   physical?: boolean;
   location?: string | null;

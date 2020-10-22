@@ -31,10 +31,10 @@ export const calculateNumToLoad = (height: number, width: number) => {
   const remaining = height - totalTopper;
 
   const perRow = Math.floor((width - padding) / gameCardWidth);
-  const numRows = Math.floor(remaining / gameCardHeight);
+  const numRows = Math.floor(remaining / gameCardHeight) + 1; // added and extra row to make scrolling better
 
   // this always leaves a couple extra at the bottom
   // that is intentional so it has something to scroll to to trigger adding more
-  return Math.floor(perRow * numRows);
+  return perRow * numRows;
 
 };

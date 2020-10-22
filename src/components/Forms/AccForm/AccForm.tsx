@@ -59,7 +59,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) 
   const updateAcc = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
-    console.log('platformForm in save', accForm);
+    console.log('accForm in save', accForm);
     closeDialog(accForm?.name);
   }, [accForm, closeDialog]);
 

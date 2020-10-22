@@ -58,7 +58,7 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog }) => {
   const updateAcc = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
-    console.log('cloneFormin save', cloneForm);
+    console.log('cloneForm save', cloneForm);
     closeDialog(cloneForm?.name);
   }, [cloneForm, closeDialog]);
 

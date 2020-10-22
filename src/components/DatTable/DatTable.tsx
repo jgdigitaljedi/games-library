@@ -69,16 +69,6 @@ class TheTable extends Component<IProps, IState> {
       this.setState({ viewWhat: this.props.viewWhat || '' });
     }
     this.updateDimensions();
-    // const tableEle = document.getElementsByClassName('p-datatable-scrollable-body-table');
-    // const raw = Array.from(tableEle)[0];
-    // if (window.innerWidth <= 640) {
-    //   // @ts-ignore
-    //   raw.style.width = '100%';
-    //   setTimeout(() => {
-    //     // @ts-ignore
-    //     raw.style.width = 'auto';
-    //   }, 300);
-    // }
   }
 
   public render() {

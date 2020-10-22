@@ -32,16 +32,16 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   };
   const [consolesOwnedFor, setConsolesOwnedFor] = useState<IConsolesOwned[]>([]);
 
-  const getEbayPrice = () => {
-    const queryString = `${game.name} ${game.consoleName}`;
-    getEbayPrices(queryString)
-      .then((result: any) => {
-        console.log('ebay', result);
-      })
-      .catch((error: any) => {
-        console.log('ebay error', error);
-      });
-  };
+  // const getEbayPrice = () => {
+  //   const queryString = `${game.name} ${game.consoleName}`;
+  //   getEbayPrices(queryString)
+  //     .then((result: any) => {
+  //       console.log('ebay', result);
+  //     })
+  //     .catch((error: any) => {
+  //       console.log('ebay error', error);
+  //     });
+  // };
 
   useEffect(() => {
     if (game) {

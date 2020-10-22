@@ -84,7 +84,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     if (dc.name !== '') {
       newData = filters.filterName([...newData], dc.name);
     }
-    if (dc.platform !== '') {
+    if (dc.platform !== []) {
       newData = filters.filterPlatform([...newData], dc.platform);
     }
     if (dc.players !== 0) {

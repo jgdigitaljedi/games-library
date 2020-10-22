@@ -92,17 +92,12 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       const selected = { ...clicked, ...{ name: clicked?.igdb?.name || clicked?.name } };
       setSelectedItem(selected);
       openFormDialog(clicked);
-      /** Basically I'm gonna wanna open a dialog. This dialog should have a component that handles all forms for each item type.
-       * The dialog should take 'selected' and 'view' from here, render the correct for type for the seelcted, and allow the user
-       * to do CRUD to the selected item.
-       **/
     },
-    [view, openFormDialog]
+    [openFormDialog]
   );
 
   const closeDialog = useCallback(
     (name: string, status?: boolean) => {
-      console.log('close name', name);
       if (name && status) {
         // throw notification for successful save here
       } else if (name) {

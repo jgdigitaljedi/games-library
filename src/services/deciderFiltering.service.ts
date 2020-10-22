@@ -11,7 +11,7 @@ export const filters = {
       players: 0,
       genre: '',
       esrb: '',
-      platform: '',
+      platform: [],
       everDrive: false,
       physical: false,
       location: null,
@@ -28,11 +28,16 @@ export const filters = {
       );
     });
   },
-  filterPlatform: (data: IGame[], platform: string): IGame[] => {
-    return data.filter(d => {
-      return d.consoleName === platform;
-      // return (d.consoleArr as IConsoleArr[]).map(d => d.consoleName).indexOf(platform) >= 0;
-    });
+  filterPlatform: (data: IGame[], platform: string[]): IGame[] => {
+    if (platform.length) {
+      return data.filter(d => {
+        return platform.indexOf(d.consoleName) >= 0;
+        // return d.consoleName === platform;
+      });
+    } else {
+      return data;
+    }
+    
   },
   filterPlayers: (data: IGame[], players: number): IGame[] => {
     return data.filter(d => {

@@ -21,7 +21,7 @@ module.exports.getPlatformArray = (req, res) => {
         }),
       'label'
     );
-    newPlatforms.unshift({ label: 'NOT SET', value: '' });
+    // newPlatforms.unshift({ label: 'NOT SET', value: '' });
     res.json(newPlatforms);
   } else {
     res.json([]);

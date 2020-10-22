@@ -18,16 +18,11 @@ import debounce from 'lodash/debounce';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
-import { AutoComplete } from 'primereact/autocomplete';
 import { DataContext } from '../../../context/DataContext';
 import changePlatformsArr from '../../../actionCreators/platformsArr';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch as ReduxDispatch } from 'redux';
-
-interface IAutoCompleteData {
-  originalEvent: Event;
-  query: string;
-}
+import { MultiSelect } from 'primereact/multiselect';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -46,9 +41,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const masterData: IGame[] = data;
   const [genreArray, setGenreArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [esrbArray, setEsrbArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
-  const [filteredPlatforms, setFilteredPlatforms] = useState<IDropdown[]>([
-    { label: 'NOT SET', value: '' }
-  ]);
+  const [filteredPlatforms, setFilteredPlatforms] = useState<IDropdown[]>([]);
   // const [masterPa, setMasterPa] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr] = useState<string>('');
   const [acValue, setAcValue] = useState<string>('');
@@ -113,6 +106,20 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     }
   }, [masterData, setEsrbArray]);
 
+
+
+  const selectedItemTemplate = (value: string) => {
+    if (!acValue || !acValue.length) {
+      return <span>Select a platform(s)</span>;
+    } else if (acValue?.length === 1 || (acValue.length > 1 && value === acValue[0])) {
+      return <span>{acValue[0]}</span>;
+    } else if (acValue.length > 1 && value === acValue[acValue.length - 1]) {
+      return <span>...({acValue.length})</span>;
+    } else {
+      return <></>;
+    }
+  };
+
   useEffect((): void => {
     if (masterData && masterData.length > 1) {
       getGenreArray();
@@ -131,35 +138,9 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   );
 
   const handleChange = (e: FormEvent<any>): void => {
-    console.log('asdasd', e);
     const target = e.target as HTMLInputElement;
     setNameStr(target.value);
     debounceFiltering(target.value);
-  };
-
-  const autoCompletePlatform = (data: IAutoCompleteData): void => {
-    if (data.query && data.query.length) {
-      const query = data.query.toLowerCase().trim();
-      const filteredPlatforms = cloneDeep(masterPa).filter(p => {
-        return p.label.toLowerCase().indexOf(query) >= 0;
-      });
-      setFilteredPlatforms(filteredPlatforms);
-    } else {
-      setFilteredPlatforms(cloneDeep(masterPa));
-    }
-  };
-
-  const acKeyUp = (e: any): void => {
-    if (e.keyCode === 8) {
-      // backspace
-      autoCompletePlatform({ originalEvent: e, query: acValue });
-      if (!acValue) {
-        const fsCopy = cloneDeep(dc);
-        fsCopy.platform = '';
-        setDc(fsCopy);
-        setFilteredPlatforms(cloneDeep(masterPa));
-      }
-    }
   };
 
   return (
@@ -192,28 +173,20 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         <label htmlFor="platform" className="info-text">
           Platform
         </label>
-        <AutoComplete
-          className="info-text console-input"
-          id="platform"
-          name="platform"
+        <MultiSelect
           value={acValue}
-          dropdown={true}
-          suggestions={filteredPlatforms || []}
-          field="label"
-          completeMethod={autoCompletePlatform}
-          onClear={e => {
-            setFilteredPlatforms(cloneDeep(masterPa));
-          }}
-          onChange={e => {
+          options={filteredPlatforms}
+          optionLabel="label"
+          onChange={(e) => {
             setAcValue(e.value);
-          }}
-          onSelect={e => {
             const fsCopy = cloneDeep(dc);
-            fsCopy.platform = e.value.value;
-            setAcValue(e.value.value);
+            fsCopy.platform = e.value;
             setDc(fsCopy);
           }}
-          onKeyUp={acKeyUp}
+          filter
+          maxSelectedLabels={30}
+          placeholder="Select a platform"
+          selectedItemTemplate={selectedItemTemplate}
         />
       </div>
       <div className="decider--form__input-group">

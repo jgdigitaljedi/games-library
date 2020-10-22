@@ -5,7 +5,7 @@ const initState = {
   players: 0,
   genre: '',
   esrb: '',
-  platform: '',
+  platform: [],
   everDrive: false
 };
 

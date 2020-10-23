@@ -217,18 +217,6 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           placeholder="Select a genre"
           selectedItemTemplate={selectedGenreTemplate}
         />
-        {/* <Dropdown
-          className="info-text"
-          id="genre"
-          name="genre"
-          value={dc.genre}
-          onChange={e => {
-            const fsCopy = cloneDeep(dc);
-            fsCopy.genre = e.value;
-            setDc(fsCopy);
-          }}
-          options={genreArray || []}
-        /> */}
       </div>
       <div className="decider--form__input-group">
         <label htmlFor="esrb" className="info-text">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { DataContext, DataContextProvider } from './DataContext';
 import { SortContext, SortContextProvider } from './SortContext';
-import { IDropdown, IFormState } from '../models/common.model';
+import { IDropdown } from '../models/common.model';
 import { IGame } from '../models/games.model';
 
 const CombinedContextProvider = ({

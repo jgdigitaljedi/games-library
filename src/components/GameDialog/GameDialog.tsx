@@ -6,7 +6,7 @@ import { IGame } from '../../models/games.model';
 import assetsService from '../../services/assets.service';
 import UrlService from '../../services/url.service';
 import helpersService from '../../services/helpers.service';
-import { getEbayPrices } from '../../services/globalData.service';
+// import { getEbayPrices } from '../../services/globalData.service';
 
 interface IRatings {
   [key: string]: string;

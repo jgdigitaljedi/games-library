@@ -7,12 +7,11 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import { calculateNumToLoad } from '../../services/scroller.service';
 import './DeciderCards.scss';
 
-
 interface IProps {
   data: IGame[];
 }
 
-const DeciderCards: FunctionComponent<IProps> = ({data}) => {
+const DeciderCards: FunctionComponent<IProps> = ({ data }) => {
   const [showModal, setShowModal] = useState<boolean>(false);
   const [selectedCard, setSelectedCard] = useState<IGame | null>(null);
   const [loaded, setLoaded] = useState<IGame[]>([]);
@@ -48,13 +47,12 @@ const DeciderCards: FunctionComponent<IProps> = ({data}) => {
         <h4>{message}</h4>
       </div>
     );
-  }
+  };
 
   useEffect(() => {
     if (!magicNumber) {
       setMagicNumber(calculateNumToLoad(window.innerHeight, window.innerWidth));
     }
-
   }, [magicNumber]);
 
   useEffect(() => {
@@ -62,13 +60,11 @@ const DeciderCards: FunctionComponent<IProps> = ({data}) => {
       setLoaded(data.slice(0, magicNumber));
     }
     // eslint-disable-next-line
-  }, [data])
+  }, [data]);
 
   return (
     <div className="decider-cards">
-      {loaded &&
-        loaded.length &&
-        loaded[0].hasOwnProperty('_id') &&
+      {loaded && loaded.length && loaded[0].hasOwnProperty('_id') && (
         <InfiniteScroll
           className="decider-cards--scroller"
           dataLength={loaded.length}
@@ -76,11 +72,12 @@ const DeciderCards: FunctionComponent<IProps> = ({data}) => {
           hasMore={data.length > loaded.length}
           loader={scrollerMessages('Scroll to load more')}
           endMessage={scrollerMessages(`That's all, folks!`)}
-          scrollThreshold={0.99}
-          scrollableTarget="scrollableDiv">
-            {items()}
+          scrollThreshold={0.8}
+          scrollableTarget="scrollableDiv"
+        >
+          {items()}
         </InfiniteScroll>
-      }
+      )}
       <Dialog
         visible={showModal}
         header={selectedCard ? selectedCard['igdb']['name'] : ''}

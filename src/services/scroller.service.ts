@@ -1,4 +1,3 @@
-
 function dealWithFilters(width: number) {
   if (width >= 2000) {
     return 170;
@@ -35,6 +34,5 @@ export const calculateNumToLoad = (height: number, width: number) => {
 
   // this always leaves a couple extra at the bottom
   // that is intentional so it has something to scroll to to trigger adding more
-  return perRow * numRows;
-
+  return perRow * numRows * 2;
 };

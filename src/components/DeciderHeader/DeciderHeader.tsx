@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, memo } from 'react';
 import FilterBar from './FilterBar/FilterBar';
 import SortBar from './SortBar/SortBar';
 import { IGame } from '../../models/games.model';
@@ -7,7 +7,7 @@ interface IProps {
   data: IGame[];
 }
 
-const DeciderHeader: FunctionComponent<IProps> = ({ data }: IProps) => {
+const DeciderHeader: FunctionComponent<IProps> = memo(({ data }: IProps) => {
   return (
     <section className="filter-sort-header">
       <div className="filter-sort-header--section">
@@ -26,6 +26,6 @@ const DeciderHeader: FunctionComponent<IProps> = ({ data }: IProps) => {
       </div>
     </section>
   );
-};
+});
 
 export default DeciderHeader;

@@ -49,7 +49,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   }, []);
 
   const sortData = useCallback(
-    dat => {
+    (dat) => {
       setData(sortsService.sortData([...dat], sc.prop, sc.dir));
     },
     [sc.dir, sc.prop]
@@ -69,7 +69,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     [setData, setMasterData, sortData]
   );
 
-  const checkForReset = useCallback(form => {
+  const checkForReset = useCallback((form) => {
     const keys = Object.entries(form);
     return keys.filter(([key, value]) => value && value !== '').length === 0;
   }, []);
@@ -97,7 +97,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
     if (dc.physical) {
-      newData = _cloneDeep(newData).filter(g => g.physical);
+      newData = _cloneDeep(newData).filter((g) => g.physical);
     }
     if (dc.location) {
       newData = filters.filterLocation([...newData], dc.location);

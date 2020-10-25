@@ -132,12 +132,17 @@ const Navbar: FunctionComponent = () => {
       <div className="mobile-nav">
         <i
           className="pi pi-bars"
-          onClick={e => {
+          onClick={(e) => {
             // @ts-ignore
             menuEle.toggle(e);
           }}
         ></i>
-        <Menu className="mobile-nav--menu" popup={true} model={items} ref={el => (menuEle = el)} />
+        <Menu
+          className="mobile-nav--menu"
+          popup={true}
+          model={items}
+          ref={(el) => (menuEle = el)}
+        />
       </div>
     </header>
   );

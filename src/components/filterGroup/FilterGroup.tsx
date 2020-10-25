@@ -40,11 +40,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   const debounceFiltering = useCallback(
     debounce((value: string, sf: any): void => {
       const newData = masterData.filter((d: any) => {
-        return (
-          get(d, sf)
-            .toLowerCase()
-            .indexOf(value.toLowerCase()) >= 0
-        );
+        return get(d, sf).toLowerCase().indexOf(value.toLowerCase()) >= 0;
       });
       props.setFilteredData(newData);
     }, 500),
@@ -61,7 +57,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
     <div className="filter-group">
       <Dropdown
         value={selectedFilter}
-        onChange={e => setSelectedFilter(e.value)}
+        onChange={(e) => setSelectedFilter(e.value)}
         options={filters}
       />
       <InputText

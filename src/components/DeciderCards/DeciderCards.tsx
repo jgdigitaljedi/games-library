@@ -70,7 +70,7 @@ const DeciderCards: FunctionComponent<IProps> = ({ data }) => {
           dataLength={loaded.length}
           next={loadMore}
           hasMore={data.length > loaded.length}
-          loader={scrollerMessages('Scroll to load more')}
+          loader={scrollerMessages('Scroll down to load more')}
           endMessage={scrollerMessages(`That's all, folks!`)}
           scrollThreshold={0.85}
           scrollableTarget="scrollableDiv"

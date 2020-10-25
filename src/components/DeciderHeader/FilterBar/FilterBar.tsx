@@ -63,7 +63,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const getGenreArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newGenres = sortBy(
-        flatten(masterData.map(d => d.igdb.genres || null).filter((d: any) => d))
+        flatten(masterData.map((d) => d.igdb.genres || null).filter((d: any) => d))
           .reduce((acc: string[], g: string) => {
             if (!acc) {
               acc = [];
@@ -86,7 +86,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const getEsrbArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newRatings = sortBy(
-        flatten(masterData.map(d => d.igdb.esrb || null).filter((d: any) => d))
+        flatten(masterData.map((d) => d.igdb.esrb || null).filter((d: any) => d))
           .reduce((acc: string[], g: any) => {
             if (!acc) {
               acc = [];
@@ -166,7 +166,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           type="number"
           id="players"
           value={dc.players || ''}
-          onChange={e => {
+          onChange={(e) => {
             const target = e.target as HTMLInputElement;
             const fsCopy = Object.assign({}, dc);
             fsCopy.players = target.value ? parseInt(target.value) : 0;
@@ -227,7 +227,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           id="esrb"
           name="esrb"
           value={dc.esrb}
-          onChange={e => {
+          onChange={(e) => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.esrb = e.value;
             setDc(fsCopy);
@@ -241,7 +241,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         </label>
         <InputSwitch
           checked={dc.physical}
-          onChange={e => {
+          onChange={(e) => {
             const fsCopy = { ...dc };
             fsCopy.physical = !!e.value;
             setDc(fsCopy);
@@ -254,7 +254,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         </label>
         <InputSwitch
           checked={dc.everDrive}
-          onChange={e => {
+          onChange={(e) => {
             const fsCopy = { ...dc };
             fsCopy.everDrive = !!e.value;
             setDc(fsCopy);
@@ -270,7 +270,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           id="handheld"
           name="handheld"
           value={dc.handheld}
-          onChange={e => {
+          onChange={(e) => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.handheld = e.value;
             setDc(fsCopy);
@@ -288,7 +288,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           id="location"
           name="location"
           value={dc.location}
-          onChange={e => {
+          onChange={(e) => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.location = e.value;
             setDc(fsCopy);

@@ -1,16 +1,19 @@
 import { RouteComponentProps } from '@reach/router';
 import { AxiosResponse } from 'axios';
-import React, { FunctionComponent, useEffect, useState } from 'react';
+import React, { FunctionComponent, useContext, useEffect, useState } from 'react';
 import { IDropdown, IIndexStringArr } from './models/common.model';
 import { Dialog } from 'primereact/dialog';
 import { Galleria } from 'primereact/galleria';
 import AssetsService from './services/assets.service';
 import './Gallery.scss';
 import { Dropdown } from 'primereact/dropdown';
+import { NotificationContext } from './context/NotificationContext';
 
 interface IProps extends RouteComponentProps {}
 
 const GalleryComponent: FunctionComponent<IProps> = () => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const [list, setList] = useState<IIndexStringArr>();
   const [ddList, setDDList] = useState<IDropdown[]>([]);
   const [category, setCategory] = useState<string>('all');
@@ -76,9 +79,14 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
         setDDList(Object.keys(list.data).map((d: any) => ({ label: d, value: d })));
       })
       .catch((error) => {
+        setNotify({
+          severity: 'error',
+          detail: error,
+          summary: 'ERROR'
+        });
         console.log('gallery list error', error);
       });
-  }, []);
+  }, [setNotify]);
   return (
     <div className="gallery-wrapper">
       {list && (

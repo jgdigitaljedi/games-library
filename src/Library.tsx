@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useCallback, useEffect } from 'react';
+import React, { FunctionComponent, useState, useCallback, useEffect, useContext } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import DatTable from './components/DatTable/DatTable';
 import { SelectButton } from 'primereact/selectbutton';
@@ -22,6 +22,7 @@ import CollForm from './components/Forms/CollForm/CollForm';
 import HardwareForm from './components/Forms/HardwareForm/HardwareForm';
 import CloneForm from './components/Forms/CloneForm/CloneForm';
 import { getPlatformArr } from './services/globalData.service';
+import { NotificationContext } from './context/NotificationContext';
 
 interface IInputOptions {
   label: string;
@@ -46,6 +47,8 @@ interface MapDispatchProps {
 interface IProps extends MapDispatchProps, MapStateProps {}
 
 const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentProps<IProps>) => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const viewWhat: string = useSelector((state: any) => state.viewWhat);
   const filteredData: IGame[] = useSelector((state: any) => state.filteredData);
   const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
@@ -67,7 +70,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   ];
 
   const getSingular = useCallback(() => {
-    return viewChoices.filter(v => v.value === view)[0]?.singular;
+    return viewChoices.filter((v) => v.value === view)[0]?.singular;
   }, [view, viewChoices]);
 
   const openFormDialog = useCallback(
@@ -88,7 +91,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   }, [openFormDialog, getSingular, view]);
 
   const rowClicked = useCallback(
-    clicked => {
+    (clicked) => {
       const selected = { ...clicked, ...{ name: clicked?.igdb?.name || clicked?.name } };
       setSelectedItem(selected);
       openFormDialog(clicked);
@@ -148,17 +151,22 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           }
         })
         .catch((error: any) => {
+          setNotify({
+            severity: 'error',
+            detail: error,
+            summary: 'ERROR'
+          });
           console.error('ERROR FETCHING PLATFORMS ARR', error);
         });
     }
-  }, [props, platformsArr]);
+  }, [props, platformsArr, setNotify]);
 
   return (
     <div className="library">
       <div className="button-container">
         <SelectButton
           value={props.viewWhat}
-          onChange={e =>
+          onChange={(e) =>
             props.setViewWhat
               ? e.value
                 ? props.setViewWhat(e.value)

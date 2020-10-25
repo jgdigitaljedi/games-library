@@ -2,6 +2,15 @@ import { ICollAssociatedCon } from './collectibles.model';
 import { IGame } from './games.model';
 import { IConsole } from './platforms.model';
 
+export type Severity = 'success' | 'info' | 'error' | 'warn' | '';
+
+export interface INotification {
+  severity: Severity;
+  detail: string;
+  summary?: string;
+  life?: number;
+}
+
 export interface IFormState {
   name: string;
   players: number;

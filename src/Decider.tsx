@@ -22,6 +22,7 @@ import { Dispatch as ReduxDispatch } from 'redux';
 import { getPlatformArr } from './services/globalData.service';
 import DeciderCards from './components/DeciderCards/DeciderCards';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import { NotificationContext } from './context/NotificationContext';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -34,6 +35,8 @@ interface MapDispatchProps {
 interface IProps extends RouteComponentProps, MapDispatchProps, MapStateProps {}
 
 const Decider: FunctionComponent<IProps> = (props: IProps) => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const [dc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
   const [sc]: [ISortContext, Dispatch<SetStateAction<ISortContext>>] = useContext(SortContext);
   const [masterData, setMasterData] = useState<any[]>([{}]);
@@ -141,10 +144,15 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
           props.setPlatformsArr(result);
         })
         .catch((error: any) => {
+          setNotify({
+            severity: 'error',
+            detail: error,
+            summary: 'ERROR'
+          });
           console.error('ERROR FETCHING PLATFORMS ARR', error);
         });
     }
-  }, [props, platformsArr]);
+  }, [props, platformsArr, setNotify]);
 
   return (
     <div className="decider-container">

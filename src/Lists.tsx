@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
+import React, { FunctionComponent, useCallback, useState, useEffect, useContext } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
 import { IGame } from './models/games.model';
@@ -10,8 +10,11 @@ import { InputSwitch } from 'primereact/inputswitch';
 import ListView from './components/ListView/ListView';
 import { sortBy as _sortBy } from 'lodash';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import { NotificationContext } from './context/NotificationContext';
 
 const Lists: FunctionComponent<RouteComponentProps> = () => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const lists = [
     { label: 'Platform Exclusives', value: 'exclusives' },
     // { label: 'Games with extra data', value: 'extraData' },
@@ -31,19 +34,24 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     setShowModal(true);
   };
 
-  const getList = useCallback(which => {
+  const getList = useCallback((which) => {
     setWhichList(which);
     Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
-      .then(result => {
+      .then((result) => {
         if (result && result.data) {
           setData(_sortBy(result.data, 'consoleName'));
         }
       })
-      .catch(error => {
+      .catch((error) => {
         if (error) {
+          setNotify({
+            severity: 'error',
+            detail: error,
+            summary: 'error'
+          });
         }
       });
-  }, []);
+  }, [setNotify]);
 
   useEffect((): void => {
     getList(whichList);
@@ -54,11 +62,11 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
       <div className="lists-head">
         <div className="lists-head--group">
           <label>Select a list:</label>
-          <Dropdown value={whichList} onChange={e => getList(e.value)} options={lists} />
+          <Dropdown value={whichList} onChange={(e) => getList(e.value)} options={lists} />
         </div>
         <div className="lists-head--group">
           <label>Cards?</label>
-          <InputSwitch checked={cardView} onChange={e => setCardView(!!e.value)} />
+          <InputSwitch checked={cardView} onChange={(e) => setCardView(!!e.value)} />
         </div>
         <div className="lists-head--group">
           <label>{data.length} games</label>

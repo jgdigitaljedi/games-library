@@ -15,6 +15,8 @@ import Viz from './Viz';
 import { CombinedContextProvider } from './context/CombinedContext';
 import UrlService from './services/url.service';
 import GalleryComponent from './Gallery';
+import { NotificationContextProvider } from './context/NotificationContext';
+import NotificationWrapper from './NotificationWrapper';
 
 declare global {
   interface Window {
@@ -38,14 +40,18 @@ function App(): JSX.Element {
         <div className="App">
           <CombinedContextProvider>
             <Navbar />
-            <Router>
-              <Home default path="/gameslib" />
-              <Decider path="/gameslib/decider" />
-              <Library path="/gameslib/library" />
-              <Lists path="/gameslib/lists" />
-              <Viz path={`/gameslib/viz`} />
-              <GalleryComponent path={`/gameslib/gallery`} />
-            </Router>
+            <NotificationContextProvider>
+              <NotificationWrapper>
+                <Router>
+                  <Home default path="/gameslib" />
+                  <Decider path="/gameslib/decider" />
+                  <Library path="/gameslib/library" />
+                  <Lists path="/gameslib/lists" />
+                  <Viz path={`/gameslib/viz`} />
+                  <GalleryComponent path={`/gameslib/gallery`} />
+                </Router>
+              </NotificationWrapper>
+            </NotificationContextProvider>
           </CombinedContextProvider>
         </div>
       </Provider>

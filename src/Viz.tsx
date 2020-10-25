@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
+import React, { FunctionComponent, useCallback, useState, useEffect, useContext } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
 import { IGame } from './models/games.model';
@@ -6,8 +6,11 @@ import { Dropdown } from 'primereact/dropdown';
 import ChartDataService, { IChartData } from './services/chartData.service';
 import { Chart } from 'primereact/chart';
 import { IStats } from './models/common.model';
+import { NotificationContext } from './context/NotificationContext';
 
 const Viz: FunctionComponent<RouteComponentProps> = () => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const dataSets = [
     { label: 'Games by release date', value: 'igdb.first_release_date' },
     { label: 'Money spent on games over time', value: 'datePurchased' },
@@ -51,17 +54,29 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
       if (result && result.data) {
         setData(result.data);
         setMasterData(result.data);
+      } else {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to get combined games data!',
+          summary: 'ERROR'
+        });
       }
     },
-    [setData, setMasterData]
+    [setData, setMasterData, setNotify]
   );
 
   const getStats = useCallback(async () => {
     const result = await Axios.get(`${window.urlPrefix}/api/vg/stats`);
     if (result && result.data) {
       setStats(result.data);
+    } else {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to get stats data!',
+        summary: 'ERROR'
+      });
     }
-  }, []);
+  }, [setNotify]);
 
   const getChartData = useCallback(async () => {
     if (chartData === 'gpp' && stats) {
@@ -120,7 +135,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           <label>Select a data set:</label>
           <Dropdown
             value={chartData}
-            onChange={e => {
+            onChange={(e) => {
               setChartData(e.value);
               getChartData();
             }}
@@ -131,7 +146,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           <label>Select a chart type:</label>
           <Dropdown
             value={chartType}
-            onChange={e => {
+            onChange={(e) => {
               setChartType(e.value);
               getChartData();
             }}

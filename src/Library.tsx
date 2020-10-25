@@ -105,12 +105,17 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         // throw notification for successful save here
       } else if (name) {
         // throw failure notification here
+        setNotify({
+          severity: 'error',
+          detail: `Failed to save ${name}!`,
+          summary: 'ERROR'
+        });
       }
       // if no name sent then just exit (cancel clicked). Exit for others too
       setSelectedItem(null);
       setShowModal(false);
     },
-    [setShowModal]
+    [setShowModal, setNotify]
   );
 
   async function getData() {
@@ -137,8 +142,16 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     }
     const result = await axios.get(url);
     if (props && props.setMasterData && props.setFilteredData) {
-      props.setMasterData(result.data);
-      props.setFilteredData(result.data);
+      if (result?.data) {
+        props.setMasterData(result.data);
+        props.setFilteredData(result.data);
+      } else {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to fetch data!',
+          summary: 'ERROR'
+        });
+      }
     }
   }
 

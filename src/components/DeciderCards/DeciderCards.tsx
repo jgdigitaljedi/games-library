@@ -49,6 +49,10 @@ const DeciderCards: FunctionComponent<IProps> = ({ data }) => {
     );
   };
 
+  window.addEventListener('resize', () => {
+    setMagicNumber(calculateNumToLoad(window.innerHeight, window.innerWidth));
+  });
+
   useEffect(() => {
     if (!magicNumber) {
       setMagicNumber(calculateNumToLoad(window.innerHeight, window.innerWidth));

@@ -48,8 +48,14 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     const result = await axios.get(`${window.urlPrefix}/api/vg/everdrives`);
     if (result && result.data) {
       setEverDrives(result.data);
+    } else {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch Everdrive data!',
+        summary: 'ERROR'
+      });
     }
-  }, []);
+  }, [setNotify]);
 
   const sortData = useCallback(
     (dat) => {
@@ -67,9 +73,15 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
         setData(result.data);
         setMasterData(result.data);
         sortData(result.data);
+      } else {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to fetch game data!',
+          summary: 'ERROR'
+        });
       }
     },
-    [setData, setMasterData, sortData]
+    [setData, setMasterData, sortData, setNotify]
   );
 
   const checkForReset = useCallback((form) => {

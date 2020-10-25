@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useCallback, useState, useEffect } from 'react';
+import React, { FunctionComponent, useCallback, useState, useEffect, useContext } from 'react';
 import { RouteComponentProps } from '@reach/router';
 import Axios from 'axios';
 import ListView from './components/ListView/ListView';
@@ -7,8 +7,11 @@ import ChartService from './services/chartData.service';
 import Colors from './style/colors';
 import HomeTopTables from './components/HomeTopTables/HomeTopTables';
 import { IStats } from './models/common.model';
+import { NotificationContext } from './context/NotificationContext';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   // @ts-ignore
   const [data, setData] = useState<IStats>({});
   const chartOptions = {
@@ -40,10 +43,16 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     const result = await Axios.get(`${window.urlPrefix}/api/vg/stats`);
     if (result && result.data) {
       setData(result.data);
+    } else {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch stats!',
+        summary: 'ERROR'
+      });
     }
-  }, []);
+  }, [setNotify]);
 
-  const itemClicked = useCallback(clicked => {
+  const itemClicked = useCallback((clicked) => {
     console.log('clicked', clicked);
   }, []);
 

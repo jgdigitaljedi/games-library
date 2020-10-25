@@ -92,7 +92,7 @@ class TheTable extends Component<IProps, IState> {
           scrollable={true}
           selectionMode="single"
           selection={this.state.selected}
-          onSelectionChange={e => this.rowSelected(e.value)}
+          onSelectionChange={(e) => this.rowSelected(e.value)}
         >
           {dynamicColumns}
         </DataTable>
@@ -101,7 +101,6 @@ class TheTable extends Component<IProps, IState> {
   }
 
   private rowSelected(row: any) {
-    // console.log('row', row);
     this.setState({ selected: row });
     this.props.rowClicked && this.props.rowClicked(row);
   }

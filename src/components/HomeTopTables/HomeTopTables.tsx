@@ -83,13 +83,13 @@ const HomeTopTables: FunctionComponent<IProps> = ({
       </div>
       <div>
         <h3>Games per Decade</h3>
-        <table>
+        <table className="totals">
           <thead>
             <th>Decade</th>
             <th>Quantity</th>
           </thead>
           <tbody>
-            {Object.keys(gamesByDecade).map(decade => (
+            {Object.keys(gamesByDecade).map((decade) => (
               <tr>
                 <td>{`${decade}'s`}</td>
                 <td>{gamesByDecade[decade]}</td>
@@ -100,13 +100,13 @@ const HomeTopTables: FunctionComponent<IProps> = ({
       </div>
       <div>
         <h3>Consoles by Generation</h3>
-        <table>
+        <table className="totals">
           <thead>
             <th>Generation</th>
             <th>Quantity</th>
           </thead>
           <tbody>
-            {Object.keys(consolesByGenerationSorted).map(gen => (
+            {Object.keys(consolesByGenerationSorted).map((gen) => (
               <tr>
                 <td>{`${(consoleGenerationNames as IStringIndex)[gen]} (${
                   (consoleGenerationYears as IStringIndex)[gen]
@@ -119,13 +119,13 @@ const HomeTopTables: FunctionComponent<IProps> = ({
       </div>
       <div>
         <h3>Consoles per Manufacturer</h3>
-        <table>
+        <table className="totals">
           <thead>
             <th>Company</th>
             <th>Quantity</th>
           </thead>
           <tbody>
-            {Object.keys(consolesByCompany).map(company => (
+            {Object.keys(consolesByCompany).map((company) => (
               <tr>
                 <td>{company}</td>
                 <td>{(consolesByCompany as INumIndex)[company]}</td>
@@ -136,13 +136,13 @@ const HomeTopTables: FunctionComponent<IProps> = ({
       </div>
       <div>
         <h3>Games Added per Year</h3>
-        <table>
+        <table className="totals">
           <thead>
             <th>Year</th>
             <th>Games Added</th>
           </thead>
           <tbody>
-            {gamesAddedPerYear.map(year => (
+            {gamesAddedPerYear.map((year) => (
               <tr>
                 <td>{year.dateFormatted}</td>
                 <td>{year.games}</td>

@@ -17,9 +17,9 @@
     "process:transition": "node libraryScripts/transitionDataStructure.js",
     "process:viz": "node libraryScripts/createVizStats.js",
     "process": "npm run process:transition && npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz",
-    "copyGames:windows": "./scripts/copyGamesFromOtherProject.sh",
-    "copyGames:mac": "./scripts/copyFromOsx.sh",
-    "copyGames:linux": "./scripts/copyFromLinux.sh"
+    "copyGames:windows": "./libraryScripts/copyGamesFromOtherProject.sh",
+    "copyGames:mac": "./libraryScripts/copyFromOsx.sh",
+    "copyGames:linux": "./libraryScripts/copyFromLinux.sh"
   },
   "dependencies": {
     "@babel/core": "^7.12.3",

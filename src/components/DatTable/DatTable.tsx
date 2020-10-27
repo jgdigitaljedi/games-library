@@ -93,6 +93,7 @@ class TheTable extends Component<IProps, IState> {
           selectionMode="single"
           selection={this.state.selected}
           onSelectionChange={(e) => this.rowSelected(e.value)}
+          className="p-datatable-gridlines"
         >
           {dynamicColumns}
         </DataTable>

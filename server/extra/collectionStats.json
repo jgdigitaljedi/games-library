@@ -2,6 +2,47 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Amid Evil",
+        "id": "9999",
+        "genres": [
+          "FPS"
+        ],
+        "total_rating": "4.5",
+        "total_rating_count": "60",
+        "first_release_date": "06/20/2019",
+        "developers": "Indefatigable",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-67388",
+        "gbid": 67388,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/100150/3006946-amid%20evil.jpg",
+        "deck": "Amid Evil is a spiritual successor to Heretic",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "12",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-26",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "10/27/2020 06:37 am",
+      "updatedAt": "10/27/2020 06:37 am",
+      "_id": "7708d65e090349d7bc76f9462d6463c2",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/100150/3006946-amid%20evil.jpg",
+      "description": "Amid Evil is a spiritual successor to Heretic",
+      "name": "Amid Evil",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Metro Exodus: Gold Edition",
         "id": 95059,
         "genres": [
@@ -225,49 +266,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2481858-box_legoloclj.png",
       "description": "Game based on LEGO's 2013 Legends of Chima line made for handhelds.",
       "name": "Lego Legends of Chima: Laval's Journey",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Michael Jackson: The Experience 3D",
-        "id": 85288,
-        "genres": [
-          "Music",
-          "Rythym"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "11/07/2011",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-31724",
-        "gbid": 31724,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1828909-box_mjte.png",
-        "deck": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
-        "platforms": "PlayStation Portable, Xbox 360, PlayStation 3, Wii, Nintendo DS, PlayStation Network (PS3), PlayStation Network (PSP), Nintendo 3DS, PlayStation Vita, PlayStation Network (Vita)"
-      },
-      "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "10/05/2020 06:51 pm",
-      "updatedAt": "10/05/2020 06:51 pm",
-      "_id": "a4b62a577a9643cd936f274b5c420d63",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1828909-box_mjte.png",
-      "description": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
-      "name": "Michael Jackson: The Experience 3D",
       "miltiplayerNumber": 1
     }
   ],
@@ -837,7 +835,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 289,
+    "PC (Microsoft Windows)": 290,
     "Wii U": 17,
     "Nintendo 3DS": 13,
     "Nintendo DS": 19,
@@ -871,9 +869,9 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "M": 282,
     "NOT RATED": 273,
     "E": 237,
-    "M": 281,
     "E10+": 95,
     "T": 200,
     "RP": 14,
@@ -881,9 +879,10 @@
   },
   "physicalVsDigitalGames": {
     "physical": 657,
-    "digital": 444
+    "digital": 445
   },
   "gamesAcquisition": {
+    "GOG": 22,
     "UNKNOWN": 133,
     "Video Games Monthly": 56,
     "GameOver": 246,
@@ -892,7 +891,6 @@
     "Epic Games Store": 24,
     "Amazon": 7,
     "Twitch": 39,
-    "GOG": 21,
     "Green Man Gaming": 2,
     "Limited Run Games": 1,
     "PSN": 107,
@@ -928,9 +926,9 @@
   },
   "cibGames": 275,
   "gamesWithGenre": {
+    "fps": 175,
     "shooter": 376,
     "adventure": 395,
-    "fps": 174,
     "puzzle": 114,
     "quiz/trivia": 12,
     "music": 30,
@@ -1041,12 +1039,12 @@
       "games": 23
     },
     {
-      "dateFormatted": "01/2019",
+      "dateFormatted": "10/2020",
       "games": 20
     },
     {
-      "dateFormatted": "10/2020",
-      "games": 19
+      "dateFormatted": "01/2019",
+      "games": 20
     },
     {
       "dateFormatted": "12/2019",
@@ -1128,7 +1126,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 327
+      "games": 328
     },
     {
       "dateFormatted": "2019",
@@ -1166,7 +1164,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 132
+      "value": 133
     }
   ],
   "consolesByCompany": {
@@ -1189,7 +1187,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1101,
+  "totalGames": 1102,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1199,7 +1197,7 @@
     "1980": 81,
     "1990": 202,
     "2000": 332,
-    "2010": 446,
+    "2010": 447,
     "2020": 14
   }
 }

@@ -41,7 +41,7 @@
           @include bp_lte(md) {
             flex-direction: column;
           }
-          table {
+          table.card-row--table {
             max-width: 30rem;
             font-size: 1rem;
             tr {

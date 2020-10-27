@@ -24,15 +24,21 @@
     width: auto;
     height: auto;
     cursor: pointer;
+    @include bp_lte(md) {
+      max-height: calc(100vh - 84px - 15rem);
+    }
   }
   .thumb-template {
     max-width: 90%;
     max-height: 20rem;
+    @include bp_lte(md) {
+      max-height: 8rem;
+    }
   }
 }
 
 .dialog-image {
-  height: 90vh;
+  max-height: 99vh;
   max-width: 100%;
   &--image {
     max-width: 100%;

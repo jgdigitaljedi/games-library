@@ -47,7 +47,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
     if (game) {
       const owned =
         game.consoleArr && game.consoleArr.length
-          ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))
+          ? game.consoleArr.filter((g) => g.hasOwnProperty('physical'))
           : [];
       setConsolesOwnedFor(owned);
       // getEbayPrice();
@@ -69,7 +69,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           <div className="right-container">
             <p>{game.gb.deck}</p>
             <div className="card-row tables-row">
-              <table style={{ marginRight: '2rem' }}>
+              <table style={{ marginRight: '2rem' }} className="card-row--table">
                 <tbody>
                   <tr>
                     <td className="table-cat">Originally released</td>
@@ -93,7 +93,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                   </tr>
                 </tbody>
               </table>
-              <table>
+              <table className="card-row--table">
                 <tbody>
                   <tr>
                     <td className="table-cat">Developer</td>

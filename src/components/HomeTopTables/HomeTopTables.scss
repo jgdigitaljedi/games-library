@@ -1,13 +1,13 @@
 @import '../../style/theme.scss';
 .totals-tables {
-  table,
+  table.totals,
   th,
   td {
     border: 1px solid $white;
     font-family: $secondary-font;
   }
 
-  table {
+  table.totals {
     border-collapse: collapse;
 
     tr:nth-child(even) {

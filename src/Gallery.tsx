@@ -32,8 +32,8 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
     },
     {
       breakpoint: '480px',
-      numVisible: 1,
-      numScroll: 1
+      numVisible: 3,
+      numScroll: 3
     }
   ];
 

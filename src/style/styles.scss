@@ -82,13 +82,13 @@ body {
   .p-multiselect-label {
     color: $white;
   }
-  .p-galleria-caption {
-    font-family: $secondary-font;
-  }
   .p-datatable {
     width: 100%;
     .p-datatable-scrollable-body {
       overflow: hidden;
+    }
+    .p-datatable-scrollable-header .p-datatable-scrollable-header-box {
+      margin-right: 0 !important;
     }
     table {
       // primereact's breakpoint for responsive table
@@ -137,6 +137,10 @@ body {
               width: auto;
             }
           }
+        }
+
+        th {
+          padding: .5rem .7rem;
         }
       }
     }

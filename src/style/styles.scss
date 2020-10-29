@@ -96,8 +96,8 @@ body {
     table.p-datatable-scrollable-body-table {
       // primereact's breakpoint for responsive table
       @media screen and (max-width: 640px) {
-        width: auto;
-        padding: 0 1rem;
+        width: 100%;
+        padding: 0;
         margin: 0;
       }
       .p-datatable-scrollable-body-table {

@@ -13,6 +13,14 @@
     @include bp_lte(md) {
       height: calc(100vh - 282px);
     }
+
+    .p-column-title.mobile-header {
+      display: none;
+      @media screen and (max-width: 640px) {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
   }
 
   

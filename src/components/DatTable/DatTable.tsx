@@ -54,6 +54,15 @@ class TheTable extends Component<IProps, IState> {
     }
   };
 
+  tableItemBody = (rowData: any, info: any) => {
+    return (
+      <React.Fragment>
+        <span className="p-column-title mobile-header">{info.header}</span>
+        {get(rowData, info.field)}
+      </React.Fragment>
+    );
+  };
+
   public componentDidMount() {
     window.addEventListener('resize', this.updateDimensions);
     this._getCols();
@@ -76,10 +85,23 @@ class TheTable extends Component<IProps, IState> {
 
     let dynamicColumns = colProps.map((col, i) => {
       if (col.header === 'Image') {
-        return <Column key={col.field} header={col.header} body={this._imageTemplate} />;
+        return (
+          <Column
+            key={col.field}
+            header={col.header}
+            body={this._imageTemplate}
+            field={col.field}
+          />
+        );
       }
       return (
-        <Column key={col.field} field={col.field} header={col.header} sortable={col.sortable} />
+        <Column
+          key={col.field}
+          field={col.field}
+          header={col.header}
+          sortable={col.sortable}
+          body={this.tableItemBody}
+        />
       );
     });
     return (

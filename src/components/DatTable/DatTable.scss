@@ -16,12 +16,13 @@
 
     .p-column-title.mobile-header {
       display: none;
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 40em) {
         display: inline-block;
         margin-right: 1rem;
       }
     }
-  }
-
-  
+    tbody {
+      width: 100%;
+    }
+  }  
 }

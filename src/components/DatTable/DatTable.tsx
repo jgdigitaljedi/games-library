@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
+import React, { FunctionComponent, useCallback, useEffect, useRef, useState } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { connect } from 'react-redux';
@@ -18,22 +18,21 @@ interface MapStateProps {
 const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => {
   const [dynamicColumns, setDynamicColumns] = useState<any>();
   const [selected, setSelected] = useState<any>();
+  const tableRef = useRef<any>();
 
   const updateDimensions = useCallback(() => {
-    const tableEle = document.getElementsByClassName('p-datatable-scrollable-body-table');
-    const raw = Array.from(tableEle)[0];
-    // @ts-ignore
-    if (window.innerWidth <= 640 && raw?.style) {
-      // @ts-ignore
-      raw.style.width = '100%';
+    const theTable = tableRef.current.container.querySelector('.p-datatable-scrollable-body-table');
+    if (theTable) {
+      if (window.innerWidth <= 640) {
+        theTable.style.width = '100%';
+        theTable.style.width = 'auto';
+      } else if (theTable?.style) {
+        tableRef.current.container.style.width = '100%';
+      }
+    } else {
       setTimeout(() => {
-        // @ts-ignore
-        raw.style.width = 'auto';
-      });
-      // @ts-ignore
-    } else if (raw?.style) {
-      // @ts-ignore
-      raw.style.width = '100%';
+        updateDimensions();
+      }, 30);
     }
   }, []);
 
@@ -112,7 +111,11 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
         selectionMode="single"
         selection={selected}
         onSelectionChange={(e) => rowSelected(e.value)}
-        className="p-datatable-gridlines"
+        className="p-datatable-gridlines p-datatable-lg"
+        ref={tableRef}
+        onValueChange={(e) => {
+          console.log('valueChange', e);
+        }}
       >
         {dynamicColumns}
       </DataTable>

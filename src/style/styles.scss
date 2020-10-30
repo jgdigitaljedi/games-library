@@ -89,19 +89,19 @@ body {
     }
     .p-datatable-scrollable-header .p-datatable-scrollable-header-box {
       margin-right: 0 !important;
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 40em) {
         display: none;
       }
     }
     table.p-datatable-scrollable-body-table {
       // primereact's breakpoint for responsive table
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 40em) {
         width: 100%;
         padding: 0;
         margin: 0;
       }
       .p-datatable-scrollable-body-table {
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: 40em) {
           width: 100%;
         }
       }
@@ -119,7 +119,7 @@ body {
 
       .p-datatable-tbody > tr,
       .p-datatable-tbody > tr {
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: 40em) {
           width: 100%;
           border-bottom: 1px solid $light-orange;
           font-size: 1rem;
@@ -127,8 +127,8 @@ body {
         }
 
         td {
-          @media screen and (max-width: 640px) {
-            width: 100%;
+          @media screen and (max-width: 40em) {
+            width: 100vw;
             display: block;
           }
         }
@@ -145,7 +145,7 @@ body {
             height: 4rem;
             object-fit: cover;
             object-position: 50% 0%;
-            @media screen and (max-width: 640px) {
+            @media screen and (max-width: 40em) {
               max-width: 5rem;
               width: auto;
             }

@@ -69,10 +69,6 @@
     "isLaunchTitle": 1,
     "isExclusive": 6
   },
-  "Sony Playstation 4": {
-    "isLaunchTitle": 3,
-    "isExclusive": 29
-  },
   "Nintendo DS": {
     "isLaunchTitle": 0,
     "isExclusive": 7
@@ -118,6 +114,10 @@
   "Sega 32X": {
     "isLaunchTitle": 3,
     "isExclusive": 4
+  },
+  "Sony Playstation 4": {
+    "isLaunchTitle": 3,
+    "isExclusive": 16
   },
   "Nintendo Game Boy Color": {
     "isLaunchTitle": 0,

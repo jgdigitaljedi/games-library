@@ -2,6 +2,176 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Crysis Remastered",
+        "id": 132164,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 6,
+        "first_release_date": "07/22/2020",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-11757",
+        "gbid": 11757,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmp1st.com%2Fwp-content%2Fuploads%2F2020%2F04%2FCrysis-Remastered-Key-Art-With-Title-scaled.jpg&f=1&nofb=1",
+        "deck": "As Nomad, an elite soldier outfitted in a state-of-the-art Nanosuit that gives him superhuman abilities, infiltrate a North Korean-held island to rescue captured scientists... and face a reawakening ancient evil that threatens the entire world. Crysis is well known for its high system requirements and top of the line graphics.",
+        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "10",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-30",
+      "howAcquired": "Epic Games Store",
+      "notes": "",
+      "createdAt": "10/31/2020 09:30 am",
+      "updatedAt": "10/31/2020 09:30 am",
+      "_id": "07f54eccb9e84e18b82d474b747b0e3d",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmp1st.com%2Fwp-content%2Fuploads%2F2020%2F04%2FCrysis-Remastered-Key-Art-With-Title-scaled.jpg&f=1&nofb=1",
+      "description": "As Nomad, an elite soldier outfitted in a state-of-the-art Nanosuit that gives him superhuman abilities, infiltrate a North Korean-held island to rescue captured scientists... and face a reawakening ancient evil that threatens the entire world. Crysis is well known for its high system requirements and top of the line graphics.",
+      "name": "Crysis Remastered",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "SiN Gold",
+        "id": 51909,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 70,
+        "total_rating_count": "",
+        "first_release_date": "10/30/1998",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-11984",
+        "gbid": 11984,
+        "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313/header.jpg?t=1591116067",
+        "deck": "",
+        "platforms": "Mac"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2.50",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-30",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "10/31/2020 09:27 am",
+      "updatedAt": "10/31/2020 09:27 am",
+      "_id": "83d43f085058450b8a992d1a94dd088e",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313/header.jpg?t=1591116067",
+      "description": "",
+      "name": "SiN Gold",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Doom Eternal - The Ancient Gods",
+        "id": 136539,
+        "genres": [
+          "Shooter",
+          "Arcade",
+          "FPS"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 1,
+        "first_release_date": "10/19/2020",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-68917",
+        "gbid": 68917,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wccftech.com%2Fwp-content%2Fuploads%2F2020%2F10%2FDOOM-Eternal.jpg&f=1&nofb=1",
+        "deck": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia, PlayStation 5, Xbox Series X/S"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "20",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-30",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "10/31/2020 09:25 am",
+      "updatedAt": "10/31/2020 09:25 am",
+      "_id": "f34cbb26c8fc409a802356c3b196e72f",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wccftech.com%2Fwp-content%2Fuploads%2F2020%2F10%2FDOOM-Eternal.jpg&f=1&nofb=1",
+      "description": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+      "name": "Doom Eternal - The Ancient Gods",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "DOOM Eternal",
+        "id": 103298,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 87,
+        "total_rating_count": 146,
+        "first_release_date": "03/19/2020",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-68917",
+        "gbid": 68917,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
+        "deck": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia, PlayStation 5, Xbox Series X/S"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "30",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-30",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "10/31/2020 09:24 am",
+      "updatedAt": "10/31/2020 09:24 am",
+      "_id": "8c41f387bd4849d2a2e43474c683bcae",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
+      "description": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
+      "name": "DOOM Eternal",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Amid Evil",
         "id": "9999",
         "genres": [
@@ -39,233 +209,6 @@
       "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/100150/3006946-amid%20evil.jpg",
       "description": "Amid Evil is a spiritual successor to Heretic",
       "name": "Amid Evil",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Metro Exodus: Gold Edition",
-        "id": 95059,
-        "genres": [
-          "Shooter",
-          "Adventure",
-          "FPS"
-        ],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "02/14/2019",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-59897",
-        "gbid": 59897,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027478-box_metroex.png",
-        "deck": "The third Metro game sees protagonist Artyom and his companions leaving Moscow in search of a new home.",
-        "platforms": "PC, Xbox One, PlayStation 4, Google Stadia, Amazon Luna"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "38.99",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-10",
-      "howAcquired": "",
-      "notes": "",
-      "createdAt": "10/12/2020 07:06 am",
-      "updatedAt": "10/12/2020 07:06 am",
-      "_id": "ca97fb42d17c4d30bc682b5d47aba96c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3027478-box_metroex.png",
-      "description": "The third Metro game sees protagonist Artyom and his companions leaving Moscow in search of a new home.",
-      "name": "Metro Exodus: Gold Edition",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Animal Crossing: Amiibo Festival",
-        "id": 11190,
-        "genres": [
-          "Puzzle",
-          "Quiz/Trivia"
-        ],
-        "total_rating": 52,
-        "total_rating_count": 12,
-        "first_release_date": "11/12/2015",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-49995",
-        "gbid": 49995,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2784576-acaf.jpg",
-        "deck": "An Animal Crossing party game for Wii U, which uses amiibo.",
-        "platforms": "Wii U"
-      },
-      "consoleName": "Wii U",
-      "consoleIgdbId": 41,
-      "consoleGbid": 139,
-      "consoleGbGuid": "3045-139",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "10/05/2020 06:50 pm",
-      "updatedAt": "10/05/2020 06:50 pm",
-      "_id": "0e0ee7615d7a48a2bc8c9e48bb9db36c",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2784576-acaf.jpg",
-      "description": "An Animal Crossing party game for Wii U, which uses amiibo.",
-      "name": "Animal Crossing: Amiibo Festival",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Nintendo Wii U full exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "name": "Animal Crossing: Amiibo Festival",
-          "details": [
-            "Nintendo Wii U full exclusive"
-          ],
-          "id": "wiiu20",
-          "igdbId": 11190,
-          "gbId": 49995,
-          "gbGuid": "3030-49995",
-          "tgdbId": 32901,
-          "isExclusive": [
-            {
-              "name": "Nintendo Wii U",
-              "id": "ccl6",
-              "igdbId": 41,
-              "gbId": 139,
-              "gbGuid": "3045-139",
-              "tgdbId": 38
-            }
-          ],
-          "isLaunchTitle": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "ZombiU",
-        "id": 1591,
-        "genres": [
-          "Shooter",
-          "Adventure"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 35,
-        "first_release_date": "11/17/2012",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Killer Freaks from Outer Space\r, Attack Of The Killer Rabbids From Outer Space\r, Zombi",
-        "guid": "3030-35619",
-        "gbid": 35619,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2553376-zombiuclean.jpg",
-        "deck": "A first-person survival horror game set in London during a modern-day zombie apocalypse. As a launch title for the Wii U, it features extensive use of the system's GamePad.",
-        "platforms": "PC, Wii U, Xbox One, PlayStation 4"
-      },
-      "consoleName": "Wii U",
-      "consoleIgdbId": 41,
-      "consoleGbid": 139,
-      "consoleGbGuid": "3045-139",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-10-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "10/05/2020 06:50 pm",
-      "updatedAt": "10/05/2020 06:50 pm",
-      "_id": "e1d697d7d0934f0ba7bf21cdc603fc71",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2553376-zombiuclean.jpg",
-      "description": "A first-person survival horror game set in London during a modern-day zombie apocalypse. As a launch title for the Wii U, it features extensive use of the system's GamePad.",
-      "name": "ZombiU",
-      "miltiplayerNumber": 2,
-      "extraData": [
-        "Nintendo Wii U launch title"
-      ],
-      "extraDataFull": [
-        {
-          "id": "wiiu439",
-          "name": "ZombiU",
-          "details": [
-            "Nintendo Wii U launch title"
-          ],
-          "igdbId": 1591,
-          "gbId": 35619,
-          "gbGuid": "3030-35619",
-          "tgdbId": 10709,
-          "isLaunchTitle": [
-            {
-              "name": "Nintendo Wii U",
-              "id": "ccl6",
-              "igdbId": 41,
-              "gbId": 139,
-              "gbGuid": "3045-139",
-              "tgdbId": 38
-            }
-          ],
-          "isExclusive": false,
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Lego Legends of Chima: Laval's Journey",
-        "id": 6839,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 44,
-        "total_rating_count": 1,
-        "first_release_date": "06/24/2013",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-41020",
-        "gbid": 41020,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2481858-box_legoloclj.png",
-        "deck": "Game based on LEGO's 2013 Legends of Chima line made for handhelds.",
-        "platforms": "Nintendo DS, Nintendo 3DS, PlayStation Vita, PlayStation Network (Vita)"
-      },
-      "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "",
-      "createdAt": "10/05/2020 06:51 pm",
-      "updatedAt": "10/05/2020 06:51 pm",
-      "_id": "603876d7e12d4d3cac2712a3bc4ec3ed",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2481858-box_legoloclj.png",
-      "description": "Game based on LEGO's 2013 Legends of Chima line made for handhelds.",
-      "name": "Lego Legends of Chima: Laval's Journey",
       "miltiplayerNumber": 1
     }
   ],
@@ -835,7 +778,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 290,
+    "PC (Microsoft Windows)": 294,
     "Wii U": 17,
     "Nintendo 3DS": 13,
     "Nintendo DS": 19,
@@ -869,8 +812,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
-    "M": 282,
-    "NOT RATED": 273,
+    "NOT RATED": 275,
+    "M": 284,
     "E": 237,
     "E10+": 95,
     "T": 200,
@@ -879,16 +822,16 @@
   },
   "physicalVsDigitalGames": {
     "physical": 657,
-    "digital": 445
+    "digital": 449
   },
   "gamesAcquisition": {
+    "Epic Games Store": 25,
+    "Steam": 153,
     "GOG": 22,
     "UNKNOWN": 133,
     "Video Games Monthly": 56,
     "GameOver": 246,
     "eBay": 51,
-    "Steam": 150,
-    "Epic Games Store": 24,
     "Amazon": 7,
     "Twitch": 39,
     "Green Man Gaming": 2,
@@ -926,14 +869,14 @@
   },
   "cibGames": 275,
   "gamesWithGenre": {
-    "fps": 175,
-    "shooter": 376,
-    "adventure": 395,
+    "shooter": 380,
+    "adventure": 396,
+    "fps": 179,
+    "arcade": 108,
     "puzzle": 114,
     "quiz/trivia": 12,
     "music": 30,
     "rythym": 1,
-    "arcade": 107,
     "shmup": 11,
     "platform": 197,
     "pinball": 5,
@@ -1031,16 +974,16 @@
       "games": 25
     },
     {
+      "dateFormatted": "10/2020",
+      "games": 24
+    },
+    {
       "dateFormatted": "05/2020",
       "games": 24
     },
     {
       "dateFormatted": "09/2020",
       "games": 23
-    },
-    {
-      "dateFormatted": "10/2020",
-      "games": 20
     },
     {
       "dateFormatted": "01/2019",
@@ -1126,7 +1069,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 328
+      "games": 332
     },
     {
       "dateFormatted": "2019",
@@ -1152,7 +1095,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 689
+      "value": 693
     },
     {
       "category": "Fair (50 - 69)",
@@ -1187,7 +1130,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1102,
+  "totalGames": 1106,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1195,9 +1138,9 @@
   "gamesByDecade": {
     "1970": 9,
     "1980": 81,
-    "1990": 202,
+    "1990": 203,
     "2000": 332,
     "2010": 447,
-    "2020": 14
+    "2020": 17
   }
 }

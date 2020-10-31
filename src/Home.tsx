@@ -8,6 +8,7 @@ import Colors from './style/colors';
 import HomeTopTables from './components/HomeTopTables/HomeTopTables';
 import { IStats } from './models/common.model';
 import { NotificationContext } from './context/NotificationContext';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // eslint-disable-next-line
@@ -194,6 +195,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           </div>
         )}
       </div>
+      <ScrollToTop position="right" />
     </div>
   );
 };

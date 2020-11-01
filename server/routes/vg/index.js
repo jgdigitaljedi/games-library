@@ -10,6 +10,10 @@ const exportCtrl = require('./exportCsv.controller');
 const listsCtrl = require('./lists.controller');
 const utilsCtrl = require('./vgUtil.controller');
 const gallery = require('./gallery.controller.js');
+const auth = require('./auth.controller');
+
+// insecure auth
+router.post('/auth', auth.login);
 
 // gallery images
 router.get('/gallerylist', gallery.imageCategories);

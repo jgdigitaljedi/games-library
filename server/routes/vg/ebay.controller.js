@@ -9,18 +9,16 @@ function makeEbaySearchFormat(str) {
 module.exports.getEbayPrices = function (req, res) {
   if (req && req.body && req.body && req.body.query) {
     const searchTerms = makeEbaySearchFormat(req.body.query);
-    const url = `http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findCompletedItems&SERVICE-VERSION=1.11.0&SECURITY-APPNAME=${
-      process.env.EBAYCLIENTID
-      }&RESPONSE-DATA-FORMAT=JSON&keywords=${searchTerms}&itemFilter(0).name=Condition&itemFilter(0).value=3000&itemFilter(0).value=4000&itemFilter(0).value=5000&itemFilter(0).value=6000&itemFilter(1).name=SoldItemsOnly&itemFilter(1).value=true&itemFilter(2).name=ListingType&itemFilter(2).value(0)=AuctionWithBIN&itemFilter(2).value(1)=FixedPrice&itemFilter(2).value(2)=StoreInventory&itemFilter(3).name=MinPrice&itemFilter(3).value=1.0&itemFilter(4).name=Currency&itemFilter(4).value=USD`;
+    const url = `http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findCompletedItems&SERVICE-VERSION=1.11.0&SECURITY-APPNAME=${process.env.EBAYCLIENTID}&RESPONSE-DATA-FORMAT=JSON&keywords=${searchTerms}&itemFilter(0).name=Condition&itemFilter(0).value=3000&itemFilter(0).value=4000&itemFilter(0).value=5000&itemFilter(0).value=6000&itemFilter(1).name=SoldItemsOnly&itemFilter(1).value=true&itemFilter(2).name=ListingType&itemFilter(2).value(0)=AuctionWithBIN&itemFilter(2).value(1)=FixedPrice&itemFilter(2).value(2)=StoreInventory&itemFilter(3).name=MinPrice&itemFilter(3).value=1.0&itemFilter(4).name=Currency&itemFilter(4).value=USD`;
     axios
       .get(url)
-      .then(result => {
+      .then((result) => {
         const check = _get(result, 'data.findCompletedItemsResponse[0].searchResult[0].item');
         if (check) {
           const prices = check
-            .map(i => i.sellingStatus[0].currentPrice[0].__value__)
-            .filter(i => i)
-            .map(p => parseFloat(p))
+            .map((i) => i.sellingStatus[0].currentPrice[0].__value__)
+            .filter((i) => i)
+            .map((p) => parseFloat(p))
             .sort((a, b) => {
               const aParsed = parseFloat(a);
               const bParsed = parseFloat(b);
@@ -48,7 +46,7 @@ module.exports.getEbayPrices = function (req, res) {
           });
         }
       })
-      .catch(err => {
+      .catch((err) => {
         logger.logThis(req, err);
         res
           .status(500)

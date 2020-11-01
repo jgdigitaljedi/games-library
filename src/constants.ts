@@ -1,3 +1,5 @@
+export const AUTH_KEY_LOCAL_STORAGE = 'glibAuthKey';
+
 export const conditionArr = [
   { label: 'Excellent', value: 'Excellent' },
   { label: 'Good', value: 'Good' },

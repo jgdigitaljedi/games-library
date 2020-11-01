@@ -5,6 +5,14 @@
   display: flex;
   background-color: $secondary;
   padding: 1rem;
+  .auth-nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    @include bp_lte(md) {
+      display: none;
+    }
+  }
   a,
   a:visited {
     margin: auto $gutter;

@@ -6,9 +6,11 @@ import { InputTextarea } from 'primereact/inputtextarea';
 import { Calendar } from 'primereact/calendar';
 import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
+import { AutoComplete } from 'primereact/autocomplete';
 import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
 import HelpersService from '../../../services/helpers.service';
 import { handleChange } from '../../../services/forms.service';
+import { igdbGameSearch } from '../../../services/gamesCrud.service';
 
 interface IProps {
   game: IGame;
@@ -22,6 +24,7 @@ interface IGameEdit extends IGame {
 const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   const [gameForm, setGameForm] = useState<IGameEdit>();
   const [addMode, setAddMode] = useState<boolean>(false);
+  const [igdbGames, setIgdbGames] = useState<any[]>();
   const caseOptions = [
     { label: 'Original', value: 'original' },
     { label: 'Custom', value: 'custom' },
@@ -52,6 +55,13 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     },
     [gameForm, setGameForm]
   );
+
+  const searchIgdb = useCallback(async () => {
+    if (gameForm?.name) {
+      const result = await igdbGameSearch(gameForm?.name, 9999, true);
+      console.log('igdb result', result);
+    }
+  }, [gameForm]);
 
   const updateGame = useCallback(() => {
     // make save call
@@ -88,13 +98,15 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" />
             )}
             {addMode && (
-              // <InputText
-              //   id="name"
-              //   value={gameForm?.name}
-              //   onChange={userChange}
-              //   attr-which="name"
-              // />
-              <span>CHANGE TO AUTONCOMPLETE USING IGDB</span>
+              <AutoComplete
+                dropdown
+                id="name"
+                value={gameForm?.name}
+                onChange={userChange}
+                attr-which="name"
+                suggestions={igdbGames}
+                completeMethod={searchIgdb}
+              />
             )}
           </div>
           <div className="crud-form--form__row">
@@ -193,7 +205,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <Dropdown
               value={gameForm?.case}
               options={caseOptions}
-              onChange={e => handleDropdown(e, 'case')}
+              onChange={(e) => handleDropdown(e, 'case')}
               attr-which="case"
               id="case"
             />
@@ -203,7 +215,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <Dropdown
               value={gameForm?.condition}
               options={conditionOptions}
-              onChange={e => handleDropdown(e, 'condition')}
+              onChange={(e) => handleDropdown(e, 'condition')}
               attr-which="condition"
               id="condition"
             />

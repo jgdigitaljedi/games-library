@@ -27,9 +27,9 @@ module.exports.login = function (req, res) {
 
 module.exports.insecureMW = function (req, res, next) {
   const authHeader = req.headers.authorization;
+  console.log('request.headers', authHeader);
   if (authHeader) {
-    const token = authHeader.split(' ')[1];
-    if (token === process.env.GAMES_LIBRARY_REQUEST_HEADER) {
+    if (authHeader === process.env.GAMES_LIBRARY_REQUEST_HEADER) {
       next();
     } else {
       res.sendStatus(403);

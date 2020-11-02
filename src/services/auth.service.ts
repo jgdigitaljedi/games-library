@@ -1,6 +1,6 @@
 import Axios from 'axios';
 import { AUTH_KEY_LOCAL_STORAGE } from '../constants';
-import { IAuthCreds, ILoginResult } from '../models/common.model';
+import { IAuthCreds, ILoginResult } from '../models/crud.model';
 
 export const loginToServer = async (creds: IAuthCreds) => {
   const url = `${window.urlPrefix}/api/vg/auth`;
@@ -10,4 +10,12 @@ export const loginToServer = async (creds: IAuthCreds) => {
 
 export const getRequestKey = (): string | null => {
   return localStorage.getItem(AUTH_KEY_LOCAL_STORAGE);
+};
+
+export const getRequestHeaders = () => {
+  return {
+    headers: {
+      Authorization: getRequestKey()
+    }
+  };
 };

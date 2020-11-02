@@ -1,16 +1,62 @@
 import Axios from 'axios';
 import { IGame } from '../models/games.model';
 import { getRequestKey } from './auth.service';
+import { makeRequest } from './generalCrud.service';
+
+const endpoint = 'games';
 
 export const saveGame = async (game: IGame) => {
-  const key = getRequestKey(); // wire this into the call/gotta be server side and client side
-  if (game.hasOwnProperty('_id')) {
-    const url = `${window.urlPrefix}/api/vg/games/${game._id}`;
-    const result = await Axios.patch(url, game);
+  const hasKey = !!getRequestKey();
+  if (game.hasOwnProperty('_id') && hasKey) {
+    const params = makeRequest(endpoint, game._id);
+    const result = await Axios.patch(params.url, game, params.headers);
+    return result;
+  } else if (hasKey) {
+    const params = makeRequest(endpoint, game._id);
+    const result = await Axios.put(params.url, game, params.headers);
     return result;
   } else {
-    const url = `${window.urlPrefix}/api/vg/games`;
-    const result = await Axios.put(url, game);
+    return {
+      error: true,
+      message: 'You must be logged in to do that!'
+    };
+  }
+};
+
+export const deleteGame = async (game: IGame) => {
+  const hasKey = !!getRequestKey();
+  if (hasKey && game) {
+    const params = makeRequest(endpoint, game._id);
+    const result = await Axios.delete(params.url, params.headers);
     return result;
+  } else if (hasKey) {
+    return {
+      error: true,
+      message: 'Empty request: you must send a game to delete.'
+    };
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to do that!'
+    };
+  }
+};
+
+export const igdbGameSearch = async (name: string, platform: number, fuzzy = false) => {
+  const hasKey = !!getRequestKey();
+  if (hasKey && name) {
+    const params = makeRequest('searchgame');
+    const body = {
+      game: name,
+      platform,
+      fuzzy
+    };
+    const request = await Axios.post(params.url, body);
+    return request;
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to search IGDB and you must at least send a name!'
+    };
   }
 };

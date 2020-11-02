@@ -4,7 +4,6 @@ const creds = {
 };
 
 module.exports.login = function (req, res) {
-  console.log('asdasd', req.body);
   if (
     req.body &&
     req.body.password &&
@@ -20,8 +19,8 @@ module.exports.login = function (req, res) {
   } else {
     res.status(403).json({
       error: true,
-      message: 'Username or Password is incorrect!',
-      key: ''
+      message: 'Username or password is invalid!',
+      key: null
     });
   }
 };

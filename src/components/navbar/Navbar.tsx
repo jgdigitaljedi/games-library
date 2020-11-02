@@ -5,7 +5,7 @@ import { Button } from 'primereact/button';
 import { AUTH_KEY_LOCAL_STORAGE } from '../../constants';
 import { Dialog } from 'primereact/dialog';
 import LoginDialog from '../LoginDialog/LoginDialog';
-import { ILoginResult } from '../../models/common.model';
+import { ILoginResult } from '../../models/crud.model';
 
 const Navbar: FunctionComponent = () => {
   const [authKey, setAuthKey] = useState<string | null>(null);

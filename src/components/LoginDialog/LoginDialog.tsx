@@ -1,7 +1,7 @@
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import React, { FunctionComponent, SyntheticEvent, useState } from 'react';
-import { ILoginResult } from '../../models/common.model';
+import { ILoginResult } from '../../models/crud.model';
 import { loginToServer } from '../../services/auth.service';
 import './LoginDialog.scss';
 

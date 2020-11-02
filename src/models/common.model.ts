@@ -2,19 +2,6 @@ import { ICollAssociatedCon } from './collectibles.model';
 import { IGame } from './games.model';
 import { IConsole } from './platforms.model';
 
-export interface IAuthCreds {
-  username: string;
-  password: string;
-}
-
-export interface ILoginResult {
-  data: {
-    error: boolean;
-    message: string;
-    key: string;
-  };
-}
-
 export type Severity = 'success' | 'info' | 'error' | 'warn' | '';
 
 export interface INotification {

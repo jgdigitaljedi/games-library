@@ -1,13 +1,12 @@
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
-import React, { FunctionComponent, useState } from 'react';
-import { AUTH_KEY_LOCAL_STORAGE } from '../../constants';
+import React, { FunctionComponent, SyntheticEvent, useState } from 'react';
 import { ILoginResult } from '../../models/common.model';
 import { loginToServer } from '../../services/auth.service';
 import './LoginDialog.scss';
 
 interface IProps {
-  authKeyChange: (key: string) => void;
+  authKeyChange: (key: ILoginResult) => void;
 }
 
 const LoginDialog: FunctionComponent<IProps> = ({ authKeyChange }) => {
@@ -16,14 +15,7 @@ const LoginDialog: FunctionComponent<IProps> = ({ authKeyChange }) => {
 
   const loginCall = async () => {
     const result: ILoginResult = await loginToServer({ username, password });
-    console.log('result', result?.data);
-    if (result.data.error) {
-      localStorage.removeItem(AUTH_KEY_LOCAL_STORAGE);
-      // @TODO: fix app.tsx so I can use notifications here
-    } else {
-      // @TODO: show success notification
-      authKeyChange(result.data.key);
-    }
+    authKeyChange(result);
   };
 
   return (
@@ -41,7 +33,12 @@ const LoginDialog: FunctionComponent<IProps> = ({ authKeyChange }) => {
         <InputText
           id="password"
           value={password}
-          onChange={(e) => {
+          onKeyPress={(e: React.KeyboardEvent<HTMLInputElement>) => {
+            if (e.key === 'Enter') {
+              loginCall();
+            }
+          }}
+          onChange={(e: SyntheticEvent) => {
             // @ts-ignore
             setPassword(e.target.value);
           }}

@@ -5,6 +5,7 @@ import { Button } from 'primereact/button';
 import { AUTH_KEY_LOCAL_STORAGE } from '../../constants';
 import { Dialog } from 'primereact/dialog';
 import LoginDialog from '../LoginDialog/LoginDialog';
+import { ILoginResult } from '../../models/common.model';
 
 const Navbar: FunctionComponent = () => {
   const [authKey, setAuthKey] = useState<string | null>(null);
@@ -14,9 +15,18 @@ const Navbar: FunctionComponent = () => {
     setShowModal(true);
   };
 
-  const authKeyChange = (newKey: string) => {
-    localStorage.setItem(AUTH_KEY_LOCAL_STORAGE, newKey);
-    setAuthKey(newKey);
+  const authKeyChange = (result: ILoginResult) => {
+    const key = result.data.key;
+    if (result.data.error) {
+      localStorage.removeItem(AUTH_KEY_LOCAL_STORAGE);
+      setAuthKey(null);
+      // @TODO: notification of error
+    } else {
+      localStorage.setItem(AUTH_KEY_LOCAL_STORAGE, key);
+      setAuthKey(key);
+      // @TODO: notification of success
+      setShowModal(false);
+    }
   };
 
   const loginInOut = () => {

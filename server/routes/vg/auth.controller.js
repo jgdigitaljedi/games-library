@@ -15,7 +15,7 @@ module.exports.login = function (req, res) {
     res.json({
       error: false,
       message: 'Welcome, Joey!',
-      key: 'dasdhuaoisuhsoiufbdpwiiy4h82hrpw8adfbp8' // @TODO: make this generated
+      key: process.env.GAMES_LIBRARY_REQUEST_HEADER
     });
   } else {
     res.status(403).json({

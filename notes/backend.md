@@ -10,9 +10,9 @@ I'm going to stay with DiskDB for now because I like having a backup of my colle
   
 
 - First, make sure only I can change the data
-  - add login to navbar. Make sure it looks ok in mobile too since I use this in mobile as often as I do desktop
-  - add login modal to app. Make sure it looks ok in mobile too since I use this in mobile as often as I do desktop
-  - don't worry about being too secure as I only serve this on my local home server. A simple password in env will suffice. Maybe even randomly generate a hash to return as a key.   JWT seems like overkill, but is easy enough to implement that I could go that route too.
+  - ~~add login to navbar. Make sure it looks ok in mobile too since I use this in mobile as often as I do desktop~~
+  - ~~add login modal to app. Make sure it looks ok in mobile too since I use this in mobile as often as I do desktop~~
+  - ~~don't worry about being too secure as I only serve this on my local home server. A simple password in env will suffice. Maybe even randomly generate a hash to return as a key.   JWT seems like overkill, but is easy enough to implement that I could go that route too.~~
   - After auth happens, add to request headers in client side
   - Add check for headers in protected CRUD routes server side
 - Second, migrate data structure to use only IGDB

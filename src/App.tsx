@@ -39,8 +39,9 @@ function App(): JSX.Element {
       <Provider store={store}>
         <div className="App">
           <CombinedContextProvider>
-            <Navbar />
+            <></>
             <NotificationContextProvider>
+              <Navbar />
               <NotificationWrapper>
                 <Router>
                   <Home default path="/gameslib" />

@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useEffect } from 'react';
+import React, { FunctionComponent, useState, useEffect, useContext } from 'react';
 import { Menu } from 'primereact/menu';
 import { Link, navigate } from '@reach/router';
 import { Button } from 'primereact/button';
@@ -6,8 +6,11 @@ import { AUTH_KEY_LOCAL_STORAGE } from '../../constants';
 import { Dialog } from 'primereact/dialog';
 import LoginDialog from '../LoginDialog/LoginDialog';
 import { ILoginResult } from '../../models/crud.model';
+import { NotificationContext } from '../../context/NotificationContext';
 
 const Navbar: FunctionComponent = () => {
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const [authKey, setAuthKey] = useState<string | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
 
@@ -17,14 +20,25 @@ const Navbar: FunctionComponent = () => {
 
   const authKeyChange = (result: ILoginResult) => {
     const key = result.data.key;
+    console.log('result', result);
     if (result.data.error) {
       localStorage.removeItem(AUTH_KEY_LOCAL_STORAGE);
       setAuthKey(null);
+      setNotify({
+        severity: 'error',
+        detail: result.data.message,
+        summary: 'FORBIDDEN'
+      });
       // @TODO: notification of error
     } else {
       localStorage.setItem(AUTH_KEY_LOCAL_STORAGE, key);
       setAuthKey(key);
       // @TODO: notification of success
+      setNotify({
+        severity: 'success',
+        detail: result.data.message,
+        summary: 'Welcome!'
+      });
       setShowModal(false);
     }
   };

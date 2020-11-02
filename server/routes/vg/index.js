@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const vgCtrl = require('./vg.controller.js');
 const vgDbCtrl = require('./vgDb.controller');
-const gbCtrl = require('./giantBomb.controller');
+// const gbCtrl = require('./giantBomb.controller');
 const dataCtrl = require('./dataViz.controller');
 const updateCtrl = require('./updateData.controller');
 const ebayCtrl = require('./ebay.controller');
@@ -19,16 +19,16 @@ router.post('/auth', auth.login);
 router.get('/gallerylist', gallery.imageCategories);
 
 // IGDB search
-router.post('/searchgame', vgCtrl.searchGame);
-router.post('/searchplatform', vgCtrl.searchPlatforms);
+router.post('/searchgame', auth.insecureMW, vgCtrl.searchGame);
+router.post('/searchplatform', auth.insecureMW, vgCtrl.searchPlatforms);
 
 // export to file
 router.post('/exportcsv', exportCtrl.exportCsv);
 
 // Giant Bomb search
-router.post('/searchgbplatform', gbCtrl.searchConsoles);
-router.post('/searchgbgame', gbCtrl.searchGames);
-router.post('/searchgenre', vgCtrl.getGenre);
+// router.post('/searchgbplatform', gbCtrl.searchConsoles);
+// router.post('/searchgbgame', gbCtrl.searchGames);
+// router.post('/searchgenre', vgCtrl.getGenre);
 
 // Data Viz
 router.post('/dataviz', dataCtrl.dataVizData);

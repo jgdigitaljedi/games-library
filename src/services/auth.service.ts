@@ -4,8 +4,14 @@ import { IAuthCreds, ILoginResult } from '../models/crud.model';
 
 export const loginToServer = async (creds: IAuthCreds) => {
   const url = `${window.urlPrefix}/api/vg/auth`;
-  const result: ILoginResult = await Axios.post(url, creds);
-  return result;
+  try {
+    const result: ILoginResult = await Axios.post(url, creds);
+    return result;
+  } catch (error) {
+    return Promise.resolve({
+      data: { error: true, message: 'Username or password is invalid!', key: '' }
+    });
+  }
 };
 
 export const getRequestKey = (): string | null => {

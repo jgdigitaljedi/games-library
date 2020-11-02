@@ -17,10 +17,24 @@ module.exports.login = function (req, res) {
       key: process.env.GAMES_LIBRARY_REQUEST_HEADER
     });
   } else {
-    res.status(403).json({
+    res.status(401).json({
       error: true,
       message: 'Username or password is invalid!',
       key: null
     });
+  }
+};
+
+module.exports.insecureMW = function (req, res, next) {
+  const authHeader = req.headers.authorization;
+  if (authHeader) {
+    const token = authHeader.split(' ')[1];
+    if (token === process.env.GAMES_LIBRARY_REQUEST_HEADER) {
+      next();
+    } else {
+      res.sendStatus(403);
+    }
+  } else {
+    res.sendStatus(401);
   }
 };

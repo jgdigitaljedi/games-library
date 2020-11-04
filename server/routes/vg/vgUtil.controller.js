@@ -1,12 +1,14 @@
 const gamesCrud = require('./vgCrud/gamesCrud.controller');
+const platformsCrud = require('./vgCrud/consolesCrud.controller');
 const _sortBy = require('lodash/sortBy');
 const _flatten = require('lodash/flatten');
+const _uniqBy = require('lodash/uniqBy');
 
 module.exports.getPlatformArray = (req, res) => {
   const games = gamesCrud.getGames();
   if (games && games.length > 1) {
     const newPlatforms = _sortBy(
-      _flatten(games.map(d => d.consoleName || null).filter(d => d))
+      _flatten(games.map((d) => d.consoleName || null).filter((d) => d))
         .reduce((acc, g) => {
           if (!acc) {
             acc = [];
@@ -16,7 +18,7 @@ module.exports.getPlatformArray = (req, res) => {
           }
           return acc;
         }, [])
-        .map(g => {
+        .map((g) => {
           return { label: g, value: g };
         }),
       'label'
@@ -28,11 +30,30 @@ module.exports.getPlatformArray = (req, res) => {
   }
 };
 
+// this one will stay current if a platform was added and have ids
+module.exports.getPlatformsWithId = (req, res) => {
+  const platforms = platformsCrud.getPlatforms();
+  if (platforms && platforms.length) {
+    const platformsArr = _sortBy(
+      _uniqBy(
+        platforms.map((p) => {
+          return { name: p.igdb.name, id: p.igdb.id };
+        }),
+        'name'
+      ),
+      'name'
+    );
+    res.json(platformsArr);
+  } else {
+    res.json([]);
+  }
+};
+
 module.exports.getEsrbArray = (req, res) => {
   const games = gamesCrud.getGames();
   if (games && games.length > 1) {
     const newRatings = _sortBy(
-      _flatten(games.map(d => d.igdb.esrb || null).filter(d => d))
+      _flatten(games.map((d) => d.igdb.esrb || null).filter((d) => d))
         .reduce((acc, g) => {
           if (!acc) {
             acc = [];
@@ -42,7 +63,7 @@ module.exports.getEsrbArray = (req, res) => {
           }
           return acc;
         }, [])
-        .map(g => {
+        .map((g) => {
           return { label: g, value: g };
         }),
       'label'
@@ -58,7 +79,7 @@ module.exports.getGenreArray = (req, res) => {
   const games = req.data || gamesCrud.getGames();
   if (games && games.length > 1) {
     const newGenres = _sortBy(
-      _flatten(games.map(d => d.igdb.genres || null).filter(d => d))
+      _flatten(games.map((d) => d.igdb.genres || null).filter((d) => d))
         .reduce((acc, g) => {
           if (!acc) {
             acc = [];
@@ -68,7 +89,7 @@ module.exports.getGenreArray = (req, res) => {
           }
           return acc;
         }, [])
-        .map(g => {
+        .map((g) => {
           return { label: g, value: g };
         }),
       'label'

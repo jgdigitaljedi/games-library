@@ -80,3 +80,36 @@ export interface IExtraDataFull {
   isLaunchTitle: IExtraReturn[] | boolean;
   special: any[];
 }
+
+export interface INewGame {
+  name: string;
+  id: number;
+  genres: string[];
+  total_rating: number;
+  total_rating_count: number;
+  first_release_date: string;
+  developers: string;
+  esrb: string;
+  consoleName: string;
+  consoleId: number;
+  condition: string;
+  case: string;
+  pricePaid: string;
+  physical: boolean;
+  cib: string | boolean;
+  multiplayerNumber: string | number;
+  physicalDigital: string[];
+  datePurchased: string;
+  howAcquired: string;
+  notes: string;
+  createdAt: string;
+  updatedAt: string;
+  _id: string;
+  consoleArr?: IConsoleArr[];
+  extraData?: string[];
+  extraDataFull?: IExtraDataFull[];
+  compilation: null | IGame[];
+  image?: string;
+  description?: string;
+  handheld?: boolean;
+}

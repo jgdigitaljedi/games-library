@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import Axios, { AxiosResponse } from 'axios';
 import { IGame } from '../models/games.model';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
@@ -42,7 +42,11 @@ export const deleteGame = async (game: IGame) => {
   }
 };
 
-export const igdbGameSearch = async (name: string, platform: number, fuzzy = false) => {
+export const igdbGameSearch = async (
+  name: string,
+  platform: number,
+  fuzzy = false
+): Promise<AxiosResponse | any> => {
   const hasKey = !!getRequestKey();
   if (hasKey && name) {
     const params = makeRequest('searchgame');

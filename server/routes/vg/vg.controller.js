@@ -91,17 +91,17 @@ module.exports.searchGame = async function (req, res) {
   }
   if (req.body && req.body.game && req.body.platform) {
     let request;
-    if (req.body.fuzzy) {
+    if (req.body.fuzzy || req.body.platform === 99999) {
       request = client
         .fields(
-          `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name`
+          `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id`
         )
         .search(req.body.game)
         .request('/games');
     } else {
       request = client
         .fields(
-          `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name`
+          `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id`
         )
         .search(req.body.game)
         .where(`platforms = [${req.body.platform}]`)

@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useEffect, useCallback } from 'react';
+import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
 import { IGame } from '../../../models/games.model';
 import { InputText } from 'primereact/inputtext';
 import { InputSwitch } from 'primereact/inputswitch';
@@ -11,6 +11,8 @@ import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
 import HelpersService from '../../../services/helpers.service';
 import { handleChange } from '../../../services/forms.service';
 import { igdbGameSearch } from '../../../services/gamesCrud.service';
+import { getPlatformsWithIds } from '../../../services/platformsCrud.service';
+import { NotificationContext } from '../../../context/NotificationContext';
 
 interface IProps {
   game: IGame;
@@ -21,10 +23,16 @@ interface IGameEdit extends IGame {
   newDatePurchased: Date;
 }
 
+// @TODO: circle back and make some interfaces
 const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   const [gameForm, setGameForm] = useState<IGameEdit>();
   const [addMode, setAddMode] = useState<boolean>(false);
   const [igdbGames, setIgdbGames] = useState<any[]>();
+  const [platformIdArr, setPlatformIdArr] = useState<any>();
+  const [searchPlatform, setSearchPlatform] = useState<any>();
+  const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
   const caseOptions = [
     { label: 'Original', value: 'original' },
     { label: 'Custom', value: 'custom' },
@@ -58,10 +66,24 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
 
   const searchIgdb = useCallback(async () => {
     if (gameForm?.name) {
-      const result = await igdbGameSearch(gameForm?.name, 9999, true);
-      console.log('igdb result', result);
+      try {
+        const result = await igdbGameSearch(
+          gameForm?.name,
+          searchPlatform || 99999,
+          !searchPlatform
+        );
+        if (result?.data) {
+          setIgdbGames(result.data);
+        }
+      } catch (error) {
+        setNotify({
+          severity: 'error',
+          detail: 'Error fetching IGDB game data.',
+          summary: 'ERROR'
+        });
+      }
     }
-  }, [gameForm]);
+  }, [gameForm, setNotify, searchPlatform]);
 
   const updateGame = useCallback(() => {
     // make save call
@@ -78,6 +100,15 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     setGameForm(HelpersService.resetGameForm());
   }, [setGameForm]);
 
+  const searchSelection = (e: any) => {
+    console.log('e from searchSelection', e);
+    /**
+     * setSelectedFromSearch
+     * set gameForm.name and any other fields I end up using
+     */
+    // setSelectedFromSearch();
+  };
+
   useEffect(() => {
     if (game && (game.name === '' || game.name === 'Add Game')) {
       setAddMode(true);
@@ -88,26 +119,77 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     }
   }, [game, setAddMode]);
 
+  useEffect(() => {
+    if (!platformIdArr?.length) {
+      getPlatformsWithIds()
+        .then((platforms: any) => {
+          const platformsFormatted = platforms.data.map((p: any) => ({
+            label: p.name,
+            value: p.id
+          }));
+          platformsFormatted.unshift({ label: 'NOT SET', value: 99999 });
+          setPlatformIdArr(platformsFormatted);
+        })
+        .catch((error) => {
+          console.log('ERROR FETCHING PLATFORMS WITH IDS', error);
+          setNotify({
+            severity: 'error',
+            detail: 'Erro fetching platforms with ids.',
+            summary: 'ERROR'
+          });
+        });
+    }
+  }, [setPlatformIdArr, setNotify, platformIdArr]);
+
   return (
     <div className="crud-form game-form--wrapper">
       <div className="crud-form--flex-wrapper">
         <form className="crud-from--form game-form--form">
           <div className="crud-form--form__row">
-            <label htmlFor="name">Name</label>
-            {!addMode && (
-              <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" />
-            )}
+            {/* {!addMode && (
+              <>
+                <label htmlFor="name">Name</label>
+                <InputText
+                  id="name"
+                  value={gameForm?.name}
+                  onChange={userChange}
+                  attr-which="name"
+                />
+              </>
+            )} */}
             {addMode && (
-              <AutoComplete
-                dropdown
-                id="name"
-                value={gameForm?.name}
-                onChange={userChange}
-                attr-which="name"
-                suggestions={igdbGames}
-                completeMethod={searchIgdb}
-              />
+              <div className="igdb-search-fields">
+                <h3>Search IGDB</h3>
+                <Dropdown
+                  className="search-field"
+                  value={searchPlatform}
+                  options={platformIdArr}
+                  onChange={(e) => {
+                    setSearchPlatform(e.value);
+                  }}
+                  id="search-platform"
+                  placeholder="Platform to search"
+                />
+                <AutoComplete
+                  dropdown
+                  className="search-field"
+                  id="name"
+                  value={gameForm?.name}
+                  onChange={userChange}
+                  onSelect={searchSelection}
+                  attr-which="name"
+                  suggestions={igdbGames}
+                  completeMethod={searchIgdb}
+                  field="name"
+                  disabled={!searchPlatform}
+                />
+                <hr />
+              </div>
             )}
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="name">Name</label>
+            <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="consoleName">For Console</label>

@@ -100,13 +100,53 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     setGameForm(HelpersService.resetGameForm());
   }, [setGameForm]);
 
+  const getMultiplayerModes = (modes: any[]) => {
+    // just getting the max numbers here
+    // not concerned about which is true for which game mode as I can figure that out if I want to play multiplayer with someone
+    const combined = modes.reduce((acc: any, obj: any, index: number) => {
+      if (index === 0) {
+        acc = { offlinemax: 0, offlinecoopmax: 0, splitscreen: false };
+      }
+      if (obj.offlinemax > acc.offlinemax) {
+        acc.offlinemax = obj.offlinemax;
+      }
+      if (obj.offlinecoopmax > acc.offlinecoopmax) {
+        acc.offlinecoopmax = obj.offlinecoopmax;
+      }
+      if (obj.splitscreen) {
+        acc.splitscreen = true;
+      }
+      return acc;
+    }, {});
+    return combined;
+  };
+
   const searchSelection = (e: any) => {
-    console.log('e from searchSelection', e);
+    if (e?.value) {
+      const game = e.value;
+      setSelectedFromSearch(game);
+      const useableFormat = {
+        name: game.name,
+        image: game.image,
+        esrb: game.esrb.letterRating || '',
+        first_release_date: game.first_release_date || '',
+        forConsoleId: game.forConsoleId,
+        id: game.id,
+        total_rating: game.total_rating || null,
+        total_rating_count: game.total_rating_count || null,
+        videos: game.videos?.map((v: any) => v.video_id) || null,
+        genres: game.genres || null,
+        player_perspectives: game.player_perspectives?.map((p: any) => p.name) || null,
+        multiplayer_modes: game.multiplayer_modes
+          ? getMultiplayerModes(game.multiplayer_modes)
+          : { offlinemax: 0, offlinecoopmax: 0, splitscreen: false }
+      };
+      console.log('formattedGame', useableFormat);
+    }
     /**
      * setSelectedFromSearch
      * set gameForm.name and any other fields I end up using
      */
-    // setSelectedFromSearch();
   };
 
   useEffect(() => {
@@ -173,6 +213,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
                 <AutoComplete
                   dropdown
                   className="search-field"
+                  delay={600}
                   id="name"
                   value={gameForm?.name}
                   onChange={userChange}

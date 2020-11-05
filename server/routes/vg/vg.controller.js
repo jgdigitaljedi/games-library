@@ -86,23 +86,17 @@ module.exports.searchPlatforms = async function (req, res) {
 };
 
 module.exports.searchGame = async function (req, res) {
+  const fields = `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name`;
   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
     client = await refreshAppKey();
   }
   if (req.body && req.body.game && req.body.platform) {
     let request;
     if (req.body.fuzzy || req.body.platform === 99999) {
-      request = client
-        .fields(
-          `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id`
-        )
-        .search(req.body.game)
-        .request('/games');
+      request = client.fields(fields).search(req.body.game).request('/games');
     } else {
       request = client
-        .fields(
-          `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id`
-        )
+        .fields(fields)
         .search(req.body.game)
         .where(`platforms = [${req.body.platform}]`)
         .request('/games');
@@ -131,6 +125,13 @@ module.exports.searchGame = async function (req, res) {
             const gCopy = _cloneDeep(item.genres);
             const gCleaned = gCopy && gCopy.length ? gCopy.map((g) => g.name) : null;
             item.genres = gCleaned;
+            item.forConsoleId = req.body.platform || undefined;
+            if (item.cover && item.cover.url) {
+              const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
+              item.image = `https:${bigImage}`;
+            } else {
+              item.image = '';
+            }
             return item;
           });
           res.status(200).json(cleaned);

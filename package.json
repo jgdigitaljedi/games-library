@@ -11,6 +11,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/App.scss -o src/ --watch --recursive",
     "test": "node scripts/test.js",
     "everdrive": "node scripts/fixEverdrives.js",
+    "migrateGames": "node libraryScripts/migrateToNewDataStructure/migrateGames.js",
     "process:combined": "node libraryScripts/combineData.js",
     "process:lists": "node libraryScripts/makeListsData.js",
     "process:supp": "node libraryScripts/supplementGameData.js",

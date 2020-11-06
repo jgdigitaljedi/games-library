@@ -2,214 +2,272 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Crysis Remastered",
-        "id": 132164,
+        "name": "Your Shape Fitness Evolved 2013",
+        "id": 28347,
         "genres": [
-          "Shooter",
-          "Adventure",
-          "FPS"
+          "Sport"
         ],
-        "total_rating": 70,
-        "total_rating_count": 6,
-        "first_release_date": "07/22/2020",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-11757",
-        "gbid": 11757,
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmp1st.com%2Fwp-content%2Fuploads%2F2020%2F04%2FCrysis-Remastered-Key-Art-With-Title-scaled.jpg&f=1&nofb=1",
-        "deck": "As Nomad, an elite soldier outfitted in a state-of-the-art Nanosuit that gives him superhuman abilities, infiltrate a North Korean-held island to rescue captured scientists... and face a reawakening ancient evil that threatens the entire world. Crysis is well known for its high system requirements and top of the line graphics.",
-        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "10",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-10-30",
-      "howAcquired": "Epic Games Store",
-      "notes": "",
-      "createdAt": "10/31/2020 09:30 am",
-      "updatedAt": "10/31/2020 09:30 am",
-      "_id": "07f54eccb9e84e18b82d474b747b0e3d",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmp1st.com%2Fwp-content%2Fuploads%2F2020%2F04%2FCrysis-Remastered-Key-Art-With-Title-scaled.jpg&f=1&nofb=1",
-      "description": "As Nomad, an elite soldier outfitted in a state-of-the-art Nanosuit that gives him superhuman abilities, infiltrate a North Korean-held island to rescue captured scientists... and face a reawakening ancient evil that threatens the entire world. Crysis is well known for its high system requirements and top of the line graphics.",
-      "name": "Crysis Remastered",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "SiN Gold",
-        "id": 51909,
-        "genres": [
-          "Shooter",
-          "FPS"
-        ],
-        "total_rating": 70,
+        "total_rating": 77,
         "total_rating_count": "",
-        "first_release_date": "10/30/1998",
+        "first_release_date": "11/17/2012",
         "developers": "",
-        "esrb": ""
+        "esrb": "E10+"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-11984",
-        "gbid": 11984,
-        "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313/header.jpg?t=1591116067",
-        "deck": "",
-        "platforms": "Mac"
+        "guid": "3030-38551",
+        "gbid": 38551,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525290-box_ysfe2013.png",
+        "deck": "Even more fitness from Ubisoft, now for the Wii U.",
+        "platforms": "Wii U"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2.50",
-      "physical": "",
-      "cib": "",
+      "consoleName": "Wii U",
+      "consoleIgdbId": 41,
+      "consoleGbid": 139,
+      "consoleGbGuid": "3045-139",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-10-30",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "10/31/2020 09:27 am",
-      "updatedAt": "10/31/2020 09:27 am",
-      "_id": "83d43f085058450b8a992d1a94dd088e",
-      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313/header.jpg?t=1591116067",
-      "description": "",
-      "name": "SiN Gold",
+      "datePurchased": "2020-11-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed (for now)",
+      "createdAt": "11/05/2020 07:08 pm",
+      "updatedAt": "11/05/2020 07:08 pm",
+      "_id": "3d7d5e578560477da0ce76be9bd7ca97",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525290-box_ysfe2013.png",
+      "description": "Even more fitness from Ubisoft, now for the Wii U.",
+      "name": "Your Shape Fitness Evolved 2013",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo Wii U launch title",
+        "Nintendo Wii U full exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "wiiu437",
+          "name": "Your Shape: Fitness Evolved 2013",
+          "details": [
+            "Nintendo Wii U launch title",
+            "Nintendo Wii U full exclusive"
+          ],
+          "igdbId": 28347,
+          "gbId": 38551,
+          "gbGuid": "3030-38551",
+          "tgdbId": 16084,
+          "isLaunchTitle": [
+            {
+              "name": "Nintendo Wii U",
+              "id": "ccl6",
+              "igdbId": 41,
+              "gbId": 139,
+              "gbGuid": "3045-139",
+              "tgdbId": 38
+            }
+          ],
+          "isExclusive": [
+            {
+              "name": "Nintendo Wii U",
+              "id": "ccl6",
+              "igdbId": 41,
+              "gbId": 139,
+              "gbGuid": "3045-139",
+              "tgdbId": 38
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    {
+      "igdb": {
+        "name": "Code Name S.T.E.A.M.",
+        "id": 7392,
+        "genres": [
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "Adventure"
+        ],
+        "total_rating": 59,
+        "total_rating_count": 20,
+        "first_release_date": "03/12/2015",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Code Name: STEAM\r, Codename: STEAM\r, Code Name S.T.E.A.M.: Lincoln Vs. Aliens",
+        "guid": "3030-46597",
+        "gbid": 46597,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2644722-steam.jpg",
+        "deck": "A turn-based tactics game with a third person view. It is set in a steampunk world with an art style inspired by comic books. Players control a strike force called S.T.E.A.M., created by Abraham Lincoln, to fend off an alien invasion.",
+        "platforms": "Nintendo 3DS, Nintendo 3DS eShop"
+      },
+      "consoleName": "Nintendo 3DS",
+      "consoleIgdbId": 37,
+      "consoleGbid": 117,
+      "consoleGbGuid": "3045-117",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-11-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed (for now)",
+      "createdAt": "11/05/2020 07:08 pm",
+      "updatedAt": "11/05/2020 07:08 pm",
+      "_id": "c4f4e66f226b4ff991732be9e15c42b3",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2644722-steam.jpg",
+      "description": "A turn-based tactics game with a third person view. It is set in a steampunk world with an art style inspired by comic books. Players control a strike force called S.T.E.A.M., created by Abraham Lincoln, to fend off an alien invasion.",
+      "name": "Code Name S.T.E.A.M.",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Doom Eternal - The Ancient Gods",
-        "id": 136539,
+        "name": "The Trash Pack: The Gross Gang in Your Garbage",
+        "id": 9752,
         "genres": [
-          "Shooter",
-          "Arcade",
-          "FPS"
+          "Adventure"
         ],
-        "total_rating": 75,
+        "total_rating": 33,
         "total_rating_count": 1,
-        "first_release_date": "10/19/2020",
+        "first_release_date": "10/29/2012",
         "developers": "",
-        "esrb": "M"
+        "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-68917",
-        "gbid": 68917,
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wccftech.com%2Fwp-content%2Fuploads%2F2020%2F10%2FDOOM-Eternal.jpg&f=1&nofb=1",
-        "deck": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia, PlayStation 5, Xbox Series X/S"
+        "guid": "3030-80529",
+        "gbid": 80529,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/52/523260/3240970-trashpack_boxart.jpg",
+        "deck": "A 3DS game based on the popular children’s toy.",
+        "platforms": "Nintendo 3DS"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "20",
-      "physical": "",
-      "cib": "",
+      "consoleName": "Nintendo 3DS",
+      "consoleIgdbId": 37,
+      "consoleGbid": 117,
+      "consoleGbGuid": "3045-117",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-10-30",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "10/31/2020 09:25 am",
-      "updatedAt": "10/31/2020 09:25 am",
-      "_id": "f34cbb26c8fc409a802356c3b196e72f",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wccftech.com%2Fwp-content%2Fuploads%2F2020%2F10%2FDOOM-Eternal.jpg&f=1&nofb=1",
-      "description": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-      "name": "Doom Eternal - The Ancient Gods",
+      "datePurchased": "2020-11-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed (for now)",
+      "createdAt": "11/05/2020 07:07 pm",
+      "updatedAt": "11/05/2020 07:07 pm",
+      "_id": "97111f2defdb416697bf92d78ecb067a",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/52/523260/3240970-trashpack_boxart.jpg",
+      "description": "A 3DS game based on the popular children’s toy.",
+      "name": "The Trash Pack: The Gross Gang in Your Garbage",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "DOOM Eternal",
-        "id": 103298,
+        "name": "Medieval Moves: Deadmund's Quest",
+        "id": 18230,
         "genres": [
-          "Shooter",
-          "FPS"
+          "Adventure"
         ],
-        "total_rating": 87,
-        "total_rating_count": 146,
-        "first_release_date": "03/19/2020",
+        "total_rating": 66,
+        "total_rating_count": 4,
+        "first_release_date": "11/14/2011",
         "developers": "",
-        "esrb": "M"
+        "esrb": "E"
       },
       "gb": {
         "aliases": "",
-        "guid": "3030-68917",
-        "gbid": 68917,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-        "deck": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia, PlayStation 5, Xbox Series X/S"
+        "guid": "3030-35558",
+        "gbid": 35558,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2103137-box_mmdq.png",
+        "deck": "Take on the role of Deadmund as he battles his way through hordes of undead skeletons using his sword & shield, bow & arrow, and throwing stars in this PlayStation Move-exclusive game.\n",
+        "platforms": "PlayStation 3, PlayStation Network (PS3)"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "30",
-      "physical": "",
-      "cib": "",
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-10-30",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "10/31/2020 09:24 am",
-      "updatedAt": "10/31/2020 09:24 am",
-      "_id": "8c41f387bd4849d2a2e43474c683bcae",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/176/3163865-cover_art_of_doom_eternal.png",
-      "description": "The direct sequel to the 2016 installment of Doom. Hell’s armies have invaded Earth. Become the Slayer in an epic single-player campaign to conquer demons across dimensions and stop the final destruction of humanity.",
-      "name": "DOOM Eternal",
+      "datePurchased": "2020-11-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed (for now)",
+      "createdAt": "11/05/2020 07:10 pm",
+      "updatedAt": "11/05/2020 07:10 pm",
+      "_id": "71bb88f790f043189f109503f1354995",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2103137-box_mmdq.png",
+      "description": "Take on the role of Deadmund as he battles his way through hordes of undead skeletons using his sword & shield, bow & arrow, and throwing stars in this PlayStation Move-exclusive game.\n",
+      "name": "Medieval Moves: Deadmund's Quest",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Amid Evil",
-        "id": "9999",
+        "name": "Heavy Rain",
+        "id": 493,
         "genres": [
-          "FPS"
+          "Adventure"
         ],
-        "total_rating": "4.5",
-        "total_rating_count": "60",
-        "first_release_date": "06/20/2019",
-        "developers": "Indefatigable",
+        "total_rating": 81,
+        "total_rating_count": 626,
+        "first_release_date": "02/17/2010",
+        "developers": "",
         "esrb": "M"
       },
       "gb": {
-        "aliases": "",
-        "guid": "3030-67388",
-        "gbid": 67388,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/100150/3006946-amid%20evil.jpg",
-        "deck": "Amid Evil is a spiritual successor to Heretic",
-        "platforms": "PC"
+        "aliases": "The Origami Killer",
+        "guid": "3030-21304",
+        "gbid": 21304,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794108-box_heavyrain.png",
+        "deck": "An interactive thriller from the studio behind Indigo Prophecy, sporting a dark storyline involving the investigation of a mysterious serial killer.",
+        "platforms": "PlayStation 3, PC, PlayStation 4"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "12",
-      "physical": "",
-      "cib": "",
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-10-26",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "10/27/2020 06:37 am",
-      "updatedAt": "10/27/2020 06:37 am",
-      "_id": "7708d65e090349d7bc76f9462d6463c2",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/10/100150/3006946-amid%20evil.jpg",
-      "description": "Amid Evil is a spiritual successor to Heretic",
-      "name": "Amid Evil",
-      "miltiplayerNumber": 1
+      "datePurchased": "2020-11-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed (for now)",
+      "createdAt": "11/05/2020 07:09 pm",
+      "updatedAt": "11/05/2020 07:09 pm",
+      "_id": "793da39aac454698982f04169fc337be",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794108-box_heavyrain.png",
+      "description": "An interactive thriller from the studio behind Indigo Prophecy, sporting a dark storyline involving the investigation of a mysterious serial killer.",
+      "name": "Heavy Rain",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
+        "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+      ],
+      "extraDataFull": [
+        {
+          "name": "Heavy Rain",
+          "details": [
+            "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
+            "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+          ],
+          "id": "bi143",
+          "igdbId": 493,
+          "gbId": 21304,
+          "gbGuid": "3030-21304",
+          "tgdbId": 319
+        }
+      ]
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -778,9 +836,10 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 294,
-    "Wii U": 17,
-    "Nintendo 3DS": 13,
+    "Wii U": 18,
+    "Nintendo 3DS": 15,
+    "PlayStation 3": 44,
+    "PC (Microsoft Windows)": 295,
     "Nintendo DS": 19,
     "Atari 5200": 6,
     "Atari 7800": 6,
@@ -793,7 +852,6 @@
     "PlayStation 4": 89,
     "Game Boy Advance": 16,
     "Xbox 360": 59,
-    "PlayStation 3": 42,
     "Super Nintendo Entertainment System (SNES)": 18,
     "PlayStation 2": 57,
     "PlayStation": 21,
@@ -812,24 +870,24 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "E10+": 88,
+    "T": 198,
+    "E": 234,
+    "M": 266,
     "NOT RATED": 270,
-    "M": 265,
-    "E": 232,
-    "E10+": 87,
-    "T": 196,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 657,
-    "digital": 408
+    "physical": 662,
+    "digital": 409
   },
   "gamesAcquisition": {
+    "Video Games Monthly": 61,
+    "Steam": 154,
     "Epic Games Store": 25,
-    "Steam": 153,
     "GOG": 22,
     "UNKNOWN": 133,
-    "Video Games Monthly": 56,
     "GameOver": 246,
     "eBay": 51,
     "Amazon": 7,
@@ -867,11 +925,15 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 275,
+  "cibGames": 280,
   "gamesWithGenre": {
-    "shooter": 369,
-    "adventure": 373,
-    "fps": 175,
+    "sport": 141,
+    "strategy": 120,
+    "turn-based strategy (tbs)": 25,
+    "adventure": 378,
+    "shooter": 370,
+    "indie": 137,
+    "fps": 176,
     "arcade": 104,
     "puzzle": 110,
     "quiz/trivia": 11,
@@ -880,14 +942,11 @@
     "shmup": 10,
     "platform": 188,
     "pinball": 5,
-    "sport": 140,
     "golf": 15,
     "basketball": 6,
     "real time strategy (rts)": 12,
     "simulator": 110,
-    "strategy": 119,
     "racing": 114,
-    "indie": 136,
     "soccer": 5,
     "vehicular combat": 5,
     "fighting": 68,
@@ -896,7 +955,6 @@
     "football": 8,
     "skateboarding": 14,
     "role-playing (rpg)": 153,
-    "turn-based strategy (tbs)": 24,
     "tactical": 28,
     "point-and-click": 9,
     "surfing": 2,
@@ -1029,6 +1087,10 @@
       "games": 7
     },
     {
+      "dateFormatted": "11/2020",
+      "games": 6
+    },
+    {
       "dateFormatted": "08/2018",
       "games": 6
     },
@@ -1068,7 +1130,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 326
+      "games": 332
     },
     {
       "dateFormatted": "2019",
@@ -1094,15 +1156,15 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 661
+      "value": 664
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 189
+      "value": 191
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 16
+      "value": 17
     },
     {
       "category": "Terrible (< 30)",
@@ -1129,7 +1191,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1065,
+  "totalGames": 1071,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1139,7 +1201,7 @@
     "1980": 81,
     "1990": 203,
     "2000": 332,
-    "2010": 406,
-    "2020": 17
+    "2010": 411,
+    "2020": 18
   }
 }

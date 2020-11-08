@@ -1,17 +1,16 @@
 const games = require('../../server/db/gamesExtra.json');
 const axios = require('axios');
-const igdb = require('igdb-api-node').default;
 const moment = require('moment');
 const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
+const whitespace = require('stringman').whitespace;
+const _throttle = require('lodash/throttle');
 
-let appKeyTimestamp;
 const twitchClientId = process.env.TWITCH_CLIENT_ID;
 const twitchSecretToken = process.env.TWITCH_SECRET_TOKEN;
-const fields = `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,summary`;
+const fields = `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
 
-let client;
 let appKey;
 const esrbData = {
   6: 'RP',
@@ -29,11 +28,17 @@ async function getAppAccessToken() {
   );
 }
 
+function makeHeaders(key) {
+  return {
+    Accept: 'application/json',
+    'Client-ID': twitchClientId,
+    Authorization: `Bearer ${key.access_token}`
+  };
+}
+
 async function refreshAppKey() {
   const appKeyRes = await getAppAccessToken();
   appKey = appKeyRes.data;
-  appKeyTimestamp = moment().add(appKey.expires_in - 60, 'seconds');
-  return igdb(twitchClientId, appKey.access_token);
 }
 
 /**
@@ -52,7 +57,7 @@ function getUserData(game) {
     consoleId: game.consoleIgdbId,
     condition: game.condition,
     case: game.case,
-    pricePaid: parseFloat(+game.pricePaid.toFixed(2)),
+    pricePaid: game.pricePaid ? parseFloat(+game.pricePaid.toFixed(2)) : null,
     physical: game.physical,
     cib: game.cib,
     datePurchased: game.datePurchased,
@@ -66,6 +71,7 @@ function getUserData(game) {
     extraDataFull: game.extraDataFull,
     genres: game.igdb ? game.igdb.genres : []
   };
+  return oldData;
 }
 
 const getMultiplayerModes = (modes) => {
@@ -90,19 +96,19 @@ const getMultiplayerModes = (modes) => {
 };
 
 // needs description and multiplayer data
-async function getNewGameData(newClient, game) {
-  console.log(chalk.yellow('id', game.igdb.id));
+async function getNewGameData(game) {
   return new Promise((resolve, reject) => {
     if (game.igdb && game.igdb.id && game.igdb.id !== 9999 && game.igdb.id !== 99999) {
-      const apiCall = newClient
-        .fields(fields)
-        // .search()
-        .where(`id = ${game.igdb.id}`)
-        .request('/games');
-      // console.log(apiCall);
-      apiCall
+      const data = `fields ${fields};where id = ${game.igdb.id};`;
+      const headers = makeHeaders(appKey);
+      axios({
+        url: `https://api.igdb.com/v4/games`,
+        method: 'POST',
+        headers,
+        data
+      })
         .then((result) => {
-          console.log(chalk.green('result', result));
+          console.log(chalk.green('result', JSON.stringify(result.data, null, 2)));
           if (result.status === 200) {
             const formatted = {};
             const item = result.data[0];
@@ -119,17 +125,18 @@ async function getNewGameData(newClient, game) {
               const esrb = item.age_ratings.filter((r) => r.rating > 5).map((r) => r.rating);
               formatted.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : '';
             }
-            formatted.videos = result.videos.map((v) => v.video_id) || null;
+            formatted.videos = item.videos.map((v) => v.video_id) || null;
             if (item.cover && item.cover.url) {
               const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
               formatted.image = `https:${bigImage}`;
             } else {
               item.image = '';
             }
-            formatted.summary = item.summary;
+            formatted.description = item.summary ? whitespace.removeBreaks(item.summary) : null;
+            formatted.story = item.storyline || null;
             formatted.player_perspectives = item.player_perspectives
               ? item.player_perspectives.map((p) => p.name)
-              : null;
+              : [];
             formatted.multiplayer_modes = item.multiplayer_modes
               ? getMultiplayerModes(item.multiplayer_modes)
               : { offlinemax: 0, offlinecoopmax: 0, splitscreen: false };
@@ -142,26 +149,50 @@ async function getNewGameData(newClient, game) {
         })
         .catch((error) => {
           console.log(chalk.blue(error));
-          reject({ game, error });
+          resolve({ game, error });
         });
     } else {
-      reject({ game, error: 'NOT A VALID GAME ID TO LOOKUP' });
+      resolve({ game, error: 'NOT A VALID GAME ID TO LOOKUP' });
     }
   });
 }
 
-refreshAppKey().then((newClient) => {
-  console.log('newClient', newClient);
-  client = newClient;
-  const trialRun = games.slice(0, 1);
+refreshAppKey().then(() => {
+  const trialRun = games.slice(0, 20);
 
-  const promiseArr = trialRun.map((g) => getNewGameData(newClient, g));
+  const promiseArr = trialRun.map((g) => getNewGameData(g));
 
   Promise.all(promiseArr)
     .then((results) => {
+      // console.log(chalk.yellow('primose results', JSON.stringify(results, null, 2)));
+
+      const cleaned = [],
+        errors = [];
+      results.forEach((result) => {
+        if (result.error) {
+          errors.push(result);
+        } else {
+          cleaned.push(result);
+        }
+      });
+
+      // write results
       fs.writeFile(
         path.join(__dirname, './results.json'),
-        JSON.stringify(results, null, 2),
+        JSON.stringify(cleaned, null, 2),
+        (err) => {
+          if (err) {
+            err.forEach((error) => {
+              console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
+            });
+          }
+        }
+      );
+
+      // write errors to another file so I can address them later
+      fs.writeFile(
+        path.join(__dirname, './errors.json'),
+        JSON.stringify(errors, null, 2),
         (err) => {
           if (err) {
             err.forEach((error) => {

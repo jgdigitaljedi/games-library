@@ -1,0 +1,1869 @@
+[
+  {
+    "first_release_date": "03/03/2014",
+    "total_rating": 83,
+    "esrb": "M",
+    "videos": [
+      "IaaV29_Gq-g",
+      "Y4uF5TRqSrs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jpg",
+    "description": "From the perilous battlefields of the fourth-grade playground, a young hero will rise, destined to be South Park’s savior. From the creators of South Park, Trey Parker and Matt Stone, comes an epic quest to become… cool. Introducing South Park™: The Stick of Truth™.You begin as the new kid in town facing a harrowing challenge: making friends.  As you start your quest the children of South Park are embroiled in a city-wide, live-action-role-playing game, casting imaginary spells and swinging fake swords. Over time the simple children’s game escalates into a battle of good and evil that threatens to consume the world.Arm yourself with weapons of legend to defeat crab people, underpants gnomes, hippies and other forces of evil.  Discover the lost Stick of Truth and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend. Succeed, and you shall be South Park’s savior, cementing your social status in South Park Elementary. Fail, and you will forever be known… as a loser.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 8,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-06",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "06/08/2020 06:52 am",
+    "updatedAt": "06/08/2020 06:52 am",
+    "_id": "4c4d5fadbb59431893b3ffc5e56d3fd1",
+    "name": "South Park: The Stick of Truth",
+    "extraData": [
+      "banned in Suadia Arabia: Banned because of extremely offensive content"
+    ],
+    "extraDataFull": [
+      {
+        "name": "South Park The Stick Of Truth",
+        "details": [
+          "banned in Suadia Arabia: Banned because of extremely offensive content"
+        ],
+        "id": "bi148",
+        "igdbId": 1262,
+        "gbId": 36978,
+        "gbGuid": "3030-36978",
+        "tgdbId": 53521
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Turn-based"
+    ]
+  },
+  {
+    "first_release_date": "08/01/2016",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "mRjsohqwz9Q"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jpg",
+    "description": "Overcooked! is a co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out.  Take part in an epic journey across the Onion Kingdom and tackle an increasingly challenging and bizarre gauntlet of kitchens which will push your skills of co-operation and co-ordination to the very limits.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-06",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "06/08/2020 06:51 am",
+    "updatedAt": "06/08/2020 06:51 am",
+    "_id": "f9e67dd8e0c24cd7aae7b1a1743490a5",
+    "name": "Overcooked",
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "10/13/2014",
+    "total_rating": 75,
+    "esrb": "M",
+    "videos": [
+      "nchmckscawg",
+      "cjNqtZ5v1O8",
+      "Y9VgkeBeRQE",
+      "SaVucuKdrO4",
+      "2a9BU6zrz-A",
+      "gZQO9R5DP-Y"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tq.jpg",
+    "description": "Shoot 'n' loot your way through a brand new adventure that rockets you onto Pandora's moon in Borderlands: The Pre-Sequel. Discover the story behind Borderlands 2’s villain, Handsome Jack, and his rise to power in this brand new game in the Borderlands series. Taking place between the original Borderlands and Borderlands 2, the Pre-Sequel gives you a whole lotta new gameplay featuring the genre fusion of shooter and RPG gameplay that players can’t get enough of. Get high in low gravity and launch across the moonscape to take enemies down from above using new ice and laser weapons. Catch-a-ride on the lunar landscape with new vehicles equipped with deadly weapons allowing for more levels of destructive mayhem. So grab a friend (or two, or three), strap on a rocket, and take off on a brand new Borderlands adventure",
+    "story": "The opening of The Pre-Sequel begins some time after the events of Borderlands 2, and immediately after Episode 3 of the subsequent game Tales from the Borderlands, on the flying city of Sanctuary, where the three former Vault Hunters Lilith, Brick, and Mordecai interrogate the ex-Atlas assassin Athena after having captured her. Athena recounts her story, starting after the death of General Knoxx, when she received an offer to go find a Vault on Pandora's moon, Elpis, from a Hyperion programmer named Jack. She joins fellow Vault Hunters Claptrap, Nisha, Wilhelm, Timothy, and Aurelia on a spaceship headed for the Hyperion moon base Helios. On the way, they are ambushed by the Lost Legion, an army of former Dahl marines led by Colonel Tungsteena Zarpedon, and crash-land onto the moon base. After meeting up with Jack, they attempt to use Helios' defense system against the Lost Legion, but realizes there is a jamming signal coming from Elpis. They attempt to escape, but they are stopped by Zarpedon and a mysterious alien warrior, so Jack stays behind to fend them off and sends the Vault Hunters to Elpis via a moonshot rocket. \n \nAfter landing on Elpis, the Vault Hunters are helped by Janey Springs, a junk dealer who guides them to the spaceport town Concordia. Here, the Hunters, under Jack's orders, request help from his ex-girlfriend Moxxi to find the jamming signal. After raiding a former Dahl station, they find out that the signal was put up by the Meriff, the person in charge of Concordia, as well as Jack's former Hyperion underling. While this is happening, Zarpedon activates Helios' primary weapon, the Eye of Helios, which fires a powerful beam on the surface of Elpis, stating she plans to destroy the moon to stop Jack from opening the Vault. Jack confronts and kills the Meriff at his office. With Concordia secured, Jack and Moxxi guide the Vault Hunters to the next step in retaking Helios. They infiltrate a Lost Legion base, run by two Dahl officers, the Bosun and the Skipper, in search of a military artificial intelligence, which Jack plans to use to build a robot army. After defeating the Bosun, it is revealed that the Skipper, who renames herself Felicity, is the A.I. they were looking for. The Vault Hunters travel to a robot production facility, where Jack enlists the help of another Hyperion scientist named Gladstone to build his robot army. Gladstone suggests using his prototype robot, named the Constructor, which has the ability to build an infinite number of robots. At first, Felicity agrees to help them by becoming the A.I. for the Constructor, but upon witnessing the violence she has to go through, she begins to hesitate. After being forced into the Constructor bot, she takes control of it and battles the Vault Hunters. Felicity is defeated, and her personality is deleted from the Constructor bot. \n \nHaving obtained his robot army, Jack and the Vault Hunters travel to Helios, while enlisting the aid of Moxxi and two former Vault Hunters, Roland and Lilith (who were on Elpis for a vacation). While on Helios, Jack ruthlessly kills Gladstone and the other scientists working for him after suspecting one of them to be a spy for the Lost Legion. The Vault Hunters defeat Zarpedon and her forces, and proceed to reboot the Eye of Helios. It is revealed that the Eye is actually the eye of the Destroyer, the monster that was released from Pandora's Vault in the first game, in which Jack took and made into a weapon. The Vault Hunters inject slag(Eridium runoff made by Hyperion) into the Eye, under Moxxi's directions. When attempting to reboot, Moxxi, Roland and Lilith betray Jack and destroy the Eye to prevent him from gaining ultimate power. Seeking revenge, Jack and the Vault Hunters travel back to Elpis, where they find its Vault having already been opened, as mentioned by Zarpedon before her death. The Hunters battle several of the Vault's guardians, and defeat its ultimate guardian, the Deva-like Empyrean Sentinel. \n \nWith the Sentinel dead, Jack enters the Vault, but finds no item of value, other than a mysterious symbol floating in midair. As he interacts with it, the symbol shows Jack a vision of the Warrior. However, he is interrupted by Lilith, who phasewalks in front of him and punches through the Vault symbol, burning it onto Jack's face and disfiguring him. She teleports away, leaving a scarred and insane Jack behind, who swears vengeance on Lilith and all the \"bandits\" on Pandora, now intent on awakening the Warrior to take over the planet. Realizing that the hero who once saved her on Helios is no more, Athena leaves Jack's employ. \n \nHaving finished listening to Athena's story, Lilith orders the Crimson Raiders to execute her, against Brick and Mordecai's protests. However, as they open fire on her, Athena is saved by the alien warrior who appeared on Helios with Zarpedon, revealed to be one of the legendary Eridians. The Eridian warns the Vault Hunters of an imminent war, and that they will need \"all the Vault Hunters they can get\". \n \nDuring the credits, several scenes are shown revealing what became of the Vault Hunters after helping Jack. Wilhelm and Nisha join Jack in his rise to power; Wilhelm is transformed further into a machine and destroys the settlement of New Haven while Nisha is made Lynchwood's sheriff and hooks up with Jack, who proceeds to raise an army, Athena discards the money given to her by Jack and leaves Elpis, and Claptrap is dismantled and left for dead by Jack at Windshear Waste. In a post-credit scene, Jack, now going by the name Handsome Jack and wearing a synthetic mask to hide his facial scarring, kills his CEO, Harold Tassiter, and announces to Tassiter's secretary on an intercom that he has replaced him as the new head of Hyperion.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-06",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "06/08/2020 06:51 am",
+    "updatedAt": "06/08/2020 06:51 am",
+    "_id": "b76029b719974ead85a6547d76547bf9",
+    "name": "Borderlands: The Pre-Sequel",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "FPS"
+    ]
+  },
+  {
+    "videos": null,
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-06-06",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "06/08/2020 07:00 am",
+    "updatedAt": "06/08/2020 07:00 am",
+    "_id": "b0386a45fdf4418193cba0c45c260180",
+    "name": "Jikkyou Powerful Pro Yakyuu 4",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Baseball",
+      "Japanese",
+      "Import",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "02/13/2002",
+    "total_rating": 80,
+    "esrb": "",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mw1.jpg",
+    "description": "Hey there, SpaceCats – meet Ulala, the grooviest reporter in the galaxy! She’s got attitude, and she’s got moves. Help her get the scoop on an unidentified Dance Troupe that has captured thousands of people and is forcing them to dance!",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-05",
+    "howAcquired": "Steam",
+    "notes": "bundled with 4 other Dreamcast games",
+    "createdAt": "06/08/2020 06:46 am",
+    "updatedAt": "06/08/2020 06:46 am",
+    "_id": "6ef97dd77d9840758b2e2e505f9b884b",
+    "name": "Space Channel 5: Part 2",
+    "genres": [
+      "Music",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/30/1997",
+    "total_rating": 74,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n97.jpg",
+    "description": "Explore the exciting sport of Bass fishing! Based on the Dreamcast hit, motor out to eight different fishing locations to catch the biggest and baddest Bass possible! Choose between fourteen different lures, and compete in four tournaments. Start off as an amateur, and work your way up to the pros in the Masters Classic tournament. Get hooked!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-05",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/08/2020 06:46 am",
+    "updatedAt": "06/08/2020 06:46 am",
+    "_id": "db8952cf172e4ecc8cbb1623387b4e5e",
+    "name": "Sega Bass Fishing",
+    "genres": [
+      "Simulator",
+      "Sport",
+      "Fishing"
+    ]
+  },
+  {
+    "first_release_date": "06/28/2000",
+    "total_rating": 78,
+    "esrb": "T",
+    "videos": [
+      "ih2BoI0BH_Q"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dzw.jpg",
+    "description": "The government is attempting to silence the kids of Tokyo, but with their Overdrive Magnetic-Motor Skating Shoes, the cops will have to catch 'em first. The Jet Grind Radio program keeps the kids unified and inspired to fight for their rights of expression, which includes graffiti art. Grab your spray cans and design your own piece on one of the immense walls in the 3D, interactive city. You might be forced to protect your territory from adversaries that want to take over your neighborhood. Join up with like-minded hip individuals that will help you keep your area the way you want it. The cops will be after you too, so you'll have to be quick. The 10 cartoon-style characters are pumped up with polygons so they come alive in 3D on Dreamcast. Uniqueness is key to these kids and each character stands apart with exclusive abilities and style. They like to show off too, and with 18 missions, there's plenty of time to impress. It's fast, it's fun, and it's definitely funky.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-05",
+    "howAcquired": "Steam",
+    "notes": "bundled with 4 other Dreamcast games",
+    "createdAt": "06/08/2020 06:45 am",
+    "updatedAt": "06/08/2020 06:45 am",
+    "_id": "bb9354b13110413bb4d29a0293a286e7",
+    "name": "Jet Set Radio",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1999",
+    "total_rating": 66,
+    "esrb": "T",
+    "videos": [
+      "TZukj1-A_go"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u17.jpg",
+    "description": "Hey hey, come on over and have some fun with Crrrrrazy Taxi! Barrel through traffic packed streets, hurdle off parking garages, and Crazy Combo your way to Crazy Money in a wild frantic race to scare up the most fares. In Crazy Taxi, time is money, and only the Craziest Cabbies come out victorious.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-05",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/08/2020 06:43 am",
+    "updatedAt": "06/08/2020 06:43 am",
+    "_id": "0bbb644dcc28493db7675112b1933594",
+    "name": "Crazy Taxi",
+    "genres": [
+      "Racing",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "07/04/1996",
+    "total_rating": 75,
+    "esrb": "",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvw.jpg",
+    "description": "Slip off into the dream world and go on an aerial adventure as NiGHTS in this classic Saturn remake. Collect Ideya (colored orbs), rack up points, and battle bosses to help Elliot and Claris save Nightopia from Wizeman the Wicked.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-05",
+    "howAcquired": "Steam",
+    "notes": "bundled with 4 other Dreamcast games",
+    "createdAt": "06/08/2020 06:43 am",
+    "updatedAt": "06/08/2020 06:43 am",
+    "_id": "f3b804b03a6f45a8abdf46d71d6d60ae",
+    "name": "Nights into Dreams...",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/19/2012",
+    "total_rating": 82,
+    "esrb": "",
+    "videos": [
+      "HH_sGQRSpzo",
+      "NnDSC0JEUz8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25z8.jpg",
+    "description": "Torchlight II features randomly generated dungeons and numerous types of monsters to fight for loot. Torchlight II is an action RPG as its predecessor, but features overland areas with multiple hub towns, and a longer campaign. Players are able to customize character appearance with choice of sex, face, hair style and hair color. Additionally, several elements from the first game return, such as pets and fishing. The game features four playable character classes. Each class has 3 skill trees to choose from which enable customization within each class.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-30",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/02/2020 06:53 am",
+    "updatedAt": "06/02/2020 06:53 am",
+    "_id": "28d974ca6b2946249d1327f76c698f95",
+    "name": "Torchlight II",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/25/2010",
+    "total_rating": 78,
+    "esrb": "E10+",
+    "videos": [
+      "Wtf419b1iMI",
+      "xO7rHL3yeJ8",
+      "MbHuVVBaKgk",
+      "f7A8mloe-DI",
+      "qdbesIYXh-0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmk.jpg",
+    "description": "Ten years on from Worms™ Armageddon and the turn-based comic mayhem continues in Worms™ Reloaded, an all-new edition available for PC through Steam.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-28",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/02/2020 06:55 am",
+    "updatedAt": "06/02/2020 06:55 am",
+    "_id": "4aa34b825c644943924d4cdf6845d8ef",
+    "name": "Worms: Reloaded",
+    "genres": [
+      "Platform",
+      "Strategy",
+      "Party",
+      "Turn-based"
+    ]
+  },
+  {
+    "first_release_date": "11/02/2009",
+    "total_rating": 89,
+    "esrb": "M",
+    "videos": [
+      "VaZXJQIHgEA",
+      "4k81SFkhFG4",
+      "cfSAlyiI1mc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcg.jpg",
+    "description": "You are a Grey Warden, one of the last of a legendary order of guardians. With the return of mankind's ancient foe and the kingdom engulfed in civil war, you have been chosen by fate to unite the shattered lands and slay the archdemon once and for all.",
+    "story": "In every origin story, the player is introduced to Duncan, a Grey Warden who is trying to find recruits to join the order. By the end of their origin story, the player's character is selected as a potential Grey Warden, and leaves with Duncan.  \n  \nThe player and Duncan journey to a fortress called Ostagar in southern Ferelden, to join Cailan, the King of Ferelden, and Loghain, a legendary general and Cailan's father-in-law. The three leaders plan to make a stand against the encroaching Darkspawn before the Blight can overwhelm Ferelden. Duncan can sense the influence of an Archdemon, a god-like being hosted in the body of a powerful Dragon that commands the Darkspawn, which means that this would be the first true Blight in over 400 years. It is of utmost importance that this Blight is ended before it can gain momentum, as previous Blights have left Thedas all but in ruins.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-28",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "05/28/2020 06:25 am",
+    "updatedAt": "05/28/2020 06:25 am",
+    "_id": "2105d85431cb41bdbee354031404bcb3",
+    "name": "Dragon Age: Origins",
+    "extraData": [
+      "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Dragon Age: Origins",
+        "details": [
+          "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+        ],
+        "id": "bi157",
+        "igdbId": 76,
+        "gbId": 20738,
+        "gbGuid": "3030-20738",
+        "tgdbId": 867
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ]
+  },
+  {
+    "first_release_date": "09/12/2016",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "_2e2d_laCLo",
+      "rPDUdfn-sR8",
+      "_6w9M1rHbC0",
+      "UoGbUUwI4DY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uv1.jpg",
+    "description": "\"Relive the depths of Rapture and sail through Columbia in BioShock: The Collection! Remastered for current-gen, this edition includes all three BioShock games, complete with all single-player DLC and a never-before-seen video series with commentary from Ken Levine.\"   \"BioShock Infinite is not being remastered on PC because it already meets current-gen console standards and runs smoothly on high visual settings.  BioShock: The Collection will not include BioShock 2 multiplayer.\"",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 10,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-25",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/02/2020 06:56 am",
+    "updatedAt": "06/02/2020 06:56 am",
+    "_id": "26ced5149ee0498f8437f374690f5177",
+    "name": "BioShock: The Collection",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/20/2016",
+    "total_rating": 85,
+    "esrb": "E10+",
+    "videos": [
+      "qvBf6WBatk0",
+      "yKUFvo3_FYQ",
+      "9vVGQThK01M",
+      "FkIT6iMeYjE",
+      "0YFh38ImZ58",
+      "ZHgVlRdO72U",
+      "ENMzcvQVvzA",
+      "Iw79o14yj6E",
+      "5KdE0p2joJw",
+      "2tiZv0TvXyM",
+      "_Tmg3hL2WQE",
+      "lQVk0s3rQh0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28j8.jpg",
+    "description": "Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known.Civilization VI offers new ways to engage with your world: cities now physically expand across the map, active research in technology and culture unlocks new potential, and competing leaders will pursue their own agendas based on their historical traits as you race for one of five ways to achieve victory in the game.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-25",
+    "howAcquired": "Epic Games Store",
+    "notes": "free",
+    "createdAt": "05/28/2020 06:26 am",
+    "updatedAt": "05/28/2020 06:26 am",
+    "_id": "c27c58a1d324413cacc1c49d97143bf9",
+    "name": "Sid Meier's Civilization VI",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ]
+  },
+  {
+    "first_release_date": "11/17/2003",
+    "total_rating": 76,
+    "esrb": "M",
+    "videos": [
+      "_yTNf3KYspE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rx4.jpg",
+    "description": "XIII (pronounced: Thirteen) is a first-person shooter video game developed by Ubisoft Paris and published by Ubisoft for most platforms except for the OS X version, which was published by Feral Interactive. Loosely based on the 1984 Belgian comic book XIII, the player controls (through a first-person view) the protagonist XIII, a confused and amnesic man who searches for his identity throughout a comic book-style, cel-shaded world. Found stranded on a beach by a lifeguard, XIII is accused of having killed the President of the United States, and must fight for his life while attempting to recall his past. The game was released for Microsoft Windows, PlayStation 2, GameCube, Xbox and OS X.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-24",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/02/2020 06:54 am",
+    "updatedAt": "06/02/2020 06:54 am",
+    "_id": "5ed71ed8854b4c41992ff724f811f0a9",
+    "name": "XIII",
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "10/03/2011",
+    "total_rating": 77,
+    "esrb": "M",
+    "videos": [
+      "0jecDe-rK24"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybv.jpg",
+    "description": "RAGE is a groundbreaking first-person shooter set in the not-too-distant future after an asteroid impacts Earth, leaving a ravaged world behind. You emerge into this vast wasteland to discover humanity working to rebuild itself against such forces as raider gangs, mutants, and the Authority – an oppressive government regime that has a special interest in you in particular.  Featuring intense first-person action, vehicle combat, an expansive world and jaw-dropping graphics powered by id’s revolutionary idTech 5 technology. RAGE promises an experience like no other.",
+    "story": "On August 23, 2029, the asteroid 99942 Apophis collides with Earth, destroying human civilization and turning the world into a wasteland. Survivors come together to form settlements around oases and other practical or habitable locations, while the wastes are plagued by various bandits clans, and mutants, who attack all normal humans in a voracious horde. \n \nIn 2135, former U.S. Marine Lieutenant Nicholas Raine emerges from an underground shelter called an Ark, 106 years after being put into stasis. These underground shelters are the direct result of the Eden Project, a massive international undertaking in which hundreds of Arks, containing cryogenic pods, were sealed under the surface of the Earth to preserve enough of the human population to rebuild civilization after the asteroid collision. The Eden Project was far less successful than hoped, as Raine's Ark in particular was heavily damaged, with all of its other residents dead and equipment destroyed, and he wakes up alone with no specific goal in mind. \n \nRaine enters the surface, where he is immediately attacked by bandits but is saved by Dan Hagar, a local wasteland settler who brings Raine to his settlement. Hagar informs him that a powerful technologically advanced organization known as the Authority, that considers itself the one true government of the wasteland, is hunting for Ark survivors for an unknown purpose. Raine briefly aids Hagar's settlement and others in the local area by completing a few small jobs, and during this time it is revealed that the nanotrites injected into Raine's blood before he was sent into hibernation have granted him superhuman abilities to help him survive the harsh environment, but have made him valuable to the Authority. Hagar believes Raine's continued presence is too dangerous for the settlement and sends him to the nearby town of Wellspring instead. \n \nIn Wellspring, Raine helps the town with various problems such as fighting off bandits, mutants, and ferrying supplies. Eventually, he comes into contact with Dr. Kvasir, an elderly scientist who previously worked for the Authority, who tells Raine about the inhumane experiments they were responsible for, such as the creation of the mutants. Kvasir puts him into contact with the Resistance, an armed anti-Authority group, where he is tasked with rescuing their leader, Captain Marshall, who has recently been imprisoned by the Authority. Raine again attracts attention from the Authority, forcing him to flee Wellspring and join the Resistance at their headquarters in Subway Town, where he earns the trust of the town and its tyrannical mayor, Redstone. He also learns what had happened in the past century from Captain Marshall, who is an Ark survivor himself. General Martin Cross, who was in charge of the Eden Project, sabotaged the operation shortly before 99942 Apophis struck the Earth by ensuring that only the Arks with people loyal to him were opened on schedule, with this first wave of Ark survivors eventually forming the Authority. The remaining Arks were supposed to stay underground forever in hibernation, including Raine's Ark, which surfaced only because its systems were damaged and it automatically rose to protect any surviving inhabitants. \n \nWith the Authority beginning to forcefully expand its influence on the wasteland settlements, the Resistance is forced to act with the help of Raine who can recover data that shows the location of every Ark on the planet. Captain Marshall plans to use this data to activate all the Arks and form an army that can defeat the Authority, but the only way to do this is to transmit the data from Capital Prime, the main headquarters for the Authority. Alone, Raine fights his way through Capital Prime to transmit the Ark activation code, and the game concludes with all the remaining Arks simultaneously becoming active and surfacing.",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-23",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "05/23/2020 07:17 am",
+    "updatedAt": "05/23/2020 07:17 am",
+    "_id": "efb2b65546c449f98fc16c99cec2d37a",
+    "name": "Rage",
+    "genres": [
+      "Shooter",
+      "Racing",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "05/25/2015",
+    "total_rating": 67,
+    "videos": [
+      "CNODcpGnxVY",
+      "-ehtQ5F4L_U",
+      "uvGbZamcaOQ",
+      "tLqkAFnm-c0",
+      "cDj6bjvDiY0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrv.jpg",
+    "description": "The world’s most irreverent co-op action adventure returns! To rid the world of evil, again, up to four Wizards, and their guide Vlad, will traverse Midgård armed with the next iteration of the famous Magicka dynamic spellcasting system, as players reprise their roles as the most overpowered, unpredictably funny Wizards ever known to fantasy!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3.75,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-23",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/23/2020 07:17 am",
+    "updatedAt": "05/23/2020 07:17 am",
+    "_id": "dd6bdb2d84a74cdd8de06a406a7fc217",
+    "name": "Magicka 2",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/24/2016",
+    "total_rating": 77,
+    "esrb": "RP",
+    "videos": [
+      "BfABNZqU-PA",
+      "fc17r931tN0",
+      "mZXyxZK28QY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u3.jpg",
+    "description": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-22",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/23/2020 07:07 am",
+    "updatedAt": "05/23/2020 07:07 am",
+    "_id": "1478d1780c5d484d8b4ddc5a16453588",
+    "name": "Grim Dawn",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "09/12/2019",
+    "total_rating": 81,
+    "esrb": "M",
+    "videos": [
+      "LkHNbsQMxPI",
+      "d9Gu1PspA3Y",
+      "JiEu23G4onM",
+      "AmSWPy_bt9s",
+      "tL8Z3Ros2TQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r3.jpg",
+    "description": "The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 50,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-17",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "05/18/2020 07:59 am",
+    "updatedAt": "05/18/2020 07:59 am",
+    "_id": "d18155858a7a4cf8ac13b3faeea66c00",
+    "name": "Borderlands 3",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/22/2013",
+    "total_rating": 80,
+    "esrb": "M",
+    "videos": [
+      "NDFO4E5OKSE",
+      "cN82BoHQJHM",
+      "WgS4mhLsypY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n6w.jpg",
+    "description": "Wraeclast: the land of the damned. This forsaken continent is home to many writhing horrors, murderous beasts, and ravenous undead. The very soil is permeated with dark, ancient power, the earth shivering with malice. The dead are refused peace, rising up and hopelessly wandering in eternal pain, sorrow and hunger. The wildlife is twisted and misshapen, unnaturally aggressive and savage. Lurking in the darkest of corners, unspeakable horrors lie in wait for unsuspecting prey, eager to rip apart the mind as well as the flesh. Wraeclast is a place where few remain alive, and fewer remain sane.",
+    "story": "All exiles are given the same choice: to sink or swim. Those that don't drown will reach the forsaken shores of Wraeclast, where the only welcome is the clinging embrace of undeath. However, a small band of survivors has managed to hold fast in a ruined lighthouse, desperately repelling both the grasping undead and the manic scavengers that stubbornly cling to their last shreds of humanity. Under the commanding gaze of Axiom Prison, snarling goatmen roam the craggy bluffs, always keeping their cloven feet well clear of the rhoa-infested swamps in the lowlands. All along the coast, rotting shipwrecks litter the shoreline, the spirits of the stranded sailors still haunting the wreckages of their ill-fated ships, waiting to take out their sorrow and rage on those who yet live. All the while, the Siren herself continues her sweet, sad song, luring ever more ships to their watery graves. \n \nFarther inland, through the twisting caves and darkened forests, the ruins of civilisation become more apparent. The ravages of time have worn many buildings to rubble, and stripped away decaying flesh, leaving only grotesquely grinning bones. The dark, fetid caves and underground passages are a clattering refuge for these skeletal ranks, while the open forests and riverways brim with monstrous beasts with a taste for blood. Recently, ragtag groups of bloodthirsty bandits have built fortified camps in the forest, openly challenging one another while extorting food and supplies from the small, struggling village that sits between them atop a stone dam. Ignored by the squabbling bandits, strange newcomers clad in black armor have been seen skulking around various large ruins, their purpose both mysterious yet unsettling. \n \nAtop a sheer cliff of ruptured mantle, straddling the river feeding a mighty waterfall, lies the fallen capital of the Eternal Empire. Its former glory rots amid the ruins of a blasted cityscape, the buildings decrepit and mouldering. But Sarn is far from uninhabited. Many of the original citizens still lurk the dark recesses, their humanity washed clean by the cataclysm of centuries past. These Undying monsters roam the city at night and skulk the shadows during the day, for the naked sunlight is anathema to their shrivelled, leathery skin. The sun-scarred days are far from peaceful, however. A legion of soldiers from Oriath has occupied the area to the west of the river, and is fighting an all-out war against the multifarious denizens of the city. Every day their black-clad soldiers battle twisted insects that scuttle and breed, feasting on anything that moves. Every day they throw battalions against the army of floating, red Ribbons that eviscerate all who trespass on their domain. Every day they skirmish against a small group of exiles who have barricaded themselves on a small island in the middle of the river, caught between certain death on both sides.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-16",
+    "howAcquired": "Steam",
+    "notes": "free to play",
+    "createdAt": "05/23/2020 07:08 am",
+    "updatedAt": "05/23/2020 07:08 am",
+    "_id": "e344099777e744b8a8391dd4c8dbb55e",
+    "name": "Path of Exile",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "10/16/2017",
+    "total_rating": 83,
+    "esrb": "M",
+    "videos": [
+      "jyrGOKqI5q0",
+      "T2ZL2PQVgvk",
+      "YC6eJHdGG8Y",
+      "saRV25tV5Cs",
+      "Ihw1IzzjUdA",
+      "JPFxJ5TNJS0",
+      "7Z248cDimVY",
+      "gGIU0ixPqKE",
+      "SAQioyejmR0",
+      "ch6OsX1unvM",
+      "i6VoL22QxnQ",
+      "NaCJoH8NWfI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8w.jpg",
+    "description": "Players will once again assume the role of the New Kid, and join South Park favorites Stan, Kyle, Kenny and Cartman in a new hilarious and outrageous adventure. This time, players will delve into the crime-ridden underbelly of South Park with Coon and Friends.  This dedicated group of crime fighters was formed by Eric Cartman whose superhero alter-ego, The Coon, is half man, half raccoon. As the New Kid, players will join Mysterion, Toolshed, Human Kite, Mosquito, Mint Berry Crunch and a host of others to battle the forces of evil while Coon strives to make his team the most beloved superheroes in history.",
+    "story": "After the events of South Park: The Stick of Truth, the children of South Park become role-playing superheroes. However, a falling-out over Cartman's planned film franchise splinters the boys split into two groups, with some calling for a civil war to make their own franchise. The player again controls The New Kid, though they can now change his gender to female if they wish.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 12.5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-15",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "05/15/2020 05:25 am",
+    "updatedAt": "05/15/2020 05:25 am",
+    "_id": "7f06b693825b40feaca3da805b62a351",
+    "name": "South Park: The Fractured But Whole",
+    "extraData": [
+      "banned in Suadia Arabia: Banned because of extremely offensive content"
+    ],
+    "extraDataFull": [
+      {
+        "name": "South Park: The Fractured But Whole",
+        "details": [
+          "banned in Suadia Arabia: Banned because of extremely offensive content"
+        ],
+        "id": "bi172",
+        "igdbId": 11161,
+        "gbId": 49968,
+        "gbGuid": "3030-49968",
+        "tgdbId": 50582
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Turn-based"
+    ]
+  },
+  {
+    "first_release_date": "05/13/2010",
+    "total_rating": 82,
+    "esrb": "T",
+    "videos": [
+      "qSGPU3FnD8Q"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dft.jpg",
+    "description": "Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper and deeper into the mystery, they’ll face overwhelming odds, plot twists, and cliffhangers. It’s only by mastering the Fight With Light combat mechanic that they can stay one step ahead of the darkness that spreads across Bright Falls.   With the body of an action game and the mind of a psychological thriller, Alan Wake’s intense atmosphere, deep and multi-layered story, and exceptionally tense combat sequences provide players with an entertaining and original gaming experience.",
+    "story": "When the wife of the best-selling writer Alan Wake disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.49,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-15",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/15/2020 05:24 am",
+    "updatedAt": "05/15/2020 05:24 am",
+    "_id": "ef2bdadb74604394ac0015018bc7257f",
+    "name": "Alan Wake",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/16/2013",
+    "total_rating": 93,
+    "esrb": "M",
+    "videos": [
+      "QkkoHAzjnUs",
+      "N-xHcvug3WI",
+      "PIF_fqFZEuk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tgt.jpg",
+    "description": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
+    "story": "Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV. \n \nAmidst the turmoil, three very different criminals plot their own chances of survival and success: Franklin, a street hustler looking for real opportunities and serious money; Michael, a professional ex-con whose retirement is a lot less rosy than he hoped it would be; and Trevor, a violent maniac driven by the chance of a cheap high and the next big score. Running out of options, the crew risks everything in a series of daring",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-14",
+    "howAcquired": "Epic Games Store",
+    "notes": "free",
+    "createdAt": "05/15/2020 04:55 am",
+    "updatedAt": "05/15/2020 04:55 am",
+    "_id": "48b36999f5254d419b5f572da4f68f0c",
+    "name": "Grand Theft Auto V",
+    "extraData": [
+      "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Grand Theft Auto V",
+        "details": [
+          "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+          "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+        ],
+        "id": "bi136",
+        "igdbId": 1020,
+        "gbId": 36765,
+        "gbGuid": "3030-36765",
+        "tgdbId": 7917
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Sport",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2019",
+    "total_rating": 79,
+    "esrb": "M",
+    "videos": [
+      "bH1lHCirCGI",
+      "V5MoJ0GEuGs",
+      "X8Do_zXNc_E"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rsg.jpg",
+    "description": "Prepare to go dark, Modern Warfare is back!  The stakes have never been higher as players take on the role of lethal Tier One operators in a heart-racing saga that will affect the global balance of power. Call of Duty: Modern Warfare engulfs fans in an incredibly raw, gritty, provocative narrative that brings unrivaled intensity and shines a light on the changing nature of modern war.  Players will be thrust into an immersive narrative spanning the entire game. Experience the ultimate online playground with classic multiplayer or squad-up and play cooperatively in a collection of elite operations, accessible to all skill levels.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 64,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-13",
+    "howAcquired": "Battle.net",
+    "notes": "",
+    "createdAt": "05/14/2020 06:29 am",
+    "updatedAt": "05/14/2020 06:29 am",
+    "_id": "962e91ffb0ba4e48b3f90041f9531018",
+    "name": "Call Of Duty: Modern Warfare",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/12/2019",
+    "total_rating": 71,
+    "esrb": "T",
+    "videos": [
+      "cxPlBdk4HXY",
+      "IB9WMa9sxFA",
+      "-sY2-kxW0rk",
+      "KxwUByr7woc",
+      "gxezKs4AZvk",
+      "G3_dAuEqGJo",
+      "m3C808DfgIM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20n5.jpg",
+    "description": "\"A brand-new, fast-paced mech action game from Kenichiro Tsukuda is coming to the Nintendo Switch system. Take your Arsenal, a fully customizable powered suit, out for an array of missions to surmount the enemy at all costs. Choose and equip your Arsenal with a multitude of weapons, obtain more from downed enemy Arsenals, and swap them on the fly to suit your strategy in the face of ever-changing threats.\"",
+    "story": "After a moon collided with the Planet, it radiated a special energy that turned artificial intelligence against humanity. The Outers, a group of pilots who command mechs, gained special abilities after being afflicted by the mysterious energy. They act as humanity's protectors and guardians as the war with the Arms of Immortals (AIs) rages on.[1]",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-05-12",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "05/13/2020 10:25 am",
+    "updatedAt": "05/13/2020 10:25 am",
+    "_id": "fcc842ae26384db79c7efedb90c6e9b4",
+    "name": "Daemon X Machina",
+    "genres": [
+      "Shooter",
+      "Hack and slash/Beat 'em up",
+      "Mech"
+    ]
+  },
+  {
+    "first_release_date": "07/18/2019",
+    "total_rating": 74,
+    "esrb": "T",
+    "videos": [
+      "1RohG-JzXiM",
+      "A41xrnrppKc",
+      "Qo0zVxzilUw",
+      "pE_qNk3ALok"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r88.jpg",
+    "description": "Assemble your ultimate team of Marvel Super Heroes from a huge cast including the Avengers, the Guardians of the Galaxy, the X-Men, and more! Team up with friends to prevent galactic devastation at the hands of the mad cosmic tyrant Thanos and his ruthless warmasters, The Black Order.",
+    "story": "In this new storyline, heroes and villains unite in a race across the Marvel Universe to find the Infinity Stones before Thanos and The Black Order use them to unleash cosmic chaos. From Avengers Tower to the X-Mansion and beyond, every stop on the dangerous quest to thwart Thanos results in unexpected collisions of fan-favorite characters and iconic locations. Get closer to the action by shifting the view to an over-the-shoulder \"Heroic Camera\" perspective—a series first that offers a more immersive way to play single-player or multiplayer on up to four systems. Play online*, offline via local wireless, or simply pass a Joy-Con controller to a friend, so they can join your team. With another pair of Joy-Con™ controllers (sold separately), four players can team up on one system! The drop-in/drop-out co-op possibilities let players create their own \"Ultimate Alliance\" at will.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-05-12",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "05/13/2020 10:25 am",
+    "updatedAt": "05/13/2020 10:25 am",
+    "_id": "3f8dee74dc704c3abfade356d4a8742f",
+    "name": "Marvel Ultimate Alliance 3: The Black Order",
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2017",
+    "total_rating": 70,
+    "esrb": "T",
+    "videos": [
+      "Kae-JjbLsgA",
+      "_q51LZ2HpbE",
+      "lQnPUAb7cOo",
+      "9zjeOjWtKqs",
+      "8tnGE9R-ZQg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20uw.jpg",
+    "description": "Embark on an endless Star Wars action experience from the best-selling Star Wars HD video game franchise of all time. Experience rich multiplayer battlegrounds across all 3 eras - prequel, classic and new trilogy - or rise as a new hero and discover an emotionally gripping single-player story spanning thirty years.  Customise and upgrade your heroes, starfighters or troopers - each with unique abilities to exploit in battle. Ride tauntauns or take control of tanks and speeders. Use the Force to prove your worth against iconic characters like Kylo Ren, Darth Maul or Han Solo, as you play a part in a gaming experience inspired by forty years of timeless Star Wars films.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 17,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-09",
+    "howAcquired": "Origin",
+    "notes": "",
+    "createdAt": "05/14/2020 06:31 am",
+    "updatedAt": "05/14/2020 06:31 am",
+    "_id": "64fff80c778e4b1b8ea6f3fc4469cb81",
+    "name": "Star Wars Battlefront II",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "02/27/2019",
+    "total_rating": 78,
+    "esrb": "T",
+    "videos": [
+      "EiP1vCoSSZU",
+      "uT2LRu5AJlk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zta.jpg",
+    "description": "APE OUT is a wildly intense and colorfully stylized smash ‘em up about primal escape, rhythmic violence, and frenetic jazz. Build up nearly unstoppable momentum and use your captors as both weapons and shields to crush everyone on your procedurally generated path to freedom.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-05-08",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:40 pm",
+    "updatedAt": "08/28/2020 06:40 pm",
+    "_id": "bdf9cdd88bf544c88ce285e8196d833c",
+    "name": "Ape Out",
+    "genres": [
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "06/02/2002",
+    "total_rating": 70,
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1otz.jpg",
+    "description": "Meet Jack Slate, a cop framed for murder and facing execution. Slate escapes from Iron Point Maximum-Security Penitentiary to bring down the criminals that framed. In Dead to Rights, you play the role of Slate, as he fights through the hard streets and corrupt enemies of Grant City. There are plenty of ways go about bringing the conspirators to justice--Jack can perform disarm moves, shoot different weapons, pick locks, fight hand-to-hand, and play minigames such as arm wrestling, bench press, and dancing. In this gritty, crime-noir inspired epic, you're always on the run.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-05-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "05/08/2020 06:30 am",
+    "updatedAt": "05/08/2020 06:30 am",
+    "_id": "32eddca589f5432ab81661c993bfaa5d",
+    "name": "Dead To Rights",
+    "extraData": [
+      "banned in Germany: Banned because of high-impact gory violence."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Dead To Rights",
+        "details": [
+          "banned in Germany: Banned because of high-impact gory violence."
+        ],
+        "id": "bi56",
+        "igdbId": 3872,
+        "gbId": 3032,
+        "gbGuid": "3030-3032",
+        "tgdbId": 2313
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Third-person shooter"
+    ]
+  },
+  {
+    "first_release_date": "10/29/2012",
+    "total_rating": 77,
+    "esrb": "M",
+    "videos": [
+      "ls-J1pbTKyQ",
+      "GdSmH0CxJ4o",
+      "19rfT-6aI8k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xii.jpg",
+    "description": "The American Colonies, 1775. A brave young warrior fights to save his homeland. But what begins as a struggle over territory turns into an extraordinary journey that will transform him into a Master Assassin—and will forever change the destiny of a nation.  You are Connor, warrior son of a Native American mother and British father. As the colonies draw closer to revolution, you will dedicate your life to the freedom of your clan –becoming the spark that ignites the revolution into full blaze. Your crusade will take you through blood-soaked battlefields to crowded city streets, to perilous wilderness and beyond. You will not only witness history—you will make it. Welcome to an entirely new chapter in the Assassin’s Creed saga.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-05-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "05/08/2020 06:29 am",
+    "updatedAt": "05/08/2020 06:29 am",
+    "_id": "dfdb4850ac1f41a8a29ed90f1ced8570",
+    "name": "Assassin's Creed III",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 1266,
+        "name": "Assassin's Creed III",
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "id": "x36032",
+        "gbId": 37494,
+        "gbGuid": "3030-37494",
+        "tgdbId": 9302,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Strategy",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/04/2004",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/laas95haojts1d4gbtmk.jpg",
+    "description": "Tom Clancy's Rainbow Six 3: Raven Shield is a 2003 computer game developed and published by Ubisoft. Released on March 18, 2003, the Rainbow Six video game series is based on Tom Clancy's best-selling novel of the same name.  Based on the Unreal Engine 2.0, Raven Shield is a tactical shooter with realistic properties. Raven Shield moved toward mainstream first-person shooters like Counter-Strike, adapting various features absent in previous versions. These included the ability to see one's weapon while in first-person view, many new weapons and upgrades (including larger magazines and sights), and a redesigned multiplayer.  A console version, entitled Rainbow Six 3, was developed for the Xbox, PlayStation 2, and Nintendo GameCube. This iteration of the game features the same basic engine, models, textures, and artwork, but with significantly different game mechanics, gameplay, and storyline. A port was also released on Mac OS X on December 19, 2003. Due to the console version's success on the Xbox and the popularity of its subscription-based online multiplayer service, Xbox Live, an Xbox-exclusive semi-sequel was released in 2004 titled Rainbow Six 3: Black Arrow. The next full game in the Rainbow Six series, Rainbow Six: Lockdown, was released in 2005.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-05-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "05/08/2020 06:39 am",
+    "updatedAt": "05/08/2020 06:39 am",
+    "_id": "7bfda36d16354cf6943e1c53cc0d3b23",
+    "name": "Tom Clancy's Rainbow Six 3: Black Arrow",
+    "extraData": [
+      "Xbox game plays on Xbox 360"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 47321,
+        "name": "Tom Clancy's Rainbow Six 3: Black Arrow",
+        "details": [
+          "Xbox game plays on Xbox 360"
+        ],
+        "id": "xbox452",
+        "gbId": 17491,
+        "gbGuid": "3030-17491",
+        "tgdbId": 8037,
+        "special": [
+          {
+            "value": "Xbox game plays on Xbox 360",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/09/2009",
+    "total_rating": 50,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/hx6l8rgjb8cmxkrfonyg.jpg",
+    "description": "Discover a thrilling I SPY adventure hidden in a mysterious old house! A clever skeleton traps you inside his spooky mansion with a challenge to find his secret way out. Explore each room of the house in first-person perspective to reveal over 30 I SPY riddles. Solve I SPY riddles, earn clues and play brain-teasing games to uncover the mansion’s secret escape!",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Wii",
+    "consoleId": 5,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-05-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "05/08/2020 06:35 am",
+    "updatedAt": "05/08/2020 06:35 am",
+    "_id": "4a5f4fe009a34b7d8ad5b811b7674a2b",
+    "name": "I Spy Spooky Mansion",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle"
+    ]
+  },
+  {
+    "first_release_date": "11/12/2007",
+    "total_rating": 83,
+    "esrb": "M",
+    "videos": [
+      "wP9LNW1lF4c",
+      "yc0hq4dZK0M",
+      "14Aqfid0TAc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdw.jpg",
+    "description": "From the makers of Far Cry, Crysis offers FPS fans the best-looking, most highly-evolving gameplay, requiring the player to use adaptive tactics and total customization of weapons and armor to survive in dynamic, hostile environments including Zero-G.",
+    "story": "Earth, 2019. A team of US scientists makes a frightening discovery on an island in the South China Sea. All contact with the team is lost when the North Korean Government quickly seals off the area. The United States responds by dispatching an elite team of Delta Force Operators to recon the situation. As tension rises between the two nations, a massive alien ship reveals itself in the middle of the island. The ship generates an immense force sphere that freezes a vast portion of the island and drastically alters the global weather system. Now the US and North Korea must join forces to battle the alien menace. With hope rapidly fading, you must fight epic battles through tropical jungle, frozen landscapes, and finally into the heart of the alien ship itself for the ultimate Zero G showdown.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-30",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/15/2020 04:59 am",
+    "updatedAt": "05/15/2020 04:59 am",
+    "_id": "41c76ceb287e42cf81d4f0bfe9ea6b93",
+    "name": "Crysis",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "06/22/2002",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "w5__J4JCyMg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sa8.jpg",
+    "description": "Eternal Darkness: Sanity's Requiem is a psychological horror action adventure, released in 2002 by Nintendo for the Gamecube. It tells the stories of twelve characters that span across the world and two millennia who have to deal with ancient forces of evil which have been trying to manifest themselves in our world. Chapters take place in Ancient Rome, Persia, the Middle East, and modern-day Rhode Island. Throughout the game, the protagonists will have access to several weapons appropriate for their era, from bastard sword & gladius to flintlock pistol and shotgun.  The game features an involved Magic system, which allows different spells to be created through the combination of runes. These spells can attack enemies, dispel illusions, and heal both the body and items.  Eternal Darkness: Sanity's Requiem also has a unique feature called Sanity. If an enemy sees a character, their Sanity meter drops. When Sanity gets low, hallucinations begin to plague the character. Walls bleed, voices whisper from nowhere, the camera gets disoriented. Sanity can be restored by dealing a finishing move on a dying enemy, or with spells or some items.",
+    "story": "The story of Eternal Darkness takes place over four principal locations which the game skips back and forth between. They include an underground temple complex called the Forbidden City, in Persia; a Khmer temple in Angkor Thom, Cambodia; Oublié Cathedral in Amiens, France (not to be confused with Amiens Cathedral); and the Roivas Family Estate in Rhode Island, which also leads to an ancient underground city named Ehn'gha beneath the mansion. Each time a location is visited, it is done so in a different time period. Spanning from 26 BC to 2000 AD. Almost half of which take place in the 20th century. Each different era and character offers a different periodic and personal perspective on the location. \n \nThe chapters found in the game are not discovered in chronological order. Instead, to make the narrative more dramatic, each chapter jumps around the timeline of the plot. However, despite the overall story skipping back and forth through time, the chapters do follow chronological order within their respective locations. This is because each setting also has its own contained story. \n \nIn 2000 AD, Alexandra Roivas finds herself returning to her family's estate in Rhode Island after her grandfather, Edward Roivas, her only living relative, is found brutally murdered. Two weeks after returning, with the local police having gotten nowhere with the investigation, Alex decides to investigate the mansion for clues, and stumbles upon a secret room containing a book bound with human skin called the Tome of Eternal Darkness. Deciding to read it, she finds it contains accounts of various people in the past, beginning with the story of Pious Augustus.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-04-16",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "04/17/2020 05:06 am",
+    "updatedAt": "04/17/2020 05:06 am",
+    "_id": "5a12b44cc1f34e58bf28237fda8fc1ad",
+    "name": "Eternal Darkness: Sanity's Requiem",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc22",
+        "name": "Eternal Darkness: Sanity's Requiem",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 3907,
+        "gbId": 7512,
+        "gbGuid": "3030-7512",
+        "tgdbId": 6970,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Adventure",
+      "Horror"
+    ]
+  },
+  {
+    "first_release_date": "02/24/2015",
+    "total_rating": 60,
+    "esrb": "M",
+    "videos": [
+      "fow-fbZE1w8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/rmha7oag9nytoxsekmv5.jpg",
+    "description": "Over 9000 Zombies! is top-down arcade action blown out of all reasonable proportions. An endless horde of zombies is coming your way, how long can you survive?",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.79,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-16",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "04/17/2020 05:08 am",
+    "updatedAt": "04/17/2020 05:08 am",
+    "_id": "01ce99c643cc42beae207d36122b77f7",
+    "name": "Over 9000 Zombies!",
+    "genres": [
+      "Shooter",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "08/16/2017",
+    "total_rating": 80,
+    "videos": [
+      "LO1LSG4UBe4",
+      "Cbh6fGMaBMI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1krz.jpg",
+    "description": "Relive the golden age of arcade sports gaming with Super Blood Hockey — A violent homage to classic 8-bit and 16-bit ice hockey games.  Customize your line up and take to the ice, using fast-paced skills and bone-crunching brutality to dominate. Prove your hockey prowess in a deadly global tournament or against friends in 4-player local multiplayer. Build and manage your own squad in Franchise Mode - with the right diet and performance enhancing drugs your team can be season champions!   Key Features  Use superior skating, positioning, strategy and blood-splattering violence  Take on the world in a global tournament, where failure results in execution  Varied challenges and scenarios, including Turbo Mode and 12 vs 12 Mega Rumble  Paint the ice with the blood of your friends in 4-player local multiplayer  Franchise Mode: Create, recruit and manage your own custom team of inmates in a futuristic world of dystopic blood sports  Enjoy the retro beats of an original soundtrack by chiptunist Shawn Daley",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 4.58,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-16",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "04/17/2020 05:07 am",
+    "updatedAt": "04/17/2020 05:07 am",
+    "_id": "e57cb51398164c4dbe320d0b91cdda53",
+    "name": "Super Blood Hockey",
+    "genres": [
+      "Sport",
+      "Indie",
+      "Hockey"
+    ]
+  },
+  {
+    "first_release_date": "08/14/2017",
+    "total_rating": 50,
+    "esrb": "T",
+    "videos": [
+      "KsRTQUjYfXI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsd.jpg",
+    "description": "You'll get caught in the night - NIGHT TRAP!  Originally developed by Digital Pictures in 1987 and released in 1992, Night Trap has been completely rebuilt, bringing it to a level of video quality never before seen.  Night Trap tells the story of five teenage girls spending the weekend at the Martin home. As a member of the Special Control Attack Team, your job is to monitor the home and protect the girls using an intricate system of cameras and traps as it is being invaded by vampires.  Night Trap - 25th Anniversary Edition also includes new features such as deleted scenes, two documentaries, the all-new Theater that allows you to watch all story-related videos uninterrupted, a new mode called Survivor that will test your skills at trapping intruders and behind the scenes production images. For the first time ever, the unreleased prototype Scene Of The Crime will be fully playable and included with Night Trap - 25th Anniversary Edition.",
+    "story": "The player plays as an agent of the Special Control Attack Team (S.C.A.T.), swapping between various security cameras trying to save the guests in the Martin home from vampire like creatures called \"Augers\". To do this, the player controls a series of traps that will kill the creatures if they are set off at the right time and if the agent is watching the room the Augers show up in. Depending on the player's timing and the colors of the cameras the player can either succeed or fail. The player can also reach different endings depending on how many Augers and Martin family members are captured.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 2.99,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-14",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "04/15/2020 06:19 am",
+    "updatedAt": "04/15/2020 06:19 am",
+    "_id": "3d234cf624a84b0883a9cd6bc40e8dac",
+    "name": "Night Trap: 25th Anniversary Edition",
+    "genres": [
+      "Strategy",
+      "Adventure",
+      "Point-and-click"
+    ]
+  },
+  {
+    "first_release_date": "09/18/2017",
+    "total_rating": 74,
+    "esrb": "T",
+    "videos": [
+      "fXY4OMy9IBw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z39.jpg",
+    "description": "Morphite is a stylized FPS sci fi adventure game, inspired by the classics. Research plants and animals, battle hostile entities, and unravel a mystery surrounding a rare material called Morphite.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 2.99,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-14",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "04/15/2020 06:18 am",
+    "updatedAt": "04/15/2020 06:18 am",
+    "_id": "abfcd9941dc54149820e50e473b773f9",
+    "name": "Morphite",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "02/28/2019",
+    "total_rating": 75,
+    "videos": [
+      "_94A3LPZ8s4",
+      "laMURYkJO1s",
+      "zRV2XHDccZo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1i1e.jpg",
+    "description": "ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic. Original Funk Lord (and co-creator) Greg Johnson is back at the helm with the sequel that ToeJam and Earl fans have been waiting for! ​  The iconic ‘90s duo is back in the groove with all-new presents to help them navigate this wack planet \"\"Earth\"\" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!  ​ ToeJam and Earl: Back in the Groove! is a mash-up of the very best  features of the classic console games with a ton of fresh improvements. Grab some homies and get ready for a blast of funky nostalgia as you help ToeJam and Earl return once again to Funkotron.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3.74,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-14",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "04/15/2020 06:18 am",
+    "updatedAt": "04/15/2020 06:18 am",
+    "_id": "87cf9e91869243debfef6004518db2be",
+    "name": "ToeJam & Earl: Back in the Groove",
+    "genres": [
+      "Music",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "06/20/2016",
+    "total_rating": 79,
+    "esrb": "T",
+    "videos": [
+      "wYkdjNo7wEE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqn.jpg",
+    "description": "The team behind the hit party games Fibbage, Quiplash, and YOU DON’T KNOW JACK presents Drawful 2, the game of terrible drawings and hilariously wrong answers!  You use your phone or tablet to draw weird and funny things like “pitcher of nachos” or “death by trombone.” The other players type in what they think the (probably terrible) drawing is and those become the multiple-choice wrong answers. Then everyone - even an audience of potentially thousands – tries to guess the REAL answer.  Drawful 2 is a go-to party game that everyone can play and enjoy!",
+    "story": null,
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0.09,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "04/08/2020 06:13 am",
+    "updatedAt": "04/08/2020 06:13 am",
+    "_id": "04f504ce4f0a4c778197fae0e6a2282b",
+    "name": "Drawful 2",
+    "genres": [
+      "Strategy",
+      "Quiz/Trivia",
+      "Indie",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "09/27/2017",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "YyjTzc7EH4I",
+      "E-6HotrJfBI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ptv.jpg",
+    "description": "Play the story of a golfer, forced to give up all that he holds dear for one final shot at accomplishing his dream.  But all is not so simple in the world of golf. To best today's players you have to be able to keep up with them not just on the course, but also off it.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 7,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "04/08/2020 06:12 am",
+    "updatedAt": "04/08/2020 06:12 am",
+    "_id": "2eef5a28ee4e4fca845622eda30f2182",
+    "name": "Golf Story",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Sport",
+      "Indie",
+      "Golf"
+    ]
+  },
+  {
+    "first_release_date": "06/23/2014",
+    "total_rating": 70,
+    "esrb": "M",
+    "videos": [
+      "nsHcLZGQ81s",
+      "PBb6fHhxtAc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e40.jpg",
+    "description": "Observe. Plan. Execute. Adapt. The latest chapter in the award-winning series, SNIPER ELITE 3 takes players to the unforgiving yet exotic terrain of North Africa in a savage conflict against Germany’s infamous Afrika Korps.  Stalk your targets through the twisting canyons, lush oases and ancient cities of the Western Desert in the deadly rush to sabotage a Nazi super-weapons programme that could end Allied resistance for good.  Use stealth, planning and execution to hunt your targets – whether human or machine. From signature long distance kills, to melee takedowns, distractions and explosive traps, you are as deadly up close as you are from afar.  It must end here. You are the turning point. Because one bullet can change history...",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "04/08/2020 06:44 am",
+    "updatedAt": "04/08/2020 06:44 am",
+    "_id": "9793db37e23b4d949822e9a6b1a3295a",
+    "name": "Sniper Elite III",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Tactical",
+      "Adventure",
+      "Third-person shooter"
+    ]
+  },
+  {
+    "first_release_date": "11/17/2016",
+    "total_rating": 77,
+    "esrb": "M",
+    "videos": [
+      "ZUJZW9Wqckg",
+      "0_TsegjIrHU",
+      "KsxKLJp5hdM",
+      "6WOaKjh9QVg",
+      "Pcuj_cxTw34",
+      "MSxHvf_op8E",
+      "etMGOM3Wlew"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2coc.jpg",
+    "description": "In Killing Floor 2 players descend into Europe where the Zed outbreak has quickly spread and gained unstoppable momentum. Just one month after the conclusion of the events in the original Killing Floor, the clones are everywhere and civilization is in disarray; governments have collapsed, and military forces are gone.",
+    "story": "In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by the corporation Horzine. The Zed outbreak caused by Horzine Biotech’s failed experiments has quickly spread with unstoppable momentum, paralyzing the European Union. Only a month ago, the first Zed outbreak from the original KILLING FLOOR ripped through London; now the specimen clones are everywhere. Civilization is in disarray, communication networks have failed, governments have collapsed, and military forces have been systematically eradicated. The people of Europe are now focused on self-preservation, the lucky few who survived having gone into hiding. \n \nBut not all have given up hope; a motley group of civilians, soldiers, and mercenaries have banded together to fight the outbreaks from privately funded bases across Europe. When a specimen clone outbreak is detected, the players are sent into Zed-laden hot zones to exterminate all threats using whatever means necessary.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "04/08/2020 06:43 am",
+    "updatedAt": "04/08/2020 06:43 am",
+    "_id": "93cffceeaec346d3a1549394ac1b76ce",
+    "name": "Killing Floor 2",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/12/2008",
+    "total_rating": 83,
+    "esrb": "E",
+    "videos": [
+      "uiCm88Me_3U",
+      "BzQuTsIKd14",
+      "92rWWaspoFI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24jz.jpg",
+    "description": "World of Goo is a multiple award winning physics based puzzle / construction game made entirely by two guys. Drag and drop living, squirming, talking, globs of goo to build structures, bridges, cannonballs, zeppelins, and giant tongues. The millions of Goo Balls that live in the beautiful World of Goo are curious to explore - but they don't know that they are in a game, or that they are extremely delicious. Congratulations, and good luck!",
+    "story": "Initially, pipes appear throughout the land, waking up many sleeping Goo Balls who have gone undisturbed until this, as they are filled with a childlike sense of curiosity and naivety they build themselves towards the pipes. Upon reaching the pipe entrance, the Goo Balls are sucked by the pipe system into the \"World of Goo Corporation\" main building where they are processed into many products, for example an energy drink. The excess Goo Balls are left outside the Corporation headquarters where they together begin to build a giant tower. At the end of the first chapter, some Goo Balls escape from a Corporation building by attaching themselves to eyeballs which have the ability to fly. The chapter ends with the Goo Balls \"seeing far away new lands\".",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "Steam",
+    "notes": "Humble Bundle purchase",
+    "createdAt": "04/08/2020 06:43 am",
+    "updatedAt": "04/08/2020 06:43 am",
+    "_id": "514657fc90ad409294e44927ce6dc99f",
+    "name": "World of Goo",
+    "genres": [
+      "Puzzle",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "01/25/2016",
+    "total_rating": 86,
+    "esrb": "E",
+    "videos": [
+      "i7h7AleSCF4",
+      "rDSrYiheVow"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nc1.jpg",
+    "description": "The Witness is an exploration-puzzle game. The game is being developed by a small, independent team, a mix of full-timers and contractors.",
+    "story": "You wake up, alone, on a strange island full of puzzles that will challenge and surprise you. \n \nYou don't remember who you are, and you don't remember how you got here, but there's one thing you can do: explore the island in hope of discovering clues, regaining your memory, and somehow finding your way home. \n \nThe Witness is a single-player game in an open world with dozens of locations to explore and over 500 puzzles. This game respects you as an intelligent player and it treats your time as precious. There's no filler; each of those puzzles brings its own new idea into the mix. So, this is a game full of ideas.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "Steam",
+    "notes": "Humble Bundle purchase",
+    "createdAt": "04/08/2020 06:42 am",
+    "updatedAt": "04/08/2020 06:42 am",
+    "_id": "11801dbc5cc1418f8af6fc04f94b4340",
+    "name": "The Witness",
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "01/10/2010",
+    "total_rating": 80,
+    "esrb": "E10+",
+    "videos": [
+      "sf06P-_1lkU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n43.jpg",
+    "description": "There's something terrible wrong in an alternate dimension! Help Captain Viridian flip to find five crew members, 20 hard-to-reach Trinkets and save a dimension on the brink of destruction. It's a space opera in the most unique scale with a style that only VVVVVV can bring to you. Instead of jumping, control the direction of gravity by inverting your gravity and allowing Captain Viridian to flip between the floors and ceilings of the environment.  For adventurers who save the dimension, there's still hours and hours of new gameplay with all-new Player Levels. Test your mettle and see if you have what it takes to beat a collection of levels created by other famous game developers.  Inspired by classic 8-bit days gone-by and now with experience-heightening 3D, VVVVVV will challenge even the most battle-hardened old-school gamers.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-04-07",
+    "howAcquired": "Steam",
+    "notes": "Humble Bundle purchase",
+    "createdAt": "04/08/2020 06:41 am",
+    "updatedAt": "04/08/2020 06:41 am",
+    "_id": "4b08c709572f41b8b0b774d7ac0d96a1",
+    "name": "VVVVVV",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
+  }
+]

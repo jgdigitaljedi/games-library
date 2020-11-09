@@ -1,0 +1,1622 @@
+[
+  {
+    "first_release_date": "09/21/2002",
+    "total_rating": 65,
+    "esrb": "T",
+    "videos": [
+      "QNeyAmTFJjc",
+      "K08p_oFvJJI",
+      "OliAnoALccg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pek.jpg",
+    "description": "Fox Mccloud takes a break from flying his arwing and signs up for a mission on land, a beautiful, magical land called Dinosaur Planet.  Although the player controls Fox for almost the entirety of the game, the first level of Star Fox Adventures involves playing as another fox called Krystal, who speaks another language, from a different planet called Cerinia.  Krystal is looking for answers to the destruction of her home planet, and the murder of her parents. She lands on Krazoa Palace after receiving a distress call from Dinosaur Planet, but an unfortunate event occurs during her exploration of this location.  Meanwhile, General Pepper contacts the Star Fox Team and asks them to investigate Dinosaur Planet. One of the main reasons for the investigation, is that large chunks of the planet have become detached for an unexplained reason.  Fox McCloud agrees to take a look. On the planet's surface, Fox comes across a magical staff that becomes his sole weapon in the game.  Fox learns from the Triceratops Queen of the EarthWalker Tribe that General Scales, a member of a different tribe, has stolen the four Spellstones from the planet's two Force Point Temples, causing the detachment of parts of the planet.  To prevent the planet from breaking up further and restore it to its original unity, The player must control Fox and restore the Spellstones to the temples. Fox embarks on this quest with the help of the Queen's son, named Prince Tricky, a Triceratops who is approximately the same size as a wolf cub.  Fox discovers that he must also retrieve the other five Krazoa Spirits to repair the planet, and save the life of another ally.  In order for the player to restore the Spellstones and Krazoa spirits, they must navigate through the variety of environments present on Dinosaur Planet, exploring new landscapes, facing new foes and receiving help from new allies that reside there.  Prince Tricky helps in certain situations by using his unique abilities. The player asks Prince Tricky to use these abilities by selecting options from a menu opened with the C-Stick.  As you navigate through the game, your staff acquires new abilities, which are selected by using the same C-Stick menu.  There are moments in the game that require the use of the arwing, a type of spacecraft used by the Star Fox team. However, these moments take up under half an hour of the overall game time.  The game can be described as an Action-Adventure, Open World game that contains strong elements of Fantasy and some elements of Sci-Fi.  It is often described as being similar to The Ocarina Of Time and the other home console Zelda Games.  When engaged with an enemy, the combat is real time, meaning each of Fox's movements in combat require the press of the A button, similar to how each sword swing in Zelda or Skyrim require the press of a button.",
+    "story": "Fox Mccloud investigates a planet on the edge of the Lylat System called Dinosaur Planet, which is falling apart. On the planet's surface, he comes across a magical staff, which becomes his sole weapon. He learns from the Queen of the EarthWalker Tribe that General Scales has stolen the Spellstones from the planet's two Force Point Temples. To prevent the planet from breaking up further and restore it to its original unity, Fox must restore the Spellstones to the temples, with the help of the Queen's son, Prince Tricky. As Fox retrieves the Spellstones, he discovers that he must also retrieve Krazoa Spirits to repair the planet, and save the life of another.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-07-24",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "07/25/2020 07:38 am",
+    "updatedAt": "07/25/2020 07:38 am",
+    "_id": "1422bb81dcf74e99bbeefb6005ea82b6",
+    "name": "Star Fox Adventures",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc70",
+        "name": "Star Fox Adventures",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 2686,
+        "gbId": 19026,
+        "gbGuid": "3030-19026",
+        "tgdbId": 6263,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Simulator",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/20/1993",
+    "total_rating": 76,
+    "videos": [
+      "ZnmnpWKoUS0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co260y.jpg",
+    "description": "Star Fox, released as Starwing in Europe, is a 1993 rail shooter video game developed and published by Nintendo, with assistance from Argonaut Software, for the Super Nintendo Entertainment System. The first game in the Star Fox series, Star Fox follows Fox McCloud and the rest of the Star Fox team defending their homeworld of Corneria against the attacking forces of Andross.",
+    "story": "This game takes place in a binary solar system called the Lylat system, which is inhabited by humanlike animal races (e.g. foxes, frogs, dogs, birds, rabbits, apes, etc.). It contains the planets Corneria and Venom, representing good and evil, respectively. One can visit many other planets, asteroid belts, space stations, etc. while going through the course of the game. Which path the player chooses affects what places they will encounter. \n \nAndross, a scientist, has fled to Planet Venom after being banished from Planet Corneria, and has now declared war on Corneria and unleashed an enormous army to wreak havoc on the Lylat system. General Pepper, the commanding officer of Corneria's defense force, has decided to dispatch a prototype high-performance fighter aircraft called the \"Arwing.\" However, lacking in time to train pilots for the new fighters, he summons the elite mercenary team Star Fox to defeat Andross. Fox McCloud, the leader of the team, is accompanied by his teammates Falco Lombardi, Peppy Hare, and Slippy Toad.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-07-24",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "07/25/2020 07:37 am",
+    "updatedAt": "07/25/2020 07:37 am",
+    "_id": "41b8bbe8a4314c31a6289365ceebe729",
+    "name": "Star Fox",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "03/12/1996",
+    "total_rating": 81,
+    "esrb": "T",
+    "videos": [
+      "li9mwWFoqlk",
+      "BlrNIOgJtA8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1omi.jpg",
+    "description": "You're going down... again. If you thought Descent went to the edge of 360° 3D power-blasting sensory insanity, then prepare yourself. You're about to plunge over the edge, and into the depths of Descent II.Suddenly warped into the outer reaches of the Zeta Aquilae System, your new mission sends you into the black depths of treacherous alien mines. You blast through enemy robots with powerful new tools, leaving their flaming hulks in your exhaust. Your ultimate goal: to exterminate the alien robot stronghold from the enemy Alien Base and claim total control -- it's 30 new levels of outrageous destruction.But this time, you're not alone.Joining you on your deadly new assignment is your loyal Guide-bot. This faithful companion rushes with you through the twists and turns of the menacing darkness, often scouting ahead to hunt down the orbs, powerups and tools you desperately need to complete your job. But beware -- raging enemies are still determined to destroy you, including the menacing Thief-bot who's set on stealing your weapons of destruction and precious powerups. Get ready -- Descent II™ is about to take you on a whole new synapse-smashing ride.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 4,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-20",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "08/26/2020 07:31 am",
+    "updatedAt": "08/26/2020 07:31 am",
+    "_id": "58d23dee9a7f42f2850402bc69706d5d",
+    "name": "Descent II",
+    "genres": [
+      "Shooter",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "11/03/2016",
+    "total_rating": 68,
+    "esrb": "M",
+    "videos": [
+      "LP6FS3hyVfY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r6q.jpg",
+    "description": "Survive the zombie apocalypse with a “Final Fantasy” turn-based combat and permanent death! Manage survivors, craft materials, and make difficult decisions. Defend your camp against hordes of the undead to prevail in this non-linear rogue-lite (comparable to FTL). Innovative Indie Survival-RPG!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-14",
+    "howAcquired": "Green Man Gaming",
+    "notes": "redeemed on Steam",
+    "createdAt": "07/11/2020 07:31 am",
+    "updatedAt": "07/11/2020 07:31 am",
+    "_id": "96fdea8d4b9c4208901784e883cd3f12",
+    "name": "Dead Age",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "10/17/2016",
+    "total_rating": 72,
+    "videos": [
+      "88q2MAAuSc4",
+      "zVBZ1nTEMK8",
+      "qXGMNg_uEuY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ljc.jpg",
+    "description": "A hyper-realistic simulation with plenty of physical puzzles awaits! Did ever wonder what a leaping-laser-mouse-bomb would look like? Or better yet: what it's capable of? Then be ready for your very own ultimate playground with possibilities you didn't know you could imagine. Use physical systems to your advantage, no matter if it’s electricity, explosions, lasers, lightning, or wind. By tinkering with chips you can provide objects with individual properties, like floating, rotation or weight. Nothing is impossible. If you don't like that wooden plank, take your pick from 15 different materials and millions of colors. It is, after all, your own machine... Additionally, we also let you use the Steam Workshop to gain access to an unending supply of puzzles and machines to implement into your game. And when you build your ultimate machine, you can share it with the whole world with a single click.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0.99,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-13",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "07/17/2020 12:16 pm",
+    "updatedAt": "07/17/2020 12:16 pm",
+    "_id": "fa5c30670cb349958ef5efd400b856a0",
+    "name": "Crazy Machines 3",
+    "genres": [
+      "Puzzle",
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "04/29/2020",
+    "total_rating": 81,
+    "videos": [
+      "M_bgPefCyfA",
+      "hdsCVmrfrjI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dru.jpg",
+    "description": "Publisher Dotemu (Wonder Boy, Windjammers 1/2) and developers Lizardcube (Wonder Boy) and Guard Crush Games today revealed Streets of Rage 4, an all-new continuation of SEGA’s iconic arcade brawler series known for its radical fights, jammin’ ‘90s beats and dashing sparring gloves and bandanas.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 50,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-07-10",
+    "howAcquired": "Limited Run Games",
+    "notes": "Limited Run Games physical copy with soundtrack CD and poster",
+    "createdAt": "07/11/2020 07:28 am",
+    "updatedAt": "07/11/2020 07:28 am",
+    "_id": "c14ee53144934ef08062fefb2141eacc",
+    "name": "Streets of Rage 4",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "11/10/2014",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "mafgqiq8_Ik",
+      "ZDvYJGquXgE",
+      "BPNkDfampKY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t95.jpg",
+    "description": "The improved and enhanced Halo: The Master Chief Collection is included with Xbox Game Pass. Featuring visual enhancements with up to 4K UHD resolution on Xbox One X, improved matchmaking, offline LAN, customizable installation options, and faster load times, it’s the definitive way to experience the ultimate Halo saga. Includes the extensive suite of campaign, multiplayer and additional features from Halo: Combat Evolved Anniversary, Halo 2: Anniversary, Halo 3, and Halo 4 - all updated to run at 60FPS.",
+    "story": "Halo: The Master Chief Collection includes Halo 2: Anniversary, celebrating the 10 year anniversary of the iconic fan favorite. The campaign features a “Classic Mode” to instantly switch between the remastered next-gen graphics and original game, updated sound effects, and completely new cut-scenes created by Blur Studios. Discover new story elements with extended cut scenes, hidden terminal videos, and uncover clues about the story of Halo 5: Guardians. Utilize game-altering Skulls to experience the campaign in a whole new way. For multiplayer you have access to all of the original multiplayer maps from Halo 2 and Halo 2 Vista included, exactly as you remember them. Play on fan favorites including Ivory Tower, Ascension, and Lockout, plus 6 completely re-imagined maps that take full advantage of the capabilities of the Xbox One.*",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 4,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 10,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-09",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "07/17/2020 12:15 pm",
+    "updatedAt": "07/17/2020 12:15 pm",
+    "_id": "81b327bfdaef4f63bf55b52b7df01f5b",
+    "name": "Halo: The Master Chief Collection",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "08/12/2013",
+    "total_rating": 75,
+    "esrb": "M",
+    "videos": [
+      "O90W_yKFqsc",
+      "AsEigjyLKHo",
+      "4uaPImEg13s",
+      "f8ZMDfO88Xs",
+      "Hmp1da7pXTw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u7.jpg",
+    "description": "Payday 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf and Chains - as they descend on Washington D.C. for an epic crime spree.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-09",
+    "howAcquired": "Steam",
+    "notes": "summer sale",
+    "createdAt": "07/17/2020 12:15 pm",
+    "updatedAt": "07/17/2020 12:15 pm",
+    "_id": "cd1ea6f502b9447e9ac43634d2487d30",
+    "name": "Payday 2",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Tactical"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1984",
+    "esrb": "E",
+    "videos": [
+      "SSpx3ejNtrE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/afv4zghwj7saoc9ffjat.jpg",
+    "description": "A sequel to Konami's Track & Field based on the 1988 Olympics in Seoul, South Korea. The game features three different playing modes and 15 different sporting events.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-07-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+    "createdAt": "07/07/2020 12:25 pm",
+    "updatedAt": "07/07/2020 12:25 pm",
+    "_id": "93699ecba0e34c2091ef68ff7ca00960",
+    "name": "Track & Field II",
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": [
+      {
+        "id": "nes443",
+        "name": "Track & Field II",
+        "details": [
+          "NES exclusive game"
+        ],
+        "igdbId": 20903,
+        "gbId": 11289,
+        "gbGuid": "3030-11289",
+        "tgdbId": 324,
+        "isExclusive": [
+          {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Track",
+      "Power pad"
+    ]
+  },
+  {
+    "first_release_date": "10/17/1988",
+    "videos": [
+      "PQWhTjfNWPQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ubhplcepfprklyw68zzi.jpg",
+    "description": "The Black Bass is a fishing game designed for the Nintendo Entertainment System by HOT B games and released in 1988. Although not presented as a sequel, this game is the second in the Black Bass series-the first game being a Japan-exclusive.",
+    "story": "In this basic fishing game, the player attempts to catch as many black bass as possible throughout the day. The game allows for beginner mode and ranked mode. The ranked mode requires a password, and allows the player to select a specific location on the lake to begin fishing.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-07-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+    "createdAt": "07/07/2020 12:24 pm",
+    "updatedAt": "07/07/2020 12:24 pm",
+    "_id": "911e07204597452aac2e4526058453c7",
+    "name": "The Black Bass",
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": [
+      {
+        "id": "nes405",
+        "name": "The Black Bass",
+        "details": [
+          "NES exclusive game"
+        ],
+        "igdbId": 17458,
+        "gbId": 5643,
+        "gbGuid": "3030-5643",
+        "tgdbId": 1650,
+        "isExclusive": [
+          {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Simulator",
+      "Sport",
+      "Fishing"
+    ]
+  },
+  {
+    "first_release_date": "03/27/2002",
+    "total_rating": 81,
+    "esrb": "E",
+    "videos": [
+      "NVXGKfxWAI4",
+      "c9-hdtsy0fA",
+      "ABxvDcPpJHw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpz.jpg",
+    "description": "The premise of Kingdom Hearts is designed around traveling to a collection of levels that are both original designs, and based on various Disney stories, referred to in-game as \"Worlds\". The Worlds are populated by NPC's, based on relevant characters from the corresponding Disney story, for example, the World based on Disney's Alice in Wonderland features appearances by Alice, the White Rabbit, and the Queen of Hearts. Interacting with these characters forms part of gameplay, while combating the games enemies, the \"Heartless\" forms the other.  Successful completion of a World is accomplished by defeating a key foe, which is either the primary villain from the Disney story, a unique Heartless of particular strength, or a combination thereof. Each world has a key foe which must be defeated, although there are many mini-bosses, side quests and treasures to be found that contribute to character progression within the game, and give bonuses for their completion in the form of weapons, items, and bonus scenes.  The game uses an experience based progression system, with experience gained by defeating foes. Experience gained rises in relation to the strength of the foe, and is consistent for each enemy over the course of the game. Levels are gained with experience, and provide increases to stat attributes in strength, defence, magic, hit points, magic points and ability points, with a new, predetermined ability unlocked approximately every four levels. Enemies also drop a combination of four types of reward upon death, green orbs that replenish HP, blue, translucent bubbles that replenish MP, yellow diamonds that contribute funds to the in-game currency \"Munny\", and tiny chests that when picked up, add a item to the players inventory based on the foe defeated. Such items include those used to restore HP and MP, items to aid party members or synthesis materials which can be used to create weapons and armor.",
+    "story": "The universe of Kingdom Hearts is a collection of various levels, referred to as \"worlds\", through which the player must progress. Thirteen can be accessed in the game and one, Disney Castle, is shown in cutscenes. Additional worlds are mentioned by various characters but are inaccessible because they have been destroyed by the Heartless. Ten Disney worlds are based on fiction, primarily from the Disney animated features canon, and the other four were created by Square specifically for the game. \n \nThe graphics and characters of each world were designed to resemble the artwork style of each Disney film. Each Disney world is inhabited by characters from the film: including Hercules and Philoctetes in Olympus Coliseum, and Aladdin, Princess Jasmine and Jafar in Agrabah. Each world is disconnected from the others and exists separately. Most characters in the world are unaware of other ones, with few exceptions. Players travel from one world to another via Gummi Ship. \n \nThe worlds created specifically for the game mirror the overall appearance of the other worlds and feature either new characters or ones from several Final Fantasy games. The new worlds include: the Destiny Islands, where the story opens; Traverse Town, which serves as a launching point for most of the game; Hollow Bastion, which many of the Final Fantasy characters call home; and the End of the World, a large, dark world created from the remnants of various worlds consumed by the Heartless. The main characters travel from world to world to seal each \"Keyhole\"; this protects the world from the Heartless and ultimately from destruction. They also try to minimize their interaction with characters of other worlds to maintain a balance of separation. This sometimes requires Sora, Donald and Goofy to blend in with the world inhabitants by changing their physical appearance. \n \nKingdom Hearts begins with Sora's Dive to the Heart, which foreshadows the events that will soon take place, but soon progresses to Destiny Islands, where Sora lives with his two best friends, Riku and Kairi. The three friends seek to leave the islands to explore new worlds and have prepared a raft for this purpose. One night, the islands are attacked by darkness and shadow creatures. Sora seeks out his friends, finding Riku first; Riku disappears into darkness, curious about what it contains. Soon after, Sora obtains a mysterious weapon, the Keyblade, to defend himself. Using it to fend off the creatures, he heads for a secret cave, where he finds Kairi near a door. She turns to him, saying his name as the door behind her blows open. The ensuing blast of darkness sends Sora and Kairi both out of the cave. The islands are soon destroyed, and Sora is left adrift, Riku and Kairi's whereabouts unknown.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-07-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+    "createdAt": "07/07/2020 12:28 pm",
+    "updatedAt": "07/07/2020 12:28 pm",
+    "_id": "a2a761e50c5c46a0ad3955a288c9fbed",
+    "name": "Kingdom Hearts",
+    "extraData": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Kingdom Hearts",
+        "details": [
+          "Sony PlayStation 2 exclusive"
+        ],
+        "id": "ps2243",
+        "igdbId": 1219,
+        "gbId": 10983,
+        "gbGuid": "3030-10983",
+        "tgdbId": 2559,
+        "isExclusive": [
+          {
+            "name": "Sony Playstation 2",
+            "id": "ccl21",
+            "igdbId": 8,
+            "gbId": 19,
+            "gbGuid": "3045-19",
+            "tgdbId": 11
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "11/05/1997",
+    "esrb": "T",
+    "videos": [
+      "LmTLexOJIM4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/mxausltymd3nbkcmpkv2.jpg",
+    "description": "The Granstream Saga (グランストリーム伝記 Guransutorīmu Denki) is an action role-playing game for the PlayStation 1.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-07-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "5 games this month so could say $40 divided by 5 = $8 per game",
+    "createdAt": "07/07/2020 12:28 pm",
+    "updatedAt": "07/07/2020 12:28 pm",
+    "_id": "c48f9035dfc747478d5ef2fcfb1c5338",
+    "name": "The Granstream Saga",
+    "extraData": [
+      "Sony PlayStation exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "The Granstream Saga",
+        "details": [
+          "Sony PlayStation exclusive"
+        ],
+        "id": "psx455",
+        "igdbId": 19156,
+        "gbId": 11768,
+        "gbGuid": "3030-11768",
+        "tgdbId": 12085,
+        "isExclusive": [
+          {
+            "name": "Sony PlayStation",
+            "id": "ccl20",
+            "igdbId": 7,
+            "gbId": 22,
+            "gbGuid": "3045-22",
+            "tgdbId": 10
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/29/1997",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co258h.jpg",
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-07-07",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "07/07/2020 12:27 pm",
+    "updatedAt": "07/07/2020 12:27 pm",
+    "_id": "10bc3c5e331e4353a872d39071e23cf3",
+    "name": "Courier Crisis",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Action"
+    ]
+  },
+  {
+    "first_release_date": "09/26/2017",
+    "total_rating": 54,
+    "videos": [
+      "w_GhE4Anh8E"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1it0.jpg",
+    "description": "Stable Orbit is a highly realistic space management simulation game. Set in 2034, an unprecedented ‘All Nations Space Coalition’ has been formed around a shared desire to rebuild mankind’s permanent presence in space. But space is a dangerous place. The only things between survival and your crew suffocating, blood boiling and radiation overdose are the thin walls of the space station.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-07",
+    "howAcquired": "Green Man Gaming",
+    "notes": "redeemed on Steam",
+    "createdAt": "07/11/2020 07:30 am",
+    "updatedAt": "07/11/2020 07:30 am",
+    "_id": "3b04903a4fb14e8a8456e6e3e372a6e2",
+    "name": "Stable Orbit",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/29/2016",
+    "total_rating": 73,
+    "esrb": "E",
+    "videos": [
+      "coKjsUpdAXY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i4q.jpg",
+    "description": "Hue is a stark puzzle platformer where you shift the hue of the world, creating rifts when colours collide.In this world, everyone sees in grayscale. Anne, a researcher specialising in colour theory, has created a mysterious ring which grants the ability to perceive and alter colour. After a fracas with her research assistant, she disappears into a coloured void. You play as Hue, Anne’s son, as he discovers fragments of his missing mother’s research and learns to perceive and alter colour for the first time.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-03",
+    "howAcquired": "Epic Games Store",
+    "notes": "free",
+    "createdAt": "07/03/2020 09:01 am",
+    "updatedAt": "07/03/2020 09:01 am",
+    "_id": "b863ccb5c028442095d2fb493cf9d6a3",
+    "name": "Hue",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/22/2016",
+    "total_rating": 78,
+    "esrb": "E10+",
+    "videos": [
+      "_j6FjYoNxt4",
+      "p14IvU9P06c",
+      "1InXWY4EkQY",
+      "w2FCeInOxrw",
+      "YzqvfBbP3Mg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrj.jpg",
+    "description": "The worms are back in their most destructive game yet! With a gorgeous, hand-drawn 2D look, brand new weapons, the introduction of crafting, vehicles and buildings plus the return of some much-loved classic weapons and gameplay, Worms W.M.D is the best worms experience ever.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 6,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 6,
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 8,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-01",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "07/07/2020 12:29 pm",
+    "updatedAt": "07/07/2020 12:29 pm",
+    "_id": "e87707da2271474fb34ffd310d45dc35",
+    "name": "Worms W.M.D",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2017",
+    "total_rating": 69,
+    "esrb": "E10+",
+    "videos": [
+      "t1bxmKxH_NI",
+      "XcRMw8lTiIU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8z.jpg",
+    "description": "Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky. Venture down into lost ancient ruins where each step leads you closer to the end of the world.  AER puts you in the shoes of Auk, a magical shape-shifting girl who can transform between human and bird.",
+    "story": "The gods of old are forgotten, lost in the events that shattered the world, leaving only fragments of islands in the sky. This mystic world of endless skies, colorful islands and ancient ruins is in danger of falling into darkness. As one of the last few shapeshifters, you are sent on a pilgrimage to the Land of Gods. Uncover the secrets that will help save reality itself.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-01",
+    "howAcquired": "Epic Games Store",
+    "notes": "free",
+    "createdAt": "07/03/2020 09:00 am",
+    "updatedAt": "07/03/2020 09:00 am",
+    "_id": "9f38b1f560b648d78c390c7c74cb81c1",
+    "name": "AER: Memories of Old",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/22/2016",
+    "total_rating": 78,
+    "esrb": "E10+",
+    "videos": [
+      "_j6FjYoNxt4",
+      "p14IvU9P06c",
+      "1InXWY4EkQY",
+      "w2FCeInOxrw",
+      "YzqvfBbP3Mg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrj.jpg",
+    "description": "The worms are back in their most destructive game yet! With a gorgeous, hand-drawn 2D look, brand new weapons, the introduction of crafting, vehicles and buildings plus the return of some much-loved classic weapons and gameplay, Worms W.M.D is the best worms experience ever.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 6,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 6,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 9,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-07-01",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "07/02/2020 07:53 am",
+    "updatedAt": "07/02/2020 07:53 am",
+    "_id": "6c65c9b1078d435797f1f1aa935de993",
+    "name": "Worms W.M.D",
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "party"
+    ]
+  },
+  {
+    "first_release_date": "11/07/2019",
+    "total_rating": 70,
+    "esrb": "T",
+    "videos": [
+      "9ewiJJe_nYI",
+      "04KPiGmC7Lc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co209t.jpg",
+    "description": "Hustle by day and risk it all at night in Need for Speed Heat, a white-knuckle street racer, where the lines of the law fade as the sun starts to set. By day, Palm City hosts the Speedhunter Showdown, a sanctioned competition where you earn Bank to customize and upgrade your high-performance cars. At night, ramp up the intensity in illicit street races that build your reputation, getting you access to bigger races and better parts. But stay ready – cops are waiting and not all of them play fair",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 28,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-30",
+    "howAcquired": "Steam",
+    "notes": "steam summer sale",
+    "createdAt": "07/02/2020 07:55 am",
+    "updatedAt": "07/02/2020 07:55 am",
+    "_id": "c49837dcb519447a9a4bbe4e5f2afb3e",
+    "name": "Need for Speed: Heat",
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "03/05/2020",
+    "total_rating": 89,
+    "videos": [
+      "v2OH2OtjnhI",
+      "G32_q_3es8E",
+      "YkBrNGeFwoU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20n4.jpg",
+    "description": "Black Mesa is a re-envisioning of Valve Software's classic science fiction first person shooter, Half-Life. Powered by Source Engine, You will re-visit the inaugural role of Gordon Freeman and his memorable journey through the Black Mesa Research Facility. Expect detailed environments to explore, a huge cast of characters and experimental weaponry. All-new music, voice acting, choreography and added dialogue give way to a more expansive and immersive experience than ever before.",
+    "story": "The plot of Black Mesa is almost identical to Half-Life's storyline, playable through the \"Lambda Core\" chapter. As in the original game, the player controls Gordon Freeman, a scientist working at the Black Mesa Research Facility. He is tasked to place a sample of a strange material into an electromagnetic instrument, using the Hazardous Environment Suit Mark IV to do so safely. However, the sample material causes a \"resonance cascade\", devastating the facility and creating an interdimensional rift to an alien dimension called Xen, bringing its alien creatures to Earth. \n \nFreeman survives, finds other survivors, and makes his way to the surface with the protection of his hazard suit to get help. Upon reaching the surface, however, he finds that the facility is being cleansed of any living thing - human or alien - by armed forces. From other scientists, Freeman finds the only way to stop the alien invasion is to cross over to Xen and destroy the entity holding the portal open.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 13,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-28",
+    "howAcquired": "Steam",
+    "notes": "Steam summer sale",
+    "createdAt": "06/28/2020 07:56 am",
+    "updatedAt": "06/28/2020 07:56 am",
+    "_id": "7ec0ffc3c8084b41bb86793fa8a9c5a6",
+    "name": "Black Mesa",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "Indie",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "12/16/2015",
+    "total_rating": 64,
+    "esrb": "M",
+    "videos": [
+      "W37eynFUi1A",
+      "0vTxsv3oK_s"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2699.jpg",
+    "description": "A world where time has no meaning - and evil knows no bounds. Torn from a world long gone, the time traveling warrior Turok has found himself thrust into a savage land torn by conflict.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-28",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/28/2020 07:55 am",
+    "updatedAt": "06/28/2020 07:55 am",
+    "_id": "5716c74b9c164f2b8b36124981ca64d1",
+    "name": "Turok",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "04/24/2017",
+    "total_rating": 62,
+    "esrb": "M",
+    "videos": [
+      "JtIpEAQgLvM",
+      "NKmi3Yu6IKc",
+      "z33Mjdg7BBY",
+      "xDAK9_XU0Tg",
+      "2lmntSa7qTk",
+      "5pO8H4qidxA",
+      "CX-rJUXpn2E",
+      "TQWdjV5833U",
+      "_seqcrC3S4k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgp.jpg",
+    "description": "Go behind enemy lines with the ultimate modern military shooter. Play as an American sniper dropped in Georgia, near Russian border. Choose your own path to accomplish your missions across an unforgiven open world.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3.33,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-27",
+    "howAcquired": "Steam",
+    "notes": "bought in bundle with all 3 Sniper: Ghost Warrior games for 9.99",
+    "createdAt": "06/28/2020 07:54 am",
+    "updatedAt": "06/28/2020 07:54 am",
+    "_id": "872d72860fa040d39172798e85850196",
+    "name": "Sniper: Ghost Warrior 3",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "06/23/2010",
+    "total_rating": 57,
+    "esrb": "M",
+    "videos": [
+      "C4URFHKeKvU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e42.jpg",
+    "description": "The game is a tactical shooter played from a first-person perspective. As the title suggests, a large portion of the game consists of stealth, staking out targets and firing sniper rifles. Bullet trajectories are subject to wind, gravity and flight time, all of which players must account for when taking shots. To simplify this procedure, easier difficulty settings contain indicators that highlight enemies and show precisely where a bullet will hit.  The main weapons used in the game are silenced pistols, knives and various types of sniper rifles. In missions that are played with characters who are not snipers, the stealth aspect is dropped in favor of faster-paced \"run and gun\" scenarios. An exception to this are spotting missions, in which the primary objective consists of marking targets for a computer-controlled sniper character.  Most of the game takes place in a dense jungle environment. Waypoint overlays at all times display the correct routes through the areas players must traverse. While these routes need not be followed exactly, the level design usually ensures an overall linear path due to obstacle placement and invisible walls. Many waypoints trigger scripted mission events, and some waypoints act as checkpoints, which automatically save the game.  The single player campaign of Sniper: Ghost Warrior is made up of four separate acts, each of which deals with a different conflict. All acts are split up into various missions, which usually depict the same event from different points of view. For example, in one segment players may be participating in an infantry assault on an enemy camp, while the next segment has them assuming the role of a supporting sniper who backs up the assault. There is downloadable content available for the title that seamlessly continues the story line with three additional campaign missions.",
+    "story": "In the game, players take the role of various characters for different missions. Among them are a sniper, Sergeant Tyler \"Razor Six-Four\" Wells, for long range missions and stealth assignments, a Delta Force operator, Private Cole Anderson, as well as a rebel, El Tejon, for missions involving direct firefights. The main plot centers around a highly trained special ops unit that is sent into the fictional country of Isla Trueno, whose democratic government has been overthrown by a hostile force. \n \nUndercover CIA Agent Mike Rodriguez infiltrates the entourage of General Vasquez in order to set up a shot for the sniper-spotter team Alpha Nine. Killing the general would put an end to the regime on Isla Trueno. During the assassination attempt, Agent Rodriguez is compromised and captured, and General Vasquez escapes. After a series of missions, the assault team Delta Three, supported by sniper unit Razor Six Four, manages to free Agent Rodriguez from an enemy camp. \n \nWith Vasquez on the loose, Delta Three and Razor Six-Four are sent to set up an air strike on a cocaine plantation. After the successful destruction of the plantation, the evacuation chopper comes under attack and has to leave. Razor Six Four makes his way through enemy territory in order to reach the new evacuation point from where he is extracted. \n \nAgent Rodriguez teams up with Sergeant Tyler Wells to steal plans of a nuclear warhead from an enemy camp. The mission is a success, but Agent Rodriguez turns out to be a traitor. He takes the data and leaves Sergeant Wells to be shot by the enemy. A rebel leader called El Tejon rescues Sergeant Wells, who then tracks down Rodriguez, kills him and retrieves the data. \n \nBecause the data files are incomplete, the Alpha Nine sniper-spotter team steals the rest of the data from the enemy. Together with Razor Six Four, Alpha Nine then eliminates Ernesto Salazar, General Vasquez' advisor. Decryption of the stolen data uncovers the location of a secret uranium mine on Isla Trueno. Delta Three and Razor Six-Four enter the mine facilities in an enemy truck, free the civilian workers and destroy the compound. To fully dissolve the now weakened regime, a second attempt is made to kill General Vasquez. Razor Six-Four completes the assignment successfully, and the game ends the moment Vasquez is struck by the bullet.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3.33,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-27",
+    "howAcquired": "Steam",
+    "notes": "bought in bundle with all 3 Sniper: Ghost Warrior games for 9.99",
+    "createdAt": "06/28/2020 07:52 am",
+    "updatedAt": "06/28/2020 07:52 am",
+    "_id": "60a42e580aca44d48f1363071345a31f",
+    "name": "Sniper: Ghost Warrior",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Tactical",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "03/09/2015",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": [
+      "cVhYSyVbGBs",
+      "A_zDorj9nZI",
+      "i0-ClwwWQeM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mx3.jpg",
+    "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience. From the makers of the Cities in Motion franchise, the game boasts a fully realized transport system. It also includes the ability to mod the game to suit your play style as a fine counter balance to the layered and challenging simulation. You’re only limited by your imagination, so take control and reach for the sky!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 6,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-26",
+    "howAcquired": "Steam",
+    "notes": "Steam summer sale",
+    "createdAt": "06/27/2020 08:08 am",
+    "updatedAt": "06/27/2020 08:08 am",
+    "_id": "478bbcb1c8c74eb8951c9023b87a7d26",
+    "name": "Cities: Skylines",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "10/26/2017",
+    "total_rating": 85,
+    "esrb": "M",
+    "videos": [
+      "2PVod121OHo",
+      "MTVnCCnJh-0",
+      "Pz04WeJin_k",
+      "Ru_PrDRyqOQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21c5.jpg",
+    "description": "Wolfenstein II: The New Colossus is the eleventh installment of the Wolfenstein series and a sequel to the 2014's Wolfenstein: The New Order. The game follows the main protagonist, William Joseph \"B.J.\" Blazkowicz, in his efforts to ignite a Second American Revolution.  The game is played from a first-person perspective and most of its levels are navigated on foot. The story is arranged in chapters, which players complete in order to progress. A binary choice in the prologue alters the game's entire storyline; some characters and small plot points are replaced throughout the timelines. The game features a variety of weapons, most of which can be dual wielded. A cover system is also present.",
+    "story": "After the events of the first game, in which General Wilhelm \"Deathshead\" Strasse is eliminated, the Kreisau Circle retrieves the critically injured William \"B.J.\" Blazkowicz from Deathshead's fortress before destroying it with a nuclear cannon. He. is still recovering from his wounds on a stolen U-boat called Eva’s Hammer. \n \nSuddenly, the U-boat is attacked by Frau Engel, a sadistic Nazi commander and captures Caroline. Blazkowicz devises a plan to get himself captured and taken to Engel's airship, the Ausmerzer, which is suspending the U-boat above water. Engel tries to get her daughter Sigrun to decapitate Caroline, but the former refuses, resulting in Engel killing Caroline herself. Sigrun has a change of heart and tackles Engel, allowing Blazkowicz to use Caroline's armor. Blazkowicz disconnects Eva's Hammer from the Ausmerzer and flees back to the U-boat with Caroline's body. \n \nNow armed with Caroline's armor, B.J is ready to return stateside, avenge his friends, kill every Nazi in sight and spark the second American Revolution.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-26",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/27/2020 08:07 am",
+    "updatedAt": "06/27/2020 08:07 am",
+    "_id": "dcee08e8110a4b3fb3da406760dbc181",
+    "name": "Wolfenstein II: The New Colossus",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "07/15/2015",
+    "total_rating": 55,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/tn7fvpdq7pcx23mfdmo3.jpg",
+    "description": "Imagine taking the perfect online gaming experience and one of the most popular Worms games ever made, adding a touch of Steam achievements, leaderboards, cloud saves, full controller support; a little sprinkle of 1080 / 60FPS, and you have Worms World Party Remastered!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-25",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/26/2020 06:55 am",
+    "updatedAt": "06/26/2020 06:55 am",
+    "_id": "c8d07cfa52d7499a8cdfd59e33b88053",
+    "name": "Worms World Party Remastered",
+    "genres": [
+      "Strategy",
+      "Indie",
+      "Turn-based"
+    ]
+  },
+  {
+    "first_release_date": "01/28/1999",
+    "total_rating": 82,
+    "esrb": "",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rkc.jpg",
+    "description": "Those intrepid invertebrates return with a vengeance in the much-loved Worms™ Armageddon. It’s a whole new can of worms! It’s hilarious fun that you can enjoy on your own or with all your friends.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-25",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/26/2020 06:54 am",
+    "updatedAt": "06/26/2020 06:54 am",
+    "_id": "41087cfde97b4cfc889a25f1a01f0d67",
+    "name": "Worms Armageddon",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Strategy",
+      "Turn-based"
+    ]
+  },
+  {
+    "first_release_date": "02/01/1996",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wob.jpg",
+    "description": "Worms United is a Miscellaneous game, developed by Team 17 and published by Ocean, which was released in Europe in 1996.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 1.2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-25",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/26/2020 06:53 am",
+    "updatedAt": "06/26/2020 06:53 am",
+    "_id": "f2f1d4c47a724ecb8f1efaaa684de57a",
+    "name": "Worms United",
+    "genres": [
+      "Strategy",
+      "Turn-based"
+    ]
+  },
+  {
+    "first_release_date": "08/22/2016",
+    "total_rating": 78,
+    "esrb": "E10+",
+    "videos": [
+      "_j6FjYoNxt4",
+      "p14IvU9P06c",
+      "1InXWY4EkQY",
+      "w2FCeInOxrw",
+      "YzqvfBbP3Mg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrj.jpg",
+    "description": "The worms are back in their most destructive game yet! With a gorgeous, hand-drawn 2D look, brand new weapons, the introduction of crafting, vehicles and buildings plus the return of some much-loved classic weapons and gameplay, Worms W.M.D is the best worms experience ever.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 6,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 6,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 6,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-25",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/26/2020 06:50 am",
+    "updatedAt": "06/26/2020 06:50 am",
+    "_id": "de0851ce23cd411ab17d554175f8a131",
+    "name": "Worms W.M.D",
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ]
+  },
+  {
+    "first_release_date": "10/20/2016",
+    "total_rating": 83,
+    "esrb": "M",
+    "videos": [
+      "-1xAcnpKvcI",
+      "QP1fJDVhYDY",
+      "3qqkfMXYtKI",
+      "YwSFUNMrWvk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o58.jpg",
+    "description": "Discover classic Battlefield gameplay with epic multiplayer and an adventure-filled campaign. Experience the Dawn of All-Out War, Only in Battlefield 1.  Fight your way through epic battles going from tight urban combat in a besieged French city to big open spaces in the Italian Alps or frantic combats in the Arabic sand dunes. Experience large-scale battles as infantry or piloting vehicles on land, air and sea, from the tanks and bikes on the ground, to bi-planes and gigantic battleships.  Discover a new world at war through an adventure-filled campaign, or join in epic multiplayer battles with up to 64 players. Adapt your tactics and strategy to the earth-shattering, dynamic environments and destruction.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 5,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-24",
+    "howAcquired": "Origin",
+    "notes": "",
+    "createdAt": "06/26/2020 06:49 am",
+    "updatedAt": "06/26/2020 06:49 am",
+    "_id": "0a9feaa6ac974216a532a598baa4dd88",
+    "name": "Battlefield 1",
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "06/19/2019",
+    "total_rating": 76,
+    "videos": [
+      "pr5SjjRZgf4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m2h.jpg",
+    "description": "198X is not just a beat ’em up, a shoot ’em up, a racing game, a ninja game and an RPG. This is a love letter to the golden age of arcade games – yet with a scope that was never possible in the actual 1980s. It’s a story about finding yourself – and your self-confidence – in the world of video games. A coming-of-age story told through multiple game genres, worlds and characters. Feel the sensation of fighting, shooting, driving, jumping and role-playing – combined with emotional, cinematic storytelling.  And what happens when the line between reality and game starts to blur…?",
+    "story": "\"The game is set in Suburbia, just outside the City, sometime in 198X. It follows the journey of Kid, a teenager stuck between the limitations of innocent youth and the obligations of inevitable adulthood. The story unfolds when Kid discovers the local arcade – finding new worlds, and new meaning, in video games. For every visit to the arcade – every game uncovered, every move mastered, every demon defeated – Kid grows stronger. And the lines between game and reality starts to blur…\"",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-16",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/16/2020 09:44 am",
+    "updatedAt": "06/16/2020 09:44 am",
+    "_id": "373c6dd6a2af4d85a4d3f8505cb8401f",
+    "name": "198X",
+    "genres": [
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "01/09/2002",
+    "total_rating": 70,
+    "videos": [
+      "aDJMunxi4mE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gb7.jpg",
+    "description": "The game brings back the team play composed by three characters each that was a tradition in previous games. The game has also several important changes in the gameplay, like the \"Free Cancel System\" or \"Max Mode System\", the \"Quick Emergency Evasion\" and \"Quick MAX Mode Activation\", aside from the countless changes in each character's special moves and their properties.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-13",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "06/13/2020 07:46 am",
+    "updatedAt": "06/13/2020 07:46 am",
+    "_id": "92eff0bd40a145618de1669e7003e1a6",
+    "name": "The King of Fighters 2002",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "01/01/1994",
+    "total_rating": 81,
+    "esrb": "E",
+    "videos": [
+      "VUxPwSlWWrc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/vu42fhc3yo5xtda11bsh.jpg",
+    "description": "One of SNK's legendary fighting game series has made a return! In Samurai Shodown II, you can take on one of the roles of 15 warriors as you fight your way through the land to defeat the evil Mizuki! Slash, kick, and slice your opponents in half...do whatever it takes...live by the sword, and die by its blade.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-13",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "06/13/2020 07:45 am",
+    "updatedAt": "06/13/2020 07:45 am",
+    "_id": "777dd7684e7145c2833edc879b3f983b",
+    "name": "Samurai Shodown II",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "01/27/1995",
+    "total_rating": 67,
+    "videos": [
+      "QySpbjOi8Q0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w28.jpg",
+    "description": "The basic gameplay is simple: progress through the levels in the spacecraft, collecting powerups and protecting the spacecraft from destruction. The game has very obvious similarities in design and gameplay to R-Type. It is actually believed that some ex-Irem employees left the company to join Aicom, which used to be a subcontractor for various coin-op manufacturers like Jaleco or SNK.  Despite the familiarities, Pulstar is not without innovations. There is the option of using the weapon power bar, which consists of two halves. The right-hand side of the bar turns blue when the fire button is depressed. When fully charged the ship delivers a devastating emission of energy. The left-hand side turns red when it is continually pressed, shooting out a barrage of smaller, rapid blasts.  The in-game visuals are mostly pre-rendered 3D graphics, which gives the interactive elements a far more realistic appearance. Great care was taken to really place the player into the world of the game, with cinematic style cut scenes and pre-rendered movies.  There is a hefty reliance on strategy and not just blasting everything in sight. Using the charged weapon is key, and requires careful precision. Also, once a power up is obtained, a small orb appears at the posterior end of the ship. This can be used as an advantage by deflecting/absorbing oncoming enemy fire and taking out small enemies that run into it.",
+    "story": "In the year 2248, the first recorded sign of extraterrestrial life was discovered coming from Mars. The signal emanated from the planet and from it an object travelled through space at light speed out of the Solar System. Earth scientists read the signal, but not knowing the nature of it, warned the world's defenses in case aliens traced the signal and followed it to Earth with the intent to destroy. \n \nEight years later, aliens followed the signal to the Solar System and began attacking the human space craft awaiting them along Neptune’s orbit. The battle between the humans and aliens spread throughout the Solar System; within two years of combat Neptune was disintegrated, Jupiter was turned into a star and more than half of Earth's continents sank from rising ocean levels and the planet's changing axis as a result. Kaoru Yamazaki, lone fighter pilot of the Dino246, is one of the few survivors left of the Pulstar attack force founded to save the Solar System from the alien invaders; it is through her that mankind may have a chance to survive the alien menace.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-13",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "06/13/2020 07:44 am",
+    "updatedAt": "06/13/2020 07:44 am",
+    "_id": "22b5339388b74283b5e80d89a528a722",
+    "name": "Pulstar",
+    "genres": [
+      "Shooter",
+      "Arcade",
+      "SHMUP"
+    ]
+  },
+  {
+    "first_release_date": "01/15/1993",
+    "total_rating": 71,
+    "esrb": "",
+    "videos": [
+      "AlZ1q2Gddsc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t2q.jpg",
+    "description": "The GRANDMOTHER of all battles! 15 of the FATAL FURY series' top stars gather in the match of the millenium! Use the resurrected Geese Howard and Wolfgang Krauser in a dazzling arena! All you have ever wanted in a fighting game is here in FATAL FURY SPECIAL!",
+    "story": "Geese Howard: a man feared by the world as the dark ruler of South Town. He shocked the land with his violent techniques and was confident that no one could ever top him. To rid himself of the man, Geese took the life the street champ, Jeff Bogard. However, several years later, three men arose to stop Geese's ambition. They were the sons of the dead Jeff, Terry and Andy Bogard, and Muai Thai champ, Joe Higashi. \n \nAfter Geese was defeated by them, he was believed to be dead. However, as time passed, a disturbing rumor began to float around the world. \n \nGeese is alive. \n \nHis elder half-brother, Wolfgang Krauser, took the reigns of the underworld after his younger brother's passing. However, the resurrected Geese deprives Krauser his seat of glory and the Bogard brothers burn with the flames of revenge. Terry and Andy hear where Geese is located. \n \n\"We're coming for you, Geese!\" \n \nA new legend is about to begin.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-13",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "06/13/2020 07:43 am",
+    "updatedAt": "06/13/2020 07:43 am",
+    "_id": "926aa2d79cd0456fbc7016b359ede370",
+    "name": "Fatal Fury Special",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "videos": null,
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-13",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "06/13/2020 07:43 am",
+    "updatedAt": "06/13/2020 07:43 am",
+    "_id": "22293cec1dbd4a93befe6d7ee909a7b0",
+    "name": "Blazing Star",
+    "genres": [
+      "Shooter",
+      "SHMUP",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "01/02/1994",
+    "total_rating": 59,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22y5.jpg",
+    "description": "The second installment in the AoF series added the \"rage gauge\"; similar to the \"spirit system\" of its predecessor, it limited the use and effectiveness of special attacks. The game's story is set a year after the original. Geese Howard, a rising star in South Town's criminal underworld, calls fighters to the city for a new tournament, \"The King of Fighters.\" Howard was the final boss and series villain of SNK's other fighting game franchise Fatal Fury (though he is a secret boss in this game), whose story took place over a decade after the events of Art of Fighting. Art of Fighting 2 was the only time Yuri Sakazaki was a playable character in the series. It also marked the only time that she donned her trademark outfit, which was made famous in The King of Fighters series. This game also marks the debut of Takuma Sakazaki without his Mr. Karate persona, as well as Eiji Kisaragi, who both appear in the King of Fighters series. Ryuhaku Todo, the first boss in the original AOF, is the only character dropped; all characters are playable from the beginning. The final boss is always Mr. Big, though as mentioned earlier, an extra match will be played against Geese Howard if the player unlocks him through good performance. This game is also notorious for its difficulty, with it being referred in many fighting circles as having some of the toughest opponent AI in a fighting game.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-13",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "06/13/2020 07:41 am",
+    "updatedAt": "06/13/2020 07:41 am",
+    "_id": "ebd22dbe27154553ba76d8545f3db517",
+    "name": "Art of Fighting 2",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "11/10/2008",
+    "total_rating": 75,
+    "esrb": "T",
+    "videos": [
+      "2N1TJP1cxmo",
+      "XObZXYkiMO0",
+      "u6PXba8X6N8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25jx.jpg",
+    "description": "In a perfect city, were crime is no more and where everything is monitored, you play as Faith; a courier who transports packages via the open rooftops of the city. These \"couriers\" are known as runners. Murder has come to this city, and now you are being hunted...",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-12",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/12/2020 06:43 am",
+    "updatedAt": "06/12/2020 06:43 am",
+    "_id": "1f9547e883414d2daeb2a8eccafbb3a7",
+    "name": "Mirror's Edge",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/19/2007",
+    "total_rating": 88,
+    "esrb": "M",
+    "videos": [
+      "-_6ZMr2bMco"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jpg",
+    "description": "What starts as a routine mission to an agrarian outpost quickly becomes the opening salvo in an epic war. As the newly appointed Executive Officer of the SSV Normandy, you'll assemble and lead an elite squad of heroes into battle after heart-pounding battle. Each decision you make will impact not only your fate, but the destiny of the entire galaxy in the Mass Effect trilogy.  Key Features:  Incredible, interactive storytelling. Create and customize your own character, from Commander Shepard's appearance and skills to a personalized arsenal. Unleash devastating abilities as you command and train. Your decisions will control the outcome of each mission, your relationships with your crew and ultimately the entire war.  An amazing universe to explore. From the massive Citadel to the harsh, radioactive landscape of the Krogan home world – the incredible breadth of the Mass Effect universe will blow you away. Travel to the farthest outposts aboard the SSV Normandy, the most technologically advanced ship in the galaxy. You'll follow the clues left by ancient civilizations, discover hidden bases with fantastic new tech and lead your hand-picked crew into explosive alien battles.  Edge-of-your-seat excitement meets strategic combat. Find the perfect combination of squad-mates and weapons for each battle if you want to lead them to victory. Sun-Tzu's advice remains as pertinent in 2183 as it is today – know your enemy. You'll need different tactics for a squad of enemies with devastating biotic attacks than a heavily armored Geth Colossus so choose your teams wisely.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 4,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-12",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "06/12/2020 06:42 am",
+    "updatedAt": "06/12/2020 06:42 am",
+    "_id": "bdb0d340748b474ea7f25a3adf513ff0",
+    "name": "Mass Effect",
+    "extraData": [
+      "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Mass Effect",
+        "details": [
+          "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+        ],
+        "id": "bi151",
+        "igdbId": 73,
+        "gbId": 16909,
+        "gbGuid": "3030-16909",
+        "tgdbId": 186
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Third-person shooter"
+    ]
+  },
+  {
+    "first_release_date": "06/17/2020",
+    "total_rating": 80,
+    "videos": [
+      "d02OqwH-Q5E"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29ku.jpg",
+    "description": "The ULTIMATE collection is here! Six NEOGEO titles as well as one mysterious, unreleased game are featured! Featuring Online Battle Modes as well as a Museum Mode and Music Player. This collection is a must-have for all SAMURAI SHODOWN fans across the globe!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-11",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "06/11/2020 02:05 pm",
+    "updatedAt": "06/11/2020 02:05 pm",
+    "_id": "767f07cece1f4318b10a58fcb4fd6a0d",
+    "name": "Samurai Shodown NeoGeo Collection",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "08/28/2017",
+    "total_rating": 71,
+    "esrb": "T",
+    "videos": [
+      "j4NvBtcMfZM",
+      "5-I92iPYOWs",
+      "hh2VkuYQQHE",
+      "kJ8Io-vOejA",
+      "2d_b5fRZmlA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wq7.jpg",
+    "description": "ARK: Survival Evolved takes on the survival genre with a unique blend of emergent multiplayer cooperation and competition. Players awake naked and starving on the beach of a mysterious island among a herd of other confused humans. On ARK, they must then hunt, harvest, craft, research technology, and build shelters to protect against scorching days, freezing nights, volatile weather systems, dangerous wildlife, and potential enemies.  Use cunning strategy and tactics to tame and ride the many dinosaurs and other primeval creatures roaming the dynamic, persistent ecosystems across land, sea, air, and even underground. Build your character’s strengths and gain items, skills, and pet creatures using in-depth role-playing systems. Start a tribe with hundreds of other players to survive and dominate competing tribes...and ultimately discover the ARK’s true purpose.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person",
+      "Virtual Reality"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-11",
+    "howAcquired": "Epic Games Store",
+    "notes": "free",
+    "createdAt": "06/11/2020 02:03 pm",
+    "updatedAt": "06/11/2020 02:03 pm",
+    "_id": "336b4afbefb94da590219d4933208c79",
+    "name": "ARK: Survival Evolved",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "09/29/1997",
+    "total_rating": 84,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pcw.jpg",
+    "description": "What began as a conflict over the transfer of consciousness from flesh to machines escalated into a war which has decimated a million worlds. The Core and the Arm have all but exhausted the resources of a galaxy in their struggle for domination. Both sides now crippled beyond repair, the remnants of their armies continue to battle on ravaged planets, their hatred fuelled by over four thousand years of total war. This is a fight to the death. For each side, the only acceptable outcome is the complete elimination of the other.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-07",
+    "howAcquired": "GOG",
+    "notes": "free",
+    "createdAt": "06/08/2020 06:49 am",
+    "updatedAt": "06/08/2020 06:49 am",
+    "_id": "688589b367e54088a6b686a2818bd4ee",
+    "name": "Total Annihilation",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "10/22/2012",
+    "total_rating": 85,
+    "esrb": "M",
+    "videos": [
+      "2o9SUPgyZRY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.jpg",
+    "description": "A top-down slasher/shooter with unlockable gameplay-altering masks and weapons, featuring a neon-flavoured electronic aesthetic, in which a hitman receives anonymous calls ordering him to travel to certain residences and crime dens and massacre those within, as he stumbles through unreal visions and inconsistencies without any answers to how, why or who.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 2,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-06-07",
+    "howAcquired": "GOG",
+    "notes": "",
+    "createdAt": "06/08/2020 06:49 am",
+    "updatedAt": "06/08/2020 06:49 am",
+    "_id": "4e79f49ef1634c41959f715984cafb6f",
+    "name": "Hotline Miami",
+    "genres": [
+      "Shooter",
+      "Indie"
+    ]
+  }
+]

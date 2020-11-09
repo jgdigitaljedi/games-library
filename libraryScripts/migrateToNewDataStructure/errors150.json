@@ -1,0 +1,307 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Pokémon Stadium 2",
+        "id": 2290,
+        "genres": [
+          "Fighting",
+          "Simulator",
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "Japanese",
+          "Import"
+        ],
+        "total_rating": 68,
+        "total_rating_count": 81,
+        "first_release_date": "12/13/2000",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Pokemon Stadium 2",
+        "guid": "3030-6132",
+        "gbid": 6132,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2171289-box_pkmns2.png",
+        "deck": "Pokémon Stadium 2 allows players to use second generation Pokémon in the third dimension for the first time, among a variety of other Poké-centric activities.",
+        "platforms": "Nintendo 64"
+      },
+      "consoleName": "Nintendo 64",
+      "consoleIgdbId": 4,
+      "consoleGbid": 43,
+      "consoleGbGuid": "3045-43",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "06/08/2020 06:58 am",
+      "updatedAt": "06/08/2020 06:58 am",
+      "_id": "c3af4c4a791d4c13b0779adc40300e26",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2171289-box_pkmns2.png",
+      "description": "Pokémon Stadium 2 allows players to use second generation Pokémon in the third dimension for the first time, among a variety of other Poké-centric activities.",
+      "name": "Pokémon Stadium 2",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo 64 exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Pokémon Stadium 2",
+          "details": [
+            "Nintendo 64 exclusive"
+          ],
+          "id": "n64100",
+          "igdbId": 2290,
+          "gbId": 6132,
+          "gbGuid": "3030-6132",
+          "tgdbId": 392,
+          "isExclusive": [
+            {
+              "name": "Nintendo 64",
+              "id": "ccl3",
+              "igdbId": 4,
+              "gbId": 43,
+              "gbGuid": "3045-43",
+              "tgdbId": 3
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2290;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer t3wwvq9qiicidnx4y1scv77bbskgk1",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Rise to Honor",
+        "id": 69829,
+        "genres": [
+          "Hack and slash/Beat 'em up",
+          "Adventure"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "02/16/2004",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Jet Li: Rise to Honor",
+        "guid": "3030-13809",
+        "gbid": 13809,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525193-box_jlroh.png",
+        "deck": "Jet Li stars as police officer Kit Yun as he fights his way from Hong Kong to San Francisco to fulfill a dead man's wish.",
+        "platforms": "PlayStation 2"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "05/08/2020 06:36 am",
+      "updatedAt": "05/08/2020 06:36 am",
+      "_id": "72530ab538ad4ad69337efce90e51eaf",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525193-box_jlroh.png",
+      "description": "Jet Li stars as police officer Kit Yun as he fights his way from Hong Kong to San Francisco to fulfill a dead man's wish.",
+      "name": "Rise to Honor",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {}
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Final Fantasy VII Remake",
+        "id": 11169,
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 10,
+        "first_release_date": "04/09/2020",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "FFVII Remake\r, FF7 Remake\r, FFVII HD\r, FF7 HD",
+        "guid": "3030-49974",
+        "gbid": 49974,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
+        "deck": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
+        "platforms": "PlayStation 4"
+      },
+      "consoleName": "PlayStation 4",
+      "consoleIgdbId": 48,
+      "consoleGbid": 146,
+      "consoleGbGuid": "3045-146",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-12",
+      "howAcquired": "Amazon",
+      "notes": "",
+      "createdAt": "04/13/2020 06:56 am",
+      "updatedAt": "04/13/2020 06:56 am",
+      "_id": "cbb84958a60e4615b213e8b3a64f2ff8",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1992/3171743-screen%20shot%202020-03-03%20at%208.12.13%20am.png",
+      "description": "Teased since the PlayStation 3's debut, Square Enix finally delivers a complete remake of the fan favorite Final Fantasy from 1997.",
+      "name": "Final Fantasy VII Remake",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 11169;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer t3wwvq9qiicidnx4y1scv77bbskgk1",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "The Jackbox Party Pack 2",
+        "id": 19081,
+        "genres": [
+          "Music",
+          "Strategy",
+          "Quiz/Trivia",
+          "Indie"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 17,
+        "first_release_date": "10/11/2015",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-51103",
+        "gbid": 51103,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
+        "deck": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
+        "platforms": "Mac, PlayStation 3, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Amazon Fire TV, Nintendo Switch, Apple TV"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "8",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:45 am",
+      "updatedAt": "04/08/2020 06:45 am",
+      "_id": "728704b2d3224a3286ef5dce1bfbe44b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2992615-box_jpp2.png",
+      "description": "Bid on art, defuse a bomb, and more in the second installment of Jackbox Games' annual party game pack (now with audience participation).",
+      "name": "The Jackbox Party Pack 2",
+      "miltiplayerNumber": 8
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 19081;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer t3wwvq9qiicidnx4y1scv77bbskgk1",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

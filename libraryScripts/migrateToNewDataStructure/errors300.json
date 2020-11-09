@@ -1,0 +1,586 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Fire Emblem: Shadow Dragon",
+        "id": 1444,
+        "genres": [
+          "Role-playing (RPG)",
+          "Strategy",
+          "Turn-based strategy (TBS)",
+          "Tactical"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 30,
+        "first_release_date": "08/06/2008",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Fire Emblem DS, , Fire Emblem 11",
+        "guid": "3030-24220",
+        "gbid": 24220,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2825080-fesd.jpg",
+        "deck": "The original Fire Emblem is remade and released for territories outside Japan with enhanced graphics, updated gameplay, and Wi-Fi Connectivity.",
+        "platforms": "Nintendo DS, Wii U"
+      },
+      "consoleName": "Nintendo DS",
+      "consoleIgdbId": 20,
+      "consoleGbid": 52,
+      "consoleGbGuid": "3045-52",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "44",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-02-08",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "02/08/2020 04:10 pm",
+      "updatedAt": "02/08/2020 04:10 pm",
+      "_id": "bae59b7c30d14a7bb6510c67b87c94d9",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2825080-fesd.jpg",
+      "description": "The original Fire Emblem is remade and released for territories outside Japan with enhanced graphics, updated gameplay, and Wi-Fi Connectivity.",
+      "name": "Fire Emblem: Shadow Dragon",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1444;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Tecmo Bowl",
+        "id": 8168,
+        "genres": [
+          "Sport",
+          "Football"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 15,
+        "first_release_date": "03/30/1989",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-11229",
+        "gbid": 11229,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2696307-9840273512-41002.jpg",
+        "deck": "Tecmo Bowl was one of the most popular American football sims, and perhaps the most popular, back in the 1980s. Welcome to the game that started it all for Tecmo Inc. Welcome to Tecmo Bowl.",
+        "platforms": "Game Boy, Nintendo Entertainment System, Arcade, Wii Shop, Nintendo 3DS eShop, Wii U, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-02-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "02/05/2020 06:28 pm",
+      "updatedAt": "02/05/2020 06:28 pm",
+      "_id": "1db0041f792a4d99817aa4c3be15dbc8",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2696307-9840273512-41002.jpg",
+      "description": "Tecmo Bowl was one of the most popular American football sims, and perhaps the most popular, back in the 1980s. Welcome to the game that started it all for Tecmo Inc. Welcome to Tecmo Bowl.",
+      "name": "Tecmo Bowl",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 8168;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Pokémon Shield",
+        "id": 115653,
+        "genres": [
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 69,
+        "total_rating_count": 22,
+        "first_release_date": "11/14/2019",
+        "developers": "",
+        "esrb": "RP"
+      },
+      "gb": {
+        "aliases": "Pokemon Sword / Shield",
+        "guid": "3030-59938",
+        "gbid": 59938,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/3141963-cq5dam.thumbnail.319.319%20%2810%29%20copy.png",
+        "deck": "Upcoming Pokémon RPG for the Nintendo Switch set in the Galar region.",
+        "platforms": "Nintendo Switch"
+      },
+      "consoleName": "Nintendo Switch",
+      "consoleIgdbId": 130,
+      "consoleGbid": 157,
+      "consoleGbGuid": "3045-157",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "60",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-02-01",
+      "howAcquired": "GameStop",
+      "notes": "",
+      "createdAt": "02/08/2020 07:06 am",
+      "updatedAt": "02/08/2020 07:06 am",
+      "_id": "2e24047ec4174a35b2296bbbb25830f8",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/3141963-cq5dam.thumbnail.319.319%20%2810%29%20copy.png",
+      "description": "Upcoming Pokémon RPG for the Nintendo Switch set in the Galar region.",
+      "name": "Pokémon Shield",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 115653;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 291
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Streets of Rage 2",
+        "id": 1653,
+        "genres": [
+          "Hack and slash/Beat 'em up",
+          "Arcade"
+        ],
+        "total_rating": 82,
+        "total_rating_count": 72,
+        "first_release_date": "12/19/1992",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Bare Knuckle II\r, Bare Knuckle 2\r, 3D Streets of Rage 2\r, 3D Bare Knuckle II: Shitou e no Chinkon Uta\r, Bare Knuckle II: Shitou heno Chingonka\r, 3D Bare Knuckle 2",
+        "guid": "3030-18122",
+        "gbid": 18122,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2224351-box_sor2.png",
+        "deck": "Mr. X and his powerful criminal syndicate have returned to the streets. Players take control of up to two of the four vigilantes, fighting their way through the hordes of punks once again, in one of the most acclaimed beat 'em up brawlers of all time.",
+        "platforms": "Game Gear, Genesis, Sega Master System, Arcade, Xbox 360 Games Store, Wii Shop, PlayStation Network (PS3), PC, iPhone, iPad, Android, Nintendo 3DS eShop"
+      },
+      "consoleName": "Sega Mega Drive/Genesis",
+      "consoleIgdbId": 29,
+      "consoleGbid": 6,
+      "consoleGbGuid": "3045-6",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "35",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-01-25",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "01/25/2020 03:22 pm",
+      "updatedAt": "01/25/2020 03:22 pm",
+      "_id": "7e37bed0102943c9ab8e56edf0b4b681",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2224351-box_sor2.png",
+      "description": "Mr. X and his powerful criminal syndicate have returned to the streets. Players take control of up to two of the four vigilantes, fighting their way through the hordes of punks once again, in one of the most acclaimed beat 'em up brawlers of all time.",
+      "name": "Streets of Rage 2",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1653;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Naruto: Clash of Ninja",
+        "id": 4026,
+        "genres": [
+          "Fighting"
+        ],
+        "total_rating": 60,
+        "total_rating_count": 9,
+        "first_release_date": "04/10/2003",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Naruto: Gekitō Ninja Taisen",
+        "guid": "3030-20544",
+        "gbid": 20544,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2215049-box_narutocon.png",
+        "deck": "Naruto Clash of Ninja is the first of the Naruto Clash of ninja games.It includes 8 playable characters (and 2 unlockables) from the Naruto anime.",
+        "platforms": "GameCube"
+      },
+      "consoleName": "Nintendo GameCube",
+      "consoleIgdbId": 21,
+      "consoleGbid": 23,
+      "consoleGbGuid": "3045-23",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-01-03",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "01/25/2020 03:20 pm",
+      "updatedAt": "01/25/2020 03:20 pm",
+      "_id": "a5c8fec1435245189251ba709ecc24dd",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2215049-box_narutocon.png",
+      "description": "Naruto Clash of Ninja is the first of the Naruto Clash of ninja games.It includes 8 playable characters (and 2 unlockables) from the Naruto anime.",
+      "name": "Naruto: Clash of Ninja",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo GameCube console exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "ngc57",
+          "name": "Naruto: Clash of Ninja",
+          "details": [
+            "Nintendo GameCube console exclusive"
+          ],
+          "igdbId": 4026,
+          "gbId": 20544,
+          "gbGuid": "3030-20544",
+          "tgdbId": 7009,
+          "isExclusive": [
+            {
+              "name": "Nintendo GameCube",
+              "id": "ccl4",
+              "igdbId": 21,
+              "gbId": 23,
+              "gbGuid": "3045-23",
+              "tgdbId": 2
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4026;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Hyrule Warriors",
+        "id": 5314,
+        "genres": [
+          "Strategy",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 76,
+        "first_release_date": "08/13/2014",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Zelda Musou\r, Hyrule Warriors Legends\r, Hyrule Warriors: Definitive Edition\r, Zelda Musou: Hyrule All-Stars\r, Zelda Musou: Hyrule All-Stars DX",
+        "guid": "3030-44782",
+        "gbid": 44782,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2679258-hwboxupdate.jpg",
+        "deck": "Omega Force, Team Ninja and Nintendo team up for this crossover between the Zelda franchise and the long-running Warriors hack-n-slash series. The game pits Link and friends against hordes of familiar enemies in the signature Warriors fashion.",
+        "platforms": "Nintendo 3DS, Nintendo 3DS eShop, Wii U, Nintendo Switch"
+      },
+      "consoleName": "Wii U",
+      "consoleIgdbId": 41,
+      "consoleGbid": 139,
+      "consoleGbGuid": "3045-139",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "12",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-12-28",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "12/29/2019 05:41 am",
+      "updatedAt": "12/29/2019 05:41 am",
+      "_id": "921bb24e999e43b48653fc10aad13118",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2679258-hwboxupdate.jpg",
+      "description": "Omega Force, Team Ninja and Nintendo team up for this crossover between the Zelda franchise and the long-running Warriors hack-n-slash series. The game pits Link and friends against hordes of familiar enemies in the signature Warriors fashion.",
+      "name": "Hyrule Warriors",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo Wii U platform exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Hyrule Warriors",
+          "details": [
+            "Nintendo Wii U platform exclusive"
+          ],
+          "id": "wiiu170",
+          "igdbId": 5314,
+          "gbId": 44782,
+          "gbGuid": "3030-44782",
+          "tgdbId": 23230,
+          "isExclusive": [
+            {
+              "name": "Nintendo Wii U",
+              "id": "ccl6",
+              "igdbId": 41,
+              "gbId": 139,
+              "gbGuid": "3045-139",
+              "tgdbId": 38
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 5314;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "The Jungle Book",
+        "id": 6480,
+        "genres": [
+          "Platform",
+          "Adventure",
+          "Arcade"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 26,
+        "first_release_date": "12/30/1993",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-19067",
+        "gbid": 19067,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2370671-genesis_junglebook_cropped.jpg",
+        "deck": "A 2D platformer based on the 1967 animated Disney movie and released on multiple platforms. It was one of four Virgin Interactive platformers based on Disney movies, along with The Lion King, Aladdin and Pinocchio.",
+        "platforms": "Game Boy, Game Gear, Genesis, Sega Master System, Super Nintendo Entertainment System, Nintendo Entertainment System, PC"
+      },
+      "consoleName": "Sega Game Gear",
+      "consoleIgdbId": 35,
+      "consoleGbid": 5,
+      "consoleGbGuid": "3045-5",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-12-03",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed in box",
+      "createdAt": "12/29/2019 05:33 am",
+      "updatedAt": "12/29/2019 05:33 am",
+      "_id": "9e4d7a58feef46cf968050b46d1e3cf9",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2370671-genesis_junglebook_cropped.jpg",
+      "description": "A 2D platformer based on the 1967 animated Disney movie and released on multiple platforms. It was one of four Virgin Interactive platformers based on Disney movies, along with The Lion King, Aladdin and Pinocchio.",
+      "name": "The Jungle Book",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 6480;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer phgpsrmfpvgp7sxacy25fvcfeg7v8t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

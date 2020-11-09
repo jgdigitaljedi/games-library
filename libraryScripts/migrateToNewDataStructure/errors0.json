@@ -1,0 +1,509 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "SiN Gold",
+        "id": 51909,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 70,
+        "total_rating_count": "",
+        "first_release_date": "10/30/1998",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-11984",
+        "gbid": 11984,
+        "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313/header.jpg?t=1591116067",
+        "deck": "",
+        "platforms": "Mac"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2.50",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-30",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "10/31/2020 09:27 am",
+      "updatedAt": "10/31/2020 09:27 am",
+      "_id": "83d43f085058450b8a992d1a94dd088e",
+      "image": "https://steamcdn-a.akamaihd.net/steam/apps/1313/header.jpg?t=1591116067",
+      "description": "",
+      "name": "SiN Gold",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 51909;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer pfzw8zg5okhulnrfkrmqvlhinzvyjp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Michael Jackson: The Experience 3D",
+        "id": 85288,
+        "genres": [
+          "Music",
+          "Rythym"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "11/07/2011",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-31724",
+        "gbid": 31724,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1828909-box_mjte.png",
+        "deck": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
+        "platforms": "PlayStation Portable, Xbox 360, PlayStation 3, Wii, Nintendo DS, PlayStation Network (PS3), PlayStation Network (PSP), Nintendo 3DS, PlayStation Vita, PlayStation Network (Vita)"
+      },
+      "consoleName": "Nintendo 3DS",
+      "consoleIgdbId": 37,
+      "consoleGbid": 117,
+      "consoleGbGuid": "3045-117",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "10/05/2020 06:51 pm",
+      "updatedAt": "10/05/2020 06:51 pm",
+      "_id": "a4b62a577a9643cd936f274b5c420d63",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1828909-box_mjte.png",
+      "description": "Find out who's bad in this Ubisoft game based on the life of Michael Jackson.",
+      "name": "Michael Jackson: The Experience 3D",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 85288;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer pfzw8zg5okhulnrfkrmqvlhinzvyjp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "ZombiU",
+        "id": 1591,
+        "genres": [
+          "Shooter",
+          "Adventure"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 35,
+        "first_release_date": "11/17/2012",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Killer Freaks from Outer Space\r, Attack Of The Killer Rabbids From Outer Space\r, Zombi",
+        "guid": "3030-35619",
+        "gbid": 35619,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2553376-zombiuclean.jpg",
+        "deck": "A first-person survival horror game set in London during a modern-day zombie apocalypse. As a launch title for the Wii U, it features extensive use of the system's GamePad.",
+        "platforms": "PC, Wii U, Xbox One, PlayStation 4"
+      },
+      "consoleName": "Wii U",
+      "consoleIgdbId": 41,
+      "consoleGbid": 139,
+      "consoleGbGuid": "3045-139",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-05",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "10/05/2020 06:50 pm",
+      "updatedAt": "10/05/2020 06:50 pm",
+      "_id": "e1d697d7d0934f0ba7bf21cdc603fc71",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2553376-zombiuclean.jpg",
+      "description": "A first-person survival horror game set in London during a modern-day zombie apocalypse. As a launch title for the Wii U, it features extensive use of the system's GamePad.",
+      "name": "ZombiU",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Nintendo Wii U launch title"
+      ],
+      "extraDataFull": [
+        {
+          "id": "wiiu439",
+          "name": "ZombiU",
+          "details": [
+            "Nintendo Wii U launch title"
+          ],
+          "igdbId": 1591,
+          "gbId": 35619,
+          "gbGuid": "3030-35619",
+          "tgdbId": 10709,
+          "isLaunchTitle": [
+            {
+              "name": "Nintendo Wii U",
+              "id": "ccl6",
+              "igdbId": 41,
+              "gbId": 139,
+              "gbGuid": "3045-139",
+              "tgdbId": 38
+            }
+          ],
+          "isExclusive": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1591;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer pfzw8zg5okhulnrfkrmqvlhinzvyjp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Frogger",
+        "id": 6795,
+        "genres": [
+          "Platform",
+          "Arcade"
+        ],
+        "total_rating": 67,
+        "total_rating_count": 37,
+        "first_release_date": "06/04/1981",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "The Official Frogger",
+        "guid": "3030-11903",
+        "gbid": 11903,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367698-a2600_frogger.jpg",
+        "deck": "Frogger is a classic arcade game with a simple objective: safely maneuver your frog across a busy highway and a deadly river without getting squished!",
+        "platforms": "Game Boy, Genesis, Super Nintendo Entertainment System, Apple II, Commodore 64, MSX, ZX Spectrum, Atari 8-bit, VIC-20, Atari 2600, ColecoVision, TI-99/4A, Intellivision, Game Boy Color, Odyssey 2, Dragon 32/64, TRS-80, Atari 5200, TRS-80 CoCo, Game.Com, Arcade, Xbox 360 Games Store, iPhone, BBC Micro, NEC PC-6001, Windows Phone, PlayStation 4, Nintendo Switch, Tomy Tutor, Gakken Compact Vision TV Boy"
+      },
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "6.82",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/04/2020 06:09 pm",
+      "updatedAt": "10/04/2020 06:09 pm",
+      "_id": "b22f57d738d54cbcacd9a2ea8a8a91f1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2367698-a2600_frogger.jpg",
+      "description": "Frogger is a classic arcade game with a simple objective: safely maneuver your frog across a busy highway and a deadly river without getting squished!",
+      "name": "Frogger",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 6795;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer pfzw8zg5okhulnrfkrmqvlhinzvyjp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Arcade Pinball",
+        "id": 17247,
+        "genres": [
+          "Arcade",
+          "Pinball"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "12/30/1981",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-11532",
+        "gbid": 11532,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14206/1096940-vp.jpg",
+        "deck": "Pinball simulator for the Atari 2600",
+        "platforms": "Atari 2600, Xbox 360 Games Store, PC"
+      },
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "4.87",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-10-04",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/04/2020 06:07 pm",
+      "updatedAt": "10/04/2020 06:07 pm",
+      "_id": "b56a651f351e4a97ab84a10a9afe4f2e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/14206/1096940-vp.jpg",
+      "description": "Pinball simulator for the Atari 2600",
+      "name": "Arcade Pinball",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 17247;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer pfzw8zg5okhulnrfkrmqvlhinzvyjp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "James 'Buster' Douglas Knock Out Boxing",
+        "id": 46530,
+        "genres": [
+          "Fighting",
+          "Sport",
+          "Boxing"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "06/30/1990",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Final Blow, Heavyweight Champ",
+        "guid": "3030-5261",
+        "gbid": 5261,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/11059/274826-buster.jpg",
+        "deck": "James 'Buster' Douglas Knockout Boxing is essentially the exact same game as Final Blow, except featuring James Douglas in 1990 directly after his victory over Mike Tyson.",
+        "platforms": "Genesis, Sega Master System, Arcade"
+      },
+      "consoleName": "Sega Mega Drive/Genesis",
+      "consoleIgdbId": 29,
+      "consoleGbid": 6,
+      "consoleGbGuid": "3045-6",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "5.48",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-09-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "09/18/2020 05:08 pm",
+      "updatedAt": "09/18/2020 05:08 pm",
+      "_id": "2454a0232cd343b596a96afee150a338",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/11059/274826-buster.jpg",
+      "description": "James 'Buster' Douglas Knockout Boxing is essentially the exact same game as Final Blow, except featuring James Douglas in 1990 directly after his victory over Mike Tyson.",
+      "name": "James 'Buster' Douglas Knock Out Boxing",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Sega Genesis/Mega Drive black box grid game"
+      ],
+      "extraDataFull": [
+        {
+          "id": "smd121",
+          "name": "James 'Buster' Douglas Knock Out Boxing",
+          "igdbId": 46530,
+          "gbId": 5261,
+          "gbGuid": "3030-5261",
+          "tgdbId": null,
+          "details": [
+            "Sega Genesis/Mega Drive black box grid game"
+          ],
+          "special": [
+            {
+              "value": "Sega Genesis/Mega Drive black box grid game",
+              "forPlatform": {
+                "name": "Sega Mega Drive/Genesis",
+                "id": "ccl14",
+                "igdbId": 29,
+                "gbId": 6,
+                "gbGuid": "3045-6",
+                "tgdbId": 18
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 46530;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer pfzw8zg5okhulnrfkrmqvlhinzvyjp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

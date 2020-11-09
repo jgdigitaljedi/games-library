@@ -5,7 +5,6 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const whitespace = require('stringman').whitespace;
-const _throttle = require('lodash/throttle');
 
 const twitchClientId = process.env.TWITCH_CLIENT_ID;
 const twitchSecretToken = process.env.TWITCH_SECRET_TOKEN;
@@ -57,7 +56,7 @@ function getUserData(game) {
     consoleId: game.consoleIgdbId,
     condition: game.condition,
     case: game.case,
-    pricePaid: game.pricePaid ? parseFloat(+game.pricePaid.toFixed(2)) : null,
+    pricePaid: game.pricePaid ? parseFloat(game.pricePaid) : null,
     physical: game.physical,
     cib: game.cib,
     datePurchased: game.datePurchased,
@@ -77,25 +76,31 @@ function getUserData(game) {
 const getMultiplayerModes = (modes) => {
   // just getting the max numbers here
   // not concerned about which is true for which game mode as I can figure that out if I want to play multiplayer with someone
+  let max = 0;
   const combined = modes.reduce((acc, obj, index) => {
     if (index === 0) {
       acc = { offlinemax: 0, offlinecoopmax: 0, splitscreen: false };
     }
     if (obj.offlinemax > acc.offlinemax) {
       acc.offlinemax = obj.offlinemax;
+      if (obj.offlinemax > max) {
+        max = obj.offlinemax;
+      }
     }
     if (obj.offlinecoopmax > acc.offlinecoopmax) {
       acc.offlinecoopmax = obj.offlinecoopmax;
+      if (obj.offlinecoopmax > max) {
+        max = obj.offlinecoopmax;
+      }
     }
     if (obj.splitscreen) {
       acc.splitscreen = true;
     }
     return acc;
   }, {});
-  return combined;
+  return { combined, max };
 };
 
-// needs description and multiplayer data
 async function getNewGameData(game) {
   return new Promise((resolve, reject) => {
     if (game.igdb && game.igdb.id && game.igdb.id !== 9999 && game.igdb.id !== 99999) {
@@ -108,7 +113,7 @@ async function getNewGameData(game) {
         data
       })
         .then((result) => {
-          console.log(chalk.green('result', JSON.stringify(result.data, null, 2)));
+          // console.log(chalk.green('result', JSON.stringify(result.data, null, 2)));
           if (result.status === 200) {
             const formatted = {};
             const item = result.data[0];
@@ -125,7 +130,8 @@ async function getNewGameData(game) {
               const esrb = item.age_ratings.filter((r) => r.rating > 5).map((r) => r.rating);
               formatted.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : '';
             }
-            formatted.videos = item.videos.map((v) => v.video_id) || null;
+            formatted.videos =
+              item.videos && item.videos.length ? item.videos.map((v) => v.video_id) : null;
             if (item.cover && item.cover.url) {
               const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
               formatted.image = `https:${bigImage}`;
@@ -137,9 +143,11 @@ async function getNewGameData(game) {
             formatted.player_perspectives = item.player_perspectives
               ? item.player_perspectives.map((p) => p.name)
               : [];
-            formatted.multiplayer_modes = item.multiplayer_modes
+            const multiplayer = item.multiplayer_modes
               ? getMultiplayerModes(item.multiplayer_modes)
               : { offlinemax: 0, offlinecoopmax: 0, splitscreen: false };
+            formatted.multiplayer_modes = multiplayer.combined;
+            formatted.maxMultiplayer = multiplayer.max;
             const oldData = getUserData(game);
             const newGameData = { ...formatted, ...oldData };
             resolve(newGameData);
@@ -148,6 +156,7 @@ async function getNewGameData(game) {
           }
         })
         .catch((error) => {
+          console.log(chalk.red(game.igdb.name));
           console.log(chalk.blue(error));
           resolve({ game, error });
         });
@@ -157,52 +166,84 @@ async function getNewGameData(game) {
   });
 }
 
-refreshAppKey().then(() => {
-  const trialRun = games.slice(0, 20);
+const start = 300;
+const end = start + 50;
 
-  const promiseArr = trialRun.map((g) => getNewGameData(g));
+function handleResults(results) {
+  console.log('results', results);
+  const cleaned = [],
+    errors = [];
+  results.forEach((result) => {
+    if (result.error) {
+      errors.push(result);
+    } else {
+      cleaned.push(result);
+    }
+  });
 
-  Promise.all(promiseArr)
-    .then((results) => {
-      // console.log(chalk.yellow('primose results', JSON.stringify(results, null, 2)));
+  // write results
+  fs.writeFile(
+    path.join(__dirname, `./results${start}.json`),
+    JSON.stringify(cleaned, null, 2),
+    (err) => {
+      if (err) {
+        err.forEach((error) => {
+          console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
+        });
+      }
+    }
+  );
 
-      const cleaned = [],
-        errors = [];
-      results.forEach((result) => {
-        if (result.error) {
-          errors.push(result);
-        } else {
-          cleaned.push(result);
-        }
-      });
+  // write errors to another file so I can address them later
+  fs.writeFile(
+    path.join(__dirname, `./errors${start}.json`),
+    JSON.stringify(errors, null, 2),
+    (err) => {
+      if (err) {
+        err.forEach((error) => {
+          console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
+        });
+      }
+    }
+  );
+}
 
-      // write results
-      fs.writeFile(
-        path.join(__dirname, './results.json'),
-        JSON.stringify(cleaned, null, 2),
-        (err) => {
-          if (err) {
-            err.forEach((error) => {
-              console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
+refreshAppKey()
+  .then(() => {
+    const trialRun = games.slice(start, end);
+
+    const promiseArr = trialRun.map((g) => getNewGameData(g));
+    const final = [];
+    const errors = [];
+    let wait = 250;
+
+    const throttled = async () => {
+      const pLast = promiseArr.length - 1;
+      for (let i = 0; i < promiseArr.length; i++) {
+        wait = 450 * (i + 1);
+        await setTimeout(() => {
+          promiseArr[i]
+            .then((result) => {
+              console.log('result', JSON.stringify(result, null, 2));
+              final.push(result);
+              if (pLast === i) {
+                handleResults([...final, ...errors]);
+              }
+            })
+            .catch((error) => {
+              errors.push(error);
+              if (pLast === i) {
+                handleResults([...final, ...errors]);
+              }
             });
-          }
-        }
-      );
+        }, wait);
+      }
+    };
 
-      // write errors to another file so I can address them later
-      fs.writeFile(
-        path.join(__dirname, './errors.json'),
-        JSON.stringify(errors, null, 2),
-        (err) => {
-          if (err) {
-            err.forEach((error) => {
-              console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
-            });
-          }
-        }
-      );
-    })
-    .catch((errors) => {
-      console.log(chalk.red.bold(JSON.stringify(errors, null, 2)));
-    });
-});
+    (async () => {
+      await throttled();
+    })();
+  })
+  .catch((errors) => {
+    console.log(chalk.red.bold(JSON.stringify(errors, null, 2)));
+  });

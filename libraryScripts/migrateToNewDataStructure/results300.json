@@ -1,0 +1,1702 @@
+[
+  {
+    "first_release_date": "12/30/1994",
+    "total_rating": 75,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eco.jpg",
+    "description": "Boogerman: A Pick and Flick Adventure is a 2D platform video game created by Interplay Entertainment and released for the Sega Mega Drive/Genesis in 1994 and later on the Super Nintendo Entertainment System (SNES) in 1995. The Genesis version was also released on the Wii Virtual Console in North America on November 24, 2008 and in Europe on December 12, 2008. The game's lead character also made a cameo appearance as a playable character and the rival of Earthworm Jim in Interplay's ClayFighter 63⅓.",
+    "story": "One dark and stormy evening, the civic-minded Professor Stinkbaum was working in his lab where he was secretly building a machine that would save the world from pollution by transporting it to a place he called Dimension X-Crement. That same evening, eccentric millionaire Snotty Ragsdale paid a visit to the lab to investigate this project and find out how such a thing was possible. He was not too sure about the machine's purpose. After activating the machine, Ragsdale inhaled a cloud of pepper through his nose, causing him to let out a mighty sneeze. The power of the sneeze broke the machine, opening a portal. Just then, a mysterious giant arm popped out of the portal and stole the machine's main power source. In response to this danger, Snotty rushed into the men's room to change into his alter ego, the mighty Boogerman, and jumped into the portal to pursue the arm to learn the reason for the theft it had committed.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 17,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:03 pm",
+    "updatedAt": "02/08/2020 04:03 pm",
+    "_id": "4f0efbf63aed414299d5209f6daa879b",
+    "name": "Boogerman: A Pick and Flick Adventure",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/14/2003",
+    "total_rating": 57,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w3t.jpg",
+    "description": "X-wings, B-wings, speeder bikes, AT-STs, tauntauns--you'll have to master them all to save Luke, Wedge, Han, Chewie, and Leia from Darth Vader and his Imperial forces. All new multiplayer modes include the entire Rogue Leader game in co-op, plus endurance, capture-the-base, and dogfight modes.  Cinematic realism takes you to new heights as you climb out of your cockpit to battle the Empire on foot in this thrilling third chapter of the Rogue Squadron series.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 16,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:09 pm",
+    "updatedAt": "02/08/2020 04:09 pm",
+    "_id": "8be383f9463b4d9f944ba9290b59d463",
+    "name": "Star Wars: Rogue Squadron III - Rebel Strike",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc73",
+        "name": "Star Wars Rogue Squadron III: Rebel Strike",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 4182,
+        "gbId": null,
+        "gbGuid": null,
+        "tgdbId": 7054,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Adventure",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "11/14/2004",
+    "total_rating": 83,
+    "esrb": "T",
+    "videos": [
+      "Gbl91ADbM9c",
+      "saD5k_8i4Bs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w7n.jpg",
+    "description": "The sequel to Metroid Prime puts you in the role of bounty hunter Samus Aran once again. Your mission is to locate federation troopers who are missing on Aether--a planet torn into light and dark domains. To help you travel through the depths of light and dark, you'll have all-new beam weapons, a screw attack, and power-ups. Eliminate your enemies, solve puzzles, and open doors in an effort to restore peace to Aether. Metroid Prime 2: Echoes also features competitive multiplayer modes supporting up to four players.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 26,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:05 pm",
+    "updatedAt": "02/08/2020 04:05 pm",
+    "_id": "bc5c82add4604df58c7aa04b3e4b1929",
+    "name": "Metroid Prime 2: Echoes",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "05/18/2005",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pqy.jpg",
+    "description": "Bomberman (also known as Bomberman DS) is the first Bomberman game for the Nintendo DS.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:10 pm",
+    "updatedAt": "02/08/2020 04:10 pm",
+    "_id": "2b8aa8486cb045e19195bb8ae1849877",
+    "name": "Bomberman",
+    "extraData": [
+      "Nintendo DS exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Bomberman",
+        "details": [
+          "Nintendo DS exclusive"
+        ],
+        "id": "nds61",
+        "igdbId": 71303,
+        "gbId": 2430,
+        "gbGuid": "3030-2430",
+        "tgdbId": 1040,
+        "isExclusive": [
+          {
+            "name": "Nintendo DS",
+            "id": "ccl11",
+            "igdbId": 20,
+            "gbId": 52,
+            "gbGuid": "3045-52",
+            "tgdbId": 8
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "07/10/1993",
+    "total_rating": 92,
+    "esrb": "RP",
+    "videos": [
+      "otPC3_bL-4Y"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w9x.jpg",
+    "description": "They're back and they're badder than ever! Faster, stronger and with all new moves, twelve of the greatest fighters from across the globe are ready to do battle! Choose your champion and get ready for the big brawl as they try to earn the right to battle M. Bison for the title. And just when you think you've mastered it all, crank it up a notch and go TURBO!",
+    "story": "They're back and they're badder than ever! Faster, stronger and with all new moves, twelve of the greatest fighters from across the globe are ready to do battle! Choose your champion and get ready for the big brawl as they try to earn the right to battle M. Bison for the title. And just when you think you've mastered it all, crank it up a notch and go TURBO!",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:03 pm",
+    "updatedAt": "02/08/2020 04:03 pm",
+    "_id": "c1782bba2c3c419e99a957303360dbb7",
+    "name": "Street Fighter II Turbo",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting"
+    ]
+  },
+  {
+    "first_release_date": "08/31/1981",
+    "total_rating": 73,
+    "esrb": "E",
+    "videos": [
+      "jFuU0QYlDcA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27k6.jpg",
+    "description": "The objective of Galaga is to score as many points as possible by destroying insect-like enemies. The player controls a starfighter that can move left and right along the bottom of the playfield. Enemies swarm in groups in a formation near the top of the screen, and then begin flying down toward the player, firing bombs at the fighter. The game ends when the player's last fighter is lost, either by colliding with an enemy or one of its bullets, or by being captured. Galaga introduces a number of new features over its predecessor, Galaxian. Among these is the ability to fire more than one bullet at a time, a count of the player's \"hit/miss ratio\" at the end of the game, and a bonus \"Challenging Stage\" that occurs every few levels, in which a series of enemies fly onto and out of the screen in set patterns without firing at the player's ship or trying to crash into it. These stages award a large point bonus if the player manages to destroy every enemy. Another gameplay feature new to Galaga is the ability for enemies to capture the player's fighter. While the player is in control of just one fighter, a \"boss Galaga\" (which takes two shots to kill) periodically attempts to capture the fighter using a tractor beam. If successful, the fighter joins the enemy formation. If the player has more lives remaining, play resumes with a new fighter. The captured fighter flies down with the enemy that captured it, firing upon the player just like normal enemies, and can be shot and destroyed. The player can free the fighter by destroying the boss Galaga while in flight, causing the captured fighter to link up with the player's current fighter, doubling his or her firepower but also making a target twice as large. Galaga has an exploitable bug that can cause the attackers to stop firing bullets at the player, due to a coding error. In addition, similar to the famous \"Split-Screen bug\" in Pac-Man, a bug exists in Galaga in which the game \"rolls over\" from Level 255 to Level 0. Depending on the difficulty setting of the machine, this can cause the game to stall, requiring that the machine be reset or power-cycled in order to start a new game.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 11,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:04 pm",
+    "updatedAt": "02/08/2020 04:04 pm",
+    "_id": "b6f0a4213b92456d81e02712e4720d7f",
+    "name": "Galaga",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Arcade",
+      "SHMUP"
+    ]
+  },
+  {
+    "first_release_date": "05/10/2010",
+    "total_rating": 81,
+    "esrb": "T",
+    "videos": [
+      "xhWPSb0XBFU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4l.jpg",
+    "description": "Skate 3 features an all-new co-op mode where teammates can complete challenges together while advancing each other’s careers. From rewarding epic bails and fails with a beefed up Hall of Meat mode to honing your craft with the all-new skate.School, players of all skill levels have multiple ways to “kill it” in the game. The franchise also continues to raise the bar for user created content with the skate.Create feature suite, an innovative toolset that empowers gamers to truly express their skate style by creating their own graphics, videos, and skate parks.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 9,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:09 pm",
+    "updatedAt": "02/08/2020 04:09 pm",
+    "_id": "d5d8cb9e0d0f459184592fe86bc2622e",
+    "name": "Skate 3",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 2587,
+        "name": "Skate 3",
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+        ],
+        "id": "x360618",
+        "gbId": 28135,
+        "gbGuid": "3030-28135",
+        "tgdbId": 8306,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "01/20/2009",
+    "total_rating": 84,
+    "esrb": "",
+    "videos": [
+      "4Juh0p6u5rM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/wkwd1ga1qr9xrudotbsw.jpg",
+    "description": "It's been five long years since your mysterious disappearance from the skate scene, and much has changed in the wake of \"the disaster-too-gnarly-to-be-named.\" The massive devastation left large swaths of San Vanelona completely destroyed. After the mass evacuation, one company, Mongocorp, won the bid to rebuild New San Vanelona and their zealous protection of their private property has put a damper on the once thriving skate population. Your mission is to rebuild your career and revive the New San Van skate scene. To help you get the job done, you'll have double the tricks and the new ability to get off your board to move stuff and create the sickest lines. There's even a crew of locals you can call on to help take care of business. Skate 2--it's time to take back the city ... one spot at a time.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 9,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:08 pm",
+    "updatedAt": "02/08/2020 04:08 pm",
+    "_id": "2ee5082491d14bfa8f47f90b1572ff8a",
+    "name": "Skate 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Sport",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "05/15/2001",
+    "esrb": "RP",
+    "videos": [
+      "El10lFa9a6U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/pni8amhgu6dfn7wlw3mt.jpg",
+    "description": "Prepare for sound. Prepare for music. Prepare to generate. Whether you're a superstar DJ or just starting out, MTV Music Generator™2 is all you need to create killer tunes in minutes. From the makers of MTV Music Generator™, it's music creation of PlayStation®2. It's easy. It's awesome.",
+    "story": "Prepare for sound. Prepare for music. Prepare to generate. Whether you're a superstar DJ or just starting out, MTV Music Generator™2 is all you need to create killer tunes in minutes. From the makers of MTV Music Generator™, it's music creation of PlayStation®2. It's easy. It's awesome.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 8,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-08",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/08/2020 04:06 pm",
+    "updatedAt": "02/08/2020 04:06 pm",
+    "_id": "c7e7107d918546c7b84f72661212b511",
+    "name": "MTV Music Generator 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Music"
+    ]
+  },
+  {
+    "first_release_date": "09/22/1993",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": [
+      "8NVjKy0v3MU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zsy.jpg",
+    "description": "Sonic travels to the distant shores of Never Lake for the once-a-year appearance of Little Planet - a mysterious world where past, present, and future collide through the power of the Time Stones that lie hidden within it.  Sonic arrives only to find the once beautiful world imprisoned beneath a twisted metallic shell. His arch-nemesis, Dr. Eggman, has come for the Time Stones and with them, will soon have the power to control time itself!  In order to put an end to Dr. Eggman’s nefarious schemes, Sonic must use the power of Little Planet to travel through time; breaking Dr. Eggman’s hold over the future by destroying his machines in the past and recovering the missing Time Stones!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega CD",
+    "consoleId": 78,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 50,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-07",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "02/08/2020 07:04 am",
+    "updatedAt": "02/08/2020 07:04 am",
+    "_id": "14c18e683eb445499af90b29437653a9",
+    "name": "Sonic the Hedgehog CD",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "12/17/1998",
+    "total_rating": 74,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hvg.jpg",
+    "description": "Your goal in life is to become a Pokemon Card Master. In order to do that, you must pick a deck from three starter packs of cards based on Charmander, Squirtle, and Bulbasaur and travel to the eight card clubs and defeat their leaders. Along the way, you will challenge many players to collect new cards and the helpful Professor Mason will aid you by giving you cards as well. While becoming a card master is a laudable accomplishment, the real goal of the game is to collect all of the cards over 200 in all. If you want to collect all of the cards, you must play human opponents in the Pop mode to get a chance to earn rare cards. All of the complexity of the real-world game has been captured here. Play Pokemon Trading Card Game and become a Pokemon Card Master.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-05",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "02/05/2020 06:27 pm",
+    "updatedAt": "02/05/2020 06:27 pm",
+    "_id": "38e109055bd74502898209d2e1debfb9",
+    "name": "Pokémon Trading Card Game",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/28/1999",
+    "total_rating": 77,
+    "esrb": "T",
+    "videos": [
+      "HrahuUBDQG0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y79.jpg",
+    "description": "Take control of real skaters and perform strings of crazy tricks in the first entry of the long-running Tony Hawk skateboarding series.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-05",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "02/05/2020 06:26 pm",
+    "updatedAt": "02/05/2020 06:26 pm",
+    "_id": "359f125647f24bc6929950a3e7c7bf31",
+    "name": "Tony Hawk's Pro Skater",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "11/22/2005",
+    "total_rating": 54,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ttdhzgc05icpwa6iaouo.jpg",
+    "description": "One Piece: Pirates’ Carnival brings the crazy pirate party without having to hit the ocean. Players can dominate the game board by defeating up to three friends in a series of zany games guaranteed to tickle the funny bone of the surliest of pirates. Gamers must evade bombs in a dodge ball field, locate the Pandaman, out-maneuver giant feet and more to become King of the Pirates.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-05",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "02/05/2020 06:28 pm",
+    "updatedAt": "02/05/2020 06:28 pm",
+    "_id": "a88a1ca4860143b0b1e4d9683ab4c12e",
+    "name": "One Piece: Pirates' Carnival",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "09/30/1996",
+    "total_rating": 84,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nnt.jpg",
+    "description": "Adventurer Lara Croft has been hired to recover the pieces of an ancient artifact known as the Scion. With her fearless acrobatic style she runs, jumps, swims and climbs her way towards the truth of its origin and powers - leaving only a trail of empty tombs and gun-cartridges in her wake.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-02-05",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "02/05/2020 06:27 pm",
+    "updatedAt": "02/05/2020 06:27 pm",
+    "_id": "7a91eec69319444a8c0450d6a415f5a1",
+    "name": "Tomb Raider",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Puzzle",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2019",
+    "total_rating": 85,
+    "esrb": "M",
+    "videos": [
+      "MGLTgt0EEqc",
+      "h5LaYTtIkag",
+      "NKpqVAqnOXg",
+      "ujfolWOLD1I",
+      "3AI_u_0oJRQ",
+      "XmyF8IjfSUI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eew.jpg",
+    "description": "The Outer Worlds is a new single-player sci-fi RPG from Obsidian Entertainment and Private Division. As you explore the furthest reaches of space and encounter a host of factions all vying for power, who you decide to become will determine the fate of everyone in Halcyon. In the corporate equation for the colony, you are the unplanned variable.",
+    "story": "In The Outer Worlds, you awake from hibernation on a colonist ship lost in transit to its destination on the edge of the galaxy, only to find yourself in the midst of a deep conspiracy threatening to destroy the colony. As you explore the furthest reaches of space and encounter various factions, all vying for power, the character you decide to become will determine how this player-driven story unfolds. \n \nLost in transit while on a colonist ship bound for the furthest edge of the galaxy, you awake decades later than you expected only to find yourself in the midst of a deep conspiracy threatening to destroy the Halcyon colony. As you explore the furthest reaches of space and encounter a host of factions all vying for power, who you decide to become will determine the fate of everyone in Halcyon. In the corporate equation for the colony, you are the unplanned variable. \n \nWelcome to the future - try not to break it.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-02-01",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "02/05/2020 06:25 pm",
+    "updatedAt": "02/05/2020 06:25 pm",
+    "_id": "f08731962c4544b68da14237e36300b2",
+    "name": "The Outer Worlds",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/05/1994",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p53.jpg",
+    "description": "Demolition Man is a game based on the 1993 movie by the same name. You play as John Spartan (Sly Stallone); thawed out from cryo-prison into a peaceful, Utopian future. Your task is to capture your nemesis, the psychopathic Simon Phoenix (Wesley Snipes), who has freed himself from prison and is wreaking havoc around town.  The 3DO version adopts a unique multimedia approach to the concept of a movie tie-in. Cutscenes and clips from the film are used when appropriate, but Stallone and actual props from the film (such as his uniform) were also brought in to shoot bluescreen clips specifically for the game. Stallone is placed inside the CD environments, setting up the coming gameplay sequences, which loosely act as an expanded \"director's cut\" of events in the film",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Side view"
+    ],
+    "consoleName": "3DO Interactive Multiplayer",
+    "consoleId": 50,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-31",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/01/2020 06:48 am",
+    "updatedAt": "02/01/2020 06:48 am",
+    "_id": "8b804fe9d03e48cd91aac115ae65d51e",
+    "name": "Demolition Man",
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "09/30/1994",
+    "total_rating": 76,
+    "esrb": "E",
+    "videos": [
+      "bvXX4J_b7Ek",
+      "cG2CdHeAqDk",
+      "ONbnpc9dlgk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20g8.jpg",
+    "description": "A crow is chasing a worm named Jim while in outer space Psy-Crow is chasing a renegade ship. The ship's captain has stolen an ultra-high-tech-indestructible-super-space-cyber-suit and Queen Slug-for-a-Butt has ordered Psy-Crow to get it, since it can make her more beautiful than Princess-What's-Her-Name. Psy-Crow blasts the captain and the suit falls to Planet Earth.  Back on earth Jim wonders if he is finally safe when an ultra-high-tech-indestructible-super-space-cyber-suit lands on him. Luckily Jim rests in the neck ring of the suit. Then the space particles begin interacting with Jim, causing a light-speed evolution. Jim soon realizes he is in control of the suit.  Jim overhears the Queen's plans for the suit and decides to meet this Princess...",
+    "story": "Jim is a normal earthworm, until a special \"super suit\" falls from the sky and allows him to operate much like a human, with his \"worm-part\" acting as a head and the suit acting as arms, body, and legs. Jim's task is two-fold, he must evade the game's many antagonists, who are after him because they want the suit back, and also rescue and protect Princess What's-Her-Name from them. The game plays out with Jim eluding and defeating all enemies, and saving Princess What's-Her-Name. However, not only does she not return Jim's affection, but she is also crushed by the flying cow that was launched at the beginning of the game by Jim himself.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-01-31",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/01/2020 06:47 am",
+    "updatedAt": "02/01/2020 06:47 am",
+    "_id": "1d2dd375655d491abab2deb4e5a43956",
+    "name": "Earthworm Jim",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1989",
+    "total_rating": 81,
+    "esrb": "E",
+    "videos": [
+      "bOeh7E_YNr4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26f7.jpg",
+    "description": "Final Fight is a side-scrolling beat-'em-up produced by Capcom. Final Fight can be played by up to two players simultaneously. Before the game begins, the player chooses between the three main characters: Haggar, Cody, and Guy. Each has his own fighting style and attributes. Health gauges are displayed for both player and enemy characters.The controls for Final Fight consist of an eight-way joystick and two buttons for attacking and jumping respectively. Pressing the attack button repeatedly when attacking an enemy or multiple enemies will cause the player character to perform a combo. The final blow of the combo can be changed to a throw if the player moves the joystick in the opposite direction just before landing it. The player can also perform a jump attack. Pressing the attack and jump buttons simultaneously allows the player to perform a special attack that strikes all surrounding enemies, but will drain a small portion of the player's health.Enemies can be grabbed simply by walking into one of them. When an enemy is grabbed, the player can perform a grab attack by pressing the attack button or perform a throw by tilting the joystick left or right. A thrown enemy can be tossed at another for additional damage. Items such as weapons, health recovery items, and items awarding extra points can be picked up by standing over one and pressing the attack button. Weapons have limited uses and will disappear if the player is disarmed by an enemy too much or when the player moves to a new area.Final Fight consists of six stages or \"rounds\", as well as two bonus rounds. Each round takes place in a different section of Metro City such as the Slums and the Subway, with most rounds featuring more than one level. At the end of each round the player will face a boss character unique to that round.",
+    "story": "Set in the fictional Metro City, the player controls one of three characters—former pro wrestler and newly elected mayor Mike Haggar, his daughter's boyfriend Cody, and Cody's best friend Guy—as they set out to defeat the Mad Gear gang and rescue Haggar's young daughter Jessica.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-31",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/01/2020 06:45 am",
+    "updatedAt": "02/01/2020 06:45 am",
+    "_id": "483a35be8d164b7692c1bf8fe04650cb",
+    "name": "Final Fight",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "06/28/1998",
+    "total_rating": 80,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w21.jpg",
+    "description": "Street Fighter Alpha 3, the third game in the Alpha series, has a total of 31 fighters, the most in the series so far. New characters include old favorites E. Honda, Blanka, Vega, Cammy, T. Hawk, Dee Jay, Juni and Juli. Some of the newest fighters on the block include a former Final Fight character (Cody, who has been in jail since the last Final Fight game, or so his clothing suggests), Karin Kanzuki and Rainbow Mika. The major difference between this Alpha and the last two are the new play modes World Tour, Arcade, VS, Training and Entry.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 25,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-01-31",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/01/2020 06:47 am",
+    "updatedAt": "02/01/2020 06:47 am",
+    "_id": "da631748676749d8bf64b3853b5a0672",
+    "name": "Street Fighter Alpha 3",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "08/10/2000",
+    "total_rating": 89,
+    "esrb": "E",
+    "videos": [
+      "N6k5mCj5WmQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qda.jpg",
+    "description": "Paper Mario, a turn-based JRPG entry in the Mario franchise with a paper-based aesthetic and platforming elements, sees the titular character working his way through the Mushroom Kingdom's diverse locales and biomes, meeting its inhabitants, fighthing unruly enemies and recruiting an array of companions in order to once again save Princess Peach from the clutches of the evil Koopa King Bowser.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 40,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-31",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/01/2020 06:46 am",
+    "updatedAt": "02/01/2020 06:46 am",
+    "_id": "5780c540fb054b25b1b228ae678c6640",
+    "name": "Paper Mario",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "03/18/1994",
+    "total_rating": 96,
+    "esrb": "E",
+    "videos": [
+      "ls5uo4xidwQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o11.jpg",
+    "description": "Super Metroid is an 2D, side-scrolling action-adventure game, which primarily takes place on the fictional planet Zebes—a large, open-ended world with areas connected by doors and elevators. The player controls Samus Aran as she searches the planet for a Metroid that was stolen by Ridley, the leader of the Space Pirates. Samus can run, jump, crouch, and fire a weapon in eight directions; she can also perform other actions, such as wall jumping—jumping from one wall to another in rapid succession to reach higher areas. The \"Moon Walk\" ability, named after the popular dance move of the same name, allows Samus to walk backwards while firing or charging her weapon. The heads-up display shows Samus' health, the supply mode for reserve tanks, icons that represent weapons, and an automap that shows her location and its surroundings.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Rough",
+    "case": "custom",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "01/25/2020 03:21 pm",
+    "updatedAt": "01/25/2020 03:21 pm",
+    "_id": "3f712f0c44a04dbf809e73d8d23d2a92",
+    "name": "Super Metroid",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/28/1995",
+    "total_rating": 84,
+    "esrb": "T",
+    "videos": [
+      "yRA9WizH6c0",
+      "zxqG1JYixco"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2esf.jpg",
+    "description": "Tekken 2 is the second game in the Tekken series. All of the characters from Tekken returned (with the exception of Jack, who is replaced by Jack-2 in this game). Eight new characters were added to the character roster (including Jack-2). The game features 25 playable characters. Released in arcades in 1995, and was released for the PlayStation in 1996 worldwide. Aside from winning rave reviews from the critics, it was the number one arcade game in America for 24 straight weeks and sold 3,000,000 copies worldwide on the PlayStation console. It had opening day sales of 250,000, which was a record at the time.",
+    "story": "A worldwide martial arts tournament was nearing its finale. A large purse of prize money which was to be awarded to the fighter who could defeat Heihachi Mishima in the final round provided incentive for warriors from all over the globe. \n \nFinanced and sponsored by the giant financial groups, the Mishima Zaibatsu, the first Tekken tournament began with eight fighters, all of whom had emerged victorious in death matches held all over the world, all motivated by different motives, all possessing the skill and power to crumble mountains. \n \nMany battles were fought. But only one lone warrior emerged with the right to challenge Heihachi Mishima for the title of King of the Iron Fist. \n \nThis warrior was Kazuya Mishima, Heihachi's cold blooded son. Bearing the scar given to him by Heihachi, he enters into vicious combat with his father on the same field where Heihachi last struck down his own son and dropped him into a trench at age five. \n \nAfter a grueling battle which raged on for hours, Kazuya emerged victorious by utilizing the skills which had been passed down from generation to generation of the Mishima clan. \n \nAs Heihachi's broken body lay on the ground, Kazuya dropped to his knees and slowly lifted his father into his arms. Walked slowly to the edge of the same cliff where his father had left him to die, stared out over the landscape of all that was now his, and let go of his father's body. As Heihachi's body plummeted, Kazuya's smile gleamed in the sunlight... \n \nOne year has passed. The Mishima Zaibatsu under Kazuya's leadership has become even more powerful with its tendrils reaching to all corners of the world. Soon after his father's apparent death, Kazuya disappears into the shadows. However, rumors of his immense power, and a dark side, slowly begin to spread throughout the world. \n \nExactly two years after the first Tekken tournament, a message is relayed from the Mishima Zaibatsu fortress to news agencies all over the world announcing a second tournament with a prize a thousand times that of the first. \n \nSo the tournament begins...",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2020-01-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "01/25/2020 03:23 pm",
+    "updatedAt": "01/25/2020 03:23 pm",
+    "_id": "69f9f7b365da483c89a41715be55e600",
+    "name": "Tekken 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting"
+    ]
+  },
+  {
+    "first_release_date": "04/06/2017",
+    "total_rating": 76,
+    "esrb": "M",
+    "videos": [
+      "6Dfq2B4LcNs",
+      "z3ezu8QJEtY",
+      "gWVjuObLuSw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r8.jpg",
+    "description": "\"Battle your way through throngs of Stygia’s mutated inhabitants, performing masterful kills throughout the single-player campaign—or one of 30 competitive score-challenge or 12 co-operative multiplayer maps—using Bulletstorm: Full Clip Edition’s unique “Skillshot” system that rewards you for executing the most creative and deadly kills imaginable.    Bulletstorm: Full Clip edition is the definitive Bulletstorm experience that includes all existing Bulletstorm add-ons, plus brand-new content exclusive to Full Clip!\"",
+    "story": "\"Step into the boots of Grayson Hunt after a crash landing on an abandoned resort planet forces him to make a hard choice: survival or revenge. An exiled member of the elite assassin group Dead Echo, Grayson’s blind desire for vengeance finds his crew stranded on Stygia where he can finally confront the commander behind his betrayal—or get his team off the planet alive.\"",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 7,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2020-01-25",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "02/01/2020 07:11 am",
+    "updatedAt": "02/01/2020 07:11 am",
+    "_id": "769e9a1659594a84871c87905639476e",
+    "name": "Bulletstorm: Full Clip Edition",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "12/07/1994",
+    "total_rating": 78,
+    "videos": [
+      "nGbanhZRxgc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y7u.jpg",
+    "description": "The Lion King brings to life the majesty and mystery of Africa thruogh the tale of Simba, a lion cub faced with the challenging transition to maturity. Believing himself to be responsible for his father's death, Simba enters the wilderness - where he finds salvation with Pumbaa the warthog and Timon the meerkat, and his education begins.  Take control of the youg cub Simba and, through interaction as detailed as the lust terrain, guide him safely through.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "01/25/2020 03:17 pm",
+    "updatedAt": "01/25/2020 03:17 pm",
+    "_id": "d45d0cb6bd3346b490f8b72b8ffebf47",
+    "name": "The Lion King",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "11/17/2001",
+    "total_rating": 51,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1oua.jpg",
+    "description": "Picking up quite a while after the defeat of Clayton, Jane and Professor Porter now speak Gorilla-language fluently and Jane is married to Tarzan. However, their lives are threatened once again by a brutal band of British explorers led by the unscrupulous Oswald Gardner, who becomes fascinated with Tarzan and strives to capture the ape-man and take him back to England as a media attraction.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "01/25/2020 03:19 pm",
+    "updatedAt": "01/25/2020 03:19 pm",
+    "_id": "f8196043858e4a318c8db4ff716d3dd7",
+    "name": "Disney's Tarzan: Freeride",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "01/31/1989",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/yt4oe4lalcyhco6hpj26.jpg",
+    "description": "Tom Sawyer's famous literary exploits come to life in this adventure where you play Tom Sawyer (or Huck Finn in a 2 player game). The adventure begins in Tom's dream while he sleeps in school.  Control in this typical platform game consists of jumping and throwing rocks. Avoid many obstacles such as rolling barrels; defeat persistent enemies such as pirates, mice, and even a giant octopus. Help Tom navigate down the Mississippi River, through forests, haunted houses, and the sky above.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "01/25/2020 03:20 pm",
+    "updatedAt": "01/25/2020 03:20 pm",
+    "_id": "6d35c7f41d954e1da43014034a515f77",
+    "name": "Adventures of Tom Sawyer",
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": [
+      {
+        "id": "nes10",
+        "name": "Adventures of Tom Sawyer",
+        "details": [
+          "NES exclusive game"
+        ],
+        "igdbId": 48109,
+        "gbId": null,
+        "gbGuid": null,
+        "tgdbId": null,
+        "isExclusive": [
+          {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "09/19/1989",
+    "total_rating": 39,
+    "videos": [
+      "geHAoWQGSfI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qmo.jpg",
+    "description": "Back to the Future is a Nintendo Entertainment System game developed by Beam Software and loosely modeled after the popular film of the same name. It was followed by a sequel game which covered the second and third films in the Back to the Future movie franchise.",
+    "story": "Marty McFly must make his way through various stages, ensuring that he does not change time too much in the process, so that he can return to his own time after making some significant changes to the past. Famous scenes are incorporated into the game, such as Marty repelling Biff Tannen's gang of bullies, and playing guitar at the dance when George and Lorraine have their first kiss.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2020-01-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "01/25/2020 03:19 pm",
+    "updatedAt": "01/25/2020 03:19 pm",
+    "_id": "91ab3156be6b40018864e207225dab36",
+    "name": "Back to the Future",
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": [
+      {
+        "id": "nes33",
+        "name": "Back To The Future",
+        "details": [
+          "NES exclusive game"
+        ],
+        "igdbId": 8516,
+        "gbId": 18697,
+        "gbGuid": "3030-18697",
+        "tgdbId": 36798,
+        "isExclusive": [
+          {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Pinball",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "01/31/1990",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ncukkwxblsgp8uv22bkh.jpg",
+    "description": "You're a high-scoring point guard capable of awesome vertical leaps and hangtime. Matter of fact, you can do it all! Dribble. Bounce-pass. Fake. Pivot. Jump. Shoot. Play Man or Zone. Drive the lane -- is the defender all over you? Give him a move and jam, slam in his face!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleId": 86,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-12-30",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/31/2019 06:05 am",
+    "updatedAt": "12/31/2019 06:05 am",
+    "_id": "c4ba894a658c4fbaacaa4d723e9e3281",
+    "name": "Takin' it to the Hoop",
+    "extraData": [
+      "TurboGrafx-16 Multitap compatible title",
+      "TurboGrafx-16 simultaneous 2 player"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Takin' it to the Hoop",
+        "id": "tg1648",
+        "details": [
+          "TurboGrafx-16 Multitap compatible title",
+          "TurboGrafx-16 simultaneous 2 player"
+        ],
+        "igdbId": 44338,
+        "gbId": 30612,
+        "gbGuid": "3030-30612",
+        "special": [
+          {
+            "value": "TurboGrafx-16 Multitap compatible title, TurboGrafx-16 simultaneous 2 player",
+            "forPlatform": {
+              "name": "NEC TurboGrafx 16",
+              "id": "ccl33",
+              "igdbId": 86,
+              "gbId": 55,
+              "gbGuid": "3045-55",
+              "tgdbId": 34
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "03/03/1989",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28a9.jpg",
+    "description": "Dungeon Explorer is a multiplayer action/role-playing game where up to five players can play at the same time.  You, brave soldier, are the last hope of a once-peaceful Oddesia. Yours is a strange world full of magic, hidden dangers and potions. But you have powerful friends. Use them to recover the ORA Stone which was hidden from the conquering evil king, Natas. Deep within the ancient dungeons lies the Stone with powers of life, light, happiness. But where?",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleId": 86,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-30",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/31/2019 06:03 am",
+    "updatedAt": "12/31/2019 06:03 am",
+    "_id": "1e92f9b970e04dd99858da154390ba81",
+    "name": "Dungeon Explorer",
+    "extraData": [
+      "TurboGrafx 16 launch title",
+      "TurboGrafx-16 Multitap compatible title",
+      "TurboGrafx-16 5 player"
+    ],
+    "extraDataFull": [
+      {
+        "id": "tg1621",
+        "name": "Dungeon Explorer",
+        "details": [
+          "TurboGrafx 16 launch title",
+          "TurboGrafx-16 Multitap compatible title",
+          "TurboGrafx-16 5 player"
+        ],
+        "igdbId": 74314,
+        "gbId": 7849,
+        "gbGuid": "3030-7849",
+        "tgdbId": 442,
+        "isLaunchTitle": [
+          {
+            "name": "NEC TurboGrafx 16",
+            "id": "ccl33",
+            "igdbId": 86,
+            "gbId": 55,
+            "gbGuid": "3045-55",
+            "tgdbId": 34
+          }
+        ],
+        "special": [
+          {
+            "value": "TurboGrafx-16 Multitap compatible title, TurboGrafx-16 5 player",
+            "forPlatform": {
+              "name": "NEC TurboGrafx 16",
+              "id": "ccl33",
+              "igdbId": 86,
+              "gbId": 55,
+              "gbGuid": "3045-55",
+              "tgdbId": 34
+            }
+          }
+        ],
+        "isExclusive": false
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1978",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/r6dgeb7iftgyviq9hken.jpg",
+    "description": "Football is a football game for two players. The game is played from a top down point of view of the field and features two skill levels and three game variations. Using the joystick you can choose from one of five different offensive or defensive plays. In the first game variation, after selecting a play you then control the players on the field. In the second game, you have the option of controlling your players after a play is selected or allowing the computer to control the players. The third game has the computer controlling the players at all times and you only need to select the plays you wish it to execute and indicate when you wish to punt or pass the ball. In all of the game variations the timer begins at 5 minutes, and is active only during plays. Of course, the team with the most points when the timer runs out wins!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Atari 2600",
+    "consoleId": 59,
+    "condition": "Rough",
+    "case": "custom",
+    "pricePaid": 1,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-30",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/31/2019 06:06 am",
+    "updatedAt": "12/31/2019 06:06 am",
+    "_id": "e8762f05ce8b417cb88dcb836a78b488",
+    "name": "Football",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Football"
+    ]
+  },
+  {
+    "first_release_date": "01/20/2009",
+    "total_rating": 84,
+    "esrb": "",
+    "videos": [
+      "4Juh0p6u5rM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/wkwd1ga1qr9xrudotbsw.jpg",
+    "description": "It's been five long years since your mysterious disappearance from the skate scene, and much has changed in the wake of \"the disaster-too-gnarly-to-be-named.\" The massive devastation left large swaths of San Vanelona completely destroyed. After the mass evacuation, one company, Mongocorp, won the bid to rebuild New San Vanelona and their zealous protection of their private property has put a damper on the once thriving skate population. Your mission is to rebuild your career and revive the New San Van skate scene. To help you get the job done, you'll have double the tricks and the new ability to get off your board to move stuff and create the sickest lines. There's even a crew of locals you can call on to help take care of business. Skate 2--it's time to take back the city ... one spot at a time.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PlayStation 3",
+    "consoleId": 9,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 1,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-30",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/31/2019 06:06 am",
+    "updatedAt": "12/31/2019 06:06 am",
+    "_id": "9cdf90883764468eabdf0f8c5507a55b",
+    "name": "Skate 2",
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Sport",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "05/21/1980",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": [
+      "9-ot7wUVgyo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w1t.jpg",
+    "description": "Pac-Man is an arcade game developed by Namco and first released in Japan on May 22, 1980. it is considered one of the classics of the medium, virtually synonymous with video games, and an icon of 1980s popular culture. The player controls Pac-Man through a maze, eating pac-dots (also called pellets or just dots). When all pac-dots are eaten, Pac-Man is taken to the next stage. Four enemies (Blinky, Pinky, Inky and Clyde) roam the maze, trying to catch Pac-Man. If an enemy touches Pac-Man, a life is lost and the Pac-Man itself withers and dies. When all lives have been lost, the game ends. Near the corners of the maze are four larger, flashing dots known as power pellets that provide Pac-Man with the temporary ability to eat the enemies. The enemies turn deep blue, reverse direction and usually move more slowly. When an enemy is eaten, its eyes remain and return to the center box where it is regenerated in its normal color. Blue enemies flash white to signal that they are about to become dangerous again and the length of time for which the enemies remain vulnerable varies from one stage to the next, generally becoming shorter as the game progresses.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Atari 2600",
+    "consoleId": 59,
+    "condition": "Rough",
+    "case": "custom",
+    "pricePaid": 2,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/29/2019 05:39 am",
+    "updatedAt": "12/29/2019 05:39 am",
+    "_id": "2ebd9a9a98ac420cb9e3b433faac4ae7",
+    "name": "Pac-Man",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle",
+      "Strategy",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2000",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/aeqe23wyli81dfi0zx2c.jpg",
+    "description": "Looney Tunes: Space Race features eight all-time favorite characters, including Bugs Bunny, Daffy Duck, Taz, Sylvester, Yosemite Sam, and Wile E. Coyote. The 12 tracks include shortcuts, jumps, and traps, and there are over 40 competitive events. Players can pummel opponents with gags like the portable hole, falling elephants, retractable boxing glove, and instant storm. Up to four players can race at a time.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 27.88,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/29/2019 05:37 am",
+    "updatedAt": "12/29/2019 05:37 am",
+    "_id": "47c578cd7e3447deade27ffe416cd7fa",
+    "name": "Looney Tunes: Space Race",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "11/17/1999",
+    "total_rating": 82,
+    "esrb": "T",
+    "videos": [
+      "iwj0PyMn7yU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sx2.jpg",
+    "description": "The story of Vigilante 8: 2nd Offense centers on the international meddlings of an oil conglomerate from the future known as OMAR (Oil Monopoly Alliance Regime). After finding an electronic armband in a service station bathroom, former Vigilante Slick Clyde rose to be controlled by OMAR. Working up through the ranks of command he soon came to be the CEO of OMAR itself and made a complete monopoly on all oil trades with the sole exception of the United States. With the help of his student and hitman, Obake, he steals the technology to allow him to travel through time. Taking with him Obake and his cybernetic assassin, Dallas 13, he makes the jump back to 1970s to cripple the United States and bring OMAR to total domination. Appearing in 1970s, the three vehicles encounter Convoy, the former leader of the Vigilantes. Upon seeing him, the three cars open fire.",
+    "story": "The game is set in September 1977, two years after the events of Vigilante 8. The southwestern United States has become peaceful in the wake of the Coyotes' defeat, but the Oil Monopoly Alliance Regime (OMAR) continues to dominate most of the global petroleum market, well into the 21st century. With new Coyotes leader Slick Clyde leading OMAR during the twilight of his life by 2017, Clyde thinks that a failure to conquer America (which has adopted nuclear and sustainable energy) would be his biggest regret. He plans to change history by stealing prototype time machines from Stanford University's quantum physics lab, travel back to the 1970s, and eliminate the Vigilantes to ensure OMAR's supremacy.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 9,
+    "physical": true,
+    "cib": false,
+    "datePurchased": "2019-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/29/2019 05:35 am",
+    "updatedAt": "12/29/2019 05:35 am",
+    "_id": "ff6bc7e61d4d42358008437f4aaabd5b",
+    "name": "Vigilante 8: 2nd Offense",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Sport",
+      "Vehicular combat"
+    ]
+  },
+  {
+    "first_release_date": "11/20/1995",
+    "total_rating": 80,
+    "esrb": "E",
+    "videos": [
+      "XtMf8YN7KYs",
+      "ryM1lxnSjuM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co217m.jpg",
+    "description": "Donkey Kong Country 2: Diddy's Kong Quest is the sequel to Donkey Kong Country. It was developed by Rare and is one of the best selling Super Nintendo games.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/29/2019 05:36 am",
+    "updatedAt": "12/29/2019 05:36 am",
+    "_id": "44be3b711efc4314bebfbb0e7db0c29e",
+    "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/11/1992",
+    "total_rating": 66,
+    "esrb": "E",
+    "videos": [
+      "cZyCyQI77kw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c2h.jpg",
+    "description": "Bart has to stay up late and write a paper for class tomorrow. For once, he is determined to get a good mark. However, very quickly, he falls asleep. Nightmare after nightmare haunt his subconscious, and it is up to you to get over each one, so that Bart will eventually wake up. From such dreams as being in an episode of Itchy & Scratchy to swimming through his own bloodstream, this platformer offers a nice challenge through its many diverse levels.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 14.39,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/29/2019 05:36 am",
+    "updatedAt": "12/29/2019 05:36 am",
+    "_id": "785d404d47c04f648a96c80fcfd17dc9",
+    "name": "The Simpsons: Bart's Nightmare",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "01/18/1999",
+    "total_rating": 79,
+    "videos": [
+      "sfParGc8BJw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1on2.jpg",
+    "description": "An upgraded version of Metal Slug 2 (Metal Slug 2: Super Vehicle-001/I), titled Metal Slug X, was released in March 1999 for the Neo Geo MVS. It fixed slowdown problems from the original game, and increased the difficulty. Metal Slug X also introduced some new elements to the game system.  Metal Slug X was ported to the Neo Geo AES in May 1999 and the PlayStation in January 2001.[10] The PlayStation version was released in North America and PAL regions by Agetec and features the same \"Combat School\" mode featured in the Neo Geo CD versions of the first two games.  The game solved 80% of all the bugs, glitches and slowdown that Metal Slug 2 had, and even changed the daytime of most of the levels. Bosses were also placed into more suitable positions and even more enemies were added to the final mission making it even more difficult than before.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 32,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/29/2019 05:38 am",
+    "updatedAt": "12/29/2019 05:38 am",
+    "_id": "217d23f0ed0f44ae962f95a8e5d3485b",
+    "name": "Metal Slug X",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "02/14/2019",
+    "total_rating": 69,
+    "esrb": "M",
+    "videos": [
+      "6eLHk2Eug78",
+      "iVEfKfMXSUs",
+      "mc9ORzs23oY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpg.jpg",
+    "description": "Dive into a transformed vibrant post-apocalyptic Hope County, Montana, 17 years after a global nuclear catastrophe. Lead the fight against the Highwaymen, as they seek to take over the last remaining resources.",
+    "story": "Seventeen years after a nuclear doomsday, Hope County, Montana, has changed in unexpected ways. Nuclear winter has given way to a \"superbloom,\" creating a lush, colourful landscape that survivors have begun to re-populate with makeshift buildings. It's a lawless frontier where people are struggling to get by - and you'll be able to experience it all with a friend in co-op, or on your own as a lone gunslinger.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 16,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-12-12",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 09:02 pm",
+    "updatedAt": "03/20/2020 09:02 pm",
+    "_id": "dfb8d8c31da9487d88d410bb44d21694",
+    "name": "Far Cry: New Dawn",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "07/26/1990",
+    "total_rating": 71,
+    "esrb": "E",
+    "videos": [
+      "6Qqa4Qz9wWs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co289l.jpg",
+    "description": "Dr. Mario is a falling block tile-matching video game, in which Mario assumes the role of a doctor, dropping two-colored medical capsules into a medicine bottle representing the playing field. This area is populated by viruses of three colors: red, yellow, and blue. In a manner and style considered similar to Tetris, the player manipulates each capsule as it falls, moving it left or right and rotating it such that it is positioned alongside the viruses and any existing capsules. When four or more capsule halves or viruses of matching color are aligned in vertical or horizontal configurations, they are removed from play. The main objective is to complete levels, which is accomplished by eliminating all viruses from the playing field. A game over occurs if capsules fill up the playing field in a way that obstructs the bottle's narrow neck.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "12/29/2019 05:34 am",
+    "updatedAt": "12/29/2019 05:34 am",
+    "_id": "1f374ca5fc4f4594a61f735bf8654dcf",
+    "name": "Dr. Mario",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle"
+    ]
+  },
+  {
+    "first_release_date": "07/31/1987",
+    "total_rating": 57,
+    "esrb": "E10+",
+    "videos": [
+      "cy5f9ayBHbM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20fc.jpg",
+    "description": "The player character has a repertoire of martial art techniques which they can perform by using the joystick and three action buttons (kick, jump, and punch) individually or in combination. Techniques range from basic punches and kicks, to more elaborate manoeuvres like hair grabbing moves and elbow strikes. When playing with another player, one can assist the other by grabbing their partner's opponent from behind. Caution should be taken, though, as some enemies are able to do the same thing to the players. The player begins the game with a certain number of extra lives and a life gauge which depletes as the player takes hits. If the life gauge runs out or the time limit reaches zero, the player will lose a life.  There is a small variety of enemy characters that the player will face through the course of the game. Certain enemies carry melee weapons, which can be knocked out of their hands and picked up to use against them. Available weapons include baseball bats, whips, throwing knives, and dynamite; in addition, rocks, oil drums, and boxes can be found in certain places.  The game is divided into four different stages or \"missions,\" which consist of a city slum, a factory, the woods, and the gang's hideout. The game normally ends if a single player defeats the final boss alone. However, if two players manage to complete the game together, they are then forced to fight each other in order to determine who will win Marian's affections.",
+    "story": "The player takes control of martial artist Billy Lee, or his twin brother Jimmy (also known as Hammer and Spike in the supplementary materials for the American arcade release), as they fight their way into the turf of the Black Warriors gang in order to rescue their common love interest Marian.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-12-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "12/29/2019 05:32 am",
+    "updatedAt": "12/29/2019 05:32 am",
+    "_id": "47262a34e3ca418ca67f7eba71470877",
+    "name": "Double Dragon",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "06/27/2006",
+    "total_rating": 30,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/gx4sp6nzu65e124rvz5e.jpg",
+    "description": "Pirates of the Caribbean: The Legend of Jack Sparrow is an action-adventure video game by American developer 7 Studios for the PlayStation 2 and Microsoft Windows. It features playable levels based on the experiences of Captain Jack Sparrow, voiced by Johnny Depp who portrays him in the movies, after the events of Pirates of the Caribbean: The Curse of the Black Pearl. The game includes action, puzzles and humorous cutscenes.",
+    "story": null,
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-12-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "12/29/2019 05:31 am",
+    "updatedAt": "12/29/2019 05:31 am",
+    "_id": "426801f2af464a01b69aa5635168cfb8",
+    "name": "Pirates of the Caribbean: The Legend of Jack Sparrow",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/21/1995",
+    "total_rating": 76,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ejx.jpg",
+    "description": "Bosconian, Galaga, New Rally-X, Pac-Man, Pole Position, Rally-X, Toy Pop Not only can you play these games, but you can also learn about them in the virtual museum mode included on the disc, including their history, art and the original arcade cabinets.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-12-03",
+    "howAcquired": "Video Games Monthly",
+    "notes": "",
+    "createdAt": "12/29/2019 05:32 am",
+    "updatedAt": "12/29/2019 05:32 am",
+    "_id": "35bb2b452ad642f99d69e8d6c075293d",
+    "name": "Namco Museum Vol. 1",
+    "extraData": [
+      "Sony PlayStation exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Namco Museum Vol. 1",
+        "details": [
+          "Sony PlayStation exclusive"
+        ],
+        "id": "psx316",
+        "igdbId": 20611,
+        "gbId": 31411,
+        "gbGuid": "3030-31411",
+        "tgdbId": 21248,
+        "isExclusive": [
+          {
+            "name": "Sony PlayStation",
+            "id": "ccl20",
+            "igdbId": 7,
+            "gbId": 22,
+            "gbGuid": "3045-22",
+            "tgdbId": 10
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "12/31/1979",
+    "total_rating": 73,
+    "esrb": "E",
+    "videos": [
+      "ndjFSmI4EN8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pk3.jpg",
+    "description": "Defender is an arcade video game developed released by Williams Electronics in 1980. A shooting game featuring two-dimensional (2D) graphics, the game is set on a fictional planet where the player must defeat waves of invading aliens while protecting astronauts. Development was led by Eugene Jarvis, a pinball programmer at Williams; Defender was Jarvis's first video game project, and drew inspiration from Space Invaders and Asteroids. Williams planned to display the game at the Amusement & Music Operators Association (AMOA) trade show, though development delays resulted in the team working on the game up until the show started.  Defender was commercially successful, selling over 55,000 units to become the company's best selling arcade game. Praise among critics focused on the game's audio-visuals and gameplay. It is frequently listed as one of Jarvis's best contributions to the video game industry, as well as one of the most difficult video games. Defender was ported to numerous platforms, inspired the development of other games, and was followed by sequels and many imitations.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Atari 2600",
+    "consoleId": 59,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": 1,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-11-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/30/2019 08:02 am",
+    "updatedAt": "11/30/2019 08:02 am",
+    "_id": "d67858950b954ba59bdffdbc2a3e2404",
+    "name": "Defender",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Strategy",
+      "SHMUP"
+    ]
+  }
+]

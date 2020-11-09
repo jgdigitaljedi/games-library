@@ -1,0 +1,524 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Killzone 3",
+        "id": 1867,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 89,
+        "first_release_date": "02/21/2011",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "KZ3",
+        "guid": "3030-30431",
+        "gbid": 30431,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
+        "deck": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
+        "platforms": "PlayStation 3"
+      },
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "4",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-07-24",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "07/25/2020 07:41 am",
+      "updatedAt": "07/25/2020 07:41 am",
+      "_id": "6f620a723a8f4e7f86812b437ce9aafa",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794113-box_killzone3.png",
+      "description": "Killzone 3 continues the story of the invasion of the planet Helghan by the oppressive forces of the merciless Interplanetary Strategic Alliance. The game also features an improved multiplayer progression system and refined classes.",
+      "name": "Killzone 3",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1867;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Sniper: Ghost Warrior 2",
+        "id": 1368,
+        "genres": [
+          "Shooter",
+          "Tactical",
+          "FPS"
+        ],
+        "total_rating": 56,
+        "total_rating_count": 55,
+        "first_release_date": "03/11/2013",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-33002",
+        "gbid": 33002,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2391159-box_snipergw2.png",
+        "deck": "Follow the exploits of Captain Cole Anderson as he tries to stop a bio-weapon being unleashed.",
+        "platforms": "Xbox 360, PlayStation 3, PlayStation Network (PS3), PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3.33",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-27",
+      "howAcquired": "Steam",
+      "notes": "bought in bundle with all 3 Sniper: Ghost Warrior games for 9.99",
+      "createdAt": "06/28/2020 07:53 am",
+      "updatedAt": "06/28/2020 07:53 am",
+      "_id": "1ac244e8bc48435e9b4b1cdb427b4dac",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2391159-box_snipergw2.png",
+      "description": "Follow the exploits of Captain Cole Anderson as he tries to stop a bio-weapon being unleashed.",
+      "name": "Sniper: Ghost Warrior 2",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1368;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Deus Ex",
+        "id": 41,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "FPS"
+        ],
+        "total_rating": 90,
+        "total_rating_count": 504,
+        "first_release_date": "06/25/2000",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "DX",
+        "guid": "3030-17533",
+        "gbid": 17533,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5480/608405-dxcover_1.jpg",
+        "deck": "A celebrated cyberpunk-themed first-person role-playing game, Deus Ex puts players behind the shades of JC Denton--an operative thrust into a world of byzantine global conspiracies.",
+        "platforms": "Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": ".97",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-16",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/16/2020 08:03 am",
+      "updatedAt": "06/16/2020 08:03 am",
+      "_id": "030e8803b873413bb045f91a048a1a4c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5480/608405-dxcover_1.jpg",
+      "description": "A celebrated cyberpunk-themed first-person role-playing game, Deus Ex puts players behind the shades of JC Denton--an operative thrust into a world of byzantine global conspiracies.",
+      "name": "Deus Ex",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 41;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 287
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "The King of Fighters 2000",
+        "id": 15431,
+        "genres": [
+          "Fighting",
+          "Arcade"
+        ],
+        "total_rating": 78,
+        "total_rating_count": 27,
+        "first_release_date": "01/20/2000",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-15728",
+        "gbid": 15728,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/840916-kof00_ng_jp.jpg",
+        "deck": "The seventh installment of SNK's King of Fighters series and the last game they developed before their bankruptcy. It features an expansion of the \"Striker\" system, including numerous Striker-only characters for additional options.",
+        "platforms": "Mac, PlayStation 2, Neo Geo, Dreamcast, Arcade, PC, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-06-13",
+      "howAcquired": "Twitch",
+      "notes": "",
+      "createdAt": "06/13/2020 07:46 am",
+      "updatedAt": "06/13/2020 07:46 am",
+      "_id": "f8b59e9a46c24ff583e1fb67cf974119",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/1614/840916-kof00_ng_jp.jpg",
+      "description": "The seventh installment of SNK's King of Fighters series and the last game they developed before their bankruptcy. It features an expansion of the \"Striker\" system, including numerous Striker-only characters for additional options.",
+      "name": "The King of Fighters 2000",
+      "miltiplayerNumber": 2
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 15431;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Descent II",
+        "id": 668,
+        "genres": [
+          "Shooter",
+          "Simulator"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 14,
+        "first_release_date": "03/12/1996",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Descent 2",
+        "guid": "3030-5507",
+        "gbid": 5507,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/677143-descentii_dos.jpg",
+        "deck": "The Material Defender returns in this underground 360 degree action shooter, this time retrofitted with a prototype warp core in his ship that will take him to distant worlds. The game features a new array of destructive weapons and berserk robots that ups the ante from its predecessor.",
+        "platforms": "Amiga, Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-07",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "06/08/2020 06:48 am",
+      "updatedAt": "06/08/2020 06:48 am",
+      "_id": "b62cf5adf41e41698c43ed6ced5acb65",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/7465/677143-descentii_dos.jpg",
+      "description": "The Material Defender returns in this underground 360 degree action shooter, this time retrofitted with a prototype warp core in his ship that will take him to distant worlds. The game features a new array of destructive weapons and berserk robots that ups the ante from its predecessor.",
+      "name": "Descent II",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 668;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Buzz!: Quiz World",
+        "id": 7284,
+        "genres": [
+          "Puzzle",
+          "Quiz/Trivia"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 6,
+        "first_release_date": "10/29/2009",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-29063",
+        "gbid": 29063,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1887880-box_buzzqw.png",
+        "deck": "The ninth game in the Buzz! series of trivia quiz games.",
+        "platforms": "PlayStation Portable, PlayStation 3"
+      },
+      "consoleName": "PlayStation Portable",
+      "consoleIgdbId": 38,
+      "consoleGbid": 18,
+      "consoleGbGuid": "3045-18",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "sealed",
+      "createdAt": "06/08/2020 07:02 am",
+      "updatedAt": "06/08/2020 07:02 am",
+      "_id": "8c8aec88626c49e9ac2528b4e582387a",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1887880-box_buzzqw.png",
+      "description": "The ninth game in the Buzz! series of trivia quiz games.",
+      "name": "Buzz!: Quiz World",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 7284;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Chessmaster: The Art of Learning",
+        "id": 20777,
+        "genres": [
+          "Puzzle",
+          "Sport",
+          "Strategy",
+          "Quiz/Trivia"
+        ],
+        "total_rating": 50,
+        "total_rating_count": 1,
+        "first_release_date": "10/22/2007",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Chessmaster XI",
+        "guid": "3030-20493",
+        "gbid": 20493,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4647/185355-944165_98021_front.jpg",
+        "deck": "Can you master the mysterious art of learning in a chess simulator?",
+        "platforms": "PlayStation Portable, Nintendo DS"
+      },
+      "consoleName": "PlayStation Portable",
+      "consoleIgdbId": 38,
+      "consoleGbid": 18,
+      "consoleGbGuid": "3045-18",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-06-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "06/08/2020 07:01 am",
+      "updatedAt": "06/08/2020 07:01 am",
+      "_id": "06b23ea320674594ba9e53462d0c4528",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4647/185355-944165_98021_front.jpg",
+      "description": "Can you master the mysterious art of learning in a chess simulator?",
+      "name": "Chessmaster: The Art of Learning",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 20777;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 79kueec3cyzbnlu1a1iij9h67ovi5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

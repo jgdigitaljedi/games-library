@@ -1,0 +1,552 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Crysis 3",
+        "id": 1268,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 227,
+        "first_release_date": "02/18/2013",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Crysis III",
+        "guid": "3030-37957",
+        "gbid": 37957,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2417187-box_crysis3.png",
+        "deck": "A mysteriously resurrected Prophet fights his way through the now literal jungles of the fallen New York City, continuing the fight against the malevolent Ceph alien invaders.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Android"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "11",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-09-08",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "09/09/2020 06:32 am",
+      "updatedAt": "09/09/2020 06:32 am",
+      "_id": "3b8a26e01b774d96ac1d07747066aa65",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2417187-box_crysis3.png",
+      "description": "A mysteriously resurrected Prophet fights his way through the now literal jungles of the fallen New York City, continuing the fight against the malevolent Ceph alien invaders.",
+      "name": "Crysis 3",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1268;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Titanfall 2",
+        "id": 17447,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 340,
+        "first_release_date": "10/27/2016",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-49139",
+        "gbid": 49139,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2895132-t2.jpg",
+        "deck": "The sequel to Respawn's sci-fi mech-filled first-person shooter, Titanfall 2 adds a deep single-player campaign and revamped multiplayer.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "10",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-23",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "08/23/2020 07:58 pm",
+      "updatedAt": "08/23/2020 07:58 pm",
+      "_id": "e14bd1eff0ca428d87beb3ba49485fd9",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2895132-t2.jpg",
+      "description": "The sequel to Respawn's sci-fi mech-filled first-person shooter, Titanfall 2 adds a deep single-player campaign and revamped multiplayer.",
+      "name": "Titanfall 2",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 17447;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Super Mario World 2: Yoshi's Island",
+        "id": 1073,
+        "genres": [
+          "Platform"
+        ],
+        "total_rating": 95,
+        "total_rating_count": 360,
+        "first_release_date": "08/04/1995",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Yoshi's Island",
+        "guid": "3030-2866",
+        "gbid": 2866,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364715-snes_yoshis_island.jpg",
+        "deck": "A spin-off of the Super Mario platforming series, Yoshi's Island puts players in control of a tribe of Yoshies as they guide the infant Mario past the forces of the evil Kamek.",
+        "platforms": "Game Boy Advance, Super Nintendo Entertainment System, Nintendo Switch"
+      },
+      "consoleName": "Super Nintendo Entertainment System (SNES)",
+      "consoleIgdbId": 19,
+      "consoleGbid": 9,
+      "consoleGbGuid": "3045-9",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "25",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/23/2020 07:35 pm",
+      "updatedAt": "08/23/2020 07:35 pm",
+      "_id": "53634c5508d44096895ce46bda2af9f3",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364715-snes_yoshis_island.jpg",
+      "description": "A spin-off of the Super Mario platforming series, Yoshi's Island puts players in control of a tribe of Yoshies as they guide the infant Mario past the forces of the evil Kamek.",
+      "name": "Super Mario World 2: Yoshi's Island",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1073;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Fallout 3: Game of the Year Edition",
+        "id": 21892,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 91,
+        "total_rating_count": 73,
+        "first_release_date": "10/12/2009",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-20504",
+        "gbid": 20504,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1974388-box_fallout3.png",
+        "deck": "In Bethesda's first-person revival of the classic post-apocalyptic RPG series, the player is forced to leave Vault 101 and venture out into the irradiated wasteland of Washington D.C. to find his or her father.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-17",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "08/26/2020 07:27 am",
+      "updatedAt": "08/26/2020 07:27 am",
+      "_id": "25e4ea5e9cc34e989f57b39cf109e5eb",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1974388-box_fallout3.png",
+      "description": "In Bethesda's first-person revival of the classic post-apocalyptic RPG series, the player is forced to leave Vault 101 and venture out into the irradiated wasteland of Washington D.C. to find his or her father.",
+      "name": "Fallout 3: Game of the Year Edition",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 21892;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Warhammer 40,000: Rites of War",
+        "id": 24113,
+        "genres": [
+          "Strategy",
+          "Turn-based strategy (TBS)"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 1,
+        "first_release_date": "06/29/1999",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-13731",
+        "gbid": 13731,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/17351/770789-big.jpg",
+        "deck": "Warhammer 40,000: Rites of War is a turn based strategy game created by Games Workshop in 1999.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "0",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-10",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "08/26/2020 07:29 am",
+      "updatedAt": "08/26/2020 07:29 am",
+      "_id": "a9a32b156c81462389c8c36a04e1acb4",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/17351/770789-big.jpg",
+      "description": "Warhammer 40,000: Rites of War is a turn based strategy game created by Games Workshop in 1999.",
+      "name": "Warhammer 40,000: Rites of War",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 24113;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Pole Position",
+        "id": 5691,
+        "genres": [
+          "Racing",
+          "Simulator",
+          "Sport",
+          "Arcade"
+        ],
+        "total_rating": 67,
+        "total_rating_count": 23,
+        "first_release_date": "08/31/1982",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-10087",
+        "gbid": 10087,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
+        "deck": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
+        "platforms": "Amstrad CPC, Commodore 64, ZX Spectrum, Atari 8-bit, Atari 2600, Intellivision, Atari 5200, Vectrex, Arcade, PC"
+      },
+      "consoleName": "Atari 5200",
+      "consoleIgdbId": 66,
+      "consoleGbid": 67,
+      "consoleGbGuid": "3045-67",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-07",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "08/08/2020 08:10 am",
+      "updatedAt": "08/08/2020 08:10 am",
+      "_id": "446020ae66e74a0db3a4e8f14c1d837c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2366215-a5200_poleposition.jpg",
+      "description": "The first 16-bit video game, Pole Position was responsible for popularizing third-person psuedo-3D graphics and racing games as a whole.",
+      "name": "Pole Position",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 5691;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Dig Dug",
+        "id": 2636,
+        "genres": [
+          "Arcade"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 43,
+        "first_release_date": "04/18/1982",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-2587",
+        "gbid": 2587,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/1426059-digdug_front.jpg",
+        "deck": "Dig dug is an arcade game released in 1982.  The objective is to kill the underground monsters by either squishing them under a rock through the tunnels you create or by popping them using your weapon directly.",
+        "platforms": "Game Boy Advance, Apple II, Commodore 64, MSX, Nintendo Entertainment System, Atari 8-bit, VIC-20, Atari 2600, Nintendo 64, TI-99/4A, Intellivision, Atari 5200, Atari 7800, Arcade, Xbox 360 Games Store, Wii Shop, Famicom Disk System, PC, Sharp X68000, iPhone, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Wii U, Xbox One, PlayStation 4, Casio PV-1000"
+      },
+      "consoleName": "Atari 7800",
+      "consoleIgdbId": 60,
+      "consoleGbid": 70,
+      "consoleGbGuid": "3045-70",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "20",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-07-30",
+      "howAcquired": "eBay",
+      "notes": "",
+      "createdAt": "08/01/2020 09:22 pm",
+      "updatedAt": "08/01/2020 09:22 pm",
+      "_id": "3042077c5d0342fb94b68868baf61376",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/1426059-digdug_front.jpg",
+      "description": "Dig dug is an arcade game released in 1982.  The objective is to kill the underground monsters by either squishing them under a rock through the tunnels you create or by popping them using your weapon directly.",
+      "name": "Dig Dug",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Atari 7800 launch title"
+      ],
+      "extraDataFull": [
+        {
+          "id": "a782",
+          "name": "Dig Dug",
+          "details": [
+            "Atari 7800 launch title"
+          ],
+          "igdbId": 2636,
+          "gbId": 2587,
+          "gbGuid": "3030-2587",
+          "tgdbId": 16994,
+          "isLaunchTitle": [
+            {
+              "name": "Atari 7800",
+              "id": "ccl30",
+              "igdbId": 60,
+              "gbId": 70,
+              "gbGuid": "3045-70",
+              "tgdbId": 27
+            }
+          ],
+          "isExclusive": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2636;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ue8g1gqb5wcfgupma0ivfalddsn8cp",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

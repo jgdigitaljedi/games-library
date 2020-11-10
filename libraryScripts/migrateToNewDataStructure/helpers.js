@@ -1,8 +1,5 @@
-const games = require('../../server/db/gamesExtra.json');
 const axios = require('axios');
 const moment = require('moment');
-const fs = require('fs');
-const path = require('path');
 const chalk = require('chalk');
 const whitespace = require('stringman').whitespace;
 
@@ -35,20 +32,10 @@ function makeHeaders(key) {
   };
 }
 
-async function refreshAppKey() {
+module.exports.refreshAppKey = async function () {
   const appKeyRes = await getAppAccessToken();
   appKey = appKeyRes.data;
-}
-
-/**
- * take game.igdb.id
- * make call to igdb with new fields
- * cleanup call and restructure game
- * throttle the whole thing because there is a 4 request per second limit gate
- * save to another file so I can check it over before comitting to using result
- *
- * MAYBE TRY WITH LIKE THE FIRST 10 GAMES OR SOMETHING AT FIRST TO VERIFY GETTING DESIRED RESULT WITHOUT WAITING FOREVER
- */
+};
 
 function getUserData(game) {
   const oldData = {
@@ -101,7 +88,7 @@ const getMultiplayerModes = (modes) => {
   return { combined, max };
 };
 
-async function getNewGameData(game) {
+module.exports.getNewGameData = async function (game) {
   return new Promise((resolve, reject) => {
     if (game.igdb && game.igdb.id && game.igdb.id !== 9999 && game.igdb.id !== 99999) {
       const data = `fields ${fields};where id = ${game.igdb.id};`;
@@ -113,7 +100,6 @@ async function getNewGameData(game) {
         data
       })
         .then((result) => {
-          // console.log(chalk.green('result', JSON.stringify(result.data, null, 2)));
           if (result.status === 200) {
             const formatted = {};
             const item = result.data[0];
@@ -164,87 +150,4 @@ async function getNewGameData(game) {
       resolve({ game, error: 'NOT A VALID GAME ID TO LOOKUP' });
     }
   });
-}
-
-const start = 1050;
-const end = start + 50 < games.length ? start + 50 : games.length;
-
-function handleResults(results) {
-  console.log('results', results);
-  const cleaned = [],
-    errors = [];
-  results.forEach((result) => {
-    if (result.error) {
-      errors.push(result);
-    } else {
-      cleaned.push(result);
-    }
-  });
-
-  // write results
-  fs.writeFile(
-    path.join(__dirname, `./results/results${start}.json`),
-    JSON.stringify(cleaned, null, 2),
-    (err) => {
-      if (err) {
-        err.forEach((error) => {
-          console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
-        });
-      }
-    }
-  );
-
-  // write errors to another file so I can address them later
-  fs.writeFile(
-    path.join(__dirname, `./errors/errors${start}.json`),
-    JSON.stringify(errors, null, 2),
-    (err) => {
-      if (err) {
-        err.forEach((error) => {
-          console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
-        });
-      }
-    }
-  );
-}
-
-refreshAppKey()
-  .then(() => {
-    const trialRun = games.slice(start, end);
-
-    const promiseArr = trialRun.map((g) => getNewGameData(g));
-    const final = [];
-    const errors = [];
-    let wait = 250;
-
-    const throttled = async () => {
-      const pLast = promiseArr.length - 1;
-      for (let i = 0; i < promiseArr.length; i++) {
-        wait = 450 * (i + 1);
-        await setTimeout(() => {
-          promiseArr[i]
-            .then((result) => {
-              console.log('result', JSON.stringify(result, null, 2));
-              final.push(result);
-              if (pLast === i) {
-                handleResults([...final, ...errors]);
-              }
-            })
-            .catch((error) => {
-              console.log(chalk.red(error));
-              errors.push(error);
-              if (pLast === i) {
-                handleResults([...final, ...errors]);
-              }
-            });
-        }, wait);
-      }
-    };
-
-    (async () => {
-      await throttled();
-    })();
-  })
-  .catch((errors) => {
-    console.log(chalk.red.bold(JSON.stringify(errors, null, 2)));
-  });
+};

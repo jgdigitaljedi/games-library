@@ -1,0 +1,2402 @@
+[
+  {
+    "first_release_date": "10/20/2008",
+    "total_rating": 79,
+    "esrb": "M",
+    "videos": [
+      "m-7m4vtn-eM",
+      "gf5h4co4Ydc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpo.jpg",
+    "description": "A civil war has swept through the country and you're caught in the middle of it. Track down the person at the forefront of the fighting, a ruthless arms dealer known only as \"The Jackal\". As you undertake deadly missions and form fragile alliances with conflicting rebel groups, one thing becomes clear - the Jackal is hunting you too.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-02-02",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "02/07/2019 09:23 pm",
+    "updatedAt": "02/07/2019 09:23 pm",
+    "_id": "ec205a15c2184acd8efb1a669ee0f7e4",
+    "name": "Far Cry 2",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "name": "Far Cry 2",
+        "igdbId": 361,
+        "id": "x360264",
+        "gbId": 20665,
+        "gbGuid": "3030-20665",
+        "tgdbId": 770,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "01/25/2010",
+    "total_rating": 94,
+    "esrb": "M",
+    "videos": [
+      "Ugq9Iv7tFVc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ac.jpg",
+    "description": "Are you prepared to lose everything to save the galaxy? You'll need to be, Commander Shephard. It's time to bring together your greatest allies and recruit the galaxy's fighting elite to continue the resistance against the invading Reapers. So steel yourself, because this is an astronomical mission where sacrifices must be made. You'll face tougher choices and new, deadlier enemies. Arm yourself and prepare for an unforgettable intergalactic adventure.  Game Features:  Shift the fight in your favour. Equip yourself with powerful new weapons almost instantly thanks to a new inventory system. Plus, an improved health regeneration system means you'll spend less time hunting for restorative items.  Make every decision matter. Divisive crew members are just the tip of the iceberg, Commander, because you'll also be tasked with issues of intergalactic diplomacy. And time's a wastin' so don't be afraid to use new prompt-based actions that let you interrupt conversations, even if they could alter the fate of your crew...and the galaxy.  Forge new alliances, carefully. You'll fight alongside some of your most trustworthy crew members, but you'll also get the opportunity to recruit new talent. Just choose your new partners with care because the fate of the galaxy rests on your shoulders, Commander.",
+    "story": "Two years after Commander Shepard repelled invading Reapers bent on the destruction of organic life, a mysterious new enemy has emerged. On the fringes of known space, something is silently abducting entire human colonies. Now Shepard must work with Cerberus, a ruthless organization devoted to human survival at any cost, to stop the most terrifying threat mankind has ever faced. \n \nTo even attempt this perilous mission, Shepard must assemble the galaxy's most elite team and command the most powerful ship ever built. Even then, they say it would be suicide. Commander Shepard intends to prove them wrong.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/02/2019 02:09 pm",
+    "updatedAt": "02/02/2019 02:09 pm",
+    "_id": "83b1efe1a70748c8855d14d570f0746a",
+    "name": "Mass Effect 2",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "banned in UAE: Both banned likely due to possible homosexual relationships. However, the ban did not extend to the digital versions of the games."
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 74,
+        "name": "Mass Effect 2",
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+        ],
+        "id": "x360434",
+        "gbId": 21590,
+        "gbGuid": "3030-21590",
+        "tgdbId": 187,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      },
+      {
+        "name": "Mass Effect 2",
+        "details": [
+          "banned in UAE: Both banned likely due to possible homosexual relationships. However, the ban did not extend to the digital versions of the games."
+        ],
+        "id": "bi171",
+        "igdbId": 74,
+        "gbId": 21590,
+        "gbGuid": "3030-21590",
+        "tgdbId": 187
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "07/04/2005",
+    "total_rating": 85,
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/w5at3fcni81epyeltrsi.jpg",
+    "description": null,
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 6,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-02-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/02/2019 02:06 pm",
+    "updatedAt": "02/02/2019 02:06 pm",
+    "_id": "cb55c5377d20448fa9d12d0bdc5f3712",
+    "name": "Halo 2: Multiplayer Map Pack",
+    "extraData": [
+      "Xbox game plays on Xbox 360"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 3122,
+        "name": "Halo 2 Multiplayer Map Pack",
+        "details": [
+          "Xbox game plays on Xbox 360"
+        ],
+        "id": "xbox177",
+        "gbId": null,
+        "gbGuid": null,
+        "tgdbId": 18226,
+        "special": [
+          {
+            "value": "Xbox game plays on Xbox 360",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/26/2015",
+    "total_rating": 80,
+    "esrb": "T",
+    "videos": [
+      "BLZhqqYJkfw",
+      "3GksBgBQZT4",
+      "4uNzkrz4Crc",
+      "YeY2H-iqdhM",
+      "XVpwm-XDBlY",
+      "7oy_pkMeBp4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhg.jpg",
+    "description": "Peace is shattered when colony worlds are unexpectedly attacked. But when humanity's greatest hero goes missing, a new Spartan is tasked with hunting the Master Chief and solving a mystery that threatens the entire galaxy.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-30",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/30/2019 07:02 pm",
+    "updatedAt": "01/30/2019 07:02 pm",
+    "_id": "0db171ca7e2e4ae990b83c97f14e5dac",
+    "name": "Halo 5: Guardians",
+    "extraData": [
+      "Microsoft Xbox One full exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Halo 5: Guardians",
+        "details": [
+          "Microsoft Xbox One full exclusive"
+        ],
+        "id": "mxb190",
+        "igdbId": 6803,
+        "gbId": 42905,
+        "gbGuid": "3030-42905",
+        "tgdbId": 21335,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox One",
+            "id": "ccl27",
+            "igdbId": 49,
+            "gbId": 145,
+            "gbGuid": "3045-145",
+            "tgdbId": 4920
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "02/25/2009",
+    "total_rating": 73,
+    "esrb": "T",
+    "videos": [
+      "wg1kB2VmPE4",
+      "CLDM2S7jUT4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wc0.jpg",
+    "description": "The Covenant has declared war on humanity, and Harvest is the first battleground. Set 21 years before the events of Halo: Combat Evolved, Halo Wars is an exciting real-time strategy game set in the legendary Halo universe. In this unique installment in the Halo franchise, players experience the epic battles that marked the beginning of the Covenant War. With the UNSC Spirit of Fire at their disposal, players fight in the intense and enormous conflicts that would define humanity's relentless heroism in its darkest hour.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-30",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/30/2019 07:01 pm",
+    "updatedAt": "01/30/2019 07:01 pm",
+    "_id": "b51ffd6168fb4aa0a18f74324ff86dbf",
+    "name": "Halo Wars",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Halo Wars",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition"
+        ],
+        "id": "x360339",
+        "igdbId": 988,
+        "gbId": 20521,
+        "gbGuid": "3030-20521",
+        "tgdbId": 847,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "09/13/2010",
+    "total_rating": 87,
+    "esrb": "M",
+    "videos": [
+      "kbjavQHDwDw",
+      "HQhfDP-Xy8g"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xha.jpg",
+    "description": "Experience the story before the events of Halo: Combat Evolved as you fight to defend the planet Reach from a harrowing Covenant invasion. In this first-person shooter you can customize your own Spartan with armor and accessories to experience both a pulse-pounding campaign and addictive multiplayer mode. Reach will fall, but it won't go down without a fight.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-30",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/30/2019 07:00 pm",
+    "updatedAt": "01/30/2019 07:00 pm",
+    "_id": "8b45235b2db041ec99109fb17753e149",
+    "name": "Halo: Reach",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Halo: Reach",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content"
+        ],
+        "id": "x360341",
+        "igdbId": 990,
+        "gbId": 26786,
+        "gbGuid": "3030-26786",
+        "tgdbId": 638,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "11/05/2012",
+    "total_rating": 84,
+    "esrb": "M",
+    "videos": [
+      "oBk3c4UIcGw",
+      "VImgVUTVcxs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhf.jpg",
+    "description": "Halo 4 marks the start of an epic new saga within the award-winning Halo universe. The Master Chief returns in this award-winning first-person shooter developed by 343 Industries. Shipwrecked on a mysterious world, faced with new enemies and deadly technology, the Chief returns to battle against an ancient evil bent on vengeance and annihilation...the universe will never be the same.",
+    "story": "Four years after the events of Halo 3, the Master Chief returns in this award-winning first-person shooter. Battle through the campaign and explore the Forerunner planet, Requiem, as the Chief faces off with an ancient evil. Test your skills against familiar Covenant foes and new Promethean enemies in solo mode or with up to three friends on split-screen. With Xbox Live Gold Membership, access the online multiplayer and Spartan Ops missions.",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-30",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/30/2019 06:58 pm",
+    "updatedAt": "01/30/2019 06:58 pm",
+    "_id": "955e459245254374bd65ca2464377104",
+    "name": "Halo 4",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Halo 4",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection"
+        ],
+        "id": "x360338",
+        "igdbId": 991,
+        "gbId": 35533,
+        "gbGuid": "3030-35533",
+        "tgdbId": 3597,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/21/2009",
+    "total_rating": 76,
+    "esrb": "M",
+    "videos": [
+      "WroxHMo6B_k",
+      "CKWjoP7DdaI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhh.jpg",
+    "description": "New Mombasa is in ruins, yet the fight is far from over. Halo 3: ODST drops players onto the streets of the besieged city in this first-person shooter. Assume the role of “The Rookie”, an Orbital Drop Shock Trooper, and discover the truth behind the Covenant invasion. Engage in intense online multiplayer battles with the complete collection of Halo 3 multiplayer maps – including three all-new battlefields – and join your teammates in Firefight, a new cooperative mode that pits you against waves of Covenant invaders.",
+    "story": "Taking place in the Kenyan port city of New Mombasa, ODST follows a squad of elite Marine Orbital Drop Shock Troopers during the Covenant invasion of Earth on October 20, 2552. Knocked off course due to the Mombasa Slipspace Incident, these five ODSTs, accompanied by an ONI officer, fight through the waste-filled, destroyed streets in order to link up with each other, evade the Covenant, and execute a top secret mission. \n \nThe game occurs directly after the events of the Halo 2 level Metropolis, when the Prophet of Regret performs a slipspace jump in New Mombasa.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-30",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/30/2019 06:58 pm",
+    "updatedAt": "01/30/2019 06:58 pm",
+    "_id": "ac6bdeeff611427b804a1eb974f3e7e6",
+    "name": "Halo 3: ODST",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Halo 3: ODST",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content"
+        ],
+        "id": "x360337",
+        "igdbId": 989,
+        "gbId": 24035,
+        "gbGuid": "3030-24035",
+        "tgdbId": 193,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "03/13/2006",
+    "total_rating": 84,
+    "esrb": "E10+",
+    "videos": [
+      "3tZfRVIs2lQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pn3.jpg",
+    "description": "Daxter is centered around the world of the lovable orange ottsel made popular in the Jak and Daxter franchise. The story unfolds as Daxter searches for Jak, who was imprisoned during the events that led to the start of \"Jak II.\" Daxter, now on his own in an unfamiliar place, quickly realizes that being small and furry won't help his chances of survival. To help stamp out a mysterious metalbug infestation, Daxter takes on a job as a pest exterminator, enabling him to explore parts of Haven City in an effort to collect the clues that will lead him to Jak. Daxter allows gamers to play from his perspective offering a distinctive set of moves with agile abilities that allows players to climb walls, creep up on enemies, fit in small places and maneuver vehicles. Taking a job as a pest exterminator, to fight an ongoing invasion of metal-bugs, Daxter comes equip with gadgets to rid the city of these metal nuisances. Get close up and personal by using your flimsy bug swatter to squash an army of attacking insects or your spray gun to hover around a variety of environments while picking up various upgrades.",
+    "story": "The game takes place in the final months of the 2-year gap presented in the opening of Jak II (and the aftermath of The Precursor Legacy), between the moment when Jak is taken prisoner by the Krimzon Guard and the time in which Daxter finally rescues him from the Krimzon Guard Fortress. The introduction shows Jak being captured, while Daxter manages to escape. Almost two years later (having no luck with rescuing Jak), Daxter has forgotten all about finding his friend. An old man named Osmo, whom Daxter meets, hires Daxter as an exterminator working in various parts of Haven City, and occasionally its environs, to exterminate bug-like Metal Heads referred to in-game as 'Metal Bugs'. During his adventures, Daxter meets a mysterious woman named Taryn who, despite being less than impressed by Daxter's interest in her, occasionally helps him. \n \nAfter completing a number of missions for Osmo, Daxter sees Jak in a Prison Zoomer and attempts to chase after it. After being cornered by some Krimzon Guards (who had noticed Daxter's pursuit), Daxter is rescued by Osmo's son Ximon, who assists him with several more missions including one to Baron Praxis' palace where Daxter steals a map of the Fortress, the prison where Jak is being held. After returning to the extermination shop, an arthropod sidekick that Daxter acquired earlier is killed by Kaeden, a bitter man who seemingly wants to steal Osmo's shop, but, in actuality, is working for Kor, the Metal Head leader. \n \nWhen Daxter tries to stop Kaeden from escaping the shop, Kaeden suddenly blows up the shop with a bomb he placed in the shop earlier. Daxter and Osmo survive, and Daxter promises to stop Kaeden, but only after he rescues Jak. Daxter infiltrates the Fortress and finds Kaeden, who reveals himself to be a giant Metal Bug. Daxter manages to defeat Kaeden, who tries to warn him that Kor is waiting outside for them, and then uses a hover platform to begin searching for Jak within the Fortress, leading into the opening cutscene from Jak II. After this, the game cuts to a point later in the timeline at Daxter's Naughty Ottsel Bar, where he is recounting the story to Jak, Keira, Samos, Tess and Taryn.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation Portable",
+    "consoleId": 38,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "01/27/2019 07:38 am",
+    "updatedAt": "01/27/2019 07:38 am",
+    "_id": "9f7c8e517a2a448bbd18d30041fc84f2",
+    "name": "Daxter",
+    "extraData": [
+      "Sony PlayStation Portable exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Daxter",
+        "details": [
+          "Sony PlayStation Portable exclusive"
+        ],
+        "id": "spsp62",
+        "igdbId": 1533,
+        "gbId": 14604,
+        "gbGuid": "3030-14604",
+        "tgdbId": 7078,
+        "isExclusive": [
+          {
+            "name": "Sony Playstation Portable",
+            "id": "ccl24",
+            "igdbId": 38,
+            "gbId": 18,
+            "gbGuid": "3045-18",
+            "tgdbId": 13
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Simulator",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "11/20/2000",
+    "total_rating": 78,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tak.jpg",
+    "description": "Sarge's Heroes 2 starts where Sarge's Heroes left off. It is announced that the capture of Field Marshal Tannenberg will end the war. Since General Plastro has disappeared, it is suggested that he has become a victim of plastrification and been trapped in the real world. The game introduces Bridgette Bleu, a spy for the Blue Nation. She has developed a serum that reverses plastrification. Your job as Sarge and sometimes Vikki is to destroy the serum, eliminate Tan soldiers, and capture Plastro and Tannenburg.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "01/27/2019 07:39 am",
+    "updatedAt": "01/27/2019 07:39 am",
+    "_id": "9061c87aa2cc4ebab58a2ab75ab21c71",
+    "name": "Army Men: Sarge's Heroes 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "10/31/1987",
+    "total_rating": 70,
+    "esrb": "E10+",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/xisdlkszld0lwoese2za.jpg",
+    "description": "In the steamy jungles of South America, heavily armed extremists are holding innocent civilians prisoner. Little do these terrorists know that real terror is about to land on their front porch! The sound of rotor blades and staccato bursts of gunfire echo through the valleys. Terrorists be warned! Operation Wolf is going to teach you what terror is all about!  Operation Wolf consists of six missions, which are displayed on the Operations Map Screen. A mission is completed when all enemy forces are reduced to zero. The current level is completed when you escape from the airport with the prisoners. Your injury level increases when the enemy hits you. The game automatically ends if the injury indicator on the right side of the screen becomes completely red. You can reduce your injury level by getting power drinks.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "01/27/2019 07:33 am",
+    "updatedAt": "01/27/2019 07:33 am",
+    "_id": "bd47b603721a4e5282043fae62ab9c19",
+    "name": "Operation Wolf",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2003",
+    "total_rating": 91,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uok.jpg",
+    "description": "Project Gotham Racing 2 is a racing game for the Xbox, developed by Bizarre Creations and published by Microsoft. PGR2 is the sequel to the highly successful Project Gotham Racing. It is the second title in the Project Gotham Racing series",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "01/27/2019 07:38 am",
+    "updatedAt": "01/27/2019 07:38 am",
+    "_id": "e9dab10c94c94f74bf7b03ee5dec1b65",
+    "name": "Project Gotham Racing 2",
+    "extraData": [
+      "Microsoft Xbox exclusive",
+      "Xbox game plays on Xbox 360 - Cars don't render properly in Car Select and Transmission Select, The car radio does not work in-game, A graphic error occurs when choosing Xbox Demos"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Project Gotham Racing 2",
+        "details": [
+          "Microsoft Xbox exclusive",
+          "Xbox game plays on Xbox 360 - Cars don't render properly in Car Select and Transmission Select, The car radio does not work in-game, A graphic error occurs when choosing Xbox Demos"
+        ],
+        "id": "xbox316",
+        "igdbId": 3321,
+        "gbId": 2279,
+        "gbGuid": "3030-2279",
+        "tgdbId": 6116,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox",
+            "id": "ccl25",
+            "igdbId": 11,
+            "gbId": 32,
+            "gbGuid": "3045-32",
+            "tgdbId": 14
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox game plays on Xbox 360 - Cars don't render properly in Car Select and Transmission Select, The car radio does not work in-game, A graphic error occurs when choosing Xbox Demos",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "11/18/2006",
+    "total_rating": 62,
+    "esrb": "T",
+    "videos": [
+      "DnoVn5SGa0E"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29p5.jpg",
+    "description": "Taking place in both the USA and Japan, Red Steel is a crime themed shooter that has the player controlled Scott Monroe fighting off various members of the Yakuza clans in order to rescue his fianceé.  It features sword duels and gun fights using the Wiimote, to allow the player to swing the control as they would swing a sword. The positioning and movement actions of the Wiimote also let the player aim their weapons almost as they would a real gun.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Wii",
+    "consoleId": 5,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "01/27/2019 07:34 am",
+    "updatedAt": "01/27/2019 07:34 am",
+    "_id": "15ce135dc6aa47a6bc6307df7456af6b",
+    "name": "Red Steel",
+    "extraData": [
+      "Nintendo Wii launch title",
+      "Nintendo Wii exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "wii233",
+        "name": "Red Steel",
+        "details": [
+          "Nintendo Wii launch title",
+          "Nintendo Wii exclusive"
+        ],
+        "igdbId": 2258,
+        "gbId": 7712,
+        "gbGuid": "3030-7712",
+        "tgdbId": 5345,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo Wii",
+            "id": "ccl5",
+            "igdbId": 5,
+            "gbId": 36,
+            "gbGuid": "3045-36",
+            "tgdbId": 9
+          }
+        ],
+        "isExclusive": [
+          {
+            "name": "Nintendo Wii",
+            "id": "ccl5",
+            "igdbId": 5,
+            "gbId": 36,
+            "gbGuid": "3045-36",
+            "tgdbId": 9
+          }
+        ],
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "11/21/2013",
+    "total_rating": 90,
+    "esrb": "E",
+    "videos": [
+      "qAluniNRibs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nr4.jpg",
+    "description": "The Legend of Zelda: A Link Between Worlds is the first Zelda game made exclusively for the Nintendo 3DS is set in the fan-favorite world of The Legend of Zelda: A Link to the Past. A daring adventure awaits Link in Hyrule, where he can use his new ability to become a “drawing” and move along walls of dungeons. This opens up ways to explore and puzzle elements that give Link access to locations he could not otherwise reach.",
+    "story": "The events of A Link Between Worlds take place six generations after the events of A Link to the Past. The legend of the legendary hero's battles against Ganon has been passed down from generation to generation, and peace has ruled for decades. The game's incarnation of Link is an apprentice blacksmith to Hyrule's greatest Blacksmith. \n \nBeset by a nightmare of the sacred Triforce being destroyed and facing a gargantuan evil creature, Link is awakened from his sleep by Gulley, the Blacksmith's son. Link rushes over to the smithery, where the Captain of Hyrule's knights has stopped by to retrieve his sword and shield. After Link is scolded for being late, the Blacksmith's Wife notices that the Captain forgot to bring his sword along with him when he left. Link is tasked with traveling to Hyrule Castle to return it to its rightful owner. Once Link arrives at the castle however, he is told that the Captain went to the Sanctuary. Upon his arrival there, however, the villain Yuga appears, and turns both Seres and the Captain into paintings with his wicked magic. Link lunges at Yuga, but Yuga is able to use his magic to turn himself into a wall painting, causing Link to crash straight into the wall. Yuga then returns to his original form, kicking Link to the floor in the process. As Yuga leaves with Seres in tow, the Priest says to warn Princess Zelda of this before Link passes out.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-15",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "01/15/2019 06:19 am",
+    "updatedAt": "01/15/2019 06:19 am",
+    "_id": "76d5f978fb664cc1996b92f70ee21505",
+    "name": "The Legend of Zelda: A Link Between Worlds",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/20/1986",
+    "total_rating": 82,
+    "videos": [
+      "c4bvZZa5Mtg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.jpg",
+    "description": "Set in the fantasy land of Hyrule, the plot centers on a boy named Link, the playable protagonist, who aims to collect the eight fragments of the Triforce of Wisdom in order to rescue Princess Zelda from the antagonist, Ganon. During the course of the game, the player sees Link from a top-down perspective and must navigate him through the overworld and several dungeons, defeating enemies and finding secrets along the way.",
+    "story": "In the small kingdom in the land of Hyrule, is engulfed in chaos after an army led by Ganon, the Prince of Darkness, invaded it and stole the Triforce of Power, a part of a magical artifact bestowing great strength. In an attempt to prevent Ganon from acquiring the Triforce of Wisdom, another of the pieces, Princess Zelda splits it and hides the eight fragments in secret dungeons throughout the land. Before the princess is eventually kidnapped by Ganon, she commands her nursemaid Impa to find someone courageous enough to save the kingdom. While wandering the land, the old woman is surrounded by Ganon's henchmen, though a young boy named Link appears and rescues her. After hearing Impa's plea, he resolves to save Zelda and sets out to reassemble the scattered fragments of the Triforce of Wisdom, to become powerful enough to defeat Ganon.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-15",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "01/15/2019 06:21 am",
+    "updatedAt": "01/15/2019 06:21 am",
+    "_id": "36e8ddc8fdbd4f63bf1e35b7e8ae09dc",
+    "name": "The Legend of Zelda",
+    "extraData": [
+      "NES hang tab game"
+    ],
+    "extraDataFull": [
+      {
+        "name": "The Legend Of Zelda ",
+        "id": "nes416",
+        "details": [
+          "NES hang tab game"
+        ],
+        "igdbId": 1022,
+        "gbId": 11949,
+        "gbGuid": "3030-11949",
+        "tgdbId": 63984,
+        "special": [
+          {
+            "value": "NES hang tab game",
+            "forPlatform": {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "01/13/1987",
+    "total_rating": 69,
+    "esrb": "E",
+    "videos": [
+      "wxiCgBt-dPo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uje.jpg",
+    "description": "The land of Hyrule is in chaos. As Link, you’ll be sent on a treacherous journey to return six precious Crystals to their origins in six stone statues. Only by defeating the guardians of the six palaces will you gain passage to the seventh palace, take on the ultimate challenge that awaits you, and wake the Princess Zelda from her sleeping spell. On your way, helpful villagers you encounter will offer clues and secret messages invaluable in your quest. As you guide Link through the levels of Hyrule, close-ups and overviews will enhance your video vision. Are you up to the challenge?",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-01-15",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "01/15/2019 06:20 am",
+    "updatedAt": "01/15/2019 06:20 am",
+    "_id": "6abf6c7fc9e5416ebcf30c74c1534aa6",
+    "name": "Zelda II: The Adventure of Link",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/10/2016",
+    "total_rating": 80,
+    "esrb": "M",
+    "videos": [
+      "FL_3cUx1pjw",
+      "a6ei96Mm_bs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28gk.jpg",
+    "description": "A new saga begins for one of the most acclaimed video game franchises in history. After narrowly escaping an attack on their village, JD Fenix and his friends, Kait and Del, must rescue the ones they love and discover the source of a monstrous new enemy.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-13",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/13/2019 06:12 pm",
+    "updatedAt": "01/13/2019 06:12 pm",
+    "_id": "e958c3f46fec42b0afc15626c5ab943e",
+    "name": "Gears of War 4",
+    "extraData": [
+      "Microsoft Xbox One console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Gears of War 4",
+        "details": [
+          "Microsoft Xbox One console exclusive"
+        ],
+        "id": "mxb180",
+        "igdbId": 11186,
+        "gbId": 45269,
+        "gbGuid": "3030-45269",
+        "tgdbId": 32352,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox One",
+            "id": "ccl27",
+            "igdbId": 49,
+            "gbId": 145,
+            "gbGuid": "3045-145",
+            "tgdbId": 4920
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "11/06/2014",
+    "total_rating": 77,
+    "esrb": "",
+    "videos": [
+      "GkAZ9hIcsHY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dzu.jpg",
+    "description": "Take on a rapid-fire onslaught of challenges and mash-ups from 16 of Nintendo’s finest 8-bit games! Test your skills on a gauntlet of quick, tricky challenges and remix stages that combine parts of different games. The best mix of titles from the NES™ Remix and NES™ Remix 2 games is on Nintendo 3DS. Now you’re playing with PORTABLE power!  Link™ vs. Donkey Kong™! Kirby™ vs. Boo™! It’s mash-up mania in this celebration of all things NES™! Race through to earn stars on increasingly tough tasks, like beating Ridley from Metroid™ or making Princess Peach™ save herself! Compete in Championship Mode’s blitz of challenges from the Super Mario Bros., Super Mario Bros.™ 3, and Dr. Mario™ games, then compare scores with others in your region via online leaderboards*.  Features action-packed challenges from 16 classic 8-bit Nintendo games. Dominate exciting chunks of retro Nintendo games from NES™ Remix, such as Super Mario Bros.™, The Legend of Zelda™, Excitebike™, and Donkey Kong™. Challenges from NES™ Remix 2 include bite-sized chunks of Super Mario Bros.™ 3, Zelda II- The Adventure of Link™, Metroid™, Kid Icarus™, and Kirby’s Adventure™, among many others. Test your skills in a series of altered 8-bit challenges and improve your times to unlock more challenges! Take on 3 unique challenges from the Nintendo World Championships and Nintendo Campus Challenge, then check your score on online leaderboards* to see how you stack up. Connect to the Nintendo eShop to download full versions of your favorite classic games.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-13",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "01/13/2019 06:17 pm",
+    "updatedAt": "01/13/2019 06:17 pm",
+    "_id": "4d9ba8141e2f4298bb84fc73e040458f",
+    "name": "Ultimate NES Remix",
+    "genres": []
+  },
+  {
+    "first_release_date": "03/19/2013",
+    "total_rating": 80,
+    "esrb": "E",
+    "videos": [
+      "I-xVPaDUR18"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wo4.jpg",
+    "description": "Luigi is back on a mission to remove a bunch of stubborn ghosts from some spooky mansions. Armed with his trusty Poltergust ghost-sucking vacuum cleaner, Mario's brother takes center stage to capture these pesky phantoms. Luigi's Mansion 2: Dark Moon gives players multiple mansions to explore, a variety of puzzles to solve and new ghosts to capture. Armed with the Poltergust 5000, a ghost-sucking, vacuum-like invention, Luigi must complete a number of missions assigned to him by Professor E. Gadd.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-13",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "01/13/2019 06:16 pm",
+    "updatedAt": "01/13/2019 06:16 pm",
+    "_id": "96ca1db7d92f47c182a3d452bca12bab",
+    "name": "Luigi's Mansion: Dark Moon",
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "05/14/2012",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "J2UYToJyZaU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rhf.jpg",
+    "description": "Max Payne 3 is a third-person shooter in which the player assumes the role of its titular character, Max Payne. A new feature to the series, introduced in Max Payne 3, is the cover system, which allows players to gain a tactical advantage, and avoid taking damage from enemies. To progress through the linear story, players take on enemies throughout levels. The game features interactive cutscenes which transition seamlessly into continuing gameplay; there are no loading screens across gameplay and cutscenes.",
+    "story": "Throughout the single-player mode, players control Max Payne, a former detective who has become a vigilante after the murder of his wife and daughter. Nine years after the events of the second game, Max becomes employed as a private security contractor in Brazil, but quickly becomes entangled in a quest filled with death and betrayal.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PlayStation 3",
+    "consoleId": 9,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-13",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "01/13/2019 06:10 pm",
+    "updatedAt": "01/13/2019 06:10 pm",
+    "_id": "57782d4603f544e199dda346f681c523",
+    "name": "Max Payne 3",
+    "extraData": [
+      "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Max Payne 3",
+        "details": [
+          "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game."
+        ],
+        "id": "bi165",
+        "igdbId": 960,
+        "gbId": 23398,
+        "gbGuid": "3030-23398",
+        "tgdbId": 2089
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "11/04/2001",
+    "total_rating": 87,
+    "esrb": "E",
+    "videos": [
+      "zUYIUTxoxIE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vdg.jpg",
+    "description": "SSX Tricky is a snowboarding video game, the second game in the SSX series published by EA Sports Big & developed by EA Canada. The game was developed under the working title SSX 2.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 12,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-01-08",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "01/11/2019 08:17 am",
+    "updatedAt": "01/11/2019 08:17 am",
+    "_id": "c2918317fabd4f64914816616187cc45",
+    "name": "SSX Tricky",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Sport",
+      "Snowboarding"
+    ]
+  },
+  {
+    "first_release_date": "09/19/2011",
+    "total_rating": 89,
+    "esrb": "M",
+    "videos": [
+      "3urAUG9Jyo8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a21.jpg",
+    "description": "Gears of War 3 is the spectacular conclusion to one of the most memorable and celebrated sagas in videogames. Gears of War 3 plunges players into a harrowing tale of hope, survival and brotherhood. In Gears of War 3, players fight on as Marcus Fenix, the grizzled war hero and leader of Delta Squad. Eighteen months after the fall of the last human city, the war against the Locust rages on. Meanwhile, deep beneath the surface, a fearsome new threat is infecting the planet from within. With survivors scattered and civilization in ruins, time is running out for Marcus and his comrades as they fight to save the human race.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/28/2018 08:40 pm",
+    "updatedAt": "12/28/2018 08:40 pm",
+    "_id": "ea824b28f2c24741b0030f7d01afdf09",
+    "name": "Gears of War 3",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Gears of War 3",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+        ],
+        "id": "x360308",
+        "igdbId": 492,
+        "gbId": 30615,
+        "gbGuid": "3030-30615",
+        "tgdbId": 935,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "11/06/2008",
+    "total_rating": 87,
+    "esrb": "M",
+    "videos": [
+      "rXIjDzlGc5I",
+      "PemgneU4s6g"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28gg.jpg",
+    "description": "In Gears of War 2, The COG continues its fight against the Locust horde, who are attempting to sink all of the cities on the planet Sera by using a big riftworm to eat the ground beneath them. Sergeant Marcus Fenix leads Delta Squad into the depths of the planet to try to stop the worm from eating but instead they discover the true intent of the Locust actions.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/28/2018 08:40 pm",
+    "updatedAt": "12/28/2018 08:40 pm",
+    "_id": "1d476b83b9fc48b9af970a41625ca3bd",
+    "name": "Gears of War 2",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Gears of War 2",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+        ],
+        "id": "x360307",
+        "igdbId": 548,
+        "gbId": 20662,
+        "gbGuid": "3030-20662",
+        "tgdbId": 24,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      },
+      {
+        "name": "Gears of War 2",
+        "details": [
+          "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016."
+        ],
+        "id": "bi65",
+        "igdbId": 548,
+        "gbId": 20662,
+        "gbGuid": "3030-20662",
+        "tgdbId": 24
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "11/02/1998",
+    "total_rating": 83,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29e5.jpg",
+    "description": "WipEout 64 was released by Psygnosis as a follow-up to the racing game WipEout XL, taking place one year later in 2098. Like in previous installments players control highspeed hovercrafts, pick up weapons to damage the opponents' vehicles and try to finish the race in the first position. In many aspects, the gameplay is pretty similar to its predecessor, such as selection of hovercrafts, visuals or the handling system. Beside new racing tracks the main differences include a Split-Screen Multiplayer Mode (up to four players), Weapon & Super Combo Challenges as well as various Special Weapons for each Team!",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/28/2018 08:42 pm",
+    "updatedAt": "12/28/2018 08:42 pm",
+    "_id": "670293f9785844caa93e0b5ac4180c57",
+    "name": "Wipeout 64",
+    "extraData": [
+      "Nintendo 64 exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Wipeout 64",
+        "details": [
+          "Nintendo 64 exclusive"
+        ],
+        "id": "n64140",
+        "igdbId": 1539,
+        "gbId": 12064,
+        "gbGuid": "3030-12064",
+        "tgdbId": 1238,
+        "isExclusive": [
+          {
+            "name": "Nintendo 64",
+            "id": "ccl3",
+            "igdbId": 4,
+            "gbId": 43,
+            "gbGuid": "3045-43",
+            "tgdbId": 3
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "12/13/1996",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "ASWgJvuQhTA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1te8.jpg",
+    "description": "Mario Kart 64 is the second main installment of the Mario Kart series. It is the first game in the series to use three-dimensional graphics, however, the characters and items in this game are still two-dimensional, pre-rendered sprites. The game offers two camera angles and three engine sizes: 50cc, 100cc and 150cc. Each kart has distinctive handling, acceleration and top speed capabilities. Shells that you fire at rival racers, Bananas that make them skid out and Lightning Bolts that make them small and very slow are just a few of the game's unique power-ups.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 50,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-28",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "12/28/2018 08:41 pm",
+    "updatedAt": "12/28/2018 08:41 pm",
+    "_id": "5e0530dbddf94721a5c859b66a88d715",
+    "name": "Mario Kart 64",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "03/23/2005",
+    "total_rating": 67,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pog.jpg",
+    "description": "Twisted Metal: Head-On is a vehicular combat video game developed by Incognito Entertainment and released by Sony on March 24, 2005 for the PlayStation Portable and February 5, 2008 for the PlayStation 2. Head-On shares not only the distinction of being the seventh game released in the Twisted Metal series, but also is the first game in the series to ship fully online-enabled.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PlayStation Portable",
+    "consoleId": 38,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-27",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "12/28/2018 06:34 am",
+    "updatedAt": "12/28/2018 06:34 am",
+    "_id": "81c3ebdb5ccf4f06b3e5641f70bc8bc5",
+    "name": "Twisted Metal: Head-On",
+    "extraData": [
+      "Sony PSP launch title"
+    ],
+    "extraDataFull": [
+      {
+        "id": "spsp262",
+        "name": "Twisted Metal: Head-On",
+        "details": [
+          "Sony PSP launch title"
+        ],
+        "igdbId": 5414,
+        "gbId": 9259,
+        "gbGuid": "3030-9259",
+        "tgdbId": 7120,
+        "isLaunchTitle": [
+          {
+            "name": "Sony Playstation Portable",
+            "id": "ccl24",
+            "igdbId": 38,
+            "gbId": 18,
+            "gbGuid": "3045-18",
+            "tgdbId": 13
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "07/29/1998",
+    "total_rating": 62,
+    "esrb": "T",
+    "videos": [
+      "iXDL0lm8diQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x6g.jpg",
+    "description": "SoulCalibur is a weapon-based 3D fighting game developed by Project Soul and produced by Namco. It is the second game in the Soul series, preceded by Soul Edge (1996). Originally released in arcades in 1998, it ran on the Namco System 12 hardware. In 1999 it was ported to the Dreamcast with improved graphics and new features. The North American version was released in September 1999 as a launch title for the Dreamcast and was part of the successful launch of the new console. It became available as a downloadable title on Xbox 360's Xbox Live Marketplace in 2008. The title brought many innovations to the fighting game genre that include a heavy emphasis on weapons and a unique eight-way movement system. Soulcalibur is widely regarded as one of the best Dreamcast titles and is one of the most critically acclaimed fighting games of all time.",
+    "story": "The mystical sword of the legends, the \"Soul Edge\", ended up in the hands of the dreaded pirate Cervantes de Leon of Spain. For the next 25 years, he stayed dormant on the remnants of a Spanish port town, taking the souls of those who reached him during their search of the sword. His reign of terror was soon to start, but through the joined efforts of Greek divine warrior Sophitia Alexandra and Japanese ninja Taki, he was stopped and killed, with one of the twin Soul Edge blades being shattered in the process. As it was about to tear itself apart, young Prussian knight Siegfried Schtauffen approached the port town and battled Cervantes, whose corpse had been momentarily reanimated through Soul Edge's will. After emerging victorious, Siegfried's attention turned unto the sword. The moment he took the hilt of the cursed blade, Soul Edge released a bright column of light into the sky. This was known as the \"Evil Seed\", bound to bring calamity and death in its wake. \n \nThree years after those events, Soul Edge uses Siegfried as its host, and now Siegfried is Nightmare, a knight wearing azure armor and sporting a hideously deformed right arm. Europe plunges into a vortex of slaughters as he and his followers claim souls to strengthen the blade in its weakened state. Unknown to them, a group of warriors met on their journey to stop Soul Edge, and with them, three sacred weapons join once again.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-27",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "12/28/2018 06:31 am",
+    "updatedAt": "12/28/2018 06:31 am",
+    "_id": "3615c618feef470bbc8674bebb5226a3",
+    "name": "SoulCalibur",
+    "extraData": [
+      "Sega Dreamcast launch title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "SoulCalibur",
+        "id": "sdc60",
+        "details": [
+          "Sega Dreamcast launch title"
+        ],
+        "igdbId": 1564,
+        "gbId": 12411,
+        "gbGuid": "3030-12411",
+        "tgdbId": 7767,
+        "isLaunchTitle": [
+          {
+            "name": "Sega Dreamcast",
+            "id": "ccl18",
+            "igdbId": 23,
+            "gbId": 37,
+            "gbGuid": "3045-37",
+            "tgdbId": 16
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1987",
+    "total_rating": 80,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsl.jpg",
+    "description": "The film Platoon featured a squad of five soldiers on their mission for the US Army in Vietnam. In this action game based around the film, you take control of these five guys in turn, with the chance to switch between them as they each take one of the 3 hits that would kill them.  The game recreates each of the sections of the film, starting with a side-scrolling journey through the jungle, with paths to cross both horizontally and vertically, and the ability to jump or duck hazards. You will need to blow up a bridge and then locate a village, which contains a torch, a map and a trap-door. The enemy has booby-trapped the area and are launching airstrikes, so the danger is not all from enemy ground soldiers.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-27",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "12/28/2018 06:32 am",
+    "updatedAt": "12/28/2018 06:32 am",
+    "_id": "21ac457a3d9342bb93b39e111df2953a",
+    "name": "Platoon",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "12/06/2018",
+    "total_rating": 87,
+    "esrb": "E10+",
+    "videos": [
+      "w3Gt42kVgCw",
+      "L93H7YC-83o",
+      "8oPhDrn7juE",
+      "qpjFpt-7k_Y",
+      "GY2YQzqydSw",
+      "8dkbBYO0Wts",
+      "nIZb2C6EMBA",
+      "76opiavw7jg",
+      "fe4Nb9nGLJE",
+      "2Ut7k8L8DMs",
+      "4-OrOkDLxmI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.jpg",
+    "description": "Legendary game worlds and fighters collide in the ultimate showdown—a new entry in the Super Smash Bros. series for the Nintendo Switch system! New fighters, like Inkling from the Splatoon series and Ridley from the Metroid series, make their Super Smash Bros. series debut alongside every Super Smash Bros. fighter in the series…EVER! Faster combat, new items, new attacks, new defensive options, and more will keep the battle raging whether you’re at home or on the go.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-26",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "12/27/2018 06:02 am",
+    "updatedAt": "05/26/2019 08:35 pm",
+    "_id": "28bc2afeaae740a08487c57fb2412504",
+    "name": "Super Smash Bros. Ultimate",
+    "genres": [
+      "Fighting"
+    ]
+  },
+  {
+    "first_release_date": "06/04/2014",
+    "total_rating": 79,
+    "esrb": "E10+",
+    "videos": [
+      "V0OA98wh1m0",
+      "0dIcWOEY310"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24t2.jpg",
+    "description": "Legendary shoot-'em-up makes its way on the PCs! Abundant explosions, truly epic boss fights and beautifully crafted 3D environments are here to keep you entertained. Sky Force Anniversary offers single player experience and local cooperative mode for 2 players.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 10,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2018-12-24",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "12/27/2018 06:04 am",
+    "updatedAt": "12/27/2018 06:04 am",
+    "_id": "2d693846c46344c392c1af9abc337399",
+    "name": "Sky Force Anniversary",
+    "genres": [
+      "Shooter",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "11/12/2018",
+    "total_rating": 82,
+    "esrb": "T",
+    "videos": [
+      "gsesDrE5EAw",
+      "y0hS_LdurDQ",
+      "VFIBx6kd1mY",
+      "zD9tRt0Lk7Y",
+      "5ot-_2qrhA8",
+      "sjfEl343Zd8",
+      "tAbrA8EiG84",
+      "z5ahPzjFwBg",
+      "Nko30lul2v4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co249k.jpg",
+    "description": "\"The SNK 40th ANNIVERSARY COLLECTION includes classic titles such as Alpha Mission, Athena, Crystalis, Ikari Warriors, Ikari Warriors II: Victory Road, Ikari Warriors III: The Rescue, Guerilla War, P.O.W., Prehistoric Isle, Psycho Soldier, Street Smart, TNK III, and Vanguard - with more titles to be announced! Get the complete experience by playing both the arcade and home console versions on many of these titles!\"",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-12-22",
+    "howAcquired": "gift from mom",
+    "notes": "",
+    "createdAt": "12/25/2018 05:07 am",
+    "updatedAt": "05/26/2019 08:35 pm",
+    "_id": "003d8b2314314f44b6088552c5988046",
+    "name": "SNK 40th Anniversary Collection",
+    "genres": [
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "01/06/2003",
+    "total_rating": 67,
+    "esrb": "E",
+    "videos": [
+      "BWBOk_AaiHc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yt2.jpg",
+    "description": "Crash is back and ready to take on an all-new nefarious villain. After the events of Crash Bandicoot: The Huge Adventure, Tropy, with the help of N. Trance, kidnaps Coco and Crunch, planning to brainwash them to the evil side. Now, Crash must travel to N. Trance's twisted realm, battle and rescue Coco and Crunch, and ultimately defeat N. Trance and N. Tropy. To achieve these goals, you must use all of Crash's spin, slide, and jumping abilities across 24 different levels. As you progress through the game, you'll find yourself flying a helicopter, water-skiing, and piloting a spaceship--all for the sake of saving your friends.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-11-28",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "11/28/2018 06:17 pm",
+    "updatedAt": "11/28/2018 06:17 pm",
+    "_id": "56eb326b86a84f89b626a73de429c1a9",
+    "name": "Crash Bandicoot 2: N-Tranced",
+    "extraData": [
+      "Nintendo Game Boy Advance exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Crash Bandicoot 2: N-Tranced",
+        "details": [
+          "Nintendo Game Boy Advance exclusive"
+        ],
+        "id": "gba44",
+        "igdbId": 1198,
+        "gbId": 355,
+        "gbGuid": "3030-355",
+        "tgdbId": 3360,
+        "isExclusive": [
+          {
+            "name": "Nintendo Game Boy Advance",
+            "id": "ccl10",
+            "igdbId": 24,
+            "gbId": 4,
+            "gbGuid": "3045-4",
+            "tgdbId": 5
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1993",
+    "total_rating": 60,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ocudz6ss2jbqm3nlfsnp.jpg",
+    "description": "X-Men is a side-scrolling action game based on the comic book series of the same name. The player can control one of four playable characters: Gambit, Nightcrawler, Wolverine, or Cyclops. In addition, it is possible to call upon four other X-Men in when necessary.",
+    "story": "Professor X's Danger Room is a training facility that can fully re-create environments in which the X-Men can practice their powers, similarly to the holodeck in Star Trek. One day, the danger room starts to go crazy, and randomly loading up dangerous simulations. It turns out that Magneto, the leader of the mutant Brotherhood and the main adversary of the X-men, has loaded a virus into the Danger Room's computer, and now the X-Men have to stop it.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-11-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/23/2018 07:22 pm",
+    "updatedAt": "11/23/2018 07:22 pm",
+    "_id": "76379eb9e0824f69b1e322652381509f",
+    "name": "X-Men",
+    "extraData": [
+      "Sega Genesis exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "X-Men",
+        "details": [
+          "Sega Genesis exclusive"
+        ],
+        "id": "smd293",
+        "igdbId": 4531,
+        "gbId": 5428,
+        "gbGuid": "3030-5428",
+        "tgdbId": 10681,
+        "isExclusive": [
+          {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "10/22/2000",
+    "total_rating": 47,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/fz1gs8v8gmy4pjwtcvnx.jpg",
+    "description": "Ready 2 Rumble Boxing: Round 2 is a boxing game for the Dreamcast, Nintendo 64, PlayStation, PlayStation 2, and Game Boy Advance. It is also the sequel to Ready 2 Rumble Boxing.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-11-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/23/2018 07:21 pm",
+    "updatedAt": "11/23/2018 07:21 pm",
+    "_id": "82c7efa1195c45eabc3aaa1c8b65a281",
+    "name": "Ready 2 Rumble Boxing: Round 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Sport",
+      "Boxing"
+    ]
+  },
+  {
+    "first_release_date": "10/20/1998",
+    "total_rating": 70,
+    "esrb": "M",
+    "videos": [
+      "xYUmLGDelRE",
+      "GXkw5w6CGZU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zb.jpg",
+    "description": "Having defeated the Campaigner, Turok throws the Chronocepter into a waiting volcano to destroy it. Unfortunately the blast awakens an even deadlier force - The Primagen. Once again a Turok is tasked with restoring peace to the land and stopping the Primagen from merging Earth with the nether world.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-11-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/23/2018 07:21 pm",
+    "updatedAt": "11/23/2018 07:21 pm",
+    "_id": "755bd895fb484dc88fa3cc05da11f351",
+    "name": "Turok 2: Seeds of Evil",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "02/27/1997",
+    "total_rating": 74,
+    "esrb": "M",
+    "videos": [
+      "gJlkp_cxkco"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ly.jpg",
+    "description": "A world where time has no meaning - and evil knows no bounds. Torn from a world long gone, the time traveling warrior Turok has found himself thrust into a savage land torn by conflict.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-11-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/23/2018 07:20 pm",
+    "updatedAt": "11/23/2018 07:20 pm",
+    "_id": "68bb73443f8f4819bdbd16c515baa663",
+    "name": "Turok: Dinosaur Hunter",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "12/18/2017",
+    "total_rating": 54,
+    "esrb": "E10+",
+    "videos": [
+      "vKftQt3sux4",
+      "97BDoEMyuks",
+      "1WDbnzFTgX0",
+      "7WoYXMvCOhA",
+      "ao-_bwChl6U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7b.jpg",
+    "description": "Brawlout is the competitive platform fighter, designed for couch play, online ranked matches and competitive tournaments.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 10,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2018-11-17",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "11/21/2018 06:25 am",
+    "updatedAt": "02/04/2019 06:57 am",
+    "_id": "786f18947bd74672a788fa47757aa010",
+    "name": "Brawlout",
+    "genres": [
+      "Fighting",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "10/25/2018",
+    "total_rating": 93,
+    "esrb": "M",
+    "videos": [
+      "HVRzx17WHVk",
+      "Dw_oH5oiUSE",
+      "9_GsrTCslQ4",
+      "t5AdF4uNGus",
+      "94B-38sX5fs",
+      "iqaipBpnVRE",
+      "SXvQ1nK4oxk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+    "description": "Developed by the creators of Grand Theft Auto V and Red Dead Redemption, Red Dead Redemption 2 is an epic tale of life in America’s unforgiving heartland. The game's vast and atmospheric world will also provide the foundation for a brand new online multiplayer experience.",
+    "story": "America, 1899. The end of the wild west era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed. \n \nAfter a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-11-03",
+    "howAcquired": "Walmart",
+    "notes": "",
+    "createdAt": "11/21/2018 06:11 am",
+    "updatedAt": "05/26/2019 08:35 pm",
+    "_id": "67e2a4a6bb204648923b83af849cbdf3",
+    "name": "Red Dead Redemption 2",
+    "extraData": [
+      "banned in Suadia Arabia: Banned due to nudity, prostitution, violence and cruelty."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Red Dead Redemption 2",
+        "details": [
+          "banned in Suadia Arabia: Banned due to nudity, prostitution, violence and cruelty."
+        ],
+        "id": "bi146",
+        "igdbId": 25076,
+        "gbId": 56725,
+        "gbGuid": "3030-56725",
+        "tgdbId": 55247
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1982",
+    "total_rating": 80,
+    "videos": [
+      "0bMbWfnyS3I"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/iqfooyt1cqmnhjiqzn4i.jpg",
+    "description": "Originating in the arcades, Spy Hunter is a driving action game played from an overhead point of view. Your car is equipped with machine guns to help you get past the numerous enemies out on the road (be careful not to shoot any civilians, though!) Occasionally you will come across a weapons van, and if you drive into the back of the van your car becomes equipped with a second weapon (such as smoke screen, oil slick, or missiles). At several points the road splits and you can enter a boathouse which transforms your car into a boat temporarily. If you drive far enough the seasons change as well (watch out for icy conditions during winter!). The enemy cars will do anything to stop you, including running you off the road, firing guns from the back of a limo, or dropping bombs from a helicopter.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-10-29",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "test",
+    "createdAt": "11/16/2018 08:37 am",
+    "updatedAt": "12/13/2018 08:20 am",
+    "_id": "03d0b3eab63244308e5f77b141941a8f",
+    "name": "Spy Hunter",
+    "extraData": [
+      "NES hang tab game"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Spy Hunter",
+        "id": "nes361",
+        "details": [
+          "NES hang tab game"
+        ],
+        "igdbId": 4167,
+        "gbId": 10448,
+        "gbGuid": "3030-10448",
+        "tgdbId": 2106,
+        "special": [
+          {
+            "value": "NES hang tab game",
+            "forPlatform": {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "10/11/2018",
+    "total_rating": 76,
+    "esrb": "M",
+    "videos": [
+      "tJv-xtxKkQY",
+      "i3ghyAAZFGs",
+      "WQ-vta0oFDw",
+      "FyBVOEqMk4c",
+      "wpC5qgHRmu0",
+      "BjiaMBk6rHk",
+      "lNSL5IbA_4Y",
+      "3pyfKYwlGhQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkf.jpg",
+    "description": "Black Ops is back! Featuring gritty, grounded, fluid Multiplayer combat, the biggest Zombies offering ever with three full undead adventures at launch, and Blackout, where the universe of Black Ops comes to life in one massive battle royale experience featuring the largest map in Call of Duty history, signature Black Ops combat, characters, locations and weapons from the entire Black Ops series.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-10-26",
+    "howAcquired": "Walmart",
+    "notes": "",
+    "createdAt": "11/21/2018 05:59 am",
+    "updatedAt": "05/26/2019 08:35 pm",
+    "_id": "1c72018b669e4411bb6f4cd93a1eb2b9",
+    "name": "Call of Duty: Black Ops 4",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "11/13/1996",
+    "total_rating": 61,
+    "esrb": "E",
+    "videos": [
+      "Q5hnBsUWmAI",
+      "VPqPt_R7nuo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ztn.jpg",
+    "description": "Sonic 3D Blast is a 1996 platform video game developed by Traveller's Tales and Sonic Team, and published by Sega for the Genesis, Saturn, and Windows. Part of the Sonic the Hedgehog series, the game abandons previous Sonic games' side-scrolling style in favor of isometric gameplay, making use of some pre-rendered 3D models converted into sprites. The game features creatures known as Flickies, which first appeared in the 1984 arcade game Flicky. Controlling only Sonic himself, the player's goal is to collect Flickies and carry them to safety, periodically sparring with the series antagonist Dr. Robotnik, who is imprisoning them within robots.",
+    "story": "Doctor Robotnik discovers mysterious birds called Flickies that live on an island in an alternate dimension. He learns that they can travel anywhere using large rings, so he decides to exploit them by turning them into robots to help him search for the Chaos Emeralds. Sonic arrives at the island only to discover the presence of Robotnik, and he is tasked with saving the Flickies and defeating his nemesis. \n \nSonic travels through the island, saving the Flickies and clashing with Robotnik in his various machines. If the player collects all the Chaos Emeralds, Sonic proceeds into a black void, where he engages in a final battle with Robotnik, who pilots a large robot. Sonic manages to destroy the robot's weapons and defeats Robotnik, freeing the Flickies. If the player fails to collect the Emeralds, Robotnik escapes in their possession.",
+    "player_perspectives": [],
+    "consoleName": "Sega Saturn",
+    "consoleId": 32,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 33,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-10-22",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 06:21 am",
+    "updatedAt": "11/18/2018 06:21 am",
+    "_id": "6ac2e17d46ee48c7bc1a47c579040545",
+    "name": "Sonic 3D Blast",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "11/22/1993",
+    "total_rating": 68,
+    "esrb": "",
+    "videos": [
+      "DzPpRPDRQvA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zsz.jpg",
+    "description": "Dr. Eggman (AKA Dr. Robotnik) is once again turning the animals of Mobius into robots using his monstrous contraption, the Veg-O-Fortress. Only Sonic can penetrate the Pinball Defense System to free the animals, retrieve the Chaos Emeralds, and put a stop to Dr. Eggman’s fiendish plans!",
+    "story": "Sonic the Hedgehog Spinball is one of the few games in the Sonic franchise set in the universe of the animated series Sonic the Hedgehog. The evil scientist Doctor Robotnik has built a fortress on top of a volcano to transform the animals of planet Mobius into robot slaves. The volcano's magma fuels the fortress and the pinball machine-like defense systems. The volcano is kept in stable condition with Chaos Emeralds. \n \nSonic the Hedgehog and his friend Tails mount an aerial assault on the fortress. Sonic is knocked into the waters that surround the volcano, but surfaces in the caves below the fortress. He infiltrates the defenses, absconds with the Chaos Emeralds, and frees the animals. Without the Chaos Emeralds, an eruption begins to destroy the fortress. Sonic destroys Robotnik's escape ship. Tails rescues Sonic, while Robotnik falls into the volcano, which sinks into the ocean and explodes.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-08-17",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/17/2018 11:34 am",
+    "updatedAt": "11/17/2018 11:34 am",
+    "_id": "0073e02160d141dab82788c8b98244a2",
+    "name": "Sonic the Hedgehog: Spinball",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Pinball"
+    ]
+  },
+  {
+    "first_release_date": "02/01/1994",
+    "total_rating": 83,
+    "videos": [
+      "j350HVcB2dA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zut.jpg",
+    "description": "The game is a sequel to the Sonic the Hedgehog 2 for the same system and follows on directly from the end of the game, in which Sonic defeated his enemy, Dr. Robotnik; crash-landing on a floating island, Sonic encounters new character Knuckles the Echidna, and must once more retrieve the Chaos Emeralds while also working to stop Dr. Robotnik from relaunching his ship, the Death Egg.",
+    "story": "After Sonic defeats Dr. Robotnik at the end of Sonic the Hedgehog 2, his space station, the Death Egg, crash-lands on a mystical floating landmass called Angel Island (or simply \"the Floating Island\" as it's called in the game manual). As Dr. Robotnik begins to repair the damaged station, he meets up with Knuckles the Echidna, the last surviving member of an ancient civilization of Echidnas that once inhabited the island. He is also the guardian of the Master Emerald, which grants the island its levitation powers. \n \nKnowing Sonic and Tails will try to track him down, and realizing he can use the Master Emerald to power the ship, Dr. Robotnik dupes Knuckles into believing Sonic is trying to steal his Emerald. Shortly after, Sonic and Tails in their biplane, the Tornado, are in search of Dr. Robotnik. Sonic, possessing the emeralds from the events of Sonic 2, then turns into Super Sonic. As soon as they arrive, Knuckles ambushes Sonic from underground and knocks the Chaos Emeralds from him, returning him to normal. Knuckles steals the Emeralds and disappears inland. As Sonic and Tails travel through the levels, they encounter Knuckles in almost every level, hindering their progress. \n \nIn the last level, the Launch Base Zone, the Death Egg launches off for the second time, knocking Knuckles off a pole and sending him plummeting into the water. Sonic travels to a platform on the Death Egg, fights, and defeats Robotnik for the last time. The Death Egg is seen damaged and falling after Robotnik's defeat, after which it crashes back onto Angel Island- leading into the second half of the story in Sonic & Knuckles.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-08-17",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/17/2018 11:32 am",
+    "updatedAt": "11/17/2018 11:32 am",
+    "_id": "d9924c7256a548c39cfc98bc1336316b",
+    "name": "Sonic the Hedgehog 3",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1994",
+    "total_rating": 68,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2do7.jpg",
+    "description": "NBA JAM Tournament Edition brings you more senses-shattering slam dunking excitement than ever! More than twice as many NBA superstars, more than double the secret characters, Hot Spots, Super Jam Power-Ups, battery back-up and - OH MY - nine all-new rim-rattling slam dunks plus all the original jams! NBA JAM Tournament Edition... it's on FIRE!",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-08-17",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 07:51 pm",
+    "updatedAt": "11/16/2018 07:51 pm",
+    "_id": "ab7f1ece2ff743bf8d3a28fbdc5e9782",
+    "name": "NBA Jam Tournament Edition",
+    "extraData": [
+      "Sega Genesis Team Player compatible title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "NBA Jam Tournament Edition",
+        "id": "smd161",
+        "details": [
+          "Sega Genesis Team Player compatible title"
+        ],
+        "igdbId": 19712,
+        "gbId": 14792,
+        "gbGuid": "3030-14792",
+        "special": [
+          {
+            "value": "Sega Genesis Team Player compatible title",
+            "forPlatform": {
+              "name": "Sega Mega Drive/Genesis",
+              "id": "ccl14",
+              "igdbId": 29,
+              "gbId": 6,
+              "gbGuid": "3045-6",
+              "tgdbId": 18
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Arcade",
+      "Basketball"
+    ]
+  },
+  {
+    "first_release_date": "08/25/1993",
+    "total_rating": 84,
+    "esrb": "E",
+    "videos": [
+      "mPsgXN_1bl4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/zwzx4z9wzkstxhf9co3w.jpg",
+    "description": "Jurassic Park is a SEGA Genesis/Mega Drive game based on the first movie.The game was playable as either Dr. Alan Grant or a Velociraptor (presumably the The Big One). Grant is the default character but can be changed using the 'Player' option on the game's main menu to swich to the raptor.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-08-17",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 07:49 pm",
+    "updatedAt": "11/16/2018 07:49 pm",
+    "_id": "bc623d8a7022437ea6a900c48cf8c5b6",
+    "name": "Jurassic Park",
+    "extraData": [
+      "Sega Genesis exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Jurassic Park",
+        "details": [
+          "Sega Genesis exclusive"
+        ],
+        "id": "smd128",
+        "igdbId": 4519,
+        "gbId": 73443,
+        "gbGuid": "3030-73443",
+        "tgdbId": 537,
+        "isExclusive": [
+          {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Platform"
+    ]
+  }
+]

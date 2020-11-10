@@ -1,0 +1,237 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Return to Castle Wolfenstein",
+        "id": 281,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 74,
+        "total_rating_count": 223,
+        "first_release_date": "11/18/2001",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "RtCW",
+        "guid": "3030-19181",
+        "gbid": 19181,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2287889-rtcw.png",
+        "deck": "B.J. Blazkowicz returns to fight elite Nazi troopers, supernatural creatures, and mechanized super soldiers in this reboot of the original 1991 classic Wolfenstein 3D.",
+        "platforms": "Mac, PlayStation 2, Xbox, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "02/01/2020 07:38 am",
+      "updatedAt": "02/01/2020 07:38 am",
+      "_id": "9f54136d149d4919934e297bd6d1a2df",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2287889-rtcw.png",
+      "description": "B.J. Blazkowicz returns to fight elite Nazi troopers, supernatural creatures, and mechanized super soldiers in this reboot of the original 1991 classic Wolfenstein 3D.",
+      "name": "Return to Castle Wolfenstein",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
+      ],
+      "extraDataFull": [
+        {
+          "name": "Return to Castle Wolfenstein",
+          "details": [
+            "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
+          ],
+          "id": "bi105",
+          "igdbId": 281,
+          "gbId": 19181,
+          "gbGuid": "3030-19181",
+          "tgdbId": 782
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 281;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer fb5x6b4vgj2ti3gg8ha8eofcpyi2k8",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Quake III: Team Arena",
+        "id": 6634,
+        "genres": [
+          "FPS",
+          "Shooter"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 9,
+        "first_release_date": "12/17/2000",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Quake 3: Team Arena",
+        "guid": "3030-19358",
+        "gbid": 19358,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/912735-g087330m9w7.jpg",
+        "deck": "Quake III: Team Arena is an expansion pack released for Quake III Arena in December 2000 by id Software. It features new modes focused on teamplay, as well as new weapons, items, player models, and maps.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "02/01/2020 07:37 am",
+      "updatedAt": "02/01/2020 07:37 am",
+      "_id": "b39f0e856bff4094a1e9d9bedff2855f",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/912735-g087330m9w7.jpg",
+      "description": "Quake III: Team Arena is an expansion pack released for Quake III Arena in December 2000 by id Software. It features new modes focused on teamplay, as well as new weapons, items, player models, and maps.",
+      "name": "Quake III: Team Arena",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 6634;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer fb5x6b4vgj2ti3gg8ha8eofcpyi2k8",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Quake III Arena",
+        "id": 355,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 218,
+        "first_release_date": "12/01/1999",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Q3\r, Q3A\r, Quake 3: Arena",
+        "guid": "3030-3874",
+        "gbid": 3874,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/611427-q3box.jpg",
+        "deck": "The third installment of the Quake series shakes things up again by being designed solely for multiplayer combat. It focuses on gladiatorial combat in a hellish dimension.",
+        "platforms": "Mac, PlayStation 2, Xbox 360, Dreamcast, PC, Browser, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "02/01/2020 07:36 am",
+      "updatedAt": "02/01/2020 07:36 am",
+      "_id": "78bc2f0e3687472bac1670be77fc9a2a",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/611427-q3box.jpg",
+      "description": "The third installment of the Quake series shakes things up again by being designed solely for multiplayer combat. It focuses on gladiatorial combat in a hellish dimension.",
+      "name": "Quake III Arena",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 355;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer fb5x6b4vgj2ti3gg8ha8eofcpyi2k8",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

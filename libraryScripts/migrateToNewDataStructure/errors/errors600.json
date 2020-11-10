@@ -1,0 +1,192 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Powerstar Golf",
+        "id": 5331,
+        "genres": [
+          "Sport",
+          "Golf"
+        ],
+        "total_rating": 71,
+        "total_rating_count": 4,
+        "first_release_date": "11/21/2013",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-42906",
+        "gbid": 42906,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2575470-box_psg.png",
+        "deck": "A downloadable golf game developed by Zoe Mode for the Xbox One.",
+        "platforms": "Xbox One"
+      },
+      "consoleName": "Xbox One",
+      "consoleIgdbId": 49,
+      "consoleGbid": 145,
+      "consoleGbGuid": "3045-145",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "",
+      "howAcquired": "XBOX Live",
+      "notes": "",
+      "createdAt": "03/21/2020 08:58 am",
+      "updatedAt": "03/21/2020 08:58 am",
+      "_id": "7f830c62460a47228f65da043716d74d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2575470-box_psg.png",
+      "description": "A downloadable golf game developed by Zoe Mode for the Xbox One.",
+      "name": "Powerstar Golf",
+      "miltiplayerNumber": 4,
+      "extraData": [
+        "Microsoft Xbox One launch title",
+        "Microsoft Xbox One full exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "mxb1155",
+          "name": "Powerstar Golf",
+          "details": [
+            "Microsoft Xbox One launch title",
+            "Microsoft Xbox One full exclusive"
+          ],
+          "igdbId": 5331,
+          "gbId": 42906,
+          "gbGuid": "3030-42906",
+          "tgdbId": 24177,
+          "isLaunchTitle": [
+            {
+              "name": "Microsoft Xbox One",
+              "id": "ccl27",
+              "igdbId": 49,
+              "gbId": 145,
+              "gbGuid": "3045-145",
+              "tgdbId": 4920
+            }
+          ],
+          "isExclusive": [
+            {
+              "name": "Microsoft Xbox One",
+              "id": "ccl27",
+              "igdbId": 49,
+              "gbId": 145,
+              "gbGuid": "3045-145",
+              "tgdbId": 4920
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 5331;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer n1g01t6q1gr8c8n9s0s52pu86he1z1",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Far Cry 2",
+        "id": 361,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 260,
+        "first_release_date": "10/20/2008",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Far_Cry_2_cover_art.jpg/220px-Far_Cry_2_cover_art.jpg",
+        "deck": "",
+        "platforms": ""
+      },
+      "consoleName": "Xbox One",
+      "consoleIgdbId": 49,
+      "consoleGbid": 145,
+      "consoleGbGuid": "3045-145",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "XBOX Live",
+      "notes": "",
+      "createdAt": "03/21/2020 08:55 am",
+      "updatedAt": "03/21/2020 08:55 am",
+      "_id": "bd24f4c9b76e463ebd09c287dde3a946",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Far_Cry_2_cover_art.jpg/220px-Far_Cry_2_cover_art.jpg",
+      "description": "",
+      "name": "Far Cry 2",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 361;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer n1g01t6q1gr8c8n9s0s52pu86he1z1",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

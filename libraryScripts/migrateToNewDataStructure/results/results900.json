@@ -1,0 +1,1735 @@
+[
+  {
+    "first_release_date": "04/26/2007",
+    "total_rating": 80,
+    "esrb": "E10+",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/glhvm0aa35vusswngyo3.jpg",
+    "description": "Buzz!: The Mega Quiz released as Buzz! The Maha Quiz in India was developed by Relentless Software and is the fourth game in the Buzz! series for the PlayStation 2, alongside Buzz! Junior: Robo Jam. Buzz! The Mega Quiz has over 5,000 questions.[1] Along with Buzz! Junior: Jungle Party, this was one of the first Buzz games released in North America, also the first game in the series to have a 12+ rating by PEGI.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Has 4 buzzer remotes.",
+    "createdAt": "11/18/2018 09:33 am",
+    "updatedAt": "11/18/2018 09:33 am",
+    "_id": "02482cb513754214849924ed92c4b66a",
+    "name": "Buzz! The Mega Quiz",
+    "extraData": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Buzz! The Mega Quiz",
+        "details": [
+          "Sony PlayStation 2 exclusive"
+        ],
+        "id": "ps270",
+        "igdbId": 23089,
+        "gbId": 10866,
+        "gbGuid": "3030-10866",
+        "tgdbId": 28233,
+        "isExclusive": [
+          {
+            "name": "Sony Playstation 2",
+            "id": "ccl21",
+            "igdbId": 8,
+            "gbId": 19,
+            "gbGuid": "3045-19",
+            "tgdbId": 11
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Quiz/Trivia"
+    ]
+  },
+  {
+    "first_release_date": "03/23/2003",
+    "total_rating": 73,
+    "esrb": "T",
+    "videos": [
+      "_XLeaan6aIs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wwi.jpg",
+    "description": "Amplitude is a music/rhythm game and is the sequel to 2001's Frequency. Like it's predecessor, players play songs by hitting notes on multiple tracks representing each instrument found in the song.",
+    "story": "In Amplitude, the player controls a ship (referred to as a \"Beat Blaster\") moving down a path of varying shapes and lengths, containing up to six tracks. Each color-coded track corresponds to a different aspect of the song, such as percussion, synth, bass, or vocals, and contains a sequence of notes. As the player hits buttons corresponding to the note placement on the track, the notes activate a small portion of the track. If the player successfully activates enough notes in sequence, the track is \"captured\" and the section will play automatically for a number of bars, freeing the player to capture another section.\r\r\n\r\r\nThe object of the game is to capture a sufficient amount of sections to reach the end of the song. If the player continually misses notes, an energy meter empties until the game is over.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 09:32 am",
+    "updatedAt": "11/18/2018 09:32 am",
+    "_id": "038d2cddcaf645869537f22968a501fd",
+    "name": "Amplitude",
+    "extraData": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Amplitude",
+        "details": [
+          "Sony PlayStation 2 exclusive"
+        ],
+        "id": "ps226",
+        "igdbId": 2141,
+        "gbId": 1420,
+        "gbGuid": "3030-1420",
+        "tgdbId": 36610,
+        "isExclusive": [
+          {
+            "name": "Sony Playstation 2",
+            "id": "ccl21",
+            "igdbId": 8,
+            "gbId": 19,
+            "gbGuid": "3045-19",
+            "tgdbId": 11
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Music",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "04/23/2006",
+    "total_rating": 78,
+    "esrb": "E",
+    "videos": [
+      "eHGr_1uOo2I"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/bnjvblaspmevz4uhuapq.jpg",
+    "description": "Celebrating the 2006 FIFA World Cup Germany - the world's largest sporting event - 2006 FIFA World Cup brings you to the games with the world's superstar players, 12 official stadiums that will be used at 2006 FIFA World Cup Germany and stadiums from each qualifying region. Gamers can play as their favorite team from qualification right through to a virtual reproduction of the tournament in Germany.  In addition to enabling gamers to participate in the 2006 FIFA World Cup Germany by taking control of one of 127 national teams, the game features new compelling modes of play, including the Global Challenge that recreates classic moments in FIFA World Cup history. Furthermore, the game supports up to eight-way multiplayer matches and boasts a plethora of in-game unlockable content such as legendary players and exclusive apparel.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 09:32 am",
+    "updatedAt": "11/18/2018 09:32 am",
+    "_id": "d520564671cd48f3acd95a7fdce076a5",
+    "name": "2006 FIFA World Cup",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Soccer"
+    ]
+  },
+  {
+    "first_release_date": "01/04/2000",
+    "total_rating": 78,
+    "esrb": "M",
+    "videos": [
+      "4c_8vGh4DO8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co287y.jpg",
+    "description": "Choose your character from the cast of the popular 'mature' cartoon South Park, and tear through the streets in this racing game. Your character's vehicle may be a little cart, trike, or box, for example. Weapons include rockets, Salty Balls, Cheesy Poofs, the beloved Cow and even an Anal probe. All of the voices are also included, making it feel more like the real cartoon than a rally game. You can also play an all-on-all 4 player mode.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Fair",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 07:58 am",
+    "updatedAt": "11/18/2018 07:58 am",
+    "_id": "1373fc910741461d941e16c8d2733807",
+    "name": "South Park Rally",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "11/20/1998",
+    "total_rating": 78,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vob.jpg",
+    "description": "Thousands of years ago a meteor crashed into Antarctica and the shockwaves of its impact are being felt in the modern age. Lara Croft will follow clues leading to a deadly secret, boldly leaping chasms and blasting monsters that no one has leaped or blasted before.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "garage sale",
+    "notes": "",
+    "createdAt": "11/18/2018 07:58 am",
+    "updatedAt": "11/18/2018 07:58 am",
+    "_id": "bc981df550dc4554b2a713c72e895e2d",
+    "name": "Tomb Raider III: Adventures of Lara Croft",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "08/21/2017",
+    "total_rating": 74,
+    "esrb": "T",
+    "videos": [
+      "NMTwhVPqr2k",
+      "RlaAvzEryC8",
+      "AuqQEfOueSA",
+      "s4LSt5J1J-g",
+      "3RwjGbYvirg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uvu.jpg",
+    "description": "The Escapists 2 is the forthcoming sequel to the multi-million selling, award-winning sandbox prison-escape game which will include, in a first for the series, drop in/drop out play for up to four players in both local and online play.  Escaping won't be easy though. You'll have to work around the strict prison schedule and avoid the unwanted attention of guards. Craft weapons and tools found (or stolen) from within the prison, but beware of cell shakedowns. Get a job or perform “favours\" for your fellow inmates to purchase vital supplies, all while scouting escape routes.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "08/28/2020 07:07 pm",
+    "updatedAt": "08/28/2020 07:07 pm",
+    "_id": "1a622bf1755e4a7b950f2ec759ab6d8f",
+    "name": "The Escapists 2",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/12/2020",
+    "videos": [
+      "YIjjokFLWgg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eq0.jpg",
+    "description": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.  Full access to both Alto's Adventure and Alto's Odyssey, including over 120 levels, 360 goals, 7 unique characters, and a workshop full of upgrades",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "08/28/2020 07:07 pm",
+    "updatedAt": "08/28/2020 07:07 pm",
+    "_id": "509e3d32470341f29088cd6bfe87461e",
+    "name": "The Alto Collection",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "07/03/2019",
+    "total_rating": 66,
+    "esrb": "T",
+    "videos": [
+      "pW10fP7CkKc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sez.jpg",
+    "description": "Explore through the world of the hit Netflix original series in the official game for Stranger Things 3!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "08/28/2020 07:06 pm",
+    "updatedAt": "08/28/2020 07:06 pm",
+    "_id": "be62f5e8e9624f13b962e26d0c373234",
+    "name": "Stranger Things 3: The Game",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "05/05/2020",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26jp.jpg",
+    "description": "Pathway is a text-adventure and puzzle game about exploring mini-books. Try to figure out where you are (and how to escape) by visiting different locations, gathering clues to solve puzzles and collecting mini-books. While reading and moving around a confusing room, discover a series of strange documents that are part of a bigger story containing familiar symbols, cyclical systems and peculiar beings with rectangular eyes.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "08/28/2020 07:04 pm",
+    "updatedAt": "08/28/2020 07:04 pm",
+    "_id": "5158fe0d304f496594727b4f6d38e62d",
+    "name": "Pathway",
+    "genres": []
+  },
+  {
+    "first_release_date": "11/17/2016",
+    "total_rating": 77,
+    "esrb": "M",
+    "videos": [
+      "ZUJZW9Wqckg",
+      "0_TsegjIrHU",
+      "KsxKLJp5hdM",
+      "6WOaKjh9QVg",
+      "Pcuj_cxTw34",
+      "MSxHvf_op8E",
+      "etMGOM3Wlew"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2coc.jpg",
+    "description": "In Killing Floor 2 players descend into Europe where the Zed outbreak has quickly spread and gained unstoppable momentum. Just one month after the conclusion of the events in the original Killing Floor, the clones are everywhere and civilization is in disarray; governments have collapsed, and military forces are gone.",
+    "story": "In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by the corporation Horzine. The Zed outbreak caused by Horzine Biotech’s failed experiments has quickly spread with unstoppable momentum, paralyzing the European Union. Only a month ago, the first Zed outbreak from the original KILLING FLOOR ripped through London; now the specimen clones are everywhere. Civilization is in disarray, communication networks have failed, governments have collapsed, and military forces have been systematically eradicated. The people of Europe are now focused on self-preservation, the lucky few who survived having gone into hiding. \n \nBut not all have given up hope; a motley group of civilians, soldiers, and mercenaries have banded together to fight the outbreaks from privately funded bases across Europe. When a specimen clone outbreak is detected, the players are sent into Zed-laden hot zones to exterminate all threats using whatever means necessary.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "08/28/2020 07:03 pm",
+    "updatedAt": "08/28/2020 07:03 pm",
+    "_id": "5d044b9fcec6412dbd84c919580f97ba",
+    "name": "Killing Floor 2",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "08/15/2017",
+    "total_rating": 74,
+    "esrb": "E10+",
+    "videos": [
+      "fEdsEi7eJvQ",
+      "V-Ezew47auQ",
+      "_sDU-O1b2Eg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22jc.jpg",
+    "description": "20XX is a co-op-friendly action platformer roguelite. Explore procedurally generated levels, collect new weapons and abilities, purchase upgrades, and crush ferocious bosses! If you are a fan of roguelikes or Mega Man, 20XX is for you!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "",
+    "case": "",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Epic Games Store",
+    "notes": "",
+    "createdAt": "08/28/2020 07:02 pm",
+    "updatedAt": "08/28/2020 07:02 pm",
+    "_id": "6366b6db48c340f189acb5c77d6d07d5",
+    "name": "20XX",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/14/2019",
+    "total_rating": 70,
+    "esrb": "E",
+    "videos": [
+      "VlYx9RsNbA4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vjt.jpg",
+    "description": "Witcheye is a big, colorful, old-school platform adventure with a unique touchscreen control system that gives unparalleled control over the hero. Swipe to move and touch to stop, bouncing off of enemies and dodging hazards in six vibrant worlds. Set off on an adventure as a mild-mannered witch who transforms into a flying eyeball of vengeance after a smarmy knight and wizard steal her spell ingredients. You'll guide her through 50+ levels, each containing something completely unique: tricky new enemies, mysterious new environments, and puzzling new secrets. These elements are brought to life with colorful, clean pixel art and a lively, head-bobbing original soundtrack.  Designer Peter Malamud Smith was the co-creator (with Charlie Hoey) of the viral hit The Great Gatsby For NES, and creator of the well-received mobile action puzzlers Satellina and Satellina Zero.  - Unique, intuitive controls, for a fresh take on a classic gameplay style - 50+ fast-paced levels full of unique elements, including over 100 enemies, minibosses, and bosses - Crisp pixel art visuals - 30+ track original soundtrack - Unlockable bonus modes and challenges, including a hard mode with fully remixed enemies and levels - Robust speedrun features, including player ghosts and timers with built-in splits",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 07:00 pm",
+    "updatedAt": "08/28/2020 07:00 pm",
+    "_id": "c05248963ebe4a7e8735a64976b0a5ed",
+    "name": "Witcheye",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "01/14/2019",
+    "total_rating": 54,
+    "esrb": "E10+",
+    "videos": [
+      "RXe5t7iIzoQ",
+      "_d3bmmw7RWk",
+      "8YmVFVJDsz8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1igq.jpg",
+    "description": "Vane is an atmospheric adventure about unraveling the secrets of an unknown land, finding your place in it, and pulling at the threads of the world to make a change. The shifting sands glimmer with meaning, ancient ruins resonate with power, but in the distance a billowing threat looms. Find your way.",
+    "story": "A child with an odd ability stuck in a strange land. A dangerous natural environment inhabited by a strange civilization. Vane is an open-world adventure game based on mystery and exploration.",
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 07:00 pm",
+    "updatedAt": "08/28/2020 07:00 pm",
+    "_id": "e0a0fd6519fa4298a1ae4aad5f86b390",
+    "name": "Vane",
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "10/01/2019",
+    "total_rating": 59,
+    "esrb": "T",
+    "videos": [
+      "ic-HtUkO9_E",
+      "AUgZz_gtTQI",
+      "Ufo3Z-ZruCU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ra5.jpg",
+    "description": "A beautifully presented tale of unforgiving combat in a war torn city. Warsaw is a WWII turn-based tactical rpg with beautiful hand painted graphics. Lead a small, dedicated outfit of civilians and soldiers with their unique skills in their fight to take back the city besieged by occupying forces.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:59 pm",
+    "updatedAt": "08/28/2020 06:59 pm",
+    "_id": "3f5c68b8f00c4a1389efdcd3b3226561",
+    "name": "WARSAW",
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "10/20/1998",
+    "total_rating": 70,
+    "esrb": "M",
+    "videos": [
+      "xYUmLGDelRE",
+      "GXkw5w6CGZU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zb.jpg",
+    "description": "Having defeated the Campaigner, Turok throws the Chronocepter into a waiting volcano to destroy it. Unfortunately the blast awakens an even deadlier force - The Primagen. Once again a Turok is tasked with restoring peace to the land and stopping the Primagen from merging Earth with the nether world.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:59 pm",
+    "updatedAt": "08/28/2020 06:59 pm",
+    "_id": "e3f50b2ecc984fb29a89f3ad29dc3efa",
+    "name": "Turok 2: Seeds of Evil",
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/28/2019",
+    "total_rating": 75,
+    "videos": [
+      "_94A3LPZ8s4",
+      "laMURYkJO1s",
+      "zRV2XHDccZo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1i1e.jpg",
+    "description": "ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic. Original Funk Lord (and co-creator) Greg Johnson is back at the helm with the sequel that ToeJam and Earl fans have been waiting for! ​  The iconic ‘90s duo is back in the groove with all-new presents to help them navigate this wack planet \"\"Earth\"\" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!  ​ ToeJam and Earl: Back in the Groove! is a mash-up of the very best  features of the classic console games with a ton of fresh improvements. Grab some homies and get ready for a blast of funky nostalgia as you help ToeJam and Earl return once again to Funkotron.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:58 pm",
+    "updatedAt": "08/28/2020 06:58 pm",
+    "_id": "280d3ec80ba947d0a1412f01bfab8ef6",
+    "name": "ToeJam & Earl: Back in the Groove",
+    "genres": [
+      "Music",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "02/12/2015",
+    "total_rating": 72,
+    "esrb": "T",
+    "videos": [
+      "HVbOPwQvJJk",
+      "hcOR4Aa5t70"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uvv.jpg",
+    "description": "All that stands between you and your freedom is a perfectly executed escape plan. The Escapists provides players the opportunity of experiencing a light-hearted insight into everyday prison life with the main objective being that of breaking out.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:58 pm",
+    "updatedAt": "08/28/2020 06:58 pm",
+    "_id": "d5bd07a6bfa94c2095082e7e67c3b37b",
+    "name": "The Escapists",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "07/03/2019",
+    "total_rating": 66,
+    "esrb": "T",
+    "videos": [
+      "pW10fP7CkKc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sez.jpg",
+    "description": "Explore through the world of the hit Netflix original series in the official game for Stranger Things 3!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:57 pm",
+    "updatedAt": "08/28/2020 06:57 pm",
+    "_id": "02d182c0597a49a69bf6a5fa01ffd4e7",
+    "name": "Stranger Things 3: The Game",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/12/2018",
+    "total_rating": 82,
+    "esrb": "T",
+    "videos": [
+      "gsesDrE5EAw",
+      "y0hS_LdurDQ",
+      "VFIBx6kd1mY",
+      "zD9tRt0Lk7Y",
+      "5ot-_2qrhA8",
+      "sjfEl343Zd8",
+      "tAbrA8EiG84",
+      "z5ahPzjFwBg",
+      "Nko30lul2v4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co249k.jpg",
+    "description": "\"The SNK 40th ANNIVERSARY COLLECTION includes classic titles such as Alpha Mission, Athena, Crystalis, Ikari Warriors, Ikari Warriors II: Victory Road, Ikari Warriors III: The Rescue, Guerilla War, P.O.W., Prehistoric Isle, Psycho Soldier, Street Smart, TNK III, and Vanguard - with more titles to be announced! Get the complete experience by playing both the arcade and home console versions on many of these titles!\"",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:57 pm",
+    "updatedAt": "08/28/2020 06:57 pm",
+    "_id": "2a3e4656d5fb4850b6fb4b24a69ec2d5",
+    "name": "SNK 40th Anniversary Collection",
+    "genres": [
+      "Arcade",
+      "Compilation"
+    ]
+  },
+  {
+    "first_release_date": "01/17/2001",
+    "total_rating": 84,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w4y.jpg",
+    "description": "The game takes a greater departure from its predecessors in both story and presentation. The heroes are now members of a ninja clan who have to dispatch an evil emperor before he is released. Players can choose which character they want for the first time, each having their own strengths and weaknesses. Two bosses that confront the player can also be playable after a certain chapter of the game, allowing players to re-select their character if they wish.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:55 pm",
+    "updatedAt": "08/28/2020 06:55 pm",
+    "_id": "3613350b1a9b43e6abbd50f61b7428ab",
+    "name": "Sengoku 3",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "08/30/2016",
+    "total_rating": 80,
+    "esrb": "E",
+    "videos": [
+      "G8WZvqw_8qk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n3z.jpg",
+    "description": "NeuroVoider is a twin-stick shooter RPG set in a cyber futuristic world about brains shooting around evil robots with nuclear rocket launchers. Battle through the horde of vigilant robots, boost your character with the smoking remains of your victims, and defeat the master NeuroVoider to end this eternal war. Play it coop with up to 4 friends, or go alone in an adventure of hack'n'slash rampage, with a pinch of rogue-lite, and some permadeath.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:53 pm",
+    "updatedAt": "08/28/2020 06:53 pm",
+    "_id": "1dfdb6d8c9b54264806a7558f48a0002",
+    "name": "NeuroVoider",
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "05/31/2017",
+    "total_rating": 76,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qzh.jpg",
+    "description": "METAL SLUG 2 is an action game released by SNK in 1998. Players can choose from Marko, Tarma, Eri and Fio, with the aim of defeating Morden’s Rebel Army which is plotting a coup once again. In addition to the Heavy Machine Guns and Shotguns from the previous games, new weapons such as laser guns have been added for even more battle variations.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:53 pm",
+    "updatedAt": "08/28/2020 06:53 pm",
+    "_id": "39b45f6d8fb3471ea279fd9735b3a442",
+    "name": "ACA NEOGEO METAL SLUG 2",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "02/05/2020",
+    "total_rating": 71,
+    "videos": [
+      "9_1EM7MkELw",
+      "s4mi7oWJRno",
+      "QCGnS9h7li0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y5z.jpg",
+    "description": "In KUNAI, you take control of Tabby the tablet. An elite kunai wielding robot fused with ancient warrior souls.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:52 pm",
+    "updatedAt": "08/28/2020 06:52 pm",
+    "_id": "a7402bfab0894be9829815ab6ff8fe3d",
+    "name": "KUNAI",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "01/24/1991",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26nd.jpg",
+    "description": "Players get to choose any one of six monsters (four in the 16-bit ports) for battle, and two players can join forces to fight the monsters together. Battles end when one of the monsters is pinned for a three count or if time expires (in which case the player loses).  The game consists of 12 total levels: the player first must defeat all six monsters, with the last monster being oneself, but in a different palette. Then the player must defeat the six monsters again, in the same order, but this time in different cities",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:51 pm",
+    "updatedAt": "08/28/2020 06:51 pm",
+    "_id": "c13188ce0af8496183a092734f2452e4",
+    "name": "King of the Monsters",
+    "genres": [
+      "Fighting",
+      "Sport",
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "09/19/1996",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/bvnipeurcsxt4aumuuit.jpg",
+    "description": "Horizontal shooter released for the Neo Geo CD.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:51 pm",
+    "updatedAt": "08/28/2020 06:51 pm",
+    "_id": "c55d8db78c764b5381437eebca7092fa",
+    "name": "Ironclad",
+    "genres": []
+  },
+  {
+    "first_release_date": "12/30/1987",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/zlsqmntbtg9hej8rwc43.jpg",
+    "description": "Implosion is a shooter in which a planet is on full collision course towards the earth. Now the player has to infiltrate said planet to let it implode. In every level big energy balls have to be destroyed to weaken the planet's defenses. When all are gone, a portal opens up which has to be entered within ten seconds - it is unhealthy to stay.  Also unhealthy are the enemies which attack frontally. If they manage to touch the ship its energy goes down and zero energy results in a life loss. Fortunately the player can shoot them and also destroy special crystals. Those split up into smaller crystals which reward more energy, better shields or extra points when picked up.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:49 pm",
+    "updatedAt": "08/28/2020 06:49 pm",
+    "_id": "6664620fb72b4e7d8c5fda3b0b2c9907",
+    "name": "Implosion",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "08/28/2019",
+    "total_rating": 80,
+    "esrb": "",
+    "videos": [
+      "tl07NG4ZY5c",
+      "6a0sHohfd5k",
+      "HP9JDUKTD94"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xb.jpg",
+    "description": "Heave Ho unites up to four players with a simple goal – don’t fall to your death. Grapplers will use their own two hands and the outstretched grip of their friends to swing, fling, and soar across each level on their way to victory.",
+    "story": "Grab one another’s hands, climb across dangling bodies, and swing your pals to safety in a wobbly, dangly mass of limbs. Customize your character with all manner of stylish accessories and zany accouterment in a vain attempt to remember who you are and which of your hands is the only thing between you and the plummet of doom.",
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:48 pm",
+    "updatedAt": "08/28/2020 06:48 pm",
+    "_id": "c3b59e32aea843ed95247f321a32c19e",
+    "name": "Heave Ho",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "11/05/2018",
+    "total_rating": 53,
+    "esrb": "E10+",
+    "videos": [
+      "yfPRVRIQ1uM",
+      "z18OJRayWa4",
+      "OqOpPgARgJQ",
+      "7EIDqW4vdmw",
+      "fz5Hm-1wbqY",
+      "nYCfzoPgrZM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iwv.jpg",
+    "description": "Inspired by the Rollcage games of 1999 and 2000, GRIP is a new IP for a new generation. A return to the hardcore combat racer, bristling with heavy weapons and packing ferocious speed, the game is an intense, sensory feast. Harnessing the awesome potential of Epic's Unreal Engine 4, GRIP will take you back to your nostalgic past, while simultaneously propelling you into a kick-ass future.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:48 pm",
+    "updatedAt": "08/28/2020 06:48 pm",
+    "_id": "f15fa1ad1db8478284de373ccfe83df7",
+    "name": "GRIP",
+    "genres": [
+      "Racing",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "05/29/2019",
+    "total_rating": 74,
+    "esrb": "",
+    "videos": [
+      "akZHaKCO7_8",
+      "MZMF41Yopy8",
+      "mhTGdWIAvWY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mub.jpg",
+    "description": "Pounce inside of your cozy armored mech and set off on a dangerous trek through an alien underworld full of irritable creatures and treacherous obstacles in a valiant effort to save your stranded captain and his crashed spaceship.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:47 pm",
+    "updatedAt": "08/28/2020 06:47 pm",
+    "_id": "62254435bd6247ffb6461bd9dde8fd64",
+    "name": "Gato Roboto",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "04/04/2016",
+    "total_rating": 80,
+    "esrb": "E10+",
+    "videos": [
+      "OMh0tw0bADs",
+      "J3kPMRA_JYE",
+      "rKf7kzaGe80",
+      "F07SGMPOO7I"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdg.jpg",
+    "description": "Enter the Gungeon is a gunfight dungeon crawler following a band of regretful misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past. Select a hero and battle your way to the bot¬tom of the Gungeon by surviving a challenging and evolving series of floors filled with the dangerously adorable Gundead and fearsome Gungeon bosses armed to the teeth. Gather precious loot, discover hidden secrets, and chat with opportunistic merchants and shopkeepers to purchase powerful items to gain an edge.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:47 pm",
+    "updatedAt": "08/28/2020 06:47 pm",
+    "_id": "9d6272139ceb4a9ea6e7cb69407f58c9",
+    "name": "Enter the Gungeon",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "09/05/2016",
+    "total_rating": 55,
+    "esrb": "T",
+    "videos": [
+      "wpZm7PQR_EA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28xt.jpg",
+    "description": "Dungeon Rushers is a Heroic-Parody tactical RPG combining dungeon crawler’s gameplay and turn-based fights. Manage your team, loot dusty dungeons, crush armies of monsters and craft mighty equipment. Be part of an humorous adventure with a colorful cast of characters in an off-beat universe. Build your own dungeon and challenge other players!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:46 pm",
+    "updatedAt": "08/28/2020 06:46 pm",
+    "_id": "7143b24587c849ce8062d34a8d22d099",
+    "name": "Dungeon Rushers",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "02/13/2012",
+    "total_rating": 71,
+    "esrb": "",
+    "videos": [
+      "D7VJ4lP-05A"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eez.jpg",
+    "description": "Dear Esther is a ghost story, told using first-person gaming technologies. Rather than traditional game-play the focus here is on exploration, uncovering the mystery of the island, of who you are and why you are here. Fragments of story are randomly uncovered when exploring the various locations of the island, making every each journey a unique experience.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:45 pm",
+    "updatedAt": "08/28/2020 06:45 pm",
+    "_id": "21a4732ee662473e9558ed0e6a9b0a2c",
+    "name": "Dear Esther",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "06/20/2016",
+    "total_rating": 67,
+    "videos": [
+      "ZrOuIjX6RZU",
+      "EZm9JevWrEw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fkz.jpg",
+    "description": "A zombie outbreak eradicated all hope of returning life back to normal, now only survival lives on. Run, hide and fight your way through the undead as Randall searches for his family in this gorgeous, gritty, destroyed world.",
+    "story": "Set in an apocalyptic 1986, a zombie outbreak has brought humanity to its knees. You play Randall Wayne, a father searching the destroyed streets of Seattle for his family. You’ll encounter many life-threatening situations, but combat isn’t always the answer against the undead, fight back using scarce resources or hide and sneak past them utilizing the environment. Deadlight: Director’s Cut is the ultimate Deadlight experience, now with improved gameplay, controls, and extra game modes. Features: • Fight or run from zombie encounters in tense combat and platforming • Uncover the fate of Randall’s family as he searches Seattle • Full 1080p with enhanced controls and improved animations • Survive the ‘Nightmare’ difficulty mode, on console for the first time • Fight for your life in the new ‘Survival Arena’ mode. Use new weapons and tactics to overcome waves of zombies, scoring in online-leaderboards",
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:45 pm",
+    "updatedAt": "08/28/2020 06:45 pm",
+    "_id": "c31a486d06de40f2a8c2510e98200908",
+    "name": "Deadlight: Director's Cut",
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "04/12/2018",
+    "total_rating": 70,
+    "videos": [
+      "kHevir1xVBE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28qq.jpg",
+    "description": "DEAD IN VINLAND is a survival/management game with RPG and adventure elements. Exiled on an unknow island, lead Eirik and his family to their survival. Manage their physical and mental health, explore the island, organize your camp, deal with other human beings, discover esoteric mysteries...",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:42 pm",
+    "updatedAt": "08/28/2020 06:42 pm",
+    "_id": "1e061efba49a48758959e17cd41ecede",
+    "name": "Dead In Vinland",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "04/24/2019",
+    "total_rating": 64,
+    "videos": [
+      "TLhPWhNPEPA",
+      "7f3iijSeHNw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/iuubtq89d4zhobjty857.jpg",
+    "description": "Trapped in a dark and gloomy temple, find your inner strength and courage to face its dangers. Show your Devotion!  Dark Devotion invites you in a rich and peculiar universe. You will go through more and more confrontations. If you happen to succeed once, good job. But don’t even think that the next step will be as effortless as the previous one.  Take part into rageous and bloody fights in which your opponents won't do you any favours. Be prepared to face foes that you won't forget. And remember, enemies as well as the Temple itself will want to strike you down : each and every fight is a duel to the death in which the slightest error may cost you your life.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:41 pm",
+    "updatedAt": "08/28/2020 06:41 pm",
+    "_id": "0dd0e0678a4c4e64aff399f47a3b7215",
+    "name": "Dark Devotion",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "05/30/2018",
+    "total_rating": 77,
+    "videos": [
+      "heaH_KvB4eU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co288g.jpg",
+    "description": "Seize forbidden treasures. Summon alien gods. Feed on your disciples.Cultist Simulator is a game of apocalypse and yearning from Alexis Kennedy, creator of Fallen London and Sunless Sea. Play as a seeker after unholy mysteries, in a 1920s-themed setting of hidden gods and secret histories. Perhaps you're looking for knowledge, or power, or beauty, or revenge. Perhaps you just want the colours beneath the skin of the world.In this roguelike narrative card game, what you find may transform you forever. Every choice you make, from moment to moment, doesn't just advance the narrative - it also shapes it.Become a scholar of the unseen arts. Search your dreams for sanity-twisting rituals. Craft tools and summon spirits. Indoctrinate innocents. Seize your place as the herald of a new age.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:41 pm",
+    "updatedAt": "08/28/2020 06:41 pm",
+    "_id": "23cb1631853e4b669ce332fedbfe7403",
+    "name": "Cultist Simulator",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Indie",
+      "Card & Board Game"
+    ]
+  },
+  {
+    "first_release_date": "04/29/2015",
+    "total_rating": 80,
+    "esrb": "T",
+    "videos": [
+      "Vrl2bCBzqRc",
+      "K8rzGA1Y57k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nb7.jpg",
+    "description": "Chroma Squad is a tactical RPG about five stunt actors who decide to quit their jobs and start their own Power Rangers-inspired TV show! Cast actors, purchase equipment and upgrades for your studio, craft weapons and giant Mechas out of cardboard and duct tape.",
+    "story": "\"Chroma Squad is a tactical RPG about five stunt actors who decide to quit their jobs and start their own Power Rangers-inspired TV show! \n \nCast actors and purchase upgrades for your studio, craft weapons and giant Mechas out of cardboard. Once the cameras are rolling, you will control your cast of five colored-jumpsuit-clad warriors in dramatic turn-based battles!\"",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Twitch",
+    "notes": "",
+    "createdAt": "08/28/2020 06:40 pm",
+    "updatedAt": "08/28/2020 06:40 pm",
+    "_id": "3fe2a467f6d24468b062fd57755f3de8",
+    "name": "Chroma Squad",
+    "genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "07/03/2019",
+    "total_rating": 66,
+    "esrb": "T",
+    "videos": [
+      "pW10fP7CkKc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sez.jpg",
+    "description": "Explore through the world of the hit Netflix original series in the official game for Stranger Things 3!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:04 am",
+    "updatedAt": "02/01/2020 08:04 am",
+    "_id": "c4ba4f1b39f24a99bc35feadbc18abfe",
+    "name": "Stranger Things 3: The Game",
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "04/04/2016",
+    "total_rating": 80,
+    "esrb": "E10+",
+    "videos": [
+      "OMh0tw0bADs",
+      "J3kPMRA_JYE",
+      "rKf7kzaGe80",
+      "F07SGMPOO7I"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdg.jpg",
+    "description": "Enter the Gungeon is a gunfight dungeon crawler following a band of regretful misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past. Select a hero and battle your way to the bot¬tom of the Gungeon by surviving a challenging and evolving series of floors filled with the dangerously adorable Gundead and fearsome Gungeon bosses armed to the teeth. Gather precious loot, discover hidden secrets, and chat with opportunistic merchants and shopkeepers to purchase powerful items to gain an edge.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:04 am",
+    "updatedAt": "02/01/2020 08:04 am",
+    "_id": "e06a8f311cd545e39c12b877afae5fac",
+    "name": "Enter the Gungeon",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "02/28/2019",
+    "total_rating": 75,
+    "videos": [
+      "_94A3LPZ8s4",
+      "laMURYkJO1s",
+      "zRV2XHDccZo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1i1e.jpg",
+    "description": "ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic. Original Funk Lord (and co-creator) Greg Johnson is back at the helm with the sequel that ToeJam and Earl fans have been waiting for! ​  The iconic ‘90s duo is back in the groove with all-new presents to help them navigate this wack planet \"\"Earth\"\" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!  ​ ToeJam and Earl: Back in the Groove! is a mash-up of the very best  features of the classic console games with a ton of fresh improvements. Grab some homies and get ready for a blast of funky nostalgia as you help ToeJam and Earl return once again to Funkotron.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:03 am",
+    "updatedAt": "02/01/2020 08:03 am",
+    "_id": "75dc3bbe1e004dd299331ec6995eca3d",
+    "name": "ToeJam & Earl: Back in the Groove",
+    "genres": [
+      "Music",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "04/11/2018",
+    "total_rating": 74,
+    "videos": [
+      "YrnIbH-En6I",
+      "PKWU8VygR98"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j2c.jpg",
+    "description": "RPG with 3d graphics, real time combat and deep and mature story.    Main features:    Real time combat with time manipulation (you can slow game to a crawl anytime)   Tactical and challenging battles  Seven diverse classes to choose for 4-man party (you can exchange them at will anytime)  New character progression system  Deep story  Gameplay time 20-30h  Handcrafted environment  Crafting, enchanting, city building",
+    "story": "You live in a broken world. Long time ago a great cataclysm had shattered the world and destroyed grand civilization of your ancestors. Yet little is know about the origins, since history is all but forgotten. Remaining survivors are slowly dying off. You task to to reach a bottom of the tower buried upside down, for within there lies a mysterious power that can help you save what little remains.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:02 am",
+    "updatedAt": "02/01/2020 08:02 am",
+    "_id": "5f88affe24a440158947ff10a9ac96fc",
+    "name": "Tower of Time",
+    "genres": [
+      "Real Time Strategy (RTS)",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Tactical",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "11/18/2004",
+    "total_rating": 58,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xmc.jpg",
+    "description": "Worms Forts: Under Siege is a turn based strategy game by Team 17 which worms must destroy the enemy team or their stronghold",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:01 am",
+    "updatedAt": "02/01/2020 08:01 am",
+    "_id": "d53991e29ec54e6faf84d186394ff7b3",
+    "name": "Worms Forts: Under Siege",
+    "genres": [
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1997",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "PkzFMfCamdU",
+      "6hIiCNzBvIY",
+      "iwe-YS0RGpA",
+      "c11NprNlFkc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xjb.jpg",
+    "description": "Worms 2 is a turn-based strategy game, with each team moving in a randomly determined sequence across two-dimensional terrain. During a single turn, a team can only move one of its worms. Worms can crawl and jump, as well as swing by ninja-rope, parachute, teleport, and bungee when the appropriate items are available. The objective of a traditional match or campaign mission is to defeat all opposing teams by killing their worms. When hit with a weapon, the worm will lose health depending on the power of the weapon and the directness of the hit. A worm can be killed either by having its health reduced to zero or being knocked into the water around and below the level.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:01 am",
+    "updatedAt": "02/01/2020 08:01 am",
+    "_id": "b9aef6944ff14898a6c113b884511cbc",
+    "name": "Worms 2",
+    "genres": [
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "09/18/2014",
+    "total_rating": 77,
+    "esrb": "M",
+    "videos": [
+      "sdmGthYqTbo",
+      "V88uJpeGwOU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2601.jpg",
+    "description": "Wasteland 2 is a post-apocalyptic role-playing video game developed by inXile Entertainment and published by Deep Silver. It is the sequel to 1988's Wasteland, and was successfully crowdfunded through Kickstarter.",
+    "story": "The game is set in an alternate history timeline, in which a nuclear holocaust took place in 1998 in relation to an impact event involving a cluster of meteors that sparked a global nuclear war. On the day of the cataclysm, a company of U.S. Army Engineers were in the desolate southwestern desert constructing bridges in an area with a number of small survivalist communities and a newly constructed federal death row prison with light industrial facilities. The soldiers sought shelter in the prison, expelled the inmates and invited nearby survivalists to join them shortly thereafter. Years later, together they formed \"the Desert Rangers, in the great tradition of the Texas and Arizona Rangers\", to help other survivors in the desert and beyond it.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:01 am",
+    "updatedAt": "02/01/2020 08:01 am",
+    "_id": "2e61f0e3621c48d5bd3e7b42e9f9f2b3",
+    "name": "Wasteland 2",
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "12/30/2014",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vup.jpg",
+    "description": "Daggerfall Unity is an open source recreation of Daggerfall in the Unity engine created by Daggerfall Workshop.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 08:00 am",
+    "updatedAt": "02/01/2020 08:00 am",
+    "_id": "c0bce43b2a9f44abbf6fc2f875559a8a",
+    "name": "Daggerfall Unity",
+    "genres": [
+      "Role-playing (RPG)"
+    ]
+  },
+  {
+    "first_release_date": "10/04/2004",
+    "total_rating": 67,
+    "esrb": "M",
+    "videos": [
+      "8QJwOAWazEw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g27.jpg",
+    "description": "Leisure Suit Larry: Magna Cum Laude is a 2004 video game, part of the Leisure Suit Larry series. The game introduces a new main character, 'Larry Lovage', as Larry Laffer's nephew. This is the 7th game in the series.",
+    "story": "The main protagonist, Larry Lovage, is a student at Walnut Log Community College whose purpose is to get on a dating TV show called \"Swingles\". Uma Yasmine, the hostess of the show won't allow Larry in the show until he will prove his seductive wits by obtaining \"tokens of affection\". Sixteen college girls will conveniently be at his disposal. His aging uncle, Larry Laffer, from the original games, provides brief advice and appears at a local bar. Larry also must outsmart a sorority house and a fraternity house, known as Dio, where they recite lines that are actually modified lyrics of Black Sabbath songs. \n \nA brief subplot involves the college's arena football team going against a rival team known as the Maiming Maggots. However, the college's team name is a running gag because it is obscured by objects, only revealing it as Flaming Fa-. The final scene shows the team name is actually the Flaming Fantasticks after the Swingles van leaves the school.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 07:59 am",
+    "updatedAt": "02/01/2020 07:59 am",
+    "_id": "3991d004f51c4c85ab342e13b2eb63b7",
+    "name": "Leisure Suit Larry: Magna Cum Laude",
+    "genres": [
+      "Point-and-click",
+      "Simulator",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/02/2003",
+    "total_rating": 62,
+    "esrb": "M",
+    "videos": [
+      "b8Tfjvkz4B8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rwy.jpg",
+    "description": "You are John Dalton, an ex-Marine assigned to patrol the edge of human space as a Marshal for the Terran Colonial Authority. Unexpectedly, your monotonous life is shattered by a chilling distress signal, plunging you into an adventure beyond belief. \t\t\t\t\tViolent turmoil among the races has erupted on your watch. Thrust into a conflict that will determine the fate of the galaxy, you are humanity's only hope for salvation. Only you can prevent the Awakening.\t\t\t\t\t\t\t\t\t\tNot Your Average Mission - Command a team of marines defending a ravaged base. Infiltrate an enemy stronghold. Rescue the trapped survivor of an alien raid. With a demanding array of objectives, you have one overriding goal - survival. Be ready for anything. \t\t\t\t\tUnreal Graphics and Sound - Awe-inspiring graphics immerse you in a swarm of alien worlds full of breathtaking scenery and brutal action. 3D sound envelops you in hailstorms of bullets, mind-jarring explosions and the eerie chatter of alien tongues.\t\t\t\t\tFrom Your Mind to the Game - Use the included Unreal Editor software to create your own levels of Unreal play. Design your own game mods and challenge others to enter your personal Unreal Universe.© 2003, Epic Games, Inc. All rights reserved. Epic, Epic Games, Unreal, and Unreal II are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 07:59 am",
+    "updatedAt": "02/01/2020 07:59 am",
+    "_id": "9e733da3ea1c4765a70a9e34c9642e19",
+    "name": "Unreal II: The Awakening",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/29/1999",
+    "total_rating": 81,
+    "esrb": "E",
+    "videos": [
+      "khIWdolT9xY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x4z.jpg",
+    "description": "The year is 2367, thirty two years after the Great War. Or at least what YOU thought was the Great War. The seemingly endless tide of Shivan capital ships, bombers and fighters with super advanced technology was nearly overwhelming.As the Terran and Vasudan races finish rebuilding their decimated societies, a disturbance lurks in the not-so-far reaches of the Gamma Draconis system. Your nemesis has arrived... and they are wondering what happened to their scouting party...The game continues on the story from Descent: FreeSpace, once again thrusting the player into the role of a pilot fighting against the mysterious aliens, the Shivans. While defending the human race and its alien Vasudan allies, the player also gets involved in putting down a rebellion of those elements of Vasudan (Hammer of Light) and Human (Neo Terran Front) forces which don't want to cooperate with one another.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "02/01/2020 07:58 am",
+    "updatedAt": "02/01/2020 07:58 am",
+    "_id": "0f99ca3e9ec34838bb194d3644bfd33c",
+    "name": "Freespace 2",
+    "genres": [
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "12/10/2018",
+    "videos": [
+      "TLucCtAxTXE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jm5.jpg",
+    "description": "Typhon Hunter is a lethal game of hide-and-seek between a single survivor (Morgan Yu) and five other players who stalk, hunt, and hide in plain sight as shape-shifting Mimic aliens. Every object is a potential enemy. Will Morgan or the Mimics prevail?  TranStar VR is a single player VR-only campaign included in the Typhon Hunter update. This campaign puts you in the shoes of various TranStar employees as you complete objectives and solve intricate puzzles on Talos I, just days before the events of Prey.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PC (Microsoft Windows)",
+    "consoleId": 6,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Steam",
+    "notes": "",
+    "createdAt": "02/01/2020 07:57 am",
+    "updatedAt": "02/01/2020 07:57 am",
+    "_id": "77b17950495146aaa1b07331a1da0842",
+    "name": "Prey: Typhon Hunter",
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  }
+]

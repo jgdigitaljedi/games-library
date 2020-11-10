@@ -1,0 +1,323 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "The Legend of Zelda: Collectors Edition",
+        "id": 85441,
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "total_rating": 91,
+        "total_rating_count": 2,
+        "first_release_date": "11/13/2003",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "The Legend of Zelda Collection",
+        "guid": "3030-14114",
+        "gbid": 14114,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/777595-919239_52155_front.jpg",
+        "deck": "The Collector's Edition of The Legend of Zelda includes both NES Zelda games, both Nintendo 64 Zelda games, and a demo of The Legend of Zelda: Wind Waker for the Gamecube.",
+        "platforms": "GameCube"
+      },
+      "consoleName": "Nintendo GameCube",
+      "consoleIgdbId": 21,
+      "consoleGbid": 23,
+      "consoleGbGuid": "3045-23",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "bundled with Game Cube",
+      "notes": "",
+      "createdAt": "11/18/2018 03:40 pm",
+      "updatedAt": "11/18/2018 03:40 pm",
+      "_id": "b1ef232909db4f38811c2e756976bb0c",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/777595-919239_52155_front.jpg",
+      "description": "The Collector's Edition of The Legend of Zelda includes both NES Zelda games, both Nintendo 64 Zelda games, and a demo of The Legend of Zelda: Wind Waker for the Gamecube.",
+      "name": "The Legend of Zelda: Collectors Edition",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {}
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Super Mario Kart",
+        "id": 2332,
+        "genres": [
+          "Racing",
+          "Arcade"
+        ],
+        "total_rating": 85,
+        "total_rating_count": 106,
+        "first_release_date": "08/26/1992",
+        "developers": "Nintendo EAD",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "SMK",
+        "guid": "3030-19071",
+        "gbid": 19071,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2611969-9464302886-TM_Wi.png",
+        "deck": "The first installment in the long-running Mario Kart franchise features eight iconic characters from the Mario universe.",
+        "platforms": "Super Nintendo Entertainment System, Wii Shop, Wii U, New Nintendo 3DS"
+      },
+      "consoleName": "Super Nintendo Entertainment System (SNES)",
+      "consoleIgdbId": 19,
+      "consoleGbid": 9,
+      "consoleGbGuid": "3045-9",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/16/2018 07:43 pm",
+      "updatedAt": "11/16/2018 07:43 pm",
+      "_id": "759442dba96c46a498f53cfab80bdc60",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2611969-9464302886-TM_Wi.png",
+      "description": "The first installment in the long-running Mario Kart franchise features eight iconic characters from the Mario universe.",
+      "name": "Super Mario Kart",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2332;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer bfzhf2lf1o4lsg7gxnqc58wvnnpzqf",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "World Class Track Meet",
+        "id": 9999,
+        "genres": [],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fu6tiCJT41KQ%2Fmaxresdefault.jpg&f=1&nofb=1",
+        "deck": "",
+        "platforms": ""
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "Brandy's friend from BCBS",
+      "notes": "",
+      "createdAt": "11/16/2018 09:11 am",
+      "updatedAt": "11/16/2018 09:11 am",
+      "_id": "0825930a6be74080badfb5659943335a",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fu6tiCJT41KQ%2Fmaxresdefault.jpg&f=1&nofb=1",
+      "description": "",
+      "name": "World Class Track Meet",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": "NOT A VALID GAME ID TO LOOKUP"
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Wheel of Fortune: Junior Edition",
+        "id": 48094,
+        "genres": [
+          "Puzzle",
+          "Quiz/Trivia"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "10/31/1989",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-8864",
+        "gbid": 8864,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2362597-nes_wheeloffortunejunioredition.jpg",
+        "deck": "A NES adaptation of the famous TV game show with simpler answers for younger audiences.",
+        "platforms": "Nintendo Entertainment System"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "3",
+      "datePurchased": "",
+      "howAcquired": "Brandy's friend from BCBS",
+      "notes": "",
+      "createdAt": "11/16/2018 09:10 am",
+      "updatedAt": "11/16/2018 09:10 am",
+      "_id": "44400d20ca5d4279a6f8ab571fdea9e7",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2362597-nes_wheeloffortunejunioredition.jpg",
+      "description": "A NES adaptation of the famous TV game show with simpler answers for younger audiences.",
+      "name": "Wheel of Fortune: Junior Edition",
+      "miltiplayerNumber": 3,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 48094;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer bfzhf2lf1o4lsg7gxnqc58wvnnpzqf",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Thundercade",
+        "id": 40480,
+        "genres": [
+          "Shooter",
+          "Arcade"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "09/30/1987",
+        "developers": "SETA Corporation",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-21477",
+        "gbid": 21477,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/206797-thundercade.jpg",
+        "deck": "A classic vertical scrolling shooter game that was released in 1987 for arcades and 1989 for the NES.",
+        "platforms": "Nintendo Entertainment System, Arcade"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "Brandy's friend from BCBS",
+      "notes": "",
+      "createdAt": "11/16/2018 09:10 am",
+      "updatedAt": "11/16/2018 09:10 am",
+      "_id": "af78291e64f149f29a1020a97fac437a",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/206797-thundercade.jpg",
+      "description": "A classic vertical scrolling shooter game that was released in 1987 for arcades and 1989 for the NES.",
+      "name": "Thundercade",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 40480;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer bfzhf2lf1o4lsg7gxnqc58wvnnpzqf",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

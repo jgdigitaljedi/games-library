@@ -1,0 +1,1794 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Combat",
+        "id": 16759,
+        "genres": [
+          "Shooter",
+          "Arcade"
+        ],
+        "total_rating": 69,
+        "total_rating_count": 8,
+        "first_release_date": "08/31/1977",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-5368",
+        "gbid": 5368,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2367691-a2600_combatvcs.jpg",
+        "deck": "Hop in an armored tank and wage war with strategic ground tactics - or take to the skies and dogfight against modern jets and bi-planes.  Crush your enemies!",
+        "platforms": "Atari 2600, Xbox 360 Games Store, PC"
+      },
+      "consoleName": "Atari 2600",
+      "consoleIgdbId": 59,
+      "consoleGbid": 40,
+      "consoleGbGuid": "3045-40",
+      "condition": "Fair",
+      "case": "custom",
+      "pricePaid": "1",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-11-28",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/30/2019 07:57 am",
+      "updatedAt": "11/30/2019 07:57 am",
+      "_id": "3ae6111182b044a8971226fd76eb88e1",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2367691-a2600_combatvcs.jpg",
+      "description": "Hop in an armored tank and wage war with strategic ground tactics - or take to the skies and dogfight against modern jets and bi-planes.  Crush your enemies!",
+      "name": "Combat",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Atari 2600 launch title",
+        "Atari 2600 exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Combat",
+          "id": "a2621",
+          "details": [
+            "Atari 2600 launch title",
+            "Atari 2600 exclusive"
+          ],
+          "igdbId": 16759,
+          "gbId": 5368,
+          "gbGuid": "3030-5368",
+          "tgdbId": 4887,
+          "isLaunchTitle": [
+            {
+              "name": "Atari 2600",
+              "id": "ccl28",
+              "igdbId": 59,
+              "gbId": 40,
+              "gbGuid": "3045-40",
+              "tgdbId": 22
+            }
+          ],
+          "isExclusive": [
+            {
+              "name": "Atari 2600",
+              "id": "ccl28",
+              "igdbId": 59,
+              "gbId": 40,
+              "gbGuid": "3045-40",
+              "tgdbId": 22
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 16759;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Zombies Ate My Neighbors",
+        "id": 2162,
+        "genres": [
+          "Shooter",
+          "Sport",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 31,
+        "first_release_date": "08/31/1993",
+        "developers": "",
+        "esrb": "RP"
+      },
+      "gb": {
+        "aliases": "Zombies",
+        "guid": "3030-16116",
+        "gbid": 16116,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2389680-genesis_zombiesatemyneighbors.jpg",
+        "deck": "Play as Zeke or Julie through 55 deadly levels of Zombies Ate My Neighbors! Destroy zombies with a squirt gun full of holy water!",
+        "platforms": "Genesis, Super Nintendo Entertainment System, Wii Shop"
+      },
+      "consoleName": "Sega Mega Drive/Genesis",
+      "consoleIgdbId": 29,
+      "consoleGbid": 6,
+      "consoleGbGuid": "3045-6",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "15",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-11-28",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/30/2019 07:55 am",
+      "updatedAt": "11/30/2019 07:55 am",
+      "_id": "cf7e86e479354fa98ad0a14bc0922abe",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2389680-genesis_zombiesatemyneighbors.jpg",
+      "description": "Play as Zeke or Julie through 55 deadly levels of Zombies Ate My Neighbors! Destroy zombies with a squirt gun full of holy water!",
+      "name": "Zombies Ate My Neighbors",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2162;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Hogan's Alley",
+        "id": 4601,
+        "genres": [
+          "Shooter",
+          "Arcade",
+          "Light gun"
+        ],
+        "total_rating": 59,
+        "total_rating_count": 15,
+        "first_release_date": "06/11/1984",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-6490",
+        "gbid": 6490,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2361809-nes_hogansalley.jpg",
+        "deck": "An early NES Zapper game that pits the player against the baddest dudes in town.",
+        "platforms": "Nintendo Entertainment System, Arcade, Wii U"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "6",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-11-28",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/30/2019 07:57 am",
+      "updatedAt": "11/30/2019 07:57 am",
+      "_id": "bf96711fe3bf4ee5a07203e1719d2859",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2361809-nes_hogansalley.jpg",
+      "description": "An early NES Zapper game that pits the player against the baddest dudes in town.",
+      "name": "Hogan's Alley",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "NES launch title",
+        "NES black box game: Light Gun Series",
+        "NES hang tab game"
+      ],
+      "extraDataFull": [
+        {
+          "id": "nes179",
+          "details": [
+            "NES launch title",
+            "NES black box game: Light Gun Series",
+            "NES hang tab game"
+          ],
+          "name": "Hogan's Alley",
+          "igdbId": 4601,
+          "gbId": 6490,
+          "gbGuid": "3030-6490",
+          "tgdbId": 1317,
+          "isLaunchTitle": [
+            {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          ],
+          "special": [
+            {
+              "value": "NES black box game: Light Gun Series",
+              "forPlatform": {
+                "name": "Nintendo Entertainment System (NES)",
+                "id": "ccl1",
+                "igdbId": 18,
+                "gbId": 21,
+                "gbGuid": "3045-21",
+                "tgdbId": 7
+              }
+            },
+            {
+              "value": "NES hang tab game",
+              "forPlatform": {
+                "name": "Nintendo Entertainment System (NES)",
+                "id": "ccl1",
+                "igdbId": 18,
+                "gbId": 21,
+                "gbGuid": "3045-21",
+                "tgdbId": 7
+              }
+            }
+          ],
+          "isExclusive": false
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4601;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Tetris",
+        "id": 8197,
+        "genres": [
+          "Puzzle",
+          "Strategy",
+          "Arcade"
+        ],
+        "total_rating": 89,
+        "total_rating_count": 580,
+        "first_release_date": "12/30/1986",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Тетрис\r, Tetris: The Soviet Challenge\r, テトリス",
+        "guid": "3030-1896",
+        "gbid": 1896,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2362306-nes_tetris.jpg",
+        "deck": "This shape-based Russian mind-bender set the stage for innumerable puzzle games to follow.",
+        "platforms": "Amiga, Game Boy, Genesis, Super Nintendo Entertainment System, Amstrad CPC, Apple II, Atari ST, Commodore 64, MSX, ZX Spectrum, Mac, PlayStation Portable, Nintendo Entertainment System, N-Gage, WonderSwan Color, Commodore 128, TRS-80 CoCo, Arcade, PlayStation Network (PS3), PC, Sharp X68000, iPhone, NEC PC-8801, BBC Micro, NEC PC-9801, Sharp X1, FM-7, PlayStation Network (PSP), iPad, Android, Windows Phone, Nintendo 3DS eShop, Browser"
+      },
+      "consoleName": "Nintendo Entertainment System (NES)",
+      "consoleIgdbId": 18,
+      "consoleGbid": 21,
+      "consoleGbGuid": "3045-21",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "6",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-11-28",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/30/2019 07:56 am",
+      "updatedAt": "11/30/2019 07:56 am",
+      "_id": "4db55648507b41ff8f76214da2d18478",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2362306-nes_tetris.jpg",
+      "description": "This shape-based Russian mind-bender set the stage for innumerable puzzle games to follow.",
+      "name": "Tetris",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 8197;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "NBA 2K",
+        "id": 8832,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Basketball"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "11/09/1999",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "NBA 2000 ",
+        "guid": "3030-6839",
+        "gbid": 6839,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2224376-box_nba2k.png",
+        "deck": "NBA 2K is the first in a series of realistic basketball games (of the same name), bringing a customizable 1999/2000 basketball season to the Dreamcast.",
+        "platforms": "Dreamcast"
+      },
+      "consoleName": "Dreamcast",
+      "consoleIgdbId": 23,
+      "consoleGbid": 37,
+      "consoleGbGuid": "3045-37",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "2",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-11-15",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/15/2019 01:08 pm",
+      "updatedAt": "11/15/2019 01:08 pm",
+      "_id": "e8498e03b1e3489e832d3898f3601637",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2224376-box_nba2k.png",
+      "description": "NBA 2K is the first in a series of realistic basketball games (of the same name), bringing a customizable 1999/2000 basketball season to the Dreamcast.",
+      "name": "NBA 2K",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Sega Dreamcast exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "NBA 2K",
+          "details": [
+            "Sega Dreamcast exclusive"
+          ],
+          "id": "sdc34",
+          "igdbId": 8832,
+          "gbId": 6839,
+          "gbGuid": "3030-6839",
+          "tgdbId": 11998,
+          "isExclusive": [
+            {
+              "name": "Sega Dreamcast",
+              "id": "ccl18",
+              "igdbId": 23,
+              "gbId": 37,
+              "gbGuid": "3045-37",
+              "tgdbId": 16
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 8832;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Street Fighter IV",
+        "id": 884,
+        "genres": [
+          "Fighting"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 93,
+        "first_release_date": "07/17/2008",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "SFIV, Street Fighter 4, SF4",
+        "guid": "3030-20456",
+        "gbid": 20456,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1832164-box_sf4.png",
+        "deck": "Released to arcades in 2008 and later ported to consoles, Street Fighter IV updates the venerable series with 3D graphics and a retooled 2D fighting system based on Street Fighter II. Its popularity has sparked renewed interest in the genre, clearing the way for many other successful fighters.",
+        "platforms": "Xbox 360, PlayStation 3, Arcade, PC"
+      },
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "5",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-11-15",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/15/2019 01:19 pm",
+      "updatedAt": "11/15/2019 01:19 pm",
+      "_id": "6c3d61e12a444233b8759d29d740eadd",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1832164-box_sf4.png",
+      "description": "Released to arcades in 2008 and later ported to consoles, Street Fighter IV updates the venerable series with 3D graphics and a retooled 2D fighting system based on Street Fighter II. Its popularity has sparked renewed interest in the genre, clearing the way for many other successful fighters.",
+      "name": "Street Fighter IV",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Xbox 360 game backward compatible with Xbox One"
+      ],
+      "extraDataFull": [
+        {
+          "details": [
+            "Xbox 360 game backward compatible with Xbox One"
+          ],
+          "name": "Super Street Fighter IV",
+          "igdbId": 884,
+          "id": "x360670",
+          "gbId": 20456,
+          "gbGuid": "3030-20456",
+          "tgdbId": 2304,
+          "special": [
+            {
+              "value": "Xbox 360 game backward compatible with Xbox One",
+              "forPlatform": {
+                "name": "Microsoft Xbox 360",
+                "id": "ccl26",
+                "igdbId": 12,
+                "gbId": 20,
+                "gbGuid": "3045-20",
+                "tgdbId": 15
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 884;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "NBA 2K9",
+        "id": 8838,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Basketball"
+        ],
+        "total_rating": 84,
+        "total_rating_count": 6,
+        "first_release_date": "10/06/2008",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "NBA 2009",
+        "guid": "3030-20917",
+        "gbid": 20917,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2222528-box_nba2k9.png",
+        "deck": "NBA 2K9 continues the 2K Sports line of NBA basketball games with its tenth installment.",
+        "platforms": "PlayStation 2, Xbox 360, PlayStation 3, PC"
+      },
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "2",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-11-15",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/15/2019 01:18 pm",
+      "updatedAt": "11/15/2019 01:18 pm",
+      "_id": "11daf470134149d7b16874314fa43d20",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2222528-box_nba2k9.png",
+      "description": "NBA 2K9 continues the 2K Sports line of NBA basketball games with its tenth installment.",
+      "name": "NBA 2K9",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 8838;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "L.A. Noire",
+        "id": 109,
+        "genres": [
+          "Shooter",
+          "Sport",
+          "Strategy",
+          "Adventure"
+        ],
+        "total_rating": 87,
+        "total_rating_count": 468,
+        "first_release_date": "05/16/2011",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "LA Noir, L.A. Noir, Los Angeles Noire",
+        "guid": "3030-21500",
+        "gbid": 21500,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1807787-la_noire_box_art.jpg",
+        "deck": "L.A. Noire is a detective thriller developed by Team Bondi in Australia and published by Rockstar Games.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "2.50",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-11-15",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/15/2019 01:17 pm",
+      "updatedAt": "11/15/2019 01:17 pm",
+      "_id": "d7d867e272ba4e80aebd315639a2f665",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1807787-la_noire_box_art.jpg",
+      "description": "L.A. Noire is a detective thriller developed by Team Bondi in Australia and published by Rockstar Games.",
+      "name": "L.A. Noire",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "banned in Suadia Arabia: Banned because of extreme impact violence and nudity"
+      ],
+      "extraDataFull": [
+        {
+          "name": "L.A. Noire",
+          "details": [
+            "banned in Suadia Arabia: Banned because of extreme impact violence and nudity"
+          ],
+          "id": "bi144",
+          "igdbId": 109,
+          "gbId": 21500,
+          "gbGuid": "3030-21500",
+          "tgdbId": 6649
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 109;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Dragon Age: Origins",
+        "id": 76,
+        "genres": [
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 798,
+        "first_release_date": "11/02/2009",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Dragon Age, DAO",
+        "guid": "3030-20738",
+        "gbid": 20738,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2558592-daoclean.jpg",
+        "deck": "Dragon Age: Origins is an epic fantasy role-playing game featuring a rich story, personality-driven characters, and tactical, bloody combat. It is considered a spiritual successor to the Baldur's Gate series.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC"
+      },
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "2",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-11-15",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/15/2019 01:17 pm",
+      "updatedAt": "11/15/2019 01:17 pm",
+      "_id": "3701d6da9b654e838aff724dc8616514",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2558592-daoclean.jpg",
+      "description": "Dragon Age: Origins is an epic fantasy role-playing game featuring a rich story, personality-driven characters, and tactical, bloody combat. It is considered a spiritual successor to the Baldur's Gate series.",
+      "name": "Dragon Age: Origins",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+        "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+      ],
+      "extraDataFull": [
+        {
+          "details": [
+            "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+          ],
+          "name": "Dragon Age: Origins",
+          "igdbId": 76,
+          "id": "x360228",
+          "gbId": 20738,
+          "gbGuid": "3030-20738",
+          "tgdbId": 867,
+          "special": [
+            {
+              "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+              "forPlatform": {
+                "name": "Microsoft Xbox 360",
+                "id": "ccl26",
+                "igdbId": 12,
+                "gbId": 20,
+                "gbGuid": "3045-20",
+                "tgdbId": 15
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        },
+        {
+          "name": "Dragon Age: Origins",
+          "details": [
+            "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+          ],
+          "id": "bi157",
+          "igdbId": 76,
+          "gbId": 20738,
+          "gbGuid": "3030-20738",
+          "tgdbId": 867
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 76;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 287
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "The Getaway",
+        "id": 8237,
+        "genres": [
+          "Shooter",
+          "Racing"
+        ],
+        "total_rating": 76,
+        "total_rating_count": 15,
+        "first_release_date": "12/10/2002",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-1470",
+        "gbid": 1470,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2103133-box_getaway.png",
+        "deck": "The Getaway is a sandbox crime game set in London.",
+        "platforms": "PlayStation 2"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-11-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "11/10/2019 06:45 am",
+      "updatedAt": "11/10/2019 06:45 am",
+      "_id": "0c1409e743ae448e8a384447830a9f1d",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2103133-box_getaway.png",
+      "description": "The Getaway is a sandbox crime game set in London.",
+      "name": "The Getaway",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Sony PlayStation 2 exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "The Getaway",
+          "details": [
+            "Sony PlayStation 2 exclusive"
+          ],
+          "id": "ps2421",
+          "igdbId": 8237,
+          "gbId": 1470,
+          "gbGuid": "3030-1470",
+          "tgdbId": 7449,
+          "isExclusive": [
+            {
+              "name": "Sony Playstation 2",
+              "id": "ccl21",
+              "igdbId": 8,
+              "gbId": 19,
+              "gbGuid": "3045-19",
+              "tgdbId": 11
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 8237;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Pong: The Next Level",
+        "id": 9187,
+        "genres": [
+          "Sport",
+          "Arcade"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "10/28/1999",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "Pong",
+        "guid": "3030-977",
+        "gbid": 977,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/3007510-box_pongtnl.png",
+        "deck": "Pong: The Next Level is a 3D graphics re-imagining of the classic arcade game.",
+        "platforms": "Mac, PlayStation, Game Boy Color, PlayStation Network (PS3), PC, PlayStation Network (Vita)"
+      },
+      "consoleName": "PlayStation",
+      "consoleIgdbId": 7,
+      "consoleGbid": 22,
+      "consoleGbGuid": "3045-22",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-11-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "11/10/2019 06:39 am",
+      "updatedAt": "11/10/2019 06:39 am",
+      "_id": "4cc07a05bac44ea391b51bc80ef4ba33",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/3007510-box_pongtnl.png",
+      "description": "Pong: The Next Level is a 3D graphics re-imagining of the classic arcade game.",
+      "name": "Pong: The Next Level",
+      "miltiplayerNumber": 4,
+      "extraData": [
+        "Sony PlayStation multitap compatible title - 4 players"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Pong: The Next Level",
+          "id": "psx346",
+          "details": [
+            "Sony PlayStation multitap compatible title - 4 players"
+          ],
+          "igdbId": 9187,
+          "gbId": 977,
+          "gbGuid": "3030-977",
+          "special": [
+            {
+              "value": "Sony PlayStation multitap compatible title - 4 players",
+              "forPlatform": {
+                "name": "Sony PlayStation",
+                "id": "ccl20",
+                "igdbId": 7,
+                "gbId": 22,
+                "gbGuid": "3045-22",
+                "tgdbId": 10
+              }
+            }
+          ],
+          "isExclusive": false,
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 9187;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Pocket Monsters Stadium",
+        "id": 47734,
+        "genres": [
+          "Strategy"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "08/31/1998",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Pokemon Stadium",
+        "guid": "3030-7270",
+        "gbid": 7270,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2171291-box_pkmnst.png",
+        "deck": "Pokémon Stadium is the second in a series of console Pokémon battling games in Japan and the first installment for the rest of the world. Players can transfer their rosters from the first generation of games to battle it out in a 3D environment.",
+        "platforms": "Nintendo 64"
+      },
+      "consoleName": "Nintendo 64",
+      "consoleIgdbId": 4,
+      "consoleGbid": 43,
+      "consoleGbGuid": "3045-43",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-11-06",
+      "howAcquired": "Video Games Monthly",
+      "notes": "Japanese",
+      "createdAt": "11/10/2019 06:44 am",
+      "updatedAt": "11/10/2019 06:44 am",
+      "_id": "52383e750a5e4d2b9eb94397da3da6a9",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2171291-box_pkmnst.png",
+      "description": "Pokémon Stadium is the second in a series of console Pokémon battling games in Japan and the first installment for the rest of the world. Players can transfer their rosters from the first generation of games to battle it out in a 3D environment.",
+      "name": "Pocket Monsters Stadium",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 47734;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Enter the Matrix",
+        "id": 1003,
+        "genres": [
+          "Fighting",
+          "Shooter",
+          "Racing",
+          "Hack and slash/Beat 'em up",
+          "Adventure"
+        ],
+        "total_rating": 60,
+        "total_rating_count": 76,
+        "first_release_date": "05/13/2003",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-7570",
+        "gbid": 7570,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1852733-box_etm.png",
+        "deck": "A third-person action game which intertwines the stories of The Animatrix, The Matrix Reloaded and The Matrix Revolutions.",
+        "platforms": "PlayStation 2, GameCube, Xbox, PC"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "2",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-11-01",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/01/2019 05:44 pm",
+      "updatedAt": "11/01/2019 05:44 pm",
+      "_id": "0e2a66a2f8af4d08a1c3f527d2af39d5",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1852733-box_etm.png",
+      "description": "A third-person action game which intertwines the stories of The Animatrix, The Matrix Reloaded and The Matrix Revolutions.",
+      "name": "Enter the Matrix",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1003;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "X-Men Legends II: Rise of Apocalypse",
+        "id": 4576,
+        "genres": [
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 78,
+        "total_rating_count": 18,
+        "first_release_date": "09/19/2005",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "X-Men: Legends 2 - Rise of Apocalypse",
+        "guid": "3030-7676",
+        "gbid": 7676,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/946764-xmenleg2_final_rgb4.jpg",
+        "deck": "When Apocalypse and his Four Horsemen threaten the safety of the world, and Magneto's position of power, the X-Men and the Brotherhood of Mutants must team-up in order to combat this threat and ultimately save the world.",
+        "platforms": "PlayStation Portable, PlayStation 2, GameCube, Xbox, N-Gage, PC"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "4.50",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-11-01",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/01/2019 05:40 pm",
+      "updatedAt": "11/01/2019 05:40 pm",
+      "_id": "2799d3233271480888cfcd30851b8219",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/946764-xmenleg2_final_rgb4.jpg",
+      "description": "When Apocalypse and his Four Horsemen threaten the safety of the world, and Magneto's position of power, the X-Men and the Brotherhood of Mutants must team-up in order to combat this threat and ultimately save the world.",
+      "name": "X-Men Legends II: Rise of Apocalypse",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4576;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "X-Men Legends",
+        "id": 4575,
+        "genres": [
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 14,
+        "first_release_date": "09/20/2004",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-13087",
+        "gbid": 13087,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2280511-box_sml.png",
+        "deck": "The X-Men must battle the Brotherhood of Evil Mutants and the Sentinels as they attempt to make the world a better place for Mutants and humans alike.",
+        "platforms": "PlayStation 2, GameCube, Xbox, N-Gage"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "4",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-11-01",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/01/2019 05:39 pm",
+      "updatedAt": "11/01/2019 05:39 pm",
+      "_id": "5f83d21cfa3048778b8b6ce60c6ac876",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2280511-box_sml.png",
+      "description": "The X-Men must battle the Brotherhood of Evil Mutants and the Sentinels as they attempt to make the world a better place for Mutants and humans alike.",
+      "name": "X-Men Legends",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4575;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Amped 2",
+        "id": 5725,
+        "genres": [
+          "Sport",
+          "Snowboarding"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 3,
+        "first_release_date": "10/27/2003",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-15510",
+        "gbid": 15510,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2136537-box_amped2.png",
+        "deck": "The sequel to Amped, Amped 2 is a snowboarding game similar to the Tony Hawk games.",
+        "platforms": "Xbox"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "2.50",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-11-01",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/01/2019 05:38 pm",
+      "updatedAt": "11/01/2019 05:38 pm",
+      "_id": "0e8fbd0fa495429c8457b8571e9bc69d",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2136537-box_amped2.png",
+      "description": "The sequel to Amped, Amped 2 is a snowboarding game similar to the Tony Hawk games.",
+      "name": "Amped 2",
+      "miltiplayerNumber": 4,
+      "extraData": [
+        "Microsoft Xbox exclusive",
+        "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Amped 2",
+          "details": [
+            "Microsoft Xbox exclusive",
+            "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly"
+          ],
+          "id": "xbox11",
+          "igdbId": 5725,
+          "gbId": 15510,
+          "gbGuid": "3030-15510",
+          "tgdbId": 5972,
+          "isExclusive": [
+            {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          ],
+          "special": [
+            {
+              "value": "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly",
+              "forPlatform": {
+                "name": "Microsoft Xbox",
+                "id": "ccl25",
+                "igdbId": 11,
+                "gbId": 32,
+                "gbGuid": "3045-32",
+                "tgdbId": 14
+              }
+            }
+          ],
+          "isLaunchTitle": false
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 5725;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Night Trap",
+        "id": 2486,
+        "genres": [
+          "Strategy",
+          "Adventure"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 6,
+        "first_release_date": "10/14/1992",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-18648",
+        "gbid": 18648,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/752380-night_trap_scd_us.jpg",
+        "deck": "A controversial horror-themed FMV adventure game starring semi-famous actress Dana Plato. As an operative of a special task force, players have to use a hacked surveillance system and numerous traps to protect a group of teenage girls from vampiric creatures.",
+        "platforms": "Mac, 3DO, Sega CD, Sega 32X, PC, PlayStation Network (Vita), Xbox One, PlayStation 4, Nintendo Switch"
+      },
+      "consoleName": "Sega CD",
+      "consoleIgdbId": 78,
+      "consoleGbid": 29,
+      "consoleGbGuid": "3045-29",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "30",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-10-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/18/2019 07:48 pm",
+      "updatedAt": "10/18/2019 07:48 pm",
+      "_id": "97a41e482d904b38b7e34a3cb8914e75",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/752380-night_trap_scd_us.jpg",
+      "description": "A controversial horror-themed FMV adventure game starring semi-famous actress Dana Plato. As an operative of a special task force, players have to use a hacked surveillance system and numerous traps to protect a group of teenage girls from vampiric creatures.",
+      "name": "Night Trap",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Sega CD launch title"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Night Trap",
+          "id": "scd30",
+          "details": [
+            "Sega CD launch title"
+          ],
+          "igdbId": 2486,
+          "gbId": 18648,
+          "gbGuid": "3030-18648",
+          "tgdbId": 5071,
+          "isLaunchTitle": [
+            {
+              "name": "Sega CD",
+              "id": "ccl15",
+              "igdbId": 78,
+              "gbId": 29,
+              "gbGuid": "3045-29",
+              "tgdbId": 21
+            }
+          ],
+          "isExclusive": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2486;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Super Street Fighter II Turbo",
+        "id": 4238,
+        "genres": [
+          "Fighting"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 18,
+        "first_release_date": "02/22/1994",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "SSF2T\r, SSFIIT\r, Super Street Fighter 2 Turbo\r, Super Street Fighter II X: Grand Master Challenge",
+        "guid": "3030-1251",
+        "gbid": 1251,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2273498-box_ssf2t.png",
+        "deck": "The fifth iteration of Street Fighter II makes further changes to each characters' movelist while rebalancing the game and adding a new Super Meter (with a Super Combo attack for each fighter), adjustable game speed settings, and a hidden final boss.",
+        "platforms": "Amiga, Game Boy Advance, 3DO, Dreamcast, Amiga CD32, Arcade, PC, Wii U"
+      },
+      "consoleName": "3DO Interactive Multiplayer",
+      "consoleIgdbId": 50,
+      "consoleGbid": 26,
+      "consoleGbGuid": "3045-26",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "25",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-10-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "10/18/2019 07:48 pm",
+      "updatedAt": "10/18/2019 07:48 pm",
+      "_id": "dd50fc95abd84b7197ed716eded80dba",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2273498-box_ssf2t.png",
+      "description": "The fifth iteration of Street Fighter II makes further changes to each characters' movelist while rebalancing the game and adding a new Super Meter (with a Super Combo attack for each fighter), adjustable game speed settings, and a hidden final boss.",
+      "name": "Super Street Fighter II Turbo",
+      "miltiplayerNumber": 2
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4238;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Okamiden",
+        "id": 16618,
+        "genres": [
+          "Adventure"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 5,
+        "first_release_date": "09/29/2010",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Okamiden: Chiisaki Taiyo",
+        "guid": "3030-28006",
+        "gbid": 28006,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1875242-box_okamiden.png",
+        "deck": "This sequel to the critically acclaimed Okami returns players to the land of Nippon as the adorably pint-sized, yet still powerful Chibiterasu on a quest to save the land from certain doom at the hands of demons.",
+        "platforms": "Nintendo DS"
+      },
+      "consoleName": "Nintendo DS",
+      "consoleIgdbId": 20,
+      "consoleGbid": 52,
+      "consoleGbGuid": "3045-52",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "24",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-10-18",
+      "howAcquired": "GameOver",
+      "notes": "Brandy's game",
+      "createdAt": "10/18/2019 07:49 pm",
+      "updatedAt": "10/18/2019 07:49 pm",
+      "_id": "13b49692ae5b44f99c0a9be4ce52e114",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1875242-box_okamiden.png",
+      "description": "This sequel to the critically acclaimed Okami returns players to the land of Nippon as the adorably pint-sized, yet still powerful Chibiterasu on a quest to save the land from certain doom at the hands of demons.",
+      "name": "Okamiden",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Nintendo DS exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Okamiden",
+          "details": [
+            "Nintendo DS exclusive"
+          ],
+          "id": "nds341",
+          "igdbId": 16618,
+          "gbId": 28006,
+          "gbGuid": "3030-28006",
+          "tgdbId": 11388,
+          "isExclusive": [
+            {
+              "name": "Nintendo DS",
+              "id": "ccl11",
+              "igdbId": 20,
+              "gbId": 52,
+              "gbGuid": "3045-52",
+              "tgdbId": 8
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 16618;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 50w0r15m21bc6zt1nzwyj33afm18cd",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

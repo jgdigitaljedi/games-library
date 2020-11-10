@@ -1,0 +1,156 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Midway Arcade Treasures",
+        "id": 4007,
+        "genres": [
+          "Racing",
+          "Sport",
+          "Adventure",
+          "Arcade"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 2,
+        "first_release_date": "11/17/2003",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-18579",
+        "gbid": 18579,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2525203-box_mat1.png",
+        "deck": "Midway Arcade Treasures is a compilation of the company's biggest games from the 80s.",
+        "platforms": "PlayStation 2, GameCube, Xbox, PC"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "11/18/2018 09:46 am",
+      "updatedAt": "11/18/2018 09:46 am",
+      "_id": "254a6be968fb4927ba7137ac60715fee",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2525203-box_mat1.png",
+      "description": "Midway Arcade Treasures is a compilation of the company's biggest games from the 80s.",
+      "name": "Midway Arcade Treasures",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4007;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer sbtxb79t1tmpbbksglbenw6jnpd10h",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Guitar Hero II",
+        "id": 2670,
+        "genres": [
+          "Music",
+          "Simulator"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 47,
+        "first_release_date": "11/06/2006",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Guitar Hero 2, GH:2, GH:II",
+        "guid": "3030-14916",
+        "gbid": 14916,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1891343-box_ghero2.png",
+        "deck": "Guitar Hero II is the second entry into Harmonix's popular Guitar Hero franchise, adding more songs and several new gameplay features as well as bringing the franchise to the Xbox 360.",
+        "platforms": "PlayStation 2, Xbox 360"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "11/18/2018 09:38 am",
+      "updatedAt": "11/18/2018 09:38 am",
+      "_id": "110bbfe1b766444c8665fa0e7377b1be",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1891343-box_ghero2.png",
+      "description": "Guitar Hero II is the second entry into Harmonix's popular Guitar Hero franchise, adding more songs and several new gameplay features as well as bringing the franchise to the Xbox 360.",
+      "name": "Guitar Hero II",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2670;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer sbtxb79t1tmpbbksglbenw6jnpd10h",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

@@ -1,0 +1,1926 @@
+[
+  {
+    "first_release_date": "01/31/1995",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/j5s7hv8pyh3rz4c4gs4s.jpg",
+    "description": "It still has the standard set of modes such as Exhibition, Tournament and Season and updated rosters for the top schools of the time, reflecting the 1994 season. There are 32 teams with five added ones to this version (Wisconsin, North Carolina, Colorado State, Oregon and Washington State), however to add these schools five others were taken out that were in the previous game (San Diego State, Pitt, LSU, Arkansas and Houston). It also keeps track of 19 different stats along with authentic offensive and defensive plays attributed to each team.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-08-17",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 07:46 pm",
+    "updatedAt": "11/16/2018 07:46 pm",
+    "_id": "01185b6f28504e72a77573876d3a563b",
+    "name": "College Football's National Championship II",
+    "extraData": [
+      "Sega Genesis exclusive",
+      "Sega Genesis Team Player compatible title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "College Football's National Championship II",
+        "details": [
+          "Sega Genesis exclusive",
+          "Sega Genesis Team Player compatible title"
+        ],
+        "id": "smd41",
+        "igdbId": 46535,
+        "gbId": 43820,
+        "gbGuid": "3030-43820",
+        "tgdbId": 4321,
+        "isExclusive": [
+          {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        ],
+        "special": [
+          {
+            "value": "Sega Genesis Team Player compatible title",
+            "forPlatform": {
+              "name": "Sega Mega Drive/Genesis",
+              "id": "ccl14",
+              "igdbId": 29,
+              "gbId": 6,
+              "gbGuid": "3045-6",
+              "tgdbId": 18
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Football"
+    ]
+  },
+  {
+    "first_release_date": "11/10/2014",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "mafgqiq8_Ik",
+      "ZDvYJGquXgE",
+      "BPNkDfampKY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t95.jpg",
+    "description": "The improved and enhanced Halo: The Master Chief Collection is included with Xbox Game Pass. Featuring visual enhancements with up to 4K UHD resolution on Xbox One X, improved matchmaking, offline LAN, customizable installation options, and faster load times, it’s the definitive way to experience the ultimate Halo saga. Includes the extensive suite of campaign, multiplayer and additional features from Halo: Combat Evolved Anniversary, Halo 2: Anniversary, Halo 3, and Halo 4 - all updated to run at 60FPS.",
+    "story": "Halo: The Master Chief Collection includes Halo 2: Anniversary, celebrating the 10 year anniversary of the iconic fan favorite. The campaign features a “Classic Mode” to instantly switch between the remastered next-gen graphics and original game, updated sound effects, and completely new cut-scenes created by Blur Studios. Discover new story elements with extended cut scenes, hidden terminal videos, and uncover clues about the story of Halo 5: Guardians. Utilize game-altering Skulls to experience the campaign in a whole new way. For multiplayer you have access to all of the original multiplayer maps from Halo 2 and Halo 2 Vista included, exactly as you remember them. Play on fan favorites including Ivory Tower, Ascension, and Lockout, plus 6 completely re-imagined maps that take full advantage of the capabilities of the Xbox One.*",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 4,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 42,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2018-05-07",
+    "howAcquired": "Amazon",
+    "notes": "",
+    "createdAt": "11/21/2018 06:18 am",
+    "updatedAt": "11/21/2018 06:18 am",
+    "_id": "3b4ba08d25184da6a05ee468391879ab",
+    "name": "Halo: The Master Chief Collection",
+    "extraData": [
+      "Microsoft Xbox One full exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Halo: The Master Chief Collection",
+        "details": [
+          "Microsoft Xbox One full exclusive"
+        ],
+        "id": "mxb193",
+        "igdbId": 7348,
+        "gbId": 46552,
+        "gbGuid": "3030-46552",
+        "tgdbId": 21398,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox One",
+            "id": "ccl27",
+            "igdbId": 49,
+            "gbId": 145,
+            "gbGuid": "3045-145",
+            "tgdbId": 4920
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "12/10/1989",
+    "total_rating": 70,
+    "esrb": "E",
+    "videos": [
+      "KMf-pNBCG_4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co231g.jpg",
+    "description": "In the darkest reaches of infinite space, pure evil lies in wait ... The Dark Forces led by the god of destruction, Bacterian, prepare to launch a massive onslaught against the planet Gradius. Possessing unstoppable power, the Dark Forces threaten to plunge the Universe into total war and complete annihilation.  Their invasion force smashes the Gradius defenses, and the surrounding planets soon fall like dominoes. Now Bacterian's evil grasp reaches for the heart of the resistance...planet Gradius itself...  To counter the oncoming threat the United Gradius World Forces gather all their fighter craft. Half of them form a defensive net - the other half a strike team. But they are badly outnumbered and The Dark Forces easily tear through their thin frontline. No fighters survive the slaughter....  In a last gasp move, the United Gradius World Forces send out two fighters, previously considered too dangerous for combat missions: The InterDimensional VIC VIPER fighters.  The Fighters take off for the heart of darkness to join the fray that will decide the fate of the Universe...",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2018-04-16",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 07:42 pm",
+    "updatedAt": "11/16/2018 07:42 pm",
+    "_id": "66c653b67dd448ea83e3d034d1e1b357",
+    "name": "Gradius III",
+    "extraData": [
+      "SNES laucnh title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Gradius III",
+        "id": "snes118",
+        "details": [
+          "SNES laucnh title"
+        ],
+        "igdbId": 1481,
+        "gbId": 7617,
+        "gbGuid": "3030-7617",
+        "tgdbId": 1918,
+        "isLaunchTitle": [
+          {
+            "name": "Super Nintendo Entertainment System (SNES)",
+            "id": "ccl2",
+            "igdbId": 19,
+            "gbId": 9,
+            "gbGuid": "3045-9",
+            "tgdbId": 6
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "09/23/2002",
+    "total_rating": 80,
+    "esrb": "M",
+    "videos": [
+      "FwUaroJM0P8",
+      "iUdrEi7lym0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rww.jpg",
+    "description": "Unreal Championship is a first-person shooter video game co-developed by Epic Games and Digital Extremes. It was published by Infogrames and released for the Xbox.[1][2] Unreal Championship is essentially a console version game of the PC-based Unreal Tournament 2003, developed specifically to take advantage of Xbox Live, Microsoft's online gaming service. In 2003 Unreal Championship was added to Microsoft's \"Platinum Hits\" line of Xbox games. It was followed in 2005 by Unreal Championship 2: The Liandri Conflict also for Xbox.[citation needed]",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 3.49,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-05-01",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 03:58 pm",
+    "updatedAt": "11/18/2018 03:58 pm",
+    "_id": "a9bbc98efe024efdbd37ec7e695ca016",
+    "name": "Unreal Championship",
+    "extraData": [
+      "Microsoft Xbox exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Unreal Championship",
+        "details": [
+          "Microsoft Xbox exclusive"
+        ],
+        "id": "xbox482",
+        "igdbId": 6220,
+        "gbId": null,
+        "gbGuid": null,
+        "tgdbId": 22375,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox",
+            "id": "ccl25",
+            "igdbId": 11,
+            "gbId": 32,
+            "gbGuid": "3045-32",
+            "tgdbId": 14
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "10/08/2002",
+    "total_rating": 92,
+    "esrb": "T",
+    "videos": [
+      "4g96xcBtQ1w"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21s2.jpg",
+    "description": "TimeSplitters 2 is a first-person shooter that requires players to kill enemies and complete objectives using a variety of weapons and tactics in different predefined scenarios. Armour and health bars on the sides of the screen lower when the player is shot, which can be increased by walking over body armor and medical kits.",
+    "story": "The game starts in the year 2401 when Sergeant Cortez and Corporal Hart are sent to a TimeSplitter infested space station where a time portal is being built. Their objective is to retrieve the Time Crystals. However, before they can reach them, the TimeSplitters take them into different time periods of the past. They must be followed and the time crystals retrieved.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5.98,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-04-30",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 03:57 pm",
+    "updatedAt": "11/18/2018 03:57 pm",
+    "_id": "a1d0cb8040a5480a85954eb22443e7e3",
+    "name": "TimeSplitters 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "11/14/2001",
+    "total_rating": 62,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a2f.jpg",
+    "description": "Fuzion Frenzy is a launch title for the Microsoft Xbox. At its core, Fuzion Frenzy is a four-player party game featuring 45 different mini-games (not including the titular Fuzion Frenzy). A demo of the game was included with some other launch titles in the US, including Halo, Munch's Oddysee, the first Project Gotham Racing game and Amped. The title was among the first to be released as a part of the Xbox Originals program.  A sequel was later released for the Xbox 360, entitled Fuzion Frenzy 2.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 8.99,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-04-11",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 03:52 pm",
+    "updatedAt": "11/18/2018 03:52 pm",
+    "_id": "25377fb45bfe40ddb5114eb0568db408",
+    "name": "Fuzion Frenzy",
+    "extraData": [
+      "Microsoft Xbox launch title",
+      "Microsoft Xbox exclusive",
+      "Xbox game plays on Xbox 360",
+      "Xbox game plays on Xbox One - Available via Game Pass"
+    ],
+    "extraDataFull": [
+      {
+        "id": "xbox155",
+        "name": "Fuzion Frenzy",
+        "details": [
+          "Microsoft Xbox launch title",
+          "Microsoft Xbox exclusive",
+          "Xbox game plays on Xbox 360",
+          "Xbox game plays on Xbox One - Available via Game Pass"
+        ],
+        "igdbId": 5842,
+        "gbId": 16650,
+        "gbGuid": "3030-16650",
+        "tgdbId": 6070,
+        "isLaunchTitle": [
+          {
+            "name": "Microsoft Xbox",
+            "id": "ccl25",
+            "igdbId": 11,
+            "gbId": 32,
+            "gbGuid": "3045-32",
+            "tgdbId": 14
+          }
+        ],
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox",
+            "id": "ccl25",
+            "igdbId": 11,
+            "gbId": 32,
+            "gbGuid": "3045-32",
+            "tgdbId": 14
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox game plays on Xbox 360",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          },
+          {
+            "value": "Xbox game plays on Xbox One - Available via Game Pass",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          }
+        ]
+      }
+    ],
+    "genres": [
+      "Puzzle",
+      "Quiz/Trivia"
+    ]
+  },
+  {
+    "first_release_date": "10/27/1994",
+    "total_rating": 73,
+    "videos": [
+      "t2CR1LWGba8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25rh.jpg",
+    "description": "Killer Instinct is a fighting game developed by Rare and published by Midway and Nintendo. It was released as an arcade game in the fall of 1994 and, the following year, ported to the Super Nintendo Entertainment System (SNES) and the Game Boy. The game's plot involves an all-powerful corporation organising a fighting tournament. The story was adapted in a limited comic book series published under the short-lived Acclaim Comics imprint.Killer Instinct features several gameplay elements unique to fighting games of the time. Instead of fighting enemies in best-of-three rounds bouts, each player has two life bars. The player that depletes the other player's life bars first wins the match. The game also introduced \"auto-doubles\", a feature which allows players to press a certain sequence of buttons to make characters automatically perform combos on opponents. Also featured in the game are \"combo breakers\", special defensive moves that can interrupt combos.",
+    "story": "Ultratech is a very powerful megacorporation which organises a tournament called Killer Instinct. Along with regular participants, experimental creatures created by Ultratech also fight in the tournament so their strength can be tested. Ultratech also discovers a technology to make bridges between dimensions, and releases a two-headed, one-eyed, satyr monster called Eyedol from this dimensional prison.",
+    "player_perspectives": [],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13.99,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-04-06",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 02:07 pm",
+    "updatedAt": "11/16/2018 02:07 pm",
+    "_id": "4f66118895a94dd1833cf7230ea6d7cf",
+    "name": "Killer Instinct",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting"
+    ]
+  },
+  {
+    "first_release_date": "10/31/2011",
+    "total_rating": 76,
+    "esrb": "E",
+    "videos": [
+      "tV1Osnkr5Nc",
+      "ulNcEJA3pXQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zvv.jpg",
+    "description": "Celebrate 20 years of Sonic in an all new adventure that delivers a definitive experience to Sonic fans new and old!  The Japanese version has different subtitles: White Time and Space (白の時空 Shiro no Jikū) for the home consoles, and Blue Adventures (青の冒険 Ao no Bōken) for the 3DS version. All versions of this game can be played in 3D, but a 3DTV as well as a pair of 3D glasses are required for the PlayStation 3 and Xbox 360 versions, being the first game of the franchise to be played in 3D. It uses stereoscopic 3D with the involvement of a pair of screens in one.",
+    "story": "Sonic’s universe is thrown into chaos when a mysterious new power comes into force, creating ‘time holes’ which take Sonic and his friends back in time. Whilst there, Sonic runs into some very familiar characters from his past including a younger version of himself! Now they must team up to defeat their enemies, save their friends, and find out who is behind this diabolical deed.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "PlayStation 3",
+    "consoleId": 9,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 6.5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2017-03-24",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/19/2018 06:43 am",
+    "updatedAt": "11/19/2018 06:43 am",
+    "_id": "c02495ba884d4296aa316e02961ff47d",
+    "name": "Sonic Generations",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "08/22/2001",
+    "total_rating": 83,
+    "esrb": "M",
+    "videos": [
+      "VlfHI4YNWwk",
+      "qTAabYS1-0U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co256z.jpg",
+    "description": "Legend has it that 2000 years ago in the depths of hell, a demon rebelled against the devil, waging a one-man war in support of the human world. In the present, Dante, a private investigator of the supernatural, realises that the devil is rallying to rise again against mankind. Deep within Dante's blood lies the power of ancient demons and as his power builds he transforms into a demon state where he can use his power against evil he encounters.Commencing his battle against the demonic legions with just a sword and his twin pistols, Ebony and Ivory, Dante will soon come across more powerful weapons, such as a shotgun to aid him in his mission. However, to defeat the devil Dante must also discover special weapons possessing various elemental powers. When channelled correctly these weapons will allow Dante to call upon demonic energy and launch powerful attacks against a range of enemies.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 3.96,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2017-03-14",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 09:35 am",
+    "updatedAt": "11/18/2018 09:35 am",
+    "_id": "4ae77fb9944b456a966b768fabd10445",
+    "name": "Devil May Cry",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1994",
+    "total_rating": 58,
+    "videos": [
+      "9BHnWhknsfY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2csj.jpg",
+    "description": "What do you get if you cross Sonic the Hedgehog with Tony Hawk's Pro Skater?  It might seem an odd combination, but it describes Uniracers perfectly. One of the more successful releases of the Super Nintendo's twilight era, Uniracers mixes platform-based high-speed racing, with crazy stunts and tricks.  The basic idea in most levels of the game is simple. Get your unicycle from A to B as quickly as possible, and finish ahead of your opponent. It's like Sonic, but with none of those pesky enemies, pointless power-ups and frustrating obstructions. In fact it doesn't sound like much of a game at all...  Here's the key, though. Tricks performed and landed during the race increase your speed. The better the trick, the greater your increase in speed will be.  Also, some levels are set in areas designed solely for stunts. Such levels require you to earn as many style points as possible, by doing tricks. These levels are against the clock, and a set points score, rather than an opponent.  Unicycles are stupid and difficult, and yet fun, once you get the hang of them. Much the same could be said about Uniracers...",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 7.5,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-03-09",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 02:05 pm",
+    "updatedAt": "11/16/2018 02:05 pm",
+    "_id": "b6a996dcc7a54307838e62635a40aef5",
+    "name": "Uniracers",
+    "extraData": [
+      "Super Nintendo Entertainment System exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Uniracers",
+        "details": [
+          "Super Nintendo Entertainment System exclusive"
+        ],
+        "id": "snes411",
+        "igdbId": 16743,
+        "gbId": 16228,
+        "gbGuid": "3030-16228",
+        "tgdbId": 2212,
+        "isExclusive": [
+          {
+            "name": "Super Nintendo Entertainment System (SNES)",
+            "id": "ccl2",
+            "igdbId": 19,
+            "gbId": 9,
+            "gbGuid": "3045-9",
+            "tgdbId": 6
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1989",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/aaeaxuuhdeguqwy5uf8e.jpg",
+    "description": "The destruction of the Barrax Empire...A Whirling Barra ship darts out from the recesses of a dark spiral cave and attacks from the left. You bank hard to escape, but a \"chameleon\" attacker suddenly appears on the right. The battle is just beginning and this will become your easiest challenge! The toughest opposition awaits!The year is 2400 AD. You have led the squadron to the home planet of the Barrax Empire, prepared to avenge their devastating attack on Earth. Armed with weapons specifically designed for this alien environment, you hope your combat skills are up to the task.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 6.39,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-03-04",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/16/2018 07:45 pm",
+    "updatedAt": "11/16/2018 07:45 pm",
+    "_id": "7743d4e0dcd24da7ba0ccb4d9b671add",
+    "name": "Battle Squadron",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "SHMUP"
+    ]
+  },
+  {
+    "first_release_date": "12/29/2003",
+    "total_rating": 63,
+    "esrb": "E",
+    "videos": [
+      "FmWwg-diUWs",
+      "ImOO7JUo1H0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fl8.jpg",
+    "description": "Sonic & the gang, are back in the latest game, SONIC HEROES. The game has a twist to the gameplay, you choose a team of 3 characters. With different strengths. There are 4 teams: TEAM SONIC ~ Sonic, Tails & Knuckles TEAM DARK ~ Shadow, Rouge & E-123 Omega TEAM CHAOTIX ~ Espio, Vector, & Charmy Bee TEAM ROSE ~ Amy, Big, & Cream with her Chao sidekick Cheese. There are 4 modes, Story mode, Challenge mode, the Tutorial modes & the new & improved battle mode for multiplayer fun, and there are plenty of secrets to unlock.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5.5,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-02-28",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 03:46 pm",
+    "updatedAt": "11/18/2018 03:46 pm",
+    "_id": "b12f166d9dc243c8805d05cc9ea83496",
+    "name": "Sonic Heroes",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/21/2001",
+    "esrb": "E",
+    "videos": [
+      "lNgf2Ut7INQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ovb.jpg",
+    "description": "With 4 unique game modes, top hits from major bands in a variety of genres and stunning 3D graphics, Frequency stays in tune with an immersive musical gaming experience.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 8.35,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-02-27",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 09:36 am",
+    "updatedAt": "11/18/2018 09:36 am",
+    "_id": "5b69e88fa44e416cbf5b1802a5c0a136",
+    "name": "Frequency",
+    "extraData": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Frequency",
+        "details": [
+          "Sony PlayStation 2 exclusive"
+        ],
+        "id": "ps2163",
+        "igdbId": 9111,
+        "gbId": 5825,
+        "gbGuid": "3030-5825",
+        "tgdbId": 7266,
+        "isExclusive": [
+          {
+            "name": "Sony Playstation 2",
+            "id": "ccl21",
+            "igdbId": 8,
+            "gbId": 19,
+            "gbGuid": "3045-19",
+            "tgdbId": 11
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Music",
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "06/06/1993",
+    "videos": [
+      "ddFAJ4WtRdc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/xavhvd8qobymvcgp6sbr.jpg",
+    "description": "Launch your X-wing fighter for the final Death Star assault! The Force is with you as you pursue Darth Vader through an exploding galaxy! You are the last hope for the Rebel Alliance!",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-02-25",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 06:16 am",
+    "updatedAt": "11/18/2018 06:16 am",
+    "_id": "2b8879dfe37f4053b160781be74521c9",
+    "name": "Star Wars Arcade",
+    "extraData": [
+      "Sega 32X launch title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Star Wars Arcade",
+        "id": "s32x12",
+        "details": [
+          "Sega 32X launch title"
+        ],
+        "igdbId": 39822,
+        "gbId": 10715,
+        "gbGuid": "3030-10715",
+        "tgdbId": 4926,
+        "isLaunchTitle": [
+          {
+            "name": "Sega 32X",
+            "id": "ccl16",
+            "igdbId": 30,
+            "gbId": 31,
+            "gbGuid": "3045-31",
+            "tgdbId": 33
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "10/31/1992",
+    "total_rating": 66,
+    "esrb": "RP",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jdt.jpg",
+    "description": "An on-rails light-gun shooter produced for the Arcade by Midway, based on the 1991 film of the same name. The home versions were titled \"T2: The Arcade Game\" to distance themselves from the LJN/Ocean side-scroller action game.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2017-02-25",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/17/2018 11:35 am",
+    "updatedAt": "11/17/2018 11:35 am",
+    "_id": "b1b2ae795f1d47c2805ccb9b05e1fe7b",
+    "name": "Terminator 2: Judgment Day",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "12/23/1996",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fs8.jpg",
+    "description": "San Francisco Rush: Extreme Racing is the first game in the Rush series. Tne N64 version contains six regular tracks and two hidden tracks. The regular tracks can be run in either reverse or mirrored modes and feature added collectible hidden keys throughout the track that can be used to unlock hidden vehicles. It also contains a Practice Mode and a Death Race mode where the game ends if the player crashes. The N64 port of Rush also includes a Circuit Mode and a save system for Fast Times, circuit progress, and hidden keys that the player can find on secret spots to unlock new cars.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2016-05-24",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 07:53 am",
+    "updatedAt": "11/18/2018 07:53 am",
+    "_id": "e029c2299684454780527033f8a574c5",
+    "name": "San Francisco Rush: Extreme Racing",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "03/27/1997",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dye.jpg",
+    "description": "The game featured all the tracks from that Formula One season, at a time when the racing began in Australia, and ended in Japan. Teams would be set up with relevant drivers, however there was a roster-feature included, which allowed the player to swap drivers from one team to another, and even removing a real driver and replacing him with unknown drivers named Driver 1-6.  Grand Prix Mode allowed players to progress through the racing calendar, you could also choose single races or a time trial on various tracks. Battle mode allowed you to pick who you wanted to race against over a however many laps you chose.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2016-05-24",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 07:51 am",
+    "updatedAt": "11/18/2018 07:51 am",
+    "_id": "635b913b884342fe9227773eb31b8893",
+    "name": "F1 Pole Position 64",
+    "extraData": [
+      "Nintendo 64 exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "F1 Pole Position 64",
+        "details": [
+          "Nintendo 64 exclusive"
+        ],
+        "id": "n6437",
+        "igdbId": 3494,
+        "gbId": 3764,
+        "gbGuid": "3030-3764",
+        "tgdbId": 1098,
+        "isExclusive": [
+          {
+            "name": "Nintendo 64",
+            "id": "ccl3",
+            "igdbId": 4,
+            "gbId": 43,
+            "gbGuid": "3045-43",
+            "tgdbId": 3
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "11/30/1994",
+    "total_rating": 62,
+    "esrb": "E",
+    "videos": [
+      "jiDP7EI2EtY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b2v.jpg",
+    "description": "Cruis'n USA is an arcade racing game originally released in 1994. It was developed by Midway Games and published and distributed by Nintendo. It is the first game in the Cruis'n series and features locations around the United States.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2016-05-24",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 07:44 am",
+    "updatedAt": "11/18/2018 07:44 am",
+    "_id": "4fe0cc594ff84f39ae7139498bd4d3df",
+    "name": "Cruis'n USA",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "10/23/2017",
+    "total_rating": 53,
+    "esrb": "E10+",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co233c.jpg",
+    "description": "Become a funny gnome named Bouncy Bob and defeat an army of the undead in single player mode. When you master the unique one button controls invite friends to kick some butt in local multiplayer mode.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:42 am",
+    "updatedAt": "03/21/2020 07:42 am",
+    "_id": "3288b79e62404f4682a10a186392fa69",
+    "name": "Bouncy Bob",
+    "genres": [
+      "Platform",
+      "Indie",
+      "Arcade"
+    ]
+  },
+  {
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1it6.jpg",
+    "description": "An epic, fast-paced action-brawl featuring Super Heroes, which you’ve never seen before in up to 4-player local gameplay.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:42 am",
+    "updatedAt": "03/21/2020 07:42 am",
+    "_id": "e9f2fab3d4004b59bfd896a09f61d6d4",
+    "name": "Super Hero Fight Club: Reloaded",
+    "genres": [
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "04/23/2015",
+    "total_rating": 60,
+    "esrb": "M",
+    "videos": [
+      "kS-EJEzCh3k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h11.jpg",
+    "description": "The most explosive competitive arena game of the year has arrived on Steam! Battle it out in this heavily skilled-reliant bomb bonanza, controlling one of eight unique characters, each possessing their own deadly skillset that adds speed and tactical depth to the oldschool gameplay.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:41 am",
+    "updatedAt": "03/21/2020 07:41 am",
+    "_id": "ace22985eaff4e62a1f406bc0b02e4ab",
+    "name": "Brawl",
+    "genres": [
+      "Fighting",
+      "Indie",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2018",
+    "esrb": "E",
+    "videos": [
+      "NCZWRPnFlIM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1h5l.jpg",
+    "description": "Buckle-up for an epic road trip through a colorful world of puzzles and adventure. Use driving skills and puzzle solving abilities to find missing artifacts and piece together the broken world of Blocktaria.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:40 am",
+    "updatedAt": "03/21/2020 07:40 am",
+    "_id": "40c428deae76477fadfa6105878db202",
+    "name": "Car Quest",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Racing",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/12/2019",
+    "total_rating": 83,
+    "esrb": "E",
+    "videos": [
+      "HT7ldEvV-1c"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jaz.jpg",
+    "description": "A blockbuster battle royale! 99 players…but only one will remain! TETRIS 99 is the iconic puzzle game as you’ve never seen it before. Can you pick the right strategy to best 98 other players online – all at the same time?!  TETRIS 99 is available as an exclusive offer for members of the Nintendo Switch Online paid membership service. After all, TETRIS 99 is all about battling online for block-dropping dominance against players around the world!  Make smart use of Tetris Line Clears, KO the other 98 players and become the sole survivor!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:39 am",
+    "updatedAt": "03/21/2020 07:39 am",
+    "_id": "014956d59c50412eb1fa09f49eb49b66",
+    "name": "TETRIS 99",
+    "genres": [
+      "Puzzle",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "03/22/2018",
+    "total_rating": 66,
+    "videos": [
+      "C1QylxI73sY",
+      "7NIKCqo7Eco"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/oblsqzat9rev20bfzjs7.jpg",
+    "description": "Castle of Heart is a medieval action platformer by 7 Levels.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:39 am",
+    "updatedAt": "03/21/2020 07:39 am",
+    "_id": "81cf209a23744bc0b9d18a17028ac608",
+    "name": "Castle of Heart",
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "01/22/2019",
+    "total_rating": 71,
+    "esrb": "E10+",
+    "videos": [
+      "G8ukFQbJYYw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlc.jpg",
+    "description": "Unruly Heroes is a 2D action-packed adventure game inspired by the famous chinese novel ‘A journey to the west’ better known as the Monkey King Legend. Through acrobatic challenges, players take control of four unlikely heroes and fight a diverse line-up of memorable enemies in solo or coop and be part of an epic adventure in a colorful and fantasy world! Set against lushly illustrated environments in a hand-drawn art style, the game updates that classic tale to make for an epic adventure that is more colorful and lighthearted than the original, while still highlighting the essence of what it takes to be a hero. In addition to this madcap adventure, players will be able to show their kung fu style by fighting their friends in local or online PvP.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:38 am",
+    "updatedAt": "03/21/2020 07:38 am",
+    "_id": "15f5b62902ea4c3d9ec6df39d0127d2e",
+    "name": "Unruly Heroes",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Indie",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "06/19/2019",
+    "esrb": "E",
+    "videos": null,
+    "description": "Word Mesh - a word search game.  Do you like word search games? In Word Mesh, you have to find more than 3000 words in 10 languages ( 27000 Words if you play all ;) ).  Choose your favorite category out of 8 or mix them all together for the ultimative word find challenge.  Two difficulty levels and five field sizes will help you adjust the game to your skills.  With random generated playfields, you never will get the same word combinations - endless fun!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:38 am",
+    "updatedAt": "03/21/2020 07:38 am",
+    "_id": "f9dee4de44114c448b6cc8f0f59c5d8e",
+    "name": "Word Mesh",
+    "genres": [
+      "Puzzle"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2018",
+    "total_rating": 72,
+    "esrb": "E",
+    "videos": [
+      "3MLL5b1aev0",
+      "sHfJx650yyQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u59.jpg",
+    "description": "Easy to learn, tough to master! Jump straight into fast-paced puzzle action with features fit for both friendly rivalries and competitive tournaments in Puyo Puyo Champions. Challenge your friends and family in local multiplayer or compete against players from around the world through online matchmaking. Built for all ages, this classic puzzle game comes with a surprisingly competitive edge.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:37 am",
+    "updatedAt": "03/21/2020 07:37 am",
+    "_id": "5eeba779216c4beb9b280da58bd98f53",
+    "name": "Puyo Puyo Champions",
+    "genres": [
+      "Puzzle"
+    ]
+  },
+  {
+    "first_release_date": "06/10/2019",
+    "total_rating": 74,
+    "esrb": "",
+    "videos": [
+      "eg-n1Y-JH5U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ab.jpg",
+    "description": "The Contra Anniversary Collection brings this classic Run and Gun franchise back to modern platforms and a new generation of players. Grab power ups and blast your way through waves of menacing enemies and bosses that will put your reaction skills to the test. Also included is a digital Bonus Book with tons of concept documents and sketches, the official chronology of the franchise, an exclusive interview with the veteran producer of the series, and more! Alone or with a friend, Contra provides hours of nail biting action. In a pinch make sure you know the code!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:34 am",
+    "updatedAt": "03/21/2020 07:34 am",
+    "_id": "d1a610960a5d42cd9334ad9d87cd0e33",
+    "name": "Contra Anniversary Collection",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Run-n-gun"
+    ]
+  },
+  {
+    "first_release_date": "05/15/2019",
+    "total_rating": 82,
+    "videos": [
+      "9shWSz9A3Jw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24a1.jpg",
+    "description": "Will feature eight classic Castlevania games.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:34 am",
+    "updatedAt": "03/21/2020 07:34 am",
+    "_id": "f6867e3a0f1b4d45b5d74321548115cf",
+    "name": "Castlevania Anniversary Collection",
+    "genres": [
+      "Racing",
+      "Role-playing (RPG)",
+      "Simulator",
+      "Sport",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/12/2019",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": [
+      "oYd_pph6RnI",
+      "ZjrtqX5Uj7I",
+      "NXYqvSZGCEE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qgt.jpg",
+    "description": "In the latest rhythmic action-adventure from Brace Yourself Games, you can enjoy the gameplay of Crypt of the NecroDancer in the setting of The Legend of Zelda series. As Link – or even as Princess Zelda – you’ll explore the randomly generated overworld and dungeons on a quest to save Hyrule. Every beat of each remixed The Legend of Zelda tune is a chance to move, attack, defend, and more, so stay one step ahead of each enemy and boss…or face the music.",
+    "story": "In the Kingdom of Hyrule, a mysterious man named Octavo uses a magical Lute to put Hyrule's king, as well as Link and Zelda, to sleep, before using the Triforce of Power to turn his Lute into a Golden Lute. In this time of need, Cadence is mysteriously transported to Hyrule by the Triforce and manages to wake up Link and Zelda. While Cadence goes off to try to find a way home, Link and Zelda travel across Hyrule to find and defeat Octavo's four champions, who each possess enchanted instruments containing musical power. After Link and Zelda, soon rejoined by Cadence, obtain the instruments and enter Hyrule Castle, Octavo reveals that he and his champions were meant to be used to battle against Ganon, who will take over Hyrule in the future. Finding himself defeated, Octavo opens a portal into the future, where Link, Zelda, and Cadence confront Ganon and combine their forces to defeat him. With help from the Golden Lute, Link and Zelda use the power of the Triforce to try and send Cadence back to her own world.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "03/21/2020 07:33 am",
+    "updatedAt": "03/21/2020 07:33 am",
+    "_id": "e825b6f11c054accbf0fb06a8470e359",
+    "name": "Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda",
+    "genres": [
+      "Music",
+      "Indie",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2017",
+    "total_rating": 73,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22m1.jpg",
+    "description": "The Aces of the Luftwaffe have returned! Dodge a hail of bullets and face their fearsome war machines in bombastic air battles and boss fights!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "11/21/2018 06:25 am",
+    "updatedAt": "11/21/2018 06:25 am",
+    "_id": "ed800504e63947adb2dbf465b57a4213",
+    "name": "Aces of the Luftwaffe - Squadron",
+    "genres": [
+      "Shooter",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "02/15/2016",
+    "total_rating": 72,
+    "esrb": "E10+",
+    "videos": [
+      "jnKq3C_2dgg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22vz.jpg",
+    "description": "Get on your feet and test ChromaTec’s state-of-the-art military-grade color-technology: The ChromaGun (patent pending)! Use it to solve the meticulously designed test chambers by painting the walls and droids. Remember how to mix colors from pre-school? Congratulations, you qualify!",
+    "story": "ChromaGun is a first person puzzler about colors. The basic principle is as easy as applying it is complex: Exit the chambers via the exit doors. Use the ChromaGun to colorize walls and WorkerDroids to progress in the chambers. WorkerDroids (the players’ main cause of headaches in ChromaGun) are attracted to walls of the same color and can be used for a variety of tasks like opening doors, activating triggers or removing the danger of deadly electrified floor-tiles by mercilessly sacrificing them. ChromaGun encompasses eight chapters of mind-melting puzzles and witty background-narrative.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eShop",
+    "notes": "",
+    "createdAt": "11/21/2018 06:24 am",
+    "updatedAt": "11/21/2018 06:24 am",
+    "_id": "155976a283d443219192dd1c53e3e03f",
+    "name": "ChromaGun",
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Adventure",
+      "Indie",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/26/2017",
+    "total_rating": 94,
+    "esrb": "E10+",
+    "videos": [
+      "5kcdRBHM7kM",
+      "wGQHQc_3ycE",
+      "_GQGUGe7kDU",
+      "f8cyFpns0IE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg",
+    "description": "The game has Mario leaving the Mushroom Kingdom to reach an unknown open world-like setting, like Super Mario 64 and Super Mario Sunshine.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "Walmart",
+    "notes": "",
+    "createdAt": "11/21/2018 06:23 am",
+    "updatedAt": "02/04/2019 06:58 am",
+    "_id": "bbc91dc63b0649718cdf62f9b91f0701",
+    "name": "Super Mario Odyssey",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "07/16/2018",
+    "total_rating": 91,
+    "esrb": "E",
+    "videos": [
+      "ZHrGWSGOVLc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1upn.jpg",
+    "description": "Sonic Mania Plus is an expanded version of Sonic Mania.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "Amazon",
+    "notes": "",
+    "createdAt": "11/21/2018 06:22 am",
+    "updatedAt": "05/26/2019 08:36 pm",
+    "_id": "86d06a8407144b7c9c37c4fc9d275b86",
+    "name": "Sonic Mania Plus",
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "06/21/2018",
+    "total_rating": 75,
+    "esrb": "E",
+    "videos": [
+      "mMHT2vdWvpg",
+      "ewiReKFzgYE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tfw.jpg",
+    "description": "A new Mario Tennis game is bringing a new level of skill and competition to Nintendo Switch. Mario steps onto the court in classy tennis garb for intense rallies against a variety of characters in full-blown tennis battles. New wrinkles in tennis gameplay will challenge your ability to read an opponent's position and stroke to determine which shot will give you the advantage. And this time the game adds the first story mode since the Mario Tennis game on Game Boy Advance, offering a new flavor of tennis gameplay, with a variety of missions, boss battles and more",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "Walmart",
+    "notes": "",
+    "createdAt": "11/21/2018 06:22 am",
+    "updatedAt": "01/14/2019 07:51 am",
+    "_id": "9d35bff6c4c54816b44ce711928eca83",
+    "name": "Mario Tennis Aces",
+    "genres": [
+      "Sport",
+      "Tennis"
+    ]
+  },
+  {
+    "first_release_date": "03/02/2017",
+    "total_rating": 95,
+    "esrb": "E10+",
+    "videos": [
+      "Z6BeAtdoELY",
+      "1rPxiXXxftE",
+      "vDFZIUdo764",
+      "zw47_q9wbBE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcp.jpg",
+    "description": "In this 3D open-world entry in the Zelda series, Link is awakened from a deep slumber without his past memories in the post-apocalyptic Kingdom of Hyrule, and sets off on a journey to defeat the ancient evil Calamity Ganon. Link treks, climbs and glides through fields, forests and mountain ranges while meeting and helping friendly folk and defeating enemies in order to gather up the strength to face Ganon.",
+    "story": "Link awakes in a mysterious chamber after 100 years of slumber to find that Calamity Ganon has taken over Hyrule Castle and left Hyrule to decay and be taken over by nature.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/21/2018 06:21 am",
+    "updatedAt": "02/04/2019 06:42 am",
+    "_id": "5679b72ec9134fd28a382833ebbec4ac",
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/28/2009",
+    "total_rating": 87,
+    "esrb": "M",
+    "videos": [
+      "G0OwDTkS-bs",
+      "vtgdPlOXQXQ",
+      "XSmaOxHD8OE",
+      "kZzuLz8GiUM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p92.jpg",
+    "description": "A member of an ancient witch clan and possessing powers beyond the comprehension of mere mortals, Bayonetta faces-off against countless angelic enemies, many reaching epic proportions, in a game of 100% pure, unadulterated all-out action. Outlandish finishing moves are performed with balletic grace as Bayonetta flows from one fight to another. With magnificent over-the-top action taking place in stages that are a veritable theme park of exciting attractions, Bayonetta pushes the limits of the action genre, bringing to life its fast-paced, dynamic climax combat.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "11/21/2018 06:20 am",
+    "updatedAt": "11/21/2018 06:20 am",
+    "_id": "eceec57d75164956ae608afcd316b1ab",
+    "name": "Bayonetta",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/19/2014",
+    "total_rating": 91,
+    "esrb": "M",
+    "videos": [
+      "4dFfVBdRWmw",
+      "miAsyaLzwVg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/qocwccspgmgamvhaplgp.jpg",
+    "description": "The witching hour strikes again. Brimming with intricate battles that take place in, on and all over epic set pieces, Bayonetta 2 finds our sassy heroine battling angels and demons in unearthly beautiful HD. You’re bound to love how it feels to string together combos with unimaginable weapons and to summon demons using Bayonetta’s Umbran Weave in this frantic stylized action game.",
+    "story": "Starting a few months after the events of the first game, Bayonetta and Jeanne are fighting off a group of angels who attacked a city during a parade. During one particular attack, Jeanne protects Bayonetta from a sudden demon summon gone wrong, causing her soul to be claimed by the depths of Hell. Upon a tip from her informant Enzo, Bayonetta heads to the sacred mountain of Fimbulvinter. An entrance to Inferno, the Gates of Hell, is said to be inside and Bayonetta plans to use it to save her friend.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "11/21/2018 06:20 am",
+    "updatedAt": "11/21/2018 06:20 am",
+    "_id": "8cab9d7aa9894da59d723334a2cbfcd8",
+    "name": "Bayonetta 2",
+    "genres": [
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "02/12/2014",
+    "total_rating": 85,
+    "esrb": "E",
+    "videos": [
+      "DueE8vJXpo8",
+      "UtPfTW7X-dw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wf2.jpg",
+    "description": "All the challenging ground-pounding, barrel-blasting, side-scrolling mine cart action from the Donkey Kong Country series is back along with a bushel of new game-play elements and features. And now, there are four playable characters! Dixie Kong is back to join the adventure as a playable character alongside Diddy Kong, and for the first time in Donkey Kong Country, bearded old hero Cranky Kong joins the adventure with his bouncy cane. Any of the three can buddy up with Donkey Kong, and each character offers a different gameplay experience. On their journey to reclaim Donkey Kong Island, Donkey Kong and his friends travel across five islands with a variety of stages that include underwater areas and frozen environments.",
+    "story": "Help Donkey Kong and his friends save their home and banana hoard from marauding Vikings in the Donkey Kong Country™: Tropical Freeze game from Retro Studios. All the challenging ground-pounding, barrel-blasting, side-scrolling mine cart action from the Donkey Kong Country series is back along with a bushel of new game play elements and features.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "Toys 'R Us",
+    "notes": "",
+    "createdAt": "11/21/2018 05:46 am",
+    "updatedAt": "11/21/2018 05:46 am",
+    "_id": "37defdd897c04387b71e1938bcda1310",
+    "name": "Donkey Kong Country: Tropical Freeze",
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "11/21/2011",
+    "esrb": "E",
+    "videos": [
+      "gb9RQwlNRy8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zya.jpg",
+    "description": "In the 3DS version of Sonic Generations, Modern Sonic's gameplay is similar to that of Sonic Rush and the DS version of Sonic Colors. He has the Boost, the ability to slide under obstacles, jump off walls, and the Homing Attack. After the second era, Modern Sonic learns the Stomp. Modern Sonic's levels use the 3D effect of depth on the 3DS version more actively as well as to giving a better view for when Modern Sonic jumps into the background, although the console versions are 3D-TV compatible. In the HD version, Modern Sonic is only able to wall jump off certain panels (similar to the DS version of Sonic Colors), but in the 3DS version, he is able to wall jump on any wall (much like Sonic Unleashed and the Wii version of Sonic Colors).",
+    "story": "The story begins with Classic Sonic in Green Hill. After completing Act 1, a purple vortex in the sky appears and surprises Classic Sonic. After that, it goes all the way to the present day and Sonic is invited to a birthday party by Tails. However, Sonic arrives early, so Tails tells him to wait. But then a vortex sucks Tails into it. Sonic jumps in but is \"attacked,\" though he manages to get in anyway. Sonic sees a white world and wonders what's going on. Modern Sonic rescues Tails after restoring Green Hill, and Tails tells him that he sees a big city in nighttime and a giant mushroom, so Sonic decides to go check those places out, being followed by Classic Sonic, who is believed by Tails to be Modern Sonic.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 09:06 am",
+    "updatedAt": "03/21/2020 09:06 am",
+    "_id": "873425f4747a440bbe152fd0cefd5c4b",
+    "name": "Sonic Generations",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/27/2016",
+    "total_rating": 66,
+    "esrb": "M",
+    "videos": [
+      "e9OwM3Dw_lo",
+      "Uj87DQPtfkU",
+      "F1hfHYirxuM",
+      "Uj3U7MnVHbE",
+      "uWKDlpIu7RY",
+      "I85Tv12-QJI",
+      "xJhhqFEA-Qw",
+      "u-Ml3XDz2h8",
+      "OJLcLrIrVlc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ppu.jpg",
+    "description": "The Technomancer is a Sci-fi RPG set on Mars during the War of Water, where an aspiring Technomancer faces a myriad of questions as his future grows threatened by the secrets of his past.  An RPG, The Technomancer will offer players action-oriented combat gameplay along four different skill trees, focusing on 3 different fighting styles and the destructive electric-focused powers of the Technomancers. But all situations aren't necessarily to be dealt with brute strength, with dynamic conversation dialogue playing a deep role in quests, changing the story depending on the decisions you make. Craft equipment, weapons and armor for yourself and for the companions you'll recruit along your adventure, nurturing relationships with them.",
+    "story": "On the run from the Secret Police and confronted by the harsh realities of the Red Planet, you must undertake a quest that takes you through tribal communities, cities lost under the ice, and dystopian shanties sprawled across Mars' dusty embrace.\n\nFaced with the cruelty of Mars' iron-fist enforcers and wild-life, can you survive long enough to uncover the truth behind The Technomancer?",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 09:04 am",
+    "updatedAt": "03/21/2020 09:04 am",
+    "_id": "00fd11b534264051acfa957a225a773f",
+    "name": "The Technomancer",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "03/02/2017",
+    "total_rating": 61,
+    "esrb": "E10+",
+    "videos": [
+      "O2dpxLv-Ft0",
+      "Z5NRvXV25mw",
+      "JGdKX1nNjUg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z44.jpg",
+    "description": "\"Since its release in 1985, Bomberman has been a familiar party-battle game for many years. Now, Bomberman is coming back as \"SUPER BOMBERMAN R\" to Nintento Switch.  In SUPER BOMBERMAN R, the simple rule remains the same: operate the main character (Bomberman), place bombs, and battle with enemies and rivals, but it's coming back in a modern style with 3D stages and photo-real graphics. You can enjoy battles with rivals from all over the world.  There is \"Battle\" mode for maximum of 8 players, and single play \"Story\" mode (cooperative play for 2 players is possible as well) where players clear each stage one by one, with a big volume of 50 stages. Also, there is a new rule where the condition to clear the stage is not just by wiping out all the enemies. This simple but strategic game with new rules and 3D stages is fun for everyone, from children to adults.\"",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 09:04 am",
+    "updatedAt": "03/21/2020 09:04 am",
+    "_id": "cd0eecb5a5224dbe80089867780d88a2",
+    "name": "Super Bomberman R",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Arcade",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "02/16/2005",
+    "total_rating": 81,
+    "esrb": "T",
+    "videos": [
+      "uLpUO3jrXjM",
+      "mLLIGa0xKgU",
+      "Vin1uUR6vaU",
+      "j-5AG_G9fcM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2au4.jpg",
+    "description": "Chaos has erupted throughout the galaxy. As a leader of an elite squad of Republic Commandos, your mission is to infiltrate, dominate, and ultimately, annihalate the enemy. Your squad will follow your orders and your lead, working together as a team-instinctively, intelligently, instantly. You are their leader. They are your weapon.",
+    "story": "The storyline is very immersive.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 09:03 am",
+    "updatedAt": "03/21/2020 09:03 am",
+    "_id": "f08bc8de526e425b82987ceb7a4c0850",
+    "name": "Star Wars: Republic Commando",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/15/2003",
+    "total_rating": 77,
+    "esrb": "T",
+    "videos": [
+      "YZu0aYR5k_Y",
+      "ZmVzVRKqk9Q",
+      "f8R1OuHmonw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ac8.jpg",
+    "description": "Star Wars: Jedi Knight: Jedi Academy, of the highly acclaimed Jedi Knight series, allows players to take on the role of a new student eager to learn the ways of the Force from Jedi Master Luke Skywalker. Interact with famous Star Wars characters in many classic Star Wars locations as you face the ultimate choice: fight for good and freedom on the light side, or follow the path of power and evil to the dark side.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 09:02 am",
+    "updatedAt": "03/21/2020 09:02 am",
+    "_id": "4864d91b64704330adff1a11e5745d38",
+    "name": "Star Wars: Jedi Knight - Jedi Academy",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ]
+  },
+  {
+    "total_rating": 88,
+    "videos": null,
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 09:01 am",
+    "updatedAt": "03/21/2020 09:01 am",
+    "_id": "26813c5223944dc49f8e520f3fbeb3cc",
+    "name": "Mercenaries",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Third-person shooter"
+    ]
+  },
+  {
+    "first_release_date": "03/12/2018",
+    "total_rating": 73,
+    "esrb": "T",
+    "videos": [
+      "Vi_U65Y6fDg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g7p.jpg",
+    "description": "Q.U.B.E. 2 is the sequel to the hit first-person puzzle game Q.U.B.E. You are Amelia Cross, a stranded archaeologist who has awoken among the ruins of an ancient alien landscape. With the distant help of another survivor you must manipulate the structure of this mysterious world and find a way back home.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Virtual Reality"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 08:59 am",
+    "updatedAt": "03/21/2020 08:59 am",
+    "_id": "5dc10e37cd244a178052ceca342f2c17",
+    "name": "Q.U.B.E. 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "06/28/2016",
+    "total_rating": 90,
+    "esrb": "M",
+    "videos": [
+      "op4G1--kb-g",
+      "zX5laIHx2Oo",
+      "E0V2rPVQWfM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fca.jpg",
+    "description": "An atmospheric 2D side-scroller in which, hunted and alone, a boy finds himself drawn into the center of a dark project and struggles to preserve his identity.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 08:57 am",
+    "updatedAt": "03/21/2020 08:57 am",
+    "_id": "ca8bbb0e2d554cfda2efa3c1874aed25",
+    "name": "INSIDE",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "08/27/2018",
+    "total_rating": 60,
+    "esrb": "E",
+    "videos": [
+      "uhvpAnokl-k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27as.jpg",
+    "description": "Do you have what it takes to win PGA TOUR’s FedExCup? Compete in the all new officially licensed PGA TOUR Career mode. Play on famous courses like TPC Boston, TPC Sawgrass and more.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": null,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "XBOX Live",
+    "notes": "",
+    "createdAt": "03/21/2020 08:56 am",
+    "updatedAt": "03/21/2020 08:56 am",
+    "_id": "070e15cd622c4d0184bef65580fe118c",
+    "name": "The Golf Club 2019 featuring PGA TOUR",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Simulator",
+      "Sport",
+      "Strategy",
+      "Indie",
+      "Golf"
+    ]
+  }
+]

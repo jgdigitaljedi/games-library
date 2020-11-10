@@ -1,0 +1,1993 @@
+[
+  {
+    "first_release_date": "11/17/2014",
+    "total_rating": 81,
+    "esrb": "M",
+    "videos": [
+      "TGr79DZTymo",
+      "dO8ogv8yKBM",
+      "tZ8-oNZukq4",
+      "6X-UlvMr0hk",
+      "RE_E2MMzuGE",
+      "5XtEes5nd0U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpc.jpg",
+    "description": "In Far Cry 4, players find themselves in Kyrat, a wild region of the Himalayas struggling under the regime of a despotic self-appointed king. Using a vast array of weapons, vehicles and animals, players will write their own story across an exotic open-world landscape.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 11,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-06-02",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 09:01 pm",
+    "updatedAt": "03/20/2020 09:01 pm",
+    "_id": "c42055865f18423fb9fd55d81b149c30",
+    "name": "Far Cry 4",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "01/10/2019",
+    "total_rating": 80,
+    "esrb": "E",
+    "videos": [
+      "6wTFy-pJFMI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uhl.jpg",
+    "description": "New Super Mario Bros. U including New Super Luigi U. for the Nintendo Switch!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo Switch",
+    "consoleId": 130,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-06-01",
+    "howAcquired": "traded with Solis",
+    "notes": "traded him Splatoon 2",
+    "createdAt": "06/07/2019 06:06 am",
+    "updatedAt": "06/07/2019 06:06 am",
+    "_id": "bbe9433da0c744c899682c8656298825",
+    "name": "New Super Mario Bros. U Deluxe",
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "11/29/1984",
+    "total_rating": 71,
+    "esrb": "E",
+    "videos": [
+      "fRgMCtaWoSU",
+      "IkjVodjgWU8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/qnxgsxijvvejjrjrgxdf.jpg",
+    "description": "Excitebike (エキサイトバイク Ekisaitobaiku) is a motocross racing video game franchise made by Nintendo. It first debuted as a game for the Famicom in Japan in 1984 and as a launch title for the NES in 1985. It is the first game of the Excite series, succeeded by its direct sequel Excitebike 64, its spiritual successors Excite Truck and Excitebots: Trick Racing, and the WiiWare title Excitebike: World Rally. 3D Classics: Excitebike, a 3D remake of the original game, was free for a limited time to promote the launch of the Nintendo eShop in June 2011, and has since been available for $5.99.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/25/2019 07:30 pm",
+    "updatedAt": "05/25/2019 07:30 pm",
+    "_id": "c6128a81f7a442d2b3057e55b8163d31",
+    "name": "Excitebike",
+    "extraData": [
+      "NES launch title",
+      "NES black box game: Programmable Series",
+      "NES hang tab game"
+    ],
+    "extraDataFull": [
+      {
+        "id": "nes136",
+        "details": [
+          "NES launch title",
+          "NES black box game: Programmable Series",
+          "NES hang tab game"
+        ],
+        "name": "Excitebike",
+        "igdbId": 4600,
+        "gbId": 15025,
+        "gbGuid": "3030-15025",
+        "tgdbId": 213,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        ],
+        "special": [
+          {
+            "value": "NES black box game: Programmable Series",
+            "forPlatform": {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          },
+          {
+            "value": "NES hang tab game",
+            "forPlatform": {
+              "name": "Nintendo Entertainment System (NES)",
+              "id": "ccl1",
+              "igdbId": 18,
+              "gbId": 21,
+              "gbGuid": "3045-21",
+              "tgdbId": 7
+            }
+          }
+        ],
+        "isExclusive": false
+      }
+    ],
+    "genres": [
+      "Racing",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "02/24/2009",
+    "total_rating": 84,
+    "esrb": "M",
+    "videos": [
+      "ZFOugKGWSeE",
+      "LRNwgE4iPJg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23t2.jpg",
+    "description": "Two years after the Helghast assault on Vekta, the ISA is taking the fight to the enemy's home world of Helghan. The ISA goal is direct: capture the Helghast leader, Emperor Visari, and bring the Helghast war machine to a halt. Assuming the role of Sev, a battle-hardened veteran and a member of the Special Forces unit Alpha Team, the player must lead a group of highly trained soldiers on a mission to take out the Helghast threat.",
+    "story": "\"In 2357, the halcyon days of wealth and prosperity among Earth’s colonies came to an abrupt halt when the Helghast Third Army attacked planet Vekta. Swept into a frenzy by their tyrannical ruler, Scolar Visari, the Helghast forces attempted to seize control of Vekta’s capitol in a bloody blitzkrieg. Their initial attack was defeated by a small group of ISA peacekeeping forces. \n \nIn the months that followed, the ISA slowly succeeded in driving the remaining invaders off Vekta – but not before the retreating Helghast troops captured a powerful nuclear weapon. Refusing to fall victim to Visari’s plans of conquest ever again, the ISA decided to launch a full-scale planetary invasion of the Helghast home world. \n \nYou are Tomas ‘Sev’ Sevchenko, a special forces operative for the ISA. Along with the other members of Alpha Team – Rico, Garza and Natko – you are sent to planet Helghan to bring Scolar Visari to justice before he can use the nuclear weapon against its creators. During your mission, you will meet heavy resistance from the fanatical Helghast forces…\"",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 1,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 1,
+    "consoleName": "PlayStation 3",
+    "consoleId": 9,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/25/2019 07:35 pm",
+    "updatedAt": "05/25/2019 07:35 pm",
+    "_id": "998e9f14331341589d998c1060114e77",
+    "name": "Killzone 2",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "06/26/2008",
+    "total_rating": 70,
+    "esrb": "T",
+    "videos": [
+      "dE4A-1dpqYs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wnh.jpg",
+    "description": "Guitar Hero: Aerosmith puts the player in the shoes of \"America's Greatest Rock and Roll Band\" as they evolve from unknowns to rock superstars. In a guitar hero game dedicated to the band that is Aerosmith!",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/25/2019 07:35 pm",
+    "updatedAt": "05/25/2019 07:35 pm",
+    "_id": "44b7b366f5d04b29a9e09b3099015298",
+    "name": "Guitar Hero: Aerosmith",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Music"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2005",
+    "total_rating": 78,
+    "esrb": "M",
+    "videos": [
+      "RZvrlXBT1OI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1th1.jpg",
+    "description": "There are a million stories in Liberty City. This one changes everything. Once a trusted wise guy in the Leone crime family, Toni Cipriani was forced into hiding after killing a made man. Now he's back and it's time for things to be put right.The streets of Liberty City are in turmoil. Warring mafiosi vie for control as the town begins to self-destruct under waves of political corruption, organized crime, drug trafficking and union strikes. No one can be trusted as Toni tries to clean up the mess of the city's chaotic underworld. Deranged hit men, morally depraved tycoons, cynical politicians and his own mother stand in his way as Toni tries to bring the city under Leone control.Forced to fight for his life in an odyssey that will shake Liberty City to its foundations, Toni must use any means necessary to secure his place in the leadership of the Leone family in a town up for grabs.",
+    "story": "Toni Cipriani, having been forced into living abroad after killing a made man on the orders of Salvatore Leone, decides to return to Liberty City. Upon arrival Toni is greeted by Salvatore and a member of the Leone family, Vincenzo \"Lucky Vinnie\" Cilli, who rose to prominence during Toni's absence. Vincenzo is instructed by Salvatore to set Toni up with an apartment and job in Liberty City. Not long after, Toni quits upon the realization that Vincenzo had set up a job designed to ensure Toni would be caught by the police. Toni then begins working with a former member of the rival Sindacco crime family now loyal to Leone, J.D. O'Toole, but this is short-lived as another member of the Leone crime family is ordered to kill O'Toole on the same day he was intended to become a made man within the family.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 6,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/25/2019 07:34 pm",
+    "updatedAt": "05/25/2019 07:34 pm",
+    "_id": "e0911a11e6d64bf3ae148b51f3380dca",
+    "name": "Grand Theft Auto: Liberty City Stories",
+    "extraData": [
+      "banned in Germany: Originally banned because of high-impact gory violence. A censored version was released. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Grand Theft Auto: Liberty City Stories",
+        "details": [
+          "banned in Germany: Originally banned because of high-impact gory violence. A censored version was released. The ban was lifted in 2012.",
+          "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+        ],
+        "id": "bi70",
+        "igdbId": 3263,
+        "gbId": 6731,
+        "gbGuid": "3030-6731",
+        "tgdbId": 7085
+      }
+    ],
+    "genres": [
+      "Racing",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/30/1998",
+    "total_rating": 75,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ta8.jpg",
+    "description": "In this tournament, players are to engage in battle with opponents using various ballistic projectiles such as rockets. Players are also able to obtain various pick-ups strewn across the map to use to their advantage. The game sets down a survival of the fittest objective, in which the last man standing wins. Players can choose to either play against bots in a series of matches in story mode, or battle up to four friends in a split screen versus mode.",
+    "story": "Twisted Metal III takes place two years after the events of Twisted Metal 2 and is a continuation of the previous game’s story. A mysterious man that goes by the name of Calypso returns with his Twisted Metal tournament in which the winner is granted one wish. Calypso tends to twist the winner's wish, leaving them with an unfortunate demise.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 14,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/25/2019 07:33 pm",
+    "updatedAt": "05/25/2019 07:33 pm",
+    "_id": "4c71e6cd98c6412b99bfcf4cf35d1d84",
+    "name": "Twisted Metal III",
+    "extraData": [
+      "Sony PlayStation exclusive",
+      "Sony PlayStation multitap compatible title - 4 players"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Twisted Metal III",
+        "details": [
+          "Sony PlayStation exclusive",
+          "Sony PlayStation multitap compatible title - 4 players"
+        ],
+        "id": "psx491",
+        "igdbId": 4697,
+        "gbId": 4635,
+        "gbGuid": "3030-4635",
+        "tgdbId": 9312,
+        "isExclusive": [
+          {
+            "name": "Sony PlayStation",
+            "id": "ccl20",
+            "igdbId": 7,
+            "gbId": 22,
+            "gbGuid": "3045-22",
+            "tgdbId": 10
+          }
+        ],
+        "special": [
+          {
+            "value": "Sony PlayStation multitap compatible title - 4 players",
+            "forPlatform": {
+              "name": "Sony PlayStation",
+              "id": "ccl20",
+              "igdbId": 7,
+              "gbId": 22,
+              "gbGuid": "3045-22",
+              "tgdbId": 10
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Fighting",
+      "Shooter",
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "07/30/1999",
+    "total_rating": 77,
+    "esrb": "E",
+    "videos": [
+      "Mcxupg5YC9Y",
+      "wTdHrvfPU3g"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n29.jpg",
+    "description": "Re-Volt is an R/C car racing game from Acclaim, originally released in 1999. Re-Volt features great gameplay, realistic physics that still hold up to this day and bright and colorful visuals. It's a game aimed at people who just want to play a funky arcade racing game as well as for people who seek a more competitive challenge. It's meant for all ages and occasions: Play for yourself or in the local network with friends, or even online!",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 13,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-25",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/25/2019 07:33 pm",
+    "updatedAt": "05/25/2019 07:33 pm",
+    "_id": "cd5231b684684eb682e97286c708328a",
+    "name": "Re-Volt",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "10/25/2016",
+    "total_rating": 75,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ad.jpg",
+    "description": "Party Golf is a crazy and competitive couchplay game for one to eight players.  Party Golf combines simple 2D physics, a procedurally generated world and over a trillion different gameplay combinations.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-05-24",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 10:01 pm",
+    "updatedAt": "03/20/2020 10:01 pm",
+    "_id": "474a90ad1dfe447db1ca6f084c238ad7",
+    "name": "Party Golf",
+    "extraData": [
+      "Sony PlayStation 4 console exclusive (PlayStation Network)"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Party Golf",
+        "details": [
+          "Sony PlayStation 4 console exclusive (PlayStation Network)"
+        ],
+        "id": "sps4451",
+        "igdbId": 31009,
+        "gbId": 56897,
+        "gbGuid": "3030-56897",
+        "isExclusive": [
+          {
+            "name": "Sony Playstation 4",
+            "id": "ccl23",
+            "igdbId": 48,
+            "gbId": 146,
+            "gbGuid": "3045-146",
+            "tgdbId": 4919
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Indie",
+      "Golf"
+    ]
+  },
+  {
+    "first_release_date": "10/20/2016",
+    "total_rating": 76,
+    "esrb": "E10+",
+    "videos": [
+      "tiv2tySHzQQ",
+      "amyBJLk2S7U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ucm.jpg",
+    "description": "The LEGO Harry Potter Collection brings LEGO Harry Potter: Years 1-4 and LEGO Harry Potter: Years 5-7 to the PlayStation4 computer entertainment system for the first time with both top-selling videogames remastered on one disc. This compilation unites the creative prowess of LEGO and the expansive world of Harry Potter, with an exciting journey full of spell-casting, potion-making, puzzle-solving, lessons, dueling and much more for players of all ages to enjoy. Gamers can experience the entire LEGO Harry Potter adventure featuring content from seven books and eight films, with enhanced graphics, environments, lighting and visual effects, along with two downloadable content (DLC) packs. Sure to delight fans of J.K. Rowling’s ever-expanding Wizarding World, the LEGO Harry Potter Collection serves as a perfect gift for those eagerly anticipating the upcoming film, Fantastic Beasts and Where to Find Them, a prequel to the Harry Potter film series.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 6,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-05-24",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 09:11 pm",
+    "updatedAt": "03/20/2020 09:11 pm",
+    "_id": "e7314a6a8113442282144ecd77d1bb22",
+    "name": "Lego Harry Potter Collection",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1997",
+    "total_rating": 74,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/czkugsaklic4owwll9wu.jpg",
+    "description": "Enjoy four different games from the classic Game & Watch Gallery series: Manhole, Fire, Octopus and Oil Panic. Original and revised versions of each game are included.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-22",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "05/25/2019 07:30 pm",
+    "updatedAt": "05/25/2019 07:30 pm",
+    "_id": "214ba72aa2f84106b58e8d39c6865fb9",
+    "name": "Game & Watch Gallery",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": []
+  },
+  {
+    "first_release_date": "04/11/2005",
+    "total_rating": 80,
+    "esrb": "M",
+    "videos": [
+      "2ND4jUT4o0w"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21x1.jpg",
+    "description": "Set in an ancient world inspired by mythical China, Jade Empire lets you train under your master's watchful eye as you learn powerful martial arts and mystical powers. When danger threatens, you'll travel across the world, from the harsh mountains of the Land of Howling Spirits to the lush gardens of the Imperial City. In your adventures, you must face powerful human and supernatural foes, learn the exotic and magical martial arts, and discover the darkest secrets of the world. Practice the greatest fighting styles and defeat the most powerful enemies to become a master of martial arts.  Also Available Jade Empire: Limited Edition",
+    "story": "In the ancient, mysterious world of the Jade Empire, you train under your master’s watchful eye and learn powerful martial arts and mystical powers. \n \nWhen danger threatens, you travel across the world, from the harsh mountains of the Land of Howling Spirits to the lush gardens of the Imperial City. \n \nIn your adventures you face powerful human and supernatural foes, learn exotic and magical martial arts, and discover the darkest secrets of the world. \n \nOnly by mastering the greatest fighting styles and defeating the most powerful enemies will you earn your place as a master of martial arts in the world of Jade Empire.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-22",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "05/25/2019 07:28 pm",
+    "updatedAt": "05/25/2019 07:28 pm",
+    "_id": "f5720f471bb648549a04910748bf299b",
+    "name": "Jade Empire",
+    "extraData": [
+      "Xbox game plays on Xbox 360 - The Monk Zeng content from the limited edition became available as of the December 2005 update",
+      "Xbox game plays on Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 5867,
+        "name": "Jade Empire",
+        "details": [
+          "Xbox game plays on Xbox 360 - The Monk Zeng content from the limited edition became available as of the December 2005 update",
+          "Xbox game plays on Xbox One"
+        ],
+        "id": "xbox196",
+        "gbId": 8580,
+        "gbGuid": "3030-8580",
+        "tgdbId": 14045,
+        "special": [
+          {
+            "value": "Xbox game plays on Xbox 360 - The Monk Zeng content from the limited edition became available as of the December 2005 update",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          },
+          {
+            "value": "Xbox game plays on Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)"
+    ]
+  },
+  {
+    "first_release_date": "01/20/1999",
+    "total_rating": 83,
+    "esrb": "E",
+    "videos": [
+      "K783SDTBKmg",
+      "vX9w2M-6bx0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wok.jpg",
+    "description": "Super Smash Bros. is a crossover fighting video game between several different Nintendo franchises, and the first installment in the Super Smash Bros. series. Players must defeat their opponents multiple times in a fighting frenzy of items and power-ups. Super Smash Bros. is a departure from the general genre of fighting games: instead of depleting an opponent's life bar, the players seek to knock opposing characters off a stage. Each player has a damage total, represented by a percentage, which rises as the damage is taken.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-22",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "Japanese import",
+    "createdAt": "05/25/2019 07:29 pm",
+    "updatedAt": "05/25/2019 07:29 pm",
+    "_id": "625a4313115d4be7a8512e93a16d97f2",
+    "name": "Super Smash Bros.",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "12/08/2014",
+    "total_rating": 73,
+    "esrb": "T",
+    "videos": [
+      "BuIIoqDT8V0",
+      "XpwieaTiGHs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voe.jpg",
+    "description": "Lara Croft and Temple of Osiris is the sequel to the critically acclaimed digital title from Crystal Dynamics, Lara Croft and the Guardian of Light. The adventure takes place deep in the deserts of Egypt, where an ancient Temple to Set has just been discovered. Set, the god of chaos, once ruled all of Egypt after murdering his brother Osiris and enslaving the other gods, but when Egypt was no longer enough, he vanished into the land of the dead intent on raising an army that could conquer the world, but he never returned.  Lara Croft, famed explorer, thought she would be first to arrive at the temple, but up-and-coming archeologist Carter Bell beat her to the entrance. They each hoped to find the mythical Staff of Osiris, but they discovered more than they bargained for.  The Temple was a prison for Horus and Isis, the last of the old gods not bound to Set. Seeing the Staff, Carter removed it from a mechanism, setting off the trap meant to keep Horus and Isis imprisoned. Lara and Carter now find themselves marked for death. Horus and Isis, freed from thousands of years in prison and in possession of the staff, promise Carter and Lara they will help them resurrect Osiris, the only god capable of saving Lara and Carter from judgment, and the only power that can hope to defeat Set. With a common goal of finding the fragments of Osiris, and stopping the return of Set, the companions form an alliance.  As they fight their way across the sands, they must face gods and monsters of myth and legend driven mad and controlled by Set. At stake is the fate of the world, as Set marshals his powers in order to return and reclaim his throne in the world of the living, with an army of the dead behind him. Set knows the prophecy has come, intent on remaking the world in his own image, a nightmare of storms and death.  Critically Acclaimed Franchise Sequel to the critically acclaimed Lara Croft and the Guardian of Light, one of the best-selling digital titles of all time.  Classic Arcade Action First ever 4 player co-op multiplayer experience featuring Lara Croft. Have your friends play as Carter, Isis, and Horus while you play as Lara in the fully cooperative story mode – offline and online supported.  Competitive Co-op Compete against your friends to earn bigger rewards, weapons unlocks, and artifacts to boost your character. Will you work together or will you sacrifice your friends for a higher score?  Next Gen Experience Stunning visuals with no load-times and hundreds of relics, weapons, and artifacts to discover.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 4.69,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-05-18",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 09:10 pm",
+    "updatedAt": "03/20/2020 09:10 pm",
+    "_id": "80c86ebaaae24ea2ad0a151b6c7423c4",
+    "name": "Lara Croft and the Temple of Osiris",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Puzzle",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/30/2014",
+    "total_rating": 84,
+    "esrb": "E10+",
+    "videos": [
+      "KA_LayTuoRo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1twb.jpg",
+    "description": "\"Guacamelee! STCE is an enhanced version of Guacamelee! Gold Edition that adds in two huge new levels, an explosive new ‘Intenso’ power mode, 4-player local co-op support and more. You’ll need to use every bit of your skill and power to defeat STCE’s new challenges (including a scheming new boss- El Trio de la Muerte), in addition to everything the original game's sprawling world has to throw at you.\"",
+    "story": "\"Carlos Calaca has kidnapped El Presidente's Daughter, and he plans to sacrifice her in order to merge the World of the Living with the World of the Dead. \n\nJuan Aguacate, an agave farmer who stumbles upon a Legendary Luchador mask, must find the strength and courage to become the Hero he's always dreamed of being and put a stop to this.\"",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 3.24,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-05-18",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 09:05 pm",
+    "updatedAt": "03/20/2020 09:05 pm",
+    "_id": "4a497e144e094a6384cf9b31cfa8a0b4",
+    "name": "Guacamelee! Super Turbo Championship Edition",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ]
+  },
+  {
+    "first_release_date": "11/08/2001",
+    "total_rating": 88,
+    "esrb": "T",
+    "videos": [
+      "LcqT8g7CBX8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w3u.jpg",
+    "description": "In Star Wars Rogue Squadron II: Rogue Leader you get the chance to jump into the cockpit of an X-wing and join Luke Skywalker and the Star Wars galaxy's most daring pilots as they return to face off against the Empire.  As in the original hit game for N64, you'll relive favorite Star Wars battles including the perilous Death Star trench run, a daring space attack on a Star Destroyer and the legendary battle on the ice planet Hoth. Rogue Leader features stunning, movie like visuals and immerses players in an intense action-arcade experience.  Aerial conflict takes place in a variety of craft such as the legendary X-wing, A-wing, and B-wing. For the first time, the game also features on-foot ground combat in missions directly based on or inspired by the original movie trilogy.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 12,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-18",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/18/2019 03:55 pm",
+    "updatedAt": "05/18/2019 03:55 pm",
+    "_id": "e5fcd03c58114e898ac08a87b81811b0",
+    "name": "Star Wars: Rogue Squadron II - Rogue Leader",
+    "extraData": [
+      "Nintendo GameCube launch title",
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc72",
+        "name": "Star Wars Rogue Squadron II: Rogue Leader",
+        "details": [
+          "Nintendo GameCube launch title",
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 4181,
+        "gbId": null,
+        "gbGuid": null,
+        "tgdbId": 7055,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "02/23/2002",
+    "total_rating": 76,
+    "esrb": "E",
+    "videos": [
+      "0JCB_Hmzm5U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1oy7.jpg",
+    "description": "Long ago, back in medieval times, an evil spirit known as Spooky had terrorized all of Pac-Land. In response to this, the great Wizard Pac created a potion that turned 5 ordinary fruit into the \"Golden Fruit.\" A young knight called Sir Pac-alot fought and sealed Spooky underneath a large tree using the Golden Fruit, which were attached to the branches of the tree. In the present time late at night, Inky, Pinky, Blinky and Clyde sneak into the village and, in their mischief, pick the Golden Fruit off the tree in the center of town. Unfortunately, this has released Spooky from his prison. Spooky tells the ghosts to take the Golden Fruit and follow him if they wish to rid the land of the Pac-people forever. When Pac-Man awakes, he hears the news from Professor Pac about the Golden Fruit and Spooky, and sets off to defeat the ghosts and Spooky.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 12,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-18",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/18/2019 03:37 pm",
+    "updatedAt": "05/18/2019 03:37 pm",
+    "_id": "7599025e2fb64756892054a505d243a2",
+    "name": "Pac-Man World 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Racing",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/31/2005",
+    "total_rating": 64,
+    "esrb": "T",
+    "videos": [
+      "pFHkZ47DLEo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e6g.jpg",
+    "description": "From Russia with Love is a video game featuring Ian Fleming's secret agent, James Bond. The game is based on the 1957 novel and the 1963 film of the same name, albeit adding in new scenes to make the game more action-oriented, as well as changing the affiliation of the main villains. Additionally, it features many elements of earlier Bond films to recreate the feel of the era such as the jet pack from Thunderball (1965) and the Aston Martin DB5 that debuted in Goldfinger (1964).From Russia with Love is also notable in that it is the first video game to use Sean Connery's likeness as James Bond and the first to include all new voice work by the actor. From Russia with Love is the last James Bond video game EA Games marketed before they lost the rights to Activision in 2006.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 7,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-18",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/18/2019 03:35 pm",
+    "updatedAt": "05/18/2019 03:35 pm",
+    "_id": "af2318a1abb74ff4bb8eda1550523dbc",
+    "name": "007: From Russia with Love",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Racing",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "11/17/2002",
+    "total_rating": 66,
+    "esrb": "T",
+    "videos": [
+      "PtBwYC4ZCLc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26dt.jpg",
+    "description": "007: Nightfire is a first-person shooter featuring the character of the British secret agent James Bond and a sequel to Agent Under Fire. The game marked Pierce Brosnan's fourth appearance as James Bond before the release of his fourth and final Bond film Die Another Day. His likeness was featured in the game, but not his voice, which was provided by Maxwell Caulfield. Overall there are many weapons that the player can carry including grenades of various sorts and other types of explosives. In addition, there are numerous amounts of mounted weapons found throughout the game. As with previous James Bond games, the weapons that appear are based on actual weapons, but with the names changed. Some weapons appear in the console version but not the PC version, and vice-versa.",
+    "story": "The game's prologue mission starts in Paris, France, with James Bond helping French Intelligence operative Dominique Paradis evade a gang chase while chasing a truck with a stolen nuclear weapon, before continuing in his car. After stopping the truck from blowing up the Eiffel Tower, Dominique and James celebrate New Year's Eve.\n\nThe British Government sends Bond undercover to a party in industrialist Raphael Drake's Austrian castle. M believes that the party is a cover for the exchange of a missile guidance chip between Raphael Drake and Alexander Mayhew, who manages the Japanese branch of Drake's industry, Phoenix International, and had stolen the chip from the United States. Phoenix is believed to be a front for weapon smuggling. M gives Bond the instruction for 007 to rendezvous with CIA agent Zoe Nightshade and Dominique, who is posing as Drake's mistress. While Zoe distracts the guards, Bond makes his way to the exchange and steals the chip. Agents Nightshade and 007 make an try to make an escape on a cable car, when Drake's bodyguard, Rook, attacks the cable car with a rocket-launching helicopter. Bond shoots down the attacking helicopter using rockets found in the cable car. James and Zoe then escape Drake's forces in an armored snowmobile before continuing in James' car. They rendezvous with Q, who takes them out of Austria.\n\nAfter the breach, Drake threatens to kill Mayhew, should the operation fail. Mayhew contacts MI6, saying he will provide vital information if Bond comes to his rescue. At his Japanese estate, Mayhew is attacked by Drake's men, consisting of Japanese thugs. Bond fights his way through the estate and manages to obtain a file from Mayhew's safe. As they are prepared to make an escape from the estate, Mayhew is killed by a ninja. The file leads Bond to Mayhew's office at the Phoenix Building in Tokyo.\n\nBond is able to infiltrate the building while the guards are changing shifts and secures official NightFire documents. He is then attacked by Drake's men before Dominique provides a distraction, which allows Bond to escape via parachute off the roof of the building.\n\nThe NightFire documents lead Bond to a nuclear power plant being decommissioned by Phoenix International. Bond retrieves evidence of Drake's activities and escapes. However, he is then double crossed and captured by Kiko, Mayhew's former bodyguard, and turned over to Drake. On the top of the Phoenix building, Drake plans to kill Bond and Dominique, who has been discovered as a mole. Dominique is kicked off the rooftop and killed by Kiko. Bond escapes to the ground level before being saved by Australian Intelligence agent Alura McCall.\n\nM sends Bond and Alura to Drake's private island, where Drake has set up a jamming signal. The pair infiltrate the island and eliminate Drake's defenses. M makes Bond aware of the UN, EU, and NATO forces arriving on the island to dismantle remaining enemy combatants. Bond makes his way to Drake's underground silo, fighting off Kiko before entering one of three space shuttles intending to capture the Space Defense Platform. Kiko incinerates in the blast pit when Bond's space shuttle launches. Bond reaches the U.S. Space Defense Platform, where Drake is. He successfully sends all eight missiles off course, saving millions of lives, and causes Drake's laser weapon to malfunction, leading to a huge explosion. Finally, Bond kills Drake. As the station goes up in flames, Bond blasts from an escape pod and goes back down to Earth, where M informs him that astronomers from around the globe are reporting \"unexpected meteor showers\" (which is actually the debris of the now-destroyed Space Defense Platform).",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 7,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-18",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/18/2019 03:35 pm",
+    "updatedAt": "05/18/2019 03:35 pm",
+    "_id": "06ed2453373540daa7bdcc75c12d6e9b",
+    "name": "James Bond 007: Nightfire",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/20/1997",
+    "total_rating": 78,
+    "esrb": "M",
+    "videos": [
+      "02kMHWKaMg8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g6l.jpg",
+    "description": "Drive dozens of varied vehicles around three of America's toughest cities.       Only the best will be able to tame the fastest cars. Only the smartest will know all the short-cuts and the whereabouts of the hottest wheels.       Only the toughest will be able to take on the world and finish the job like a professional...",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-18",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/18/2019 03:30 pm",
+    "updatedAt": "05/18/2019 03:30 pm",
+    "_id": "5575e60878714f4badbf23b7862dc188",
+    "name": "Grand Theft Auto",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "01/30/1997",
+    "total_rating": 88,
+    "esrb": "T",
+    "videos": [
+      "oRanxri0sYs",
+      "bVIi735vvgo",
+      "jNQfY3G35y0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2evn.jpg",
+    "description": "Set in a dystopian world, Final Fantasy VII's story centers on mercenary Cloud Strife who joins with several others to stop the megacorporation Shinra, which is draining the life of the planet to use as an energy source. As the story progresses, the situation escalates and Cloud and his allies face Sephiroth, the game's main antagonist.",
+    "story": "The game begins with Cloud Strife, working as a mercenary for hire, helping the eco terrorist group AVALANCHE in a raid against the Mako reactors surrounding the Shinra-governed city of Midgar. Barret, the group's leader, believes the Mako energy the reactors consume to be the planet's lifeblood, and Shinra's reactors are killing the planet. Cloud's childhood friend, Tifa, is also in the group. Although the first mission is successful, AVALANCHE is ambushed at the next reactor during a subsequent raid. When the reactor explodes, Cloud drops down into Midgar's slums. He is found by Aerith (aka Aeris), a girl he briefly met selling flowers after his first mission with AVALANCHE. Prompted by the arrival of the Turks, who have been sent to capture Aerith, Cloud agrees to act as her bodyguard and defends her from their assault. Meanwhile, Shinra learns the location of AVALANCHE's hideout in Sector 7, and subsequently destroys it by dropping the upper plate of Sector 7 onto the slums, killing its population. The Turks also capture Aerith, who is revealed to be the last surviving \"Cetra\", an ancient near-dead tribe closely attuned with the planet. President Shinra and Professor Hojo believe Aerith is the key to finding the \"Promised Land\", a mythical land of fertility they see as an abundant source of Mako. The remaining AVALANCHE members - Cloud, Barret and Tifa - infiltrate Shinra to rescue Aerith, in the process encountering a specimen simply labeled \"Jenova\". Joined by Red XIII, a sentient tiger-like creature on whom Hojo had been conducting experiments, the party rescues Aerith, but is captured by the Turks while trying to escape and detained within the building. In the morning, they find their cells open and most of the personnel, including President Shinra, killed: the perpetrator appears to be Sephiroth, a legendary SOLDIER leader who was presumed dead several years ago.The group discovers that the Jenova specimen is also missing, presumed stolen by Sephiroth. \n \nWhile the president's son, Rufus Shinra, assumes control of the company, the party leaves Midgar and pursues Sephiroth across the planet. They are joined by Cait Sith, a cat-robot secretly controlled by repentant Turk Reeve Tuesti; Yuffie Kisaragi, a teenage ninja from Wutai; Vincent Valentine, a former Turk; and Cid Highwind, a chain-smoking pilot. At a Cetra temple, the party encounters Sephiroth, who reveals his plan: if the world is significantly damaged, the Lifestream, made of pure Mako energy, will gather in an attempt to heal the wound. Sephiroth intends to use the legendary Black Materia to cast a spell called \"Meteor\" to cause a massive injury, enabling him to merge with the planet's Mako energy and be reborn as a god. The party drives off Sephiroth, acquiring the Black Materia, but Sephiroth manipulates Cloud into giving him the Materia. While the party recovers from the encounter, Aerith sets off to stop Sephiroth on her own, following him to an ancient Cetra city. The party follows, and finds Aerith praying to the planet for aid. Just as they reach her, Sephiroth kills her. Cloud and his allies track Sephiroth to the North Crater. During their journey, they find out that Jenova is an interstellar creature who crashed on the planet roughly two thousand years ago, intent on taking over completely. Attempting to defend itself, the planet created giant monsters called Weapons. While most humans fled, the Cetra managed to defeat Jenova and entomb its remains. A few decades before the present, the remains of Jenova were unearthed by Professor Gast, a researcher for Shinra. Mistaking Jenova for a Cetra, Gast attempted to clone Jenova, assisted by Hojo. Even though Gast abandoned the project, Hojo successfully managed to use his assistant's unborn child for the experiment: the baby was Sephiroth. Approximately five years before the present day, while on a Shinra mission with Cloud to Cloud's and Tifa's hometown of Nibelheim, Sephiroth encountered Hojo's failed test subjects and learned of his origins. Mistakenly believing that Jenova and he were Cetra, he was driven insane and destroyed Nibelheim as an act of vengeance on the normal human population. Cloud and Tifa confronted Sephiroth during the massacre, after which Sephiroth vanished, presumed dead until his reappearance in the present day. \n \nWhen the party reaches the Northern Crater to confront Sephiroth for killing Aerith, they learn that Sephiroth was one of multiple Jenova clones that Hojo had created from both animals and humans. Upon reaching Sephiroth, who has been killing and absorbing the Jenova clones to instigate a \"Reunion\" of Jenova's cells, he manipulates Cloud into helping him cast Meteor, then states that Cloud is one of Sephiroth's clones, showing him memories of the Nibelheim incident with a black-haired SOLDIER in Cloud's place. The summoning of Meteor activates the planet's Weapons, and during the subsequent earthquake, Cloud is separated from his companions and falls into the Lifestream. The rest of the party and the Turks that had followed them to the Crater escape on the airship, the Highwind, where the party members are placed under arrest. As Meteor approaches the planet, the Weapons turn on humanity in an attempt to return as much Mako energy to the Lifestream as possible to aid the planet. Shinra focuses its efforts on protecting humanity from the Weapons and attempting to destroy Meteor directly, which eventually costs the lives of the majority of Shinra's personnel.[31] Tifa, Barret and the others are sentenced to be executed, but escape. They find a catatonic Cloud at a hospital in a tropical resort, where he washed up following the events at the North Crater. Tifa stays behind to help Cloud recover, while the rest of the party continue their fight against Shinra. An attack by the Weapons destroys the island, and Cloud and Tifa both fall into the Lifestream. There, Tifa helps Cloud reconstruct his memories and learns the truth about his past. \n \nIt is revealed that Cloud was not accepted into SOLDIER, and that the SOLDIER in Sephiroth's visions was Aerith's first love and Cloud's friend, Zack Fair. The two were present during the Nibelheim incident, with Cloud managing to fatally wound Sephiroth, who only survived through Jenova's cells: Zack and Cloud were severely wounded and later taken and used by Hojo to perfect his SOLDIER and Jenova experiments. Zack tried escaping with Cloud but was killed by Shinra soldiers. Cloud recovered, took Zack's sword and made his way to Midgar: Cloud's own aspirations to SOLDIER and Zack's memories and stories combined, with the help of the Jenova treatment, to create a false personality. Realizing and accepting his past, Cloud is able to recover. After Cloud and Tifa emerge from the Lifestream, the party regroup and learn that Aerith, in her final moments, was attempting to use the White Materia to cast the spell \"Holy\", the only means of opposing Meteor. It turns out she was successful in casting the spell, but Sephiroth has been preventing its release. The group decide to first stop the rampage of the Weapons. Alongside this, the party confront Hojo, revealed to be Sephiroth's father, as the scientist attempts to aid his son by feeding Mako energy to him. After mutating himself with Jenova cells, he is killed in combat. After this, they launch their final assault on Sephiroth, who is defeated by Cloud after a series of battles. The party escapes from the crater as Holy is released. Holy attempts to block Meteor under Midgar, but Meteor has drawn too close for Holy to combat it alone. Just before Meteor's impact, the Lifestream rises from the planet to aid Holy in destroying Meteor. Five hundred years later, Red XIII is seen with two cubs looking out over the ruins of Midgar, which are now covered in greenery, showing the planet has healed.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PlayStation",
+    "consoleId": 7,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 35,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-18",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "05/18/2019 03:29 pm",
+    "updatedAt": "05/18/2019 03:29 pm",
+    "_id": "154e749a921a45579c1086c3d8c5dbec",
+    "name": "Final Fantasy VII",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "05/13/2019",
+    "total_rating": 70,
+    "esrb": "M",
+    "videos": [
+      "M7eXH25_KC0",
+      "Y1n_jBZRGE8",
+      "RaHlO2LRj3Q",
+      "ciZTCpdj8iA",
+      "ZppAJKcC7ZU",
+      "8dm1GattCGI",
+      "P-Lfgm8yEzA",
+      "a03FqiDpfqk",
+      "1kX0pXXarGM",
+      "PLQg-Vq2zQk",
+      "IzEFv4CyXQA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbm.jpg",
+    "description": "Dive headfirst into a dystopian world devoid of society, law, and order. RAGE 2 brings together a true open world FPS experience where you can go anywhere, shoot anything, and explode everything.",
+    "story": "An asteroid has annihilated 80% of the earth’s population, and humanity’s numbers are dwindling. Ruthless and bloodthirsty gangs roam the open roads and the tyrannical Authority seek to rule with an iron fist. As Walker, the last Ranger of the wasteland and a threat to their power, you have been robbed of your home and left for dead. Now you’ll have to rage for justice and freedom. With ludicrous vehicle combat, super-powered first-person mayhem, and an open world full of emergent madness, you will tear across an unforgiving wasteland battling sadistic gangs to find the tools and tech needed to crush the oppressive rule of The Authority once and for all.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-16",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "05/16/2019 11:49 am",
+    "updatedAt": "05/26/2019 08:35 pm",
+    "_id": "c7d7ccd28da84d21a5fd5a596c0abd9e",
+    "name": "RAGE 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "08/01/2016",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "mRjsohqwz9Q"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jpg",
+    "description": "Overcooked! is a co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out.  Take part in an epic journey across the Onion Kingdom and tackle an increasingly challenging and bizarre gauntlet of kitchens which will push your skills of co-operation and co-ordination to the very limits.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-05-08",
+    "howAcquired": "PSN",
+    "notes": "",
+    "createdAt": "03/20/2020 09:59 pm",
+    "updatedAt": "03/20/2020 09:59 pm",
+    "_id": "8ccd6f4d20754849abfc9d9bc17d076f",
+    "name": "Overcooked",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Simulator",
+      "Indie",
+      "Party"
+    ]
+  },
+  {
+    "first_release_date": "12/05/2016",
+    "total_rating": 74,
+    "esrb": "M",
+    "videos": [
+      "GT3cb3f5pM0",
+      "5DaT9oYIGOA",
+      "34uG_aTrkvY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gzo.jpg",
+    "description": "It’s the holiday season in Willamette, Colorado and a mysterious outbreak has overrun the Willamette Memorial Megaplex Mall and surrounding town with dangerous and deadly predators. Join Frank West as you explore a vast, open world sandbox filled with dangerous new zombies and a million ways to kill them as you seek to uncover the truth behind the outbreak – or die trying.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-05",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "05/05/2019 07:38 pm",
+    "updatedAt": "05/05/2019 07:38 pm",
+    "_id": "c7a6f66b737743b4b1dcde8161b11d7d",
+    "name": "Dead Rising 4",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "10/09/2017",
+    "total_rating": 82,
+    "esrb": "M",
+    "videos": [
+      "B1tLIi932JM",
+      "ZR8XW5iLadk",
+      "L77tFiJVVoQ",
+      "228VbUHiqDA",
+      "NKVa1lnoORY",
+      "bKooTfKZ1ls",
+      "UIyKkHnyUDo",
+      "C2NSDkdKQWw",
+      "k0wqKmBOr4Y",
+      "IeZx4zHJxng",
+      "PldBatVPQR0",
+      "4on6xoSvc5U",
+      "5QhwpwGZIoo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20pq.jpg",
+    "description": "Go behind enemy lines to forge your army, conquer Fortresses and dominate Mordor from within. Experience how the award winning Nemesis System creates unique personal stories with every enemy and follower, and confront the full power of the Dark Lord Sauron and his Ringwraiths in this epic new story of Middle-earth.",
+    "story": "The world of men is ending. \n \nIn fires of Mount Doom, a ranger, and wraith bound together in death. Crafted the one thing that could challenge Sauron, a Ring of Power. \n \nBut power can blind those who seek it, The Great Deceiver has returned to Middle-Earth, to rebuild his armies. To rule all. \n \nThe corruption will be contained no longer. \n \nThe war for Mordor begins.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-05",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "05/05/2019 07:39 pm",
+    "updatedAt": "05/05/2019 07:39 pm",
+    "_id": "c5c1df3e28d24590ac504f518d19ffdb",
+    "name": "Middle-earth: Shadow of War",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/06/2018",
+    "total_rating": 89,
+    "esrb": "T",
+    "videos": [
+      "8EgWpFoOeYk",
+      "2y3CGcyF7W4",
+      "CtKQwF7E15Q",
+      "Sz4JMXUCSK0",
+      "X3ricWI0KHE",
+      "utVr-n0MaU0",
+      "_Sn5x1aLrUY",
+      "b5-_MvCWSfI",
+      "Gd0IjMXt0U0",
+      "L4MTPRu9Pr0",
+      "q4GdJVvdxss"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg",
+    "description": "Starring the world’s most iconic Super Hero, Spider-Man features the acrobatic abilities, improvisation and web-slinging that the wall-crawler is famous for, while also introducing elements never-before-seen in a Spider-Man game. From traversing with parkour and utilizing the environment, to new combat and blockbuster set pieces, it’s Spider-Man unlike any you’ve played before.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 4",
+    "consoleId": 48,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 27,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-05",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "05/05/2019 07:38 pm",
+    "updatedAt": "05/26/2019 08:36 pm",
+    "_id": "a626fedd2733496095ff5c2edc776f47",
+    "name": "Marvel's Spider-Man",
+    "extraData": [
+      "Sony PlayStation 4 full exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Marvel's Spider-Man",
+        "details": [
+          "Sony PlayStation 4 full exclusive"
+        ],
+        "id": "sps4389",
+        "igdbId": 19565,
+        "gbId": 54233,
+        "gbGuid": "3030-54233",
+        "isExclusive": [
+          {
+            "name": "Sony Playstation 4",
+            "id": "ccl23",
+            "igdbId": 48,
+            "gbId": 146,
+            "gbGuid": "3045-146",
+            "tgdbId": 4919
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/12/2015",
+    "total_rating": 91,
+    "esrb": "E10+",
+    "videos": [
+      "s9zbxQ_fa9w"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ujb.jpg",
+    "description": "The Legend of Zelda: Majora’s Mask 3D is a remastered and enhanced version of the Nintendo classic that’s unlike any other Legend of Zelda adventure. In this shadowy tale, a masked Skull Kid drags Link into the world of Termina, where the moon is falling from the sky. Lucky for Termina, Link can reverse time and relive his last 72 hours in limitless ways. Each time, he’ll don any of his 20+ masks, help different citizens, battle different bosses, and ultimately change the fate of a world. This is the definitive version of a dark classic.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 24,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-03",
+    "howAcquired": "Amazon",
+    "notes": "",
+    "createdAt": "05/16/2019 11:50 am",
+    "updatedAt": "05/16/2019 11:50 am",
+    "_id": "538e3255bc964b2faa7b37bf26c68956",
+    "name": "The Legend of Zelda: Majora's Mask 3D",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/15/2011",
+    "total_rating": 92,
+    "esrb": "E10+",
+    "videos": [
+      "PX6RndmM1CU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nl5.jpg",
+    "description": "The Legend of Zelda: Ocarina of Time 3D takes the Nintendo 64 classic – one of the most critically acclaimed games ever made – and returns it to the Nintendo 3DS system with the added depth and realism of stunning, glasses free 3D visuals.  In this game, Link sets off on a legendary journey through time to stop Ganondorf, the Gerudo King of Thieves who is seeking the Triforce, a holy relic that gives its holder ultimate power. The graphical upgrades and three-dimensional depth breathe new life into the expansive world of Hyrule. An improved and intuitive interface, coupled with the easier navigation offered by playing in a world with 3D visuals, give players better control as they solve puzzles, travel through time and explore this immersive world. Whether you're a first-time player or a regular visitor to Hyrule, The Legend of Zelda: Ocarina of Time 3D is a new adventure for everyone.",
+    "story": "A young Kokiri boy discovers that his destiny is to free the Seven Sages and save the land of Hyrule from the treacherous sorcerer Ganondorf.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-03",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "05/05/2019 07:32 pm",
+    "updatedAt": "05/05/2019 07:32 pm",
+    "_id": "26a6a2954157425bbd4c97a6c8268ff1",
+    "name": "The Legend of Zelda: Ocarina of Time 3D",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/21/2015",
+    "total_rating": 65,
+    "esrb": "E",
+    "videos": [
+      "1mptQhqArcA",
+      "HHiHmsK6lcw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nrj.jpg",
+    "description": "A princess in distress... A kingdom in peril...a fashion emergency?! Team up with two other heroes to save the world of Hytopia from a witch's evil fashion curse.  For the first time, you can stack three Links into a totem to solve puzzles and defeat enemies. And don’t forget to pick the perfect outfit—each one gives you a different boost or ability.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 3,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 3,
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-05-03",
+    "howAcquired": "Amazon",
+    "notes": "",
+    "createdAt": "05/05/2019 07:30 pm",
+    "updatedAt": "05/05/2019 07:30 pm",
+    "_id": "6e03465c63b04d41b2bb4e37c0a0664b",
+    "name": "The Legend of Zelda: Tri Force Heroes",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/05/1993",
+    "total_rating": 83,
+    "esrb": "E",
+    "videos": [
+      "E0ErE4l1EKM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nqz.jpg",
+    "description": "A Game Boy fantasy adventure like no other!  Nintendo's fantasy adventure hero, Link of Hyrule, returns in this new epic quest...Link's Awakening. Link's newest challenge is set on the mysterious Koholint Island, a place where dreams and reality collide. As a castaway, Link must find a way to escape from the island and return to his beloved homeland of Hyrule.  But it won't be as easy as chartering a boat. The island's inhabitants have no knowledge of the outside world. One creature, a talking Owl, may know the solution to Link's dilemma, but first Link must tackle eight dungeons full of treacherous monsters and tricky taps. His goal: find the eight Instruments of the Sirens and awaken the omnipotent Wind Fish which rules the island.  Link will battle new enemies and make new friends in one of the most in-depth fantasy adventures for Game Boy yet!  A battery-backed memory will save up to three games so you never have to start your journey empty-handed.",
+    "story": "After the events of A Link to the Past, the hero Link travels by ship to other countries to train for further threats. A storm destroys his boat at sea, and he washes ashore on Koholint Island where he is taken to the house of Tarin by his daughter Marin. She is fascinated by Link and the outside world, and tells Link wishfully that, if she were a seagull, she would leave and travel across the sea. After Link recovers his sword, a mysterious owl tells him that he must wake the Wind Fish, Koholint's guardian, in order to return home. The Wind Fish lies dreaming in a giant egg on top of Mt. Tamaranch, and can only be awakened by the eight Instruments of the Sirens. \n \nLink proceeds to explore a series of dungeons in order to recover the eight instruments. During his search for the sixth instrument, Link goes to the Ancient Ruins. There he finds a mural that details the reality of the island: that it is merely a dream world created by the Wind Fish. After this revelation, the owl tells Link that this is only a rumor, and only the Wind Fish knows for certain whether it is true. Throughout Koholint Island, nightmare creatures attempt to obstruct Link's quest for the instruments, as they wish to rule the Wind Fish's dreamworld. \n \nAfter collecting all eight instruments from the eight dungeons across Koholint, Link climbs to the top of Mt. Tamaranch and plays the Ballad of the Wind Fish. This breaks open the egg in which the Wind Fish sleeps; Link enters and confronts the last evil being, a Nightmare that takes the form of Ganon and other enemies from Link's past.[24] Its final transformation is \"DethI\", a cyclopean, dual-tentacled Shadow. After Link defeats DethI, the owl reveals itself to be the Wind Fish's spirit, and the Wind Fish confirms that Koholint is all his dream. When Link plays the Ballad of the Wind Fish again, he and the Wind Fish awaken; Koholint Island and all its inhabitants slowly disappear. Link finds himself lying on his ship's driftwood in the middle of the ocean, with the Wind Fish flying overhead. If the player did not lose any lives during the game, Marin is shown flying after the ending credits finish.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-05-03",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "05/05/2019 07:31 pm",
+    "updatedAt": "05/05/2019 07:31 pm",
+    "_id": "e481fcd0ad244b68b028fadc1869b4e3",
+    "name": "The Legend of Zelda: Link's Awakening",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/30/2010",
+    "total_rating": 80,
+    "videos": [
+      "47DKoSDeOUQ",
+      "wsGVYFBxY88",
+      "98mSNK2UKqg",
+      "X0w1iPWyoRA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/dpt7jn81ttoczicvhxjp.jpg",
+    "description": "Monster Hunter Portable 3rd is a game in the Monster Hunter franchise for the PlayStation Portable system that was released in Japan on December 1, 2010. The game was released, as a part of the PlayStation Portable Remaster series, on PlayStation 3.The game introduces new regions, monsters, and a revised Felyne combat system. Monster Hunter Portable 3rd is not an update to Monster Hunter Freedom Unite or Monster Hunter Tri. Monster Hunter Portable 3rd is instead separate to the rest of the series, and most of the game has been entirely remade.However, it is also a successor to Monster Hunter Freedom Unite as the third game in the Portable series.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation Portable",
+    "consoleId": 38,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "Japanese",
+    "createdAt": "05/05/2019 07:34 pm",
+    "updatedAt": "05/05/2019 07:34 pm",
+    "_id": "f4eaecbf79764bdb8258d3e2c98dc03e",
+    "name": "Monster Hunter Portable 3rd",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2002",
+    "esrb": "E",
+    "videos": [
+      "XOoVZEd-tC8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tc0.jpg",
+    "description": "Relive the birth of handheld gaming with over a dozen classic Game & Watch games. Picture-perfect versions reproduce all the fast-paced action of the original games, and new modern versions bring these games into the 21st century with improved graphics, sound, and game play!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-04-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "05/05/2019 07:36 pm",
+    "updatedAt": "05/05/2019 07:36 pm",
+    "_id": "91ea54098d60420fa7432069609f687d",
+    "name": "Game & Watch Gallery 4",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": []
+  },
+  {
+    "first_release_date": "06/08/2007",
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/yangxyl3ingpmsejmr7g.jpg",
+    "description": "By combining a fast paced brick-and-paddle system along with great level design, we are bringing the fun and excitement in the vein of Breakout to a whole another level. This retro title has been enhanced with the better graphics, gameplay and the ability to use both screens. If you're a fan of action pinball, this title is for you. Utilize the features of the DS to add a new element of fun and control to the game as you bounce your magical orb through the labyrinth both horizontally and vertically. Use the shoulder buttons to rotate your paddles to shoot your orb in any direction. Find and utilize various power-ups throughout your journey to aid you in your fight against evil. There is a total of 5 levels (with several sub-levels within each) with new and unique challenges and varying environments. Each level has a unique end boss that must be defeated to continue. The game automatically saves your progress so you can come back and play (replay) a level at anytime.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-04-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "05/05/2019 07:37 pm",
+    "updatedAt": "05/05/2019 07:37 pm",
+    "_id": "501f5e63f05647eea0d432550f721af9",
+    "name": "Classic Action: Devilish",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/26/2002",
+    "total_rating": 91,
+    "esrb": "M",
+    "videos": [
+      "MpmDawqOfqs",
+      "Iq2Jzksu8BA",
+      "Q7FZf5v4Y4U",
+      "Qsx6ZMfcPUs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tgv.jpg",
+    "description": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City (based on Miami) push him down a different path. Featuring a wide variety of vehicles and weapons, radio stations playing hit songs from the era and an intense atmosphere, GTA: Vice City is an open-world sandbox satire of '80's Miami.",
+    "story": "Welcome to Vice City. Welcome to the 1980s.  \n  \nHaving just made it back onto the streets of Liberty City after a long stretch in maximum security, Tommy Vercetti is sent to Vice City by his old boss, Sonny Forelli. They were understandably nervous about his re-appearance in Liberty City, so a trip down south seemed like a good idea. But all does not go smoothly upon his arrival in the glamorous, hedonistic metropolis of Vice City. He's set up and is left with no money and no merchandise. Sonny wants his money back, but the biker gangs, Cuban gangsters, and corrupt politicians stand in his way. Most of Vice City seems to want Tommy dead. His only answer is to fight back and take over the city himself.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-26",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "05/05/2019 07:33 pm",
+    "updatedAt": "05/05/2019 07:33 pm",
+    "_id": "fc41ffe11e1845aeb4d4c578aa2eb9d9",
+    "name": "Grand Theft Auto: Vice City",
+    "extraData": [
+      "banned in Germany: Originally given a 16+ rating. However, the game was later banned because of high-impact gory violence. The game was re-censored, re-attaining the 16+ rating. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Grand Theft Auto: Vice City",
+        "details": [
+          "banned in Germany: Originally given a 16+ rating. However, the game was later banned because of high-impact gory violence. The game was re-censored, re-attaining the 16+ rating. The ban was lifted in 2012.",
+          "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+        ],
+        "id": "bi72",
+        "igdbId": 733,
+        "gbId": 17036,
+        "gbGuid": "3030-17036",
+        "tgdbId": 789
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Adventure",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "10/30/1996",
+    "total_rating": 79,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uc1.jpg",
+    "description": "In 1991, the U.S.S.R. (Union of Soviet Socialist Republics) boasting the largest military force in history, suddenly and unexpectedly collapsed. Since that time the fallen empire has lain lifeless -- a rich corpse waiting to be picked clean. Now, a sinister ex-KGB general codenamed Shadowman directs a flock of vultures to swoop in from all parts of Eastern Europe and claim Russia's nuclear warheads and weapons of mass terror. While directing these 'wars of liberation' Shadowman intends to shake democratic Russia to it's foundations, bringing about a return to the Cold War...or even worse. You chopper into Crimea and discover the plot of this Russian madman using thermal spy devices. You must quickly move on to the Black Sea to prevent the hijacking of ICBM ships, respond to an attack on a chemical weapons plant in the desert passes, and then recover a nuclear reactor core in Transylvania. As you successfully thwart these stages of Operation Vulture, Shadowman is forced to take his coup to the streets of Moscow. Guide your chopper through five unique 3D worlds as you complete 41 deadly missions. Enemy vehicles, tactics, and responses change, based upon your activities, making this the first of STRIKE's new \"Living Battlefields\".",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega Saturn",
+    "consoleId": 32,
+    "condition": "Fair",
+    "case": "original",
+    "pricePaid": 14,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-20",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/20/2019 04:55 pm",
+    "updatedAt": "04/20/2019 04:55 pm",
+    "_id": "85e86314e1c8428db251313c6d90b879",
+    "name": "Soviet Strike",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Strategy",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/30/1999",
+    "total_rating": 80,
+    "esrb": "T",
+    "videos": [
+      "GOFtNGF0w7s"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dah.jpg",
+    "description": "Tekken Tag Tournament is an update of Tekken 3 and is the fourth installment in the popular Tekken fighting game series. It is not canonical to the Tekken storyline however.",
+    "story": "Tekken Tag Tournament is not a part of the Tekken canonical storyline. This allowed Namco to bring back the characters that did not appear in Tekken 3 (such as Baek Doo San, Bruce Irvin, Jun Kazama, Kunimitsu, and Michelle Chang). The ages of the characters in this game are the same as the ages that they had in the last game that they were in. \n \nBecause Tekken Tag Tournament is a non-canonical game, it has no story. It is more of a compilation of Tekken, Tekken 2, and Tekken 3, allowing players to use almost every character in the Tekken series. The only characters that did not return from previous games are the first King, Marshall Law, the first Jack robot, the first Kuma, Gon, and Doctor Boskonovitch (although Dr. Boskonovitch does make a cameo appearance in Tekken Bowl). \n \nTekken Tag Tournament also introduced two new characters, Tetsujin and Unknown. Tetsujin is a \"pallette swap\" for Mokujin. Unknown is the final boss of Tekken Tag Tournament. Both of these new characters are \"mimic\" characters. Tetsujin never returned to any game in the Tekken series, but Unknown returned - once again, non-canonical - Tekken Tag Tournament 2.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 6,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-20",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/20/2019 04:57 pm",
+    "updatedAt": "04/20/2019 04:57 pm",
+    "_id": "0f8d8e6132e3426bb6e40b3231539f23",
+    "name": "Tekken Tag Tournament",
+    "extraData": [
+      "Sony PlayStation 2 launch title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Tekken Tag Tournament",
+        "id": "ps2417",
+        "details": [
+          "Sony PlayStation 2 launch title"
+        ],
+        "igdbId": 1249,
+        "gbId": 10162,
+        "gbGuid": "3030-10162",
+        "tgdbId": 3770,
+        "isLaunchTitle": [
+          {
+            "name": "Sony Playstation 2",
+            "id": "ccl21",
+            "igdbId": 8,
+            "gbId": 19,
+            "gbGuid": "3045-19",
+            "tgdbId": 11
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Fighting",
+      "Real Time Strategy (RTS)",
+      "Sport",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "11/03/2004",
+    "total_rating": 87,
+    "esrb": "E",
+    "videos": [
+      "cSIDghMWVMA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uja.jpg",
+    "description": "When the sorcerer Vaati turns Princess Zelda to stone, the king of Hyrule sends Link on a quest to free Zelda from her curse. With the help of Ezlo, a Minish also cursed by Vaati, Link must travel through a fantastical world rife with new items, puzzles, and bosses. As Link, you can shrink down to battle large enemies from within, find or unlock secret items and solve puzzles by fusing together magic relics.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 40,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-04-15",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/15/2019 07:47 am",
+    "updatedAt": "04/15/2019 07:47 am",
+    "_id": "cd5935b8a16f43b69828b27fd0e38078",
+    "name": "The Legend of Zelda: The Minish Cap",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/26/2001",
+    "total_rating": 88,
+    "esrb": "E",
+    "videos": [
+      "iqScK_AQDoY",
+      "_73CVfAvZ0A"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nrd.jpg",
+    "description": "Transform the world around you with the Rod of Seasons, and create order from chaos. Stop a power-hungry general named Onox, and rescue Din, the Oracle of Seasons, to save the troubled land of Holodrum.  Change the seasons to overcome puzzling obstacles. If Link finds a small plant at the bottom of a cliff, change the season to summer, and Link can use the newly grown Deku Flower to boost up to the top. If Link faces a deep lake, use the Rod of Seasons to shift into winter, letting Link walk over the ice.  Released on the Game Boy Color system in 2001, The Legend of Zelda: Oracle of Ages and The Legend of Zelda: Oracle of Seasons represent the pinnacle of classic 2D Zelda gameplay.  When played together, these two games offer an ultimate adventure not possible when each game is experienced on its own. The games feature a link system that unlocks access to additional content that you can't access any other way.",
+    "story": "The land of Holodrum is slowly withering. Onox, the General of Darkness, has imprisoned the Oracle of Seasons and is draining the very life out of the land. With the seasons in tumult and the forces of evil running rampant, the world looks for a hero... and finds Link. His quest won't be easy - he'll have to master the seasons themselves if he's to turn back the evil tide.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-04-15",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "04/15/2019 07:46 am",
+    "updatedAt": "04/15/2019 07:46 am",
+    "_id": "1a171a442e0b46658b89bd82b6f049cd",
+    "name": "The Legend of Zelda: Oracle of Seasons",
+    "extraData": [
+      "Nintendo Game Boy Color exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "The Legend of Zelda: Oracle of Seasons",
+        "details": [
+          "Nintendo Game Boy Color exclusive"
+        ],
+        "id": "ngbc99",
+        "igdbId": 1032,
+        "gbId": 5895,
+        "gbGuid": "3030-5895",
+        "tgdbId": 6123,
+        "isExclusive": [
+          {
+            "name": "Nintendo Game Boy Color",
+            "id": "ccl9",
+            "igdbId": 22,
+            "gbId": 57,
+            "gbGuid": "3045-57",
+            "tgdbId": 41
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/26/2001",
+    "total_rating": 90,
+    "esrb": "E",
+    "videos": [
+      "_nwR7WWo_yA",
+      "_73CVfAvZ0A"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nre.jpg",
+    "description": "Transcend the very fabric of time with the Harp of Ages. Rescue Nayru, the Oracle of Ages, to save the Land of Labrynna from Veran, Sorceress of Shadows, who will pitch the world into an endless night.  Travelling through time presents Link with unique challenges. If a river blocks Link's path in the present, he can travel to the past and move a stone, redirecting the flow of water. If he plants seeds in the past, he'll find full-grown trees and vines when he returns to the present.  Released on the Game Boy Color system in 2001, The Legend of Zelda: Oracle of Ages™ and The Legend of Zelda: Oracle of Seasons represent the pinnacle of classic 2D Zelda gameplay.  When played together, these two games offer an ultimate adventure not possible when each game is experienced on its own. The games feature a link system that unlocks access to additional content that you can't access any other way.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 20,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-04-15",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/15/2019 07:46 am",
+    "updatedAt": "04/15/2019 07:46 am",
+    "_id": "b8b43a31b5ad43bdb21c40c70784dd17",
+    "name": "The Legend of Zelda: Oracle of Ages",
+    "extraData": [
+      "Nintendo Game Boy Color exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "The Legend of Zelda: Oracle of Ages",
+        "details": [
+          "Nintendo Game Boy Color exclusive"
+        ],
+        "id": "ngbc98",
+        "igdbId": 1041,
+        "gbId": 8004,
+        "gbGuid": "3030-8004",
+        "tgdbId": 6122,
+        "isExclusive": [
+          {
+            "name": "Nintendo Game Boy Color",
+            "id": "ccl9",
+            "igdbId": 22,
+            "gbId": 57,
+            "gbGuid": "3045-57",
+            "tgdbId": 41
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "01/23/2017",
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1l49.jpg",
+    "description": "The Season Pass for Resident Evil 7. \"Not A Hero\" is a free update for the base game, instead of a DLC included in the season pass.  \"Purchase the Resident Evil 7 biohazard Season Pass and get access to the following additional content.  Banned Footage Vol. 1 - Nightmare - Bedroom - Ethan Must Die  Banned Footage Vol. 2 - 21 - Daughters - Jack's 55th Birthday  End of Zoe\"",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 27,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-13",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "04/13/2019 01:23 pm",
+    "updatedAt": "05/26/2019 08:36 pm",
+    "_id": "91d4d8948c684fb9b555523c6ea6d04f",
+    "name": "Resident Evil 7 Gold Edition",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "FPS",
+      "Horror"
+    ]
+  },
+  {
+    "first_release_date": "05/18/2015",
+    "total_rating": 94,
+    "esrb": "M",
+    "videos": [
+      "5nLipy-Z4yo",
+      "FP7no968jVU",
+      "_IBAovRNCuA",
+      "QrwGXAcE6ZA",
+      "6f8TbvsZ5Mk",
+      "bcEAsOC_8L0",
+      "xQGam9OHSUo",
+      "p14dHAwLOmo",
+      "8ZLfJjlZKvc",
+      "sb81f-ejNSI",
+      "yowv6_rspoM",
+      "ZpiczsigQto"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+    "description": "RPG and sequel to The Witcher 2 (2011), The Witcher 3 follows witcher Geralt of Rivia as he seeks out his former lover and his young subject while intermingling with the political workings of the wartorn Northern Kingdoms. Geralt has to fight monsters and deal with people of all sorts in order to solve complex problems and settle contentious disputes, each ranging from the personal to the world-changing.",
+    "story": "The Witcher 3: Wild Hunt concludes the story of the witcher Geralt of Rivia, the series' protagonist, whose story to date has been covered in the previous installments. Geralt's new mission comes in dark times as the mysterious and otherworldly army known as the Wild Hunt invades the Northern Kingdoms, leaving only blood soaked earth and fiery ruin in its wake; and it seems the Witcher is the key to stopping their cataclysmic rampage.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-13",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "04/13/2019 01:22 pm",
+    "updatedAt": "04/13/2019 01:22 pm",
+    "_id": "c14a440cf8334ad497efc5f9231e5879",
+    "name": "The Witcher 3: Wild Hunt",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "03/20/2017",
+    "total_rating": 72,
+    "esrb": "M",
+    "videos": [
+      "uG8V9dRqSsw",
+      "JsUG00sKyT4",
+      "y2vgHOXeps0",
+      "SPkv7DmeM1A",
+      "pyZw_oqk7Q8",
+      "A42U-QERIcw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tsi.jpg",
+    "description": "A new adventure awaits in the Mass Effect universe. With stunning visuals and a new galaxy to discover, BioWare delivers the next generation of space exploration.  Commander Shepard's story may be over, but there are many more stories to tell in the Mass Effect universe. Mass Effect Andromeda will be set in a new galaxy, with new characters, new quests and a whole load of new consequence-laden decisions to make.  Mass Effect: Andromeda takes you to the Andromeda galaxy, far beyond the Milky Way. There, you'll lead our fight for a new home in hostile territory - where WE are the aliens.  Play as the Pathfinder - a leader of a squad of military-trained explorers - with deep progression and customisation systems. This is the story of humanity’s next chapter, and your choices throughout the game will ultimately determine our survival in the Andromeda Galaxy.  As you unfold the mysteries of the Andromeda Galaxy and the hope for humanity lies on your shoulders – You must ask yourself… How far will you go?  Key Features:  Return to the Mass Effect universe. Lead the first humans in Andromeda on a desperate search for our new home. In this new chapter of Mass Effect, meet and recruit all-new, interesting characters caught up in an epic space saga filled with mystery and galactic conflict.  Fight for survival. Battle with your Pathfinder team against terrifying enemies and creatures. New additions like destructible environments, boosted jumps for added verticality, and all-new weapons and Biotics make combat more thrilling than ever.  Build your hero. Create a formidable hero with amazing weapons, powers and tech. A much more flexible skill and weapon progression tree means you can replicate your play style to make you unstoppable against new, powerful alien enemies.  Explore a new galaxy. Chart your own course in a dangerous new region. Unravel the mysteries of the Andromeda galaxy as you discover rich, alien worlds in the search for humanity’s new home.",
+    "story": "Mass Effect: Andromeda starts around 2185, as the Andromeda Initiative embarked on an ambitious goal to settle the Andromeda galaxy by traveling in large vessels known as arks. A coalition of Milky Way races — which includes humans, asari, turians, salarians and the krogan — participates in this 600-year expedition and placed in cryostasis to ensure that they do not age during the trip. Prior to the journey, the Initiative had identified 'golden worlds' in Andromeda's Heleus cluster, locations that are deemed highly viable for habitation. Each ark consists of a team that are led by a Pathfinder who is tasked to explore and ensure these worlds or any other potential locations are hospitable before settlement can begin.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 8,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-04-13",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "04/13/2019 01:20 pm",
+    "updatedAt": "04/13/2019 01:20 pm",
+    "_id": "2191f28389e84ce587e5b062795720af",
+    "name": "Mass Effect: Andromeda",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "09/25/2013",
+    "total_rating": 90,
+    "esrb": "E10+",
+    "videos": [
+      "y3f-xaRxi_o"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p9o.jpg",
+    "description": "The Legend of Zelda: The Wind Waker is the 10th sequel of the Legend of Zelda action-adventure series. It's the first game of the series to be set on a group of islands in the sea. Therefore, many of Link's actions base on sailing and traveling from island to island, making a baton for controlling the wind the key item of the game.  The Legend of Zelda: The Wind Waker HD is a HD remaster of the the cartoonish cel-shaded The Legend of Zelda: The Wind Waker released in 2002 for Gamecube.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Wii U",
+    "consoleId": 41,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-31",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "04/13/2019 01:18 pm",
+    "updatedAt": "04/13/2019 01:18 pm",
+    "_id": "c7d9eab93a6d49ffa696011a9b7c3462",
+    "name": "The Legend of Zelda: The Wind Waker HD",
+    "extraData": [
+      "Nintendo Wii U full exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "The Legend of Zelda: The Wind Waker HD",
+        "details": [
+          "Nintendo Wii U full exclusive"
+        ],
+        "id": "wiiu384",
+        "igdbId": 2276,
+        "gbId": 41348,
+        "gbGuid": "3030-41348",
+        "tgdbId": 17824,
+        "isExclusive": [
+          {
+            "name": "Nintendo Wii U",
+            "id": "ccl6",
+            "igdbId": 41,
+            "gbId": 139,
+            "gbGuid": "3045-139",
+            "tgdbId": 38
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/06/2009",
+    "total_rating": 84,
+    "esrb": "E10+",
+    "videos": [
+      "1-tJnmNP5ow"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uj9.jpg",
+    "description": "Ride into adventure with Link and Princess Zelda.  • Wield weapons and solve puzzles, all with your stylus  • Duke it out with friends in multiplayer battle mode  • Link and Zelda adventure together for the first time  The Legend of Zelda: Spirit Tracks sets hero Link on a daring new adventure. The game provides players with a new story, more puzzles and even a new mode of transportation. In this game, Link voyages by train, which offers up new possibilities for problem-solving. The game has the same look and feel established in the hit Nintendo DS game The Legend of Zelda: Phantom Hourglass.  • Link has a valuable new companion. While navigating dungeons, he’s accompanied by a Phantom, a hulking suit of armor that responds to his commands. Players can tap the Phantom to take command of him, then draw a line on the touchscreen to direct him where to go. The stout Phantom can walk through fire or lava, be used as a platform to carry Link above dangers, or even run interference to block Link from harm.  • When Link conducts the train, players enjoy a satisfying combination of action and real-time puzzle solving as they determine which track to take and how to best manipulate their speed. When on the train, Link must plot the best route to the end of the line around ever-moving obstacles. While en route, Link might need to fire an onboard cannon at enemies who attack the train or sound the whistle to scare animals off the tracks.  • Link uses a variety of new items and weapons, including the Whirlwind, which players activate by blowing into the microphone of the Nintendo DS system.  • As with The Legend of Zelda: Phantom Hourglass, players can draw notes on the in-game maps using the stylus on the touch screen.",
+    "story": "The Legend of Zelda: Spirit Tracks sets hero Link on a daring new adventure. The game provides players with a new story, more puzzles and even a new mode of transportation. In this game, Link voyages by train, which offers up new possibilities for problem-solving.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 25,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-31",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "04/13/2019 01:17 pm",
+    "updatedAt": "04/13/2019 01:17 pm",
+    "_id": "cab32ee1f0e4491aaf7b494cb3c74612",
+    "name": "The Legend of Zelda: Spirit Tracks",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  }
+]

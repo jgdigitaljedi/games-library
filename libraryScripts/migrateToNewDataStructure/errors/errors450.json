@@ -1,0 +1,468 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Jet Grind Radio",
+        "id": 4364,
+        "genres": [
+          "Platform",
+          "Sport"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 7,
+        "first_release_date": "09/01/2000",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Jet Set Radio\r, JSR\r, JGR",
+        "guid": "3030-20096",
+        "gbid": 20096,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2139801-box_jgr.png",
+        "deck": "A young graffiti artist named Beat and his gang of inline-skating Rudies roam the cel-shaded streets of Tokyo-to while spraying tags, defeating rival gangs and evading a city-wide police crackdown.",
+        "platforms": "Game Boy Advance, Dreamcast, Xbox 360 Games Store, PlayStation Network (PS3), PC, iPhone, Android, PlayStation Network (Vita)"
+      },
+      "consoleName": "Dreamcast",
+      "consoleIgdbId": 23,
+      "consoleGbid": 37,
+      "consoleGbGuid": "3045-37",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "35",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-05-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/18/2018 09:20 am",
+      "updatedAt": "11/18/2018 09:20 am",
+      "_id": "fb975d381648417b99ed839c1aff5f51",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2139801-box_jgr.png",
+      "description": "A young graffiti artist named Beat and his gang of inline-skating Rudies roam the cel-shaded streets of Tokyo-to while spraying tags, defeating rival gangs and evading a city-wide police crackdown.",
+      "name": "Jet Grind Radio",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {}
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Mortal Kombat : Komplete Edition",
+        "id": 2977,
+        "genres": [
+          "Fighting"
+        ],
+        "total_rating": 82,
+        "total_rating_count": 54,
+        "first_release_date": "04/18/2011",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "MK9\r, MKIX\r, Mortal Kombat 9\r, Mortal Kombat Komplete Edition\r, Mortal Kombat Vita\r, MK Vita",
+        "guid": "3030-25042",
+        "gbid": 25042,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1821533-box_mk.png",
+        "deck": "One of the goriest fighting game franchises returns to its roots, introducing a new story that re-tells the events of the first three Mortal Kombat games (with a unique twist).",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, PlayStation Vita, PlayStation Network (Vita)"
+      },
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "10",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-05-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "05/18/2019 03:38 pm",
+      "updatedAt": "05/18/2019 03:38 pm",
+      "_id": "4d0becc9c95b4f809ec5e253817052ae",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1821533-box_mk.png",
+      "description": "One of the goriest fighting game franchises returns to its roots, introducing a new story that re-tells the events of the first three Mortal Kombat games (with a unique twist).",
+      "name": "Mortal Kombat : Komplete Edition",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2977;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5c9kmhz62eo046xnli277siioch99e",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "007: Agent Under Fire",
+        "id": 1643,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 62,
+        "total_rating_count": 13,
+        "first_release_date": "11/12/2001",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "James Bond 007: Agent Under Fire",
+        "guid": "3030-16559",
+        "gbid": 16559,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1841790-box_auf.png",
+        "deck": "Agent Under Fire is a game released by EA under the James Bond license. It was the first James Bond game released for the then new generation of consoles.",
+        "platforms": "PlayStation 2, GameCube, Xbox"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "6",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-05-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "05/18/2019 03:34 pm",
+      "updatedAt": "05/18/2019 03:34 pm",
+      "_id": "1e4f1a8a82e04ec18b3744eb08356305",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1841790-box_auf.png",
+      "description": "Agent Under Fire is a game released by EA under the James Bond license. It was the first James Bond game released for the then new generation of consoles.",
+      "name": "007: Agent Under Fire",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1643;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5c9kmhz62eo046xnli277siioch99e",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Croc: Legend of the Gobbos",
+        "id": 7901,
+        "genres": [
+          "Platform"
+        ],
+        "total_rating": 74,
+        "total_rating_count": 28,
+        "first_release_date": "09/28/1997",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-9450",
+        "gbid": 9450,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/240682-croc_legend_of_the_gobbos.jpg",
+        "deck": "The evil Baron Dante has kidnapped furry little \"Gobbos\", and it's up to the titular green crocodile to save them!",
+        "platforms": "PlayStation, Saturn, Game Boy Color, PC"
+      },
+      "consoleName": "PlayStation",
+      "consoleIgdbId": 7,
+      "consoleGbid": 22,
+      "consoleGbGuid": "3045-22",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "15",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-05-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "05/18/2019 03:31 pm",
+      "updatedAt": "05/18/2019 03:31 pm",
+      "_id": "468aec1e17354835abe8c785f34ddf4c",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/240682-croc_legend_of_the_gobbos.jpg",
+      "description": "The evil Baron Dante has kidnapped furry little \"Gobbos\", and it's up to the titular green crocodile to save them!",
+      "name": "Croc: Legend of the Gobbos",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 7901;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5c9kmhz62eo046xnli277siioch99e",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Army Men: Sarge's Heroes 2",
+        "id": 3441,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 8,
+        "first_release_date": "11/20/2000",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-14160",
+        "gbid": 14160,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1799339-box_armymensh2.png",
+        "deck": "Sequel to 3D0's Army Men: Sarges Heroes. Sarge and his men (and women) fight the Tans once again.",
+        "platforms": "PlayStation 2, PlayStation, Nintendo 64, Game Boy Color"
+      },
+      "consoleName": "Nintendo 64",
+      "consoleIgdbId": 4,
+      "consoleGbid": 43,
+      "consoleGbGuid": "3045-43",
+      "condition": "Excellent",
+      "case": "custom",
+      "pricePaid": "13",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "2019-05-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "05/18/2019 03:32 pm",
+      "updatedAt": "05/18/2019 03:32 pm",
+      "_id": "7f7d29e659764b1d82092705d6d14f43",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1799339-box_armymensh2.png",
+      "description": "Sequel to 3D0's Army Men: Sarges Heroes. Sarge and his men (and women) fight the Tans once again.",
+      "name": "Army Men: Sarge's Heroes 2",
+      "miltiplayerNumber": 4,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 3441;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5c9kmhz62eo046xnli277siioch99e",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "SSX",
+        "id": 4175,
+        "genres": [
+          "Puzzle",
+          "Racing",
+          "Simulator",
+          "Sport",
+          "Snowboarding"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 22,
+        "first_release_date": "10/25/2000",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "X-treme Racing SSX\r, Extreme Racing SSX\r, エクストリーム・レーシング SSX",
+        "guid": "3030-1932",
+        "gbid": 1932,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2139874-box_ssx.png",
+        "deck": "Snowboard Supercross (SSX) is the ground-breaking PS2 launch title from EA Canada. It helped pave the way for many similar \"extreme\" sports games.",
+        "platforms": "PlayStation 2"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "5",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2019-04-20",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "04/20/2019 04:57 pm",
+      "updatedAt": "04/20/2019 04:57 pm",
+      "_id": "356a0ac44a584803a44e996237e2783e",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2139874-box_ssx.png",
+      "description": "Snowboard Supercross (SSX) is the ground-breaking PS2 launch title from EA Canada. It helped pave the way for many similar \"extreme\" sports games.",
+      "name": "SSX",
+      "miltiplayerNumber": 2,
+      "extraData": [
+        "Sony PlayStation 2 launch title",
+        "Sony PlayStation 2 exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "SSX",
+          "id": "ps2345",
+          "details": [
+            "Sony PlayStation 2 launch title",
+            "Sony PlayStation 2 exclusive"
+          ],
+          "igdbId": 4175,
+          "gbId": 1932,
+          "gbGuid": "3030-1932",
+          "tgdbId": 5424,
+          "isLaunchTitle": [
+            {
+              "name": "Sony Playstation 2",
+              "id": "ccl21",
+              "igdbId": 8,
+              "gbId": 19,
+              "gbGuid": "3045-19",
+              "tgdbId": 11
+            }
+          ],
+          "isExclusive": [
+            {
+              "name": "Sony Playstation 2",
+              "id": "ccl21",
+              "igdbId": 8,
+              "gbId": 19,
+              "gbGuid": "3045-19",
+              "tgdbId": 11
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4175;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5c9kmhz62eo046xnli277siioch99e",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

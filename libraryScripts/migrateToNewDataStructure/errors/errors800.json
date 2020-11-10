@@ -1,0 +1,118 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Halo: Combat Evolved",
+        "id": 740,
+        "genres": [
+          "Shooter",
+          "FPS"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 258,
+        "first_release_date": "11/14/2001",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Halo 1\r, Halo\r, Halo: CE\r, Halo: Custom Edition\r, Halo: Combat Evolved Anniversary\r, Halo CE HD\r, Halo HD\r, Halo CEA",
+        "guid": "3030-2600",
+        "gbid": 2600,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2550125-haloce.jpg",
+        "deck": "The first game in the Halo series of sci-fi first-person shooters. Halo: Combat Evolved is considered largely responsible for pioneering console shooters.",
+        "platforms": "Xbox 360, Xbox, Xbox 360 Games Store, PC"
+      },
+      "consoleName": "Xbox",
+      "consoleIgdbId": 11,
+      "consoleGbid": 32,
+      "consoleGbGuid": "3045-32",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/18/2018 03:52 pm",
+      "updatedAt": "11/18/2018 03:52 pm",
+      "_id": "b0442a76dc6846598ca811ab19a3b0d0",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2550125-haloce.jpg",
+      "description": "The first game in the Halo series of sci-fi first-person shooters. Halo: Combat Evolved is considered largely responsible for pioneering console shooters.",
+      "name": "Halo: Combat Evolved",
+      "miltiplayerNumber": 1,
+      "extraData": [
+        "Microsoft Xbox launch title",
+        "Xbox game plays on Xbox 360"
+      ],
+      "extraDataFull": [
+        {
+          "id": "xbox178",
+          "name": "Halo: Combat Evolved",
+          "details": [
+            "Microsoft Xbox launch title",
+            "Xbox game plays on Xbox 360"
+          ],
+          "igdbId": 740,
+          "gbId": 2600,
+          "gbGuid": "3030-2600",
+          "tgdbId": 1,
+          "isLaunchTitle": [
+            {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          ],
+          "special": [
+            {
+              "value": "Xbox game plays on Xbox 360",
+              "forPlatform": {
+                "name": "Microsoft Xbox",
+                "id": "ccl25",
+                "igdbId": 11,
+                "gbId": 32,
+                "gbGuid": "3045-32",
+                "tgdbId": 14
+              }
+            }
+          ],
+          "isExclusive": false
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 740;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 4yuun2dzofhfozrsv3t97oxkdrd5c6",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

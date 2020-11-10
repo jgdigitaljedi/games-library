@@ -1,0 +1,1420 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Half-Life: Source",
+        "id": 6744,
+        "genres": [
+          "Shooter",
+          "Platform",
+          "Puzzle",
+          "Adventure",
+          "FPS"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 45,
+        "first_release_date": "05/31/2004",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Figg-games.com%2Fwp-content%2Fuploads%2F2015%2F08%2FHalf-Life-Source-Free-Download.jpg&f=1&nofb=1",
+        "deck": "",
+        "platforms": ""
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "02/01/2020 07:27 am",
+      "updatedAt": "02/01/2020 07:27 am",
+      "_id": "526bf59f856e4f94924acd28947dccb4",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Figg-games.com%2Fwp-content%2Fuploads%2F2015%2F08%2FHalf-Life-Source-Free-Download.jpg&f=1&nofb=1",
+      "description": "",
+      "name": "Half-Life: Source",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 6744;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Plague Inc: Evolved",
+        "id": 7601,
+        "genres": [
+          "Simulator",
+          "Strategy",
+          "Tactical",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 36,
+        "first_release_date": "09/17/2015",
+        "developers": "",
+        "esrb": "E10+"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-46577",
+        "gbid": 46577,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2996046-box_pie.png",
+        "deck": "A rebuilt version of the popular mobile game for PC/Mac/Xbox One with new features including 3D graphics, multiplayer, and content sharing.",
+        "platforms": "Mac, PC, Xbox One, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:08 am",
+      "updatedAt": "02/01/2020 07:08 am",
+      "_id": "144de78d86f14987afc0e99ec8d496b9",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2996046-box_pie.png",
+      "description": "A rebuilt version of the popular mobile game for PC/Mac/Xbox One with new features including 3D graphics, multiplayer, and content sharing.",
+      "name": "Plague Inc: Evolved",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 7601;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "oO",
+        "id": 35316,
+        "genres": [
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": "",
+        "first_release_date": "07/05/2015",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "",
+        "gbid": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsteamcdn-a.akamaihd.net%2Fsteam%2Fapps%2F367570%2Fss_063380bd66c443e5f3aab8d9059bb9481cf60f95.1920x1080.jpg%3Ft%3D1468254920&f=1&nofb=1",
+        "deck": "",
+        "platforms": ""
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "02/01/2020 07:08 am",
+      "updatedAt": "02/01/2020 07:08 am",
+      "_id": "6c882c8ea8d4487b9f59e696a5fdfa1a",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsteamcdn-a.akamaihd.net%2Fsteam%2Fapps%2F367570%2Fss_063380bd66c443e5f3aab8d9059bb9481cf60f95.1920x1080.jpg%3Ft%3D1468254920&f=1&nofb=1",
+      "description": "",
+      "name": "oO",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 35316;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Mini Golf Arena",
+        "id": 95339,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Indie",
+          "Golf"
+        ],
+        "total_rating": 50,
+        "total_rating_count": "",
+        "first_release_date": "",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-67793",
+        "gbid": 67793,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/3009874-fullhdbannerwithlogov2.png",
+        "deck": "Mini Golf Arena is a multiplayer minigolf game.",
+        "platforms": "Mac, PC, Android, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:07 am",
+      "updatedAt": "02/01/2020 07:07 am",
+      "_id": "8214030cbca44e948c342f8cc694c16d",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/3009874-fullhdbannerwithlogov2.png",
+      "description": "Mini Golf Arena is a multiplayer minigolf game.",
+      "name": "Mini Golf Arena",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 95339;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Golf With Your Friends",
+        "id": 24985,
+        "genres": [
+          "Simulator",
+          "Sport",
+          "Strategy",
+          "Indie",
+          "Golf"
+        ],
+        "total_rating": 70,
+        "total_rating_count": 15,
+        "first_release_date": "01/28/2016",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Golf With Friends",
+        "guid": "3030-52572",
+        "gbid": 52572,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2822875-giantbomb.png",
+        "deck": "Online multiplayer minigolf game from Blacklight Interactive.",
+        "platforms": "Mac, PC, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:06 am",
+      "updatedAt": "02/01/2020 07:06 am",
+      "_id": "fc72647da66b490b8dfbe77a863cf6a7",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2822875-giantbomb.png",
+      "description": "Online multiplayer minigolf game from Blacklight Interactive.",
+      "name": "Golf With Your Friends",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 24985;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Contraption Maker",
+        "id": 9802,
+        "genres": [
+          "Puzzle",
+          "Simulator",
+          "Sport",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 2,
+        "first_release_date": "07/06/2014",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-42647",
+        "gbid": 42647,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2483359-splash.png",
+        "deck": "A spiritual successor to Rube Goldberg inspired The Incredible Machine.",
+        "platforms": "Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:05 am",
+      "updatedAt": "02/01/2020 07:05 am",
+      "_id": "2df34cb87cba40c1b8de099a084d433d",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2483359-splash.png",
+      "description": "A spiritual successor to Rube Goldberg inspired The Incredible Machine.",
+      "name": "Contraption Maker",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 9802;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Beat Hazard",
+        "id": 7404,
+        "genres": [
+          "Shooter",
+          "Music",
+          "Indie",
+          "Arcade",
+          "Twin-stick shooter"
+        ],
+        "total_rating": 81,
+        "total_rating_count": 22,
+        "first_release_date": "04/14/2010",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-29407",
+        "gbid": 29407,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/3140536-box_bh.png",
+        "deck": "Beat Hazard is a twin-stick shooter by a one-man development team. The beat of the music controls your shots, while the song itself supplies the layout of the level.",
+        "platforms": "Mac, Xbox 360 Games Store, PlayStation Network (PS3), PC, iPhone, iPad, Android, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:05 am",
+      "updatedAt": "02/01/2020 07:05 am",
+      "_id": "9169630cc9ab4963b8564ec5f2557ec6",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/3140536-box_bh.png",
+      "description": "Beat Hazard is a twin-stick shooter by a one-man development team. The beat of the music controls your shots, while the song itself supplies the layout of the level.",
+      "name": "Beat Hazard",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 7404;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Audiosurf 2",
+        "id": 9707,
+        "genres": [
+          "Music",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 21,
+        "first_release_date": "05/25/2015",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Audiosurf Air",
+        "guid": "3030-37762",
+        "gbid": 37762,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2554661-7346381850-tumbl.png",
+        "deck": "The sequel to Audiosurf, formerly known as Audiosurf Air.",
+        "platforms": "Mac, PC, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:04 am",
+      "updatedAt": "02/01/2020 07:04 am",
+      "_id": "cdd942ad563a4c3599ec08b98e340bab",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2554661-7346381850-tumbl.png",
+      "description": "The sequel to Audiosurf, formerly known as Audiosurf Air.",
+      "name": "Audiosurf 2",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 9707;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Archimedes",
+        "id": 31228,
+        "genres": [
+          "Strategy",
+          "Indie"
+        ],
+        "total_rating": 60,
+        "total_rating_count": "",
+        "first_release_date": "10/05/2016",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-57622",
+        "gbid": 57622,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2911065-1076983535-heade.jpg",
+        "deck": "A mysterious puzzle solving alternate reality game.",
+        "platforms": "PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:04 am",
+      "updatedAt": "02/01/2020 07:04 am",
+      "_id": "c7bbdff1160f4c1ba04dfda280a5020c",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2911065-1076983535-heade.jpg",
+      "description": "A mysterious puzzle solving alternate reality game.",
+      "name": "Archimedes",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 31228;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Terraria",
+        "id": 1879,
+        "genres": [
+          "Platform",
+          "Role-playing (RPG)",
+          "Simulator",
+          "Strategy",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 306,
+        "first_release_date": "05/15/2011",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-34940",
+        "gbid": 34940,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2994875-box_terr.png",
+        "deck": "The first major 2D entry into the world of \"open world\" sandbox action-adventure games, Terraria is inspired by 16-bit platformers and allows players to mine for ores, craft new equipment, and fight monstrous bosses in a large procedurally-generated world.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), PC, iPhone, Nintendo 3DS, iPad, Android, Windows Phone, PlayStation Vita, Nintendo 3DS eShop, Wii U, PlayStation Network (Vita), Xbox One, PlayStation 4, Linux, Nintendo Switch"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:03 am",
+      "updatedAt": "02/01/2020 07:03 am",
+      "_id": "3a8a43b0eba549faabe4d0b5523d16d8",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2994875-box_terr.png",
+      "description": "The first major 2D entry into the world of \"open world\" sandbox action-adventure games, Terraria is inspired by 16-bit platformers and allows players to mine for ores, craft new equipment, and fight monstrous bosses in a large procedurally-generated world.",
+      "name": "Terraria",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1879;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Sid Meier's Civilization III: Game of the Year Edition",
+        "id": 53609,
+        "genres": [
+          "Simulator",
+          "Strategy",
+          "Turn-based strategy (TBS)"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "10/23/2002",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "Civ 3, Civ III, Civilization 3, Civilization III",
+        "guid": "3030-1594",
+        "gbid": 1594,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/625303-454261_27064_front_1_.jpg",
+        "deck": "Civilization III is the third installment of Sid Meier's franchise and brings many new features including unique units and traits for each civilization, culture, and improved combat and graphics.",
+        "platforms": "Mac, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:02 am",
+      "updatedAt": "02/01/2020 07:02 am",
+      "_id": "d92cee5b6c1c43c1af16ef47a4dfa1d8",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/625303-454261_27064_front_1_.jpg",
+      "description": "Civilization III is the third installment of Sid Meier's franchise and brings many new features including unique units and traits for each civilization, culture, and improved combat and graphics.",
+      "name": "Sid Meier's Civilization III: Game of the Year Edition",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 53609;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 290
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Borderlands 2",
+        "id": 1011,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)",
+          "FPS"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 992,
+        "first_release_date": "09/17/2012",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-36055",
+        "gbid": 36055,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2560027-bl2clean.jpg",
+        "deck": "Return to Pandora as part of a new group of ragtag Vault Hunters in this sequel to the 2009 first-person \"role-playing shooter\" Borderlands, now with new crazy enemies, new crazy character classes, and even crazier weapons.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, Android, PlayStation Vita, PlayStation Network (Vita), PlayStation 4, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "4",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:01 am",
+      "updatedAt": "02/01/2020 07:01 am",
+      "_id": "12e817ba15be4eacbc81d53aa9d76d79",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2560027-bl2clean.jpg",
+      "description": "Return to Pandora as part of a new group of ragtag Vault Hunters in this sequel to the 2009 first-person \"role-playing shooter\" Borderlands, now with new crazy enemies, new crazy character classes, and even crazier weapons.",
+      "name": "Borderlands 2",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1011;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "10000000",
+        "id": 9705,
+        "genres": [
+          "Puzzle",
+          "Role-playing (RPG)",
+          "Simulator",
+          "Strategy",
+          "Indie"
+        ],
+        "total_rating": 65,
+        "total_rating_count": 9,
+        "first_release_date": "02/16/2012",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "10,000,000",
+        "guid": "3030-39155",
+        "gbid": 39155,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2413873-mzl.iliubzcw.png",
+        "deck": "10000000 is a fast-paced match-3/endless runner/RPG game in the vein of Puzzle Quest or Gyromancer.",
+        "platforms": "Mac, PC, iPhone, iPad, Android, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "02/01/2020 07:00 am",
+      "updatedAt": "02/01/2020 07:00 am",
+      "_id": "1f7187ec03f644049633fa37f109ef82",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2413873-mzl.iliubzcw.png",
+      "description": "10000000 is a fast-paced match-3/endless runner/RPG game in the vein of Puzzle Quest or Gyromancer.",
+      "name": "10000000",
+      "miltiplayerNumber": 1
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 9705;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Bigfoot: Collision Course",
+        "id": 4714,
+        "genres": [
+          "Racing",
+          "Arcade"
+        ],
+        "total_rating": 28,
+        "total_rating_count": 2,
+        "first_release_date": "10/27/2008",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-24613",
+        "gbid": 24613,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/822542-bf_wii_boxfront.png",
+        "deck": "\"Mind blowing 4x4 car crushing action\"",
+        "platforms": "PlayStation 2, Wii, Nintendo DS, PC"
+      },
+      "consoleName": "Wii",
+      "consoleIgdbId": 5,
+      "consoleGbid": 36,
+      "consoleGbGuid": "3045-36",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "Retro Game Treasure",
+      "notes": "factory selaed",
+      "createdAt": "02/23/2019 02:57 pm",
+      "updatedAt": "02/23/2019 02:57 pm",
+      "_id": "6faf374f6dab49fc820759594886515c",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/822542-bf_wii_boxfront.png",
+      "description": "\"Mind blowing 4x4 car crushing action\"",
+      "name": "Bigfoot: Collision Course",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 4714;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Wii Sports",
+        "id": 2181,
+        "genres": [
+          "Simulator",
+          "Sport"
+        ],
+        "total_rating": 76,
+        "total_rating_count": 90,
+        "first_release_date": "11/18/2006",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-13328",
+        "gbid": 13328,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2280537-box_wiisp.png",
+        "deck": "Packaged with the Wii (except Japan), Wii Sports allows players to compete with friends in tennis, bowling, boxing, baseball, and golf.",
+        "platforms": "Wii"
+      },
+      "consoleName": "Wii",
+      "consoleIgdbId": 5,
+      "consoleGbid": 36,
+      "consoleGbGuid": "3045-36",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "",
+      "howAcquired": "bundled with console",
+      "notes": "",
+      "createdAt": "11/19/2018 08:21 pm",
+      "updatedAt": "11/19/2018 08:21 pm",
+      "_id": "5465690b97a74f25aafa717e419e284f",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2280537-box_wiisp.png",
+      "description": "Packaged with the Wii (except Japan), Wii Sports allows players to compete with friends in tennis, bowling, boxing, baseball, and golf.",
+      "name": "Wii Sports",
+      "miltiplayerNumber": 4,
+      "extraData": [
+        "Nintendo Wii launch title",
+        "Nintendo Wii exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "id": "wii335",
+          "name": "Wii Sports",
+          "details": [
+            "Nintendo Wii launch title",
+            "Nintendo Wii exclusive"
+          ],
+          "igdbId": 2181,
+          "gbId": 13328,
+          "gbGuid": "3030-13328",
+          "tgdbId": 3293,
+          "isLaunchTitle": [
+            {
+              "name": "Nintendo Wii",
+              "id": "ccl5",
+              "igdbId": 5,
+              "gbId": 36,
+              "gbGuid": "3045-36",
+              "tgdbId": 9
+            }
+          ],
+          "isExclusive": [
+            {
+              "name": "Nintendo Wii",
+              "id": "ccl5",
+              "igdbId": 5,
+              "gbId": 36,
+              "gbGuid": "3045-36",
+              "tgdbId": 9
+            }
+          ],
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 2181;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Super Smash Bros. Brawl",
+        "id": 1628,
+        "genres": [
+          "Fighting",
+          "Platform",
+          "Sport",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 86,
+        "total_rating_count": 171,
+        "first_release_date": "01/23/2008",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "SSBB\r, Dairantô Sumasshu Burazâzu ekkusu\r, Great Melee Smash Brothers X\r, Project M",
+        "guid": "3030-20588",
+        "gbid": 20588,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2561025-ssb.jpg",
+        "deck": "Strap on your fighting shoes and get ready to brawl in the first  Smash Bros. game for the Wii.",
+        "platforms": "Wii"
+      },
+      "consoleName": "Wii",
+      "consoleIgdbId": 5,
+      "consoleGbid": 36,
+      "consoleGbGuid": "3045-36",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "4",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "11/19/2018 08:20 pm",
+      "updatedAt": "11/19/2018 08:20 pm",
+      "_id": "f4f12386226f4309a6bde6ed6861bc75",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2561025-ssb.jpg",
+      "description": "Strap on your fighting shoes and get ready to brawl in the first  Smash Bros. game for the Wii.",
+      "name": "Super Smash Bros. Brawl",
+      "miltiplayerNumber": 4,
+      "extraData": [
+        "Nintendo Wii exclusive"
+      ],
+      "extraDataFull": [
+        {
+          "name": "Super Smash Bros. Brawl",
+          "details": [
+            "Nintendo Wii exclusive"
+          ],
+          "id": "wii271",
+          "igdbId": 1628,
+          "gbId": 20588,
+          "gbGuid": "3030-20588",
+          "tgdbId": 3518,
+          "isExclusive": [
+            {
+              "name": "Nintendo Wii",
+              "id": "ccl5",
+              "igdbId": 5,
+              "gbId": 36,
+              "gbGuid": "3045-36",
+              "tgdbId": 9
+            }
+          ],
+          "isLaunchTitle": false,
+          "special": []
+        }
+      ]
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1628;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Super Mario Galaxy",
+        "id": 1077,
+        "genres": [
+          "Platform",
+          "Adventure"
+        ],
+        "total_rating": 93,
+        "total_rating_count": 252,
+        "first_release_date": "10/31/2007",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "SMG\r, Super Mario Wii Galaxy Adventure\r, Super Luigi Galaxy",
+        "guid": "3030-16094",
+        "gbid": 16094,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/488943-super_mario_galaxy.jpg",
+        "deck": "In Mario's first Wii adventure, the famed plumber travels throughout the universe on his latest quest to save Princess Peach from the evil Bowser.",
+        "platforms": "Wii, Wii U"
+      },
+      "consoleName": "Wii",
+      "consoleIgdbId": 5,
+      "consoleGbid": 36,
+      "consoleGbGuid": "3045-36",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "",
+      "notes": "",
+      "createdAt": "11/19/2018 08:20 pm",
+      "updatedAt": "11/19/2018 08:20 pm",
+      "_id": "5ddb2ba140024f038a21e09bbdbd43b6",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/488943-super_mario_galaxy.jpg",
+      "description": "In Mario's first Wii adventure, the famed plumber travels throughout the universe on his latest quest to save Princess Peach from the evil Bowser.",
+      "name": "Super Mario Galaxy",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 1077;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 289
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Star Wars: The Force Unleashed",
+        "id": 475,
+        "genres": [
+          "Role-playing (RPG)",
+          "Hack and slash/Beat 'em up",
+          "Adventure"
+        ],
+        "total_rating": 73,
+        "total_rating_count": 170,
+        "first_release_date": "09/15/2008",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Star Wars: The Force Unleashed - Ultimate Sith Edition, TFU",
+        "guid": "3030-20626",
+        "gbid": 20626,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/235514-swfu_final.jpg",
+        "deck": "Set before the events of the original Star Wars trilogy, The Force Unleashed casts the player as Darth Vader's secret apprentice tasked with hunting down the last of the Jedi Order.",
+        "platforms": "Mac, PlayStation Portable, PlayStation 2, Xbox 360, N-Gage, PlayStation 3, Wii, Nintendo DS, PC, iPhone"
+      },
+      "consoleName": "Wii",
+      "consoleIgdbId": 5,
+      "consoleGbid": 36,
+      "consoleGbGuid": "3045-36",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "",
+      "howAcquired": "Retro Game Treasure",
+      "notes": "",
+      "createdAt": "11/19/2018 08:19 pm",
+      "updatedAt": "11/19/2018 08:19 pm",
+      "_id": "606cbd3fc41f498fb9b6908b33d630b0",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/235514-swfu_final.jpg",
+      "description": "Set before the events of the original Star Wars trilogy, The Force Unleashed casts the player as Darth Vader's secret apprentice tasked with hunting down the last of the Jedi Order.",
+      "name": "Star Wars: The Force Unleashed",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary;where id = 475;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5gs3nrtxbzqh5uducut3z6qf119l5t",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 288
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

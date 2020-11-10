@@ -1,0 +1,2093 @@
+[
+  {
+    "first_release_date": "04/25/2007",
+    "total_rating": 72,
+    "videos": [
+      "xaeUwQ3j-aY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vj5.jpg",
+    "description": "One year after the events of FINAL FANTASY XII, the young protagonist Vaan travels the skies of Ivalice with his trusted navigator Penelo at his side. Their treasure hunting adventures take them to the sky continent of LemurÃ©s where they meet Llyud, a member of the aegyl race. These mysterious winged people have been living on the floating continent for centuries, but a disturbance has allowed treasure-seeking sky pirates to breach their once-hidden territory. It falls to Vaan and his band of young sky pirates to stand up against the trespassers, and defend this extraordinary world and its people.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-23",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "03/23/2019 03:40 pm",
+    "updatedAt": "03/23/2019 03:40 pm",
+    "_id": "0726242509c74592b2715aab930115a7",
+    "name": "Final Fantasy XII: Revenant Wings",
+    "extraData": [
+      "Nintendo DS exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Final Fantasy XII: Revenant Wings",
+        "details": [
+          "Nintendo DS exclusive"
+        ],
+        "id": "nds194",
+        "igdbId": 392,
+        "gbId": 10751,
+        "gbGuid": "3030-10751",
+        "tgdbId": 6800,
+        "isExclusive": [
+          {
+            "name": "Nintendo DS",
+            "id": "ccl11",
+            "igdbId": 20,
+            "gbId": 52,
+            "gbGuid": "3045-52",
+            "tgdbId": 8
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1987",
+    "total_rating": 69,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ynkhrx7lltnrx04dv8is.jpg",
+    "description": null,
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-23",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "03/23/2019 03:38 pm",
+    "updatedAt": "03/23/2019 03:38 pm",
+    "_id": "1f164e62f2c54290901142a25f0f9c3e",
+    "name": "Skate or Die",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Arcade",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2005",
+    "total_rating": 68,
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqm.jpg",
+    "description": "The Xbox 360 prequel to Rare's Nintendo 64 hit, Perfect Dark. Players once again slip into the role of Joanna Dark and fight their way through a twisting sci-fi storyline. The franchise's staple multiplayer mode returns, this time with full online support.  Set in the year 2020, three years before the original hit game Perfect Dark, Perfect Dark Zero features a gripping story, multiple game scenarios for endless replayability, a massive arsenal of weapons and combat-enabled vehicles. The sci-fi, first-person shooter features a fully interactive world, support for up to 50 players online via Xbox Live, breathtaking high-resolution graphics and spectacular special effects.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:50 pm",
+    "updatedAt": "03/23/2019 03:50 pm",
+    "_id": "e950751048934096b5ae73c6139f13bc",
+    "name": "Perfect Dark Zero",
+    "extraData": [
+      "Microsoft Xbox 360 launch title",
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+    ],
+    "extraDataFull": [
+      {
+        "id": "x360510",
+        "name": "Perfect Dark Zero",
+        "details": [
+          "Microsoft Xbox 360 launch title",
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+        ],
+        "igdbId": 1465,
+        "gbId": 14558,
+        "gbGuid": "3030-14558",
+        "tgdbId": 52,
+        "isLaunchTitle": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ]
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "10/10/2011",
+    "total_rating": 85,
+    "esrb": "E",
+    "videos": [
+      "7BTo-Wzdong"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2290.jpg",
+    "description": "Forza Motorsport 4 is a racing video game, and the fourth in the Forza Motorsport series. Like Sony's Gran Turismo franchise, Forza games are racing simulations; heavy emphasis is placed on making the cars drive and look as realistic as possible. Races are conducted on closed circuit tracks. 500 cars are featured in the core game experience, ranging from road cars to race cars.  Players can utilize Kinect to look into a corner using a new head tracking feature. This allows them to look toward the apex of a corner or at nearby cars. The controller or steering wheel is used to control the car while Kinect is used independently for viewing around the driver. Players can also use Kinect as a game controller. In this setting the game automatically accelerates and decelerates the player's vehicle utilizing a modified version of the feature known as Auto Brake in Forza Motorsport 3. The steering is controlled by placing the players arms out as if controlling an invisible steering wheel. Kinect will allow the player to use voice commands to start races and navigate menus.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:50 pm",
+    "updatedAt": "03/23/2019 03:50 pm",
+    "_id": "b483bde39e644679b86f1f24f4de534f",
+    "name": "Forza Motorsport 4",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Forza Motorsport 4",
+        "details": [
+          "Microsoft Xbox 360 full exclusive"
+        ],
+        "id": "x360284",
+        "igdbId": 3068,
+        "gbId": 33400,
+        "gbGuid": "3030-33400",
+        "tgdbId": 8864,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "10/21/2009",
+    "total_rating": 85,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/m1qtsn4ehaen83bbp1ee.jpg",
+    "description": "Forza Motorsport 3 is a racing video game developed for Xbox 360 by Turn 10 Studios. It was released in October 2009. It is the sequel to Forza Motorsport 2 and the third installment in the Forza Motorsport series. The game includes more than 400 customizable cars (More than 500 cars in the Ultimate Collection version) from 50 manufacturers and more than 100 race track variations with the ability to race up to eight cars on track at a time. These cars vary from production cars to race cars such as those from the American Le Mans Series.[1]",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:49 pm",
+    "updatedAt": "03/23/2019 03:49 pm",
+    "_id": "ce3ea1d6a78146c5aaa0c603bbb0de83",
+    "name": "Forza Motorsport 3",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Forza Motorsport 3",
+        "details": [
+          "Microsoft Xbox 360 full exclusive"
+        ],
+        "id": "x360283",
+        "igdbId": 3069,
+        "gbId": 24995,
+        "gbGuid": "3030-24995",
+        "tgdbId": 838,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "11/17/2014",
+    "total_rating": 81,
+    "esrb": "M",
+    "videos": [
+      "TGr79DZTymo",
+      "dO8ogv8yKBM",
+      "tZ8-oNZukq4",
+      "6X-UlvMr0hk",
+      "RE_E2MMzuGE",
+      "5XtEes5nd0U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpc.jpg",
+    "description": "In Far Cry 4, players find themselves in Kyrat, a wild region of the Himalayas struggling under the regime of a despotic self-appointed king. Using a vast array of weapons, vehicles and animals, players will write their own story across an exotic open-world landscape.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:48 pm",
+    "updatedAt": "03/23/2019 03:48 pm",
+    "_id": "54605f2796fa4f4ea585f134f2147853",
+    "name": "Far Cry 4",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Tactical",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "04/26/2006",
+    "total_rating": 73,
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/zgb9pfb3tslww35syx8s.jpg",
+    "description": "Far Cry Instincts: Predator, a Xbox 360 title, was released March 27, 2006. Predator is a graphically enhanced version of both Far Cry Instincts and Far Cry Instincts: Evolution.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 8,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:47 pm",
+    "updatedAt": "03/23/2019 03:47 pm",
+    "_id": "fe15d952e9324e1792334a39d2097ec3",
+    "name": "Far Cry Instincts: Predator",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "06/08/2011",
+    "total_rating": 56,
+    "esrb": "M",
+    "videos": [
+      "omOPjBoClw0",
+      "wVuuyRGB_BA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f1v.jpg",
+    "description": "Cocked, loaded and ready for action, Duke delivers epic ass-kicking, massive weapons, giant explosions and pure unadulterated fun!  Put on your shades and step into the boots of Duke Nukem. The alien hordes are invading and only Duke can save the world. Pig cops, alien shrink rays and enormous alien bosses can’t stop this epic hero from accomplishing his goal: to save the world, save the babes and to be a bad-ass while doing it.  The King arrives with an arsenal of over-the-top weapons, non-stop action, and unprecedented levels of interactivity. With hours and hours of action, and a range of bodacious multiplayer modes, rest assured knowing the fun goes on and on.",
+    "story": "Did the Alien bastards not learn their lesson the first time? Duke has been on hiatus for some time now, kicking back and franchising himself on the fame he gained from saving Earth from the first invasion. The Aliens have returned to Earth yet again, messing up Duke’s sweet routine of dirty leisure habits. \n \nThe Alien invaders are stealing Earth’s women, especially the hot ones! And they drank Duke’s beer. This. Won’t. Stand. As Duke battles his way through waves of aliens, the once beautiful gambling haven and Duke Nukem franchise chains are crumbling before his eyes. Time to bring the pain!",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:46 pm",
+    "updatedAt": "03/23/2019 03:46 pm",
+    "_id": "45dd0147961a48b4a16b50639813daad",
+    "name": "Duke Nukem Forever",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 490,
+        "name": "Duke Nukem Forever",
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "id": "x360232",
+        "gbId": 20721,
+        "gbGuid": "3030-20721",
+        "tgdbId": 953,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "01/24/2011",
+    "total_rating": 88,
+    "esrb": "M",
+    "videos": [
+      "EtEEa4PU7ok"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xq.jpg",
+    "description": "Three years after the Necromorph infestation aboard the USS Ishimura, Isaac Clarke awakens from a coma, confused, disoriented, and on a space station called The Sprawl. Just as his health begins to improve, The Sprawl is overrun with even more advanced forms of the alien-zombie hybrids.",
+    "story": "Dead Space 2 takes place three years after the events of Dead Space, in 2511. \n \nFollowing his nightmarish encounter on the USG Ishimura, former engineer Isaac Clarke arrives on the Sprawl, a civilian space station built on the remains of Saturn's moon, Titan, which was broken into pieces in a planet-cracking operation. Here a new Necromorph outbreak begins. Isaac witnesses the panic that overtakes the station from the start.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 6,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:45 pm",
+    "updatedAt": "03/23/2019 03:45 pm",
+    "_id": "c97ae3a17716404d8ebf27e0179dede2",
+    "name": "Dead Space 2",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+    ],
+    "extraDataFull": [
+      {
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+        ],
+        "name": "Dead Space 2",
+        "igdbId": 38,
+        "id": "x360191",
+        "gbId": 25444,
+        "gbGuid": "3030-25444",
+        "tgdbId": 308,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "02/18/2013",
+    "total_rating": 75,
+    "esrb": "M",
+    "videos": [
+      "lAOaKmuavsQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28p6.jpg",
+    "description": "The award-winning developer Crytek is back with Crysis 3, the first blockbuster shooter of 2013! Crysis 3 is the ultimate sandbox shooter, realized in the stunning visuals only Crytek and the latest version of CryENGINE can deliver. Available now on Xbox 360, PlayStation 3, and PC.",
+    "story": "Return to the fight as Prophet, the Nanosuit soldier on a quest to rediscover his humanity. Adapt on the fly with the stealth and armor abilities of your unique Nanosuit as you battle through the seven wonders of New York’s Liberty Dome. Unleash the firepower of your all-new, Predator bow and alien weaponry to hunt both human and alien enemies.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 8,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:43 pm",
+    "updatedAt": "03/23/2019 03:43 pm",
+    "_id": "8463777d8d124c03a915026a26a4c93c",
+    "name": "Crysis 3: Hunter Edition",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "name": "Crysis 3",
+        "igdbId": 1268,
+        "id": "x360169",
+        "gbId": 37957,
+        "gbGuid": "3030-37957",
+        "tgdbId": 9598,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "03/21/2011",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ew8mfgvpxhgc2gp7nvl5.jpg",
+    "description": "The Epic edition includes: Bulletstorm // Gears of War 3 beta invitation // 25,000 XP bonus for multiplayer // Access to the following in-game items: Golden leash, Peace Maker Carbine skin, Boot decal, Character armour.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:42 pm",
+    "updatedAt": "03/23/2019 03:42 pm",
+    "_id": "6587b6375c28451f9d25205aa60d56bc",
+    "name": "Bulletstorm: Epic Edition",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "11/11/2008",
+    "total_rating": 71,
+    "esrb": "E10+",
+    "videos": [
+      "QLWLdO9GLWM",
+      "N73I_XDr-cU",
+      "WK40EafcK10"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2feg.jpg",
+    "description": "Banjo-Kazooie: Nuts & Bolts is an action-adventure/vehicle construction/platformer video game developed by Rare and published by Microsoft Game Studios. It was first announced at the X06 Media Briefing. Banjo-Kazooie: Nuts & Bolts is the third installment in the Banjo-Kazooie series and takes place eight years after Banjo-Tooie.",
+    "story": "The game takes place following the conclusion of Banjo-Tooie, in which Gruntilda's body is destroyed by Banjo and Kazooie. Eight years have passed since Gruntilda's defeat. While Banjo and Kazooie are eating pizza, playing video games and listening to the radio, they discover Gruntilda's detached head returning to Spiral Mountain. They are about to fight when they are stopped by Lord of Games (L.O.G.). He attempts to settle the conflict between the two by devising a series of worlds and challenges. He uses his powers to give Gruntilda an artificial body and to restore the duo's physical fitness, but not their moves from previous games. \n \nL.O.G. transports the characters to Showdown Town, his headquarters, and starts the contest. The winner would be set to own Spiral Mountain; the loser must endure eternal hardship at L.O.G.'s video game factory. While Banjo and Kazooie seek to win by completing the challenges, Gruntilda uses her powers and abilities to try to stop the duo. An army of mechanical Gruntbots also assist the witch in her goal. The game ends with Gruntilda and Banjo attempting to face a final duel when L.O.G. once again comes in to stop them. After L.O.G. sends Gruntilda off to toil away at his video game factory, he rewards Banjo and Kazooie by restoring their moves and giving them the deeds to Spiral Mountain. Gruntilda vows that bringing her to the factory was a mistake and that she will make her own video game.",
+    "player_perspectives": [
+      "First person",
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 1,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 1,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-23",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/23/2019 03:41 pm",
+    "updatedAt": "03/23/2019 03:41 pm",
+    "_id": "b9c1d210877b4fa8b3bb355f512349bb",
+    "name": "Banjo-Kazooie: Nuts & Bolts",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Banjo-Kazooie: Nuts & Bolts",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+        ],
+        "id": "x36047",
+        "igdbId": 3008,
+        "gbId": 20586,
+        "gbGuid": "3030-20586",
+        "tgdbId": 14169,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Racing",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/25/2000",
+    "total_rating": 74,
+    "esrb": "E",
+    "videos": [
+      "mT1YIz-y5Js"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wcz.jpg",
+    "description": "Kirby's first 3-D adventure is also his Nintendo 64 debut, and it finds the always-versatile hero battling a new enemy called Dark Matter. Dark Matter is after a distant land's powerful crystal, but a young fairy named Ribbon attempts to save it by escaping with the gem to Dream Land. Now the crystal has been broken, and it's scattered around the world. Take control of Kirby and help him journey across six worlds, battling a wide variety of enemies and challenging bosses, as he tries to collect all 100 pieces of the shattered crystal.",
+    "story": "On the planet of Ripple Star, lives a group of kind and peaceful fairies. The planet itself is protected from danger by the power of the great Crystal, which watches over Ripple Star. This power, however, draws the attention of Dark Matter, who wishes to use the great Crystal for its own evil agenda. Its gigantic mass attacks and searches for the Crystal, blackening the sky and sending the fairies into panic. In response to the threat Dark Matter presents, the queen of Ripple Star orders a fairy named Ribbon to take the Crystal to a safe place. Ribbon tries to fly away with the Crystal in tow, but is stopped by three orbs sent by Dark Matter. The Crystal shatters into 74 shards, scattered throughout several planets, and Ribbon crashes onto Planet Popstar. Kirby finds one shard and gives it to Ribbon, whereupon the two set out to find the others. Once Kirby and his friends collect every Crystal Shard and defeat Miracle Matter, Dark Matter flees Ripple Star and explodes. The victory is cut short, however, as the Crystal detects a powerful presence of Dark Matter energy within the Fairy Queen and expels it from her, manifesting over the planet to create Dark Star. Kirby and his friends infiltrate Dark Star, and King Dedede launches them up to challenge 02. Kirby and Ribbon, armed with their Shard Gun, destroyed 02 and the Dark Star.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-23",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "Japanese version",
+    "createdAt": "03/23/2019 03:40 pm",
+    "updatedAt": "03/23/2019 03:40 pm",
+    "_id": "fa0f0d3ca4684c8f91471e5202eaef04",
+    "name": "Kirby 64: The Crystal Shards",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/30/1998",
+    "total_rating": 87,
+    "esrb": "E",
+    "videos": [
+      "XORskc95324"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dwq.jpg",
+    "description": "Link’s latest challenge is set on the mysterious Koholint Island, a place where dreams and reality collide. As a castaway, Link must find a way to escape from the island and return to his beloved homeland of Hyrule. This will not be an easy task.  The island’s inhabitants have no knowledge of the outside world. One creature, a talking owl, may know the solution to Link’s dilemma. Link must first tackle eight dungeons full of treacherous monsters and tricky traps. His goal: find the eight Instruments of the Sirens and awaken the omnipotent Wind Fish which rules the island.  * Experience the adventure in color! * Journey through a new dungeon (can only be accessed on the Game Boy Color system)! * Take pictures and print them using the Game Boy Printer (sold separately)! * Battery-backed memory saves up to three separate game files!",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-21",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "03/23/2019 03:52 pm",
+    "updatedAt": "03/23/2019 03:52 pm",
+    "_id": "c1d76c7d1a6b4b5ea36fd59ee8f5da18",
+    "name": "The Legend of Zelda: Link's Awakening DX",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "04/26/2000",
+    "total_rating": 89,
+    "esrb": "E",
+    "videos": [
+      "ms8iup8U0EU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n6a.jpg",
+    "description": "After the events of The Legend of Zelda: Ocarina of Time (1998), Link is assaulted by an imp named Skull Kid under the control of the evil Majora's Mask and gets stuck in a troubled land called Termina. Link must repeat the same 3 days, take on the identities of deceased people from other races, collect numerous masks and rid the land of evil to stop Majora from destroying the world in this third-person action/adventure game.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 40,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-14",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "03/18/2019 05:24 pm",
+    "updatedAt": "03/18/2019 05:24 pm",
+    "_id": "85cb34119eb44c3388ee7a2f3336a3a5",
+    "name": "The Legend of Zelda: Majora's Mask",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/31/1992",
+    "total_rating": 72,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xr.jpg",
+    "description": "Join Luke, Han and Chewbacca in their fierce war against the evil Empire. Battle treacherous aliens. Pilot two vehicles in high-speed, first-person, 3-D sequences. Fight your way through the wastelands of Tatooine to the hostile streets of Mos Eisley and beyond. So grab your blaster, strap on your lightsaber, and take on the fight for galactic freedom.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-09",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "03/09/2019 03:50 pm",
+    "updatedAt": "03/09/2019 03:50 pm",
+    "_id": "e00aeecd67fb44f6b1a1136845f7bbe6",
+    "name": "Super Star Wars",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/14/2012",
+    "total_rating": 74,
+    "esrb": "",
+    "videos": [
+      "JmaxQCXkbu0",
+      "wy6Aeco8U3g",
+      "1sWusZ6VORs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o4p.jpg",
+    "description": "The BFG Edition features enhanced graphics, better audio with more horror effects, a checkpoint save system, and support for 3D displays and HMDs. The game also includes the previous expansion Resurrection of Evil and a new single-player expansion pack called The Lost Mission. Additionally, it includes copies of the original Doom (the Ultimate Doom edition with the add-on fourth episode, \"Thy Flesh Consumed\"), and Doom II with the expansion No Rest for the Living, previously available for the Xbox 360. The BFG Edition also features the ability to use the flashlight while holding a weapon, in the form of the so-called armor-mounted flashlight.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-09",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/09/2019 03:54 pm",
+    "updatedAt": "03/09/2019 03:54 pm",
+    "_id": "7c13c7cbcdca4745a3f9776e8dd7b0e3",
+    "name": "Doom 3: BFG Edition",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "name": "Doom 3: BFG Edition",
+        "igdbId": 6968,
+        "id": "x360221",
+        "gbId": null,
+        "gbGuid": null,
+        "tgdbId": 51262,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "04/28/2008",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "kOZ8bRAO7YQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tgx.jpg",
+    "description": "What does the American dream mean today? For Niko Bellic fresh off the boat from Europe, it is the hope he can escape from his past. For his cousin, Roman, it is the vision that together they can find fortune in Liberty City, gateway to the land of opportunity.",
+    "story": "Grand Theft Auto IV follows the story of Niko Bellic, a veteran of an unnamed war in Eastern Europe, who is haunted by the betrayal of his 15 man army unit. Ten years later, after a smuggling run goes bad due to a betrayal from a partner, Niko leaves Eastern Europe[23] to escape the anger of his employer, Ray Bulgarin. After six months in the merchant navy (serving aboard the cargo ship the Platypus), and believing the stories of his cousin Roman, Niko comes to Liberty City to pursue the American Dream as well as searching for the traitor of his unit. After his arrival, however, Niko quickly learns that Roman's tales of riches and luxury were lies concealing struggles with gambling debts and loansharks, and that Roman lives in a dirty apartment rather than a mansion.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "PlayStation 3",
+    "consoleId": 9,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-09",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/09/2019 03:55 pm",
+    "updatedAt": "03/09/2019 03:55 pm",
+    "_id": "bf27e35232074917ad2eaf63faa5012c",
+    "name": "Grand Theft Auto IV",
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Sport",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "06/22/2007",
+    "total_rating": 83,
+    "esrb": "E",
+    "videos": [
+      "-gnZGtb8c7c"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nr8.jpg",
+    "description": "Continue the Wind Waker adventure in Link's first DS game.  The epic story of The Legend of Zelda: The Wind Waker continues as Link finds himself lost and alone in unknown seas in a new adventure. Featuring intuitive touch-screen controls and innovative puzzles, The Legend of Zelda: Phantom Hourglass offers new challenges for fans of the series and an easy-to-grasp introduction for gamers new to The Legend of Zelda. But time grows short, and only the Phantom Hourglass can buy Link the minutes he’ll need to survive.  Many months have passed since the events of The Legend of Zelda: The Wind Waker, and Link, Tetra and Tetra’s band of pirates have set sail in search of new lands. They come across a patch of ocean covered in a dense fog, in which they discover an abandoned ship. Tetra falls into danger when she explores the ship alone, and Link falls into the ocean when he attempts to rescue her. When he washes up unconscious on the shores of a mysterious island, he is awakened by the sound of a fairy’s voice. With the aid of this fairy, he sets off to find Tetra – and his way back to the seas he once knew.  As of May 20, 2014, the Nintendo Wi-Fi Connection service for Nintendo DSi and Wii systems has been retired. Online features of this game are no longer available after this date but this game still provides an entertaining experience in offline mode.  Features  * The stylus makes controlling Link easier than ever. Tap on the screen to make Link move, or sweep the stylus around him to swing the sword. Players can even draw a path for his boomerang and send it flying into hard-to-reach targets.  * Players can stash the map on the top screen for quick reference or drop it to the touch screen to make notes, study enemies, or chart a path for their boat to follow while they man the cannons.  * Compete with a friend over a local wireless connection: Guide Link through special dungeons to capture the Triforce or command the forces that oppose him.",
+    "story": "Many months have passed since the events of The Legend of Zelda: The Wind Waker, and Link, Tetra and Tetra’s band of pirates have set sail in search of new lands. They come across a patch of ocean covered in a dense fog, in which they discover an abandoned ship. Tetra falls into danger when she explores the ship alone, and Link falls into the ocean when he attempts to rescue her. When he washes up unconscious on the shores of a mysterious island, he is awakened by the sound of a fairy’s voice. With the aid of this fairy, he sets off to find Tetra – and his way back to the seas he once knew.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-04",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "03/05/2019 08:15 pm",
+    "updatedAt": "03/05/2019 08:15 pm",
+    "_id": "476d0dcd826243fea3067cd09dec50ba",
+    "name": "The Legend of Zelda: Phantom Hourglass",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "videos": null,
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 5,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/02/2019 12:49 pm",
+    "updatedAt": "03/02/2019 12:49 pm",
+    "_id": "fad6d3f44112485eae865c75f600b883",
+    "name": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": []
+  },
+  {
+    "first_release_date": "12/30/1995",
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/u91xfhrdkhcwn7fulmom.jpg",
+    "description": "Toughman Contest is a game based on the world famous boxing competition of the same name. You pick one of 24 fighters, compete in one of 5 locations from around the world, and re-create the Toughman tournament as seen on TV.  The boxing action is viewed from behind the back of fighter you control. Your fighter is rendered as an outline, so you can see what your opponent is up to and react accordingly. Toughman matches consist of three one minute rounds. Your goal is to KO your opponent by causing their stamina meter to decrease to the point where they fall down, or beating on them enough that you are scored the winner at end of the third round.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 10,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/02/2019 12:47 pm",
+    "updatedAt": "03/02/2019 12:47 pm",
+    "_id": "84a62910a08e4e41890f02300a6b8210",
+    "name": "Toughman Contest",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Sport",
+      "Boxing"
+    ]
+  },
+  {
+    "first_release_date": "06/22/1996",
+    "total_rating": 90,
+    "esrb": "E",
+    "videos": [
+      "8Fk5sRwbEWI",
+      "b7FoucuWU1s"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21mm.jpg",
+    "description": "The first three dimensional entry in the Mario franchise, Super Mario 64 follows Mario as he puts his broadened 3D movement arsenal to use in order to rescue Princess Peach from the clutches of his arch rival Bowser. Mario has to jump into worlds-within-paintings ornamenting the walls of Peach's castle, uncover secrets and hidden challenges and collect golden stars as reward for platforming trials.",
+    "story": "Mario is invited to Peach's castle, but when he arrives Peach is nowhere to be seen. He soon learns from Toad that Bowser has once again kidnapped her. The Koopa King has also put a spell on her castle, imprisoning her subjects. So it is up to Mario to break the spell and rescue Peach.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": 45,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-03-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "03/02/2019 12:48 pm",
+    "updatedAt": "03/02/2019 12:48 pm",
+    "_id": "4cfa97210d404ff7aeca2ce516686789",
+    "name": "Super Mario 64",
+    "extraData": [
+      "N64 launch title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Super Mario 64",
+        "id": "n64118",
+        "details": [
+          "N64 launch title"
+        ],
+        "igdbId": 1074,
+        "gbId": 2931,
+        "gbGuid": "3030-2931",
+        "tgdbId": 216,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo 64",
+            "id": "ccl3",
+            "igdbId": 4,
+            "gbId": 43,
+            "gbGuid": "3045-43",
+            "tgdbId": 3
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/18/2006",
+    "total_rating": 91,
+    "esrb": "T",
+    "videos": [
+      "KqUqxVKd5q0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uij.jpg",
+    "description": "Link, a young man raised as a wrangler in a small, rural village, is ordered by the mayor to attend the Hyrule Summit. He sets off, oblivious to the dark fate that has descended upon the kingdom. When he enters the Twilight Realm that has covered Hyrule, he transforms into a wolf and is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.  For Nintendo's long-awaited Legend of Zelda: Twilight Princess, the designers have split the game into two versions -- one for GameCube, and one specially designed to make use of the Wii utilizing the powers of the Wii controller for all-new ways of exploring Hyrule.",
+    "story": "Link, a young man from a small farming village, finds Hyrule is being consumed by an otherworldly twilight. Guided by a strange pixie named Midna, he endeavors to return light to the land and confront the usurper king Zant.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 60,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-03-01",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "03/02/2019 12:53 pm",
+    "updatedAt": "03/02/2019 12:53 pm",
+    "_id": "168961d3a05f4749b2897b67c7e6edfc",
+    "name": "The Legend of Zelda: Twilight Princess",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Sport",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/30/2006",
+    "total_rating": 75,
+    "esrb": "T",
+    "videos": [
+      "0RPFcXfh6Xw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pne.jpg",
+    "description": "Two months after the events of Killzone, most of southern Vekta is still under Helghast control. The rules of war are cast aside when the Helghast General, Metrac, employs increasingly brutal measures to seize the initiative and strengthen his position. Reprising the role of Templar, the player is sent on a covert operation to save hostages captured by Metrac, while ISA troops continue the fight for liberty.",
+    "story": "Set two months after the events of Killzone, most of southern Vekta is still under Helghast control. The rules of war have been cast aside with the Helghast General Armin Metrac, employing brutal measures in order to seize the initiative and strengthen his position further. Returning as Jan Templar, players will be sent on a covert mission to save hostages captured by Metrac, while ISA troops continue the fight for liberty. There are 4 \"chapters\" with 4 levels in which players eliminate the Helghast resistance (a fifth chapter was made available to download). \n \nReturning as Jan Templar, players are sent on a covert operation to save hostages captured by Metrac, while ISA troops continue the fight for liberty. Rico Velasquez, Jan's friend on the battlefield, often assists him on his way through the enemy lines. Shadow Marshal Luger, another of Jan's partners, also helps him.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 1,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 1,
+    "consoleName": "PlayStation Portable",
+    "consoleId": 38,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-23",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "02/23/2019 03:00 pm",
+    "updatedAt": "02/23/2019 03:00 pm",
+    "_id": "5cc9b6e1573547218469baac6e7b1541",
+    "name": "Killzone: Liberation",
+    "extraData": [
+      "Sony PlayStation Portable exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Killzone: Liberation",
+        "details": [
+          "Sony PlayStation Portable exclusive"
+        ],
+        "id": "spsp130",
+        "igdbId": 1868,
+        "gbId": 5556,
+        "gbGuid": "3030-5556",
+        "tgdbId": 15156,
+        "isExclusive": [
+          {
+            "name": "Sony Playstation Portable",
+            "id": "ccl24",
+            "igdbId": 38,
+            "gbId": 18,
+            "gbGuid": "3045-18",
+            "tgdbId": 13
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "07/05/1993",
+    "total_rating": 37,
+    "esrb": "M",
+    "videos": [
+      "8VEsAIYJYnY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2er8.jpg",
+    "description": "Sega released Eternal Champions for their Mega Drive/Genesis in 1993, hoping to capitalize on the fighting game mania that the game industry was in the midst of following the massive success of Street Fighter II (1991) and Mortal Kombat (1992). The game tried to set itself apart with unique features like a heavier emphasis on its story, characters pulled from different time periods, reflectable projectiles, force fields, fighters that carried weapons, a training mode where players had to defend themselves against robotic traps, a novel method of executing moves, and elaborate stage-specific finishing moves called \"Overkills\".",
+    "story": "An ominscent being known as the Eternal Champion predicts that mankind will soon fade to existence due to the untimely and unjust deaths of key individuals throughout history who were destined for greatness. Seeking to restore balance to the world, the Eternal Champion gathers these souls from time moments before their deaths to participate in a fighting tournament. The victor will be able to change their fate and bring balance to the universe, whilst the losers will be forced to live out their deaths just as history intended.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleId": 29,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-02-23",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "02/23/2019 02:58 pm",
+    "updatedAt": "02/23/2019 02:58 pm",
+    "_id": "22f38bc423d7464891505a384b8bc4d1",
+    "name": "Eternal Champions",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Simulator",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "03/01/2004",
+    "total_rating": 87,
+    "esrb": "M",
+    "videos": [
+      "Z4yr409HioE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/vwgbw2qyua9otm0meujp.jpg",
+    "description": "Ninja Gaiden is an action-adventure hack and slash video game developed by Team Ninja for the Xbox video game console.The game follows the fictional story of Ryu Hayabusa, a master ninja, in his quest to recover a stolen sword and avenge the slaughter of his clan.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox",
+    "consoleId": 11,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-02-23",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "02/23/2019 02:55 pm",
+    "updatedAt": "02/23/2019 02:55 pm",
+    "_id": "23f383559ab54efcbf4f53ce4142eda5",
+    "name": "Ninja Gaiden",
+    "extraData": [
+      "Xbox game plays on Xbox 360 - The unlockable NES arcade games cannot be played"
+    ],
+    "extraDataFull": [
+      {
+        "igdbId": 5972,
+        "name": "Ninja Gaiden",
+        "details": [
+          "Xbox game plays on Xbox 360 - The unlockable NES arcade games cannot be played"
+        ],
+        "id": "xbox290",
+        "gbId": 21876,
+        "gbGuid": "3030-21876",
+        "tgdbId": 1305,
+        "special": [
+          {
+            "value": "Xbox game plays on Xbox 360 - The unlockable NES arcade games cannot be played",
+            "forPlatform": {
+              "name": "Microsoft Xbox",
+              "id": "ccl25",
+              "igdbId": 11,
+              "gbId": 32,
+              "gbGuid": "3045-32",
+              "tgdbId": 14
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/18/2006",
+    "total_rating": 91,
+    "esrb": "T",
+    "videos": [
+      "KqUqxVKd5q0"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uij.jpg",
+    "description": "Link, a young man raised as a wrangler in a small, rural village, is ordered by the mayor to attend the Hyrule Summit. He sets off, oblivious to the dark fate that has descended upon the kingdom. When he enters the Twilight Realm that has covered Hyrule, he transforms into a wolf and is captured. A mysterious figure named Midna helps him break free, and with the aid of her magic, they set off to free the land from the shadows. Link must explore the vast land of Hyrule and uncover the mystery behind its plunge into darkness.  For Nintendo's long-awaited Legend of Zelda: Twilight Princess, the designers have split the game into two versions -- one for GameCube, and one specially designed to make use of the Wii utilizing the powers of the Wii controller for all-new ways of exploring Hyrule.",
+    "story": "Link, a young man from a small farming village, finds Hyrule is being consumed by an otherworldly twilight. Guided by a strange pixie named Midna, he endeavors to return light to the land and confront the usurper king Zant.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Wii",
+    "consoleId": 5,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 15,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-23",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "02/23/2019 03:01 pm",
+    "updatedAt": "02/23/2019 03:01 pm",
+    "_id": "2a34f47517d641a3aa2afb1ab62b1960",
+    "name": "The Legend of Zelda: Twilight Princess",
+    "extraData": [
+      "Nintendo Wii launch title"
+    ],
+    "extraDataFull": [
+      {
+        "id": "wii286",
+        "name": "The Legend of Zelda: Twilight Princess",
+        "details": [
+          "Nintendo Wii launch title"
+        ],
+        "igdbId": 1036,
+        "gbId": 19467,
+        "gbGuid": "3030-19467",
+        "tgdbId": 109,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo Wii",
+            "id": "ccl5",
+            "igdbId": 5,
+            "gbId": 36,
+            "gbGuid": "3045-36",
+            "tgdbId": 9
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Sport",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "08/13/2009",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/xzgmuodqvi4ufwa2pmp4.jpg",
+    "description": "Whether you want to play a quick, challenging game or a white-knuckle adventure, hours of fun and entertainment await you. There’s something for everyone in this collection of classic games including Chess, Mahjongg, Sudoku, Backgammon, Texas Hold ‘Em Poker, Solitaire and more.  - 50 Classic Games: Endless hours of puzzle, card and board game fun with classics including Mahjongg, Blackjack, Chess, Sudoku, Texas Hold ‘Em Poker, Klondike Solitaire, Free Cell, Chinese Checkers and many more.  - Varying Degrees of Difficulty: Challenging AI opponents to match your age or skill level. Step-by-step instructions included for those who need to brush up on the rules!  - Hot Seat Support: Compete against family and friends!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "flea market",
+    "notes": "",
+    "createdAt": "02/16/2019 12:01 pm",
+    "updatedAt": "02/16/2019 12:01 pm",
+    "_id": "7e9e9cf2ddac4880ac4f5dd2804cb442",
+    "name": "50 Classic Games",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle"
+    ]
+  },
+  {
+    "first_release_date": "11/19/2007",
+    "total_rating": 88,
+    "esrb": "M",
+    "videos": [
+      "-_6ZMr2bMco"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jpg",
+    "description": "What starts as a routine mission to an agrarian outpost quickly becomes the opening salvo in an epic war. As the newly appointed Executive Officer of the SSV Normandy, you'll assemble and lead an elite squad of heroes into battle after heart-pounding battle. Each decision you make will impact not only your fate, but the destiny of the entire galaxy in the Mass Effect trilogy.  Key Features:  Incredible, interactive storytelling. Create and customize your own character, from Commander Shepard's appearance and skills to a personalized arsenal. Unleash devastating abilities as you command and train. Your decisions will control the outcome of each mission, your relationships with your crew and ultimately the entire war.  An amazing universe to explore. From the massive Citadel to the harsh, radioactive landscape of the Krogan home world – the incredible breadth of the Mass Effect universe will blow you away. Travel to the farthest outposts aboard the SSV Normandy, the most technologically advanced ship in the galaxy. You'll follow the clues left by ancient civilizations, discover hidden bases with fantastic new tech and lead your hand-picked crew into explosive alien battles.  Edge-of-your-seat excitement meets strategic combat. Find the perfect combination of squad-mates and weapons for each battle if you want to lead them to victory. Sun-Tzu's advice remains as pertinent in 2183 as it is today – know your enemy. You'll need different tactics for a squad of enemies with devastating biotic attacks than a heavily armored Geth Colossus so choose your teams wisely.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4.5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "02/16/2019 12:13 pm",
+    "updatedAt": "02/16/2019 12:13 pm",
+    "_id": "87d35191f7b04df798e0a582a727c7f3",
+    "name": "Mass Effect",
+    "extraData": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+    ],
+    "extraDataFull": [
+      {
+        "details": [
+          "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+        ],
+        "name": "Mass Effect",
+        "igdbId": 73,
+        "id": "x360433",
+        "gbId": 16909,
+        "gbGuid": "3030-16909",
+        "tgdbId": 186,
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      },
+      {
+        "name": "Mass Effect",
+        "details": [
+          "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+        ],
+        "id": "bi151",
+        "igdbId": 73,
+        "gbId": 16909,
+        "gbGuid": "3030-16909",
+        "tgdbId": 186
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)"
+    ]
+  },
+  {
+    "first_release_date": "10/20/2008",
+    "total_rating": 82,
+    "esrb": "M",
+    "videos": [
+      "5pouqKKjh_M"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2h.jpg",
+    "description": "Fable 2 is the second game in the fable series by Lionhead Studios, it is an open world role-playing game. It has a simple story line where the hero needs to save Albion from the evil Lord Lucian by collecting together the other three heroes to defeat him. Interactive cut-scenes are a large part of the game however the main character never speaks and all dialogue is uncontrolled. The game features a large variety of game play and freedom, allowing a player to shape the world around and the characters appearance and moral standing based on decisions throughout the game. The player can also get married both same and opposite sex and bring up children to childhood but no farther, expressions are a lot more interactive with NPC's than before",
+    "story": "Set 500 years after Fable 1 but still in the land of Albion, the player is set out to help a blind seer rescue the world from a madman who wants to destroy it a create a new, purer world. The Hero has to gather together three other heroes of strength, skill and will in order for them to come together and defeat the antagonist with the help of Theresa who was the sister of the main character in the first Fable game.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4.5,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "02/16/2019 12:13 pm",
+    "updatedAt": "02/16/2019 12:13 pm",
+    "_id": "66af9aeadb4d4d558f635a07b04610ca",
+    "name": "Fable II",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Fable II",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "id": "x360257",
+        "igdbId": 522,
+        "gbId": 20514,
+        "gbGuid": "3030-20514",
+        "tgdbId": 807,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      }
+    ],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "07/05/2010",
+    "total_rating": 68,
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w5x.jpg",
+    "description": "Crackdown 2 is a sandbox-style third-person shooter video game developed by Ruffian Games and published by Microsoft Game Studios. It was released on Xbox 360 in July 2010 and is a direct sequel to the 2007 video game Crackdown.  The game is modeled similarly to its predecessor Crackdown, a third-person shooter in open world game play. The player character is an advanced super-powered officer for the city-funded \"Agency\", known simply as the \"Agent\". This time around, players choose one of four faces and armor colours (eight colours if you preordered it), instead of just the preset heads offered before. Along with that, the orbs have been carried on from the first game, and the Agent's powers are expanded and enhanced such as the Agility Skill which now allows the Agent to jump higher than in Crackdown, glide, and gain access to the helicopter landing pad at the Agency Tower. Driving is also available in Crackdown 2. You’re able to commandeer any number of vehicles in the game, including Agency vehicles, Peacekeeper Cruisers and a large number of civilian vehicles that the Cell have armor plated. Checkpoint races are back, both Road and Rooftop versions. Like Crackdown, the game will allow for on-line co-operative play in the main game, but will now support up to four players. The game will also feature competitive multiplayer modes for up to sixteen players. While the original Crackdown supported System Link playing for co-op, Crackdown 2 won't be featuring the same option.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": 4.5,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-02-16",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "02/16/2019 12:11 pm",
+    "updatedAt": "02/16/2019 12:11 pm",
+    "_id": "b7cac09307d44165bad3fe268744f7dc",
+    "name": "Crackdown 2",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One",
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Crackdown 2",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "id": "x360162",
+        "igdbId": 2897,
+        "gbId": 26790,
+        "gbGuid": "3030-26790",
+        "tgdbId": 12062,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      },
+      {
+        "name": "Crackdown 2",
+        "details": [
+          "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
+        ],
+        "id": "bi45",
+        "igdbId": 2897,
+        "gbId": 26790,
+        "gbGuid": "3030-26790",
+        "tgdbId": 12062
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ]
+  },
+  {
+    "videos": null,
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Fair",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "flea market",
+    "notes": "",
+    "createdAt": "02/16/2019 12:06 pm",
+    "updatedAt": "02/16/2019 12:06 pm",
+    "_id": "b90cc5980e0c47778e64da6a22337b1c",
+    "name": "GRID",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Simulator",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "10/09/2011",
+    "esrb": "M",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m3d.jpg",
+    "description": "Red Dead Redemption: Game of the Year Edition will include the full, original Red Dead Redemption game plus all free and paid downloadable content packs released to date, including the wildly popular Undead Nightmare single and multiplayer offerings, as well as all DLC originally released as pre-order content.",
+    "story": "America, early 1900's. The era of the cowboy is coming to an end. When federal agents threaten his family, former outlaw John Marston is sent across the American frontier to help bring the rule of law. Experience intense gun battles, dramatic train robberies, bounty hunting and duels during a time of violent change. Red Dead Redemption is an epic battle for survival in a beautiful open world as John Marston struggles to bury his blood-stained past, one man at a time.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 6,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "Goodwill",
+    "notes": "",
+    "createdAt": "02/16/2019 12:03 pm",
+    "updatedAt": "02/16/2019 12:03 pm",
+    "_id": "81d2f3d135104d7186ef2b3d34b38643",
+    "name": "Red Dead Redemption: Game of the Year Edition",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "03/15/2006",
+    "total_rating": 88,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g9f.jpg",
+    "description": "The game takes place in the fictional land of Ivalice, where the empires of Archadia and Rozarria are waging an endless war. Dalmasca, a small kingdom, is caught between the warring nations. When Dalmasca is annexed by Archadia, its princess, Ashe, creates a resistance movement. During the struggle, she meets Vaan, a young adventurer who dreams of commanding an airship. They are quickly joined by a band of allies; together, they rally against the tyranny of the Archadian Empire.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "flea market",
+    "notes": "",
+    "createdAt": "02/16/2019 12:09 pm",
+    "updatedAt": "02/16/2019 12:09 pm",
+    "_id": "805310c35c024a2d9d43392ffc6af16d",
+    "name": "Final Fantasy XII",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/10/2003",
+    "total_rating": 85,
+    "videos": [
+      "U4nzIVf0fkA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co230n.jpg",
+    "description": "Ratchet and Clank return as heroes for hire in Ratchet and Clank: Going Commando, the second game in this action platforming franchise.There are 18 entirely new weapons, as well as five weapons from the first game (you can upload them if using your old memory save). Each weapon is upgradeable, utilizing a new experience system, where weapons transform into more powerful forms the more they are used. In addition to main story levels, new Maxi-games give players a chance to test their skills and gain experience.",
+    "story": "Having defeated Chairman Drek in their last intergalactic adventure, Ratchet and Clank find themselves returning to a more sedate lifestyle. That is, until they are approached by Abercrombie Fizzwidget, the CRO of Megacorp, who needs the duo to track down the company’s most promising experimental project, which has been stolen by a mysterious masked figure. Initially, the mission seemed like a Sunday stroll in the park, but we soon find our heroes entangled in a colossal struggle for control of the galaxy. Along the way, the duo unleashes some of the coolest weapons and gadgets ever invented upon the most dangerous foes they have ever faced. Ratchet and Clanks set out to destroy anything and anyone who stands in their way of discovering the secrets that lie behind “The Experiment.”",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "flea market",
+    "notes": "",
+    "createdAt": "02/16/2019 12:08 pm",
+    "updatedAt": "02/16/2019 12:08 pm",
+    "_id": "fb94ce510f944a0e96d73c4c5b4ae20d",
+    "name": "Ratchet & Clank: Going Commando",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/21/2001",
+    "total_rating": 90,
+    "esrb": "M",
+    "videos": [
+      "PtbUORusNvo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1th0.jpg",
+    "description": "Featuring a fully 3-D living city, a combination of narrative driven and non-linear gameplay and a completely open environment, Grand Theft Auto III represents a huge leap forward in interactive entertainment. For the first time, players are put at the heart of their very own gangster movie, and let loose in a fully-realised 3 dimensional city, in which anything can happen and probably will.  With a cast of hundreds, 50 plus vehicles, ranging from sports cars to ice cream trucks and from boats to buses, 3 hours of music, including opera, reggae, house, drum and bass, pop and disco, a huge array of street ready weapons and some of the seediest characters in video game history, Grand Theft Auto 3 is a sprawling epic which will show you that sometimes, crime can pay and sometimes it can pay you back. Available now for PlayStation®2, Xbox, PC and Macintosh.",
+    "story": "You've been betrayed and left for dead. Now you're taking revenge, unless the city gets you first. Mob bosses need a favor, crooked cops need help and street gangs want you dead. You'll have to rob, steal and kill just to stay out of serious trouble. Anything can happen out here.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "PlayStation 2",
+    "consoleId": 8,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 4,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-16",
+    "howAcquired": "Goodwill",
+    "notes": "",
+    "createdAt": "02/16/2019 12:05 pm",
+    "updatedAt": "02/16/2019 12:05 pm",
+    "_id": "4b5763acf1e04981ace0e2756439d2ac",
+    "name": "Grand Theft Auto III",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Racing",
+      "Simulator",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "03/17/2004",
+    "total_rating": 76,
+    "esrb": "E",
+    "videos": [
+      "1AZMO5iBeDg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25wk.jpg",
+    "description": "The game begins with the land of Hyrule in a state of fear because of strange happenings that have occurred recently. On a stormy night, Princess Zelda and the shrine maidens fear that the reason for these events is that Vaati's seal is weakening. She summons Link and brings him to the castle so he can protect her and the other maidens while they open the portal to the Four Sword Sanctuary. When they do, however, a shadowy figure appears from the portal. This figure was Shadow Link, who then kidnapped the shrine maidens and sealed them in crystals. Link follows him to the sanctuary where he retrieves the Four Sword to destroy this doppelganger. The Four Sword is a magical sword that splits the wielder into three clones of himself. Vaati is once again released and wreaks havoc on the once peaceful kingdom.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Excellent",
+    "case": "original",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-15",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "02/16/2019 12:14 pm",
+    "updatedAt": "02/16/2019 12:14 pm",
+    "_id": "6840b4a52e434a1e9216f568a63d7cdb",
+    "name": "The Legend of Zelda: Four Swords Adventures",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc79",
+        "name": "The Legend of Zelda: Four Swords Adventures",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 1034,
+        "gbId": 7856,
+        "gbGuid": "3030-7856",
+        "tgdbId": 6996,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/24/2007",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/knh7dmnlhkb8l4rvggut.jpg",
+    "description": "Has a three-way folding steel container. Bestiarum: A hard cover, bound collection of information and art covering the species, cultures and civilizations of Halo 3. A relatively small poster of John-117 and the Arbiter. An illuminating collection of original \"Halo 3\" storyboard art from artist Lee Wilson, depicting key moments and pivotal scenes from the epic cinematic production of \"Halo.\" An extra disc that contains exclusive, behind-the-scenes footage and videos, a high-definition \"Making of 'Halo 3',\" a documentary showcasing the Bungie team and its effort to create the most anticipated title in the industry's history, numerous high-definition featurettes documenting the creative design processes involved in developing the game; and a look at some early game concepts and their evolution through the game's development. The extra disc contains an audio-visual calibration tool.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 6.64,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-09",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "02/16/2019 12:16 pm",
+    "updatedAt": "02/16/2019 12:16 pm",
+    "_id": "d16d26e1a52d4a749b180518ac968bbf",
+    "name": "Halo 3: Limited Edition",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "02/19/2007",
+    "total_rating": 78,
+    "esrb": "M",
+    "videos": [
+      "YBg0lOlSQpQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w65.jpg",
+    "description": "Crackdown is an open world, third-person shooter video game for the Xbox 360. Set in the fictional Pacific City, the player controls a biologically enhanced Agent, tasked with defeating three crime lords and their organized crime syndicates. The Agent's abilities improve by defeating both crime lords and their supporters, as well as by completing optional activities, such as street races and scavenger hunts. The gameplay is nonlinear: instead of following a rigid mission sequence, players are free to select the approach to completing their missions and activities. The game features a two-player cooperative play mode via Xbox Live. Crackdown, initially planned for release on the original Xbox console, was envisioned as a vast world in which players could experiment and explore freely. Microsoft Game Studios bundled specifically marked copies of Crackdown with an access code to the multiplayer test version of the much-anticipated Halo 3 Beta. The game sold 1.5 million copies in its first six months of release because everybody wanted to play Halo 3. It received positive reviews and has garnered several awards for its innovative gameplay. Crackdown was a free download (for Xbox Live Gold members only) from August 1st, 2013 to August 16th, 2013 as part of the Xbox 360 \"Games With Gold\" (Xbox Live) program.",
+    "story": "Crackdown takes place in the fictional metropolis of Pacific City, whose several districts and areas are divided among four islands. The city is controlled by three crime organizations: Los Muertos (which means \"the dead\" in Spanish), of Central American origin; an Eastern European gang, the Volk (Russian for Wolf) ; and the formerly above-board Shai-Gen Corporation, from East Asia. Normally, a police-like organization called the Peacekeepers kept the city under control; their forces, however, were overwhelmed by the sudden rise in crime. The city, therefore, sought additional help from \"the Agency\", an organization that, in addition to outfitting and supporting Peacekeepers, has used advanced surgical and cybernetic technology to create supersoldiers known as \"Agents\". The Agency is based out of a former hotel in the very centre of the city. The player takes on the role of one of their Agents, and is tasked with systematically bringing down all three organized gangs, while keeping both the populace and Peacekeepers safe. The Agent's actions are continuously monitored by the Agency, and its Director (voiced by Michael McConnohie) provides continuous reports to him of his progress. \nThroughout the game, the player roams Pacific City, systematically eliminating the leaders and subordinates of the three gangs. Upon defeating the gangs' Kingpins and generals, the Agent must put down a final riot by the remaining gang members in the area which after completion will cause that city to be almost crime free.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox 360",
+    "consoleId": 12,
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": 0,
+    "physical": "",
+    "cib": "",
+    "datePurchased": "2019-02-06",
+    "howAcquired": "XBOX Store",
+    "notes": "Free to celebrate Crackdown 3 coming out soon",
+    "createdAt": "02/07/2019 09:25 pm",
+    "updatedAt": "02/07/2019 09:25 pm",
+    "_id": "d5ea00afab3c47c7b234fc4bf8c31d4e",
+    "name": "Crackdown",
+    "extraData": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One",
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Crackdown",
+        "details": [
+          "Microsoft Xbox 360 full exclusive",
+          "Xbox 360 game backward compatible with Xbox One"
+        ],
+        "id": "x360161",
+        "igdbId": 2896,
+        "gbId": 4065,
+        "gbGuid": "3030-4065",
+        "tgdbId": 7167,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox 360",
+            "id": "ccl26",
+            "igdbId": 12,
+            "gbId": 20,
+            "gbGuid": "3045-20",
+            "tgdbId": 15
+          }
+        ],
+        "special": [
+          {
+            "value": "Xbox 360 game backward compatible with Xbox One",
+            "forPlatform": {
+              "name": "Microsoft Xbox 360",
+              "id": "ccl26",
+              "igdbId": 12,
+              "gbId": 20,
+              "gbGuid": "3045-20",
+              "tgdbId": 15
+            }
+          }
+        ],
+        "isLaunchTitle": false
+      },
+      {
+        "name": "Crackdown",
+        "details": [
+          "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
+        ],
+        "id": "bi44",
+        "igdbId": 2896,
+        "gbId": 4065,
+        "gbGuid": "3030-4065",
+        "tgdbId": 7167
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "03/10/2014",
+    "total_rating": 83,
+    "esrb": "M",
+    "videos": [
+      "goe6IB1DLZU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ufz.jpg",
+    "description": "In Titanfall, players fight on a war-torn planet in six-on-six online multiplayer-only matches as mech-style Titans and their pilots. The game's action is fast-paced: as pilots, players can run along walls and link jumps together parkour-style, use a variety of futuristic military weapons, and employ one of three special abilities: cloaking, stimming (increasing speed and health regeneration) and radar pinging; as Titans, players are equipped with more destructive armaments and special protective shields, with no limit to their abilities besides cooldown and reloading.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Xbox One",
+    "consoleId": 49,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 11.22,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-04",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "02/05/2019 07:09 am",
+    "updatedAt": "02/05/2019 07:09 am",
+    "_id": "a5cb84b4804a4fd799985f2760f3a455",
+    "name": "Titanfall",
+    "extraData": [
+      "Microsoft Xbox One console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Titanfall",
+        "details": [
+          "Microsoft Xbox One console exclusive"
+        ],
+        "id": "mxb1217",
+        "igdbId": 2115,
+        "gbId": 42860,
+        "gbGuid": "3030-42860",
+        "tgdbId": 17252,
+        "isExclusive": [
+          {
+            "name": "Microsoft Xbox One",
+            "id": "ccl27",
+            "igdbId": 49,
+            "gbId": 145,
+            "gbGuid": "3045-145",
+            "tgdbId": 4920
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "09/18/2001",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/vcfrbft4rxhypudrgusj.jpg",
+    "description": "NFL 2K2 is a complete football simulation, giving you a variety of ways to play. You can compete in a single exhibition game, start up a franchise, or move directly to the playoffs.  NFL 2K2 uses a TV-style presentation, featuring telestration, action replays, sideline animations, stadium lighting and a director feature that zooms in on the play.  Included in NFL 2K2 are all the teams and plays from the 2001-2002 season, including stadiums and uniforms.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-02-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/02/2019 02:08 pm",
+    "updatedAt": "02/02/2019 02:08 pm",
+    "_id": "7a74aec006af4c278e0e13e5522c11ad",
+    "name": "NFL 2K2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Simulator",
+      "Sport",
+      "Football"
+    ]
+  },
+  {
+    "first_release_date": "02/27/2003",
+    "total_rating": 90,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ujc.jpg",
+    "description": "The Legend of Zelda: Ocarina of Time Master Quest is a reworked version of the original Ocarina of Time for the Nintendo 64. Master Quest contains largely the same content as the original Ocarina of Time, but with redesigned, more difficult dungeons akin to a Second Quest.  Master Quest was available on a special bonus disc that also contained the original Ocarina of Time. This disc was given out in limited quantities with preorders of The Wind Waker. Additionally, it was sold packaged with The Wind Waker in some regions. It is also available as a mode in Ocarina of Time 3D after first completing the regular game.",
+    "story": null,
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 30,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "2019-02-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/02/2019 02:04 pm",
+    "updatedAt": "02/02/2019 02:04 pm",
+    "_id": "c1b207abcc174ae39f90ab078cb98dba",
+    "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  }
+]

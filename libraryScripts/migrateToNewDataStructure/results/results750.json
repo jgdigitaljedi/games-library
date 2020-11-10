@@ -1,0 +1,2038 @@
+[
+  {
+    "first_release_date": "09/19/2000",
+    "total_rating": 86,
+    "esrb": "E",
+    "videos": [
+      "ADFhiXzBeRg",
+      "L7Q4lr4312o"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y77.jpg",
+    "description": "Tony Hawk's Pro Skater 2 redefined an already great game. Its addition of stellar new features (like Create-A-Park), and great game-play tweaks (the manual maneuver will be copied for years to come) made it the best installment in a killer series of games. Anyone who has ever skated the Philadelphia level will agree -- this game is a masterpiece of level design. Hell, it's a masterpiece all around. There isn't a bad park or dull moment, just pure gaming nirvana!",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:40 pm",
+    "updatedAt": "11/21/2018 03:40 pm",
+    "_id": "3192c7b4c5af4e4f9975feebb3d6cfd1",
+    "name": "Tony Hawk's Pro Skater 2",
+    "extraData": [
+      "Nintendo Game Boy Advance launch title"
+    ],
+    "extraDataFull": [
+      {
+        "id": "gba261",
+        "name": "Tony Hawk's Pro Skater 2",
+        "details": [
+          "Nintendo Game Boy Advance launch title"
+        ],
+        "igdbId": 913,
+        "gbId": 990,
+        "gbGuid": "3030-990",
+        "tgdbId": 1218,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo Game Boy Advance",
+            "id": "ccl10",
+            "igdbId": 24,
+            "gbId": 4,
+            "gbGuid": "3045-4",
+            "tgdbId": 5
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "03/20/2001",
+    "total_rating": 81,
+    "esrb": "E",
+    "videos": [
+      "LG4aa39d9qM",
+      "FxJR-1XIfSo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21r7.jpg",
+    "description": "An updated re-release of Super Mario Bros. 2 (the American reskin of \"Yume Kōjō: Doki Doki Panic,\" later re-released in Japan as \"Super Mario USA\") as a Game Boy Advance launch title. Based heavily on the Super Mario All-Stars version of the game, it also features an updated version of the original Mario Bros. arcade game, which can be played with up to three other players via link cable.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "11/21/2018 03:39 pm",
+    "updatedAt": "11/21/2018 03:39 pm",
+    "_id": "4255228e02d942daab80a0f0d53a2505",
+    "name": "Super Mario Advance",
+    "extraData": [
+      "Nintendo Game Boy Advance launch title"
+    ],
+    "extraDataFull": [
+      {
+        "id": "gba230",
+        "name": "Super Mario Advance",
+        "details": [
+          "Nintendo Game Boy Advance launch title"
+        ],
+        "igdbId": 81197,
+        "gbId": 5215,
+        "gbGuid": "3030-5215",
+        "tgdbId": 2347,
+        "isLaunchTitle": [
+          {
+            "name": "Nintendo Game Boy Advance",
+            "id": "ccl10",
+            "igdbId": 24,
+            "gbId": 4,
+            "gbGuid": "3045-4",
+            "tgdbId": 5
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Arcade"
+    ]
+  },
+  {
+    "first_release_date": "12/01/2002",
+    "total_rating": 74,
+    "esrb": "E",
+    "videos": [
+      "SbSaka9DGFw",
+      "vBUv85g3o84",
+      "44F5vWWk0kE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ujh.jpg",
+    "description": "Now you have a link to one of the greatest adventures in The Legend of Zelda series. The Legend of Zelda: A Link to the Past revives the classic SNES game on the Game Boy Advance and adds a new multiplayer mode. In a Link to the Past, Link travels between the light world and the dark world, conquering fierce monsters and uncovering Hyrule's deepest secrets along the way. Also included is Four Swords, which lets you play with up to three other players, slashing through dungeons and collecting rupees. Whether you choose solo or competitive play, The Legend of Zelda will keep you occupied with its brain-bending puzzles and fun swashbuckling action.",
+    "story": "In A Link to the Past \nThe intro to A Link to the Past reveals the back story of the game, showing that series antagonist Ganon was sealed away after his bid for the Triforce. However, the seal has grown weak, and a wizard named Agahnim has taken over the throne of Hyrule, and is kidnapping the seven descendants of the Sages who sealed away Ganon, which includes Princess Zelda. The game opens with series protagonist Link receiving a message from Zelda, telling him to come save her. Following his Uncle, he finds him near death, and is tasked by his Uncle to find and rescue Zelda, giving him his sword and shield before dying. After Link reaches the dungeons, he frees Zelda from her cage, and takes her through a hidden sewer into a Sanctuary, where she remains hidden. The man in the Sanctuary tells Link of Agahnim's plan to break the seal the Sages placed, requiring Link to obtain the Master Sword. Link travels across Hyrule, aided by a man named Sahasrahla, collecting three pendants from the three dungeons, using them to unseal the Master Sword in the Lost Woods. Link returns to Hyrule Castle with the Master Sword after Zelda is kidnapped. When he meets Agahnim, he finds that he is too late, as Agahnim teleports her away. \n \nAfter battling and defeating Agahnim, he takes Link into the Sacred Realm, which has been corrupted and transformed into the Dark World by Ganon. He is tasked with rescuing the seven Maidens who have been sealed away in crystals, as well as finding magical items called the Silver Arrows. Link eventually rescues Zelda, and uses the Maidens' power to break into Ganon's Tower. After fighting and defeating Agahnim for the second time, Ganon flies from Agahnim's corpse into the Pyramid of Power. Link follows, doing battle with him. He eventually defeats Ganon, and finds the Triforce. After the Triforce speaks to Link, Link uses it to wish for Hyrule to return to normal. Afterward, he returns the Master Sword to where he found it. If the player has completed Four Swords, they may find an alternate ending by beating a secret dungeon. This dungeon features four Dark Links, in reference to the four Links in the Four Swords game. After defeating them, an ending showing the inhabitants of the Dark World and the various bosses is shown. \n \nIn Four Swords \nTaking place before the events of Ocarina of Time, the prologue shows Link and Zelda approaching a sword in a pedestal, called the Four Sword. After Zelda explains its history and the creature sealed within it, the creature named Vaati breaks free, capturing Zelda to marry her. Link is encountered by three fairies who instruct Link to pull the Four Sword out. Link pulls the Four Sword out, inadvertently creating three copies of himself that fight alongside him. As the game begins, the four Links are tasked with finding four Great Fairies, who together will grant them access to Vaati's palace. After finding the four Great Fairies and entering the palace the Links battle Vaati. After Vaati is thoroughly weakened, he is trapped in the Four Sword. Zelda and Link return the Four Sword back in its pedestal.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 4,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:29 pm",
+    "updatedAt": "11/21/2018 03:29 pm",
+    "_id": "54d72568c2824bf0b503028535c4e63e",
+    "name": "The Legend of Zelda: A Link to the Past & Four Swords",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": []
+  },
+  {
+    "first_release_date": "11/20/1994",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "bXHDSA35_2k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29n6.jpg",
+    "description": "Donkey Kong Country is a side scrolling platformer by British developers Rareware in 1994. It featured revolutionary pre-rendered 3D graphics that give the game a very unique look compared to most other games on consoles at the time. The two playable characters featured in the game are the titular character, Donkey Kong and his nephew, Diddy Kong. Together the two swing, climb, jump, swim, cartwheel, ride animals, and blast out of barrels on their way to recover their stolen bannanas from the evil King K. Rool and his Kremling army. The adventure takes you through a variety of different environments and levels that continually change up gameplay. Donkey Kong Country also provides plenty of opportunities for exploration with almost every level having a multitude of collectible, shortcuts, and hidden bonus areas.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:28 pm",
+    "updatedAt": "11/21/2018 03:28 pm",
+    "_id": "7c8d4181577245a6a20f0756f4705a1a",
+    "name": "Donkey Kong Country",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "02/08/2004",
+    "total_rating": 91,
+    "esrb": "E",
+    "videos": [
+      "fDmy2evOpQ8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
+    "description": "The full story of Samus Aran's first mission finally unfolds...  The first Metroid game just scratched the surface of the cataclysmic events on planet Zebes, and at long last the rest of the tale has come to light. Experience the first of Samus's legendary adventures through all-new cut-scenes and action sequences as the bounty hunter races through the deeps toward her showdown with the leader of the Space Pirates. But will the end of Mother Brain really mean the end of the story...?  Completion of the game unlocks an emulated version of the original Metroid game. Zero Mission also allow players to unlock the Metroid Fusion picture gallery by linking between Zero Mission and Fusion cartridges via the Game Boy Advance Game Link Cable.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:25 pm",
+    "updatedAt": "11/21/2018 03:25 pm",
+    "_id": "9f821f63761343ac9919d1824c4fc156",
+    "name": "Metroid: Zero Mission",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/19/2001",
+    "total_rating": 75,
+    "esrb": "E",
+    "videos": [
+      "cLTXX0qu63w",
+      "aCbbdS5t8nU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1upk.jpg",
+    "description": "Sonic Advance is notable for being the first Sonic game released on a Nintendo console, despite both Sega and Nintendo being well-known rivals on the console market throught the 1990s.  Sonic Advance features four playable characters and marks the first playable appearance of Amy Rose on a 2D title. The game borrows elements from the original Sonic the Hedgehog titles for the Sega Genesis, but with the post-Dreamcast artstyle for the characters which was introduced in Sonic Adventure. The game also includes multiplayer features and mini-games.  The title was also ported to the Nokia N-Gage under the title \"SonicN\".",
+    "story": "The game follows Sonic and his friends as they travel through various zones in order to stop Dr. Eggman from taking over South Island. The game features four playable characters; Sonic, Tails, Knuckles and Amy. Each character has the same moveset as they did in Sonic the Hedgehog 3 and Sonic & Knuckles, with the addition of a melee attack. Each character has a special ability, such as Sonic's splice shield, Tails' flight and Knuckles' gliding and climbing abilities. In her playable 2D debut, Amy cannot perform the Spin Dash or get into ball form when jumping like the others, and must rely on her Piko Piko Hammer to defend herself, making her unique amongst the characters. Grind rails first introduced in Sonic Adventure 2 also make their first 2D appearance. Sonic and Tails can also be used at the same time during the story by inputting a cheat code at the character selection screen. When playing as both characters, the gameplay is similar to that of Sonic the Hedgehog 2: The player can only control Sonic and a CPU-controlled Tails follows him.",
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:24 pm",
+    "updatedAt": "11/21/2018 03:24 pm",
+    "_id": "fb9add7955144bd3b9c5ddbd3786a5ca",
+    "name": "Sonic Advance",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "06/23/2003",
+    "total_rating": 87,
+    "esrb": "E",
+    "videos": [
+      "9ngSpG4fdDI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p3x.jpg",
+    "description": "In Advance Wars 2: Black Hole Rising brings your GBA all-new strategic action and all-new fighting action! Thrilling turn-based strategy gameplay that will put your brain & your reflexes to the test, in this sequel to the original hit!",
+    "story": "While the Allied Nations were still recovering from the war in Cosmo Land, the Black Hole Army had already recovered and has decided to launch a large-scale invasion on Macro Land. Along with the original Black Hole army's commanding officers (COs), four new COs were recruited, under the command of Sturm. Sturm orders each Black Hole CO to invade and capture each of the four continents controlled by the four other armies from the original game: Orange Star was to be taken by Flak, Blue Moon by Lash, Yellow Comet by Adder, and Green Earth by Hawke. Lash also invented several new war weapons like the Black Cannon and the Mini Cannons that were to be put to use in this invasion. The four allied armies must now work together to drive Black Hole out of their world once and for all. \n \nOnce the Black Hole troops are driven from the Allied Nations' continents, their COs convene in Black Hole territory, near Black Hole's base of operations. Here they fight Sturm, the mastermind behind the invasion. The final battle takes place in front of the Death Ray, a powerful new weapon guarding the entrance to a missile, which, if not subdued in time, would destroy half of Wars World. \n \nThe Death Ray is eventually destroyed by the COs of the Allied Nations, who manage to disarm the missile and corner Sturm. In an act of desperation, Sturm attempts to blow up the base and inflict damage on Wars World by self-destructing the missile. Andy attempts to stop Sturm to no avail. However, in a surprising turn of events, Hawke, second in command to Sturm, betrays his leader by killing him with Black Storm before the self-destruct is triggered. Hawke takes over as leader of Black Hole, and along with Flak, Lash, and Adder, leaves Macro Land with the few troops he has left.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:23 pm",
+    "updatedAt": "11/21/2018 03:23 pm",
+    "_id": "1b4ccaf882c84291a426572c5ecefd45",
+    "name": "Advance Wars 2: Black Hole Rising",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical"
+    ]
+  },
+  {
+    "first_release_date": "04/08/2003",
+    "total_rating": 40,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/j94dlnlojutwzsfkt0af.jpg",
+    "description": "Race against the clock as you pick up passengers and white-knuckle it through busy streets and back alleys. And time is money! So get a grip on the wheel and put the pedal to the metal.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Game Boy Advance",
+    "consoleId": 24,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "bought from Solis",
+    "notes": "",
+    "createdAt": "11/21/2018 03:22 pm",
+    "updatedAt": "11/21/2018 03:22 pm",
+    "_id": "e0231bb57984417db4e514daf3c84c37",
+    "name": "Crazy Taxi: Catch a Ride",
+    "extraData": [
+      "Nintendo Game Boy Advance exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Crazy Taxi: Catch a Ride",
+        "details": [
+          "Nintendo Game Boy Advance exclusive"
+        ],
+        "id": "gba46",
+        "igdbId": 1808,
+        "gbId": 18611,
+        "gbGuid": "3030-18611",
+        "tgdbId": 3447,
+        "isExclusive": [
+          {
+            "name": "Nintendo Game Boy Advance",
+            "id": "ccl10",
+            "igdbId": 24,
+            "gbId": 4,
+            "gbGuid": "3045-4",
+            "tgdbId": 5
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "01/28/1999",
+    "total_rating": 82,
+    "esrb": "",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rkc.jpg",
+    "description": "Those intrepid invertebrates return with a vengeance in the much-loved Worms™ Armageddon. It’s a whole new can of worms! It’s hilarious fun that you can enjoy on your own or with all your friends.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:30 am",
+    "updatedAt": "11/18/2018 09:30 am",
+    "_id": "d16817d935814388925680cc61f79d03",
+    "name": "Worms Armageddon",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "12/01/1999",
+    "total_rating": 86,
+    "esrb": "M",
+    "videos": [
+      "NsL32y--h00",
+      "p2Y_-uO3_bU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybj.jpg",
+    "description": "Welcome to the Arena, where high-ranking warriors are transformed into spineless mush. Abandoning every ounce of common sense and any trace of doubt, you lunge onto a stage of harrowing landscapes and veiled abysses. Your new environment rejects you with lava pits and atmospheric hazards as legions of foes surround you, testing the gut reaction that brought you here in the first place. Your new mantra: Fight or be finished.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:30 am",
+    "updatedAt": "11/18/2018 09:30 am",
+    "_id": "d2fa5af6f2334ec7baaf491a4b69e186",
+    "name": "Quake III Arena",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "10/08/1999",
+    "videos": [
+      "Vyf5apHXqic"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ny.jpg",
+    "description": "The first and only Mortal Kombat title to make onto the Dreamcast console, Mortal Kombat Gold offered players a carbon-copy of the arcade edition of Mortal Kombat 4, along with additional features and characters never before included in the arcade game.  Using the exact same engine found in Mortal Kombat 4, the game performs flawlessly on the Dreamcast platform, while also running at a higher resolution than its arcade counterpart.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:29 am",
+    "updatedAt": "11/18/2018 09:29 am",
+    "_id": "688b352d7f3f45779a2f37c27e0aa95e",
+    "name": "Mortal Kombat Gold",
+    "extraData": [
+      "Sega Dreamcast launch title",
+      "Sega Dreamcast exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Mortal Kombat Gold",
+        "id": "sdc33",
+        "details": [
+          "Sega Dreamcast launch title",
+          "Sega Dreamcast exclusive"
+        ],
+        "igdbId": 45155,
+        "gbId": 4652,
+        "gbGuid": "3030-4652",
+        "tgdbId": 3648,
+        "isLaunchTitle": [
+          {
+            "name": "Sega Dreamcast",
+            "id": "ccl18",
+            "igdbId": 23,
+            "gbId": 37,
+            "gbGuid": "3045-37",
+            "tgdbId": 16
+          }
+        ],
+        "isExclusive": [
+          {
+            "name": "Sega Dreamcast",
+            "id": "ccl18",
+            "igdbId": 23,
+            "gbId": 37,
+            "gbGuid": "3045-37",
+            "tgdbId": 16
+          }
+        ],
+        "special": []
+      }
+    ],
+    "genres": [
+      "Fighting"
+    ]
+  },
+  {
+    "first_release_date": "01/11/1998",
+    "total_rating": 86,
+    "esrb": "T",
+    "videos": [
+      "UKrEZQidF6g"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jhi.jpg",
+    "description": "Marvel vs. Capcom: Clash of Super Heroes is the fifth Marvel Comics-licensed fighting game by Capcom and the third game in the Marvel vs. Capcom series. In contrast to X-Men vs. Street Fighter and Marvel Super Heroes vs. Street Fighter, the game features characters from numerous Capcom franchises such as Mega Man and Strider, rather than just Street Fighter characters. The game takes place within the Marvel comic continuity, as Professor Charles Xavier calls out for heroes to stop him before he merges with the consciousness of Magneto and becomes the being known as Onslaught, the final boss.",
+    "story": "The storyline is loosely based on the X-Men: Onslaught arc from the Marvel Comics continuity: following an incident in which mutant telepath Charles Xavier was forced to enter into the mind of Magneto, part of Magneto's anger slipped into Xavier's psyche, and after merging with Xavier's darkest emotions it spawned a powerful psychic entity known as Onslaught. The game expands on the story by having Xavier's conscience calling forth heroes from the Capcom universe in order to help stop him.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Other",
+    "case": "custom",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "burned",
+    "notes": "",
+    "createdAt": "11/18/2018 09:29 am",
+    "updatedAt": "11/18/2018 09:29 am",
+    "_id": "ac326289a52a4d8c900642a106711bc6",
+    "name": "Marvel vs. Capcom: Clash of Super Heroes",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting"
+    ]
+  },
+  {
+    "first_release_date": "10/31/1998",
+    "total_rating": 69,
+    "esrb": "M",
+    "videos": [
+      "TiO3SkjiFW0",
+      "O2alnNLQFEg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28bk.jpg",
+    "description": "The House of the Dead 2 is a first-person light gun shooter arcade game with a horror theme and the second game in The House of the Dead series of video games. The direct sequel to The House of the Dead, it was developed by Sega for arcades on the Sega NAOMI board in November 1998 then later ported to the Dreamcast in 1999 and Microsoft Windows in 2001, and is also found on the Xbox as an unlockable bonus in The House of the Dead III. The game appears in the compilation The House of the Dead 2 & 3 Return for Wii. The Dreamcast version became a Sega All Stars title.",
+    "story": "The game follows the fictional events of February 26, 2000, fourteen months after the 1998 Curien Mansion incident in The House of the Dead. \n \nAMS agent G has gone missing and his last known location is Venice, Italy. The city of Venice becomes chaotic when a strange zombie breakout takes place. American AMS agents James Taylor and Gary Stewart are dispatched, along with Amy Crystal and Harry Harris, to investigate and evacuate the populace. They suddenly encounter the impish Zeal, who had recently dealt with G. Upon finding G alive but wounded, James and Gary converse with him and G gives them a field journal showing the bosses and weak points. The pair are then met with a massive undead horde, similar to the kind from the Curien Mansion incident. They continue on, trying to save the town's civilians from the zombies.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:28 am",
+    "updatedAt": "11/18/2018 09:28 am",
+    "_id": "92e4d03b98ee4ee8b7006ee0e4a7ff76",
+    "name": "The House of the Dead 2",
+    "extraData": [
+      "Sega Dreamcast launch title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "The House of the Dead 2",
+        "id": "sdc67",
+        "details": [
+          "Sega Dreamcast launch title"
+        ],
+        "igdbId": 13777,
+        "gbId": 422,
+        "gbGuid": "3030-422",
+        "tgdbId": 3961,
+        "isLaunchTitle": [
+          {
+            "name": "Sega Dreamcast",
+            "id": "ccl18",
+            "igdbId": 23,
+            "gbId": 37,
+            "gbGuid": "3045-37",
+            "tgdbId": 16
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1999",
+    "total_rating": 66,
+    "esrb": "T",
+    "videos": [
+      "TZukj1-A_go"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u17.jpg",
+    "description": "Hey hey, come on over and have some fun with Crrrrrazy Taxi! Barrel through traffic packed streets, hurdle off parking garages, and Crazy Combo your way to Crazy Money in a wild frantic race to scare up the most fares. In Crazy Taxi, time is money, and only the Craziest Cabbies come out victorious.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:27 am",
+    "updatedAt": "11/18/2018 09:27 am",
+    "_id": "0a6d9680caba4e3eb205327e2269f362",
+    "name": "Crazy Taxi",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "07/28/2001",
+    "videos": null,
+    "description": "Show no mercy as you fling yourself into the wildest, wackiest cartoon racing games ever! But watch out! Fiendish opponents such as Dick Dastardly and Muttley will do anything to win.  So you'll need all your speed and wits to be first past the post!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Other",
+    "case": "custom",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "burned",
+    "notes": "",
+    "createdAt": "11/18/2018 09:27 am",
+    "updatedAt": "11/18/2018 09:27 am",
+    "_id": "fa4a74f1d1d0411191e43a163f384e30",
+    "name": "Wacky Races Starring Dastardly & Muttley",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1999",
+    "total_rating": 69,
+    "esrb": "E",
+    "videos": [
+      "26JsT7vqqhY",
+      "Vs0XUKHeYpc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f1k.jpg",
+    "description": "Virtua Tennis is a tennis game in which it is possible to control one of eight licensed players and uncover the secret stars. As well as the traditional arcade mode, you can play in the exhibition mode, with four-player action via doubles play.  Once you've mastered those modes, take on the world in the world circuit mode, with unique training games, different challenges and shops to buy clothing, equipment, stages and playing partners.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Other",
+    "case": "custom",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "burned",
+    "notes": "",
+    "createdAt": "11/18/2018 09:25 am",
+    "updatedAt": "11/18/2018 09:25 am",
+    "_id": "dcfcec738e534ae5990f3501f98d0956",
+    "name": "Virtua Tennis",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Tennis"
+    ]
+  },
+  {
+    "first_release_date": "09/19/2000",
+    "total_rating": 86,
+    "esrb": "E",
+    "videos": [
+      "ADFhiXzBeRg",
+      "L7Q4lr4312o"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y77.jpg",
+    "description": "Tony Hawk's Pro Skater 2 redefined an already great game. Its addition of stellar new features (like Create-A-Park), and great game-play tweaks (the manual maneuver will be copied for years to come) made it the best installment in a killer series of games. Anyone who has ever skated the Philadelphia level will agree -- this game is a masterpiece of level design. Hell, it's a masterpiece all around. There isn't a bad park or dull moment, just pure gaming nirvana!",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:24 am",
+    "updatedAt": "11/18/2018 09:24 am",
+    "_id": "f21d5c09cb024a608fae8cef111e9b8c",
+    "name": "Tony Hawk's Pro Skater 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Skateboarding"
+    ]
+  },
+  {
+    "first_release_date": "12/22/1998",
+    "total_rating": 60,
+    "esrb": "E",
+    "videos": [
+      "lO6Tc2xaAwE",
+      "A2wzZt9SVuA",
+      "bo45qMv2HAg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1upl.jpg",
+    "description": "Sonic Adventure is a platform game in which the player controls six different characters: Sonic the Hedgehog, Miles \"Tails\" Prower, Knuckles the Echidna, Amy Rose, Big the Cat, and E-102 Gamma. They must stop Doctor Eggman from stealing the seven Chaos Emeralds and feeding them to Chaos, a monster known as \"the God of Destruction\". The first in the Sonic the Hedgehog series to feature free-roaming 3D gameplay, Sonic Adventure features two game modes: Adventure and Trial. There are different goals for each character in the game: Sonic involves high speed gameplay, while Tails must reach the end of the level before Sonic does, and Knuckles searches the area for shards of the Master Emerald. Each of the three characters retain many of their trademark moves from previous Sonic games, such as Tails being able to fly for short periods of time, and Knuckles being able to glide through the air, though they can use updated techniques as well. The rest of the playable cast is rounded out by Amy, who must use her hammer to escape from Eggman's E-100 Zero robot chasing after her, Gamma, who must use its laser beam to shoot through levels to reach a target, and Big, who fishes in efforts to find his friend, Froggy.  The \"Adventure Mode\" is a one-player game which consists of two areas, the \"Adventure Field\" and an \"Action Stage\". The Adventure Field contains several \"Events\" that are encountered in the course of the story, while the Action Stages have each character fulfilling a goal to clear the stage. Players may also find hidden Chao Gardens, a protective environment inhabited by Chao, a sort of virtual pet. The player can hatch, raise and interact with a Chao. Chao can be taken with the player by downloading the minigame Chao Adventure to their VMU, or in the GameCube version, a Game Boy Advance with Sonic Advance or various other Game Boy Advance Sonic games. The player can also raise their stats by giving them small animals that they found by defeating the robots, which improves their performance in Chao Races. There are also eggs hidden throughout the Adventure Fields which can produce special types of Chao.  By playing through Action Stages and Subgames, searching through the Adventure Fields or winning Chao Races, players can earn Emblems. In the case of Action Stages, each one has three Emblems, which can be earned by replaying the stages and fulfilling certain objectives, such as beating the level within a time limit.",
+    "story": "Sonic Adventure is set on Angel Island, an island floating above Earth. The Ancient Echidna Tribe's ruler, Pachacamac, plans for world domination. His daughter Tikal enters a shrine, discovering the Chaos Emeralds and the Master Emerald, a group of mysterious emeralds with unlimited power. She befriends a peaceful entity known as Chaos, the guardian of the emeralds, as well as the Chao. Despite warnings from Tikal, Pachacamac and the tribe attack the shrine, attempting to use the emeralds for their own gain. However, Chaos transforms into Perfect Chaos and kills them. Following Chaos' attack, Tikal seals the entity and herself inside the Master Emerald. \n \nThree thousand years later, Knuckles the Echidna guards the Master Emerald on the floating Angel Island when the evil scientist Doctor Ivo \"Eggman\" Robotnik shatters the Master Emerald and sets Chaos free. As a result, Angel Island plunges into the sea, causing the Master Emerald's shards and the seven Chaos Emeralds to be scattered. Resolving to search for the shards of the Master Emerald, Knuckles sets off. In the city of Station Square, Sonic the Hedgehog battles Chaos after witnessing an attack by the police. Miles \"Tails\" Prower tests his Chaos Emerald-powered airplane, only to crash on the beach of Emerald Coast. After Sonic rescues Tails, they go to his workshop in the Mystic Ruins, where they are confronted by Eggman. The mad scientist uses Tails' Emerald to transform Chaos and he reveals his ultimate plan: with the power harnessed from the Emeralds, Chaos will eventually become invincible and destroy Station Square and Eggman will build Robotnikland over the city's ruins. Sonic and Tails resolve to search for the emeralds to prevent Eggman from getting them first, but eventually lose the ones they find to Eggman and Chaos. Eggman escapes in his airship, the Egg Carrier, and shoots down Sonic and Tails' pursuing plane. \n \nEggman activates E-102 Gamma and fights E-101 Beta during his training. He orders the rest of the E-Series robots to search for Froggy, a frog who has eaten Chaos's tail as well as a Chaos Emerald. Gamma finds Froggy but is chased back to the ship by Froggy's owner Big the Cat. After his crash, Tails finds another emerald and uses it to prepare the Tornado II plane to find Sonic while Sonic lands in Station Square once again. While lamenting her time with Sonic, Amy Rose discovers a Flicky bird in possession of a Chaos Emerald and names him Birdie. However, Eggman, having discovered Birdie's location, dispatches his robot Zero to chase the Flicky down. After Sonic turns down an offer to protect Birdie, Zero captures Amy and Birdie and detains them both on the Egg Carrier, with Sonic and Tails using the Tornado II to follow them on board. Knuckles also boards the aircraft after collecting pieces of the Master Emerald and seeing an image of the Egg Carrier in the emerald. \n \nOn board the Egg Carrier, Eggman calls out the E-Series robots for their failure and removes them before stationing Gamma in Amy's cell. However, Gamma witnesses Beta being rebuilt and Amy convinces Gamma that he should not work for Eggman, as he is an enemy. In a confusion of newly discovered emotions, Gamma releases Amy and Birdie. While being chased by Zero, Amy goes to the ship's deck. She meets up with Sonic and Tails, but Eggman appears and steals Birdie's emerald, dispatching Gamma to attack Sonic. Sonic damages Gamma, but Amy intervenes and asks Sonic to spares him. Gamma, understanding that Eggman is an enemy, decides to follow the others. The ship loses altitude and Tails, Amy, and Gamma flee, while Sonic restores the ship to its original form. Sonic is confronted by Chaos, now with six Chaos Emeralds and his tail restored, and defeats it once more before pursuing Eggman. Meanwhile, Big retrieves Froggy from inside Chaos before finding the Tornado II, and Knuckles steals back the six Chaos Emeralds; they both flee from the ship as it crashes. \n \nUpon erasing his master registration, Gamma resolves to track down his brother robots. After freeing the animals inside the robots, he goes to the Egg Carrier and confronts Beta, in his rebuilt form. Gamma defeats him, but the fight also causes Gamma to be destroyed, with Birdie's parents being released from within the two. Returning to the Egg Carrier, Amy reunites Birdie with its family, but she is confronted by Zero after he knocks down the Flicky. Amy defeats the robot and sees Birdie and his family off, vowing to do her best. Elsewhere, Tails chases Eggman and stops him from detonating a missile in the middle of Station Square. Eggman resorts to using the Egg Walker to try and level the city, but is again defeated by Tails. Later, Sonic confronts the mad scientist in his Egg Viper and destroys it. \n \nA day following Eggman's defeats, Knuckles restores the shards of the Master Emerald, but Angel Island collapses into the sea once again when Chaos attacks him and Eggman. Chaos absorbs the 6 Chaos Emeralds and locates the seventh aboard the Tornado II, which crashed after Big used it to escape the Egg Carrier. With all the Chaos Emeralds, Chaos transforms into Perfect Chaos, draining the Chaos Emeralds of their negative energy, and destroys Station Square in a massive flood. The Chaos Emeralds are re-gathered by Tails, Knuckles, Amy, Big, and the pink Flicky that fueled Gamma. They bring the emeralds to Sonic. \n \nTikal appears, having taken each main character into the past numerous times beforehand, demanding that Chaos must be sealed back in the Master Emerald. Sonic objects, saying that Chaos's heart would still be filled with anger and sadness if he were to be sealed inside the Master Emerald. Instead, with the cheering of his friends and the people of Station Square, Sonic uses the Chaos Emeralds' still-present positive energy to become Super Sonic and face off against Perfect Chaos. Following his defeat, Chaos discovers that the Chao thrive in Station Square, quelling his anger. United with Tikal, Chaos ascends into the heavens and disappears. The game ends with Sonic chasing after a fleeing Eggman.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Fair",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 09:23 am",
+    "updatedAt": "11/18/2018 09:23 am",
+    "_id": "c41a04fe4a9a41a2a834c5a8e4df8ee1",
+    "name": "Sonic Adventure",
+    "extraData": [
+      "Sega Dreamcast launch title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Sonic Adventure",
+        "id": "sdc57",
+        "details": [
+          "Sega Dreamcast launch title"
+        ],
+        "igdbId": 7860,
+        "gbId": 7852,
+        "gbGuid": "3030-7852",
+        "tgdbId": 2416,
+        "isLaunchTitle": [
+          {
+            "name": "Sega Dreamcast",
+            "id": "ccl18",
+            "igdbId": 23,
+            "gbId": 37,
+            "gbGuid": "3045-37",
+            "tgdbId": 16
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "12/31/1998",
+    "total_rating": 70,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fs9.jpg",
+    "description": "San Francisco Rush 2049 is the third game in the Rush series, sequel to San Francisco Rush and Rush 2: Extreme Racing USA. The game features a futuristic representation of San Francisco and an arcade-style physics engine. It also features a multiplayer mode for up to four players and Rumble Pak support on the Nintendo 64 port. A major difference in game play compared to predecessors in the series is the ability to extend wings from the cars in midair and glide. As with previous titles in the franchise, Rush 2049 features a stunt mode in which the player scores points for complex mid-air maneuvers and successful landings. There is also a multiplayer deathmatch battle mode. There are six race tracks, four stunt arenas, eight battle arenas, and one unlockable obstacle course named The Gauntlet. The single player race mode places emphasis on outlandish and death-defying shortcuts in each track. The game has a soundtrack mostly comprising techno music.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Other",
+    "case": "custom",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "burned",
+    "notes": "",
+    "createdAt": "11/18/2018 09:22 am",
+    "updatedAt": "11/18/2018 09:22 am",
+    "_id": "08e98091c36d4630bebfea7a84e4a1f8",
+    "name": "San Francisco Rush 2049",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2000",
+    "total_rating": 79,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/aeqe23wyli81dfi0zx2c.jpg",
+    "description": "Looney Tunes: Space Race features eight all-time favorite characters, including Bugs Bunny, Daffy Duck, Taz, Sylvester, Yosemite Sam, and Wile E. Coyote. The 12 tracks include shortcuts, jumps, and traps, and there are over 40 competitive events. Players can pummel opponents with gags like the portable hole, falling elephants, retractable boxing glove, and instant storm. Up to four players can race at a time.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Other",
+    "case": "custom",
+    "pricePaid": 0,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "burned",
+    "notes": "",
+    "createdAt": "11/18/2018 09:21 am",
+    "updatedAt": "11/18/2018 09:21 am",
+    "_id": "19dbe584b4de49419f3039de3236a163",
+    "name": "Looney Tunes: Space Race",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "09/10/2003",
+    "total_rating": 62,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rx3.jpg",
+    "description": "XGRA: Extreme-G Racing Association is a futuristic racing video game, and the fourth in the Extreme-G series, following Extreme-G 3. This game features more tracks as well as a brand new weapon system. Gameplay is similar but slightly different to previous games in the series. XGRA features a wide range of riders, tracks and bikes that can accelerate at an incredibly rapid rate, going from 0 to 300 mph in a matter of seconds. A returning feature is the ability to break sound barrier: upon reaching 750MPH, all sound effects will cut out, except for item collection sound, other tider's taunts, weapons firing, and in-game music.  XGRA allows players to race for 8 different teams, with each team's bike having their own advantages and drawbacks such as Regeneration, Handling, Speed, Acceleration and Shielding.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:49 pm",
+    "updatedAt": "11/18/2018 03:49 pm",
+    "_id": "d8bdb1eb1e1d417e8b52407081371181",
+    "name": "XGRA: Extreme G Racing Association",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "11/20/2001",
+    "total_rating": 94,
+    "esrb": "T",
+    "videos": [
+      "649rLYTO8oA",
+      "pPpkIitFjvk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.jpg",
+    "description": "Super Smash Bros. Melee is the second installment in the Super Smash Bros. series and the follow-up to the Nintendo 64 title. It includes all playable characters from the first game, and also adds characters from franchises such as Fire Emblem, of which no games had been released outside Japan at the time. Super Smash Bros. Melee builds on the first game by adding new gameplay features and playable characters: it's major focus is the multiplayer mode, while still offering a number of single-player modes.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 03:49 pm",
+    "updatedAt": "11/18/2018 03:49 pm",
+    "_id": "cf8f40440eac40e3a39503789293f9a3",
+    "name": "Super Smash Bros. Melee",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc77",
+        "name": "Super Smash Bros. Melee",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 1627,
+        "gbId": 17743,
+        "gbGuid": "3030-17743",
+        "tgdbId": 5654,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Sport",
+      "Hack and slash/Beat 'em up"
+    ]
+  },
+  {
+    "first_release_date": "08/24/2002",
+    "total_rating": 71,
+    "esrb": "E",
+    "videos": [
+      "ekm_ounBFDw",
+      "X73QJ_M6LDA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f3o.jpg",
+    "description": "The object of Super Monkey Ball 2 is to guide a monkey trapped inside a plastic ball through a maze to the goal. There are three variations, story mode, challenge mode, and practice mode. In story mode you have unlimited number of tries to complete a stage, and after clearing 10 stages a movie clip is shown followed by a new world of 10 stages. In challenge mode, you have a limited number of monkeys and a time limit to complete numerous levels of increasing difficulty. In practice mode you can play any stage already completed in the other two modes.  In addition to the main game options, numerous party games are also included. These are monkey race, monkey fight, monkey target, monkey billiards, monkey bowling, monkey golf, monkey boat, monkey shot, monkey dogfight, monkey soccer, monkey baseball, and monkey tennis. The party games can be played by one to four players.",
+    "story": "The story shows the Super Monkey Ball team and all the Jungle Island inhabitants happily enjoying their day, when suddenly, Dr. Bad-Boon's airship flies over the land and vacuums up all of the bananas. AiAi demands he give back all the bananas, but he will only do so if MeeMee marries him. MeeMee refuses, so Bad-Boon flies off, and the Super Monkey Ball team jumps into action. \n \nDr. Bad-Boon's first nefarious scheme is to blow up Jungle Island by making a volcano explode with a time bomb. He leaves it floating inside of it, and the team finds it. GonGon says he will destroy the bomb, despite MeeMee's pleas against it. He punches it out of the volcano, and it lands all the way in Bad-Boon's airship. It sinks into the sea, which drive Bad-Boon to swim away with the team chasing after him.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:48 pm",
+    "updatedAt": "11/18/2018 03:48 pm",
+    "_id": "d192afbb5a5c483e87fc0083c744d4a0",
+    "name": "Super Monkey Ball 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Puzzle",
+      "Sport",
+      "Strategy",
+      "Pinball"
+    ]
+  },
+  {
+    "first_release_date": "08/25/2002",
+    "total_rating": 86,
+    "esrb": "E",
+    "videos": [
+      "arvnhNPUrl0",
+      "Kr2b--ckbds"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21rh.jpg",
+    "description": "Super Mario Sunshine is a Mario action-adventure 3D platformer. It follows Super Mario 64, and is the second 3D Mario platformer. Gameplay features a combination of action and puzzle solving, with numerous stages and multiple episodes to each stage, and plenty of hidden secrets and surprises. This game introduced many recurring characters and bosses in the Mario series, including Toadsworth, Bowser Jr., Petey Piranha, Gooper Blooper, Piantas, Nokis, Shadow Mario, and F.L.U.D.D. Super Mario Sunshine pays homage to Mario's Italian heritage and upbringing, with many of the locations in the game having Italian names and sometimes referencing Italian culture.",
+    "story": "The game takes place on the tropical Isle Delfino, where Mario, Toadsworth, Princess Peach and five Toads are taking a vacation. A villain resembling Mario, known as Shadow Mario, vandalizes the island with graffiti as Mario gets blamed for the mess. Mario is ordered to clean up Isle Delfino, using a device called the Flash Liquidizer Ultra Dousing Device (F.L.U.D.D.), while saving Princess Peach from Shadow Mario.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:48 pm",
+    "updatedAt": "11/18/2018 03:48 pm",
+    "_id": "91e482026f6141a8ab034ac2ab7df689",
+    "name": "Super Mario Sunshine",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc75",
+        "name": "Super Mario Sunshine",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 1075,
+        "gbId": 6649,
+        "gbGuid": "3030-6649",
+        "tgdbId": 2236,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/09/2002",
+    "total_rating": 80,
+    "esrb": "E",
+    "videos": [
+      "lFmiyVcliN8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tyh.jpg",
+    "description": "Sonic Mega Collection is a video game compilation developed by Sonic Team and published by Sega in 2002 for the GameCube. The compilation contains twelve to fourteen games (depending on region) originally released on the Sega Genesis. Ten of the included games are installments of the Sonic the Hedgehog series, while the remaining two to four games are only related to the series through its publisher, Sega.  According to the director, Yojiro Ogawa, the purpose of the compilation was to introduce younger players to the original games in the Sonic series. The games are played through a Genesis emulator developed by Sonic Team themselves. Outside of the games, the compilation includes Sonic-themed videos and illustrations, as well as high-resolution scans of the instruction manuals and Sonic the Hedgehog comic covers.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:47 pm",
+    "updatedAt": "11/18/2018 03:47 pm",
+    "_id": "70f6771487d2448e826aa22d59aad1ac",
+    "name": "Sonic Mega Collection",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Puzzle"
+    ]
+  },
+  {
+    "first_release_date": "08/10/2005",
+    "total_rating": 75,
+    "esrb": "E",
+    "videos": [
+      "dzOnIMjSfO8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29p3.jpg",
+    "description": "Sonic Gems Collection is a 2005 compilation of Sega video games, primarily those in the Sonic the Hedgehog series. The emulated games span multiple genres and consoles—from the Sega Genesis to the Sega Saturn—and retain the features and errors of their initial releases with minimal edits.",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 2,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:47 pm",
+    "updatedAt": "11/18/2018 03:47 pm",
+    "_id": "0414004cd53d498cb31e6dce70fad950",
+    "name": "Sonic Gems Collection",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "12/19/2001",
+    "total_rating": 75,
+    "esrb": "E10+",
+    "videos": [
+      "EU4CbUoPBi4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1peg.jpg",
+    "description": "Sonic and company are back and better than ever in Sonic Adventure 2: Battle for Nintendo GameCube. Dr. Eggman is up to his old tricks, and it's up to Sonic, Tails, and Knuckles to stop him yet again. Sonic Adventure 2: Battle features faster action, all-new two-player games, and a branching storyline that lets you choose to save the world as the Hero side, or conquer it as the Dark side.  Two new playable characters enter the Sonic universe -- a mysterious dark hedgehog called Shadow, and a jewel-thieving bat named Rouge. In the single-player mode, you'll go through more than 30 unique stages, which include everything from a forgotten pyramid, an abandoned military base, and a giant space station. Then there's the expanded two-player mode, which features 12 playable characters competing in new head-to-head games. All of this adds up to Sonic's biggest adventure yet!",
+    "story": "Learning of a secret weapon from the diary of his deceased grandfather, Professor Gerald Robotnik, Eggman infiltrates a high-security G.U.N. facility and revives it using a Chaos Emerald. The weapon – a black hedgehog and self-proclaimed \"Ultimate Life Form\" named Shadow – offers to help Eggman conquer the world, telling him to rendezvous at an abandoned space colony, ARK, with more Chaos Emeralds. Shadow goes to Central City, encountering G.U.N.'s forces after stealing an Emerald. Shadow has vowed to fulfill a promise to a girl, Maria, which he interprets as one of revenge. Shadow blasts through the military force and meets Sonic. After a brief confrontation, Shadow escapes and G.U.N. captures Sonic, whom they mistake for Shadow. \n \nMeanwhile, Knuckles encounters Rouge and Eggman, who try to steal the Master Emerald. He stops them by shattering the Emerald and searches for the scattered shards. Rouge, spying for the government, heads to Eggman's base and the ARK. There, Shadow shows Eggman the Eclipse Cannon, another superweapon created by Gerald, and discloses his plan: to charge the cannon with Chaos Emeralds and use it to take over the world. Rouge appears, offering them a Chaos Emerald to gain their trust.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "eBay",
+    "notes": "",
+    "createdAt": "11/18/2018 03:45 pm",
+    "updatedAt": "11/18/2018 03:45 pm",
+    "_id": "9ca5accfaf0c450c846a34dec0096cef",
+    "name": "Sonic Adventure 2: Battle",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "01/10/2005",
+    "total_rating": 85,
+    "esrb": "M",
+    "videos": [
+      "t1KsnbqkLec"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20cg.jpg",
+    "description": "An atmospheric survival horror game with inventive third-person shooting mechanics set six years after the events of Resident Evil 2 (1998), Resident Evil 4 follows Leon S. Kennedy, a former Raccoon City police officer sent to Spain on a secret mission to retrieve the president's daughter from the hands of a mysterious cult. During his mission, he is forced to battle a mind-controlling parasite and its dehumanized hosts.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:45 pm",
+    "updatedAt": "11/18/2018 03:45 pm",
+    "_id": "afdbcd7440c94f4292fe7d4a31d2c829",
+    "name": "Resident Evil 4",
+    "extraData": [
+      "banned in Germany: Banned because of high-impact violence related to incentives and rewards via two unlockable bonus games. A censored version was released. The ban was lifted in 2017."
+    ],
+    "extraDataFull": [
+      {
+        "name": "Resident Evil 4",
+        "details": [
+          "banned in Germany: Banned because of high-impact violence related to incentives and rewards via two unlockable bonus games. A censored version was released. The ban was lifted in 2017."
+        ],
+        "id": "bi102",
+        "igdbId": 974,
+        "gbId": 1578,
+        "gbGuid": "3030-1578",
+        "tgdbId": 56
+      }
+    ],
+    "genres": [
+      "Shooter"
+    ]
+  },
+  {
+    "first_release_date": "10/29/2003",
+    "total_rating": 83,
+    "esrb": "T",
+    "videos": [
+      "P5XaqjHPPVQ",
+      "eeoqc2d4CUM",
+      "8S5DVt_wo3g"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd0.jpg",
+    "description": "Prince of Persia: The Sands of Time is a third-person puzzle-platformer and action-adventure computer and video game published by Ubisoft. It was released on November 21, 2003 and is a reboot of the landmark video game series Prince of Persia, created by Jordan Mechner in 1989.  The Sands of Time, developed internally at Ubisoft Montreal, successfully captures the mechanics of the original platformer and extends it to the 3D generation. An earlier attempt by The Learning Company to transfer the game to 3D (Prince of Persia 3D) was released in 1999, but despite its initial good reception failed to sell enough and the company responsible for the original trilogy was already closing doors. The game was praised for its visual design, finely tuned game mechanics and intriguing storyline, winning the game several awards.  The game was developed for the PC, PlayStation 2, GameCube, Xbox, and later a 2D-version for the Game Boy Advance and mobile phones. The success of The Sands of Time led to three followups, Prince of Persia: Warrior Within (2004), Prince of Persia: The Two Thrones (2005), and Prince of Persia: The Forgotten Sands (2010). A remastered, high-definition, version of The Sands of Time was released on the PlayStation Network for the PlayStation 3 on November 16, 2010.",
+    "story": "King Sharaman of Persia and his son, known only as the Prince, pass through India en route to Azad and conquer a city with the aid of the local Maharajah's traitorous Vizier. During the battle the Prince seeks to win honour and glory in his first battle and heads straight to the Maharajah's treasure vaults, where he discovers the mythical Sands of Time safely contained within their Hourglass and the Dagger of Time, which he quickly learns can turn back time a short amount. When the Prince presents the dagger to his father, the traitorous Vizier demands it as payment, but is refused by King Sharaman. The Persians then continue on their journey to Azad with the wealth of prisoners taken from the Maharajah, among them the Maharajah's beautiful daughter, Princess Farah. \n \nIn Azad, the Vizier, now in the service of King Sharaman, tricks the Prince into using the Dagger to release the Sands of Time from the Hourglass. A horrific sandstorm engulfs the kingdom and the Sands of Time turn all the occupants of the palace into monsters. Only the Prince, Farah, and the Vizier remain unchanged due to their possessions; a dagger, a medallion, and a staff, respectively. Amid the catastrophe, the Vizier demands the dagger from the Prince, who refuses and manages to escape. \n \nThe Prince soon teams up with Farah in an attempt to return the Sands of Time to the Hourglass, which the Vizier moves to the top of the Tower of Dawn. As they progress through the palace the pair are constantly waylaid by Sand Monsters (including a sand-possessed King Sharaman) and the deadly network of traps set in motion in the hopes of killing the creatures. The Prince becomes steadily more worn until his princely armor is mere shreds and his body covered in bloody wounds. \n \nWhile initially the Prince does not trust Farah because of the Persians' mistreatment of her, the two begin to grow closer as time goes on After a terrific battle in the ascent of the Tower of Dawn, they reach the Hourglass and are about to complete their mission when the Prince hesitates, suddenly suspicious of what Farah's motives really are. Before Farah can convince the Prince otherwise, the Vizier confronts the pair and uses his magical powers to trap Farah and the Prince in a tomb. \n \nAs they wait to die in the tomb Farah tells the Prince, who similarly reveals his claustrophobia, a story she had never told anyone before, about a time when she was little, when her mother told her about a secret magic word which would help her escape anything that scared her: \"Kakolookia\". \n \nAs soon as the Prince repeats the word, as if by magic, the Prince finds himself in a mysterious tunnel which winds down into a dreamlike bathhouse that resembles the magic fountains that the Prince earlier used to increase his health. There he meets Farah inviting him to join her bath; as they bathe, the Prince and Farah finally make love and find comfort in each other amid their perilous situation. When the Prince awakens afterwards, he finds himself back in the tomb and discovers that the magical cavern was just a dream, but he believed that Farah had shared it as well. However Farah, the Dagger, and his sword are gone, leaving him with only Farah's medallion to protect him from the Sands of Time. \n \nThe Prince, having found a new sword which destroys the sand monsters on contact, pursues and catches up to Farah once more atop the Tower of Dawn, which he must climb from the outside. When the Prince finally reaches the top, he finds Farah being overwhelmed by the sand monsters and she dangles over a cliff by the Dagger, while the Prince grab the blade; and Farah, realizing that the Prince will die to save her, instead sacrifices herself and lets go of the Dagger; and true to the game's prophecy \"if you want to live, die in love\" she falls to her death in the Hourglass room below. The Prince then tries to use the dagger to save her, but finds the sand-tanks empty since Farah had used them all. Enraged by his lover's death, the Prince uses the Dagger to massacre the last of the sand monsters in the tower and descends to weep over Farah's body. As the Prince mourns, the Vizier emerges from the shadows and offers the Prince a partnership in his evil plan, promising him eternal life; however the Prince angrily refuses because those he loved had died, and before the Vizier can stop him, the Prince drives the Dagger of Time into the Hourglass, rewinding time to the night before the invasion of the Maharajah's kingdom. The Prince awakens, still with the Dagger of Time, and secretly finds his way to Farah's bedroom, where he tells her the whole story, which she does not remember as it had not happened yet. However, the Vizier discovers the Prince, and fearing his planned treachery already revealed, attempts to kill both Farah and the Prince, telling that he suffered from consumption and would die in any event and that his plan was to cure his imminent death with eternal life. In the ensuing battle the Prince kills the Vizier. He then returns the Dagger of Time to Farah, who asks why the Prince invented such an unbelievable story to prove the Vizier's treachery. The Prince then kisses Farah, hoping she'll remember; but she rebuffs his advance, and so the Prince uses the dagger to erase the kiss, and instead he falsely tells her that it was just a story. But when Farah asks the Prince his name, he replies, \"Just call me Kakolookia\", before departing, leaving Farah amazed.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:44 pm",
+    "updatedAt": "11/18/2018 03:44 pm",
+    "_id": "39eb6b8a3edf403bb3eec70a8283e746",
+    "name": "Prince of Persia: The Sands of Time",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "10/30/2006",
+    "total_rating": 71,
+    "esrb": "E10+",
+    "videos": [
+      "4OC2ydWHp0c",
+      "aLTMTguEKps"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co209k.jpg",
+    "description": "Need for Speed: Carbon, also known as NFS Carbon or NFSC, is an Electronic Arts video game in the Need for Speed series. It is the tenth installment and was the first game in the series to gain the PEGI rating of 12+. The game is a sequel to 2005's Need for Speed: Most Wanted.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameStop",
+    "notes": "",
+    "createdAt": "11/18/2018 03:43 pm",
+    "updatedAt": "11/18/2018 03:43 pm",
+    "_id": "308b7384f14047f9a8668280d5a4f9fb",
+    "name": "Need for Speed: Carbon",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "04/27/2003",
+    "total_rating": 89,
+    "esrb": "E",
+    "videos": [
+      "86m4wyDhsUI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2etl.jpg",
+    "description": "NBA Street Vol. 2 is a basketball video game, published by EA Sports BIG and developed by EA Canada. It is the sequel to NBA Street and the second game in the NBA Street series. It was released on April 28, 2003 for the PlayStation 2, GameCube, and, for the first time in the series, on the Xbox. Japan was only able to see a PlayStation 2 release of this game. The GameCube version was also planned to be released in that region, but it was canceled for unknown reasons.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:43 pm",
+    "updatedAt": "11/18/2018 03:43 pm",
+    "_id": "76cd9ef726494205b32247a98e2ab289",
+    "name": "NBA Street Vol. 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Sport",
+      "Adventure",
+      "Basketball"
+    ]
+  },
+  {
+    "first_release_date": "11/16/2002",
+    "total_rating": 94,
+    "esrb": "T",
+    "videos": [
+      "9rv68uDkAAk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o28.jpg",
+    "description": "Everyone's favorite heroine, Samus Aran, is back! Packed to the gills with exploration, creative power-ups, and wicked enemies, Metroid Prime is a first-person adventure worthy of the Metroid stamp. An action-packed adventure set in the first-person perspective, Metroid Prime takes place just after the events in the original Metroid (NES). It has lead character Samus Aran, a bounty hunter by trade, chasing down the evil Space Pirates. Their intention is to use a genetic mutagen called Phazon to create a super army and take over the universe. While the installments in the series before have never been home to deeply involving storylines, Metroid Prime breaks the shell to offer up one of the most intriguing and read-worthy sagas yet. Developed by Texas-based Retro Studios. Metroid Prime brings all of the elements of the acclaimed franchise into a massive 3D arena.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/18/2018 03:42 pm",
+    "updatedAt": "11/18/2018 03:42 pm",
+    "_id": "1b519c2990544e1492f97cea20e640c2",
+    "name": "Metroid Prime",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "FPS"
+    ]
+  },
+  {
+    "first_release_date": "07/28/2003",
+    "total_rating": 74,
+    "esrb": "E",
+    "videos": [
+      "iT-Tl8xW3K4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pdu.jpg",
+    "description": "Hit the links in the Mushroom Kingdom!  Mario, Peach, Yoshi, Donkey Kong and others have tee times reserved in the Mushroom Kingdom! Challenge them to tournaments, or take them on in character matches to collect rings or nab coins! Play on resort-style courses or look out for Chain Chomps, Warp Pipes and Thwomps on the Mushroom Kingdom courses!",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:42 pm",
+    "updatedAt": "11/18/2018 03:42 pm",
+    "_id": "72674e780dfa4df4824e3f53daab004e",
+    "name": "Mario Golf: Toadstool Tour",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc41",
+        "name": "Mario Golf: Toadstool Tour",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 3403,
+        "gbId": 1598,
+        "gbGuid": "3030-1598",
+        "tgdbId": 6260,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Sport",
+      "Golf"
+    ]
+  },
+  {
+    "first_release_date": "11/17/2004",
+    "total_rating": 44,
+    "esrb": "E",
+    "videos": [
+      "iQSraarJcp4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co214o.jpg",
+    "description": "Mario Party 6 offers a new batch of games that require both your fingers and your voice. In this installment in the Mario Party series, you can use the included microphone controller to talk your way to victory. More than 80 minigames are included. You can play as Mario, Bowser, or other characters from the Mushroom Kingdom. New characters appear on the board depending on what time of day it is. The game supports up to four players.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:41 pm",
+    "updatedAt": "11/18/2018 03:41 pm",
+    "_id": "76056613abcc43d88294eeb65628ea48",
+    "name": "Mario Party 6",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc45",
+        "name": "Mario Party 6",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 2333,
+        "gbId": 8380,
+        "gbGuid": "3030-8380",
+        "tgdbId": 2317,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Puzzle",
+      "Sport",
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ]
+  },
+  {
+    "first_release_date": "11/06/2003",
+    "total_rating": 84,
+    "esrb": "E",
+    "videos": [
+      "3krr7HqO0-E"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yz.jpg",
+    "description": "The Mushroom Kingdom just got a whole lot more hectic as Mario and friends double up for furious kart racing. This time around, each kart holds two racers that can switch places at any time, so choose from a huge cast of favorites and pair them up any way you see fit. The character in front handles the driving duties, while the character in the rear doles out damage with six normal items and eight special items that only specific characters can use. Get ready for some intense multiplayer mayhem with your favorite characters, including Mario, Luigi, Donkey Kong, Peach, Bowser, and Koopa.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:37 pm",
+    "updatedAt": "11/18/2018 03:37 pm",
+    "_id": "ef54f2b530de4326904e0af257a6cf1d",
+    "name": "Mario Kart: Double Dash!!",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc42",
+        "name": "Mario Kart: Double Dash!!",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 2344,
+        "gbId": 18757,
+        "gbGuid": "3030-18757",
+        "tgdbId": 166,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing",
+      "Sport"
+    ]
+  },
+  {
+    "first_release_date": "12/12/2002",
+    "total_rating": 89,
+    "esrb": "E",
+    "videos": [
+      "RxMos9muPYQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nqu.jpg",
+    "description": "The Legend of Zelda: The Wind Waker is the 10th sequel of the Legend of Zelda action-adventure series. It's the first game of the series to be set on a group of islands in the sea. Therefore, many of Link's actions base on sailing and travelling from island to island, making a baton for controlling the wind the key item of the game.  Wind Waker is the first game of the Series with a cel-shaded graphic style. Since fans expected a Zelda game with realistic graphics like being shown at the Space World in 2000, the cel-shading look was critisized and discussed controversial for being too cartoonish.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:36 pm",
+    "updatedAt": "11/18/2018 03:36 pm",
+    "_id": "41deb3298079427bb903b476863679d6",
+    "name": "The Legend of Zelda: The Wind Waker",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc80",
+        "name": "The Legend of Zelda: The Wind Waker",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 1033,
+        "gbId": 18508,
+        "gbGuid": "3030-18508",
+        "tgdbId": 174,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "07/24/2003",
+    "total_rating": 84,
+    "esrb": "T",
+    "videos": [
+      "OYtN4poigAs",
+      "nD-fIAy2qxM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tjv.jpg",
+    "description": "The Future of Racing!  -Race for glory in the Grand Prix cups, speed through an incredible storyline as Captain Falcon, take on up to three friends, build and customize your own machine, challenge your time ghosts, and more! -Steer through danger with the Logitech Speed Force steering wheel, powered by force feedback technology (sold separately).  -Link to F-Zero AX  Take your memory card to the arcade and you can link to the upcoming F-Zero AX arcade game to race your custom machine, earn new parts, and unlock bonus features!",
+    "story": "The story starts out with Black Shadow driving down a highway after losing a Grand Prix. Deathborn catches up to him and gives him one more chance to succeed but says it's the only other chance he'll get. \n \nF-Zero GX's story mode continues with Falcon training for the Grand Prix, followed by racing his rival, Samurai Goroh, in a desert canyon and being forced to enter the bet race under the disguise of 'Famicom' (a reference to Nintendo's first home console). After winning said bet race, Falcon notices Black Shadow attacking the Lightning area on the news. Falcon makes his way to stop him, but is delayed by a group of thugs lead by Michael Chain. After dealing with Chain's gang, Falcon enters a facility to save Jody Summer. His escape is a close one as the core was set to overload and detonate, with said facility going into lock-down procedures. With Jody out of harm's way, he confronts Black Shadow. The evil overlord, with the help of Blood Falcon, binds Falcon and traps him inside his vehicle, strapping a bomb to the Blue Falcon that will detonate if the Blue Falcon goes too slowly. Falcon managed to survive, by driving the vehicle straight off an unfinished road and right under a crane, knocking the bomb off. \n \nFalcon later attended the Grand Prix, where he emerged victorious. After receiving the champion's belt, he witnessed Black Shadow being punished by his master, Deathborn, for his incompetence. Deathborn challenges Falcon to a one-on-one race for ownership of both belts. Before said race occurs, Deathborn reveals his plan to take over the universe, revealing the energies of light and dark are condensed in each belt, and that when combined, provide ultimate power that will turn him into a god-like being, able to lay waste Falcon's galaxy in an instant. Falcon swears to take him down. Falcon stays true to his word, and Deathborn apparently dies. Both belts unite into one, and Falcon vows to keep winning so he can protect the belt from the forces of evil. \n \nAt his garage, Falcon is greeted by the creators. Falcon figures out the creators were behind everything, though they do not elaborate their motives. They challenge Falcon to a race, where, if they win, will rip out Falcon's soul and turn it into their creation, implying that he would replace Deathborn. Falcon defeats even them. Screaming, the creators disappear, though whether they actually die or decide to let Falcon go, honoring (but no less angered by) his victory is unclear. Falcon then removes his helmet and leaves the room, where the credits and an exclusive theme song begins to play. (The camera pans at a downward angle, so Falcon's face is not clearly visible. Only a portion of his head in the back is partially seen.)",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:34 pm",
+    "updatedAt": "11/18/2018 03:34 pm",
+    "_id": "0d78a523fa284c2e85dbeb33a9d7ecc6",
+    "name": "F-Zero GX",
+    "extraData": [
+      "Nintendo GameCube console exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "id": "ngc24",
+        "name": "F-Zero X",
+        "details": [
+          "Nintendo GameCube console exclusive"
+        ],
+        "igdbId": 3492,
+        "gbId": 20448,
+        "gbGuid": "3030-20448",
+        "tgdbId": 10836,
+        "isExclusive": [
+          {
+            "name": "Nintendo GameCube",
+            "id": "ccl4",
+            "igdbId": 21,
+            "gbId": 23,
+            "gbGuid": "3045-23",
+            "tgdbId": 2
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "06/30/2004",
+    "total_rating": 65,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21qa.jpg",
+    "description": "A rhythm and beat game like the popular Dance Dance Revolution game series, but instead of matching the beats with your feet you use your hands to play the bongos. Starring the characters from the Donkey Kong series of games. There are more than 30 tunes to drum beats to, from every genre of music - pop favorites to classical remixes. The more on-time your beats are with the music the higher score you get to earn more coins to unlock different beat sounds.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo GameCube",
+    "consoleId": 21,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "11/18/2018 03:33 pm",
+    "updatedAt": "11/18/2018 03:33 pm",
+    "_id": "6f40230065034383b458c67dc0e3670c",
+    "name": "Donkey Konga 2",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Music",
+      "Simulator"
+    ]
+  },
+  {
+    "first_release_date": "12/01/2004",
+    "total_rating": 74,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/quebpemarsck9hdl7qup.jpg",
+    "description": "Polarium mixes way-cool gameplay with an electronica soundtrack for the trippiest experience yet on the DS. It's the first game that would look cool at a rave. Polarium is a simple, stylish puzzle game you play entirely with the Nintendo DS touch screen and a stylus. Draw lines to flip black and white tiles and make patterns and puzzles disappear. Use the stylus to draw a stroke, flipping black and white tiles to change and match their color. Three game modes and scores of puzzles will put your puzzle-solving abilities and stylus skills to the test. Challenge a friend to a duel over a wireless connection.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo DS",
+    "consoleId": 20,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "garage sale",
+    "notes": "",
+    "createdAt": "11/21/2018 03:43 pm",
+    "updatedAt": "11/21/2018 03:43 pm",
+    "_id": "1c27d291db9f4aed97c66879f6ef082d",
+    "name": "Polarium",
+    "extraData": [
+      "Nintendo DS exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Polarium",
+        "details": [
+          "Nintendo DS exclusive"
+        ],
+        "id": "nds378",
+        "igdbId": 6537,
+        "gbId": 11138,
+        "gbGuid": "3030-11138",
+        "tgdbId": 24424,
+        "isExclusive": [
+          {
+            "name": "Nintendo DS",
+            "id": "ccl11",
+            "igdbId": 20,
+            "gbId": 52,
+            "gbGuid": "3045-52",
+            "tgdbId": 8
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Puzzle",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "11/20/1990",
+    "total_rating": 80,
+    "esrb": "E",
+    "videos": [
+      "BIe4AvKLSa4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y7v.jpg",
+    "description": "F-Zero is set in the year 2560, when humanity's multiple encounters with alien life forms had resulted in the expansion of Earth's social framework. This led to commercial, technological and cultural interchanges between planets. The multi-billionaires who earned their wealth through intergalactic trade were mainly satisfied with their lifestyles, although most coveted more entertainment in their lives. This resulted in a new entertainment based on the Formula One races to be founded with vehicles that could hover one foot above the track. These Grand Prix races were soon named \"F-Zero\" after a rise in popularity of the races. The game introduced the first set of F-Zero racers: Captain Falcon, Dr. Stewart, Pico, and Samurai Goroh.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/16/2018 07:42 pm",
+    "updatedAt": "11/16/2018 07:42 pm",
+    "_id": "559c905c9a5449bf940f789903f5cf7f",
+    "name": "F-Zero",
+    "extraData": [
+      "SNES laucnh title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "F-Zero",
+        "id": "snes90",
+        "details": [
+          "SNES laucnh title"
+        ],
+        "igdbId": 3490,
+        "gbId": 15242,
+        "gbGuid": "3030-15242",
+        "tgdbId": 43448,
+        "isLaunchTitle": [
+          {
+            "name": "Super Nintendo Entertainment System (SNES)",
+            "id": "ccl2",
+            "igdbId": 19,
+            "gbId": 9,
+            "gbGuid": "3045-9",
+            "tgdbId": 6
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Racing"
+    ]
+  },
+  {
+    "first_release_date": "11/20/1994",
+    "total_rating": 82,
+    "esrb": "E",
+    "videos": [
+      "bXHDSA35_2k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29n6.jpg",
+    "description": "Donkey Kong Country is a side scrolling platformer by British developers Rareware in 1994. It featured revolutionary pre-rendered 3D graphics that give the game a very unique look compared to most other games on consoles at the time. The two playable characters featured in the game are the titular character, Donkey Kong and his nephew, Diddy Kong. Together the two swing, climb, jump, swim, cartwheel, ride animals, and blast out of barrels on their way to recover their stolen bannanas from the evil King K. Rool and his Kremling army. The adventure takes you through a variety of different environments and levels that continually change up gameplay. Donkey Kong Country also provides plenty of opportunities for exploration with almost every level having a multitude of collectible, shortcuts, and hidden bonus areas.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/16/2018 07:41 pm",
+    "updatedAt": "11/16/2018 07:41 pm",
+    "_id": "e65138d76dd84148bfeb38fce077160d",
+    "name": "Donkey Kong Country",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Platform",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "11/20/1990",
+    "total_rating": 96,
+    "esrb": "E",
+    "videos": [
+      "Vxg5eOPmzHI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23jy.jpg",
+    "description": "A 2D platformer and first entry on the SNES in the Super Mario franchise, Super Mario World follows Mario as he attempts to defeat Bowser's underlings and rescue Princess Peach from his clutches. The game features a save system, a less linear world map, an expanded movement arsenal and numerous new items for Mario, alongside new approaches to level design and art direction.",
+    "story": "Mario is having a vacation in Dinosaur Land when he learns that Princess Peach Toadstool has been kidnapped by the evil King Koopa Bowser. When Mario starts searching for her he finds a giant egg with a dinosaur named Yoshi hatching out of it. Yoshi tells Mario that his fellow dinosaurs have been imprisoned in eggs by Bowser's underlings. The intrepid plumber has to travel to their castles, rescue the dinosaurs, and eventually face King Koopa himself, forcing him to release the princess.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/16/2018 02:53 pm",
+    "updatedAt": "11/16/2018 02:53 pm",
+    "_id": "52ddcb6b3f594332a1dfca4e0681be26",
+    "name": "Super Mario World",
+    "extraData": [
+      "SNES laucnh title"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Super Mario World",
+        "id": "snes343",
+        "details": [
+          "SNES laucnh title"
+        ],
+        "igdbId": 1070,
+        "gbId": 1334,
+        "gbGuid": "3030-1334",
+        "tgdbId": 136,
+        "isLaunchTitle": [
+          {
+            "name": "Super Nintendo Entertainment System (SNES)",
+            "id": "ccl2",
+            "igdbId": 19,
+            "gbId": 9,
+            "gbGuid": "3045-9",
+            "tgdbId": 6
+          }
+        ],
+        "isExclusive": false,
+        "special": []
+      }
+    ],
+    "genres": [
+      "Platform"
+    ]
+  },
+  {
+    "first_release_date": "12/30/1989",
+    "total_rating": 88,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2djs.jpg",
+    "description": "Side-scrolling shoot-em-up, in a similar style to such games as Gradius, R-Type and Scramble. The aim is to wipe out the enemy, which has gathered around the allied airspace of 'Area 88', in a series of military aircraft-based scenarios. You choose one of three unique pilots; Shin Kazama, Micky Schymon or Greg Gates, each with varying abilities at damage repair, weapon handling and flying skill, and engage the enemy over a series of challenging missions. The player starts out with the weakest plane, the F8E Crusader, which can only be armed with a very basic range weapons. But, through completing various missions, enough cash can be raised to purchase higher-quality aircraft. These superior planes are more agile, have improved resilience to damage and have a greater range of fire. Furthermore, the more advanced fighters can be armed with superior special weapons, such as napalm. The missions include attacks on sand bases, the nuclear submarine 'Seavet' and enemy supply camps, as well as seeing off groups of airborne 'bandits' who swarm-in on Area 88. The enemy is plentiful, and the pace is frantic. Shoot at everything on the screen that moves, and the allied forces might just come out on top......",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/16/2018 02:08 pm",
+    "updatedAt": "11/16/2018 02:08 pm",
+    "_id": "9d08b78ad2aa4c918032eb239da1a84b",
+    "name": "U.N. Squadron",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Shooter",
+      "Real Time Strategy (RTS)",
+      "Strategy"
+    ]
+  },
+  {
+    "first_release_date": "11/20/1991",
+    "total_rating": 96,
+    "esrb": "E",
+    "videos": [
+      "cjpHzLYHkwA",
+      "OLSQ8K1jSWw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nqk.jpg",
+    "description": "A top-down action/adventure title in which Link, a blacksmith's nephew living in the fantastical land of Hyrule, must free the land from the evildoings of Ganon by taking up the mythical Master Sword and collecting the three Triforces in order to free the Seven Maidens, including the princess of Hyrule, Zelda, from the dungeons and castles of the Dark World.",
+    "story": "The plot of A Link to the Past focuses on Link as he travels on a journey to save Hyrule, defeat Ganon and rescue the seven descendants of the Sages. A Link to the Past uses a 3/4 top-down perspective similar to that of the original The Legend of Zelda, dropping the side scrolling elements of Zelda II: The Adventure of Link. A Link to the Past introduced elements to the series that are still commonplace today, such as the concept of an alternate or parallel world, the Master Sword and other new weapons and items.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Super Nintendo Entertainment System (SNES)",
+    "consoleId": 19,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "11/16/2018 02:07 pm",
+    "updatedAt": "11/16/2018 02:07 pm",
+    "_id": "28f1ebc6b7d24151926b92ed1e9cb439",
+    "name": "The Legend of Zelda: A Link to the Past",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ]
+  },
+  {
+    "first_release_date": "01/31/1988",
+    "total_rating": 80,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/golbljtqjpaujrr314aj.jpg",
+    "description": "Presented in an overhead isometric perspective, a single player races a radio-controlled car around a series of tracks. The objective of each track is to qualify for the next race by placing in the top three racers. Players collect items to improve performance, and they must avoid a variety of hazards such as rain puddles and oil slicks. It is an example of a racing game which features vehicular combat, in which racers can use missiles and bombs to temporarily disable opposing vehicles.  The game distanced itself from earlier racing titles by using an overhead, instead of a first-person, perspective. Reviews have cited it as inspiration for future games such as Super Off Road, Rock n' Roll Racing, and the Mario Kart series. It has appeared in many \"top games of all time\" lists and is regarded as one of the best titles in the NES library.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "Good",
+    "case": "custom",
+    "pricePaid": null,
+    "physical": true,
+    "cib": "",
+    "datePurchased": "",
+    "howAcquired": "Retro Game Treasure",
+    "notes": "",
+    "createdAt": "11/28/2018 06:18 pm",
+    "updatedAt": "11/28/2018 06:18 pm",
+    "_id": "6ee5e3084204462ca560ab6266265f2d",
+    "name": "R.C. Pro-Am",
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [
+      "Racing",
+      "Arcade"
+    ]
+  }
+]

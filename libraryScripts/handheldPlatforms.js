@@ -10,10 +10,16 @@ const handheldsArr = [
 ];
 
 const inHandheldsArr = (id, name) => {
-  return handheldsArr.indexOf(id.toString()) >= 0 && name !== 'Nintendo GameCube (Game Boy Player)';
+  if (id) {
+    return (
+      handheldsArr.indexOf(id.toString()) >= 0 && name !== 'Nintendo GameCube (Game Boy Player)'
+    );
+  } else {
+    return false;
+  }
 };
 
-module.exports.isHandheld = game => {
-  const hands = game.consoleArr.map(con => inHandheldsArr(con.consoleId, con.consoleName));
-  return hands.filter(res => res).length > 0;
+module.exports.isHandheld = (game) => {
+  const hands = game.consoleArr.map((con) => inHandheldsArr(con.consoleId, con.consoleName));
+  return hands.filter((res) => res).length > 0;
 };

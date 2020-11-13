@@ -35,6 +35,8 @@ function makeHeaders(key) {
 module.exports.refreshAppKey = async function () {
   const appKeyRes = await getAppAccessToken();
   appKey = appKeyRes.data;
+  console.log(chalk.cyan(twitchClientId));
+  console.log(chalk.cyan(appKey.access_token));
 };
 
 function getUserData(game) {
@@ -88,10 +90,15 @@ const getMultiplayerModes = (modes) => {
   return { combined, max };
 };
 
-module.exports.getNewGameData = async function (game) {
+module.exports.getNewGameData = async function (gameRaw) {
   return new Promise((resolve, reject) => {
-    if (game.igdb && game.igdb.id && game.igdb.id !== 9999 && game.igdb.id !== 99999) {
-      const data = `fields ${fields};where id = ${game.igdb.id};`;
+    const game = gameRaw.hasOwnProperty('game') ? gameRaw.game : gameRaw;
+    if (
+      (game.igdb && game.igdb.id && game.igdb.id !== 9999 && game.igdb.id !== 99999) ||
+      game.hasOwnProperty('game')
+    ) {
+      const data = `fields ${fields};where id = ${game.game ? game.game.igdb.id : game.igdb.id};`;
+      console.log(chalk.blue.bold('QUERY', data));
       const headers = makeHeaders(appKey);
       axios({
         url: `https://api.igdb.com/v4/games`,
@@ -102,10 +109,13 @@ module.exports.getNewGameData = async function (game) {
         .then((result) => {
           if (result.status === 200) {
             const formatted = {};
+            console.log('result.data', result.data);
             const item = result.data[0];
             if (item.first_release_date) {
               const rDate = item.first_release_date;
               formatted.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
+            } else {
+              formatted.first_release_date = '';
             }
             if (item.total_rating) {
               const trCopy = item.total_rating.toFixed();
@@ -142,7 +152,7 @@ module.exports.getNewGameData = async function (game) {
           }
         })
         .catch((error) => {
-          console.log(chalk.red(game.igdb.name));
+          console.log(chalk.red(game.game ? game.game.igdb.name : game.igdb.name));
           console.log(chalk.blue(error));
           resolve({ game, error });
         });

@@ -1,0 +1,29 @@
+[
+  {
+    "first_release_date": null,
+    "total_rating": null,
+    "id": null,
+    "esrb": null,
+    "videos": [],
+    "image": "https://www.giantbomb.com/api/image/scale_medium/1073732-dcbrowser1_dcboxboxart_160w.jpg",
+    "description": "The software that allows you to browse the internet on your Dreamcast. There were 3 made PlanetWeb being the american version. It used the Dreamcast's dial-up capabilities to surf the web. The PlanetWeb Browser allowed not only access to the web but also allowed access to Java, uploads, and movies.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Dreamcast",
+    "consoleId": 23,
+    "condition": "Good",
+    "case": "original",
+    "pricePaid": 1,
+    "physical": true,
+    "cib": true,
+    "datePurchased": "2019-02-02",
+    "howAcquired": "GameOver",
+    "notes": "",
+    "createdAt": "02/02/2019 02:08 pm",
+    "updatedAt": "02/02/2019 02:08 pm",
+    "_id": "f80fc5bb34a9428d82500dc19ef4884a",
+    "name": "Sega Dreamcast Web Browser 2.0",
+    "genres": [],
+    "extraData": ["Sega Dreamcast Exclusive"]
+  }
+]

@@ -1,3 +1,4 @@
+// prettier-ignore
 const consoleLocationList = {
   '18': 'upstairs', //nes,
   '19': 'upstairs', //snes
@@ -33,6 +34,7 @@ const consoleLocationList = {
   '60': 'upstairs' // Atari 7800
 };
 
-module.exports.getLocation = id => {
+module.exports.getLocation = (id) => {
+  console.log('location', consoleLocationList[id.toString()]);
   return consoleLocationList[id.toString()];
 };

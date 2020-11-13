@@ -1,0 +1,191 @@
+[
+  {
+    "game": {
+      "igdb": {
+        "name": "Rise to Honor",
+        "id": 22281,
+        "genres": [
+          "Hack and slash/Beat 'em up",
+          "Adventure"
+        ],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "02/16/2004",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Jet Li: Rise to Honor",
+        "guid": "3030-13809",
+        "gbid": 13809,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525193-box_jlroh.png",
+        "deck": "Jet Li stars as police officer Kit Yun as he fights his way from Hong Kong to San Francisco to fulfill a dead man's wish.",
+        "platforms": "PlayStation 2"
+      },
+      "consoleName": "PlayStation 2",
+      "consoleIgdbId": 8,
+      "consoleGbid": 19,
+      "consoleGbGuid": "3045-19",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-05-07",
+      "howAcquired": "Video Games Monthly",
+      "notes": "",
+      "createdAt": "05/08/2020 06:36 am",
+      "updatedAt": "05/08/2020 06:36 am",
+      "_id": "72530ab538ad4ad69337efce90e51eaf",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525193-box_jlroh.png",
+      "description": "Jet Li stars as police officer Kit Yun as he fights his way from Hong Kong to San Francisco to fulfill a dead man's wish.",
+      "name": "Rise to Honor",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {}
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Stealth Inc 2",
+        "id": 17959,
+        "genres": [
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 50,
+        "total_rating_count": 1,
+        "first_release_date": "04/29/2015",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-46189",
+        "gbid": 46189,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2949259-box_si2.png",
+        "deck": "The sequel to Stealth Bastard/Stealth Inc., A Game of Clones features a more open world map and a greater emphasis on exploration.",
+        "platforms": "PlayStation Network (PS3), PC, Wii U, PlayStation Network (Vita), Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "1",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-04-07",
+      "howAcquired": "Steam",
+      "notes": "Humble Bundle purchase",
+      "createdAt": "04/08/2020 06:40 am",
+      "updatedAt": "04/08/2020 06:40 am",
+      "_id": "309d4a7941d64ae88db1a8513d77bff1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2949259-box_si2.png",
+      "description": "The sequel to Stealth Bastard/Stealth Inc., A Game of Clones features a more open world map and a greater emphasis on exploration.",
+      "name": "Stealth Inc 2",
+      "miltiplayerNumber": 1
+    },
+    "error": {}
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "Jet Grind Radio",
+        "id": 1569,
+        "genres": [
+          "Platform",
+          "Sport"
+        ],
+        "total_rating": 83,
+        "total_rating_count": 7,
+        "first_release_date": "09/01/2000",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Jet Set Radio\r, JSR\r, JGR",
+        "guid": "3030-20096",
+        "gbid": 20096,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2139801-box_jgr.png",
+        "deck": "A young graffiti artist named Beat and his gang of inline-skating Rudies roam the cel-shaded streets of Tokyo-to while spraying tags, defeating rival gangs and evading a city-wide police crackdown.",
+        "platforms": "Game Boy Advance, Dreamcast, Xbox 360 Games Store, PlayStation Network (PS3), PC, iPhone, Android, PlayStation Network (Vita)"
+      },
+      "consoleName": "Dreamcast",
+      "consoleIgdbId": 23,
+      "consoleGbid": 37,
+      "consoleGbGuid": "3045-37",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "35",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2019-05-18",
+      "howAcquired": "GameOver",
+      "notes": "",
+      "createdAt": "11/18/2018 09:20 am",
+      "updatedAt": "11/18/2018 09:20 am",
+      "_id": "fb975d381648417b99ed839c1aff5f51",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2139801-box_jgr.png",
+      "description": "A young graffiti artist named Beat and his gang of inline-skating Rudies roam the cel-shaded streets of Tokyo-to while spraying tags, defeating rival gangs and evading a city-wide police crackdown.",
+      "name": "Jet Grind Radio",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {}
+  },
+  {
+    "game": {
+      "igdb": {
+        "name": "The Legend of Zelda: Collectors Edition",
+        "id": 45139,
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "total_rating": 91,
+        "total_rating_count": 2,
+        "first_release_date": "11/13/2003",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "The Legend of Zelda Collection",
+        "guid": "3030-14114",
+        "gbid": 14114,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/777595-919239_52155_front.jpg",
+        "deck": "The Collector's Edition of The Legend of Zelda includes both NES Zelda games, both Nintendo 64 Zelda games, and a demo of The Legend of Zelda: Wind Waker for the Gamecube.",
+        "platforms": "GameCube"
+      },
+      "consoleName": "Nintendo GameCube",
+      "consoleIgdbId": 21,
+      "consoleGbid": 23,
+      "consoleGbGuid": "3045-23",
+      "condition": "Good",
+      "case": "original",
+      "pricePaid": "",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "",
+      "howAcquired": "bundled with Game Cube",
+      "notes": "",
+      "createdAt": "11/18/2018 03:40 pm",
+      "updatedAt": "11/18/2018 03:40 pm",
+      "_id": "b1ef232909db4f38811c2e756976bb0c",
+      "image": "https://www.giantbomb.com/api/image/scale_medium/777595-919239_52155_front.jpg",
+      "description": "The Collector's Edition of The Legend of Zelda includes both NES Zelda games, both Nintendo 64 Zelda games, and a demo of The Legend of Zelda: Wind Waker for the Gamecube.",
+      "name": "The Legend of Zelda: Collectors Edition",
+      "miltiplayerNumber": 1,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    "error": {}
+  }
+]

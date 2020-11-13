@@ -1,0 +1,134 @@
+[{
+  "first_release_date": "04/07/2004",
+  "total_rating": 72,
+  "esrb": "T",
+  "videos": [
+    "d0Dj0rLptQg"
+  ],
+  "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1oz2.jpg",
+  "description": "Kit Yun (character model after Jet Li), soon finds himself in non-stop action, due to following a dying man's wish.  Cinematic storytelling with martial arts we could only see in Jet Li's movies, now as a game, leads through a dozen levels spanning Hong Kong and San Francisco while you fight out of duty, or for honor.",
+  "story": null,
+  "player_perspectives": [
+    "Third person"
+  ],
+  "consoleName": "PlayStation 2",
+  "consoleId": 8,
+  "condition": "Excellent",
+  "case": "original",
+  "pricePaid": null,
+  "physical": true,
+  "cib": true,
+  "datePurchased": "2020-05-07",
+  "howAcquired": "Video Games Monthly",
+  "notes": "",
+  "createdAt": "05/08/2020 06:36 am",
+  "updatedAt": "05/08/2020 06:36 am",
+  "_id": "72530ab538ad4ad69337efce90e51eaf",
+  "name": "Rise to Honor",
+  "extraData": [],
+  "extraDataFull": [],
+  "genres": [
+    "Hack and slash/Beat 'em up",
+    "Adventure"
+  ]
+},{
+  "first_release_date": "10/29/2014",
+  "total_rating": 74,
+  "esrb": "",
+  "videos": [
+    "b1ZsBHDGr8w"
+  ],
+  "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dr6.jpg",
+  "description": "In Stealth Inc 2, you play the role of a clone escaping a sinister and high-tech testing facility. Stealth Inc 2 tests both your brain and your reflexes over 60 varied levels linked together in a sprawling overworld. Death is never more than a few moments away, but one of the few advantages of being a clone is that death isn’t all that permanent. With no loading screens and no lives to worry about, players are encouraged to use their inevitable demise as a learning tool as they navigate lasers, homicidal robots and terrifying bosses in the ultimate hostile work environment",
+  "story": null,
+  "player_perspectives": [],
+  "consoleName": "PC (Microsoft Windows)",
+  "consoleId": 6,
+  "condition": "Other",
+  "case": "none",
+  "pricePaid": 1,
+  "physical": "",
+  "cib": "",
+  "datePurchased": "2020-04-07",
+  "howAcquired": "Steam",
+  "notes": "Humble Bundle purchase",
+  "createdAt": "04/08/2020 06:40 am",
+  "updatedAt": "04/08/2020 06:40 am",
+  "_id": "309d4a7941d64ae88db1a8513d77bff1",
+  "name": "Stealth Inc 2",
+  "genres": [
+    "Adventure",
+    "Indie"
+  ]
+},{
+  "first_release_date": "06/28/2000",
+  "total_rating": 78,
+  "esrb": "T",
+  "videos": [
+    "ih2BoI0BH_Q"
+  ],
+  "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dzw.jpg",
+  "description": "The government is attempting to silence the kids of Tokyo, but with their Overdrive Magnetic-Motor Skating Shoes, the cops will have to catch 'em first. The Jet Grind Radio program keeps the kids unified and inspired to fight for their rights of expression, which includes graffiti art. Grab your spray cans and design your own piece on one of the immense walls in the 3D, interactive city. You might be forced to protect your territory from adversaries that want to take over your neighborhood. Join up with like-minded hip individuals that will help you keep your area the way you want it. The cops will be after you too, so you'll have to be quick. The 10 cartoon-style characters are pumped up with polygons so they come alive in 3D on Dreamcast. Uniqueness is key to these kids and each character stands apart with exclusive abilities and style. They like to show off too, and with 18 missions, there's plenty of time to impress. It's fast, it's fun, and it's definitely funky.",
+  "story": null,
+  "player_perspectives": [
+    "Third person"
+  ],
+  "consoleName": "Dreamcast",
+  "consoleId": 23,
+  "condition": "Good",
+  "case": "custom",
+  "pricePaid": 35,
+  "physical": true,
+  "cib": "",
+  "datePurchased": "2019-05-18",
+  "howAcquired": "GameOver",
+  "notes": "",
+  "createdAt": "11/18/2018 09:20 am",
+  "updatedAt": "11/18/2018 09:20 am",
+  "_id": "fb975d381648417b99ed839c1aff5f51",
+  "name": "Jet Grind Radio",
+  "extraData": [],
+  "extraDataFull": [],
+  "genres": [
+    "Platform",
+    "Sport"
+  ]
+},{
+  "first_release_date": "11/06/2003",
+  "esrb": "",
+  "videos": [
+    "Hg5x80DOEo8",
+    "oInUKR4Y4Bo",
+    "otDmIiZxhPQ",
+    "cRNwL_GwXAw"
+  ],
+  "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25m1.jpg",
+  "description": "Receive Four Complete Classic Zelda games all on one disc when you buy the Zelda GameCube Bundle: The Legend of Zelda, Zelda II - The adventure of Link, The Legend of Zelda: Ocarina of Time, The Legend of Zelda: Majora's Mask. The disc also includes: Playable Demo of the Legend of Zelda: The Wind Waker, Zelda Retrospective Movie, The Legend of Zelda: The Wind Waker Movie Preview.",
+  "story": null,
+  "player_perspectives": [
+    "Third person",
+    "Bird view / Isometric",
+    "Side view"
+  ],
+  "consoleName": "Nintendo GameCube",
+  "consoleId": 21,
+  "condition": "Good",
+  "case": "original",
+  "pricePaid": null,
+  "physical": true,
+  "cib": true,
+  "datePurchased": "",
+  "howAcquired": "bundled with Game Cube",
+  "notes": "",
+  "createdAt": "11/18/2018 03:40 pm",
+  "updatedAt": "11/18/2018 03:40 pm",
+  "_id": "b1ef232909db4f38811c2e756976bb0c",
+  "name": "The Legend of Zelda: Collectors Edition",
+  "extraData": [],
+  "extraDataFull": [],
+  "genres": [
+    "Action",
+    "Adventure"
+  ]
+}
+]

@@ -31,11 +31,7 @@ const DeciderCards: FunctionComponent<IProps> = ({ data }) => {
     return (
       <>
         {loaded.map((d, index) => (
-          <GameCard
-            data={d}
-            key={`${index}-${d?.igdb?.name || 'game'}`}
-            cardClicked={cardClicked}
-          />
+          <GameCard data={d} key={`${index}-${d?.name || 'game'}`} cardClicked={cardClicked} />
         ))}
       </>
     );
@@ -84,7 +80,7 @@ const DeciderCards: FunctionComponent<IProps> = ({ data }) => {
       )}
       <Dialog
         visible={showModal}
-        header={selectedCard ? selectedCard['igdb']['name'] : ''}
+        header={selectedCard ? selectedCard['name'] : ''}
         modal={true}
         closeOnEscape={true}
         dismissableMask={true}

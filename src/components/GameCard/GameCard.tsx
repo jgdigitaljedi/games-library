@@ -14,11 +14,11 @@ const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
 
   return (
     <Card className={`game-card ${helpersService.physicalDigitalBc(data)}`}>
-      {data && data.igdb ? (
+      {data ? (
         <div className="game-card--content" onClick={() => cardClicked(data)}>
           <img
-            src={data.gb.image || ''}
-            alt={data.igdb.name || ''}
+            src={data.image || ''}
+            alt={data.name || ''}
             onError={(e: any) => {
               e.target.onerror = null;
               e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
@@ -33,15 +33,15 @@ const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
               {data.multiplayerNumber || '?'}
               <i className="pi pi-users" />
             </div>
-            {data.igdb && data.igdb.total_rating && (
+            {data.total_rating && (
               <div className="data-point">
-                {data.igdb && data.igdb.total_rating ? data.igdb.total_rating : null}
+                {data.total_rating ? data.total_rating : null}
                 <i className="pi pi-star" />
               </div>
             )}
           </div>
           <div className="game-card--content__title">
-            <h5>{data.igdb.name}</h5>
+            <h5>{data.name}</h5>
           </div>
         </div>
       ) : null}

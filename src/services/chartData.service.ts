@@ -26,7 +26,7 @@ export interface IChartData {
 }
 
 const dataTitles: IDataTitlesIndex = {
-  'igdb.first_release_date': 'Game Release Date',
+  first_release_date: 'Game Release Date',
   datePurchased: 'Money Spent Over Time',
   numOfGamesTime: 'Games collection growth over time (only games with purchase date)',
   pricePaid: 'Games by price group'
@@ -50,7 +50,7 @@ function makeDataSets(which: string, dataObjFinal: any) {
 export default {
   makeDataSet: (data: IGame[], which: string): IChartData => {
     let jointData;
-    if (which === 'igdb.first_release_date') {
+    if (which === 'first_release_date') {
       jointData = getGameByReleaseYearData({ data, which });
     } else if (which === 'datePurchased') {
       jointData = getPriceOverTimeData(data);
@@ -69,7 +69,7 @@ export default {
     } else {
       labelsSorted = labels.sort();
     }
-    const dataObjFinal = Object.keys(dataObj).map(key => dataObj[key]);
+    const dataObjFinal = Object.keys(dataObj).map((key) => dataObj[key]);
 
     return {
       labels: labelsSorted,

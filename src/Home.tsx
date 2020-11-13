@@ -96,6 +96,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
               data={data.mostRecentlyAddedPlatforms}
               whichData="createdAt"
               listRowClick={itemClicked}
+              isPlatform={true}
             />
           </div>
         )}

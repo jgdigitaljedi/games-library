@@ -61,8 +61,7 @@ function handleConsoleByCompany(con) {
 }
 
 function handleIgdbRating(game) {
-  const rating =
-    game && game.igdb && game.igdb.hasOwnProperty('total_rating') ? game.igdb.total_rating : null;
+  const rating = game && game.hasOwnProperty('total_rating') ? game.total_rating : null;
   if (rating !== null) {
     // it could potentially be 0 so general falsy check no good here
     if (rating >= 90) {
@@ -93,9 +92,9 @@ function purchasesByMonth(game) {
 }
 
 function handleGenres(game) {
-  const gameGenres = game && game.igdb && game.igdb.genres ? game.igdb.genres : ['NO GENRE'];
+  const gameGenres = game && game.genres ? game.genres : ['NO GENRE'];
   if (gameGenres) {
-    gameGenres.forEach(g => {
+    gameGenres.forEach((g) => {
       const lc = g.toLowerCase();
       if (genres.hasOwnProperty(lc)) {
         genres[lc]++;
@@ -107,7 +106,7 @@ function handleGenres(game) {
 }
 
 function handleEsrb(game) {
-  const esrb = game && game.igdb && game.igdb.esrb ? game.igdb.esrb : 'NOT RATED';
+  const esrb = game && game.esrb ? game.esrb : 'NOT RATED';
   if (esrb) {
     if (esrbCounts.hasOwnProperty(esrb)) {
       esrbCounts[esrb]++;
@@ -141,7 +140,7 @@ function handleAcqusition(game) {
 }
 
 function makeConGames() {
-  games.forEach(game => {
+  games.forEach((game) => {
     if (conGames.hasOwnProperty(game.consoleName)) {
       conGames[game.consoleName].push(game);
     } else {
@@ -151,7 +150,7 @@ function makeConGames() {
 }
 
 function handleConGamesData() {
-  Object.keys(conGames).forEach(con => {
+  Object.keys(conGames).forEach((con) => {
     conGamesCounts[con] = conGames[con].length;
   });
 }
@@ -215,13 +214,13 @@ function sortByDateCounts(a, b) {
 
 function getMostPopularGameDecade() {
   return games
-    .map(g => {
-      if (g && g.igdb && g.igdb.first_release_date) {
-        return g.igdb.first_release_date;
+    .map((g) => {
+      if (g && g.first_release_date) {
+        return g.first_release_date;
       }
       return null;
     })
-    .filter(g => g)
+    .filter((g) => g)
     .reduce((acc, gameDate, index) => {
       const gameDecade = gameDate.split('/')[2].slice(0, -1) + '0';
       if (acc[gameDecade]) {
@@ -241,7 +240,7 @@ const highestPricePaidGames = getMostExpensive(games, 5);
 const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
 const gamesByDecade = getMostPopularGameDecade();
 
-games.forEach(game => {
+games.forEach((game) => {
   handleGenres(game);
   handleEsrb(game);
   handleGameMedia(game);
@@ -251,13 +250,13 @@ games.forEach(game => {
   handleIgdbRating(game);
 });
 
-platforms.forEach(platform => {
+platforms.forEach((platform) => {
   handleConsoleByCompany(platform);
   handleConsoleByGeneration(platform);
 });
 
 const mostGamesInMonth = Object.keys(gamesBoughtByMonth)
-  .map(month => {
+  .map((month) => {
     return {
       dateFormatted: month,
       games: gamesBoughtByMonth[month]
@@ -277,7 +276,7 @@ const gamesBoughtInYear = Object.keys(gamesBoughtByMonth).reduce((acc, obj) => {
 }, {});
 
 const gamesInYearSorted = Object.keys(gamesBoughtInYear)
-  .map(year => {
+  .map((year) => {
     return {
       dateFormatted: year,
       games: gamesBoughtInYear[year]
@@ -288,7 +287,7 @@ const gamesInYearSorted = Object.keys(gamesBoughtInYear)
 const genSorted = Object.keys(consolesByGeneration).sort((a, b) => parseInt(a) > parseInt(b));
 
 const consolesByGenSorted = {};
-genSorted.forEach(gen => {
+genSorted.forEach((gen) => {
   consolesByGenSorted[gen] = consolesByGeneration[gen];
 });
 
@@ -319,7 +318,7 @@ const finalData = {
 fs.writeFile(
   path.join(__dirname, '../server/extra/collectionStats.json'),
   JSON.stringify(finalData, null, 2),
-  error => {
+  (error) => {
     if (error) {
       console.log(chalk.red.bold('ERROR GENERATING STATS: ', error));
     } else {

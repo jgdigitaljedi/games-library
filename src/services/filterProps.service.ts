@@ -1,13 +1,13 @@
-export default function(view: string) {
+export default function (view: string) {
   switch (view) {
     case 'games':
       return [
-        { label: 'Name', value: 'igdb.name' },
+        { label: 'Name', value: 'name' },
         { label: 'Console', value: 'consoleName' },
         { label: '# Players', value: 'multilayerNumber' },
         { value: 'genres', label: 'Genres' },
         { value: 'howAcquired', label: 'How Acquired' },
-        { value: 'igdb.esrb', label: 'ESRB Rating' }
+        { value: 'esrb', label: 'ESRB Rating' }
       ];
     case 'consoles':
       return [

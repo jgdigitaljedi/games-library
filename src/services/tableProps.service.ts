@@ -1,18 +1,18 @@
-export default function(view: string) {
+export default function (view: string) {
   const gamesCols = [
-    { field: 'gb.image', header: 'Image' },
-    { field: 'igdb.name', header: 'Name', sortable: true },
+    { field: 'image', header: 'Image' },
+    { field: 'name', header: 'Name', sortable: true },
     { field: 'consoleName', header: 'Console', sortable: true },
     { field: 'multiplayerNumber', header: 'Players', sortable: true },
-    { field: 'igdb.first_release_date', header: 'Release Date', sortable: true },
+    { field: 'first_release_date', header: 'Release Date', sortable: true },
     { field: 'datePurchased', header: 'Purchase Date', sortable: true },
     { field: 'pricePaid', header: 'Purchase Price', sortable: true },
     { field: 'case', header: 'Case/Box', sortable: true },
     { field: 'condition', header: 'Condition', sortable: true },
     { field: 'genres', header: 'Genres' },
-    { field: 'igdb.esrb', header: 'ESRB', sortable: true },
+    { field: 'esrb', header: 'ESRB', sortable: true },
     { field: 'howAcquired', header: 'How Acquired' },
-    { field: 'igdb.total_rating', header: 'Rating', sortable: true },
+    { field: 'total_rating', header: 'Rating', sortable: true },
     { field: 'notes', header: 'Notes', sortable: false }
   ];
   let cols;

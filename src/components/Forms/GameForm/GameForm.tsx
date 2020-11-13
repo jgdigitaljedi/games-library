@@ -97,6 +97,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   };
 
   const resetGameForm = useCallback(() => {
+    // @ts-ignore
     setGameForm(HelpersService.resetGameForm());
   }, [setGameForm]);
 

@@ -34,24 +34,27 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     setShowModal(true);
   };
 
-  const getList = useCallback((which) => {
-    setWhichList(which);
-    Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
-      .then((result) => {
-        if (result && result.data) {
-          setData(_sortBy(result.data, 'consoleName'));
-        }
-      })
-      .catch((error) => {
-        if (error) {
-          setNotify({
-            severity: 'error',
-            detail: error,
-            summary: 'error'
-          });
-        }
-      });
-  }, [setNotify]);
+  const getList = useCallback(
+    (which) => {
+      setWhichList(which);
+      Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
+        .then((result) => {
+          if (result && result.data) {
+            setData(_sortBy(result.data, 'consoleName'));
+          }
+        })
+        .catch((error) => {
+          if (error) {
+            setNotify({
+              severity: 'error',
+              detail: error,
+              summary: 'error'
+            });
+          }
+        });
+    },
+    [setNotify]
+  );
 
   useEffect((): void => {
     getList(whichList);
@@ -76,11 +79,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
         {cardView &&
           data.map((d, index) => {
             return (
-              <GameCard
-                data={d}
-                key={`${index}-${d?.igdb?.name || 'game'}`}
-                cardClicked={cardClicked}
-              />
+              <GameCard data={d} key={`${index}-${d?.name || 'game'}`} cardClicked={cardClicked} />
             );
           })}
         {!cardView && <ListView data={data} listRowClick={cardClicked} whichData={whichList} />}
@@ -88,7 +87,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
       <ScrollToTop position="right" />
       <Dialog
         visible={showModal}
-        header={selectedGame ? selectedGame['igdb']['name'] : ''}
+        header={selectedGame ? selectedGame['name'] : ''}
         modal={true}
         closeOnEscape={true}
         dismissableMask={true}

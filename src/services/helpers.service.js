@@ -1,31 +1,23 @@
 export default {
-  getTodayYMD: dateString => {
+  getTodayYMD: (dateString) => {
     const dSplit = dateString.split('-');
     return new Date(`${dSplit[1]}/${dSplit[2]}/${dSplit[0]}`);
   },
   resetGameForm: () => {
     return {
-      igdb: {
-        name: '',
-        id: 9999,
-        genres: [],
-        total_rating: 0,
-        total_rating_count: 0,
-        first_release_date: '',
-        developers: '',
-        esrb: ''
-      },
-      gb: {
-        aliases: '',
-        guid: '',
-        gbid: 9999,
-        image: '',
-        deck: '',
-        platforms: ''
-      },
+      name: '',
+      id: 9999,
+      genres: [],
+      total_rating: 0,
+      total_rating_count: 0,
+      first_release_date: '',
+      developers: '',
+      esrb: '',
+      videos: [],
+      player_perspectives: [],
+      story: '',
       consoleName: '',
-      consoleIgdbId: 9999,
-      consoleGbid: 9999,
+      consoleId: 9999,
       consoleGbGuid: '',
       condition: 'none',
       case: 'none',
@@ -51,7 +43,7 @@ export default {
   resetPlatformForm: () => {
     return {};
   },
-  physicalDigitalBc: game => {
+  physicalDigitalBc: (game) => {
     const which = game.physicalDigital;
     const everDrive = which.indexOf('EverDrive') >= 0;
     const phy = which.indexOf('physical') >= 0;
@@ -73,7 +65,7 @@ export default {
       return 'nope';
     }
   },
-  physicalDigitalBcText: game => {
+  physicalDigitalBcText: (game) => {
     const which = game.physicalDigital;
     const phy = which.indexOf('physical') >= 0;
     const bc = which.indexOf('backwardComp') >= 0;
@@ -98,25 +90,25 @@ export default {
 };
 
 export const consoleGenerationYears = {
-  '1': '1972 - 1984',
-  '2': '1976 - 1992',
-  '3': '1983 - 2003',
-  '4': '1987 - 2004',
-  '5': '1993 - 2005',
-  '6': '1998 - 2013',
-  '7': '2005 - 2017',
-  '8': '2012 - 2020',
+  1: '1972 - 1984',
+  2: '1976 - 1992',
+  3: '1983 - 2003',
+  4: '1987 - 2004',
+  5: '1993 - 2005',
+  6: '1998 - 2013',
+  7: '2005 - 2017',
+  8: '2012 - 2020',
   UNKNOWN: '???'
 };
 
 export const consoleGenerationNames = {
-  '1': 'First Gen',
-  '2': 'Second Gen',
-  '3': 'Third Gen',
-  '4': 'Fourth Gen',
-  '5': 'Fifth Gen',
-  '6': 'Sixth Gen',
-  '7': 'Seventh Gen',
-  '8': 'Eighth Gen',
+  1: 'First Gen',
+  2: 'Second Gen',
+  3: 'Third Gen',
+  4: 'Fourth Gen',
+  5: 'Fifth Gen',
+  6: 'Sixth Gen',
+  7: 'Seventh Gen',
+  8: 'Eighth Gen',
   UNKNOWN: 'UNKNOWN'
 };

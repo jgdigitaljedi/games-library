@@ -17,10 +17,10 @@ export default {
   sortDropdownCats: () => {
     return [
       { label: 'Purchase Date', value: 'datePurchased' },
-      { label: 'Name', value: 'igdb.name' },
-      { label: 'Release Date', value: 'igdb.first_release_date' },
+      { label: 'Name', value: 'name' },
+      { label: 'Release Date', value: 'first_release_date' },
       { label: 'Purchase Price', value: 'pricePaid' },
-      { label: 'Rating', value: 'igdb.total_rating' },
+      { label: 'Rating', value: 'total_rating' },
       { label: 'Max # Players', value: 'multiplayerNumber' }
     ];
   },
@@ -38,7 +38,7 @@ export default {
       if (cat.toLowerCase().indexOf('date') >= 0) {
         // sortBy ain't gonna work with dates
         sorted = data
-          .filter(g => {
+          .filter((g) => {
             const hasData = _get(g, cat);
             if (!hasData) {
               noData.push(g);
@@ -59,7 +59,7 @@ export default {
             }
             return new Date(aDate) > new Date(bDate) ? 1 : -1;
           });
-      } else if (cat === 'igdb.name') {
+      } else if (cat === 'name') {
         sorted = data.sort((a, b) => {
           const aLower = _get(a, cat).toLowerCase();
           const bLower = _get(b, cat).toLowerCase();
@@ -73,7 +73,7 @@ export default {
         });
       } else if (cat === 'multiplayerNumber' || cat === 'pricePaid') {
         sorted = data
-          .filter(g => {
+          .filter((g) => {
             const gData = _get(g, cat);
             if (!gData) {
               noData.push(g);
@@ -93,7 +93,7 @@ export default {
           });
       } else {
         sorted = _sortBy(
-          data.filter(g => {
+          data.filter((g) => {
             const gData = _get(g, cat);
             if (!gData) {
               noData.push(g);

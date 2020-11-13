@@ -1,24 +1,29 @@
 import { IConsoleArr } from './platforms.model';
 
 export interface IGame {
-  igdb: {
-    name: string;
-    id: number;
-    genres: string[];
-    total_rating: number;
-    total_rating_count: number;
-    first_release_date: string;
-    developers: string;
-    esrb: string;
-  };
-  gb: {
-    aliases: string;
-    guid: string;
-    gbid: number;
-    image: string;
-    deck: string;
-    platforms: string;
-  };
+  // igdb: {
+  // name: string;
+  // id: number;
+  // genres: string[];
+  // total_rating: number;
+  // total_rating_count: number;
+  // first_release_date: string;
+  // developers: string;
+  // esrb: string;
+  // };
+  // gb: {
+  //   aliases: string;
+  //   guid: string;
+  //   gbid: number;
+  //   image: string;
+  //   deck: string;
+  //   platforms: string;
+  // };
+  id: number;
+  total_rating: number;
+  total_rating_count: number;
+  first_release_date: string;
+  esrb: string;
   consoleName: string;
   consoleIgdbId: number;
   consoleGbid: number;
@@ -28,7 +33,6 @@ export interface IGame {
   pricePaid: string;
   physical: boolean;
   cib: string | boolean;
-  // pirated: string;
   multiplayerNumber: string | number;
   physicalDigital: string[];
   datePurchased: string;
@@ -37,14 +41,17 @@ export interface IGame {
   createdAt: string;
   updatedAt: string;
   _id: string;
-  genres: string;
+  genres: string[];
   consoleArr?: IConsoleArr[];
   extraData?: string[];
   extraDataFull?: IExtraDataFull[];
   compilation: null | IGame[];
-  name?: string;
-  image?: string;
-  description?: string;
+  name: string;
+  image: string;
+  description: string;
+  story: string;
+  videos?: string[];
+  player_perspectives: string[];
   handheld?: boolean;
 }
 

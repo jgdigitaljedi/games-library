@@ -59,21 +59,21 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
       <div className="game-dialog--body">
         <div className="game-dialog--body__image-and-deck">
           <img
-            src={game.gb.image}
+            src={game.image}
             onError={(e: any) => {
               e.target.onerror = null;
               e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
-            alt={game.igdb.name + ' cover image'}
+            alt={game.name + ' cover image'}
           />
           <div className="right-container">
-            <p>{game.gb.deck}</p>
+            <p>{game.description}</p>
             <div className="card-row tables-row">
               <table style={{ marginRight: '2rem' }} className="card-row--table">
                 <tbody>
                   <tr>
                     <td className="table-cat">Originally released</td>
-                    <td>{game.igdb.first_release_date}</td>
+                    <td>{game.first_release_date}</td>
                   </tr>
                   <tr>
                     <td className="table-cat">Max # Players</td>
@@ -83,11 +83,11 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                     <td className="table-cat">Rating</td>
                     <td>
                       <Rating
-                        value={Math.round(game.igdb.total_rating / 20)}
+                        value={Math.round(game.total_rating / 20)}
                         readonly
                         stars={5}
-                        cancel={!game.igdb.total_rating}
-                        disabled={!game.igdb.total_rating}
+                        cancel={!game.total_rating}
+                        disabled={!game.total_rating}
                       />
                     </td>
                   </tr>
@@ -95,13 +95,13 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
               </table>
               <table className="card-row--table">
                 <tbody>
-                  <tr>
+                  {/* <tr>
                     <td className="table-cat">Developer</td>
                     <td>{game.igdb['developers']}</td>
-                  </tr>
+                  </tr> */}
                   <tr>
                     <td className="table-cat">Genres</td>
-                    <td>{game.igdb.genres.join(', ')}</td>
+                    <td>{game.genres.join(', ')}</td>
                   </tr>
                   <tr>
                     <td className="table-cat">Physical/Digital/BC</td>
@@ -149,8 +149,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
         <div className="image-container">
           <img
             src={
-              game && game.igdb && game.igdb.esrb
-                ? `${urlPrefix}/${ratingImages(game.igdb.esrb)}`
+              game && game.esrb
+                ? `${urlPrefix}/${ratingImages(game.esrb)}`
                 : `${urlPrefix}Video-Game-Controller_Icon.svg.png`
             }
             alt="ESRB Rating"
@@ -159,7 +159,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
               e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
           />
-          {game && game.igdb && game.igdb.esrb ? <></> : <h3>NO RATING</h3>}
+          {game && game.esrb ? <></> : <h3>NO RATING</h3>}
           <div className="extra-data">
             {game.extraData &&
               game.extraData.length > 0 &&
@@ -172,7 +172,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
               })}
           </div>
         </div>
-        <h4>{game && game.igdb ? game.igdb.name : ''} can be played on:</h4>
+        <h4>{game && game.name ? game.name : ''} can be played on:</h4>
         <div className="game-dialog--body__consoles">
           {game && game.consoleArr ? (
             game.consoleArr.map((con: IConsoleArr, index: number) => (

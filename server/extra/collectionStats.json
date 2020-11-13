@@ -1,46 +1,30 @@
 {
   "mostRecentlyAddedGames": [
     {
-      "igdb": {
-        "name": "Your Shape Fitness Evolved 2013",
-        "id": 28347,
-        "genres": [
-          "Sport"
-        ],
-        "total_rating": 77,
-        "total_rating_count": "",
-        "first_release_date": "11/17/2012",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-38551",
-        "gbid": 38551,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525290-box_ysfe2013.png",
-        "deck": "Even more fitness from Ubisoft, now for the Wii U.",
-        "platforms": "Wii U"
-      },
+      "first_release_date": "11/17/2012",
+      "total_rating": 77,
+      "esrb": "E10+",
+      "videos": [
+        "rB1gzksFAg8"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/pdm8zrgpeae5g3b2wdvs.jpg",
+      "description": "GAME DETAILS Your Shape Fitness Evolved 2013 is a leading-edge fitness product that will help you set and achieve your goals in an engaging and motivating fashion. Connect online with friends to compete and collaborate your way to fitness.  The Whole Nine Yards. With 125 different workouts and 215 moves Your Shape Fitness Evolved 2013 delivers a massive array of activities. Whether you’re looking for strength building, cardio, stretching, or relaxation, we’ve got you covered. Your Personal Trainer. Create a personalized fitness program lasting up to four weeks, tailored to your current fitness level and preferences. Set your own personal goals and workout frequency. Get fit and stay motivated with a progressive learning curve and “Daily-Do’s”. Get Connected. Your Shape Fitness Evolved 2013 brings a slew of new online features. With news feeds, online challenges, leaderboards, achievements and friend competitions, Your Shape sets a new technological standard in the Nintendo universe and leverages the unique features of the Wii U hardware. Join the Calorie Fighter Community. Connect with the established Your Shape Center website and broader Your Shape community. You can check out your personal stats and status wherever you are, or participate in community events and global challenges. Technology. Your Shape Fitness Evolved 2013 continues in the tradition of the franchise by offering the best-in-class workout technology including progress tracking, motivating online features, HD graphics, and beautifully animated virtual coaches. Eating Well. Getting fit isn’t only about exercise. Your Shape Fitness Evolved 2013 includes a huge database over 150 recipes for all occasions enabling you to eat right, while eating well. Dance Mode. Burn your calories while dancing to a pumping soundtrack. Supported with popular music tracks, the dance mode helps you have more fun while you get fit.",
+      "story": null,
+      "player_perspectives": [],
       "consoleName": "Wii U",
-      "consoleIgdbId": 41,
-      "consoleGbid": 139,
-      "consoleGbGuid": "3045-139",
+      "consoleId": 41,
       "condition": "Excellent",
       "case": "original",
-      "pricePaid": "",
+      "pricePaid": null,
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
       "datePurchased": "2020-11-05",
       "howAcquired": "Video Games Monthly",
       "notes": "sealed (for now)",
       "createdAt": "11/05/2020 07:08 pm",
       "updatedAt": "11/05/2020 07:08 pm",
       "_id": "3d7d5e578560477da0ce76be9bd7ca97",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525290-box_ysfe2013.png",
-      "description": "Even more fitness from Ubisoft, now for the Wii U.",
       "name": "Your Shape Fitness Evolved 2013",
-      "miltiplayerNumber": 1,
       "extraData": [
         "Nintendo Wii U launch title",
         "Nintendo Wii U full exclusive"
@@ -79,177 +63,143 @@
           ],
           "special": []
         }
-      ]
+      ],
+      "genres": [
+        "Sport"
+      ],
+      "id": 28347
     },
     {
-      "igdb": {
-        "name": "Code Name S.T.E.A.M.",
-        "id": 7392,
-        "genres": [
-          "Strategy",
-          "Turn-based strategy (TBS)",
-          "Adventure"
-        ],
-        "total_rating": 59,
-        "total_rating_count": 20,
-        "first_release_date": "03/12/2015",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "Code Name: STEAM\r, Codename: STEAM\r, Code Name S.T.E.A.M.: Lincoln Vs. Aliens",
-        "guid": "3030-46597",
-        "gbid": 46597,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2644722-steam.jpg",
-        "deck": "A turn-based tactics game with a third person view. It is set in a steampunk world with an art style inspired by comic books. Players control a strike force called S.T.E.A.M., created by Abraham Lincoln, to fend off an alien invasion.",
-        "platforms": "Nintendo 3DS, Nintendo 3DS eShop"
-      },
+      "first_release_date": "03/12/2015",
+      "total_rating": 59,
+      "esrb": "T",
+      "videos": [
+        "IwWqUf-ZxhU",
+        "4EO6NsPqBRA",
+        "6SezVDf66YA"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21q1.jpg",
+      "description": "Launch S.T.E.A.M., an elite team of steam-powered special-forces soldiers, to save the world from an alien menace. In this new blend of action and strategy, your commandos use steam power stored in special backpacks to move into position and fire an arsenal of distinct weapons. Pick your team members and load out, then use strategy to decide the best way to approach this steampunk-inspired battlefield.",
+      "story": null,
+      "player_perspectives": [
+        "Third person"
+      ],
       "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
+      "consoleId": 37,
       "condition": "Excellent",
       "case": "original",
-      "pricePaid": "",
+      "pricePaid": null,
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
       "datePurchased": "2020-11-05",
       "howAcquired": "Video Games Monthly",
       "notes": "sealed (for now)",
       "createdAt": "11/05/2020 07:08 pm",
       "updatedAt": "11/05/2020 07:08 pm",
       "_id": "c4f4e66f226b4ff991732be9e15c42b3",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2644722-steam.jpg",
-      "description": "A turn-based tactics game with a third person view. It is set in a steampunk world with an art style inspired by comic books. Players control a strike force called S.T.E.A.M., created by Abraham Lincoln, to fend off an alien invasion.",
       "name": "Code Name S.T.E.A.M.",
-      "miltiplayerNumber": 1
+      "genres": [
+        "Strategy",
+        "Turn-based strategy (TBS)",
+        "Adventure"
+      ],
+      "id": 7392
     },
     {
-      "igdb": {
-        "name": "The Trash Pack: The Gross Gang in Your Garbage",
-        "id": 9752,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 33,
-        "total_rating_count": 1,
-        "first_release_date": "10/29/2012",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-80529",
-        "gbid": 80529,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/52/523260/3240970-trashpack_boxart.jpg",
-        "deck": "A 3DS game based on the popular children’s toy.",
-        "platforms": "Nintendo 3DS"
-      },
+      "first_release_date": "10/29/2012",
+      "total_rating": 33,
+      "esrb": "E",
+      "videos": null,
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/eljljeymnlf0n2nyr6m2.jpg",
+      "description": "Taking out the trash has never been so much FUN!",
+      "story": null,
+      "player_perspectives": [],
       "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
+      "consoleId": 37,
       "condition": "Excellent",
       "case": "original",
-      "pricePaid": "",
+      "pricePaid": null,
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
       "datePurchased": "2020-11-05",
       "howAcquired": "Video Games Monthly",
       "notes": "sealed (for now)",
       "createdAt": "11/05/2020 07:07 pm",
       "updatedAt": "11/05/2020 07:07 pm",
       "_id": "97111f2defdb416697bf92d78ecb067a",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/52/523260/3240970-trashpack_boxart.jpg",
-      "description": "A 3DS game based on the popular children’s toy.",
       "name": "The Trash Pack: The Gross Gang in Your Garbage",
-      "miltiplayerNumber": 1
+      "genres": [
+        "Adventure"
+      ],
+      "id": 9752
     },
     {
-      "igdb": {
-        "name": "Medieval Moves: Deadmund's Quest",
-        "id": 18230,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 66,
-        "total_rating_count": 4,
-        "first_release_date": "11/14/2011",
-        "developers": "",
-        "esrb": "E"
+      "first_release_date": "11/14/2011",
+      "total_rating": 66,
+      "esrb": "E",
+      "videos": [
+        "VmFPGuAlsME"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/gmkzosjztaivf7osaxs6.jpg",
+      "description": "The evil Sorcerer Morgrimm has invaded Prince Edmund's Castle and plots to take over the kingdom, raising an army of skeletons from beyond. Now you must fight Morgrimm and his minions to restore order to the kingdom! Use the fluid PS Move motion-controls to battle your foes using swords, arrows, throwing stars and more! Let the adventure begin!",
+      "story": null,
+      "player_perspectives": [
+        "Third person"
+      ],
+      "multiplayer_modes": {
+        "offlinemax": 0,
+        "offlinecoopmax": 2,
+        "splitscreen": true
       },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-35558",
-        "gbid": 35558,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2103137-box_mmdq.png",
-        "deck": "Take on the role of Deadmund as he battles his way through hordes of undead skeletons using his sword & shield, bow & arrow, and throwing stars in this PlayStation Move-exclusive game.\n",
-        "platforms": "PlayStation 3, PlayStation Network (PS3)"
-      },
+      "maxMultiplayer": 2,
       "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
+      "consoleId": 9,
       "condition": "Excellent",
       "case": "original",
-      "pricePaid": "",
+      "pricePaid": null,
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
       "datePurchased": "2020-11-05",
       "howAcquired": "Video Games Monthly",
       "notes": "sealed (for now)",
       "createdAt": "11/05/2020 07:10 pm",
       "updatedAt": "11/05/2020 07:10 pm",
       "_id": "71bb88f790f043189f109503f1354995",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2103137-box_mmdq.png",
-      "description": "Take on the role of Deadmund as he battles his way through hordes of undead skeletons using his sword & shield, bow & arrow, and throwing stars in this PlayStation Move-exclusive game.\n",
       "name": "Medieval Moves: Deadmund's Quest",
-      "miltiplayerNumber": 1
+      "genres": [
+        "Adventure"
+      ],
+      "id": 18230
     },
     {
-      "igdb": {
-        "name": "Heavy Rain",
-        "id": 493,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 626,
-        "first_release_date": "02/17/2010",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "The Origami Killer",
-        "guid": "3030-21304",
-        "gbid": 21304,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794108-box_heavyrain.png",
-        "deck": "An interactive thriller from the studio behind Indigo Prophecy, sporting a dark storyline involving the investigation of a mysterious serial killer.",
-        "platforms": "PlayStation 3, PC, PlayStation 4"
-      },
+      "first_release_date": "02/17/2010",
+      "total_rating": 81,
+      "esrb": "M",
+      "videos": [
+        "YVYiJ3VSp60",
+        "kOETdpyaWck"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m8q.jpg",
+      "description": "Heavy Rain is a cinematic psychological thriller from game developer Quantic Dream exclusively for the PlayStation 3. Dealing with a range of adult themes, the game revolves around a sophisticated plot and strong narrative threads that explore a complex moral proposition. You assume the role of multiple characters with very different backgrounds, motivations, and skills in a world where each player decision affects what will follow.",
+      "story": "The game focuses on four different characters; Ethan Mars, a father and main protagonist; Scott Shelby, a private eye; Norman Jayden, an FBI agent and finally Madison Paige, a photojournalist. They are very different characters and do not know each other at the game's point, but are all connected in the sense that they all have interest in the game's main antagonist, the Origami Killer.",
+      "player_perspectives": [
+        "First person",
+        "Third person"
+      ],
       "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
+      "consoleId": 9,
       "condition": "Excellent",
       "case": "original",
-      "pricePaid": "",
+      "pricePaid": null,
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
       "datePurchased": "2020-11-05",
       "howAcquired": "Video Games Monthly",
       "notes": "sealed (for now)",
       "createdAt": "11/05/2020 07:09 pm",
       "updatedAt": "11/05/2020 07:09 pm",
       "_id": "793da39aac454698982f04169fc337be",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794108-box_heavyrain.png",
-      "description": "An interactive thriller from the studio behind Indigo Prophecy, sporting a dark storyline involving the investigation of a mysterious serial killer.",
       "name": "Heavy Rain",
-      "miltiplayerNumber": 1,
       "extraData": [
         "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
         "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
@@ -267,7 +217,11 @@
           "gbGuid": "3030-21304",
           "tgdbId": 319
         }
-      ]
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "id": 493
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -444,224 +398,172 @@
   ],
   "mostPaidForGames": [
     {
-      "igdb": {
-        "name": "Pitfall: The Mayan Adventure",
-        "id": 5410,
-        "genres": [
-          "Platform",
-          "Adventure"
-        ],
-        "total_rating": 61,
-        "total_rating_count": 7,
-        "first_release_date": "12/30/1994",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-9331",
-        "gbid": 9331,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
-        "deck": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
-        "platforms": "Game Boy Advance, Genesis, Super Nintendo Entertainment System, Jaguar, Sega CD, Sega 32X, NUON, Wii Shop, PC"
-      },
+      "first_release_date": "12/30/1994",
+      "total_rating": 62,
+      "esrb": "T",
+      "videos": [
+        "yRee1MvZwMc",
+        "H1UDL4OxCkU"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fsd.jpg",
+      "description": "Pitfall: The Mayan Adventure is a side-scrolling action game in which you play adventurer Pitfall Harry Jr in search of his father Pitfall Harry. You battle your way through the Mayan jungles, waterfalls, deserted mines and can bungee jump and boomerang your way to safety. There are 13 levels and the action is fast and gripping. You will need to be attentive—and quick. Or prepare to die.",
+      "story": null,
+      "player_perspectives": [],
       "consoleName": "Sega 32X",
-      "consoleIgdbId": 30,
-      "consoleGbid": 31,
-      "consoleGbGuid": "3045-31",
+      "consoleId": 30,
       "condition": "Good",
       "case": "original",
-      "pricePaid": "200",
+      "pricePaid": 200,
       "physical": true,
       "cib": true,
-      "multiplayerNumber": "1",
       "datePurchased": "2019-07-27",
       "howAcquired": "Classic Game Fest",
       "notes": "",
       "createdAt": "07/27/2019 03:01 pm",
       "updatedAt": "07/27/2019 03:01 pm",
       "_id": "a4865cb63f434af69cb195da9aee5e34",
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2967843-box_ptma.png",
-      "description": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
       "name": "Pitfall: The Mayan Adventure",
-      "miltiplayerNumber": 1,
       "extraData": [],
-      "extraDataFull": []
+      "extraDataFull": [],
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "id": 5410
     },
     {
-      "igdb": {
-        "name": "Rock Band 4",
-        "id": 10128,
-        "genres": [
-          "Music",
-          "Simulator"
-        ],
-        "total_rating": 66,
-        "total_rating_count": 22,
-        "first_release_date": "10/05/2015",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "RB4",
-        "guid": "3030-49077",
-        "gbid": 49077,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
-        "deck": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
-        "platforms": "Xbox One, PlayStation 4"
-      },
+      "first_release_date": "10/05/2015",
+      "total_rating": 74,
+      "esrb": "T",
+      "videos": [
+        "3pZNDZzCZ7o"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqr.jpg",
+      "description": "Rock Band, the award-winning social and interactive music performance experience, is back! Form your own band, rock the world, and live out your ultimate rock and roll fantasy, with your friends, family, or as a solo act. Rock Band 4 delivers the ultimate platform for gamers to experience music, giving players the chance to rock in the shoes of the biggest guitarists, bassists, drummers, and singers of all time. Rock Band 4 delivers the most authentic music game ever, challenging rockers to master lead guitar, bass guitar, drums, and vocals.",
+      "story": null,
+      "player_perspectives": [],
       "consoleName": "PlayStation 4",
-      "consoleIgdbId": 48,
-      "consoleGbid": 146,
-      "consoleGbGuid": "3045-146",
+      "consoleId": 48,
       "condition": "Good",
       "case": "original",
-      "pricePaid": "100",
+      "pricePaid": 100,
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "4",
       "datePurchased": "",
       "howAcquired": "GameStop",
       "notes": "Has drumset with cymbals pack, microphone, and 1 guitar",
       "createdAt": "11/21/2018 06:09 am",
       "updatedAt": "11/21/2018 06:09 am",
       "_id": "52ef32fca1864e18b6f8ec1952ec0bd9",
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2949246-box_rb4.png",
-      "description": "An installment of the band-focused rhythm game for the Xbox One and PlayStation 4. Focusing on the core vocals, drums, guitar, and bass instruments, Rock Band 4 offers a new set of on-disc songs while supporting players' existing DLC libraries.",
       "name": "Rock Band 4",
-      "miltiplayerNumber": 4,
       "extraData": [],
-      "extraDataFull": []
+      "extraDataFull": [],
+      "genres": [
+        "Music",
+        "Simulator"
+      ],
+      "id": 10128
     },
     {
-      "igdb": {
-        "name": "PGA TOUR 2K21",
-        "id": 133939,
-        "genres": [
-          "Simulator",
-          "Sport",
-          "Golf"
-        ],
-        "total_rating": 78,
-        "total_rating_count": 3,
-        "first_release_date": "08/20/2020",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-78301",
-        "gbid": 78301,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
-        "deck": "2K Sports' second PGA golf game.",
-        "platforms": "PC, Xbox One, PlayStation 4, Nintendo Switch, Google Stadia"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "70",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-08-22",
-      "howAcquired": "Steam",
-      "notes": "Deluxe Edition",
-      "createdAt": "08/23/2020 07:59 pm",
-      "updatedAt": "08/23/2020 07:59 pm",
-      "_id": "df12e91c7db84587a0e3970ad8f7ea8d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3196759-box_pgat2k20.png",
-      "description": "2K Sports' second PGA golf game.",
-      "name": "PGA TOUR 2K21",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Splatterhouse",
-        "id": 6929,
-        "genres": [
-          "Hack and slash/Beat 'em up",
-          "Arcade"
-        ],
-        "total_rating": 66,
-        "total_rating_count": 7,
-        "first_release_date": "10/31/1988",
-        "developers": "",
-        "esrb": "T"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-15148",
-        "gbid": 15148,
-        "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
-        "deck": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
-        "platforms": "Xbox 360, PlayStation 3, TurboGrafx-16, Arcade, Wii Shop, PC, iPhone, FM Towns"
-      },
+      "first_release_date": "10/31/1988",
+      "total_rating": 66,
+      "esrb": "T",
+      "videos": [
+        "yViFx4X_W7A"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hci.jpg",
+      "description": "Splatterhouse is a sidescrolling beat 'em up video game in which the player controls Rick, a parapsychology student who is trapped inside West Mansion. After his resurrection by the Terror Mask, Rick makes his way through the mansion, fighting off hordes of creatures in a vain attempt to save his girlfriend Jennifer from a grisly fate. Players of this game will also recognize a number of western horror film influences, such as Friday the 13th and Evil Dead 2.  Similar to many sidescrolling beat 'em up games, Rick can only move in a two-dimensional environment. The playing field does not feature a three-dimensional area, a feature that was added later in the series with Splatterhouse 3. He has the ability to jump and can punch and kick. Rick also has a Special Attack, where he will perform a drop kick that sends him skidding along the ground, damaging any enemies he hits. Rick can also perform a low kick, low punch, and jumping attacks, as well as pick up and use various weapons placed in the levels.  All of the levels consist of walking left to right, with occasional auto-scrolling segments. However, alternative pathways through sections of the house are possible by falling down through holes or jumping up onto ladders. In this way, branching gameplay is possible, if only prevalent in the middle levels. Levels culminate in boss fights that take place in a single room. Unlike traditional side-scrolling fighters, boss fights have varying objectives and styles. Unlike most arcade games in the genre, Splatterhouse sends players back to checkpoints after losing lives or reaching game over, discouraging \"credit feeding\" as a method of overcoming the various challenges.",
+      "story": "Two college students, Rick Taylor and Jennifer Willis, take refuge from a storm in West Mansion, a local landmark known as \"Splatterhouse\" for the rumors of hideous experiments purportedly conducted there by Dr. West, a renowned and missing parapsychologist. As they enter the mansion and the door shuts behind them, Jennifer screams. \n \nRick awakens in the dungeon of the mansion to discover that he is still alive thanks to the influence of the \"Terror Mask\", or in some versions, the \"Hell Mask\", a Mayan sacrificial artifact from West's house which is capable of sentient thought. The mask attaches itself to Rick, fusing with his body and transforming him into a monster with superhuman strength. With the mask's encouragement, Rick goes on a rampage through the dungeon and the mansion grounds, killing hordes of monsters. Inside the mansion, Rick finds Jennifer, prone on a couch and surrounded by a throng of creatures that retreat upon his arrival. After their departure, Jennifer transforms into a giant, fanged monster that attempts to kill Rick while begging him for help. Rick is forced to kill Jennifer, who transforms back to normal and thanks him before she dies. Infuriated, Rick tracks the remaining monsters to a giant, bloody hole in the mansion's floor. Upon entering it, Rick discovers that the mansion itself is alive. He follows a bloody hallway to the house's \"womb\", which produces fetus-like monsters that attack him. Rick destroys the womb, which causes the house to burst into flames as it \"dies\". \n \nEscaping the burning mansion, Rick comes across a grave marker. The Terror Mask releases energy into the grave, reviving a giant monster named \"Hell Chaos\" that claws its way up from the earth and attempts to kill Rick. Rick destroys the creature, which unleashes a tormented ghost that dissipates into a series of bright lights. As the lights vanish, the mask shatters, turning Rick back to normal, and he flees as the house burns to the ground and the credits roll. However, after he leaves and the credits end, the Terror Mask reassembles itself and laughs evilly, staying there for 45 seconds, with the word \"END\" appearing on the bottom right corner of the screen.",
+      "player_perspectives": [
+        "Side view"
+      ],
       "consoleName": "TurboGrafx-16/PC Engine",
-      "consoleIgdbId": 86,
-      "consoleGbid": 55,
-      "consoleGbGuid": "3045-55",
+      "consoleId": 86,
       "condition": "Good",
       "case": "custom",
-      "pricePaid": "70",
+      "pricePaid": 70,
       "physical": true,
       "cib": "",
-      "multiplayerNumber": "1",
       "datePurchased": "2019-09-13",
       "howAcquired": "GameOver",
       "notes": "",
       "createdAt": "09/13/2019 08:58 pm",
       "updatedAt": "09/13/2019 08:58 pm",
       "_id": "3823f79da35646e1a4d7f506aa6ebfb3",
-      "image": "https://www.giantbomb.com/api/image/scale_medium/2418727-splatterhouse_arcadeflyer.png",
-      "description": "Splatterhouse is a remarkably gory, splatter-themed arcade game from 1988. The player controls Rick Taylor, who allows himself to be possessed by the sinister \"Terror Mask\" in an attempt to save his girlfriend Jennifer from the hideous monsters who have kidnapped her.",
       "name": "Splatterhouse",
-      "miltiplayerNumber": 1,
       "extraData": [],
-      "extraDataFull": []
+      "extraDataFull": [],
+      "genres": [
+        "Hack and slash/Beat 'em up",
+        "Arcade"
+      ],
+      "id": 6929
     },
     {
-      "igdb": {
-        "name": "Call Of Duty: Modern Warfare",
-        "id": 119177,
-        "genres": [
-          "Shooter",
-          "FPS"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 93,
-        "first_release_date": "10/24/2019",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Call of Duty: Modern Warfare 4, Call of Duty 2019",
-        "guid": "3030-73517",
-        "gbid": 73517,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
-        "deck": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
+      "first_release_date": "08/20/2020",
+      "total_rating": 75,
+      "videos": [
+        "UsfYeLABYgo"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28j6.jpg",
+      "description": "Play against the pros. Play with your crew. In PGA TOUR 2K21, you can play by the rules or create your own featuring a new PGA TOUR Career Mode, licensed courses and more!",
+      "story": null,
+      "player_perspectives": [],
       "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
+      "consoleId": 6,
       "condition": "Other",
       "case": "none",
-      "pricePaid": "64",
+      "pricePaid": 70,
       "physical": "",
       "cib": "",
-      "multiplayerNumber": "1",
+      "datePurchased": "2020-08-22",
+      "howAcquired": "Steam",
+      "notes": "Deluxe Edition",
+      "createdAt": "08/23/2020 07:59 pm",
+      "updatedAt": "08/23/2020 07:59 pm",
+      "_id": "df12e91c7db84587a0e3970ad8f7ea8d",
+      "name": "PGA TOUR 2K21",
+      "genres": [
+        "Simulator",
+        "Sport",
+        "Golf"
+      ],
+      "id": 133939
+    },
+    {
+      "first_release_date": "10/24/2019",
+      "total_rating": 79,
+      "esrb": "M",
+      "videos": [
+        "bH1lHCirCGI",
+        "V5MoJ0GEuGs",
+        "X8Do_zXNc_E"
+      ],
+      "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rsg.jpg",
+      "description": "Prepare to go dark, Modern Warfare is back!  The stakes have never been higher as players take on the role of lethal Tier One operators in a heart-racing saga that will affect the global balance of power. Call of Duty: Modern Warfare engulfs fans in an incredibly raw, gritty, provocative narrative that brings unrivaled intensity and shines a light on the changing nature of modern war.  Players will be thrust into an immersive narrative spanning the entire game. Experience the ultimate online playground with classic multiplayer or squad-up and play cooperatively in a collection of elite operations, accessible to all skill levels.",
+      "story": null,
+      "player_perspectives": [
+        "First person"
+      ],
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleId": 6,
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": 64,
+      "physical": "",
+      "cib": "",
       "datePurchased": "2020-05-13",
       "howAcquired": "Battle.net",
       "notes": "",
       "createdAt": "05/14/2020 06:29 am",
       "updatedAt": "05/14/2020 06:29 am",
       "_id": "962e91ffb0ba4e48b3f90041f9531018",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3132551-box_codmw.png",
-      "description": "Infinity Ward's 2019 reboot of the Modern Warfare franchise.",
       "name": "Call Of Duty: Modern Warfare",
-      "miltiplayerNumber": 1
+      "genres": [
+        "Shooter",
+        "FPS"
+      ],
+      "id": 119177
     }
   ],
   "mostPaidForPlatforms": [
@@ -836,163 +738,161 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "Wii U": 18,
+    "PC (Microsoft Windows)": 294,
     "Nintendo 3DS": 15,
-    "PlayStation 3": 44,
-    "PC (Microsoft Windows)": 295,
-    "Nintendo DS": 19,
-    "Atari 5200": 6,
-    "Atari 7800": 6,
+    "Wii U": 18,
     "Atari 2600": 20,
-    "Nintendo Entertainment System (NES)": 52,
-    "Sega 32X": 15,
-    "Nintendo Switch": 43,
     "Sega Mega Drive/Genesis": 31,
+    "PlayStation 3": 44,
+    "PlayStation Portable": 18,
+    "Wii": 27,
     "Nintendo 64": 32,
     "PlayStation 4": 89,
-    "Game Boy Advance": 16,
     "Xbox 360": 59,
-    "Super Nintendo Entertainment System (SNES)": 18,
-    "PlayStation 2": 57,
-    "PlayStation": 21,
-    "Nintendo GameCube": 35,
-    "PlayStation Portable": 18,
-    "Xbox": 43,
-    "Wii": 27,
-    "Game Boy": 6,
-    "Dreamcast": 23,
-    "Sega Saturn": 8,
-    "Sega CD": 6,
+    "Nintendo Switch": 43,
     "3DO Interactive Multiplayer": 7,
-    "Game Boy Color": 7,
-    "TurboGrafx-16/PC Engine": 4,
+    "Nintendo DS": 19,
+    "Nintendo Entertainment System (NES)": 51,
+    "Nintendo GameCube": 34,
     "Sega Game Gear": 3,
-    "Xbox One": 28
+    "Dreamcast": 20,
+    "PlayStation 2": 56,
+    "PlayStation": 21,
+    "Xbox": 42,
+    "Sega CD": 6,
+    "Sega 32X": 15,
+    "Super Nintendo Entertainment System (SNES)": 18,
+    "Atari 5200": 6,
+    "Atari 7800": 6,
+    "Game Boy Color": 7,
+    "Sega Saturn": 8,
+    "Xbox One": 28,
+    "Game Boy Advance": 16,
+    "Game Boy": 6,
+    "TurboGrafx-16/PC Engine": 4
   },
   "gamesPerEsrb": {
-    "E10+": 88,
-    "T": 198,
-    "E": 234,
-    "M": 266,
-    "NOT RATED": 270,
-    "RP": 14,
-    "KA": 1
+    "NOT RATED": 242,
+    "M": 269,
+    "E": 247,
+    "T": 206,
+    "E10+": 87,
+    "RP": 12
   },
   "physicalVsDigitalGames": {
-    "physical": 662,
-    "digital": 409
+    "physical": 655,
+    "digital": 408
   },
   "gamesAcquisition": {
-    "Video Games Monthly": 61,
-    "Steam": 154,
-    "Epic Games Store": 25,
+    "Steam": 153,
+    "Video Games Monthly": 60,
+    "GameOver": 243,
     "GOG": 22,
-    "UNKNOWN": 133,
-    "GameOver": 246,
-    "eBay": 51,
-    "Amazon": 7,
     "Twitch": 39,
+    "UNKNOWN": 133,
+    "Retro Game Treasure": 39,
+    "bundled with console": 1,
+    "Amazon": 7,
+    "Target": 4,
+    "GameStop": 66,
+    "bought from Solis": 23,
+    "Classic Game Fest": 9,
+    "PSN": 66,
+    "eBay": 51,
+    "flea market": 5,
+    "XBOX Live": 18,
+    "Brandy's friend from BCBS": 19,
+    "Epic Games Store": 25,
     "Green Man Gaming": 2,
     "Limited Run Games": 1,
-    "PSN": 66,
     "Origin": 2,
-    "Battle.net": 1,
-    "bought from Solis": 23,
-    "eShop": 23,
-    "GameStop": 66,
-    "Target": 4,
+    "bought from Lani": 5,
     "Walmart": 13,
-    "Retro Game Treasure": 40,
-    "Classic Game Fest": 9,
+    "gift from Dee": 1,
+    "retro store in WF": 4,
+    "Battle.net": 1,
+    "eShop": 23,
     "traded with Solis": 1,
-    "flea market": 5,
     "Goodwill": 2,
     "XBOX Store": 3,
-    "XBOX Live": 18,
     "gift from mom": 1,
     "Toys 'R Us": 2,
     "from Becca when bought Xbox One": 1,
     "came with PSP when bought from Kershawna": 1,
     "burned": 5,
-    "bundled with Game Cube": 1,
     "garage sale": 9,
-    "Brandy's friend from BCBS": 20,
     "Jeremy was giving away": 1,
     "trade with Brian Davidson": 1,
-    "gift from Brandy": 1,
-    "bundled with console": 1,
-    "bought from Lani": 5,
-    "gift from Dee": 1,
-    "retro store in WF": 4
+    "gift from Brandy": 1
   },
-  "cibGames": 280,
+  "cibGames": 276,
   "gamesWithGenre": {
-    "sport": 141,
-    "strategy": 120,
-    "turn-based strategy (tbs)": 25,
-    "adventure": 378,
     "shooter": 370,
-    "indie": 137,
     "fps": 176,
-    "arcade": 104,
-    "puzzle": 110,
-    "quiz/trivia": 11,
     "music": 29,
     "rythym": 1,
-    "shmup": 10,
-    "platform": 188,
+    "adventure": 375,
+    "platform": 187,
+    "arcade": 104,
     "pinball": 5,
-    "golf": 15,
-    "basketball": 6,
-    "real time strategy (rts)": 12,
+    "fighting": 68,
+    "sport": 140,
+    "boxing": 3,
+    "tactical": 28,
+    "role-playing (rpg)": 153,
     "simulator": 110,
+    "puzzle": 110,
+    "quiz/trivia": 11,
+    "strategy": 120,
+    "indie": 136,
+    "golf": 15,
+    "twin-stick shooter": 4,
+    "turn-based strategy (tbs)": 25,
     "racing": 114,
+    "hack and slash/beat 'em up": 65,
+    "japanese": 2,
+    "import": 2,
+    "skateboarding": 14,
+    "football": 8,
+    "light gun": 1,
+    "basketball": 6,
+    "snowboarding": 6,
+    "tennis": 3,
+    "party": 12,
+    "turn-based": 7,
+    "shmup": 10,
+    "real time strategy (rts)": 12,
     "soccer": 5,
     "vehicular combat": 5,
-    "fighting": 68,
-    "boxing": 3,
-    "hack and slash/beat 'em up": 66,
-    "football": 8,
-    "skateboarding": 14,
-    "role-playing (rpg)": 153,
-    "tactical": 28,
-    "point-and-click": 9,
-    "surfing": 2,
-    "baseball": 6,
-    "game show": 1,
-    "party game": 1,
-    "third-person shooter": 12,
-    "hockey": 3,
-    "party": 12,
     "track": 1,
     "power pad": 1,
     "fishing": 2,
-    "action": 2,
-    "turn-based": 7,
-    "japanese": 2,
-    "import": 2,
+    "action": 1,
+    "third-person shooter": 12,
+    "dancing": 1,
+    "baseball": 6,
     "mech": 3,
     "horror": 2,
+    "hockey": 3,
+    "point-and-click": 9,
     "on-rails-shooter": 3,
     "building": 1,
     "survival horror": 4,
     "visual novel": 1,
-    "snowboarding": 6,
     "fmv": 1,
     "bowling": 2,
-    "light gun": 1,
     "rpg": 1,
-    "tennis": 3,
+    "surfing": 2,
+    "game show": 1,
+    "party game": 1,
     "run-n-gun": 1,
-    "twin-stick shooter": 4,
     "compilation": 1,
-    "card & board game": 1,
-    "dancing": 1
+    "card & board game": 1
   },
   "gamesAddedInMonth": [
     {
       "dateFormatted": "04/2020",
-      "games": 57
+      "games": 56
     },
     {
       "dateFormatted": "02/2020",
@@ -1003,16 +903,16 @@
       "games": 43
     },
     {
-      "dateFormatted": "08/2020",
-      "games": 41
-    },
-    {
       "dateFormatted": "06/2020",
       "games": 41
     },
     {
+      "dateFormatted": "08/2020",
+      "games": 41
+    },
+    {
       "dateFormatted": "05/2019",
-      "games": 33
+      "games": 32
     },
     {
       "dateFormatted": "03/2020",
@@ -1023,11 +923,11 @@
       "games": 28
     },
     {
-      "dateFormatted": "02/2019",
-      "games": 27
+      "dateFormatted": "07/2020",
+      "games": 25
     },
     {
-      "dateFormatted": "07/2020",
+      "dateFormatted": "02/2019",
       "games": 25
     },
     {
@@ -1035,11 +935,11 @@
       "games": 24
     },
     {
-      "dateFormatted": "05/2020",
-      "games": 24
+      "dateFormatted": "09/2020",
+      "games": 23
     },
     {
-      "dateFormatted": "09/2020",
+      "dateFormatted": "05/2020",
       "games": 23
     },
     {
@@ -1059,10 +959,6 @@
       "games": 14
     },
     {
-      "dateFormatted": "07/2019",
-      "games": 13
-    },
-    {
       "dateFormatted": "04/2019",
       "games": 13
     },
@@ -1072,6 +968,10 @@
     },
     {
       "dateFormatted": "08/2019",
+      "games": 12
+    },
+    {
+      "dateFormatted": "07/2019",
       "games": 12
     },
     {
@@ -1087,11 +987,11 @@
       "games": 7
     },
     {
-      "dateFormatted": "11/2020",
+      "dateFormatted": "08/2018",
       "games": 6
     },
     {
-      "dateFormatted": "08/2018",
+      "dateFormatted": "11/2020",
       "games": 6
     },
     {
@@ -1130,11 +1030,11 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 332
+      "games": 330
     },
     {
       "dateFormatted": "2019",
-      "games": 241
+      "games": 237
     },
     {
       "dateFormatted": "2018",
@@ -1152,23 +1052,23 @@
   "igdbRatingsBreakdown": [
     {
       "category": "Great (90+)",
-      "value": 63
+      "value": 62
     },
     {
       "category": "Good (70 - 89)",
-      "value": 664
+      "value": 670
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 191
+      "value": 199
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 17
+      "value": 20
     },
     {
       "category": "Terrible (< 30)",
-      "value": 133
+      "value": 1
     }
   ],
   "consolesByCompany": {
@@ -1191,17 +1091,17 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1071,
+  "totalGames": 1063,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 35,
   "totalClones": 7,
   "gamesByDecade": {
     "1970": 9,
-    "1980": 81,
+    "1980": 82,
     "1990": 203,
-    "2000": 332,
-    "2010": 411,
+    "2000": 330,
+    "2010": 409,
     "2020": 18
   }
 }

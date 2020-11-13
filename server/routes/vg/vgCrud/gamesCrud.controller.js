@@ -3,14 +3,14 @@ const helper = require('../vgHelpers');
 const moment = require('moment');
 const required = helper.gamesRequiredFields();
 
-module.exports.save = function(game) {
+module.exports.save = function (game) {
   return new Promise((resolve, reject) => {
     const now = helper.timeStamp();
     game.createdAt = now;
     game.updatedAt = now;
     helper
       .validate(game, required)
-      .then(missing => {
+      .then((missing) => {
         if (!missing || !missing.length) {
           try {
             const saved = db.games.save(game);
@@ -27,30 +27,25 @@ module.exports.save = function(game) {
           });
         }
       })
-      .catch(error => {
+      .catch((error) => {
         reject(error);
       });
   });
 };
 
-module.exports.getGames = function() {
-  return db.gamesExtra.find().map(g => {
-    g.genres = g.igdb.genres.join(', ');
-    g.igdb.first_release_date = moment(new Date(g.igdb.first_release_date)).format('YYYY-MM-DD');
-    // g.datePurchased = moment(g.datePurchased).format('MM-DD-YYYY');
-    return g;
-  });
+module.exports.getGames = function () {
+  return db.gamesExtra;
 };
 
-module.exports.search = function() {};
+module.exports.search = function () {};
 
-module.exports.delete = function(id) {
+module.exports.delete = function (id) {
   return db.games.remove({
     _id: id
   });
 };
 
-module.exports.edit = function(id, updatedData) {
+module.exports.edit = function (id, updatedData) {
   return new Promise((resolve, reject) => {
     const updated = db.games.update({ _id: id }, updatedData, { multi: false, upsert: false });
     if (updated && updated.updated && updated.updated === 1) {

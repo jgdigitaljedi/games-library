@@ -63,7 +63,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const getGenreArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newGenres = sortBy(
-        flatten(masterData.map((d) => d.igdb.genres || null).filter((d: any) => d))
+        flatten(masterData.map((d) => d?.genres || []).filter((d: any) => d))
           .reduce((acc: string[], g: string) => {
             if (!acc) {
               acc = [];
@@ -86,7 +86,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const getEsrbArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newRatings = sortBy(
-        flatten(masterData.map((d) => d.igdb.esrb || null).filter((d: any) => d))
+        flatten(masterData.map((d) => d.esrb || null).filter((d: any) => d))
           .reduce((acc: string[], g: any) => {
             if (!acc) {
               acc = [];

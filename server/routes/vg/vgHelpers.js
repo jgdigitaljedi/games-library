@@ -4,7 +4,7 @@ const moment = require('moment');
 module.exports.validate = function (obj, reqKeys) {
   return new Promise((resolve, reject) => {
     try {
-      const missing = reqKeys.filter(item => {
+      const missing = reqKeys.filter((item) => {
         if (item.required) {
           let parsed = _get(obj, item.key);
           if (parsed === null || parsed === undefined || typeof parsed !== item.type) {
@@ -67,7 +67,7 @@ module.exports.gamesRequiredFields = function () {
     { key: 'condition', required: true, type: 'string' },
     { key: 'cib', required: false },
     { key: 'pirated', required: false },
-    { key: 'multiplayerNumber', required: false },
+    { key: 'maxMultiplayer', required: false },
     { key: 'datePurchased', required: false },
     { key: 'howAcquired', required: false },
     { key: 'createdAt', required: true, type: 'string' },

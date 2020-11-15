@@ -1,0 +1,17 @@
+@import '../../style/theme.scss';
+
+.read-more {
+  button {
+    padding: 0 0 0 .5rem;
+    font-weight: bold;
+    &:hover {
+      border: none !important; 
+    }
+    span {
+      color: $light-orange;
+      &:hover {
+        border: none !important; 
+      }
+    }
+  }
+}

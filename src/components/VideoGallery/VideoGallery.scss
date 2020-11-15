@@ -1,0 +1,24 @@
+.video-gallery {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &--container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &__video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    button {
+      z-index: 1000;
+    }
+  }
+}

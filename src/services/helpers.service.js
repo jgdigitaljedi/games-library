@@ -24,7 +24,7 @@ export default {
       pricePaid: '',
       physical: true,
       cib: false,
-      multiplayerNumber: '',
+      maxMultiplayer: '',
       datePurchased: '',
       howAcquired: '',
       physicalDigital: ['physical'],

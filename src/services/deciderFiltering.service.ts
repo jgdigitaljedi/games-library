@@ -36,8 +36,11 @@ export const filters = {
   },
   filterPlayers: (data: IGame[], players: number): IGame[] => {
     return data.filter((d) => {
-      const mpn = get(d, 'multiplayerNumber');
-      return parseInt(mpn as string) >= players;
+      const mpn = get(d, 'maxMultiplayer');
+      if (mpn) {
+        return mpn >= players;
+      }
+      return false;
     });
   },
   filterEsrb: (data: IGame[], esrb: string): IGame[] => {

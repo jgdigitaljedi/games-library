@@ -21,7 +21,7 @@ export default {
       { label: 'Release Date', value: 'first_release_date' },
       { label: 'Purchase Price', value: 'pricePaid' },
       { label: 'Rating', value: 'total_rating' },
-      { label: 'Max # Players', value: 'multiplayerNumber' }
+      { label: 'Max # Players', value: 'maxMultiplayer' }
     ];
   },
   sortDropdownDirections: () => {
@@ -71,7 +71,7 @@ export default {
           }
           return 0;
         });
-      } else if (cat === 'multiplayerNumber' || cat === 'pricePaid') {
+      } else if (cat === 'maxMultiplayer' || cat === 'pricePaid') {
         sorted = data
           .filter((g) => {
             const gData = _get(g, cat);
@@ -81,7 +81,15 @@ export default {
             return gData;
           })
           .sort((a, b) => {
+            if (!a) {
+              return -1;
+            }
+            if (!b) {
+              return 1;
+            }
+            // @ts-ignore
             const aLower = parseFloat(_get(a, cat).toString());
+            // @ts-ignore
             const bLower = parseFloat(_get(b, cat).toString());
             if (aLower > bLower) {
               return 1;

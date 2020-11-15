@@ -284,7 +284,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               readOnly
             />
           </div>
-          <div className="crud-form--form__row">
+          {/* <div className="crud-form--form__row">
             <label htmlFor="multiplayer-number">Max # of Players</label>
             <InputText
               id="multiplayer-number"
@@ -295,7 +295,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               keyfilter="pnum"
               min={1}
             />
-          </div>
+          </div> */}
           <div className="crud-form--form__row">
             <label htmlFor="cib">CIB?</label>
             <InputSwitch

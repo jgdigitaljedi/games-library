@@ -6,6 +6,9 @@ import { IGame } from '../../models/games.model';
 import assetsService from '../../services/assets.service';
 import UrlService from '../../services/url.service';
 import helpersService from '../../services/helpers.service';
+import ReadMore from '../ReadMore/ReadMore';
+import { Button } from 'primereact/button';
+import VideoGallery from '../VideoGallery/VideoGallery';
 // import { getEbayPrices } from '../../services/globalData.service';
 
 interface IRatings {
@@ -26,6 +29,7 @@ interface IConsolesOwned {
 
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
   const urlPrefix = UrlService.assets;
+  const [showVideos, setShowVideos] = useState(false);
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
@@ -42,6 +46,14 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   //       console.log('ebay error', error);
   //     });
   // };
+
+  const loadVideos = (load?: boolean) => {
+    if (load) {
+      setShowVideos(true);
+    } else {
+      setShowVideos(false);
+    }
+  };
 
   useEffect(() => {
     if (game) {
@@ -66,86 +78,106 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
             }}
             alt={game.name + ' cover image'}
           />
-          <div className="right-container">
-            <p>{game.description}</p>
-            <div className="card-row tables-row">
-              <table style={{ marginRight: '2rem' }} className="card-row--table">
-                <tbody>
-                  <tr>
-                    <td className="table-cat">Originally released</td>
-                    <td>{game.first_release_date}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Max # Players</td>
-                    <td>{game.multiplayerNumber}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Rating</td>
-                    <td>
-                      <Rating
-                        value={Math.round(game.total_rating / 20)}
-                        readonly
-                        stars={5}
-                        cancel={!game.total_rating}
-                        disabled={!game.total_rating}
-                      />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <table className="card-row--table">
-                <tbody>
-                  {/* <tr>
-                    <td className="table-cat">Developer</td>
-                    <td>{game.igdb['developers']}</td>
-                  </tr> */}
-                  <tr>
-                    <td className="table-cat">Genres</td>
-                    <td>{game.genres.join(', ')}</td>
-                  </tr>
-                  <tr>
-                    <td className="table-cat">Physical/Digital/BC</td>
-                    <td>{helpersService.physicalDigitalBcText(game)}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            {consolesOwnedFor && consolesOwnedFor.length && (
-              <table className="owned-for">
-                <tr>
-                  <th>Platform</th>
-                  <th>Price Paid</th>
-                  <th>Date Purchased</th>
-                  <th>How Acquired</th>
-                  <th>Physical</th>
-                  <th>Condition</th>
-                  <th>Case</th>
-                  <th>CIB</th>
-                </tr>
-                <tbody>
-                  {consolesOwnedFor.map((con, index) => (
+          {!showVideos && (
+            <div className="right-container">
+              {game.description?.length && <ReadMore textString={game.description} />}
+
+              <div className="card-row tables-row">
+                <table style={{ marginRight: '2rem' }} className="card-row--table">
+                  <tbody>
                     <tr>
-                      <td>{con.consoleName}</td>
-                      <td>${con.pricePaid}</td>
-                      <td>{con.datePurchased}</td>
-                      <td>{con.howAcquired}</td>
-                      <td>{con.physical ? 'Physical' : 'Digital'}</td>
-                      <td>{con.condition}</td>
-                      <td>{con.case}</td>
-                      <td>{con.cib ? 'YES' : 'NO'}</td>
+                      <td className="table-cat">Originally released</td>
+                      <td>{game.first_release_date}</td>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-            {game.notes && game.notes.length && (
-              <div className="game-notes">
-                <div className="game-notes--head">Notes</div>
-                <div>{game.notes}</div>
+                    <tr>
+                      <td className="table-cat">Perspectives</td>
+                      <td>{game.player_perspectives?.join(', ') || 'Unknown'}</td>
+                    </tr>
+                    <tr>
+                      <td className="table-cat">Rating</td>
+                      <td>
+                        <Rating
+                          value={Math.round(game.total_rating / 20)}
+                          readonly
+                          stars={5}
+                          cancel={!game.total_rating}
+                          disabled={!game.total_rating}
+                        />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table className="card-row--table">
+                  <tbody>
+                    <tr>
+                      <td className="table-cat">Multiplayer</td>
+                      {game?.multiplayer_modes && (
+                        <td>
+                          VS: {game.multiplayer_modes.offlinemax} / Co-op:{' '}
+                          {game.multiplayer_modes.offlinecoopmax} / Splitscreen:
+                          {game.multiplayer_modes.splitscreen ? ' YES' : ' NO'}
+                        </td>
+                      )}
+                      {!game.multiplayer_modes && game.maxMultiplayer && (
+                        <td>{game.maxMultiplayer}</td>
+                      )}
+                      {!game.multiplayer_modes && !game.maxMultiplayer && <td>NO</td>}
+                    </tr>
+                    <tr>
+                      <td className="table-cat">Genres</td>
+                      <td>{game.genres.join(', ')}</td>
+                    </tr>
+                    <tr>
+                      <td className="table-cat">Physical/Digital/BC</td>
+                      <td>{helpersService.physicalDigitalBcText(game)}</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-            )}
-          </div>
+              {consolesOwnedFor && consolesOwnedFor.length && (
+                <table className="owned-for">
+                  <tr>
+                    <th>Platform</th>
+                    <th>Price Paid</th>
+                    <th>Date Purchased</th>
+                    <th>How Acquired</th>
+                    <th>Physical</th>
+                    <th>Condition</th>
+                    <th>Case</th>
+                    <th>CIB</th>
+                  </tr>
+                  <tbody>
+                    {consolesOwnedFor.map((con, index) => (
+                      <tr>
+                        <td>{con.consoleName}</td>
+                        <td>${con.pricePaid}</td>
+                        <td>{con.datePurchased}</td>
+                        <td>{con.howAcquired}</td>
+                        <td>{con.physical ? 'Physical' : 'Digital'}</td>
+                        <td>{con.condition}</td>
+                        <td>{con.case}</td>
+                        <td>{con.cib ? 'YES' : 'NO'}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+              {game.notes && game.notes.length && (
+                <div className="game-notes">
+                  <div className="game-notes--head">Notes</div>
+                  <div>{game.notes}</div>
+                </div>
+              )}
+            </div>
+          )}
+          {showVideos && game.videos?.length && <VideoGallery videos={game.videos} />}
         </div>
+        {game.videos && (
+          <div style={{ marginLeft: '2.5rem' }}>
+            {!showVideos && <Button label="Videos" onClick={() => loadVideos(true)} />}
+            {showVideos && <Button label="Data" onClick={() => loadVideos(false)} />}
+          </div>
+        )}
         <div className="image-container">
           <img
             src={

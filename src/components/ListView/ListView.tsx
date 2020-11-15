@@ -60,7 +60,7 @@ const ListView: FunctionComponent<IProps> = ({
           );
           break;
         case 'multiplayer':
-          cellData = `${game.multiplayerNumber} players`;
+          cellData = `${game?.maxMultiplayer || '?'} players`;
           break;
         case 'multiplatform':
           cellData = `${game.consoleArr?.map((con) => con.consoleName).join(', ')}`;

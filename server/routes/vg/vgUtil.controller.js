@@ -5,28 +5,38 @@ const _flatten = require('lodash/flatten');
 const _uniqBy = require('lodash/uniqBy');
 
 module.exports.getPlatformArray = (req, res) => {
-  const games = gamesCrud.getGames();
-  if (games && games.length > 1) {
-    const newPlatforms = _sortBy(
-      _flatten(games.map((d) => d.consoleName || null).filter((d) => d))
-        .reduce((acc, g) => {
-          if (!acc) {
-            acc = [];
-          }
-          if (acc && acc.indexOf(g) === -1 && g) {
-            acc.push(g);
-          }
-          return acc;
-        }, [])
-        .map((g) => {
-          return { label: g, value: g };
-        }),
+  // const games = gamesCrud.getGames();
+  // if (games && games.length > 1) {
+  //   const newPlatforms = _sortBy(
+  //     _flatten(games.map((d) => d.consoleName || null).filter((d) => d))
+  //       .reduce((acc, g) => {
+  //         if (!acc) {
+  //           acc = [];
+  //         }
+  //         if (acc && acc.indexOf(g) === -1 && g) {
+  //           acc.push(g);
+  //         }
+  //         return acc;
+  //       }, [])
+  //       .map((g) => {
+  //         return { label: g, value: g };
+  //       }),
+  //     'label'
+  //   );
+  //   // newPlatforms.unshift({ label: 'NOT SET', value: '' });
+  //   res.json(newPlatforms);
+  // } else {
+  //   res.json([]);
+  // }
+  try {
+    const platforms = platformsCrud.getPlatforms();
+    const formatted = _sortBy(
+      platforms.map((p) => ({ label: p.igdb.name, value: p.igdb.name })),
       'label'
     );
-    // newPlatforms.unshift({ label: 'NOT SET', value: '' });
-    res.json(newPlatforms);
-  } else {
-    res.json([]);
+    res.json(formatted);
+  } catch (error) {
+    res.status(500).json({ error: true, message: error });
   }
 };
 

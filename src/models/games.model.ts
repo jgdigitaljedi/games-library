@@ -1,24 +1,12 @@
 import { IConsoleArr } from './platforms.model';
 
+export interface IMultiplayerModes {
+  offlinemax: number;
+  offlinecoopmax: number;
+  splitscreen: boolean;
+}
+
 export interface IGame {
-  // igdb: {
-  // name: string;
-  // id: number;
-  // genres: string[];
-  // total_rating: number;
-  // total_rating_count: number;
-  // first_release_date: string;
-  // developers: string;
-  // esrb: string;
-  // };
-  // gb: {
-  //   aliases: string;
-  //   guid: string;
-  //   gbid: number;
-  //   image: string;
-  //   deck: string;
-  //   platforms: string;
-  // };
   id: number;
   total_rating: number;
   total_rating_count: number;
@@ -33,7 +21,8 @@ export interface IGame {
   pricePaid: string;
   physical: boolean;
   cib: string | boolean;
-  multiplayerNumber: string | number;
+  multiplayer_modes?: IMultiplayerModes;
+  maxMultiplayer?: number;
   physicalDigital: string[];
   datePurchased: string;
   howAcquired: string;
@@ -104,7 +93,7 @@ export interface INewGame {
   pricePaid: string;
   physical: boolean;
   cib: string | boolean;
-  multiplayerNumber: string | number;
+  maxMultiplayer: number;
   physicalDigital: string[];
   datePurchased: string;
   howAcquired: string;

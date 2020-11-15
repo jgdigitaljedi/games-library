@@ -19,8 +19,8 @@ function writeSuccess(source) {
   console.log(chalk.cyan(`${source} was successfully written!`));
 }
 
-games.forEach(game => {
-  if (game.multiplayerNumber && game.multiplayerNumber >= 3) {
+games.forEach((game) => {
+  if (game.maxMultiplayer && game.maxMultiplayer >= 3) {
     multiplayer.push(game);
   }
   if (game.extraData && game.extraData.length > 0) {
@@ -28,7 +28,7 @@ games.forEach(game => {
   }
   if (game.extraDataFull && game.extraDataFull.length) {
     const edArr = game.extraDataFull;
-    edArr.forEach(g => {
+    edArr.forEach((g) => {
       if (g.isExclusive && g.isExclusive.length) {
         exclusives.push(game);
       }
@@ -48,7 +48,7 @@ games.forEach(game => {
 fs.writeFile(
   path.join(__dirname, '../server/db/listMultiplayer.json'),
   JSON.stringify(multiplayer),
-  error => {
+  (error) => {
     if (error) {
       writeError(error, 'MULTIPLAYER');
     } else {
@@ -60,7 +60,7 @@ fs.writeFile(
 fs.writeFile(
   path.join(__dirname, '../server/db/listExtraData.json'),
   JSON.stringify(extraData),
-  error => {
+  (error) => {
     if (error) {
       writeError(error, 'EXTRA DATA');
     } else {
@@ -72,7 +72,7 @@ fs.writeFile(
 fs.writeFile(
   path.join(__dirname, '../server/db/listLaunch.json'),
   JSON.stringify(launch),
-  error => {
+  (error) => {
     if (error) {
       writeError(error, 'LAUNCH TITLES');
     } else {
@@ -84,7 +84,7 @@ fs.writeFile(
 fs.writeFile(
   path.join(__dirname, '../server/db/listExclusives.json'),
   JSON.stringify(exclusives),
-  error => {
+  (error) => {
     if (error) {
       writeError(error, 'EXCLUSIVES');
     } else {
@@ -96,7 +96,7 @@ fs.writeFile(
 fs.writeFile(
   path.join(__dirname, '../server/db/listSpecial.json'),
   JSON.stringify(special),
-  error => {
+  (error) => {
     if (error) {
       writeError(error, 'SPECIAL');
     } else {
@@ -108,7 +108,7 @@ fs.writeFile(
 fs.writeFile(
   path.join(__dirname, '../server/db/listMultiPlatform.json'),
   JSON.stringify(multiplatform),
-  error => {
+  (error) => {
     if (error) {
       writeError(error, 'MULTIPLATFORM');
     } else {

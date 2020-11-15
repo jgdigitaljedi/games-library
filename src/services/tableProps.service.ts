@@ -3,7 +3,7 @@ export default function (view: string) {
     { field: 'image', header: 'Image' },
     { field: 'name', header: 'Name', sortable: true },
     { field: 'consoleName', header: 'Console', sortable: true },
-    { field: 'multiplayerNumber', header: 'Players', sortable: true },
+    { field: 'maxMultiplayer', header: 'Players', sortable: true },
     { field: 'first_release_date', header: 'Release Date', sortable: true },
     { field: 'datePurchased', header: 'Purchase Date', sortable: true },
     { field: 'pricePaid', header: 'Purchase Price', sortable: true },

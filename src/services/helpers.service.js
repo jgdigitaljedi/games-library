@@ -44,6 +44,7 @@ export default {
     return {};
   },
   physicalDigitalBc: (game) => {
+    console.log('game', game);
     const which = game.physicalDigital;
     const everDrive = which.indexOf('EverDrive') >= 0;
     const phy = which.indexOf('physical') >= 0;

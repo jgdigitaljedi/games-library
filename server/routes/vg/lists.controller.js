@@ -1,32 +1,63 @@
-const exlcusives = require('../../db/listExclusives.json');
-const extraData = require('../../db/listExtraData.json');
-const launch = require('../../db/listLaunch.json');
-const multiplayer = require('../../db/listMultiplayer.json');
-const special = require('../../db/listSpecial.json');
-const multiplatform = require('../../db/listMultiPlatform.json');
+const games = require('../../db/combinedGames.json');
 
-module.exports.getList = function(req, res) {
+function makeList(which) {
+  return games.filter((game) => {
+    if (which === 'multiplayer') {
+      if (game.maxMultiplayer && game.maxMultiplayer >= 3) {
+        return true;
+      }
+    } else if (which === 'extraData') {
+      if (game.extraData && game.extraData.length > 0) {
+        return true;
+      }
+    } else if (which === 'multiplatform') {
+      if (game.consoleArr && game.consoleArr.length > 1) {
+        return true;
+      }
+    } else if (which === 'exclusives' || which === 'special' || which === 'launch') {
+      if (game.extraDataFull && game.extraDataFull.length) {
+        const edArr = game.extraDataFull;
+        edArr
+          .filter((g) => {
+            if (which === 'exclusives' && g.isExclusive && g.isExclusive.length) {
+              return true;
+            }
+            if (which === 'launch' && g.isLaunchTitle && g.isLaunchTitle.length) {
+              return true;
+            }
+            if (which === 'special' && g.special && g.special.length) {
+              return true;
+            }
+          })
+          .filter((g) => g);
+        return edArr.length;
+      }
+    }
+  });
+}
+
+module.exports.getList = function (req, res) {
   try {
     if (req && req.body && req.body.which) {
       let theList;
       switch (req.body.which) {
         case 'exclusives':
-          theList = exlcusives;
+          theList = makeList('exclusives');
           break;
         case 'extraData':
-          theList = extraData;
+          theList = makeList('extraData');
           break;
         case 'launch':
-          theList = launch;
+          theList = makeList('launch');
           break;
         case 'multiplayer':
-          theList = multiplayer;
+          theList = makeList('multiplayer');
           break;
         case 'special':
-          theList = special;
+          theList = makeList('special');
           break;
         case 'multiplatform':
-          theList = multiplatform;
+          theList = makeList('multiplatform');
           break;
         default:
           theList = [];

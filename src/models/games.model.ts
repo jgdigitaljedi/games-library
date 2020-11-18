@@ -42,6 +42,7 @@ export interface IGame {
   videos?: string[];
   player_perspectives: string[];
   handheld?: boolean;
+  manual?: boolean;
 }
 
 export interface IGbGame {

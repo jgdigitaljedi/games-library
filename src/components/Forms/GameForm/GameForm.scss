@@ -1,3 +1,13 @@
 @import '../../../style/theme.scss';
-.game-form {
+.game-form--wrapper {
+  .divider {
+    width: 80%;
+    text-align: left;
+    hr {
+      width: 100%;
+    }
+  }
+  .long-text-area {
+    width: 80%;
+  }
 }

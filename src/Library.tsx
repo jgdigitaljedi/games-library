@@ -148,7 +148,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       } else {
         setNotify({
           severity: 'error',
-          detail: 'Failed to fetch data!',
+          detail: 'Failed to fetch data for library view!',
           summary: 'ERROR'
         });
       }

@@ -13,6 +13,7 @@ import { handleChange } from '../../../services/forms.service';
 import { igdbGameSearch } from '../../../services/gamesCrud.service';
 import { getPlatformsWithIds } from '../../../services/platformsCrud.service';
 import { NotificationContext } from '../../../context/NotificationContext';
+import {Chips} from 'primereact/chips';
 
 interface IProps {
   game: IGame;
@@ -44,6 +45,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     { label: 'Fair', value: 'Fair' },
     { label: 'Poor', value: 'Poor' },
     { label: 'Other', value: 'Other' }
+  ];
+
+  const esrbOptions = [
+    {label: 'KA', value: 'KA'},
+    {label: 'E', value: 'E'},
+    {label: 'E10+', value: 'E10+'},
+    {label: 'T', value: 'T'},
+    {label: 'M', value: 'M'},
+    {label: 'RP', value: 'RP'},
+    {label: 'NO RATING', value: ''},
   ];
 
   const userChange = (e: any) => {
@@ -225,7 +236,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
                   field="name"
                   disabled={!searchPlatform}
                 />
-                <hr />
+                  <hr />
               </div>
             )}
           </div>
@@ -243,6 +254,121 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               readOnly
             />
           </div>
+          <div className="divider">
+            <hr />
+          </div>
+          <h3>Data from IGDB</h3>
+          <div className="crud-form--form__row">
+            <label htmlFor="total_rating">Total Rating</label>
+            <InputText
+              id="total_rating"
+              value={gameForm?.total_rating}
+              onChange={userChange}
+              attr-which="total_rating"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="videos">Videos</label>
+            <Chips
+                id="videos"
+                value={gameForm?.videos || []}
+                onChange={userChange}
+                attr-which="videos"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="genres">Genres</label>
+            <Chips
+                id="genres"
+                value={gameForm?.genres || []}
+                onChange={userChange}
+                attr-which="genres"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="esrb">ESRB Rating</label>
+            <Dropdown
+                value={gameForm?.esrb}
+                options={esrbOptions}
+                onChange={(e) => handleDropdown(e, 'esrb')}
+                attr-which="esrb"
+                id="esrb"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="playerPerspectives">Player Perspectives</label>
+            <Chips
+                id="playerPerspectives"
+                value={gameForm?.player_perspectives || []}
+                onChange={userChange}
+                attr-which="playerPerspectives"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="maxMultiplayer">Max Multiplayer</label>
+            <InputText
+                id="maxMultiplayer"
+                value={gameForm?.maxMultiplayer || 1}
+                onChange={userChange}
+                attr-which="maxMultiplayer"
+                type="number"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="multiplayerOffline">Multiplayer: Offline VS</label>
+            <InputText
+                id="multiplayerOffline"
+                value={gameForm?.multiplayer_modes?.offlinemax || 1}
+                onChange={userChange}
+                attr-which="multiplayerOffline"
+                type="number"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="multiplayerCoop">Multiplayer: Offline Coop</label>
+            <InputText
+                id="multiplayerCoop"
+                value={gameForm?.multiplayer_modes?.offlinecoopmax || 1}
+                onChange={userChange}
+                attr-which="multiplayerCoop"
+                type="number"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="splitscreen">Splitscreen?</label>
+            <InputSwitch
+                id="splitscreen"
+                checked={!!gameForm?.multiplayer_modes?.splitscreen}
+                onChange={userChange}
+                attr-which="splitscreen"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="description">Description</label>
+            <InputTextarea
+                className="long-text-area"
+                id="description"
+                value={gameForm?.description}
+                onChange={userChange}
+                attr-which="description"
+                autoResize={true}
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="story">Storyline</label>
+            <InputTextarea
+                className="long-text-area"
+                id="story"
+                value={gameForm?.story}
+                onChange={userChange}
+                attr-which="story"
+                autoResize={true}
+            />
+          </div>
+          <div className="divider">
+            <hr />
+          </div>
+
           <div className="crud-form--form__row">
             <label htmlFor="howAcquired">How Acquired</label>
             <InputText
@@ -275,34 +401,21 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="genres">Genres/Tags</label>
-            <InputText
-              id="genres"
-              value={gameForm?.genres}
-              onChange={userChange}
-              attr-which="genres"
-              readOnly
-            />
-          </div>
-          {/* <div className="crud-form--form__row">
-            <label htmlFor="multiplayer-number">Max # of Players</label>
-            <InputText
-              id="multiplayer-number"
-              value={gameForm?.multiplayerNumber}
-              onChange={userChange}
-              attr-which="multiplayerNumber"
-              type="number"
-              keyfilter="pnum"
-              min={1}
-            />
-          </div> */}
-          <div className="crud-form--form__row">
             <label htmlFor="cib">CIB?</label>
             <InputSwitch
               id="cib"
               checked={!!gameForm?.cib}
               onChange={userChange}
               attr-which="cib"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="manual">Manual?</label>
+            <InputSwitch
+                id="manual"
+                checked={!!gameForm?.manual}
+                onChange={userChange}
+                attr-which="manual"
             />
           </div>
           <div className="crud-form--form__row">

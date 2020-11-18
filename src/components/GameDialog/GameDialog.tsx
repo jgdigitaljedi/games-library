@@ -174,8 +174,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
         </div>
         {game.videos && (
           <div style={{ marginLeft: '2.5rem' }}>
-            {!showVideos && <Button label="Videos" onClick={() => loadVideos(true)} />}
-            {showVideos && <Button label="Data" onClick={() => loadVideos(false)} />}
+            {!showVideos && <Button icon="pi pi-video" label="Videos" onClick={() => loadVideos(true)} />}
+            {showVideos && <Button icon="pi pi-th-large" label="Data" onClick={() => loadVideos(false)} />}
           </div>
         )}
         <div className="image-container">

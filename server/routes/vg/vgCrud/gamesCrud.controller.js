@@ -34,7 +34,7 @@ module.exports.save = function (game) {
 };
 
 module.exports.getGames = function () {
-  return db.gamesExtra;
+  return db.gamesExtra.find();
 };
 
 module.exports.search = function () {};

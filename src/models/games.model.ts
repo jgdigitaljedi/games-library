@@ -9,7 +9,7 @@ export interface IMultiplayerModes {
 export interface IGame {
   id: number;
   total_rating: number;
-  total_rating_count: number;
+  total_rating_count?: number;
   first_release_date: string;
   esrb: string;
   consoleName: string;

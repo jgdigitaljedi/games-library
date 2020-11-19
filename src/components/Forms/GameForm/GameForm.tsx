@@ -13,7 +13,7 @@ import { handleChange } from '../../../services/forms.service';
 import { igdbGameSearch } from '../../../services/gamesCrud.service';
 import { getPlatformsWithIds } from '../../../services/platformsCrud.service';
 import { NotificationContext } from '../../../context/NotificationContext';
-import {Chips} from 'primereact/chips';
+import { Chips } from 'primereact/chips';
 
 interface IProps {
   game: IGame;
@@ -32,6 +32,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   const [platformIdArr, setPlatformIdArr] = useState<any>();
   const [searchPlatform, setSearchPlatform] = useState<any>();
   const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
+  const [fuzzySearch, setFuzzySearch] = useState(false);
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const caseOptions = [
@@ -48,13 +49,13 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   ];
 
   const esrbOptions = [
-    {label: 'KA', value: 'KA'},
-    {label: 'E', value: 'E'},
-    {label: 'E10+', value: 'E10+'},
-    {label: 'T', value: 'T'},
-    {label: 'M', value: 'M'},
-    {label: 'RP', value: 'RP'},
-    {label: 'NO RATING', value: ''},
+    { label: 'KA', value: 'KA' },
+    { label: 'E', value: 'E' },
+    { label: 'E10+', value: 'E10+' },
+    { label: 'T', value: 'T' },
+    { label: 'M', value: 'M' },
+    { label: 'RP', value: 'RP' },
+    { label: 'NO RATING', value: '' }
   ];
 
   const userChange = (e: any) => {
@@ -112,53 +113,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     setGameForm(HelpersService.resetGameForm());
   }, [setGameForm]);
 
-  const getMultiplayerModes = (modes: any[]) => {
-    // just getting the max numbers here
-    // not concerned about which is true for which game mode as I can figure that out if I want to play multiplayer with someone
-    const combined = modes.reduce((acc: any, obj: any, index: number) => {
-      if (index === 0) {
-        acc = { offlinemax: 0, offlinecoopmax: 0, splitscreen: false };
-      }
-      if (obj.offlinemax > acc.offlinemax) {
-        acc.offlinemax = obj.offlinemax;
-      }
-      if (obj.offlinecoopmax > acc.offlinecoopmax) {
-        acc.offlinecoopmax = obj.offlinecoopmax;
-      }
-      if (obj.splitscreen) {
-        acc.splitscreen = true;
-      }
-      return acc;
-    }, {});
-    return combined;
-  };
-
   const searchSelection = (e: any) => {
+    console.log('e', e);
     if (e?.value) {
       const game = e.value;
+      game.consoleId = searchPlatform;
+      game.consoleName = platformIdArr.filter((p: any) => (p.value = searchPlatform))[0].label;
       setSelectedFromSearch(game);
-      const useableFormat = {
-        name: game.name,
-        image: game.image,
-        esrb: game.esrb.letterRating || '',
-        first_release_date: game.first_release_date || '',
-        forConsoleId: game.forConsoleId,
-        id: game.id,
-        total_rating: game.total_rating || null,
-        total_rating_count: game.total_rating_count || null,
-        videos: game.videos?.map((v: any) => v.video_id) || null,
-        genres: game.genres || null,
-        player_perspectives: game.player_perspectives?.map((p: any) => p.name) || null,
-        multiplayer_modes: game.multiplayer_modes
-          ? getMultiplayerModes(game.multiplayer_modes)
-          : { offlinemax: 0, offlinecoopmax: 0, splitscreen: false }
-      };
-      console.log('formattedGame', useableFormat);
+      const gfCopy = _cloneDeep(gameForm);
+      setGameForm(Object.assign(gfCopy, game));
     }
-    /**
-     * setSelectedFromSearch
-     * set gameForm.name and any other fields I end up using
-     */
   };
 
   useEffect(() => {
@@ -198,20 +162,17 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
       <div className="crud-form--flex-wrapper">
         <form className="crud-from--form game-form--form">
           <div className="crud-form--form__row">
-            {/* {!addMode && (
-              <>
-                <label htmlFor="name">Name</label>
-                <InputText
-                  id="name"
-                  value={gameForm?.name}
-                  onChange={userChange}
-                  attr-which="name"
-                />
-              </>
-            )} */}
             {addMode && (
               <div className="igdb-search-fields">
                 <h3>Search IGDB</h3>
+                <div style={{ display: 'flex', alignItems: 'center', marginBottom: '.5rem' }}>
+                  <label htmlFor="fuzzy">Fuzzy Search</label>
+                  <InputSwitch
+                    id="fuzzy"
+                    checked={!!fuzzySearch}
+                    onChange={() => setFuzzySearch(!fuzzySearch)}
+                  />
+                </div>
                 <Dropdown
                   className="search-field"
                   value={searchPlatform}
@@ -221,6 +182,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
                   }}
                   id="search-platform"
                   placeholder="Platform to search"
+                  disabled={fuzzySearch}
                 />
                 <AutoComplete
                   dropdown
@@ -234,9 +196,9 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
                   suggestions={igdbGames}
                   completeMethod={searchIgdb}
                   field="name"
-                  disabled={!searchPlatform}
+                  disabled={!searchPlatform && !fuzzySearch}
                 />
-                  <hr />
+                <hr />
               </div>
             )}
           </div>
@@ -270,99 +232,108 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           <div className="crud-form--form__row">
             <label htmlFor="videos">Videos</label>
             <Chips
-                id="videos"
-                value={gameForm?.videos || []}
-                onChange={userChange}
-                attr-which="videos"
+              id="videos"
+              value={gameForm?.videos || []}
+              onChange={userChange}
+              attr-which="videos"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="genres">Genres</label>
             <Chips
-                id="genres"
-                value={gameForm?.genres || []}
-                onChange={userChange}
-                attr-which="genres"
+              id="genres"
+              value={gameForm?.genres || []}
+              onChange={userChange}
+              attr-which="genres"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="esrb">ESRB Rating</label>
             <Dropdown
-                value={gameForm?.esrb}
-                options={esrbOptions}
-                onChange={(e) => handleDropdown(e, 'esrb')}
-                attr-which="esrb"
-                id="esrb"
+              value={gameForm?.esrb}
+              options={esrbOptions}
+              onChange={(e) => handleDropdown(e, 'esrb')}
+              attr-which="esrb"
+              id="esrb"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="playerPerspectives">Player Perspectives</label>
             <Chips
-                id="playerPerspectives"
-                value={gameForm?.player_perspectives || []}
-                onChange={userChange}
-                attr-which="playerPerspectives"
+              id="playerPerspectives"
+              value={gameForm?.player_perspectives || []}
+              onChange={userChange}
+              attr-which="playerPerspectives"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="maxMultiplayer">Max Multiplayer</label>
             <InputText
-                id="maxMultiplayer"
-                value={gameForm?.maxMultiplayer || 1}
-                onChange={userChange}
-                attr-which="maxMultiplayer"
-                type="number"
+              id="maxMultiplayer"
+              value={gameForm?.maxMultiplayer || 1}
+              onChange={userChange}
+              attr-which="maxMultiplayer"
+              type="number"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="multiplayerOffline">Multiplayer: Offline VS</label>
             <InputText
-                id="multiplayerOffline"
-                value={gameForm?.multiplayer_modes?.offlinemax || 1}
-                onChange={userChange}
-                attr-which="multiplayerOffline"
-                type="number"
+              id="multiplayerOffline"
+              value={gameForm?.multiplayer_modes?.offlinemax || 1}
+              onChange={userChange}
+              attr-which="multiplayerOffline"
+              type="number"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="multiplayerCoop">Multiplayer: Offline Coop</label>
             <InputText
-                id="multiplayerCoop"
-                value={gameForm?.multiplayer_modes?.offlinecoopmax || 1}
-                onChange={userChange}
-                attr-which="multiplayerCoop"
-                type="number"
+              id="multiplayerCoop"
+              value={gameForm?.multiplayer_modes?.offlinecoopmax || 1}
+              onChange={userChange}
+              attr-which="multiplayerCoop"
+              type="number"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="splitscreen">Splitscreen?</label>
             <InputSwitch
-                id="splitscreen"
-                checked={!!gameForm?.multiplayer_modes?.splitscreen}
-                onChange={userChange}
-                attr-which="splitscreen"
+              id="splitscreen"
+              checked={!!gameForm?.multiplayer_modes?.splitscreen}
+              onChange={userChange}
+              attr-which="splitscreen"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="image">Image URL</label>
+            <InputText
+              id="image"
+              value={gameForm?.image}
+              onChange={userChange}
+              attr-which="image"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="description">Description</label>
             <InputTextarea
-                className="long-text-area"
-                id="description"
-                value={gameForm?.description}
-                onChange={userChange}
-                attr-which="description"
-                autoResize={true}
+              className="long-text-area"
+              id="description"
+              value={gameForm?.description}
+              onChange={userChange}
+              attr-which="description"
+              autoResize={true}
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="story">Storyline</label>
             <InputTextarea
-                className="long-text-area"
-                id="story"
-                value={gameForm?.story}
-                onChange={userChange}
-                attr-which="story"
-                autoResize={true}
+              className="long-text-area"
+              id="story"
+              value={gameForm?.story}
+              onChange={userChange}
+              attr-which="story"
+              autoResize={true}
             />
           </div>
           <div className="divider">
@@ -412,10 +383,10 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           <div className="crud-form--form__row">
             <label htmlFor="manual">Manual?</label>
             <InputSwitch
-                id="manual"
-                checked={!!gameForm?.manual}
-                onChange={userChange}
-                attr-which="manual"
+              id="manual"
+              checked={!!gameForm?.manual}
+              onChange={userChange}
+              attr-which="manual"
             />
           </div>
           <div className="crud-form--form__row">
@@ -428,13 +399,12 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="notes">Notes</label>
-            <InputTextarea
-              id="notes"
-              value={gameForm?.notes}
+            <label htmlFor="handheld">Handheld?</label>
+            <InputSwitch
+              id="handheld"
+              checked={!!gameForm?.handheld}
               onChange={userChange}
-              attr-which="notes"
-              autoResize={true}
+              attr-which="handheld"
             />
           </div>
           <div className="crud-form--form__row">
@@ -455,26 +425,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               onChange={(e) => handleDropdown(e, 'condition')}
               attr-which="condition"
               id="condition"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="image">Image URL</label>
-            <InputText
-              id="image"
-              value={gameForm?.image}
-              onChange={userChange}
-              attr-which="image"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="description">Description</label>
-            <InputTextarea
-              id="description"
-              value={gameForm?.description}
-              onChange={userChange}
-              attr-which="description"
-              autoResize={true}
-              cols={50}
             />
           </div>
           <div className="crud-form--form__row">

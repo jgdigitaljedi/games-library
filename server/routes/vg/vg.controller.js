@@ -86,7 +86,7 @@ module.exports.searchPlatforms = async function (req, res) {
 };
 
 module.exports.searchGame = async function (req, res) {
-  const fields = `age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name`;
+  const fields = `age_ratings.rating,total_rating,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
     client = await refreshAppKey();
   }
@@ -107,6 +107,18 @@ module.exports.searchGame = async function (req, res) {
         if (result.status === 200) {
           const rCopy = _cloneDeep(result.data);
           const cleaned = rCopy.map((item) => {
+            if (item.summary) {
+              item.description = item.summary;
+            } else if (item.storyline) {
+              item.description = item.storyline;
+            } else {
+              item.description = '';
+            }
+            if (item.summary && item.storyline) {
+              item.story = item.storyline;
+            } else {
+              item.story = '';
+            }
             if (item.first_release_date) {
               const rDate = item.first_release_date;
               item.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
@@ -114,13 +126,25 @@ module.exports.searchGame = async function (req, res) {
             if (item.total_rating) {
               const trCopy = item.total_rating.toFixed();
               item.total_rating = parseInt(trCopy);
+            } else {
+              item.total_rating = null;
             }
             item.esrb = { rating: null, letterRating: null };
             if (item.age_ratings && item.age_ratings.length) {
               const esrb = item.age_ratings.filter((r) => r.rating > 5).map((r) => r.rating);
-              item.esrb.rating = esrb[0];
-              item.esrb.letterRating =
-                esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : '';
+              item.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : null;
+            }
+            if (item.videos && item.videos.length) {
+              const vCopy = item.videos.map((v) => v.video_id);
+              item.videos = vCopy;
+            } else {
+              item.videos = [];
+            }
+            if (item.player_perspectives && item.player_perspectives.length) {
+              const ppCopy = item.player_perspectives.map((p) => p.name);
+              item.player_perspectives = ppCopy;
+            } else {
+              item.player_perspectives = [];
             }
             const gCopy = _cloneDeep(item.genres);
             const gCleaned = gCopy && gCopy.length ? gCopy.map((g) => g.name) : null;

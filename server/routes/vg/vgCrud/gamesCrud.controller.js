@@ -3,11 +3,28 @@ const helper = require('../vgHelpers');
 const moment = require('moment');
 const required = helper.gamesRequiredFields();
 
+function getExtraDataForGame(game) {
+  // check against backwards compatibility
+  // check against otherData
+  // check against main consoleSpecificExtraData
+  // format and return
+}
+
+function combineWithExtraDataList(game) {
+  // loop through gamesExtra
+  // find by id
+  // smash together the data
+  // write to file
+}
+
 module.exports.save = function (game) {
   return new Promise((resolve, reject) => {
     const now = helper.timeStamp();
     game.createdAt = now;
     game.updatedAt = now;
+    // check for physicalDigital and update field
+    // @TODO: check for game in gamesExtra (combined) and add to it
+    // @TODO: check for extra data of sorts and add to game
     helper
       .validate(game, required)
       .then((missing) => {

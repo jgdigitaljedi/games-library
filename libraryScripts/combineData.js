@@ -19,7 +19,7 @@ const combined = games.reduce((acc, game, index) => {
     game.id = `9999${index}`;
   }
   console.log('id', game.id);
-  game.compilation = null;
+  game.compilation = false;
   if (!acc) {
     acc = [];
   }

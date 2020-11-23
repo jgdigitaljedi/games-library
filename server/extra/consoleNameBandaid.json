@@ -1,0 +1,130 @@
+[
+  {
+    "appName": "PlayStation",
+    "dataName": "Sony PlayStation"
+  },
+  {
+    "appName": "PlayStation 4",
+    "dataName": "Sony PlayStation 4"
+  },
+  {
+    "appName": "PC (Microsoft Windows)",
+    "dataName": null
+  },
+  {
+    "appName": "Nintendo Switch",
+    "dataName": "Nintendo Switch"
+  },
+  {
+    "appName": "Game Boy",
+    "dataName": "Nintendo Game Boy"
+  },
+  {
+    "appName": "Xbox",
+    "dataName": "Microsoft Xbox"
+  },
+  {
+    "appName": "Sega Mega Drive/Genesis",
+    "dataName": "Sega Genesis"
+  },
+  {
+    "appName": "Nintendo DS",
+    "dataName": "Nintendo DS"
+  },
+  {
+    "appName": "Nintendo Entertainment System (NES)",
+    "dataName": "Nintendo Entertainment System"
+  },
+  {
+    "appName": "PlayStation 2",
+    "dataName": "Sony PlayStation 2"
+  },
+  {
+    "appName": "PlayStation 3",
+    "dataName": "Sony PlayStation 3"
+  },
+  {
+    "appName": "Xbox 360",
+    "dataName": "Microsoft Xbox 360"
+  },
+  {
+    "appName": "Atari 2600",
+    "dataName": "Atari 2600"
+  },
+  {
+    "appName": "Atari 5200",
+    "dataName": "Atari 5200"
+  },
+  {
+    "appName": "Atari 7800",
+    "dataName": "Atari 7800"
+  },
+  {
+    "appName": "Dreamcast",
+    "dataName": "Sega Dreamcast"
+  },
+  {
+    "appName": "Wii",
+    "dataName": "Nintendo Wii"
+  },
+  {
+    "appName": "Sega Saturn",
+    "dataName": "Sega Saturn"
+  },
+  {
+    "appName": "Sega 32X",
+    "dataName": "Sega 32X"
+  },
+  {
+    "appName": "Sega CD",
+    "dataName": "Sega CD"
+  },
+  {
+    "appName": "3DO Interactive Multiplayer",
+    "dataName": "3DO Interactive Multiplayer"
+  },
+  {
+    "appName": "Nintendo GameCube",
+    "dataName": "Nintendo GameCube"
+  },
+  {
+    "appName": "Super Nintendo Entertainment System (SNES)",
+    "dataName": "Super Nintendo Entertainment System"
+  },
+  {
+    "appName": "Game Boy Color",
+    "dataName": "Nintendo Game Boy Color"
+  },
+  {
+    "appName": "Nintendo 64",
+    "dataName": "Nintendo 64"
+  },
+  {
+    "appName": "TurboGrafx-16/PC Engine",
+    "dataName": "NEC TurboGrafx-16"
+  },
+  {
+    "appName": "Wii U",
+    "dataName": "Nintendo Wii U"
+  },
+  {
+    "appName": "Sega Game Gear",
+    "dataName": "Sega Game Gear"
+  },
+  {
+    "appName": "PlayStation Portable",
+    "dataName": "Sony PlayStation Portable"
+  },
+  {
+    "appName": "Nintendo 3DS",
+    "dataName": "Nintendo 3DS"
+  },
+  {
+    "appName": "Game Boy Advance",
+    "dataName": "Nintendo Game Boy Advance"
+  },
+  {
+    "appName": "Xbox One",
+    "dataName": "Microsoft Xbox One"
+  }
+]

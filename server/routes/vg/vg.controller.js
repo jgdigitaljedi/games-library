@@ -4,6 +4,7 @@ const moment = require('moment');
 const _cloneDeep = require('lodash/cloneDeep');
 const axios = require('axios');
 const logger = require('../../config/logger');
+const consolesCrud = require('./vgCrud/consolesCrud.controller');
 
 let client;
 let appKey;
@@ -32,6 +33,42 @@ async function refreshAppKey() {
   appKey = appKeyRes.data;
   appKeyTimestamp = moment().add(appKey.expires_in - 60, 'seconds');
   return igdb(twitchClientId, appKey.access_token);
+}
+
+function formatMultiplayerModes(modes) {
+  let max = 0;
+  const combined = modes.reduce((acc, obj, index) => {
+    if (index === 0) {
+      acc = { offlinemax: 0, offlinecoopmax: 0, splitscreen: false };
+    }
+    if (obj.offlinemax > acc.offlinemax) {
+      acc.offlinemax = obj.offlinemax;
+      if (obj.offlinemax > max) {
+        max = obj.offlinemax;
+      }
+    }
+    if (obj.offlinecoopmax > acc.offlinecoopmax) {
+      acc.offlinecoopmax = obj.offlinecoopmax;
+      if (obj.offlinecoopmax > max) {
+        max = obj.offlinecoopmax;
+      }
+    }
+    if (obj.splitscreen) {
+      acc.splitscreen = true;
+    }
+    return acc;
+  }, {});
+  return { combined, max };
+}
+
+function getConsoleName(id) {
+  const platforms = consolesCrud.getPlatforms();
+  const selected = platforms.filter((p) => p.igdb && p.igdb.id === id);
+  if (selected && selected.length) {
+    return selected[0].igdb.name;
+  } else {
+    return null;
+  }
 }
 
 module.exports.checkKey = function (req, res) {
@@ -105,58 +142,74 @@ module.exports.searchGame = async function (req, res) {
     request
       .then((result) => {
         if (result.status === 200) {
+          console.log(
+            `twitch stuff: clientId is ${twitchClientId} and appKey is ${JSON.stringify(
+              appKey,
+              null,
+              2
+            )}`
+          );
           const rCopy = _cloneDeep(result.data);
           const cleaned = rCopy.map((item) => {
+            const game = {};
             if (item.summary) {
-              item.description = item.summary;
+              game.description = item.summary;
             } else if (item.storyline) {
-              item.description = item.storyline;
+              game.description = item.storyline;
             } else {
-              item.description = '';
+              game.description = '';
             }
             if (item.summary && item.storyline) {
-              item.story = item.storyline;
+              game.story = item.storyline;
             } else {
-              item.story = '';
+              game.story = '';
             }
             if (item.first_release_date) {
               const rDate = item.first_release_date;
-              item.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
+              game.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
             }
             if (item.total_rating) {
               const trCopy = item.total_rating.toFixed();
-              item.total_rating = parseInt(trCopy);
+              game.total_rating = parseInt(trCopy);
             } else {
-              item.total_rating = null;
+              game.total_rating = null;
             }
             item.esrb = { rating: null, letterRating: null };
             if (item.age_ratings && item.age_ratings.length) {
               const esrb = item.age_ratings.filter((r) => r.rating > 5).map((r) => r.rating);
-              item.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : null;
+              game.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : null;
             }
             if (item.videos && item.videos.length) {
               const vCopy = item.videos.map((v) => v.video_id);
-              item.videos = vCopy;
+              game.videos = vCopy;
             } else {
-              item.videos = [];
+              game.videos = [];
             }
             if (item.player_perspectives && item.player_perspectives.length) {
               const ppCopy = item.player_perspectives.map((p) => p.name);
-              item.player_perspectives = ppCopy;
+              game.player_perspectives = ppCopy;
             } else {
-              item.player_perspectives = [];
+              game.player_perspectives = [];
             }
             const gCopy = _cloneDeep(item.genres);
             const gCleaned = gCopy && gCopy.length ? gCopy.map((g) => g.name) : null;
-            item.genres = gCleaned;
-            item.forConsoleId = req.body.platform || undefined;
+            game.genres = gCleaned;
+            game.consoleId = req.body.platform || undefined;
             if (item.cover && item.cover.url) {
               const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
-              item.image = `https:${bigImage}`;
+              game.image = `https:${bigImage}`;
             } else {
-              item.image = '';
+              game.image = '';
             }
-            return item;
+            if (item.multiplayer_modes) {
+              const modes = formatMultiplayerModes(item.multiplayer_modes);
+              game.maxMultiplayer = modes.max;
+              game.multiplayer_modes = modes.combined;
+            }
+            game.consoleName = getConsoleName(req.body.platform);
+            game.name = item.name;
+            game.id = item.id;
+            return game;
           });
           res.status(200).json(cleaned);
         }

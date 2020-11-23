@@ -14,6 +14,7 @@ import { igdbGameSearch } from '../../../services/gamesCrud.service';
 import { getPlatformsWithIds } from '../../../services/platformsCrud.service';
 import { NotificationContext } from '../../../context/NotificationContext';
 import { Chips } from 'primereact/chips';
+import { MultiSelect } from 'primereact/multiselect';
 
 interface IProps {
   game: IGame;
@@ -55,7 +56,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     { label: 'T', value: 'T' },
     { label: 'M', value: 'M' },
     { label: 'RP', value: 'RP' },
-    { label: 'NO RATING', value: '' }
+    { label: 'NO RATING', value: null }
   ];
 
   const userChange = (e: any) => {
@@ -100,6 +101,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   const updateGame = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+    console.log('new game data', gameForm);
     closeDialog(gameForm?.name);
   }, [gameForm, closeDialog]);
 
@@ -117,8 +119,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
     console.log('e', e);
     if (e?.value) {
       const game = e.value;
-      game.consoleId = searchPlatform;
-      game.consoleName = platformIdArr.filter((p: any) => (p.value = searchPlatform))[0].label;
       setSelectedFromSearch(game);
       const gfCopy = _cloneDeep(gameForm);
       setGameForm(Object.assign(gfCopy, game));
@@ -339,7 +339,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           <div className="divider">
             <hr />
           </div>
-
           <div className="crud-form--form__row">
             <label htmlFor="howAcquired">How Acquired</label>
             <InputText
@@ -369,6 +368,27 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               value={gameForm?.newDatePurchased}
               onChange={userChange}
               attr-which="newDatePurchased"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="condition">Condition</label>
+            <Dropdown
+              value={gameForm?.condition}
+              options={conditionOptions}
+              onChange={(e) => handleDropdown(e, 'condition')}
+              attr-which="condition"
+              id="condition"
+              scrollHeight="400"
+            />
+          </div>
+          <div className="crud-form--form__row">
+            <label htmlFor="case">Case</label>
+            <Dropdown
+              value={gameForm?.case}
+              options={caseOptions}
+              onChange={(e) => handleDropdown(e, 'case')}
+              attr-which="case"
+              id="case"
             />
           </div>
           <div className="crud-form--form__row">
@@ -408,23 +428,12 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="case">Case</label>
-            <Dropdown
-              value={gameForm?.case}
-              options={caseOptions}
-              onChange={(e) => handleDropdown(e, 'case')}
-              attr-which="case"
-              id="case"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="condition">Condition</label>
-            <Dropdown
-              value={gameForm?.condition}
-              options={conditionOptions}
-              onChange={(e) => handleDropdown(e, 'condition')}
-              attr-which="condition"
-              id="condition"
+            <label htmlFor="compilation">Compilation?</label>
+            <InputSwitch
+              id="compilation"
+              checked={!!gameForm?.compilation}
+              onChange={userChange}
+              attr-which="compilation"
             />
           </div>
           <div className="crud-form--form__row">

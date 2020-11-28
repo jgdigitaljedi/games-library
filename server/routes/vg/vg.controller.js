@@ -32,6 +32,8 @@ async function refreshAppKey() {
   const appKeyRes = await getAppAccessToken();
   appKey = appKeyRes.data;
   appKeyTimestamp = moment().add(appKey.expires_in - 60, 'seconds');
+  console.log('clientId', twitchClientId);
+  console.log('token', appKey.access_token);
   return igdb(twitchClientId, appKey.access_token);
 }
 

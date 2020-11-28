@@ -2,272 +2,229 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Your Shape Fitness Evolved 2013",
-        "id": 28347,
+        "name": "Star Wars: Shadows of the Empire",
+        "id": 164,
         "genres": [
-          "Sport"
-        ],
-        "total_rating": 77,
-        "total_rating_count": "",
-        "first_release_date": "11/17/2012",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-38551",
-        "gbid": 38551,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525290-box_ysfe2013.png",
-        "deck": "Even more fitness from Ubisoft, now for the Wii U.",
-        "platforms": "Wii U"
-      },
-      "consoleName": "Wii U",
-      "consoleIgdbId": 41,
-      "consoleGbid": 139,
-      "consoleGbGuid": "3045-139",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed (for now)",
-      "createdAt": "11/05/2020 07:08 pm",
-      "updatedAt": "11/05/2020 07:08 pm",
-      "_id": "3d7d5e578560477da0ce76be9bd7ca97",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2525290-box_ysfe2013.png",
-      "description": "Even more fitness from Ubisoft, now for the Wii U.",
-      "name": "Your Shape Fitness Evolved 2013",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "Nintendo Wii U launch title",
-        "Nintendo Wii U full exclusive"
-      ],
-      "extraDataFull": [
-        {
-          "id": "wiiu437",
-          "name": "Your Shape: Fitness Evolved 2013",
-          "details": [
-            "Nintendo Wii U launch title",
-            "Nintendo Wii U full exclusive"
-          ],
-          "igdbId": 28347,
-          "gbId": 38551,
-          "gbGuid": "3030-38551",
-          "tgdbId": 16084,
-          "isLaunchTitle": [
-            {
-              "name": "Nintendo Wii U",
-              "id": "ccl6",
-              "igdbId": 41,
-              "gbId": 139,
-              "gbGuid": "3045-139",
-              "tgdbId": 38
-            }
-          ],
-          "isExclusive": [
-            {
-              "name": "Nintendo Wii U",
-              "id": "ccl6",
-              "igdbId": 41,
-              "gbId": 139,
-              "gbGuid": "3045-139",
-              "tgdbId": 38
-            }
-          ],
-          "special": []
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Code Name S.T.E.A.M.",
-        "id": 7392,
-        "genres": [
-          "Strategy",
-          "Turn-based strategy (TBS)",
+          "Shooter",
           "Adventure"
         ],
-        "total_rating": 59,
-        "total_rating_count": 20,
-        "first_release_date": "03/12/2015",
+        "total_rating": 67,
+        "total_rating_count": 37,
+        "first_release_date": "12/02/1996",
         "developers": "",
         "esrb": "T"
       },
       "gb": {
-        "aliases": "Code Name: STEAM\r, Codename: STEAM\r, Code Name S.T.E.A.M.: Lincoln Vs. Aliens",
-        "guid": "3030-46597",
-        "gbid": 46597,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2644722-steam.jpg",
-        "deck": "A turn-based tactics game with a third person view. It is set in a steampunk world with an art style inspired by comic books. Players control a strike force called S.T.E.A.M., created by Abraham Lincoln, to fend off an alien invasion.",
-        "platforms": "Nintendo 3DS, Nintendo 3DS eShop"
+        "aliases": "SW: SOTE",
+        "guid": "3030-12139",
+        "gbid": 12139,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/118/610322-star_wars___shadows_of_the_empire_coverart.png",
+        "deck": "One of the earliest Nintendo 64 action games puts players into the role of mercenary Dash Rendar in this hybrid third-person shooter and flight combat game based on the Star Wars expanded universe project of the same name.",
+        "platforms": "Nintendo 64, PC"
       },
-      "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2.09",
+      "physical": "",
+      "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-11-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed (for now)",
-      "createdAt": "11/05/2020 07:08 pm",
-      "updatedAt": "11/05/2020 07:08 pm",
-      "_id": "c4f4e66f226b4ff991732be9e15c42b3",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2644722-steam.jpg",
-      "description": "A turn-based tactics game with a third person view. It is set in a steampunk world with an art style inspired by comic books. Players control a strike force called S.T.E.A.M., created by Abraham Lincoln, to fend off an alien invasion.",
-      "name": "Code Name S.T.E.A.M.",
+      "datePurchased": "2020-11-27",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "11/28/2020 07:42 am",
+      "updatedAt": "11/28/2020 07:42 am",
+      "_id": "a7df34c4d11c4413b80d958f8e53de3f",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/118/610322-star_wars___shadows_of_the_empire_coverart.png",
+      "description": "One of the earliest Nintendo 64 action games puts players into the role of mercenary Dash Rendar in this hybrid third-person shooter and flight combat game based on the Star Wars expanded universe project of the same name.",
+      "name": "Star Wars: Shadows of the Empire",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "The Trash Pack: The Gross Gang in Your Garbage",
-        "id": 9752,
+        "name": "Fallout 4",
+        "id": 9630,
         "genres": [
-          "Adventure"
+          "Shooter",
+          "Role-playing (RPG)"
         ],
-        "total_rating": 33,
-        "total_rating_count": 1,
-        "first_release_date": "10/29/2012",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-80529",
-        "gbid": 80529,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/52/523260/3240970-trashpack_boxart.jpg",
-        "deck": "A 3DS game based on the popular children’s toy.",
-        "platforms": "Nintendo 3DS"
-      },
-      "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed (for now)",
-      "createdAt": "11/05/2020 07:07 pm",
-      "updatedAt": "11/05/2020 07:07 pm",
-      "_id": "97111f2defdb416697bf92d78ecb067a",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/52/523260/3240970-trashpack_boxart.jpg",
-      "description": "A 3DS game based on the popular children’s toy.",
-      "name": "The Trash Pack: The Gross Gang in Your Garbage",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Medieval Moves: Deadmund's Quest",
-        "id": 18230,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 66,
-        "total_rating_count": 4,
-        "first_release_date": "11/14/2011",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-35558",
-        "gbid": 35558,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2103137-box_mmdq.png",
-        "deck": "Take on the role of Deadmund as he battles his way through hordes of undead skeletons using his sword & shield, bow & arrow, and throwing stars in this PlayStation Move-exclusive game.\n",
-        "platforms": "PlayStation 3, PlayStation Network (PS3)"
-      },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed (for now)",
-      "createdAt": "11/05/2020 07:10 pm",
-      "updatedAt": "11/05/2020 07:10 pm",
-      "_id": "71bb88f790f043189f109503f1354995",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2103137-box_mmdq.png",
-      "description": "Take on the role of Deadmund as he battles his way through hordes of undead skeletons using his sword & shield, bow & arrow, and throwing stars in this PlayStation Move-exclusive game.\n",
-      "name": "Medieval Moves: Deadmund's Quest",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Heavy Rain",
-        "id": 493,
-        "genres": [
-          "Adventure"
-        ],
-        "total_rating": 81,
-        "total_rating_count": 626,
-        "first_release_date": "02/17/2010",
+        "total_rating": 82,
+        "total_rating_count": 958,
+        "first_release_date": "11/09/2015",
         "developers": "",
         "esrb": "M"
       },
       "gb": {
-        "aliases": "The Origami Killer",
-        "guid": "3030-21304",
-        "gbid": 21304,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794108-box_heavyrain.png",
-        "deck": "An interactive thriller from the studio behind Indigo Prophecy, sporting a dark storyline involving the investigation of a mysterious serial killer.",
-        "platforms": "PlayStation 3, PC, PlayStation 4"
+        "aliases": "Fallout 4 VR",
+        "guid": "3030-49833",
+        "gbid": 49833,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2795700-2356006370-64616.jpg",
+        "deck": "The Fallout series continues in a post-apocalyptic Boston, Massachusetts.",
+        "platforms": "PC, Xbox One, PlayStation 4"
       },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "",
-      "physical": true,
-      "cib": true,
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "8.99",
+      "physical": "",
+      "cib": "",
       "multiplayerNumber": "1",
-      "datePurchased": "2020-11-05",
-      "howAcquired": "Video Games Monthly",
-      "notes": "sealed (for now)",
-      "createdAt": "11/05/2020 07:09 pm",
-      "updatedAt": "11/05/2020 07:09 pm",
-      "_id": "793da39aac454698982f04169fc337be",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1794108-box_heavyrain.png",
-      "description": "An interactive thriller from the studio behind Indigo Prophecy, sporting a dark storyline involving the investigation of a mysterious serial killer.",
-      "name": "Heavy Rain",
+      "datePurchased": "2020-11-27",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "11/28/2020 07:41 am",
+      "updatedAt": "11/28/2020 07:41 am",
+      "_id": "53d1ab25b32343be8fabaecd65657ee1",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2795700-2356006370-64616.jpg",
+      "description": "The Fallout series continues in a post-apocalyptic Boston, Massachusetts.",
+      "name": "Fallout 4",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Flashback",
+        "id": 19833,
+        "genres": [
+          "Platform",
+          "Role-playing (RPG)",
+          "Adventure"
+        ],
+        "total_rating": 67,
+        "total_rating_count": 11,
+        "first_release_date": "08/20/2013",
+        "developers": "",
+        "esrb": "T"
+      },
+      "gb": {
+        "aliases": "Flashback HD",
+        "guid": "3030-42895",
+        "gbid": 42895,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23546/2533748-fb.jpg",
+        "deck": "An HD update and reimagining of the classic 1993 challenging platform adventure title Flashback.",
+        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-11-27",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "11/28/2020 07:33 am",
+      "updatedAt": "11/28/2020 07:33 am",
+      "_id": "cac2641cc6984bdfb9ead9b4c8726466",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23546/2533748-fb.jpg",
+      "description": "An HD update and reimagining of the classic 1993 challenging platform adventure title Flashback.",
+      "name": "Flashback",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Return to Castle Wolfenstein",
+        "id": 281,
+        "genres": [
+          "Shooter"
+        ],
+        "total_rating": 74,
+        "total_rating_count": 270,
+        "first_release_date": "11/18/2001",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "RtCW",
+        "guid": "3030-19181",
+        "gbid": 19181,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2287889-rtcw.png",
+        "deck": "B.J. Blazkowicz returns to fight elite Nazi troopers, supernatural creatures, and mechanized super soldiers in this reboot of the original 1991 classic Wolfenstein 3D.",
+        "platforms": "Mac, PlayStation 2, Xbox, PC"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "2",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-11-27",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "11/28/2020 07:32 am",
+      "updatedAt": "11/28/2020 07:32 am",
+      "_id": "aea488f8a93749ea933d25c5d785373d",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2287889-rtcw.png",
+      "description": "B.J. Blazkowicz returns to fight elite Nazi troopers, supernatural creatures, and mechanized super soldiers in this reboot of the original 1991 classic Wolfenstein 3D.",
+      "name": "Return to Castle Wolfenstein",
       "miltiplayerNumber": 1,
       "extraData": [
-        "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
-        "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+        "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
       ],
       "extraDataFull": [
         {
-          "name": "Heavy Rain",
+          "name": "Return to Castle Wolfenstein",
           "details": [
-            "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
-            "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+            "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
           ],
-          "id": "bi143",
-          "igdbId": 493,
-          "gbId": 21304,
-          "gbGuid": "3030-21304",
-          "tgdbId": 319
+          "id": "bi105",
+          "igdbId": 281,
+          "gbId": 19181,
+          "gbGuid": "3030-19181",
+          "tgdbId": 782
         }
       ]
+    },
+    {
+      "igdb": {
+        "name": "Metro: Last Light Redux",
+        "id": 50199,
+        "genres": [
+          "Shooter",
+          "Role-playing (RPG)"
+        ],
+        "total_rating": 79,
+        "total_rating_count": 69,
+        "first_release_date": "08/25/2014",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Metro 2034",
+        "guid": "3030-35485",
+        "gbid": 35485,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2213657-metroart.jpg",
+        "deck": "The sequel to the underground hit Metro 2033. Set in Moscow in the year 2034, the player will be caught between warring factions vying for a doomsday device.",
+        "platforms": "Mac, Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, PlayStation 4, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "3",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-11-27",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "11/28/2020 07:32 am",
+      "updatedAt": "11/28/2020 07:32 am",
+      "_id": "8d52985094de4fc58cd454b49e898d9b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2213657-metroart.jpg",
+      "description": "The sequel to the underground hit Metro 2033. Set in Moscow in the year 2034, the player will be caught between warring factions vying for a doomsday device.",
+      "name": "Metro: Last Light Redux",
+      "miltiplayerNumber": 1
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -836,10 +793,10 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 310,
     "Wii U": 18,
     "Nintendo 3DS": 15,
     "PlayStation 3": 44,
-    "PC (Microsoft Windows)": 295,
     "Nintendo DS": 19,
     "Atari 5200": 6,
     "Atari 7800": 6,
@@ -870,29 +827,29 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "T": 200,
+    "M": 274,
+    "E": 237,
+    "NOT RATED": 272,
     "E10+": 88,
-    "T": 198,
-    "E": 234,
-    "M": 266,
-    "NOT RATED": 270,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
     "physical": 662,
-    "digital": 409
+    "digital": 424
   },
   "gamesAcquisition": {
+    "Steam": 161,
+    "GOG": 29,
+    "Green Man Gaming": 3,
     "Video Games Monthly": 61,
-    "Steam": 154,
     "Epic Games Store": 25,
-    "GOG": 22,
     "UNKNOWN": 133,
     "GameOver": 246,
     "eBay": 51,
     "Amazon": 7,
     "Twitch": 39,
-    "Green Man Gaming": 2,
     "Limited Run Games": 1,
     "PSN": 66,
     "Origin": 2,
@@ -927,25 +884,26 @@
   },
   "cibGames": 280,
   "gamesWithGenre": {
-    "sport": 141,
-    "strategy": 120,
+    "shooter": 381,
+    "adventure": 383,
+    "role-playing (rpg)": 157,
+    "platform": 192,
+    "sport": 144,
+    "indie": 142,
+    "simulator": 111,
+    "strategy": 121,
+    "arcade": 105,
     "turn-based strategy (tbs)": 25,
-    "adventure": 378,
-    "shooter": 370,
-    "indie": 137,
     "fps": 176,
-    "arcade": 104,
     "puzzle": 110,
     "quiz/trivia": 11,
     "music": 29,
     "rythym": 1,
     "shmup": 10,
-    "platform": 188,
     "pinball": 5,
     "golf": 15,
     "basketball": 6,
     "real time strategy (rts)": 12,
-    "simulator": 110,
     "racing": 114,
     "soccer": 5,
     "vehicular combat": 5,
@@ -954,7 +912,6 @@
     "hack and slash/beat 'em up": 66,
     "football": 8,
     "skateboarding": 14,
-    "role-playing (rpg)": 153,
     "tactical": 28,
     "point-and-click": 9,
     "surfing": 2,
@@ -1043,6 +1000,10 @@
       "games": 23
     },
     {
+      "dateFormatted": "11/2020",
+      "games": 21
+    },
+    {
       "dateFormatted": "01/2019",
       "games": 20
     },
@@ -1087,10 +1048,6 @@
       "games": 7
     },
     {
-      "dateFormatted": "11/2020",
-      "games": 6
-    },
-    {
       "dateFormatted": "08/2018",
       "games": 6
     },
@@ -1130,7 +1087,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 332
+      "games": 347
     },
     {
       "dateFormatted": "2019",
@@ -1156,19 +1113,19 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 664
+      "value": 673
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 191
+      "value": 195
     },
     {
       "category": "Poor (30 - 49)",
-      "value": 17
+      "value": 18
     },
     {
       "category": "Terrible (< 30)",
-      "value": 133
+      "value": 134
     }
   ],
   "consolesByCompany": {
@@ -1191,7 +1148,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1071,
+  "totalGames": 1086,
   "totalPlatforms": 35,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1199,9 +1156,9 @@
   "gamesByDecade": {
     "1970": 9,
     "1980": 81,
-    "1990": 203,
-    "2000": 332,
-    "2010": 411,
-    "2020": 18
+    "1990": 204,
+    "2000": 333,
+    "2010": 423,
+    "2020": 19
   }
 }

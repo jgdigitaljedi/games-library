@@ -18,6 +18,7 @@
     "process:stats": "node libraryScripts/createHomePageStats.js",
     "process:transition": "node libraryScripts/transitionDataStructure.js",
     "process:viz": "node libraryScripts/createVizStats.js",
+    "process:newGames": "node libraryScripts/addNewWhileUnderConstruction/addNew.js",
     "process": "npm run process:supp && npm run process:combined && npm run process:lists && npm run process:stats && npm run process:viz",
     "copyGames:windows": "./libraryScripts/copyGamesFromOtherProject.sh",
     "copyGames:mac": "./libraryScripts/copyFromOsx.sh",

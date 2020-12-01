@@ -273,6 +273,41 @@
   "mostRecentlyAddedPlatforms": [
     {
       "igdb": {
+        "name": "Sega Master System",
+        "id": 64,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8a.jpg",
+        "generation": 3,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "16390000",
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/25/176128-sega_master_system__6_.jpg",
+        "original_price": "200.00",
+        "aliases": null,
+        "company": "Sega",
+        "guid": "3045-8",
+        "online_support": false,
+        "gbid": 8
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "",
+      "notes": "HD Retrovision component cable used; Christmas 2020 present",
+      "connectedBy": "Component",
+      "upscaler": false,
+      "datePurchased": "2020-11-30",
+      "purchasePrice": "125.00",
+      "ghostConsole": false,
+      "aliases": "SMS",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "eBay",
+      "createdAt": "12/01/2020 05:57 am",
+      "updatedAt": "12/01/2020 05:57 am",
+      "_id": "3f30adc58d314c06833228634992748f"
+    },
+    {
+      "igdb": {
         "name": "Atari 5200",
         "id": 66,
         "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8g.jpg",
@@ -293,6 +328,8 @@
       "box": false,
       "mods": "Power mod installed to bypass need for switchbox",
       "notes": "",
+      "connectedBy": "Coaxial",
+      "upscaler": false,
       "datePurchased": "2020-08-07",
       "purchasePrice": "20",
       "ghostConsole": false,
@@ -302,8 +339,7 @@
       "howAcquired": "GameOver",
       "createdAt": "08/08/2020 08:09 am",
       "updatedAt": "08/08/2020 08:09 am",
-      "_id": "2406f3916d734a889cd664ca47970ef2",
-      "name": "Atari 5200"
+      "_id": "2406f3916d734a889cd664ca47970ef2"
     },
     {
       "igdb": {
@@ -327,6 +363,8 @@
       "box": false,
       "mods": "Capacitor replacement; composite video mod",
       "notes": "Given for free from Game Over as anniversary gift. ",
+      "connectedBy": "Composite",
+      "upscaler": false,
       "datePurchased": "2020-07-24",
       "purchasePrice": "0",
       "ghostConsole": false,
@@ -336,8 +374,7 @@
       "howAcquired": "GameOver",
       "createdAt": "07/25/2020 07:35 am",
       "updatedAt": "07/25/2020 07:35 am",
-      "_id": "7c459ded0cf542e78ac2bca787a64964",
-      "name": "Atari 7800"
+      "_id": "7c459ded0cf542e78ac2bca787a64964"
     },
     {
       "igdb": {
@@ -361,6 +398,8 @@
       "box": false,
       "mods": "installed in new shell with new buttons and membranes; Bennvenn Aoili v2 screen replacement",
       "notes": "",
+      "connectedBy": "None",
+      "upscaler": false,
       "datePurchased": "2020-03-06",
       "purchasePrice": "50",
       "ghostConsole": false,
@@ -370,8 +409,7 @@
       "howAcquired": "GameOver",
       "createdAt": "01/07/2019 07:33 am",
       "updatedAt": "01/07/2019 07:33 am",
-      "_id": "3c056a8b4492443592f146ef227ea951",
-      "name": "Game Boy Color"
+      "_id": "3c056a8b4492443592f146ef227ea951"
     },
     {
       "igdb": {
@@ -395,6 +433,8 @@
       "box": true,
       "mods": "",
       "notes": "Special Edition Zelda (black) CIB",
+      "connectedBy": "None",
+      "upscaler": false,
       "datePurchased": "2020-02-22",
       "purchasePrice": "160",
       "ghostConsole": false,
@@ -404,42 +444,7 @@
       "howAcquired": "GameOver",
       "createdAt": "02/22/2020 06:43 pm",
       "updatedAt": "02/22/2020 06:43 pm",
-      "_id": "3a5e8a117ae241558a7b76b2f7a4fc67",
-      "name": "Nintendo 3DS"
-    },
-    {
-      "igdb": {
-        "name": "Atari 2600",
-        "id": 59,
-        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8l.jpg",
-        "generation": 2,
-        "version": "Initial version"
-      },
-      "gb": {
-        "install_base": "30000000",
-        "image": "https://www.giantbomb.com/api/image/scale_medium/10066-atari2600.jpg",
-        "original_price": "200.00",
-        "aliases": "Atari VCS\r\nAtari 2800\r\nSears Video Arcade\r\nSears Video Arcade II",
-        "company": "Atari",
-        "guid": "3045-40",
-        "online_support": false,
-        "gbid": 40
-      },
-      "condition": "Good",
-      "box": false,
-      "mods": "capacitors replaced; composite video mod",
-      "notes": "",
-      "datePurchased": "2019-11-28",
-      "purchasePrice": "40",
-      "ghostConsole": false,
-      "aliases": "Atari VCS\r, Atari 2800\r, Sears Video Arcade\r, Sears Video Arcade II",
-      "storage": "",
-      "unit": "",
-      "howAcquired": "GameOver",
-      "createdAt": "11/30/2019 07:54 am",
-      "updatedAt": "11/30/2019 07:54 am",
-      "_id": "f1b51917929d4bc4ba0852556ccbe72c",
-      "name": "Atari 2600"
+      "_id": "3a5e8a117ae241558a7b76b2f7a4fc67"
     }
   ],
   "mostPaidForGames": [
@@ -686,6 +691,8 @@
       "box": true,
       "mods": "RTX 3090 FE; Ryzen 7 3800X; 2TB m.2 NVME SSD; 1TB 2.5\" SSD; 32GB RAM 3600MHz; ASUS Prime X570-Pro mobo",
       "notes": "Playing on a 32 inch Asus 1440p 144Hz 1ms monitor",
+      "connectedBy": "None",
+      "upscaler": false,
       "datePurchased": "2019-06-27",
       "purchasePrice": "2500",
       "ghostConsole": false,
@@ -695,8 +702,7 @@
       "howAcquired": "Amazon",
       "createdAt": "02/01/2020 06:43 am",
       "updatedAt": "02/01/2020 06:43 am",
-      "_id": "a1de4a91c4e04a4cb8ace611c4eff65b",
-      "name": "PC (Microsoft Windows)"
+      "_id": "a1de4a91c4e04a4cb8ace611c4eff65b"
     },
     {
       "igdb": {
@@ -720,6 +726,8 @@
       "box": true,
       "mods": "",
       "notes": "4TB external HD",
+      "connectedBy": "HDMI",
+      "upscaler": false,
       "datePurchased": "2017-12-01",
       "purchasePrice": "400",
       "ghostConsole": false,
@@ -729,8 +737,7 @@
       "howAcquired": "GameStop",
       "createdAt": "11/16/2018 08:26 am",
       "updatedAt": "05/26/2019 08:33 pm",
-      "_id": "1c877eebf8e04433b949da92e335a921",
-      "name": "PlayStation 4"
+      "_id": "1c877eebf8e04433b949da92e335a921"
     },
     {
       "igdb": {
@@ -754,6 +761,8 @@
       "box": true,
       "mods": "",
       "notes": "128GB micro SD",
+      "connectedBy": "HDMI",
+      "upscaler": false,
       "datePurchased": "2017-12-01",
       "purchasePrice": "300",
       "ghostConsole": false,
@@ -763,8 +772,7 @@
       "createdAt": "11/16/2018 08:01 am",
       "updatedAt": "05/26/2019 08:33 pm",
       "_id": "c8302a06508146169fac09d1ef884b58",
-      "howAcquired": "GameStop",
-      "name": "Nintendo Switch"
+      "howAcquired": "GameStop"
     },
     {
       "igdb": {
@@ -788,6 +796,8 @@
       "box": false,
       "mods": "",
       "notes": "",
+      "connectedBy": "HDMI",
+      "upscaler": false,
       "datePurchased": null,
       "purchasePrice": "300",
       "ghostConsole": false,
@@ -797,8 +807,7 @@
       "createdAt": "11/16/2018 08:04 am",
       "updatedAt": "11/16/2018 08:04 am",
       "_id": "331ff6868757437d85683b3245c2b455",
-      "howAcquired": "GameStop",
-      "name": "Wii U"
+      "howAcquired": "GameStop"
     },
     {
       "igdb": {
@@ -822,6 +831,8 @@
       "box": false,
       "mods": "RGB mod, de-blur mod, custom firmware, region unlocked",
       "notes": "all new caps; completely cleaned inside and out; Funtastic teal color",
+      "connectedBy": "Component",
+      "upscaler": false,
       "datePurchased": "2018-11-30",
       "purchasePrice": "275",
       "ghostConsole": false,
@@ -831,8 +842,7 @@
       "howAcquired": "eBay",
       "createdAt": "12/01/2018 05:53 am",
       "updatedAt": "12/01/2018 05:53 am",
-      "_id": "01e798b295c44281a9bc86690514c8cd",
-      "name": "Nintendo 64"
+      "_id": "01e798b295c44281a9bc86690514c8cd"
     }
   ],
   "gamePerConsoleCounts": {
@@ -1108,7 +1118,7 @@
   "consolesByCompany": {
     "UNKNOWN": 1,
     "Nintendo": 14,
-    "Sega": 6,
+    "Sega": 7,
     "Microsoft": 3,
     "Sony": 6,
     "Matsushita Electric Corporation of America (Panasonic)": 1,
@@ -1117,7 +1127,7 @@
   },
   "consolesByGenerationSorted": {
     "2": 2,
-    "3": 2,
+    "3": 3,
     "4": 7,
     "5": 6,
     "6": 6,
@@ -1126,7 +1136,7 @@
     "UNKNOWN": 1
   },
   "totalGames": 1071,
-  "totalPlatforms": 35,
+  "totalPlatforms": 36,
   "totalAccessories": 119,
   "totalCollectibles": 35,
   "totalClones": 7,

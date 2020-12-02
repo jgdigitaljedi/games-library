@@ -39,7 +39,9 @@ const combined = games.reduce((acc, game, index) => {
           condition: game.condition,
           case: game.case,
           cib: game.cib,
-          notes: game.notes
+          notes: game.notes,
+          manual: game.manual,
+
         });
       }
       const xbBc = bc.xboxBcCheck(game.id, game.consoleId === 11);

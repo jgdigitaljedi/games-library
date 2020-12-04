@@ -1,6 +1,7 @@
-const games = require('../../db/combinedGames.json');
+const gamesExtra = require('../../db/combinedGames.json');
+const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
-function makeList(which) {
+function makeList(which, games) {
   return games.filter((game) => {
     if (which === 'multiplayer') {
       if (game.maxMultiplayer && game.maxMultiplayer >= 3) {
@@ -39,31 +40,37 @@ function makeList(which) {
 module.exports.getList = function (req, res) {
   try {
     if (req && req.body && req.body.which) {
-      let theList;
-      switch (req.body.which) {
-        case 'exclusives':
-          theList = makeList('exclusives');
-          break;
-        case 'extraData':
-          theList = makeList('extraData');
-          break;
-        case 'launch':
-          theList = makeList('launch');
-          break;
-        case 'multiplayer':
-          theList = makeList('multiplayer');
-          break;
-        case 'special':
-          theList = makeList('special');
-          break;
-        case 'multiplatform':
-          theList = makeList('multiplatform');
-          break;
-        default:
-          theList = [];
-          break;
-      }
-      res.json(theList);
+      combined()
+        .then((result) => {
+          let theList;
+          switch (req.body.which) {
+            case 'exclusives':
+              theList = makeList('exclusives', result);
+              break;
+            case 'extraData':
+              theList = makeList('extraData', result);
+              break;
+            case 'launch':
+              theList = makeList('launch', result);
+              break;
+            case 'multiplayer':
+              theList = makeList('multiplayer', result);
+              break;
+            case 'special':
+              theList = makeList('special', result);
+              break;
+            case 'multiplatform':
+              theList = makeList('multiplatform', result);
+              break;
+            default:
+              theList = [];
+              break;
+          }
+          res.json(theList);
+        })
+        .catch((error) => {
+          res.status(503).send(error);
+        });
     } else {
       res.status(400).send('ERROR: Empty or bad request to fetch list.');
     }

@@ -7,14 +7,8 @@ function getExtraDataForGame(game) {
   // check against backwards compatibility
   // check against otherData
   // check against main consoleSpecificExtraData
-  // format and return
-}
-
-function combineWithExtraDataList(game) {
-  // loop through gamesExtra
-  // find by id
-  // smash together the data
-  // write to file
+  // check against handhelds
+  // save to games.json; get rid of gamesExtra since there will be 1 source of truth now
 }
 
 module.exports.save = function (game) {

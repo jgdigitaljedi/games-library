@@ -4,9 +4,11 @@ const chalk = require('chalk');
 const _flatten = require('lodash/flatten');
 const _sortBy = require('lodash/sortBy');
 
+const fileLookup = require('./fileLookup').getFileRef;
+const handhelds = require('./handhelds');
+
 const games = require('../../server/db/games.json');
 const conLocation = require('../consoleLocation');
-const fileLookup = require('./fileLookup').getFileRef;
 const ps1ToPs2 = require('../other/ps1ToPs2Bc.json');
 const banned = require('../other/bannedInternationally.json');
 
@@ -15,6 +17,9 @@ const outputResultsPath = path.join(__dirname, './outputtedResults.json');
 const fixed = games.map(game => {
     // add location
     game.location = conLocation.getLocation(game.consoleId);
+
+    // I'm gonna add handheld data now instead of when combined
+    game.handheld = handhelds.isHandheld(game.consoleId, game.consoleName);
 
     // fix props that didn't take correctly but can be saved
     game.cib = !!game.cib;

@@ -109,6 +109,7 @@ async function getNewGameData(game) {
           if (result.status === 200) {
             const formatted = {};
             const item = result.data[0];
+            formatted.id = item.id;
             if (item.first_release_date) {
               const rDate = item.first_release_date;
               formatted.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
@@ -143,7 +144,7 @@ async function getNewGameData(game) {
               : [];
             const multiplayer = item.multiplayer_modes
               ? getMultiplayerModes(item.multiplayer_modes)
-              : {combined: { offlinemax: 0, offlinecoopmax: 0, splitscreen: false }, max: 1};
+              : { combined: { offlinemax: 0, offlinecoopmax: 0, splitscreen: false }, max: 1 };
             formatted.multiplayer_modes = multiplayer.combined;
             formatted.maxMultiplayer = multiplayer.max;
             formatted.manual = !!item.cib;
@@ -196,17 +197,13 @@ function handleResults(results) {
   );
 
   // write results in a minified format to be pasted
-  fs.writeFile(
-      path.join(__dirname, `./newGamesMinified.json`),
-      JSON.stringify(cleaned),
-      (err) => {
-        if (err) {
-          err.forEach((error) => {
-            console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
-          });
-        }
-      }
-  );
+  fs.writeFile(path.join(__dirname, `./newGamesMinified.json`), JSON.stringify(cleaned), (err) => {
+    if (err) {
+      err.forEach((error) => {
+        console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
+      });
+    }
+  });
 
   // write errors to another file so I can address them later
   fs.writeFile(

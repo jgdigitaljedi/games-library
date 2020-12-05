@@ -7,3 +7,4 @@
 - pull in friends statuses from the various game apps so you can see who is online now
     - compare games to friends' game so you know what you can play with which friend
 - have backend pull in csv pricing data from GameEye and figure out how to combine that with this data providing current prices
+- longshot idea: have adding a game in this app somehow update my collection on Video Games Monthly

@@ -17,9 +17,9 @@ I'm going to stay with DiskDB for now because I like having a backup of my colle
   - ~~Add check for headers in protected CRUD routes server side~~
 - Second, migrate data structure to use only IGDB
   - ~~BACKUP ALL YOUR DATA FIRST!~~
-  - figure out what new data structure will be for games and consoles. Remember to add a PS Plus, Game Pass, Games with Gold toggle so I can easily remove those games if I cancel my subscriptions.
+  - ~~figure out what new data structure will be for games and consoles. Remember to add a PS Plus, Game Pass, Games with Gold toggle so I can easily remove those games if I cancel my subscriptions.~~
   - supplemental/extra data scripts
-    - use existing logic in endpoints to fetch IGDB data to return it along with extra data all at once.
+    - ~~use existing logic in endpoints to fetch IGDB data to return it along with extra data all at once.~~
     - add extra form fields to display or even allow editing of extra data
   - make changes to Library -> Games and Library -> Consoles to have form field that makes this call and gets data
   - ~~make changes to IGDB services to get the new fields and make sure you get the desired return to the client~~

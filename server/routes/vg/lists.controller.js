@@ -1,4 +1,3 @@
-const gamesExtra = require('../../db/combinedGames.json');
 const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
 function makeList(which, games) {

@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const _sortBy = require('lodash/sortBy');
 
 const fileLookup = require('./fileLookup').getFileRef;
-const games = require('../server/db/gamesTransitioned.json');
+const games = require('../server/db/gamesExtra.json');
 const ps1ToPs2 = require('./other/ps1ToPs2Bc.json');
 const banned = require('./other/bannedInternationally.json');
 
@@ -22,12 +22,12 @@ const sorted = games.reduce((acc, obj) => {
 const keys = Object.keys(sorted);
 
 // this is where the extraData and extraDataFull get addded
-const supp = keys.map(key => {
+const supp = keys.map((key) => {
   const file = fileLookup(key);
   if (file) {
-    const ids = file.map(f => f.igdbId);
-    const gbids = file.map(f => f.gbId);
-    return sorted[key].map(game => {
+    const ids = file.map((f) => f.igdbId);
+    const gbids = file.map((f) => f.gbId);
+    return sorted[key].map((game) => {
       if (game && game.igdb && game.igdb.id) {
         const index = ids.indexOf(game.igdb.id);
         if (game.extraData) {
@@ -67,10 +67,10 @@ const supp = keys.map(key => {
 
 const flat = _sortBy(_flatten(supp), 'datePurchased').reverse();
 
-const psIds = ps1ToPs2.map(p => p.igdbId);
-const bannedIds = banned.map(b => b.igdbId);
+const psIds = ps1ToPs2.map((p) => p.igdbId);
+const bannedIds = banned.map((b) => b.igdbId);
 
-const extraDataArr = flat.map(g => {
+const extraDataArr = flat.map((g) => {
   // check if PS1 game by igdbId of 7
   if (g.consoleIgdbId === 7 && psIds.indexOf(g.igdb.id) >= 0) {
     const ind = psIds.indexOf(g.igdb.id);
@@ -100,7 +100,7 @@ const extraDataArr = flat.map(g => {
 
 const writable = JSON.stringify(extraDataArr);
 
-fs.writeFile(path.join(__dirname, '../server/db/gamesExtra.json'), writable, error => {
+fs.writeFile(path.join(__dirname, '../server/db/gamesExtra.json'), writable, (error) => {
   if (error) {
     console.log(chalk.red.bold('ERROR SUPPLEMENTING DATA', error));
   } else {

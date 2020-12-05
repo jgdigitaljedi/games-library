@@ -148,6 +148,14 @@ async function getNewGameData(game) {
             formatted.multiplayer_modes = multiplayer.combined;
             formatted.maxMultiplayer = multiplayer.max;
             formatted.manual = !!item.cib;
+            formatted.compilation = false;
+            formatted.compilationGamesIds = [];
+            formatted.gamesService = {
+              xbGold: false,
+              xbPass: false,
+              psPlus: false,
+              primeFree: false
+            };
             const oldData = getUserData(game);
             const newGameData = { ...formatted, ...oldData };
             resolve(newGameData);

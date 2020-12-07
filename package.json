@@ -12,10 +12,7 @@
     "test": "node scripts/test.js",
     "everdrive": "node scripts/fixEverdrives.js",
     "migrateGames": "node libraryScripts/migrateToNewDataStructure/migrateGames.js",
-    "process:stats": "node libraryScripts/createHomePageStats.js",
-    "process:viz": "node libraryScripts/createVizStats.js",
     "process:newGames": "node libraryScripts/addNewWhileUnderConstruction/addNew.js",
-    "process": "npm run process:stats && npm run process:viz",
     "copyGames:windows": "./libraryScripts/copyGamesFromOtherProject.sh",
     "copyGames:mac": "./libraryScripts/copyFromOsx.sh",
     "copyGames:linux": "./libraryScripts/copyFromLinux.sh"

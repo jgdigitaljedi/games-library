@@ -3,15 +3,11 @@ const path = require('path');
 const chalk = require('chalk');
 const _cloneDeep = require('lodash/cloneDeep');
 
-const games = require('../server/db/gamesExtra.json');
-const platforms = require('../server/db/consoles.json');
-const accessories = require('../server/db/gameAcc.json');
-const collectibles = require('../server/db/collectibles.json');
-const clones = require('../server/db/clones.json');
-
-/*** ideas for possible future additions
- * add games by relase date decade
- ***/
+const games = require('../../../../db/gamesExtra.json');
+const platforms = require('../../../../db/consoles.json');
+const accessories = require('../../../../db/gameAcc.json');
+const collectibles = require('../../../../db/collectibles.json');
+const clones = require('../../../../db/clones.json');
 
 let genres = {},
   conGames = {},
@@ -232,97 +228,89 @@ function getMostPopularGameDecade() {
     }, {});
 }
 
-makeConGames();
-handleConGamesData();
-const mostRecentGameArr = createMostRecentArr(games, 5);
-const mostRecentConsoleArr = createMostRecentArr(platforms, 5);
-const highestPricePaidGames = getMostExpensive(games, 5);
-const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
-const gamesByDecade = getMostPopularGameDecade();
+module.exports.getStats = () => {
+  makeConGames();
+  handleConGamesData();
+  const mostRecentGameArr = createMostRecentArr(games, 5);
+  const mostRecentConsoleArr = createMostRecentArr(platforms, 5);
+  const highestPricePaidGames = getMostExpensive(games, 5);
+  const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
+  const gamesByDecade = getMostPopularGameDecade();
 
-games.forEach((game) => {
-  handleGenres(game);
-  handleEsrb(game);
-  handleGameMedia(game);
-  handleCib(game);
-  handleAcqusition(game);
-  purchasesByMonth(game);
-  handleIgdbRating(game);
-});
+  games.forEach((game) => {
+    handleGenres(game);
+    handleEsrb(game);
+    handleGameMedia(game);
+    handleCib(game);
+    handleAcqusition(game);
+    purchasesByMonth(game);
+    handleIgdbRating(game);
+  });
 
-platforms.forEach((platform) => {
-  handleConsoleByCompany(platform);
-  handleConsoleByGeneration(platform);
-});
+  platforms.forEach((platform) => {
+    handleConsoleByCompany(platform);
+    handleConsoleByGeneration(platform);
+  });
 
-const mostGamesInMonth = Object.keys(gamesBoughtByMonth)
-  .map((month) => {
-    return {
-      dateFormatted: month,
-      games: gamesBoughtByMonth[month]
-    };
-  })
-  .sort(sortByDateCounts);
+  const mostGamesInMonth = Object.keys(gamesBoughtByMonth)
+    .map((month) => {
+      return {
+        dateFormatted: month,
+        games: gamesBoughtByMonth[month]
+      };
+    })
+    .sort(sortByDateCounts);
 
-const gamesBoughtInYear = Object.keys(gamesBoughtByMonth).reduce((acc, obj) => {
-  const objSplit = obj.split('/');
-  const year = objSplit[1];
-  if (acc.hasOwnProperty(year)) {
-    acc[year] += gamesBoughtByMonth[obj];
-  } else {
-    acc[year] = gamesBoughtByMonth[obj];
-  }
-  return acc;
-}, {});
-
-const gamesInYearSorted = Object.keys(gamesBoughtInYear)
-  .map((year) => {
-    return {
-      dateFormatted: year,
-      games: gamesBoughtInYear[year]
-    };
-  })
-  .sort(sortByDateCounts);
-
-const genSorted = Object.keys(consolesByGeneration).sort((a, b) => parseInt(a) > parseInt(b));
-
-const consolesByGenSorted = {};
-genSorted.forEach((gen) => {
-  consolesByGenSorted[gen] = consolesByGeneration[gen];
-});
-
-const finalData = {
-  mostRecentlyAddedGames: mostRecentGameArr,
-  mostRecentlyAddedPlatforms: mostRecentConsoleArr,
-  mostPaidForGames: highestPricePaidGames,
-  mostPaidForPlatforms: highestPricePaidPlatforms,
-  gamePerConsoleCounts: conGamesCounts,
-  gamesPerEsrb: esrbCounts,
-  physicalVsDigitalGames: { ...gameMedia },
-  gamesAcquisition: howAcquiredGames,
-  cibGames,
-  gamesWithGenre: genres,
-  gamesAddedInMonth: mostGamesInMonth,
-  gamesAddedPerYear: gamesInYearSorted,
-  igdbRatingsBreakdown,
-  consolesByCompany,
-  consolesByGenerationSorted: consolesByGenSorted,
-  totalGames: gamesCount,
-  totalPlatforms: platformsCount,
-  totalAccessories: accessoriesCount,
-  totalCollectibles: collectiblesCount,
-  totalClones: clonesCount,
-  gamesByDecade
-};
-
-fs.writeFile(
-  path.join(__dirname, '../server/extra/collectionStats.json'),
-  JSON.stringify(finalData, null, 2),
-  (error) => {
-    if (error) {
-      console.log(chalk.red.bold('ERROR GENERATING STATS: ', error));
+  const gamesBoughtInYear = Object.keys(gamesBoughtByMonth).reduce((acc, obj) => {
+    const objSplit = obj.split('/');
+    const year = objSplit[1];
+    if (acc.hasOwnProperty(year)) {
+      acc[year] += gamesBoughtByMonth[obj];
     } else {
-      console.log(chalk.cyan('Stats successfully written!'));
+      acc[year] = gamesBoughtByMonth[obj];
     }
-  }
-);
+    return acc;
+  }, {});
+
+  const gamesInYearSorted = Object.keys(gamesBoughtInYear)
+    .map((year) => {
+      return {
+        dateFormatted: year,
+        games: gamesBoughtInYear[year]
+      };
+    })
+    .sort(sortByDateCounts);
+
+  const genSorted = Object.keys(consolesByGeneration).sort((a, b) => parseInt(a) > parseInt(b));
+
+  const consolesByGenSorted = {};
+  genSorted.forEach((gen) => {
+    consolesByGenSorted[gen] = consolesByGeneration[gen];
+  });
+
+  const finalData = {
+    mostRecentlyAddedGames: mostRecentGameArr,
+    mostRecentlyAddedPlatforms: mostRecentConsoleArr,
+    mostPaidForGames: highestPricePaidGames,
+    mostPaidForPlatforms: highestPricePaidPlatforms,
+    gamePerConsoleCounts: conGamesCounts,
+    gamesPerEsrb: esrbCounts,
+    physicalVsDigitalGames: { ...gameMedia },
+    gamesAcquisition: howAcquiredGames,
+    cibGames,
+    gamesWithGenre: genres,
+    gamesAddedInMonth: mostGamesInMonth,
+    gamesAddedPerYear: gamesInYearSorted,
+    igdbRatingsBreakdown,
+    consolesByCompany,
+    consolesByGenerationSorted: consolesByGenSorted,
+    totalGames: gamesCount,
+    totalPlatforms: platformsCount,
+    totalAccessories: accessoriesCount,
+    totalCollectibles: collectiblesCount,
+    totalClones: clonesCount,
+    gamesByDecade
+  };
+  console.log('sanity check');
+  return finalData;
+};

@@ -14,7 +14,7 @@ module.exports.combine = function () {
   return new Promise((resolve, reject) => {
     try {
       indexes = [];
-      const games = db.gamesExtra.find();
+      const games = db.games.find();
       const combined = games.reduce((acc, game, index) => {
         if (!game.id) {
           game.id = parseInt(`9999${index}`);

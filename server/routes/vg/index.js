@@ -25,11 +25,6 @@ router.post('/searchplatform', auth.insecureMW, vgCtrl.searchPlatforms);
 // export to file
 router.post('/exportcsv', exportCtrl.exportCsv);
 
-// Giant Bomb search
-// router.post('/searchgbplatform', gbCtrl.searchConsoles);
-// router.post('/searchgbgame', gbCtrl.searchGames);
-// router.post('/searchgenre', vgCtrl.getGenre);
-
 // Data Viz
 router.post('/dataviz', dataCtrl.dataVizData);
 

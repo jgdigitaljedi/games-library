@@ -3,7 +3,7 @@ const path = require('path');
 const chalk = require('chalk');
 const _cloneDeep = require('lodash/cloneDeep');
 
-const games = require('../../../../db/gamesExtra.json');
+const games = require('../../../../db/games.json');
 const platforms = require('../../../../db/consoles.json');
 const accessories = require('../../../../db/gameAcc.json');
 const collectibles = require('../../../../db/collectibles.json');
@@ -311,6 +311,5 @@ module.exports.getStats = () => {
     totalClones: clonesCount,
     gamesByDecade
   };
-  console.log('sanity check');
   return finalData;
 };

@@ -1,30 +1,31 @@
-const a2600 = require('./data/Atari2600.json');
-const a5200 = require('./data/Atari5200.json');
-const a7800 = require('./data/Atari7800.json');
-const xb360 = require('./data/MicrosoftXbox360.json');
-const xbOne = require('./data/MicrosoftXboxOne.json');
-const n64 = require('./data/Nintendo64.json');
-const nes = require('./data/NintendoEntertainmentSystem.json');
-const gc = require('./data/NintendoGameCube.json');
-const wiiU = require('./data/NintendoWiiU.json');
-const s32x = require('./data/Sega32X.json');
-const scd = require('./data/SegaCD.json');
-const sDc = require('./data/SegaDreamcast.json');
-const sGg = require('./data/SegaGameGear.json');
-const gen = require('./data/SegaGenesis.json');
-const sat = require('./data/SegaSaturn.json');
-const ps1 = require('./data/SonyPlaystation.json');
-const ps2 = require('./data/SonyPlaystation2.json');
-const psp = require('./data/SonyPlayStationPortable.json');
-const snes = require('./data/SuperNintendoEntertainmentSystem.json');
-const tg16 = require('./data/TurboGrafx16.json');
-const xbox = require('./data/MicrosoftXbox.json');
-const wii = require('./data/NintendoWii.json');
-const gb = require('./data/NintendoGameBoy.json');
-const ds = require('./data/NintendoDS.json');
-const gba = require('./data/NintendoGameBoyAdvance.json');
-const gbc = require('./data/NintendoGameBoyColor.json');
-const ps4 = require('./data/SonyPlayStation4.json');
+const a2600 = require('./consoleSpecificGameData/Atari2600.json');
+const a5200 = require('./consoleSpecificGameData/Atari5200.json');
+const a7800 = require('./consoleSpecificGameData/Atari7800.json');
+const xb360 = require('./consoleSpecificGameData/MicrosoftXbox360.json');
+const xbOne = require('./consoleSpecificGameData/MicrosoftXboxOne.json');
+const n64 = require('./consoleSpecificGameData/Nintendo64.json');
+const nes = require('./consoleSpecificGameData/NintendoEntertainmentSystem.json');
+const gc = require('./consoleSpecificGameData/NintendoGameCube.json');
+const wiiU = require('./consoleSpecificGameData/NintendoWiiU.json');
+const s32x = require('./consoleSpecificGameData/Sega32X.json');
+const scd = require('./consoleSpecificGameData/SegaCD.json');
+const sDc = require('./consoleSpecificGameData/SegaDreamcast.json');
+const sGg = require('./consoleSpecificGameData/SegaGameGear.json');
+const gen = require('./consoleSpecificGameData/SegaGenesis.json');
+const sat = require('./consoleSpecificGameData/SegaSaturn.json');
+const ps1 = require('./consoleSpecificGameData/SonyPlaystation.json');
+const ps2 = require('./consoleSpecificGameData/SonyPlaystation2.json');
+const psp = require('./consoleSpecificGameData/SonyPlayStationPortable.json');
+const snes = require('./consoleSpecificGameData/SuperNintendoEntertainmentSystem.json');
+const tg16 = require('./consoleSpecificGameData/TurboGrafx16.json');
+const xbox = require('./consoleSpecificGameData/MicrosoftXbox.json');
+const wii = require('./consoleSpecificGameData/NintendoWii.json');
+const gb = require('./consoleSpecificGameData/NintendoGameBoy.json');
+const ds = require('./consoleSpecificGameData/NintendoDS.json');
+const gba = require('./consoleSpecificGameData/NintendoGameBoyAdvance.json');
+const gbc = require('./consoleSpecificGameData/NintendoGameBoyColor.json');
+const ps4 = require('./consoleSpecificGameData/SonyPlayStation4.json');
+const sms = require('./consoleSpecificGameData/SegaMasterSystem.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -58,7 +59,8 @@ const igdbIdToFile = {
   '59': a2600,
   '6': null, //pc
   '66': a5200,
-  '60': a7800
+  '60': a7800,
+  '64': sms
 };
 
 module.exports.getFileRef = id => {

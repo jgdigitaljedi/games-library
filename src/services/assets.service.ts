@@ -1,4 +1,4 @@
-import Axios from "axios";
+import Axios from 'axios';
 
 export default {
   platformLogos: {
@@ -32,6 +32,7 @@ export default {
     'Sega 32X': 'logos/Sega_32X_logo.svg',
     'Sega CD': 'logos/Sega_CD_Logo.svg',
     'Sega Game Gear': 'logos/Game_Gear_logo_Sega.png',
+    'Sega Master System': 'logos/Master_System_Logo.svg',
     'Sega Mega Drive/Genesis': 'logos/GenesisLogo.png',
     'Sega Saturn': 'logos/SEGA_Saturn_logo.png',
     'Sony PlayStation 2': 'logos/PlayStation_2_logo.svg',

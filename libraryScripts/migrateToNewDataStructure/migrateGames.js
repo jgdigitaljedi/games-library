@@ -1,4 +1,4 @@
-const games = require('../../server/db/gamesExtra.json');
+const games = require('../../server/db/games.json');
 const axios = require('axios');
 const moment = require('moment');
 const fs = require('fs');

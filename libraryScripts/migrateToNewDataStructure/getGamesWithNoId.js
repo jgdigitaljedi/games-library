@@ -3,7 +3,7 @@ const path = require('path');
 const chalk = require('chalk');
 
 (() => {
-  fs.readFile(path.join(__dirname, '../../server/db/gamesExtra.json'), (error, data) => {
+  fs.readFile(path.join(__dirname, '../../server/db/games.json'), (error, data) => {
     if (error) {
       console.log(chalk.red('ERROR READING IN GAMES'));
     } else {

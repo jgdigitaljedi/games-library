@@ -14,8 +14,7 @@ db.connect(dbPath, [
   'wlCollectibles',
   'wlGames',
   'wlHardware',
-  'wlConsoles',
-  'gamesExtra'
+  'wlConsoles'
 ]);
 
 module.exports = db;

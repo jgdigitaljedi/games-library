@@ -13,9 +13,8 @@
     "everdrive": "node scripts/fixEverdrives.js",
     "migrateGames": "node libraryScripts/migrateToNewDataStructure/migrateGames.js",
     "process:newGames": "node libraryScripts/addNewWhileUnderConstruction/addNew.js",
-    "copyGames:windows": "./libraryScripts/copyGamesFromOtherProject.sh",
-    "copyGames:mac": "./libraryScripts/copyFromOsx.sh",
-    "copyGames:linux": "./libraryScripts/copyFromLinux.sh"
+    "copyData:windows": "./libraryScripts/copyGamesFromOtherProject.sh",
+    "copyData:nix": "./libraryScripts/copyFromLinux.sh"
   },
   "dependencies": {
     "@babel/core": "^7.12.3",

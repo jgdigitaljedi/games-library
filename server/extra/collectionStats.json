@@ -2,229 +2,222 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
-        "name": "Flashback",
-        "id": 19833,
+        "name": "Giana Sisters: Twisted Dreams",
+        "id": 3098,
         "genres": [
           "Platform",
+          "Puzzle",
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 75,
+        "total_rating_count": 28,
+        "first_release_date": "10/22/2012",
+        "developers": "",
+        "esrb": "E"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-39484",
+        "gbid": 39484,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2478661-box_gstd.png",
+        "deck": "The third entry in the Super Mario Bros inspired platformer series.",
+        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC, Wii U, Xbox One, PlayStation 4, Fuze Tomahawk F1"
+      },
+      "consoleName": "Wii U",
+      "consoleIgdbId": 41,
+      "consoleGbid": 139,
+      "consoleGbGuid": "3045-139",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-12-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
+      "createdAt": "12/09/2020 06:45 am",
+      "updatedAt": "12/09/2020 06:45 am",
+      "_id": "f1938e2c6722418da0cc1d3c95467116",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2478661-box_gstd.png",
+      "description": "The third entry in the Super Mario Bros inspired platformer series.",
+      "name": "Giana Sisters: Twisted Dreams",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Super Black Bass 3D",
+        "id": 21023,
+        "genres": [],
+        "total_rating": "",
+        "total_rating_count": "",
+        "first_release_date": "02/14/2013",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-41855",
+        "gbid": 41855,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2459225-bass.png",
+        "deck": "The Black Bass is back, now in 3D. Fish in exotic locales, compete in competitions and catch over 30 different types of fish.",
+        "platforms": "Nintendo 3DS"
+      },
+      "consoleName": "Nintendo 3DS",
+      "consoleIgdbId": 37,
+      "consoleGbid": 117,
+      "consoleGbGuid": "3045-117",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
+      "createdAt": "12/09/2020 06:47 am",
+      "updatedAt": "12/09/2020 06:47 am",
+      "_id": "91bf84bc87c346028f44ada68ae34616",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2459225-bass.png",
+      "description": "The Black Bass is back, now in 3D. Fish in exotic locales, compete in competitions and catch over 30 different types of fish.",
+      "name": "Super Black Bass 3D",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Fist of the North Star: Ken's Rage 2",
+        "id": 5313,
+        "genres": [
+          "Fighting",
+          "Hack and slash/Beat 'em up"
+        ],
+        "total_rating": 65,
+        "total_rating_count": 8,
+        "first_release_date": "12/19/2012",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Shin Hokuto Musou",
+        "guid": "3030-38563",
+        "gbid": 38563,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2417188-box_fotnskr2.png",
+        "deck": "The fast-paced Musou-style legend of the post-apocalyptic savior Kenshiro returns to celebrate the 30th anniversary of the original manga its based on.",
+        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), Wii U"
+      },
+      "consoleName": "Xbox 360",
+      "consoleIgdbId": 12,
+      "consoleGbid": 20,
+      "consoleGbGuid": "3045-20",
+      "condition": "Good",
+      "case": "custom",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": "",
+      "multiplayerNumber": "2",
+      "datePurchased": "2020-12-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so $45 / 5 = $9",
+      "createdAt": "12/09/2020 06:44 am",
+      "updatedAt": "12/09/2020 06:44 am",
+      "_id": "4d94e33c514a4364987e486ad24f4414",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2417188-box_fotnskr2.png",
+      "description": "The fast-paced Musou-style legend of the post-apocalyptic savior Kenshiro returns to celebrate the 30th anniversary of the original manga its based on.",
+      "name": "Fist of the North Star: Ken's Rage 2",
+      "miltiplayerNumber": 2,
+      "extraData": [],
+      "extraDataFull": []
+    },
+    {
+      "igdb": {
+        "name": "Sorcery",
+        "id": 20114,
+        "genres": [
+          "Puzzle",
           "Role-playing (RPG)",
           "Adventure"
         ],
-        "total_rating": 67,
-        "total_rating_count": 11,
-        "first_release_date": "08/20/2013",
+        "total_rating": 76,
+        "total_rating_count": 6,
+        "first_release_date": "05/21/2012",
         "developers": "",
-        "esrb": "T"
+        "esrb": "E10+"
       },
       "gb": {
-        "aliases": "Flashback HD",
-        "guid": "3030-42895",
-        "gbid": 42895,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23546/2533748-fb.jpg",
-        "deck": "An HD update and reimagining of the classic 1993 challenging platform adventure title Flashback.",
-        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC"
+        "aliases": "",
+        "guid": "3030-31749",
+        "gbid": 31749,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2222552-box_sorcery.png",
+        "deck": "Play a sorcerer's apprentice in this Playstation Move exclusive, Sorcery turns the Move into a real magic wand and has you performing various motions to cast spells.",
+        "platforms": "PlayStation 3, PlayStation Network (PS3)"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": true,
       "multiplayerNumber": "1",
-      "datePurchased": "2020-11-27",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "12/01/2020 05:59 am",
-      "updatedAt": "12/01/2020 05:59 am",
-      "_id": "ca1be62e63134eec85c0e175fbb9adf1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23546/2533748-fb.jpg",
-      "description": "An HD update and reimagining of the classic 1993 challenging platform adventure title Flashback.",
-      "name": "Flashback",
+      "datePurchased": "2020-12-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
+      "createdAt": "12/09/2020 06:46 am",
+      "updatedAt": "12/09/2020 06:46 am",
+      "_id": "a80e59e847a5483aa781dbc63a0fdb92",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2222552-box_sorcery.png",
+      "description": "Play a sorcerer's apprentice in this Playstation Move exclusive, Sorcery turns the Move into a real magic wand and has you performing various motions to cast spells.",
+      "name": "Sorcery",
       "miltiplayerNumber": 1
     },
     {
       "igdb": {
-        "name": "Star Wars: Shadows of the Empire",
-        "id": 164,
+        "name": "High Velocity Bowling",
+        "id": 21816,
         "genres": [
-          "Shooter",
-          "Adventure"
+          "Simulator",
+          "Sport"
         ],
-        "total_rating": 67,
-        "total_rating_count": 37,
-        "first_release_date": "12/02/1996",
+        "total_rating": 75,
+        "total_rating_count": 2,
+        "first_release_date": "12/06/2007",
         "developers": "",
-        "esrb": "T"
+        "esrb": "E10+"
       },
       "gb": {
-        "aliases": "SW: SOTE",
-        "guid": "3030-12139",
-        "gbid": 12139,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/118/610322-star_wars___shadows_of_the_empire_coverart.png",
-        "deck": "One of the earliest Nintendo 64 action games puts players into the role of mercenary Dash Rendar in this hybrid third-person shooter and flight combat game based on the Star Wars expanded universe project of the same name.",
-        "platforms": "Nintendo 64, PC"
+        "aliases": "HVB",
+        "guid": "3030-20605",
+        "gbid": 20605,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4759/196552-highvelocitybowling_logo_black.jpg",
+        "deck": "High Velocity Bowling is a PS3 game that utilizes the motion sensing capabilities of the SIXAXIS and DualShock 3.",
+        "platforms": "PlayStation 3, PlayStation Network (PS3)"
       },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2.09",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-27",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "11/28/2020 07:42 am",
-      "updatedAt": "11/28/2020 07:42 am",
-      "_id": "a7df34c4d11c4413b80d958f8e53de3f",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/118/610322-star_wars___shadows_of_the_empire_coverart.png",
-      "description": "One of the earliest Nintendo 64 action games puts players into the role of mercenary Dash Rendar in this hybrid third-person shooter and flight combat game based on the Star Wars expanded universe project of the same name.",
-      "name": "Star Wars: Shadows of the Empire",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Fallout 4",
-        "id": 9630,
-        "genres": [
-          "Shooter",
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 82,
-        "total_rating_count": 958,
-        "first_release_date": "11/09/2015",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Fallout 4 VR",
-        "guid": "3030-49833",
-        "gbid": 49833,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2795700-2356006370-64616.jpg",
-        "deck": "The Fallout series continues in a post-apocalyptic Boston, Massachusetts.",
-        "platforms": "PC, Xbox One, PlayStation 4"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "8.99",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-27",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "11/28/2020 07:41 am",
-      "updatedAt": "11/28/2020 07:41 am",
-      "_id": "53d1ab25b32343be8fabaecd65657ee1",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2795700-2356006370-64616.jpg",
-      "description": "The Fallout series continues in a post-apocalyptic Boston, Massachusetts.",
-      "name": "Fallout 4",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Return to Castle Wolfenstein",
-        "id": 281,
-        "genres": [
-          "Shooter"
-        ],
-        "total_rating": 74,
-        "total_rating_count": 270,
-        "first_release_date": "11/18/2001",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "RtCW",
-        "guid": "3030-19181",
-        "gbid": 19181,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2287889-rtcw.png",
-        "deck": "B.J. Blazkowicz returns to fight elite Nazi troopers, supernatural creatures, and mechanized super soldiers in this reboot of the original 1991 classic Wolfenstein 3D.",
-        "platforms": "Mac, PlayStation 2, Xbox, PC"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "2",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-27",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "11/28/2020 07:32 am",
-      "updatedAt": "11/28/2020 07:32 am",
-      "_id": "aea488f8a93749ea933d25c5d785373d",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2287889-rtcw.png",
-      "description": "B.J. Blazkowicz returns to fight elite Nazi troopers, supernatural creatures, and mechanized super soldiers in this reboot of the original 1991 classic Wolfenstein 3D.",
-      "name": "Return to Castle Wolfenstein",
-      "miltiplayerNumber": 1,
-      "extraData": [
-        "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
-      ],
-      "extraDataFull": [
-        {
-          "name": "Return to Castle Wolfenstein",
-          "details": [
-            "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
-          ],
-          "id": "bi105",
-          "igdbId": 281,
-          "gbId": 19181,
-          "gbGuid": "3030-19181",
-          "tgdbId": 782
-        }
-      ]
-    },
-    {
-      "igdb": {
-        "name": "Metro: Last Light Redux",
-        "id": 50199,
-        "genres": [
-          "Shooter",
-          "Role-playing (RPG)"
-        ],
-        "total_rating": 79,
-        "total_rating_count": 69,
-        "first_release_date": "08/25/2014",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Metro 2034",
-        "guid": "3030-35485",
-        "gbid": 35485,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2213657-metroart.jpg",
-        "deck": "The sequel to the underground hit Metro 2033. Set in Moscow in the year 2034, the player will be caught between warring factions vying for a doomsday device.",
-        "platforms": "Mac, Xbox 360, PlayStation 3, PlayStation Network (PS3), PC, PlayStation 4, Linux"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": "3",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-11-27",
-      "howAcquired": "GOG",
-      "notes": "",
-      "createdAt": "11/28/2020 07:32 am",
-      "updatedAt": "11/28/2020 07:32 am",
-      "_id": "8d52985094de4fc58cd454b49e898d9b",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2213657-metroart.jpg",
-      "description": "The sequel to the underground hit Metro 2033. Set in Moscow in the year 2034, the player will be caught between warring factions vying for a doomsday device.",
-      "name": "Metro: Last Light Redux",
-      "miltiplayerNumber": 1
+      "consoleName": "PlayStation 3",
+      "consoleIgdbId": 9,
+      "consoleGbid": 35,
+      "consoleGbGuid": "3045-35",
+      "condition": "Excellent",
+      "case": "original",
+      "pricePaid": "9",
+      "physical": true,
+      "cib": true,
+      "multiplayerNumber": "4",
+      "datePurchased": "2020-12-08",
+      "howAcquired": "Video Games Monthly",
+      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
+      "createdAt": "12/09/2020 06:46 am",
+      "updatedAt": "12/09/2020 06:46 am",
+      "_id": "15271a70e6a44f828fe33817a8e1f1b6",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4759/196552-highvelocitybowling_logo_black.jpg",
+      "description": "High Velocity Bowling is a PS3 game that utilizes the motion sensing capabilities of the SIXAXIS and DualShock 3.",
+      "name": "High Velocity Bowling",
+      "miltiplayerNumber": 4
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -793,10 +786,11 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 310,
-    "Wii U": 18,
-    "Nintendo 3DS": 15,
-    "PlayStation 3": 44,
+    "Wii U": 19,
+    "Nintendo 3DS": 16,
+    "Xbox 360": 60,
+    "PlayStation 3": 46,
+    "PC (Microsoft Windows)": 312,
     "Nintendo DS": 19,
     "Atari 5200": 6,
     "Atari 7800": 6,
@@ -808,7 +802,6 @@
     "Nintendo 64": 32,
     "PlayStation 4": 89,
     "Game Boy Advance": 16,
-    "Xbox 360": 59,
     "Super Nintendo Entertainment System (SNES)": 18,
     "PlayStation 2": 57,
     "PlayStation": 21,
@@ -827,23 +820,23 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "E": 238,
+    "NOT RATED": 275,
+    "M": 275,
+    "E10+": 90,
     "T": 200,
-    "M": 274,
-    "E": 237,
-    "NOT RATED": 272,
-    "E10+": 88,
     "RP": 14,
     "KA": 1
   },
   "physicalVsDigitalGames": {
-    "physical": 662,
-    "digital": 424
+    "physical": 667,
+    "digital": 426
   },
   "gamesAcquisition": {
+    "Video Games Monthly": 66,
+    "Steam": 162,
+    "Green Man Gaming": 4,
     "GOG": 29,
-    "Steam": 161,
-    "Green Man Gaming": 3,
-    "Video Games Monthly": 61,
     "Epic Games Store": 25,
     "UNKNOWN": 133,
     "GameOver": 246,
@@ -882,34 +875,34 @@
     "gift from Dee": 1,
     "retro store in WF": 4
   },
-  "cibGames": 280,
+  "cibGames": 284,
   "gamesWithGenre": {
-    "platform": 192,
-    "role-playing (rpg)": 157,
-    "adventure": 383,
+    "platform": 193,
+    "puzzle": 113,
+    "adventure": 385,
+    "indie": 145,
+    "fighting": 69,
+    "hack and slash/beat 'em up": 67,
+    "role-playing (rpg)": 158,
+    "simulator": 113,
+    "sport": 146,
+    "golf": 16,
     "shooter": 381,
-    "sport": 144,
-    "indie": 142,
-    "simulator": 111,
     "strategy": 121,
     "arcade": 105,
     "turn-based strategy (tbs)": 25,
     "fps": 176,
-    "puzzle": 110,
     "quiz/trivia": 11,
     "music": 29,
     "rythym": 1,
     "shmup": 10,
     "pinball": 5,
-    "golf": 15,
     "basketball": 6,
     "real time strategy (rts)": 12,
     "racing": 114,
     "soccer": 5,
     "vehicular combat": 5,
-    "fighting": 68,
     "boxing": 3,
-    "hack and slash/beat 'em up": 66,
     "football": 8,
     "skateboarding": 14,
     "tactical": 28,
@@ -1044,6 +1037,10 @@
       "games": 9
     },
     {
+      "dateFormatted": "12/2020",
+      "games": 7
+    },
+    {
       "dateFormatted": "11/2018",
       "games": 7
     },
@@ -1087,7 +1084,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 347
+      "games": 354
     },
     {
       "dateFormatted": "2019",
@@ -1113,11 +1110,11 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 673
+      "value": 678
     },
     {
       "category": "Fair (50 - 69)",
-      "value": 195
+      "value": 196
     },
     {
       "category": "Poor (30 - 49)",
@@ -1125,7 +1122,7 @@
     },
     {
       "category": "Terrible (< 30)",
-      "value": 134
+      "value": 135
     }
   ],
   "consolesByCompany": {
@@ -1148,7 +1145,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1086,
+  "totalGames": 1093,
   "totalPlatforms": 36,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1157,8 +1154,8 @@
     "1970": 9,
     "1980": 81,
     "1990": 204,
-    "2000": 333,
-    "2010": 423,
+    "2000": 334,
+    "2010": 428,
     "2020": 19
   }
 }

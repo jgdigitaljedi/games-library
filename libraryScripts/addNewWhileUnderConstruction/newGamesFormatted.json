@@ -46,10 +46,14 @@
     "updatedAt": "12/09/2020 06:43 am",
     "_id": "25b671f408374226b99c640b5a52dba5",
     "name": "Superliminal",
+    "extraData": [],
+    "extraDataFull": [],
     "genres": [
       "Puzzle",
       "Indie"
-    ]
+    ],
+    "location": "upstairs",
+    "handheld": false
   },
   {
     "id": 5313,
@@ -90,10 +94,14 @@
     "updatedAt": "12/09/2020 06:44 am",
     "_id": "4d94e33c514a4364987e486ad24f4414",
     "name": "Fist of the North Star: Ken's Rage 2",
+    "extraData": [],
+    "extraDataFull": [],
     "genres": [
       "Fighting",
       "Hack and slash/Beat 'em up"
-    ]
+    ],
+    "location": "downstairs",
+    "handheld": false
   },
   {
     "id": 3098,
@@ -139,12 +147,16 @@
     "updatedAt": "12/09/2020 06:45 am",
     "_id": "f1938e2c6722418da0cc1d3c95467116",
     "name": "Giana Sisters: Twisted Dreams",
+    "extraData": [],
+    "extraDataFull": [],
     "genres": [
       "Platform",
       "Puzzle",
       "Adventure",
       "Indie"
-    ]
+    ],
+    "location": "downstairs",
+    "handheld": false
   },
   {
     "id": 21816,
@@ -185,10 +197,14 @@
     "updatedAt": "12/09/2020 06:46 am",
     "_id": "15271a70e6a44f828fe33817a8e1f1b6",
     "name": "High Velocity Bowling",
+    "extraData": [],
+    "extraDataFull": [],
     "genres": [
       "Simulator",
       "Sport"
-    ]
+    ],
+    "location": "downstairs",
+    "handheld": false
   },
   {
     "id": 20114,
@@ -233,11 +249,15 @@
     "updatedAt": "12/09/2020 06:46 am",
     "_id": "a80e59e847a5483aa781dbc63a0fdb92",
     "name": "Sorcery",
+    "extraData": [],
+    "extraDataFull": [],
     "genres": [
       "Puzzle",
       "Role-playing (RPG)",
       "Adventure"
-    ]
+    ],
+    "location": "downstairs",
+    "handheld": false
   },
   {
     "id": 21023,
@@ -278,7 +298,11 @@
     "updatedAt": "12/09/2020 06:47 am",
     "_id": "91bf84bc87c346028f44ada68ae34616",
     "name": "Super Black Bass 3D",
-    "genres": []
+    "extraData": [],
+    "extraDataFull": [],
+    "genres": [],
+    "location": "both",
+    "handheld": true
   },
   {
     "id": 126509,
@@ -319,11 +343,15 @@
     "updatedAt": "12/09/2020 06:51 am",
     "_id": "767377bac650407695cf733cbbaa0ebb",
     "name": "Golf Around!",
+    "extraData": [],
+    "extraDataFull": [],
     "genres": [
       "Simulator",
       "Sport",
       "Indie",
       "Golf"
-    ]
+    ],
+    "location": "upstairs",
+    "handheld": false
   }
 ]

@@ -1,12 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
-const helper = require('../../server/routes/vg/vgHelpers');
 const axios = require('axios');
 const moment = require('moment');
 const whitespace = require('stringman').whitespace;
+const _cloneDeep = require('lodash/cloneDeep');
 
 const games = require('./newGames.json');
+const fileLookup = require('./fileLookup').getFileRef;
+const ps1ToPs2 = require('../other/ps1ToPs2Bc.json');
+const banned = require('../other/bannedInternationally.json');
+const getLocation = require('./consoleLocation').getLocation;
+const handhelds = require('./handhelds').isHandheld;
 
 const twitchClientId = process.env.TWITCH_CLIENT_ID;
 const twitchSecretToken = process.env.TWITCH_SECRET_TOKEN;
@@ -93,6 +98,65 @@ const getMultiplayerModes = (modes) => {
   return { combined, max };
 };
 
+const getExtraData = (gameData) => {
+  const game = _cloneDeep(gameData);
+  game.extraData = [];
+  game.extraDataFull = [];
+  const file = fileLookup(game.consoleId);
+
+  if (file) {
+    const ids = file.map(f => f.igdbId);
+    if (game && game.id) {
+      const index = ids.indexOf(game.id);
+      if (game.extraData && index > -1) {
+        game.extraDataFull = [...game.extraDataFull, file[index]];
+        game.extraData = [...game.extraData, ...file[index].details];
+      } else {
+        if (file[index]) {
+          game.extraData = file[index].details;
+          game.extraDataFull = [file[index]];
+        } else {
+          game.extraData = [];
+          game.extraDataFull = [];
+        }
+      }
+    } else {
+      game.extraData = [];
+      game.extraDataFull = [];
+    }
+  }
+
+  const psIds = ps1ToPs2.map(p => p.igdbId);
+  const bannedIds = banned.map(b => b.igdbId);
+
+  // check if PS1 game by igdbId of 7
+  if (game.consoleId === 7 && psIds.indexOf(game.id) >= 0) {
+    const ind = psIds.indexOf(game.id);
+    if (game.extraData && game.extraData.length) {
+      game.extraData = [...game.extraData, ...ps1ToPs2[ind].details];
+      game.extraDataFull = [...game.extraDataFull, ...ps1ToPs2[ind]];
+    } else {
+      game.extraData = ps1ToPs2[ind].details;
+      game.extraDataFull = [ps1ToPs2[ind]];
+    }
+  }
+
+  // now check banned internationally file as it isn't console specific
+  const bannedInd = bannedIds.indexOf(game.id);
+  if (bannedInd >= 0) {
+    if (game.extraData && game.extraData.length) {
+      game.extraData = [...game.extraData, ...banned[bannedInd].details];
+      game.extraDataFull = [...game.extraDataFull, banned[bannedInd]];
+    } else {
+      game.extraData = banned[bannedInd].details;
+      game.extraDataFull = [banned[bannedInd]];
+    }
+  }
+  game.location = getLocation(game.consoleId);
+  game.handheld = handhelds(game.consoleId, game.consoleName);
+  return game;
+}
+
 async function getNewGameData(game) {
   return new Promise((resolve, reject) => {
     if (game.igdb && game.igdb.id && game.igdb.id !== 9999 && game.igdb.id !== 99999) {
@@ -158,7 +222,9 @@ async function getNewGameData(game) {
             };
             const oldData = getUserData(game);
             const newGameData = { ...formatted, ...oldData };
-            resolve(newGameData);
+            const withExtraData = getExtraData(newGameData);
+
+            resolve(withExtraData);
           } else {
             reject({ game, result });
           }

@@ -5,6 +5,9 @@ const _cloneDeep = require('lodash/cloneDeep');
 const axios = require('axios');
 const logger = require('../../config/logger');
 const consolesCrud = require('./vgCrud/consolesCrud.controller');
+const getLocation = require('./gamesHelpers/consoleLocation').getLocation;
+const isHandheld = require('./gamesHelpers/handhelds').isHandheld;
+const getExtraData = require('./gamesHelpers/extraGameData').getExtraData;
 
 let client;
 let appKey;
@@ -21,6 +24,8 @@ const esrbData = {
   11: 'M',
   12: 'AO'
 };
+
+const pcId = 6;
 
 async function getAppAccessToken() {
   return axios.post(
@@ -71,6 +76,27 @@ function getConsoleName(id) {
   } else {
     return null;
   }
+}
+
+function getDefaults(game) {
+  game.manual = false;
+  game.pricePaid = 0;
+  game.cib = false;
+  game.compilation = false;
+  game.compilationGamesIds = [];
+  game.gamesService = {
+    xbGold: false,
+    xbPass: false,
+    psPlus: false,
+    primeFree: false
+  };
+  game.physical = game.consoleId !== pcId;
+  game.case = game.consoleId === pcId ? 'none' : 'original';
+  game.condition = game.consoleId === pcId ? 'Other' : 'Good';
+  game.location = getLocation(game.consoleId);
+  game.handheld = isHandheld(game.consoleId, game.consoleName);
+  const withExtraData = getExtraData(game);
+  return withExtraData;
 }
 
 module.exports.checkKey = function (req, res) {
@@ -125,11 +151,14 @@ module.exports.searchPlatforms = async function (req, res) {
 };
 
 module.exports.searchGame = async function (req, res) {
+  console.log('search game');
   const fields = `age_ratings.rating,total_rating,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
     client = await refreshAppKey();
   }
   if (req.body && req.body.game && req.body.platform) {
+    console.log('game', req.body.game);
+    console.log('platform', req.body.platform);
     let request;
     if (req.body.fuzzy || req.body.platform === 99999) {
       request = client.fields(fields).search(req.body.game).request('/games');
@@ -144,13 +173,6 @@ module.exports.searchGame = async function (req, res) {
     request
       .then((result) => {
         if (result.status === 200) {
-          console.log(
-            `twitch stuff: clientId is ${twitchClientId} and appKey is ${JSON.stringify(
-              appKey,
-              null,
-              2
-            )}`
-          );
           const rCopy = _cloneDeep(result.data);
           const cleaned = rCopy.map((item) => {
             const game = {};
@@ -211,7 +233,9 @@ module.exports.searchGame = async function (req, res) {
             game.consoleName = getConsoleName(req.body.platform);
             game.name = item.name;
             game.id = item.id;
-            return game;
+            const defaultedOut = getDefaults(game);
+            console.log('defaulted', defaultedOut);
+            return defaultedOut;
           });
           res.status(200).json(cleaned);
         }
@@ -221,6 +245,14 @@ module.exports.searchGame = async function (req, res) {
         logger.logThis(error, req);
         res.status(500).json(error);
       });
+  } else {
+    if (req.body && !req.body.game) {
+      res.status(400).json({error: true, message: 'BAD REQUEST. MISSING GAME TITLE TO SEARCH.'});
+    } else if (req.body && !req.body.platform) {
+      res.status(400).json({error: true, message: 'BAD REQUEST. MISSING PLATFORM TO SEARCH.'});
+    } else {
+      req.status(400).json({error: true, message: 'BAD REQUEST.'});
+    }
   }
 };
 

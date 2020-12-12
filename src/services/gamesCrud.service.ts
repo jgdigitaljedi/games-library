@@ -55,6 +55,7 @@ export const igdbGameSearch = async (
       platform,
       fuzzy
     };
+    console.log('request body in client', body);
     const request = await Axios.post(params.url, body, params.headers);
     return request;
   } else {

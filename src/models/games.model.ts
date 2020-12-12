@@ -6,6 +6,13 @@ export interface IMultiplayerModes {
   splitscreen: boolean;
 }
 
+export interface IGamesService {
+  xbPass: boolean;
+  xbGold: boolean;
+  psPlus: boolean;
+  primeFree: boolean;
+}
+
 export interface IGame {
   id: number;
   total_rating: number;
@@ -43,6 +50,7 @@ export interface IGame {
   player_perspectives: string[];
   handheld?: boolean;
   manual?: boolean;
+  gamesService: IGamesService;
 }
 
 export interface IGbGame {

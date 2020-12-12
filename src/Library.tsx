@@ -35,6 +35,7 @@ interface MapStateProps {
   masterData: object[];
   filteredData: object[];
   platformsArr: IDropdown[];
+  userState: boolean;
 }
 
 interface MapDispatchProps {
@@ -55,6 +56,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [view, setView] = useState<any>('');
   const [showModal, setShowModal] = useState<boolean>(false);
   const [selectedItem, setSelectedItem] = useState<any>(null);
+  const isLoggedIn = useSelector((state: any) => state.userState);
 
   if (view !== viewWhat) {
     setView(viewWhat);
@@ -172,7 +174,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           console.error('ERROR FETCHING PLATFORMS ARR', error);
         });
     }
-  }, [props, platformsArr, setNotify]);
+  }, [props, platformsArr, setNotify, isLoggedIn]);
 
   return (
     <div className="library">
@@ -187,7 +189,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
               : null
           }
           options={viewChoices}
-        ></SelectButton>
+        />
       </div>
       <div className="filter-add">
         <div className="items-count">
@@ -199,9 +201,10 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           label={`Add ${getSingular()}`}
           className="p-button-raised p-button-rounded"
           onClick={addSomething}
+          disabled={!isLoggedIn}
         />
       </div>
-      <DatTable data={filteredData} rowClicked={rowClicked}></DatTable>
+      <DatTable data={filteredData} rowClicked={rowClicked}/>
       <Dialog
         visible={showModal}
         header={selectedItem?.name}
@@ -221,6 +224,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
                 label={`Remove ${selectedItem?.name} from collection`}
                 icon="pi pi-trash"
                 className="p-button-danger"
+                disabled={!isLoggedIn}
               />
             )}
         </div>
@@ -241,18 +245,21 @@ const mapStateToProps = ({
   viewWhat,
   masterData,
   filteredData,
-  platformsArr
+  platformsArr,
+    userState
 }: {
   viewWhat: string;
   masterData: object[];
   filteredData: object[];
   platformsArr: IDropdown[];
+  userState: boolean;
 }): MapStateProps => {
   return {
     viewWhat,
     masterData,
     filteredData,
-    platformsArr
+    platformsArr,
+    userState
   };
 };
 

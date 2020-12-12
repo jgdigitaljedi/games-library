@@ -7,12 +7,26 @@ import { Dialog } from 'primereact/dialog';
 import LoginDialog from '../LoginDialog/LoginDialog';
 import { ILoginResult } from '../../models/crud.model';
 import { NotificationContext } from '../../context/NotificationContext';
+import {Dispatch} from 'redux';
+import {connect, useSelector} from 'react-redux';
+import changeUserState from '../../actionCreators/userState';
 
-const Navbar: FunctionComponent = () => {
+interface MapStateProps {
+  userState: boolean
+}
+
+interface MapDispatchProps {
+  setUserState: (state: boolean) => void;
+}
+
+interface IProps extends MapDispatchProps, MapStateProps {}
+
+const Navbar: FunctionComponent<IProps> = (props: IProps) => {
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const [authKey, setAuthKey] = useState<string | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
+  const loggedIn = useSelector((state: any) => state.userState);
 
   const openLoginDialog = () => {
     setShowModal(true);
@@ -20,9 +34,9 @@ const Navbar: FunctionComponent = () => {
 
   const authKeyChange = (result: ILoginResult) => {
     const key = result.data.key;
-    console.log('result', result);
     if (result.data.error) {
       localStorage.removeItem(AUTH_KEY_LOCAL_STORAGE);
+      props.setUserState(false);
       setAuthKey(null);
       setNotify({
         severity: 'error',
@@ -32,6 +46,7 @@ const Navbar: FunctionComponent = () => {
       // @TODO: notification of error
     } else {
       localStorage.setItem(AUTH_KEY_LOCAL_STORAGE, key);
+      props.setUserState(true);
       setAuthKey(key);
       // @TODO: notification of success
       setNotify({
@@ -47,13 +62,17 @@ const Navbar: FunctionComponent = () => {
     if (authKey) {
       setAuthKey(null);
       localStorage.removeItem(AUTH_KEY_LOCAL_STORAGE);
+      props.setUserState(false);
     } else {
+      props.setUserState(true);
       openLoginDialog();
     }
   };
 
   useEffect(() => {
-    setAuthKey(localStorage.getItem(AUTH_KEY_LOCAL_STORAGE));
+    const localKey = localStorage.getItem(AUTH_KEY_LOCAL_STORAGE);
+    setAuthKey(localKey);
+    props.setUserState(!!localKey);
     setTimeout(() => {
       const pnSplit = window.location.pathname.split('/');
       const path = pnSplit[pnSplit.length - 1];
@@ -63,7 +82,7 @@ const Navbar: FunctionComponent = () => {
         setActive(path);
       }
     });
-  }, [setAuthKey]);
+  }, [setAuthKey, props.setUserState]);
 
   const [active, setActive] = useState<string>('');
   let menuEle: any;
@@ -123,8 +142,8 @@ const Navbar: FunctionComponent = () => {
       }
     },
     {
-      label: authKey ? 'Logout' : 'Login',
-      icon: authKey ? 'pi pi-lock' : 'pi pi-lock-open',
+      label: loggedIn ? 'Logout' : 'Login',
+      icon: loggedIn ? 'pi pi-lock' : 'pi pi-lock-open',
       command: loginInOut
     }
   ];
@@ -198,7 +217,7 @@ const Navbar: FunctionComponent = () => {
             // @ts-ignore
             menuEle.toggle(e);
           }}
-        ></i>
+        />
         <Menu
           className="mobile-nav--menu"
           popup={true}
@@ -221,4 +240,16 @@ const Navbar: FunctionComponent = () => {
   );
 };
 
-export default Navbar;
+const mapStateToProps = ({userState}: {
+  userState: boolean;
+}): MapStateProps => {
+  return {
+    userState
+  };
+};
+
+const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
+  setUserState: (state: boolean) => dispatch(changeUserState(state)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Navbar);

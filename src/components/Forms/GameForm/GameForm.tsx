@@ -14,11 +14,22 @@ import { igdbGameSearch } from '../../../services/gamesCrud.service';
 import { getPlatformsWithIds } from '../../../services/platformsCrud.service';
 import { NotificationContext } from '../../../context/NotificationContext';
 import { Chips } from 'primereact/chips';
-import { MultiSelect } from 'primereact/multiselect';
+import { Dispatch } from 'redux';
+import { connect, useSelector } from 'react-redux';
+import changeUserState from '../../../actionCreators/userState';
+import GameFormGameService from './GameFormGameService';
 
-interface IProps {
+interface IProps extends MapDispatchProps, MapStateProps {
   game: IGame;
   closeDialog: Function;
+}
+
+interface MapStateProps {
+  userState: boolean;
+}
+
+interface MapDispatchProps {
+  setUserState: (state: boolean) => void;
 }
 
 interface IGameEdit extends IGame {
@@ -27,6 +38,7 @@ interface IGameEdit extends IGame {
 
 // @TODO: circle back and make some interfaces
 const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
+  const loggedIn = useSelector((state: any) => state.userState);
   const [gameForm, setGameForm] = useState<IGameEdit>();
   const [addMode, setAddMode] = useState<boolean>(false);
   const [igdbGames, setIgdbGames] = useState<any[]>();
@@ -162,7 +174,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
       <div className="crud-form--flex-wrapper">
         <form className="crud-from--form game-form--form">
           <div className="crud-form--form__row">
-            {addMode && (
+            {addMode && loggedIn && (
               <div className="igdb-search-fields">
                 <h3>Search IGDB</h3>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '.5rem' }}>
@@ -202,6 +214,11 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               </div>
             )}
           </div>
+          {!addMode && (
+            <div className="divider">
+              <hr />
+            </div>
+          )}
           <div className="crud-form--form__row">
             <label htmlFor="name">Name</label>
             <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" />
@@ -338,6 +355,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           </div>
           <div className="divider">
             <hr />
+            <h3>Collection Data</h3>
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="howAcquired">How Acquired</label>
@@ -447,6 +465,9 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               cols={50}
             />
           </div>
+          {gameForm && (
+            <GameFormGameService addMode={addMode} userChange={userChange} game={gameForm} />
+          )}
         </form>
         <div className="crud-form--image-and-data">
           {gameForm?.image && <img src={gameForm?.image} alt="game cover art or logo" />}
@@ -462,7 +483,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
       <hr />
       <div className="crud-form--footer">
         <Button
-          label="Cancel"
+          label="Close"
           onClick={cancelClicked}
           icon="pi pi-times"
           className="p-button-info"
@@ -472,10 +493,21 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           onClick={updateGame}
           icon="pi pi-save"
           className="p-button-success"
+          disabled={!loggedIn}
         />
       </div>
     </div>
   );
 };
 
-export default GameForm;
+const mapStateToProps = ({ userState }: { userState: boolean }): MapStateProps => {
+  return {
+    userState
+  };
+};
+
+const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
+  setUserState: (state: boolean) => dispatch(changeUserState(state))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(GameForm);

@@ -33,7 +33,13 @@ export default {
       image: '',
       description: '',
       manual: false,
-      compilation: false
+      compilation: false,
+      gamesService: {
+        xbPass: false,
+        xbGold: false,
+        psPlus: false,
+        primeFree: false
+      }
     };
   },
   resetPlatformForm: () => {

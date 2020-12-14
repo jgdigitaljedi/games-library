@@ -11,6 +11,7 @@ export interface IGamesService {
   xbGold: boolean;
   psPlus: boolean;
   primeFree: boolean;
+  switchFree: boolean;
 }
 
 export interface IGame {
@@ -20,9 +21,7 @@ export interface IGame {
   first_release_date: string;
   esrb: string;
   consoleName: string;
-  consoleIgdbId: number;
-  consoleGbid: number;
-  consoleGbGuid: string;
+  consoleId: number;
   condition: string;
   case: string;
   pricePaid: string;

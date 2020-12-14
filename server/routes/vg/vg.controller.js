@@ -157,8 +157,6 @@ module.exports.searchGame = async function (req, res) {
     client = await refreshAppKey();
   }
   if (req.body && req.body.game && req.body.platform) {
-    console.log('game', req.body.game);
-    console.log('platform', req.body.platform);
     let request;
     if (req.body.fuzzy || req.body.platform === 99999) {
       request = client.fields(fields).search(req.body.game).request('/games');
@@ -234,7 +232,6 @@ module.exports.searchGame = async function (req, res) {
             game.name = item.name;
             game.id = item.id;
             const defaultedOut = getDefaults(game);
-            console.log('defaulted', defaultedOut);
             return defaultedOut;
           });
           res.status(200).json(cleaned);
@@ -247,11 +244,11 @@ module.exports.searchGame = async function (req, res) {
       });
   } else {
     if (req.body && !req.body.game) {
-      res.status(400).json({error: true, message: 'BAD REQUEST. MISSING GAME TITLE TO SEARCH.'});
+      res.status(400).json({ error: true, message: 'BAD REQUEST. MISSING GAME TITLE TO SEARCH.' });
     } else if (req.body && !req.body.platform) {
-      res.status(400).json({error: true, message: 'BAD REQUEST. MISSING PLATFORM TO SEARCH.'});
+      res.status(400).json({ error: true, message: 'BAD REQUEST. MISSING PLATFORM TO SEARCH.' });
     } else {
-      req.status(400).json({error: true, message: 'BAD REQUEST.'});
+      req.status(400).json({ error: true, message: 'BAD REQUEST.' });
     }
   }
 };

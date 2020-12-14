@@ -2,16 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 
-const games = require('./base.json');
+const games = require('../../server/db/games.json');
 
 const supp = games.map((game) => {
-  game.compilation = false; // just set it to false and deal with this manually later
-  game.compilationGamesIds = [];
   game.gamesService = {
     xbGold: false,
     xbPass: false,
     psPlus: false,
-    primeFree: false
+    primeFree: false,
+    switchFree: false
   };
 
   return game;

@@ -1,4 +1,11 @@
-import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
+import React, {
+  FunctionComponent,
+  useState,
+  useEffect,
+  useCallback,
+  useContext,
+  Fragment
+} from 'react';
 import { IGame } from '../../../models/games.model';
 import { InputText } from 'primereact/inputtext';
 import { InputSwitch } from 'primereact/inputswitch';
@@ -72,6 +79,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   ];
 
   const userChange = (e: any) => {
+    console.log('e', gameForm);
     const newState = handleChange(e, gameForm);
     if (newState) {
       setGameForm(newState);

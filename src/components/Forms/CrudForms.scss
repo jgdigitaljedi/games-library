@@ -12,6 +12,10 @@
       justify-content: space-evenly;
     }
     .crud-form--image-and-data {
+      max-width: 30%;
+      @include bp_lte(md) {
+        max-width: 100%;
+      }
       img {
         max-height: 30rem;
         width: auto;

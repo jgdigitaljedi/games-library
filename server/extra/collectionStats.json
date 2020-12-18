@@ -2,6 +2,176 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "BPM: BULLETS PER MINUTE",
+        "id": 133330,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "Indie",
+          "FPS"
+        ],
+        "total_rating": 74,
+        "total_rating_count": 4,
+        "first_release_date": "09/14/2020",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-80143",
+        "gbid": 80143,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/47/470149/3233989-bpm-box-art.jpg",
+        "deck": "Bullets Per Minute is a first person rhythm action game developed by AWE Interactive",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "13.99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-16",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "12/18/2020 07:03 am",
+      "updatedAt": "12/18/2020 07:03 am",
+      "_id": "7b8dc1ca08aa4764a2cf236a5027180b",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/47/470149/3233989-bpm-box-art.jpg",
+      "description": "Bullets Per Minute is a first person rhythm action game developed by AWE Interactive",
+      "name": "BPM: BULLETS PER MINUTE",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Relicta",
+        "id": 109742,
+        "genres": [
+          "Adventure",
+          "Indie"
+        ],
+        "total_rating": 88,
+        "total_rating_count": 2,
+        "first_release_date": "08/03/2020",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-77507",
+        "gbid": 77507,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/165036/3175544-rel.jpg",
+        "deck": "A first-person puzzle game.",
+        "platforms": "PC, Xbox One, PlayStation 4, Google Stadia"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "13.49",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-16",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "12/18/2020 07:02 am",
+      "updatedAt": "12/18/2020 07:02 am",
+      "_id": "efaa363e11d54c56a0a27c6bdf84715c",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/165036/3175544-rel.jpg",
+      "description": "A first-person puzzle game.",
+      "name": "Relicta",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Cyberpunk 2077",
+        "id": 1877,
+        "genres": [
+          "Role-playing (RPG)",
+          "FPS"
+        ],
+        "total_rating": 77,
+        "total_rating_count": 34,
+        "first_release_date": "12/09/2020",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "Cyberpunk 77",
+        "guid": "3030-38456",
+        "gbid": 38456,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/3110688-cyberpunk%202077%20v2.jpg",
+        "deck": "A role-playing game by CD Projekt RED based on the pen and paper RPG Cyberpunk 2020.",
+        "platforms": "PC, Xbox One, PlayStation 4, Google Stadia, PlayStation 5, Xbox Series X|S"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "60",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-15",
+      "howAcquired": "GOG",
+      "notes": "",
+      "createdAt": "12/18/2020 07:01 am",
+      "updatedAt": "12/18/2020 07:01 am",
+      "_id": "e55706cfbb4d46e2b2fc3dcf0e8d970e",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3699/3110688-cyberpunk%202077%20v2.jpg",
+      "description": "A role-playing game by CD Projekt RED based on the pen and paper RPG Cyberpunk 2020.",
+      "name": "Cyberpunk 2077",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Comedy Night",
+        "id": 54497,
+        "genres": [
+          "Simulator",
+          "Indie"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 4,
+        "first_release_date": "07/31/2017",
+        "developers": "",
+        "esrb": ""
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-40542",
+        "gbid": 40542,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/88760/2369560-xboxboxart.jpg",
+        "deck": "An Xbox Indie game that allows players to take the stage or participate in lauding or loathing those up in front of the brick wall.",
+        "platforms": "Mac, Xbox 360 Games Store, PC, Linux"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": ".99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-09",
+      "howAcquired": "Steam",
+      "notes": "",
+      "createdAt": "12/18/2020 07:04 am",
+      "updatedAt": "12/18/2020 07:04 am",
+      "_id": "058223d9d1c540969f37f63f731a6e74",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/88760/2369560-xboxboxart.jpg",
+      "description": "An Xbox Indie game that allows players to take the stage or participate in lauding or loathing those up in front of the brick wall.",
+      "name": "Comedy Night",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "Giana Sisters: Twisted Dreams",
         "id": 3098,
         "genres": [
@@ -46,178 +216,6 @@
       "miltiplayerNumber": 2,
       "extraData": [],
       "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Super Black Bass 3D",
-        "id": 21023,
-        "genres": [],
-        "total_rating": "",
-        "total_rating_count": "",
-        "first_release_date": "02/14/2013",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-41855",
-        "gbid": 41855,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2459225-bass.png",
-        "deck": "The Black Bass is back, now in 3D. Fish in exotic locales, compete in competitions and catch over 30 different types of fish.",
-        "platforms": "Nintendo 3DS"
-      },
-      "consoleName": "Nintendo 3DS",
-      "consoleIgdbId": 37,
-      "consoleGbid": 117,
-      "consoleGbGuid": "3045-117",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-12-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
-      "createdAt": "12/09/2020 06:47 am",
-      "updatedAt": "12/09/2020 06:47 am",
-      "_id": "91bf84bc87c346028f44ada68ae34616",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2459225-bass.png",
-      "description": "The Black Bass is back, now in 3D. Fish in exotic locales, compete in competitions and catch over 30 different types of fish.",
-      "name": "Super Black Bass 3D",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Fist of the North Star: Ken's Rage 2",
-        "id": 5313,
-        "genres": [
-          "Fighting",
-          "Hack and slash/Beat 'em up"
-        ],
-        "total_rating": 65,
-        "total_rating_count": 8,
-        "first_release_date": "12/19/2012",
-        "developers": "",
-        "esrb": "M"
-      },
-      "gb": {
-        "aliases": "Shin Hokuto Musou",
-        "guid": "3030-38563",
-        "gbid": 38563,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2417188-box_fotnskr2.png",
-        "deck": "The fast-paced Musou-style legend of the post-apocalyptic savior Kenshiro returns to celebrate the 30th anniversary of the original manga its based on.",
-        "platforms": "Xbox 360, PlayStation 3, Xbox 360 Games Store, PlayStation Network (PS3), Wii U"
-      },
-      "consoleName": "Xbox 360",
-      "consoleIgdbId": 12,
-      "consoleGbid": 20,
-      "consoleGbGuid": "3045-20",
-      "condition": "Good",
-      "case": "custom",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": "",
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-12-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so $45 / 5 = $9",
-      "createdAt": "12/09/2020 06:44 am",
-      "updatedAt": "12/09/2020 06:44 am",
-      "_id": "4d94e33c514a4364987e486ad24f4414",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2417188-box_fotnskr2.png",
-      "description": "The fast-paced Musou-style legend of the post-apocalyptic savior Kenshiro returns to celebrate the 30th anniversary of the original manga its based on.",
-      "name": "Fist of the North Star: Ken's Rage 2",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
-    },
-    {
-      "igdb": {
-        "name": "Sorcery",
-        "id": 20114,
-        "genres": [
-          "Puzzle",
-          "Role-playing (RPG)",
-          "Adventure"
-        ],
-        "total_rating": 76,
-        "total_rating_count": 6,
-        "first_release_date": "05/21/2012",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-31749",
-        "gbid": 31749,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2222552-box_sorcery.png",
-        "deck": "Play a sorcerer's apprentice in this Playstation Move exclusive, Sorcery turns the Move into a real magic wand and has you performing various motions to cast spells.",
-        "platforms": "PlayStation 3, PlayStation Network (PS3)"
-      },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-12-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
-      "createdAt": "12/09/2020 06:46 am",
-      "updatedAt": "12/09/2020 06:46 am",
-      "_id": "a80e59e847a5483aa781dbc63a0fdb92",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2222552-box_sorcery.png",
-      "description": "Play a sorcerer's apprentice in this Playstation Move exclusive, Sorcery turns the Move into a real magic wand and has you performing various motions to cast spells.",
-      "name": "Sorcery",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "High Velocity Bowling",
-        "id": 21816,
-        "genres": [
-          "Simulator",
-          "Sport"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 2,
-        "first_release_date": "12/06/2007",
-        "developers": "",
-        "esrb": "E10+"
-      },
-      "gb": {
-        "aliases": "HVB",
-        "guid": "3030-20605",
-        "gbid": 20605,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4759/196552-highvelocitybowling_logo_black.jpg",
-        "deck": "High Velocity Bowling is a PS3 game that utilizes the motion sensing capabilities of the SIXAXIS and DualShock 3.",
-        "platforms": "PlayStation 3, PlayStation Network (PS3)"
-      },
-      "consoleName": "PlayStation 3",
-      "consoleIgdbId": 9,
-      "consoleGbid": 35,
-      "consoleGbGuid": "3045-35",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "4",
-      "datePurchased": "2020-12-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
-      "createdAt": "12/09/2020 06:46 am",
-      "updatedAt": "12/09/2020 06:46 am",
-      "_id": "15271a70e6a44f828fe33817a8e1f1b6",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/4759/196552-highvelocitybowling_logo_black.jpg",
-      "description": "High Velocity Bowling is a PS3 game that utilizes the motion sensing capabilities of the SIXAXIS and DualShock 3.",
-      "name": "High Velocity Bowling",
-      "miltiplayerNumber": 4
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -786,11 +784,11 @@
     }
   ],
   "gamePerConsoleCounts": {
+    "PC (Microsoft Windows)": 316,
     "Wii U": 19,
     "Nintendo 3DS": 16,
     "Xbox 360": 60,
     "PlayStation 3": 46,
-    "PC (Microsoft Windows)": 312,
     "Nintendo DS": 19,
     "Atari 5200": 6,
     "Atari 7800": 6,
@@ -820,9 +818,9 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "NOT RATED": 278,
+    "M": 276,
     "E": 238,
-    "NOT RATED": 275,
-    "M": 275,
     "E10+": 90,
     "T": 200,
     "RP": 14,
@@ -830,13 +828,13 @@
   },
   "physicalVsDigitalGames": {
     "physical": 667,
-    "digital": 426
+    "digital": 430
   },
   "gamesAcquisition": {
+    "GOG": 32,
+    "Steam": 163,
     "Video Games Monthly": 66,
-    "Steam": 162,
     "Green Man Gaming": 4,
-    "GOG": 29,
     "Epic Games Store": 25,
     "UNKNOWN": 133,
     "GameOver": 246,
@@ -877,21 +875,21 @@
   },
   "cibGames": 284,
   "gamesWithGenre": {
+    "shooter": 382,
+    "adventure": 387,
+    "indie": 148,
+    "fps": 178,
+    "role-playing (rpg)": 159,
+    "simulator": 114,
     "platform": 193,
     "puzzle": 113,
-    "adventure": 385,
-    "indie": 145,
     "fighting": 69,
     "hack and slash/beat 'em up": 67,
-    "role-playing (rpg)": 158,
-    "simulator": 113,
     "sport": 146,
     "golf": 16,
-    "shooter": 381,
     "strategy": 121,
     "arcade": 105,
     "turn-based strategy (tbs)": 25,
-    "fps": 176,
     "quiz/trivia": 11,
     "music": 29,
     "rythym": 1,
@@ -1033,12 +1031,12 @@
       "games": 12
     },
     {
-      "dateFormatted": "10/2019",
-      "games": 9
+      "dateFormatted": "12/2020",
+      "games": 11
     },
     {
-      "dateFormatted": "12/2020",
-      "games": 7
+      "dateFormatted": "10/2019",
+      "games": 9
     },
     {
       "dateFormatted": "11/2018",
@@ -1084,7 +1082,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 354
+      "games": 358
     },
     {
       "dateFormatted": "2019",
@@ -1110,7 +1108,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 678
+      "value": 682
     },
     {
       "category": "Fair (50 - 69)",
@@ -1145,7 +1143,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1093,
+  "totalGames": 1097,
   "totalPlatforms": 36,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1155,7 +1153,7 @@
     "1980": 81,
     "1990": 204,
     "2000": 334,
-    "2010": 428,
-    "2020": 19
+    "2010": 429,
+    "2020": 22
   }
 }

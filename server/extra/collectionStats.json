@@ -2,6 +2,93 @@
   "mostRecentlyAddedGames": [
     {
       "igdb": {
+        "name": "Far Cry 5",
+        "id": 28552,
+        "genres": [
+          "Shooter",
+          "Adventure",
+          "FPS",
+          "Open world"
+        ],
+        "total_rating": 80,
+        "total_rating_count": 369,
+        "first_release_date": "03/26/2018",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "FC5",
+        "guid": "3030-59557",
+        "gbid": 59557,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2941053-img_4151ixywp.jpg",
+        "deck": "The fifth main entry in the open-world series, this time set in Montana. The protagonist must free Hope County from the cult known as Eden’s Gate, led by cult leader Joseph Seed.",
+        "platforms": "PC, Xbox One, PlayStation 4"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "8.99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-18",
+      "howAcquired": "Epic Games Store",
+      "notes": "Gold Edition",
+      "createdAt": "12/19/2020 07:10 am",
+      "updatedAt": "12/19/2020 07:10 am",
+      "_id": "5bb4147a0cfc4257afa546aa7cb948c0",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2941053-img_4151ixywp.jpg",
+      "description": "The fifth main entry in the open-world series, this time set in Montana. The protagonist must free Hope County from the cult known as Eden’s Gate, led by cult leader Joseph Seed.",
+      "name": "Far Cry 5",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
+        "name": "Tom Clancy's Rainbow Six Siege",
+        "id": 7360,
+        "genres": [
+          "Shooter",
+          "Tactical",
+          "FPS"
+        ],
+        "total_rating": 78,
+        "total_rating_count": 262,
+        "first_release_date": "11/30/2015",
+        "developers": "",
+        "esrb": "M"
+      },
+      "gb": {
+        "aliases": "",
+        "guid": "3030-46562",
+        "gbid": 46562,
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2802175-rainbowsix.jpg",
+        "deck": "Rainbow Six Siege is a competitive multiplayer first-person shooter developed by Ubisoft Montreal. Players chose from a large roster of Operators with their own weapons and abilities to win round-based attack and defend matches.",
+        "platforms": "PC, Xbox One, PlayStation 4, PlayStation 5, Xbox Series X|S"
+      },
+      "consoleName": "PC (Microsoft Windows)",
+      "consoleIgdbId": 6,
+      "consoleGbGuid": "",
+      "condition": "Other",
+      "case": "none",
+      "pricePaid": "8.99",
+      "physical": "",
+      "cib": "",
+      "multiplayerNumber": "1",
+      "datePurchased": "2020-12-18",
+      "howAcquired": "Green Man Gaming",
+      "notes": "redeemed on Ubisoft Connect",
+      "createdAt": "12/19/2020 07:09 am",
+      "updatedAt": "12/19/2020 07:09 am",
+      "_id": "84cc0b566fd14575b74f63f965d4b590",
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2802175-rainbowsix.jpg",
+      "description": "Rainbow Six Siege is a competitive multiplayer first-person shooter developed by Ubisoft Montreal. Players chose from a large roster of Operators with their own weapons and abilities to win round-based attack and defend matches.",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "miltiplayerNumber": 1
+    },
+    {
+      "igdb": {
         "name": "BPM: BULLETS PER MINUTE",
         "id": 133330,
         "genres": [
@@ -127,95 +214,6 @@
       "description": "A role-playing game by CD Projekt RED based on the pen and paper RPG Cyberpunk 2020.",
       "name": "Cyberpunk 2077",
       "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Comedy Night",
-        "id": 54497,
-        "genres": [
-          "Simulator",
-          "Indie"
-        ],
-        "total_rating": 80,
-        "total_rating_count": 4,
-        "first_release_date": "07/31/2017",
-        "developers": "",
-        "esrb": ""
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-40542",
-        "gbid": 40542,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/88760/2369560-xboxboxart.jpg",
-        "deck": "An Xbox Indie game that allows players to take the stage or participate in lauding or loathing those up in front of the brick wall.",
-        "platforms": "Mac, Xbox 360 Games Store, PC, Linux"
-      },
-      "consoleName": "PC (Microsoft Windows)",
-      "consoleIgdbId": 6,
-      "consoleGbGuid": "",
-      "condition": "Other",
-      "case": "none",
-      "pricePaid": ".99",
-      "physical": "",
-      "cib": "",
-      "multiplayerNumber": "1",
-      "datePurchased": "2020-12-09",
-      "howAcquired": "Steam",
-      "notes": "",
-      "createdAt": "12/18/2020 07:04 am",
-      "updatedAt": "12/18/2020 07:04 am",
-      "_id": "058223d9d1c540969f37f63f731a6e74",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/88760/2369560-xboxboxart.jpg",
-      "description": "An Xbox Indie game that allows players to take the stage or participate in lauding or loathing those up in front of the brick wall.",
-      "name": "Comedy Night",
-      "miltiplayerNumber": 1
-    },
-    {
-      "igdb": {
-        "name": "Giana Sisters: Twisted Dreams",
-        "id": 3098,
-        "genres": [
-          "Platform",
-          "Puzzle",
-          "Adventure",
-          "Indie"
-        ],
-        "total_rating": 75,
-        "total_rating_count": 28,
-        "first_release_date": "10/22/2012",
-        "developers": "",
-        "esrb": "E"
-      },
-      "gb": {
-        "aliases": "",
-        "guid": "3030-39484",
-        "gbid": 39484,
-        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2478661-box_gstd.png",
-        "deck": "The third entry in the Super Mario Bros inspired platformer series.",
-        "platforms": "Xbox 360 Games Store, PlayStation Network (PS3), PC, Wii U, Xbox One, PlayStation 4, Fuze Tomahawk F1"
-      },
-      "consoleName": "Wii U",
-      "consoleIgdbId": 41,
-      "consoleGbid": 139,
-      "consoleGbGuid": "3045-139",
-      "condition": "Excellent",
-      "case": "original",
-      "pricePaid": "9",
-      "physical": true,
-      "cib": true,
-      "multiplayerNumber": "2",
-      "datePurchased": "2020-12-08",
-      "howAcquired": "Video Games Monthly",
-      "notes": "5 games this month so $45 / 5 = $9; new/sealed",
-      "createdAt": "12/09/2020 06:45 am",
-      "updatedAt": "12/09/2020 06:45 am",
-      "_id": "f1938e2c6722418da0cc1d3c95467116",
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2478661-box_gstd.png",
-      "description": "The third entry in the Super Mario Bros inspired platformer series.",
-      "name": "Giana Sisters: Twisted Dreams",
-      "miltiplayerNumber": 2,
-      "extraData": [],
-      "extraDataFull": []
     }
   ],
   "mostRecentlyAddedPlatforms": [
@@ -784,7 +782,7 @@
     }
   ],
   "gamePerConsoleCounts": {
-    "PC (Microsoft Windows)": 316,
+    "PC (Microsoft Windows)": 318,
     "Wii U": 19,
     "Nintendo 3DS": 16,
     "Xbox 360": 60,
@@ -818,8 +816,8 @@
     "Xbox One": 28
   },
   "gamesPerEsrb": {
+    "M": 278,
     "NOT RATED": 278,
-    "M": 276,
     "E": 238,
     "E10+": 90,
     "T": 200,
@@ -828,14 +826,14 @@
   },
   "physicalVsDigitalGames": {
     "physical": 667,
-    "digital": 430
+    "digital": 432
   },
   "gamesAcquisition": {
+    "Epic Games Store": 26,
+    "Green Man Gaming": 5,
     "GOG": 32,
     "Steam": 163,
     "Video Games Monthly": 66,
-    "Green Man Gaming": 4,
-    "Epic Games Store": 25,
     "UNKNOWN": 133,
     "GameOver": 246,
     "eBay": 51,
@@ -875,10 +873,12 @@
   },
   "cibGames": 284,
   "gamesWithGenre": {
-    "shooter": 382,
-    "adventure": 387,
+    "shooter": 384,
+    "adventure": 388,
+    "fps": 180,
+    "open world": 1,
+    "tactical": 29,
     "indie": 148,
-    "fps": 178,
     "role-playing (rpg)": 159,
     "simulator": 114,
     "platform": 193,
@@ -903,7 +903,6 @@
     "boxing": 3,
     "football": 8,
     "skateboarding": 14,
-    "tactical": 28,
     "point-and-click": 9,
     "surfing": 2,
     "baseball": 6,
@@ -1011,6 +1010,10 @@
       "games": 14
     },
     {
+      "dateFormatted": "12/2020",
+      "games": 13
+    },
+    {
       "dateFormatted": "07/2019",
       "games": 13
     },
@@ -1029,10 +1032,6 @@
     {
       "dateFormatted": "12/2018",
       "games": 12
-    },
-    {
-      "dateFormatted": "12/2020",
-      "games": 11
     },
     {
       "dateFormatted": "10/2019",
@@ -1082,7 +1081,7 @@
   "gamesAddedPerYear": [
     {
       "dateFormatted": "2020",
-      "games": 358
+      "games": 360
     },
     {
       "dateFormatted": "2019",
@@ -1108,7 +1107,7 @@
     },
     {
       "category": "Good (70 - 89)",
-      "value": 682
+      "value": 684
     },
     {
       "category": "Fair (50 - 69)",
@@ -1143,7 +1142,7 @@
     "8": 6,
     "UNKNOWN": 1
   },
-  "totalGames": 1097,
+  "totalGames": 1099,
   "totalPlatforms": 36,
   "totalAccessories": 119,
   "totalCollectibles": 35,
@@ -1153,7 +1152,7 @@
     "1980": 81,
     "1990": 204,
     "2000": 334,
-    "2010": 429,
+    "2010": 431,
     "2020": 22
   }
 }

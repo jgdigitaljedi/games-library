@@ -9,7 +9,6 @@ import changePlatformsArr from './actionCreators/platformsArr';
 import FilterGroup from './components/filterGroup/FilterGroup';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
-import axios from 'axios';
 import { IDropdown } from './models/common.model';
 import { IGame } from './models/games.model';
 import { Button } from 'primereact/button';
@@ -23,6 +22,8 @@ import HardwareForm from './components/Forms/HardwareForm/HardwareForm';
 import CloneForm from './components/Forms/CloneForm/CloneForm';
 import { getPlatformArr } from './services/globalData.service';
 import { NotificationContext } from './context/NotificationContext';
+import {cleanupGames} from "./services/dataMassaging.service";
+import axios from "axios";
 
 interface IInputOptions {
   label: string;
@@ -145,8 +146,15 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     const result = await axios.get(url);
     if (props && props.setMasterData && props.setFilteredData) {
       if (result?.data) {
-        props.setMasterData(result.data);
-        props.setFilteredData(result.data);
+        // inserting another conditional here because data massaging needs to happen now that backend is simplified a bit
+        let parsedResults;
+        if (props?.viewWhat === 'games') {
+          parsedResults = cleanupGames(result.data);
+        } else {
+          parsedResults = result.data;
+        }
+        props.setMasterData(parsedResults);
+        props.setFilteredData(parsedResults);
       } else {
         setNotify({
           severity: 'error',

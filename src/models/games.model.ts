@@ -52,6 +52,11 @@ export interface IGame {
   gamesService: IGamesService;
 }
 
+export interface IGameDisplay extends IGame {
+  genresDisplay: string;
+  purchaseDate: string;
+}
+
 export interface IGbGame {
   install_base: string | number;
   image: string;

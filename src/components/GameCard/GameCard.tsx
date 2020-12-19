@@ -30,7 +30,7 @@ const GameCard: FunctionComponent<IProps> = ({ data, cardClicked }: IProps) => {
               <i className="pi pi-image" />
             </div>
             <div className="data-point">
-              {data?.maxMultiplayer || '?'}
+              {data?.maxMultiplayer || '1'}
               <i className="pi pi-users" />
             </div>
             {data.total_rating && (

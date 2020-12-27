@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { Card } from 'primereact/card';
-import { IGame } from '../../models/games.model';
+import { IGame } from '@/models/games.model';
 import UrlService from '../../services/url.service';
 import helpersService from '../../services/helpers.service';
 

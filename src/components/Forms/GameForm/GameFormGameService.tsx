@@ -1,13 +1,13 @@
 import React, { FunctionComponent, Fragment, useEffect, useState } from 'react';
 import { InputSwitch } from 'primereact/inputswitch';
-import { IGame } from '../../../models/games.model';
+import { IGame } from '@/models/games.model';
 import {
   isGamePassConsole,
   isPrimeFreeConsole,
   isPsPlusConsole,
   isSwitchFreeConsole,
   isXbGoldConsole
-} from '../../../services/consoleSpecifics.service';
+} from '@/services/consoleSpecifics.service';
 
 interface IGameEdit extends IGame {
   newDatePurchased: Date;

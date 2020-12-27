@@ -1,6 +1,6 @@
 import Axios from 'axios';
-import { AUTH_KEY_LOCAL_STORAGE } from '../constants';
-import { IAuthCreds, ILoginResult } from '../models/crud.model';
+import { AUTH_KEY_LOCAL_STORAGE } from '@/constants';
+import { IAuthCreds, ILoginResult } from '@/models/crud.model';
 
 export const loginToServer = async (creds: IAuthCreds) => {
   const url = `${window.urlPrefix}/api/vg/auth`;

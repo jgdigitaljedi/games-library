@@ -1,4 +1,4 @@
-import { IRequestParams } from '../models/crud.model';
+import { IRequestParams } from '@/models/crud.model';
 import { getRequestHeaders } from './auth.service';
 
 export const makeRequest = (endpoint: string, arg?: string): IRequestParams => {

@@ -1,10 +1,10 @@
 import { Dialog } from 'primereact/dialog';
 import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
-import { IGame } from '../../models/games.model';
+import { IGame } from '@/models/games.model';
 import GameCard from '../GameCard/GameCard';
 import GameDialog from '../GameDialog/GameDialog';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import { calculateNumToLoad } from '../../services/scroller.service';
+import { calculateNumToLoad } from '@/services/scroller.service';
 import './DeciderCards.scss';
 
 interface IProps {

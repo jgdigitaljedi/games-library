@@ -1,18 +1,20 @@
 import Axios, { AxiosResponse } from 'axios';
-import { IGame } from '../models/games.model';
+import { IGame } from '@/models/games.model';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
 
 const endpoint = 'games';
 
-export const saveGame = async (game: IGame) => {
+export const saveGame = async (game: IGame, isUpdate?: boolean) => {
   const hasKey = !!getRequestKey();
-  if (game.hasOwnProperty('_id') && hasKey) {
+  if (isUpdate && hasKey) {
     const params = makeRequest(endpoint, game._id);
     const result = await Axios.patch(params.url, game, params.headers);
     return result;
   } else if (hasKey) {
     const params = makeRequest(endpoint, game._id);
+    console.log('param', params);
+    console.log('game', game);
     const result = await Axios.put(params.url, game, params.headers);
     return result;
   } else {

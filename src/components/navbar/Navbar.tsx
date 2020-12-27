@@ -2,11 +2,11 @@ import React, { FunctionComponent, useState, useEffect, useContext } from 'react
 import { Menu } from 'primereact/menu';
 import { Link, navigate } from '@reach/router';
 import { Button } from 'primereact/button';
-import { AUTH_KEY_LOCAL_STORAGE } from '../../constants';
+import { AUTH_KEY_LOCAL_STORAGE } from '@/constants';
 import { Dialog } from 'primereact/dialog';
 import LoginDialog from '../LoginDialog/LoginDialog';
-import { ILoginResult } from '../../models/crud.model';
-import { NotificationContext } from '../../context/NotificationContext';
+import { ILoginResult } from '@/models/crud.model';
+import { NotificationContext } from '@/context/NotificationContext';
 import {Dispatch} from 'redux';
 import {connect, useSelector} from 'react-redux';
 import changeUserState from '../../actionCreators/userState';

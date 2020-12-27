@@ -1,6 +1,6 @@
 import React, { createContext, useState, Dispatch, SetStateAction } from 'react';
-import { IFormState } from '../models/common.model';
-import { filters } from '../services/deciderFiltering.service';
+import { IFormState } from '@/models/common.model';
+import { filters } from '@/services/deciderFiltering.service';
 
 const defaultFormState = filters.defaultFormState();
 const DataContext = createContext<[IFormState, Dispatch<SetStateAction<IFormState>>]>([

@@ -1,6 +1,6 @@
 import React, { FunctionComponent, memo, useEffect, useRef } from 'react';
 import { Toast } from 'primereact/toast';
-import { INotification } from '../../models/common.model';
+import { INotification } from '@/models/common.model';
 
 const Notification: FunctionComponent<INotification> = memo(
   ({ detail, severity, life = 3000, summary }) => {

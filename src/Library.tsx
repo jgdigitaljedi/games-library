@@ -24,6 +24,7 @@ import { getPlatformArr } from './services/globalData.service';
 import { NotificationContext } from './context/NotificationContext';
 import {cleanupGames} from "./services/dataMassaging.service";
 import axios from "axios";
+import {deleteGame} from "./services/gamesCrud.service";
 
 interface IInputOptions {
   label: string;
@@ -78,7 +79,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   const openFormDialog = useCallback(
     (selected?: any) => {
-      console.log('open dialog', selected);
       setShowModal(true);
     },
     [setShowModal]
@@ -103,14 +103,22 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   );
 
   const closeDialog = useCallback(
-    (name: string, status?: boolean) => {
-      if (name && status) {
-        // throw notification for successful save here
+    async (name: string, success: boolean, action: string) => {
+      hookedGetData();
+      if (name && success) {
+        setNotify({
+          severity: 'success',
+          detail: `Successfully ${action} ${name} ${action?.toLowerCase() === 'removed' ? 'from' : 'to'} your collection!`,
+          summary: `${name} Saved`
+        });
+        // const masterCopy = _cloneDeep(masterData);
+        setSelectedItem(null);
+        // @ts-ignore
+        // props.setFilteredData(masterCopy);
       } else if (name) {
-        // throw failure notification here
         setNotify({
           severity: 'error',
-          detail: `Failed to save ${name}!`,
+          detail: `Failed to ${action} ${name}!`,
           summary: 'ERROR'
         });
       }
@@ -164,6 +172,31 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       }
     }
   }
+
+  const hookedGetData = async () => {
+    await getData();
+  };
+
+  const deleteItem = async () => {
+    if (viewWhat === 'games') {
+      deleteGame(selectedItem)
+          .then(result => {
+              // @ts-ignore
+              if (result.status === 200) {
+                closeDialog(selectedItem.name, true, 'removed');
+                getData();
+              }
+          })
+          .catch(error => {
+            console.log('delete game error', error);
+            setNotify({
+              severity: 'error',
+              detail: 'Failed to delete game from collection!',
+              summary: 'ERROR'
+            });
+          });
+    }
+  };
 
   useEffect(() => {
     if (!platformsArr?.length) {
@@ -232,6 +265,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
                 label={`Remove ${selectedItem?.name} from collection`}
                 icon="pi pi-trash"
                 className="p-button-danger"
+                onClick={deleteItem}
                 disabled={!isLoggedIn}
               />
             )}

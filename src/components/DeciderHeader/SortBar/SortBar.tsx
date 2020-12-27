@@ -1,9 +1,9 @@
 import React, { FunctionComponent, useContext } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IGame } from '../../../models/games.model';
+import { IGame } from '@/models/games.model';
 import SortService from '../../../services/sorts.service';
 import { Dropdown } from 'primereact/dropdown';
-import { SortContext } from '../../../context/SortContext';
+import { SortContext } from '@/context/SortContext';
 
 interface IProps extends RouteComponentProps {
   data: IGame[];
@@ -21,15 +21,15 @@ const SortBar: FunctionComponent<IProps> = (props: IProps) => {
           Category
         </label>
         <Dropdown
-          className="info-text"
-          id="cateogry"
-          name="category"
-          value={sc.prop}
-          options={categories}
-          onChange={e => {
-            setSc({ prop: e.value, dir: sc.dir });
-          }}
-        ></Dropdown>
+            className="info-text"
+            id="cateogry"
+            name="category"
+            value={sc.prop}
+            options={categories}
+            onChange={e => {
+                setSc({prop: e.value, dir: sc.dir});
+            }}
+        />
       </div>
       <div className="sort-bar--input-group">
         <label htmlFor="direction" className="info-text">
@@ -44,7 +44,7 @@ const SortBar: FunctionComponent<IProps> = (props: IProps) => {
           onChange={e => {
             setSc({ dir: e.value, prop: sc.prop });
           }}
-        ></Dropdown>
+        />
       </div>
     </form>
   );

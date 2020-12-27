@@ -9,8 +9,8 @@ import React, {
   SetStateAction
 } from 'react';
 import { RouteComponentProps } from '@reach/router';
-import { IDropdown, IFormState } from '../../../models/common.model';
-import { IGame } from '../../../models/games.model';
+import { IDropdown, IFormState } from '@/models/common.model';
+import { IGame } from '@/models/games.model';
 import flatten from 'lodash/flatten';
 import cloneDeep from 'lodash/cloneDeep';
 import sortBy from 'lodash/sortBy';
@@ -18,7 +18,7 @@ import debounce from 'lodash/debounce';
 import { InputText } from 'primereact/inputtext';
 import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
-import { DataContext } from '../../../context/DataContext';
+import { DataContext } from '@/context/DataContext';
 import changePlatformsArr from '../../../actionCreators/platformsArr';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch as ReduxDispatch } from 'redux';

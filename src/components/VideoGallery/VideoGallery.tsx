@@ -1,6 +1,5 @@
 import { Button } from 'primereact/button';
-import React, { FunctionComponent, useEffect, useState } from 'react';
-import { conditionArr } from '../../constants';
+import React, { FunctionComponent, useState } from 'react';
 import './VideoGallery.scss';
 
 interface IProps {

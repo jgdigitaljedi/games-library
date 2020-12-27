@@ -1,8 +1,10 @@
 const _get = require('lodash/get');
+const _sortBy = require('lodash/sortBy');
 const moment = require('moment');
 
 module.exports.validate = function (obj, reqKeys) {
   return new Promise((resolve, reject) => {
+    console.log('VALIDATING ***********************');
     try {
       const missing = reqKeys.filter((item) => {
         if (item.required) {
@@ -12,8 +14,10 @@ module.exports.validate = function (obj, reqKeys) {
           }
         }
       });
+      console.log('MISSING IN VALIDATE ****************************', missing);
       resolve(missing);
     } catch (error) {
+      console.log('validation error', error);
       reject(error);
     }
   });
@@ -167,4 +171,12 @@ module.exports.hwRequiredFields = function () {
     { key: 'createdAt', required: true, type: 'string' },
     { key: 'updatedAt', required: true, type: 'string' }
   ];
+};
+
+module.exports.sortByDate = function(items, keys, reversed) {
+  const sorted = _sortBy(items, keys);
+  if (reversed) {
+    return sorted.reverse();
+  }
+  return sorted;
 };

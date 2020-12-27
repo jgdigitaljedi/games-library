@@ -18,9 +18,10 @@ const sortBy = require('lodash/sortBy');
  ***********************************************************/
 
 module.exports.saveGame = function (req, res) {
-  if (req.body && req.body.hasOwnProperty('game')) {
+  console.log('req.body', req.body);
+  if (req.body && req.body.hasOwnProperty('name')) {
     gamesCrud
-      .save(req.body.game)
+      .save(req.body)
       .then((result) => {
         res.status(200).json({ error: false, result });
       })

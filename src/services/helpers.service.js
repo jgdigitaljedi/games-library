@@ -29,7 +29,6 @@ export default {
       notes: '',
       createdAt: '',
       updatedAt: '',
-      _id: '',
       image: '',
       description: '',
       manual: false,
@@ -38,7 +37,8 @@ export default {
         xbPass: false,
         xbGold: false,
         psPlus: false,
-        primeFree: false
+        primeFree: false,
+        switchFree: false
       }
     };
   },

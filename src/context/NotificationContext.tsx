@@ -1,5 +1,5 @@
 import React, { createContext, useState, Dispatch, SetStateAction } from 'react';
-import { INotification, Severity } from '../models/common.model';
+import { INotification, Severity } from '@/models/common.model';
 
 const defaultFormState = { severity: '' as Severity, detail: '' };
 const NotificationContext = createContext<[INotification, Dispatch<SetStateAction<INotification>>]>(

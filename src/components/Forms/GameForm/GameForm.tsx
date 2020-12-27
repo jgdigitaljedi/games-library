@@ -3,10 +3,9 @@ import React, {
   useState,
   useEffect,
   useCallback,
-  useContext,
-  Fragment
+  useContext
 } from 'react';
-import { IGame } from '../../../models/games.model';
+import { IGame } from '@/models/games.model';
 import { InputText } from 'primereact/inputtext';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputTextarea } from 'primereact/inputtextarea';
@@ -16,15 +15,16 @@ import { Button } from 'primereact/button';
 import { AutoComplete } from 'primereact/autocomplete';
 import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
 import HelpersService from '../../../services/helpers.service';
-import { handleChange } from '../../../services/forms.service';
-import { igdbGameSearch } from '../../../services/gamesCrud.service';
-import { getPlatformsWithIds } from '../../../services/platformsCrud.service';
-import { NotificationContext } from '../../../context/NotificationContext';
+import { handleChange } from '@/services/forms.service';
+import {igdbGameSearch, saveGame} from '@/services/gamesCrud.service';
+import { getPlatformsWithIds } from '@/services/platformsCrud.service';
+import { NotificationContext } from '@/context/NotificationContext';
 import { Chips } from 'primereact/chips';
 import { Dispatch } from 'redux';
 import { connect, useSelector } from 'react-redux';
 import changeUserState from '../../../actionCreators/userState';
 import GameFormGameService from './GameFormGameService';
+import moment from 'moment';
 
 interface IProps extends MapDispatchProps, MapStateProps {
   game: IGame;
@@ -120,9 +120,18 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
 
   const updateGame = useCallback(() => {
     // make save call
+    const gameCopy = _cloneDeep(gameForm as IGameEdit);
+    // @ts-ignore
+    gameCopy.datePurchased = moment(gameCopy.newDatePurchased).format('YYYY-MM-DD');
+    saveGame(gameCopy)
+        .then(result => {
+          closeDialog(gameForm?.name, true, 'added');
+        })
+        .catch(error => {
+          console.log('save error', error);
+          closeDialog(gameForm?.name, false, 'added');
+        });
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
-    console.log('new game data', gameForm);
-    closeDialog(gameForm?.name);
   }, [gameForm, closeDialog]);
 
   const cancelClicked = () => {
@@ -136,7 +145,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   }, [setGameForm]);
 
   const searchSelection = (e: any) => {
-    console.log('e', e);
     if (e?.value) {
       const game = e.value;
       setSelectedFromSearch(game);
@@ -170,7 +178,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           console.log('ERROR FETCHING PLATFORMS WITH IDS', error);
           setNotify({
             severity: 'error',
-            detail: 'Erro fetching platforms with ids.',
+            detail: 'Error fetching platforms with ids.',
             summary: 'ERROR'
           });
         });
@@ -288,7 +296,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               id="playerPerspectives"
               value={gameForm?.player_perspectives || []}
               onChange={userChange}
-              attr-which="playerPerspectives"
+              attr-which="player_perspectives"
             />
           </div>
           <div className="crud-form--form__row">
@@ -305,9 +313,9 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <label htmlFor="multiplayerOffline">Multiplayer: Offline VS</label>
             <InputText
               id="multiplayerOffline"
-              value={gameForm?.multiplayer_modes?.offlinemax || 1}
+              value={gameForm?.multiplayer_modes?.offlinemax}
               onChange={userChange}
-              attr-which="multiplayerOffline"
+              attr-which="multiplayer_modes.offlinemax"
               type="number"
             />
           </div>
@@ -315,19 +323,19 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
             <label htmlFor="multiplayerCoop">Multiplayer: Offline Coop</label>
             <InputText
               id="multiplayerCoop"
-              value={gameForm?.multiplayer_modes?.offlinecoopmax || 1}
+              value={gameForm?.multiplayer_modes?.offlinecoopmax}
               onChange={userChange}
-              attr-which="multiplayerCoop"
+              attr-which="multiplayer_modes.offlinecoopmax"
               type="number"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="splitscreen">Splitscreen?</label>
             <InputSwitch
-              id="splitscreen"
+              id="multiplayer_modes.splitscreen"
               checked={!!gameForm?.multiplayer_modes?.splitscreen}
               onChange={userChange}
-              attr-which="splitscreen"
+              attr-which="multiplayer_modes.splitscreen"
             />
           </div>
           <div className="crud-form--form__row">

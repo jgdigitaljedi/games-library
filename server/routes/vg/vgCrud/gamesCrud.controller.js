@@ -2,16 +2,19 @@ const db = require('../../../db');
 const helper = require('../vgHelpers');
 const moment = require('moment');
 const required = helper.gamesRequiredFields();
-const extraData = require('../gamesHelpers/extraGameData').getExtraData;
+const sortByDate = helper.sortByDate;
 
 module.exports.save = function (game) {
   return new Promise((resolve, reject) => {
     const now = helper.timeStamp();
     game.createdAt = now;
     game.updatedAt = now;
+
+    console.log('ABOUT TO VALIDATE *********************');
     helper
       .validate(game, required)
       .then((missing) => {
+        console.log('missing', missing);
         if (!missing || !missing.length) {
           try {
             const saved = db.games.save(game);
@@ -35,7 +38,7 @@ module.exports.save = function (game) {
 };
 
 module.exports.getGames = function () {
-  return db.games.find();
+  return sortByDate(db.games.find(), ['datePurchased'], true);
 };
 
 module.exports.search = function () {};

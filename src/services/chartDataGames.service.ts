@@ -1,5 +1,5 @@
-import { IGame } from '../models/games.model';
-import { IIndexedWithNum } from '../models/common.model';
+import { IGame } from '@/models/games.model';
+import { IIndexedWithNum } from '@/models/common.model';
 import { get as _get, sum as _sum } from 'lodash';
 import sortsService from './sorts.service';
 

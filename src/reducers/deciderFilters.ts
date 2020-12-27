@@ -1,4 +1,4 @@
-import { IFormState } from '../models/common.model';
+import { IFormState } from '@/models/common.model';
 
 const initState = {
   name: '',

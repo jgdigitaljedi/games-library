@@ -1,11 +1,11 @@
 import React, { FunctionComponent, useState, useEffect, useCallback } from 'react';
-import { IConsole } from '../../../models/platforms.model';
+import { IConsole } from '@/models/platforms.model';
 import { InputText } from 'primereact/inputtext';
-import { handleChange, handleDropdownFn } from '../../../services/forms.service';
+import { handleChange, handleDropdownFn } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { InputSwitch } from 'primereact/inputswitch';
-import { conditionArr } from '../../../constants';
+import { conditionArr } from '@/constants';
 import { Dropdown } from 'primereact/dropdown';
 import { Calendar } from 'primereact/calendar';
 import { Button } from 'primereact/button';

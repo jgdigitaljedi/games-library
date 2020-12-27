@@ -1,8 +1,8 @@
 import React, { FunctionComponent, PropsWithChildren, useEffect, useState } from 'react';
 import { Rating } from 'primereact/rating';
 import './GameDialog.scss';
-import { IConsoleArr } from '../../models/platforms.model';
-import { IGame } from '../../models/games.model';
+import { IConsoleArr } from '@/models/platforms.model';
+import { IGame } from '@/models/games.model';
 import assetsService from '../../services/assets.service';
 import UrlService from '../../services/url.service';
 import helpersService from '../../services/helpers.service';

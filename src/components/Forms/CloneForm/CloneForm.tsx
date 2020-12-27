@@ -3,8 +3,8 @@ import { Calendar } from 'primereact/calendar';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputText } from 'primereact/inputtext';
 import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
-import { IClone } from '../../../models/common.model';
-import { handleChange } from '../../../services/forms.service';
+import { IClone } from '@/models/common.model';
+import { handleChange } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
 
 interface IProps {

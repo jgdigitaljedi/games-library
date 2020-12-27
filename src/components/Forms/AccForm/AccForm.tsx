@@ -7,10 +7,10 @@ import { InputTextarea } from 'primereact/inputtextarea';
 import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import changePlatformsArr from '../../../actionCreators/platformsArr';
-import { IDropdown } from '../../../models/common.model';
-import { IAccessory } from '../../../models/accessories.model';
-import { accessoryTypeArr } from '../../../constants';
-import { handleChange, handleDropdownFn } from '../../../services/forms.service';
+import { IDropdown } from '@/models/common.model';
+import { IAccessory } from '@/models/accessories.model';
+import { accessoryTypeArr } from '@/constants';
+import { handleChange, handleDropdownFn } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
 import { Dispatch as ReduxDispatch } from 'redux';
 

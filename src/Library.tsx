@@ -59,6 +59,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [showModal, setShowModal] = useState<boolean>(false);
   const [selectedItem, setSelectedItem] = useState<any>(null);
   const isLoggedIn = useSelector((state: any) => state.userState);
+  const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
+
+  const closeConfirmation = () => {
+    setShowDeleteConfirmation(false);
+  };
 
   if (view !== viewWhat) {
     setView(viewWhat);
@@ -85,6 +90,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   );
 
   const addSomething = useCallback(() => {
+    closeConfirmation();
     if (view === 'games') {
       setSelectedItem(helpersService.resetGameForm());
     } else {
@@ -104,6 +110,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   const closeDialog = useCallback(
     async (name: string, success: boolean, action: string) => {
+      closeConfirmation();
       hookedGetData();
       if (name && success) {
         setNotify({
@@ -130,6 +137,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   );
 
   async function getData() {
+    closeConfirmation();
     let url = '';
     switch (props.viewWhat) {
       case 'games':
@@ -183,12 +191,14 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           .then(result => {
               // @ts-ignore
               if (result.status === 200) {
+                closeConfirmation();
                 closeDialog(selectedItem.name, true, 'removed');
                 getData();
               }
           })
           .catch(error => {
             console.log('delete game error', error);
+            closeConfirmation();
             setNotify({
               severity: 'error',
               detail: 'Failed to delete game from collection!',
@@ -199,6 +209,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   };
 
   useEffect(() => {
+    closeConfirmation();
     if (!platformsArr?.length) {
       getPlatformArr()
         .then((result: IDropdown[]) => {
@@ -252,25 +263,42 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         modal={true}
         closeOnEscape={true}
         onHide={() => {
+          closeConfirmation();
           setSelectedItem(null);
           setShowModal(false);
         }}
       >
-        <div className="crud-form-outer-wrapper form-dialog--header">
+        <div className={`crud-form-outer-wrapper form-dialog--header${showDeleteConfirmation ? ' confirmation' : ''}`}>
           {selectedItem &&
             selectedItem.name &&
             selectedItem.name !== 'Add Game' &&
-            selectedItem.name !== 'Add Platform' && (
+            selectedItem.name !== 'Add Platform' &&
+            !showDeleteConfirmation && (
               <Button
                 label={`Remove ${selectedItem?.name} from collection`}
                 icon="pi pi-trash"
                 className="p-button-danger"
-                onClick={deleteItem}
+                onClick={() => setShowDeleteConfirmation((true))}
                 disabled={!isLoggedIn}
               />
             )}
+          {selectedItem && showDeleteConfirmation && (
+              <div className="deletion-confirmation">
+                <div className="deletion-confirmation--question">Are you sure you want to remove <div className="item-name">{selectedItem.name}</div> from your collection?</div>&nbsp;
+                <Button
+                    icon="pi pi-check"
+                    label="Yes"
+                    className="p-button-primary"
+                    onClick={deleteItem}/>
+                <Button
+                    icon="pi pi-times"
+                    label="No"
+                    className="p-button-info"
+                    onClick={closeConfirmation}/>
+              </div>
+          )}
         </div>
-        {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} />}
+        {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation}/>}
         {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} />}
         {view === 'accessories' && <AccForm acc={selectedItem} closeDialog={closeDialog} />}
         {view === 'collectibles' && (

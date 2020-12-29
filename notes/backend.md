@@ -20,7 +20,7 @@ I'm going to stay with DiskDB for now because I like having a backup of my colle
   - ~~figure out what new data structure will be for games and consoles. Remember to add a PS Plus, Game Pass, Games with Gold toggle so I can easily remove those games if I cancel my subscriptions.~~
   - supplemental/extra data scripts
     - ~~use existing logic in endpoints to fetch IGDB data to return it along with extra data all at once.~~
-    - add extra form fields to display or even allow editing of extra data
+    - ~~add extra form fields to display or even allow editing of extra data~~
   - make changes to Library -> Games and Library -> Consoles to have form field that makes this call and gets data
   - ~~make changes to IGDB services to get the new fields and make sure you get the desired return to the client~~
   - ~~write a script to migrate all old games and consoles to new data structure~~

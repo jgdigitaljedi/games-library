@@ -20,9 +20,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: $gutter $gutter 0 $gutter;
     button {
       margin-right: $gutter;
+    }
+    &.confirmation {
+      justify-content: flex-start;
+      .deletion-confirmation {
+        display: flex;
+        align-items: flex-end;
+        &--question {
+          display: flex;
+          .item-name {
+            margin: 0 .25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            font-weight: bold;
+            color: $light-blue;
+            max-width: 25ch;
+            text-overflow: ellipsis;
+          }
+        }
+      }
     }
   }
 }

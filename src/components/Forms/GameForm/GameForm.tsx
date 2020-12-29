@@ -29,6 +29,7 @@ import moment from 'moment';
 interface IProps extends MapDispatchProps, MapStateProps {
   game: IGame;
   closeDialog: Function;
+  closeConfirmation: () => void;
 }
 
 interface MapStateProps {
@@ -44,7 +45,7 @@ interface IGameEdit extends IGame {
 }
 
 // @TODO: circle back and make some interfaces
-const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
+const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmation }: IProps) => {
   const loggedIn = useSelector((state: any) => state.userState);
   const [gameForm, setGameForm] = useState<IGameEdit>();
   const [addMode, setAddMode] = useState<boolean>(false);
@@ -80,6 +81,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
 
   const userChange = (e: any) => {
     console.log('e', gameForm);
+    closeConfirmation();
     const newState = handleChange(e, gameForm);
     if (newState) {
       setGameForm(newState);
@@ -88,6 +90,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
 
   const handleDropdown = useCallback(
     (e: any, which: string) => {
+      closeConfirmation();
       const copy = _cloneDeep(gameForm);
       if (copy) {
         _set(copy, which, e.value);
@@ -98,6 +101,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   );
 
   const searchIgdb = useCallback(async () => {
+    closeConfirmation();
     if (gameForm?.name) {
       try {
         const result = await igdbGameSearch(
@@ -135,6 +139,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   }, [gameForm, closeDialog]);
 
   const cancelClicked = () => {
+    closeConfirmation();
     resetGameForm();
     closeDialog(null);
   };
@@ -145,6 +150,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
   }, [setGameForm]);
 
   const searchSelection = (e: any) => {
+    closeConfirmation();
     if (e?.value) {
       const game = e.value;
       setSelectedFromSearch(game);
@@ -237,7 +243,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
           )}
           <div className="crud-form--form__row">
             <label htmlFor="name">Name</label>
-            <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" />
+            <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" onFocus={() => closeConfirmation()} />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="consoleName">For Console</label>
@@ -260,6 +266,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               value={gameForm?.total_rating}
               onChange={userChange}
               attr-which="total_rating"
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -307,6 +314,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               onChange={userChange}
               attr-which="maxMultiplayer"
               type="number"
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -317,6 +325,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               onChange={userChange}
               attr-which="multiplayer_modes.offlinemax"
               type="number"
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -327,6 +336,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               onChange={userChange}
               attr-which="multiplayer_modes.offlinecoopmax"
               type="number"
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -345,6 +355,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               value={gameForm?.image}
               onChange={userChange}
               attr-which="image"
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -356,6 +367,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               onChange={userChange}
               attr-which="description"
               autoResize={true}
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -367,6 +379,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               onChange={userChange}
               attr-which="story"
               autoResize={true}
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="divider">
@@ -380,6 +393,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               value={gameForm?.howAcquired}
               onChange={userChange}
               attr-which="howAcquired"
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -392,6 +406,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               type="number"
               keyfilter="pnum"
               min={0}
+              onFocus={() => closeConfirmation()}
             />
           </div>
           <div className="crud-form--form__row">
@@ -479,6 +494,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog }: IProps) => {
               attr-which="notes"
               autoResize={true}
               cols={50}
+              onFocus={() => closeConfirmation()}
             />
           </div>
           {gameForm && (

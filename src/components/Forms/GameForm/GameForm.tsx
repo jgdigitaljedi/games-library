@@ -122,12 +122,17 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     }
   }, [gameForm, setNotify, searchPlatform]);
 
+  const isUpdate = () => {
+    return !addMode && gameForm?.hasOwnProperty('_id');
+  };
+
   const updateGame = useCallback(() => {
-    // make save call
     const gameCopy = _cloneDeep(gameForm as IGameEdit);
     // @ts-ignore
     gameCopy.datePurchased = moment(gameCopy.newDatePurchased).format('YYYY-MM-DD');
-    saveGame(gameCopy)
+    const isPatch = isUpdate();
+    console.log('isPatch', isPatch);
+    saveGame(gameCopy, isPatch)
         .then(result => {
           closeDialog(gameForm?.name, true, 'added');
         })

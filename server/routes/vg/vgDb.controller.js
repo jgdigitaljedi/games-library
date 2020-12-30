@@ -92,9 +92,9 @@ module.exports.deleteGame = function (req, res) {
 };
 
 module.exports.editGame = function (req, res) {
-  if (req.params.id && req.body.platform) {
+  if (req.params.id && req.body.name) {
     gamesCrud
-      .edit(req.params.id, req.body.platform)
+      .edit(req.params.id, req.body)
       .then((result) => {
         res.status(200).json(result);
       })

@@ -10,14 +10,16 @@ import helpersService from '../../../services/helpers.service';
 interface IProps {
   hardware: IHardware;
   closeDialog: Function;
+  closeConfirmation: () => void;
 }
 
-const HardwareForm: FunctionComponent<IProps> = ({ hardware, closeDialog }) => {
+const HardwareForm: FunctionComponent<IProps> = ({ hardware, closeDialog, closeConfirmation }) => {
   const [hwForm, setHwForm] = useState<IHardware>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
 
   const userChange = (e: any) => {
+    closeConfirmation();
     const newState = handleChange(e, hwForm);
     if (newState) {
       setHwForm(newState);
@@ -37,11 +39,13 @@ const HardwareForm: FunctionComponent<IProps> = ({ hardware, closeDialog }) => {
   const updateColl = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+    closeConfirmation();
     closeDialog(hwForm?.name);
   }, [hwForm, closeDialog]);
 
   const cancelClicked = () => {
     // resetGameForm();
+    closeConfirmation();
     closeDialog(null);
   };
   return (

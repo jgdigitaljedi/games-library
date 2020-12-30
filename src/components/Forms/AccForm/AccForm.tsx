@@ -13,6 +13,7 @@ import { accessoryTypeArr } from '@/constants';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
 import { Dispatch as ReduxDispatch } from 'redux';
+import PlatformForm from "@/components/Forms/PlatformForm/PlatformForm";
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -25,14 +26,16 @@ interface MapDispatchProps {
 interface IProps extends MapDispatchProps, MapStateProps {
   acc: IAccessory;
   closeDialog: Function;
+  closeConfirmation: () => void;
 }
 
-const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) => {
+const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr, closeConfirmation }) => {
   const [accForm, setAccForm] = useState<IAccessory>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
 
   const userChange = (e: any) => {
+    closeConfirmation();
     const newState = handleChange(e, accForm);
     if (newState) {
       setAccForm(newState);
@@ -41,6 +44,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) 
 
   const handleDropdown = useCallback(
     (e: any, which: string) => {
+      closeConfirmation();
       setAccForm(handleDropdownFn(e, which, accForm));
     },
     [accForm, setAccForm]
@@ -57,6 +61,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) 
   }, [acc, setAddMode]);
 
   const updateAcc = useCallback(() => {
+    closeConfirmation();
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
     console.log('accForm in save', accForm);
@@ -65,6 +70,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, platformsArr }) 
 
   const cancelClicked = () => {
     // resetGameForm();
+    closeConfirmation();
     closeDialog(null);
   };
 

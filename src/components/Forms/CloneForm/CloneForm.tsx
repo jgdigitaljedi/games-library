@@ -10,14 +10,16 @@ import helpersService from '../../../services/helpers.service';
 interface IProps {
   clone: IClone;
   closeDialog: Function;
+  closeConfirmation: () => void;
 }
 
-const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog }) => {
+const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirmation }) => {
   const [cloneForm, setCloneForm] = useState<IClone>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
 
   const userChange = (e: any) => {
+    closeConfirmation();
     const newState = handleChange(e, cloneForm);
     if (newState) {
       setCloneForm(newState);
@@ -58,12 +60,14 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog }) => {
   const updateAcc = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+    closeConfirmation();
     console.log('cloneForm save', cloneForm);
     closeDialog(cloneForm?.name);
   }, [cloneForm, closeDialog]);
 
   const cancelClicked = () => {
     // resetGameForm();
+    closeConfirmation();
     closeDialog(null);
   };
 

@@ -10,6 +10,7 @@ import { handleChange } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
 import { connect } from 'react-redux';
 import { InputTextarea } from 'primereact/inputtextarea';
+import AccForm from "@/components/Forms/AccForm/AccForm";
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -18,15 +19,17 @@ interface MapStateProps {
 interface IProps extends MapStateProps {
   collectible: ICollectible;
   closeDialog: Function;
+  closeConfirmation: () => void;
 }
 
-const CollForm: FunctionComponent<IProps> = ({ collectible, closeDialog, platformsArr }) => {
+const CollForm: FunctionComponent<IProps> = ({ collectible, closeDialog, platformsArr, closeConfirmation }) => {
   const [collForm, setCollForm] = useState<ICollectible>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
   const [pArr, setPArr] = useState<ICollAssociatedCon[]>([]);
 
   const userChange = (e: any) => {
+    closeConfirmation();
     const newState = handleChange(e, collForm);
     if (newState) {
       setCollForm(newState);
@@ -64,11 +67,13 @@ const CollForm: FunctionComponent<IProps> = ({ collectible, closeDialog, platfor
   const updateColl = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+    closeConfirmation();
     closeDialog(collForm?.name);
   }, [collForm, closeDialog]);
 
   const cancelClicked = () => {
     // resetGameForm();
+    closeConfirmation();
     closeDialog(null);
   };
 

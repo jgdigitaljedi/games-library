@@ -13,14 +13,16 @@ import { Button } from 'primereact/button';
 interface IProps {
   platform: IConsole;
   closeDialog: Function;
+  closeConfirmation: () => void;
 }
 
-const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog }: IProps) => {
+const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeConfirmation }: IProps) => {
   const [platformForm, setPlatformForm] = useState<IConsole>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
 
   const userChange = (e: any) => {
+    closeConfirmation();
     const newState = handleChange(e, platformForm);
     if (newState) {
       setPlatformForm(newState);
@@ -29,6 +31,7 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog }: IPro
 
   const handleDropdown = useCallback(
     (e: any, which: string) => {
+      closeConfirmation();
       setPlatformForm(handleDropdownFn(e, which, platformForm));
     },
     [platformForm, setPlatformForm]
@@ -52,11 +55,13 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog }: IPro
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
     console.log('platformForm in save', platformForm);
+    closeConfirmation();
     closeDialog(platformForm?.name);
   }, [platformForm, closeDialog]);
 
   const cancelClicked = () => {
     // resetGameForm();
+    closeConfirmation();
     closeDialog(null);
   };
 

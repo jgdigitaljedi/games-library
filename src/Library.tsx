@@ -298,14 +298,14 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
               </div>
           )}
         </div>
-        {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation}/>}
-        {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} />}
-        {view === 'accessories' && <AccForm acc={selectedItem} closeDialog={closeDialog} />}
+        {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
+        {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
+        {view === 'accessories' && <AccForm acc={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
         {view === 'collectibles' && (
-          <CollForm collectible={selectedItem} closeDialog={closeDialog} />
+          <CollForm collectible={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />
         )}
-        {view === 'hardware' && <HardwareForm hardware={selectedItem} closeDialog={closeDialog} />}
-        {view === 'clones' && <CloneForm clone={selectedItem} closeDialog={closeDialog} />}
+        {view === 'hardware' && <HardwareForm hardware={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
+        {view === 'clones' && <CloneForm clone={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
       </Dialog>
     </div>
   );

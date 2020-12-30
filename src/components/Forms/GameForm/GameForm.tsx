@@ -503,7 +503,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
         </form>
         <div className="crud-form--image-and-data">
           {gameForm?.image && <img src={gameForm?.image} alt="game cover art or logo" />}
-          {gameForm?.extraData?.length && (
+          {gameForm?.extraData && gameForm.extraData.length > 0 && (
             <div className="crud-form--image-and-data__extra-data">
               {gameForm.extraData.map((data, index) => (
                 <p key={index}>{data}</p>

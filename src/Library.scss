@@ -27,11 +27,14 @@
     }
     &.confirmation {
       justify-content: flex-start;
+      flex-wrap: wrap;
       .deletion-confirmation {
         display: flex;
         align-items: flex-end;
+        flex-wrap: wrap;
         &--question {
           display: flex;
+          flex-wrap: nowrap;
           .item-name {
             margin: 0 .25rem;
             white-space: nowrap;

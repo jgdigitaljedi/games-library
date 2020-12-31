@@ -50,8 +50,11 @@ export const filters = {
   filterGenre: (data: IGame[], genre: string[]): IGame[] => {
     if (genre?.length) {
       return data.filter((d) => {
-        // return get(d, 'igdb.genres').indexOf(genre) >= 0;
-        return genre.some((g) => get(d, 'genres').indexOf(g) >= 0);
+        if (!d.genres?.length) {
+          return false;
+        }
+        // return genre.some((g) => get(d, 'genres').indexOf(g) >= 0);
+        return d.genres.some(g => genre.includes(g));
       });
     }
     return data;

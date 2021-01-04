@@ -1,0 +1,1057 @@
+[
+  {
+    "platform": {
+      "igdb": {
+        "name": "Nintendo 64",
+        "id": 4,
+        "logo": "",
+        "generation": 5,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "32930000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1426281-logo.jpg",
+        "original_price": "199.00",
+        "aliases": "N64\nProject Reality\nUltra 64",
+        "company": "Nintendo",
+        "guid": "3045-43",
+        "online_support": false,
+        "gbid": 43
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "",
+      "notes": "currently broken; hooked up in bedroom",
+      "connectedBy": "S-Video",
+      "upscaler": true,
+      "datePurchased": null,
+      "purchasePrice": null,
+      "ghostConsole": false,
+      "aliases": "N64, Project Reality, Ultra 64",
+      "storage": "",
+      "unit": "",
+      "createdAt": "11/16/2018 06:13 am",
+      "updatedAt": "11/16/2018 06:13 am",
+      "_id": "8cd8571a0feb4145b951dab463e5a877",
+      "howAcquired": "retro store in WF"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 4;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 85
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Wii U",
+        "id": 41,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/q3u1uari6nrp8fwortpf.jpg",
+        "generation": 8,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "13900000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2228024-hero.jpg",
+        "original_price": "299.00",
+        "aliases": "Project Café\nProject Cafe\nWiiU\nWii-U\nNintendo Wii U",
+        "company": "Nintendo",
+        "guid": "3045-139",
+        "online_support": true,
+        "gbid": 139
+      },
+      "condition": "Excellent",
+      "box": false,
+      "mods": "",
+      "notes": "",
+      "connectedBy": "HDMI",
+      "upscaler": false,
+      "datePurchased": null,
+      "purchasePrice": "300",
+      "ghostConsole": false,
+      "aliases": "Project Café, Project Cafe, WiiU, Wii-U, Nintendo Wii U",
+      "storage": "32",
+      "unit": "GB",
+      "createdAt": "11/16/2018 08:04 am",
+      "updatedAt": "11/16/2018 08:04 am",
+      "_id": "331ff6868757437d85683b3245c2b455",
+      "howAcquired": "GameStop"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 41;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Sega Mega Drive/Genesis",
+        "id": 29,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/lyhvibfpotx1i1vcivqc.jpg",
+        "generation": 4,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "40000000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/10576-genesis.jpg",
+        "original_price": "189.00",
+        "aliases": "Sega Mega Drive\nSega Genesis\nSega Nomad",
+        "company": "Sega",
+        "guid": "3045-6",
+        "online_support": true,
+        "gbid": 6
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "",
+      "notes": "model 2",
+      "connectedBy": "SCART",
+      "upscaler": true,
+      "datePurchased": null,
+      "purchasePrice": null,
+      "ghostConsole": false,
+      "aliases": "Sega Genesis, Sega Mega Drive, Sega Nomad",
+      "storage": "",
+      "unit": "",
+      "createdAt": "11/16/2018 08:09 am",
+      "updatedAt": "11/16/2018 08:09 am",
+      "_id": "3027cdef052d4664b74160da42296ed6",
+      "howAcquired": "GameOver"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 29;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Sega 32X",
+        "id": 30,
+        "logo": "",
+        "generation": 4,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "200000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/2954598-800px-sega-genesis-model2-32x.jpg",
+        "original_price": "159.00",
+        "aliases": "Sega Super 32x\nSega Genesis 32x\nSega Mega Drive 32x\nProject Mars",
+        "company": "Sega",
+        "guid": "3045-31",
+        "online_support": false,
+        "gbid": 31
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "completely disassembled and cleaned thoroughly",
+      "notes": "",
+      "connectedBy": "SCART",
+      "upscaler": true,
+      "datePurchased": null,
+      "purchasePrice": null,
+      "ghostConsole": false,
+      "aliases": "Sega Super 32x, Sega Genesis 32x, Sega Mega Drive 32x, Project Mars",
+      "storage": "",
+      "unit": "",
+      "createdAt": "11/16/2018 08:09 am",
+      "updatedAt": "11/16/2018 08:09 am",
+      "_id": "1a03f61b3dd14e6b975fedae24f1b721",
+      "howAcquired": "GameOver"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 30;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Sega Saturn",
+        "id": 32,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/hrmqljpwunky1all3v78.jpg",
+        "generation": 5,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "17000000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1142464-sega_saturn.jpg",
+        "original_price": "399.00",
+        "aliases": "Sega Saturn",
+        "company": "Sega",
+        "guid": "3045-42",
+        "online_support": true,
+        "gbid": 42
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "",
+      "notes": "",
+      "connectedBy": "SCART",
+      "upscaler": true,
+      "datePurchased": null,
+      "purchasePrice": "75",
+      "ghostConsole": false,
+      "aliases": "JVC Saturn, Hi-Saturn, Samsung Saturn, V-Saturn, Sega Saturn",
+      "storage": "",
+      "unit": "",
+      "createdAt": "11/16/2018 08:10 am",
+      "updatedAt": "11/16/2018 08:10 am",
+      "_id": "9811f50834d2490f8fe973cb98f90db1",
+      "howAcquired": "GameOver"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 32;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Xbox",
+        "id": 11,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/irbchx4g3lbwqr7bbwhj.jpg",
+        "generation": 6,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "24650000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/359843-xbox.jpg",
+        "original_price": "299.00",
+        "aliases": null,
+        "company": "Microsoft",
+        "guid": "3045-32",
+        "online_support": true,
+        "gbid": 32
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "removed clock capacitor and cleaned up acid; replaced thermal paste with Artic Silver; replaced fan with 70mm Nexus fan",
+      "notes": "",
+      "connectedBy": "HDMI",
+      "upscaler": true,
+      "datePurchased": null,
+      "purchasePrice": null,
+      "ghostConsole": false,
+      "aliases": "",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "11/16/2018 08:19 am",
+      "updatedAt": "11/16/2018 08:19 am",
+      "_id": "629262734d8a4d28a73c72e91233412b"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 11;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Xbox 360",
+        "id": 12,
+        "logo": "",
+        "generation": 7,
+        "version": "Xbox 360 Original"
+      },
+      "gb": {
+        "install_base": "85800000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/195092-xbox_360_console_02.jpg",
+        "original_price": "399.00",
+        "aliases": "360\r\nXenon\r\nx360",
+        "company": "Microsoft",
+        "guid": "3045-20",
+        "online_support": true,
+        "gbid": 20
+      },
+      "condition": "Other",
+      "box": false,
+      "mods": "",
+      "notes": "model E slim",
+      "connectedBy": "HDMI",
+      "upscaler": false,
+      "datePurchased": "2019-03-23",
+      "purchasePrice": "10",
+      "ghostConsole": false,
+      "aliases": "xbx360, 360\r, Xenon\r, x360",
+      "storage": "4",
+      "unit": "GB",
+      "howAcquired": "backwards compatibility",
+      "createdAt": "11/16/2018 08:20 am",
+      "updatedAt": "11/16/2018 08:20 am",
+      "_id": "2bf06c56d6f54b66a7f0f60aa76a8b20"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 12;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "PlayStation",
+        "id": 7,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/ugiljg2oblpogrnav6s6.jpg",
+        "generation": 5,
+        "version": "Playstation 1"
+      },
+      "gb": {
+        "install_base": "102490000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1426393-logo.jpg",
+        "original_price": "299.00",
+        "aliases": "PS1\r\nPSX\r\nSony PlayStation\r\nNet Yaroze\r\nPocketStation\r\nPSone",
+        "company": "Sony",
+        "guid": "3045-22",
+        "online_support": true,
+        "gbid": 22
+      },
+      "condition": "Other",
+      "box": false,
+      "mods": "",
+      "notes": "SCPH-7501",
+      "connectedBy": "Component",
+      "upscaler": true,
+      "datePurchased": "2019-05-18",
+      "purchasePrice": "40",
+      "ghostConsole": false,
+      "aliases": "PS1\r, PSX\r, Sony PlayStation\r, Net Yaroze\r, PocketStation\r, PSone",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "11/16/2018 08:22 am",
+      "updatedAt": "11/16/2018 08:22 am",
+      "_id": "d25ba05a682741e5beb261c1a9f7c219"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 7;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 85
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "PlayStation 2",
+        "id": 8,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/hjxzbvpqyfat0iu5nmce.jpg",
+        "generation": 6,
+        "version": "Slimline"
+      },
+      "gb": {
+        "install_base": 153600000,
+        "image": "https://www.giantbomb.com/api/image/scale_medium/438868-ps2_full_large.jpg",
+        "original_price": "299.00",
+        "aliases": "PS2",
+        "company": "Sony",
+        "guid": "3045-19",
+        "online_support": true,
+        "gbid": 19
+      },
+      "condition": "Fair",
+      "box": false,
+      "mods": "",
+      "notes": "",
+      "connectedBy": "Component",
+      "upscaler": true,
+      "datePurchased": null,
+      "purchasePrice": null,
+      "ghostConsole": false,
+      "aliases": "PS2",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "given from Mom",
+      "createdAt": "11/16/2018 08:22 am",
+      "updatedAt": "02/04/2019 06:41 am",
+      "_id": "0237e9b6778549e186238ed4182eb0de"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 8;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 85
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Game Boy",
+        "id": 33,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/fyimhhorp02i7lrrc3de.jpg",
+        "generation": 4,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "118690000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/1426210-logo.jpg",
+        "original_price": "179.00",
+        "aliases": "Gameboy\nGB",
+        "company": "Nintendo",
+        "guid": "3045-3",
+        "online_support": false,
+        "gbid": 3
+      },
+      "condition": "Other",
+      "box": false,
+      "mods": "",
+      "notes": "backwards compatibility on both the Game Boy Player for GameCube and the Game Boy Advance SP",
+      "connectedBy": "None",
+      "upscaler": false,
+      "datePurchased": null,
+      "purchasePrice": null,
+      "ghostConsole": true,
+      "aliases": "Gameboy, GB",
+      "storage": "",
+      "unit": "",
+      "howAcquired": null,
+      "createdAt": "01/07/2019 07:33 am",
+      "updatedAt": "01/07/2019 07:33 am",
+      "_id": "dec879634f5e41ea874ea57ed27c7edb"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 33;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Sega CD",
+        "id": 78,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7w.jpg",
+        "generation": 4,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "6000000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/176099-20070529172508_sega_mega_cd_ii__pal_.jpg",
+        "original_price": "299.00",
+        "aliases": "Mega CD",
+        "company": "Sega",
+        "guid": "3045-29",
+        "online_support": false,
+        "gbid": 29
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "",
+      "notes": "model 2",
+      "connectedBy": "SCART",
+      "upscaler": true,
+      "datePurchased": "2019-08-15",
+      "purchasePrice": "135",
+      "ghostConsole": false,
+      "aliases": "Mega CD",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "08/15/2019 08:33 pm",
+      "updatedAt": "08/15/2019 08:33 pm",
+      "_id": "54b66111132c4e74aa234b288909cce9"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 78;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Atari 2600",
+        "id": 59,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8l.jpg",
+        "generation": 2,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "30000000",
+        "image": "https://www.giantbomb.com/api/image/scale_medium/10066-atari2600.jpg",
+        "original_price": "200.00",
+        "aliases": "Atari VCS\r\nAtari 2800\r\nSears Video Arcade\r\nSears Video Arcade II",
+        "company": "Atari",
+        "guid": "3045-40",
+        "online_support": false,
+        "gbid": 40
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "capacitors replaced; composite video mod",
+      "notes": "",
+      "connectedBy": "Coaxial",
+      "upscaler": false,
+      "datePurchased": "2019-11-28",
+      "purchasePrice": "40",
+      "ghostConsole": false,
+      "aliases": "Atari VCS\r, Atari 2800\r, Sears Video Arcade\r, Sears Video Arcade II",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "11/30/2019 07:54 am",
+      "updatedAt": "11/30/2019 07:54 am",
+      "_id": "f1b51917929d4bc4ba0852556ccbe72c"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 59;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "PC (Microsoft Windows)",
+        "id": 6,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/irwvwpl023f8y19tidgq.jpg",
+        "generation": "",
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnotebookitalia.it%2Fimages%2Fstories%2Fasus_rog_zephyrus_2019%2Fasus_rog_zephyrus_s_gx502_1.jpg&f=1&nofb=1",
+        "original_price": "",
+        "aliases": "",
+        "company": "",
+        "guid": "",
+        "online_support": false
+      },
+      "condition": "Excellent",
+      "box": true,
+      "mods": "RTX 3090 FE; Ryzen 7 3800X; 2TB m.2 NVME SSD; 1TB 2.5\" SSD; 32GB RAM 3600MHz; ASUS Prime X570-Pro mobo",
+      "notes": "Playing on a 32 inch Asus 1440p 144Hz 1ms monitor",
+      "connectedBy": "None",
+      "upscaler": false,
+      "datePurchased": "2019-06-27",
+      "purchasePrice": "2500",
+      "ghostConsole": false,
+      "aliases": "mswin",
+      "storage": "3",
+      "unit": "TB",
+      "howAcquired": "Amazon",
+      "createdAt": "02/01/2020 06:43 am",
+      "updatedAt": "02/01/2020 06:43 am",
+      "_id": "a1de4a91c4e04a4cb8ace611c4eff65b"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 6;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 85
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Nintendo 3DS",
+        "id": 37,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6o.jpg",
+        "generation": 8,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "71360000",
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5150/1686079-3dshw11911.jpg",
+        "original_price": "249.00",
+        "aliases": "Nintendo 3DS XL\r\nNintendo 3DS LL\r\n3DS\r\n3DS XL\r\n3DS LL\r\nNintendo 2DS\r\n2DS",
+        "company": "Nintendo",
+        "guid": "3045-117",
+        "online_support": true,
+        "gbid": 117
+      },
+      "condition": "Excellent",
+      "box": true,
+      "mods": "",
+      "notes": "Special Edition Zelda (black) CIB",
+      "connectedBy": "None",
+      "upscaler": false,
+      "datePurchased": "2020-02-22",
+      "purchasePrice": "160",
+      "ghostConsole": false,
+      "aliases": "3DS, Nintendo 3DS XL\r, Nintendo 3DS LL\r, 3DS\r, 3DS XL\r, 3DS LL\r, Nintendo 2DS\r, 2DS",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "02/22/2020 06:43 pm",
+      "updatedAt": "02/22/2020 06:43 pm",
+      "_id": "3a5e8a117ae241558a7b76b2f7a4fc67"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 37;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Atari 7800",
+        "id": 60,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8f.jpg",
+        "generation": 3,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "3770000",
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/10088-7800.gif",
+        "original_price": "140.00",
+        "aliases": null,
+        "company": "Atari",
+        "guid": "3045-70",
+        "online_support": false,
+        "gbid": 70
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "Capacitor replacement; composite video mod",
+      "notes": "Given for free from Game Over as anniversary gift. ",
+      "connectedBy": "Composite",
+      "upscaler": false,
+      "datePurchased": "2020-07-24",
+      "purchasePrice": "0",
+      "ghostConsole": false,
+      "aliases": "Atari 7800 ProSystem",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "07/25/2020 07:35 am",
+      "updatedAt": "07/25/2020 07:35 am",
+      "_id": "7c459ded0cf542e78ac2bca787a64964"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 60;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "igdb": {
+        "name": "Atari 5200",
+        "id": 66,
+        "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8g.jpg",
+        "generation": 2,
+        "version": "Initial version"
+      },
+      "gb": {
+        "install_base": "1000000",
+        "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/26/10083-5200.jpg",
+        "original_price": "270.00",
+        "aliases": null,
+        "company": "Atari",
+        "guid": "3045-67",
+        "online_support": false,
+        "gbid": 67
+      },
+      "condition": "Good",
+      "box": false,
+      "mods": "Power mod installed to bypass need for switchbox",
+      "notes": "",
+      "connectedBy": "Coaxial",
+      "upscaler": false,
+      "datePurchased": "2020-08-07",
+      "purchasePrice": "20",
+      "ghostConsole": false,
+      "aliases": "Atari 5200 SuperSystem",
+      "storage": "",
+      "unit": "",
+      "howAcquired": "GameOver",
+      "createdAt": "08/08/2020 08:09 am",
+      "updatedAt": "08/08/2020 08:09 am",
+      "_id": "2406f3916d734a889cd664ca47970ef2"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platforms",
+        "method": "post",
+        "data": "fields name,alternative_name,generation,category,versions,versions.name;where id = 66;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer os9nzeue4nadwvl7gx4mw6lqw42ocr",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 86
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

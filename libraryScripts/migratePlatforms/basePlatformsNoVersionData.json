@@ -1,0 +1,101 @@
+[
+  {
+    "id": 18,
+    "alternative_name": "NES",
+    "category": "console",
+    "generation": 3,
+    "name": "Nintendo Entertainment System (NES)",
+    "versions": [
+      {
+        "id": 53,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 06:12 am",
+    "_id": "1343eca79c06413fb6e0fca80a31ac1b",
+    "howAcquired": "Brandy's friend from BCBS",
+    "updatedAt": "01/03/2021 09:04 am"
+  },
+  {
+    "id": 130,
+    "alternative_name": "NX",
+    "category": "console",
+    "generation": 8,
+    "name": "Nintendo Switch",
+    "versions": [
+      {
+        "id": 173,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Excellent",
+    "box": true,
+    "manual": false,
+    "mods": "",
+    "notes": "128GB micro SD",
+    "datePurchased": "12/01/2017",
+    "pricePaid": 300,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:01 am",
+    "_id": "c8302a06508146169fac09d1ef884b58",
+    "howAcquired": "GameStop",
+    "updatedAt": "01/03/2021 09:04 am"
+  },
+  {
+    "id": 5,
+    "alternative_name": "Revolution",
+    "category": "console",
+    "generation": 7,
+    "name": "Wii",
+    "versions": [
+      {
+        "id": 72,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "Softmodded to play backups",
+    "notes": "320GB external HD; Hooked up in Soli's room; backwards compatibility with Wii U in living room",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:03 am",
+    "_id": "52a63477f2ee433a8286944774d83ac5",
+    "howAcquired": "GameStop",
+    "updatedAt": "01/03/2021 09:04 am"
+  },
+  {
+    "id": 23,
+    "category": "console",
+    "generation": 6,
+    "name": "Dreamcast",
+    "versions": [
+      {
+        "id": 16,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "replaced clock battery with battery cradle and rechargeable battery",
+    "notes": "early model that plays burned games",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:10 am",
+    "_id": "0d22e5c6f72241cf8c41a84a86877e75",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:04 am"
+  }
+]

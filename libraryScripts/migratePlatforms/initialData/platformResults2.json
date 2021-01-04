@@ -1,0 +1,321 @@
+[
+  {
+    "id": 4,
+    "alternative_name": "N64",
+    "category": "console",
+    "generation": 5,
+    "name": "Nintendo 64",
+    "versions": [
+      {
+        "id": 51,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "currently broken; hooked up in bedroom",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 06:13 am",
+    "_id": "8cd8571a0feb4145b951dab463e5a877",
+    "howAcquired": "retro store in WF",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 41,
+    "category": "console",
+    "generation": 8,
+    "name": "Wii U",
+    "versions": [
+      {
+        "id": 73,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Excellent",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": 300,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:04 am",
+    "_id": "331ff6868757437d85683b3245c2b455",
+    "howAcquired": "GameStop",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 30,
+    "category": "console",
+    "generation": 4,
+    "name": "Sega 32X",
+    "versions": [
+      {
+        "id": 61,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "completely disassembled and cleaned thoroughly",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:09 am",
+    "_id": "1a03f61b3dd14e6b975fedae24f1b721",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 32,
+    "alternative_name": "JVC Saturn, Hi-Saturn, Samsung Saturn, V-Saturn",
+    "category": "console",
+    "generation": 5,
+    "name": "Sega Saturn",
+    "versions": [
+      {
+        "id": 65,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": 75,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:10 am",
+    "_id": "9811f50834d2490f8fe973cb98f90db1",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 11,
+    "category": "console",
+    "generation": 6,
+    "name": "Xbox",
+    "versions": [
+      {
+        "id": 77,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "removed clock capacitor and cleaned up acid; replaced thermal paste with Artic Silver; replaced fan with 70mm Nexus fan",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:19 am",
+    "_id": "629262734d8a4d28a73c72e91233412b",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 12,
+    "alternative_name": "xbx360",
+    "category": "console",
+    "generation": 7,
+    "name": "Xbox 360",
+    "versions": [
+      {
+        "id": 2,
+        "name": "Xbox 360 Elite"
+      }
+    ],
+    "condition": "Other",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "model E slim",
+    "datePurchased": "03/23/2019",
+    "pricePaid": 10,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:20 am",
+    "_id": "2bf06c56d6f54b66a7f0f60aa76a8b20",
+    "howAcquired": "backwards compatibility",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 7,
+    "category": "console",
+    "generation": 5,
+    "name": "PlayStation",
+    "versions": [
+      {
+        "id": 57,
+        "name": "PlayStation 1"
+      }
+    ],
+    "condition": "Other",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "SCPH-7501",
+    "datePurchased": "05/18/2019",
+    "pricePaid": 40,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:22 am",
+    "_id": "d25ba05a682741e5beb261c1a9f7c219",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 8,
+    "alternative_name": "PS2",
+    "category": "console",
+    "generation": 6,
+    "name": "PlayStation 2",
+    "versions": [
+      {
+        "id": 114,
+        "name": "Slimline"
+      }
+    ],
+    "condition": "Fair",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:22 am",
+    "_id": "0237e9b6778549e186238ed4182eb0de",
+    "howAcquired": "given from Mom",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 33,
+    "category": "portable console",
+    "generation": 4,
+    "name": "Game Boy",
+    "versions": [
+      {
+        "id": 39,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Other",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "backwards compatibility on both the Game Boy Player for GameCube and the Game Boy Advance SP",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": true,
+    "createdAt": "01/07/2019 07:33 am",
+    "_id": "dec879634f5e41ea874ea57ed27c7edb",
+    "howAcquired": null,
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 6,
+    "alternative_name": "mswin",
+    "category": "operating system",
+    "name": "PC (Microsoft Windows)",
+    "versions": [
+      {
+        "id": 124,
+        "name": "Windows 10"
+      }
+    ],
+    "condition": "Excellent",
+    "box": true,
+    "manual": false,
+    "mods": "RTX 3090 FE; Ryzen 7 3800X; 2TB m.2 NVME SSD; 1TB 2.5\" SSD; 32GB RAM 3600MHz; ASUS Prime X570-Pro mobo",
+    "notes": "Playing on a 32 inch Asus 1440p 144Hz 1ms monitor",
+    "datePurchased": "06/27/2019",
+    "pricePaid": 2500,
+    "ghostConsole": false,
+    "createdAt": "02/01/2020 06:43 am",
+    "_id": "a1de4a91c4e04a4cb8ace611c4eff65b",
+    "howAcquired": "Amazon",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 37,
+    "alternative_name": "3DS",
+    "category": "portable console",
+    "generation": 8,
+    "name": "Nintendo 3DS",
+    "versions": [
+      {
+        "id": 50,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Excellent",
+    "box": true,
+    "manual": false,
+    "mods": "",
+    "notes": "Special Edition Zelda (black) CIB",
+    "datePurchased": "02/22/2020",
+    "pricePaid": 160,
+    "ghostConsole": false,
+    "createdAt": "02/22/2020 06:43 pm",
+    "_id": "3a5e8a117ae241558a7b76b2f7a4fc67",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 60,
+    "alternative_name": "Atari 7800 ProSystem",
+    "category": "console",
+    "generation": 3,
+    "name": "Atari 7800",
+    "versions": [
+      {
+        "id": 26,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "Capacitor replacement; composite video mod",
+    "notes": "Given for free from Game Over as anniversary gift. ",
+    "datePurchased": "07/24/2020",
+    "pricePaid": 0,
+    "ghostConsole": false,
+    "createdAt": "07/25/2020 07:35 am",
+    "_id": "7c459ded0cf542e78ac2bca787a64964",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  },
+  {
+    "id": 66,
+    "alternative_name": "Atari 5200 SuperSystem",
+    "category": "console",
+    "generation": 2,
+    "name": "Atari 5200",
+    "versions": [
+      {
+        "id": 25,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "Power mod installed to bypass need for switchbox",
+    "notes": "",
+    "datePurchased": "08/07/2020",
+    "pricePaid": 20,
+    "ghostConsole": false,
+    "createdAt": "08/08/2020 08:09 am",
+    "_id": "2406f3916d734a889cd664ca47970ef2",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:13 am"
+  }
+]

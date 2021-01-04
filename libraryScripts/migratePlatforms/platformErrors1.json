@@ -1,0 +1,224 @@
+[
+  {
+    "platform": {
+      "id": 18,
+      "alternative_name": "NES",
+      "category": "console",
+      "generation": 3,
+      "name": "Nintendo Entertainment System (NES)",
+      "versions": [
+        {
+          "id": 53,
+          "name": "Initial version"
+        }
+      ],
+      "condition": "Good",
+      "box": false,
+      "manual": false,
+      "mods": "",
+      "notes": "",
+      "datePurchased": null,
+      "pricePaid": null,
+      "ghostConsole": false,
+      "createdAt": "11/16/2018 06:12 am",
+      "_id": "1343eca79c06413fb6e0fca80a31ac1b",
+      "howAcquired": "Brandy's friend from BCBS",
+      "updatedAt": "01/03/2021 09:04 am"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platform_versions",
+        "method": "post",
+        "data": "fields connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output;where id = 53;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5cyycb5rnoqbve6gqceqq7tc8flohk",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 217
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "id": 5,
+      "alternative_name": "Revolution",
+      "category": "console",
+      "generation": 7,
+      "name": "Wii",
+      "versions": [
+        {
+          "id": 72,
+          "name": "Initial version"
+        }
+      ],
+      "condition": "Good",
+      "box": false,
+      "manual": false,
+      "mods": "Softmodded to play backups",
+      "notes": "320GB external HD; Hooked up in Soli's room; backwards compatibility with Wii U in living room",
+      "datePurchased": null,
+      "pricePaid": null,
+      "ghostConsole": false,
+      "createdAt": "11/16/2018 08:03 am",
+      "_id": "52a63477f2ee433a8286944774d83ac5",
+      "howAcquired": "GameStop",
+      "updatedAt": "01/03/2021 09:04 am"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platform_versions",
+        "method": "post",
+        "data": "fields connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output;where id = 72;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5cyycb5rnoqbve6gqceqq7tc8flohk",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 217
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "id": 23,
+      "category": "console",
+      "generation": 6,
+      "name": "Dreamcast",
+      "versions": [
+        {
+          "id": 16,
+          "name": "Initial version"
+        }
+      ],
+      "condition": "Good",
+      "box": false,
+      "manual": false,
+      "mods": "replaced clock battery with battery cradle and rechargeable battery",
+      "notes": "early model that plays burned games",
+      "datePurchased": null,
+      "pricePaid": null,
+      "ghostConsole": false,
+      "createdAt": "11/16/2018 08:10 am",
+      "_id": "0d22e5c6f72241cf8c41a84a86877e75",
+      "howAcquired": "GameOver",
+      "updatedAt": "01/03/2021 09:04 am"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platform_versions",
+        "method": "post",
+        "data": "fields connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output;where id = 16;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5cyycb5rnoqbve6gqceqq7tc8flohk",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 217
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  },
+  {
+    "platform": {
+      "id": 59,
+      "category": "console",
+      "generation": 2,
+      "name": "Atari 2600",
+      "versions": [
+        {
+          "id": 24,
+          "name": "Initial version"
+        }
+      ],
+      "condition": "Good",
+      "box": false,
+      "manual": false,
+      "mods": "capacitors replaced; composite video mod",
+      "notes": "",
+      "datePurchased": "11/28/2019",
+      "pricePaid": 40,
+      "ghostConsole": false,
+      "createdAt": "11/30/2019 07:54 am",
+      "_id": "f1b51917929d4bc4ba0852556ccbe72c",
+      "howAcquired": "GameOver",
+      "updatedAt": "01/03/2021 09:17 am"
+    },
+    "error": {
+      "message": "Request failed with status code 429",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 429\n    at createError (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/games-library/node_modules/axios/lib/adapters/http.js:244:11)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/platform_versions",
+        "method": "post",
+        "data": "fields connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output;where id = 24;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer 5cyycb5rnoqbve6gqceqq7tc8flohk",
+          "User-Agent": "axios/0.21.0",
+          "Content-Length": 217
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

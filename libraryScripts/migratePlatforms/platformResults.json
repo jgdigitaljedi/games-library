@@ -1,0 +1,141 @@
+[
+  {
+    "id": 18,
+    "alternative_name": "NES",
+    "category": "console",
+    "generation": 3,
+    "name": "Nintendo Entertainment System (NES)",
+    "versions": [
+      {
+        "id": 53,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 06:12 am",
+    "_id": "1343eca79c06413fb6e0fca80a31ac1b",
+    "howAcquired": "Brandy's friend from BCBS",
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Ricoh 2A03 at 1.79 MHz",
+    "media": "Nintendo Entertainment System Game Pak",
+    "memory": "2 KiB",
+    "output": "RF, composite",
+    "os": null,
+    "logo": "pl6c",
+    "releaseDate": {
+      "date": "Invalid date",
+      "region": "Europe"
+    }
+  },
+  {
+    "id": 130,
+    "alternative_name": "NX",
+    "category": "console",
+    "generation": 8,
+    "name": "Nintendo Switch",
+    "versions": [
+      {
+        "id": 173,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Excellent",
+    "box": true,
+    "manual": false,
+    "mods": "",
+    "notes": "128GB micro SD",
+    "datePurchased": "12/01/2017",
+    "pricePaid": 300,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:01 am",
+    "_id": "c8302a06508146169fac09d1ef884b58",
+    "howAcquired": "GameStop",
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Custom NVIDIA Tegra",
+    "media": "Nintendo Switch Game Card, microSD Card",
+    "memory": "4GB LPDDR4",
+    "output": "HDMI, 3.5mm headphone jack, DisplayPort over USB-C (internal)",
+    "os": "Nintendo Switch system software",
+    "logo": "pl6b",
+    "releaseDate": {
+      "date": "03/03/2017",
+      "region": "Worldwide"
+    }
+  },
+  {
+    "id": 5,
+    "alternative_name": "Revolution",
+    "category": "console",
+    "generation": 7,
+    "name": "Wii",
+    "versions": [
+      {
+        "id": 72,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "Softmodded to play backups",
+    "notes": "320GB external HD; Hooked up in Soli's room; backwards compatibility with Wii U in living room",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:03 am",
+    "_id": "52a63477f2ee433a8286944774d83ac5",
+    "howAcquired": "GameStop",
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "IBM PowerPC ''Broadway'' @ 729 MHz",
+    "media": "Nintendo Wii optical disc, Nintendo GameCube game disc",
+    "memory": "80 MB",
+    "output": "composite, S-Video, YPbPr component",
+    "os": "Wii System Software",
+    "logo": "pl70",
+    "releaseDate": {
+      "date": "12/08/2006",
+      "region": "Europe"
+    }
+  },
+  {
+    "id": 23,
+    "category": "console",
+    "generation": 6,
+    "name": "Dreamcast",
+    "versions": [
+      {
+        "id": 16,
+        "name": "Initial version"
+      }
+    ],
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "replaced clock battery with battery cradle and rechargeable battery",
+    "notes": "early model that plays burned games",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": false,
+    "createdAt": "11/16/2018 08:10 am",
+    "_id": "0d22e5c6f72241cf8c41a84a86877e75",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Hitachi SH4 32-bit RISC @ 200 MHz",
+    "media": "CD, 1.2 GB GD-ROM",
+    "memory": "16 MB",
+    "output": null,
+    "os": null,
+    "logo": "pl7i",
+    "releaseDate": {
+      "date": "10/14/1999",
+      "region": "Europe"
+    }
+  }
+]

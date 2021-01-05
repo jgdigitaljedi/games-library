@@ -91,7 +91,7 @@ function getReleaseDate(dates) {
         const ordered = regionKeys.map(key => _find(dates, (d) => d.region == key)).filter(d => d);
         console.log('ordered', ordered);
         if (ordered && ordered.length > 0) {
-            return {date: moment(ordered[0].human, 'MMM DD, YYYY').format('MM/DD/YYYY'), region: preferredRegionIds[ordered[0].region]};
+            return {date: ordered[0].human, region: preferredRegionIds[ordered[0].region]};
         } else {
             return null;
         }
@@ -121,7 +121,7 @@ async function getNewData(platform) {
                         formatted.output = item.output ? item.output : null;
                         formatted.os = item.os ? item.os : null;
                         formatted.logo = item.platform_logo && item.platform_logo.image_id ? item.platform_logo.image_id : null;
-                        formatted.releaseDate = getReleaseDate(item.platform_version_release_dates);
+                        formatted.releaseDate = item.platform_version_release_dates;
                         const combined = { ...platform, ...formatted };
                         resolve(combined);
                     } else {

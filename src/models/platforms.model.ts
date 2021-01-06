@@ -24,7 +24,7 @@ interface IGBConsole {
   original_price: string;
 }
 
-export interface IConsole {
+export interface IConsoleOld {
   igdb: IIgdbConsole;
   gb: IGBConsole;
   condition: string;
@@ -45,4 +45,48 @@ export interface IConsole {
   name?: string;
   newDatePurchased?: Date;
   _id: string;
+}
+
+export type Category = 'console' | 'operating_system' | 'arcade' | 'platform' | 'portable_console' | 'computer';
+
+export type Condition = 'Excellent' | 'Good' | 'Fair' | 'Rough' | 'Not Working/No Physical Damage' |
+    'Working/Physical Damage' | 'Not Working/Physical Damage' | 'Partially Working' | 'Other';
+
+export interface IConsoleVersion {
+  id: number;
+  name: string;
+}
+
+export interface IConsoleDate {
+  date: string;
+  region: string;
+}
+
+export interface IConsole {
+  id: number;
+  alternative_name: string;
+  category: Category;
+  generation: number;
+  name: string;
+  versions: IConsoleVersion;
+  condition: Condition;
+  box: boolean;
+  manual: boolean;
+  mods: string;
+  notes: string;
+  datePurchased: string | null;
+  pricePaid: number | null;
+  ghostConsole: boolean;
+  createdAt: string;
+  _id: string; // diskDB id so never change it
+  howAcquired: string;
+  updatedAt: string;
+  cpu: string | null;
+  media: string | null;
+  memory: string | null;
+  output: string | null;
+  os: string | null;
+  logo: string | null;
+  releaseDate: IConsoleDate;
+  newDatePurchased?: Date;
 }

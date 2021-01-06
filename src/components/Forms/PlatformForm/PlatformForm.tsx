@@ -82,18 +82,9 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
             <label htmlFor="aliases">Aliases</label>
             <InputText
               id="aliases"
-              value={platformForm?.aliases}
+              value={platformForm?.alternative_name}
               onChange={userChange}
               attr-which="aliases"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="company">Company</label>
-            <InputText
-              id="company"
-              value={platformForm?.gb?.company}
-              onChange={userChange}
-              attr-which="company"
             />
           </div>
           <div className="crud-form--form__row">
@@ -121,34 +112,16 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
             <label htmlFor="box">Box</label>
             <InputSwitch
               id="box"
-              checked={platformForm?.box === 'true'}
+              checked={platformForm?.box}
               onChange={userChange}
               attr-which="box"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="originalPrice">Launch Price</label>
-            <InputText
-              id="originalPrice"
-              value={'$' + platformForm?.gb?.original_price}
-              onChange={userChange}
-              attr-which="originalPrice"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="installBase">Units Sold</label>
-            <InputText
-              id="installBase"
-              value={platformForm?.gb?.install_base}
-              onChange={userChange}
-              attr-which="installBase"
             />
           </div>
           <div className="crud-form--form__row">
             <label htmlFor="pricePaid">Price Paid</label>
             <InputText
               id="pricePaid"
-              value={platformForm?.purchasePrice}
+              value={platformForm?.pricePaid || 0}
               onChange={userChange}
               attr-which="pricePaid"
               type="number"
@@ -168,7 +141,7 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
             <label htmlFor="onlineSupport">Online Support</label>
             <InputSwitch
               id="onlineSupport"
-              checked={platformForm?.gb?.online_support}
+              checked={platformForm?.connectivity}
               onChange={userChange}
               attr-which="onlineSupport"
             />

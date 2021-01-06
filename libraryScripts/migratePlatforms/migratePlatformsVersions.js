@@ -121,6 +121,7 @@ async function getNewData(platform) {
                         formatted.output = item.output ? item.output : null;
                         formatted.os = item.os ? item.os : null;
                         formatted.logo = item.platform_logo && item.platform_logo.image_id ? item.platform_logo.image_id : null;
+                        formatted.connectivity = item.connectivity ? item.connectivity : null;
                         formatted.releaseDate = item.platform_version_release_dates;
                         const combined = { ...platform, ...formatted };
                         resolve(combined);

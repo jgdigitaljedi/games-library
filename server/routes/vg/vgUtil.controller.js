@@ -5,33 +5,10 @@ const _flatten = require('lodash/flatten');
 const _uniqBy = require('lodash/uniqBy');
 
 module.exports.getPlatformArray = (req, res) => {
-  // const games = gamesCrud.getGames();
-  // if (games && games.length > 1) {
-  //   const newPlatforms = _sortBy(
-  //     _flatten(games.map((d) => d.consoleName || null).filter((d) => d))
-  //       .reduce((acc, g) => {
-  //         if (!acc) {
-  //           acc = [];
-  //         }
-  //         if (acc && acc.indexOf(g) === -1 && g) {
-  //           acc.push(g);
-  //         }
-  //         return acc;
-  //       }, [])
-  //       .map((g) => {
-  //         return { label: g, value: g };
-  //       }),
-  //     'label'
-  //   );
-  //   // newPlatforms.unshift({ label: 'NOT SET', value: '' });
-  //   res.json(newPlatforms);
-  // } else {
-  //   res.json([]);
-  // }
   try {
     const platforms = platformsCrud.getPlatforms();
     const formatted = _sortBy(
-      platforms.map((p) => ({ label: p.igdb.name, value: p.igdb.name })),
+      platforms.map((p) => ({ label: p.name, value: p.name })),
       'label'
     );
     res.json(formatted);
@@ -47,7 +24,7 @@ module.exports.getPlatformsWithId = (req, res) => {
     const platformsArr = _sortBy(
       _uniqBy(
         platforms.map((p) => {
-          return { name: p.igdb.name, id: p.igdb.id };
+          return { name: p.name, id: p.id };
         }),
         'name'
       ),

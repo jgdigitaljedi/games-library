@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const _cloneDeep = require('lodash/cloneDeep');
 
 const games = require('../../../../db/games.json');
-const platforms = require('../../../../db/consoles.json');
+const platforms = require('../../../../../libraryScripts/backup/consoles.json');
 const accessories = require('../../../../db/gameAcc.json');
 const collectibles = require('../../../../db/collectibles.json');
 const clones = require('../../../../db/clones.json');

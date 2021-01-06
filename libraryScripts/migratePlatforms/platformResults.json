@@ -22,7 +22,41 @@
     "createdAt": "11/16/2018 06:12 am",
     "_id": "1343eca79c06413fb6e0fca80a31ac1b",
     "howAcquired": "Brandy's friend from BCBS",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Ricoh 2A03 at 1.79 MHz",
+    "media": "Nintendo Entertainment System Game Pak",
+    "memory": "2 KiB",
+    "output": "RF, composite",
+    "os": null,
+    "logo": "pl6c",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 195,
+        "human": "Oct 18, 1985",
+        "region": 2
+      },
+      {
+        "id": 196,
+        "human": "Aug 18, 1985",
+        "region": 8
+      },
+      {
+        "id": 197,
+        "human": "Jul 15, 1983",
+        "region": 5
+      },
+      {
+        "id": 198,
+        "human": "Q1 1987",
+        "region": 3
+      },
+      {
+        "id": 199,
+        "human": "Q1 1987",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 21,
@@ -47,7 +81,36 @@
     "createdAt": "11/16/2018 06:21 am",
     "_id": "1a7b00def376463585fe59f1fda26c22",
     "howAcquired": "Xmas 2003 from mom",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "IBM PowerPC ''Gekko'' @ 485 MHz",
+    "media": "Nintendo GameCube game disc",
+    "memory": "24MB",
+    "output": "Composite, S-Video, YPbPr component, RGB component (Japan only)",
+    "os": "Dolphin OS",
+    "logo": "pl7a",
+    "connectivity": "Nintendo GameCube Broadband Adapter",
+    "releaseDate": [
+      {
+        "id": 48,
+        "human": "Sep 14, 2001",
+        "region": 5
+      },
+      {
+        "id": 49,
+        "human": "Nov 18, 2001",
+        "region": 2
+      },
+      {
+        "id": 51,
+        "human": "May 17, 2002",
+        "region": 3
+      },
+      {
+        "id": 179,
+        "human": "May 03, 2002",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 130,
@@ -72,7 +135,21 @@
     "createdAt": "11/16/2018 08:01 am",
     "_id": "c8302a06508146169fac09d1ef884b58",
     "howAcquired": "GameStop",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Custom NVIDIA Tegra",
+    "media": "Nintendo Switch Game Card, microSD Card",
+    "memory": "4GB LPDDR4",
+    "output": "HDMI, 3.5mm headphone jack, DisplayPort over USB-C (internal)",
+    "os": "Nintendo Switch system software",
+    "logo": "pl6b",
+    "connectivity": "802.11 a/b/g/n/ac, Bluetooth 4.0 (TV Mode Only), 2x USB 3.0, 1x USB 2.0, 1x USB-C, HDMI",
+    "releaseDate": [
+      {
+        "id": 217,
+        "human": "Mar 03, 2017",
+        "region": 8
+      }
+    ]
   },
   {
     "id": 24,
@@ -97,7 +174,14 @@
     "createdAt": "11/16/2018 08:07 am",
     "_id": "c5fbf6f5e5cf48ea99b889bcc53691fd",
     "howAcquired": "bought from Chris",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
+    "os": null,
+    "logo": "pl7x",
+    "connectivity": null
   },
   {
     "id": 38,
@@ -122,7 +206,41 @@
     "createdAt": "11/16/2018 08:28 am",
     "_id": "ddb798ef66664588a4b7f51599ed9639",
     "howAcquired": "bought from Kershawna",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "MIPS R4000",
+    "media": "Universal Media Disc, digital distribution",
+    "memory": "32 MB eDRAM",
+    "output": null,
+    "os": "PlayStation Portable system software",
+    "logo": "pl6q",
+    "connectivity": "Wi-Fi 802.11b, IrDA",
+    "releaseDate": [
+      {
+        "id": 69,
+        "human": "Dec 12, 2004",
+        "region": 5
+      },
+      {
+        "id": 70,
+        "human": "Mar 24, 2005",
+        "region": 2
+      },
+      {
+        "id": 71,
+        "human": "Sep 01, 2005",
+        "region": 1
+      },
+      {
+        "id": 334,
+        "human": "Sep 01, 2005",
+        "region": 7
+      },
+      {
+        "id": 335,
+        "human": "Sep 01, 2005",
+        "region": 3
+      }
+    ]
   },
   {
     "id": 20,
@@ -147,7 +265,36 @@
     "createdAt": "11/21/2018 03:42 pm",
     "_id": "91f5e5cea81b4c5dafca9ab9f4827822",
     "howAcquired": "Solis sold to me",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "67 MHz ARM9 and 33 MHz ARM7",
+    "media": "Nintendo DS Game Card, Game Boy Advance Cartridge",
+    "memory": "4 MB RAM, 256 KB flash memory",
+    "output": "Terminals for stereo headphones and a microphone.",
+    "os": null,
+    "logo": "pdn0g4fyks0y1v2ckzws",
+    "connectivity": "Wi-Fi",
+    "releaseDate": [
+      {
+        "id": 225,
+        "human": "Mar 02, 2006",
+        "region": 5
+      },
+      {
+        "id": 226,
+        "human": "Jun 01, 2006",
+        "region": 3
+      },
+      {
+        "id": 227,
+        "human": "Jun 11, 2006",
+        "region": 2
+      },
+      {
+        "id": 228,
+        "human": "Jun 23, 2006",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 22,
@@ -171,7 +318,36 @@
     "createdAt": "01/07/2019 07:33 am",
     "_id": "3c056a8b4492443592f146ef227ea951",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Sharp LR35902 @ 8 MHz",
+    "media": "Game Boy Cartridge",
+    "memory": "32 KB",
+    "output": null,
+    "os": null,
+    "logo": "pl7l",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 85,
+        "human": "Oct 21, 1998",
+        "region": 5
+      },
+      {
+        "id": 86,
+        "human": "Nov 18, 1998",
+        "region": 2
+      },
+      {
+        "id": 87,
+        "human": "Nov 23, 1998",
+        "region": 1
+      },
+      {
+        "id": 88,
+        "human": "Nov 27, 1998",
+        "region": 3
+      }
+    ]
   },
   {
     "id": 86,
@@ -195,7 +371,31 @@
     "createdAt": "09/13/2019 08:56 pm",
     "_id": "dc21427b69464b50b2206acca6308a08",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:04 am"
+    "updatedAt": "01/03/2021 09:04 am",
+    "cpu": "Hudson Soft HuC6280",
+    "media": null,
+    "memory": null,
+    "output": null,
+    "os": null,
+    "logo": "pl88",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 144,
+        "human": "Oct 30, 1987",
+        "region": 5
+      },
+      {
+        "id": 145,
+        "human": "Aug 29, 1989",
+        "region": 2
+      },
+      {
+        "id": 146,
+        "human": "1990",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 41,
@@ -219,7 +419,31 @@
     "createdAt": "11/16/2018 08:04 am",
     "_id": "331ff6868757437d85683b3245c2b455",
     "howAcquired": "GameStop",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": "1,24 GHz Tri-Core IBM PowerPC ''Espresso''",
+    "media": "Wii U and Wii optical discs.",
+    "memory": "2 GB DDR3 @ 1600MHz",
+    "output": "Composite, S-Video, YPbPr component, RGB SCART, D-Terminal, HDMI",
+    "os": "Wii U OS",
+    "logo": "pl6n",
+    "connectivity": "Wi-Fi IEEE 802.11 b/g/n. Bluetooth 4,0 and 4x USB 2,0",
+    "releaseDate": [
+      {
+        "id": 40,
+        "human": "Nov 18, 2012",
+        "region": 2
+      },
+      {
+        "id": 41,
+        "human": "Nov 30, 2012",
+        "region": 1
+      },
+      {
+        "id": 42,
+        "human": "Dec 28, 2012",
+        "region": 5
+      }
+    ]
   },
   {
     "id": 30,
@@ -243,7 +467,31 @@
     "createdAt": "11/16/2018 08:09 am",
     "_id": "1a03f61b3dd14e6b975fedae24f1b721",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
+    "os": null,
+    "logo": "pl7r",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 356,
+        "human": "Nov 21, 1994",
+        "region": 2
+      },
+      {
+        "id": 357,
+        "human": "Dec 03, 1994",
+        "region": 5
+      },
+      {
+        "id": 358,
+        "human": "Jan 01, 1995",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 32,
@@ -268,7 +516,31 @@
     "createdAt": "11/16/2018 08:10 am",
     "_id": "9811f50834d2490f8fe973cb98f90db1",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": "Hitachi SH-2 @ 28,6 MHz",
+    "media": "Sega Saturn Cartridge",
+    "memory": "40 MB",
+    "output": null,
+    "os": null,
+    "logo": "hrmqljpwunky1all3v78",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 90,
+        "human": "Nov 22, 1994",
+        "region": 5
+      },
+      {
+        "id": 91,
+        "human": "May 11, 1995",
+        "region": 2
+      },
+      {
+        "id": 92,
+        "human": "Jul 08, 1995",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 11,
@@ -292,7 +564,31 @@
     "createdAt": "11/16/2018 08:19 am",
     "_id": "629262734d8a4d28a73c72e91233412b",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": "Custom 733 MHz Intel Pentium III ''Coppermine-based''",
+    "media": null,
+    "memory": "64 MB DDR SDRAM @ 200 MHz",
+    "output": null,
+    "os": "Custom (Based on Windows NT architecture and Windows XP",
+    "logo": "pl7e",
+    "connectivity": "100 Mbit Ethernet",
+    "releaseDate": [
+      {
+        "id": 30,
+        "human": "Nov 15, 2001",
+        "region": 2
+      },
+      {
+        "id": 31,
+        "human": "Feb 22, 2002",
+        "region": 5
+      },
+      {
+        "id": 32,
+        "human": "Feb 14, 2002",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 12,
@@ -317,7 +613,14 @@
     "createdAt": "11/16/2018 08:20 am",
     "_id": "2bf06c56d6f54b66a7f0f60aa76a8b20",
     "howAcquired": "backwards compatibility",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
+    "os": null,
+    "logo": "pl6z",
+    "connectivity": null
   },
   {
     "id": 7,
@@ -341,7 +644,36 @@
     "createdAt": "11/16/2018 08:22 am",
     "_id": "d25ba05a682741e5beb261c1a9f7c219",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": "MIPS R3051 @ 33,8688 MHz",
+    "media": "CD-ROM Discs, Playstation game disc",
+    "memory": null,
+    "output": "S-Video, Composite",
+    "os": null,
+    "logo": "pl7q",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 58,
+        "human": "Dec 03, 1994",
+        "region": 5
+      },
+      {
+        "id": 59,
+        "human": "Sep 09, 1995",
+        "region": 2
+      },
+      {
+        "id": 60,
+        "human": "Sep 29, 1995",
+        "region": 1
+      },
+      {
+        "id": 61,
+        "human": "Nov 15, 1995",
+        "region": 3
+      }
+    ]
   },
   {
     "id": 33,
@@ -365,7 +697,31 @@
     "createdAt": "01/07/2019 07:33 am",
     "_id": "dec879634f5e41ea874ea57ed27c7edb",
     "howAcquired": null,
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": "Sharp LR35902 @ 4,19 MHz",
+    "media": "Game Boy Cartridge",
+    "memory": "8 KB S-RAM",
+    "output": null,
+    "os": null,
+    "logo": "pl7n",
+    "connectivity": "2 Game Boys can be linked together via built-in serial ports, up to 4 with a DMG-07 4-player adapter. And 16 in maximum.",
+    "releaseDate": [
+      {
+        "id": 73,
+        "human": "Apr 21, 1989",
+        "region": 5
+      },
+      {
+        "id": 74,
+        "human": "Jul 31, 1989",
+        "region": 2
+      },
+      {
+        "id": 75,
+        "human": "Sep 28, 1990",
+        "region": 1
+      }
+    ]
   },
   {
     "id": 6,
@@ -389,7 +745,21 @@
     "createdAt": "02/01/2020 06:43 am",
     "_id": "a1de4a91c4e04a4cb8ace611c4eff65b",
     "howAcquired": "Amazon",
-    "updatedAt": "01/03/2021 09:13 am"
+    "updatedAt": "01/03/2021 09:13 am",
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
+    "os": null,
+    "logo": "irwvwpl023f8y19tidgq",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 168,
+        "human": "Jul 29, 2015",
+        "region": 8
+      }
+    ]
   },
   {
     "id": 78,
@@ -414,6 +784,40 @@
     "createdAt": "08/15/2019 08:33 pm",
     "_id": "54b66111132c4e74aa234b288909cce9",
     "howAcquired": "GameOver",
-    "updatedAt": "01/03/2021 09:17 am"
+    "updatedAt": "01/03/2021 09:17 am",
+    "cpu": "MC68000 @ 12.5 MHz",
+    "media": "CD-ROM, CD+G",
+    "memory": null,
+    "output": null,
+    "os": null,
+    "logo": "pl7w",
+    "connectivity": null,
+    "releaseDate": [
+      {
+        "id": 21,
+        "human": "Dec 01, 1991",
+        "region": 5
+      },
+      {
+        "id": 22,
+        "human": "Oct 15, 1992",
+        "region": 2
+      },
+      {
+        "id": 23,
+        "human": "Apr 19, 1993",
+        "region": 1
+      },
+      {
+        "id": 24,
+        "human": "Apr 19, 1993",
+        "region": 3
+      },
+      {
+        "id": 25,
+        "human": "Apr 19, 1993",
+        "region": 4
+      }
+    ]
   }
 ]

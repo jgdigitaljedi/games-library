@@ -13,7 +13,7 @@ import { Calendar } from 'primereact/calendar';
 import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
 import { AutoComplete } from 'primereact/autocomplete';
-import { cloneDeep as _cloneDeep, set as _set } from 'lodash';
+import { cloneDeep as _cloneDeep, set as _set, find as _find } from 'lodash';
 import HelpersService from '../../../services/helpers.service';
 import { handleChange } from '@/services/forms.service';
 import {igdbGameSearch, saveGame} from '@/services/gamesCrud.service';
@@ -128,9 +128,25 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
 
   const updateGame = useCallback(() => {
     const gameCopy = _cloneDeep(gameForm as IGameEdit);
-    // @ts-ignore
-    gameCopy.datePurchased = moment(gameCopy.newDatePurchased).format('YYYY-MM-DD');
+
+
     const isPatch = isUpdate();
+    if (!isPatch) {
+      // @ts-ignore
+      gameCopy.datePurchased = moment(gameCopy.newDatePurchased).format('YYYY-MM-DD');
+      console.log('gameCopy', gameCopy);
+    }
+    if (!game.consoleName && searchPlatform) {
+      console.log('searchPlatform', searchPlatform);
+      console.log('platformIds', platformIdArr)
+      const platformName = _find(platformIdArr, p => p.value === searchPlatform);
+      console.log('platformName', platformName);
+      if (platformName) {
+        gameCopy.consoleName = platformName.label;
+      } else {
+        // @TODO: throw error
+      }
+    }
     console.log('isPatch', isPatch);
     saveGame(gameCopy, isPatch)
         .then(result => {
@@ -162,6 +178,17 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
       const gfCopy = _cloneDeep(gameForm);
       setGameForm(Object.assign(gfCopy, game));
     }
+  };
+
+  const platformSelected = (e: any): void => {
+    const gfCopy = _cloneDeep(gameForm);
+    if (gfCopy) {
+      const name = _find(platformIdArr, (p => p.value === e.value));
+      gfCopy.consoleName = name.label;
+      setGameForm(gfCopy);
+    }
+
+    setSearchPlatform(e.value);
   };
 
   useEffect(() => {
@@ -216,9 +243,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
                   className="search-field"
                   value={searchPlatform}
                   options={platformIdArr}
-                  onChange={(e) => {
-                    setSearchPlatform(e.value);
-                  }}
+                  onChange={platformSelected}
                   id="search-platform"
                   placeholder="Platform to search"
                   disabled={fuzzySearch}
@@ -255,7 +280,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             <InputText
               id="consoleName"
               value={gameForm?.consoleName}
-              onChange={userChange}
               attr-which="consoleName"
               readOnly
             />

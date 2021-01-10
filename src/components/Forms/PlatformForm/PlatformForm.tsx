@@ -79,12 +79,12 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="aliases">Aliases</label>
+            <label htmlFor="alternative_name">Aliases</label>
             <InputText
-              id="aliases"
+              id="alternative_name"
               value={platformForm?.alternative_name}
               onChange={userChange}
-              attr-which="aliases"
+              attr-which="alternative_name"
             />
           </div>
           <div className="crud-form--form__row">
@@ -138,30 +138,21 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="onlineSupport">Online Support</label>
-            <InputSwitch
-              id="onlineSupport"
-              checked={platformForm?.connectivity}
+            <label htmlFor="connectivity">Connectivity</label>
+            <InputText
+              id="connectivity"
+              value={platformForm?.connectivity}
               onChange={userChange}
-              attr-which="onlineSupport"
+              attr-which="connectivity"
             />
           </div>
           <div className="crud-form--form__row">
-            <label htmlFor="storage">Storage Space</label>
+            <label htmlFor="memory">Memory</label>
             <InputText
-              id="storage"
-              value={platformForm?.storage}
+              id="memory"
+              value={platformForm?.memory}
               onChange={userChange}
-              attr-which="storage"
-            />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="storageUnit">Storage Unit</label>
-            <InputText
-              id="storageUnit"
-              value={platformForm?.unit}
-              onChange={userChange}
-              attr-which="storageUnit"
+              attr-which="memory"
             />
           </div>
           <div className="crud-form--form__row">
@@ -196,8 +187,7 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
           </div>
         </form>
         <div className="crud-form--image-and-data">
-          {/* {platformForm?.igdb?.logo && <img src={platformForm?.igdb?.logo} alt="platform logo" />} */}
-          {platformForm?.gb?.image && <img src={platformForm?.gb?.image} alt="platform" />}
+          {platformForm?.logo && <img src={platformForm?.logo} alt="platform" />}
         </div>
       </div>
       <hr />

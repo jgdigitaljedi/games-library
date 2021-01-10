@@ -98,8 +98,8 @@ const ListView: FunctionComponent<IProps> = ({
         (data as Array<IConsole>).map((con: IConsole, index: number) => {
           return (
             <div className="list-view--row" onClick={(e) => rowClicked(e, con)} key={index}>
-              <img src={con.gb.image} alt={`${con.igdb.name} art`} />
-              <div className="list-view--row__cell item-name info-text">{con.igdb.name}</div>
+              <img src={con.logo || ''} alt={`${con.name} art`} />
+              <div className="list-view--row__cell item-name info-text">{con.name}</div>
               <div className="list-view--row__cell info-text">{getData(con)}</div>
             </div>
           );

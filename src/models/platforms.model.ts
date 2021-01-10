@@ -83,10 +83,11 @@ export interface IConsole {
   updatedAt: string;
   cpu: string | null;
   media: string | null;
-  memory: string | null;
+  memory: string;
   output: string | null;
   os: string | null;
-  logo: string | null;
+  logo: string | undefined;
   releaseDate: IConsoleDate;
+  connectivity: string;
   newDatePurchased?: Date;
 }

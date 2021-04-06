@@ -1,0 +1,37 @@
+[
+  {
+    "file": "gamecubeLoader.json",
+    "platformId": 21,
+    "platformName": "Nintendo GameCube",
+    "location": "downstairs",
+    "notes": "GCLoader installed in place of optical drive; output through Carby then mClassic"
+  },
+  {
+    "file": "megaEverdrive32xGames.json",
+    "platformId": 30,
+    "platformName": "Sega 32X",
+    "location": "upstairs",
+    "notes": "played through MegaEverdrive"
+  },
+  {
+    "file": "megaEverdriveGames.json",
+    "platformId": 29,
+    "platformName": "Sega Mega Drive/Genesis",
+    "location": "upstairs",
+    "notes": "played through MegaEverdrive"
+  },
+  {
+    "file": "turboEverdrive.json",
+    "platformId": 86,
+    "platformName": "TurboGrafx-16/PC Engine",
+    "location": "upstairs",
+    "notes": "played through TurboEverdrive"
+  },
+  {
+    "file": "ps2OPLgames.json",
+    "platformId": 8,
+    "platformName": "PS2",
+    "location": "upstairs",
+    "notes": "played through OPL Loader from 1TB HD installed in PS2"
+  }
+]

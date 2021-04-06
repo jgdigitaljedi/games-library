@@ -29,8 +29,8 @@
     "os": null,
     "logo": "pl6c",
     "releaseDate": {
-        "date": "10/18/1985",
-        "region": "North America"
+      "date": "10/18/1985",
+      "region": "North America"
     }
   },
   {
@@ -63,8 +63,8 @@
     "os": null,
     "logo": "ob1omu1he33vpulatqzv",
     "releaseDate": {
-        "date": "08/23/1991",
-        "region": "North America"
+      "date": "08/23/1991",
+      "region": "North America"
     }
   },
   {
@@ -97,8 +97,42 @@
     "os": "Dolphin OS",
     "logo": "pl7a",
     "releaseDate": {
-        "date": "11/18/2001",
-        "region": "North America"
+      "date": "11/18/2001",
+      "region": "North America"
+    }
+  },
+  {
+    "id": 21,
+    "alternative_name": "Dolphin",
+    "category": "console",
+    "generation": 6,
+    "name": "Nintendo GameCube",
+    "version": {
+      "id": 54,
+      "name": "Initial version"
+    },
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "replaced optical drive with GCLoader PnP; 256GB SD card; emulators through SD2SP2",
+    "notes": "output HDMI through Carby; mClassic upscaling and smoothing",
+    "datePurchased": "02/22/2021",
+    "pricePaid": 30,
+    "ghostConsole": false,
+    "createdAt": "04/06/2021 07:07 am",
+    "_id": "1a7b00def376463585fe59f1fda26c22",
+    "howAcquired": "GameOver",
+    "updatedAt": "01/03/2021 09:04 am",
+    "connectivity": "Nintendo GameCube Broadband Adapter",
+    "cpu": "IBM PowerPC ''Gekko'' @ 485 MHz",
+    "media": "Nintendo GameCube game disc",
+    "memory": "24MB",
+    "output": "Composite, S-Video, YPbPr component, RGB component (Japan only)",
+    "os": "Dolphin OS",
+    "logo": "pl7a",
+    "releaseDate": {
+      "date": "11/18/2001",
+      "region": "North America"
     }
   },
   {
@@ -131,8 +165,8 @@
     "os": "Nintendo Switch system software",
     "logo": "pl6b",
     "releaseDate": {
-        "date": "03/03/2017",
-        "region": "Worldwide"
+      "date": "03/03/2017",
+      "region": "Worldwide"
     }
   },
   {
@@ -165,8 +199,8 @@
     "os": "Wii System Software",
     "logo": "pl70",
     "releaseDate": {
-        "date": "11/19/2006",
-        "region": "North America"
+      "date": "11/19/2006",
+      "region": "North America"
     }
   },
   {
@@ -199,8 +233,8 @@
     "os": "Nintendo 3DS OS",
     "logo": "pl6o",
     "releaseDate": {
-        "date": "03/01/2011",
-        "region": "Wordlwide"
+      "date": "03/01/2011",
+      "region": "Wordlwide"
     }
   },
   {

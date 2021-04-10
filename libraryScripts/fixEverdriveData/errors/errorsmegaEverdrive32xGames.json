@@ -1,0 +1,293 @@
+[
+  {
+    "igdb": {
+      "genres": [
+        "Demo"
+      ],
+      "name": "sample program - celtic - pwm test",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "sample program - celtic - pwm test",
+    "consoleName": "Sega 32X",
+    "consoleIgdbId": 30,
+    "consoleGbid": 31,
+    "consoleGbGuid": "3045-31",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/16/2020 06:39 am",
+    "updatedAt": "05/16/2020 06:39 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ],
+    "id": "me321",
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Demo"
+      ],
+      "name": "ecco the dolphin cinepak demo",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "ecco the dolphin cinepak demo",
+    "consoleName": "Sega 32X",
+    "consoleIgdbId": 30,
+    "consoleGbid": 31,
+    "consoleGbGuid": "3045-31",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/16/2020 06:42 am",
+    "updatedAt": "05/16/2020 06:42 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ],
+    "id": "me3210",
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Simulator",
+        "Sport",
+        "Soccer"
+      ],
+      "name": "FIFA Soccer 96",
+      "id": 704,
+      "total_rating": 76,
+      "total_rating_count": 19,
+      "first_release_date": "09/29/1995",
+      "developers": "",
+      "esrb": "E",
+      "game_modes": [
+        1,
+        2
+      ]
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-14524",
+      "gbid": 14524,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2266511-box_fifa96.png",
+      "deck": "The third entry in EA Sports's long-running licensed soccer series. Features two distinct versions depending on whether the player has a 16-bit system or a 32-bit system.",
+      "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, Saturn, PC"
+    },
+    "name": "FIFA Soccer 96",
+    "consoleName": "Sega 32X",
+    "consoleIgdbId": 30,
+    "consoleGbid": 31,
+    "consoleGbGuid": "3045-31",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 2,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/16/2020 06:43 am",
+    "updatedAt": "05/16/2020 06:43 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ],
+    "id": "me3211",
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Demo"
+      ],
+      "name": "hot chick in vdp mode 2 by devster",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "hot chick in vdp mode 2 by devster",
+    "consoleName": "Sega 32X",
+    "consoleIgdbId": 30,
+    "consoleGbid": 31,
+    "consoleGbGuid": "3045-31",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/16/2020 06:43 am",
+    "updatedAt": "05/16/2020 06:43 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ],
+    "id": "me3212",
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Demo"
+      ],
+      "name": "picture magic boot cart",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "picture magic boot cart",
+    "consoleName": "Sega 32X",
+    "consoleIgdbId": 30,
+    "consoleGbid": 31,
+    "consoleGbGuid": "3045-31",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/16/2020 06:44 am",
+    "updatedAt": "05/16/2020 06:44 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ],
+    "id": "me3220",
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [],
+      "name": "sangokushi iv",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "sangokushi iv",
+    "consoleName": "Sega 32X",
+    "consoleIgdbId": 30,
+    "consoleGbid": 31,
+    "consoleGbGuid": "3045-31",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/16/2020 06:45 am",
+    "updatedAt": "05/16/2020 06:45 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ],
+    "id": "me3225",
+    "error": true
+  }
+]

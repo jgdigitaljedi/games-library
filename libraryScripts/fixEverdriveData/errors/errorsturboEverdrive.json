@@ -1,0 +1,461 @@
+[
+  {
+    "igdb": {
+      "name": "Davis Cup",
+      "id": 62580,
+      "genres": [
+        "Sport",
+        "Tennis"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Davis Cup World Tour",
+      "guid": "3030-18902",
+      "gbid": 18902,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1794839-davis.jpg",
+      "deck": "A tennis game from French developers Loriciel, named for the annual international team event. The game originated on the TurboGrafx-16 before moving to the Genesis.",
+      "platforms": "Genesis, TurboGrafx-CD, TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": 4,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Turbo EverDrive",
+    "createdAt": "02/01/2020 01:37 pm",
+    "updatedAt": "02/01/2020 01:37 pm",
+    "_id": "bf17ae0348ca47cb9cf944d2acbbc9de",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "name": "F-1 Pilot",
+      "id": 9999,
+      "genres": [],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-40763",
+      "gbid": 40763,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2382431-f_1_pilot_pce.jpg",
+      "deck": "A Formula 1 racing game from Pack-In-Video, developed for the PC Engine. It was never released outside of Japan.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Turbo EverDrive",
+    "createdAt": "02/01/2020 01:47 pm",
+    "updatedAt": "02/01/2020 01:47 pm",
+    "_id": "4109fb0dddbd4904a8fd818fa80a641c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "name": "Fire Pro Wrestling 2nd Bout",
+      "id": 38086,
+      "genres": [
+        "Fighting",
+        "Sport"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "08/29/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-55538",
+      "gbid": 55538,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2885595-6130989557-51730.jpg",
+      "deck": "Isometric wrestling game sequel for the PC Engine. The second Fire Pro game.",
+      "platforms": "TurboGrafx-16, Wii Shop"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Turbo EverDrive",
+    "createdAt": "02/01/2020 03:08 pm",
+    "updatedAt": "02/01/2020 03:08 pm",
+    "_id": "7dbf55357ac44c9395e66e9760ab6f7d",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "name": "Hit the Ice: The Official Video Hockey League",
+      "id": 42107,
+      "genres": [
+        "Sport",
+        "Hockey"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/31/1992",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-22324",
+      "gbid": 22324,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2364194-hit_the_ice__snes___na_.jpg",
+      "deck": "An over-the-top hockey arcade game by Williams that was later ported to consoles.",
+      "platforms": "Genesis, Super Nintendo Entertainment System, Nintendo Entertainment System, TurboGrafx-16, Arcade"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": 4,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Turbo EverDrive",
+    "createdAt": "02/01/2020 03:16 pm",
+    "updatedAt": "02/01/2020 03:16 pm",
+    "_id": "817b6df58f3e4111a96e0c316b4144a2",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "name": "OverRide",
+      "id": 9999,
+      "genres": [
+        "Shooter",
+        "SHMUP"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Last Battalion",
+      "guid": "3030-55421",
+      "gbid": 55421,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/2883300-5218822857-31593.jpg",
+      "deck": "A vertical-scrolling shoot 'em up for the Sharp X68000 and PC Engine. On the Sharp X68000, the game is known as Last Battalion.",
+      "platforms": "TurboGrafx-16, Wii Shop, Sharp X68000"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Turbo EverDrive",
+    "createdAt": "02/02/2020 07:18 am",
+    "updatedAt": "02/02/2020 07:18 am",
+    "_id": "328f70b639164dccbc0e6a7b7ead9ce7",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "name": "Super Volleyball",
+      "id": 46192,
+      "genres": [
+        "Sport",
+        "Volleyball"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "01/31/1991",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-34438",
+      "gbid": 34438,
+      "image": "https://www.giantbomb.com/api/image/scale_medium/1731252-svb.jpg",
+      "deck": "A volleyball game for the TurboGrafx-16, Sega Genesis, and Arcade. Unlike many volleyball games of this era, which depicts the whole court, Super Volleyball is on a single 2D plane. It also has four people per team instead of two, as per standard volleyball rules.",
+      "platforms": "Genesis, PlayStation 2, TurboGrafx-16, Arcade"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": 2,
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "Turbo EverDrive",
+    "createdAt": "02/02/2020 07:44 am",
+    "updatedAt": "02/02/2020 07:44 am",
+    "_id": "655b0922e0bf44858b9571563a883f6c",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [
+      "TurboGrafx-16 Multitap compatible title",
+      "TurboGrafx-16 simultaneous 2 player"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Super Volleyball",
+        "id": "tg1644",
+        "details": [
+          "TurboGrafx-16 Multitap compatible title",
+          "TurboGrafx-16 simultaneous 2 player"
+        ],
+        "igdbId": 46192,
+        "gbId": 34438,
+        "gbGuid": "3030-34438",
+        "special": [
+          {
+            "value": "TurboGrafx-16 Multitap compatible title, TurboGrafx-16 simultaneous 2 player",
+            "forPlatform": {
+              "name": "NEC TurboGrafx 16",
+              "id": "ccl33",
+              "igdbId": 86,
+              "gbId": 55,
+              "gbGuid": "3045-55",
+              "tgdbId": 34
+            }
+          }
+        ],
+        "isExclusive": false,
+        "isLaunchTitle": false
+      }
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "name": "Eternal City",
+      "id": 91920,
+      "genres": [
+        "Action",
+        "Platform"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-33335",
+      "gbid": 33335,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/2/23093/2883595-0103041908-51709.jpg",
+      "deck": "An action-platformer with interconnected zones from Naxat Soft. The designs are by Masamune Shirow. It was released only in Japan.",
+      "platforms": "TurboGrafx-16"
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:17 am",
+    "updatedAt": "05/01/2020 05:17 am",
+    "_id": "858e81c732a54d0db04ad4d7922a84d3",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "name": "Wonderboy in Monsterland",
+      "id": 37265,
+      "genres": [
+        "Platform",
+        "Role-playing (RPG)"
+      ],
+      "total_rating": "",
+      "total_rating_count": "",
+      "first_release_date": "10/29/1987",
+      "developers": "",
+      "esrb": "E"
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": "",
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "consoleName": "TurboGrafx-16/PC Engine",
+    "consoleIgdbId": 86,
+    "consoleGbid": 55,
+    "consoleGbGuid": "3045-55",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": "",
+    "cib": "",
+    "pirated": "",
+    "multiplayerNumber": "1",
+    "datePurchased": "",
+    "howAcquired": "",
+    "notes": "",
+    "createdAt": "05/01/2020 05:30 am",
+    "updatedAt": "05/01/2020 05:30 am",
+    "_id": "6400edba6b6e414d9eadb0bbad84d005",
+    "consoleArr": [
+      {
+        "consoleName": "TurboGrafx-16/PC Engine",
+        "consoleId": 86
+      }
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  }
+]

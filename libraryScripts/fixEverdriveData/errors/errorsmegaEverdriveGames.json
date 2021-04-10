@@ -1,0 +1,1145 @@
+[
+  {
+    "igdb": {
+      "genres": [
+        "Gambling",
+        "Strategy"
+      ],
+      "name": "Caesars Palace",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-1542",
+      "gbid": 1542,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3413/210730-caesars_palace.jpg",
+      "deck": "Caesars Palace brings the excitement of Las Vegas home.",
+      "platforms": "Game Boy, Game Gear, Genesis, Nintendo Entertainment System"
+    },
+    "name": "Caesars Palace",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/04/2020 06:10 am",
+    "updatedAt": "05/04/2020 06:10 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg119",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Sport"
+      ],
+      "name": "Chavez II",
+      "id": 46227,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "06/29/1994",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "Chavez II",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/04/2020 06:14 am",
+    "updatedAt": "05/04/2020 06:14 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg137",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [],
+      "name": "Classic Collection",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-58060",
+      "gbid": 58060,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/2917276-4376409014-69895.jpg",
+      "deck": "Four Genesis games on one cartridge. Released only in Europe.",
+      "platforms": "Genesis"
+    },
+    "name": "Classic Collection",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/04/2020 06:17 am",
+    "updatedAt": "05/04/2020 06:17 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg147",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Real Time Strategy (RTS)",
+        "Strategy"
+      ],
+      "name": "Command & Conquer",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "CnC, Tiberian Dawn, C&C",
+      "guid": "3030-4384",
+      "gbid": 4384,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/2130/184700-cncbox.jpg",
+      "deck": "Command &amp; Conquer is the first entry in the long running series of real-time strategy games.",
+      "platforms": "Mac, PlayStation, Saturn, Nintendo 64, PC"
+    },
+    "name": "Command & Conquer",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/04/2020 06:19 am",
+    "updatedAt": "05/04/2020 06:19 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg162",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Racing"
+      ],
+      "name": "ESPN Speedworld",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "ESPN Speed World",
+      "guid": "3030-33088",
+      "gbid": 33088,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2363815-snes_espnspeedworld.jpg",
+      "deck": "A 16-bit racing game based on the ESPN TV show of the same name. It resembles NASCAR but doesn't mention it by name due to licensing issues.",
+      "platforms": "Genesis, Super Nintendo Entertainment System"
+    },
+    "name": "ESPN Speedworld",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/04/2020 06:56 am",
+    "updatedAt": "05/04/2020 06:56 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg242",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [],
+      "name": "Exodus: Journey to the Promised Land",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-18094",
+      "gbid": 18094,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2361698-2361697-nes_exodus.jpg",
+      "deck": "Exodus: Journey to the Promised Land is an unlicensed game developed by Color Dreams, Inc. and published by Wisdom Tree, Inc. in 1991 for the Nintendo Entertainment System.",
+      "platforms": "Game Boy, Genesis, Nintendo Entertainment System, PC"
+    },
+    "name": "Exodus: Journey to the Promised Land",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/04/2020 06:58 am",
+    "updatedAt": "05/04/2020 06:58 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg258",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Arcade"
+      ],
+      "name": "Mick & Mack as the Global Gladiators",
+      "id": 4425,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "12/30/1993",
+      "developers": "",
+      "esrb": "",
+      "game_modes": [
+        1
+      ]
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "Mick & Mack as the Global Gladiators",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:25 am",
+    "updatedAt": "05/06/2020 06:25 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg492",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Platform",
+        "Adventure"
+      ],
+      "name": "The Misadventures of Flink",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-14756",
+      "gbid": 14756,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2370566-genesis_flink_eu_cropped.jpg",
+      "deck": "The evil wizard Wicked Wainwright has captured the four elders and it's up to Flink, a wizard's apprentice, to set them free.",
+      "platforms": "Genesis, Sega CD, Amiga CD32"
+    },
+    "name": "The Misadventures of Flink",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:28 am",
+    "updatedAt": "05/06/2020 06:28 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg507",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Platform"
+      ],
+      "name": "Monster World 4",
+      "id": 45596,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "04/30/1994",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "Wonder Boy VI\nMonster World 4",
+      "guid": "3030-3003",
+      "gbid": 3003,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/3017/351046-monster_world_iv_01.jpg",
+      "deck": "The fourth and final installment of the Monster World series.",
+      "platforms": "Genesis, Wii Shop, PlayStation Network (PS3)"
+    },
+    "name": "Monster World 4",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:28 am",
+    "updatedAt": "05/06/2020 06:28 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg509",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Sport",
+        "Basketball"
+      ],
+      "name": "NBA Showdown 94",
+      "id": 42481,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "01/30/1993",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "NBA Showdown 94",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:33 am",
+    "updatedAt": "05/06/2020 06:33 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg533",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Platform",
+        "Cinematic"
+      ],
+      "name": "Out of This World",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "Another World\r\nOuter World",
+      "guid": "3030-17483",
+      "gbid": 17483,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/8960/1907052-out_of_this_world_cover.jpg",
+      "deck": "A critically acclaimed \"cinematic platformer\" in which players control an unassuming young scientist trapped on an alien planet.",
+      "platforms": "Amiga, Game Boy Advance, Genesis, Super Nintendo Entertainment System, Atari ST, Mac, 3DO, Sega CD, Apple IIgs, PlayStation Network (PS3), PC, iPhone, Android, Nintendo 3DS eShop, Wii U, PlayStation Network (Vita), Xbox One, PlayStation 4, Linux, Ouya, Nintendo Switch"
+    },
+    "name": "Out of This World",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:41 am",
+    "updatedAt": "05/06/2020 06:41 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg571",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Sport",
+        "Baseball"
+      ],
+      "name": "R.B.I. Baseball '94",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-34381",
+      "gbid": 34381,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/78531/1727364-images.jpg",
+      "deck": "This was the 1994 version of the RBI Baseball Series. ",
+      "platforms": "Game Gear, Genesis"
+    },
+    "name": "R.B.I. Baseball '94",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:55 am",
+    "updatedAt": "05/06/2020 06:55 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg641",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Fighting",
+        "Racing",
+        "Arcade",
+        "Vehicular combat"
+      ],
+      "name": "Road Rash 3",
+      "id": 7703,
+      "total_rating": 80,
+      "total_rating_count": 12,
+      "first_release_date": "05/14/1995",
+      "developers": "",
+      "esrb": "E",
+      "game_modes": [
+        1,
+        4
+      ]
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-1253",
+      "gbid": 1253,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2371396-genesis_roadrash3.jpg",
+      "deck": "The Road Rash series continues with tracks from all over the world including the United Kingdom (The Isle of Man), Kenya and Germany. The traditional sprites are replaced with digizied characters giving the game a serious graphical step over its predecessors.",
+      "platforms": "Genesis"
+    },
+    "name": "Road Rash 3",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 1,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:59 am",
+    "updatedAt": "05/06/2020 06:59 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg662",
+    "isExclusive": [
+      {
+        "name": "Sega Mega Drive/Genesis",
+        "id": "ccl14",
+        "igdbId": 29,
+        "gbId": 6,
+        "gbGuid": "3045-6",
+        "tgdbId": 18
+      }
+    ],
+    "isLaunchTitle": false,
+    "extraData": [
+      "Sega Genesis exclusive"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Road Rash 3",
+        "details": [
+          "Sega Genesis exclusive"
+        ],
+        "id": "smd199",
+        "igdbId": 7703,
+        "gbId": 1253,
+        "gbGuid": "3030-1253",
+        "tgdbId": 4599,
+        "isExclusive": [
+          {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        ],
+        "isLaunchTitle": false,
+        "special": []
+      }
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Shooter",
+        "Arcade",
+        "SHMUP"
+      ],
+      "name": "Sagaia",
+      "id": 4468,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "12/19/1990",
+      "developers": "",
+      "esrb": "",
+      "game_modes": [
+        1,
+        2
+      ]
+    },
+    "gb": {
+      "aliases": "Darius II\nDarius 2",
+      "guid": "3030-25802",
+      "gbid": 25802,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2373855-genesis_sagaia.jpg",
+      "deck": "A horizontal shoot 'em up and the sequel to the original Darius. Known in Japan as Darius II, it was released in North America under the name Sagaia.",
+      "platforms": "Game Boy, Genesis, Sega Master System, Saturn, Arcade"
+    },
+    "name": "Sagaia",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": 2,
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 07:01 am",
+    "updatedAt": "05/06/2020 07:01 am",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg677",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Sport",
+        "Cricket"
+      ],
+      "name": "Shane Warne Cricket ",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "3030-57348",
+      "gbid": 57348,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/7/73970/2905623-shane_warne_cricket_genesis_au_1_1.jpg",
+      "deck": "The Australian version of the cricket game \"Brian Lara Cricket '96\".",
+      "platforms": "Genesis"
+    },
+    "name": "Shane Warne Cricket ",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 05:37 pm",
+    "updatedAt": "05/06/2020 05:37 pm",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg703",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Fighting"
+      ],
+      "name": "SoulBlade",
+      "id": 106710,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": ""
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "SoulBlade",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 05:43 pm",
+    "updatedAt": "05/06/2020 05:43 pm",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg741",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Party",
+        "Action",
+        "Shooter"
+      ],
+      "name": "Super Smash TV",
+      "id": 45598,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "01/31/1992",
+      "developers": "",
+      "esrb": "T"
+    },
+    "gb": {
+      "aliases": "",
+      "guid": "",
+      "gbid": 9999,
+      "image": "",
+      "deck": "",
+      "platforms": ""
+    },
+    "name": "Super Smash TV",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 05:52 pm",
+    "updatedAt": "05/06/2020 05:52 pm",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg797",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": {}
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Sport",
+        "Baseball"
+      ],
+      "name": "Tommy Lasorda Baseball",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "Super League",
+      "guid": "3030-11264",
+      "gbid": 11264,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/1/19255/825054-254px_tommy_lasorda_baseball.jpg",
+      "deck": "Tommy Lasorda Baseball was the first 16-bit era sports game.  An early entrant into the console sports gaming wars, Tommy Lasorda contained facsimiles of the then-28 team Major League Baseball Teams, password support for season play, and 25-man rosters.",
+      "platforms": "Genesis, Arcade"
+    },
+    "name": "Tommy Lasorda Baseball",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:05 pm",
+    "updatedAt": "05/06/2020 06:05 pm",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg854",
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Sega Mega Drive/Genesis",
+        "id": "ccl14",
+        "igdbId": 29,
+        "gbId": 6,
+        "gbGuid": "3045-6",
+        "tgdbId": 18
+      }
+    ],
+    "extraData": [
+      "Genesis launch title",
+      "Sega Genesis/Mega Drive black box grid game"
+    ],
+    "extraDataFull": [
+      {
+        "name": "Tommy Lasorda Baseball",
+        "id": "smd262",
+        "details": [
+          "Genesis launch title",
+          "Sega Genesis/Mega Drive black box grid game"
+        ],
+        "igdbId": null,
+        "gbId": 11264,
+        "gbGuid": "3030-11264",
+        "tgdbId": 718,
+        "isLaunchTitle": [
+          {
+            "name": "Sega Mega Drive/Genesis",
+            "id": "ccl14",
+            "igdbId": 29,
+            "gbId": 6,
+            "gbGuid": "3045-6",
+            "tgdbId": 18
+          }
+        ],
+        "special": [
+          {
+            "value": "Sega Genesis/Mega Drive black box grid game",
+            "forPlatform": {
+              "name": "Sega Mega Drive/Genesis",
+              "id": "ccl14",
+              "igdbId": 29,
+              "gbId": 6,
+              "gbGuid": "3045-6",
+              "tgdbId": 18
+            }
+          }
+        ],
+        "isExclusive": false
+      }
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  },
+  {
+    "igdb": {
+      "genres": [
+        "Strategy"
+      ],
+      "name": "Tyrants: Fight Through Time",
+      "id": 9999,
+      "total_rating": null,
+      "total_rating_count": null,
+      "first_release_date": "",
+      "developers": "",
+      "esrb": "",
+      "igdbId": null
+    },
+    "gb": {
+      "aliases": "MegaLoMania: Jikuu Daisenryaku\r\nMega-lo-Mania\r\nMega lo Mania",
+      "guid": "3030-6450",
+      "gbid": 6450,
+      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/9408/744842-megalomaniacover.jpg",
+      "deck": "Tyrants: Fight Through Time is a god simulator from Sensible Software in which the player brings the force of their civilization to bear against their rivals in a struggle for dominance. In Europe and Japan it is better known as Mega-lo-Mania.",
+      "platforms": "Amiga, Genesis, Super Nintendo Entertainment System, Atari ST, PC"
+    },
+    "name": "Tyrants: Fight Through Time",
+    "consoleName": "Sega Mega Drive/Genesis",
+    "consoleIgdbId": 29,
+    "consoleGbid": 6,
+    "consoleGbGuid": "3045-6",
+    "condition": "Other",
+    "case": "none",
+    "pricePaid": "",
+    "physical": false,
+    "cib": false,
+    "pirated": false,
+    "multiplayerNumber": "",
+    "datePurchased": null,
+    "howAcquired": null,
+    "notes": "Mega EverDrive",
+    "createdAt": "05/06/2020 06:09 pm",
+    "updatedAt": "05/06/2020 06:09 pm",
+    "consoleArr": [
+      {
+        "consoleName": "Sega Mega Drive/Genesis",
+        "consoleId": 29
+      }
+    ],
+    "id": "meg878",
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "extraData": [],
+    "extraDataFull": [],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "error": true
+  }
+]

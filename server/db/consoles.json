@@ -27,7 +27,7 @@
     "memory": "2 KiB",
     "output": "RF, composite",
     "os": null,
-    "logo": "pl6c",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6c.png",
     "releaseDate": {
       "date": "10/18/1985",
       "region": "North America"
@@ -61,7 +61,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "ob1omu1he33vpulatqzv",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/ob1omu1he33vpulatqzv.png",
     "releaseDate": {
       "date": "08/23/1991",
       "region": "North America"
@@ -95,7 +95,7 @@
     "memory": "24MB",
     "output": "Composite, S-Video, YPbPr component, RGB component (Japan only)",
     "os": "Dolphin OS",
-    "logo": "pl7a",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7a.png",
     "releaseDate": {
       "date": "11/18/2001",
       "region": "North America"
@@ -129,7 +129,7 @@
     "memory": "24MB",
     "output": "Composite, S-Video, YPbPr component, RGB component (Japan only)",
     "os": "Dolphin OS",
-    "logo": "pl7a",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7a.png",
     "releaseDate": {
       "date": "11/18/2001",
       "region": "North America"
@@ -163,7 +163,7 @@
     "memory": "4GB LPDDR4",
     "output": "HDMI, 3.5mm headphone jack, DisplayPort over USB-C (internal)",
     "os": "Nintendo Switch system software",
-    "logo": "pl6b",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6b.png",
     "releaseDate": {
       "date": "03/03/2017",
       "region": "Worldwide"
@@ -197,7 +197,7 @@
     "memory": "80 MB",
     "output": "composite, S-Video, YPbPr component",
     "os": "Wii System Software",
-    "logo": "pl70",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl70.png",
     "releaseDate": {
       "date": "11/19/2006",
       "region": "North America"
@@ -231,7 +231,7 @@
     "memory": "128 MB FCRAM, 6 MB VRAM",
     "output": null,
     "os": "Nintendo 3DS OS",
-    "logo": "pl6o",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6o.png",
     "releaseDate": {
       "date": "03/01/2011",
       "region": "Wordlwide"
@@ -265,7 +265,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "pl7x",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7x.png",
     "releaseDate": {
       "date": "03/23/2003",
       "region": "North America"
@@ -298,7 +298,7 @@
     "memory": "16 MB",
     "output": null,
     "os": null,
-    "logo": "pl7i",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7i.png",
     "releaseDate": {
       "date": "09/09/1999",
       "region": "North America"
@@ -332,7 +332,7 @@
     "memory": "8 GB DDR3",
     "output": "HDMI",
     "os": "Xbox OS",
-    "logo": "pl6a",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6a.png",
     "releaseDate": {
       "date": "11/22/2013",
       "region": "Worldwide"
@@ -366,7 +366,7 @@
     "memory": "32 MB",
     "output": "Composite video, S-Video, RGB, VGA, YPBPR",
     "os": null,
-    "logo": "pl71",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl71.png",
     "releaseDate": {
       "date": "10/26/2000",
       "region": "North America"
@@ -399,7 +399,7 @@
     "memory": "256 MB system, 256 MB video",
     "output": null,
     "os": "XcrossMediaBar",
-    "logo": "pl6l",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6l.png",
     "releaseDate": {
       "date": "03/16/2006",
       "region": "Europe"
@@ -433,7 +433,7 @@
     "memory": "GDDR5 8GB",
     "output": null,
     "os": "Orbis OS",
-    "logo": "pl6f",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6f.png",
     "releaseDate": {
       "date": "11/10/2016",
       "region": "Worldwide"
@@ -467,7 +467,7 @@
     "memory": "32 MB eDRAM",
     "output": null,
     "os": "PlayStation Portable system software",
-    "logo": "pl6q",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6q.png",
     "releaseDate": {
       "date": "03/24/2005",
       "region": "North America"
@@ -501,7 +501,7 @@
     "memory": "4 MB RAM, 256 KB flash memory",
     "output": "Terminals for stereo headphones and a microphone.",
     "os": null,
-    "logo": "pdn0g4fyks0y1v2ckzws",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pdn0g4fyks0y1v2ckzws.png",
     "releaseDate": {
       "date": "06/11/2006",
       "region": "North America"
@@ -534,7 +534,7 @@
     "memory": "32 KB",
     "output": null,
     "os": null,
-    "logo": "pl7l",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7l.png",
     "releaseDate": {
       "date": "11/18/1998",
       "region": "North America"
@@ -567,7 +567,7 @@
     "memory": "2 MB DRAM, 1 MB VRAM",
     "output": null,
     "os": null,
-    "logo": "pl7u",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7u.png",
     "releaseDate": {
       "date": "10/041993",
       "region": "North America"
@@ -600,7 +600,7 @@
     "memory": "8kB",
     "output": null,
     "os": null,
-    "logo": "pl7z",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7z.png",
     "releaseDate": {
       "date": "04/26/1991",
       "region": "North America"
@@ -633,7 +633,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "pl88",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl88.png",
     "releaseDate": {
       "date": "08/29/1989",
       "region": "North America"
@@ -667,7 +667,7 @@
     "memory": "8kB RAM",
     "output": null,
     "os": null,
-    "logo": "pl8a",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8a.png",
     "releaseDate": {
       "date": "09/01/1986",
       "region": "North America"
@@ -701,7 +701,7 @@
     "memory": "4 MB RDRAM",
     "output": "Composite video and S-Video",
     "os": null,
-    "logo": "pl77",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl77.png",
     "releaseDate": {
       "date": "09/29/1996",
       "region": "North America"
@@ -735,7 +735,7 @@
     "memory": "4 MB RDRAM",
     "output": "Composite video and S-Video",
     "os": null,
-    "logo": "pl77",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl77.png",
     "releaseDate": {
       "date": "09/29/1996",
       "region": "North America"
@@ -768,7 +768,7 @@
     "memory": "2 GB DDR3 @ 1600MHz",
     "output": "Composite, S-Video, YPbPr component, RGB SCART, D-Terminal, HDMI",
     "os": "Wii U OS",
-    "logo": "pl6n",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6n.png",
     "releaseDate": {
       "date": "11/18/2012",
       "region": "North America"
@@ -801,7 +801,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "pl7r",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7r.png",
     "releaseDate": {
       "date": "11/21/1994",
       "region": "North America"
@@ -835,7 +835,7 @@
     "memory": "40 MB",
     "output": null,
     "os": null,
-    "logo": "hrmqljpwunky1all3v78",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/hrmqljpwunky1all3v78.png",
     "releaseDate": {
       "date": "05/11/1995",
       "region": "North America"
@@ -868,7 +868,7 @@
     "memory": "64 MB DDR SDRAM @ 200 MHz",
     "output": null,
     "os": "Custom (Based on Windows NT architecture and Windows XP",
-    "logo": "pl7e",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7e.png",
     "releaseDate": {
       "date": "11/15/2001",
       "region": "North America"
@@ -902,7 +902,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "pl6z",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6z.png",
     "releaseDate": {
       "date": "06/10/2013",
       "region": "North America"
@@ -935,7 +935,7 @@
     "memory": null,
     "output": "S-Video, Composite",
     "os": null,
-    "logo": "pl7q",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7q.png",
     "releaseDate": {
       "date": "09/09/1995",
       "region": "North America"
@@ -969,7 +969,7 @@
     "memory": "32 MB",
     "output": "Composite video, S-Video, RGB, VGA, YPBPR",
     "os": null,
-    "logo": "pl72",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl72.png",
     "releaseDate": {
       "date": "10/29/2004",
       "region": "North America"
@@ -1002,7 +1002,7 @@
     "memory": "8 KB S-RAM",
     "output": null,
     "os": null,
-    "logo": "pl7n",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7n.png",
     "releaseDate": {
       "date": "07/31/1989",
       "region": "North America"
@@ -1035,7 +1035,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "irwvwpl023f8y19tidgq",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/irwvwpl023f8y19tidgq.png",
     "releaseDate": {
       "date": "11/29/2015",
       "region": "Worldwide"
@@ -1069,7 +1069,7 @@
     "memory": "128 MB FCRAM, 6 MB VRAM",
     "output": null,
     "os": "Nintendo 3DS OS",
-    "logo": "pl6o",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6o.png",
     "releaseDate": {
       "date": "03/01/2011",
       "region": "Worldwide"
@@ -1103,7 +1103,7 @@
     "memory": "4KB RAM",
     "output": "S-Video",
     "os": null,
-    "logo": "pl8f",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8f.png",
     "releaseDate": {
       "date": "06/14/1984",
       "region": "North America"
@@ -1137,7 +1137,7 @@
     "memory": "16 KB",
     "output": null,
     "os": null,
-    "logo": "pl8g",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8g.png",
     "releaseDate": {
       "date": "05/24/1984",
       "region": "North America"
@@ -1171,7 +1171,7 @@
     "memory": "72kB of RAM",
     "output": null,
     "os": null,
-    "logo": "pl85",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl85.png",
     "releaseDate": {
       "date": "08/14/1989",
       "region": "North America"
@@ -1205,7 +1205,7 @@
     "memory": null,
     "output": null,
     "os": null,
-    "logo": "pl7w",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7w.png",
     "releaseDate": {
       "date": "10/15/1992",
       "region": "North America"
@@ -1238,7 +1238,7 @@
     "memory": "128 bytes ram",
     "output": null,
     "os": null,
-    "logo": "pl8l",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8l.png",
     "releaseDate": {
       "date": "09/11/1977",
       "region": "North America"

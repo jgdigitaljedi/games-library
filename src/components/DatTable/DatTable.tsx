@@ -37,10 +37,11 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
   }, []);
 
   const tableItemBody = (rowData: any, info: any) => {
+    const fieldData = get(rowData, info.field);
     return (
       <React.Fragment>
-        <span className="p-column-title mobile-header">{info.header}</span>
-        {get(rowData, info.field)}
+        <span className='p-column-title mobile-header'>{info.header}</span>
+        {typeof fieldData === 'boolean' ? `${fieldData}` : fieldData}
       </React.Fragment>
     );
   };
@@ -56,10 +57,11 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
         src={
           get(rowData, 'gb.image') ||
           get(rowData, 'image') ||
+          get(rowData, 'logo') ||
           'http://localhost:3000/Video-Game-Controller-Icon.svg.png'
         }
-        alt="Game cover"
-        className="table-image"
+        alt='Game cover'
+        className='table-image'
         onError={(e: any) => {
           e.target.onerror = null;
           e.target.src = 'Video-Game-Controller-Icon.svg.png';
@@ -73,7 +75,7 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
       const colProps = tableProps(viewWhat);
       setDynamicColumns(
         colProps.map((col, i) => {
-          if (col.header === 'Image') {
+          if (col.header === 'Image' || col.header === 'Logo') {
             return (
               <Column key={col.field} header={col.header} body={_imageTemplate} field={col.field} />
             );
@@ -101,19 +103,19 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
   }, [viewWhat]);
 
   return (
-    <div className="data-table-container">
+    <div className='data-table-container'>
       <DataTable
         value={data}
         paginator={true}
         rows={20}
         pageLinkSize={10}
         scrollable={true}
-        selectionMode="single"
+        selectionMode='single'
         selection={selected}
-        onSelectionChange={(e) => rowSelected(e.value)}
-        className="p-datatable-gridlines p-datatable-lg"
+        onSelectionChange={e => rowSelected(e.value)}
+        className='p-datatable-gridlines p-datatable-lg'
         ref={tableRef}
-        onValueChange={(e) => {
+        onValueChange={e => {
           console.log('valueChange', e);
         }}
       >

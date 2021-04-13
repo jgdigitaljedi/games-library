@@ -22,17 +22,16 @@ export default function (view: string) {
       break;
     case 'consoles':
       cols = [
-        { field: 'gb.image', header: 'Image' },
-        { field: 'igdb.name', header: 'Name', sortable: true },
-        { field: 'gb.company', header: 'Company', sortable: true },
-        { field: 'aliases', header: 'Aliases', sortable: true },
-        { field: 'igdb.generation', header: 'Gen', sortable: true },
-        { field: 'gb.original_price', header: 'Original Price', sortable: true },
-        { field: 'gb.install_base', header: 'Units Sold' },
+        { field: 'logo', header: 'Logo' },
+        { field: 'name', header: 'Name', sortable: true },
+        { field: 'generation', header: 'Gen', sortable: true },
+        { field: 'releaseDate.date', header: 'Release Date', sortable: true },
+        { field: 'manual', header: 'Manual', sortable: true, bool: true },
+        { field: 'mods', header: 'Mods', sortable: true },
         { field: 'condition', header: 'Condition', sortable: true },
-        { field: 'box', header: 'box', sortable: true },
+        { field: 'box', header: 'box', sortable: true, bool: true },
         { field: 'datePurchased', header: 'Purchase Date', sortable: true },
-        { field: 'purchasePrice', header: 'Purchase Price', sortable: true },
+        { field: 'pricePaid', header: 'Purchase Price', sortable: true },
         { field: 'howAcquired', header: 'How Acquired', sortable: true },
         { field: 'notes', header: 'Notes', sortable: true }
       ];

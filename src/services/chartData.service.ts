@@ -69,36 +69,36 @@ export default {
     } else {
       labelsSorted = labels.sort();
     }
-    const dataObjFinal = Object.keys(dataObj).map((key) => dataObj[key]);
+    const dataObjFinal = Object.keys(dataObj).map(key => dataObj[key]);
 
     return {
       labels: labelsSorted,
       datasets: makeDataSets(which, dataObjFinal)
     };
   },
-  makeDataSetForPlatforms: (data: IStats, which: string) => {
-    if (which === 'platforms.company') {
-      // jointData = getPlatformsByCompany(data);
-      return {
-        labels: Object.keys(data.consolesByCompany),
-        datasets: {
-          label: 'Consoles per Company',
-          backgroundColor: Colors.lightOrange,
-          data: Object.values(data.consolesByCompany) || [],
-          pointBackgroundColor: Colors.lightBlue,
-          lineTension: 0.6,
-          borderColor: Colors.navSelected,
-          borderWidth: 2,
-          pointRadius: 4
-        }
-      };
-    }
+  // makeDataSetForPlatforms: (data: IStats, which: string) => {
+  //   if (which === 'platforms.company') {
+  //     // jointData = getPlatformsByCompany(data);
+  //     return {
+  //       labels: Object.keys(data.consolesByCompany),
+  //       datasets: {
+  //         label: 'Consoles per Company',
+  //         backgroundColor: Colors.lightOrange,
+  //         data: Object.values(data.consolesByCompany) || [],
+  //         pointBackgroundColor: Colors.lightBlue,
+  //         lineTension: 0.6,
+  //         borderColor: Colors.navSelected,
+  //         borderWidth: 2,
+  //         pointRadius: 4
+  //       }
+  //     };
+  //   }
 
-    return {
-      labels: [],
-      datasets: []
-    };
-  },
+  //   return {
+  //     labels: [],
+  //     datasets: []
+  //   };
+  // },
   returnSimpleDataSet: (data: any, title: string, bgColorArr?: boolean) => {
     const bgColor = bgColorArr
       ? [

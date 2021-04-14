@@ -20,7 +20,7 @@ interface IProps {
   totalClones: number;
   cibGames: number;
   physicalVsDigitalGames: INumIndex;
-  consolesByCompany: INumIndex;
+  // consolesByCompany: INumIndex;
   gamesAddedPerYear: IDateRelated[];
 }
 
@@ -37,14 +37,14 @@ const HomeTopTables: FunctionComponent<IProps> = ({
   totalClones,
   gamesByDecade,
   consolesByGenerationSorted,
-  consolesByCompany,
+  // consolesByCompany,
   gamesAddedPerYear
 }) => {
   return (
-    <div className="home--row totals-tables">
+    <div className='home--row totals-tables'>
       <div>
         <h3>Totals</h3>
-        <table className="totals">
+        <table className='totals'>
           <thead>
             <th>Category</th>
             <th>Quantity</th>
@@ -83,13 +83,13 @@ const HomeTopTables: FunctionComponent<IProps> = ({
       </div>
       <div>
         <h3>Games per Decade</h3>
-        <table className="totals">
+        <table className='totals'>
           <thead>
             <th>Decade</th>
             <th>Quantity</th>
           </thead>
           <tbody>
-            {Object.keys(gamesByDecade).map((decade) => (
+            {Object.keys(gamesByDecade).map(decade => (
               <tr>
                 <td>{`${decade}'s`}</td>
                 <td>{gamesByDecade[decade]}</td>
@@ -100,13 +100,13 @@ const HomeTopTables: FunctionComponent<IProps> = ({
       </div>
       <div>
         <h3>Consoles by Generation</h3>
-        <table className="totals">
+        <table className='totals'>
           <thead>
             <th>Generation</th>
             <th>Quantity</th>
           </thead>
           <tbody>
-            {Object.keys(consolesByGenerationSorted).map((gen) => (
+            {Object.keys(consolesByGenerationSorted).map(gen => (
               <tr>
                 <td>{`${(consoleGenerationNames as IStringIndex)[gen]} (${
                   (consoleGenerationYears as IStringIndex)[gen]
@@ -117,7 +117,7 @@ const HomeTopTables: FunctionComponent<IProps> = ({
           </tbody>
         </table>
       </div>
-      <div>
+      {/* <div>
         <h3>Consoles per Manufacturer</h3>
         <table className="totals">
           <thead>
@@ -133,16 +133,16 @@ const HomeTopTables: FunctionComponent<IProps> = ({
             ))}
           </tbody>
         </table>
-      </div>
+      </div> */}
       <div>
         <h3>Games Added per Year</h3>
-        <table className="totals">
+        <table className='totals'>
           <thead>
             <th>Year</th>
             <th>Games Added</th>
           </thead>
           <tbody>
-            {gamesAddedPerYear.map((year) => (
+            {gamesAddedPerYear.map(year => (
               <tr>
                 <td>{year.dateFormatted}</td>
                 <td>{year.games}</td>

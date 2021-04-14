@@ -12,14 +12,14 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const dataSets = [
-    { label: 'Games by release date', value: 'igdb.first_release_date' },
+    { label: 'Games by release date', value: 'first_release_date' },
     { label: 'Money spent on games over time', value: 'datePurchased' },
     { label: 'Growth of games collection over time', value: 'numOfGamesTime' },
     { label: 'Games by price group', value: 'pricePaid' },
     { label: 'Games per Platform', value: 'gpp' },
     { label: 'Games per Acquisition Type', value: 'gat' },
     { label: 'Games per ESRB Rating', value: 'esrb' },
-    { label: 'Consoles by Company', value: 'platforms.company' },
+    // { label: 'Consoles by Company', value: 'platforms.company' },
     { label: 'Games by Decade', value: 'gbd' }
   ];
 
@@ -98,14 +98,14 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           true
         ) as IChartData
       );
-    } else if (chartData === 'platforms.company' && stats) {
-      setData(
-        ChartDataService.returnSimpleDataSet(
-          stats.consolesByCompany,
-          'Consoles per Company',
-          true
-        ) as IChartData
-      );
+      // } else if (chartData === 'platforms.company' && stats) {
+      //   setData(
+      //     ChartDataService.returnSimpleDataSet(
+      //       stats.consolesByCompany,
+      //       'Consoles per Company',
+      //       true
+      //     ) as IChartData
+      //   );
     } else if (chartData === 'gbd' && stats) {
       setData(
         ChartDataService.returnSimpleDataSet(
@@ -129,24 +129,24 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
   }, [getData, masterData, getChartData, getStats]);
 
   return (
-    <div className="viz">
-      <div className="viz-header">
-        <div className="viz-header--group">
+    <div className='viz'>
+      <div className='viz-header'>
+        <div className='viz-header--group'>
           <label>Select a data set:</label>
           <Dropdown
             value={chartData}
-            onChange={(e) => {
+            onChange={e => {
               setChartData(e.value);
               getChartData();
             }}
             options={dataSets}
           />
         </div>
-        <div className="viz-header--group">
+        <div className='viz-header--group'>
           <label>Select a chart type:</label>
           <Dropdown
             value={chartType}
-            onChange={(e) => {
+            onChange={e => {
               setChartType(e.value);
               getChartData();
             }}
@@ -154,9 +154,9 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           />
         </div>
       </div>
-      <div className="viz-chart--container">
+      <div className='viz-chart--container'>
         {data && data.datasets?.length && data.datasets[0].data?.length && (
-          <Chart type={chartType} data={data} options={chartOptions} width="100%" />
+          <Chart type={chartType} data={data} options={chartOptions} width='100%' />
         )}
       </div>
     </div>

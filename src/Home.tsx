@@ -53,7 +53,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     }
   }, [setNotify]);
 
-  const itemClicked = useCallback((clicked) => {
+  const itemClicked = useCallback(clicked => {
     console.log('clicked', clicked);
   }, []);
 
@@ -63,7 +63,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   }, [getData]);
 
   return (
-    <div className="home">
+    <div className='home'>
       {data && data.physicalVsDigitalGames && (
         <HomeTopTables
           cibGames={data.cibGames}
@@ -74,27 +74,27 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           consolesByGenerationSorted={data.consolesByGenerationSorted}
           physicalVsDigitalGames={data.physicalVsDigitalGames}
           gamesByDecade={data.gamesByDecade}
-          consolesByCompany={data.consolesByCompany}
+          // consolesByCompany={data.consolesByCompany}
           gamesAddedPerYear={data.gamesAddedPerYear}
         />
       )}
-      <div className="home--row">
+      <div className='home--row'>
         {data && data.mostRecentlyAddedGames && (
-          <div className="container-column">
+          <div className='container-column'>
             <h3>Most Recently Added Games</h3>
             <ListView
               data={data.mostRecentlyAddedGames}
-              whichData="createdAt"
+              whichData='createdAt'
               listRowClick={itemClicked}
             />
           </div>
         )}
         {data && data.mostRecentlyAddedPlatforms && (
-          <div className="container-column">
+          <div className='container-column'>
             <h3>Most Recently Added Consoles</h3>
             <ListView
               data={data.mostRecentlyAddedPlatforms}
-              whichData="createdAt"
+              whichData='createdAt'
               listRowClick={itemClicked}
               isPlatform={true}
             />
@@ -102,9 +102,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         )}
       </div>
       {data && data.gamePerConsoleCounts && (
-        <div className="chart-container" style={{ width: '100%' }}>
+        <div className='chart-container' style={{ width: '100%' }}>
           <Chart
-            type="bar"
+            type='bar'
             data={ChartService.returnSimpleDataSet(data.gamePerConsoleCounts, 'Games')}
             options={{
               ...chartOptions,
@@ -112,36 +112,37 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
               ...addTitle('Games per platform'),
               ...{ legend: { display: false } }
             }}
-            width="100%"
+            width='100%'
           />
         </div>
       )}
-      <div className="home--row">
+      <div className='home--row'>
         {data && data.mostPaidForGames && (
-          <div className="container-column">
+          <div className='container-column'>
             <h3>Highest Price Paid for Games</h3>
             <ListView
               data={data.mostPaidForGames}
-              whichData="pricePaid"
+              whichData='pricePaid'
               listRowClick={itemClicked}
             />
           </div>
         )}
         {data && data.mostPaidForPlatforms && (
-          <div className="container-column">
+          <div className='container-column'>
             <h3>Highest Price Paid for Platforms</h3>
             <ListView
               data={data.mostPaidForPlatforms}
-              whichData="purchasePrice"
+              whichData='pricePaid'
               listRowClick={itemClicked}
+              isPlatform={true}
             />
           </div>
         )}
       </div>
       {data && data.gamesAcquisition && (
-        <div className="chart-container" style={{ width: '100%' }}>
+        <div className='chart-container' style={{ width: '100%' }}>
           <Chart
-            type="bar"
+            type='bar'
             data={ChartService.returnSimpleDataSet(
               data.gamesAcquisition,
               'Games per Acquisition Type'
@@ -152,15 +153,15 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
               ...addTitle('Games per Acquisition Source'),
               ...{ legend: { display: false } }
             }}
-            width="100%"
+            width='100%'
           />
         </div>
       )}
-      <div className="home--row">
+      <div className='home--row'>
         {data && data.physicalVsDigitalGames && (
-          <div className="chart-container" style={{ width: '50%' }}>
+          <div className='chart-container' style={{ width: '50%' }}>
             <Chart
-              type="pie"
+              type='pie'
               data={ChartService.returnSimpleDataSet(
                 data.physicalVsDigitalGames,
                 'Physical vs Digital Games',
@@ -171,15 +172,15 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                 ...addTitle('Physical Copy vs Digital Download'),
                 ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
               }}
-              width="100%"
-              height="500px"
+              width='100%'
+              height='500px'
             />
           </div>
         )}
         {data && data.gamesPerEsrb && (
-          <div className="chart-container" style={{ width: '50%' }}>
+          <div className='chart-container' style={{ width: '50%' }}>
             <Chart
-              type="pie"
+              type='pie'
               data={ChartService.returnSimpleDataSet(
                 data.gamesPerEsrb,
                 'Games per ESRB rating',
@@ -190,13 +191,13 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                 ...addTitle('Games per ESRB Rating'),
                 ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
               }}
-              width="100%"
-              height="500px"
+              width='100%'
+              height='500px'
             />
           </div>
         )}
       </div>
-      <ScrollToTop position="right" />
+      <ScrollToTop position='right' />
     </div>
   );
 };

@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const _cloneDeep = require('lodash/cloneDeep');
 
 const games = require('../../../../db/games.json');
-const platforms = require('../../../../../libraryScripts/backup/consoles.json');
+const platforms = require('../../../../db/consoles.json');
 const accessories = require('../../../../db/gameAcc.json');
 const collectibles = require('../../../../db/collectibles.json');
 const clones = require('../../../../db/clones.json');
@@ -27,7 +27,7 @@ let genres = {},
     { category: 'Poor (30 - 49)', value: 0 },
     { category: 'Terrible (< 30)', value: 0 }
   ],
-  consolesByCompany = { UNKNOWN: 0 },
+  // consolesByCompany = { UNKNOWN: 0 },
   consolesByGeneration = { UNKNOWN: 0 },
   gamesCount = games.length,
   platformsCount = platforms.length,
@@ -35,8 +35,36 @@ let genres = {},
   collectiblesCount = collectibles.length,
   clonesCount = clones.length;
 
+function resetAll() {
+  genres = {};
+  conGames = {};
+  conGamesCounts = {};
+  esrbCounts = {};
+  gameMedia = {
+    physical: 0,
+    digital: 0
+  };
+  cibGames = 0;
+  howAcquiredGames = {};
+  gamesBoughtByMonth = {};
+  igdbRatingsBreakdown = [
+    { category: 'Great (90+)', value: 0 },
+    { category: 'Good (70 - 89)', value: 0 },
+    { category: 'Fair (50 - 69)', value: 0 },
+    { category: 'Poor (30 - 49)', value: 0 },
+    { category: 'Terrible (< 30)', value: 0 }
+  ];
+  // consolesByCompany = { UNKNOWN: 0 };
+  consolesByGeneration = { UNKNOWN: 0 };
+  gamesCount = games.length;
+  platformsCount = platforms.length;
+  accessoriesCount = accessories.length;
+  collectiblesCount = collectibles.length;
+  clonesCount = clones.length;
+}
+
 function handleConsoleByGeneration(con) {
-  const gen = con && con.igdb && con.igdb.generation ? con.igdb.generation.toString() : null;
+  const gen = (con && con.generation) || null;
   if (gen && consolesByGeneration.hasOwnProperty(gen)) {
     consolesByGeneration[gen]++;
   } else if (gen) {
@@ -46,15 +74,15 @@ function handleConsoleByGeneration(con) {
   }
 }
 
-function handleConsoleByCompany(con) {
-  if (con && con.gb && con.gb.company && consolesByCompany.hasOwnProperty(con.gb.company)) {
-    consolesByCompany[con.gb.company]++;
-  } else if (con && con.gb && con.gb.company) {
-    consolesByCompany[con.gb.company] = 1;
-  } else {
-    consolesByCompany.UNKNOWN++;
-  }
-}
+// function handleConsoleByCompany(con) {
+//   if (con && con.gb && con.gb.company && consolesByCompany.hasOwnProperty(con.gb.company)) {
+//     consolesByCompany[con.gb.company]++;
+//   } else if (con && con.gb && con.gb.company) {
+//     consolesByCompany[con.gb.company] = 1;
+//   } else {
+//     consolesByCompany.UNKNOWN++;
+//   }
+// }
 
 function handleIgdbRating(game) {
   const rating = game && game.hasOwnProperty('total_rating') ? game.total_rating : null;
@@ -90,7 +118,7 @@ function purchasesByMonth(game) {
 function handleGenres(game) {
   const gameGenres = game && game.genres ? game.genres : ['NO GENRE'];
   if (gameGenres) {
-    gameGenres.forEach((g) => {
+    gameGenres.forEach(g => {
       const lc = g.toLowerCase();
       if (genres.hasOwnProperty(lc)) {
         genres[lc]++;
@@ -136,7 +164,7 @@ function handleAcqusition(game) {
 }
 
 function makeConGames() {
-  games.forEach((game) => {
+  _cloneDeep(games).forEach(game => {
     if (conGames.hasOwnProperty(game.consoleName)) {
       conGames[game.consoleName].push(game);
     } else {
@@ -146,7 +174,7 @@ function makeConGames() {
 }
 
 function handleConGamesData() {
-  Object.keys(conGames).forEach((con) => {
+  Object.keys(_cloneDeep(conGames)).forEach(con => {
     conGamesCounts[con] = conGames[con].length;
   });
 }
@@ -210,13 +238,13 @@ function sortByDateCounts(a, b) {
 
 function getMostPopularGameDecade() {
   return games
-    .map((g) => {
+    .map(g => {
       if (g && g.first_release_date) {
         return g.first_release_date;
       }
       return null;
     })
-    .filter((g) => g)
+    .filter(g => g)
     .reduce((acc, gameDate, index) => {
       const gameDecade = gameDate.split('/')[2].slice(0, -1) + '0';
       if (acc[gameDecade]) {
@@ -237,7 +265,7 @@ module.exports.getStats = () => {
   const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
   const gamesByDecade = getMostPopularGameDecade();
 
-  games.forEach((game) => {
+  games.forEach(game => {
     handleGenres(game);
     handleEsrb(game);
     handleGameMedia(game);
@@ -247,13 +275,13 @@ module.exports.getStats = () => {
     handleIgdbRating(game);
   });
 
-  platforms.forEach((platform) => {
-    handleConsoleByCompany(platform);
+  platforms.forEach(platform => {
+    // handleConsoleByCompany(platform);
     handleConsoleByGeneration(platform);
   });
 
   const mostGamesInMonth = Object.keys(gamesBoughtByMonth)
-    .map((month) => {
+    .map(month => {
       return {
         dateFormatted: month,
         games: gamesBoughtByMonth[month]
@@ -273,7 +301,7 @@ module.exports.getStats = () => {
   }, {});
 
   const gamesInYearSorted = Object.keys(gamesBoughtInYear)
-    .map((year) => {
+    .map(year => {
       return {
         dateFormatted: year,
         games: gamesBoughtInYear[year]
@@ -284,7 +312,7 @@ module.exports.getStats = () => {
   const genSorted = Object.keys(consolesByGeneration).sort((a, b) => parseInt(a) > parseInt(b));
 
   const consolesByGenSorted = {};
-  genSorted.forEach((gen) => {
+  genSorted.forEach(gen => {
     consolesByGenSorted[gen] = consolesByGeneration[gen];
   });
 
@@ -302,7 +330,7 @@ module.exports.getStats = () => {
     gamesAddedInMonth: mostGamesInMonth,
     gamesAddedPerYear: gamesInYearSorted,
     igdbRatingsBreakdown,
-    consolesByCompany,
+    // consolesByCompany,
     consolesByGenerationSorted: consolesByGenSorted,
     totalGames: gamesCount,
     totalPlatforms: platformsCount,
@@ -311,5 +339,6 @@ module.exports.getStats = () => {
     totalClones: clonesCount,
     gamesByDecade
   };
+  resetAll();
   return finalData;
 };

@@ -29,33 +29,33 @@ const ListView: FunctionComponent<IProps> = ({
         case 'exclusives':
           if (game.extraDataFull?.length && game.extraDataFull[0].isExclusive) {
             cellData = _flatten(
-              game.extraDataFull?.map((d) =>
+              game.extraDataFull?.map(d =>
                 Array.isArray(d.isExclusive)
-                  ? d.isExclusive?.map((i) => i?.name + ' exclusive' || '')
+                  ? d.isExclusive?.map(i => i?.name + ' exclusive' || '')
                   : ''
               ) || []
             ).join(', ');
           }
           if (!cellData || cellData === 'undefined exclusive') {
-            cellData = game.extraData?.filter((g) => g.indexOf('exclusive') >= 0)[0] || '';
+            cellData = game.extraData?.filter(g => g.indexOf('exclusive') >= 0)[0] || '';
           }
           break;
         case 'launch':
           if (game.extraDataFull?.length && game.extraDataFull[0].isLaunchTitle) {
             cellData = _flatten(
-              game.extraDataFull?.map((d) =>
+              game.extraDataFull?.map(d =>
                 Array.isArray(d.isLaunchTitle)
-                  ? d.isLaunchTitle?.map((i) => i?.name + ' launch title' || '')
+                  ? d.isLaunchTitle?.map(i => i?.name + ' launch title' || '')
                   : ''
               ) || []
             ).join(', ');
           }
           if (!cellData || cellData === 'undefined launch title') {
-            cellData = game.extraData?.filter((g) => g.indexOf('launch title') >= 0)[0] || '';
+            cellData = game.extraData?.filter(g => g.indexOf('launch title') >= 0)[0] || '';
           }
           break;
         case 'special':
-          cellData = _flatten(game.extraDataFull?.map((d) => d.special?.map((i) => i.value))).join(
+          cellData = _flatten(game.extraDataFull?.map(d => d.special?.map(i => i.value))).join(
             ', '
           );
           break;
@@ -63,7 +63,7 @@ const ListView: FunctionComponent<IProps> = ({
           cellData = `${game?.maxMultiplayer || '?'} players`;
           break;
         case 'multiplatform':
-          cellData = `${game.consoleArr?.map((con) => con.consoleName).join(', ')}`;
+          cellData = `${game.consoleArr?.map(con => con.consoleName).join(', ')}`;
           break;
         default:
           cellData = _get(game, whichData);
@@ -73,23 +73,24 @@ const ListView: FunctionComponent<IProps> = ({
       // it is a console or it isn't a game with extra data
       if (whichData === 'multiplatform') {
         // @ts-ignore
-        cellData = `${game.consoleArr?.map((con) => con.consoleName).join(', ')}`;
+        cellData = `${game.consoleArr?.map(con => con.consoleName).join(', ')}`;
       }
       cellData = _get(game, whichData);
     }
     return cellData || '';
   };
+  console.log('data', data);
 
   return (
-    <div className="list-view">
+    <div className='list-view'>
       {data &&
         !isPlatform &&
         (data as Array<IGame>).map((game: IGame, index: number) => {
           return (
-            <div className="list-view--row" onClick={(e) => rowClicked(e, game)} key={index}>
+            <div className='list-view--row' onClick={e => rowClicked(e, game)} key={index}>
               <img src={game.image} alt={`${game.name} art`} />
-              <div className="list-view--row__cell item-name info-text">{game.name}</div>
-              <div className="list-view--row__cell info-text">{getData(game)}</div>
+              <div className='list-view--row__cell item-name info-text'>{game.name}</div>
+              <div className='list-view--row__cell info-text'>{getData(game)}</div>
             </div>
           );
         })}
@@ -97,10 +98,10 @@ const ListView: FunctionComponent<IProps> = ({
         isPlatform &&
         (data as Array<IConsole>).map((con: IConsole, index: number) => {
           return (
-            <div className="list-view--row" onClick={(e) => rowClicked(e, con)} key={index}>
+            <div className='list-view--row' onClick={e => rowClicked(e, con)} key={index}>
               <img src={con.logo || ''} alt={`${con.name} art`} />
-              <div className="list-view--row__cell item-name info-text">{con.name}</div>
-              <div className="list-view--row__cell info-text">{getData(con)}</div>
+              <div className='list-view--row__cell item-name info-text'>{con.name}</div>
+              <div className='list-view--row__cell info-text'>{getData(con)}</div>
             </div>
           );
         })}

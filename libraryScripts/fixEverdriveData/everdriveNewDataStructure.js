@@ -94,13 +94,14 @@ function getUserData(game) {
     extraData: game.extraData,
     extraDataFull: game.extraDataFull,
     genres: game.igdb ? game.igdb.genres : [],
-    physicalDigital: ['Everdrive'],
+    physicalDigital: ['EverDrive'],
     manual: false,
     handheld,
     location,
     compilation,
     compilationGamesIds,
-    gamesService
+    gamesService,
+    consoleArr: [{ consoleName: game.consoleName, consoleId: game.consoleId }]
   };
   return oldData;
 }

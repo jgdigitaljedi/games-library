@@ -1,1746 +1,1695 @@
 [
   {
-    "igdb": {
-      "genres": ["Demo"],
-      "name": "sample program - celtic - pwm test",
-      "id": 9999,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "",
-      "developers": "",
-      "esrb": "",
-      "igdbId": null
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": 9999,
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "name": "sample program - celtic - pwm test",
+    "first_release_date": "12/31/1994",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xox.jpg",
+    "description": "Golf Magazine: 36 Great Holes Starring Fred Couples, called Golf Magazine Presents 36 Great Holes Starring Fred Couples on the boxart and in Sega of Japan's archive, is a golf game developed by Flashpoint Productions and published by Sega exclusively for the Sega 32X.  The player controls one of 24 professional golfers playing in 27 famous US golf courses. As the name suggests, there are 36 holes. Fred Couples is playable in the game and does commentary.",
+    "story": null,
+    "player_perspectives": [],
     "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
     "physical": false,
     "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:39 am",
-    "updatedAt": "05/16/2020 06:39 am",
-    "consoleArr": [
-      {
-        "consoleName": "Sega 32X",
-        "consoleId": 30
-      }
-    ],
-    "id": "me321"
-  },
-  {
-    "igdb": {
-      "genres": ["Sport", "Golf"],
-      "name": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
-      "id": 94921,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/31/1994",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-21309",
-      "gbid": 21309,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968920-box_36gh.png",
-      "deck": "This is the sole golf game for Sega's doomed 32X console. It featured then-popular golfer Fred Couples, and had relatively good graphics and gameplay compared to other golf games of that era. ",
-      "platforms": "Sega 32X"
-    },
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000001,
     "name": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:39 am",
-    "updatedAt": "05/16/2020 06:39 am",
+    "genres": [
+      "Sport",
+      "Golf"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me322"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter"],
-      "name": "After Burner Complete",
-      "id": 113199,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/31/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1]
+    "first_release_date": "12/31/1994",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1i30.jpg",
+    "description": "You pilot a fictional airplane called the SSF-14 fighter, using Up to descend and Down to climb it, like in a real fighter plane (although that can be changed in the options under \"UP/DOWN\"). Playing with a three-button controller A and C fire the vulcan guns, which have infinite ammunition; B is used for missiles, which are limited to 50 at start but get replenished at certain points of the game. Six-button controllers are also supported, with which A rolls, B still shoot missiles, C and Mode fire the vulcan guns, X sets the speed to low, Y speed middle and Z speed high.  There are 23 stages in all and upon reaching stages 5, 9, 13 and 19, allows you to continue the game from the respective stage, through a new option at the title screen.",
+    "story": "Strap into your lethal F-14 Tomcat, kick in the afterburner and set the skies alight ! You fly through multiple day and night missions over land and sea, picking off enemy targets as you lock and launch your deadly Sidewinders missiles.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
     },
-    "gb": {
-      "aliases": "After Burner Complete",
-      "guid": "3030-3629",
-      "gbid": 3629,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/13/139866/2602790-16024601.jpg",
-      "deck": "After Burner is a classic Arcade shooter, designed by SEGA game creator legend Yu Suzuki. It was released first in the Japanese arcades in 1987.",
-      "platforms": "Amiga, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, Nintendo Entertainment System, Sega 32X, Arcade, PC, FM Towns"
-    },
+    "maxMultiplayer": 0,
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000002,
     "name": "After Burner Complete",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:41 am",
-    "updatedAt": "05/16/2020 06:41 am",
+    "genres": [
+      "Shooter"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me323"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Racing"],
-      "name": "BC Racers",
-      "id": 5362,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1, 4]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-16086",
-      "gbid": 16086,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3003502-box_bcr.png",
-      "deck": "BC Racers is a racing game featuring characters from Core Design's other game, Chuck Rock.",
-      "platforms": "3DO, Sega CD, Sega 32X, PC"
-    },
+    "first_release_date": "12/30/1994",
+    "videos": [
+      "hQK1NO1Tb-s"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p4u.jpg",
+    "description": "BC Racers is a kart racing game starring characters from the Core Design's Chuck Rock series of games.  Each of the racers in this game rides a prehistoric motorcycle with a side car. On each two-character team, one person drives the motorcycle, and the other fights off opponents using clubs, punches, kicks, etc.  Graphics in BC Racers consist of a flat landscape decorated with scaled sprites to compose the track and scenery.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000003,
     "name": "BC Racers",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:41 am",
-    "updatedAt": "05/16/2020 06:41 am",
+    "genres": [
+      "Racing"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me324"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Platform", "Adventure"],
-      "name": "Blackthorne",
-      "id": 452,
-      "total_rating": 70,
-      "total_rating_count": 21,
-      "first_release_date": "09/22/1994",
-      "developers": "",
-      "esrb": "T",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "Blackhawk",
-      "guid": "3030-4549",
-      "gbid": 4549,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958025-box_bthorne.png",
-      "deck": "Shoot everything in your quest to rightfully claim the throne of Androth in this early Blizzard platformer.",
-      "platforms": "Game Boy Advance, Super Nintendo Entertainment System, Mac, Sega 32X, PC"
-    },
+    "first_release_date": "09/22/1994",
+    "total_rating": 71,
+    "esrb": "T",
+    "videos": [
+      "BvAChJwtuK4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ukx.jpg",
+    "description": "In Blackthorne, players take on the role of Kyle Blackthorne, a lethal commando equipped with brute strength, animal cunning, and a mysterious past that he has just begun to remember. Thrown onto the futuristic planet of Tuul, Blackthorne must contend with a world overrun by mutant monsters and goblin hordes in a valiant attempt to liberate the Androthi people.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000004,
     "name": "Blackthorne",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:41 am",
-    "updatedAt": "05/16/2020 06:41 am",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me325"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting"],
-      "name": "Brutal: Above the Claw",
-      "id": 45879,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "01/31/1995",
-      "developers": "",
-      "esrb": "T"
-    },
-    "gb": {
-      "aliases": "Brutal Unleashed",
-      "guid": "3030-2337",
-      "gbid": 2337,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5578/840369-brutal_above_the_claw_for_sega_32x__front_cover.jpg",
-      "deck": "Brutal: Above the Claw is the technical sequel to Brutal: Paws of Fury. Players fight as anthropomorphic animals using various forms of martial arts.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "01/31/1995",
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/lrkvxrlooy1bhzr2bbjj.jpg",
+    "description": "Under the watchful eye of the great master Dali Llama, the worlds greatest martial artists would return to a place they knew well… Brutal Island. Each will use their own unique mental and physical martial arts style and training, in a tournament to prove the worlds one true champion.  Brutal, Above the Claw, is a brilliantly rendered game of humorous cartoon style combat, combined with depth, philosophy, and an attention to detail not found in any other fighting game.  Go ahead and Unleash the Animal, it’s time to get Brutal.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000005,
     "name": "Brutal: Above the Claw",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:42 am",
-    "updatedAt": "05/16/2020 06:42 am",
+    "genres": [
+      "Fighting"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me326"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting"],
-      "name": "Cosmic Carnage",
-      "id": 45883,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "04/01/1994",
-      "developers": "",
-      "esrb": ""
+    "first_release_date": "11/20/1994",
+    "esrb": "T",
+    "videos": [
+      "M2Y050L0XIs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/glqyx0s8gmdmwcvqr0ec.jpg",
+    "description": "What kind of un-be-leev-ably ugly monster is this? Chunks of armor fly off as you pound its body. This beefed-up, maxed-out monstrosity has jetted across the cosmos to beat your brains out! But is it the alien? Or is it YOU?",
+    "story": "In an uncharted star system, a group of prisoners en route to a celestial space mine overpower the ship's guards and take control of the ship, but during their breakout, most of the ship's controls are damaged. \n \nAfter days of drifting, the criminals realize that their only hope is to hijack another ship and use their distress signal to bring a military ship to their aid. They then trick the ship by ramming their own vehicle into it. The impact, however, badly damages both and destroys all but one of the escape pods, as well as killing all but four from each ship (eight in total). The few survivors fight for the final escape pod and a chance of survival.",
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
     },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-13797",
-      "gbid": 13797,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958024-box_cc.png",
-      "deck": "Cosmic Carnage is a 2-D fighting game that pits fugitive prisoners versus soldiers on a damaged ship in space. ",
-      "platforms": "Sega 32X"
-    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000006,
     "name": "Cosmic Carnage",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:42 am",
-    "updatedAt": "05/16/2020 06:42 am",
+    "genres": [
+      "Fighting"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me327"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter", "SHMUP"],
-      "name": "DarXide",
-      "id": 45877,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/31/1995",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-41013",
-      "gbid": 41013,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968924-box_darxide.png",
-      "deck": "A shoot 'em up for the Sega 32X. It was only released in Europe, and scheduled to be released on the never released Sega Neptune.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "12/31/1995",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/urmdesi9veyg31dijudo.jpg",
+    "description": "One of the last 32X games released (and exclusively in Europe), DarXide is a 3-D space shooter, inspired in part by the arcade gameplay of Asteroids. It is one of the few 32X games to used texture-mapped polygons.  Players control a lone starship rushing to destroy oncoming asteroids and alien vessels before they annihilate defenseless human miners and colonies. Asteroids break apart into smaller rocks, which much also be hunted down and destroyed. Aliens likewise arrive in larger, more dangerous vessels.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000007,
     "name": "DarXide",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:42 am",
-    "updatedAt": "05/16/2020 06:42 am",
+    "genres": [
+      "Shooter",
+      "SHMUP"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me328"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter", "FPS"],
-      "name": "Doom",
-      "id": 673,
-      "total_rating": 83,
-      "total_rating_count": 624,
-      "first_release_date": "12/09/1993",
-      "developers": "",
-      "esrb": "M",
-      "game_modes": [1, 2, 3]
+    "first_release_date": "12/09/1993",
+    "total_rating": 82,
+    "esrb": "M",
+    "videos": [
+      "iFnOLFd_ByQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7f.jpg",
+    "description": "In the future, humans have left Earth and settled throughout the galaxy. On Mars, the Union Aerospace Corporation has established a radioactive waste facility and allowed the military to conduct teleportation experiments on the nearby moons of Deimos and Phobos. Hours ago, the base on Mars began receiving incoherent distress messages from Phobos, while Deimos has disappeared completely. With all attempts to establish contact failing, you and your team have been dispatched to investigate. Upon arrival, you secure the perimeter as the rest of your team enters the facility. As you stand guard, your radio crackles with the sound of gunfire, cracking bones and blood-curdling screams and eventually falls silent. Alone, with no way off the planet or means to defend yourself other than your trusty pistol, there’s only one way out - into the complex of death and the horrors that await you within. If you plan to get out of here alive you must fend off the hordes of demonic imps, haunting spectres and your undead, former comrades waiting to tear you limb from limb. So, grab the nearest shotgun and blast your way out of this fragging madness!",
+    "story": "The player takes the role of a marine (unnamed to further represent the person playing), \"one of Earth's toughest, hardened in combat and trained for action\", who has been incarcerated on Mars after assaulting a senior officer when ordered to fire upon civilians. There, he works alongside the Union Aerospace Corporation (UAC), a multi-planetary conglomerate and military contractor performing secret experiments on interdimensional travel. Recently, the teleportation has shown signs of anomalies and instability, but the research continues nonetheless. \n \nSuddenly, something goes wrong and creatures from hell swarm out of the teleportation gates on Deimos and Phobos. A defensive response from base security fails to halt the invasion, and the bases are quickly overrun by monsters; all personnel are killed or turned into zombies \n \nA military detachment from Mars travels to Phobos to investigate the incident. The player is tasked with securing the perimeter, as the assault team and their heavy weapons are brought inside. Radio contact soon ceases and the player realizes that he is the only survivor. Being unable to pilot the shuttle off of Phobos by himself, the only way to escape is to go inside and fight through the complexes of the moon base.",
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 4,
+      "splitscreen": true
     },
-    "gb": {
-      "aliases": "Doom Classic",
-      "guid": "3030-7326",
-      "gbid": 7326,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/16/164924/3118940-2800078642-72175.jpg",
-      "deck": "In one of the most revolutionary first-person shooters of the 1990s, players control the last remaining space marine in the demon-infested stations on Mars' moons.",
-      "platforms": "Game Boy Advance, Super Nintendo Entertainment System, Mac, PlayStation, 3DO, Jaguar, Sega 32X, Saturn, Xbox 360 Games Store, PlayStation Network (PS3), PC, iPhone, NEC PC-9801, Android, Xbox One, PlayStation 4, Linux, Nintendo Switch"
-    },
+    "maxMultiplayer": 4,
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000008,
     "name": "Doom",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:42 am",
-    "updatedAt": "05/16/2020 06:42 am",
+    "genres": [
+      "Shooter",
+      "FPS"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me329"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Demo"],
-      "name": "ecco the dolphin cinepak demo",
-      "id": 9999,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "",
-      "developers": "",
-      "esrb": "",
-      "igdbId": null
+    "first_release_date": "04/19/1995",
+    "total_rating": 78,
+    "videos": [
+      "HF-ZV9rWUAE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ztd.jpg",
+    "description": "A mysterious island rose from the sea shortly after the events of Sonic & Knuckles. Dr. Robotnik discovered the island, and found a mysterious ring inscribed with descriptions of the Chaos Rings, ancient Rings infused with Chaos Emerald energy. In order to find these Rings, Robotnik built his base, the Newtrogic High Zone, on the island. Mighty the Armadillo, Espio the Chameleon, Vector the Crocodile, and Charmy Bee also arrived at the island, and ended up being captured by Robotnik and Metal Sonic, and placed in Robotnik's Combi Catcher machine. Knuckles, curious about the strange island, goes there as well, and manages to rescue Espio. The two then go on to stop Robotnik from getting the Chaos Rings.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": true
     },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": 9999,
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "name": "ecco the dolphin cinepak demo",
+    "maxMultiplayer": 2,
     "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
     "physical": false,
     "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:42 am",
-    "updatedAt": "05/16/2020 06:42 am",
-    "consoleArr": [
-      {
-        "consoleName": "Sega 32X",
-        "consoleId": 30
-      }
-    ],
-    "id": "me3210"
-  },
-  {
-    "igdb": {
-      "genres": ["Simulator", "Sport", "Soccer"],
-      "name": "FIFA Soccer 96",
-      "id": 704,
-      "total_rating": 76,
-      "total_rating_count": 19,
-      "first_release_date": "09/29/1995",
-      "developers": "",
-      "esrb": "E",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-14524",
-      "gbid": 14524,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2266511-box_fifa96.png",
-      "deck": "The third entry in EA Sports's long-running licensed soccer series. Features two distinct versions depending on whether the player has a 16-bit system or a 32-bit system.",
-      "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, Saturn, PC"
-    },
-    "name": "FIFA Soccer 96",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:43 am",
-    "updatedAt": "05/16/2020 06:43 am",
-    "consoleArr": [
-      {
-        "consoleName": "Sega 32X",
-        "consoleId": 30
-      }
-    ],
-    "id": "me3211"
-  },
-  {
-    "igdb": {
-      "genres": ["Demo"],
-      "name": "hot chick in vdp mode 2 by devster",
-      "id": 9999,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "",
-      "developers": "",
-      "esrb": "",
-      "igdbId": null
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": 9999,
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "name": "hot chick in vdp mode 2 by devster",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:43 am",
-    "updatedAt": "05/16/2020 06:43 am",
-    "consoleArr": [
-      {
-        "consoleName": "Sega 32X",
-        "consoleId": 30
-      }
-    ],
-    "id": "me3212"
-  },
-  {
-    "igdb": {
-      "genres": ["Platform"],
-      "name": "Knuckles' Chaotix",
-      "id": 19762,
-      "total_rating": 79,
-      "total_rating_count": 6,
-      "first_release_date": "04/19/1995",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-8284",
-      "gbid": 8284,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1870219-box_chaotix.png",
-      "deck": "The only game in the Sonic the Hedgehog franchise to be released on the Sega 32X. It features \"Ring Power\", a co-operative system where both players must manipulate an elastic tethering of each-other to progress.",
-      "platforms": "Sega 32X"
-    },
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000009,
     "name": "Knuckles' Chaotix",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:43 am",
-    "updatedAt": "05/16/2020 06:43 am",
+    "genres": [
+      "Platform"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3213"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter"],
-      "name": "Kolibri",
-      "id": 19733,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/30/1995",
-      "developers": "",
-      "esrb": "E",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-18959",
-      "gbid": 18959,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958023-box_kolibri.png",
-      "deck": "Save the world from destruction as the most unlikely hero, a hummingbird, in this side-scrolling shoot-'em-up for Sega's 32X add-on.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "12/30/1995",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/gyb7vod1baobuovndzzc.jpg",
+    "description": "Deep in the Earth, a powerful ancient crystal hums, fueling the balance of nature. But when its toxic twin plummets to Earth, nature totters on the edge of extinction! Only one hope survives - Kolibri. Though small and alone, the hummingbird must battle the invasive mutation in all its malignant form to restore Earth. But at what cost?",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000010,
     "name": "Kolibri",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:43 am",
-    "updatedAt": "05/16/2020 06:43 am",
+    "genres": [
+      "Shooter"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3214"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter", "Simulator", "Mech"],
-      "name": "Metal Head",
-      "id": 19780,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-4621",
-      "gbid": 4621,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968932-box_mhead.png",
-      "deck": "Metal Head is a mech combat game created exclusively for the Sega 32X.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "02/23/1995",
+    "videos": [
+      "Ey-HqQe_mus"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i1m.jpg",
+    "description": "Bullets fly and circuits try in heavy-duty cyborg techno-slaughter. You control Metal Head, the ultimate cyborg warrior, patrolling the charred urban destruction of the great war. And a murderous mecha-force is gunning for you!  INCREDIBLE 3-D textured polygon graphics engulf Metal Head in searing firefights as cyber troops, hover craft and ground attack vehicles annihilate the planet!  You are the ultimate tech-destroyer - with chain guns, missiles, radar tracking and Heads-up Display!  Head-banging heavy-metal music amps you up for pure warfare!  24 megs of cyber-combat rock through war torn urban streets, bombed out farmland, scorched forests and bullet-riddled 'burbs!",
+    "story": "Five years after the 'World Federation' was established strife and war are still on the rise. In order to keep the peace the Federation Armed Forces, part of the Federation Police, build fully armed, bipedal Mechs also known as 'Metal Heads'. The Metal Head's success causes a heavy militarization of the countries of the Federation. \n \nA sudden and chaotic revolution led by terrorists, armed with their own fully armed Mechs, breaks out and the terrorists take control of a whole country. The player character (in a Metal Head) is sent in with his team to liberate the country's capital. \n \nThe player character starts in a small border town and works his way in to reach the capital.",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000011,
     "name": "Metal Head",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:43 am",
-    "updatedAt": "05/16/2020 06:43 am",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Mech"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3215"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting"],
-      "name": "Mortal Kombat II",
-      "id": 1619,
-      "total_rating": 75,
-      "total_rating_count": 153,
-      "first_release_date": "12/30/1993",
-      "developers": "",
-      "esrb": "M",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "MK2\r\nMKII\r\nMortal Kombat 2",
-      "guid": "3030-3571",
-      "gbid": 3571,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1338358-mk2_vert.png",
-      "deck": "The second installment of one of the most violent fighting game franchises of all time, providing a smoother fighting system while adding new fighters, Fatalities, babalities, friendships, and much more.",
-      "platforms": "Amiga, Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, Sega 32X, Saturn, Arcade, PC"
-    },
+    "first_release_date": "12/30/1993",
+    "total_rating": 76,
+    "esrb": "M",
+    "videos": [
+      "oYoU61lJ35s"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y22.jpg",
+    "description": "The Mortal Kombat fighters, plus several new ones, return for a tournament held by the evil Shang Tsung of the Outworld. The action is one-on-one as before, and famed for its high level of violence and blood (other than the sanitised Nintendo version). There are 5 difficulty levels and optional credits, as well as the usual two player mode including same character duels.",
+    "story": "Following his defeat, Shang Tsung begs his master, Shao Kahn, to spare his life. He tells Shao Kahn that the invitation for Mortal Kombat cannot be turned down, and if they hold it in Outworld, the Earthrealm warriors must attend. Kahn agrees to this plan, and restores Tsung's youth. He extends the invitation to Raiden, who gathers his warriors and takes them into Outworld. The tournament is dangerous, as Shao Kahn has the home field advantage, and an Outworld victory will unbalance the furies and allow Outworld to subsume Earthrealm.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000012,
     "name": "Mortal Kombat II",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Fighting"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3216"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Racing", "Sport"],
-      "name": "Motocross Championship",
-      "id": 19779,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-4838",
-      "gbid": 4838,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968926-box_mcc.png",
-      "deck": "Motocross Championship is a motocross racing game for the Sega 32X.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "12/30/1994",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ka8qhrkaun0tu6vxdfvu.jpg",
+    "description": "Motocross Championship is the only dirtbike racing game for the 32X. The action takes place from a behind-the-bike perspective, and makes use of the 32X's hardware bitmap scaling to present a 3D graphical effect.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000013,
     "name": "Motocross Championship",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Racing",
+      "Sport"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3217"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Sport", "Arcade", "Basketball"],
-      "name": "NBA Jam Tournament Edition",
-      "id": 19712,
-      "total_rating": 68,
-      "total_rating_count": 7,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "E",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-14792",
-      "gbid": 14792,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1535207-nbajamte_box.png",
-      "deck": "NBA Jam Tournament Edition is a two-on-two Arcade basketball game, adding updated rosters and new game modes to the original.",
-      "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, Jaguar, Sega 32X, Saturn, Arcade, PC"
-    },
+    "first_release_date": "12/30/1994",
+    "total_rating": 68,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2do7.jpg",
+    "description": "NBA JAM Tournament Edition brings you more senses-shattering slam dunking excitement than ever! More than twice as many NBA superstars, more than double the secret characters, Hot Spots, Super Jam Power-Ups, battery back-up and - OH MY - nine all-new rim-rattling slam dunks plus all the original jams! NBA JAM Tournament Edition... it's on FIRE!",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000014,
     "name": "NBA Jam Tournament Edition",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Sport",
+      "Arcade",
+      "Basketball"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3218"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Sport", "Football"],
-      "name": "NFL Quarterback Club",
-      "id": 114754,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "11/30/1994",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "NFL Quarterback Club '95",
-      "guid": "3030-22136",
-      "gbid": 22136,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5631/305802-nfl_quarterback_club_32x.png",
-      "deck": "The first of Acclaim's NFL Quarterback Club football series. It was released in 1994.",
-      "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, Sega 32X"
-    },
+    "first_release_date": "11/30/1994",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2doa.jpg",
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000015,
     "name": "NFL Quarterback Club",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Sport",
+      "Football"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3219"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Demo"],
-      "name": "picture magic boot cart",
-      "id": 9999,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "",
-      "developers": "",
-      "esrb": "",
-      "igdbId": null
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": 9999,
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "name": "picture magic boot cart",
+    "first_release_date": "12/30/1994",
+    "total_rating": 62,
+    "esrb": "T",
+    "videos": [
+      "yRee1MvZwMc",
+      "H1UDL4OxCkU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fsd.jpg",
+    "description": "Pitfall: The Mayan Adventure is a side-scrolling action game in which you play adventurer Pitfall Harry Jr in search of his father Pitfall Harry. You battle your way through the Mayan jungles, waterfalls, deserted mines and can bungee jump and boomerang your way to safety. There are 13 levels and the action is fast and gripping. You will need to be attentive—and quick. Or prepare to die.",
+    "story": null,
+    "player_perspectives": [],
     "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
     "physical": false,
     "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
-    "consoleArr": [
-      {
-        "consoleName": "Sega 32X",
-        "consoleId": 30
-      }
-    ],
-    "id": "me3220"
-  },
-  {
-    "igdb": {
-      "genres": ["Platform", "Adventure"],
-      "name": "Pitfall: The Mayan Adventure",
-      "id": 5410,
-      "total_rating": 61,
-      "total_rating_count": 12,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "T",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-9331",
-      "gbid": 9331,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2967843-box_ptma.png",
-      "deck": "Bringing the 1982 platforming classic to '90s home consoles, The Mayan Adventure puts players in the role of Harry Jr. as he searches the Mayan ruins for his father, the original Pitfall Harry.",
-      "platforms": "Game Boy Advance, Genesis, Super Nintendo Entertainment System, Jaguar, Sega CD, Sega 32X, NUON, Wii Shop, PC"
-    },
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000016,
     "name": "Pitfall: The Mayan Adventure",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3221"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting"],
-      "name": "Primal Rage",
-      "id": 4271,
-      "total_rating": 62,
-      "total_rating_count": 19,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [2]
+    "first_release_date": "07/31/1994",
+    "total_rating": 62,
+    "esrb": "T",
+    "videos": [
+      "kBuJkh2uhqs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p5n.jpg",
+    "description": "A meteor struck the Earth, and caused great chaos. Seven gods from ancient times awoke, and are now attempting to take control of the post-apocalyptic world.  Primal Rage is a one-on-one fighting game featuring dinosaurs and giant apes as the fighters. The graphics are done with digitized stop-motion animation. Gameplay is similar to Mortal Kombat in that it is viewed from a side perspective, and features deadly finishing moves at the end of the match.",
+    "story": "A massive meteor strike has devastated Earth. Human civilization comes to an end in the ensuing cataclysms and humanity regresses into tribes of Stone Age dwellers. A primordial rainforest covers the land and the continental landmass has shifted into the shape of a fire-breathing dinosaur skull. The planet is now primitively referred to as \"Urth\" by the survivors of the cataclysms. \n \nSeven fearsome creatures emerge from their slumber deep within the Urth's crust, and become worshiped as gods by the humans, who form segregated clans beneath the ones they follow. The beasts themselves are divided between those who wish to keep peace on Urth, and those who attempt to plunge the world into further chaos for their own benefit.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
     },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-14078",
-      "gbid": 14078,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1663145-box_primrage.png",
-      "deck": "Giant beasts from different parts of the post-apocalyptic world fight each other for global domination in this violent 2D fighting game from Atari.",
-      "platforms": "Amiga, Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, PlayStation, 3DO, Sega 32X, Saturn, Arcade, PC, R-Zone, Jaguar CD"
-    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000017,
     "name": "Primal Rage",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Fighting"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3222"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Sport", "Baseball"],
-      "name": "RBI Baseball '95",
-      "id": 45876,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "01/31/1995",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-24882",
-      "gbid": 24882,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968922-box_rbi95.png",
-      "deck": "A Sega 32X exclusive entry in the long running baseball series.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "01/31/1995",
+    "videos": null,
+    "description": "This version is an updated follow-up to the R.B.I. series. Many of the same features from other baseball games are present and has three different game modes to choose from: exhibition, playoff, and home run derby, but what makes this version different from the others is a lack of MLB license, though it does feature a MLBPA license with top players of the time such as Roger Clemens, Otis Nixon, Bobby Larkin among many others.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000018,
     "name": "RBI Baseball '95",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:44 am",
-    "updatedAt": "05/16/2020 06:44 am",
+    "genres": [
+      "Sport",
+      "Baseball"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3223"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Strategy", "Turn-based strategy (TBS)", "Tactical"],
-      "name": "Romance of the Three Kingdoms IV: Wall of Fire",
-      "id": 7040,
-      "total_rating": 49,
-      "total_rating_count": 2,
-      "first_release_date": "12/08/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "Romance of the Three Kingdoms 4: Wall of Fire\r\nSangokushi IV\r\nSangokushi 4",
-      "guid": "3030-6057",
-      "gbid": 6057,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364642-snes_romanceofthethreekingdomsivwalloffire.jpg",
-      "deck": "The fourth entry in Koei's Romance of the Three Kingdoms strategy game series.",
-      "platforms": "Game Boy Advance, Super Nintendo Entertainment System, PlayStation, Sega 32X, Saturn, Wii Shop, PC, Wii U"
-    },
+    "first_release_date": "12/08/1994",
+    "total_rating": 49,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/kl4ppat03d40wxalbazb.jpg",
+    "description": "The Three Kingdoms era of Chinese history is the setting for this strategic war game. Select one of 38 leaders and guide your people to power by military or diplomatic means in an isometrically viewed world. Military tactics such as well-placed taunts and deliberate enemy confusion are on offer. Weaponry includes catapults and automatic-firing crossbows.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000019,
     "name": "Romance of the Three Kingdoms IV: Wall of Fire",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:45 am",
-    "updatedAt": "05/16/2020 06:45 am",
+    "genres": [
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3224"
+    ]
   },
   {
-    "igdb": {
-      "genres": [],
-      "name": "sangokushi iv",
-      "id": 9999,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "",
-      "developers": "",
-      "esrb": "",
-      "igdbId": null
+    "first_release_date": "04/25/1995",
+    "videos": [
+      "5zGQWrzsRpc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uo6.jpg",
+    "description": "Shadow Squadron is a 3D space combat shooter. The player controls a space fighter in a series of battles against huge enemy ships. There are 2 different types of ships to fly, and 6 different missions. In most missions, the player has to destroy several locations on a large ship in order to blow up the whole thing.  There are two ways to play the game. First, one can directly control the ship and maneuver it around the 3D polygon environments. Second, the player can let the 32X do the flying, and simply control a gun turret.",
+    "story": "An adversary (who is not named) seems to be up to their old tricks, transmitting coded transmissions and exerting energy blooms from a number of large ships. An Acceleration Gate is still not fully assembled, so additional forces can not be moved quick enough to intercept, leaving the player as the lone opposition against the enemy armada.",
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": false
     },
-    "gb": {
-      "aliases": "",
-      "guid": "",
-      "gbid": 9999,
-      "image": "",
-      "deck": "",
-      "platforms": ""
-    },
-    "name": "sangokushi iv",
+    "maxMultiplayer": 2,
     "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
     "physical": false,
     "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:45 am",
-    "updatedAt": "05/16/2020 06:45 am",
-    "consoleArr": [
-      {
-        "consoleName": "Sega 32X",
-        "consoleId": 30
-      }
-    ],
-    "id": "me3225"
-  },
-  {
-    "igdb": {
-      "genres": ["Shooter", "Simulator"],
-      "name": "Shadow Squadron",
-      "id": 19763,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "04/25/1995",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "Stellar Assault  ",
-      "guid": "3030-11386",
-      "gbid": 11386,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968919-box_ssquad.png",
-      "deck": "A polygonal space shooter featuring multiple selectable ships and 6 missions. It's more of an arcade game than a simulation, but still features full freedom of movement during each mission.",
-      "platforms": "Sega 32X"
-    },
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000020,
     "name": "Shadow Squadron",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:45 am",
-    "updatedAt": "05/16/2020 06:45 am",
+    "genres": [
+      "Shooter",
+      "Simulator"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3226"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter"],
-      "name": "Space Harrier",
-      "id": 12857,
-      "total_rating": 62,
-      "total_rating_count": 12,
-      "first_release_date": "12/30/1985",
-      "developers": "",
-      "esrb": "E",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "3D Space Harrier\nSega Ages Space Harrier",
-      "guid": "3030-6036",
-      "gbid": 6036,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5578/840647-spaceharrierpce.jpg",
-      "deck": "Play as a flying dude holding a large cannon as he takes on giant mechs, flying mushrooms, and fire-breathing dragon skeletons.",
-      "platforms": "Amiga, Game Gear, Sega Master System, Amstrad CPC, Atari ST, Commodore 64, ZX Spectrum, Nintendo Entertainment System, Sega 32X, Saturn, TurboGrafx-16, Arcade, Wii Shop, PC, Sharp X68000, NEC PC-8801, Sharp X1, FM-7, NEC PC-6001, Nintendo 3DS eShop, Nintendo Switch"
-    },
+    "first_release_date": "12/30/1985",
+    "total_rating": 62,
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ff.jpg",
+    "description": "Run… fly… dodge those obstacles, but return fire on wave after wave of attacking aliens. Armed with a really big gun, you have to defend yourself against the alien hordes using your wits to navigate around the screen. But watch out for those end of level bosses!  Originating in the arcades, Space Harrier is a third-person rail shooter with pseudo-3D graphics, set in the same world as Fantasy Zone. The lone titular hero fights aliens with a fireball-launching cannon, which can also be used to transform the hero into a flying rocket. The protagonist is constantly in motion, but the speed of his movement can be regulated by the player.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000021,
     "name": "Space Harrier",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Shooter"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3227"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Platform"],
-      "name": "The Amazing Spider-Man: Web of Fire",
-      "id": 45882,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "05/25/1996",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-4219",
-      "gbid": 4219,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968918-box_taswof.png",
-      "deck": "A side-scrolling brawler in which Spider-Man fights against the forces of H.Y.D.R.A. It was one of the last games released for the Sega 32X.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "05/25/1996",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/tn7fsmnrucf5giehaqag.jpg",
+    "description": "A massive electrical plasma grid has shrouded New York City in a blanket of hysteria and destruction. Skyscrapers are crumbling. Civilians are frying. It's only a matter of time before The Big Apple becomes the Baked Apple.  Who will prevail, The Net or The Web?",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000022,
     "name": "The Amazing Spider-Man: Web of Fire",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Platform"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3228"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Simulator", "Strategy"],
-      "name": "Star Trek: Starfleet Academy - Starship Bridge Simulator",
-      "id": 45878,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "11/30/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-19745",
-      "gbid": 19745,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/9/93770/2364786-snes_startrekstarfleetacademy.jpg",
-      "deck": "A Star Trek game for the SNES and Sega 32X released in 1995 that focuses on organizing a bridge crew in starship battles. The player must graduate Starfleet Academy via a series of virtual missions.",
-      "platforms": "Super Nintendo Entertainment System, Sega 32X"
-    },
+    "first_release_date": "11/30/1994",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u3e.jpg",
+    "description": "The game is viewed from the bridge of your vessel (there are 5 different ones in total), with polygons used to display the action. Information on the world situation at the time of the game is supplied within the game. There are quick missions bringing scenes from Star Trek movies to life.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000023,
     "name": "Star Trek: Starfleet Academy - Starship Bridge Simulator",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Simulator",
+      "Strategy"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3229"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter", "Simulator", "Arcade"],
-      "name": "Star Wars Arcade",
-      "id": 39822,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "06/06/1993",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-10715",
-      "gbid": 10715,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1787600-box_swa.png",
-      "deck": "Star Wars Arcade is a rail shooter, set during the original Star Wars trilogy. It was originally released for the Sega Model 1 arcade system in 1993 and ported to the Sega 32X in 1994.",
-      "platforms": "Sega 32X, Arcade"
-    },
+    "first_release_date": "06/06/1993",
+    "videos": [
+      "ddFAJ4WtRdc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xet.jpg",
+    "description": "Launch your X-wing fighter for the final Death Star assault! The Force is with you as you pursue Darth Vader through an exploding galaxy! You are the last hope for the Rebel Alliance!",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000024,
     "name": "Star Wars Arcade",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 1,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Shooter",
+      "Simulator",
+      "Arcade"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3230"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter"],
-      "name": "TMEK",
-      "id": 45875,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "01/31/1995",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "T-Mek: The Warlords",
-      "guid": "3030-18557",
-      "gbid": 18557,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968928-box_tmek.png",
-      "deck": "Fire shots from your hovertank in this first-person, deathmatch-style arcade game.",
-      "platforms": "Sega 32X, Arcade, PC"
-    },
+    "first_release_date": "01/31/1995",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/mdikul7kbigkomyvlb5m.jpg",
+    "description": "T-Mek is essentially an updated Battlezone. You are a warrior battling in the T-Mek competition, a hugely popular event in the future. You control a hovercraft and try to blow up everyone else.  The action is viewed from your perspective as you travel around the arena. You also have an overall view of where your opponents are. Terrain surfaces and characteristics vary in each battle. In most levels you need to reach a certain score to progress, however there are out-and-out one-off Deathmatch duels to deal with periodically.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000025,
     "name": "TMEK",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Shooter"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3231"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Platform", "Adventure"],
-      "name": "Tempo",
-      "id": 45881,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "04/23/1995",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-3595",
-      "gbid": 3595,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2958022-box_tempo.png",
-      "deck": "Tempo is a platformer for the Sega 32X. It was developed by Red Company and published by Sega in 1995.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "04/23/1995",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/yhlybhskcxfczdemv1no.jpg",
+    "description": "King Dirge is trying to steal the rhythm out of Planet Rhythmia! It is up to Tempo, the hyper groovin' grasshopper with special \"Sound Energy\" to save the world of music from the evil clutches of King Dirge.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000026,
     "name": "Tempo",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3232"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting", "Sport", "Boxing"],
-      "name": "Toughman Contest",
-      "id": 19760,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "12/30/1995",
-      "developers": "",
-      "esrb": "T",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-14857",
-      "gbid": 14857,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968925-box_tmc.png",
-      "deck": "Toughman Contest is a boxing game similar to Super Punch-Out, and was released for the Genesis and 32X in 1995. It was developed by High Score Productions and Visual Concepts.",
-      "platforms": "Genesis, Sega 32X"
-    },
+    "first_release_date": "12/30/1995",
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/u91xfhrdkhcwn7fulmom.jpg",
+    "description": "Toughman Contest is a game based on the world famous boxing competition of the same name. You pick one of 24 fighters, compete in one of 5 locations from around the world, and re-create the Toughman tournament as seen on TV.  The boxing action is viewed from behind the back of fighter you control. Your fighter is rendered as an outline, so you can see what your opponent is up to and react accordingly. Toughman matches consist of three one minute rounds. Your goal is to KO your opponent by causing their stamina meter to decrease to the point where they fall down, or beating on them enough that you are scored the winner at end of the third round.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000027,
     "name": "Toughman Contest",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Fighting",
+      "Sport",
+      "Boxing"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3233"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting", "Arcade"],
-      "name": "Virtua Fighter",
-      "id": 19734,
-      "total_rating": 50,
-      "total_rating_count": 15,
-      "first_release_date": "11/30/1993",
-      "developers": "",
-      "esrb": "T",
-      "game_modes": [1, 2]
+    "first_release_date": "09/30/1993",
+    "total_rating": 53,
+    "esrb": "T",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co279c.jpg",
+    "description": "A classic fighting game by Sega, considered one of the first 3D fighting games.",
+    "story": "Once in the Shōwa period, the defunct Japanese army intended to approach Henry Pu-yi, the last Emperor of the Ching Dynasty in their effort to take advantages. However, they were defeated by the Imperial guards who utilized the martial art called Hakkyoku-ken. During World War II, the Japanese army research the mysteries of Hakkyoku-ken to create supersoldiers, developing the ultimate martial art. \n \nApproximately half a century has passed since then, the ultimate World Fighting Tournament is about to start, and all kinds of fighters from around the world engage to determine the world's best. Behind the Tournament, however, there exists an intrigue designed by a sinister syndicate.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
     },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-15584",
-      "gbid": 15584,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/3001972-flyer_vf.png",
-      "deck": "Best known as the first fighting game to render player characters using 3D polygons, Virtua Fighter pits eight martial artists (each with numerous real-world fighting techniques) from around the world together in the World Fighting Tournament.",
-      "platforms": "Sega 32X, Saturn, Arcade, PC, R-Zone"
-    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000028,
     "name": "Virtua Fighter",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:46 am",
-    "updatedAt": "05/16/2020 06:46 am",
+    "genres": [
+      "Fighting",
+      "Arcade"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3234"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Racing", "Arcade"],
-      "name": "Virtua Racing Deluxe",
-      "id": 45880,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "11/20/1994",
-      "developers": "",
-      "esrb": ""
+    "first_release_date": "12/11/1994",
+    "videos": [
+      "4gNP3Lk0Ivk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uo5.jpg",
+    "description": "Virtua Racing Deluxe is an enhanced port of Virtua Racing, released as a launch title for the Sega 32X in North America and Europe in late 1994.  Much of its team was comprised of developers who had produced the port of Virtua Racing to the Sega Mega Drive, however the visuals in Virtua Racing Deluxe are far more accurate and the some music was rearranged. Naofumi Hataya also composed several new tracks for the game, in some cases replacing original themes.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": true
     },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-11455",
-      "gbid": 11455,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5578/840673-virtuaracingdeluxe32x.jpg",
-      "deck": "Virtua Racing Deluxe is a home port of the 1992 arcade hit and a Sega 32X launch title.",
-      "platforms": "Sega 32X"
-    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000029,
     "name": "Virtua Racing Deluxe",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:47 am",
-    "updatedAt": "05/16/2020 06:47 am",
+    "genres": [
+      "Racing",
+      "Arcade"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3235"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Sport", "Wrestling"],
-      "name": "WWF Raw",
-      "id": 19771,
-      "total_rating": 65,
-      "total_rating_count": 2,
-      "first_release_date": "12/30/1994",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-4155",
-      "gbid": 4155,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968921-box_wwfraw.png",
-      "deck": "Sequel to WWF Royal Rumble, and ended LJN's 16-bit WWF trilogy.",
-      "platforms": "Game Boy, Game Gear, Genesis, Super Nintendo Entertainment System, Sega 32X"
-    },
+    "first_release_date": "12/30/1994",
+    "total_rating": 65,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jae.jpg",
+    "description": "Raw™ slams your senses with 24 megs of the most ruthless mat mayhem ever! The hottest superstars, all new superhumans megamoves and more in-and-out-of-the-ring action stand between you and the championship belt. This Raw™...and RAW IS WAR!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000030,
     "name": "WWF Raw",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:47 am",
-    "updatedAt": "05/16/2020 06:47 am",
+    "genres": [
+      "Sport",
+      "Wrestling"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3236"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Fighting", "Wrestling"],
-      "name": "WWF WrestleMania: The Arcade Game",
-      "id": 4546,
-      "total_rating": 52,
-      "total_rating_count": 8,
-      "first_release_date": "10/17/1995",
-      "developers": "",
-      "esrb": "",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-8027",
-      "gbid": 8027,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5166/1559062-wwf_wrestlemania_the_arcade_flyer.jpg",
-      "deck": "Throw reality out the window as WWF stars fight for the gold in WWF WrestleMania: The Arcade Game.",
-      "platforms": "Genesis, Super Nintendo Entertainment System, PlayStation, Sega 32X, Saturn, Arcade, PC"
-    },
+    "first_release_date": "10/17/1995",
+    "total_rating": 31,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xc6.jpg",
+    "description": "WWF WrestleMania (also known on console versions as WWF WrestleMania: The Arcade Game) is a professional wrestling arcade game released by Midway Manufacturing Co. in 1995. It is based on the World Wrestling Federation (WWF) professional wrestling promotion.The game featured digitized representations of eight WWF performers who are pitted against each other in fast-paced matches inspired by Midway's Mortal Kombat games. Commentary is provided by Vince McMahon and Jerry Lawler, who also appear in the game sitting at the announcers' table to the right of the ring.Acclaim, who published the console versions of the game, developed a follow-up, WWF in Your House for the PlayStation, Sega Saturn, and DOS.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000031,
     "name": "WWF WrestleMania: The Arcade Game",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:47 am",
-    "updatedAt": "05/16/2020 06:47 am",
+    "genres": [
+      "Fighting",
+      "Wrestling"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3237"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Sport", "Baseball"],
-      "name": "World Series Baseball Starring Deion Sanders",
-      "id": 46428,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "01/31/1995",
-      "developers": "",
-      "esrb": ""
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-17117",
-      "gbid": 17117,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/0/5578/840689-worldseriesbaseball32x.jpg",
-      "deck": "World Series Baseball starring Deion Sanders is an MLBPA licensed baseball game starring Deion Sanders.",
-      "platforms": "Sega 32X"
-    },
+    "first_release_date": "01/31/1995",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/fkehxmlzdjanb4fth9xx.jpg",
+    "description": "World Series Baseball Starring Deion Sanders is an entry in the World Series Baseball series, and was released exclusively on the Sega 32X in 1995. It was not released outside of North America.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega 32X",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000032,
     "name": "World Series Baseball Starring Deion Sanders",
-    "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
-    "physical": false,
-    "cib": false,
-    "pirated": false,
-    "multiplayerNumber": "",
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:47 am",
-    "updatedAt": "05/16/2020 06:47 am",
+    "genres": [
+      "Sport",
+      "Baseball"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3238"
+    ]
   },
   {
-    "igdb": {
-      "genres": ["Shooter", "Racing"],
-      "name": "Zaxxon's Motherbase 2000",
-      "id": 19764,
-      "total_rating": null,
-      "total_rating_count": null,
-      "first_release_date": "07/13/1995",
-      "developers": "",
-      "esrb": "E",
-      "game_modes": [1, 2]
-    },
-    "gb": {
-      "aliases": "",
-      "guid": "3030-7390",
-      "gbid": 7390,
-      "image": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2968927-box_zmb2k.png",
-      "deck": "Zaxxon's Motherbase 2000 is the pseudo sequel to the 1982 Sega Arcade game Zaxxon. It is an isometric shoot-em-up style game.",
-      "platforms": "Sega 32X"
-    },
-    "name": "Zaxxon's Motherbase 2000",
+    "first_release_date": "07/13/1995",
+    "esrb": "E",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/bbdksortcgub9hv5j9fo.jpg",
+    "description": "This 32X-exclusive sci-fi shooter is similar gameplay-wise to Sega's arcade game Zaxxon. The graphics consist of a diagonally scrolling playfield which creates a pseudo 3D environment. The backgrounds are drawn using 2D scrolling planes, but the enemy and ship objects are drawn using 3D flat-shaded polygons.  Although the basic goal of each of the 9 levels is to shoot everything without getting shot, the game has a strategic element. Your basic spacecraft has very little firepower, and can only sustain one hit. To make matters worse, there are very few power-ups. In order to survive, you have to jump on top of enemies and take control of their weapons systems. This system allows for a large variety of player-controllable ships.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
     "consoleName": "Sega 32X",
-    "consoleIgdbId": 30,
-    "consoleGbid": 31,
-    "consoleGbGuid": "3045-31",
-    "condition": "Other",
-    "case": "none",
-    "pricePaid": "",
+    "consoleId": 30,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
     "physical": false,
     "cib": false,
-    "pirated": false,
-    "multiplayerNumber": 2,
-    "datePurchased": null,
-    "howAcquired": null,
-    "notes": "Mega EverDrive",
-    "createdAt": "05/16/2020 06:47 am",
-    "updatedAt": "05/16/2020 06:47 am",
+    "datePurchased": "2021-04-10",
+    "howAcquired": "piracy",
+    "notes": "playable via Mega Everdrive",
+    "createdAt": "04/10/2021",
+    "updatedAt": "04/10/2021",
+    "_id": 1000033,
+    "name": "Zaxxon's Motherbase 2000",
+    "genres": [
+      "Shooter",
+      "Racing"
+    ],
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
     "consoleArr": [
       {
         "consoleName": "Sega 32X",
         "consoleId": 30
       }
-    ],
-    "id": "me3239"
+    ]
   }
 ]

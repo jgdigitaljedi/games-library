@@ -25,7 +25,7 @@
       "Golf"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -38,7 +38,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/31/1994",
@@ -73,7 +79,7 @@
       "Shooter"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -86,7 +92,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1994",
@@ -117,7 +129,7 @@
       "Racing"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -130,7 +142,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "09/22/1994",
@@ -164,7 +182,7 @@
       "Adventure"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -177,7 +195,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "01/31/1995",
@@ -205,7 +229,7 @@
       "Fighting"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -218,7 +242,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "11/20/1994",
@@ -254,7 +284,7 @@
       "Fighting"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -267,7 +297,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/31/1995",
@@ -295,7 +331,7 @@
       "SHMUP"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -308,7 +344,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/09/1993",
@@ -348,7 +390,7 @@
       "FPS"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -361,7 +403,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "04/19/1995",
@@ -399,7 +447,7 @@
       "Platform"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -412,7 +460,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1995",
@@ -442,7 +496,7 @@
       "Shooter"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -455,7 +509,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "02/23/1995",
@@ -489,7 +549,7 @@
       "Mech"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -502,7 +562,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1993",
@@ -535,7 +601,7 @@
       "Fighting"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -548,7 +614,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1994",
@@ -578,7 +650,7 @@
       "Sport"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -591,7 +663,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1994",
@@ -625,7 +703,7 @@
       "Basketball"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -638,7 +716,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "11/30/1994",
@@ -666,7 +750,7 @@
       "Football"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -679,7 +763,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1994",
@@ -712,7 +802,7 @@
       "Adventure"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -725,7 +815,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "07/31/1994",
@@ -764,7 +860,7 @@
       "Fighting"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -777,7 +873,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "01/31/1995",
@@ -804,7 +906,7 @@
       "Baseball"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -817,7 +919,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/08/1994",
@@ -849,7 +957,7 @@
       "Tactical"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -862,7 +970,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "04/25/1995",
@@ -901,7 +1015,7 @@
       "Simulator"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -914,7 +1028,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1985",
@@ -945,7 +1065,7 @@
       "Shooter"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -958,7 +1078,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "05/25/1996",
@@ -985,7 +1111,7 @@
       "Platform"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -998,7 +1124,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "11/30/1994",
@@ -1028,7 +1160,7 @@
       "Strategy"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1041,7 +1173,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "06/06/1993",
@@ -1075,7 +1213,7 @@
       "Arcade"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1088,7 +1226,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "01/31/1995",
@@ -1117,7 +1261,7 @@
       "Shooter"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1130,7 +1274,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "04/23/1995",
@@ -1158,7 +1308,7 @@
       "Adventure"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1171,7 +1321,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1995",
@@ -1203,7 +1359,7 @@
       "Boxing"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1216,7 +1372,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "09/30/1993",
@@ -1254,7 +1416,7 @@
       "Arcade"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1267,7 +1429,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/11/1994",
@@ -1306,7 +1474,7 @@
       "Arcade"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1319,7 +1487,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "12/30/1994",
@@ -1350,7 +1524,7 @@
       "Wrestling"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1363,7 +1537,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "10/17/1995",
@@ -1394,7 +1574,7 @@
       "Wrestling"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1407,7 +1587,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "01/31/1995",
@@ -1435,7 +1621,7 @@
       "Baseball"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1448,7 +1634,13 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   },
   {
     "first_release_date": "07/13/1995",
@@ -1479,7 +1671,7 @@
       "Racing"
     ],
     "physicalDigital": [
-      "Everdrive"
+      "EverDrive"
     ],
     "manual": false,
     "handheld": false,
@@ -1492,6 +1684,12 @@
       "psPlus": false,
       "primeFree": false,
       "switchFree": false
-    }
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Sega 32X",
+        "consoleId": 30
+      }
+    ]
   }
 ]

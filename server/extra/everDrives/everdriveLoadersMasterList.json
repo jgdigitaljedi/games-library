@@ -4,34 +4,55 @@
     "platformId": 21,
     "platformName": "Nintendo GameCube",
     "location": "downstairs",
-    "notes": "GCLoader installed in place of optical drive; output through Carby then mClassic"
+    "notes": "GCLoader installed in place of optical drive; output through Carby then mClassic",
+    "title": "GC Loader Gamecube Games"
   },
   {
     "file": "megaEverdrive32xGames.json",
     "platformId": 30,
     "platformName": "Sega 32X",
     "location": "upstairs",
-    "notes": "played via MegaEverdrive"
+    "notes": "played via MegaEverdrive",
+    "title": "MegaEverdrive 32X Games"
   },
   {
     "file": "megaEverdriveGames.json",
     "platformId": 29,
     "platformName": "Sega Mega Drive/Genesis",
     "location": "upstairs",
-    "notes": "played via MegaEverdrive"
+    "notes": "played via MegaEverdrive",
+    "title": "MegaEverdrive Genesis Games"
   },
   {
     "file": "turboEverdrive.json",
     "platformId": 86,
     "platformName": "TurboGrafx-16/PC Engine",
     "location": "upstairs",
-    "notes": "played via TurboEverdrive"
+    "notes": "played via TurboEverdrive",
+    "title": "TurboEverdrive Turbografx-16/PC Engine Games"
   },
   {
     "file": "ps2OPLgames.json",
     "platformId": 8,
     "platformName": "PS2",
     "location": "upstairs",
-    "notes": "played via OPL Loader from 1TB HD installed in PS2"
+    "notes": "played via OPL Loader from 1TB HD installed in PS2",
+    "title": "OPL Loader PlayStation 2 Games"
+  },
+  {
+    "file": "wiiHackedHdGames.json",
+    "platformId": 5,
+    "platformName": "Wii",
+    "location": "upstairs",
+    "notes": "played via Homebrew on Wii from USB hard drive",
+    "title": "Homebrew Loader Wii Games"
+  },
+  {
+    "file": "nintendo3dsHackedGames.json",
+    "platformId": 37,
+    "platformName": "Nintendo 3DS",
+    "location": "upstairs",
+    "notes": "played via Homebrew on hacked Nintendo 3DS",
+    "title": "Nintendo 3DS Hacked Games"
   }
 ]

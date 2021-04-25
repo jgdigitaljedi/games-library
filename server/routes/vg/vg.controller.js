@@ -2,12 +2,14 @@ const db = require('../../db');
 const igdb = require('igdb-api-node').default;
 const moment = require('moment');
 const _cloneDeep = require('lodash/cloneDeep');
+const _uniq = require('lodash/uniq');
 const axios = require('axios');
 const logger = require('../../config/logger');
 const consolesCrud = require('./vgCrud/consolesCrud.controller');
 const getLocation = require('./gamesHelpers/consoleLocation').getLocation;
 const isHandheld = require('./gamesHelpers/handhelds').isHandheld;
 const getExtraData = require('./gamesHelpers/extraGameData').getExtraData;
+const getBasicGenre = require('../../extra/utils/getBasicGenresFromName').getBasicGenre;
 
 let client;
 let appKey;
@@ -70,7 +72,7 @@ function formatMultiplayerModes(modes) {
 
 function getConsoleName(id) {
   const platforms = consolesCrud.getPlatforms();
-  const selected = platforms.filter((p) => p.igdb && p.igdb.id === id);
+  const selected = platforms.filter(p => p.igdb && p.igdb.id === id);
   if (selected && selected.length) {
     return selected[0].igdb.name;
   } else {
@@ -125,10 +127,10 @@ module.exports.searchPlatforms = async function (req, res) {
       .search(req.body.platform)
       .request('/platforms');
     request
-      .then((result) => {
+      .then(result => {
         if (result && result.data) {
           const rCopy = _cloneDeep(result.data);
-          const cleaned = rCopy.map((item) => {
+          const cleaned = rCopy.map(item => {
             if (item && item.platform_logo && item.platform_logo.url) {
               item.logo = { url: item.platform_logo.url };
             }
@@ -143,7 +145,7 @@ module.exports.searchPlatforms = async function (req, res) {
           });
         }
       })
-      .catch((error) => {
+      .catch(error => {
         logger.logThis(error, req);
         res.status(500).send(error);
       });
@@ -169,10 +171,10 @@ module.exports.searchGame = async function (req, res) {
     }
 
     request
-      .then((result) => {
+      .then(result => {
         if (result.status === 200) {
           const rCopy = _cloneDeep(result.data);
-          const cleaned = rCopy.map((item) => {
+          const cleaned = rCopy.map(item => {
             const game = {};
             if (item.summary) {
               game.description = item.summary;
@@ -198,24 +200,26 @@ module.exports.searchGame = async function (req, res) {
             }
             item.esrb = { rating: null, letterRating: null };
             if (item.age_ratings && item.age_ratings.length) {
-              const esrb = item.age_ratings.filter((r) => r.rating > 5).map((r) => r.rating);
+              const esrb = item.age_ratings.filter(r => r.rating > 5).map(r => r.rating);
               game.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : null;
             }
             if (item.videos && item.videos.length) {
-              const vCopy = item.videos.map((v) => v.video_id);
+              const vCopy = item.videos.map(v => v.video_id);
               game.videos = vCopy;
             } else {
               game.videos = [];
             }
             if (item.player_perspectives && item.player_perspectives.length) {
-              const ppCopy = item.player_perspectives.map((p) => p.name);
+              const ppCopy = item.player_perspectives.map(p => p.name);
               game.player_perspectives = ppCopy;
             } else {
               game.player_perspectives = [];
             }
             const gCopy = _cloneDeep(item.genres);
-            const gCleaned = gCopy && gCopy.length ? gCopy.map((g) => g.name) : null;
-            game.genres = gCleaned;
+            const gCleaned = gCopy && gCopy.length ? gCopy.map(g => g.name) : [];
+            const basicGenres = getBasicGenre(item.name);
+            const combinedGenres = _uniq([...gCleaned, ...basicGenres].filter(g => g)) || [];
+            game.genres = combinedGenres;
             game.consoleId = req.body.platform || undefined;
             if (item.cover && item.cover.url) {
               const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
@@ -237,7 +241,7 @@ module.exports.searchGame = async function (req, res) {
           res.status(200).json(cleaned);
         }
       })
-      .catch((error) => {
+      .catch(error => {
         console.log('error', error);
         logger.logThis(error, req);
         res.status(500).json(error);
@@ -259,10 +263,10 @@ module.exports.getGenre = function (req, res) {
       .get(`https://api-endpoint.igdb.com/genres/${req.body.genre}?fields=id,name`, {
         headers: { 'user-key': process.env.IGDBKEY }
       })
-      .then((result) => {
+      .then(result => {
         res.json(result.data);
       })
-      .catch((error) => {
+      .catch(error => {
         logger.logThis(error, req);
         res
           .status(500)

@@ -193,6 +193,7 @@ async function getNewGameData(game) {
           }
           if (item.genres && item.genres.length) {
             formatted.genres = getGenres(item);
+            formatted.genresDisplay = formatted.genres.join(', ');
           }
           formatted.videos =
             item.videos && item.videos.length ? item.videos.map(v => v.video_id) : null;
@@ -215,7 +216,7 @@ async function getNewGameData(game) {
           const oldData = userData;
           const newGameData = { ...formatted, ...oldData };
           const supped = getExtraData(newGameData);
-          console.log(chalk.magenta(game));
+          console.log(chalk.magenta(supped));
           resolve(newGameData);
         } else {
           const gameError = { game, error: true };

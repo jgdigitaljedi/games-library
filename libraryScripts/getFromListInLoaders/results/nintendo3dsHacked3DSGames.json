@@ -1,0 +1,749 @@
+[
+  {
+    "id": 3405,
+    "name": "Mario Golf: World Tour",
+    "first_release_date": "04/30/2014",
+    "total_rating": 78,
+    "esrb": "E",
+    "genres": [
+      "Sport"
+    ],
+    "genresDisplay": "Sport",
+    "videos": [
+      "A5G0JPH3Vyw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co224o.jpg",
+    "description": "Luigi and his Mushroom Kingdom neighbors are teeing up once again in Mario Golf: World Tour. The Nintendo 3DS game includes both simple controls and a deeper experience for golf fans, plus courses that range from traditional to those inspired by the Mushroom Kingdom",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 1067,
+    "name": "Super Mario Bros. 2",
+    "first_release_date": "10/08/1988",
+    "total_rating": 77,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Adventure, Arcade",
+    "videos": [
+      "i73P7e0XyPg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wos.jpg",
+    "description": "Super Mario Bros. 2, 2D platformer and sequel to Super Mario Bros. (1985), features 4 selectable characters (Mario, Luigi, Princess Peach, Toad) as they navigate the dream world of Subcon to defeat the evil toad king Wart. Super Mario Bros. 2 features different ways interacting with enemies and the world, including an object carrying mechanic and more intricate level designs.",
+    "story": "One night Mario has a strange dream, where he opens a door to another world filled with even stranger creatures and lands than those in his last adventure against Bowser. Amazingly, the next day, Mario, Luigi, Toad, and the Princess stumble upon a cave, which leads to the world that was in Mario's dream. Subcon, the land of dreams, is under an evil spell thanks to Wart, so Mario and the gang must save the day. New creatures to defeat and plenty of nasty surprises await.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 11193,
+    "name": "Hyrule Warriors: Legends",
+    "first_release_date": "01/20/2016",
+    "total_rating": 71,
+    "esrb": "T",
+    "genres": [
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "genresDisplay": "Hack and slash/Beat 'em up, Adventure",
+    "videos": [
+      "zGDEUPZNlh8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dzf.jpg",
+    "description": "Cut down entire legions of enemies using over-the-top powerful Dynasty Warriors-style moves as Hyrule Warriors comes to the Nintendo 3DS family of systems. In the portable version, experience new story elements and playable characters from by The Legend of Zelda: The Wind Waker game such as Tetra, King of Hyrule and more. Additional new features, such as the ability to switch between different characters on the fly, allow you to strategically position characters and defeat foes in all-new ways like never before.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 15654,
+    "name": "BOXBOY!",
+    "first_release_date": "01/13/2015",
+    "total_rating": 81,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Strategy",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Puzzle, Strategy, Adventure",
+    "videos": [
+      "vM0AppRa6mQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2595.jpg",
+    "description": "Box Boy! is a platform game in which players control a box-shaped character named Qbby as he makes his way through each level. The source of the game's mechanics come from Qbby's ability to spawn boxes out of his body, the number of which varies between each level. These boxes can spread out in whatever direction is possible to make various shapes and can either be carried or thrown and pushed around. The boxes have various uses, such as allowing players to reach high ledges or cross large gaps, holding down switches, or blocking deadly lasers. Additionally, by hooking these boxes onto a ledge while Qbby is still attached, he can pull himself up.  Each level features one or more crowns, which can be collected with advanced play but will become uncollectable if the player uses too many boxes during a level. These crowns unlock additional worlds as the game progresses. Medals obtained from clearing each level can be spent on extras, such as costumes, technique manuals, and bonus levels.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 27438,
+    "name": "Blaster Master Zero",
+    "first_release_date": "03/02/2017",
+    "total_rating": 78,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Platform, Adventure",
+    "videos": [
+      "xJ1dkjA440U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1q.jpg",
+    "description": "A loose reboot of the original Blaster Master by Inti Creates, utilizing elements from the original game, the \"Worlds of Power\" novelization, and the original Japanese version.",
+    "story": "\"One day, a young man named Jason Frudnick, known for being a genius in the field of robotic engineering, discovered a strange creature that he has never seen before. \nNo records of this mysterious creature could be found, so Jason gave it the name \"Fred\" and took it to his lab to begin closely observing it. \n \nShortly after that, an accident occurred in the lab and Fred managed to escape.Fred jumped into a hole that seemingly appeared out of nowhere.Jason followed, and before he knew it, he found himself in a cave where the battle vehicle “SOPHIA III” awaited him. \n \nWith his curiosity in this incredibly high tech vehicle piqued, Jason hopped abroad SOPHIA III and began his adventure in the vast subterranean world in search of Fred.\"",
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 11195,
+    "name": "Mario & Luigi: Paper Jam",
+    "first_release_date": "12/02/2015",
+    "total_rating": 73,
+    "esrb": "E",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": [
+      "zI9Ic3tz2lc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21vo.jpg",
+    "description": "Paper Mario jumps out of a book and into the bizarre adventures of Mario & Luigi, resulting in hilarious, and dangerous, hijinks! Become the superstar team of Mario, Luigi and Paper Mario to take on quests, take down enemies, and untangle these two unique universes in this playful new entry in the Mario & Luigi series.",
+    "story": "Luigi stumbles across a mysterious book and accidentally unleashes paper-thin versions of Princess Peach, Toad, and many others. Now he and Mario must team up with Paper Mario to help their paper friends get back to their own world!",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 37140,
+    "name": "Metroid: Samus Returns",
+    "first_release_date": "09/14/2017",
+    "total_rating": 86,
+    "esrb": "E10+",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "UhOx-FpEAQk",
+      "UOrkRW2NPQ8",
+      "YkKHOys9L24"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nx2.jpg",
+    "description": "Metroid: Samus Returns is a remake of Metroid 2: Return of Samus. It uses a 3D graphic style with a side view camera that zooms in and changes for cutscenes. It also has new mechanics, items, and abilities.  \"Brave the hostile terrain of an alien planet teeming with vicious life forms as legendary bounty hunter Samus Aran. Her mission? Terminate the Metroid menace in this masterful reimagining of her 1991 Game Boy adventure. Samus Aran’s arsenal has been enhanced with new moves and abilities that are sure to help her face the deadly surprises that await. This intense, side-scrolling action platformer is a great entry point into the Metroid franchise and perfect for returning fans as well, and it’s available only on the Nintendo 3DS family of systems.\"",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 128798,
+    "name": "Sonic Generations",
+    "first_release_date": "11/23/2011",
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "gb9RQwlNRy8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zya.jpg",
+    "description": "In the 3DS version of Sonic Generations, Modern Sonic's gameplay is similar to that of Sonic Rush and the DS version of Sonic Colors. He has the Boost, the ability to slide under obstacles, jump off walls, and the Homing Attack. After the second era, Modern Sonic learns the Stomp. Modern Sonic's levels use the 3D effect of depth on the 3DS version more actively as well as to giving a better view for when Modern Sonic jumps into the background, although the console versions are 3D-TV compatible. In the HD version, Modern Sonic is only able to wall jump off certain panels (similar to the DS version of Sonic Colors), but in the 3DS version, he is able to wall jump on any wall (much like Sonic Unleashed and the Wii version of Sonic Colors).",
+    "story": "The story begins with Classic Sonic in Green Hill. After completing Act 1, a purple vortex in the sky appears and surprises Classic Sonic. After that, it goes all the way to the present day and Sonic is invited to a birthday party by Tails. However, Sonic arrives early, so Tails tells him to wait. But then a vortex sucks Tails into it. Sonic jumps in but is \"attacked,\" though he manages to get in anyway. Sonic sees a white world and wonders what's going on. Modern Sonic rescues Tails after restoring Green Hill, and Tails tells him that he sees a big city in nighttime and a giant mushroom, so Sonic decides to go check those places out, being followed by Classic Sonic, who is believed by Tails to be Modern Sonic.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 0,
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 1079,
+    "name": "Super Mario 3D Land",
+    "first_release_date": "11/02/2011",
+    "total_rating": 86,
+    "esrb": "E",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": [
+      "QlniEA5o2Kw",
+      "kqd2SF3asbY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21tq.jpg",
+    "description": "Super Mario 3D Land is the second 3D Super Mario platformer for a handheld device, and the successor to Super Mario Galaxy 2. The game is closely based on side-scrolling Mario games, as it combine elements from both traditional 2D Mario games and modern free-roaming 3D Mario games. It also introduces elements into the series, including power-ups and gameplay mechanics.",
+    "story": "A tree that is on Princess Peach's castle grounds is stripped of all its leaves during a heavy storm. The leaves, which turn out to be Super Leaves, are blown across the Mushroom Kingdom, bestowing Tanooki tails on all living things they touch. When Mario and the Toads go to inspect the tree the next day, they discover a letter from Bowser, learning that he has kidnapped Princess Peach once again. Mario sets off in pursuit to find and rescue the princess.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 26157,
+    "name": "Super Mario Maker for Nintendo 3DS",
+    "first_release_date": "11/30/2016",
+    "total_rating": 74,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle"
+    ],
+    "genresDisplay": "Platform, Puzzle",
+    "videos": [
+      "9zhE5Sb45O4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22w3.jpg",
+    "description": "Super Mario Maker for Nintendo 3DS features all the same tools as the original Wii U version but does not support online sharing. Instead it comes with 100 courses designed by Nintendo featuring special challenges. Also new is the ability of collaborating on unfinished courses locally.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 20110,
+    "name": "Donkey Kong Country Returns 3D",
+    "first_release_date": "05/22/2013",
+    "total_rating": 83,
+    "esrb": "E",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wf5.jpg",
+    "description": "Over 70 levels of banana-hoarding fun featuring Donkey Kong and Diddy Kong. Run, jump, climb and defeat enemies through diverse environments until you retrieve Donkey Kong's stolen banana hoard. Rebuilt and optimized for portable play on the Nintendo 3DS system.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 6890,
+    "name": "Star Fox 64 3D",
+    "first_release_date": "07/16/2011",
+    "total_rating": 79,
+    "esrb": "E10+",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": [
+      "0AdrvpM8L4Q"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wwu.jpg",
+    "description": "The Star Fox team triumphantly returns to one of its greatest missions with this remake of Star Fox 64 in full 3D, featuring a complete graphical update.  The entire Star Fox universe spreads out realistically into the depths of the Nintendo 3DS screen while the 3D visuals give the player a clearer grasp of distance and position. This makes the game more approachable and intuitive, thereby allowing players to focus on the action.",
+    "story": "Corneria, forth planet from the Lylat system. The evil Andross turned this once-thriving system into a wasteland of near extinction. General Pepper of the Cornerian army was successful in exiling this maniacal scientist to the barren, deserted planet Venom. Five years later, General Pepper noticed strange activity coming from Venom. James McCloud, Pigma Dengar, and Peppy Hare of the Star Fox team were sent to investigate. Upon their arrival, Pigma betrayed the team, and James and Peppy were captured by Andross. Peppy barely escaped Venom and returned home to tell James's son Fox about his father's fate. A few years have passed. Andross again has invaded the Lylat system. General Pepper has turned to a new Star Fox team headed by Fox McCloud to save Corneria and free the Lylat system once again.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  },
+  {
+    "id": 1149,
+    "name": "Castlevania: Lords of Shadow - Mirror of Fate",
+    "first_release_date": "03/04/2013",
+    "total_rating": 69,
+    "esrb": "M",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "RVruugAF31o",
+      "zzJhoMcs5E8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pat.jpg",
+    "description": "Initially set 25 years after the events of Castlevania: Lords of Shadow, Mirror of Fate will reveal the story of Gabriel's descendants, as they battle their own destiny in each era only to discover their true, shocking fate.  Trevor Belmont, a knight of the Brotherhood of Light sets out to avenge the death of his mother, at the hands of his own father, who has now returned from years of exile to take up residence in a mysterious castle. What was once Gabriel Belmont now stands a powerful vampire called Dracula. Dracula has declared war upon the Brotherhood and thus the scene is set for a cataclysmic showdown between Father and Son!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo 3DS",
+    "consoleId": 37,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-04-27",
+    "howAcquired": "piracy",
+    "notes": "playable via hacked 3DS XL",
+    "createdAt": "04/27/2021",
+    "updatedAt": "04/27/2021",
+    "_id": 1200001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 3DS",
+        "consoleId": 37
+      }
+    ],
+    "extraData": [],
+    "extraDataFull": {}
+  }
+]

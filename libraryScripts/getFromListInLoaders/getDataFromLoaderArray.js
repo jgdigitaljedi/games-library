@@ -13,14 +13,14 @@ const _uniq = require('lodash/uniq');
 
 // @TODO: change these file specific variables each time
 /***************************************************** */
-let edId = 1100000;
-const fileName = 'gamecubeLoader.json';
-const gameNotes = 'playable via modded GameCube with GC Loader';
-const consoleName = 'Nintendo GameCube';
-const consoleId = 21;
+let edId = 1200000;
+const fileName = 'nintendo3dsHacked3DSGames.json';
+const gameNotes = 'playable via hacked 3DS XL';
+const consoleName = 'Nintendo 3DS';
+const consoleId = 37;
 const errorRun = null; // null for regular file, number if running against errors from previous run
-const location = 'downstairs';
-const handheld = false;
+const location = 'both';
+const handheld = true;
 const compilation = false;
 const compilationGamesIds = [];
 const gamesService = {
@@ -44,10 +44,6 @@ const userData = {
   createdAt: moment().format('MM/DD/YYYY'),
   updatedAt: moment().format('MM/DD/YYYY'),
   _id: createEverdriveId(),
-  // name: game.igdb && game.igdb.name ? game.igdb.name : '',
-  // extraData: game.extraData,
-  // extraDataFull: game.extraDataFull,
-  // genres: game.igdb ? game.igdb.genres : [],
   physicalDigital: ['EverDrive'],
   manual: false,
   handheld,
@@ -139,26 +135,30 @@ const getMultiplayerModes = modes => {
 };
 
 const getExtraData = game => {
-  const extra = extraDataFile.filter(g => g.igdbId === game.id);
-  const bannedData = banned.filter(b => b.igdbId === game.id);
-  let short = [];
-  let long = [];
-  if (extra && extra.length) {
-    short = _flatten(extra.map(e => e.details));
-    long = extra[0];
+  const extra = extraDataFile ? extraDataFile.filter(g => g.igdbId === game.id) : null;
+  if (extra) {
+    const bannedData = banned.filter(b => b.igdbId === game.id);
+    let short = [];
+    let long = [];
+    if (extra && extra.length) {
+      short = _flatten(extra.map(e => e.details));
+      long = extra[0];
+    }
+    if (bannedData && bannedData.length) {
+      short.push(banned[0].details);
+      long.push(banned[0]);
+    }
+    game.extraData = short;
+    game.extraDataFull = long;
+    return game;
   }
-  if (bannedData && bannedData.length) {
-    short.push(banned[0].details);
-    long.push(banned[0]);
-  }
-  game.extraData = short;
-  game.extraDataFull = long;
-  return game;
+  game.extraData = [];
+  game.extraDataFull = {};
 };
 
 const getGenres = game => {
-  const coreGenres = game.genres.map(g => g.name);
-  const extraGenres = getBasicGenre(game.name);
+  const coreGenres = game.genres.map(g => g.name) || [];
+  const extraGenres = getBasicGenre(game.name) || [];
   return _uniq([...coreGenres, ...extraGenres].filter(g => g)) || [];
 };
 
@@ -188,7 +188,9 @@ async function getNewGameData(game) {
           }
           item.esrb = { rating: null, letterRating: null };
           if (item.age_ratings && item.age_ratings.length) {
-            const esrb = item.age_ratings.filter(r => r.rating > 5).map(r => r.rating);
+            const esrb = item.age_ratings
+              ? item.age_ratings.filter(r => r.rating > 5).map(r => r.rating)
+              : [];
             formatted.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : '';
           }
           if (item.genres && item.genres.length) {
@@ -215,8 +217,8 @@ async function getNewGameData(game) {
           formatted.maxMultiplayer = multiplayer.max;
           const oldData = userData;
           const newGameData = { ...formatted, ...oldData };
-          const supped = getExtraData(newGameData);
-          console.log(chalk.magenta(supped));
+          getExtraData(newGameData);
+          console.log(chalk.magenta(game));
           resolve(newGameData);
         } else {
           const gameError = { game, error: true };

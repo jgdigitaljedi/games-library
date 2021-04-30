@@ -1,7 +1,7 @@
 const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
 function makeList(which, games) {
-  return games.filter((game) => {
+  return games.filter(game => {
     if (which === 'multiplayer') {
       if (game.maxMultiplayer && game.maxMultiplayer >= 3) {
         return true;
@@ -18,7 +18,7 @@ function makeList(which, games) {
       if (game.extraDataFull && game.extraDataFull.length) {
         const edArr = game.extraDataFull;
         edArr
-          .filter((g) => {
+          .filter(g => {
             if (which === 'exclusives' && g.isExclusive && g.isExclusive.length) {
               return true;
             }
@@ -29,7 +29,7 @@ function makeList(which, games) {
               return true;
             }
           })
-          .filter((g) => g);
+          .filter(g => g);
         return edArr.length;
       }
     }
@@ -37,10 +37,11 @@ function makeList(which, games) {
 }
 
 module.exports.getList = function (req, res) {
+  console.log('req.body.which', req.body.which);
   try {
     if (req && req.body && req.body.which) {
       combined()
-        .then((result) => {
+        .then(result => {
           let theList;
           switch (req.body.which) {
             case 'exclusives':
@@ -67,7 +68,7 @@ module.exports.getList = function (req, res) {
           }
           res.json(theList);
         })
-        .catch((error) => {
+        .catch(error => {
           res.status(503).send(error);
         });
     } else {

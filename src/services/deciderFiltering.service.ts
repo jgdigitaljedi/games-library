@@ -14,18 +14,19 @@ export const filters = {
       everDrive: false,
       physical: false,
       location: null,
-      handheld: 'show'
+      handheld: 'show',
+      vr: false
     };
   },
   filterName: (data: IGame[], str: string): IGame[] => {
     const lc = str.toLowerCase();
-    return data.filter((d) => {
+    return data.filter(d => {
       return get(d, 'name').toLowerCase().indexOf(lc) >= 0;
     });
   },
   filterPlatform: (data: IGame[], platform: string[]): IGame[] => {
     if (platform.length) {
-      return data.filter((d) => {
+      return data.filter(d => {
         return platform.indexOf(d.consoleName) >= 0;
         // return d.consoleName === platform;
       });
@@ -34,7 +35,7 @@ export const filters = {
     }
   },
   filterPlayers: (data: IGame[], players: number): IGame[] => {
-    return data.filter((d) => {
+    return data.filter(d => {
       const mpn = get(d, 'maxMultiplayer');
       if (mpn) {
         return mpn >= players;
@@ -43,13 +44,13 @@ export const filters = {
     });
   },
   filterEsrb: (data: IGame[], esrb: string): IGame[] => {
-    return data.filter((d) => {
+    return data.filter(d => {
       return get(d, 'esrb') === esrb;
     });
   },
   filterGenre: (data: IGame[], genre: string[]): IGame[] => {
     if (genre?.length) {
-      return data.filter((d) => {
+      return data.filter(d => {
         if (!d.genres?.length) {
           return false;
         }
@@ -61,11 +62,11 @@ export const filters = {
   },
   filterLocation: (data: IGame[], location: string | null) => {
     if (location) {
-      const result = data.filter((d) => {
+      const result = data.filter(d => {
         return get(d, 'location') === location;
       });
       if (location === 'upstairs' || location === 'downstairs') {
-        const bothArr = data.filter((d) => get(d, 'location') === 'both');
+        const bothArr = data.filter(d => get(d, 'location') === 'both');
         return SortService.sortData([...result, ...bothArr], 'dateAdded', 'descending');
       }
       return result;
@@ -74,9 +75,15 @@ export const filters = {
   },
   filterHandhelds: (data: IGame[], handheld: string) => {
     if (handheld === 'hide') {
-      return data.filter((g) => !g.handheld);
+      return data.filter(g => !g.handheld);
     } else if (handheld === 'only') {
-      return data.filter((g) => g.handheld);
+      return data.filter(g => g.handheld);
+    }
+    return data;
+  },
+  filterVr: (data: IGame[], vr: boolean) => {
+    if (vr) {
+      return data.filter(g => g.vr.vrOnly || g.vr.vrCompatible);
     }
     return data;
   }

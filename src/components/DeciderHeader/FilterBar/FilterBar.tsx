@@ -45,6 +45,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   // const [masterPa, setMasterPa] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [nameStr, setNameStr] = useState<string>('');
   const [acValue, setAcValue] = useState<string>('');
+  const [vrStatus, setVrStatus] = useState<boolean>(false);
   const masterPa: IDropdown[] = useSelector((state: any) => state.platformsArr);
 
   const locationArr = [
@@ -60,10 +61,15 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     { label: 'Show Handhelds Only', value: 'only' }
   ];
 
+  const vrArr = [
+    { label: 'Not VR', value: false },
+    { label: 'VR', value: true }
+  ];
+
   const getGenreArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newGenres = sortBy(
-        flatten(masterData.map((d) => d?.genres || []).filter((d: any) => d))
+        flatten(masterData.map(d => d?.genres || []).filter((d: any) => d))
           .reduce((acc: string[], g: string) => {
             if (!acc) {
               acc = [];
@@ -86,7 +92,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const getEsrbArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newRatings = sortBy(
-        flatten(masterData.map((d) => d.esrb || null).filter((d: any) => d))
+        flatten(masterData.map(d => d.esrb || null).filter((d: any) => d))
           .reduce((acc: string[], g: any) => {
             if (!acc) {
               acc = [];
@@ -150,23 +156,23 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   };
 
   return (
-    <form className="decider--form">
-      <div className="decider--form__input-group">
-        <label htmlFor="name" className="info-text">
+    <form className='decider--form'>
+      <div className='decider--form__input-group'>
+        <label htmlFor='name' className='info-text'>
           Name
         </label>
-        <InputText id="name" value={nameStr} onChange={handleChange} className="info-text" />
+        <InputText id='name' value={nameStr} onChange={handleChange} className='info-text' />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="players" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='players' className='info-text'>
           Min # Players
         </label>
         <InputText
-          className="info-text"
-          type="number"
-          id="players"
+          className='info-text'
+          type='number'
+          id='players'
           value={dc.players || ''}
-          onChange={(e) => {
+          onChange={e => {
             const target = e.target as HTMLInputElement;
             const fsCopy = Object.assign({}, dc);
             fsCopy.players = target.value ? parseInt(target.value) : 0;
@@ -175,59 +181,59 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           style={{ width: '7rem' }}
         />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="platform" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='platform' className='info-text'>
           Platform
         </label>
         <MultiSelect
           value={acValue}
           options={filteredPlatforms}
-          optionLabel="label"
-          onChange={(e) => {
+          optionLabel='label'
+          onChange={e => {
             setAcValue(e.value);
             const fsCopy = cloneDeep(dc);
             fsCopy.platform = e.value;
             setDc(fsCopy);
           }}
           filter
-          name="platform"
-          id="platform"
+          name='platform'
+          id='platform'
           maxSelectedLabels={30}
-          placeholder="Select a platform"
+          placeholder='Select a platform'
           selectedItemTemplate={selectedItemTemplate}
         />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="genre" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='genre' className='info-text'>
           Genre
         </label>
         <MultiSelect
           value={dc.genre}
           options={genreArray}
-          optionLabel="label"
-          onChange={(e) => {
+          optionLabel='label'
+          onChange={e => {
             const fsCopy = cloneDeep(dc);
             fsCopy.genre = e.value;
             setDc(fsCopy);
           }}
-          name="genre"
-          id="genre"
+          name='genre'
+          id='genre'
           filter
           maxSelectedLabels={30}
-          placeholder="Select a genre"
+          placeholder='Select a genre'
           selectedItemTemplate={selectedGenreTemplate}
         />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="esrb" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='esrb' className='info-text'>
           ESRB Rating
         </label>
         <Dropdown
-          className="info-text"
-          id="esrb"
-          name="esrb"
+          className='info-text'
+          id='esrb'
+          name='esrb'
           value={dc.esrb}
-          onChange={(e) => {
+          onChange={e => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.esrb = e.value;
             setDc(fsCopy);
@@ -235,42 +241,64 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           options={esrbArray || []}
         />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="physical" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='physical' className='info-text'>
           Physical only?
         </label>
         <InputSwitch
           checked={dc.physical}
-          onChange={(e) => {
+          onChange={e => {
             const fsCopy = { ...dc };
             fsCopy.physical = !!e.value;
             setDc(fsCopy);
           }}
         />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="everdrive" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='everdrive' className='info-text'>
           EverDrives?
         </label>
         <InputSwitch
           checked={dc.everDrive}
-          onChange={(e) => {
+          onChange={e => {
             const fsCopy = { ...dc };
             fsCopy.everDrive = !!e.value;
             setDc(fsCopy);
           }}
         />
       </div>
-      <div className="decider--form__input-group">
-        <label htmlFor="handhelds" className="info-text">
+
+      <div className='decider--form__input-group'>
+        <label htmlFor='vr' className='info-text'>
+          VR?
+        </label>
+        <InputSwitch
+          id='vr'
+          checked={vrStatus}
+          onChange={e => {
+            const fsCopy = { ...dc };
+            if (e.value) {
+              setVrStatus(true);
+              fsCopy.vr = true;
+            } else {
+              setVrStatus(false);
+              fsCopy.vr = false;
+            }
+            setDc(fsCopy);
+          }}
+        />
+      </div>
+
+      <div className='decider--form__input-group'>
+        <label htmlFor='handhelds' className='info-text'>
           Handhelds
         </label>
         <Dropdown
-          className="info-text"
-          id="handheld"
-          name="handheld"
+          className='info-text'
+          id='handheld'
+          name='handheld'
           value={dc.handheld}
-          onChange={(e) => {
+          onChange={e => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.handheld = e.value;
             setDc(fsCopy);
@@ -279,16 +307,16 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
         />
       </div>
 
-      <div className="decider--form__input-group">
-        <label htmlFor="esrb" className="info-text">
+      <div className='decider--form__input-group'>
+        <label htmlFor='esrb' className='info-text'>
           Location
         </label>
         <Dropdown
-          className="info-text"
-          id="location"
-          name="location"
+          className='info-text'
+          id='location'
+          name='location'
           value={dc.location}
-          onChange={(e) => {
+          onChange={e => {
             const fsCopy = Object.assign({}, dc);
             fsCopy.location = e.value;
             setDc(fsCopy);

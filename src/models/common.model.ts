@@ -21,6 +21,7 @@ export interface IFormState {
   physical?: boolean;
   location?: string | null;
   handheld?: string;
+  vr: boolean;
 }
 
 export interface IDropdown {

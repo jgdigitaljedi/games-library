@@ -58,7 +58,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   }, [setNotify]);
 
   const sortData = useCallback(
-    (dat) => {
+    dat => {
       setData(sortsService.sortData([...dat], sc.prop, sc.dir));
     },
     [sc.dir, sc.prop]
@@ -84,7 +84,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     [setData, setMasterData, sortData, setNotify]
   );
 
-  const checkForReset = useCallback((form) => {
+  const checkForReset = useCallback(form => {
     const keys = Object.entries(form);
     return keys.filter(([key, value]) => value && value !== '').length === 0;
   }, []);
@@ -112,13 +112,16 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
     if (dc.physical) {
-      newData = _cloneDeep(newData).filter((g) => g.physical);
+      newData = _cloneDeep(newData).filter(g => g.physical);
     }
     if (dc.location) {
       newData = filters.filterLocation([...newData], dc.location);
     }
     if (dc.handheld) {
       newData = filters.filterHandhelds([...newData], dc.handheld);
+    }
+    if (dc.vr) {
+      newData = filters.filterVr([...newData], dc.vr);
     }
     setData(newData);
     sortData(newData);
@@ -167,17 +170,17 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   }, [props, platformsArr, setNotify]);
 
   return (
-    <div className="decider-container">
-      <div className="decioder-bar-wrapper">
+    <div className='decider-container'>
+      <div className='decioder-bar-wrapper'>
         <DeciderHeader data={data} />
       </div>
-      <div className="decider--counter">
+      <div className='decider--counter'>
         <h3>{data.length} games</h3>
       </div>
-      <div className="decider--results">
+      <div className='decider--results'>
         <DeciderCards data={data} />
       </div>
-      <ScrollToTop position="right" />
+      <ScrollToTop position='right' />
     </div>
   );
 };

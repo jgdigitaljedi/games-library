@@ -37,14 +37,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1644,
@@ -84,14 +80,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1645,
@@ -131,14 +123,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1631,
@@ -178,14 +166,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3774,
@@ -199,11 +183,7 @@
     "description": "1080° Avalanche is a snowboarding game for the Nintendo GameCube, developed by Nintendo's in-house development studio, NST, and published by Nintendo. Avalanche is a sequel to 1080° Snowboarding for the Nintendo 64. The game has an emphasis on racing, rather than doing tricks, in contrast to other popular snowboarding games, such as the SSX series. It can output in 480p and Dolby Pro Logic II and supports four players on one GameCube as well as LAN play with up to four GameCubes.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -231,12 +211,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc0",
@@ -258,7 +233,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3783,
@@ -298,14 +274,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2690,
@@ -345,14 +317,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 50582,
@@ -390,14 +358,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 8498,
@@ -437,14 +401,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2702,
@@ -484,14 +444,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3790,
@@ -531,14 +487,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 83,
@@ -552,11 +504,7 @@
     "description": "Baldur’s Gate™: Dark Alliance™ is a revolutionary action adventure with an epic tale of intrigue, fierce alliances, explosive spell effects and highly detailed creatures and environments. Baldur’s Gate™: Dark Alliance™ is a benchmark of technology and gameplay.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -584,14 +532,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3796,
@@ -631,12 +575,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc3",
@@ -658,7 +597,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3805,
@@ -698,14 +638,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1341,
@@ -745,14 +681,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3810,
@@ -792,14 +724,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1015,
@@ -839,12 +767,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [["banned in Australia"]],
     "extraDataFull": [
       {
@@ -856,7 +779,8 @@
         "gbGuid": "3030-48099",
         "tgdbId": 36327
       }
-    ]
+    ],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 78278,
@@ -896,14 +820,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3826,
@@ -943,14 +863,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3832,
@@ -990,12 +906,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc9",
@@ -1017,7 +928,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3833,
@@ -1057,14 +969,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 86343,
@@ -1078,11 +986,7 @@
     "description": "Capcom vs. SNK 2 EO is the same game but with minor changes in gameplay and the inclusion of an EO (\"Easy Operation\") system that allows the player to perform specific attacks by simply moving the right analog stick in a certain direction. Like all other home versions of the game, CvS2: EO also contains four bonus characters: Evil Ryu, Orochi Iori, Shin Akuma (Shin Gouki in Japan), and Ultimate Rugal (God Rugal in Japan), powered-up versions of four regular characters.  Before selecting a team, the game offers a selection of \"Grooves\", which change the way the game is played, as well as \"AC-ism\" or \"GC-ism\" Grooves; GC-ism simplifies the control scheme, originally designed for the GameCube gamepad. In the Xbox version it is called EO-ism. Capcom vs. SNK 2 EO also removed the Roll Cancel glitch that was in the original versions. In addition, the Xbox version of CvS2: EO also included online play for up to two players on Xbox Live as well as progressive-scan (480p) support, which was noticeably absent in the PlayStation 2 version.",
     "story": null,
     "player_perspectives": ["Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 2,
-      "offlinecoopmax": 0,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 2, "offlinecoopmax": 0, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -1110,14 +1014,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3852,
@@ -1131,11 +1031,7 @@
     "description": "Imagine a world where 'toons rule the road and the demolition derby is a way of life. In Cel Damage, the world's toughest 'toons face off against each other in souped-up, weapon-laden vehicles to out-maneuver, out-race, and out-smack each other for personal glory. These gas-powered gladiators battle it out in highly interactive cartoon environments where they can roam freely, discover hidden areas, interact with set gag pieces (such as the 100 ton weight), perform stunts, and whack the heck out of their opponents. And with a host of wild weapons, such as giant boxing gloves and baseball bats, at their disposal, these 'toons with attitude take part in vehicular combat as it has never been seen before.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 0,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -1163,14 +1059,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3856,
@@ -1210,14 +1102,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1188,
@@ -1256,14 +1144,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1193,
@@ -1303,14 +1187,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1194,
@@ -1349,14 +1229,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1805,
@@ -1370,11 +1246,7 @@
     "description": "Hey hey, come on over and have some fun with Crrrrrazy Taxi! Barrel through traffic packed streets, hurdle off parking garages, and Crazy Combo your way to Crazy Money in a wild frantic race to scare up the most fares. In Crazy Taxi, time is money, and only the Craziest Cabbies come out victorious.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 0,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 0, "splitscreen": false },
     "maxMultiplayer": 0,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -1402,12 +1274,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title"],
     "extraDataFull": {
       "id": "ngc10",
@@ -1429,7 +1296,8 @@
       ],
       "isExclusive": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3865,
@@ -1469,12 +1337,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc11",
@@ -1496,7 +1359,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3871,
@@ -1536,12 +1400,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title"],
     "extraDataFull": {
       "id": "ngc14",
@@ -1563,7 +1422,8 @@
       ],
       "isExclusive": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3874,
@@ -1603,14 +1463,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2564,
@@ -1624,11 +1480,7 @@
     "description": "Go to the next level in the Dragon Ball Z saga. Dragon Ball Z: Budokai 2 improves upon the first installment by adding an all-new single player mode, new characters and explosive attacks. Experience the new match-ups, character cameos and challenging missions in \"Dragon World.\" Pick your favorite DBZ hero or enemy and take on a friend in \"Vs.\" and \"Tournament\" modes. If you're really good, you will soon come face-to-face with Buu, the most lethal DBZ villain.",
     "story": null,
     "player_perspectives": ["Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 2,
-      "offlinecoopmax": 0,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 2, "offlinecoopmax": 0, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -1656,14 +1508,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3896,
@@ -1703,14 +1551,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3898,
@@ -1750,14 +1594,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1003,
@@ -1797,14 +1637,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3907,
@@ -1844,12 +1680,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc22",
@@ -1871,7 +1702,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3908,
@@ -1911,14 +1743,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3909,
@@ -1958,14 +1786,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 5833,
@@ -1979,11 +1803,7 @@
     "description": "The game is a street football game in which the player can take control of 4-a-side versions of national football teams in matches where the object is to win by scoring a set amount of goals or points via tricks, or within a time limit. In the career mode \"Rule the Streets\", one creates a player and competes in tournaments around the world to obtain \"Skill Bills\" to buy clothing and upgrade his rating. As the player improves, he can captain his own street football team and eventually become an international. The best players have special moves often named after their nickname.  Legends of football such as Abedi Pele, Eric Cantona and Paul Gascoigne are unlockable during the game.  The game has its own in-game radio station, presented by Zane Lowe of BBC Radio 1 and featuring music by artists such as Roots Manuva, Sway, Pendulum, The Editors and The Subways.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 0,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -2011,14 +1831,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 412,
@@ -2058,14 +1874,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3921,
@@ -2105,14 +1917,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3492,
@@ -2126,11 +1934,7 @@
     "description": "The Future of Racing!  -Race for glory in the Grand Prix cups, speed through an incredible storyline as Captain Falcon, take on up to three friends, build and customize your own machine, challenge your time ghosts, and more! -Steer through danger with the Logitech Speed Force steering wheel, powered by force feedback technology (sold separately).  -Link to F-Zero AX  Take your memory card to the arcade and you can link to the upcoming F-Zero AX arcade game to race your custom machine, earn new parts, and unlock bonus features!",
     "story": "The story starts out with Black Shadow driving down a highway after losing a Grand Prix. Deathborn catches up to him and gives him one more chance to succeed but says it's the only other chance he'll get. \n \nF-Zero GX's story mode continues with Falcon training for the Grand Prix, followed by racing his rival, Samurai Goroh, in a desert canyon and being forced to enter the bet race under the disguise of 'Famicom' (a reference to Nintendo's first home console). After winning said bet race, Falcon notices Black Shadow attacking the Lightning area on the news. Falcon makes his way to stop him, but is delayed by a group of thugs lead by Michael Chain. After dealing with Chain's gang, Falcon enters a facility to save Jody Summer. His escape is a close one as the core was set to overload and detonate, with said facility going into lock-down procedures. With Jody out of harm's way, he confronts Black Shadow. The evil overlord, with the help of Blood Falcon, binds Falcon and traps him inside his vehicle, strapping a bomb to the Blue Falcon that will detonate if the Blue Falcon goes too slowly. Falcon managed to survive, by driving the vehicle straight off an unfinished road and right under a crane, knocking the bomb off. \n \nFalcon later attended the Grand Prix, where he emerged victorious. After receiving the champion's belt, he witnessed Black Shadow being punished by his master, Deathborn, for his incompetence. Deathborn challenges Falcon to a one-on-one race for ownership of both belts. Before said race occurs, Deathborn reveals his plan to take over the universe, revealing the energies of light and dark are condensed in each belt, and that when combined, provide ultimate power that will turn him into a god-like being, able to lay waste Falcon's galaxy in an instant. Falcon swears to take him down. Falcon stays true to his word, and Deathborn apparently dies. Both belts unite into one, and Falcon vows to keep winning so he can protect the belt from the forces of evil. \n \nAt his garage, Falcon is greeted by the creators. Falcon figures out the creators were behind everything, though they do not elaborate their motives. They challenge Falcon to a race, where, if they win, will rip out Falcon's soul and turn it into their creation, implying that he would replace Deathborn. Falcon defeats even them. Screaming, the creators disappear, though whether they actually die or decide to let Falcon go, honoring (but no less angered by) his victory is unclear. Falcon then removes his helmet and leaves the room, where the credits and an exclusive theme song begins to play. (The camera pans at a downward angle, so Falcon's face is not clearly visible. Only a portion of his head in the back is partially seen.)",
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -2158,12 +1962,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc24",
@@ -2185,7 +1984,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3927,
@@ -2225,14 +2025,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3928,
@@ -2272,12 +2068,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc27",
@@ -2299,7 +2090,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3932,
@@ -2313,11 +2105,7 @@
     "description": null,
     "story": null,
     "player_perspectives": ["Third person", "Bird view / Isometric"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -2345,14 +2133,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1632,
@@ -2392,14 +2176,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3936,
@@ -2439,12 +2219,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc30",
@@ -2466,7 +2241,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3939,
@@ -2506,12 +2282,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [["banned in Australia"]],
     "extraDataFull": [
       {
@@ -2523,7 +2294,8 @@
         "gbGuid": "3030-48099",
         "tgdbId": 36327
       }
-    ]
+    ],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3950,
@@ -2537,11 +2309,7 @@
     "description": "Set in White Wolf's World of Darkness, Hunter: The Reckoning lets you take the role of one of four different hunters--Deuce, a biker ex-con; Father Cortez, a prison chaplain; Kassandra, a raver chick; and Samantha, a tough ex-cop. Armed with a variety of fearsome weaponry--ranging from axes to shotguns--you'll battle it out with hordes of supernatural enemies. Intense action combined with multiplayer support brings the true spirit of Hunter: The Reckoning to life.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -2569,14 +2337,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3953,
@@ -2590,11 +2354,7 @@
     "description": "In this vertical scrolling spaceship shooter, you control a ship that can change its polarity at will. As blue/white, the ship can easily destroy red/black enemies, and visa versa. Bullets of your polarity can be collected to fuel your missile gauge, but those opposite will kill you. Destroying an enemy ship will make them drop points for you to pick up, but they are polarized, too. Different difficulties exist to change exactly how you interact with polarized points, or how they appear.Ikaruga is a balls-hard shmup with lots of difficulty even at the easiest level, and lots of replay value for those willing to face the challenge.",
     "story": null,
     "player_perspectives": ["Third person", "Bird view / Isometric"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -2622,14 +2382,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3951,
@@ -2669,14 +2425,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3963,
@@ -2716,14 +2468,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3966,
@@ -2763,14 +2511,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2777,
@@ -2810,12 +2554,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc34",
@@ -2837,7 +2576,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 50571,
@@ -2877,14 +2617,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 45139,
@@ -2924,14 +2660,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1034,
@@ -2971,12 +2703,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc79",
@@ -2998,7 +2725,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 45142,
@@ -3011,11 +2739,7 @@
     "description": "The Legend of Zelda: Ocarina of Time Master Quest is a reworked version of the original Ocarina of Time for the Nintendo 64. Master Quest contains largely the same content as the original Ocarina of Time, but with redesigned, more difficult dungeons akin to a Second Quest.  Master Quest was available on a special bonus disc that also contained the original Ocarina of Time. This disc was given out in limited quantities with preorders of The Wind Waker. Additionally, it was sold packaged with The Wind Waker in some regions. It is also available as a mode in Ocarina of Time 3D after first completing the regular game.",
     "story": null,
     "player_perspectives": [],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 0,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 0, "splitscreen": false },
     "maxMultiplayer": 0,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -3043,14 +2767,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1036,
@@ -3090,14 +2810,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1033,
@@ -3137,12 +2853,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc80",
@@ -3164,7 +2875,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2485,
@@ -3204,12 +2916,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title"],
     "extraDataFull": {
       "id": "ngc38",
@@ -3231,7 +2938,8 @@
       ],
       "isExclusive": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3403,
@@ -3271,12 +2979,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc41",
@@ -3298,7 +3001,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2344,
@@ -3338,12 +3042,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc42",
@@ -3365,7 +3064,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2330,
@@ -3405,12 +3105,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc43",
@@ -3432,7 +3127,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2331,
@@ -3472,12 +3168,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc44",
@@ -3499,7 +3190,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2333,
@@ -3539,12 +3231,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc45",
@@ -3566,7 +3253,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2334,
@@ -3606,12 +3294,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc46",
@@ -3633,7 +3316,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3985,
@@ -3673,14 +3357,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3986,
@@ -3720,12 +3400,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc47",
@@ -3747,7 +3422,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1309,
@@ -3787,14 +3463,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1728,
@@ -3834,14 +3506,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1766,
@@ -3881,12 +3549,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc49",
@@ -3908,7 +3571,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4001,
@@ -3948,14 +3612,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1751,
@@ -3995,14 +3655,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4004,
@@ -4042,14 +3698,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1108,
@@ -4089,14 +3741,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1108,
@@ -4136,14 +3784,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1612,
@@ -4183,14 +3827,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 50583,
@@ -4230,14 +3870,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4037,
@@ -4277,14 +3913,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 97,
@@ -4324,14 +3956,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4042,
@@ -4371,14 +3999,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4048,
@@ -4418,14 +4042,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4050,
@@ -4465,12 +4085,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc59",
@@ -4492,7 +4107,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3438,
@@ -4532,14 +4148,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4060,
@@ -4579,12 +4191,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc60",
@@ -4606,7 +4213,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4061,
@@ -4645,14 +4253,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4062,
@@ -4692,14 +4296,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4063,
@@ -4739,14 +4339,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3349,
@@ -4786,12 +4382,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc61",
@@ -4813,7 +4404,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2240,
@@ -4853,14 +4445,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2634,
@@ -4874,11 +4462,7 @@
     "description": "Total Destruction features four game modes. The first is a campaign in which players work to progressively take out cities around the world. King of the City and King of the World are competitive modes where up to four players compete. In King of the City, players strive to rule a city by dominating the most districts. King of the World is a series of King of the City competitions across various cities. The fourth mode is a time trial where players must complete all the districts of a city within a time limit.",
     "story": null,
     "player_perspectives": ["Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": false },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -4906,14 +4490,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1966,
@@ -4953,14 +4533,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 78173,
@@ -5000,14 +4576,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4083,
@@ -5047,14 +4619,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 974,
@@ -5094,12 +4662,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [["banned in Australia"]],
     "extraDataFull": [
       {
@@ -5111,7 +4674,8 @@
         "gbGuid": "3030-48099",
         "tgdbId": 36327
       }
-    ]
+    ],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 24869,
@@ -5151,14 +4715,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4102,
@@ -5172,11 +4732,7 @@
     "description": "In Sega Soccer Slam, you'll unleash merciless kicks, tackles, and steals against excitable, colorful characters from all over the world. Each character in this game wields special powers and moves that earn the big score. Get to the random spotlight that appears on the field and your character will shoot skyward with the ball and slam it toward the unsuspecting goalie. In quest mode, you can unlock secret stadiums and uncover hidden items to improve your already stellar performance. Watch the intensity rise as you utilize your new power moves in other game modes. If you're a little rusty on the field, practice mode will get you going again. When you're confident in your smash mouth hits and soccer tackles, throw in some bad weather and gather up a bunch of friends for a rowdy round-robin tournament.",
     "story": null,
     "player_perspectives": ["Bird view / Isometric", "Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 4,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 4, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -5204,14 +4760,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4103,
@@ -5251,14 +4803,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4105,
@@ -5298,14 +4846,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4152,
@@ -5345,14 +4889,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 7862,
@@ -5366,11 +4906,7 @@
     "description": "Sonic and company are back and better than ever in Sonic Adventure 2: Battle for Nintendo GameCube. Dr. Eggman is up to his old tricks, and it's up to Sonic, Tails, and Knuckles to stop him yet again. Sonic Adventure 2: Battle features faster action, all-new two-player games, and a branching storyline that lets you choose to save the world as the Hero side, or conquer it as the Dark side.  Two new playable characters enter the Sonic universe -- a mysterious dark hedgehog called Shadow, and a jewel-thieving bat named Rouge. In the single-player mode, you'll go through more than 30 unique stages, which include everything from a forgotten pyramid, an abandoned military base, and a giant space station. Then there's the expanded two-player mode, which features 12 playable characters competing in new head-to-head games. All of this adds up to Sonic's biggest adventure yet!",
     "story": "Learning of a secret weapon from the diary of his deceased grandfather, Professor Gerald Robotnik, Eggman infiltrates a high-security G.U.N. facility and revives it using a Chaos Emerald. The weapon – a black hedgehog and self-proclaimed \"Ultimate Life Form\" named Shadow – offers to help Eggman conquer the world, telling him to rendezvous at an abandoned space colony, ARK, with more Chaos Emeralds. Shadow goes to Central City, encountering G.U.N.'s forces after stealing an Emerald. Shadow has vowed to fulfill a promise to a girl, Maria, which he interprets as one of revenge. Shadow blasts through the military force and meets Sonic. After a brief confrontation, Shadow escapes and G.U.N. captures Sonic, whom they mistake for Shadow. \n \nMeanwhile, Knuckles encounters Rouge and Eggman, who try to steal the Master Emerald. He stops them by shattering the Emerald and searches for the scattered shards. Rouge, spying for the government, heads to Eggman's base and the ARK. There, Shadow shows Eggman the Eclipse Cannon, another superweapon created by Gerald, and discloses his plan: to charge the cannon with Chaos Emeralds and use it to take over the world. Rouge appears, offering them a Chaos Emerald to gain their trust.",
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 2,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 2, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -5398,14 +4934,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 23695,
@@ -5445,14 +4977,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 22510,
@@ -5466,11 +4994,7 @@
     "description": "Sonic Gems Collection is a 2005 compilation of Sega video games, primarily those in the Sonic the Hedgehog series. The emulated games span multiple genres and consoles—from the Sega Genesis to the Sega Saturn—and retain the features and errors of their initial releases with minimal edits.",
     "story": null,
     "player_perspectives": ["Third person", "Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 2,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 2, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -5498,14 +5022,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4156,
@@ -5545,14 +5065,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4157,
@@ -5566,11 +5082,7 @@
     "description": "Sonic Mega Collection is a video game compilation developed by Sonic Team and published by Sega in 2002 for the GameCube. The compilation contains twelve to fourteen games (depending on region) originally released on the Sega Genesis. Ten of the included games are installments of the Sonic the Hedgehog series, while the remaining two to four games are only related to the series through its publisher, Sega.  According to the director, Yojiro Ogawa, the purpose of the compilation was to introduce younger players to the original games in the Sonic series. The games are played through a Genesis emulator developed by Sonic Team themselves. Outside of the games, the compilation includes Sonic-themed videos and illustrations, as well as high-resolution scans of the instruction manuals and Sonic the Hedgehog comic covers.",
     "story": null,
     "player_perspectives": ["Third person", "Bird view / Isometric", "Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 2,
-      "offlinecoopmax": 2,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 2, "offlinecoopmax": 2, "splitscreen": true },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -5598,14 +5110,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4158,
@@ -5619,11 +5127,7 @@
     "description": "Sonic Riders is the fourth racing game in the Sonic the Hedgehog series, preceded by Sonic Drift, Sonic Drift 2 and Sonic R.  The game was released to start off the 15th anniversary of the release of the Sonic the Hedgehog series. For a short while, the Microsoft Xbox version of the game was released with a free Sonic X DVD. This game introduces five new playable characters, the Babylon Rogues and the E-10000 series. A sequel to Sonic Riders, entitled Sonic Riders: Zero Gravity, was released in 2008 for the Wii and PlayStation 2, followed by the Kinect-required game Sonic Free Riders for the Xbox 360 in 2010. This was the last Sonic the Hedgehog game for the GameCube and Microsoft Xbox.",
     "story": null,
     "player_perspectives": ["First person", "Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 4,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 4, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -5651,14 +5155,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1565,
@@ -5672,11 +5172,7 @@
     "description": "Transcending history and the world, a tale of souls and swords eternally retold.  Four years have passed since the spirit sword, SoulCalibur defeated the evil Soul Edge. At the end of that fateful battle, the shards of the shattered Soul Edge were scattered across the world and SoulCalibur was lost to the void. Now, the evil that still resides in the scattered shards of Soul Edge threatens again to engulf the world in darkness.  Guest starring exclusively for the Nintendo Gamecube: Link from the Legend of Zelda. Guest starring exclusively for the Microsoft XBOX: Spawn from the IMAGE Comic Series. Guest starring exclusively for the PlayStation 2: Heihachi Mishima from the Tekken Series.",
     "story": "The game is set in the year 1590, four years after the events of Soulcalibur. The wave of slaughters that terrorized Europe reached a sudden end. The knight in azure armor, Nightmare, and his followers were successful in collecting enough souls and were about to start the restoring ceremony on the ruins of the once-proud Ostreinsburg Castle. But just as the ceremony was to start, three young warriors assaulted the castle. After an intense battle Nightmare fell, but then the evil soul inside Soul Edge sent the young warriors into a vortex of hellfire and stood to confront them. As a result of Soul Edge's evil aura, Krita-Yuga revealed its true form: that of the Holy Sword, Soul Calibur. The intense battle ended with the victory of the holy sword, but at the collapse of the vortex of Inferno, both swords along with the azure Nightmare were sucked in a void and expelled in another place. Siegfried, recognizing his sins, set out on a journey of atonement. Still the blade held a strong bond, and every night it took control of the body and took souls of those nearby. The efforts made by the young knight were fruitless, and four years later the Azure Knight Nightmare returned. Around those times various warriors came into contact of the blade's remaining fragments, revealing Soul Edge's ultimate survival after its defeat. Driven either to possess or destroy it, they join a new journey, while Nightmare begins his rampage, seeking souls to restore Soul Edge once again.",
     "player_perspectives": ["Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 2,
-      "offlinecoopmax": 32,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 2, "offlinecoopmax": 32, "splitscreen": false },
     "maxMultiplayer": 32,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -5704,14 +5200,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4166,
@@ -5751,14 +5243,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4174,
@@ -5798,14 +5286,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4177,
@@ -5845,14 +5329,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4176,
@@ -5892,14 +5372,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2686,
@@ -5939,12 +5415,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc70",
@@ -5966,7 +5437,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3243,
@@ -6006,12 +5478,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc71",
@@ -6033,7 +5500,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4180,
@@ -6073,14 +5541,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 152,
@@ -6120,14 +5584,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4181,
@@ -6167,12 +5627,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title", "Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc72",
@@ -6203,7 +5658,8 @@
         }
       ],
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4182,
@@ -6243,12 +5699,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc73",
@@ -6270,7 +5721,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 3760,
@@ -6310,14 +5762,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2256,
@@ -6356,12 +5804,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc74",
@@ -6383,7 +5826,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1075,
@@ -6423,12 +5867,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc75",
@@ -6450,7 +5889,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2927,
@@ -6464,11 +5904,7 @@
     "description": "Super Monkey Ball is a 2001 platform party video game developed by Amusement Vision and published by Sega. The game debuted in Japan at the 2001 Amusement Operators Union trade show as Monkey Ball, an arcade cabinet running on Sega's NAOMI hardware and controlled with a distinctive banana-shaped analog stick. Due to the failure of Sega's Dreamcast home console and the company's subsequent restructuring, an enhanced port dubbed Super Monkey Ball was released as a launch title for the GameCube in late 2001, garnering interest as Sega's first game published for a Nintendo home console.  Conceived by Amusement Vision head Toshihiro Nagoshi, Super Monkey Ball involves guiding a transparent ball containing one of four monkeys—AiAi, MeeMee, Baby, and GonGon—across a series of maze-like platforms. The player must reach the goal without falling off or letting the timer reach zero to advance to the next stage. There are also several multiplayer modes: independent minigames as well as extensions of the main single-player game.",
     "story": "This game has a story that is only told in the Japanese version. Here is an excerpt, translated from Japanese: \n \nAiAi, MeeMee, and Baby are a good family and live peacefully in Jungle Island. One day, out of the distant islands, GonGon, leader of the Gorillas, brought in a raid to the island. They intend to hog all the bananas for themselves! AiAi escaped from the spot, and got tired and fell asleep. In his dreams, AiAi was told in his dreams there is a paradise called \"Banana Island\" in the sky from the \"Grand Monkey\". But in order to go there, you have to go through a couple of traps and gimmicks. But the Grand Monkey taught AiAi a magical spell: \"Ei Ei Poo!\" That protects him from any danger. AiAi wakes up quickly, and as he says \"Ei Ei Poo!\", A big ball flies out of the sky He gets insides of it and flies high above the sky. Now, survive several traps and tricks, and aim for it! Banana Island! \n \nWhen the player completes the Master Stages (in which the setting is above Banana Island), if they play as AiAi, MeeMee, or Baby, they will be able to go to Banana Island and enjoy all the bananas it has to offer. However, if you play as GonGon, he will be locked out of the place in which the bananas are kept while the other monkeys enjoy the bananas inside.",
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -6496,12 +5932,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title"],
     "extraDataFull": {
       "id": "ngc76",
@@ -6523,7 +5954,8 @@
       ],
       "isExclusive": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2928,
@@ -6537,11 +5969,7 @@
     "description": "The object of Super Monkey Ball 2 is to guide a monkey trapped inside a plastic ball through a maze to the goal. There are three variations, story mode, challenge mode, and practice mode. In story mode you have unlimited number of tries to complete a stage, and after clearing 10 stages a movie clip is shown followed by a new world of 10 stages. In challenge mode, you have a limited number of monkeys and a time limit to complete numerous levels of increasing difficulty. In practice mode you can play any stage already completed in the other two modes.  In addition to the main game options, numerous party games are also included. These are monkey race, monkey fight, monkey target, monkey billiards, monkey bowling, monkey golf, monkey boat, monkey shot, monkey dogfight, monkey soccer, monkey baseball, and monkey tennis. The party games can be played by one to four players.",
     "story": "The story shows the Super Monkey Ball team and all the Jungle Island inhabitants happily enjoying their day, when suddenly, Dr. Bad-Boon's airship flies over the land and vacuums up all of the bananas. AiAi demands he give back all the bananas, but he will only do so if MeeMee marries him. MeeMee refuses, so Bad-Boon flies off, and the Super Monkey Ball team jumps into action. \n \nDr. Bad-Boon's first nefarious scheme is to blow up Jungle Island by making a volcano explode with a time bomb. He leaves it floating inside of it, and the team finds it. GonGon says he will destroy the bomb, despite MeeMee's pleas against it. He punches it out of the volcano, and it lands all the way in Bad-Boon's airship. It sinks into the sea, which drive Bad-Boon to swim away with the team chasing after him.",
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -6569,14 +5997,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4188,
@@ -6616,14 +6040,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1627,
@@ -6637,11 +6057,7 @@
     "description": "Super Smash Bros. Melee is the second installment in the Super Smash Bros. series and the follow-up to the Nintendo 64 title. It includes all playable characters from the first game, and also adds characters from franchises such as Fire Emblem, of which no games had been released outside Japan at the time. Super Smash Bros. Melee builds on the first game by adding new gameplay features and playable characters: it's major focus is the multiplayer mode, while still offering a number of single-player modes.",
     "story": null,
     "player_perspectives": ["Side view"],
-    "multiplayer_modes": {
-      "offlinemax": 4,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 4, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -6669,12 +6085,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc77",
@@ -6696,7 +6107,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4192,
@@ -6736,12 +6148,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc78",
@@ -6763,7 +6170,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1204,
@@ -6803,14 +6211,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 19747,
@@ -6850,14 +6254,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4200,
@@ -6897,14 +6297,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2143,
@@ -6918,11 +6314,7 @@
     "description": "TimeSplitters 2 is a first-person shooter that requires players to kill enemies and complete objectives using a variety of weapons and tactics in different predefined scenarios. Armour and health bars on the sides of the screen lower when the player is shot, which can be increased by walking over body armor and medical kits.",
     "story": "The game starts in the year 2401 when Sergeant Cortez and Corporal Hart are sent to a TimeSplitter infested space station where a time portal is being built. Their objective is to retrieve the Time Crystals. However, before they can reach them, the TimeSplitters take them into different time periods of the past. They must be followed and the time crystals retrieved.",
     "player_perspectives": ["First person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": true },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -6950,14 +6342,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2144,
@@ -6971,11 +6359,7 @@
     "description": "TimeSplitters: Future Perfect is a first-person shooter video game developed by Free Radical Design and published by EA Games for the PlayStation 2, GameCube and Xbox video game consoles.  It is the third game in the TimeSplitters series, after TimeSplitters 2, which was released in 2002 (itself the sequel to TimeSplitters released in 2000). The game features a single-player mode consisting of levels where the player assumes the role of Sergeant Cortez, a time-traveling marine from the 25th century.",
     "story": "The game begins in 2401 when the space marine, Sergeant Cortez, is leaving the space station that he destroyed at the end of TimeSplitters 2. His ship crash lands on the future Earth and two fellow marines greet him. Sergeant Cortez follows his squad of marines through the valley and battles unknown masked figures and TimeSplitters. Cortez is then tasked with following the signatures in the past by time travel thought to be caused by the TimeSplitters. He then goes on a mission to go back in time to find a way to stop the TimeSplitters race from being created.",
     "player_perspectives": ["First person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 2,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 2, "splitscreen": true },
     "maxMultiplayer": 2,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -7003,14 +6387,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2844,
@@ -7024,11 +6404,7 @@
     "description": "Strange wasp-shaped spy cameras, shady black vans lingering about, and a brand new flavor of Buzz Cola that everyone seems a bit too excited about. What could it all mean?  Find out as you take to the streets as America's most beloved dysfunctional animated family: The Simpsons! In this timeless action-adventure game, you can work to uncover the conspiracy taking place in Springfield while playing as these beloved characters.  As you progress through the game, you'll explore 3 unique areas of Springfield made up of many locations from the show. You can ride around in style with a memorable array of vehicles from the show or take a walk around on foot. You'll stumble into adrenaline-pumping story missions, take part in some fast paced street races and help out some of the townsfolk in bonus missions. Around every corner there's pesky wasps to be destroyed, collector cards to find and secret gags to uncover.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 0,
-      "splitscreen": true
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 0, "splitscreen": true },
     "maxMultiplayer": 0,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -7056,14 +6432,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2842,
@@ -7103,14 +6475,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 914,
@@ -7150,12 +6518,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title"],
     "extraDataFull": {
       "id": "ngc81",
@@ -7177,7 +6540,8 @@
       ],
       "isExclusive": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 915,
@@ -7217,14 +6581,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 7219,
@@ -7264,14 +6624,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2698,
@@ -7311,14 +6667,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 2699,
@@ -7358,14 +6710,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 9236,
@@ -7405,14 +6753,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4217,
@@ -7452,12 +6796,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc82",
@@ -7479,7 +6818,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1329,
@@ -7519,14 +6859,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4221,
@@ -7566,14 +6902,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4225,
@@ -7613,14 +6945,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4229,
@@ -7660,14 +6988,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4230,
@@ -7707,14 +7031,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4231,
@@ -7754,14 +7074,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 132813,
@@ -7798,14 +7114,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1700,
@@ -7845,12 +7157,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc89",
@@ -7872,7 +7179,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4232,
@@ -7912,12 +7220,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube launch title", "Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc91",
@@ -7948,7 +7251,8 @@
         }
       ],
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1047,
@@ -7988,14 +7292,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4236,
@@ -8035,14 +7335,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4569,
@@ -8082,14 +7378,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4571,
@@ -8129,12 +7421,7 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": ["Nintendo GameCube console exclusive"],
     "extraDataFull": {
       "id": "ngc85",
@@ -8156,7 +7443,8 @@
       ],
       "isLaunchTitle": false,
       "special": []
-    }
+    },
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4580,
@@ -8196,14 +7484,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 1987,
@@ -8243,14 +7527,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4581,
@@ -8290,14 +7570,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4575,
@@ -8311,11 +7587,7 @@
     "description": "X-Men enter the realm of role-playing games with an intense story, superhero action, and multiplayer modes. The story in X-Men Legends begins when the X-Men learn that Magneto has devised a plan to give mutants the power to reign supreme over humans. To save the human race from imprisonment, you compose a four-person team from a roster of X-Men characters, including Storm, Gambit, and Wolverine.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 4,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 4, "splitscreen": false },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -8343,14 +7615,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4576,
@@ -8364,11 +7632,7 @@
     "description": "The sequel to X-Men Legends, and ancestor of the Marvel Ultimate Alliance series.",
     "story": null,
     "player_perspectives": ["Third person"],
-    "multiplayer_modes": {
-      "offlinemax": 0,
-      "offlinecoopmax": 4,
-      "splitscreen": false
-    },
+    "multiplayer_modes": { "offlinemax": 0, "offlinecoopmax": 4, "splitscreen": false },
     "maxMultiplayer": 4,
     "consoleName": "Nintendo GameCube",
     "consoleId": 21,
@@ -8396,14 +7660,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4577,
@@ -8443,14 +7703,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4578,
@@ -8490,14 +7746,10 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   },
   {
     "id": 4583,
@@ -8537,13 +7789,9 @@
       "primeFree": false,
       "switchFree": false
     },
-    "consoleArr": [
-      {
-        "consoleName": "Nintendo GameCube",
-        "consoleId": 21
-      }
-    ],
+    "consoleArr": [{ "consoleName": "Nintendo GameCube", "consoleId": 21 }],
     "extraData": [],
-    "extraDataFull": []
+    "extraDataFull": [],
+    "vr": { "vrOnly": false, "vrCompatible": false }
   }
 ]

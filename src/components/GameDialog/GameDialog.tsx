@@ -1,4 +1,10 @@
-import React, { FunctionComponent, PropsWithChildren, useEffect, useState } from 'react';
+import React, {
+  FunctionComponent,
+  PropsWithChildren,
+  useCallback,
+  useEffect,
+  useState
+} from 'react';
 import { Rating } from 'primereact/rating';
 import './GameDialog.scss';
 import { IConsoleArr } from '@/models/platforms.model';
@@ -30,6 +36,7 @@ interface IConsolesOwned {
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
   const urlPrefix = UrlService.assets;
   const [showVideos, setShowVideos] = useState(false);
+  const [vrStatus, setVrStatus] = useState<string>('');
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
@@ -55,21 +62,35 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
     }
   };
 
+  const getVrStatus = useCallback(() => {
+    if (game) {
+      const vr = game.vr;
+      if (!vr.vrOnly && !vr.vrCompatible) {
+        setVrStatus('NO VR');
+      } else if (vr.vrOnly) {
+        setVrStatus('VR ONLY');
+      } else if (vr.vrCompatible) {
+        setVrStatus('VR COMPATIBLE');
+      }
+    }
+  }, [game]);
+
   useEffect(() => {
     if (game) {
       const owned =
         game.consoleArr && game.consoleArr.length
-          ? game.consoleArr.filter((g) => g.hasOwnProperty('physical'))
+          ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))
           : [];
       setConsolesOwnedFor(owned);
+      getVrStatus();
       // getEbayPrice();
     }
-  }, [game]);
+  }, [game, getVrStatus]);
 
   return game ? (
-    <section className="game-dialog" role="dialog">
-      <div className="game-dialog--body">
-        <div className="game-dialog--body__image-and-deck">
+    <section className='game-dialog' role='dialog'>
+      <div className='game-dialog--body'>
+        <div className='game-dialog--body__image-and-deck'>
           <img
             src={game.image}
             onError={(e: any) => {
@@ -79,22 +100,22 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
             alt={game.name + ' cover image'}
           />
           {!showVideos && (
-            <div className="right-container">
+            <div className='right-container'>
               {game.description?.length && <ReadMore textString={game.description} />}
 
-              <div className="card-row tables-row">
-                <table style={{ marginRight: '2rem' }} className="card-row--table">
+              <div className='card-row tables-row'>
+                <table style={{ marginRight: '2rem' }} className='card-row--table'>
                   <tbody>
                     <tr>
-                      <td className="table-cat">Originally released</td>
+                      <td className='table-cat'>Originally released</td>
                       <td>{game.first_release_date}</td>
                     </tr>
                     <tr>
-                      <td className="table-cat">Perspectives</td>
+                      <td className='table-cat'>Perspectives</td>
                       <td>{game.player_perspectives?.join(', ') || 'Unknown'}</td>
                     </tr>
                     <tr>
-                      <td className="table-cat">Rating</td>
+                      <td className='table-cat'>Rating</td>
                       <td>
                         <Rating
                           value={Math.round(game.total_rating / 20)}
@@ -105,12 +126,16 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                         />
                       </td>
                     </tr>
+                    <tr>
+                      <td className='table-cat'>VR Status</td>
+                      <td>{vrStatus}</td>
+                    </tr>
                   </tbody>
                 </table>
-                <table className="card-row--table">
+                <table className='card-row--table'>
                   <tbody>
                     <tr>
-                      <td className="table-cat">Multiplayer</td>
+                      <td className='table-cat'>Multiplayer</td>
                       {game?.multiplayer_modes && (
                         <td>
                           VS: {game.multiplayer_modes.offlinemax} / Co-op:{' '}
@@ -124,18 +149,18 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                       {!game.multiplayer_modes && !game.maxMultiplayer && <td>NO</td>}
                     </tr>
                     <tr>
-                      <td className="table-cat">Genres</td>
+                      <td className='table-cat'>Genres</td>
                       <td>{game.genres.join(', ')}</td>
                     </tr>
                     <tr>
-                      <td className="table-cat">Physical/Digital/BC</td>
+                      <td className='table-cat'>Physical/Digital/BC</td>
                       <td>{helpersService.physicalDigitalBcText(game)}</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               {consolesOwnedFor && consolesOwnedFor.length && (
-                <table className="owned-for">
+                <table className='owned-for'>
                   <tr>
                     <th>Platform</th>
                     <th>Price Paid</th>
@@ -163,8 +188,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                 </table>
               )}
               {game.notes && game.notes.length && (
-                <div className="game-notes">
-                  <div className="game-notes--head">Notes</div>
+                <div className='game-notes'>
+                  <div className='game-notes--head'>Notes</div>
                   <div>{game.notes}</div>
                 </div>
               )}
@@ -174,25 +199,29 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
         </div>
         {game.videos && (
           <div style={{ marginLeft: '2.5rem' }}>
-            {!showVideos && <Button icon="pi pi-video" label="Videos" onClick={() => loadVideos(true)} />}
-            {showVideos && <Button icon="pi pi-th-large" label="Data" onClick={() => loadVideos(false)} />}
+            {!showVideos && (
+              <Button icon='pi pi-video' label='Videos' onClick={() => loadVideos(true)} />
+            )}
+            {showVideos && (
+              <Button icon='pi pi-th-large' label='Data' onClick={() => loadVideos(false)} />
+            )}
           </div>
         )}
-        <div className="image-container">
+        <div className='image-container'>
           <img
             src={
               game && game.esrb
                 ? `${urlPrefix}/${ratingImages(game.esrb)}`
                 : `${urlPrefix}Video-Game-Controller_Icon.svg.png`
             }
-            alt="ESRB Rating"
+            alt='ESRB Rating'
             onError={(e: any) => {
               e.target.onerror = null;
               e.target.src = `${urlPrefix}Video-Game-Controller-Icon.svg.png`;
             }}
           />
           {game && game.esrb ? <></> : <h3>NO RATING</h3>}
-          <div className="extra-data">
+          <div className='extra-data'>
             {game.extraData &&
               game.extraData.length > 0 &&
               game.extraData.map((g, ind) => {
@@ -205,7 +234,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           </div>
         </div>
         <h4>{game && game.name ? game.name : ''} can be played on:</h4>
-        <div className="game-dialog--body__consoles">
+        <div className='game-dialog--body__consoles'>
           {game && game.consoleArr ? (
             game.consoleArr.map((con: IConsoleArr, index: number) => (
               <img

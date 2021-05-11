@@ -1,14 +1,9 @@
-import React, {
-  FunctionComponent,
-  useState,
-  useEffect,
-  useCallback,
-  useContext
-} from 'react';
+import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
 import { IGame } from '@/models/games.model';
 import { InputText } from 'primereact/inputtext';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputTextarea } from 'primereact/inputtextarea';
+import { SelectButton } from 'primereact/selectbutton';
 import { Calendar } from 'primereact/calendar';
 import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
@@ -16,7 +11,7 @@ import { AutoComplete } from 'primereact/autocomplete';
 import { cloneDeep as _cloneDeep, set as _set, find as _find } from 'lodash';
 import HelpersService from '../../../services/helpers.service';
 import { handleChange } from '@/services/forms.service';
-import {igdbGameSearch, saveGame} from '@/services/gamesCrud.service';
+import { igdbGameSearch, saveGame } from '@/services/gamesCrud.service';
 import { getPlatformsWithIds } from '@/services/platformsCrud.service';
 import { NotificationContext } from '@/context/NotificationContext';
 import { Chips } from 'primereact/chips';
@@ -54,6 +49,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   const [searchPlatform, setSearchPlatform] = useState<any>();
   const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
   const [fuzzySearch, setFuzzySearch] = useState(false);
+  const [vrStatus, setVrStatus] = useState<string>('');
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const caseOptions = [
@@ -79,6 +75,12 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     { label: 'NO RATING', value: null }
   ];
 
+  const vrOptions = [
+    { name: 'None', value: 'none' },
+    { name: 'VR Only', value: 'vrOnly' },
+    { name: 'VR Compatible', value: 'vrCompatible' }
+  ];
+
   const userChange = (e: any) => {
     console.log('e', gameForm);
     closeConfirmation();
@@ -97,7 +99,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
         setGameForm(copy);
       }
     },
-    [gameForm, setGameForm]
+    [closeConfirmation, gameForm]
   );
 
   const searchIgdb = useCallback(async () => {
@@ -120,15 +122,14 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
         });
       }
     }
-  }, [gameForm, setNotify, searchPlatform]);
+  }, [closeConfirmation, gameForm, searchPlatform, setNotify]);
 
-  const isUpdate = () => {
+  const isUpdate = useCallback(() => {
     return !addMode && gameForm?.hasOwnProperty('_id');
-  };
+  }, [addMode, gameForm]);
 
   const updateGame = useCallback(() => {
     const gameCopy = _cloneDeep(gameForm as IGameEdit);
-
 
     const isPatch = isUpdate();
     if (!isPatch) {
@@ -137,10 +138,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
       console.log('gameCopy', gameCopy);
     }
     if (!game.consoleName && searchPlatform) {
-      console.log('searchPlatform', searchPlatform);
-      console.log('platformIds', platformIdArr)
       const platformName = _find(platformIdArr, p => p.value === searchPlatform);
-      console.log('platformName', platformName);
       if (platformName) {
         gameCopy.consoleName = platformName.label;
       } else {
@@ -149,15 +147,15 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     }
     console.log('isPatch', isPatch);
     saveGame(gameCopy, isPatch)
-        .then(result => {
-          closeDialog(gameForm?.name, true, 'added');
-        })
-        .catch(error => {
-          console.log('save error', error);
-          closeDialog(gameForm?.name, false, 'added');
-        });
+      .then(result => {
+        closeDialog(gameForm?.name, true, 'added');
+      })
+      .catch(error => {
+        console.log('save error', error);
+        closeDialog(gameForm?.name, false, 'added');
+      });
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
-  }, [gameForm, closeDialog]);
+  }, [gameForm, isUpdate, game, searchPlatform, platformIdArr, closeDialog]);
 
   const cancelClicked = () => {
     closeConfirmation();
@@ -183,7 +181,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   const platformSelected = (e: any): void => {
     const gfCopy = _cloneDeep(gameForm);
     if (gfCopy) {
-      const name = _find(platformIdArr, (p => p.value === e.value));
+      const name = _find(platformIdArr, p => p.value === e.value);
       gfCopy.consoleName = name.label;
       setGameForm(gfCopy);
     }
@@ -191,9 +189,38 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     setSearchPlatform(e.value);
   };
 
+  const vrChange = (e: any) => {
+    if (gameForm) {
+      setVrStatus(e.value);
+      const gCopy = _cloneDeep(gameForm);
+      switch (e.value) {
+        case 'none':
+          gCopy.vr = { vrOnly: false, vrCompatible: false };
+          break;
+        case 'vrOnly':
+          gCopy.vr = { vrOnly: true, vrCompatible: false };
+          break;
+        case 'vrCompatible':
+          gCopy.vr = { vrOnly: false, vrCompatible: true };
+          break;
+      }
+      setGameForm(gCopy);
+    }
+  };
+
   useEffect(() => {
     if (game && (game.name === '' || game.name === 'Add Game')) {
       setAddMode(true);
+    }
+    if (game) {
+      const vrLoad = game.vr || { vrOnly: false, vrCompatible: false };
+      if (vrLoad.vrOnly) {
+        setVrStatus('vrOnly');
+      } else if (vrLoad.vrCompatible) {
+        setVrStatus('vrCompatible');
+      } else {
+        setVrStatus('none');
+      }
     }
     setGameForm(game as IGameEdit);
     if (game?.datePurchased) {
@@ -212,7 +239,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
           platformsFormatted.unshift({ label: 'NOT SET', value: 99999 });
           setPlatformIdArr(platformsFormatted);
         })
-        .catch((error) => {
+        .catch(error => {
           console.log('ERROR FETCHING PLATFORMS WITH IDS', error);
           setNotify({
             severity: 'error',
@@ -224,42 +251,42 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   }, [setPlatformIdArr, setNotify, platformIdArr]);
 
   return (
-    <div className="crud-form game-form--wrapper">
-      <div className="crud-form--flex-wrapper">
-        <form className="crud-from--form game-form--form">
-          <div className="crud-form--form__row">
+    <div className='crud-form game-form--wrapper'>
+      <div className='crud-form--flex-wrapper'>
+        <form className='crud-from--form game-form--form'>
+          <div className='crud-form--form__row'>
             {addMode && loggedIn && (
-              <div className="igdb-search-fields">
+              <div className='igdb-search-fields'>
                 <h3>Search IGDB</h3>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '.5rem' }}>
-                  <label htmlFor="fuzzy">Fuzzy Search</label>
+                  <label htmlFor='fuzzy'>Fuzzy Search</label>
                   <InputSwitch
-                    id="fuzzy"
+                    id='fuzzy'
                     checked={!!fuzzySearch}
                     onChange={() => setFuzzySearch(!fuzzySearch)}
                   />
                 </div>
                 <Dropdown
-                  className="search-field"
+                  className='search-field'
                   value={searchPlatform}
                   options={platformIdArr}
                   onChange={platformSelected}
-                  id="search-platform"
-                  placeholder="Platform to search"
+                  id='search-platform'
+                  placeholder='Platform to search'
                   disabled={fuzzySearch}
                 />
                 <AutoComplete
                   dropdown
-                  className="search-field"
+                  className='search-field'
                   delay={600}
-                  id="name"
+                  id='name'
                   value={gameForm?.name}
                   onChange={userChange}
                   onSelect={searchSelection}
-                  attr-which="name"
+                  attr-which='name'
                   suggestions={igdbGames}
                   completeMethod={searchIgdb}
-                  field="name"
+                  field='name'
                   disabled={!searchPlatform && !fuzzySearch}
                 />
                 <hr />
@@ -267,260 +294,275 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             )}
           </div>
           {!addMode && (
-            <div className="divider">
+            <div className='divider'>
               <hr />
             </div>
           )}
-          <div className="crud-form--form__row">
-            <label htmlFor="name">Name</label>
-            <InputText id="name" value={gameForm?.name} onChange={userChange} attr-which="name" onFocus={() => closeConfirmation()} />
-          </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="consoleName">For Console</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='name'>Name</label>
             <InputText
-              id="consoleName"
+              id='name'
+              value={gameForm?.name}
+              onChange={userChange}
+              attr-which='name'
+              onFocus={() => closeConfirmation()}
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='consoleName'>For Console</label>
+            <InputText
+              id='consoleName'
               value={gameForm?.consoleName}
-              attr-which="consoleName"
+              attr-which='consoleName'
               readOnly
             />
           </div>
-          <div className="divider">
+          <div className='divider'>
             <hr />
           </div>
           <h3>Data from IGDB</h3>
-          <div className="crud-form--form__row">
-            <label htmlFor="total_rating">Total Rating</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='total_rating'>Total Rating</label>
             <InputText
-              id="total_rating"
+              id='total_rating'
               value={gameForm?.total_rating}
               onChange={userChange}
-              attr-which="total_rating"
+              attr-which='total_rating'
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="videos">Videos</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='videos'>Videos</label>
             <Chips
-              id="videos"
+              id='videos'
               value={gameForm?.videos || []}
               onChange={userChange}
-              attr-which="videos"
+              attr-which='videos'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="genres">Genres</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='genres'>Genres</label>
             <Chips
-              id="genres"
+              id='genres'
               value={gameForm?.genres || []}
               onChange={userChange}
-              attr-which="genres"
+              attr-which='genres'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="esrb">ESRB Rating</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='esrb'>ESRB Rating</label>
             <Dropdown
               value={gameForm?.esrb}
               options={esrbOptions}
-              onChange={(e) => handleDropdown(e, 'esrb')}
-              attr-which="esrb"
-              id="esrb"
+              onChange={e => handleDropdown(e, 'esrb')}
+              attr-which='esrb'
+              id='esrb'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="playerPerspectives">Player Perspectives</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='playerPerspectives'>Player Perspectives</label>
             <Chips
-              id="playerPerspectives"
+              id='playerPerspectives'
               value={gameForm?.player_perspectives || []}
               onChange={userChange}
-              attr-which="player_perspectives"
+              attr-which='player_perspectives'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="maxMultiplayer">Max Multiplayer</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='maxMultiplayer'>Max Multiplayer</label>
             <InputText
-              id="maxMultiplayer"
+              id='maxMultiplayer'
               value={gameForm?.maxMultiplayer || 1}
               onChange={userChange}
-              attr-which="maxMultiplayer"
-              type="number"
+              attr-which='maxMultiplayer'
+              type='number'
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="multiplayerOffline">Multiplayer: Offline VS</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='multiplayerOffline'>Multiplayer: Offline VS</label>
             <InputText
-              id="multiplayerOffline"
+              id='multiplayerOffline'
               value={gameForm?.multiplayer_modes?.offlinemax}
               onChange={userChange}
-              attr-which="multiplayer_modes.offlinemax"
-              type="number"
+              attr-which='multiplayer_modes.offlinemax'
+              type='number'
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="multiplayerCoop">Multiplayer: Offline Coop</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='multiplayerCoop'>Multiplayer: Offline Coop</label>
             <InputText
-              id="multiplayerCoop"
+              id='multiplayerCoop'
               value={gameForm?.multiplayer_modes?.offlinecoopmax}
               onChange={userChange}
-              attr-which="multiplayer_modes.offlinecoopmax"
-              type="number"
+              attr-which='multiplayer_modes.offlinecoopmax'
+              type='number'
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="splitscreen">Splitscreen?</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='splitscreen'>Splitscreen?</label>
             <InputSwitch
-              id="multiplayer_modes.splitscreen"
+              id='multiplayer_modes.splitscreen'
               checked={!!gameForm?.multiplayer_modes?.splitscreen}
               onChange={userChange}
-              attr-which="multiplayer_modes.splitscreen"
+              attr-which='multiplayer_modes.splitscreen'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="image">Image URL</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='image'>Image URL</label>
             <InputText
-              id="image"
+              id='image'
               value={gameForm?.image}
               onChange={userChange}
-              attr-which="image"
+              attr-which='image'
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="description">Description</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='description'>Description</label>
             <InputTextarea
-              className="long-text-area"
-              id="description"
+              className='long-text-area'
+              id='description'
               value={gameForm?.description}
               onChange={userChange}
-              attr-which="description"
+              attr-which='description'
               autoResize={true}
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="story">Storyline</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='story'>Storyline</label>
             <InputTextarea
-              className="long-text-area"
-              id="story"
+              className='long-text-area'
+              id='story'
               value={gameForm?.story}
               onChange={userChange}
-              attr-which="story"
+              attr-which='story'
               autoResize={true}
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="divider">
+          <div className='divider'>
             <hr />
             <h3>Collection Data</h3>
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="howAcquired">How Acquired</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='howAcquired'>How Acquired</label>
             <InputText
-              id="howAcquired"
+              id='howAcquired'
               value={gameForm?.howAcquired}
               onChange={userChange}
-              attr-which="howAcquired"
+              attr-which='howAcquired'
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="pricePaid">Price Paid</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pricePaid'>Price Paid</label>
             <InputText
-              id="pricePaid"
+              id='pricePaid'
               value={gameForm?.pricePaid}
               onChange={userChange}
-              attr-which="pricePaid"
-              type="number"
-              keyfilter="pnum"
+              attr-which='pricePaid'
+              type='number'
+              keyfilter='pnum'
               min={0}
               onFocus={() => closeConfirmation()}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="date-purchased">Date Purchased</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='date-purchased'>Date Purchased</label>
             <Calendar
-              id="newDatePurchased"
+              id='newDatePurchased'
               showIcon={true}
               value={gameForm?.newDatePurchased}
               onChange={userChange}
-              attr-which="newDatePurchased"
+              attr-which='newDatePurchased'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="condition">Condition</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='condition'>Condition</label>
             <Dropdown
               value={gameForm?.condition}
               options={conditionOptions}
-              onChange={(e) => handleDropdown(e, 'condition')}
-              attr-which="condition"
-              id="condition"
-              scrollHeight="400"
+              onChange={e => handleDropdown(e, 'condition')}
+              attr-which='condition'
+              id='condition'
+              scrollHeight='400'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="case">Case</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='case'>Case</label>
             <Dropdown
               value={gameForm?.case}
               options={caseOptions}
-              onChange={(e) => handleDropdown(e, 'case')}
-              attr-which="case"
-              id="case"
+              onChange={e => handleDropdown(e, 'case')}
+              attr-which='case'
+              id='case'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="cib">CIB?</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='cib'>CIB?</label>
             <InputSwitch
-              id="cib"
+              id='cib'
               checked={!!gameForm?.cib}
               onChange={userChange}
-              attr-which="cib"
+              attr-which='cib'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="manual">Manual?</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='manual'>Manual?</label>
             <InputSwitch
-              id="manual"
+              id='manual'
               checked={!!gameForm?.manual}
               onChange={userChange}
-              attr-which="manual"
+              attr-which='manual'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="physical">Physical Copy?</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='physical'>Physical Copy?</label>
             <InputSwitch
-              id="physical"
+              id='physical'
               checked={!!gameForm?.physical}
               onChange={userChange}
-              attr-which="physical"
+              attr-which='physical'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="handheld">Handheld?</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='handheld'>Handheld?</label>
             <InputSwitch
-              id="handheld"
+              id='handheld'
               checked={!!gameForm?.handheld}
               onChange={userChange}
-              attr-which="handheld"
+              attr-which='handheld'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="compilation">Compilation?</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='compilation'>Compilation?</label>
             <InputSwitch
-              id="compilation"
+              id='compilation'
               checked={!!gameForm?.compilation}
               onChange={userChange}
-              attr-which="compilation"
+              attr-which='compilation'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="notes">Notes</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='vr-only'>VR?</label>
+            <SelectButton
+              value={vrStatus}
+              options={vrOptions}
+              onChange={vrChange}
+              optionLabel='name'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='notes'>Notes</label>
             <InputTextarea
-              id="description"
+              id='description'
               value={gameForm?.notes}
               onChange={userChange}
-              attr-which="notes"
+              attr-which='notes'
               autoResize={true}
               cols={50}
               onFocus={() => closeConfirmation()}
@@ -530,10 +572,10 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             <GameFormGameService addMode={addMode} userChange={userChange} game={gameForm} />
           )}
         </form>
-        <div className="crud-form--image-and-data">
-          {gameForm?.image && <img src={gameForm?.image} alt="game cover art or logo" />}
+        <div className='crud-form--image-and-data'>
+          {gameForm?.image && <img src={gameForm?.image} alt='game cover art or logo' />}
           {gameForm?.extraData && gameForm.extraData.length > 0 && (
-            <div className="crud-form--image-and-data__extra-data">
+            <div className='crud-form--image-and-data__extra-data'>
               {gameForm.extraData.map((data, index) => (
                 <p key={index}>{data}</p>
               ))}
@@ -542,18 +584,18 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
         </div>
       </div>
       <hr />
-      <div className="crud-form--footer">
+      <div className='crud-form--footer'>
         <Button
-          label="Close"
+          label='Close'
           onClick={cancelClicked}
-          icon="pi pi-times"
-          className="p-button-info"
+          icon='pi pi-times'
+          className='p-button-info'
         />
         <Button
           label={`Save ${gameForm?.name}`}
           onClick={updateGame}
-          icon="pi pi-save"
-          className="p-button-success"
+          icon='pi pi-save'
+          className='p-button-success'
           disabled={!loggedIn}
         />
       </div>

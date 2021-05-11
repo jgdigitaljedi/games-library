@@ -50,6 +50,10 @@ export interface IGame {
   handheld?: boolean;
   manual?: boolean;
   gamesService: IGamesService;
+  vr: {
+    vrOnly: boolean;
+    vrCompatible: boolean;
+  };
 }
 
 export interface IGameDisplay extends IGame {

@@ -6,7 +6,8 @@ const initState = {
   genre: [],
   esrb: '',
   platform: [],
-  everDrive: false
+  everDrive: false,
+  vr: false
 };
 
 export default function deciderFilters(state = initState, action: any): IFormState {

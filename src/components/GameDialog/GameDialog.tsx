@@ -119,7 +119,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                       <td>
                         <Rating
                           value={Math.round(game.total_rating / 20)}
-                          readonly
+                          readOnly
                           stars={5}
                           cancel={!game.total_rating}
                           disabled={!game.total_rating}

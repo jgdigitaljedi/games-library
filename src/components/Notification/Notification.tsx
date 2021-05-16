@@ -7,7 +7,6 @@ const Notification: FunctionComponent<INotification> = memo(
     const toast = useRef(null);
 
     useEffect(() => {
-      console.log('hook', severity);
       if (severity && detail) {
         // @ts-ignore
         toast.current.show({ detail, severity, life, summary, closeable: true });
@@ -15,7 +14,7 @@ const Notification: FunctionComponent<INotification> = memo(
       console.log('notifying', summary);
     }, [severity, detail, summary, life]);
 
-    return <Toast ref={toast} position="bottom-right" />;
+    return <Toast ref={toast} position='bottom-right' />;
   }
 );
 

@@ -16,7 +16,11 @@ interface IProps {
   closeConfirmation: () => void;
 }
 
-const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeConfirmation }: IProps) => {
+const PlatformForm: FunctionComponent<IProps> = ({
+  platform,
+  closeDialog,
+  closeConfirmation
+}: IProps) => {
   const [platformForm, setPlatformForm] = useState<IConsole>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
@@ -34,7 +38,7 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
       closeConfirmation();
       setPlatformForm(handleDropdownFn(e, which, platformForm));
     },
-    [platformForm, setPlatformForm]
+    [closeConfirmation, platformForm]
   );
 
   useEffect(() => {
@@ -54,10 +58,9 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
   const updatePlatform = useCallback(() => {
     // make save call
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
-    console.log('platformForm in save', platformForm);
     closeConfirmation();
     closeDialog(platformForm?.name);
-  }, [platformForm, closeDialog]);
+  }, [closeConfirmation, closeDialog, platformForm]);
 
   const cancelClicked = () => {
     // resetGameForm();
@@ -66,143 +69,143 @@ const PlatformForm: FunctionComponent<IProps> = ({ platform, closeDialog, closeC
   };
 
   return (
-    <div className="crud-form platform-form">
-      <div className="crud-form--flex-wrapper">
-        <form className="crud-from--form platform-form--form">
-          <div className="crud-form--form__row">
-            <label htmlFor="name">Name</label>
+    <div className='crud-form platform-form'>
+      <div className='crud-form--flex-wrapper'>
+        <form className='crud-from--form platform-form--form'>
+          <div className='crud-form--form__row'>
+            <label htmlFor='name'>Name</label>
             <InputText
-              id="name"
+              id='name'
               value={platformForm?.name}
               onChange={userChange}
-              attr-which="name"
+              attr-which='name'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="alternative_name">Aliases</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='alternative_name'>Aliases</label>
             <InputText
-              id="alternative_name"
+              id='alternative_name'
               value={platformForm?.alternative_name}
               onChange={userChange}
-              attr-which="alternative_name"
+              attr-which='alternative_name'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="condition">Condition</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='condition'>Condition</label>
             <Dropdown
               value={platformForm?.condition}
               options={conditionArr}
               onChange={e => handleDropdown(e, 'condition')}
-              attr-which="condition"
-              id="condition"
+              attr-which='condition'
+              id='condition'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="mods">Mods</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='mods'>Mods</label>
             <InputTextarea
-              id="mods"
+              id='mods'
               value={platformForm?.mods}
               onChange={userChange}
-              attr-which="mods"
+              attr-which='mods'
               autoResize={true}
               cols={50}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="box">Box</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='box'>Box</label>
             <InputSwitch
-              id="box"
+              id='box'
               checked={platformForm?.box}
               onChange={userChange}
-              attr-which="box"
+              attr-which='box'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="pricePaid">Price Paid</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pricePaid'>Price Paid</label>
             <InputText
-              id="pricePaid"
+              id='pricePaid'
               value={platformForm?.pricePaid || 0}
               onChange={userChange}
-              attr-which="pricePaid"
-              type="number"
+              attr-which='pricePaid'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="newDatePurchased">Date Purchased</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='newDatePurchased'>Date Purchased</label>
             <Calendar
-              id="newDatePurchased"
+              id='newDatePurchased'
               showIcon={true}
               value={platformForm?.newDatePurchased}
               onChange={userChange}
-              attr-which="newDatePurchased"
+              attr-which='newDatePurchased'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="connectivity">Connectivity</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='connectivity'>Connectivity</label>
             <InputText
-              id="connectivity"
+              id='connectivity'
               value={platformForm?.connectivity}
               onChange={userChange}
-              attr-which="connectivity"
+              attr-which='connectivity'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="memory">Memory</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='memory'>Memory</label>
             <InputText
-              id="memory"
+              id='memory'
               value={platformForm?.memory}
               onChange={userChange}
-              attr-which="memory"
+              attr-which='memory'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="notes">Notes</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='notes'>Notes</label>
             <InputTextarea
-              id="notes"
+              id='notes'
               value={platformForm?.notes}
               onChange={userChange}
-              attr-which="notes"
+              attr-which='notes'
               autoResize={true}
               cols={50}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="ghostConsole">Ghost Console</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='ghostConsole'>Ghost Console</label>
             <InputSwitch
-              id="ghostConsole"
+              id='ghostConsole'
               checked={platformForm?.ghostConsole}
               onChange={userChange}
-              attr-which="ghostConsole"
+              attr-which='ghostConsole'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="updatedAt">Last Updated</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='updatedAt'>Last Updated</label>
             <InputText
-              id="updatedAt"
+              id='updatedAt'
               value={platformForm?.updatedAt}
               onChange={userChange}
-              attr-which="updatedAt"
+              attr-which='updatedAt'
               readOnly
             />
           </div>
         </form>
-        <div className="crud-form--image-and-data">
-          {platformForm?.logo && <img src={platformForm?.logo} alt="platform" />}
+        <div className='crud-form--image-and-data'>
+          {platformForm?.logo && <img src={platformForm?.logo} alt='platform' />}
         </div>
       </div>
       <hr />
-      <div className="crud-form--footer">
+      <div className='crud-form--footer'>
         <Button
-          label="Cancel"
+          label='Cancel'
           onClick={cancelClicked}
-          icon="pi pi-times"
-          className="p-button-info"
+          icon='pi pi-times'
+          className='p-button-info'
         />
         <Button
           label={`Save ${platformForm?.name}`}
           onClick={updatePlatform}
-          icon="pi pi-save"
-          className="p-button-success"
+          icon='pi pi-save'
+          className='p-button-success'
         />
       </div>
     </div>

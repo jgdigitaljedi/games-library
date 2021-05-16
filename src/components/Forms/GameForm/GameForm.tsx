@@ -82,7 +82,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   ];
 
   const userChange = (e: any) => {
-    console.log('e', gameForm);
     closeConfirmation();
     const newState = handleChange(e, gameForm);
     if (newState) {
@@ -135,7 +134,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     if (!isPatch) {
       // @ts-ignore
       gameCopy.datePurchased = moment(gameCopy.newDatePurchased).format('YYYY-MM-DD');
-      console.log('gameCopy', gameCopy);
     }
     if (!game.consoleName && searchPlatform) {
       const platformName = _find(platformIdArr, p => p.value === searchPlatform);
@@ -145,7 +143,6 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
         // @TODO: throw error
       }
     }
-    console.log('isPatch', isPatch);
     saveGame(gameCopy, isPatch)
       .then(result => {
         closeDialog(gameForm?.name, true, 'added');

@@ -79,7 +79,6 @@ const ListView: FunctionComponent<IProps> = ({
     }
     return cellData || '';
   };
-  console.log('data', data);
 
   return (
     <div className='list-view'>

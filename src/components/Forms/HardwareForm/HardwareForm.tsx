@@ -41,7 +41,7 @@ const HardwareForm: FunctionComponent<IProps> = ({ hardware, closeDialog, closeC
     // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
     closeConfirmation();
     closeDialog(hwForm?.name);
-  }, [hwForm, closeDialog]);
+  }, [closeConfirmation, closeDialog, hwForm]);
 
   const cancelClicked = () => {
     // resetGameForm();
@@ -49,103 +49,103 @@ const HardwareForm: FunctionComponent<IProps> = ({ hardware, closeDialog, closeC
     closeDialog(null);
   };
   return (
-    <div className="crud-form hw-form">
-      <div className="crud-form--flex-wrapper">
-        <form className="crud-from--form hw-form--form">
-          <div className="crud-form--form__row">
-            <label htmlFor="name">Name</label>
-            <InputText id="name" value={hwForm?.name} onChange={userChange} attr-which="name" />
+    <div className='crud-form hw-form'>
+      <div className='crud-form--flex-wrapper'>
+        <form className='crud-from--form hw-form--form'>
+          <div className='crud-form--form__row'>
+            <label htmlFor='name'>Name</label>
+            <InputText id='name' value={hwForm?.name} onChange={userChange} attr-which='name' />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="company">Company</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='company'>Company</label>
             <InputText
-              id="company"
+              id='company'
               value={hwForm?.company}
               onChange={userChange}
-              attr-which="company"
+              attr-which='company'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="type">Type</label>
-            <InputText id="type" value={hwForm?.type} onChange={userChange} attr-which="type" />
+          <div className='crud-form--form__row'>
+            <label htmlFor='type'>Type</label>
+            <InputText id='type' value={hwForm?.type} onChange={userChange} attr-which='type' />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="quantity">Quantity</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='quantity'>Quantity</label>
             <InputText
-              id="quantity"
+              id='quantity'
               value={hwForm?.quantity}
               onChange={userChange}
-              attr-which="quantity"
-              type="number"
+              attr-which='quantity'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="newPurchaseDate">Date Purchased</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='newPurchaseDate'>Date Purchased</label>
             <Calendar
-              id="newPurchaseDate"
+              id='newPurchaseDate'
               showIcon={true}
               value={hwForm?.newPurchaseDate}
               onChange={userChange}
-              attr-which="newPurchaseDate"
+              attr-which='newPurchaseDate'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="pricePaid">Purchase Price</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pricePaid'>Purchase Price</label>
             <InputText
-              id="pricePaid"
+              id='pricePaid'
               value={hwForm?.pricePaid}
               onChange={userChange}
-              attr-which="pricePaid"
-              type="number"
+              attr-which='pricePaid'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="howAcquired">How Acquired</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='howAcquired'>How Acquired</label>
             <InputText
-              id="howAcquired"
+              id='howAcquired'
               value={hwForm?.howAcquired}
               onChange={userChange}
-              attr-which="howAcquired"
+              attr-which='howAcquired'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="notes">Notes</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='notes'>Notes</label>
             <InputTextarea
-              id="notes"
+              id='notes'
               value={hwForm?.notes}
               onChange={userChange}
-              attr-which="notes"
+              attr-which='notes'
               autoResize={true}
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="updatedAt">Last Updated</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='updatedAt'>Last Updated</label>
             <InputText
-              id="updatedAt"
+              id='updatedAt'
               value={hwForm?.updatedAt}
               onChange={userChange}
-              attr-which="updatedAt"
-              readonly
+              attr-which='updatedAt'
+              readOnly
             />
           </div>
         </form>
-        <div className="crud-form--image-and-data">
-          {hwForm?.image && <img src={hwForm?.image} alt="hardware" />}
+        <div className='crud-form--image-and-data'>
+          {hwForm?.image && <img src={hwForm?.image} alt='hardware' />}
         </div>
       </div>
       <hr />
-      <div className="crud-form--footer">
+      <div className='crud-form--footer'>
         <Button
-          label="Cancel"
+          label='Cancel'
           onClick={cancelClicked}
-          icon="pi pi-times"
-          className="p-button-info"
+          icon='pi pi-times'
+          className='p-button-info'
         />
         <Button
           label={`Save ${hwForm?.name}`}
           onClick={updateColl}
-          icon="pi pi-save"
-          className="p-button-success"
+          icon='pi pi-save'
+          className='p-button-success'
         />
       </div>
     </div>

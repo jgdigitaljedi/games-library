@@ -1,5 +1,5 @@
 export default {
-  getTodayYMD: (dateString) => {
+  getTodayYMD: dateString => {
     const dSplit = dateString.split('-');
     return new Date(`${dSplit[1]}/${dSplit[2]}/${dSplit[0]}`);
   },
@@ -45,8 +45,7 @@ export default {
   resetPlatformForm: () => {
     return {};
   },
-  physicalDigitalBc: (game) => {
-    console.log('game', game);
+  physicalDigitalBc: game => {
     const which = game.physicalDigital;
     const everDrive = which.indexOf('EverDrive') >= 0;
     const phy = which.indexOf('physical') >= 0;
@@ -68,7 +67,7 @@ export default {
       return 'nope';
     }
   },
-  physicalDigitalBcText: (game) => {
+  physicalDigitalBcText: game => {
     const which = game.physicalDigital;
     const phy = which.indexOf('physical') >= 0;
     const bc = which.indexOf('backwardComp') >= 0;

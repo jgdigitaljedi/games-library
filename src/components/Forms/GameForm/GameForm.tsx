@@ -200,6 +200,8 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
         case 'vrCompatible':
           gCopy.vr = { vrOnly: false, vrCompatible: true };
           break;
+        default:
+          gCopy.vr = { vrOnly: false, vrCompatible: false };
       }
       setGameForm(gCopy);
     }
@@ -211,9 +213,9 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     }
     if (game) {
       const vrLoad = game.vr || { vrOnly: false, vrCompatible: false };
-      if (vrLoad.vrOnly) {
+      if (vrLoad?.vrOnly) {
         setVrStatus('vrOnly');
-      } else if (vrLoad.vrCompatible) {
+      } else if (vrLoad?.vrCompatible) {
         setVrStatus('vrCompatible');
       } else {
         setVrStatus('none');

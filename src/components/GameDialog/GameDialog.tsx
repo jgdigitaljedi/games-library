@@ -65,7 +65,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   const getVrStatus = useCallback(() => {
     if (game) {
       const vr = game.vr;
-      if (!vr.vrOnly && !vr.vrCompatible) {
+      if (!vr || (!vr.vrOnly && !vr.vrCompatible)) {
         setVrStatus('NO VR');
       } else if (vr.vrOnly) {
         setVrStatus('VR ONLY');

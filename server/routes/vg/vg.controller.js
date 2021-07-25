@@ -153,7 +153,6 @@ module.exports.searchPlatforms = async function (req, res) {
 };
 
 module.exports.searchGame = async function (req, res) {
-  console.log('search game');
   const fields = `age_ratings.rating,total_rating,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
     client = await refreshAppKey();

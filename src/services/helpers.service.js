@@ -43,7 +43,39 @@ export default {
     };
   },
   resetPlatformForm: () => {
-    return {};
+    return {
+      id: null,
+      alternative_name: '',
+      category: '',
+      generation: null,
+      name: '',
+      version: {
+        id: null,
+        name: ''
+      },
+      condition: null,
+      box: false,
+      manual: false,
+      mods: '',
+      notes: '',
+      datePurchased: null,
+      pricePaid: null,
+      ghostConsole: false,
+      createdAt: '',
+      howAcquired: '',
+      updatedAt: '',
+      connectivity: null,
+      cpu: '',
+      media: '',
+      memory: '',
+      output: '',
+      os: null,
+      logo: null,
+      releaseDate: {
+        date: null,
+        region: ''
+      }
+    };
   },
   physicalDigitalBc: game => {
     const which = game.physicalDigital;

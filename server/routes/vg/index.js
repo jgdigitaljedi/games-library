@@ -21,6 +21,7 @@ router.get('/gallerylist', gallery.imageCategories);
 // IGDB search
 router.post('/searchgame', auth.insecureMW, vgCtrl.searchGame);
 router.post('/searchplatform', auth.insecureMW, vgCtrl.searchPlatforms);
+router.post('/searchplatformversions', auth.insecureMW, vgCtrl.searchPlatformVersions);
 
 // export to file
 router.post('/exportcsv', exportCtrl.exportCsv);

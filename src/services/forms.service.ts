@@ -13,6 +13,7 @@ export const handleChange = (e: any, state: any) => {
   const isSwitch = e.hasOwnProperty('value');
   const { value } = isSwitch ? e : e.target;
   const propPath = isSwitch ? e.target.id : e.target.getAttribute('attr-which');
+  console.log('propPath', propPath);
   const pathExpanded = checkPathForPrefix(propPath);
   const copy = _cloneDeep(state);
   if (copy) {

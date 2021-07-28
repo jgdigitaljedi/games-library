@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useEffect, useCallback } from 'react';
+import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
 import { IConsole } from '@/models/platforms.model';
 import { InputText } from 'primereact/inputtext';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
@@ -9,6 +9,14 @@ import { conditionArr } from '@/constants';
 import { Dropdown } from 'primereact/dropdown';
 import { Calendar } from 'primereact/calendar';
 import { Button } from 'primereact/button';
+import { AutoComplete } from 'primereact/autocomplete';
+import { cloneDeep as _cloneDeep } from 'lodash';
+import { NotificationContext } from '@/context/NotificationContext';
+import {
+  formatNewPlatformForSave,
+  igdbPlatformSearch,
+  igdbPlatformVersions
+} from '@/services/platformsCrud.service';
 
 interface IProps {
   platform: IConsole;
@@ -24,8 +32,13 @@ const PlatformForm: FunctionComponent<IProps> = ({
   const [platformForm, setPlatformForm] = useState<IConsole>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
+  const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
+  const [igdbPlatforms, setIgdbPlatforms] = useState<any[]>();
+  const [notify, setNotify] = useContext(NotificationContext);
 
   const userChange = (e: any) => {
+    console.log('e', e);
+    console.log('platformForm', platformForm);
     closeConfirmation();
     const newState = handleChange(e, platformForm);
     if (newState) {
@@ -41,6 +54,40 @@ const PlatformForm: FunctionComponent<IProps> = ({
     [closeConfirmation, platformForm]
   );
 
+  const searchSelection = async (e: any) => {
+    closeConfirmation();
+    if (e?.value) {
+      const platform = e.value;
+      console.log('platform in searchSelection', platform);
+      const versionData = await igdbPlatformVersions(platform);
+      const fullPlatform = { ...platform, ...versionData.data };
+      console.log('fullPlatform', fullPlatform);
+      const formattedPlatform = formatNewPlatformForSave(fullPlatform);
+      setSelectedFromSearch(formattedPlatform);
+      console.log('formattedPlatform', formattedPlatform);
+      const pfCopy = _cloneDeep(platformForm);
+      setPlatformForm(Object.assign(pfCopy, formattedPlatform));
+    }
+  };
+
+  const searchIgdb = useCallback(async () => {
+    closeConfirmation();
+    if (platformForm?.name) {
+      try {
+        const result = await igdbPlatformSearch(platformForm?.name);
+        if (result?.data) {
+          setIgdbPlatforms(result.data);
+        }
+      } catch (error) {
+        setNotify({
+          severity: 'error',
+          detail: 'Error fetching IGDB platform data.',
+          summary: 'ERROR'
+        });
+      }
+    }
+  }, [closeConfirmation, platformForm, setNotify]);
+
   useEffect(() => {
     if (platform && (platform.name === '' || platform.name === 'Add Game')) {
       setAddMode(true);
@@ -51,9 +98,9 @@ const PlatformForm: FunctionComponent<IProps> = ({
     }
   }, [platform, setAddMode]);
 
-  // const resetGameForm = useCallback(() => {
-  //   // setPlatformForm(helpersService.resetPlatformForm());
-  // }, []);
+  const resetGameForm = useCallback(() => {
+    setPlatformForm(helpersService.resetPlatformForm());
+  }, []);
 
   const updatePlatform = useCallback(() => {
     // make save call
@@ -74,11 +121,18 @@ const PlatformForm: FunctionComponent<IProps> = ({
         <form className='crud-from--form platform-form--form'>
           <div className='crud-form--form__row'>
             <label htmlFor='name'>Name</label>
-            <InputText
+            <AutoComplete
+              dropdown
+              className='search-field'
+              delay={600}
               id='name'
               value={platformForm?.name}
               onChange={userChange}
+              onSelect={searchSelection}
               attr-which='name'
+              suggestions={igdbPlatforms}
+              completeMethod={searchIgdb}
+              field='name'
             />
           </div>
           <div className='crud-form--form__row'>
@@ -89,6 +143,121 @@ const PlatformForm: FunctionComponent<IProps> = ({
               onChange={userChange}
               attr-which='alternative_name'
             />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='cpu'>CPU</label>
+            <InputText id='cpu' value={platformForm?.cpu} onChange={userChange} attr-which='cpu' />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='os'>OS</label>
+            <InputText
+              id='os'
+              value={platformForm?.os || ''}
+              onChange={userChange}
+              attr-which='os'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='memory'>Memory</label>
+            <InputText
+              id='memory'
+              value={platformForm?.memory}
+              onChange={userChange}
+              attr-which='memory'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='storage'>Storage</label>
+            <InputText
+              id='storage'
+              value={platformForm?.storage}
+              onChange={userChange}
+              attr-which='storage'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='output'>Output</label>
+            <InputText
+              id='output'
+              value={platformForm?.output}
+              onChange={userChange}
+              attr-which='output'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='resolutions'>Resolutions</label>
+            <InputText
+              id='resolutions'
+              value={platformForm?.resolutions}
+              onChange={userChange}
+              attr-which='resolutions'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='connectivity'>Connectivity</label>
+            <InputText
+              id='connectivity'
+              value={platformForm?.connectivity || ''}
+              onChange={userChange}
+              attr-which='connectivity'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='generation'>Generation</label>
+            <InputText
+              id='generation'
+              value={platformForm?.generation || ''}
+              onChange={userChange}
+              attr-which='generation'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='logo'>Logo</label>
+            <InputText
+              id='logo'
+              value={platformForm?.logo || ''}
+              onChange={userChange}
+              attr-which='logo'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='category'>Category</label>
+            <InputText
+              id='category'
+              value={platformForm?.category || ''}
+              onChange={userChange}
+              attr-which='category'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='releaseDate_date'>Release Date</label>
+            <InputText
+              id='releaseDate_date'
+              value={platformForm?.releaseDate?.date || ''}
+              onChange={userChange}
+              attr-which='releaseDate.date'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='releaseDate_region'>Release Region</label>
+            <InputText
+              id='releaseDate_region'
+              value={platformForm?.releaseDate?.region || ''}
+              onChange={userChange}
+              attr-which='releaseDate.region'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='summary'>Summary</label>
+            <InputText
+              id='summary'
+              value={platformForm?.summary || ''}
+              onChange={userChange}
+              attr-which='summary'
+            />
+          </div>
+          <div className='divider'>
+            <hr />
           </div>
           <div className='crud-form--form__row'>
             <label htmlFor='condition'>Condition</label>
@@ -121,6 +290,15 @@ const PlatformForm: FunctionComponent<IProps> = ({
             />
           </div>
           <div className='crud-form--form__row'>
+            <label htmlFor='manual'>Manual</label>
+            <InputSwitch
+              id='manual'
+              checked={platformForm?.manual}
+              onChange={userChange}
+              attr-which='manual'
+            />
+          </div>
+          <div className='crud-form--form__row'>
             <label htmlFor='pricePaid'>Price Paid</label>
             <InputText
               id='pricePaid'
@@ -138,24 +316,6 @@ const PlatformForm: FunctionComponent<IProps> = ({
               value={platformForm?.newDatePurchased}
               onChange={userChange}
               attr-which='newDatePurchased'
-            />
-          </div>
-          <div className='crud-form--form__row'>
-            <label htmlFor='connectivity'>Connectivity</label>
-            <InputText
-              id='connectivity'
-              value={platformForm?.connectivity}
-              onChange={userChange}
-              attr-which='connectivity'
-            />
-          </div>
-          <div className='crud-form--form__row'>
-            <label htmlFor='memory'>Memory</label>
-            <InputText
-              id='memory'
-              value={platformForm?.memory}
-              onChange={userChange}
-              attr-which='memory'
             />
           </div>
           <div className='crud-form--form__row'>

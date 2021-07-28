@@ -27,6 +27,13 @@ const esrbData = {
   12: 'AO'
 };
 
+const preferredRegionIds = {
+  2: 'North America',
+  8: 'Worldwide',
+  1: 'Europe',
+  5: 'Japan'
+};
+
 const pcId = 6;
 
 async function getAppAccessToken() {
@@ -122,7 +129,7 @@ module.exports.searchPlatforms = async function (req, res) {
   if (req.body && req.body.platform) {
     const request = client
       .fields(
-        `alternative_name,generation,name,summary,versions.name,versions.platform_version_release_dates.date,platform_logo.url,url`
+        `alternative_name,generation,name,summary,versions.name,versions.platform_version_release_dates.date,platform_logo.url,category`
       )
       .search(req.body.platform)
       .request('/platforms');
@@ -143,6 +150,46 @@ module.exports.searchPlatforms = async function (req, res) {
             message: 'RESULT RETRIEVED BUT DOES NOT HAVE BODY!',
             result: result
           });
+        }
+      })
+      .catch(error => {
+        logger.logThis(error, req);
+        res.status(500).send(error);
+      });
+  }
+};
+
+module.exports.searchPlatformVersions = async function (req, res) {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  if (req.body && req.body.platform) {
+    console.log('req.body.platform', req.body.platform);
+    // const platform = req.body.platform;
+    const request = client
+      .fields(
+        `connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output`
+      )
+      // .search(req.body.platform)
+      .where(`id = ${req.body.platform}`)
+      .request('/platform_versions');
+    request
+      .then(result => {
+        if (result.status === 200) {
+          const item = result.data[0];
+          const formatted = {};
+          formatted.cpu = item.cpu ? item.cpu : null;
+          formatted.media = item.media ? item.media : null;
+          formatted.memory = item.memory ? item.memory : null;
+          formatted.output = item.output ? item.output : null;
+          formatted.os = item.os ? item.os : null;
+          formatted.logo =
+            item.platform_logo && item.platform_logo.image_id ? item.platform_logo.image_id : null;
+          formatted.connectivity = item.connectivity ? item.connectivity : null;
+          formatted.releaseDate = item.platform_version_release_dates;
+          res.status(200).json(formatted);
+        } else {
+          res.status(result.status || 500).json({ platformVersionId: req.body.platform, result });
         }
       })
       .catch(error => {

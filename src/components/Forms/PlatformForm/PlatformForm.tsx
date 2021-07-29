@@ -15,7 +15,8 @@ import { NotificationContext } from '@/context/NotificationContext';
 import {
   formatNewPlatformForSave,
   igdbPlatformSearch,
-  igdbPlatformVersions
+  igdbPlatformVersions,
+  savePlatform
 } from '@/services/platformsCrud.service';
 
 interface IProps {
@@ -35,6 +36,7 @@ const PlatformForm: FunctionComponent<IProps> = ({
   const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
   const [igdbPlatforms, setIgdbPlatforms] = useState<any[]>();
   const [notify, setNotify] = useContext(NotificationContext);
+  const [platformVersions, setPlatformVersions] = useState([]);
 
   const userChange = (e: any) => {
     console.log('e', e);
@@ -59,15 +61,37 @@ const PlatformForm: FunctionComponent<IProps> = ({
     if (e?.value) {
       const platform = e.value;
       console.log('platform in searchSelection', platform);
-      const versionData = await igdbPlatformVersions(platform);
-      const fullPlatform = { ...platform, ...versionData.data };
-      console.log('fullPlatform', fullPlatform);
-      const formattedPlatform = formatNewPlatformForSave(fullPlatform);
-      setSelectedFromSearch(formattedPlatform);
-      console.log('formattedPlatform', formattedPlatform);
+      setPlatformVersions(platform.versions);
+      console.log('platform.versions', platform.versions);
+      setSelectedFromSearch(platform);
       const pfCopy = _cloneDeep(platformForm);
-      setPlatformForm(Object.assign(pfCopy, formattedPlatform));
+      setPlatformForm(Object.assign(pfCopy, platform));
+
+      // const versionData = await igdbPlatformVersions(platform);
+      // const fullPlatform = { ...platform, ...versionData.data };
+      // console.log('fullPlatform', fullPlatform);
+      // const formattedPlatform = formatNewPlatformForSave(fullPlatform);
+      // setSelectedFromSearch(formattedPlatform);
+      // console.log('formattedPlatform', formattedPlatform);
+      // const pfCopy = _cloneDeep(platformForm);
+      // setPlatformForm(Object.assign(pfCopy, formattedPlatform));
     }
+  };
+
+  const searchVersion = async (version: any) => {
+    const plat = { ...platformForm, versions: [version] };
+    const versionData = await igdbPlatformVersions(plat);
+    const fullPlatform = { ...plat, ...versionData.data };
+    fullPlatform.id = plat.id;
+    const formattedPlatform = formatNewPlatformForSave(fullPlatform);
+    setSelectedFromSearch(formattedPlatform);
+    console.log('formattedPlatform', formattedPlatform);
+    const pfCopy = _cloneDeep(platformForm);
+    const savable = Object.assign(pfCopy, formattedPlatform);
+    // @ts-ignore
+    delete savable.versions;
+    console.log('savable', savable);
+    setPlatformForm(savable);
   };
 
   const searchIgdb = useCallback(async () => {
@@ -89,7 +113,7 @@ const PlatformForm: FunctionComponent<IProps> = ({
   }, [closeConfirmation, platformForm, setNotify]);
 
   useEffect(() => {
-    if (platform && (platform.name === '' || platform.name === 'Add Game')) {
+    if (platform && (platform.name === '' || platform.name === 'Add Console')) {
       setAddMode(true);
     }
     setPlatformForm(platform as IConsole);
@@ -104,10 +128,19 @@ const PlatformForm: FunctionComponent<IProps> = ({
 
   const updatePlatform = useCallback(() => {
     // make save call
-    // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+    const platformCopy = _cloneDeep(platformForm as IConsole);
+
+    savePlatform(platformCopy, addMode)
+      .then(result => {
+        closeDialog(platformForm?.name, true, 'added');
+      })
+      .catch(error => {
+        console.log('save error', error);
+        closeDialog(platformForm?.name, false, 'added');
+      });
     closeConfirmation();
     closeDialog(platformForm?.name);
-  }, [closeConfirmation, closeDialog, platformForm]);
+  }, [closeConfirmation, closeDialog, platformForm, addMode]);
 
   const cancelClicked = () => {
     // resetGameForm();
@@ -133,7 +166,24 @@ const PlatformForm: FunctionComponent<IProps> = ({
               suggestions={igdbPlatforms}
               completeMethod={searchIgdb}
               field='name'
+              placeholder='Type console name to search'
             />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='version'>Version</label>
+            <Dropdown
+              value={platformForm?.version?.name}
+              options={platformVersions}
+              onChange={e => searchVersion(e.value)}
+              attr-which='version'
+              id='version'
+              optionLabel='name'
+              style={{ width: '33%' }}
+              disabled={!platformVersions?.length}
+            />
+          </div>
+          <div className='divider'>
+            <hr />
           </div>
           <div className='crud-form--form__row'>
             <label htmlFor='alternative_name'>Aliases</label>
@@ -296,6 +346,16 @@ const PlatformForm: FunctionComponent<IProps> = ({
               checked={platformForm?.manual}
               onChange={userChange}
               attr-which='manual'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='howAcquired'>How Acquired</label>
+            <InputText
+              id='howAcquired'
+              value={platformForm?.howAcquired || ''}
+              onChange={userChange}
+              attr-which='howAcquired'
+              type='text'
             />
           </div>
           <div className='crud-form--form__row'>

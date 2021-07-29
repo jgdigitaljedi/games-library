@@ -3,6 +3,9 @@ import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
 import { get as _get, sortBy as _sortBy } from 'lodash';
 import { IConsole, IConsoleReleaseDate } from '@/models/platforms.model';
+import moment from 'moment';
+
+const endpoint = 'consoles';
 
 const preferredRegionIds = {
   '2': 'North America',
@@ -141,7 +144,7 @@ const getReleaseDate = (
     const region = preferredRegionIds[prd.region.toString()] || '';
     return {
       region,
-      date: prd.human
+      date: moment(prd.human).format('MM/DD/YYYY')
     };
   } else {
     const regionArr = prd.map(d => d.region.toString());
@@ -153,7 +156,7 @@ const getReleaseDate = (
             index: indOf,
             // @ts-ignore
             region: preferredRegionIds[regionArr[indOf]],
-            date: prd[indOf].human
+            date: moment(prd[indOf].human).format('MM/DD/YYYY')
           };
         }
       }),
@@ -171,7 +174,7 @@ const getReleaseDate = (
         // @ts-ignore
         regionArrWithNames?.length && regionArrWithNames[0].hasOwnProperty('date')
           ? // @ts-ignore
-            regionArrWithNames[0].date
+            moment(regionArrWithNames[0].date).format('MM/DD/YYYY')
           : null
     };
   }
@@ -187,8 +190,9 @@ const getCategory = (cat?: number): string => {
 };
 
 export const formatNewPlatformForSave = (rawPlatform: RawPlatform): IConsole => {
+  console.log('id in format', rawPlatform.id);
   return {
-    id: rawPlatform.id | 99999,
+    id: rawPlatform.id || 99999,
     alternative_name: rawPlatform.alternative_name || '',
     category: getCategory(rawPlatform.category),
     generation: rawPlatform.generation || null,
@@ -199,10 +203,11 @@ export const formatNewPlatformForSave = (rawPlatform: RawPlatform): IConsole => 
     manual: false,
     mods: '',
     notes: '',
-    datePurchased: null,
+    datePurchased: moment().format('YYYY-MM-DD'),
     pricePaid: null,
     ghostConsole: false,
-    createdAt: '',
+    createdAt: moment().format('MM/DD/YYYY'),
+    lastUpdated: moment().format('MM/DD/YYYY'),
     howAcquired: '',
     updatedAt: '',
     connectivity: rawPlatform.connectivity || null,
@@ -219,4 +224,25 @@ export const formatNewPlatformForSave = (rawPlatform: RawPlatform): IConsole => 
     storage: rawPlatform.storage || '',
     resolutions: rawPlatform.resolutions || ''
   };
+};
+
+export const savePlatform = async (platform: IConsole, addMode: boolean) => {
+  const hasKey = !!getRequestKey();
+  console.log('platform to be updated', platform);
+  if (!addMode && hasKey) {
+    const params = makeRequest(endpoint, platform._id);
+    const result = await Axios.patch(params.url, { platform }, params.headers);
+    return result;
+  } else if (hasKey) {
+    const params = makeRequest(endpoint);
+    console.log('param', params);
+    console.log('platform', platform);
+    const result = await Axios.put(params.url, { platform }, params.headers);
+    return result;
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to do that!'
+    };
+  }
 };

@@ -144,4 +144,6 @@ export interface IConsole {
   summary?: string;
   resolutions?: string;
   storage?: string;
+  lastUpdated: string;
+  _id?: string;
 }

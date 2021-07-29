@@ -62,6 +62,7 @@ export default {
       pricePaid: null,
       ghostConsole: false,
       createdAt: '',
+      lastUpdated: '',
       howAcquired: '',
       updatedAt: '',
       connectivity: null,

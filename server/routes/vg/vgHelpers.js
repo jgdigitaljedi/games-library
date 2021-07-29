@@ -6,7 +6,7 @@ module.exports.validate = function (obj, reqKeys) {
   return new Promise((resolve, reject) => {
     console.log('VALIDATING ***********************');
     try {
-      const missing = reqKeys.filter((item) => {
+      const missing = reqKeys.filter(item => {
         if (item.required) {
           let parsed = _get(obj, item.key);
           if (parsed === null || parsed === undefined || typeof parsed !== item.type) {
@@ -29,23 +29,32 @@ module.exports.timeStamp = function () {
 
 module.exports.consolesRequiredFields = function () {
   return [
-    { key: 'igdb.id', required: true, type: 'number' },
-    { key: 'igdb.name', required: true, type: 'string' },
-    { key: 'igdb.logo', required: false },
-    { key: 'igdb.generation', required: false },
-    { key: 'igdb.alternative_name', required: false },
-    { key: 'igdb.version', required: false },
+    { key: 'id', required: true, type: 'number' },
+    { key: 'name', required: true, type: 'string' },
+    { key: 'logo', required: false },
+    { key: 'generation', required: false },
+    { key: 'alternative_name', required: false },
+    { key: 'version', required: false },
     { key: 'pricePaid', required: false },
     { key: 'mods', required: false },
     { key: 'notes', required: false },
     { key: 'condition', required: false },
     { key: 'box', required: true, type: 'boolean' },
-    { key: 'connectedBy', required: true, type: 'string' },
-    { key: 'upscaler', required: true, type: 'boolean' },
     { key: 'datePurchased', required: false },
     { key: 'ghostConsole', required: true, type: 'boolean' },
     { key: 'createdAt', required: true, type: 'string' },
-    { key: 'updatedAt', required: true, type: 'string' }
+    { key: 'updatedAt', required: true, type: 'string' },
+    { key: 'category', required: false, type: 'string' },
+    { key: 'manual', required: false, type: 'boolean' },
+    { key: 'connectivity', required: false, type: 'string' },
+    { key: 'cpu', required: false, type: 'string' },
+    { key: 'media', required: false, type: 'string' },
+    { key: 'os', required: false, type: 'string' },
+    { key: 'output', required: false, type: 'string' },
+    { key: 'storage', required: false, type: 'string' },
+    { key: 'summary', required: false, type: 'string' },
+    { key: 'releaseDate', required: false },
+    { key: 'newDatePurchased', required: false }
   ];
 };
 
@@ -173,7 +182,7 @@ module.exports.hwRequiredFields = function () {
   ];
 };
 
-module.exports.sortByDate = function(items, keys, reversed) {
+module.exports.sortByDate = function (items, keys, reversed) {
   const sorted = _sortBy(items, keys);
   if (reversed) {
     return sorted.reverse();

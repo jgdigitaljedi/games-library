@@ -83,7 +83,7 @@ export const filters = {
   },
   filterVr: (data: IGame[], vr: boolean) => {
     if (vr) {
-      return data.filter(g => g.vr.vrOnly || g.vr.vrCompatible);
+      return data.filter(g => g.vr?.vrOnly || g.vr?.vrCompatible);
     }
     return data;
   }

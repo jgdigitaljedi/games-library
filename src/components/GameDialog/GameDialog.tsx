@@ -15,6 +15,7 @@ import helpersService from '../../services/helpers.service';
 import ReadMore from '../ReadMore/ReadMore';
 import { Button } from 'primereact/button';
 import VideoGallery from '../VideoGallery/VideoGallery';
+import { uniq as _uniq } from 'lodash';
 // import { getEbayPrices } from '../../services/globalData.service';
 
 interface IRatings {
@@ -74,6 +75,22 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
       }
     }
   }, [game]);
+
+  const getExtraData = () => {
+    if (game?.extraData) {
+      return _uniq(game.extraData)
+        .map((g, ind) => {
+          if (g) {
+            return <div key={ind}>{g}</div>;
+          } else {
+            return null;
+          }
+        })
+        .filter(p => p);
+    } else {
+      return <></>;
+    }
+  };
 
   useEffect(() => {
     if (game) {
@@ -221,17 +238,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
             }}
           />
           {game && game.esrb ? <></> : <h3>NO RATING</h3>}
-          <div className='extra-data'>
-            {game.extraData &&
-              game.extraData.length > 0 &&
-              game.extraData.map((g, ind) => {
-                if (g) {
-                  return <div key={ind}>{g}</div>;
-                } else {
-                  return null;
-                }
-              })}
-          </div>
+          {/*@ts-ignore */}
+          <div className='extra-data'>{game.extraData?.length > 1 && getExtraData()}</div>
         </div>
         <h4>{game && game.name ? game.name : ''} can be played on:</h4>
         <div className='game-dialog--body__consoles'>

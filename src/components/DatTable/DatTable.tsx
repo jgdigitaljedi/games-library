@@ -21,7 +21,9 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
   const tableRef = useRef<any>();
 
   const updateDimensions = useCallback(() => {
-    const theTable = tableRef.current.container.querySelector('.p-datatable-scrollable-body-table');
+    const theTable = tableRef?.current?.container.querySelector(
+      '.p-datatable-scrollable-body-table'
+    );
     if (theTable) {
       if (window.innerWidth <= 640) {
         theTable.style.width = '100%';
@@ -32,7 +34,7 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
     } else {
       setTimeout(() => {
         updateDimensions();
-      }, 30);
+      }, 60);
     }
   }, []);
 

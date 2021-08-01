@@ -26,6 +26,8 @@ const gba = require('./consoleSpecificGameData/NintendoGameBoyAdvance.json');
 const gbc = require('./consoleSpecificGameData/NintendoGameBoyColor.json');
 const ps4 = require('./consoleSpecificGameData/SonyPlayStation4.json');
 const sms = require('./consoleSpecificGameData/SegaMasterSystem.json');
+const jag = require('./consoleSpecificGameData/AtariJaguar.json');
+const miv = require('./consoleSpecificGameData/MattelIntellivision.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -60,7 +62,9 @@ const igdbIdToFile = {
   '6': null, //pc
   '66': a5200,
   '60': a7800,
-  '64': sms
+  '64': sms,
+  '67': miv,
+  '62': jag
 };
 
 module.exports.getFileRef = id => {

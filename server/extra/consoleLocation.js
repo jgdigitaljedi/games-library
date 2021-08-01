@@ -31,10 +31,13 @@ const consoleLocationList = {
   '59': 'upstairs', // Atari 2600
   '6': 'upstairs', //pc
   '66': 'upstairs', // Atari 5200
-  '60': 'upstairs' // Atari 7800
+  '60': 'upstairs', // Atari 7800
+  '62': 'upstairs', // Atari Jaguar
+  '67': 'upstairs', // IntelliVision
+  '64': 'upstairs' // Master System
 };
 
-module.exports.getLocation = (id) => {
+module.exports.getLocation = id => {
   console.log('location', consoleLocationList[id.toString()]);
   return consoleLocationList[id.toString()];
 };

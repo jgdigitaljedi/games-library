@@ -19,7 +19,6 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     { label: 'Games per Platform', value: 'gpp' },
     { label: 'Games per Acquisition Type', value: 'gat' },
     { label: 'Games per ESRB Rating', value: 'esrb' },
-    // { label: 'Consoles by Company', value: 'platforms.company' },
     { label: 'Games by Decade', value: 'gbd' }
   ];
 
@@ -98,14 +97,6 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
           true
         ) as IChartData
       );
-      // } else if (chartData === 'platforms.company' && stats) {
-      //   setData(
-      //     ChartDataService.returnSimpleDataSet(
-      //       stats.consolesByCompany,
-      //       'Consoles per Company',
-      //       true
-      //     ) as IChartData
-      //   );
     } else if (chartData === 'gbd' && stats) {
       setData(
         ChartDataService.returnSimpleDataSet(

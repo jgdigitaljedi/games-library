@@ -17,11 +17,11 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
   const lists = [
     { label: 'Platform Exclusives', value: 'exclusives' },
-    // { label: 'Games with extra data', value: 'extraData' },
     { label: 'Platform Launch Titles', value: 'launch' },
     { label: 'Multiplayer party games', value: 'multiplayer' },
     { label: 'Special games', value: 'special' },
-    { label: 'Multi-platform Games', value: 'multiplatform' }
+    { label: 'Multi-platform Games', value: 'multiplatform' },
+    { label: 'Complete in Box Games', value: 'cib' }
   ];
   const [whichList, setWhichList] = useState<string>(lists[0].value);
   const [data, setData] = useState<IGame[]>([]);
@@ -35,15 +35,15 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
   };
 
   const getList = useCallback(
-    (which) => {
+    which => {
       setWhichList(which);
       Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
-        .then((result) => {
+        .then(result => {
           if (result && result.data) {
             setData(_sortBy(result.data, 'consoleName'));
           }
         })
-        .catch((error) => {
+        .catch(error => {
           if (error) {
             setNotify({
               severity: 'error',
@@ -61,21 +61,21 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
   }, [getList, whichList]);
 
   return (
-    <div className="lists">
-      <div className="lists-head">
-        <div className="lists-head--group">
+    <div className='lists'>
+      <div className='lists-head'>
+        <div className='lists-head--group'>
           <label>Select a list:</label>
-          <Dropdown value={whichList} onChange={(e) => getList(e.value)} options={lists} />
+          <Dropdown value={whichList} onChange={e => getList(e.value)} options={lists} />
         </div>
-        <div className="lists-head--group">
+        <div className='lists-head--group'>
           <label>Cards?</label>
-          <InputSwitch checked={cardView} onChange={(e) => setCardView(!!e.value)} />
+          <InputSwitch checked={cardView} onChange={e => setCardView(!!e.value)} />
         </div>
-        <div className="lists-head--group">
+        <div className='lists-head--group'>
           <label>{data.length} games</label>
         </div>
       </div>
-      <div className="list-container">
+      <div className='list-container'>
         {cardView &&
           data.map((d, index) => {
             return (
@@ -84,7 +84,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
           })}
         {!cardView && <ListView data={data} listRowClick={cardClicked} whichData={whichList} />}
       </div>
-      <ScrollToTop position="right" />
+      <ScrollToTop position='right' />
       <Dialog
         visible={showModal}
         header={selectedGame ? selectedGame['name'] : ''}

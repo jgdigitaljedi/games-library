@@ -6,6 +6,8 @@ function makeList(which, games) {
       if (game.maxMultiplayer && game.maxMultiplayer >= 3) {
         return true;
       }
+    } else if (which === 'cib') {
+      return !!game.cib;
     } else if (which === 'extraData') {
       if (game.extraData && game.extraData.length > 0) {
         return true;
@@ -17,20 +19,19 @@ function makeList(which, games) {
     } else if (which === 'exclusives' || which === 'special' || which === 'launch') {
       if (game.extraDataFull && game.extraDataFull.length) {
         const edArr = game.extraDataFull;
-        edArr
+        return edArr
           .filter(g => {
             if (which === 'exclusives' && g.isExclusive && g.isExclusive.length) {
               return true;
-            }
-            if (which === 'launch' && g.isLaunchTitle && g.isLaunchTitle.length) {
+            } else if (which === 'launch' && g.isLaunchTitle && g.isLaunchTitle.length) {
+              return true;
+            } else if (which === 'special' && g.special && g.special.length) {
               return true;
             }
-            if (which === 'special' && g.special && g.special.length) {
-              return true;
-            }
+            return false;
           })
-          .filter(g => g);
-        return edArr.length;
+          .filter(g => g).length;
+        // return edArr.length;
       }
     }
   });
@@ -61,6 +62,9 @@ module.exports.getList = function (req, res) {
               break;
             case 'multiplatform':
               theList = makeList('multiplatform', result);
+              break;
+            case 'cib':
+              theList = makeList('cib', result);
               break;
             default:
               theList = [];

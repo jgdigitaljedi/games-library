@@ -2,6 +2,7 @@ import get from 'lodash/get';
 import { IFormState } from '@/models/common.model';
 import { IGame } from '@/models/games.model';
 import SortService from './sorts.service';
+import { intersection as _intersection } from 'lodash';
 
 export const filters = {
   defaultFormState: (): IFormState => {
@@ -25,10 +26,13 @@ export const filters = {
     });
   },
   filterPlatform: (data: IGame[], platform: string[]): IGame[] => {
-    if (platform.length) {
+    if (platform?.length) {
       return data.filter(d => {
-        return platform.indexOf(d.consoleName) >= 0;
-        // return d.consoleName === platform;
+        console.log('d.consoleArr', d.consoleArr);
+        const conArr: string[] = d.consoleArr?.length
+          ? d.consoleArr?.filter(c => c.hasOwnProperty('physical')).map(c => c.consoleName)
+          : [''];
+        return _intersection(platform, conArr).length > 0;
       });
     } else {
       return data;

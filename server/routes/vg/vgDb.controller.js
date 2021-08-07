@@ -22,10 +22,10 @@ module.exports.saveGame = function (req, res) {
   if (req.body && req.body.hasOwnProperty('name')) {
     gamesCrud
       .save(req.body)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -48,13 +48,18 @@ module.exports.getMyGames = function (req, res) {
   res.status(200).json(games);
 };
 
+module.exports.gamesTotal = function (req, res) {
+  const games = gamesCrud.getGames();
+  res.status(200).json({ count: games.length });
+};
+
 module.exports.getCombinedGameData = function (req, res) {
   combined
     .combine()
-    .then((result) => {
+    .then(result => {
       res.status(200).json(sortBy(result, 'datePurchased').reverse());
     })
-    .catch((error) => {
+    .catch(error => {
       res.status(500).json({ error: true, message: 'ERROR COMBINING GAMES DATA!', code: error });
     });
 };
@@ -95,10 +100,10 @@ module.exports.editGame = function (req, res) {
   if (req.params.id && req.body.name) {
     gamesCrud
       .edit(req.params.id, req.body)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {
@@ -116,10 +121,10 @@ module.exports.savePlatform = function (req, res) {
   if (req.body && req.body.hasOwnProperty('platform')) {
     consolesCrud
       .save(req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -165,10 +170,10 @@ module.exports.editConsole = function (req, res) {
   if (req.params.id && req.body.platform) {
     consolesCrud
       .edit(req.params.id, req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {
@@ -186,10 +191,10 @@ module.exports.saveAcc = function (req, res) {
   if (req.body && req.body.hasOwnProperty('acc')) {
     accCrud
       .save(req.body.acc)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -224,10 +229,10 @@ module.exports.editAcc = function (req, res) {
   if (req.params.id && req.body.platform) {
     accCrud
       .edit(req.params.id, req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {
@@ -245,10 +250,10 @@ module.exports.saveColl = function (req, res) {
   if (req.body && req.body.hasOwnProperty('coll')) {
     collCrud
       .save(req.body.coll)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -283,10 +288,10 @@ module.exports.editColl = function (req, res) {
   if (req.params.id && req.body.platform) {
     collCrud
       .edit(req.params.id, req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {
@@ -304,10 +309,10 @@ module.exports.saveClone = function (req, res) {
   if (req.body && req.body.hasOwnProperty('clone')) {
     clonesCrud
       .save(req.body.clone)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -342,10 +347,10 @@ module.exports.editClone = function (req, res) {
   if (req.params.id && req.body.platform) {
     clonesCrud
       .edit(req.params.id, req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {
@@ -363,10 +368,10 @@ module.exports.saveHardware = function (req, res) {
   if (req.body && req.body.hasOwnProperty('hw')) {
     hwCrud
       .save(req.body.hw)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -401,10 +406,10 @@ module.exports.editHardware = function (req, res) {
   if (req.params.id && req.body.platform) {
     hwCrud
       .edit(req.params.id, req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {
@@ -423,10 +428,10 @@ module.exports.saveWishlist = function (req, res) {
     const which = req.params.which;
     wlCrud
       .save(which, req.body.wl)
-      .then((result) => {
+      .then(result => {
         res.status(200).json({ error: false, result });
       })
-      .catch((error) => {
+      .catch(error => {
         if (error.missing) {
           res.status(400).json({
             error: true,
@@ -465,10 +470,10 @@ module.exports.editWishlist = function (req, res) {
   if (req.params.id && req.body.platform && req.params.hasOwnProperty('which')) {
     wlCrud
       .edit(req.params.which, req.params.id, req.body.platform)
-      .then((result) => {
+      .then(result => {
         res.status(200).json(result);
       })
-      .catch((error) => {
+      .catch(error => {
         res.status(500).json(error);
       });
   } else {

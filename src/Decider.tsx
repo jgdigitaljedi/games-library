@@ -19,7 +19,7 @@ import sortsService from './services/sorts.service';
 import { connect, useSelector } from 'react-redux';
 import changePlatformsArr from './actionCreators/platformsArr';
 import { Dispatch as ReduxDispatch } from 'redux';
-import { getPlatformArr } from './services/globalData.service';
+import { gamesCount, getPlatformArr } from './services/globalData.service';
 import DeciderCards from './components/DeciderCards/DeciderCards';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { NotificationContext } from './context/NotificationContext';
@@ -43,6 +43,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   const [data, setData] = useState<any[]>([{}]);
   const [everDrives, setEverDrives] = useState<any[]>([{}]);
   const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
+  const [totalGames, setTotalGames] = useState(0);
 
   const getEverdrives = useCallback(async () => {
     const result = await axios.get(`${window.urlPrefix}/api/vg/everdrives`);
@@ -169,13 +170,31 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     }
   }, [props, platformsArr, setNotify]);
 
+  useEffect(() => {
+    gamesCount()
+      .then(result => {
+        setTotalGames(result.data.count);
+      })
+      .catch(error => {
+        setNotify({
+          severity: 'error',
+          detail: error,
+          summary: 'ERROR'
+        });
+      });
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <div className='decider-container'>
       <div className='decioder-bar-wrapper'>
         <DeciderHeader data={data} />
       </div>
       <div className='decider--counter'>
-        <h3>{data.length} games</h3>
+        <h3>
+          {data.length === masterData.length && `${totalGames} total/`}
+          {data.length} unique games
+        </h3>
       </div>
       <div className='decider--results'>
         <DeciderCards data={data} />

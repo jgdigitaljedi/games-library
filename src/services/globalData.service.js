@@ -1,4 +1,5 @@
 import Axios from 'axios';
+import { makeRequest } from './generalCrud.service';
 
 export const getPlatformArr = () => {
   return new Promise((resolve, reject) => {
@@ -25,4 +26,9 @@ export const getEbayPrices = async data => {
   const ebay = await Axios.post(url, data);
   console.log('ebay', ebay);
   return ebay;
+};
+
+export const gamesCount = async () => {
+  const url = `${window.urlPrefix}/api/vg/games/total`;
+  return await Axios.get(url);
 };

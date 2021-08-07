@@ -16,6 +16,7 @@ import ReadMore from '../ReadMore/ReadMore';
 import { Button } from 'primereact/button';
 import VideoGallery from '../VideoGallery/VideoGallery';
 import { uniq as _uniq } from 'lodash';
+import { uniqBy as _uniqBy } from 'lodash';
 // import { getEbayPrices } from '../../services/globalData.service';
 
 interface IRatings {
@@ -248,7 +249,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
         <h4>{game && game.name ? game.name : ''} can be played on:</h4>
         <div className='game-dialog--body__consoles'>
           {game && game.consoleArr ? (
-            game.consoleArr.map((con: IConsoleArr, index: number) => (
+            _uniqBy(game.consoleArr, 'consoleId').map((con: IConsoleArr, index: number) => (
               <img
                 src={`${urlPrefix}${(assetsService.platformLogos as IRatings)[con.consoleName]}`}
                 alt={con.consoleName}

@@ -1,7 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import { IConsole } from '@/models/platforms.model';
 import { IGame } from '@/models/games.model';
-import { flatten as _flatten, get as _get } from 'lodash';
+import { flatten as _flatten, get as _get, uniq as _uniq } from 'lodash';
+import { consoleGenerationYears } from '@/services/helpers.service';
 
 interface IProps {
   data: IGame[] | IConsole[];
@@ -28,12 +29,14 @@ const ListView: FunctionComponent<IProps> = ({
       switch (whichData) {
         case 'exclusives':
           if (game.extraDataFull?.length && game.extraDataFull[0].isExclusive) {
-            cellData = _flatten(
-              game.extraDataFull?.map(d =>
-                Array.isArray(d.isExclusive)
-                  ? d.isExclusive?.map(i => i?.name + ' exclusive' || '')
-                  : ''
-              ) || []
+            cellData = _uniq(
+              _flatten(
+                game.extraDataFull?.map(d =>
+                  Array.isArray(d.isExclusive)
+                    ? d.isExclusive?.map(i => i?.name + ' exclusive' || '')
+                    : ''
+                ) || []
+              )
             ).join(', ');
           }
           if (!cellData || cellData === 'undefined exclusive') {
@@ -42,12 +45,14 @@ const ListView: FunctionComponent<IProps> = ({
           break;
         case 'launch':
           if (game.extraDataFull?.length && game.extraDataFull[0].isLaunchTitle) {
-            cellData = _flatten(
-              game.extraDataFull?.map(d =>
-                Array.isArray(d.isLaunchTitle)
-                  ? d.isLaunchTitle?.map(i => i?.name + ' launch title' || '')
-                  : ''
-              ) || []
+            cellData = _uniq(
+              _flatten(
+                game.extraDataFull?.map(d =>
+                  Array.isArray(d.isLaunchTitle)
+                    ? d.isLaunchTitle?.map(i => i?.name + ' launch title' || '')
+                    : ''
+                ) || []
+              )
             ).join(', ');
           }
           if (!cellData || cellData === 'undefined launch title') {
@@ -55,15 +60,22 @@ const ListView: FunctionComponent<IProps> = ({
           }
           break;
         case 'special':
-          cellData = _flatten(game.extraDataFull?.map(d => d.special?.map(i => i.value))).join(
-            ', '
-          );
+          cellData = _uniq(
+            _flatten(game.extraDataFull?.map(d => d.special?.map(i => i.value)))
+          ).join(', ');
           break;
         case 'multiplayer':
           cellData = `${game?.maxMultiplayer || '?'} players`;
           break;
         case 'multiplatform':
-          cellData = `${game.consoleArr?.map(con => con.consoleName).join(', ')}`;
+          cellData = `${_uniq(game.consoleArr?.map(con => con.consoleName)).join(', ')}`;
+          break;
+        case 'cib':
+          cellData = game?.consoleArr
+            // @ts-ignore
+            ?.filter(g => g.cib)
+            .map(g => `CIB for ${g.consoleName}`)
+            .join(', ');
           break;
         default:
           cellData = _get(game, whichData);
@@ -74,8 +86,24 @@ const ListView: FunctionComponent<IProps> = ({
       if (whichData === 'multiplatform') {
         // @ts-ignore
         cellData = `${game.consoleArr?.map(con => con.consoleName).join(', ')}`;
+      } else if (whichData === 'cib') {
+        // @ts-ignore
+        if (game.consoleArr?.length) {
+          // @ts-ignore
+          cellData = game?.consoleArr
+            ?.filter((g: IGame) => g.cib)
+            .map((g: IGame) => `CIB for ${g.consoleName}`)
+            .join(', ');
+        } else {
+          // @ts-ignore
+          cellData = `CIB for ${game.consoleName}`;
+        }
+      } else if (whichData === 'multiplayer') {
+        // @ts-ignore
+        cellData = `${game?.maxMultiplayer || '?'} players`;
+      } else {
+        cellData = _get(game, whichData);
       }
-      cellData = _get(game, whichData);
     }
     return cellData || '';
   };

@@ -183,19 +183,21 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
               </div>
               {consolesOwnedFor && consolesOwnedFor.length && (
                 <table className='owned-for'>
-                  <tr>
-                    <th>Platform</th>
-                    <th>Price Paid</th>
-                    <th>Date Purchased</th>
-                    <th>How Acquired</th>
-                    <th>Physical</th>
-                    <th>Condition</th>
-                    <th>Case</th>
-                    <th>CIB</th>
-                  </tr>
+                  <thead>
+                    <tr>
+                      <th>Platform</th>
+                      <th>Price Paid</th>
+                      <th>Date Purchased</th>
+                      <th>How Acquired</th>
+                      <th>Physical</th>
+                      <th>Condition</th>
+                      <th>Case</th>
+                      <th>CIB</th>
+                    </tr>
+                  </thead>
                   <tbody>
                     {consolesOwnedFor.map((con, index) => (
-                      <tr>
+                      <tr key={`con-row-${index}`}>
                         <td>{con.consoleName}</td>
                         <td>${con.pricePaid}</td>
                         <td>{con.datePurchased}</td>
@@ -217,9 +219,10 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
               )}
             </div>
           )}
-          {showVideos && game.videos?.length && <VideoGallery videos={game.videos} />}
+          {/* @ts-ignore */}
+          {showVideos && game?.videos?.length > 0 && <VideoGallery videos={game.videos} />}
         </div>
-        {game.videos && (
+        {game?.videos?.length && (
           <div style={{ marginLeft: '2.5rem' }}>
             {!showVideos && (
               <Button icon='pi pi-video' label='Videos' onClick={() => loadVideos(true)} />
@@ -244,7 +247,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           />
           {game && game.esrb ? <></> : <h3>NO RATING</h3>}
           {/*@ts-ignore */}
-          <div className='extra-data'>{game.extraData?.length > 1 && getExtraData()}</div>
+          <div className='extra-data'>{game.extraData?.length >= 1 && getExtraData()}</div>
         </div>
         <h4>{game && game.name ? game.name : ''} can be played on:</h4>
         <div className='game-dialog--body__consoles'>
@@ -253,7 +256,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
               <img
                 src={`${urlPrefix}${(assetsService.platformLogos as IRatings)[con.consoleName]}`}
                 alt={con.consoleName}
-                key={index}
+                key={`image-${index}`}
                 style={{
                   maxWidth: `${90 / (game && game.consoleArr ? game.consoleArr.length : 1)}%`,
                   objectFit: 'contain'

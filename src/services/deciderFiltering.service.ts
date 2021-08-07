@@ -28,7 +28,6 @@ export const filters = {
   filterPlatform: (data: IGame[], platform: string[]): IGame[] => {
     if (platform?.length) {
       return data.filter(d => {
-        console.log('d.consoleArr', d.consoleArr);
         const conArr: string[] = d.consoleArr?.length
           ? d.consoleArr?.filter(c => c.hasOwnProperty('physical')).map(c => c.consoleName)
           : [''];

@@ -26,7 +26,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     { label: 'bar', value: 'bar' },
     { label: 'line', value: 'line' }
   ];
-  const [data, setData] = useState<IChartData>({
+  const [data, setData] = useState<IChartData | null>({
     labels: [''],
     datasets: [{ label: '', backgroundColor: '', data: [0] }]
   });
@@ -47,6 +47,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
 
   const getData = useCallback(
     async (ed?: boolean) => {
+      setData(null);
       const result = await Axios.post(`${window.urlPrefix}/api/vg/gamescombined`, {
         everDrive: ed
       });
@@ -147,7 +148,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
       </div>
       <div className='viz-chart--container'>
         {data && data.datasets?.length && data.datasets[0].data?.length && (
-          <Chart type={chartType} data={data} options={chartOptions} width='100%' />
+          <Chart type={chartType} data={data} options={chartOptions} width='100%' key={chartData} />
         )}
       </div>
     </div>

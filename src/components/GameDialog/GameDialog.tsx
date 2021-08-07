@@ -93,7 +93,11 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   };
 
   useEffect(() => {
+    console.log('game', game);
     if (game) {
+      if (game.id === 2363) {
+        console.log('game', game);
+      }
       const owned =
         game.consoleArr && game.consoleArr.length
           ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))

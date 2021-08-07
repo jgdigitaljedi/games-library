@@ -7,7 +7,7 @@ function makeList(which, games) {
         return true;
       }
     } else if (which === 'cib') {
-      return !!game.cib;
+      return game.consoleArr.map(g => g.cib).filter(g => g).length > 0;
     } else if (which === 'extraData') {
       if (game.extraData && game.extraData.length > 0) {
         return true;

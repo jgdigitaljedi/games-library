@@ -1,11 +1,11 @@
 const db = require('../../../../db');
-const _uniqBy = require('lodash/uniqBy');
+const _uniq = require('lodash/uniq');
 const bc = require('../../../../extra/backwardCompatible');
 
 function getGameNotes(cons) {
   return cons
-    .map((con) => (con.notes && con.notes.length ? `${con.consoleName}: ${con.notes}` : null))
-    .filter((c) => c)
+    .map(con => (con.notes && con.notes.length ? `${con.consoleName}: ${con.notes}` : null))
+    .filter(c => c)
     .join(', ');
 }
 let indexes = [];
@@ -27,8 +27,12 @@ module.exports.combine = function () {
         if (game && id >= 0) {
           const ind = indexes.indexOf(id);
           if (ind >= 0) {
-            const theIds = acc[ind].consoleArr.map((c) => c.consoleId);
-            if (theIds.indexOf(game.consoleId) < 0) {
+            const theIds = acc[ind].consoleArr.map(c => c.consoleId);
+            const accCurrentConsoleId = theIds.indexOf(game.consoleId);
+            if (
+              theIds.indexOf(game.consoleId) < 0 ||
+              acc[ind].consoleArr[accCurrentConsoleId].isBc
+            ) {
               acc[ind].consoleArr.push({
                 consoleName: game.consoleName,
                 consoleId: game.consoleId,
@@ -46,14 +50,14 @@ module.exports.combine = function () {
               });
             }
             const xbBc = bc.xboxBcCheck(id, game.consoleId === 11);
-            xbBc.forEach((c) => acc[ind].consoleArr.push(c));
-            acc[ind].consoleArr.forEach((con) => {
+            xbBc.forEach(c => acc[ind].consoleArr.push(c));
+            acc[ind].consoleArr.forEach(con => {
               const bcConsoles =
                 con.consoleId && parseInt(con.consoleId) < 9000 ? bc.bc(con.consoleId) : [];
-              bcConsoles.forEach((c) => {
-                const caIds = acc[ind].consoleArr.map((g) => g.consoleId);
+              bcConsoles.forEach(c => {
+                const caIds = acc[ind].consoleArr.map(g => g.consoleId);
                 if (caIds.indexOf(c.consoleId) < 0) {
-                  acc[ind].consoleArr.push(c);
+                  acc[ind].consoleArr.push({ ...c, isBc: true });
                 }
               });
             });
@@ -76,13 +80,18 @@ module.exports.combine = function () {
               }
             ];
             const bcConsoles = game.consoleId ? bc.bc(game.consoleId) : [];
-            bcConsoles.forEach((c) => game.consoleArr.push(c));
+            bcConsoles.forEach(c => {
+              const cIds = game.consoleArr.map(con => con.consoleId);
+              if (cIds.indexOf(c.consoleId) < 0) {
+                game.consoleArr.push({ ...c, isBc: true });
+              }
+            });
             if (game.consoleId === 11 || game.consoleId === 12) {
               const xbBc = bc.xboxBcCheck(id, +game.consoleId === 11);
               if (xbBc && xbBc.length) {
                 // game.consoleArr = [...game.consoleArr, xbBc];
-                xbBc.forEach((c) => {
-                  const xbIds = game.consoleArr.map((g) => g.consoleId);
+                xbBc.forEach(c => {
+                  const xbIds = game.consoleArr.map(g => g.consoleId);
                   if (xbIds.indexOf(c.consoleId) < 0) {
                     game.consoleArr.push(c);
                   }
@@ -99,8 +108,8 @@ module.exports.combine = function () {
         return acc;
       }, []);
 
-      const physicalDigitalAssignment = (game) => {
-        return game.consoleArr.map((con) => {
+      const physicalDigitalAssignment = game => {
+        return game.consoleArr.map(con => {
           if (!con.hasOwnProperty('physical')) {
             return 'backwardComp';
           }
@@ -109,8 +118,8 @@ module.exports.combine = function () {
         });
       };
 
-      const dedupe = combined.map((game) => {
-        game.consoleArr = _uniqBy(game.consoleArr, 'consoleId');
+      const dedupe = combined.map(game => {
+        game.consoleArr = _uniq(game.consoleArr, 'consoleId');
         const pd = physicalDigitalAssignment(game);
         game.physicalDigital = pd;
         game.notes = getGameNotes(game.consoleArr);
@@ -118,7 +127,7 @@ module.exports.combine = function () {
       });
 
       const withLocations = dedupe.map((game, index) => {
-        const location = game.consoleArr.map((con) => {
+        const location = game.consoleArr.map(con => {
           return game.location || 'upstairs';
         });
         if (

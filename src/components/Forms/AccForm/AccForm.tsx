@@ -96,7 +96,7 @@ const AccForm: FunctionComponent<IProps> = ({
             />
           </div>
           <div className='crud-form--form__row'>
-            <label htmlFor='condition'>Condition</label>
+            <label htmlFor='condition'>Acc Type</label>
             <Dropdown
               value={accForm?.type}
               options={accessoryTypeArr}

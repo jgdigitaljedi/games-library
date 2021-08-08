@@ -113,7 +113,14 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       newData = filters.filterEsrb([...newData], dc.esrb);
     }
     if (dc.physical) {
-      newData = _cloneDeep(newData).filter(g => g.physical);
+      console.log('newData', newData);
+      // newData = _cloneDeep(newData).filter(g => g.physical);
+      newData = _cloneDeep(newData).filter(g => {
+        if (g.consoleArr?.length) {
+          return g.consoleArr.filter((p: any) => p.physical).length > 0;
+        }
+        return g.physical;
+      });
     }
     if (dc.location) {
       newData = filters.filterLocation([...newData], dc.location);

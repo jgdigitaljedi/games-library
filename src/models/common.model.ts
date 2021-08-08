@@ -102,7 +102,7 @@ export interface IStats {
   gamesAddedInMonth: IDateRelated[];
   gamesAddedPerYear: IDateRelated[];
   igdbRatingsBreakdown: ICatVal;
-  // consolesByCompany: IIndexedWithNum;
+  platformCompanies: IIndexedWithNum;
   consolesByGenerationSorted: IIndexedWithNum;
   gamesByDecade: IIndexedWithNum;
   totalGames: number;

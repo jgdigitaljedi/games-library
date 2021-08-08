@@ -20,7 +20,7 @@ interface IProps {
   totalClones: number;
   cibGames: number;
   physicalVsDigitalGames: INumIndex;
-  // consolesByCompany: INumIndex;
+  platformCompanies: INumIndex;
   gamesAddedPerYear: IDateRelated[];
 }
 
@@ -37,7 +37,7 @@ const HomeTopTables: FunctionComponent<IProps> = ({
   totalClones,
   gamesByDecade,
   consolesByGenerationSorted,
-  // consolesByCompany,
+  platformCompanies,
   gamesAddedPerYear
 }) => {
   return (
@@ -117,23 +117,23 @@ const HomeTopTables: FunctionComponent<IProps> = ({
           </tbody>
         </table>
       </div>
-      {/* <div>
-        <h3>Consoles per Manufacturer</h3>
-        <table className="totals">
+      <div>
+        <h3>Platforms by Company</h3>
+        <table className='totals'>
           <thead>
             <th>Company</th>
             <th>Quantity</th>
           </thead>
           <tbody>
-            {Object.keys(consolesByCompany).map((company) => (
+            {Object.keys(platformCompanies).map(company => (
               <tr>
                 <td>{company}</td>
-                <td>{(consolesByCompany as INumIndex)[company]}</td>
+                <td>{(platformCompanies as INumIndex)[company]}</td>
               </tr>
             ))}
           </tbody>
         </table>
-      </div> */}
+      </div>
       <div>
         <h3>Games Added per Year</h3>
         <table className='totals'>

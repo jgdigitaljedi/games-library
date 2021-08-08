@@ -18,6 +18,7 @@ let genres = {},
     digital: 0
   },
   cibGames = 0,
+  platformCompanies = {},
   howAcquiredGames = {},
   gamesBoughtByMonth = {},
   igdbRatingsBreakdown = [
@@ -45,6 +46,7 @@ function resetAll() {
     digital: 0
   };
   cibGames = 0;
+  platformCompanies = {};
   howAcquiredGames = {};
   gamesBoughtByMonth = {};
   igdbRatingsBreakdown = [
@@ -74,15 +76,17 @@ function handleConsoleByGeneration(con) {
   }
 }
 
-// function handleConsoleByCompany(con) {
-//   if (con && con.gb && con.gb.company && consolesByCompany.hasOwnProperty(con.gb.company)) {
-//     consolesByCompany[con.gb.company]++;
-//   } else if (con && con.gb && con.gb.company) {
-//     consolesByCompany[con.gb.company] = 1;
-//   } else {
-//     consolesByCompany.UNKNOWN++;
-//   }
-// }
+function handleConsoleByCompany(con) {
+  if (con && con.company && platformCompanies[con.company]) {
+    platformCompanies[con.company]++;
+  } else if (con && con.company) {
+    platformCompanies[con.company] = 1;
+  } else if (platformCompanies.UNKNOWN) {
+    platformCompanies.UNKNOWN++;
+  } else {
+    platformCompanies.UNKNOWN = 1;
+  }
+}
 
 function handleIgdbRating(game) {
   const rating = game && game.hasOwnProperty('total_rating') ? game.total_rating : null;
@@ -276,7 +280,7 @@ module.exports.getStats = () => {
   });
 
   platforms.forEach(platform => {
-    // handleConsoleByCompany(platform);
+    handleConsoleByCompany(platform);
     handleConsoleByGeneration(platform);
   });
 
@@ -330,7 +334,7 @@ module.exports.getStats = () => {
     gamesAddedInMonth: mostGamesInMonth,
     gamesAddedPerYear: gamesInYearSorted,
     igdbRatingsBreakdown,
-    // consolesByCompany,
+    platformCompanies,
     consolesByGenerationSorted: consolesByGenSorted,
     totalGames: gamesCount,
     totalPlatforms: platformsCount,

@@ -74,7 +74,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           consolesByGenerationSorted={data.consolesByGenerationSorted}
           physicalVsDigitalGames={data.physicalVsDigitalGames}
           gamesByDecade={data.gamesByDecade}
-          // consolesByCompany={data.consolesByCompany}
+          platformCompanies={data.platformCompanies}
           gamesAddedPerYear={data.gamesAddedPerYear}
         />
       )}

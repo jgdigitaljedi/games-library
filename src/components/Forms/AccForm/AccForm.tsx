@@ -8,10 +8,9 @@ import React, { FunctionComponent, useCallback, useEffect, useState } from 'reac
 import { connect } from 'react-redux';
 import changePlatformsArr from '../../../actionCreators/platformsArr';
 import { IDropdown } from '@/models/common.model';
-import { IAccessory } from '@/models/accessories.model';
+import { IAcc } from '@/models/accessories.model';
 import { accessoryTypeArr } from '@/constants';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
-import helpersService from '../../../services/helpers.service';
 import { Dispatch as ReduxDispatch } from 'redux';
 
 interface MapStateProps {
@@ -23,7 +22,7 @@ interface MapDispatchProps {
 }
 
 interface IProps extends MapDispatchProps, MapStateProps {
-  acc: IAccessory;
+  acc: IAcc;
   closeDialog: Function;
   closeConfirmation: () => void;
 }
@@ -34,9 +33,10 @@ const AccForm: FunctionComponent<IProps> = ({
   platformsArr,
   closeConfirmation
 }) => {
-  const [accForm, setAccForm] = useState<IAccessory>();
+  const [accForm, setAccForm] = useState<IAcc>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
+  const yearRange = `2000:${new Date().getFullYear()}`;
 
   const userChange = (e: any) => {
     closeConfirmation();
@@ -58,9 +58,9 @@ const AccForm: FunctionComponent<IProps> = ({
     if (acc && (acc.name === '' || acc.name === 'Add Game')) {
       setAddMode(true);
     }
-    setAccForm(acc as IAccessory);
+    setAccForm(acc as IAcc);
     if (acc?.purchaseDate) {
-      (acc as IAccessory).newPurchaseDate = helpersService.getTodayYMD(acc.purchaseDate);
+      (acc as IAcc).newPurchaseDate = new Date(acc.purchaseDate);
     }
   }, [acc, setAddMode]);
 
@@ -96,23 +96,23 @@ const AccForm: FunctionComponent<IProps> = ({
             />
           </div>
           <div className='crud-form--form__row'>
-            <label htmlFor='condition'>Acc Type</label>
+            <label htmlFor='type'>Acc Type</label>
             <Dropdown
               value={accForm?.type}
               options={accessoryTypeArr}
-              onChange={e => handleDropdown(e, 'condition')}
-              attr-which='condition'
-              id='condition'
+              onChange={e => handleDropdown(e, 'type')}
+              attr-which='type'
+              id='type'
             />
           </div>
           <div className='crud-form--form__row'>
-            <label htmlFor='forConsoleName'>For Console</label>
+            <label htmlFor='consoleName'>For Console</label>
             <Dropdown
-              value={accForm?.forConsoleName}
+              value={accForm?.associatedConsole?.consoleName}
               options={platformsArr}
-              onChange={e => handleDropdown(e, 'forConsoleName')}
-              attr-which='forConsoleName'
-              id='forConsoleName'
+              onChange={e => handleDropdown(e, 'associatedConsole.consoleName')}
+              attr-which='associatedConsole.consoleName'
+              id='consoleName'
             />
           </div>
           <div className='crud-form--form__row'>
@@ -138,7 +138,7 @@ const AccForm: FunctionComponent<IProps> = ({
             <label htmlFor='pricePaid'>Price Paid</label>
             <InputText
               id='pricePaid'
-              value={accForm?.pricePaid}
+              value={accForm?.pricePaid || 0}
               onChange={userChange}
               attr-which='pricePaid'
               type='number'
@@ -152,6 +152,9 @@ const AccForm: FunctionComponent<IProps> = ({
               value={accForm?.newPurchaseDate}
               onChange={userChange}
               attr-which='newPurchaseDate'
+              monthNavigator
+              yearNavigator
+              yearRange={yearRange}
             />
           </div>
           <div className='crud-form--form__row'>
@@ -162,6 +165,14 @@ const AccForm: FunctionComponent<IProps> = ({
               onChange={userChange}
               attr-which='howAcquired'
             />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='box'>Box?</label>
+            <InputSwitch id='box' checked={!!accForm?.box} onChange={userChange} attr-which='box' />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='cib'>CIB?</label>
+            <InputSwitch id='cib' checked={!!accForm?.cib} onChange={userChange} attr-which='cib' />
           </div>
           <div className='crud-form--form__row'>
             <label htmlFor='notes'>Notes</label>

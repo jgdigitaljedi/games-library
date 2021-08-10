@@ -46,8 +46,10 @@ const HomeTopTables: FunctionComponent<IProps> = ({
         <h3>Totals</h3>
         <table className='totals'>
           <thead>
-            <th>Category</th>
-            <th>Quantity</th>
+            <tr>
+              <th>Category</th>
+              <th>Quantity</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -85,12 +87,14 @@ const HomeTopTables: FunctionComponent<IProps> = ({
         <h3>Games per Decade</h3>
         <table className='totals'>
           <thead>
-            <th>Decade</th>
-            <th>Quantity</th>
+            <tr>
+              <th>Decade</th>
+              <th>Quantity</th>
+            </tr>
           </thead>
           <tbody>
-            {Object.keys(gamesByDecade).map(decade => (
-              <tr>
+            {Object.keys(gamesByDecade).map((decade, index) => (
+              <tr key={`decade-row-${index}`}>
                 <td>{`${decade}'s`}</td>
                 <td>{gamesByDecade[decade]}</td>
               </tr>
@@ -102,12 +106,14 @@ const HomeTopTables: FunctionComponent<IProps> = ({
         <h3>Consoles by Generation</h3>
         <table className='totals'>
           <thead>
-            <th>Generation</th>
-            <th>Quantity</th>
+            <tr>
+              <th>Generation</th>
+              <th>Quantity</th>
+            </tr>
           </thead>
           <tbody>
-            {Object.keys(consolesByGenerationSorted).map(gen => (
-              <tr>
+            {Object.keys(consolesByGenerationSorted).map((gen, index) => (
+              <tr key={`gen-row-${index}`}>
                 <td>{`${(consoleGenerationNames as IStringIndex)[gen]} (${
                   (consoleGenerationYears as IStringIndex)[gen]
                 })`}</td>
@@ -121,12 +127,14 @@ const HomeTopTables: FunctionComponent<IProps> = ({
         <h3>Platforms by Company</h3>
         <table className='totals'>
           <thead>
-            <th>Company</th>
-            <th>Quantity</th>
+            <tr>
+              <th>Company</th>
+              <th>Quantity</th>
+            </tr>
           </thead>
           <tbody>
-            {Object.keys(platformCompanies).map(company => (
-              <tr>
+            {Object.keys(platformCompanies).map((company, index) => (
+              <tr key={`company-row-${index}`}>
                 <td>{company}</td>
                 <td>{(platformCompanies as INumIndex)[company]}</td>
               </tr>
@@ -138,12 +146,14 @@ const HomeTopTables: FunctionComponent<IProps> = ({
         <h3>Games Added per Year</h3>
         <table className='totals'>
           <thead>
-            <th>Year</th>
-            <th>Games Added</th>
+            <tr>
+              <th>Year</th>
+              <th>Games Added</th>
+            </tr>
           </thead>
           <tbody>
-            {gamesAddedPerYear.map(year => (
-              <tr>
+            {gamesAddedPerYear.map((year, index) => (
+              <tr key={`year-row-${index}`}>
                 <td>{year.dateFormatted}</td>
                 <td>{year.games}</td>
               </tr>

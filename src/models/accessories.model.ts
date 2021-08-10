@@ -1,3 +1,5 @@
+import { ItemCondition } from './common.model';
+
 export interface IAccessory {
   name: string;
   company: string;
@@ -17,4 +19,28 @@ export interface IAccessory {
   updatedAt: string;
   newPurchaseDate?: Date;
   _id: string;
+}
+
+export interface IAcc {
+  name: string;
+  associatedConsole: {
+    consoleName: string;
+    consoleId: number | null;
+  };
+  image: string;
+  company: string;
+  officialLicensed: boolean;
+  quantity: number;
+  type: string;
+  notes: string;
+  pricePaid: number | null;
+  purchaseDate: string;
+  newPurchaseDate?: Date;
+  howAcquired: string;
+  condition: ItemCondition;
+  box: boolean;
+  cib: boolean;
+  createdAt: string;
+  updatedAt: string;
+  _id?: string;
 }

@@ -3,6 +3,7 @@ import { IGame } from './games.model';
 import { IConsole } from './platforms.model';
 
 export type Severity = 'success' | 'info' | 'error' | 'warn' | '';
+export type ItemCondition = 'Excellent' | 'Good' | 'Fair' | 'Poor' | 'Not Working';
 
 export interface INotification {
   severity: Severity;

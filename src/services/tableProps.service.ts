@@ -41,12 +41,16 @@ export default function (view: string) {
         { field: 'image', header: 'Image' },
         { field: 'name', header: 'Name', sortable: true },
         { field: 'company', header: 'Company', sortable: true },
-        { field: 'forConsoleName', header: 'Console', sortable: true },
+        { field: 'associatedConsole.consoleName', header: 'Console', sortable: true },
         { field: 'type', header: 'Type', sortable: true },
+        { field: 'condition', header: 'Condition', sortable: true },
         { field: 'quantity', header: 'quantity' },
         { field: 'purchaseDate', header: 'Purchase Date', sortable: true },
         { field: 'pricePaid', header: 'Purchase Price' },
-        { field: 'howAcquired', header: 'How Acquired', sortable: true }
+        { field: 'howAcquired', header: 'How Acquired', sortable: true },
+        { field: 'cib', header: 'CIB', sortable: true },
+        { field: 'mods', header: 'Mods', sortable: false },
+        { field: 'notes', header: 'Notes', sortable: false }
       ];
       break;
     case 'clones':

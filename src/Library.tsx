@@ -22,9 +22,9 @@ import HardwareForm from './components/Forms/HardwareForm/HardwareForm';
 import CloneForm from './components/Forms/CloneForm/CloneForm';
 import { getPlatformArr } from './services/globalData.service';
 import { NotificationContext } from './context/NotificationContext';
-import {cleanupGames} from "./services/dataMassaging.service";
-import axios from "axios";
-import {deleteGame} from "./services/gamesCrud.service";
+import { cleanupGames } from './services/dataMassaging.service';
+import axios from 'axios';
+import { deleteGame } from './services/gamesCrud.service';
 
 interface IInputOptions {
   label: string;
@@ -79,7 +79,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   ];
 
   const getSingular = useCallback(() => {
-    return viewChoices.filter((v) => v.value === view)[0]?.singular;
+    return viewChoices.filter(v => v.value === view)[0]?.singular;
   }, [view, viewChoices]);
 
   const openFormDialog = useCallback(
@@ -100,7 +100,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   }, [openFormDialog, getSingular, view]);
 
   const rowClicked = useCallback(
-    (clicked) => {
+    clicked => {
       const selected = { ...clicked, ...{ name: clicked?.igdb?.name || clicked?.name } };
       setSelectedItem(selected);
       openFormDialog(clicked);
@@ -115,7 +115,9 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       if (name && success) {
         setNotify({
           severity: 'success',
-          detail: `Successfully ${action} ${name} ${action?.toLowerCase() === 'removed' ? 'from' : 'to'} your collection!`,
+          detail: `Successfully ${action} ${name} ${
+            action?.toLowerCase() === 'removed' ? 'from' : 'to'
+          } your collection!`,
           summary: `${name} Saved`
         });
         // const masterCopy = _cloneDeep(masterData);
@@ -188,23 +190,23 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const deleteItem = async () => {
     if (viewWhat === 'games') {
       deleteGame(selectedItem)
-          .then(result => {
-              // @ts-ignore
-              if (result.status === 200) {
-                closeConfirmation();
-                closeDialog(selectedItem.name, true, 'removed');
-                getData();
-              }
-          })
-          .catch(error => {
-            console.log('delete game error', error);
+        .then(result => {
+          // @ts-ignore
+          if (result.status === 200) {
             closeConfirmation();
-            setNotify({
-              severity: 'error',
-              detail: 'Failed to delete game from collection!',
-              summary: 'ERROR'
-            });
+            closeDialog(selectedItem.name, true, 'removed');
+            getData();
+          }
+        })
+        .catch(error => {
+          console.log('delete game error', error);
+          closeConfirmation();
+          setNotify({
+            severity: 'error',
+            detail: 'Failed to delete game from collection!',
+            summary: 'ERROR'
           });
+        });
     }
   };
 
@@ -229,11 +231,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   }, [props, platformsArr, setNotify, isLoggedIn]);
 
   return (
-    <div className="library">
-      <div className="button-container">
+    <div className='library'>
+      <div className='button-container'>
         <SelectButton
           value={props.viewWhat}
-          onChange={(e) =>
+          onChange={e =>
             props.setViewWhat
               ? e.value
                 ? props.setViewWhat(e.value)
@@ -243,20 +245,20 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           options={viewChoices}
         />
       </div>
-      <div className="filter-add">
-        <div className="items-count">
+      <div className='filter-add'>
+        <div className='items-count'>
           {filteredData.length} {viewWhat}
         </div>
         <FilterGroup />
         <Button
-          icon="pi pi-plus"
+          icon='pi pi-plus'
           label={`Add ${getSingular()}`}
-          className="p-button-raised p-button-rounded"
+          className='p-button-raised p-button-rounded'
           onClick={addSomething}
           disabled={!isLoggedIn}
         />
       </div>
-      <DatTable data={filteredData} rowClicked={rowClicked}/>
+      <DatTable data={filteredData} rowClicked={rowClicked} />
       <Dialog
         visible={showModal}
         header={selectedItem?.name}
@@ -268,7 +270,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           setShowModal(false);
         }}
       >
-        <div className={`crud-form-outer-wrapper form-dialog--header${showDeleteConfirmation ? ' confirmation' : ''}`}>
+        <div
+          className={`crud-form-outer-wrapper form-dialog--header${
+            showDeleteConfirmation ? ' confirmation' : ''
+          }`}
+        >
           {selectedItem &&
             selectedItem.name &&
             selectedItem.name !== 'Add Game' &&
@@ -276,36 +282,76 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
             !showDeleteConfirmation && (
               <Button
                 label={`Remove ${selectedItem?.name} from collection`}
-                icon="pi pi-trash"
-                className="p-button-danger"
-                onClick={() => setShowDeleteConfirmation((true))}
+                icon='pi pi-trash'
+                className='p-button-danger'
+                onClick={() => setShowDeleteConfirmation(true)}
                 disabled={!isLoggedIn}
               />
             )}
           {selectedItem && showDeleteConfirmation && (
-              <div className="deletion-confirmation">
-                <div className="deletion-confirmation--question">Are you sure you want to remove <div className="item-name">{selectedItem.name}</div> from your collection?</div>&nbsp;
-                <Button
-                    icon="pi pi-check"
-                    label="Yes"
-                    className="p-button-primary"
-                    onClick={deleteItem}/>
-                <Button
-                    icon="pi pi-times"
-                    label="No"
-                    className="p-button-info"
-                    onClick={closeConfirmation}/>
+            <div className='deletion-confirmation'>
+              <div className='deletion-confirmation--question'>
+                Are you sure you want to remove <div className='item-name'>{selectedItem.name}</div>{' '}
+                from your collection?
               </div>
+              &nbsp;
+              <Button
+                icon='pi pi-check'
+                label='Yes'
+                className='p-button-primary'
+                onClick={deleteItem}
+              />
+              <Button
+                icon='pi pi-times'
+                label='No'
+                className='p-button-info'
+                onClick={closeConfirmation}
+              />
+            </div>
           )}
         </div>
-        {view === 'games' && <GameForm game={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
-        {view === 'consoles' && <PlatformForm platform={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
-        {view === 'accessories' && <AccForm acc={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
-        {view === 'collectibles' && (
-          <CollForm collectible={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />
+        {view === 'games' && (
+          <GameForm
+            game={selectedItem}
+            closeDialog={closeDialog}
+            closeConfirmation={closeConfirmation}
+          />
         )}
-        {view === 'hardware' && <HardwareForm hardware={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
-        {view === 'clones' && <CloneForm clone={selectedItem} closeDialog={closeDialog} closeConfirmation={closeConfirmation} />}
+        {view === 'consoles' && (
+          <PlatformForm
+            platform={selectedItem}
+            closeDialog={closeDialog}
+            closeConfirmation={closeConfirmation}
+          />
+        )}
+        {view === 'accessories' && (
+          <AccForm
+            acc={selectedItem}
+            closeDialog={closeDialog}
+            closeConfirmation={closeConfirmation}
+          />
+        )}
+        {view === 'collectibles' && (
+          <CollForm
+            collectible={selectedItem}
+            closeDialog={closeDialog}
+            closeConfirmation={closeConfirmation}
+          />
+        )}
+        {view === 'hardware' && (
+          <HardwareForm
+            hardware={selectedItem}
+            closeDialog={closeDialog}
+            closeConfirmation={closeConfirmation}
+          />
+        )}
+        {view === 'clones' && (
+          <CloneForm
+            clone={selectedItem}
+            closeDialog={closeDialog}
+            closeConfirmation={closeConfirmation}
+          />
+        )}
       </Dialog>
     </div>
   );
@@ -316,7 +362,7 @@ const mapStateToProps = ({
   masterData,
   filteredData,
   platformsArr,
-    userState
+  userState
 }: {
   viewWhat: string;
   masterData: object[];

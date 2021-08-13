@@ -1,7 +1,7 @@
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/luna-blue/theme.css';
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './store';
@@ -17,6 +17,8 @@ import UrlService from './services/url.service';
 import GalleryComponent from './Gallery';
 import { NotificationContextProvider } from './context/NotificationContext';
 import NotificationWrapper from './NotificationWrapper';
+import ItemsContext, { IItems } from './context/ItemsContext';
+import { getItems } from './services/generalCrud.service';
 
 declare global {
   interface Window {
@@ -27,6 +29,7 @@ declare global {
 window.urlPrefix = UrlService.prefix;
 
 function App(): JSX.Element {
+  const [items, setItems] = useState({ platformsWithId: [] });
   useEffect(() => {
     const search = window.location.search;
     if (search) {
@@ -34,25 +37,37 @@ function App(): JSX.Element {
     }
   }, []);
 
+  useEffect(() => {
+    async function fetchItems() {
+      const result = await getItems();
+      console.log('items in APP', result.data);
+      setItems(result.data);
+    }
+    fetchItems();
+  }, []);
+
   return (
     <React.StrictMode>
       <Provider store={store}>
-        <div className="App">
+        <div className='App'>
           <CombinedContextProvider>
             <></>
-            <NotificationContextProvider>
-              <Navbar />
-              <NotificationWrapper>
-                <Router>
-                  <Home default path="/gameslib" />
-                  <Decider path="/gameslib/decider" />
-                  <Library path="/gameslib/library" />
-                  <Lists path="/gameslib/lists" />
-                  <Viz path={`/gameslib/viz`} />
-                  <GalleryComponent path={`/gameslib/gallery`} />
-                </Router>
-              </NotificationWrapper>
-            </NotificationContextProvider>
+            <ItemsContext.Provider value={items}>
+              <></>
+              <NotificationContextProvider>
+                <Navbar />
+                <NotificationWrapper>
+                  <Router>
+                    <Home default path='/gameslib' />
+                    <Decider path='/gameslib/decider' />
+                    <Library path='/gameslib/library' />
+                    <Lists path='/gameslib/lists' />
+                    <Viz path={`/gameslib/viz`} />
+                    <GalleryComponent path={`/gameslib/gallery`} />
+                  </Router>
+                </NotificationWrapper>
+              </NotificationContextProvider>
+            </ItemsContext.Provider>
           </CombinedContextProvider>
         </div>
       </Provider>

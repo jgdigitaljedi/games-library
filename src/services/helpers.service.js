@@ -78,6 +78,29 @@ export default {
       }
     };
   },
+  resetAccForm: () => {
+    return {
+      name: '',
+      associatedConsole: {
+        consoleName: '',
+        consoleId: null
+      },
+      image: '',
+      company: '',
+      officialLicensed: false,
+      quantity: 0,
+      type: '',
+      notes: '',
+      pricePaid: null,
+      purchaseDate: '',
+      howAcquired: '',
+      condition: '',
+      box: false,
+      cib: false,
+      createdAt: '',
+      updatedAt: ''
+    };
+  },
   physicalDigitalBc: game => {
     const which = game.physicalDigital;
     const everDrive = which.indexOf('EverDrive') >= 0;

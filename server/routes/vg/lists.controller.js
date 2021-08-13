@@ -1,3 +1,4 @@
+const _sortBy = require('lodash/sortBy');
 const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
 function makeList(which, games) {
@@ -70,7 +71,7 @@ module.exports.getList = function (req, res) {
               theList = [];
               break;
           }
-          res.json(theList);
+          res.json(_sortBy(theList, 'consoleName'));
         })
         .catch(error => {
           res.status(503).send(error);

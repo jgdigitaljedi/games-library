@@ -4,39 +4,39 @@ import { Dropdown } from 'primereact/dropdown';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
-import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
-import { connect } from 'react-redux';
-import changePlatformsArr from '../../../actionCreators/platformsArr';
+import React, {
+  FunctionComponent,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState
+} from 'react';
 import { IDropdown } from '@/models/common.model';
 import { IAcc } from '@/models/accessories.model';
 import { accessoryTypeArr } from '@/constants';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
-import { Dispatch as ReduxDispatch } from 'redux';
+import ItemsContext, { IPlatformsWithId } from '@/context/ItemsContext';
+import HelpersService from '../../../services/helpers.service';
 
-interface MapStateProps {
-  platformsArr: IDropdown[];
-}
-
-interface MapDispatchProps {
-  setPlatformsArr: (platformsArr: IDropdown[]) => void;
-}
-
-interface IProps extends MapDispatchProps, MapStateProps {
+interface IProps {
   acc: IAcc;
   closeDialog: Function;
   closeConfirmation: () => void;
 }
 
-const AccForm: FunctionComponent<IProps> = ({
-  acc,
-  closeDialog,
-  platformsArr,
-  closeConfirmation
-}) => {
+const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmation }) => {
+  const IContext = useContext(ItemsContext);
   const [accForm, setAccForm] = useState<IAcc>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
   const yearRange = `2000:${new Date().getFullYear()}`;
+
+  const platformsWithId = useMemo(() => {
+    return IContext.platformsWithId.map((platform: IPlatformsWithId) => {
+      return { consoleId: platform.id, consoleName: platform.name };
+    });
+  }, [IContext.platformsWithId]);
 
   const userChange = (e: any) => {
     closeConfirmation();
@@ -45,6 +45,7 @@ const AccForm: FunctionComponent<IProps> = ({
       setAccForm(newState);
     }
   };
+  console.log('accForm', accForm);
 
   const handleDropdown = useCallback(
     (e: any, which: string) => {
@@ -55,7 +56,7 @@ const AccForm: FunctionComponent<IProps> = ({
   );
 
   useEffect(() => {
-    if (acc && (acc.name === '' || acc.name === 'Add Game')) {
+    if (acc && acc.name === '') {
       setAddMode(true);
     }
     setAccForm(acc as IAcc);
@@ -72,8 +73,13 @@ const AccForm: FunctionComponent<IProps> = ({
     closeDialog(accForm?.name);
   }, [accForm, closeConfirmation, closeDialog]);
 
+  const resetAccForm = useCallback(() => {
+    // @ts-ignore
+    setAccForm(HelpersService.resetAccForm());
+  }, [setAccForm]);
+
   const cancelClicked = () => {
-    // resetGameForm();
+    resetAccForm();
     closeConfirmation();
     closeDialog(null);
   };
@@ -87,13 +93,17 @@ const AccForm: FunctionComponent<IProps> = ({
             <InputText id='name' value={accForm?.name} onChange={userChange} attr-which='name' />
           </div>
           <div className='crud-form--form__row'>
-            <label htmlFor='compnay'>Company</label>
+            <label htmlFor='company'>Company</label>
             <InputText
               id='company'
               value={accForm?.company}
               onChange={userChange}
               attr-which='company'
             />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='image'>Image</label>
+            <InputText id='image' value={accForm?.image} onChange={userChange} attr-which='image' />
           </div>
           <div className='crud-form--form__row'>
             <label htmlFor='type'>Acc Type</label>
@@ -108,9 +118,10 @@ const AccForm: FunctionComponent<IProps> = ({
           <div className='crud-form--form__row'>
             <label htmlFor='consoleName'>For Console</label>
             <Dropdown
-              value={accForm?.associatedConsole?.consoleName}
-              options={platformsArr}
-              onChange={e => handleDropdown(e, 'associatedConsole.consoleName')}
+              value={accForm?.associatedConsole}
+              optionLabel='consoleName'
+              options={platformsWithId}
+              onChange={e => handleDropdown(e, 'associatedConsole')}
               attr-which='associatedConsole.consoleName'
               id='consoleName'
             />
@@ -218,14 +229,4 @@ const AccForm: FunctionComponent<IProps> = ({
   );
 };
 
-const mapStateToProps = ({ platformsArr }: { platformsArr: IDropdown[] }): MapStateProps => {
-  return {
-    platformsArr
-  };
-};
-
-const mapDispatchToProps = (dispatch: ReduxDispatch): MapDispatchProps => ({
-  setPlatformsArr: (platformsArr: IDropdown[]) => dispatch(changePlatformsArr(platformsArr))
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(AccForm);
+export default AccForm;

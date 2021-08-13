@@ -11,6 +11,7 @@ const listsCtrl = require('./lists.controller');
 const utilsCtrl = require('./vgUtil.controller');
 const gallery = require('./gallery.controller.js');
 const auth = require('./auth.controller');
+const itemsCtrl = require('./itemsCtrl.controller');
 
 // insecure auth
 router.post('/auth', auth.login);
@@ -31,6 +32,9 @@ router.post('/dataviz', dataCtrl.dataVizData);
 
 // Lists
 router.post('/lists', listsCtrl.getList);
+
+// Items context
+router.get('/items', itemsCtrl.getItems);
 
 // eBay price search
 router.post('/ebay', ebayCtrl.getEbayPrices);

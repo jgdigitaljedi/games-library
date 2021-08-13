@@ -32,7 +32,15 @@
       "date": "10/18/1985",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "NES",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo NES Console",
+      "status": "Loose",
+      "myValue": "50.8"
+    }
   },
   {
     "id": 19,
@@ -67,7 +75,15 @@
       "date": "08/23/1991",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "SNES",
+      "type": "System",
+      "quantity": "1",
+      "title": "Super Nintendo System",
+      "status": "Loose",
+      "myValue": "59.69"
+    }
   },
   {
     "id": 21,
@@ -102,7 +118,15 @@
       "date": "11/18/2001",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "GameCube",
+      "type": "System",
+      "quantity": "1",
+      "title": "Black GameCube System",
+      "status": "Loose",
+      "myValue": "55"
+    }
   },
   {
     "id": 21,
@@ -137,7 +161,15 @@
       "date": "11/18/2001",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "GameCube",
+      "type": "System",
+      "quantity": "1",
+      "title": "Indigo GameCube System",
+      "status": "Loose",
+      "myValue": "49.14"
+    }
   },
   {
     "id": 130,
@@ -172,7 +204,15 @@
       "date": "03/03/2017",
       "region": "Worldwide"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "Switch",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo Switch with Blue and Red Joy-con",
+      "status": "CIB",
+      "myValue": "296.05"
+    }
   },
   {
     "id": 5,
@@ -207,7 +247,15 @@
       "date": "11/19/2006",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "Wii",
+      "type": "System",
+      "quantity": "1",
+      "title": "Black Nintendo Wii System",
+      "status": "Loose",
+      "myValue": "63.95"
+    }
   },
   {
     "id": 37,
@@ -242,7 +290,15 @@
       "date": "03/01/2011",
       "region": "Wordlwide"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "3DS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo 3DS XL Black",
+      "status": "Loose",
+      "myValue": "199.35"
+    }
   },
   {
     "id": 24,
@@ -277,7 +333,15 @@
       "date": "03/23/2003",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "GBA",
+      "type": "System",
+      "quantity": "1",
+      "title": "Cobalt Gameboy Advance SP",
+      "status": "Loose",
+      "myValue": "75.75"
+    }
   },
   {
     "id": 23,
@@ -311,7 +375,15 @@
       "date": "09/09/1999",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "Dreamcast",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Dreamcast Console",
+      "status": "Loose",
+      "myValue": "112.43"
+    }
   },
   {
     "id": 49,
@@ -346,7 +418,15 @@
       "date": "11/22/2013",
       "region": "Worldwide"
     },
-    "company": "Microsoft"
+    "company": "Microsoft",
+    "gameEye": {
+      "platform": "Xbox One",
+      "type": "System",
+      "quantity": "1",
+      "title": "Xbox One 500 GB Black Console",
+      "status": "Loose",
+      "myValue": "202.5"
+    }
   },
   {
     "id": 8,
@@ -381,7 +461,15 @@
       "date": "10/26/2000",
       "region": "North America"
     },
-    "company": "Sony"
+    "company": "Sony",
+    "gameEye": {
+      "platform": "PS2",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation 2 System",
+      "status": "Loose",
+      "myValue": "60.36"
+    }
   },
   {
     "id": 9,
@@ -415,7 +503,15 @@
       "date": "03/16/2006",
       "region": "Europe"
     },
-    "company": "Sony"
+    "company": "Sony",
+    "gameEye": {
+      "platform": "PS3",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation 3 System 80GB",
+      "status": "Loose",
+      "myValue": "57.45"
+    }
   },
   {
     "id": 48,
@@ -450,7 +546,15 @@
       "date": "11/10/2016",
       "region": "Worldwide"
     },
-    "company": "Sony"
+    "company": "Sony",
+    "gameEye": {
+      "platform": "PS4",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation 4 Pro 1TB Console",
+      "status": "CIB",
+      "myValue": "345"
+    }
   },
   {
     "id": 38,
@@ -485,7 +589,15 @@
       "date": "03/24/2005",
       "region": "North America"
     },
-    "company": "Sony"
+    "company": "Sony",
+    "gameEye": {
+      "platform": "PSP",
+      "type": "System",
+      "quantity": "1",
+      "title": "PSP 1001K Console Black",
+      "status": "Loose",
+      "myValue": "60.14"
+    }
   },
   {
     "id": 20,
@@ -501,7 +613,7 @@
     "box": false,
     "manual": false,
     "mods": "",
-    "notes": "DS Lite; Red Crimson & Black Nintendo DS Lite",
+    "notes": "Red Crimson & Black Nintendo DS Lite",
     "datePurchased": "01/13/2019",
     "pricePaid": 30,
     "ghostConsole": false,
@@ -520,7 +632,15 @@
       "date": "06/11/2006",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "NDS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Red Crimson & Black Nintendo DS Lite",
+      "status": "Loose",
+      "myValue": "40.69"
+    }
   },
   {
     "id": 22,
@@ -554,7 +674,15 @@
       "date": "11/18/1998",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "Game Boy Color",
+      "type": "System",
+      "quantity": "1",
+      "title": "Game Boy Color Berry",
+      "status": "Loose",
+      "myValue": "56"
+    }
   },
   {
     "id": 50,
@@ -588,7 +716,15 @@
       "date": "10/041993",
       "region": "North America"
     },
-    "company": "REAL"
+    "company": "REAL",
+    "gameEye": {
+      "platform": "3DO",
+      "type": "System",
+      "quantity": "1",
+      "title": "3DO Console",
+      "status": "CIB+",
+      "myValue": "252.11"
+    }
   },
   {
     "id": 35,
@@ -622,7 +758,15 @@
       "date": "04/26/1991",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "Game Gear",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Game Gear Handheld",
+      "status": "Loose",
+      "myValue": "69.99"
+    }
   },
   {
     "id": 86,
@@ -656,7 +800,15 @@
       "date": "08/29/1989",
       "region": "North America"
     },
-    "company": "NEC"
+    "company": "NEC",
+    "gameEye": {
+      "platform": "TG16",
+      "type": "System",
+      "quantity": "1",
+      "title": "TurboGrafx-16 System",
+      "status": "Loose",
+      "myValue": "202.5"
+    }
   },
   {
     "id": 64,
@@ -691,7 +843,15 @@
       "date": "09/01/1986",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "Master System",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Master System Console",
+      "status": "Loose",
+      "myValue": "130"
+    }
   },
   {
     "id": 4,
@@ -726,7 +886,15 @@
       "date": "09/29/1996",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "N64",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo 64 System",
+      "status": "Loose",
+      "myValue": "91.8"
+    }
   },
   {
     "id": 4,
@@ -761,7 +929,15 @@
       "date": "09/29/1996",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "N64",
+      "type": "System",
+      "quantity": "1",
+      "title": "Funtastic Ice Blue Nintendo 64 System",
+      "status": "Loose",
+      "myValue": "178.5"
+    }
   },
   {
     "id": 41,
@@ -795,7 +971,15 @@
       "date": "11/18/2012",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "Wii U",
+      "type": "System",
+      "quantity": "1",
+      "title": "Wii U Console Deluxe Black 32GB",
+      "status": "Loose",
+      "myValue": "161.75"
+    }
   },
   {
     "id": 30,
@@ -829,7 +1013,15 @@
       "date": "11/21/1994",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "32X",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega 32X Unit",
+      "status": "Loose",
+      "myValue": "119.98"
+    }
   },
   {
     "id": 32,
@@ -864,7 +1056,15 @@
       "date": "05/11/1995",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "Saturn",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Saturn Console",
+      "status": "Loose",
+      "myValue": "142.09"
+    }
   },
   {
     "id": 11,
@@ -898,7 +1098,15 @@
       "date": "11/15/2001",
       "region": "North America"
     },
-    "company": "Microsoft"
+    "company": "Microsoft",
+    "gameEye": {
+      "platform": "Xbox",
+      "type": "System",
+      "quantity": "1",
+      "title": "Xbox System",
+      "status": "Loose",
+      "myValue": "38.8"
+    }
   },
   {
     "id": 12,
@@ -933,7 +1141,15 @@
       "date": "06/10/2013",
       "region": "North America"
     },
-    "company": "Microsoft"
+    "company": "Microsoft",
+    "gameEye": {
+      "platform": "Xbox 360",
+      "type": "System",
+      "quantity": "1",
+      "title": "Xbox 360 E Console 4GB",
+      "status": "Loose",
+      "myValue": "75.56"
+    }
   },
   {
     "id": 7,
@@ -967,7 +1183,15 @@
       "date": "09/09/1995",
       "region": "North America"
     },
-    "company": "Sony"
+    "company": "Sony",
+    "gameEye": {
+      "platform": "PS1",
+      "type": "System",
+      "quantity": "1",
+      "title": "PlayStation System",
+      "status": "Loose",
+      "myValue": "24.1"
+    }
   },
   {
     "id": 8,
@@ -1002,7 +1226,15 @@
       "date": "10/29/2004",
       "region": "North America"
     },
-    "company": "Sony"
+    "company": "Sony",
+    "gameEye": {
+      "platform": "PS2",
+      "type": "System",
+      "quantity": "1",
+      "title": "Slim Playstation 2 System",
+      "status": "Loose",
+      "myValue": "68.12"
+    }
   },
   {
     "id": 33,
@@ -1036,7 +1268,8 @@
       "date": "07/31/1989",
       "region": "North America"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {}
   },
   {
     "id": 6,
@@ -1070,7 +1303,8 @@
       "date": "11/29/2015",
       "region": "Worldwide"
     },
-    "company": "Microsoft"
+    "company": "Microsoft",
+    "gameEye": {}
   },
   {
     "id": 37,
@@ -1105,7 +1339,15 @@
       "date": "03/01/2011",
       "region": "Worldwide"
     },
-    "company": "Nintendo"
+    "company": "Nintendo",
+    "gameEye": {
+      "platform": "3DS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo 3DS Black Zelda Limited Edition",
+      "status": "CIB+",
+      "myValue": "321.78"
+    }
   },
   {
     "id": 60,
@@ -1140,7 +1382,15 @@
       "date": "06/14/1984",
       "region": "North America"
     },
-    "company": "Atari"
+    "company": "Atari",
+    "gameEye": {
+      "platform": "Atari 7800",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari 7800 Console",
+      "status": "Loose",
+      "myValue": "75"
+    }
   },
   {
     "id": 66,
@@ -1175,7 +1425,15 @@
       "date": "05/24/1984",
       "region": "North America"
     },
-    "company": "Atari"
+    "company": "Atari",
+    "gameEye": {
+      "platform": "Atari 5200",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari 5200 System",
+      "status": "Loose",
+      "myValue": "110.89"
+    }
   },
   {
     "id": 29,
@@ -1210,7 +1468,15 @@
       "date": "08/14/1989",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "Genesis",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Genesis Model 2 Console",
+      "status": "Loose",
+      "myValue": "34.99"
+    }
   },
   {
     "id": 78,
@@ -1245,7 +1511,15 @@
       "date": "10/15/1992",
       "region": "North America"
     },
-    "company": "Sega"
+    "company": "Sega",
+    "gameEye": {
+      "platform": "Sega CD",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega CD Model 2 Console",
+      "status": "Loose+",
+      "myValue": "117.43"
+    }
   },
   {
     "id": 59,
@@ -1279,7 +1553,15 @@
       "date": "09/11/1977",
       "region": "North America"
     },
-    "company": "Atari"
+    "company": "Atari",
+    "gameEye": {
+      "platform": "Atari 2600",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari 2600 System",
+      "status": "Loose",
+      "myValue": "28.04"
+    }
   },
   {
     "name": "Atari Jaguar",
@@ -1323,7 +1605,15 @@
     "resolutions": "",
     "newDatePurchased": "2021-07-24T05:00:00.000Z",
     "_id": "7f25b44f15cf4f13a8be4a99e14cb752",
-    "company": "Atari"
+    "company": "Atari",
+    "gameEye": {
+      "platform": "Jaguar",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari Jaguar System",
+      "status": "CIB",
+      "myValue": "437.71"
+    }
   },
   {
     "name": "Intellivision",
@@ -1367,6 +1657,14 @@
     "resolutions": "",
     "newDatePurchased": "2021-07-24T05:00:00.000Z",
     "_id": "78ecde9320fb415da345b0be1685b6e1",
-    "company": "Mattel"
+    "company": "Mattel",
+    "gameEye": {
+      "platform": "Intellivision",
+      "type": "System",
+      "quantity": "1",
+      "title": "Intellivision System",
+      "status": "CIB",
+      "myValue": "108.25"
+    }
   }
 ]

@@ -3,6 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const chalk = require('chalk');
 const parse = require('csv-parse');
+
+const helpers = require('./gameyeHelpers.js');
 const games = require('../db/games.json');
 const platforms = require('../db/consoles.json');
 const clones = require('../db/clones.json');
@@ -78,11 +80,40 @@ function csvToJson(fileName) {
   });
 }
 
-function geToGameMatch(geGames) {
-  const combinedData = games.map(game => {});
-}
+function geToGameMatch(geGames) {}
 
-function geToPlatformMatch(gePlatforms) {}
+function geToPlatformMatch(gePlatforms) {
+  const matcherArr = gePlatforms
+    .map(gep => {
+      const matched = helpers.consoleMatch[gep.platform];
+      return {
+        ...gep,
+        consoleId: matched.consoleId,
+        consoleName: matched.consoleName,
+        isClone: matched.isClone
+      };
+    })
+    .filter(p => !p.isClone || p.title !== p.isClone);
+  return platforms.map(p => {
+    const pMatch = matcherArr.filter(pm => pm.consoleId === p.id);
+    if (pMatch?.length > 1) {
+      const pm = pMatch.filter(pp => p.notes.indexOf(pp.title) >= 0)[0];
+      delete pm.consoleId;
+      delete pm.consoleName;
+      delete pm.isClone;
+      return { ...p, gameEye: pm };
+    }
+    if (pMatch?.length === 1) {
+      const finalMatch = pMatch[0];
+      delete finalMatch.consoleId;
+      delete finalMatch.consoleName;
+      delete finalMatch.isClone;
+      return { ...p, gameEye: finalMatch };
+    } else {
+      return { ...p, gameEye: {} };
+    }
+  });
+}
 
 (async function () {
   const mostRecent = getLatestDump();
@@ -100,13 +131,39 @@ function geToPlatformMatch(gePlatforms) {}
       return;
     }
 
-    console.log(JSON.stringify(csvData, null, 2));
     try {
-      fs.writeFileSync(path.join(__dirname, 'csvToJson.json'), JSON.stringify(csvData, null, 2));
+      fs.writeFileSync(
+        path.join(__dirname, 'results/csvToJson.json'),
+        JSON.stringify(csvData, null, 2)
+      );
     } catch (error) {
       console.log(chalk.red.bold('ERROR WRITING JSON FILE FOR RAW RESULTS'));
       console.log(chalk.red(error));
-      return;
+      console.log(chalk.yellow.italic('Continuing anyway...'));
+      console.log(chalk.magenta('*********************'));
+    }
+
+    try {
+      const platformsMatched = geToPlatformMatch(csvData.platforms);
+      fs.writeFileSync(
+        path.join(__dirname, 'results/platforms.json'),
+        JSON.stringify(platformsMatched, null, 2)
+      );
+    } catch (error) {
+      console.log(chalk.red.bold('ERROR WRITING COMBINED PLATFORMS'));
+      console.log(chalk.red(error));
+      console.log(chalk.yellow.italic('Continuing anyway...'));
+      console.log(chalk.magenta('*********************'));
+    }
+
+    try {
+      const gamesMatched = geToGameMatch(csvData.games);
+      console.log('gamesMatched', gamesMatched);
+    } catch (error) {
+      console.log(chalk.red.bold('ERROR WRITING COMBINED GAMES'));
+      console.log(chalk.red(error));
+      console.log(chalk.yellow.italic('Continuing anyway...'));
+      console.log(chalk.magenta('*********************'));
     }
   }
 })();

@@ -13,7 +13,8 @@
     "everdrive": "node scripts/fixEverdrives.js",
     "combine:everdrives": "node server/extra/combineEverdrives.js",
     "migrateGames": "node libraryScripts/migrateToNewDataStructure/migrateGames.js",
-    "process:newGames": "node libraryScripts/addNewWhileUnderConstruction/addNew.js"
+    "process:newGames": "node libraryScripts/addNewWhileUnderConstruction/addNew.js",
+    "gameeye": "node server/gameEye/convertCsv.js"
   },
   "dependencies": {
     "@babel/core": "^7.14.2",
@@ -35,6 +36,7 @@
     "core-js": "^3.12.1",
     "cors": "^2.8.5",
     "css-loader": "3.4.2",
+    "csv-parse": "^4.16.0",
     "diskdb": "^0.1.17",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",

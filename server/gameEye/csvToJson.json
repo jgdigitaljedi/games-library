@@ -1,0 +1,7468 @@
+{
+  "platforms": [
+    {
+      "platform": "NDS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Red Crimson & Black Nintendo DS Lite",
+      "status": "Loose",
+      "myValue": "40.69"
+    },
+    {
+      "platform": "NDS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Metallic Rose Nintendo DS Lite",
+      "status": "Loose",
+      "myValue": "50.95"
+    },
+    {
+      "platform": "Saturn",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Saturn Console",
+      "status": "Loose",
+      "myValue": "142.09"
+    },
+    {
+      "platform": "Genesis",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Genesis Model 2 Console",
+      "status": "Loose",
+      "myValue": "34.99"
+    },
+    {
+      "platform": "Genesis",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Genesis Mini",
+      "status": "CIB",
+      "myValue": "61.82"
+    },
+    {
+      "platform": "Master System",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Master System Console",
+      "status": "Loose",
+      "myValue": "130"
+    },
+    {
+      "platform": "Game Gear",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Game Gear Handheld",
+      "status": "Loose",
+      "myValue": "69.99"
+    },
+    {
+      "platform": "PS3",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation 3 System 80GB",
+      "status": "Loose",
+      "myValue": "57.45"
+    },
+    {
+      "platform": "3DO",
+      "type": "System",
+      "quantity": "1",
+      "title": "3DO Console",
+      "status": "CIB+",
+      "myValue": "252.11"
+    },
+    {
+      "platform": "Wii",
+      "type": "System",
+      "quantity": "1",
+      "title": "Black Nintendo Wii System",
+      "status": "Loose",
+      "myValue": "63.95"
+    },
+    {
+      "platform": "GameCube",
+      "type": "System",
+      "quantity": "1",
+      "title": "Black GameCube System",
+      "status": "Loose",
+      "myValue": "55"
+    },
+    {
+      "platform": "GameCube",
+      "type": "System",
+      "quantity": "1",
+      "title": "Indigo GameCube System",
+      "status": "Loose",
+      "myValue": "49.14"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "System",
+      "quantity": "1",
+      "title": "Intellivision System",
+      "status": "CIB",
+      "myValue": "108.25"
+    },
+    {
+      "platform": "3DS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo 3DS Black Zelda Limited Edition",
+      "status": "CIB+",
+      "myValue": "321.78"
+    },
+    {
+      "platform": "3DS",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo 3DS XL Black",
+      "status": "Loose",
+      "myValue": "199.35"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari 5200 System",
+      "status": "Loose",
+      "myValue": "110.89"
+    },
+    {
+      "platform": "PS4",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation 4 Pro 1TB Console",
+      "status": "CIB",
+      "myValue": "345"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega Dreamcast Console",
+      "status": "Loose",
+      "myValue": "112.43"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega CD Model 2 Console",
+      "status": "Loose+",
+      "myValue": "117.43"
+    },
+    {
+      "platform": "GBA",
+      "type": "System",
+      "quantity": "1",
+      "title": "Cobalt Gameboy Advance SP",
+      "status": "Loose",
+      "myValue": "75.75"
+    },
+    {
+      "platform": "Xbox",
+      "type": "System",
+      "quantity": "1",
+      "title": "Xbox System",
+      "status": "Loose",
+      "myValue": "38.8"
+    },
+    {
+      "platform": "Switch",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo Switch with Blue and Red Joy-con",
+      "status": "CIB",
+      "myValue": "296.05"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "System",
+      "quantity": "1",
+      "title": "Xbox One 500 GB Black Console",
+      "status": "Loose",
+      "myValue": "202.5"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari 7800 Console",
+      "status": "Loose",
+      "myValue": "75"
+    },
+    {
+      "platform": "32X",
+      "type": "System",
+      "quantity": "1",
+      "title": "Sega 32X Unit",
+      "status": "Loose",
+      "myValue": "119.98"
+    },
+    {
+      "platform": "NES",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo NES Classic Edition",
+      "status": "CIB",
+      "myValue": "93.9"
+    },
+    {
+      "platform": "NES",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo NES Console",
+      "status": "Loose",
+      "myValue": "50.8"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "System",
+      "quantity": "1",
+      "title": "Game Boy Color Berry",
+      "status": "Loose",
+      "myValue": "56"
+    },
+    {
+      "platform": "N64",
+      "type": "System",
+      "quantity": "1",
+      "title": "Funtastic Ice Blue Nintendo 64 System",
+      "status": "Loose",
+      "myValue": "178.5"
+    },
+    {
+      "platform": "N64",
+      "type": "System",
+      "quantity": "1",
+      "title": "Nintendo 64 System",
+      "status": "Loose",
+      "myValue": "91.8"
+    },
+    {
+      "platform": "SNES",
+      "type": "System",
+      "quantity": "1",
+      "title": "Super Nintendo Classic Edition",
+      "status": "CIB",
+      "myValue": "125.94"
+    },
+    {
+      "platform": "SNES",
+      "type": "System",
+      "quantity": "1",
+      "title": "Super Nintendo System",
+      "status": "Loose",
+      "myValue": "59.69"
+    },
+    {
+      "platform": "PS2",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation 2 System",
+      "status": "Loose",
+      "myValue": "60.36"
+    },
+    {
+      "platform": "PS2",
+      "type": "System",
+      "quantity": "1",
+      "title": "Slim Playstation 2 System",
+      "status": "Loose",
+      "myValue": "68.12"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari Jaguar System",
+      "status": "CIB",
+      "myValue": "437.71"
+    },
+    {
+      "platform": "Wii U",
+      "type": "System",
+      "quantity": "1",
+      "title": "Wii U Console Deluxe Black 32GB",
+      "status": "Loose",
+      "myValue": "161.75"
+    },
+    {
+      "platform": "TG16",
+      "type": "System",
+      "quantity": "1",
+      "title": "TurboGrafx-16 System",
+      "status": "Loose",
+      "myValue": "202.5"
+    },
+    {
+      "platform": "PS1",
+      "type": "System",
+      "quantity": "1",
+      "title": "Playstation Classic",
+      "status": "CIB",
+      "myValue": "46"
+    },
+    {
+      "platform": "PS1",
+      "type": "System",
+      "quantity": "1",
+      "title": "PlayStation System",
+      "status": "Loose",
+      "myValue": "24.1"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "System",
+      "quantity": "1",
+      "title": "Xbox 360 E Console 4GB",
+      "status": "Loose",
+      "myValue": "75.56"
+    },
+    {
+      "platform": "PSP",
+      "type": "System",
+      "quantity": "1",
+      "title": "PSP 1001K Console Black",
+      "status": "Loose",
+      "myValue": "60.14"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "System",
+      "quantity": "1",
+      "title": "Atari 2600 System",
+      "status": "Loose",
+      "myValue": "28.04"
+    }
+  ],
+  "games": [
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "50 Classic Games",
+      "status": "CIB",
+      "myValue": "7.33"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bomberman",
+      "status": "Loose",
+      "myValue": "10.95"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Castlevania: Portrait of Ruin",
+      "status": "Loose",
+      "myValue": "42.48"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Children of Mana",
+      "status": "Loose",
+      "myValue": "18.22"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Classic Action: Devilish",
+      "status": "Loose",
+      "myValue": "4.92"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy XII: Revenant Wings",
+      "status": "Loose",
+      "myValue": "12.15"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fire Emblem: Shadow Dragon",
+      "status": "Loose",
+      "myValue": "48.13"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kingdom Hearts Re:Coded",
+      "status": "Loose",
+      "myValue": "10.99"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Okamiden",
+      "status": "Loose",
+      "myValue": "27.48"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Phoenix Wright: Ace Attorney",
+      "status": "Loose",
+      "myValue": "15.44"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Polarium",
+      "status": "CIB",
+      "myValue": "3.62"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Prince Of Persia: The Fallen King",
+      "status": "Loose",
+      "myValue": "4.45"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Professor Layton and the Curious Village",
+      "status": "Loose",
+      "myValue": "12.94"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resident Evil: Deadly Silence",
+      "status": "CIB",
+      "myValue": "80.49"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Safari Adventures: Africa",
+      "status": "Loose",
+      "myValue": "3.43"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario 64 DS",
+      "status": "CIB",
+      "myValue": "16.81"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Phantom Hourglass",
+      "status": "Loose",
+      "myValue": "16"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Spirit Tracks",
+      "status": "Loose",
+      "myValue": "49.5"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tron: Evolution",
+      "status": "CIB",
+      "myValue": "5.64"
+    },
+    {
+      "platform": "NDS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Yoshi's Island DS",
+      "status": "Loose",
+      "myValue": "11.81"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Blazing Dragons",
+      "status": "Loose",
+      "myValue": "17.28"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NiGHTS into Dreams...",
+      "status": "Loose",
+      "myValue": "30.5"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Panzer Dragoon II: Zwei",
+      "status": "Loose",
+      "myValue": "71"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sega Rally Championship",
+      "status": "CIB",
+      "myValue": "35.23"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic 3D Blast",
+      "status": "CIB",
+      "myValue": "58.74"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Soviet Strike",
+      "status": "CIB",
+      "myValue": "24.99"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tomb Raider",
+      "status": "Loose",
+      "myValue": "16.2"
+    },
+    {
+      "platform": "Saturn",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Virtua Fighter 2",
+      "status": "Loose",
+      "myValue": "7.16"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Altered Beast",
+      "status": "CIB",
+      "myValue": "24.5"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Battle Squadron",
+      "status": "Loose",
+      "myValue": "17.08"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Boogerman",
+      "status": "Loose",
+      "myValue": "26.99"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "College Football's National Championship II",
+      "status": "Loose",
+      "myValue": "4.46"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Columns",
+      "status": "CIB",
+      "myValue": "11.22"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Earthworm Jim",
+      "status": "CIB",
+      "myValue": "62.42"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Eternal Champions",
+      "status": "Loose",
+      "myValue": "4.8"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Flashback: The Quest for Identity",
+      "status": "Loose",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "General Chaos",
+      "status": "CIB",
+      "myValue": "35"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Golden Axe",
+      "status": "CIB",
+      "myValue": "43.55"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "James 'Buster' Douglas Knockout Boxing",
+      "status": "CIB",
+      "myValue": "12.26"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jurassic Park",
+      "status": "Loose",
+      "myValue": "9.9"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Madden NFL '94",
+      "status": "Loose",
+      "myValue": "5.68"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mercs",
+      "status": "CIB",
+      "myValue": "46.05"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Michael Jackson's Moonwalker",
+      "status": "CIB",
+      "myValue": "146.95"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mortal Kombat",
+      "status": "Loose",
+      "myValue": "11.87"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NBA Jam Tournament Edition",
+      "status": "Loose",
+      "myValue": "8.73"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NFL Football '94 Starring Joe Montana",
+      "status": "Loose",
+      "myValue": "2.72"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pete Sampras Tennis",
+      "status": "Loose",
+      "myValue": "14.49"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic & Knuckles",
+      "status": "Loose",
+      "myValue": "24.85"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Spinball",
+      "status": "Loose",
+      "myValue": "9.34"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic the Hedgehog",
+      "status": "CIB",
+      "myValue": "34.03"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic the Hedgehog 2",
+      "status": "Loose",
+      "myValue": "5.3"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic the Hedgehog 3",
+      "status": "Loose",
+      "myValue": "24.99"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Street Fighter II: Special Champion Edition",
+      "status": "Loose",
+      "myValue": "9.24"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Streets of Rage",
+      "status": "Loose",
+      "myValue": "31.34"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Streets of Rage 2",
+      "status": "Boxed",
+      "myValue": "45.55"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Baseball 2020",
+      "status": "CIB",
+      "myValue": "22.99"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+      "status": "Loose",
+      "myValue": "15"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Terminator 2: Judgment Day",
+      "status": "Loose",
+      "myValue": "14.89"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Lion King",
+      "status": "Loose",
+      "myValue": "7.74"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "X-Men",
+      "status": "CIB",
+      "myValue": "18.91"
+    },
+    {
+      "platform": "Genesis",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Zombies Ate My Neighbors",
+      "status": "Loose",
+      "myValue": "39.09"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "After Burner",
+      "status": "Loose",
+      "myValue": "9.26"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "California Games",
+      "status": "CIB",
+      "myValue": "20.56"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Choplifter",
+      "status": "Loose",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ghostbusters",
+      "status": "Loose",
+      "myValue": "15"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hang-On & Safari Hunt",
+      "status": "Loose",
+      "myValue": "6.98"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Out Run",
+      "status": "Loose",
+      "myValue": "11.39"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rambo: First Blood Part II",
+      "status": "CIB",
+      "myValue": "23.53"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Reggie Jackson Baseball",
+      "status": "Loose",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Thunder Blade",
+      "status": "Loose",
+      "myValue": "9.14"
+    },
+    {
+      "platform": "Master System",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Zaxxon 3-D",
+      "status": "Loose",
+      "myValue": "11"
+    },
+    {
+      "platform": "Game Gear",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Disney's The Jungle Book",
+      "status": "Sealed",
+      "myValue": "12.95"
+    },
+    {
+      "platform": "Game Gear",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic the Hedgehog 2",
+      "status": "Loose",
+      "myValue": "3.49"
+    },
+    {
+      "platform": "Game Gear",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic The Hedgehog Chaos",
+      "status": "Loose",
+      "myValue": "7.34"
+    },
+    {
+      "platform": "Game Gear",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Columns",
+      "status": "Loose",
+      "myValue": "3.75"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "2014 FIFA World Cup Brazil",
+      "status": "CIB",
+      "myValue": "5.42"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Assassin's Creed II",
+      "status": "CIB",
+      "myValue": "4.08"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Batman: Arkham City",
+      "status": "CIB",
+      "myValue": "4.33"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Battlefield: Bad Company 2",
+      "status": "CIB",
+      "myValue": "5.52"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Borderlands",
+      "status": "CIB",
+      "myValue": "6.23"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Brütal Legend",
+      "status": "CIB",
+      "myValue": "9"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Call of Duty: Black Ops II",
+      "status": "CIB",
+      "myValue": "11.13"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy XIII",
+      "status": "Sealed",
+      "myValue": "46.87"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War Collection",
+      "status": "CIB",
+      "myValue": "12.79"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War III",
+      "status": "CIB",
+      "myValue": "4.99"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War: Ascension",
+      "status": "CIB",
+      "myValue": "12.23"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gran Turismo 5",
+      "status": "CIB",
+      "myValue": "6.99"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto IV",
+      "status": "CIB",
+      "myValue": "6.82"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Heavy Rain",
+      "status": "Sealed",
+      "myValue": "21.06"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "High Velocity Bowling",
+      "status": "Sealed",
+      "myValue": "9.15"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "inFAMOUS Collection",
+      "status": "CIB",
+      "myValue": "18.38"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Killzone 2",
+      "status": "CIB",
+      "myValue": "6.99"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Killzone 3",
+      "status": "CIB",
+      "myValue": "6.7"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Killzone 3",
+      "status": "Sealed",
+      "myValue": "10.86"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Max Payne 3",
+      "status": "CIB",
+      "myValue": "11.84"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Medieval Moves: Deadmund's Quest",
+      "status": "Sealed",
+      "myValue": "7.49"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ratchet & Clank: All 4 One",
+      "status": "CIB",
+      "myValue": "9.93"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resistance 2 Collector's Edition",
+      "status": "CIB",
+      "myValue": "21.85"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resistance 3",
+      "status": "CIB",
+      "myValue": "15"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resistance Fall of Man",
+      "status": "CIB",
+      "myValue": "8.46"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rock Band 2",
+      "status": "CIB",
+      "myValue": "7.14"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rocksmith [Includes Bass]",
+      "status": "CIB",
+      "myValue": "17.27"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Skate 2",
+      "status": "Loose",
+      "myValue": "15.12"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Generations",
+      "status": "CIB",
+      "myValue": "12.62"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic's Ultimate Genesis Collection",
+      "status": "CIB",
+      "myValue": "9.24"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sorcery",
+      "status": "Sealed",
+      "myValue": "7.99"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Eye of Judgment",
+      "status": "CIB",
+      "myValue": "6.21"
+    },
+    {
+      "platform": "PS3",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Uncharted: Drake's Fortune",
+      "status": "CIB",
+      "myValue": "7.51"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "3DO Buffet",
+      "status": "Loose",
+      "myValue": "9.52"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "3DO Interactive Sampler 1",
+      "status": "Loose",
+      "myValue": "9.86"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "3DO Interactive Sampler 3",
+      "status": "Loose",
+      "myValue": "14.99"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "3DO Interactive Sampler 4",
+      "status": "Loose",
+      "myValue": "14.9"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Alone in the Dark",
+      "status": "CIB",
+      "myValue": "30.95"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Blade Force",
+      "status": "CIB",
+      "myValue": "17.99"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Demolition Man",
+      "status": "Loose",
+      "myValue": "25.47"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "GEX",
+      "status": "Loose",
+      "myValue": "21.74"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Guardian War",
+      "status": "Loose",
+      "myValue": "23.1"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "John Madden Football",
+      "status": "CIB",
+      "myValue": "14.87"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Panasonic REAL 3DO Interactive Multiplayer Sampler CD",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pebble Beach Golf Links",
+      "status": "Loose",
+      "myValue": "7.63"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Road Rash",
+      "status": "Loose",
+      "myValue": "41.56"
+    },
+    {
+      "platform": "3DO",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Street Fighter II Turbo",
+      "status": "Loose",
+      "myValue": "34.36"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bakugan: Battle Brawlers",
+      "status": "CIB",
+      "myValue": "5.53"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Battle of the Bands",
+      "status": "CIB",
+      "myValue": "4.9"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bigfoot: Collision Course",
+      "status": "Sealed",
+      "myValue": "11.15"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Birthday Party Bash",
+      "status": "Sealed",
+      "myValue": "7.37"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Call of Duty 3",
+      "status": "CIB",
+      "myValue": "4.95"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Call of Duty: World at War",
+      "status": "CIB",
+      "myValue": "5.48"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crash of the Titans",
+      "status": "CIB",
+      "myValue": "13.2"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Epic Mickey",
+      "status": "CIB",
+      "myValue": "6.83"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Epic Mickey 2: The Power of Two",
+      "status": "CIB",
+      "myValue": "7.98"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gummy Bears Minigolf",
+      "status": "Boxed",
+      "myValue": "5.89"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "I Spy: Spooky Mansion",
+      "status": "CIB",
+      "myValue": "6.84"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Just Dance 3",
+      "status": "CIB",
+      "myValue": "4.99"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Looney Tunes: Acme Arsenal",
+      "status": "CIB",
+      "myValue": "5.28"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Kart Wii",
+      "status": "CIB",
+      "myValue": "21.6"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Party 8",
+      "status": "CIB",
+      "myValue": "23.88"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid Prime 3: Corruption",
+      "status": "Sealed",
+      "myValue": "85.69"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rayman Raving Rabbids 2",
+      "status": "Loose",
+      "myValue": "4.93"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Red Steel",
+      "status": "Sealed",
+      "myValue": "18.48"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Unleashed",
+      "status": "CIB",
+      "myValue": "9.26"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: The Clone Wars Lightsaber Duels",
+      "status": "CIB",
+      "myValue": "5.37"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: The Clone Wars Republic Heroes",
+      "status": "CIB",
+      "myValue": "6.24"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: The Force Unleashed",
+      "status": "CIB",
+      "myValue": "4.13"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Galaxy",
+      "status": "CIB",
+      "myValue": "13.28"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Smash Bros. Brawl",
+      "status": "CIB",
+      "myValue": "13.81"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Skyward Sword",
+      "status": "CIB",
+      "myValue": "28.39"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "status": "CIB",
+      "myValue": "13"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tron: Evolution – Battle Grids",
+      "status": "CIB",
+      "myValue": "4.78"
+    },
+    {
+      "platform": "Wii",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wii Sports Resort",
+      "status": "CIB",
+      "myValue": "26.3"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dead to Rights",
+      "status": "CIB",
+      "myValue": "6.75"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Disney's Tarzan Untamed",
+      "status": "Loose",
+      "myValue": "5.11"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Donkey Konga 2",
+      "status": "CIB+",
+      "myValue": "23.37"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Eternal Darkness: Sanity's Requiem",
+      "status": "CIB",
+      "myValue": "88.02"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "F-Zero GX",
+      "status": "CIB",
+      "myValue": "77.98"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "LEGO Star Wars: The Video Game",
+      "status": "CIB",
+      "myValue": "10.87"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Golf: Toadstool Tour",
+      "status": "CIB",
+      "myValue": "33.5"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Kart: Double Dash!!",
+      "status": "CIB",
+      "myValue": "64.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Party 6",
+      "status": "CIB+",
+      "myValue": "84.54"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Superstar Baseball",
+      "status": "Loose",
+      "myValue": "46.5"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid Prime",
+      "status": "CIB",
+      "myValue": "34.58"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid Prime",
+      "status": "CIB",
+      "myValue": "34.58"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid Prime 2: Echoes",
+      "status": "CIB",
+      "myValue": "63.15"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Naruto: Clash of Ninja",
+      "status": "Loose",
+      "myValue": "6.75"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NBA Street Vol. 2",
+      "status": "CIB",
+      "myValue": "29.27"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Need for Speed: Carbon",
+      "status": "Loose",
+      "myValue": "12.68"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "One Piece: Pirates' Carnival",
+      "status": "CIB",
+      "myValue": "15.81"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Prince of Persia: The Sands of Time",
+      "status": "CIB",
+      "myValue": "13.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Prince of Persia: The Two Thrones",
+      "status": "Loose",
+      "myValue": "8.21"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resident Evil 4",
+      "status": "CIB",
+      "myValue": "25.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resident Evil Zero",
+      "status": "CIB",
+      "myValue": "12.43"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Adventure 2 Battle",
+      "status": "CIB",
+      "myValue": "42.72"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Gems Collection",
+      "status": "CIB",
+      "myValue": "45.8"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Heroes",
+      "status": "CIB",
+      "myValue": "27.76"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Mega Collection",
+      "status": "CIB",
+      "myValue": "12.7"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Mega Collection",
+      "status": "CIB",
+      "myValue": "12.7"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SSX 3",
+      "status": "CIB",
+      "myValue": "16.62"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SSX Tricky",
+      "status": "CIB",
+      "myValue": "21.28"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Fox Adventures",
+      "status": "CIB",
+      "myValue": "34.41"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars Rogue Squadron II: Rogue Leader",
+      "status": "Boxed",
+      "myValue": "14"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars Rogue Squadron III: Rebel Strike",
+      "status": "CIB",
+      "myValue": "15.35"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Sunshine",
+      "status": "CIB",
+      "myValue": "35.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Sunshine",
+      "status": "CIB",
+      "myValue": "35.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Monkey Ball 2",
+      "status": "CIB",
+      "myValue": "26.08"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Monkey Ball 2",
+      "status": "CIB",
+      "myValue": "26.08"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Smash Bros. Melee",
+      "status": "CIB",
+      "myValue": "56.25"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Collector's Edition",
+      "status": "CIB",
+      "myValue": "82.98"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Four Swords Adventures",
+      "status": "CIB",
+      "myValue": "73.25"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: The Wind Waker",
+      "status": "Loose",
+      "myValue": "54.45"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "status": "CIB",
+      "myValue": "108.75"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Twilight Princess",
+      "status": "CIB",
+      "myValue": "108.75"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Two-Game Bonus Disc!",
+      "status": "CIB",
+      "myValue": "64.51"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Two-Game Bonus Disc!",
+      "status": "CIB",
+      "myValue": "64.51"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Sims",
+      "status": "Loose",
+      "myValue": "7.77"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater 4",
+      "status": "CIB",
+      "myValue": "10.7"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Turok: Evolution",
+      "status": "Loose",
+      "myValue": "9.52"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Worms Blast",
+      "status": "CIB",
+      "myValue": "11.76"
+    },
+    {
+      "platform": "GameCube",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "XGRA: Extreme-G Racing Association",
+      "status": "CIB",
+      "myValue": "21.43"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Astrosmash",
+      "status": "CIB",
+      "myValue": "6.77"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Astrosmash",
+      "status": "CIB+",
+      "myValue": "6.77"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Lock 'N' Chase",
+      "status": "CIB+",
+      "myValue": "6.22"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Night Stalker",
+      "status": "CIB+",
+      "myValue": "8.5"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Space Battle",
+      "status": "CIB",
+      "myValue": "5.86"
+    },
+    {
+      "platform": "Intellivision",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "TRON Deadly Discs",
+      "status": "Loose",
+      "myValue": "4.63"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Code Name: S.T.E.A.M.",
+      "status": "Sealed",
+      "myValue": "4.63"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dream Trigger 3D",
+      "status": "Sealed",
+      "myValue": "5.97"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "LEGO Legends of Chima: Laval's Journey",
+      "status": "Sealed",
+      "myValue": "5.99"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Luigi's Mansion: Dark Moon",
+      "status": "CIB",
+      "myValue": "12.73"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Kart 7",
+      "status": "CIB",
+      "myValue": "11.24"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid Prime: Federation Force",
+      "status": "CIB",
+      "myValue": "23.52"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Michael Jackson: The Experience",
+      "status": "CIB",
+      "myValue": "5.97"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Monster Hunter 4 Ultimate",
+      "status": "CIB",
+      "myValue": "15.46"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Boom: Shattered Crystal",
+      "status": "CIB",
+      "myValue": "12.11"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Fox 64 3D",
+      "status": "CIB",
+      "myValue": "26.6"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Black Bass 3D",
+      "status": "Sealed",
+      "myValue": "11.75"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: A Link Between Worlds",
+      "status": "CIB",
+      "myValue": "21.44"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Majora's Mask 3D",
+      "status": "CIB",
+      "myValue": "23.5"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Ocarina of Time 3D",
+      "status": "CIB",
+      "myValue": "16.85"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Tri Force Heroes",
+      "status": "Sealed",
+      "myValue": "17.86"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Trash Pack",
+      "status": "Sealed",
+      "myValue": "6.94"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ultimate NES Remix",
+      "status": "CIB",
+      "myValue": "13.1"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Yo-kai Watch",
+      "status": "Sealed",
+      "myValue": "9.5"
+    },
+    {
+      "platform": "3DS",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Yoshi's New Island",
+      "status": "CIB",
+      "myValue": "17.05"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Centipede",
+      "status": "Loose",
+      "myValue": "5"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dig Dug",
+      "status": "CIB",
+      "myValue": "11.33"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Galaxian",
+      "status": "Loose",
+      "myValue": "4.2"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Joust",
+      "status": "Loose",
+      "myValue": "8.76"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kangaroo",
+      "status": "Loose",
+      "myValue": "6.18"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pac-Man",
+      "status": "Loose",
+      "myValue": "4.54"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pole Position",
+      "status": "CIB+",
+      "myValue": "8.49"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Space Invaders",
+      "status": "Loose",
+      "myValue": "6.92"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Trek: Strategic Operations Simulator",
+      "status": "Loose",
+      "myValue": "11.25"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Breakout",
+      "status": "Loose",
+      "myValue": "5.6"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Vanguard",
+      "status": "Loose",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Anthem",
+      "status": "Sealed",
+      "myValue": "6"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Assassin's Creed: Origins",
+      "status": "CIB",
+      "myValue": "10.22"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Battlefield 1",
+      "status": "CIB",
+      "myValue": "4.7"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Borderlands 3",
+      "status": "CIB",
+      "myValue": "8.41"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Borderlands: The Handsome Collection",
+      "status": "CIB",
+      "myValue": "6.1"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Call of Duty: Black Ops IIII",
+      "status": "CIB",
+      "myValue": "8.62"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Days Gone",
+      "status": "CIB+",
+      "myValue": "14.92"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Diablo III: Ultimate Evil Edition",
+      "status": "CIB",
+      "myValue": "13.47"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "DmC: Devil May Cry - Definitive Edition",
+      "status": "CIB",
+      "myValue": "12.2"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "DOOM",
+      "status": "CIB",
+      "myValue": "7.81"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "DOOM Eternal",
+      "status": "CIB+",
+      "myValue": "17.99"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dragon Ball FighterZ",
+      "status": "CIB",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fallout 4",
+      "status": "CIB",
+      "myValue": "5.39"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Far Cry 5",
+      "status": "CIB",
+      "myValue": "13.25"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "FIFA 18",
+      "status": "CIB",
+      "myValue": "3.85"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy VII Remake",
+      "status": "CIB",
+      "myValue": "23.44"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War",
+      "status": "CIB",
+      "myValue": "10.74"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Horizon Zero Dawn",
+      "status": "CIB",
+      "myValue": "7.39"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Killzone: Shadow Fall",
+      "status": "CIB",
+      "myValue": "6.46"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "LEGO Dimensions",
+      "status": "Loose",
+      "myValue": "30.5"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Marvel's Spider-Man",
+      "status": "CIB",
+      "myValue": "13.55"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Middle-Earth: Shadow of War",
+      "status": "CIB",
+      "myValue": "3.47"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Need for Speed",
+      "status": "CIB",
+      "myValue": "7.43"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rage 2",
+      "status": "CIB+",
+      "myValue": "8.43"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ratchet & Clank",
+      "status": "CIB",
+      "myValue": "9.15"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rayman Legends",
+      "status": "CIB",
+      "myValue": "10.56"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Red Dead Redemption 2",
+      "status": "CIB",
+      "myValue": "15"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resident Evil 5",
+      "status": "CIB",
+      "myValue": "14"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rock Band 4 Plus Rivals Expansion",
+      "status": "CIB",
+      "myValue": "38.06"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "South Park: The Stick of Truth",
+      "status": "CIB",
+      "myValue": "14.48"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Last of Us Remastered",
+      "status": "CIB",
+      "myValue": "8.63"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Outer Worlds",
+      "status": "CIB",
+      "myValue": "14.92"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater 1 + 2",
+      "status": "CIB",
+      "myValue": "19.48"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Uncharted 4: A Thief's End",
+      "status": "CIB",
+      "myValue": "6.52"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Watch Dogs",
+      "status": "CIB",
+      "myValue": "6.89"
+    },
+    {
+      "platform": "PS4",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wolfenstein: The Two Pack",
+      "status": "CIB",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crazy Taxi",
+      "status": "CIB",
+      "myValue": "17.66"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jet Grind Radio",
+      "status": "CIB",
+      "myValue": "44.62"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Looney Tunes: Space Race",
+      "status": "CIB",
+      "myValue": "39.42"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mortal Kombat Gold",
+      "status": "CIB",
+      "myValue": "63.12"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NBA 2K",
+      "status": "Loose",
+      "myValue": "2"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NFL 2K2",
+      "status": "CIB",
+      "myValue": "12.97"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Quake III Arena",
+      "status": "CIB",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ready 2 Rumble Boxing: Round 2",
+      "status": "CIB",
+      "myValue": "19.25"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sega Dreamcast Web Browser",
+      "status": "CIB",
+      "myValue": "4.47"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Slave Zero",
+      "status": "Loose+",
+      "myValue": "11.45"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SoulCalibur",
+      "status": "CIB",
+      "myValue": "36.22"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The House of the Dead 2",
+      "status": "CIB",
+      "myValue": "28.02"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater 2",
+      "status": "CIB",
+      "myValue": "18.47"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Vigilante 8: 2nd Offense",
+      "status": "CIB",
+      "myValue": "20.93"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Virtua Tennis",
+      "status": "CIB",
+      "myValue": "10.99"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Web Browser 2.0",
+      "status": "CIB",
+      "myValue": "3.64"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Worms Armageddon",
+      "status": "CIB",
+      "myValue": "22.35"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ecco the Dolphin",
+      "status": "Loose",
+      "myValue": "13.99"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ground Zero: Texas",
+      "status": "Loose",
+      "myValue": "12.55"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jurassic Park",
+      "status": "CIB",
+      "myValue": "19.86"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Night Trap",
+      "status": "Loose",
+      "myValue": "26"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sewer Shark",
+      "status": "Loose",
+      "myValue": "7.58"
+    },
+    {
+      "platform": "Sega CD",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic CD",
+      "status": "CIB",
+      "myValue": "80.5"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Advance Wars 2: Black Hole Rising",
+      "status": "Loose",
+      "myValue": "29.5"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crash Bandicoot 2: N-Tranced",
+      "status": "Loose",
+      "myValue": "11.61"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crazy Taxi: Catch a Ride",
+      "status": "Loose",
+      "myValue": "10"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Disney/Pixar The Incredibles",
+      "status": "Loose",
+      "myValue": "3.78"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Disney/Pixar Finding Nemo",
+      "status": "Loose",
+      "myValue": "4.04"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Donkey Kong Country",
+      "status": "Loose",
+      "myValue": "14.21"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "DreamWorks Madagascar",
+      "status": "Loose",
+      "myValue": "4.48"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Frogger's Adventures: Temple of the Frog",
+      "status": "Loose",
+      "myValue": "4.91"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Game & Watch Gallery 4",
+      "status": "Loose",
+      "myValue": "15.4"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "LEGO Bionicle",
+      "status": "Loose",
+      "myValue": "5.02"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid: Zero Mission",
+      "status": "Loose",
+      "myValue": "92.08"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Namco Museum 50th Anniversary",
+      "status": "Loose",
+      "myValue": "9.69"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Risk / Battleship / Clue",
+      "status": "Loose",
+      "myValue": "3.97"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Advance",
+      "status": "Loose",
+      "myValue": "20.39"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sorry! / Aggravation / Scrabble Junior",
+      "status": "Loose",
+      "myValue": "1.25"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spider-Man: The Movie",
+      "status": "Loose",
+      "myValue": "7"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SSX Tricky",
+      "status": "Loose",
+      "myValue": "7.94"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: Flight of the Falcon",
+      "status": "Loose",
+      "myValue": "4.25"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario World: Super Mario Advance 2",
+      "status": "Loose",
+      "myValue": "16.51"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: A Link to the Past and Four Swords",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: The Minish Cap",
+      "status": "Loose",
+      "myValue": "73.44"
+    },
+    {
+      "platform": "GBA",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater 2",
+      "status": "Loose",
+      "myValue": "6.85"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "007: NightFire",
+      "status": "Boxed",
+      "myValue": "9.17"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Amped 2",
+      "status": "CIB",
+      "myValue": "6.89"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Amped: Freestyle Snowboarding",
+      "status": "CIB",
+      "myValue": "4.01"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crimson Skies: High Road To Revenge",
+      "status": "CIB",
+      "myValue": "6.21"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Doom 3: Limited Collectors Edition",
+      "status": "Loose",
+      "myValue": "5.98"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Enter the Matrix",
+      "status": "CIB",
+      "myValue": "6.68"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fable",
+      "status": "CIB",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "007: From Russia with Love",
+      "status": "CIB",
+      "myValue": "9.86"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fuzion Frenzy",
+      "status": "CIB",
+      "myValue": "10.87"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto III",
+      "status": "CIB",
+      "myValue": "6.21"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gun Metal",
+      "status": "CIB",
+      "myValue": "7.59"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Half-Life 2",
+      "status": "CIB",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo 2",
+      "status": "CIB",
+      "myValue": "8.98"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo 2 Multiplayer Map Pack",
+      "status": "CIB",
+      "myValue": "8.6"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo: Combat Evolved",
+      "status": "CIB",
+      "myValue": "8.97"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Harry Potter: Quidditch World Cup",
+      "status": "CIB",
+      "myValue": "8.69"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jade Empire",
+      "status": "CIB",
+      "myValue": "8.43"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "James Bond 007: Agent Under Fire",
+      "status": "CIB",
+      "myValue": "8.28"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Leisure Suit Larry: Magna Cum Laude",
+      "status": "Loose",
+      "myValue": "12.56"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mortal Kombat: Deception",
+      "status": "Loose",
+      "myValue": "9.03"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Namco Museum",
+      "status": "CIB+",
+      "myValue": "8.04"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Need for Speed: Underground",
+      "status": "CIB",
+      "myValue": "5.71"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ninja Gaiden",
+      "status": "Loose",
+      "myValue": "3.95"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Outlaw Golf",
+      "status": "CIB",
+      "myValue": "6.13"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Outlaw Golf 2",
+      "status": "CIB",
+      "myValue": "6.78"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pac-Man World 2",
+      "status": "Loose",
+      "myValue": "4.98"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Project Gotham Racing 2",
+      "status": "CIB",
+      "myValue": "5.12"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Return to Castle Wolfenstein: Tides of War",
+      "status": "CIB",
+      "myValue": "8.36"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sega GT 2002 & JSRF: Jet Set Radio Future",
+      "status": "CIB",
+      "myValue": "11.95"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SoulCalibur II",
+      "status": "CIB",
+      "myValue": "9.97"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: Jedi Starfighter",
+      "status": "CIB",
+      "myValue": "7.95"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: Obi-Wan",
+      "status": "CIB",
+      "myValue": "7.53"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: Starfighter (Special Edition)",
+      "status": "CIB",
+      "myValue": "6.72"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "TimeSplitters 2",
+      "status": "CIB",
+      "myValue": "14.99"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tom Clancy's Rainbow Six 3: Black Arrow",
+      "status": "CIB",
+      "myValue": "5.24"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater 4",
+      "status": "CIB",
+      "myValue": "7.9"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Underground 2",
+      "status": "CIB",
+      "myValue": "9.96"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Turok: Evolution",
+      "status": "CIB",
+      "myValue": "8.87"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Unreal Championship",
+      "status": "CIB",
+      "myValue": "5.75"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Unreal Championship 2: The Liandri Conflict",
+      "status": "CIB",
+      "myValue": "7.56"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "X-Men Legends",
+      "status": "CIB",
+      "myValue": "7.63"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "X-Men Legends II: Rise of Apocalypse",
+      "status": "CIB",
+      "myValue": "7.45"
+    },
+    {
+      "platform": "Xbox",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "X-Men Legends II: Rise of Apocalypse",
+      "status": "CIB",
+      "myValue": "7.45"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bayonetta 2",
+      "status": "CIB",
+      "myValue": "39.97"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bendy and the Ink Machine",
+      "status": "CIB+",
+      "myValue": "17.19"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Daemon X Machina",
+      "status": "CIB",
+      "myValue": "36.98"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dragon Quest Builders",
+      "status": "CIB",
+      "myValue": "68.91"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Katamari Damacy REROLL",
+      "status": "CIB",
+      "myValue": "14.73"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Kart 8 Deluxe",
+      "status": "CIB+",
+      "myValue": "37.37"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Tennis Aces",
+      "status": "CIB",
+      "myValue": "33.29"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Marvel Ultimate Alliance 3: The Black Order",
+      "status": "CIB",
+      "myValue": "36.99"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "New Super Mario Bros. U Deluxe",
+      "status": "CIB+",
+      "myValue": "35"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pokémon Shield",
+      "status": "CIB",
+      "myValue": "38.73"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SNK 40th Anniversary Collection",
+      "status": "CIB",
+      "myValue": "50.97"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Mania Plus",
+      "status": "CIB+",
+      "myValue": "29.99"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Streets of Rage 4",
+      "status": "CIB+",
+      "myValue": "37.14"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario 3D All-Stars",
+      "status": "CIB",
+      "myValue": "39.99"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Odyssey",
+      "status": "CIB",
+      "myValue": "31.5"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Smash Bros. Ultimate",
+      "status": "CIB",
+      "myValue": "37.9"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "status": "CIB",
+      "myValue": "36.12"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Link's Awakening",
+      "status": "CIB+",
+      "myValue": "34.38"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Skyward Sword HD",
+      "status": "CIB",
+      "myValue": "42.5"
+    },
+    {
+      "platform": "Switch",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Witcher 3: Wild Hunt Complete Edition",
+      "status": "CIB+",
+      "myValue": "35"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Burnout Paradise Remastered",
+      "status": "CIB",
+      "myValue": "11.97"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dead Rising 4",
+      "status": "CIB",
+      "myValue": "10.47"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gears of War 4",
+      "status": "CIB",
+      "myValue": "9.45"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo 5: Guardians",
+      "status": "CIB",
+      "myValue": "6.1"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo: The Master Chief Collection",
+      "status": "CIB",
+      "myValue": "16.55"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mass Effect: Andromeda",
+      "status": "CIB",
+      "myValue": "4.53"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metal Gear Survive",
+      "status": "Sealed",
+      "myValue": "7.98"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Resident Evil 7: Biohazard",
+      "status": "CIB",
+      "myValue": "11"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Shadow Warrior",
+      "status": "Sealed",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Elder Scrolls Online: Morrowind",
+      "status": "CIB",
+      "myValue": "4.52"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Witcher 3: Wild Hunt",
+      "status": "CIB",
+      "myValue": "11.5"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Titanfall",
+      "status": "CIB",
+      "myValue": "4.19"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "We Happy Few",
+      "status": "Sealed",
+      "myValue": "10"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Centipede",
+      "status": "Loose",
+      "myValue": "10"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "DigDug",
+      "status": "CIB+",
+      "myValue": "14"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hat Trick",
+      "status": "CIB+",
+      "myValue": "8.99"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jinks",
+      "status": "CIB",
+      "myValue": "10.88"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Karateka",
+      "status": "Loose",
+      "myValue": "7.21"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ms. Pac-Man",
+      "status": "Loose",
+      "myValue": "7.75"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "RealSports Baseball",
+      "status": "CIB+",
+      "myValue": "10"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Robotron: 2084",
+      "status": "Loose",
+      "myValue": "8.14"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Xevious",
+      "status": "Loose",
+      "myValue": "6.39"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Corpse Killer",
+      "status": "CIB+",
+      "myValue": "47.67"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Cosmic Carnage",
+      "status": "CIB",
+      "myValue": "35.18"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Doom",
+      "status": "Boxed",
+      "myValue": "21.42"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
+      "status": "Loose",
+      "myValue": "12.91"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metal Head",
+      "status": "Loose",
+      "myValue": "15.49"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mortal Kombat II",
+      "status": "Loose",
+      "myValue": "45.99"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Motocross Championship",
+      "status": "CIB",
+      "myValue": "15.65"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NBA Jam Tournament Edition",
+      "status": "CIB",
+      "myValue": "65.06"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NFL Quarterback Club",
+      "status": "CIB+",
+      "myValue": "19.47"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pitfall: The Mayan Adventure",
+      "status": "CIB",
+      "myValue": "313.84"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Space Harrier",
+      "status": "CIB",
+      "myValue": "86.13"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Trek: Starfleet Academy - Starship Bridge Simulator",
+      "status": "CIB",
+      "myValue": "87.76"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars Arcade",
+      "status": "Loose",
+      "myValue": "14.99"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tempo",
+      "status": "Loose",
+      "myValue": "78.21"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Toughman Contest",
+      "status": "Loose",
+      "myValue": "27.7"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Virtua Fighter",
+      "status": "Loose",
+      "myValue": "14.99"
+    },
+    {
+      "platform": "32X",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Virtua Racing Deluxe",
+      "status": "Loose",
+      "myValue": "13.56"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "10-Yard Fight",
+      "status": "Loose+",
+      "myValue": "8.35"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "720 Degrees",
+      "status": "CIB",
+      "myValue": "22.23"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Adventures of Tom Sawyer",
+      "status": "Loose",
+      "myValue": "11.28"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Anticipation",
+      "status": "Loose",
+      "myValue": "1.49"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Arkanoid",
+      "status": "Loose",
+      "myValue": "13.29"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Back to the Future",
+      "status": "Loose",
+      "myValue": "8.75"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bad Dudes",
+      "status": "Loose",
+      "myValue": "7.84"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Baseball",
+      "status": "Loose",
+      "myValue": "6.53"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Baseball Stars",
+      "status": "Loose",
+      "myValue": "11.5"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Blaster Master",
+      "status": "Loose",
+      "myValue": "8.2"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bubble Bobble",
+      "status": "Loose",
+      "myValue": "17.35"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "BurgerTime",
+      "status": "Loose",
+      "myValue": "9.97"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "California Games",
+      "status": "Loose",
+      "myValue": "7.05"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Castlevania III: Dracula's Curse",
+      "status": "Loose",
+      "myValue": "39.97"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Commando",
+      "status": "Loose",
+      "myValue": "6.87"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Contra",
+      "status": "Loose",
+      "myValue": "27.51"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dr. Mario",
+      "status": "Loose",
+      "myValue": "7"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Excitebike",
+      "status": "Loose",
+      "myValue": "7.25"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fantasy Zone",
+      "status": "Loose",
+      "myValue": "37"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Galaga: Demons of Death",
+      "status": "Loose",
+      "myValue": "12.13"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gauntlet II",
+      "status": "Loose",
+      "myValue": "10.68"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Golf",
+      "status": "Loose",
+      "myValue": "5.19"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hogan's Alley",
+      "status": "Loose",
+      "myValue": "4.83"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ice Hockey",
+      "status": "Loose",
+      "myValue": "6.05"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jeopardy! 25th Anniversary Edition",
+      "status": "Loose",
+      "myValue": "3.94"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "John Elway's Quarterback",
+      "status": "Loose",
+      "myValue": "0.99"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kirby's Adventure",
+      "status": "Loose",
+      "myValue": "20.76"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kung Fu",
+      "status": "Loose",
+      "myValue": "8.45"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Life Force",
+      "status": "Loose",
+      "myValue": "11.52"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Little Nemo: The Dream Master",
+      "status": "Loose",
+      "myValue": "14.49"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Lunar Pool",
+      "status": "Loose",
+      "myValue": "3.39"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid [Yellow Label]",
+      "status": "Loose",
+      "myValue": "30"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mickey Mousecapade",
+      "status": "Loose",
+      "myValue": "6"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Monopoly",
+      "status": "Loose",
+      "myValue": "4.56"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NES Open Tournament Golf",
+      "status": "CIB",
+      "myValue": "31.99"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Nintendo World Cup",
+      "status": "Loose",
+      "myValue": "5.76"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Operation Wolf",
+      "status": "Loose",
+      "myValue": "5.99"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Platoon",
+      "status": "Loose",
+      "myValue": "8.21"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Q*bert",
+      "status": "Loose",
+      "myValue": "8.58"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "R.C. Pro-Am",
+      "status": "Loose",
+      "myValue": "6.99"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rad Racer",
+      "status": "Loose",
+      "myValue": "6.68"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Skate or Die",
+      "status": "Loose",
+      "myValue": "6.44"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spy Hunter",
+      "status": "Loose",
+      "myValue": "7.17"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spy vs. Spy",
+      "status": "Loose",
+      "myValue": "12.32"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super C",
+      "status": "Loose",
+      "myValue": "20"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Bros. / Duck Hunt",
+      "status": "Loose",
+      "myValue": "4.98"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Bros. 2",
+      "status": "Loose",
+      "myValue": "16.26"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Bros. 3",
+      "status": "Loose",
+      "myValue": "11.7"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Team Games",
+      "status": "Loose",
+      "myValue": "5.18"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tag Team Wrestling",
+      "status": "Loose",
+      "myValue": "3.89"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tecmo Bowl",
+      "status": "Loose",
+      "myValue": "8.71"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Teenage Mutant Ninja Turtles",
+      "status": "Loose",
+      "myValue": "8"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+      "status": "Loose",
+      "myValue": "16.3"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tetris",
+      "status": "Loose",
+      "myValue": "10.2"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Black Bass",
+      "status": "Loose",
+      "myValue": "6.39"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda",
+      "status": "Loose",
+      "myValue": "24.88"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Thundercade",
+      "status": "Loose",
+      "myValue": "9.76"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Top Gun",
+      "status": "Loose",
+      "myValue": "2.65"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Town & Country Surf Designs: Wood & Water Rage",
+      "status": "Loose+",
+      "myValue": "19.27"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Track & Field II",
+      "status": "Loose",
+      "myValue": "6.37"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wheel of Fortune: Junior Edition",
+      "status": "Loose",
+      "myValue": "1.47"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "World Class Track Meet",
+      "status": "Loose",
+      "myValue": "2.4"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Xevious: The Avenger",
+      "status": "Loose",
+      "myValue": "5.93"
+    },
+    {
+      "platform": "NES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Zelda II: The Adventure of Link",
+      "status": "Loose",
+      "myValue": "20.13"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Baseball",
+      "status": "Loose",
+      "myValue": "7.48"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Double Dragon",
+      "status": "Loose",
+      "myValue": "8.25"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dr. Mario",
+      "status": "Loose",
+      "myValue": "9.47"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Game & Watch Gallery",
+      "status": "Loose",
+      "myValue": "8.99"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metroid II: Return of Samus",
+      "status": "Loose",
+      "myValue": "35.52"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Micro Machines",
+      "status": "Loose",
+      "myValue": "8.49"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Land",
+      "status": "Loose",
+      "myValue": "12"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Link's Awakening",
+      "status": "Loose",
+      "myValue": "22.99"
+    },
+    {
+      "platform": "Game Boy",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Ren & Stimpy Show: Space Cadet Adventures",
+      "status": "Loose",
+      "myValue": "3.99"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Armorines: Project S.W.A.R.M.",
+      "status": "Loose",
+      "myValue": "3.52"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Army Men: Sarge's Heroes 2",
+      "status": "Loose",
+      "myValue": "6"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Disney's Tarzan",
+      "status": "Loose",
+      "myValue": "3.99"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Nickelodeon Rugrats in Paris: The Movie",
+      "status": "Loose",
+      "myValue": "2.83"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NickToons Racing",
+      "status": "Loose",
+      "myValue": "3.23"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pokémon Trading Card Game",
+      "status": "Loose",
+      "myValue": "16.8"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Link's Awakening DX",
+      "status": "Loose",
+      "myValue": "34"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Oracle of Ages",
+      "status": "Loose",
+      "myValue": "45"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Oracle of Seasons",
+      "status": "Loose",
+      "myValue": "45.43"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater",
+      "status": "Loose",
+      "myValue": "2.49"
+    },
+    {
+      "platform": "Game Boy Color",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Yars' Revenge",
+      "status": "CIB",
+      "myValue": "14.98"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Army Men: Sarge's Heroes 2",
+      "status": "Loose",
+      "myValue": "18.74"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Banjo-Kazooie",
+      "status": "Loose",
+      "myValue": "29.72"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Cruis'n USA",
+      "status": "Loose",
+      "myValue": "16.16"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Diddy Kong Racing",
+      "status": "Loose",
+      "myValue": "23.26"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Donkey Kong 64",
+      "status": "Loose",
+      "myValue": "25.5"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Extreme-G 2",
+      "status": "Loose",
+      "myValue": "10"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "F-1 World Grand Prix",
+      "status": "Loose",
+      "myValue": "2.13"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "F1 Pole Position 64",
+      "status": "Loose",
+      "myValue": "4.9"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "GoldenEye 007",
+      "status": "Loose",
+      "myValue": "22.74"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jet Force Gemini",
+      "status": "CIB+",
+      "myValue": "56.5"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jikkyou Powerful Pro Yakyuu 4",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jikkyou Powerful Pro Yakyuu 5",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kirby 64: The Crystal Shards",
+      "status": "Loose",
+      "myValue": "41.07"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Kart 64",
+      "status": "Loose",
+      "myValue": "32.6"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Paper Mario",
+      "status": "Loose",
+      "myValue": "82"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Perfect Dark",
+      "status": "Loose",
+      "myValue": "16.01"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pokemon Stadium (Japan)",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pokémon Stadium 2 (JP)",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Re-Volt",
+      "status": "Loose",
+      "myValue": "11.83"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "San Francisco Rush: Extreme Racing",
+      "status": "Loose",
+      "myValue": "9.43"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "South Park",
+      "status": "Loose",
+      "myValue": "15.34"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Fox 64",
+      "status": "Loose",
+      "myValue": "20.93"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars Episode I: Racer",
+      "status": "Loose",
+      "myValue": "8.23"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Wars: Rogue Squadron",
+      "status": "Loose",
+      "myValue": "8"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario 64",
+      "status": "Loose",
+      "myValue": "21.93"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Smash Bros.",
+      "status": "Loose",
+      "myValue": "38.97"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Majora's Mask",
+      "status": "Loose",
+      "myValue": "53.36"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "status": "Loose",
+      "myValue": "34.94"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Turok 2: Seeds of Evil",
+      "status": "Loose",
+      "myValue": "6.8"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Turok: Dinosaur Hunter",
+      "status": "Loose",
+      "myValue": "14.11"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wave Race 64",
+      "status": "Loose",
+      "myValue": "10.75"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wipeout 64",
+      "status": "Loose",
+      "myValue": "9.4"
+    },
+    {
+      "platform": "N64",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Yoshi's Story",
+      "status": "Loose",
+      "myValue": "25.5"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Donkey Kong Country",
+      "status": "Loose",
+      "myValue": "17.35"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "status": "Loose",
+      "myValue": "21.16"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "F-Zero",
+      "status": "Loose",
+      "myValue": "14.37"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fight",
+      "status": "Loose",
+      "myValue": "14.07"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gradius III",
+      "status": "Loose",
+      "myValue": "14.57"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Killer Instinct",
+      "status": "Loose",
+      "myValue": "14.01"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Fox",
+      "status": "Loose",
+      "myValue": "13.96"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Street Fighter II Turbo",
+      "status": "Loose",
+      "myValue": "18.17"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Kart",
+      "status": "Loose",
+      "myValue": "24.77"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario RPG: Legend of the Seven Stars",
+      "status": "Loose",
+      "myValue": "82.84"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario World",
+      "status": "Loose",
+      "myValue": "11.37"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario World 2: Yoshi's Island",
+      "status": "Loose",
+      "myValue": "29.25"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Metroid",
+      "status": "Loose",
+      "myValue": "83.67"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Off Road",
+      "status": "Loose",
+      "myValue": "13.5"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Off Road: The Baja",
+      "status": "Loose",
+      "myValue": "4.33"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Punch-Out!!",
+      "status": "Loose",
+      "myValue": "30"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Star Wars",
+      "status": "Loose",
+      "myValue": "12"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: A Link to the Past",
+      "status": "Loose+",
+      "myValue": "43.93"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Simpsons: Bart's Nightmare",
+      "status": "Loose",
+      "myValue": "21.65"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "U.N. Squadron",
+      "status": "Loose",
+      "myValue": "29.99"
+    },
+    {
+      "platform": "SNES",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Uniracers",
+      "status": "Loose",
+      "myValue": "17.63"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Amplitude",
+      "status": "CIB",
+      "myValue": "15.74"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bully",
+      "status": "CIB",
+      "myValue": "12"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Buzz! The Mega Quiz",
+      "status": "CIB+",
+      "myValue": "4.24"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crazy Taxi",
+      "status": "CIB",
+      "myValue": "9.93"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dark Cloud",
+      "status": "CIB",
+      "myValue": "13.62"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Devil May Cry",
+      "status": "CIB",
+      "myValue": "7.43"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Devil May Cry 3: Dante's Awakening",
+      "status": "CIB",
+      "myValue": "8.42"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Digital Hitz Factory",
+      "status": "CIB",
+      "myValue": "4.47"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "FIFA World Cup: Germany 2006",
+      "status": "CIB",
+      "myValue": "6.54"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy XII",
+      "status": "CIB",
+      "myValue": "6.4"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Frequency",
+      "status": "CIB",
+      "myValue": "10"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gauntlet: Seven Sorrows",
+      "status": "CIB",
+      "myValue": "8.3"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War",
+      "status": "CIB",
+      "myValue": "10.74"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gran Turismo 3: A-Spec",
+      "status": "CIB",
+      "myValue": "5.88"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto III",
+      "status": "CIB",
+      "myValue": "5.33"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto: Liberty City Stories",
+      "status": "CIB",
+      "myValue": "14.91"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto: San Andreas",
+      "status": "CIB",
+      "myValue": "9.32"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto: Vice City",
+      "status": "CIB",
+      "myValue": "9"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Guitar Hero",
+      "status": "CIB+",
+      "myValue": "21.23"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Guitar Hero: Aerosmith",
+      "status": "CIB",
+      "myValue": "6.76"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Guitar Hero II",
+      "status": "CIB",
+      "myValue": "7"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Guitar Hero III: Legends of Rock",
+      "status": "CIB",
+      "myValue": "8.7"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Guitar Hero Encore: Rocks the 80s",
+      "status": "CIB",
+      "myValue": "6.75"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gun",
+      "status": "CIB",
+      "myValue": "6.72"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Heroes of Might and Magic: Quest for the Dragon Bone Staff",
+      "status": "Loose",
+      "myValue": "6.1"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hitman 2: Silent Assassin",
+      "status": "CIB",
+      "myValue": "3.69"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hot Shots Golf 3",
+      "status": "CIB",
+      "myValue": "4.47"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Jak II",
+      "status": "CIB",
+      "myValue": "8.47"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Juiced 2: Hot Import Nights",
+      "status": "CIB",
+      "myValue": "10.46"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "kill.switch",
+      "status": "CIB",
+      "myValue": "6.95"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kingdom Hearts",
+      "status": "CIB",
+      "myValue": "8.04"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Marvel: Ultimate Alliance",
+      "status": "CIB",
+      "myValue": "11.53"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Max Payne",
+      "status": "CIB",
+      "myValue": "8.09"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mega Man X Collection",
+      "status": "Loose",
+      "myValue": "8.13"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Micro Machines V4",
+      "status": "CIB",
+      "myValue": "13"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Midnight Club 3: DUB Edition: Remix",
+      "status": "CIB",
+      "myValue": "19.77"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Midway Arcade Treasures",
+      "status": "CIB",
+      "myValue": "8.6"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "MTV Music Generator 2",
+      "status": "CIB",
+      "myValue": "9.95"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Namco Museum",
+      "status": "CIB",
+      "myValue": "7.88"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pirates of the Caribbean: The Legend of Jack Sparrow",
+      "status": "CIB",
+      "myValue": "5.11"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Power Drome",
+      "status": "CIB",
+      "myValue": "2.68"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ratchet & Clank: Going Commando",
+      "status": "CIB",
+      "myValue": "15.69"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ratchet & Clank: Up Your Arsenal",
+      "status": "CIB",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rise to Honor",
+      "status": "Sealed",
+      "myValue": "14.93"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Scarface: The World Is Yours",
+      "status": "CIB+",
+      "myValue": "39.99"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ski and Shoot",
+      "status": "Sealed",
+      "myValue": "5"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SOCOM 3: U.S. Navy SEALs",
+      "status": "CIB",
+      "myValue": "4.97"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SOCOM: U.S. Navy SEALs",
+      "status": "CIB",
+      "myValue": "4.42"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spy Hunter",
+      "status": "CIB",
+      "myValue": "6.07"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SSX 3",
+      "status": "CIB",
+      "myValue": "11.16"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Syphon Filter: Dark Mirror",
+      "status": "Sealed",
+      "myValue": "9.95"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Taiko Drum Master",
+      "status": "CIB+",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Taz Wanted",
+      "status": "CIB",
+      "myValue": "12.49"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tekken Tag Tournament",
+      "status": "CIB",
+      "myValue": "11.18"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tetris Worlds",
+      "status": "CIB",
+      "myValue": "5.99"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Getaway",
+      "status": "CIB",
+      "myValue": "8.52"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Lord of the Rings: Aragorn's Quest",
+      "status": "Sealed",
+      "myValue": "7.51"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Lord of the Rings: Aragorn's Quest",
+      "status": "Sealed",
+      "myValue": "7.51"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Simpsons: Road Rage",
+      "status": "CIB",
+      "myValue": "11.7"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tom Clancy's Ghost Recon",
+      "status": "CIB",
+      "myValue": "5.51"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Pro Skater 3",
+      "status": "CIB",
+      "myValue": "7.05"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tony Hawk's Project 8",
+      "status": "CIB",
+      "myValue": "8.49"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Twisted Metal: Black",
+      "status": "CIB",
+      "myValue": "11.34"
+    },
+    {
+      "platform": "PS2",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Worms 3D",
+      "status": "CIB",
+      "myValue": "11.51"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Alien vs. Predator",
+      "status": "CIB",
+      "myValue": "154.48"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Brutal Sports Football",
+      "status": "CIB",
+      "myValue": "37.44"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Cybermorph",
+      "status": "Loose+",
+      "myValue": "21.08"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Doom",
+      "status": "CIB",
+      "myValue": "75.01"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Iron Soldier",
+      "status": "CIB",
+      "myValue": "40"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wolfenstein 3D",
+      "status": "CIB",
+      "myValue": "112.83"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Angry Birds Star Wars",
+      "status": "CIB",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Animal Crossing: amiibo Festival",
+      "status": "Sealed",
+      "myValue": "14.37"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Disney Epic Mickey 2: The Power of Two",
+      "status": "CIB",
+      "myValue": "8.9"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "status": "CIB",
+      "myValue": "12.36"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Giana Sisters: Twisted Dreams - Director's Cut",
+      "status": "Sealed",
+      "myValue": "13.97"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hyrule Warriors",
+      "status": "CIB",
+      "myValue": "9.23"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "LEGO Marvel Super Heroes",
+      "status": "CIB",
+      "myValue": "6.09"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario & Sonic at the Sochi 2014 Olympic Winter Games",
+      "status": "Loose",
+      "myValue": "13.66"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mario Kart 8",
+      "status": "CIB",
+      "myValue": "12.15"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Nintendo Land",
+      "status": "CIB",
+      "myValue": "7.2"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Skylanders: SWAP Force",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic & All-Stars Racing Transformed",
+      "status": "CIB",
+      "myValue": "12.92"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Fox Guard",
+      "status": "CIB",
+      "myValue": "3.99"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Star Fox Zero",
+      "status": "CIB",
+      "myValue": "11.86"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario 3D World",
+      "status": "CIB",
+      "myValue": "12.27"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Mario Maker",
+      "status": "CIB+",
+      "myValue": "12.99"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Smash Bros. for Wii U",
+      "status": "CIB",
+      "myValue": "10.5"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "status": "CIB",
+      "myValue": "39"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: The Wind Waker HD",
+      "status": "CIB",
+      "myValue": "35.99"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Legend of Zelda: Twilight Princess HD Special Edition",
+      "status": "CIB+",
+      "myValue": "116.98"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Your Shape: Fitness Evolved 2013",
+      "status": "Sealed",
+      "myValue": "6.83"
+    },
+    {
+      "platform": "Wii U",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "ZombiU",
+      "status": "Sealed",
+      "myValue": "6.14"
+    },
+    {
+      "platform": "TG16",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Alien Crush",
+      "status": "Loose",
+      "myValue": "34.99"
+    },
+    {
+      "platform": "TG16",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dungeon Explorer",
+      "status": "Loose",
+      "myValue": "37"
+    },
+    {
+      "platform": "TG16",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Military Madness",
+      "status": "Loose",
+      "myValue": "49.99"
+    },
+    {
+      "platform": "TG16",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pac-Land",
+      "status": "CIB",
+      "myValue": "32.91"
+    },
+    {
+      "platform": "TG16",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Splatterhouse",
+      "status": "Loose",
+      "myValue": "64.69"
+    },
+    {
+      "platform": "TG16",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Takin' it to the Hoop",
+      "status": "Loose+",
+      "myValue": "14.45"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "ATV: Quad Power Racing",
+      "status": "CIB",
+      "myValue": "4.91"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Cool Boarders 4",
+      "status": "Loose",
+      "myValue": "4"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Courier Crisis",
+      "status": "Loose",
+      "myValue": "7.73"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Croc: Legend of The Gobbos",
+      "status": "CIB",
+      "myValue": "14.97"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Driver",
+      "status": "Loose",
+      "myValue": "6.5"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy IX",
+      "status": "CIB",
+      "myValue": "15.38"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy VII",
+      "status": "CIB",
+      "myValue": "40"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Final Fantasy VIII",
+      "status": "CIB",
+      "myValue": "15.5"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ford Racing",
+      "status": "CIB",
+      "myValue": "5.99"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ford Truck Mania",
+      "status": "CIB",
+      "myValue": "5.47"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Grand Theft Auto",
+      "status": "CIB",
+      "myValue": "18.77"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Metal Slug X",
+      "status": "CIB",
+      "myValue": "46.49"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Namco Museum Vol. 1",
+      "status": "Loose",
+      "myValue": "5.68"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pong",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "RC Revenge",
+      "status": "CIB",
+      "myValue": "9.33"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "South Park Rally",
+      "status": "Loose",
+      "myValue": "9.5"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spec Ops: Covert Assault",
+      "status": "Loose",
+      "myValue": "2.88"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spec Ops: Stealth Patrol",
+      "status": "Loose",
+      "myValue": "3.03"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Street Fighter Alpha 3",
+      "status": "CIB",
+      "myValue": "26.84"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tekken 2",
+      "status": "CIB",
+      "myValue": "16.6"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Granstream Saga",
+      "status": "Loose",
+      "myValue": "12.48"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tomb Raider",
+      "status": "Loose",
+      "myValue": "8.44"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Tomb Raider III Adventures of Lara Croft Collector's Edition",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "PS1",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Twisted Metal III",
+      "status": "Loose",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Army of Two",
+      "status": "CIB",
+      "myValue": "7.73"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Assassin's Creed III",
+      "status": "CIB",
+      "myValue": "3.69"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Banjo-Kazooie: Nuts & Bolts",
+      "status": "CIB",
+      "myValue": "10.55"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Battlefield: Bad Company",
+      "status": "CIB",
+      "myValue": "5.89"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Big Bumpin'",
+      "status": "CIB",
+      "myValue": "4.06"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "BioShock",
+      "status": "CIB",
+      "myValue": "5.77"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "BioShock 2",
+      "status": "CIB",
+      "myValue": "5.15"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "BioShock Infinite",
+      "status": "CIB",
+      "myValue": "3.95"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Blackwater",
+      "status": "Sealed",
+      "myValue": "9.99"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Borderlands 2",
+      "status": "CIB",
+      "myValue": "8.4"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Brütal Legend",
+      "status": "CIB",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bulletstorm",
+      "status": "CIB",
+      "myValue": "5.06"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crackdown 2",
+      "status": "Loose",
+      "myValue": "4.81"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crysis 2",
+      "status": "CIB",
+      "myValue": "5.28"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Crysis 3",
+      "status": "CIB",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dead Island",
+      "status": "CIB",
+      "myValue": "4.04"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dead Space 2",
+      "status": "CIB",
+      "myValue": "8.59"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Doom 3 BFG Edition",
+      "status": "CIB",
+      "myValue": "9.92"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dragon Age: Origins",
+      "status": "CIB",
+      "myValue": "7.78"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Duke Nukem Forever",
+      "status": "CIB",
+      "myValue": "5.15"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fable II",
+      "status": "CIB",
+      "myValue": "10.16"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fable III",
+      "status": "CIB",
+      "myValue": "4.51"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Far Cry Instincts: Predator",
+      "status": "CIB",
+      "myValue": "16.36"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Farcry 4: Limited Edition",
+      "status": "CIB",
+      "myValue": "8"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Fist of the North Star: Ken's Rage 2",
+      "status": "Loose",
+      "myValue": "21.3"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Forza Motorsport 3",
+      "status": "CIB",
+      "myValue": "7"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Forza Motorsport 4",
+      "status": "CIB",
+      "myValue": "8.66"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gears of War",
+      "status": "CIB",
+      "myValue": "6.93"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gears of War 2",
+      "status": "CIB",
+      "myValue": "4.22"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gears of War 3",
+      "status": "CIB",
+      "myValue": "3.89"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "GRID",
+      "status": "CIB",
+      "myValue": "6.98"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo 3 - Limited Edition",
+      "status": "CIB",
+      "myValue": "18.12"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo 3: ODST",
+      "status": "CIB",
+      "myValue": "7.24"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo 4",
+      "status": "CIB",
+      "myValue": "4.02"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo Wars",
+      "status": "CIB",
+      "myValue": "5.75"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Halo: Reach",
+      "status": "CIB",
+      "myValue": "7.21"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kinect Sports: Season Two",
+      "status": "CIB",
+      "myValue": "7.5"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "L.A. Noire",
+      "status": "CIB",
+      "myValue": "5.28"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Marvel vs. Capcom 3: Fate of Two Worlds",
+      "status": "CIB",
+      "myValue": "10.74"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mass Effect",
+      "status": "CIB",
+      "myValue": "6.12"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mass Effect 2",
+      "status": "CIB",
+      "myValue": "5.13"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mass Effect 3",
+      "status": "CIB",
+      "myValue": "4.78"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Minute to Win It",
+      "status": "Sealed",
+      "myValue": "6.44"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mirror's Edge",
+      "status": "CIB",
+      "myValue": "6.63"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Mortal Kombat: Komplete Edition",
+      "status": "CIB",
+      "myValue": "10.95"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "NBA 2K9",
+      "status": "CIB",
+      "myValue": "4.24"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Payday 2",
+      "status": "Loose",
+      "myValue": "5.15"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Perfect Dark Zero",
+      "status": "CIB",
+      "myValue": "5.86"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Rage",
+      "status": "CIB",
+      "myValue": "4.9"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Red Dead Redemption: Game of the Year Edition",
+      "status": "CIB",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "skate.",
+      "status": "CIB",
+      "myValue": "6.99"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Skate 2",
+      "status": "CIB",
+      "myValue": "10"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Skate 3",
+      "status": "CIB",
+      "myValue": "8.3"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "South Park: The Stick of Truth",
+      "status": "CIB",
+      "myValue": "5.87"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Splatterhouse",
+      "status": "CIB",
+      "myValue": "44"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Street Fighter IV",
+      "status": "CIB",
+      "myValue": "6.99"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "The Orange Box",
+      "status": "CIB",
+      "myValue": "16.19"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "You Don't Know Jack",
+      "status": "CIB",
+      "myValue": "3.6"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Buzz! Master Quiz",
+      "status": "Sealed",
+      "myValue": "5.52"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Chessmaster: The Art of Learning",
+      "status": "Loose",
+      "myValue": "4.56"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Daxter",
+      "status": "Sealed",
+      "myValue": "16.94"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War: Chains of Olympus",
+      "status": "CIB",
+      "myValue": "15.96"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "God of War: Ghost of Sparta",
+      "status": "Loose",
+      "myValue": "19.02"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hot Shots Golf: Open Tee",
+      "status": "Sealed",
+      "myValue": "5.49"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Hot Shots Golf: Open Tee",
+      "status": "Sealed",
+      "myValue": "5.49"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Killzone: Liberation",
+      "status": "CIB",
+      "myValue": "5.25"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Lumines: Puzzle Fusion",
+      "status": "Loose",
+      "myValue": "4.15"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "MediEvil: Resurrection",
+      "status": "Loose",
+      "myValue": "12.71"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Monster Hunter Portable 3rd",
+      "status": "CIB",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "MotorStorm: Arctic Edge",
+      "status": "Sealed",
+      "myValue": "11.95"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Ratchet & Clank: Size Matters",
+      "status": "CIB",
+      "myValue": "10.22"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Secret Agent Clank",
+      "status": "Sealed",
+      "myValue": "13"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sega Genesis Collection",
+      "status": "Loose",
+      "myValue": "13.38"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SOCOM: U.S. Navy SEALs Fireteam Bravo",
+      "status": "Sealed",
+      "myValue": "4.93"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "SOCOM: U.S. Navy SEALs Fireteam Bravo",
+      "status": "Sealed",
+      "myValue": "4.93"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Sonic Rivals",
+      "status": "CIB",
+      "myValue": "14.2"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Syphon Filter: Dark Mirror",
+      "status": "Sealed",
+      "myValue": "12.95"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Syphon Filter: Logan's Shadow",
+      "status": "Sealed",
+      "myValue": "7.21"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Twisted Metal: Head-On",
+      "status": "Boxed",
+      "myValue": "11.7"
+    },
+    {
+      "platform": "PSP",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Wipeout Pure",
+      "status": "CIB",
+      "myValue": "5"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Asteroids",
+      "status": "Loose",
+      "myValue": "4.07"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Berzerk",
+      "status": "Loose",
+      "myValue": "4.59"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Bowling",
+      "status": "Loose",
+      "myValue": "4.84"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Artillery Duel & Chuck Norris Superkicks",
+      "status": "Loose",
+      "myValue": "-1.0"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Combat",
+      "status": "Loose",
+      "myValue": "2.14"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Defender",
+      "status": "Loose",
+      "myValue": "2.79"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Demon Attack",
+      "status": "Loose",
+      "myValue": "4.86"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Dig Dug",
+      "status": "Loose",
+      "myValue": "9.02"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Football",
+      "status": "Loose",
+      "myValue": "3.64"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Frogger",
+      "status": "Loose",
+      "myValue": "9.36"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Gunslinger",
+      "status": "Loose",
+      "myValue": "5.61"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Kangaroo",
+      "status": "Loose",
+      "myValue": "3.14"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Missile Command",
+      "status": "Loose",
+      "myValue": "4.06"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Outlaw",
+      "status": "Loose",
+      "myValue": "3.89"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pac-Man",
+      "status": "Loose",
+      "myValue": "5"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Pitfall!",
+      "status": "Loose",
+      "myValue": "10.47"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Space Invaders",
+      "status": "Loose",
+      "myValue": "4"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Spider-Man",
+      "status": "Loose",
+      "myValue": "7.95"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Super Breakout",
+      "status": "Loose",
+      "myValue": "3.35"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Video Olympics",
+      "status": "Loose",
+      "myValue": "4.38"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Video Pinball",
+      "status": "Loose",
+      "myValue": "5"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "VideoGame",
+      "quantity": "1",
+      "title": "Yars' Revenge",
+      "status": "Loose",
+      "myValue": "4.5"
+    }
+  ],
+  "accessories": [
+    {
+      "platform": "Saturn",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Action Replay",
+      "status": "CIB",
+      "myValue": "37.67"
+    },
+    {
+      "platform": "Saturn",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Backup RAM Cart",
+      "status": "Loose",
+      "myValue": "35.53"
+    },
+    {
+      "platform": "Saturn",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Saturn Controller",
+      "status": "Loose",
+      "myValue": "20.05"
+    },
+    {
+      "platform": "Saturn",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Saturn Controller",
+      "status": "Loose",
+      "myValue": "20.05"
+    },
+    {
+      "platform": "Genesis",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Genesis 3 Button Controller",
+      "status": "Loose",
+      "myValue": "14.69"
+    },
+    {
+      "platform": "Genesis",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Genesis 3 Button Controller",
+      "status": "Loose",
+      "myValue": "14.69"
+    },
+    {
+      "platform": "Genesis",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Genesis 6 Button Controller",
+      "status": "Loose",
+      "myValue": "21.95"
+    },
+    {
+      "platform": "Genesis",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Genesis 6 Button Controller",
+      "status": "Loose",
+      "myValue": "21.95"
+    },
+    {
+      "platform": "Master System",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Control Stick",
+      "status": "Loose",
+      "myValue": "9.08"
+    },
+    {
+      "platform": "Master System",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Light Phaser Gun",
+      "status": "Loose",
+      "myValue": "29.64"
+    },
+    {
+      "platform": "Master System",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Master System Controller",
+      "status": "Loose",
+      "myValue": "24.08"
+    },
+    {
+      "platform": "Master System",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Master System Controller",
+      "status": "Loose",
+      "myValue": "24.08"
+    },
+    {
+      "platform": "PS3",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Dualshock 3 Controller Black",
+      "status": "Loose",
+      "myValue": "23.79"
+    },
+    {
+      "platform": "PS3",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Dualshock 3 Controller Black",
+      "status": "Loose",
+      "myValue": "23.79"
+    },
+    {
+      "platform": "PS3",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation 3 Wireless Sixaxis Controller",
+      "status": "Loose",
+      "myValue": "28.36"
+    },
+    {
+      "platform": "PS3",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation Eye for PS3",
+      "status": "Loose",
+      "myValue": "3"
+    },
+    {
+      "platform": "PS3",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "PS3 Blu-ray Disc Remote Control",
+      "status": "Loose",
+      "myValue": "18.67"
+    },
+    {
+      "platform": "PS3",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sony Bluetooth Headset",
+      "status": "Loose",
+      "myValue": "13.99"
+    },
+    {
+      "platform": "3DO",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "3DO Controller",
+      "status": "Loose",
+      "myValue": "36.14"
+    },
+    {
+      "platform": "3DO",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "3DO Controller",
+      "status": "CIB",
+      "myValue": "36.57"
+    },
+    {
+      "platform": "3DO",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "3DO Controller",
+      "status": "Loose",
+      "myValue": "36.14"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii Nunchuk [Black]",
+      "status": "Loose",
+      "myValue": "8.19"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii Nunchuk [Black]",
+      "status": "Loose",
+      "myValue": "8.19"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Red Mario Wii Remote",
+      "status": "Loose",
+      "myValue": "32.65"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Red Mario Wii Remote",
+      "status": "Loose",
+      "myValue": "32.65"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii Classic Controller",
+      "status": "Loose",
+      "myValue": "22.51"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii HD Component Cable",
+      "status": "Loose",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii Nunchuk [White]",
+      "status": "Loose",
+      "myValue": "10.02"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii Nunchuk [White]",
+      "status": "Loose",
+      "myValue": "10.02"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "White Wii Remote",
+      "status": "Loose",
+      "myValue": "10.03"
+    },
+    {
+      "platform": "Wii",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii Zapper with Link's Crossbow Training",
+      "status": "Loose",
+      "myValue": "14.64"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "16MB 251 Block Memory Card",
+      "status": "Loose",
+      "myValue": "13.7"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black Controller",
+      "status": "Loose",
+      "myValue": "27.18"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black Controller",
+      "status": "Loose",
+      "myValue": "27.18"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Bongo Controller",
+      "status": "Loose",
+      "myValue": "39.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Bongo Controller",
+      "status": "Loose",
+      "myValue": "39.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Gameboy Player with Startup Disc",
+      "status": "Boxed",
+      "myValue": "244.25"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Gamecube AV Cable",
+      "status": "Loose",
+      "myValue": "12.95"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Orange Nintendo Brand Controller",
+      "status": "Loose",
+      "myValue": "35.87"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Platinum Wavebird Wireless Controller",
+      "status": "Loose",
+      "myValue": "64.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Platinum Wavebird Wireless Controller",
+      "status": "Loose",
+      "myValue": "64.99"
+    },
+    {
+      "platform": "GameCube",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wavebird Wireless Controller",
+      "status": "Loose",
+      "myValue": "59.93"
+    },
+    {
+      "platform": "Atari 5200",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari 5200 Controller",
+      "status": "Loose",
+      "myValue": "26.58"
+    },
+    {
+      "platform": "PS4",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation 4 Dualshock 4 Black Controller",
+      "status": "Loose",
+      "myValue": "25.01"
+    },
+    {
+      "platform": "PS4",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation 4 Dualshock 4 Blue Controller",
+      "status": "Loose",
+      "myValue": "28.29"
+    },
+    {
+      "platform": "PS4",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation 4 Dualshock 4 Urban Camo Controller",
+      "status": "Loose",
+      "myValue": "25.57"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "4x Memory Card",
+      "status": "Loose",
+      "myValue": "54.52"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Dreamcast Controller",
+      "status": "Boxed",
+      "myValue": "35.66"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Dreamcast Controller",
+      "status": "Loose",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Sega Dreamcast Controller",
+      "status": "Loose",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "Dreamcast",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Visual Memory Unit (VMU)",
+      "status": "Loose",
+      "myValue": "28.16"
+    },
+    {
+      "platform": "Xbox",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Duke Controller",
+      "status": "Loose",
+      "myValue": "10.9"
+    },
+    {
+      "platform": "Xbox",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black S Type Controller",
+      "status": "Loose",
+      "myValue": "19.9"
+    },
+    {
+      "platform": "Xbox",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Green S Type Controller",
+      "status": "Loose",
+      "myValue": "23.84"
+    },
+    {
+      "platform": "Xbox",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Green S Type Controller",
+      "status": "Loose",
+      "myValue": "23.84"
+    },
+    {
+      "platform": "Switch",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Joy-Con Neon Red & Neon Blue",
+      "status": "Loose",
+      "myValue": "38.07"
+    },
+    {
+      "platform": "Switch",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Joy-Con Neon Red & Neon Blue",
+      "status": "Loose",
+      "myValue": "38.07"
+    },
+    {
+      "platform": "Switch",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo Switch Pro Controller",
+      "status": "Loose",
+      "myValue": "32.77"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Xbox One Black Wireless Controller",
+      "status": "Loose",
+      "myValue": "32.38"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Xbox One Black Wireless Controller",
+      "status": "Loose",
+      "myValue": "32.38"
+    },
+    {
+      "platform": "Xbox One",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Xbox One Black Wireless Controller",
+      "status": "CIB",
+      "myValue": "38.19"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari 7800 Controller",
+      "status": "Loose",
+      "myValue": "20.99"
+    },
+    {
+      "platform": "Atari 7800",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari 7800 Controller",
+      "status": "Loose",
+      "myValue": "20.99"
+    },
+    {
+      "platform": "NES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo NES Classic Edition Controller",
+      "status": "Loose",
+      "myValue": "11.45"
+    },
+    {
+      "platform": "NES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo NES Classic Edition Controller",
+      "status": "Loose",
+      "myValue": "11.45"
+    },
+    {
+      "platform": "NES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo NES Controller",
+      "status": "Loose",
+      "myValue": "11.59"
+    },
+    {
+      "platform": "NES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo NES Controller",
+      "status": "Loose",
+      "myValue": "11.59"
+    },
+    {
+      "platform": "NES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo NES Controller",
+      "status": "Loose",
+      "myValue": "11.59"
+    },
+    {
+      "platform": "NES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Zapper Light Gun",
+      "status": "Loose",
+      "myValue": "15.99"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "24 Game Organizer",
+      "status": "Loose",
+      "myValue": "34.2"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atomic Purple Controller",
+      "status": "Loose",
+      "myValue": "25.01"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Expansion Pak",
+      "status": "Loose",
+      "myValue": "45"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Grape Purple Controller",
+      "status": "Loose",
+      "myValue": "50.05"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Gray Controller",
+      "status": "Loose",
+      "myValue": "12.81"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Ice Blue Controller",
+      "status": "Loose",
+      "myValue": "41.54"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Jumper Pak",
+      "status": "Loose",
+      "myValue": "7.05"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "N64 Memory Card",
+      "status": "Loose",
+      "myValue": "10.84"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "N64 Memory Card",
+      "status": "Loose",
+      "myValue": "10.84"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Nintendo 64 AV Cable",
+      "status": "Loose",
+      "myValue": "12.99"
+    },
+    {
+      "platform": "N64",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Rumble Pak",
+      "status": "Loose",
+      "myValue": "18.53"
+    },
+    {
+      "platform": "SNES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "SNES AV Cable",
+      "status": "Loose",
+      "myValue": "15.91"
+    },
+    {
+      "platform": "SNES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Super Nintendo Controller",
+      "status": "Loose",
+      "myValue": "17"
+    },
+    {
+      "platform": "SNES",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Super Nintendo Controller",
+      "status": "Loose",
+      "myValue": "17"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "8MB Memory Card",
+      "status": "Loose",
+      "myValue": "8.91"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black Dual Shock Controller",
+      "status": "Loose",
+      "myValue": "19.26"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black Dual Shock Controller",
+      "status": "Loose",
+      "myValue": "19.26"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Blue Dual Shock Controller",
+      "status": "Loose",
+      "myValue": "13.63"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Horizontal Console Stand",
+      "status": "Loose",
+      "myValue": "33.87"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "MultiTap Controller Adaptor",
+      "status": "Loose",
+      "myValue": "9.38"
+    },
+    {
+      "platform": "PS2",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation 2 AV Cable",
+      "status": "Loose",
+      "myValue": "4.98"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari Jaguar Controller",
+      "status": "CIB",
+      "myValue": "45.01"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari Jaguar Controller",
+      "status": "Loose",
+      "myValue": "20"
+    },
+    {
+      "platform": "Jaguar",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari Jaguar Controller",
+      "status": "Loose",
+      "myValue": "20"
+    },
+    {
+      "platform": "Wii U",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Gamecube Controller Adapter",
+      "status": "Loose",
+      "myValue": "32.17"
+    },
+    {
+      "platform": "Wii U",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Wii U Pro Controller Black",
+      "status": "Loose",
+      "myValue": "29.77"
+    },
+    {
+      "platform": "TG16",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Turbo Tap",
+      "status": "Loose",
+      "myValue": "35"
+    },
+    {
+      "platform": "PS1",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "MultiTap Adaptor",
+      "status": "Loose",
+      "myValue": "12.99"
+    },
+    {
+      "platform": "PS1",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Playstation 1 Original Controller",
+      "status": "Loose",
+      "myValue": "14.91"
+    },
+    {
+      "platform": "PS1",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "White Dual Shock Controller",
+      "status": "Loose",
+      "myValue": "17.2"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black Xbox 360 Wireless Controller",
+      "status": "Loose",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Black Xbox 360 Wireless Controller",
+      "status": "Loose",
+      "myValue": "19.99"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Kinect Sensor",
+      "status": "Loose",
+      "myValue": "17.58"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "500GB Media Drive",
+      "status": "Loose",
+      "myValue": "31.88"
+    },
+    {
+      "platform": "Xbox 360",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Xbox 360 Chatpad Keyboard",
+      "status": "Loose",
+      "myValue": "7.3"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari 2600 Joystick",
+      "status": "Loose",
+      "myValue": "16.99"
+    },
+    {
+      "platform": "Atari 2600",
+      "type": "Peripheral",
+      "quantity": "1",
+      "title": "Atari 2600 Paddle Controller Set",
+      "status": "Loose",
+      "myValue": "17.55"
+    }
+  ],
+  "collectibles": [
+    {
+      "platform": "amiibo",
+      "type": "Toys To Life",
+      "quantity": "1",
+      "title": "Link - 8 Bit",
+      "status": "Loose",
+      "myValue": "22.86"
+    },
+    {
+      "platform": "amiibo",
+      "type": "Toys To Life",
+      "quantity": "1",
+      "title": "Link - Link's Awakening",
+      "status": "Sealed",
+      "myValue": "19.36"
+    },
+    {
+      "platform": "amiibo",
+      "type": "Toys To Life",
+      "quantity": "1",
+      "title": "Link - Majora's Mask",
+      "status": "Loose",
+      "myValue": "29.97"
+    },
+    {
+      "platform": "amiibo",
+      "type": "Toys To Life",
+      "quantity": "1",
+      "title": "Link - Wolf",
+      "status": "Boxed",
+      "myValue": "46.5"
+    }
+  ],
+  "other": [
+    {
+      "platform": "Platform",
+      "type": "Type",
+      "quantity": "Owned",
+      "title": "Title",
+      "status": "Ownership",
+      "myValue": "YourPrice"
+    }
+  ]
+}

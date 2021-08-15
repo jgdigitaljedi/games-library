@@ -178,10 +178,6 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                       <td className='table-cat'>Physical/Digital/BC</td>
                       <td>{helpersService.physicalDigitalBcText(game)}</td>
                     </tr>
-                    <tr>
-                      <td className='table-cat'>First Released</td>
-                      <td>{game.first_release_date}</td>
-                    </tr>
                   </tbody>
                 </table>
               </div>

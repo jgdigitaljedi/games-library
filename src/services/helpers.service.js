@@ -98,7 +98,14 @@ export default {
       box: false,
       cib: false,
       createdAt: '',
-      updatedAt: ''
+      updatedAt: '',
+      gameEye: {
+        platform: null,
+        type: 'Peripheral',
+        title: '',
+        status: null,
+        myValue: null
+      }
     };
   },
   physicalDigitalBc: game => {

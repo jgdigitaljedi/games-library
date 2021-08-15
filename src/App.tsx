@@ -1,7 +1,7 @@
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/luna-blue/theme.css';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Provider } from 'react-redux';
 import store from './store';
@@ -17,7 +17,7 @@ import UrlService from './services/url.service';
 import GalleryComponent from './Gallery';
 import { NotificationContextProvider } from './context/NotificationContext';
 import NotificationWrapper from './NotificationWrapper';
-import ItemsContext, { IItems } from './context/ItemsContext';
+import ItemsContext from './context/ItemsContext';
 import { getItems } from './services/generalCrud.service';
 
 declare global {

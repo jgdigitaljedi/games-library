@@ -1,6 +1,7 @@
 const db = require('../../../../db');
 const _uniq = require('lodash/uniq');
 const bc = require('../../../../extra/backwardCompatible');
+const moment = require('moment');
 
 function getGameNotes(cons) {
   return cons
@@ -48,6 +49,12 @@ module.exports.combine = function () {
                 handheld: game.handheld,
                 location: game.location
               });
+              if (
+                !acc[ind]?.consoleArr[accCurrentConsoleId]?.isBc &&
+                moment(game.datePurchased).isAfter(acc[ind].datePurchased)
+              ) {
+                acc[ind].datePurchased = game.datePurchased;
+              }
             }
             const xbBc = bc.xboxBcCheck(id, game.consoleId === 11);
             xbBc.forEach(c => acc[ind].consoleArr.push(c));

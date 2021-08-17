@@ -177,3 +177,11 @@ export const consoleGenerationNames = {
   8: 'Eighth Gen',
   UNKNOWN: 'UNKNOWN'
 };
+
+export const conditionOptionsArr = [
+  { label: 'Excellent', value: 'Excellent' },
+  { label: 'Good', value: 'Good' },
+  { label: 'Fair', value: 'Fair' },
+  { label: 'Poor', value: 'Poor' },
+  { label: 'Other', value: 'Other' }
+];

@@ -5,9 +5,12 @@ const required = helper.accRequiredFields();
 
 module.exports.save = function (acc) {
   return new Promise((resolve, reject) => {
+    console.log('acc', JSON.stringify(acc, null, 2));
     const now = helper.timeStamp();
     acc.createdAt = now;
     acc.updatedAt = now;
+    acc.quantity = parseInt(acc.quantity);
+    acc.pricePaid = acc.pricePaid ? parseFloat(acc.pricePaid) : null;
     helper
       .validate(acc, required)
       .then(missing => {
@@ -19,6 +22,7 @@ module.exports.save = function (acc) {
             reject(error);
           }
         } else {
+          console.log('missing***********', missing);
           reject({
             missing: true,
             message: `Your accessory save request is missing the following required keys: ${missing.join(

@@ -188,6 +188,7 @@ module.exports.editConsole = function (req, res) {
  *********************************************/
 
 module.exports.saveAcc = function (req, res) {
+  console.log('*****req.body*******', req.body);
   if (req.body && req.body.hasOwnProperty('acc')) {
     accCrud
       .save(req.body.acc)

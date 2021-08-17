@@ -17,7 +17,11 @@ import { IAcc } from '@/models/accessories.model';
 import { accessoryTypeArr } from '@/constants';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
 import ItemsContext, { IPlatformsWithId } from '@/context/ItemsContext';
-import HelpersService from '../../../services/helpers.service';
+import HelpersService, { conditionOptionsArr } from '../../../services/helpers.service';
+import moment from 'moment';
+import { cloneDeep as _cloneDeep } from 'lodash';
+import { NotificationContext } from '@/context/NotificationContext';
+import { saveAcc } from '@/services/accCrud.service';
 
 interface IProps {
   acc: IAcc;
@@ -31,6 +35,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
   const yearRange = `2000:${new Date().getFullYear()}`;
+  const [notify, setNotify] = useContext(NotificationContext);
 
   const platformsWithId = useMemo(() => {
     return IContext.platformsWithId.map((platform: IPlatformsWithId) => {
@@ -45,7 +50,6 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
       setAccForm(newState);
     }
   };
-  console.log('accForm', accForm);
 
   const handleDropdown = useCallback(
     (e: any, which: string) => {
@@ -65,13 +69,36 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
     }
   }, [acc, setAddMode]);
 
+  const isUpdate = useCallback(() => {
+    return !addMode && accForm?.hasOwnProperty('_id');
+  }, [addMode, accForm]);
+
   const updateAcc = useCallback(() => {
     closeConfirmation();
-    // make save call
-    // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
-    console.log('accForm in save', accForm);
-    closeDialog(accForm?.name);
-  }, [accForm, closeConfirmation, closeDialog]);
+    const accCopy = _cloneDeep(accForm);
+    const isPatch = isUpdate();
+    console.log('isPatch', isPatch);
+    if (!accCopy) {
+      setNotify({
+        severity: 'error',
+        detail: 'Empty of incomplete data for accessory to be saved.',
+        summary: 'ERROR'
+      });
+      return;
+    }
+    if (!isPatch) {
+      accCopy.purchaseDate = moment(accForm?.newPurchaseDate).format('YYYY-MM-DD');
+    }
+    delete accCopy.newPurchaseDate;
+    saveAcc(accCopy, isPatch)
+      .then(result => {
+        closeDialog(accForm?.name, true, 'added');
+      })
+      .catch(error => {
+        console.log('save acc error', error);
+        closeDialog(accForm?.name, false, 'added');
+      });
+  }, [accForm, closeConfirmation, closeDialog, isUpdate, setNotify]);
 
   const resetAccForm = useCallback(() => {
     // @ts-ignore
@@ -113,6 +140,16 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
               onChange={e => handleDropdown(e, 'type')}
               attr-which='type'
               id='type'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='condition'>Condition</label>
+            <Dropdown
+              value={accForm?.condition}
+              options={conditionOptionsArr}
+              onChange={e => handleDropdown(e, 'condition')}
+              attr-which='condition'
+              id='condition'
             />
           </div>
           <div className='crud-form--form__row'>

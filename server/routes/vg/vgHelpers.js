@@ -103,18 +103,27 @@ module.exports.gamesRequiredFields = function () {
 module.exports.accRequiredFields = function () {
   return [
     { key: 'name', required: true, type: 'string' },
-    { key: 'forConsoleName', required: true, type: 'string' },
-    { key: 'forConsoleId', required: false },
+    { key: 'associatedConsole.consoleName', required: true, type: 'string' },
+    { key: 'associatedConsole.consoleId', required: false },
     { key: 'image', required: false },
     { key: 'company', required: false },
+    { key: 'quantity', required: true, type: 'number' },
     { key: 'type', required: true, type: 'string' },
     { key: 'notes', required: false },
     { key: 'pricePaid', required: false },
     { key: 'purchaseDate', required: false },
     { key: 'howAcquired', required: false },
+    { key: 'condition', required: true, type: 'string' },
+    { key: 'box', required: true, type: 'boolean' },
+    { key: 'cib', required: true, type: 'boolean' },
     { key: 'officialLicensed', required: false },
     { key: 'createdAt', required: true, type: 'string' },
-    { key: 'updatedAt', required: true, type: 'string' }
+    { key: 'updatedAt', required: true, type: 'string' },
+    { key: 'gameEye.platform', required: false },
+    { key: 'gameEye.type', required: false },
+    { key: 'gameEye.title', required: false },
+    { key: 'gameEye.status', required: false },
+    { key: 'gameEye.myValue', required: false }
   ];
 };
 

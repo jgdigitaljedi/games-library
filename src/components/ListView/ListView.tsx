@@ -2,7 +2,6 @@ import React, { FunctionComponent } from 'react';
 import { IConsole } from '@/models/platforms.model';
 import { IGame } from '@/models/games.model';
 import { flatten as _flatten, get as _get, uniq as _uniq } from 'lodash';
-import { consoleGenerationYears } from '@/services/helpers.service';
 
 interface IProps {
   data: IGame[] | IConsole[];

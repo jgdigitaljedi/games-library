@@ -185,3 +185,132 @@ export const conditionOptionsArr = [
   { label: 'Poor', value: 'Poor' },
   { label: 'Other', value: 'Other' }
 ];
+
+export const gameCaseSubTypes = [
+  {
+    label: 'Bitbox',
+    value: 'bitbox',
+    custom: true,
+    original: false,
+    none: false,
+    consoleIds: [18, 19, 33, 22, 24, 4, 35, 30, 64, 29, 86]
+  },
+  {
+    label: 'Universal Game Case',
+    value: 'ugc',
+    custom: true,
+    original: false,
+    none: false,
+    consoleIds: [59, 66, 60, 62, 67, 4, 18, 30, 64, 29, 19]
+  },
+  {
+    label: 'DVD Case',
+    value: 'dvd',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86]
+  },
+  {
+    label: 'CD Case',
+    value: 'cd',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86]
+  },
+  {
+    label: '3DS/DS Case',
+    value: 'ds',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [33, 24, 22, 37, 20, 35]
+  },
+  { label: 'PSP Case', value: 'psp', custom: true, original: true, none: false, consoleIds: [38] },
+  {
+    label: 'Long Box',
+    value: 'longbox',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [7, 78, 32]
+  },
+  {
+    label: 'Cart Shell/Disc Sleeve',
+    value: 'shell',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [18, 19]
+  },
+  {
+    label: 'None/Loose',
+    value: 'none',
+    custom: true,
+    original: true,
+    none: true,
+    consoleIds: [
+      50, 59, 66, 60, 62, 23, 33, 24, 22, 67, 37, 4, 20, 18, 21, 130, 6, 7, 8, 9, 48, 38, 30, 78,
+      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49
+    ]
+  },
+  {
+    label: 'Gen/32X/MS Case',
+    value: 'sega',
+    custom: false,
+    original: true,
+    none: false,
+    consoleIds: [30, 64, 29]
+  },
+  {
+    label: 'BluRay Case',
+    value: 'bluray',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86]
+  },
+  {
+    label: 'Switch Case',
+    value: 'switch',
+    custom: false,
+    original: true,
+    none: false,
+    consoleIds: [130]
+  },
+  {
+    label: 'Xbox One Case',
+    value: 'xbone',
+    custom: false,
+    original: true,
+    none: false,
+    consoleIds: [49]
+  }
+];
+
+export const filterCaseTypesByMainType = (type, filteredTypes) => {
+  return filteredTypes.filter(ct => ct[type]) || [];
+};
+
+export const filterCaseTypesByConsole = consoleId => {
+  return gameCaseSubTypes.filter(t => t.consoleIds.indexOf(consoleId) >= 0) || [];
+};
+
+export const gameMediaType = [
+  {
+    label: 'Cartridge',
+    value: 'cart',
+    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19]
+  },
+  { label: 'Disc', value: 'disc', consoleIds: [50, 21, 7, 8, 9, 48, 78, 32, 5, 41, 11, 12, 49] },
+  { label: 'Card', value: 'card', consoleIds: [130, 64, 86] },
+  { label: 'UMD', value: 'umd', consoleIds: [38] },
+  { label: 'Digital', value: 'digital', consoleIds: [37, 20, 6, 8, 9, 48, 38, 5, 41, 11, 12, 49] },
+  {
+    label: 'Flashcart',
+    value: 'flashcart',
+    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19, 86]
+  },
+  { label: 'ODE', value: 'ode', consoleIds: [21, 7, 8, 78, 32] }
+];

@@ -9,7 +9,10 @@ import { Dropdown } from 'primereact/dropdown';
 import { Button } from 'primereact/button';
 import { AutoComplete } from 'primereact/autocomplete';
 import { cloneDeep as _cloneDeep, set as _set, find as _find } from 'lodash';
-import HelpersService from '../../../services/helpers.service';
+import HelpersService, {
+  filterCaseTypesByConsole,
+  gameCaseSubTypes
+} from '../../../services/helpers.service';
 import { handleChange } from '@/services/forms.service';
 import { igdbGameSearch, saveGame } from '@/services/gamesCrud.service';
 import { getPlatformsWithIds } from '@/services/platformsCrud.service';
@@ -47,9 +50,9 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   const [igdbGames, setIgdbGames] = useState<any[]>();
   const [platformIdArr, setPlatformIdArr] = useState<any>();
   const [searchPlatform, setSearchPlatform] = useState<any>();
-  const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
   const [fuzzySearch, setFuzzySearch] = useState(false);
   const [vrStatus, setVrStatus] = useState<string>('');
+  const [caseSubTypes, setCaseSubTypes] = useState<any>(gameCaseSubTypes);
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const caseOptions = [
@@ -169,7 +172,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     closeConfirmation();
     if (e?.value) {
       const game = e.value;
-      setSelectedFromSearch(game);
+      // setSelectedFromSearch(game);
       const gfCopy = _cloneDeep(gameForm);
       setGameForm(Object.assign(gfCopy, game));
     }
@@ -182,8 +185,8 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
       gfCopy.consoleName = name.label;
       setGameForm(gfCopy);
     }
-
     setSearchPlatform(e.value);
+    setCaseSubTypes(filterCaseTypesByConsole(e.value));
   };
 
   const vrChange = (e: any) => {
@@ -499,6 +502,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
               onChange={e => handleDropdown(e, 'case')}
               attr-which='case'
               id='case'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='caseType'>Case Type</label>
+            <Dropdown
+              value={gameForm?.caseType}
+              options={caseSubTypes}
+              onChange={e => handleDropdown(e, 'caseType')}
+              attr-which='caseType'
+              id='caseType'
             />
           </div>
           <div className='crud-form--form__row'>

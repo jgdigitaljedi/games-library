@@ -65,6 +65,51 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     setShowDeleteConfirmation(false);
   };
 
+  const getData = useCallback(async () => {
+    closeConfirmation();
+    let url = '';
+    switch (props.viewWhat) {
+      case 'games':
+        url = `${window.urlPrefix}/api/vg/games`;
+        break;
+      case 'consoles':
+        url = `${window.urlPrefix}/api/vg/consoles`;
+        break;
+      case 'accessories':
+        url = `${window.urlPrefix}/api/vg/acc`;
+        break;
+      case 'clones':
+        url = `${window.urlPrefix}/api/vg/clones`;
+        break;
+      case 'collectibles':
+        url = `${window.urlPrefix}/api/vg/collectibles`;
+        break;
+      case 'hardware':
+        url = `${window.urlPrefix}/api/vg/hardware`;
+        break;
+    }
+    const result = await axios.get(url);
+    if (props && props.setMasterData && props.setFilteredData) {
+      if (result?.data) {
+        // inserting another conditional here because data massaging needs to happen now that backend is simplified a bit
+        let parsedResults;
+        if (props?.viewWhat === 'games') {
+          parsedResults = cleanupGames(result.data);
+        } else {
+          parsedResults = result.data;
+        }
+        props.setMasterData(parsedResults);
+        props.setFilteredData(parsedResults);
+      } else {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to fetch data for library view!',
+          summary: 'ERROR'
+        });
+      }
+    }
+  }, [props, setNotify]);
+
   if (view !== viewWhat) {
     setView(viewWhat);
     getData();
@@ -110,6 +155,9 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
 
   const closeDialog = useCallback(
     async (name: string, success: boolean, action: string) => {
+      async function hookedGetData() {
+        await getData();
+      }
       closeConfirmation();
       hookedGetData();
       if (name && success) {
@@ -135,57 +183,8 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       setSelectedItem(null);
       setShowModal(false);
     },
-    [setShowModal, setNotify]
+    [setShowModal, setNotify, getData]
   );
-
-  async function getData() {
-    closeConfirmation();
-    let url = '';
-    switch (props.viewWhat) {
-      case 'games':
-        url = `${window.urlPrefix}/api/vg/games`;
-        break;
-      case 'consoles':
-        url = `${window.urlPrefix}/api/vg/consoles`;
-        break;
-      case 'accessories':
-        url = `${window.urlPrefix}/api/vg/acc`;
-        break;
-      case 'clones':
-        url = `${window.urlPrefix}/api/vg/clones`;
-        break;
-      case 'collectibles':
-        url = `${window.urlPrefix}/api/vg/collectibles`;
-        break;
-      case 'hardware':
-        url = `${window.urlPrefix}/api/vg/hardware`;
-        break;
-    }
-    const result = await axios.get(url);
-    if (props && props.setMasterData && props.setFilteredData) {
-      if (result?.data) {
-        // inserting another conditional here because data massaging needs to happen now that backend is simplified a bit
-        let parsedResults;
-        if (props?.viewWhat === 'games') {
-          parsedResults = cleanupGames(result.data);
-        } else {
-          parsedResults = result.data;
-        }
-        props.setMasterData(parsedResults);
-        props.setFilteredData(parsedResults);
-      } else {
-        setNotify({
-          severity: 'error',
-          detail: 'Failed to fetch data for library view!',
-          summary: 'ERROR'
-        });
-      }
-    }
-  }
-
-  const hookedGetData = async () => {
-    await getData();
-  };
 
   const deleteItem = async () => {
     if (viewWhat === 'games') {

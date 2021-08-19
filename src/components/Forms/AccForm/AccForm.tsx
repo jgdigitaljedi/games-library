@@ -12,7 +12,6 @@ import React, {
   useMemo,
   useState
 } from 'react';
-import { IDropdown } from '@/models/common.model';
 import { IAcc } from '@/models/accessories.model';
 import { accessoryTypeArr } from '@/constants';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
@@ -32,9 +31,9 @@ interface IProps {
 const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmation }) => {
   const IContext = useContext(ItemsContext);
   const [accForm, setAccForm] = useState<IAcc>();
-  // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
   const yearRange = `2000:${new Date().getFullYear()}`;
+  // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
 
   const platformsWithId = useMemo(() => {

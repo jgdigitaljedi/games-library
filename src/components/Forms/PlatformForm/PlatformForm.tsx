@@ -31,16 +31,13 @@ const PlatformForm: FunctionComponent<IProps> = ({
   closeConfirmation
 }: IProps) => {
   const [platformForm, setPlatformForm] = useState<IConsole>();
-  // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
-  const [selectedFromSearch, setSelectedFromSearch] = useState<any>();
   const [igdbPlatforms, setIgdbPlatforms] = useState<any[]>();
+  // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const [platformVersions, setPlatformVersions] = useState([]);
 
   const userChange = (e: any) => {
-    console.log('e', e);
-    console.log('platformForm', platformForm);
     closeConfirmation();
     const newState = handleChange(e, platformForm);
     if (newState) {
@@ -60,21 +57,9 @@ const PlatformForm: FunctionComponent<IProps> = ({
     closeConfirmation();
     if (e?.value) {
       const platform = e.value;
-      console.log('platform in searchSelection', platform);
       setPlatformVersions(platform.versions);
-      console.log('platform.versions', platform.versions);
-      setSelectedFromSearch(platform);
       const pfCopy = _cloneDeep(platformForm);
       setPlatformForm(Object.assign(pfCopy, platform));
-
-      // const versionData = await igdbPlatformVersions(platform);
-      // const fullPlatform = { ...platform, ...versionData.data };
-      // console.log('fullPlatform', fullPlatform);
-      // const formattedPlatform = formatNewPlatformForSave(fullPlatform);
-      // setSelectedFromSearch(formattedPlatform);
-      // console.log('formattedPlatform', formattedPlatform);
-      // const pfCopy = _cloneDeep(platformForm);
-      // setPlatformForm(Object.assign(pfCopy, formattedPlatform));
     }
   };
 
@@ -84,8 +69,6 @@ const PlatformForm: FunctionComponent<IProps> = ({
     const fullPlatform = { ...plat, ...versionData.data };
     fullPlatform.id = plat.id;
     const formattedPlatform = formatNewPlatformForSave(fullPlatform);
-    setSelectedFromSearch(formattedPlatform);
-    console.log('formattedPlatform', formattedPlatform);
     const pfCopy = _cloneDeep(platformForm);
     const savable = Object.assign(pfCopy, formattedPlatform);
     // @ts-ignore
@@ -122,9 +105,9 @@ const PlatformForm: FunctionComponent<IProps> = ({
     }
   }, [platform, setAddMode]);
 
-  const resetGameForm = useCallback(() => {
-    setPlatformForm(helpersService.resetPlatformForm());
-  }, []);
+  // const resetGameForm = useCallback(() => {
+  //   setPlatformForm(helpersService.resetPlatformForm());
+  // }, []);
 
   const updatePlatform = useCallback(() => {
     // make save call

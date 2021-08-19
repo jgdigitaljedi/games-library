@@ -11,7 +11,7 @@ import { IConsoleArr } from '@/models/platforms.model';
 import { IGame } from '@/models/games.model';
 import assetsService from '../../services/assets.service';
 import UrlService from '../../services/url.service';
-import helpersService from '../../services/helpers.service';
+import helpersService, { gameCaseSubTypes } from '../../services/helpers.service';
 import ReadMore from '../ReadMore/ReadMore';
 import { Button } from 'primereact/button';
 import VideoGallery from '../VideoGallery/VideoGallery';
@@ -30,6 +30,7 @@ interface IConsolesOwned {
   datePurchased?: string;
   cib?: boolean;
   case?: string;
+  caseType?: string;
   howAcquired?: string;
   pricePaid?: number;
   condition?: string;
@@ -91,6 +92,10 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
     } else {
       return <></>;
     }
+  };
+
+  const formatCaseType = (type: string) => {
+    return gameCaseSubTypes.find(gct => gct.value === type)?.label;
   };
 
   useEffect(() => {
@@ -204,7 +209,11 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                         <td>{con.howAcquired}</td>
                         <td>{con.physical ? 'Physical' : 'Digital'}</td>
                         <td>{con.condition}</td>
-                        <td>{con.case}</td>
+                        <td>{`${con.case}${
+                          con.caseType && con.caseType !== 'none'
+                            ? ' - ' + formatCaseType(con.caseType)
+                            : ''
+                        }`}</td>
                         <td>{con.cib ? 'YES' : 'NO'}</td>
                       </tr>
                     ))}

@@ -24,6 +24,7 @@ export interface IGame {
   consoleId: number;
   condition: string;
   case: string;
+  caseType?: string;
   pricePaid: string;
   physical: boolean;
   cib: string | boolean;

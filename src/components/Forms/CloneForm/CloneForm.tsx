@@ -63,7 +63,7 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
     closeConfirmation();
     console.log('cloneForm save', cloneForm);
     closeDialog(cloneForm?.name);
-  }, [cloneForm, closeDialog]);
+  }, [cloneForm, closeDialog, closeConfirmation]);
 
   const cancelClicked = () => {
     // resetGameForm();
@@ -72,150 +72,150 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
   };
 
   return (
-    <div className="crud-form clone-form">
-      <div className="crud-form--flex-wrapper">
-        <form className="crud-from--form clone-form--form">
-          <div className="crud-form--form__row">
-            <label htmlFor="name">Name</label>
-            <InputText id="name" value={cloneForm?.name} onChange={userChange} attr-which="name" />
+    <div className='crud-form clone-form'>
+      <div className='crud-form--flex-wrapper'>
+        <form className='crud-from--form clone-form--form'>
+          <div className='crud-form--form__row'>
+            <label htmlFor='name'>Name</label>
+            <InputText id='name' value={cloneForm?.name} onChange={userChange} attr-which='name' />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="company">Company</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='company'>Company</label>
             <InputText
-              id="company"
+              id='company'
               value={cloneForm?.company}
               onChange={userChange}
-              attr-which="company"
+              attr-which='company'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="consolesEmulated">Console(s) Emulated</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='consolesEmulated'>Console(s) Emulated</label>
             <InputText
-              id="consolesEmulated"
+              id='consolesEmulated'
               value={cloneForm?.consolesEmulated}
               onChange={userChange}
-              attr-which="consolesEmulated"
+              attr-which='consolesEmulated'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="newPurchaseDate">Date Purchased</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='newPurchaseDate'>Date Purchased</label>
             <Calendar
-              id="newPurchaseDate"
+              id='newPurchaseDate'
               showIcon={true}
               value={cloneForm?.newPurchaseDate}
               onChange={userChange}
-              attr-which="newPurchaseDate"
+              attr-which='newPurchaseDate'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="pricePaid">Purchase Price $</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pricePaid'>Purchase Price $</label>
             <InputText
-              id="pricePaid"
+              id='pricePaid'
               value={cloneForm?.pricePaid}
               onChange={userChange}
-              attr-which="pricePaid"
-              type="number"
+              attr-which='pricePaid'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="gamesIncludedAmount"># Games Included</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='gamesIncludedAmount'># Games Included</label>
             <InputText
-              id="gamesIncludedAmount"
+              id='gamesIncludedAmount'
               value={cloneForm?.gamesIncludedAmount}
               onChange={userChange}
-              attr-which="gamesIncludedAmount"
-              type="number"
+              attr-which='gamesIncludedAmount'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="gamesAddedNumber"># Games Added</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='gamesAddedNumber'># Games Added</label>
             <InputText
-              id="gamesAddedNumber"
+              id='gamesAddedNumber'
               value={cloneForm?.gamesAddedNumber}
               onChange={userChange}
-              attr-which="gamesAddedNumber"
-              type="number"
+              attr-which='gamesAddedNumber'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="hacked">Hacked</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='hacked'>Hacked</label>
             <InputSwitch
-              id="hacked"
+              id='hacked'
               checked={cloneForm?.hacked}
               onChange={userChange}
-              attr-which="hacked"
+              attr-which='hacked'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="hd">HD</label>
-            <InputSwitch id="hd" checked={cloneForm?.hd} onChange={userChange} attr-which="hd" />
+          <div className='crud-form--form__row'>
+            <label htmlFor='hd'>HD</label>
+            <InputSwitch id='hd' checked={cloneForm?.hd} onChange={userChange} attr-which='hd' />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="controllerNumber"># Controllers</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='controllerNumber'># Controllers</label>
             <InputText
-              id="controllerNumber"
+              id='controllerNumber'
               value={cloneForm?.controllerNumber}
               onChange={userChange}
-              attr-which="controllerNumber"
-              type="number"
+              attr-which='controllerNumber'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="takesOriginalControllers">Takes Original Controllers</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='takesOriginalControllers'>Takes Original Controllers</label>
             <InputSwitch
-              id="takesOriginalControllers"
+              id='takesOriginalControllers'
               checked={cloneForm?.takesOriginalControllers}
               onChange={userChange}
-              attr-which="takesOriginalControllers"
+              attr-which='takesOriginalControllers'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="wireless">Wireless</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='wireless'>Wireless</label>
             <InputSwitch
-              id="wireless"
+              id='wireless'
               checked={cloneForm?.wireless}
               onChange={userChange}
-              attr-which="wireless"
+              attr-which='wireless'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="maxPlayers">Max # Players</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='maxPlayers'>Max # Players</label>
             <InputText
-              id="maxPlayers"
+              id='maxPlayers'
               value={cloneForm?.maxPlayers}
               onChange={userChange}
-              attr-which="maxPlayers"
-              type="number"
+              attr-which='maxPlayers'
+              type='number'
             />
           </div>
-          <div className="crud-form--form__row">
-            <label htmlFor="updatedAt">Last Updated</label>
+          <div className='crud-form--form__row'>
+            <label htmlFor='updatedAt'>Last Updated</label>
             <InputText
-              id="updatedAt"
+              id='updatedAt'
               value={cloneForm?.updatedAt}
               onChange={userChange}
-              attr-which="updatedAt"
+              attr-which='updatedAt'
               readOnly
             />
           </div>
         </form>
-        <div className="crud-form--image-and-data">
-          {cloneForm?.image && <img src={cloneForm?.image} alt="accessory" />}
+        <div className='crud-form--image-and-data'>
+          {cloneForm?.image && <img src={cloneForm?.image} alt='accessory' />}
         </div>
       </div>
       <hr />
-      <div className="crud-form--footer">
+      <div className='crud-form--footer'>
         <Button
-          label="Cancel"
+          label='Cancel'
           onClick={cancelClicked}
-          icon="pi pi-times"
-          className="p-button-info"
+          icon='pi pi-times'
+          className='p-button-info'
         />
         <Button
           label={`Save ${cloneForm?.name}`}
           onClick={updateAcc}
-          icon="pi pi-save"
-          className="p-button-success"
+          icon='pi pi-save'
+          className='p-button-success'
         />
       </div>
     </div>

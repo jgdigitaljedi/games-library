@@ -61,11 +61,6 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
     { label: 'Show Handhelds Only', value: 'only' }
   ];
 
-  const vrArr = [
-    { label: 'Not VR', value: false },
-    { label: 'VR', value: true }
-  ];
-
   const getGenreArray = useCallback((): void => {
     if (masterData && masterData.length > 1) {
       const newGenres = sortBy(

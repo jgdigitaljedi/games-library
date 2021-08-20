@@ -129,6 +129,12 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     if (dc.vr) {
       newData = filters.filterVr([...newData], dc.vr);
     }
+    if (dc.releaseDateStart) {
+      newData = filters.filterReleaseDate([...newData], dc.releaseDateStart, true);
+    }
+    if (dc.releaseDateEnd) {
+      newData = filters.filterReleaseDate([...newData], dc.releaseDateEnd);
+    }
     setData(newData);
     sortData(newData);
     //eslint-disable-next-line

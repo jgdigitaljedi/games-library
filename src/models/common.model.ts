@@ -23,6 +23,8 @@ export interface IFormState {
   location?: string | null;
   handheld?: string;
   vr: boolean;
+  releaseDateStart?: number;
+  releaseDateEnd?: number;
 }
 
 export interface IDropdown {

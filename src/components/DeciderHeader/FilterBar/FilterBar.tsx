@@ -23,6 +23,7 @@ import changePlatformsArr from '../../../actionCreators/platformsArr';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch as ReduxDispatch } from 'redux';
 import { MultiSelect } from 'primereact/multiselect';
+import ItemsContext from '@/context/ItemsContext';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -38,6 +39,7 @@ interface IProps extends RouteComponentProps, MapDispatchProps, MapStateProps {
 
 const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
   const [dc, setDc]: [IFormState, Dispatch<SetStateAction<IFormState>>] = useContext(DataContext);
+  const items = useContext(ItemsContext);
   const masterData: IGame[] = data;
   const [genreArray, setGenreArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
   const [esrbArray, setEsrbArray] = useState<IDropdown[]>([{ label: 'NOT SET', value: '' }]);
@@ -181,6 +183,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           Platform
         </label>
         <MultiSelect
+          showClear={true}
           value={acValue}
           options={filteredPlatforms}
           optionLabel='label'
@@ -203,6 +206,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           Genre
         </label>
         <MultiSelect
+          showClear={true}
           value={dc.genre}
           options={genreArray}
           optionLabel='label'
@@ -307,6 +311,8 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
           Location
         </label>
         <Dropdown
+          placeholder='NOT SET'
+          showClear={true}
           className='info-text'
           id='location'
           name='location'
@@ -317,6 +323,45 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             setDc(fsCopy);
           }}
           options={locationArr || []}
+        />
+      </div>
+
+      <div className='decider--form__input-group'>
+        <label htmlFor='first_release_date' className='info-text'>
+          Release Year GTE
+        </label>
+        <Dropdown
+          placeholder='NOT SET'
+          showClear={true}
+          className='info-text'
+          id='first_release_date'
+          name='first_release_date'
+          value={dc.releaseDateStart}
+          onChange={e => {
+            const fsCopy = Object.assign({}, dc);
+            fsCopy.releaseDateStart = e.value;
+            setDc(fsCopy);
+          }}
+          options={items.gameReleaseYears}
+        />
+      </div>
+      <div className='decider--form__input-group'>
+        <label htmlFor='first_release_date' className='info-text'>
+          Release Year LTE
+        </label>
+        <Dropdown
+          placeholder='NOT SET'
+          showClear={true}
+          className='info-text'
+          id='first_release_date'
+          name='first_release_date'
+          value={dc.releaseDateEnd}
+          onChange={e => {
+            const fsCopy = Object.assign({}, dc);
+            fsCopy.releaseDateEnd = e.value;
+            setDc(fsCopy);
+          }}
+          options={items.gameReleaseYears}
         />
       </div>
     </form>

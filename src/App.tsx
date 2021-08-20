@@ -52,6 +52,7 @@ function App(): JSX.Element {
         <div className='App'>
           <CombinedContextProvider>
             <></>
+            {/* @ts-ignore */}
             <ItemsContext.Provider value={items}>
               <></>
               <NotificationContextProvider>

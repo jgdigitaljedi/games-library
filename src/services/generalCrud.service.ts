@@ -1,3 +1,4 @@
+import { IItems } from '@/context/ItemsContext';
 import { IRequestParams } from '@/models/crud.model';
 import Axios, { AxiosResponse } from 'axios';
 import { getRequestHeaders, getRequestKey } from './auth.service';
@@ -8,7 +9,7 @@ export const makeRequest = (endpoint: string, arg?: string): IRequestParams => {
   return { headers, url };
 };
 
-export const getItems = async (): Promise<AxiosResponse | any> => {
+export const getItems = async (): Promise<AxiosResponse<IItems> | any> => {
   const hasKey = !!getRequestKey();
   if (hasKey) {
     const params = makeRequest('items');

@@ -89,5 +89,19 @@ export const filters = {
       return data.filter(g => g.vr?.vrOnly || g.vr?.vrCompatible);
     }
     return data;
+  },
+  filterReleaseDate: (data: IGame[], year: number, isStart?: boolean) => {
+    if (year) {
+      return data.filter(g => {
+        if (!g.first_release_date) {
+          return false;
+        }
+        if (isStart) {
+          return new Date(g.first_release_date).getFullYear() >= year;
+        }
+        return new Date(g.first_release_date).getFullYear() <= year;
+      });
+    }
+    return data;
   }
 };

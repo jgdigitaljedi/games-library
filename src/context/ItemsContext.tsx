@@ -6,9 +6,13 @@ export interface IPlatformsWithId {
 }
 
 export interface IItems {
-  platformsWithId: IPlatformsWithId[];
+  platformsWithId?: IPlatformsWithId[];
+  gameReleaseYears?: string[];
 }
 
-const ItemsContext = createContext({ platformsWithId: [] as IPlatformsWithId[] });
+const ItemsContext = createContext({
+  platformsWithId: [] as IPlatformsWithId[],
+  gameReleaseYears: [] as string[]
+});
 
 export default ItemsContext;

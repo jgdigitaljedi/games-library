@@ -18,9 +18,9 @@ function getLatestDump() {
     const dumps = fs.readdirSync(csvPath, 'utf8');
     const mostRecent = dumps
       .sort((a, b) => {
-        const aDate = a.split('_')[0];
-        const bDate = b.split('_')[0];
-        return moment(aDate).diff(bDate);
+        const aDate = moment(a.split('_')[0], 'MMM D, YYYY');
+        const bDate = moment(b.split('_')[0], 'MMM D, YYYY');
+        return moment(aDate, 'MMM D, YYYY').diff(bDate, 'MMM D, YYYY');
       })
       .reverse()[0];
     return { error: false, data: mostRecent };
@@ -98,6 +98,14 @@ function geToPlatformMatch(gePlatforms) {
     const pMatch = matcherArr.filter(pm => pm.consoleId === p.id);
     if (pMatch?.length > 1) {
       const pm = pMatch.filter(pp => p.notes.indexOf(pp.title) >= 0)[0];
+      if (!pm) {
+        console.log(
+          chalk.magenta(
+            'NO FINDING MULTI_CONSOLE MATCH',
+            JSON.stringify({ pMatch, platform: p }, null, 2)
+          )
+        );
+      }
       delete pm.consoleId;
       delete pm.consoleName;
       delete pm.isClone;
@@ -145,6 +153,7 @@ function geToPlatformMatch(gePlatforms) {
 
     try {
       const platformsMatched = geToPlatformMatch(csvData.platforms);
+      console.log('platformsMatched', platformsMatched);
       fs.writeFileSync(
         path.join(__dirname, 'results/platforms.json'),
         JSON.stringify(platformsMatched, null, 2)
@@ -156,14 +165,14 @@ function geToPlatformMatch(gePlatforms) {
       console.log(chalk.magenta('*********************'));
     }
 
-    try {
-      const gamesMatched = geToGameMatch(csvData.games);
-      console.log('gamesMatched', gamesMatched);
-    } catch (error) {
-      console.log(chalk.red.bold('ERROR WRITING COMBINED GAMES'));
-      console.log(chalk.red(error));
-      console.log(chalk.yellow.italic('Continuing anyway...'));
-      console.log(chalk.magenta('*********************'));
-    }
+    // try {
+    //   const gamesMatched = geToGameMatch(csvData.games);
+    //   console.log('gamesMatched', gamesMatched);
+    // } catch (error) {
+    //   console.log(chalk.red.bold('ERROR WRITING COMBINED GAMES'));
+    //   console.log(chalk.red(error));
+    //   console.log(chalk.yellow.italic('Continuing anyway...'));
+    //   console.log(chalk.magenta('*********************'));
+    // }
   }
 })();

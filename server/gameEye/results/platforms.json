@@ -39,7 +39,7 @@
       "quantity": "1",
       "title": "Nintendo NES Console",
       "status": "Loose",
-      "myValue": "50.8"
+      "myValue": "35.27"
     }
   },
   {
@@ -82,7 +82,7 @@
       "quantity": "1",
       "title": "Super Nintendo System",
       "status": "Loose",
-      "myValue": "59.69"
+      "myValue": "50.11"
     }
   },
   {
@@ -125,7 +125,7 @@
       "quantity": "1",
       "title": "Black GameCube System",
       "status": "Loose",
-      "myValue": "55"
+      "myValue": "69.95"
     }
   },
   {
@@ -142,7 +142,7 @@
     "box": false,
     "manual": false,
     "mods": "replaced optical drive with GCLoader PnP; 256GB SD card; emulators through SD2SP2; Indigo GameCube System",
-    "notes": "output HDMI through Carby; mClassic upscaling and smoothing",
+    "notes": "output HDMI through Carby; mClassic upscaling and smoothing; replaced controller ports, motherboard, and cooling",
     "datePurchased": "02/22/2021",
     "pricePaid": 30,
     "ghostConsole": false,
@@ -162,13 +162,14 @@
       "region": "North America"
     },
     "company": "Nintendo",
+    "newDatePurchased": "2021-02-22T06:00:00.000Z",
     "gameEye": {
       "platform": "GameCube",
       "type": "System",
       "quantity": "1",
       "title": "Indigo GameCube System",
       "status": "Loose",
-      "myValue": "49.14"
+      "myValue": "49.9"
     }
   },
   {
@@ -211,7 +212,7 @@
       "quantity": "1",
       "title": "Nintendo Switch with Blue and Red Joy-con",
       "status": "CIB",
-      "myValue": "296.05"
+      "myValue": "295.13"
     }
   },
   {
@@ -227,8 +228,8 @@
     "condition": "Good",
     "box": false,
     "manual": false,
-    "mods": "Softmodded to play backups",
-    "notes": "320GB external HD; Hooked up in Soli's room; backwards compatibility with Wii U in living room",
+    "mods": "Softmodded to play backups; 320GB external HD full of games",
+    "notes": "backwards compatibility with Wii U in living room",
     "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
@@ -297,7 +298,7 @@
       "quantity": "1",
       "title": "Nintendo 3DS XL Black",
       "status": "Loose",
-      "myValue": "199.35"
+      "myValue": "199.43"
     }
   },
   {
@@ -314,7 +315,7 @@
     "box": false,
     "manual": false,
     "mods": "",
-    "notes": "",
+    "notes": "Cobalt Gameboy Advance SP",
     "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
@@ -340,7 +341,7 @@
       "quantity": "1",
       "title": "Cobalt Gameboy Advance SP",
       "status": "Loose",
-      "myValue": "75.75"
+      "myValue": "75.08"
     }
   },
   {
@@ -382,7 +383,7 @@
       "quantity": "1",
       "title": "Sega Dreamcast Console",
       "status": "Loose",
-      "myValue": "112.43"
+      "myValue": "109.99"
     }
   },
   {
@@ -425,7 +426,7 @@
       "quantity": "1",
       "title": "Xbox One 500 GB Black Console",
       "status": "Loose",
-      "myValue": "202.5"
+      "myValue": "200"
     }
   },
   {
@@ -468,7 +469,7 @@
       "quantity": "1",
       "title": "Playstation 2 System",
       "status": "Loose",
-      "myValue": "60.36"
+      "myValue": "61.67"
     }
   },
   {
@@ -510,7 +511,7 @@
       "quantity": "1",
       "title": "Playstation 3 System 80GB",
       "status": "Loose",
-      "myValue": "57.45"
+      "myValue": "64.49"
     }
   },
   {
@@ -553,7 +554,7 @@
       "quantity": "1",
       "title": "Playstation 4 Pro 1TB Console",
       "status": "CIB",
-      "myValue": "345"
+      "myValue": "350.03"
     }
   },
   {
@@ -596,7 +597,7 @@
       "quantity": "1",
       "title": "PSP 1001K Console Black",
       "status": "Loose",
-      "myValue": "60.14"
+      "myValue": "52.5"
     }
   },
   {
@@ -613,7 +614,7 @@
     "box": false,
     "manual": false,
     "mods": "",
-    "notes": "Red Crimson & Black Nintendo DS Lite",
+    "notes": "DS Lite; Red Crimson & Black Nintendo DS Lite",
     "datePurchased": "01/13/2019",
     "pricePaid": 30,
     "ghostConsole": false,
@@ -639,7 +640,7 @@
       "quantity": "1",
       "title": "Red Crimson & Black Nintendo DS Lite",
       "status": "Loose",
-      "myValue": "40.69"
+      "myValue": "54.43"
     }
   },
   {
@@ -681,7 +682,7 @@
       "quantity": "1",
       "title": "Game Boy Color Berry",
       "status": "Loose",
-      "myValue": "56"
+      "myValue": "61"
     }
   },
   {
@@ -765,7 +766,7 @@
       "quantity": "1",
       "title": "Sega Game Gear Handheld",
       "status": "Loose",
-      "myValue": "69.99"
+      "myValue": "68.23"
     }
   },
   {
@@ -807,7 +808,7 @@
       "quantity": "1",
       "title": "TurboGrafx-16 System",
       "status": "Loose",
-      "myValue": "202.5"
+      "myValue": "237.12"
     }
   },
   {
@@ -850,7 +851,7 @@
       "quantity": "1",
       "title": "Sega Master System Console",
       "status": "Loose",
-      "myValue": "130"
+      "myValue": "146.37"
     }
   },
   {
@@ -893,7 +894,7 @@
       "quantity": "1",
       "title": "Nintendo 64 System",
       "status": "Loose",
-      "myValue": "91.8"
+      "myValue": "85"
     }
   },
   {
@@ -936,7 +937,7 @@
       "quantity": "1",
       "title": "Funtastic Ice Blue Nintendo 64 System",
       "status": "Loose",
-      "myValue": "178.5"
+      "myValue": "183.86"
     }
   },
   {
@@ -978,7 +979,7 @@
       "quantity": "1",
       "title": "Wii U Console Deluxe Black 32GB",
       "status": "Loose",
-      "myValue": "161.75"
+      "myValue": "154.56"
     }
   },
   {
@@ -1020,7 +1021,7 @@
       "quantity": "1",
       "title": "Sega 32X Unit",
       "status": "Loose",
-      "myValue": "119.98"
+      "myValue": "109.5"
     }
   },
   {
@@ -1033,7 +1034,7 @@
       "id": 65,
       "name": "Initial version"
     },
-    "condition": "Good",
+    "condition": "Fair",
     "box": false,
     "manual": false,
     "mods": "",
@@ -1063,7 +1064,7 @@
       "quantity": "1",
       "title": "Sega Saturn Console",
       "status": "Loose",
-      "myValue": "142.09"
+      "myValue": "124.26"
     }
   },
   {
@@ -1105,7 +1106,7 @@
       "quantity": "1",
       "title": "Xbox System",
       "status": "Loose",
-      "myValue": "38.8"
+      "myValue": "39.25"
     }
   },
   {
@@ -1148,7 +1149,7 @@
       "quantity": "1",
       "title": "Xbox 360 E Console 4GB",
       "status": "Loose",
-      "myValue": "75.56"
+      "myValue": "79.1"
     }
   },
   {
@@ -1190,7 +1191,7 @@
       "quantity": "1",
       "title": "PlayStation System",
       "status": "Loose",
-      "myValue": "24.1"
+      "myValue": "26"
     }
   },
   {
@@ -1233,7 +1234,7 @@
       "quantity": "1",
       "title": "Slim Playstation 2 System",
       "status": "Loose",
-      "myValue": "68.12"
+      "myValue": "65.82"
     }
   },
   {
@@ -1283,10 +1284,10 @@
     "condition": "Excellent",
     "box": true,
     "manual": false,
-    "mods": "RTX 3090 FE; Ryzen 7 3800X; 2TB m.2 NVME SSD; 1TB 2.5\" SSD; 32GB RAM 3600MHz; ASUS Prime X570-Pro mobo",
+    "mods": "RTX 3090 FE; Ryzen 7 5800X; 3x 1TB m.2 NVME SSD; 1TB 2.5\" SSD; 32GB RAM 3600MHz; MSI MEG ACE mobo; Corsair Commander",
     "notes": "Playing on a 32 inch Asus 1440p 144Hz 1ms monitor",
     "datePurchased": "06/27/2019",
-    "pricePaid": 2500,
+    "pricePaid": "5600",
     "ghostConsole": false,
     "createdAt": "02/01/2020 06:43 am",
     "_id": "a1de4a91c4e04a4cb8ace611c4eff65b",
@@ -1304,6 +1305,7 @@
       "region": "Worldwide"
     },
     "company": "Microsoft",
+    "newDatePurchased": "2019-06-27T05:00:00.000Z",
     "gameEye": {}
   },
   {
@@ -1346,7 +1348,7 @@
       "quantity": "1",
       "title": "Nintendo 3DS Black Zelda Limited Edition",
       "status": "CIB+",
-      "myValue": "321.78"
+      "myValue": "321"
     }
   },
   {
@@ -1389,7 +1391,7 @@
       "quantity": "1",
       "title": "Atari 7800 Console",
       "status": "Loose",
-      "myValue": "75"
+      "myValue": "86.98"
     }
   },
   {
@@ -1405,7 +1407,7 @@
     "condition": "Good",
     "box": false,
     "manual": false,
-    "mods": "Power mod installed to bypass need for switchbox",
+    "mods": "Power mod installed to bypass need for switchbox; new capacitors",
     "notes": "",
     "datePurchased": "08/07/2020",
     "pricePaid": 20,
@@ -1426,13 +1428,14 @@
       "region": "North America"
     },
     "company": "Atari",
+    "newDatePurchased": "2020-08-07T05:00:00.000Z",
     "gameEye": {
       "platform": "Atari 5200",
       "type": "System",
       "quantity": "1",
       "title": "Atari 5200 System",
       "status": "Loose",
-      "myValue": "110.89"
+      "myValue": "109.61"
     }
   },
   {
@@ -1475,7 +1478,7 @@
       "quantity": "1",
       "title": "Sega Genesis Model 2 Console",
       "status": "Loose",
-      "myValue": "34.99"
+      "myValue": "34.31"
     }
   },
   {
@@ -1518,7 +1521,7 @@
       "quantity": "1",
       "title": "Sega CD Model 2 Console",
       "status": "Loose+",
-      "myValue": "117.43"
+      "myValue": "117.5"
     }
   },
   {
@@ -1560,7 +1563,7 @@
       "quantity": "1",
       "title": "Atari 2600 System",
       "status": "Loose",
-      "myValue": "28.04"
+      "myValue": "17.6"
     }
   },
   {
@@ -1612,7 +1615,7 @@
       "quantity": "1",
       "title": "Atari Jaguar System",
       "status": "CIB",
-      "myValue": "437.71"
+      "myValue": "481.23"
     }
   },
   {
@@ -1664,7 +1667,58 @@
       "quantity": "1",
       "title": "Intellivision System",
       "status": "CIB",
-      "myValue": "108.25"
+      "myValue": "113.76"
+    }
+  },
+  {
+    "name": "Game Boy Advance",
+    "id": 24,
+    "alternative_name": "GBA",
+    "category": "portable console",
+    "generation": 6,
+    "platform_logo": {
+      "id": 255,
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl73.jpg"
+    },
+    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl73.jpg",
+    "version": {
+      "id": 40,
+      "name": "Initial version"
+    },
+    "condition": "Good",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "Glacier Gameboy Advance System",
+    "datePurchased": "2021-08-23",
+    "pricePaid": "30",
+    "ghostConsole": false,
+    "createdAt": "08/23/2021 07:16 pm",
+    "lastUpdated": "08/23/2021",
+    "howAcquired": "bought from Solis",
+    "updatedAt": "08/23/2021 07:16 pm",
+    "connectivity": null,
+    "cpu": "ARM7DMI @ 16,78 MHz",
+    "media": "Game Boy Cartridge, Game Boy Advance Cartridge",
+    "memory": "32 KB + 96 KB VRAM Internal to the CPU, 256 KB WRAM Normal RAM",
+    "output": "",
+    "os": null,
+    "releaseDate": {
+      "region": "Japan",
+      "date": "03/21/2001"
+    },
+    "summary": "",
+    "storage": "",
+    "resolutions": "",
+    "newDatePurchased": "2021-08-23T05:00:00.000Z",
+    "_id": "fbd74cb7422444bbbf22679a44daa523",
+    "gameEye": {
+      "platform": "GBA",
+      "type": "System",
+      "quantity": "1",
+      "title": "Glacier Gameboy Advance System",
+      "status": "Loose",
+      "myValue": "67.32"
     }
   }
 ]

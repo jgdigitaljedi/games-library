@@ -32,3 +32,8 @@ export const gamesCount = async () => {
   const url = `${window.urlPrefix}/api/vg/games/total`;
   return await Axios.get(url);
 };
+
+export const physicalGamesCount = async () => {
+  const url = `${window.urlPrefix}/api/vg/games/physicaltotal`;
+  return await Axios.get(url);
+};

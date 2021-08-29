@@ -51,6 +51,7 @@ router.put('/games', vgDbCtrl.saveGame);
 router.delete('/games/:id', vgDbCtrl.deleteGame);
 router.patch('/games/:id', vgDbCtrl.editGame);
 router.get('/games/total', vgDbCtrl.gamesTotal);
+router.get('/games/physicaltotal', vgDbCtrl.getPhysicalGamesTotal);
 
 // get everDrive data
 router.get('/everdrives', vgDbCtrl.everDrives);

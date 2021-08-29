@@ -53,6 +53,12 @@ module.exports.gamesTotal = function (req, res) {
   res.status(200).json({ count: games.length });
 };
 
+module.exports.getPhysicalGamesTotal = function (req, res) {
+  const games = gamesCrud.getGames();
+  const physicalGames = games.filter(g => g.physical);
+  res.status(200).json({ count: physicalGames.length });
+};
+
 module.exports.getCombinedGameData = function (req, res) {
   combined
     .combine()

@@ -101,9 +101,6 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   useEffect(() => {
     console.log('game', game);
     if (game) {
-      if (game.id === 2363) {
-        console.log('game', game);
-      }
       const owned =
         game.consoleArr && game.consoleArr.length
           ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))
@@ -231,8 +228,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           {/* @ts-ignore */}
           {showVideos && game?.videos?.length > 0 && <VideoGallery videos={game.videos} />}
         </div>
-        {game?.videos?.length && (
-          <div style={{ marginLeft: '2.5rem' }}>
+        {!!game?.videos?.length && (
+          <div style={{ marginLeft: '1rem' }}>
             {!showVideos && (
               <Button icon='pi pi-video' label='Videos' onClick={() => loadVideos(true)} />
             )}
@@ -243,11 +240,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
         )}
         <div className='image-container'>
           <img
-            src={
-              game && game.esrb
-                ? `${urlPrefix}/${ratingImages(game.esrb)}`
-                : `${urlPrefix}Video-Game-Controller_Icon.svg.png`
-            }
+            src={`${urlPrefix}${ratingImages(game.esrb)}`}
             alt='ESRB Rating'
             onError={(e: any) => {
               e.target.onerror = null;

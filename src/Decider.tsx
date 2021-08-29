@@ -19,10 +19,11 @@ import sortsService from './services/sorts.service';
 import { connect, useSelector } from 'react-redux';
 import changePlatformsArr from './actionCreators/platformsArr';
 import { Dispatch as ReduxDispatch } from 'redux';
-import { gamesCount, getPlatformArr } from './services/globalData.service';
+import { gamesCount, getPlatformArr, physicalGamesCount } from './services/globalData.service';
 import DeciderCards from './components/DeciderCards/DeciderCards';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { NotificationContext } from './context/NotificationContext';
+import { IGame } from './models/games.model';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -44,6 +45,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   const [everDrives, setEverDrives] = useState<any[]>([{}]);
   const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
   const [totalGames, setTotalGames] = useState(0);
+  const [totalPhysicalGames, setTotalPhysicalGames] = useState(0);
 
   const getEverdrives = useCallback(async () => {
     const result = await axios.get(`${window.urlPrefix}/api/vg/everdrives`);
@@ -57,6 +59,8 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       });
     }
   }, [setNotify]);
+
+  console.log('dc', dc);
 
   const sortData = useCallback(
     dat => {
@@ -193,6 +197,17 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
           summary: 'ERROR'
         });
       });
+    physicalGamesCount()
+      .then(result => {
+        setTotalPhysicalGames(result.data.count);
+      })
+      .catch(error => {
+        setNotify({
+          severity: 'error',
+          detail: error,
+          summary: 'ERROR'
+        });
+      });
     // eslint-disable-next-line
   }, []);
 
@@ -204,6 +219,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       <div className='decider--counter'>
         <h3>
           {data.length === masterData.length && `${totalGames} total/`}
+          {dc.physical && `${totalPhysicalGames} total/`}
           {data.length} unique games
         </h3>
       </div>

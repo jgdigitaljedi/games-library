@@ -201,7 +201,7 @@ export const gameCaseSubTypes = [
     custom: true,
     original: false,
     none: false,
-    consoleIds: [59, 66, 60, 62, 67, 4, 18, 30, 64, 29, 19]
+    consoleIds: [59, 66, 60, 62, 67, 4, 18, 30, 64, 29, 19, 87]
   },
   {
     label: 'DVD Case',
@@ -209,7 +209,7 @@ export const gameCaseSubTypes = [
     custom: true,
     original: true,
     none: false,
-    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86]
+    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86, 87, 64]
   },
   {
     label: 'CD Case',
@@ -225,7 +225,7 @@ export const gameCaseSubTypes = [
     custom: true,
     original: true,
     none: false,
-    consoleIds: [33, 24, 22, 37, 20, 35]
+    consoleIds: [33, 24, 22, 37, 20, 35, 87]
   },
   { label: 'PSP Case', value: 'psp', custom: true, original: true, none: false, consoleIds: [38] },
   {
@@ -252,7 +252,7 @@ export const gameCaseSubTypes = [
     none: true,
     consoleIds: [
       50, 59, 66, 60, 62, 23, 33, 24, 22, 67, 37, 4, 20, 18, 21, 130, 6, 7, 8, 9, 48, 38, 30, 78,
-      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49
+      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87
     ]
   },
   {

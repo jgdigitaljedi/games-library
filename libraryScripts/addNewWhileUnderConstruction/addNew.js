@@ -3,7 +3,7 @@ const path = require('path');
 const chalk = require('chalk');
 const axios = require('axios');
 const moment = require('moment');
-const whitespace = require('stringman').whitespace;
+const whitespaceRemoveBreaks = require('stringman-utils').whitespaceRemoveBreaks;
 const _cloneDeep = require('lodash/cloneDeep');
 
 const games = require('./newGames.json');
@@ -70,7 +70,7 @@ function getUserData(game) {
   return oldData;
 }
 
-const getMultiplayerModes = (modes) => {
+const getMultiplayerModes = modes => {
   // just getting the max numbers here
   // not concerned about which is true for which game mode as I can figure that out if I want to play multiplayer with someone
   let max = 0;
@@ -98,7 +98,7 @@ const getMultiplayerModes = (modes) => {
   return { combined, max };
 };
 
-const getExtraData = (gameData) => {
+const getExtraData = gameData => {
   const game = _cloneDeep(gameData);
   game.extraData = [];
   game.extraDataFull = [];
@@ -155,7 +155,7 @@ const getExtraData = (gameData) => {
   game.location = getLocation(game.consoleId);
   game.handheld = handhelds(game.consoleId, game.consoleName);
   return game;
-}
+};
 
 async function getNewGameData(game) {
   return new Promise((resolve, reject) => {
@@ -168,7 +168,7 @@ async function getNewGameData(game) {
         headers,
         data
       })
-        .then((result) => {
+        .then(result => {
           // console.log(chalk.green('result', JSON.stringify(result.data, null, 2)));
           if (result.status === 200) {
             const formatted = {};
@@ -188,23 +188,23 @@ async function getNewGameData(game) {
             }
             item.esrb = { rating: null, letterRating: null };
             if (item.age_ratings && item.age_ratings.length) {
-              const esrb = item.age_ratings.filter((r) => r.rating > 5).map((r) => r.rating);
+              const esrb = item.age_ratings.filter(r => r.rating > 5).map(r => r.rating);
               formatted.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : '';
             } else {
               formatted.esrb = null;
             }
             formatted.videos =
-              item.videos && item.videos.length ? item.videos.map((v) => v.video_id) : null;
+              item.videos && item.videos.length ? item.videos.map(v => v.video_id) : null;
             if (item.cover && item.cover.url) {
               const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
               formatted.image = `https:${bigImage}`;
             } else {
               formatted.image = '';
             }
-            formatted.description = item.summary ? whitespace.removeBreaks(item.summary) : null;
-            formatted.story = item.storyline ? whitespace.removeBreaks(item.storyline) : null;
+            formatted.description = item.summary ? whitespaceRemoveBreaks(item.summary) : null;
+            formatted.story = item.storyline ? whitespaceRemoveBreaks(item.storyline) : null;
             formatted.player_perspectives = item.player_perspectives
-              ? item.player_perspectives.map((p) => p.name)
+              ? item.player_perspectives.map(p => p.name)
               : [];
             const multiplayer = item.multiplayer_modes
               ? getMultiplayerModes(item.multiplayer_modes)
@@ -229,7 +229,7 @@ async function getNewGameData(game) {
             reject({ game, result });
           }
         })
-        .catch((error) => {
+        .catch(error => {
           console.log(chalk.red(game.igdb.name));
           console.log(chalk.blue(error));
           resolve({ game, error });
@@ -247,7 +247,7 @@ function handleResults(results) {
   console.log('results', results);
   const cleaned = [],
     errors = [];
-  results.forEach((result) => {
+  results.forEach(result => {
     if (result.error) {
       errors.push(result);
       console.log(chalk.red('ERROR DAMMIT!'));
@@ -261,9 +261,9 @@ function handleResults(results) {
   fs.writeFile(
     path.join(__dirname, `./newGamesFormatted.json`),
     JSON.stringify(cleaned, null, 2),
-    (err) => {
+    err => {
       if (err) {
-        err.forEach((error) => {
+        err.forEach(error => {
           console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
         });
       }
@@ -271,9 +271,9 @@ function handleResults(results) {
   );
 
   // write results in a minified format to be pasted
-  fs.writeFile(path.join(__dirname, `./newGamesMinified.json`), JSON.stringify(cleaned), (err) => {
+  fs.writeFile(path.join(__dirname, `./newGamesMinified.json`), JSON.stringify(cleaned), err => {
     if (err) {
-      err.forEach((error) => {
+      err.forEach(error => {
         console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
       });
     }
@@ -283,9 +283,9 @@ function handleResults(results) {
   fs.writeFile(
     path.join(__dirname, `./newGamesErrors.json`),
     JSON.stringify(errors, null, 2),
-    (err) => {
+    err => {
       if (err) {
-        err.forEach((error) => {
+        err.forEach(error => {
           console.log(chalk.red.bold(JSON.stringify(error, null, 2)));
         });
       }
@@ -297,7 +297,7 @@ refreshAppKey()
   .then(() => {
     const trialRun = games.slice(start, end);
 
-    const promiseArr = trialRun.map((g) => getNewGameData(g));
+    const promiseArr = trialRun.map(g => getNewGameData(g));
     const final = [];
     const errors = [];
     let wait = 1000;
@@ -308,14 +308,14 @@ refreshAppKey()
         wait = 1000 * (i + 1);
         await setTimeout(() => {
           promiseArr[i]
-            .then((result) => {
+            .then(result => {
               console.log('result', JSON.stringify(result, null, 2));
               final.push(result);
               if (pLast === i) {
                 handleResults([...final, ...errors]);
               }
             })
-            .catch((error) => {
+            .catch(error => {
               console.log(chalk.red(error));
               errors.push(error);
               if (pLast === i) {
@@ -330,6 +330,6 @@ refreshAppKey()
       await throttled();
     })();
   })
-  .catch((errors) => {
+  .catch(errors => {
     console.log(chalk.red.bold(JSON.stringify(errors, null, 2)));
   });

@@ -41,6 +41,7 @@ export default {
     'Sony PlayStation 3': 'logos/PlayStation_3_logo_(2009).svg',
     'Super Nintendo Entertainment System (SNES)': 'logos/SNES_logo.svg',
     'TurboGrafx-16/PC Engine': 'logos/TurboGrafx16logo.jpg',
+    'Virtual Boy': 'logos/Virtualboy_logo.svg',
     Wii: 'logos/Wii.svg',
     'Wii U': 'logos/WiiU.svg',
     Xbox: 'logos/Vectorial_Xbox_logo.svg',

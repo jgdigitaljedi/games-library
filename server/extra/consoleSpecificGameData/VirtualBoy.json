@@ -1,0 +1,94 @@
+[
+  {
+    "id": "nvb0",
+    "name": "Galactic Pinball",
+    "details": [
+      "Nintendo Virtual Boy launch title"
+    ],
+    "igdbId": 20381,
+    "gbId": 20180,
+    "gbGuid": "3030-20180",
+    "tgdbId": 14738,
+    "isLaunchTitle": [
+      {
+        "name": "Nintendo Virtual Boy",
+        "id": "ccl50",
+        "igdbId": 87,
+        "gbId": 79,
+        "gbGuid": "3045-79",
+        "tgdbId": 4918
+      }
+    ],
+    "isExclusive": false,
+    "special": []
+  },
+  {
+    "id": "nvb1",
+    "name": "Mario's Tennis",
+    "details": [
+      "Nintendo Virtual Boy launch title"
+    ],
+    "igdbId": 20386,
+    "gbId": 14178,
+    "gbGuid": "3030-14178",
+    "tgdbId": 14744,
+    "isLaunchTitle": [
+      {
+        "name": "Nintendo Virtual Boy",
+        "id": "ccl50",
+        "igdbId": 87,
+        "gbId": 79,
+        "gbGuid": "3045-79",
+        "tgdbId": 4918
+      }
+    ],
+    "isExclusive": false,
+    "special": []
+  },
+  {
+    "id": "nvb2",
+    "name": "Red Alarm",
+    "details": [
+      "Nintendo Virtual Boy launch title"
+    ],
+    "igdbId": 20790,
+    "gbId": 12612,
+    "gbGuid": "3030-12612",
+    "tgdbId": 14748,
+    "isLaunchTitle": [
+      {
+        "name": "Nintendo Virtual Boy",
+        "id": "ccl50",
+        "igdbId": 87,
+        "gbId": 79,
+        "gbGuid": "3045-79",
+        "tgdbId": 4918
+      }
+    ],
+    "isExclusive": false,
+    "special": []
+  },
+  {
+    "id": "nvb3",
+    "name": "Teleroboxer",
+    "details": [
+      "Nintendo Virtual Boy launch title"
+    ],
+    "igdbId": 20984,
+    "gbId": 14650,
+    "gbGuid": "3030-14650",
+    "tgdbId": 14749,
+    "isLaunchTitle": [
+      {
+        "name": "Nintendo Virtual Boy",
+        "id": "ccl50",
+        "igdbId": 87,
+        "gbId": 79,
+        "gbGuid": "3045-79",
+        "tgdbId": 4918
+      }
+    ],
+    "isExclusive": false,
+    "special": []
+  }
+]

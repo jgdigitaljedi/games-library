@@ -28,6 +28,7 @@ const ps4 = require('./consoleSpecificGameData/SonyPlayStation4.json');
 const sms = require('./consoleSpecificGameData/SegaMasterSystem.json');
 const jag = require('./consoleSpecificGameData/AtariJaguar.json');
 const miv = require('./consoleSpecificGameData/MattelIntellivision.json');
+const nvb = require('./consoleSpecificGameData/VirtualBoy.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -64,7 +65,8 @@ const igdbIdToFile = {
   '60': a7800,
   '64': sms,
   '67': miv,
-  '62': jag
+  '62': jag,
+  '87': nvb
 };
 
 module.exports.getFileRef = id => {

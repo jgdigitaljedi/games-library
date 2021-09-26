@@ -6,7 +6,8 @@ const handheldsArr = [
   '20', // Nintendo DS
   '33', // Game Boy
   '22', // Game Boy Color
-  '35' // Game Gear
+  '35', // Game Gear
+  '87' // Virtual Boy
 ];
 
 const inHandheldsArr = (id, name) => {
@@ -19,7 +20,7 @@ const inHandheldsArr = (id, name) => {
   }
 };
 
-module.exports.isHandheld = (game) => {
-  const hands = game.consoleArr.map((con) => inHandheldsArr(con.consoleId, con.consoleName));
-  return hands.filter((res) => res).length > 0;
+module.exports.isHandheld = game => {
+  const hands = game.consoleArr.map(con => inHandheldsArr(con.consoleId, con.consoleName));
+  return hands.filter(res => res).length > 0;
 };

@@ -34,7 +34,8 @@ const consoleLocationList = {
   '60': 'upstairs', // Atari 7800
   '62': 'upstairs', // Atari Jaguar
   '67': 'upstairs', // IntelliVision
-  '64': 'upstairs' // Master System
+  '64': 'upstairs', // Master System
+  '87': 'both'
 };
 
 module.exports.getLocation = id => {

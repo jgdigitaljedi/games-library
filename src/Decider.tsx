@@ -23,7 +23,6 @@ import { gamesCount, getPlatformArr, physicalGamesCount } from './services/globa
 import DeciderCards from './components/DeciderCards/DeciderCards';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { NotificationContext } from './context/NotificationContext';
-import { IGame } from './models/games.model';
 
 interface MapStateProps {
   platformsArr: IDropdown[];

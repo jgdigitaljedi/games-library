@@ -1,6 +1,6 @@
 import { IGame } from '@/models/games.model';
 import Colors from '../style/colors';
-import { IDataTitlesIndex, IStats } from '@/models/common.model';
+import { IDataTitlesIndex } from '@/models/common.model';
 import {
   getPriceOverTimeData,
   getGameByReleaseYearData,

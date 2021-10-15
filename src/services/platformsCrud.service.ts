@@ -149,17 +149,20 @@ const getReleaseDate = (
   } else {
     const regionArr = prd.map(d => d.region.toString());
     const regionArrWithNames = _sortBy(
-      Object.keys(preferredRegionIds).map((key: string, index: number) => {
-        const indOf = regionArr.indexOf(key);
-        if (indOf >= 0) {
-          return {
-            index: indOf,
-            // @ts-ignore
-            region: preferredRegionIds[regionArr[indOf]],
-            date: moment(prd[indOf].human).format('MM/DD/YYYY')
-          };
-        }
-      }),
+      Object.keys(preferredRegionIds)
+        .map((key: string, index: number) => {
+          const indOf = regionArr.indexOf(key);
+          if (indOf >= 0) {
+            return {
+              index: indOf,
+              // @ts-ignore
+              region: preferredRegionIds[regionArr[indOf]],
+              date: moment(prd[indOf].human).format('MM/DD/YYYY')
+            };
+          }
+          return null;
+        })
+        .filter(n => n),
       'index'
     );
     console.log('regionArrWithNames', regionArrWithNames);

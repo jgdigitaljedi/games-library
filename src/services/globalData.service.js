@@ -1,5 +1,4 @@
 import Axios from 'axios';
-import { makeRequest } from './generalCrud.service';
 
 export const getPlatformArr = () => {
   return new Promise((resolve, reject) => {

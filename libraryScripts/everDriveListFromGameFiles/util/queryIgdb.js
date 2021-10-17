@@ -111,8 +111,8 @@ const getGenres = game => {
 
 async function getNewGameData(game) {
   const gameNoBrackets = game.replace(/ *\[[^\]]*]/, '');
-  const gameNoHyphen = gameNoBrackets.replace(/ -/, ':');
-  const gameNoParens = parensRemove(gameNoHyphen).split('.')[0];
+  const gameNoHyphen = gameNoBrackets.replace(/ -/, ': ');
+  const gameNoParens = parensRemove(gameNoBrackets).split('.')[0];
   console.log(gameNoParens);
   edId = createEverdriveId(edId);
   return new Promise((resolve, reject) => {
@@ -186,7 +186,15 @@ async function getNewGameData(game) {
   });
 }
 
-module.exports.setUserData = (conEdId, gameNotes, consoleName, consoleId, location, handheld) => {
+module.exports.setUserData = (
+  conEdId,
+  gameNotes,
+  consoleName,
+  consoleId,
+  location,
+  handheld,
+  edConsole
+) => {
   edId = conEdId;
   const gamesService = {
     xbGold: false,
@@ -216,7 +224,8 @@ module.exports.setUserData = (conEdId, gameNotes, consoleName, consoleId, locati
     compilation: false,
     compilationGamesIds: [],
     gamesService,
-    consoleArr: [{ consoleName, consoleId }]
+    consoleArr: [{ consoleName: edConsole.consoleName, consoleId: edConsole.consoleId }],
+    vr: { vrOnly: false, vrCompatible: false }
   };
 };
 
@@ -230,9 +239,7 @@ module.exports.fetchIgdbData = (gamesArr, userDataPassed) => {
             if (error) {
               console.log(chalk.red.bold('ERROR IN ASYNC.MAP', error));
             }
-            console.log('results', results);
             resolve(results);
-            // handleResults(results);
           });
         } catch (err) {
           console.log(chalk.red.bold('ERROR: Async.mapLimit encountered an error', err));

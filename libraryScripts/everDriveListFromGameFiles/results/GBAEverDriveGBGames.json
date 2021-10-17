@@ -1,0 +1,1632 @@
+[
+  {
+    "id": 7751,
+    "name": "Alleyway",
+    "first_release_date": "04/20/1989",
+    "total_rating": 71,
+    "esrb": "E",
+    "genres": [
+      "Puzzle",
+      "Arcade"
+    ],
+    "genresDisplay": "Puzzle, Arcade",
+    "videos": [
+      "I4MCpuBGAfs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21lj.jpg",
+    "description": "Interstellar ping-pong with a deadly energy ball! Your spaceship is at the gate of the Alleyway. Use your vessel to repel the energy ball. Atomize space grids with your return shots. Destroy the entire field and move on to even more challenging targets. You're in command in the Alleyway!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo Game Boy launch title"
+    ],
+    "extraDataFull": {
+      "id": "ngb2",
+      "name": "Alleyway",
+      "details": [
+        "Nintendo Game Boy launch title"
+      ],
+      "igdbId": 7751,
+      "gbId": 4381,
+      "gbGuid": "3030-4381",
+      "tgdbId": 3152,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Game Boy",
+          "id": "ccl8",
+          "igdbId": 33,
+          "gbId": 3,
+          "gbGuid": "3045-3",
+          "tgdbId": 4
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    }
+  },
+  {
+    "id": 7790,
+    "name": "Blaster Master Jr.",
+    "first_release_date": "08/22/1991",
+    "total_rating": 71,
+    "genres": [
+      "Shooter",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lcy.jpg",
+    "description": "Blaster Master Jr., known as Blaster Master Boy in North America and Bomber King: Scenario 2 (ボンバーキング　シナリオ2?) in Japan, is an action video game developed by Aicom and published by Sunsoft. The game was released in 1991 for Game Boy. The game is a sequel to Robowarrior, a spin-off title in the Bomberman series by Hudson Soft. However, the game was marketed in western territories as a game in the Blaster Master series by Sunsoft.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150002,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo Game Boy exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Blaster Master Jr.",
+      "details": [
+        "Nintendo Game Boy exclusive"
+      ],
+      "id": "ngb22",
+      "igdbId": 7790,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": null,
+      "isExclusive": [
+        {
+          "name": "Nintendo Game Boy",
+          "id": "ccl8",
+          "igdbId": 33,
+          "gbId": 3,
+          "gbGuid": "3045-3",
+          "tgdbId": 4
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 6100,
+    "name": "Bomb Jack",
+    "first_release_date": "12/30/1984",
+    "total_rating": 71,
+    "genres": [
+      "Platform",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Arcade",
+    "videos": [
+      "OgKRNh7PV0k"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsb.jpg",
+    "description": "The player controls Jack, a superhero who can leap and glide. Someone has planted 24 bombs at famous tourist sites (the Sphinx and Great Pyramids, the Acropolis, Neuschwanstein Castle in Bavaria, and two cityscapes resembling Miami Beach and Hollywood, which appear only as screen backgrounds rather than unique game locations). Jack must fly around the screen to collect the bombs. Each screen uses a different configuration of platforms upon which Jack may run and jump. Eventually, the levels reoccur a number of times with increasing difficulty.Bomb Jack's arcade versionJack \"defuses\" the bombs by simply touching them. As soon as he has touched the first, he triggers a sequence in which another bomb's fuse lights up, and so on. A player can score a bonus in each round by touching 20 or more bombs in the correct lit-fuse sequence. Jack may also defuse an unlit bomb by touching it, but this impedes his opportunity to score the bonus for that screen. It also delays the appearance of the game's bonuses and power-ups.Bomb Bonuses are triggered when Jack touches the first of 24 onscreen bombs. It is possible to collect the remaining bombs in fuse order, the maximum being 23 (the top score possible on a level). Expert players would combine this with X5 'b's for the largest multiplier score available.The lit fuses have no strategic purpose other than the bonus; a lit bomb left unattended does not explode, although the onscreen enemies become faster the longer Jack is flying around and they eventually start to follow him at speed. At this point, new enemies appear in the form of flying saucers, that 'lock on' to Jack and are difficult to avoid.Enemies such as birds, mummies, turtles, and orbs float around the screen, making Jack lose a life if he touches them. Collecting bombs will increase the bonus meter at the top of the screen (collecting lit bombs increases it more). When the meter is completely filled up, a circular bouncing \"P\" appears, and when collected, it will turn all the enemies into bonus coins for a short period during which Jack may collect them. Other similar bonuses are the B (Bonus) which increases the score multiplier (up to 5x), the E (Extra) which gives an extra life, and the rare S (Special), which awards a free game. The Twin Galaxies highest scores for Bomb Jack on the MAME (arcade) platform are 73,378,560 on marathon settings, and 4,888,740 on tournament settings (5 lives only), achieved by Paul Kearns of London.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150003,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 98703,
+    "name": "Bonk's Adventure",
+    "first_release_date": "12/30/1992",
+    "total_rating": 72,
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lcj.jpg",
+    "description": null,
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150004,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 7795,
+    "name": "Bonk's Revenge",
+    "first_release_date": "12/30/1991",
+    "total_rating": 77,
+    "esrb": "E",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tfi.jpg",
+    "description": "In the Game Boy version of this title, Bonk can turn into one of three unique heroes: Master Bonk, Hungry Bonk, or Stealth Bonk. Becoming Master Bonk dresses Bonk in a cape and provides him with Vulcan-esque ears, and gives him the ability to move faster and jump higher. Becoming Hungry Bonk gives Bonk an animalistic appearance with evil eyes and a mouth full of razor-sharp teeth, and gives bonk the ability to chew enemies to death, as well as providing him with a much stronger head-butt that can kill nearby foes. Becoming Stealth Bonk dresses Bonk in a striped jail outfit, and gives him the ability to enter special locked doors that lead to areas such as the bank, where Bonk can collect Smileys, the butcher's, where Bonk can eat more slabs of meat in hope for a different power-up, and jail, where Bonk loses a portion of his Smileys.Grabbing one of many tulips scattered throughout the game carries Bonk to a special bonus stage where he can face off against Mechabonk -- a RoboCop-esque version of Bonk—in a best-of-three battle to \"bonk\" one another off the edge of a small stage. Winning two rounds provides Bonk with an extra life, while a loss transforms Bonk into Wounded Bonk, where Bonk resembles a mummy and takes twice as much damage as usual.The game overall is very similar to games in the Mario series, providing linear, side-scrolling action, multiple power-ups, and several small boss confrontations leading up to a final boss. Its treatment of power-ups is similar as well: taking a hit while powered-up causes Bonk to take no damage but instead lose his power. For those who struggle with the game, the game offers passwords after game-overs so the player does not need to start over from the beginning.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150005,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1118,
+    "name": "Castlevania: The Adventure",
+    "first_release_date": "10/26/1989",
+    "total_rating": 48,
+    "esrb": "E10+",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20d7.jpg",
+    "description": "Castlevania: The Adventure is a platform game released for the Game Boy in 1989. It is the first Castlevania title for the system.Set a century before the events of the original Castlevania, the player controls an ancestor of Simon Belmont named Christopher Belmont who goes on a quest to defeat Dracula.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150006,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1123,
+    "name": "Castlevania II: Belmont's Revenge",
+    "first_release_date": "07/11/1991",
+    "total_rating": 71,
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tg9.jpg",
+    "description": "Fifteen years after vanquishing the emperor of evil, Count Dracula, Christopher Belmont now faces a vampire swearing vengeance. Drac's back. And he's turned your son, Soleiyu Belmont, into a deadly demon to do his dirty deeds. Now not only do you have to rescue your kid from the Count's clutches, you have to first track him down in four creep packed Castles. Fortunately, you posses weapons like armor piercing Battle Axes, beast burning Holy Water, and the Legendary Mystic Whip. And you can increase your arsenal with power up items like Crystal Balls, Hearts, and Candles. Strap on your shield and step into the shadows. That is, if you're prepared for the dwellers of darkness.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150007,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1129,
+    "name": "Castlevania Legends",
+    "first_release_date": "11/26/1997",
+    "total_rating": 59,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20d8.jpg",
+    "description": "Every legend has a beginning. Now discover the beginning of the Castlevania Legend in Castlevania Legends for Game Boy. In this single-player adventure, you play as Sonia Belmont, the very first in the line of vampire hunting Belmonts. Use your whip to fend off the forces of darkness, as you work your way through six stages of non-linear gameplay. Explore the legendary areas of Castlevania, including the surrounding forest and the infamous clock tower. Don't forget to collect hearts from the torches that litter the stages to gain extra lives. Adjustable difficulty settings allow you to choose the skill level at which you want to play. At the end of it all, Count Dracula himself awaits. Can you defeat him and put the evil to rest for another 100 years?",
+    "story": "he story begins in Transylvania in the year 1450. In the game (although not the series' overall canon), Sonia Belmont is the first Belmont to confront Dracula. She also meets Alucard who seeks revenge against his father Dracula.[2][3] After Dracula's defeat, he swears to Sonia that as long as there is evil in the world, he will be resurrected, and in response she swears her family will always defeat him. The game was also the first game in the series timeline until Lament of Innocence.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150008,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo Game Boy exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Castlevania Legends",
+      "details": [
+        "Nintendo Game Boy exclusive"
+      ],
+      "id": "ngb26",
+      "igdbId": 1129,
+      "gbId": 12001,
+      "gbGuid": "3030-12001",
+      "tgdbId": 11526,
+      "isExclusive": [
+        {
+          "name": "Nintendo Game Boy",
+          "id": "ccl8",
+          "igdbId": 33,
+          "gbId": 3,
+          "gbGuid": "3045-3",
+          "tgdbId": 4
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 2636,
+    "name": "Dig Dug",
+    "first_release_date": "04/18/1982",
+    "total_rating": 73,
+    "esrb": "E",
+    "genres": [
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Adventure, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c0z.jpg",
+    "description": "Dig Dug is a 1-2 player arcade game in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. (if you start to inflate them but stop doing so, the monsters will get turned back to their normal selves). Furthermore, rocks are scattered throughout the earth, and you can use these rocks to squash them. If the monsters do not find you for several seconds, they will eventually get turned into ghosts, which are able to walk through the earth. They are invincible and cannot be killed. From time to time, vegetables will appear in the center, and you can get these for points.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150009,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1089,
+    "name": "Donkey Kong",
+    "first_release_date": "06/13/1994",
+    "total_rating": 86,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Puzzle, Arcade",
+    "videos": [
+      "QMb6ObDPlXk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wd9.jpg",
+    "description": "Donkey Kong is a Game Boy game which starts out with the premise of being a straight remake of the original Donkey Kong arcade game. Although at first it appears to be just a port, the familiar levels from the arcade game are just a prelude to the real platform jumping adventure. There are 96 levels spread out over 12 worlds. These levels are much more complex than the originals, featuring scrolling backgrounds, numerous objects to collect, and enemies to avoid. Along the way, you will encounter several boss style battles with Donkey Kong, as well.",
+    "story": "The large ape Donkey Kong kidnaps Mario's lady friend Pauline and carries her off to a construction site. In a repeat of the 1981 arcade classic, Mario follows him up to the highest point and makes Donkey Kong fall off the platforms by pulling out the rivets supporting them, causing Donkey Kong to fall a height of 100m, reuniting Mario and Pauline, just like the events that took place 13 years ago. However, Donkey Kong unexpectedly recovers, takes Pauline, and escapes with her into the Big-City. Mario pursues the two.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150010,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1095,
+    "name": "Donkey Kong Land III",
+    "first_release_date": "09/30/1997",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "6DB5Mb5S2zs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wvc.jpg",
+    "description": "Donkey Kong Land III is the last part in the Donkey Kong Land series and was released for the Game Boy by Nintendo in 1997.Fame-and-fortune seekers have flooded Donkey Kong Country in search of the fabled Lost World. Dixie Kong & Kiddy Kong rush through 36 Kong-sized levels of action and adventure. Use your animal friends - Squitter the spider, Squawks the parrot, Ellie the elephant, Enguarde the swordfish and Parry the parallel bird - to help you prove your adventuring skills and find the Lost World before someone else does!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150011,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1093,
+    "name": "Donkey Kong Land 2",
+    "first_release_date": "11/22/1996",
+    "total_rating": 79,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "DIjCDX2mnlE"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ww1.jpg",
+    "description": "Donkey Kong Land 2 is the first sequel to Donkey Kong Land for the Nintendo Game Boy and was released in 1996.  The story mainly complies to its SNES counterpart; K. Rool kidnapped Donkey Kong, demanding the entire Banana Hoard as ransom, so it's up to Diddy Kong and Dixie Kong to rescue their kidnapped pal. A wild assortment of friendly animals like Rambi the Rhino, Squitter the Spider, Squawks the Parrot, Rattly the Rattlesnake and Enguarde the Swordfish help the two little monkeys in their adventurous mission. Each exciting level is filled with special traps, hidden items and dastardly Kremlings! Prepare yourself for the biggest Game Boy adventure yet!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150012,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1095,
+    "name": "Donkey Kong Land III",
+    "first_release_date": "09/30/1997",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "6DB5Mb5S2zs"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wvc.jpg",
+    "description": "Donkey Kong Land III is the last part in the Donkey Kong Land series and was released for the Game Boy by Nintendo in 1997.Fame-and-fortune seekers have flooded Donkey Kong Country in search of the fabled Lost World. Dixie Kong & Kiddy Kong rush through 36 Kong-sized levels of action and adventure. Use your animal friends - Squitter the spider, Squawks the parrot, Ellie the elephant, Enguarde the swordfish and Parry the parallel bird - to help you prove your adventuring skills and find the Lost World before someone else does!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150013,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 407,
+    "name": "Final Fantasy Adventure",
+    "first_release_date": "06/07/1991",
+    "total_rating": 80,
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": [
+      "KHM9GkYK23o"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpk.jpg",
+    "description": "In the Empire of Glaive, a gladiator-slave is forced to fight evil monsters controlled by the Dark Lord. But when his best friend is mortally wounded, he learns of a secret pendant which will give him great power. As the hero, you must battle your way out of the Dark Knight's castle and search through a dangerous world for the girl who has the pendant. But you discover she has been captured by the Dark Knight's men. To free her, you must find the legendary sword and fight off the Dark Knight's beasts and overlords through deserts, snowfields, lakes, forests, and caves. Are you ready for the adventure of your life?",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150015,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 403,
+    "name": "Final Fantasy Legend II",
+    "first_release_date": "12/13/1990",
+    "total_rating": 87,
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": [
+      "mFUpietqiq8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q5l.jpg",
+    "description": "The Final Fantasy Legend series continues! In this classic RPG adventure, you are on a quest to reunite with your father. In order to find your father, you must travel far and wide to find the scattered fragments of a mystical force, known as Magi. Your quest takes you to several mysterious lands filled with caves, temples, enemy bases, ancient Japanese castles, and much more. Many of the worlds are filled with quirky inhabitants, such as the world of giants. Another world praises beauty but banishes ugliness.  You can choose four heroes to accompany you in your journey. Choose from humans, robots, and even monsters. As the game progresses, you will encounter additional characters that may join your party.",
+    "story": "\"...MAGI... \nThe symbol of great power. The legacy of the ancient gods who made this world. \nMany fought for the mighty power. Some won and some failed. \nNow.... another legend of bravery is about to begin.... \n—Intro \nA great tower is located in the world and connects various other worlds together. All these worlds contain MAGI, fragments of an ancient Goddess who existed several eons ago. The party sets out to gather the MAGI to prevent those with sinister methods from collecting it and becoming new Gods.",
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150016,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 410,
+    "name": "Final Fantasy Legend III",
+    "first_release_date": "12/12/1991",
+    "total_rating": 83,
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": [
+      "z1TAd7-EXSc"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpm.jpg",
+    "description": "Millennia ago, a fierce battle was waged for control of an idyllic world known as Pureland. After much fighting, the brave warriors of Pureland were protectively sealed in their own dimension, away from the rest of the universe. This was done by means of Talon, a powerful space craft capable of traveling through both time and space. Centuries have passed and the would-be master of Pureland have managed to create a rift in the galaxy, sending the Pureland Water Entity to devour all that stands in its path. You must journey through past, present, and future to find the 13 pieces of the now-divided Talon. Only then can you save the universe from total destruction.",
+    "story": "A creature known as the Pureland Water Entity engulfed the world in a great flood. The entity drew monsters onto the land and low lying cities have been abandoned. As a party of four warriors sets out to confront the entity, several youths from the future arrive to help, and it is realized that the Entity's destruction is occurring in the past and future as well. The group then collects pieces of the ship Talon in the past, present, and future to defeat the Entity.",
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150017,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 396,
+    "name": "The Final Fantasy Legend",
+    "first_release_date": "12/14/1989",
+    "total_rating": 62,
+    "esrb": "E",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": [
+      "tJsv7h2_OQw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rle.jpg",
+    "description": "The long-running FINAL FANTASY series hits the Game Boy with FINAL FANTASY LEGEND. Create your party by choosing four warriors from eight different character classes including humans, mutants, and monsters. Humans specialize in hand-to-hand combat and have access to most weapons, mutants wield magic like no other, and monsters can evolve themselves by feasting on the meat of fallen opponents to become new monsters! Venture your way through four different lands each with a unique fantasy theme to stop the wicked Ashura Devils from destroying the world. A beautiful fantasy soundtrack adds atmosphere to the experience and puts you in the right mood. This single-player RPG features battery backup to save your progress, and is compatible with both Game Boy and Game Boy Color. RPG fans on the go should check out FINAL FANTASY LEGEND.",
+    "story": "\"It has been said that the tower in the center of the World is connected to Paradise. Dreaming of a life in Paradise, many have challenged the secret of the tower, but no one knows what became of them. Now, there is another who will brave the adventure.\n—Intro\nIn the center of the world is a great tower. This tower connects to many worlds and at the top the entrance to Paradise. A group of adventurers from the world at the base of the tower decide to climb it to explore the various worlds. Along the way they encounter many strange creatures and among them strong monsters based on the Chinese Zodiac who guard the key to the next floor.\nIn the Base World, Gen-bu, the Black Turtle, has hidden the Black Sphere in the Statue of Hero, southwest of the Tower.\n\nTwo dragons guard the divided Blue Sphere in the World of Sea. Sei-ryu, the Blue Dragon, holds dominion over the realm from a palace below.\n\nA resistance force builds in the World of Sky as Byak-ko, the White Tiger, rules the realm with an iron fist in search of the White Sphere.\n\nSu-zaku, the Red Bird, lays waste to the World of Future as he guards the Red Sphere.\n\nPackaging ArtworkEdit",
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150018,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1028,
+    "name": "The Legend of Zelda: Link's Awakening",
+    "first_release_date": "06/05/1993",
+    "total_rating": 83,
+    "esrb": "E",
+    "genres": [
+      "Adventure"
+    ],
+    "genresDisplay": "Adventure",
+    "videos": [
+      "E0ErE4l1EKM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnt.jpg",
+    "description": "A Game Boy fantasy adventure like no other!Nintendo's fantasy adventure hero, Link of Hyrule, returns in this new epic quest...Link's Awakening. Link's newest challenge is set on the mysterious Koholint Island, a place where dreams and reality collide. As a castaway, Link must find a way to escape from the island and return to his beloved homeland of Hyrule.But it won't be as easy as chartering a boat. The island's inhabitants have no knowledge of the outside world. One creature, a talking Owl, may know the solution to Link's dilemma, but first Link must tackle eight dungeons full of treacherous monsters and tricky taps. His goal: find the eight Instruments of the Sirens and awaken the omnipotent Wind Fish which rules the island.Link will battle new enemies and make new friends in one of the most in-depth fantasy adventures for Game Boy yet!A battery-backed memory will save up to three games so you never have to start your journey empty-handed.",
+    "story": "After the events of A Link to the Past, the hero Link travels by ship to other countries to train for further threats. A storm destroys his boat at sea, and he washes ashore on Koholint Island where he is taken to the house of Tarin by his daughter Marin. She is fascinated by Link and the outside world, and tells Link wishfully that, if she were a seagull, she would leave and travel across the sea. After Link recovers his sword, a mysterious owl tells him that he must wake the Wind Fish, Koholint's guardian, in order to return home. The Wind Fish lies dreaming in a giant egg on top of Mt. Tamaranch, and can only be awakened by the eight Instruments of the Sirens.\n\nLink proceeds to explore a series of dungeons in order to recover the eight instruments. During his search for the sixth instrument, Link goes to the Ancient Ruins. There he finds a mural that details the reality of the island: that it is merely a dream world created by the Wind Fish. After this revelation, the owl tells Link that this is only a rumor, and only the Wind Fish knows for certain whether it is true. Throughout Koholint Island, nightmare creatures attempt to obstruct Link's quest for the instruments, as they wish to rule the Wind Fish's dreamworld.\n\nAfter collecting all eight instruments from the eight dungeons across Koholint, Link climbs to the top of Mt. Tamaranch and plays the Ballad of the Wind Fish. This breaks open the egg in which the Wind Fish sleeps; Link enters and confronts the last evil being, a Nightmare that takes the form of Ganon and other enemies from Link's past.[24] Its final transformation is \"DethI\", a cyclopean, dual-tentacled Shadow. After Link defeats DethI, the owl reveals itself to be the Wind Fish's spirit, and the Wind Fish confirms that Koholint is all his dream. When Link plays the Ballad of the Wind Fish again, he and the Wind Fish awaken; Koholint Island and all its inhabitants slowly disappear. Link finds himself lying on his ship's driftwood in the middle of the ocean, with the Wind Fish flying overhead. If the player did not lose any lives during the game, Marin is shown flying after the ending credits finish.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150019,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 71976,
+    "name": "Mario's Picross",
+    "first_release_date": "03/13/1995",
+    "total_rating": 84,
+    "esrb": "E",
+    "genres": [
+      "Puzzle"
+    ],
+    "genresDisplay": "Puzzle",
+    "videos": [
+      "21IsTX2n5nk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tau.jpg",
+    "description": "Mario's Picross is a puzzle game for the Game Boy and the first game in the Nintendo-published Picross series. In this game, Mario takes on the role of an archaeologist who chisels away the squares in each playfield. The result is a small picture. There are 256 different puzzles to solve, divided into four courses with increasing difficulty level.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150020,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1733,
+    "name": "Mega Man: Dr. Wily's Revenge",
+    "first_release_date": "07/25/1991",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Arcade",
+    "videos": [
+      "NqC_1GuY3dw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co200o.jpg",
+    "description": "Dr. Wily's most challenging robot masters will be there when you pump up the GameBoy. And knowing the maniac he is, he's probably concocted a new one or two. Can you survive the eight empires before you break into Dr. Wily's lab? Well, if you experienced MegaMan before, you know it's no day at the beach. But good reason to get going on MegaMan in Dr. Wily's Revenge. Now.* When the stompin' cyclops springs into action, you better step on it.* The swooping copterheads just might be your greatest challenge yet.* If the giant fan is blowing, only a ledge-jump will save you from the spikes.",
+    "story": "Thanks to the efforts of Mega Man, the super robot created by Dr. Light, Dr. Wily's ambitions did not come to fruition. Peace had returned to the world, but Dr. Wily had secretly altered the industrial robots developed by Dr. Light. After everything that had happened, Dr. Wily had not abandoned his desire for world domination. In order to stop Dr. Wily from realizing his dream, Mega Man headed to the city.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150021,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1734,
+    "name": "Mega Man II",
+    "first_release_date": "12/19/1991",
+    "total_rating": 63,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "YziB-46VblA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co200j.jpg",
+    "description": "The second handheld installment of the Mega Man series has him (along with his dog, Rush) defeating eight more revived Robot Masters (from Mega Man 2 and Mega Man 3), while finding the whereabouts of Dr. Wily (who has traveled into the future to steal a weapon to counter Mega Man).",
+    "story": "Even after his crushing defeat at the hands of Mega Man during the events of Mega Man: Dr. Wily's Revenge, Dr. Wily was already planning his next scheme. If he could get his hands on the time machine (named Time Skimmer in the American manual) that was being developed at the Time-Space Research Laboratory (named Chronos Institute in the American manual), he thought he just might be able to change the past.\n\nAfter stealing the time machine, Wily had wanted to set out immediately on a trip across time, but had to put an emergency brake down on his plans when he discovered that the time machine had a serious flaw.\n\nMeanwhile, Dr. Light had been dispatched to the time-space laboratory to investigate. With the help of Rush’s super-sense of smell, he was able to deduce that it was none other than Dr. Wily behind the theft. Having a bad feeling about the incident, Dr. Light quickly called upon Mega Man and Rush to search out Dr. Wily’s whereabouts.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150022,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1735,
+    "name": "Mega Man III",
+    "first_release_date": "11/30/1992",
+    "total_rating": 65,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "C8-IjpWJGc8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co200k.jpg",
+    "description": "Mega Man III is an action-platform video game by Capcom for the Nintendo Game Boy. It is the third game in the handheld version of the Mega Man series. The game follows the title character Mega Man as he fights the evil Dr. Wily, whose latest attempt to conquer the world involves sucking energy from the Earth's core to power a new machine. Along with foes from his past, Mega Man must contend with the next robot in Wily's line of \"Mega Man Killers\", Punk. Like its two consecutive predecessors on the Game Boy, the game combines elements from two previously released Nintendo Entertainment System (NES) titles: Mega Man 3 and Mega Man 4. In 2013, Mega Man III was made available on the Virtual Console of Japan's Nintendo eShop for the Nintendo 3DS. It was later released in the North American and PAL region eShops the following year.",
+    "story": "A few months after Dr. Wily's defeat in Mega Man II, several bad news were reported in Dr. Light's Laboratory from around the world, including abnormal weather, transportation failures, and industrial abnormalities. Apparently, the functions of the super computer managing people's everyday life around the world has malfunctioned, and an army of robots began rampaging, causing panic in the city. Dr. Light deduces that Dr. Wily must be running powerful jamming waves to interfere with the super computer and is behind the army of robots, and asks Mega Man to stop the robots.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150023,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1736,
+    "name": "Mega Man IV",
+    "first_release_date": "10/28/1993",
+    "total_rating": 64,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Platform"
+    ],
+    "genresDisplay": "Shooter, Platform",
+    "videos": [
+      "O10_gKeV_P8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co200l.jpg",
+    "description": "A huge celebration at the World Robot Expo is shattered by the sight of a flying saucer streaking across the sky. But instead of holding little green men, this saucer holds one very mad scientist! Armed with a mind control machine that transmits a sinister signal. Dr. Wily is ready to mesmerize all the robots of the city into an army of mindless metallic mercenaries!Battling the effects of Wily's mind control machine, Mega Man and his robotic reenforcements, Rush and Beat must blast to molten metal an army of foes led by eight of Wily's greatest robot masters! And should Mega Man survive, Dr. Wily is waiting to unleash the heavy artillery with his latest creation, the awesome Wily Tank!",
+    "story": "In the year 20XX, a few months after Mega Man III, scientists all over the world have gathered in the annual World Robot Expo, where they show their latest creations, robots developed for world peace. Dr. Light took part in the expo alongside Rock, Rush, and Beat. A variety of industrial robots were presented, but suddenly a dubious UFO appeared in the sky. Dr. Wily reveals himself and announces that he will be using the robots from the exposition to help him in his quest for world domination, using a radio wave to control the robots. Rock and Rush aren't affected due to their circuits having a strong sense of justice, but Beat loses four of his parts in the commotion. Dr. Light quickly returns to his laboratory to change Rock into the combat robot Mega Man. Meanwhile, Dr. Wily scatters the controlled robots to cause havoc in the city. Ready for battle, Mega Man must stand up against the expo's newly developed, high-performance robots and stop Dr. Wily, and if possible also find the parts Beat dropped so he can assist him.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150024,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1737,
+    "name": "Mega Man V",
+    "first_release_date": "07/21/1994",
+    "total_rating": 77,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Adventure, Arcade",
+    "videos": [
+      "qFN-IUbkxS8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co200m.jpg",
+    "description": "Mega Man V, known as Rockman World 5, is a video game developed and published by Capcom for the Game Boy handheld game console. It is the fifth and final game in the Game Boy version of the original Mega Man series. The game follows the adventures of the protagonist Mega Man as he must defend the Earth from a group of powerful robots from outer space called the \"Stardroids\". Mega Man V was also unique from the previous Game Boy Mega Man games as it features original and unique bosses rather than recycling those from the original Nintendo Entertainment System (NES) Mega Man games.",
+    "story": "In the year 20XX AD, the world is at peace thanks to Mega Man. Dr. Wily's fourth attempt at world domination has failed and his name has once again faded from the minds of the citizens of the world. A few months later...\n(Rock and Roll are walking through a field and suddenly a mysterious robot appears in front of them.)\nTerra: \"So, you are the famous Mega Man! I am Terra - and you will soon be my slave!\"\n(Roll retreats and Rock turns into Mega Man to fight against Terra, but even the charged shot doesn't work on him, and is defeated.)\nMega Man: \"What?! My Mega Buster has no effect on him...\"\nA few hours later, the world was attacked by warrior robots from space.\nMega Man (awakening): \"Where am I?\"\nDr. Light found Mega Man and equipped him with the new \"Mega Arm.\" The most powerful weapon ever devised.\nWhy have the Stardroids come here!?\n\nDr. Light: \"Mega Man, our world is once again in chaos. The alien robots call themselves \"Stardroids\" and have conquered most of our major cities. They are constructed of alien material which renders our weapons useless. But, I have done some analysis and constructed a new weapon for you. It will replace your Super Mega Buster. It is called the \"Mega Arm\" and it allows you to charge energy in your fist before you fire it. I have also created a new assistant for you. His name is \"Tango.\" I'll enhance this item replicator to make powerful items for you. Collect as many P Chips as possible and return to my lab to exchange them for power-up items. Good luck, Mega Man.\"",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150025,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1072,
+    "name": "Wario Land: Super Mario Land 3",
+    "first_release_date": "03/30/1994",
+    "total_rating": 80,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "rcSfgVzL6hU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co216h.jpg",
+    "description": "Hey! Things are really cookin' on Kitchen Island! Wario's got a scheme to steal the pirates' treasure so he can have his very own castle! You help Wario get the treasure by smashing into the the magic pots! Each pot changes him into Dragon Wario, Bull Wario, or Jet Wario! With each change comes new powers!Dozens of enemies try to stop Wario, but you have the power to beat them!Be the bad guy!Explore the many exciting levels of Kitchen Island!Battery-backed memory saves your progress for many hours of fun!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150026,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1071,
+    "name": "Super Mario Land 2: 6 Golden Coins",
+    "first_release_date": "10/20/1992",
+    "total_rating": 80,
+    "esrb": "E",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": [
+      "1qeNslApriQ",
+      "gZm5cXRShO4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23eg.jpg",
+    "description": "Super Mario Land 2: 6 Golden Coins is a platforming game for the Game Boy and the sequel to Super Mario Land. It also marks the debut of Mario's self-proclaimed arch rival Wario, who would later become a recurring character in the Mario series as well as a protagonist in his own series. The game features new graphics, power-ups, challenges, and a completely original storyline.",
+    "story": "After rescuing Princess Daisy, Mario is returning to his castle only to find that it has been taken over by an old enemy, Wario, while he was in Sarasaland. The 6 Golden Coins, Mario's keys to the castle, were spread throughout Mario Land. Mario must retrieve these coins in order to defeat Wario, reclaim his castle, and restore order to Mario Land.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy",
+    "consoleId": 33,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 150027,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  }
+]

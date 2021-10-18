@@ -17,26 +17,22 @@ module.exports.writeOut = async (results, fileName, errorRun) => {
 
   // write results
   fs.writeFile(
-    path.join(__dirname, `../results/${fileName}${errorRun || ''}.json`),
+    path.join(__dirname, `../results/${fileName}${errorRun ? '-' + errorRun : ''}.json`),
     JSON.stringify(cleaned, null, 2),
     err => {
       if (err) {
-        // err.forEach(error => {
         console.log(chalk.red.bold(JSON.stringify(err, null, 2)));
-        // });
       }
     }
   );
 
   // write errors to another file so I can address them later
   fs.writeFile(
-    path.join(__dirname, `../errors/errors${fileName}${errorRun || ''}.json`),
+    path.join(__dirname, `../errors/errors${fileName}${errorRun ? '-' + errorRun : ''}.json`),
     JSON.stringify(errors, null, 2),
     err => {
       if (err) {
-        // err.forEach(error => {
         console.log(chalk.red.bold(JSON.stringify(err, null, 2)));
-        // });
       }
     }
   );

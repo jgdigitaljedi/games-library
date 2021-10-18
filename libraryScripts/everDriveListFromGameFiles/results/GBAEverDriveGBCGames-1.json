@@ -1,0 +1,199 @@
+[
+  {
+    "id": 50052,
+    "name": "Magical Chase",
+    "first_release_date": "09/03/2000",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "description": "A port of the PC Engine original with downgraded audio-visuals to fit the GBC lower specs.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140005,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 49829,
+    "name": "R-Type DX",
+    "first_release_date": "06/30/1999",
+    "esrb": "E",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": [
+      "BEEVsw6peGw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/kxpgrzk4fv3wgdhkutvf.jpg",
+    "description": "The World Government needs your help. A deep-space probe has uncovered the Bydo Empire's secret plans to mount an attack on Earth. A full-scale assault force would be detected by the Empire's long-range scanners, and any hope of surprise would be lost. Our only chance is for a single pilot in a lone R-Type fighter to penetrate the Bydo defense system and destroy the evil Empire before it can launch its attack. Tear through Bydo defenses as you blast enemies with your Fire Chain, Super Laser and Bubble Beam. Take the fight to a fevered pitch with two pulse-pounding rapid-fire modes on your Game Boy Color system.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140006,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 49875,
+    "name": "Tetris DX",
+    "first_release_date": "10/20/1998",
+    "total_rating": 97,
+    "esrb": "E",
+    "genres": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "genresDisplay": "Puzzle, Strategy",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a6u.jpg",
+    "description": "Puzzle fans rejoice! The all-time puzzle favorite has returned! Tetris DX has everything you need to satisfy your puzzle appetite. Play MARATHON, the classic Tetris game. Try your hand at ULTRA or 40 LINES, two Tetris games with a twist. The VS. game will have you playing for hours!It that's not enough, Tetris DX is fully compatible with the new Game Boy® Color system! With the Game Link® cable, you can exchange saved information from one system to another! That's right, battery-backed memory saves up to three game files. Now your high scores will live on forever!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140007,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo Game Boy Color launch title"
+    ],
+    "extraDataFull": {
+      "id": "ngbc97",
+      "name": "Tetris DX",
+      "details": [
+        "Nintendo Game Boy Color launch title"
+      ],
+      "igdbId": 49875,
+      "gbId": 796,
+      "gbGuid": "3030-796",
+      "tgdbId": 8657,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Game Boy Color",
+          "id": "ccl9",
+          "igdbId": 22,
+          "gbId": 57,
+          "gbGuid": "3045-57",
+          "tgdbId": 41
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    }
+  }
+]

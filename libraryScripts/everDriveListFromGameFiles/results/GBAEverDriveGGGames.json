@@ -140,6 +140,269 @@
     "extraDataFull": []
   },
   {
+    "id": 7824,
+    "name": "Choplifter III",
+    "first_release_date": "12/31/1993",
+    "total_rating": 88,
+    "genres": [
+      "Shooter",
+      "Strategy"
+    ],
+    "genresDisplay": "Shooter, Strategy",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2din.jpg",
+    "description": "In this third installment of the Choplifter series, it is once again your job to fly your helicopter through enemy territory to rescue hostages. The helicopter does not only take damage from enemy fire, but also from contact with buildings, trees, walls etc., which makes some levels difficult to navigate.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160003,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 4446,
+    "name": "Columns",
+    "first_release_date": "12/30/1989",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "genresDisplay": "Puzzle, Strategy",
+    "videos": [
+      "htcKIzCK_2c"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2897.jpg",
+    "description": "Go back in time to a bygone civilization: the ancient world of Phoenicia. There you will play a simple and captivating game where sparkling, rainbow-coloured jewels drop one after another. According to the ancient merchants, by arranging three or more of the same jewels horizontally, vertically or diagonally, you shall perform miracles.",
+    "story": null,
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160004,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Game Gear launch title"
+    ],
+    "extraDataFull": {
+      "id": "sgg4",
+      "name": "Columns",
+      "details": [
+        "Sega Game Gear launch title"
+      ],
+      "igdbId": 4446,
+      "gbId": 5487,
+      "gbGuid": "3030-5487",
+      "tgdbId": 465,
+      "isLaunchTitle": [
+        {
+          "name": "Sega Game Gear",
+          "id": "ccl19",
+          "igdbId": 35,
+          "gbId": 5,
+          "gbGuid": "3045-5",
+          "tgdbId": 20
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    }
+  },
+  {
+    "id": 2621,
+    "name": "Cool Spot",
+    "first_release_date": "07/30/1993",
+    "total_rating": 61,
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": [
+      "0iMM2vqrE08",
+      "nsbwXl-EuHw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25j5.jpg",
+    "description": "Cool Spot is a mascot for 7 Up, introduced in 1987. During this time, the red spot in the 7 Up logo was anthropomorphized: given arms, legs, a mouth, and sunglasses. British video games developer Virgin Interactive's American studio produced a platform game starring the 7 Up Spot, entitled Cool Spot.",
+    "story": "In each level the player must rescue other cool spots, who look exactly alike, from cages at the end of that level, which is not necessarily the point at the far right of the level map. In order to do so, the player is required to collect a certain number of \"spots\" that would change (usually increase) as the game progressed. \"Spots\" were placed across the level in large quantities, and were the game's substitute for items such as the coins in Super Mario Bros",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160005,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 45793,
+    "name": "Defenders of Oasis",
+    "first_release_date": "10/17/1992",
+    "esrb": "E10+",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/mdaxac0u7gbf3rdelhcs.jpg",
+    "description": "As the Prince, you must defend the world of Oasis from the dark forces in this challenging real-time role-playing game!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160006,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
     "id": 6798,
     "name": "Desert Strike: Return to the Gulf",
     "first_release_date": "01/31/1992",
@@ -170,7 +433,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160003,
+    "_id": 160007,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -241,7 +504,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160004,
+    "_id": 160008,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -303,7 +566,67 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160005,
+    "_id": 160009,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 22744,
+    "name": "Dynamite Headdy",
+    "first_release_date": "08/04/1994",
+    "total_rating": 64,
+    "esrb": "E",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": [
+      "tYn68fFIx1U"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3s82.jpg",
+    "description": "Dynamite Headdy is a platform game in which the player controls Headdy, a puppet with a detachable head. This head can be fired in eight directions to attack enemies and obstacles, as well as retrieve out of reach items. By grabbing a HangMan, Headdy is able to pull himself up various platforms, or drag certain areas towards him. By finding a walking case named HeadCase, Headdy can gain a special head type depending on the image shown on HeadCase at the time he hits it. These range from offensive heads that increase his strength, allows him to shoot homing stars or suck up everything on screen, to support heads which include invulnerability, shrinking to reach small areas and sleeping to regain health. Most of these heads have a time limit before the head returns to normal, with the player able to cancel at any time, though some heads, such as the Pin Head, disable manual cancellation. The game also features a side-scrolling shooter stage, during which Headdy can change between three unique Head Types.",
+    "story": "Headdy, the central protagonist of the game, arrives in North Town to find that the evil puppet King Dark Demon is in the midst of attacking the puppet town to select which of the peaceful toys should live and which should be converted into his evil minions. Headdy is captured and rejected by Dark Demon's forces, and is dropped into the dust cargo to be thrown into the incinerator. However, Headdy escapes the clutches of Dark Demon's minions and sets off to defeat the evil king.\n\nHowever, trouble is afoot. Not only is the puppet world filled with Dark Demon's minions, but to reach the evil overlord's castle, Headdy must defeat Dark Demon's Keymasters who serve as the king's elite guard. To make matters worse, Headdy is followed by Trouble Bruin, a puppet jealous of Headdy's success. Trouble Bruin wants to be the star instead of Headdy, and will stop at nothing to get rid of him.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160010,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -366,7 +689,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160006,
+    "_id": 160011,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -424,7 +747,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160007,
+    "_id": 160012,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -482,7 +805,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160008,
+    "_id": 160013,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -540,7 +863,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160009,
+    "_id": 160014,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -595,7 +918,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160010,
+    "_id": 160015,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -661,7 +984,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160011,
+    "_id": 160016,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -689,6 +1012,87 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 10220,
+    "name": "Shinobi II: The Silent Fury",
+    "first_release_date": "12/10/1992",
+    "genres": [
+      "Platform",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co30it.jpg",
+    "description": "Shinobi II: The Silent Fury is a SEGA Game Gear exclusive sequel in the Shinobi series, following up on the original Game Gear Shinobi.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160017,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Game Gear exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Shinobi II - The Silent Fury",
+      "details": [
+        "Sega Game Gear exclusive"
+      ],
+      "id": "sgg29",
+      "igdbId": 10220,
+      "gbId": 8666,
+      "gbGuid": "3030-8666",
+      "tgdbId": 17797,
+      "isExclusive": [
+        {
+          "name": "Sega Game Gear",
+          "id": "ccl19",
+          "igdbId": 35,
+          "gbId": 5,
+          "gbGuid": "3045-5",
+          "tgdbId": 20
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 15535,
@@ -720,7 +1124,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160012,
+    "_id": 160018,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -775,7 +1179,63 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160013,
+    "_id": 160019,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 8125,
+    "name": "Legend of Illusion Starring Mickey Mouse",
+    "first_release_date": "01/12/1995",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/dkpvbjxorslup5tqbjv4.jpg",
+    "description": "Mickey is tricked into a perilous quest when the kingdom is threatened by an evil cloud of darkness. As temporary king, Mickey must solve riddles, find maps and avoid trickery across 5 magical lands to save the Tree of Life from the cowardly King Pete.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160020,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -841,7 +1301,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160014,
+    "_id": 160021,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -900,7 +1360,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160015,
+    "_id": 160022,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -961,7 +1421,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160016,
+    "_id": 160023,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1022,7 +1482,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160017,
+    "_id": 160024,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1084,7 +1544,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160019,
+    "_id": 160026,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1146,7 +1606,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160020,
+    "_id": 160027,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1203,7 +1663,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160021,
+    "_id": 160028,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1265,7 +1725,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160022,
+    "_id": 160029,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1325,7 +1785,65 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160024,
+    "_id": 160031,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 80837,
+    "name": "Power Strike II",
+    "first_release_date": "09/30/1993",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": [
+      "2cZs0-8zepk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yea.jpg",
+    "description": "Not to be confused with the Master System game of the same name, this shoot-em-up puts players in the role of an unnamed female pilot.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160032,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1391,7 +1909,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160025,
+    "_id": 160033,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1447,7 +1965,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160026,
+    "_id": 160034,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1506,7 +2024,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160027,
+    "_id": 160035,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1562,7 +2080,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160028,
+    "_id": 160036,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1623,7 +2141,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160029,
+    "_id": 160037,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1680,7 +2198,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160030,
+    "_id": 160038,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1739,7 +2257,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160034,
+    "_id": 160042,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1797,7 +2315,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160035,
+    "_id": 160043,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1856,7 +2374,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160036,
+    "_id": 160044,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1915,7 +2433,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160037,
+    "_id": 160045,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1976,7 +2494,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160038,
+    "_id": 160046,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2044,7 +2562,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160039,
+    "_id": 160047,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2105,7 +2623,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160040,
+    "_id": 160048,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2165,7 +2683,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160041,
+    "_id": 160049,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2226,7 +2744,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160042,
+    "_id": 160050,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2294,7 +2812,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160043,
+    "_id": 160051,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2348,7 +2866,144 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160045,
+    "_id": 160053,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 19690,
+    "name": "Super Columns",
+    "first_release_date": "05/25/1995",
+    "genres": [
+      "Puzzle",
+      "Arcade"
+    ],
+    "genresDisplay": "Puzzle, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1h4w.jpg",
+    "description": "Super Columns is charged with new ways to play and win at this intensely gripping puzzle game. Magic gems can suddenly flip the screen while Bomb gems can blast up to 5 gems at once! Hook up to a friend with your Gear to Gear connection and really test your skills!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160054,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Game Gear exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Super Columns",
+      "details": [
+        "Sega Game Gear exclusive"
+      ],
+      "id": "sgg30",
+      "igdbId": 19690,
+      "gbId": 35111,
+      "gbGuid": "3030-35111",
+      "tgdbId": 25230,
+      "isExclusive": [
+        {
+          "name": "Sega Game Gear",
+          "id": "ccl19",
+          "igdbId": 35,
+          "gbId": 5,
+          "gbGuid": "3045-5",
+          "tgdbId": 20
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 12859,
+    "name": "Super Space Invaders",
+    "first_release_date": "12/30/1990",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wfh.jpg",
+    "description": "Space Invaders is the most famous video game ever! Now SUPER SPACE INVADERS has arrived with a host of amazing new features - wave after wave of weird and hostile aliens, fantastic multiway scrolling playfields, huge end of level mega monsters and secret levels for only the best to find! It'll drive you crazy, but you won't be able to leave it alone!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Game Gear",
+    "consoleId": 35,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 160057,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2408,7 +3063,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160046,
+    "_id": 160058,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2465,7 +3120,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160047,
+    "_id": 160059,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2523,7 +3178,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160049,
+    "_id": 160061,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2580,7 +3235,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 160051,
+    "_id": 160063,
     "physicalDigital": [
       "EverDrive"
     ],

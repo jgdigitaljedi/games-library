@@ -1050,6 +1050,91 @@
     "extraDataFull": []
   },
   {
+    "id": 9167,
+    "name": "Bad News Baseball",
+    "first_release_date": "12/14/1989",
+    "genres": [
+      "Puzzle",
+      "Sport",
+      "Baseball"
+    ],
+    "genresDisplay": "Puzzle, Sport, Baseball",
+    "videos": [
+      "X4APAqwhowA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qmu.jpg",
+    "description": "Bad News Baseball was developed and published by Tecmo for the Nintendo Entertainment System in 1989, and released in North America in 1990. It followed the rules of baseball for the most part, with the addition of some cartoonish features that made the game more attractive to kids.",
+    "story": "Although the game lacked a season mode, it allowed a single player to work his/her way through all of the opposing teams in a somewhat cohesive manner. The player would play a game until the other player was defeated-the games could go on indefinitely until that occurs. The game kept track of what teams had been defeated by giving the player a password at the end of each victory, which could be entered into the game to return to the spot where the player was. The game also kept track of the pitcher's stamina, which meant that some rotation was necessary throughout the different games.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170015,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes35",
+      "name": "Bad News Baseball",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 9167,
+      "gbId": 17007,
+      "gbGuid": "3030-17007",
+      "tgdbId": 1627,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
     "id": 9903,
     "name": "Baseball Stars",
     "first_release_date": "05/18/1989",
@@ -1080,7 +1165,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170015,
+    "_id": 170016,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1143,7 +1228,311 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170016,
+    "_id": 170017,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 4489,
+    "name": "Batman: Return of the Joker",
+    "first_release_date": "12/19/1991",
+    "total_rating": 64,
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": [
+      "3_vIbUvDlE4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pij.jpg",
+    "description": "Batman: Return of the Joker was developed and published by Sunsoft as the second in their Batman series on the Nintendo Entertainment System. It departed from the original game by focusing on the comic-book version of Batman instead of the movie-inspired conception. The story itself was self-contained, and did not depict a pre-existing storyline. The game is a side-scrolling platformer with beat 'em up features.",
+    "story": "The story begins with the escape of the Joker from an insane asylum. As always, Joker attempts to corrupt Gotham City and put it into chaos. Batman, after defeating a number of different henchmen, must bring Joker to justice.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170018,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 2970,
+    "name": "Battletoads",
+    "first_release_date": "05/31/1991",
+    "total_rating": 78,
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up"
+    ],
+    "genresDisplay": "Platform, Hack and slash/Beat 'em up",
+    "videos": [
+      "nwCU9SwybEg",
+      "ilR6OqZSrZA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ype.jpg",
+    "description": "Battletoads is the first game of the Battletoads series. It is developed by Rare and published by Tradewest. It was originally released for Nintendo Entertainment System in 1991, with ports for the Sega Genesis, Sega Game Gear, Amiga CD32 and Nintendo Game Boy (with the subtitle Battletoads in Ragnarok's World so as to separate it from the earlier-released Game Boy sequel).Battletoads is considered to be a game that shows the true potential of the NES' graphics, mainly due to the year of its release, when developers were focusing more on 16-bit consoles.Not only is it graphically-advanced, but it is also considered to be one of the hardest games of all time, appearing in possibly every listing of difficult video games. It is currently listen at 8th place in IGN's \"Top 10 Most Difficult Games to Beat.\"It was re released in 2015 on the Xbox One as part of the Rare Replay Collection.",
+    "story": "Fresh from her recent defeat at the Battle of Canis Major, the Dark Queen decides to take out her aggressions on her archenemies, the Battletoads. The 'Toads and their mentor, Professor T-Bird, are currently escorting Princess Angelica home to her father, the Terran Emperor. During a rest stop, Pimple takes Angelica out for a drive in the Toadster, but the vehicle and its occupants are swallowed up by the Dark Queen's ship, the Gargantua, and taken to her tower on planet Ragnarok.\nRash and Zitz are quickly sent down to Ragnarok's surface to rescue their friends, unaware of the dangers that await them, but willing to chance it all on their rescue mission.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170020,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 54535,
+    "name": "Bionic Commando",
+    "first_release_date": "07/19/1988",
+    "total_rating": 65,
+    "genres": [
+      "Shooter",
+      "Platform"
+    ],
+    "genresDisplay": "Shooter, Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qn6.jpg",
+    "description": "In terms of story and level design the NES version differs considerably from the original arcade game and its home computer conversions.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170021,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 7788,
+    "name": "Blades of Steel",
+    "first_release_date": "09/30/1987",
+    "total_rating": 82,
+    "esrb": "",
+    "genres": [
+      "Sport"
+    ],
+    "genresDisplay": "Sport",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wgc.jpg",
+    "description": "From the opening Face-Off it's six on six pro-style hockey at its best. Their are eight teams for you to captain: Los Angeles, New York, Vancouver, Montreal, Edmonton, Minnesota, Toronto and Chicago. You can challenge a friend, or take on a multi-talented computer squad. You can also choose from three difficulty levels - Junior, College and Pro.Throughout the game, you'll constantly be tested by every intense element of championship hockey, from Penalty and Overtime Scenes to Knockout Smash-Hit Fight Scenes. Speed, strength, quickness and instinct are talents you must possess if you plan to prevail, especially when the anger flares, gloves come off and fists start flying.It's hard hitting action at its toughest. And you'll soon learn that in this league nothing's ever given to you, and before you can reach your goals - you have to score them. You've gotta master the artful skill of a finesse player and the bone crushing brutality of an enforcer. You'd better be versatile as well, because you must skillfully control your forwards, centers, defensemen and even the goalie, who'll defend the net against unrelenting Power Plays (which will occur if you lose a fight and have your battered carcass banned to the Penalty Box).",
+    "story": null,
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170023,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 2367,
+    "name": "Blaster Master",
+    "first_release_date": "06/16/1988",
+    "total_rating": 82,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pkj.jpg",
+    "description": "You've fallen down a hidden manhole into a world of creatures so terrifying they'd scare the rats away. You can panic and perish, or blast your way through an endless maze of tunnels, searching for the secret passages to your escape. And that's the easy part. Because the Masters of the Caverns lay waiting - prehistoric creatures so powerful, so gigantic, they literally fill your screen! So load your arsenal and get ready for Blaster Master.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170024,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1209,7 +1598,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170017,
+    "_id": 170025,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1313,7 +1702,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170018,
+    "_id": 170026,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1411,7 +1800,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170019,
+    "_id": 170027,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1480,7 +1869,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170020,
+    "_id": 170028,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1537,7 +1926,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170021,
+    "_id": 170029,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1600,7 +1989,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170022,
+    "_id": 170030,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1662,7 +2051,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170023,
+    "_id": 170031,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1750,7 +2139,67 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170024,
+    "_id": 170032,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 7816,
+    "name": "Captain America and the Avengers",
+    "first_release_date": "12/30/1991",
+    "total_rating": 62,
+    "esrb": "RP",
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Hack and slash/Beat 'em up"
+    ],
+    "genresDisplay": "Fighting, Platform, Hack and slash/Beat 'em up",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3sp3.jpg",
+    "description": "Captain America and the Avengers is an arcade game released by Data East in 1991. It features the Marvel Comics characters The Avengers in a side-scrolling brawling and shooting adventure to defeat the evil Red Skull.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170033,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1810,7 +2259,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170025,
+    "_id": 170034,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1870,7 +2319,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170026,
+    "_id": 170035,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1929,7 +2378,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170027,
+    "_id": 170036,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1996,7 +2445,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170028,
+    "_id": 170037,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2063,7 +2512,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170029,
+    "_id": 170038,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2091,6 +2540,88 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 19118,
+    "name": "Clash at Demonhead",
+    "first_release_date": "01/26/1989",
+    "total_rating": 89,
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qny.jpg",
+    "description": "Clash at Demonhead is an open-ended platformer. The player takes control of Billy \"Big Bang\" Blitz, who is capable of running, jumping, and shooting. He is initially armed with a handgun, though various upgrades can be purchased from a shop. He later gains the ability to perform various powers by collecting Force, including shrinking, teleportation to previously-visited areas, flight, healing, and invincibility. The player chooses levels from a world map that consists of over forty routes. Various objectives must be met to complete the game.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170039,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes82",
+      "name": "Clash at Demonhead",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 19118,
+      "gbId": 16188,
+      "gbGuid": "3030-16188",
+      "tgdbId": 1250,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 4598,
@@ -2134,7 +2665,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170030,
+    "_id": 170040,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2194,7 +2725,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170031,
+    "_id": 170041,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2248,6 +2779,125 @@
     }
   },
   {
+    "id": 3121,
+    "name": "Crystalis",
+    "first_release_date": "04/12/1990",
+    "total_rating": 72,
+    "esrb": "E",
+    "genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Role-playing (RPG), Adventure",
+    "videos": [
+      "TEhtkCmTi9M"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pu0.jpg",
+    "description": "You must save the world from evil magic by finding the four powerful swords that form Crystalis.After the apocalypse, magic returns to Earth.A blessed group of good-intentioned sorcerers have used their new magical powers to rebuild the Earth, but an evil sorcerer named Dragonia has combined his supernatural forces with man-made technology to devastate the rebuilt Earth. It is your mission to recover four mystical swords, and combine them to form the ultimate blade: the Sword of Crystalis. This legendary weapon is the only tool which can put an end to Dragonia's black reign.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170042,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 12043,
+    "name": "Deja Vu: A Nightmare Comes True!!",
+    "first_release_date": "12/30/1985",
+    "genres": [
+      "Point-and-click",
+      "Puzzle",
+      "Adventure"
+    ],
+    "genresDisplay": "Point-and-click, Puzzle, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ox07nsi9lppkdyeso4b0.jpg",
+    "description": "Déjà Vu is a point-and-click adventure game that draws inspiration from \"noir\" detective novels that were popular in the 1940s.",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170043,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
     "id": 2736,
     "name": "Dig Dug II: Trouble in Paradise",
     "first_release_date": "02/28/1985",
@@ -2277,7 +2927,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170032,
+    "_id": 170044,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2338,7 +2988,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170033,
+    "_id": 170045,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2435,7 +3085,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170034,
+    "_id": 170046,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2492,7 +3142,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170035,
+    "_id": 170047,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2563,7 +3213,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170036,
+    "_id": 170048,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2627,7 +3277,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170037,
+    "_id": 170049,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2692,7 +3342,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170038,
+    "_id": 170050,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2753,7 +3403,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170039,
+    "_id": 170051,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2841,7 +3491,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170040,
+    "_id": 170052,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2909,7 +3559,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170043,
+    "_id": 170055,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3021,7 +3671,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170044,
+    "_id": 170056,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3083,7 +3733,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170046,
+    "_id": 170058,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3150,7 +3800,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170047,
+    "_id": 170059,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3206,7 +3856,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170048,
+    "_id": 170060,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3298,7 +3948,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170050,
+    "_id": 170062,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3392,7 +4042,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170051,
+    "_id": 170063,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3478,7 +4128,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170052,
+    "_id": 170064,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3535,6 +4185,146 @@
     }
   },
   {
+    "id": 119197,
+    "name": "Gremlins 2: The New Batch",
+    "first_release_date": "12/30/1990",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lq6.jpg",
+    "description": "Gremlins 2: The New Batch ties in with the movie of the same name. Gizmo is trapped inside Clamp Centre by the evil Gremlins. It is up to the player to help him battle his way to the Control Center and rid the city forever of the Gremlin menace.This game is a side scrolling platform game. Gizmo can equip a variety of weapons from a pencil to a toolbox to use against different Gremlins and other vermin such as spiders, bats and rats. There are also traps that hurt Gizmo. Gizmo can be hit by an enemy or trap multiple times before he loses a life.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170065,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 48058,
+    "name": "The Guardian Legend",
+    "first_release_date": "02/04/1988",
+    "total_rating": 81,
+    "genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Role-playing (RPG), Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zhz.jpg",
+    "description": "In The Guardian Legend, the player controls the female guardian of Earth, a \"highly sophisticated aerobot transformer\". The player's mission is to infiltrate Naju, a large planet-like object which aliens sent hurtling towards the Earth. While inside, the player must activate ten safety devices in order to initialize Naju's self-destruct mechanism and destroy the alien world before it reaches Earth. Five hostile tribes of alien lifeforms are vie for control of territories within Naju,and the player needs to fight through them to successfully activate the switches and escape.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170066,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes413",
+      "name": "The Guardian Legend",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 48058,
+      "gbId": 13536,
+      "gbGuid": "3030-13536",
+      "tgdbId": 1298,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
     "id": 18834,
     "name": "Gumshoe",
     "first_release_date": "06/05/1986",
@@ -3565,7 +4355,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170053,
+    "_id": 170067,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3635,6 +4425,174 @@
     }
   },
   {
+    "id": 40965,
+    "name": "Gun Smoke",
+    "first_release_date": "10/31/1985",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1s55.jpg",
+    "description": "Gun.Smoke is a top-down scrolling shooter that casts the gamer as a lone gunman, out to save the gold rush town of Hicksville from a fearsome group of bandits known as the Wingates. Each level has a particular target enemy, although his or her henchmen must also be taken out.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170068,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 8578,
+    "name": "Gyromite",
+    "first_release_date": "08/12/1985",
+    "total_rating": 64,
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Strategy"
+    ],
+    "genresDisplay": "Platform, Puzzle, Strategy",
+    "videos": [
+      "i9IOnosRPvU"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/jg4nlm32e9bsvbazpc1j.jpg",
+    "description": "Gyromite is a video game released in 1985 for the Nintendo Entertainment System, designed for use with the Robotic Operating Buddy (R.O.B.). Gyromite is one of two games in Nintendo's Robot Series, the other being Stack-Up",
+    "story": "Professor Hector and his assistant, Professor Vector, navigate side-scrolling platform levels with the help of their creation, R.O.B. Their lives are threatened by dynamite and hungry little bird-like creatures called Smicks, and Professor Hector's sleep-walking tendencies get him in trouble as well.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170070,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES launch title",
+      "NES black box game: Robot Series",
+      "NES hang tab game"
+    ],
+    "extraDataFull": {
+      "id": "nes172",
+      "details": [
+        "NES launch title",
+        "NES black box game: Robot Series",
+        "NES hang tab game"
+      ],
+      "name": "Gyromite",
+      "igdbId": 8578,
+      "gbId": 20055,
+      "gbGuid": "3030-20055",
+      "tgdbId": 1301,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "special": [
+        {
+          "value": "NES black box game: Robot Series",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        },
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false
+    }
+  },
+  {
     "id": 12308,
     "name": "Gyruss",
     "first_release_date": "02/28/1983",
@@ -3666,7 +4624,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170054,
+    "_id": 170071,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3727,7 +4685,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170055,
+    "_id": 170072,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3788,7 +4746,153 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170058,
+    "_id": 170075,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 12153,
+    "name": "Ikari Warriors",
+    "first_release_date": "02/28/1986",
+    "total_rating": 65,
+    "esrb": "E10+",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": [
+      "ED3zyUABUnY",
+      "bbnn6gTmfoM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jn1.jpg",
+    "description": "A conversion of the arcade game, Ikari Warriors is a vertically scrolling action game. One or two players fight their way through a variety of terrain, such as jungles, rivers, and ruins. Along the way different weapons can be found, including machine guns, grenades, and rocket launchers.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170076,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES hang tab game"
+    ],
+    "extraDataFull": {
+      "name": "Ikari Warriors",
+      "id": "nes188",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 12153,
+      "gbId": 1619,
+      "gbGuid": "3030-1619",
+      "tgdbId": 1327,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
+  },
+  {
+    "id": 48055,
+    "name": "Ikari Warriors II: Victory Road",
+    "first_release_date": "12/30/1986",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/tlwqpiuep8hvgqjjjutx.jpg",
+    "description": "When we last saw Paul and Vince, they had saved the Colonel and were about to head for home in a special plane given to them by the General. But then, while in flight over the ocean, the sky suddenly blackens - the ocean begins to churn - and the plane goes spinning! A booming voice fills the cockpit: \"Hear me, Warriors! Zang Zip, the War Dog, has enslaved the people of Earth. Only you can save us from his grip of evil!\" Caught in a time warp, hurled thousands of years into the future, Paul and Vince know they have no choice but to meet this impossible challenge head-on. After all, they are professionals... they are the Ikari Warriors!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170077,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3851,7 +4955,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170059,
+    "_id": 170078,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3917,7 +5021,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170060,
+    "_id": 170079,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3979,7 +5083,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170061,
+    "_id": 170080,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4035,7 +5139,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170062,
+    "_id": 170081,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4118,7 +5222,66 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170063,
+    "_id": 170082,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 2740,
+    "name": "Krusty's Fun House",
+    "first_release_date": "08/31/1992",
+    "total_rating": 66,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle"
+    ],
+    "genresDisplay": "Platform, Puzzle",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3br1.jpg",
+    "description": "Krusty the Clown's Fun House has been overrun by rats. You must help him to herd the rats into trap machines to clear them out. In order to do so, Krusty must manipulate his environment to set up pathways so that the rats are headed in the right direction. Objects that Krusty move around include blocks, fans, and pipe pieces.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170083,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4178,7 +5341,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170064,
+    "_id": 170084,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4235,6 +5398,147 @@
     }
   },
   {
+    "id": 174945,
+    "name": "Life Force",
+    "first_release_date": "07/31/1988",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": [
+      "Gzc_tdiHcB4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3xxo.jpg",
+    "description": "In a distant part of the universe, an alien creature called Zelos was born. As he grew so did his appetite, and soon he began devouring galaxies, planets, and stars by the hundreds. Now your planet has appeared in Zelos' path, and it is up to you and a partner to fly into battle to save your world.Life Force is an action-packed shooter where there are six levels which alternate between side and vertical scrolling, each of them ending with a powerful guardian. Throughout the game, destroying certain enemies will release power ups which can be used to equip your ship with more powerful weapons, extra speed, and shields. Gameplay is for one player or two players simultaneously.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170085,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 9160,
+    "name": "Little Nemo: The Dream Master",
+    "first_release_date": "08/31/1990",
+    "total_rating": 78,
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wv2.jpg",
+    "description": "Little Nemo receives a royal invitation to visit the castle in Slumberland. Is he dreaming? It seems the princess is looking for a new playmate. When he arrives he is told that King Morpheus has been kidnapped. Nemo sets off on a wild adventure to rescue the good king and restore peace to the land. Anything can happen in this realm of imagination. Little Nemo even learns how to get a ride from the local creatures so he can pass through the roughest parts of Slumberland. Rescue the King of good dreams and thwart the Master of Nightmares!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170086,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes233",
+      "name": "Little Nemo: The Dream Master",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 9160,
+      "gbId": 15110,
+      "gbGuid": "3030-15110",
+      "tgdbId": 1482,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
     "id": 48114,
     "name": "Little Samson",
     "first_release_date": "06/25/1992",
@@ -4261,7 +5565,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170065,
+    "_id": 170087,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4347,7 +5651,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170066,
+    "_id": 170088,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4435,7 +5739,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170069,
+    "_id": 170091,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4499,7 +5803,70 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170070,
+    "_id": 170092,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 172250,
+    "name": "Mario Bros. Classic Serie",
+    "first_release_date": "12/30/1993",
+    "genres": [
+      "Platform",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3v7v.jpg",
+    "description": "Mario Bros. Classic Serie is an European exclusive version of Mario Bros., released in 1993. It is very faithful to the arcade original, but is built upon the changes made in Kaettekita Mario Bros., removing the extra mode it had.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170093,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4560,7 +5927,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170071,
+    "_id": 170094,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4620,7 +5987,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170072,
+    "_id": 170095,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4681,7 +6048,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170073,
+    "_id": 170096,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4769,7 +6136,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170074,
+    "_id": 170097,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4830,7 +6197,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170081,
+    "_id": 170104,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4891,7 +6258,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170082,
+    "_id": 170105,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4984,7 +6351,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170083,
+    "_id": 170106,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5044,7 +6411,155 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170084,
+    "_id": 170107,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 40531,
+    "name": "Mighty Bomb Jack",
+    "first_release_date": "04/23/1986",
+    "total_rating": 60,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Adventure, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ss9.jpg",
+    "description": "A platform game where the main character travels throughout various levels collecting bombs. The hero of the game, Jack, must make his way through 16 levels of a pyramid in order to defeat the demon Belzebut and rescue the royal Pamera family.Each level is split into two parts an action zone and a Royal Palace room. The mechanics and level designs of the Royal Palace rooms are directly lifted from the games prequel, Bomb Jack. Action zones can be split up into several portions, and contain power-ups usually hidden in treasure chests such as money bags, Mighty Coins and Mighty Drinks. Mighty Coins allow Jack to change colors blue allows Jack to open orange treasure chests, orange allows him to open any treasure chest by simply touching it from the side, and green transforms all enemies on the screen into coins for 5 seconds. Mighty Drinks add 10 seconds to the games timer. Secret passages can also be found in the action zones, activated by finding a Sphinx in a visible or hidden treasure chest.To prevent the player from becoming too greedy, the game automatically sends the player to a Torture Room if they obtain more than 9 Mighty Coins or 99 seconds on the games timer. The only way to escape a Torture Room without losing a life is to complete a number of jumps, which are counted down on the screen. Once the player exits the torture room, Jack automatically loses all Mighty Coins, the timer is reset to 60 seconds, and the game recommences from the beginning of the current level.A Royal Palace room NES version.A Vs. Series version of the game was released in 1986 for the Japanese market not to be confused with the original dedicated arcade version. Differences between the original and vs. series versions include adding a two-player mode, changing the locations of some secret passages and removing a warp trick in the Royal Palace rooms. In the NES version, Jack could warp forward to the next Royal Palace room if he touched the first lit bomb in the current room after the other 23 bombs were collected however, if Jack died in the warping process, he would be sent back to the beginning of the level from which the trick commenced.Mighty Bomb Jack also had a guest appearance on Tecmo Super Bowl, during the halftime show in the Super Bowl",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170108,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES hang tab game"
+    ],
+    "extraDataFull": {
+      "name": "Mighty Bomb Jack",
+      "id": "nes261",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 40531,
+      "gbId": 13256,
+      "gbGuid": "3030-13256",
+      "tgdbId": 1437,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
+  },
+  {
+    "id": 1658,
+    "name": "Mighty Final Fight",
+    "first_release_date": "06/10/1993",
+    "total_rating": 76,
+    "esrb": "E10+",
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Fighting, Hack and slash/Beat 'em up, Adventure, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3c4b.jpg",
+    "description": "The Mad Gear Gang has spread crime and violence throughout the streets of Metro City. Only one man has enough guts to take the streets back from them, Mayor Mike Haggar. Now the Mad Gear Gang has kidnapped his daughter Jessica to bring him under their control. But they've made one mistake: Haggar's furious and he wants someone's head! Guy and Jessica's boyfriend, Cody, are joining Haggar to clean up the slime-filled streets and rescue Jessica. Along the way you'll find food to replenish your health, or better yet, search for weapons to knock the living daylights out of your enemies. So join Haggar and his friends as they try to free the city from the evil clutches of the Mad Gear Gang!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170109,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5105,7 +6620,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170085,
+    "_id": 170110,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5199,7 +6714,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170086,
+    "_id": 170111,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5256,7 +6771,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170087,
+    "_id": 170112,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5313,7 +6828,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170088,
+    "_id": 170113,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5370,7 +6885,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170089,
+    "_id": 170114,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5432,7 +6947,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170090,
+    "_id": 170115,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5490,7 +7005,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170091,
+    "_id": 170116,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5547,7 +7062,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170093,
+    "_id": 170118,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5601,7 +7116,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170094,
+    "_id": 170119,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5686,7 +7201,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170095,
+    "_id": 170120,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5769,7 +7284,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170099,
+    "_id": 170124,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5825,7 +7340,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170100,
+    "_id": 170125,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5886,7 +7401,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170101,
+    "_id": 170126,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5948,7 +7463,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170102,
+    "_id": 170127,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -5976,6 +7491,97 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 48208,
+    "name": "Ring King",
+    "first_release_date": "07/18/1987",
+    "genres": [
+      "Sport"
+    ],
+    "genresDisplay": "Sport",
+    "videos": [
+      "lyCs9ac7ICg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/vx3o5icnrqqubgiaxtry.jpg",
+    "description": "Challenge your friends or your computer to the Data East Championship Title Bout! Challengers from around the globe, each with his own style of boxing, knuckle up to take the title. Win by knock-out or points using a wild assortment of hooks, jabs, uppercuts, and combinations!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170128,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES hang tab game"
+    ],
+    "extraDataFull": {
+      "name": "Ring King",
+      "id": "nes326",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 48208,
+      "gbId": 11769,
+      "gbGuid": "3030-11769",
+      "tgdbId": 2042,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
   },
   {
     "id": 6558,
@@ -6018,7 +7624,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170103,
+    "_id": 170129,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6076,7 +7682,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170104,
+    "_id": 170130,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6164,7 +7770,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170105,
+    "_id": 170131,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6221,6 +7827,65 @@
     }
   },
   {
+    "id": 48648,
+    "name": "Shatterhand",
+    "first_release_date": "12/30/1991",
+    "total_rating": 79,
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Hack and slash/Beat 'em up, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wmt.jpg",
+    "description": "Imagine packing the power of 100 strategic missiles in every punch. Imagine needing every single megaton just to hold your own against a cybernetic army of metallic monstrosities. That's the guts of SHATTERHAND, the game that redefines hand-to-hand combat in the 21st century... along with all the standards for single-player action games for the NES. Seven levels of programmed adventure - you choose the action! State-of-the-art graphics featuring 8-direction scrolling! \"Anti-gravity\" levels force you to fight upside-down! Armed \"satellite robots\" assist you in battle. No arms on Earth can withstand the power in your hands!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170132,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
     "id": 6899,
     "name": "Shinobi",
     "first_release_date": "12/30/1987",
@@ -6252,7 +7917,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170106,
+    "_id": 170133,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6308,7 +7973,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170107,
+    "_id": 170134,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6369,7 +8034,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170108,
+    "_id": 170135,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6426,7 +8091,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170109,
+    "_id": 170136,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6481,7 +8146,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170110,
+    "_id": 170137,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6564,7 +8229,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170111,
+    "_id": 170138,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6633,7 +8298,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170112,
+    "_id": 170139,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6697,7 +8362,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170113,
+    "_id": 170140,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6797,7 +8462,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170115,
+    "_id": 170142,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6860,7 +8525,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170116,
+    "_id": 170143,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -6947,7 +8612,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170117,
+    "_id": 170144,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7034,7 +8699,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170118,
+    "_id": 170145,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7093,7 +8758,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170119,
+    "_id": 170146,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7153,7 +8818,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170120,
+    "_id": 170147,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7212,7 +8877,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170121,
+    "_id": 170148,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7270,7 +8935,64 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170122,
+    "_id": 170149,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 45196,
+    "name": "Street Fighter 2010: The Final Fight",
+    "first_release_date": "08/07/1990",
+    "esrb": "E10+",
+    "genres": [
+      "Adventure"
+    ],
+    "genresDisplay": "Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yd0.jpg",
+    "description": "Conquer a galaxy with your bare hands! Twenty-five years ago you ruled in the world of the street fighter. Since then you and your partner have created a formula that turns men into supermen. Your partner is dead, the formula has been stolen, and you're out for revenge. You use your serum to transform into the most powerful man in the galaxy. You'll cross the stars in search of the killers that changed your life forever. With your newfound strength and your old street fighter training, you can't wait for your final fight! Teleport across the galaxy in this action/adventure game for the NES! Detailed graphics bring you all the excitement of countless worlds!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170150,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7326,7 +9048,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170123,
+    "_id": 170151,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7388,7 +9110,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170126,
+    "_id": 170154,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7448,7 +9170,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170127,
+    "_id": 170155,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7516,7 +9238,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170128,
+    "_id": 170156,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7576,7 +9298,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170129,
+    "_id": 170157,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7641,7 +9363,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170130,
+    "_id": 170158,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7725,7 +9447,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170132,
+    "_id": 170160,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7809,7 +9531,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170133,
+    "_id": 170161,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7871,7 +9593,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170134,
+    "_id": 170162,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -7927,7 +9649,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170135,
+    "_id": 170163,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8007,7 +9729,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170136,
+    "_id": 170164,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8085,7 +9807,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170137,
+    "_id": 170165,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8145,7 +9867,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170138,
+    "_id": 170166,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8210,7 +9932,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170139,
+    "_id": 170167,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8300,7 +10022,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170140,
+    "_id": 170168,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8368,7 +10090,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170141,
+    "_id": 170169,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8455,7 +10177,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170142,
+    "_id": 170170,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8522,7 +10244,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170143,
+    "_id": 170171,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8550,6 +10272,87 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 4555,
+    "name": "Tiny Toon Adventures",
+    "first_release_date": "12/19/1991",
+    "total_rating": 75,
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rp2.jpg",
+    "description": "Tiny Toon Adventures is a platform video game for the NES. It was published and developed by Konami and released in 1991. It was the first Tiny Toon Adventures-related video game to be released for any video game console device.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170172,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes431",
+      "name": "Tiny Toon Adventures",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 4555,
+      "gbId": 16460,
+      "gbGuid": "3030-16460",
+      "tgdbId": 1384,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 18021,
@@ -8582,7 +10385,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170144,
+    "_id": 170173,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8669,7 +10472,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170145,
+    "_id": 170174,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8697,6 +10500,155 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 1711,
+    "name": "Wario's Woods",
+    "first_release_date": "02/18/1994",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Strategy"
+    ],
+    "genresDisplay": "Platform, Puzzle, Strategy",
+    "videos": [
+      "rpi_9T-tvv8",
+      "awDMgm_hcWo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqb.jpg",
+    "description": "Wario's Woods is a puzzle game similar to Tetris or Columns, but with a twist. Instead of directly controlling the monsters and bombs that are falling down, the player controls Toad who has to carry around stacks of monsters and bombs and to combine them in the right way. One bomb plus at least two monsters of the same color have to be combined to make them disappear. If five or more objects are cleared at the same time, a diamond will appear. Destroying the diamond will clear all monsters of the diamond's color.",
+    "story": "The Peaceful Woods was once the friendly home of sprites and other gentle forest creatures. Wario and his band of monsters invaded, though, and spoiled the serenity of the woods. The quiet, woodlands community has now been turned upside-down by these horrifying events. Wario has now named the woods after himself, and peaceful creatures are not welcome. Toad, the Mushroom Kingdom hero, has decided to travel to Wario's Woods and put an end to Wario's evil reign of terror. Toad knows that, with the sprites help, he will be able to rid the forest of Mario's twisted nemesis. Thankfully, the sprites are able to create bombs. It's Toad's job to line up the bombs with the enemies of the woods, thus defeating those evil creatures. By clearing more and more of the woods, Toad steps ever close to the ultimate challenge of facing Wario.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170177,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 6981,
+    "name": "Willow",
+    "first_release_date": "07/17/1989",
+    "total_rating": 60,
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Role-playing (RPG), Adventure",
+    "videos": [
+      "M4Vvr6iHM40"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/pqqo1sh0rnwllabwidlz.jpg",
+    "description": "The arcade version of the game belongs to the platform genre. It has six stages, some where Willow plays his part, others where Madmartigan plays his and one of the stages where either character is selectable. Move the joystick left or right to move in that direction. Press the A button to use a weapon. Hold down the A button and let go to fire stronger shots indicated on the magic power gauge. Press the B button to jump. While jumping press the B button and move the joystick up to haul up ledges. Press the B button and moving the joystick down the player can descend ledges or slide on other surfaces. Chests can be smashed open to reveal useful items. Collect gold for purchasing items at shops from the Owl Mage. Purchasable items include weapons, healing potions, defensive jewellery, a life pack, a 1-up and some information. Depending on whether the player is playing as Willow or Madmartigan determines if either the magic weapon or the blade weapon can be purchased. There are also sub-bosses in some stages. At the end of each stage, stage boss must be defeated to proceed.  The version of Willow released for the Nintendo Entertainment System and the Famicom is an adventure game in the vein of The Legend of Zelda. The game has the player taking on the role of Willow. Unlike the film and arcade game, Willow generally travels alone, only briefly meeting other characters. In the tradition of The Legend of Zelda, Willow wields a sword and shield and many supplementary items along with a wide variety of magic spells. As the game progresses and Willow defeats enemies, he gains experience points and levels as in a role-playing video game.",
+    "story": "An evil Witch queen called Bavmorda is after the holy baby of the lands, Elora Danan, intent on destroying her. A young peaceful wizard called Willow Ufgood was selected to protect Elora. Later on, a brave warrior named Madmartigan joins Willow to fight the enemy rival General Kael.",
+    "player_perspectives": [
+      "First person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 170178,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes472",
+      "name": "Willow",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 6981,
+      "gbId": 7916,
+      "gbGuid": "3030-7916",
+      "tgdbId": 1393,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 41420,
@@ -8738,7 +10690,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170148,
+    "_id": 170179,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8846,7 +10798,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170149,
+    "_id": 170180,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8908,7 +10860,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170150,
+    "_id": 170181,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -8970,7 +10922,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170151,
+    "_id": 170182,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -9030,7 +10982,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170152,
+    "_id": 170183,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -9091,7 +11043,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 170153,
+    "_id": 170184,
     "physicalDigital": [
       "EverDrive"
     ],

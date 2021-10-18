@@ -12,6 +12,7 @@ const _uniq = require('lodash/uniq');
 
 let edId = 0;
 let userData = null;
+let errorRun = null;
 
 const twitchClientId = process.env.TWITCH_CLIENT_ID;
 const twitchSecretToken = process.env.TWITCH_SECRET_TOKEN;
@@ -110,9 +111,9 @@ const getGenres = game => {
 };
 
 async function getNewGameData(game) {
-  const gameNoBrackets = game.replace(/ *\[[^\]]*]/, '');
-  const gameNoHyphen = gameNoBrackets.replace(/ -/, ': ');
-  const gameNoParens = parensRemove(gameNoBrackets).split('.')[0];
+  const gameNoBrackets = game.replace(/ *\[[^\]]*]/g, '');
+  // const gameNoHyphen = gameNoBrackets.replace(/ -/, ': ');
+  const gameNoParens = errorRun ? game : parensRemove(gameNoBrackets).split('.')[0];
   console.log(gameNoParens);
   edId = createEverdriveId(edId);
   return new Promise((resolve, reject) => {
@@ -229,8 +230,9 @@ module.exports.setUserData = (
   };
 };
 
-module.exports.fetchIgdbData = (gamesArr, userDataPassed) => {
+module.exports.fetchIgdbData = (gamesArr, userDataPassed, passedErrorRun) => {
   userData = userDataPassed;
+  errorRun = passedErrorRun;
   return new Promise((resolve, reject) => {
     refreshAppKey()
       .then(() => {

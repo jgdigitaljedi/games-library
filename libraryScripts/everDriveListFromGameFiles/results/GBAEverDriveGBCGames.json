@@ -61,6 +61,67 @@
     "extraDataFull": []
   },
   {
+    "id": 1960,
+    "name": "Alone in the Dark: The New Nightmare",
+    "first_release_date": "05/17/2001",
+    "total_rating": 75,
+    "esrb": "M",
+    "genres": [
+      "Puzzle",
+      "Adventure"
+    ],
+    "genresDisplay": "Puzzle, Adventure",
+    "videos": [
+      "mb6XExJq1p4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wc4.jpg",
+    "description": "Alone in the Dark: The New Nightmare, alternatively known as Alone in the Dark 4, is the fourth installment of the survival horror video game series Alone in the Dark, developed by Darkworks and published by Infogrames. The game was released in 2001 in North America and Europe on several platforms including Microsoft Windows, PlayStation, Dreamcast, and Game Boy Color. The PlayStation 2 version of the game was released only in Europe. It was followed in 2008 by Alone in the Dark. As of October 29, 2013, the game was released on Steam.",
+    "story": "Set on October 31, 2001. Edward Carnby's best friend and partner, Charles Fiske, has been found dead off the coast of Shadow Island, a mysterious island near the coast of Massachusetts. Carnby's investigation quickly leads him to Frederick Johnson, who informs him of Fiske's search for three ancient tablets with the ability to unlock an incredible and dangerous power. Johnson pleads with Carnby to take the place of Fiske and reopen the investigation in order to recover the tablets. Carnby accepts and makes it his mission to find Fiske's killer. Johnson introduces Edward to Aline Cedrac, an intelligent, young university professor. She joins Edward to recover the missing tablets and assist Professor Obed Morton, who she believes to be her father. While flying over the coast of Shadow Island, Edward and Aline's plane comes under attack by an unknown creature. Edward and Aline both jump out of the plane and parachute to the ground, but are separated immediately. Edward lands in the dense forest just outside a manor, while Aline lands on the roof of said manor.",
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140002,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
     "id": 49840,
     "name": "Blaster Master: Enemy Below",
     "first_release_date": "10/23/2000",
@@ -87,7 +148,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140002,
+    "_id": 140003,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -144,7 +205,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140003,
+    "_id": 140004,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -224,7 +285,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140004,
+    "_id": 140005,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -310,7 +371,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140005,
+    "_id": 140006,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -372,7 +433,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140006,
+    "_id": 140007,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -431,7 +492,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140007,
+    "_id": 140008,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -514,7 +575,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140008,
+    "_id": 140009,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -574,7 +635,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140009,
+    "_id": 140010,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -636,7 +697,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140011,
+    "_id": 140012,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -719,7 +780,70 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140012,
+    "_id": 140013,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 6807,
+    "name": "Ghosts 'n Goblins",
+    "first_release_date": "08/31/1985",
+    "total_rating": 82,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Platform, Adventure, Arcade",
+    "videos": [
+      "HRcgXpHYOsk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20fk.jpg",
+    "description": "Ghosts 'n Goblins is a platform game where the player controls a knight, named Sir Arthur, who must defeat zombies, ogres, demons, cyclops, dragons and other monsters in order to rescue Princess Prin Prin, who has been kidnapped by Satan, king of Demon World. Along the way the player can pick up new weapons, bonuses and extra suits of armor that can help in this task.The game is often considered very difficult by arcade standards and is commonly regarded as one of the most difficult games ever released. The game is considered by Gametrailers.com to be the world's second most difficult game ever made. The player can only be hit twice before losing a life (the first hit takes away Arthur's armor, and the player must continue on in his underwear until completing the level, or finding replacement armor). If the player loses a life, he is returned to the start of the level, or the halfway point if he has managed to get that far. Furthermore, each life can only last a certain length of time (generally around three minutes), the clock being reset at the start of a level. If the clock does run out, the player instantly loses that life. After defeating the final boss, but only with the cross weapon (if the player does not have the cross weapon, they will be prompted that it is needed to defeat the boss and restart at the beginning of level 5 and must repeat round 5 and 6 again regardless if the weapon is obtained immediately or not) for the first time the player is informed that the battle was \"a trap devised by Satan\". The player must then replay the entire game on a higher difficulty level to reach the genuine final battle.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140014,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -769,7 +893,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140013,
+    "_id": 140015,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -852,7 +976,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140014,
+    "_id": 140016,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -913,7 +1037,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140019,
+    "_id": 140021,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -975,7 +1099,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140020,
+    "_id": 140022,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1061,7 +1185,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140021,
+    "_id": 140023,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1145,7 +1269,184 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140022,
+    "_id": 140025,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 128874,
+    "name": "Mario Tennis",
+    "first_release_date": "10/31/2000",
+    "esrb": "E",
+    "genres": [
+      "Racing",
+      "Sport",
+      "Tennis"
+    ],
+    "genresDisplay": "Racing, Sport, Tennis",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yr.jpg",
+    "description": "Spin, Lob, Drop, Smash -- It's time for some Mario Tennis! Take your game to the next level in Mario Tennis with 3 fun-packed modes! Practice control on your swings and shots in Exhibition Mode. In Mario Tour, create your own tennis player on three different save slots. Begin your tennis career as a rookie at the Royal Tennis Academy, where coaches share their sage advice and the students are all about winning. Gain experience by training and playing matches, then divide those points across stats for spin, power, control and speed. As your performance improves, you will be able to face tougher adversaries—and maybe even get to encounter some familiar faces! Need a break? Then try your luck on some Mario Mini-games. It’s time to pick up your racquet, and start playing!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140026,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1749,
+    "name": "Mega Man Xtreme",
+    "first_release_date": "10/19/2000",
+    "total_rating": 60,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co202i.jpg",
+    "description": "The future world is in turmoil. The peace keeping mother computer has been hacked and a virus runs rampant throughout the world. Only Mega Man X has the ability to traverse eight dangerous levels in cyberspace, battle huge bosses along the way and restore the mother computer to its normal state. When the going gets too intence, Mega Man X's pal, Zero can be summoned to help him out of the most dangerous situations. It's an X-treme situation that only Mega Man X can resolve!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140027,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1750,
+    "name": "Mega Man Xtreme 2",
+    "first_release_date": "07/18/2001",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "soQeq1XO2Dg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co202k.jpg",
+    "description": "Something mysterious is going on at the reploid research island. The reploids have ceased functionality... their data strangely erased. Now the investigation team encounters \"irregular\" reploids infected with a strange new DNA chip. This strange DNA chip, known as \"DNA Soul\", replaces useful data with a devastating Sigma virus and places all reploids in imminent danger. Now, it's up to Mega Man X and his comrade, Zero, to get to the damaged island and find out who is behind the DNA Soul virus.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140028,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1211,7 +1512,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140024,
+    "_id": 140030,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1241,6 +1542,148 @@
     "extraDataFull": []
   },
   {
+    "id": 21840,
+    "name": "Mr. Driller",
+    "first_release_date": "09/30/1999",
+    "total_rating": 84,
+    "esrb": "E",
+    "genres": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "genresDisplay": "Puzzle, Strategy",
+    "videos": [
+      "inF6ExwC5T4"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co204o.jpg",
+    "description": "Mr. Driller's world has been covered with mysterious colored blocks. Armed with only a mighty drill, you'll have to dig your way down to safety before his air supply runs out! It will take quick thinking and sharp reflexes to get the job done. Can you handle the challenge?Mr Driller is a real-time puzzle game that relies solely on quick-thinking and a bit of planning. Gameplay is a combination of Tetris and Boulder Dash: You have to drill down through multi-colored blocks to reach the bottom while avoiding the consequences of reckless drilling (blocks may fall on you and crush you).",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140031,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 2980,
+    "name": "Pocket Bomberman",
+    "first_release_date": "12/11/1997",
+    "total_rating": 76,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39x1.jpg",
+    "description": "Everyone is familiar with explosive hurling hero 'Bomberman' but this time he's back in a side-view platforming adventure on the Game Boy and Game Boy Color. Use your bombs to blast your way through each stage and overcome the boss battles at the end of each zone to reach your ultimate goal.",
+    "story": "Sunlight has been stolen from Bomberman's world and in order to regain the light our hero must venture through each zone and ultimately defeat the evil that awaits him atop the mountain.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140032,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo Game Boy Color launch title"
+    ],
+    "extraDataFull": {
+      "id": "ngbc71",
+      "name": "Pocket Bomberman",
+      "details": [
+        "Nintendo Game Boy Color launch title"
+      ],
+      "igdbId": 2980,
+      "gbId": 23456,
+      "gbGuid": "3030-23456",
+      "tgdbId": 8638,
+      "isLaunchTitle": [
+        {
+          "name": "Nintendo Game Boy Color",
+          "id": "ccl9",
+          "igdbId": 22,
+          "gbId": 57,
+          "gbGuid": "3045-57",
+          "tgdbId": 41
+        }
+      ],
+      "isExclusive": false,
+      "special": []
+    }
+  },
+  {
     "id": 969,
     "name": "Resident Evil Gaiden",
     "first_release_date": "12/13/2001",
@@ -1268,7 +1711,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140026,
+    "_id": 140034,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1322,6 +1765,144 @@
     }
   },
   {
+    "id": 49858,
+    "name": "Return of the Ninja",
+    "first_release_date": "04/29/2001",
+    "esrb": "E",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/yoovkwovyuncysvymdac.jpg",
+    "description": "What your enemy fears the most is something it cannot see: You!  A mysterious army has attacked the land of Koga and stolen an ancient and sacred scroll. As a highly trained ninja, it's up to you to find out who is behind the trouble and recover Koga's precious treasure. To accomplish this, you'll need to recover six secret ninja tools hidden from the invaders. The enemy army may outnumber you a thousand to one, but you are a master of stealth-- and every military leader knows that a blind enemy is a vanquished foe.  -Play as a male or female ninja character. -Collect six special ninja tools. -Earn ninja trading cards by completing levels -Trade ninja trading cards with other Return of the Ninja game owners.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140035,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo Game Boy Color exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Return of the Ninja",
+      "details": [
+        "Nintendo Game Boy Color exclusive"
+      ],
+      "id": "ngbc79",
+      "igdbId": 49858,
+      "gbId": 45167,
+      "gbGuid": "3030-45167",
+      "tgdbId": 17811,
+      "isExclusive": [
+        {
+          "name": "Nintendo Game Boy Color",
+          "id": "ccl9",
+          "igdbId": 22,
+          "gbId": 57,
+          "gbGuid": "3045-57",
+          "tgdbId": 41
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 167641,
+    "name": "Star Wars: Episode I - Racer",
+    "first_release_date": "12/05/1999",
+    "esrb": "E",
+    "genres": [
+      "Racing"
+    ],
+    "genresDisplay": "Racing",
+    "videos": [
+      "AsGNXKjj1pI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3sh0.jpg",
+    "description": "Star Wars: Episode 1 - Racer lets you participate in the famous pod race sequence that was the critical highlight of the 1999 film Star Wars: Episode I, The Phantom Menace. These lightning-quick vehicles are capable of reaching simulated speeds of up to 600 miles per hour while skimming a mere 4 feet above the ground. The Game Boy Color version of the game is a top-down racer that faces you against one other rival podracer, in single player or multiplayer with a link cable.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140036,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
     "id": 6702,
     "name": "Street Fighter Alpha: Warrior's Dreams",
     "first_release_date": "06/04/1995",
@@ -1351,7 +1932,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140027,
+    "_id": 140037,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1418,7 +1999,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140028,
+    "_id": 140038,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1480,7 +2061,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140029,
+    "_id": 140039,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1540,7 +2121,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 140030,
+    "_id": 140041,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1592,5 +2173,68 @@
       "isLaunchTitle": false,
       "special": []
     }
+  },
+  {
+    "id": 1698,
+    "name": "Wario Land 3",
+    "first_release_date": "03/20/2000",
+    "total_rating": 86,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Puzzle, Adventure",
+    "videos": [
+      "q3PmcCrgQgA",
+      "w8mYfuE0Xa8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqy.jpg",
+    "description": "Trapped inside a magical music box, the invincible Wario is on a dangerous quest to help a mysterious figure recover its lost powers! Smash, bash and crash your way through more than two dozen gigantic levels in search of hidden keys, valuable treasures and mystical music boxes. Test your wits on puzzle after intricate puzzle and flex your muscles in action-packed boss fights! Be wary of Wanderin' Gooms, Hammer-bots, Mad Scienstein and more as you plunge into one of the largest, most dazzling adventures ever to hit Game Boy Color!",
+    "story": "One day, Wario is flying with his plane over the woods until it runs out of gas and crashes. Unharmed, Wario then stumbles upon a mysterious cave. Inside the cave, he discovers a magical music box. He wants to take a closer look, and that causes him to be suddenly sucked into the music box. In the music box, a mysterious figure informs Wario that he is a god who once protected the world inside the music box, until an evil being sealed away his magical powers in five music boxes. In exchange for freeing it, the figure promises to send Wario back to his own world and let him keep any treasure he finds. With his mind on the money and the fact he can return to his own world, Wario departs on his quest, in search of the music boxes and the many treasures of this mysterious land.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Game Boy Color",
+    "consoleId": 22,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 140043,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
   }
 ]

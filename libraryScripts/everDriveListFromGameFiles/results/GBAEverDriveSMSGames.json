@@ -758,6 +758,87 @@
     "extraDataFull": []
   },
   {
+    "id": 37176,
+    "name": "Astro Warrior",
+    "first_release_date": "12/13/1986",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ovnqjyxbmhwv1dzwavuk.jpg",
+    "description": "Basic Sega shoot-em-up in which you must guide your ship through three zones while avoiding hazards. Your only weapon are bullets as your only defense, but if you shoot the flashing red pieces on the terrain, chances are that a green ship will approach you, and if you collect this ship, your weapons will be upgraded so that you shoot a laser beam instead. Keep collecting ships and you can shoot up to three laser beams at once.  At the end of each zone, you will come across a boss that takes multiple hits to kill. If you manage to conquer all three zones, you are back to where you started. The whole point of this game is to earn as many points you can without losing all of your lives.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180013,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Astro Warrior",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms7",
+      "igdbId": 37176,
+      "gbId": 14539,
+      "gbGuid": "3030-14539",
+      "tgdbId": 2695,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
     "id": 12396,
     "name": "Back to the Future Part II",
     "first_release_date": "12/30/1990",
@@ -786,7 +867,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180013,
+    "_id": 180014,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -848,7 +929,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180014,
+    "_id": 180015,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -876,6 +957,89 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 45662,
+    "name": "Bomber Raid",
+    "first_release_date": "12/31/1988",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": [
+      "fItPiRtajJ8"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ztpkv2xg3lgylk7nbvqq.jpg",
+    "description": "Fly your plane through five levels, shooting enemy planes, submarines, helicopters, and other enemies along the way, and use your equipped cluster bombs if necessary. You need to destroy a target that is outlined in your mission briefing. You have three lives and limited cluster bombs. To help you along the way, you can shoot a power pod to score points, increase your firepower, and gain some help from fellow squadrons.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180016,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Bomber Raid",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms12",
+      "igdbId": 45662,
+      "gbId": 6869,
+      "gbGuid": "3030-6869",
+      "tgdbId": 2708,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 2630,
@@ -917,7 +1081,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180015,
+    "_id": 180017,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -978,7 +1142,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180016,
+    "_id": 180018,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1039,123 +1203,242 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180017,
-    "physicalDigital": [
-      "EverDrive"
-    ],
-    "manual": false,
-    "handheld": true,
-    "location": "both",
-    "compilation": false,
-    "compilationGamesIds": [],
-    "gamesService": {
-      "xbGold": false,
-      "xbPass": false,
-      "psPlus": false,
-      "primeFree": false,
-      "switchFree": false
-    },
-    "consoleArr": [
-      {
-        "consoleName": "Game Boy Advance",
-        "consoleId": 24
-      }
-    ],
-    "vr": {
-      "vrOnly": false,
-      "vrCompatible": false
-    },
-    "extraData": [],
-    "extraDataFull": []
-  },
-  {
-    "id": 4371,
-    "name": "Chuck Rock II: Son of Chuck",
-    "first_release_date": "12/30/1993",
-    "total_rating": 49,
-    "genres": [
-      "Platform",
-      "Puzzle"
-    ],
-    "genresDisplay": "Platform, Puzzle",
-    "videos": null,
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p6n.jpg",
-    "description": "Chuck Rock II is a side-scrolling action game featuring the son of the protagonist Chuck Rock as he fights off dinosaurs and tries to help save his parents.",
-    "story": null,
-    "player_perspectives": [
-      "Side view"
-    ],
-    "consoleName": "Sega Master System",
-    "consoleId": 64,
-    "condition": "other",
-    "case": false,
-    "pricePaid": 0,
-    "physical": false,
-    "cib": false,
-    "datePurchased": "2021-10-17",
-    "howAcquired": "piracy",
-    "notes": "playable via GBA EverDrive",
-    "createdAt": "10/17/2021",
-    "updatedAt": "10/17/2021",
-    "_id": 180018,
-    "physicalDigital": [
-      "EverDrive"
-    ],
-    "manual": false,
-    "handheld": true,
-    "location": "both",
-    "compilation": false,
-    "compilationGamesIds": [],
-    "gamesService": {
-      "xbGold": false,
-      "xbPass": false,
-      "psPlus": false,
-      "primeFree": false,
-      "switchFree": false
-    },
-    "consoleArr": [
-      {
-        "consoleName": "Game Boy Advance",
-        "consoleId": 24
-      }
-    ],
-    "vr": {
-      "vrOnly": false,
-      "vrCompatible": false
-    },
-    "extraData": [],
-    "extraDataFull": []
-  },
-  {
-    "id": 4371,
-    "name": "Chuck Rock II: Son of Chuck",
-    "first_release_date": "12/30/1993",
-    "total_rating": 49,
-    "genres": [
-      "Platform",
-      "Puzzle"
-    ],
-    "genresDisplay": "Platform, Puzzle",
-    "videos": null,
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p6n.jpg",
-    "description": "Chuck Rock II is a side-scrolling action game featuring the son of the protagonist Chuck Rock as he fights off dinosaurs and tries to help save his parents.",
-    "story": null,
-    "player_perspectives": [
-      "Side view"
-    ],
-    "consoleName": "Sega Master System",
-    "consoleId": 64,
-    "condition": "other",
-    "case": false,
-    "pricePaid": 0,
-    "physical": false,
-    "cib": false,
-    "datePurchased": "2021-10-17",
-    "howAcquired": "piracy",
-    "notes": "playable via GBA EverDrive",
-    "createdAt": "10/17/2021",
-    "updatedAt": "10/17/2021",
     "_id": 180019,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 6094,
+    "name": "Choplifter",
+    "first_release_date": "12/30/1982",
+    "total_rating": 68,
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": [
+      "5rntYk80kZ4",
+      "ypUuO0MWZyo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ca2jt1qcgtwlsrtyz7en.jpg",
+    "description": "Choplifter is a 1982 Apple II game developed by Dan Gorlin and published by Brøderbund. It was ported to other home computers and, in 1985, Sega released a coin-operated arcade game remake, which in turn received several home ports of its own. While many arcade games have been ported to home computers and consumer consoles, Choplifter was one of the few games (Lode Runner is another) to take the reverse route: first appearing on a home system and being ported to the arcade.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180020,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 4371,
+    "name": "Chuck Rock II: Son of Chuck",
+    "first_release_date": "12/30/1993",
+    "total_rating": 49,
+    "genres": [
+      "Platform",
+      "Puzzle"
+    ],
+    "genresDisplay": "Platform, Puzzle",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p6n.jpg",
+    "description": "Chuck Rock II is a side-scrolling action game featuring the son of the protagonist Chuck Rock as he fights off dinosaurs and tries to help save his parents.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180021,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 4371,
+    "name": "Chuck Rock II: Son of Chuck",
+    "first_release_date": "12/30/1993",
+    "total_rating": 49,
+    "genres": [
+      "Platform",
+      "Puzzle"
+    ],
+    "genresDisplay": "Platform, Puzzle",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p6n.jpg",
+    "description": "Chuck Rock II is a side-scrolling action game featuring the son of the protagonist Chuck Rock as he fights off dinosaurs and tries to help save his parents.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180022,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 45654,
+    "name": "Cloud Master",
+    "first_release_date": "12/30/1988",
+    "esrb": "E10+",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/alyufd6exuhfbfuupbbz.jpg",
+    "description": "Enter the wild, fun-filled world of Mike Chen. He's out to learn the secrets of the five lands so he can become a powerful wizard of the skies! Already he has tamed a cloud to carry him around. He has learned the art of the shooting Ki force from his fingertips! but standing against him are more wacky, zany creatures than you can shake your chopsticks at! Bird men. Flying cat heads. Pigs with guns. And flying bowls of soup! Sounds funny...but remember that each can zap you with a touch! You do have a couple of tricks up your sleeve. Collect power-up pots to fly faster and make your Ki force even more powerful! Defeat the mid-round bosses and you will earn the use of true magic...fireballs, guardian flames and bouncing bombs. Defeat the five world guardians and you'll become a Cloud Master! Fail, and you'll be locked in combat forever. Are you really going to let a flying dumpling get the best of you?",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180023,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1215,7 +1498,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180020,
+    "_id": 180024,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1275,7 +1558,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180021,
+    "_id": 180025,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1303,6 +1586,89 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 45653,
+    "name": "Cyborg Hunter",
+    "first_release_date": "11/30/1988",
+    "genres": [
+      "Shooter",
+      "Hack and slash/Beat 'em up"
+    ],
+    "genresDisplay": "Shooter, Hack and slash/Beat 'em up",
+    "videos": [
+      "KVskyfspH1g"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/mlzyfj7yxrbpyoj4idon.jpg",
+    "description": "The Year: 2242. You're the toughest bounty hunter in the galaxy. You've amassed a fortune by defeating the most vicious creatures known to man. And now, deep inside the enemy Cyborg Fortress, you can almost taste your next paycheck. But there's a little work to be done before you cash in. Like blasting swarms of deadly Cyborgs with your powerful psycho gun. And a battle-to-the-death showdown with Vipron, the vile Cyborg leader. Prepare yourself for one explosive payday!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180026,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Cyborg Hunter",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms16",
+      "igdbId": 45653,
+      "gbId": 20088,
+      "gbGuid": "3030-20088",
+      "tgdbId": 2722,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 13058,
@@ -1336,7 +1702,78 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180022,
+    "_id": 180027,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 6787,
+    "name": "Double Dragon",
+    "first_release_date": "07/31/1987",
+    "total_rating": 57,
+    "esrb": "E10+",
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Fighting, Platform, Hack and slash/Beat 'em up, Adventure, Arcade",
+    "videos": [
+      "cy5f9ayBHbM"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20fc.jpg",
+    "description": "The player character has a repertoire of martial art techniques which they can perform by using the joystick and three action buttons (kick, jump, and punch) individually or in combination. Techniques range from basic punches and kicks, to more elaborate manoeuvres like hair grabbing moves and elbow strikes. When playing with another player, one can assist the other by grabbing their partner's opponent from behind. Caution should be taken, though, as some enemies are able to do the same thing to the players. The player begins the game with a certain number of extra lives and a life gauge which depletes as the player takes hits. If the life gauge runs out or the time limit reaches zero, the player will lose a life.There is a small variety of enemy characters that the player will face through the course of the game. Certain enemies carry melee weapons, which can be knocked out of their hands and picked up to use against them. Available weapons include baseball bats, whips, throwing knives, and dynamite; in addition, rocks, oil drums, and boxes can be found in certain places.The game is divided into four different stages or \"missions,\" which consist of a city slum, a factory, the woods, and the gang's hideout. The game normally ends if a single player defeats the final boss alone. However, if two players manage to complete the game together, they are then forced to fight each other in order to determine who will win Marian's affections.",
+    "story": "The player takes control of martial artist Billy Lee, or his twin brother Jimmy (also known as Hammer and Spike in the supplementary materials for the American arcade release), as they fight their way into the turf of the Black Warriors gang in order to rescue their common love interest Marian.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180028,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1398,7 +1835,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180023,
+    "_id": 180029,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1461,7 +1898,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180024,
+    "_id": 180030,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1519,7 +1956,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180025,
+    "_id": 180031,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1580,7 +2017,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180027,
+    "_id": 180033,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1638,7 +2075,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180028,
+    "_id": 180034,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1705,7 +2142,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180030,
+    "_id": 180036,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1766,7 +2203,57 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180032,
+    "_id": 180038,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 45648,
+    "name": "Global Defense",
+    "first_release_date": "01/31/1987",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/wsa1c7ms5zrbtej75rjf.jpg",
+    "description": "Players control a satellite and must destroy enemies by moving a crosshair over them and firing the satellite's weapons.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180039,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1834,7 +2321,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180033,
+    "_id": 180040,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1888,7 +2375,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180034,
+    "_id": 180041,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -1916,6 +2403,203 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 46146,
+    "name": "Golvellius: Valley of Doom",
+    "first_release_date": "12/30/1987",
+    "total_rating": 73,
+    "genres": [
+      "Platform",
+      "Role-playing (RPG)"
+    ],
+    "genresDisplay": "Platform, Role-playing (RPG)",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b8g.jpg",
+    "description": "Enter the world of Golvellius. Where demons rule the valley of water...and control the creatures of land, sea and air. Where almost everyone stands against you. There is only one way in...and no way out except victory or death!  It's an adventure that will take you across deserts and mountains, oceans and forests...through eerie graveyards and caves filled with danger and surprise.  Golvellius has a PASSWORD SAVE feature that lets you keep all your possessions. So you never have to start an adventure empty handed!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180042,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 134299,
+    "name": "Jurassic Park",
+    "first_release_date": "12/30/1993",
+    "genres": [
+      "Platform",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zdy.jpg",
+    "description": "One of many games based on the 1993 blockbuster Jurassic Park, the version for Sega's 8-bit systems combines side-scrolling shooting action and platforming levels.In each of the five stages of the game, one escaped dinosaur species must be recaptured. Each level begins with a side-scrolling driving section. Dinosaurs attack the car and must be fended off by firing at them with a crosshair. If the player survives long enough, a boss battle against an especially powerful dinosaur follows.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180044,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 65579,
+    "name": "Kenseiden",
+    "first_release_date": "06/01/1988",
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up"
+    ],
+    "genresDisplay": "Platform, Hack and slash/Beat 'em up",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/zq6aqhmduwzco7s7btih.jpg",
+    "description": "A Master System side-scrolling platformer set in a fantasy version of feudal Japan featuring multiple paths to explore and crazy, potbellied monkeys to kill.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180045,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Kenseiden",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms26",
+      "igdbId": 65579,
+      "gbId": 20283,
+      "gbGuid": "3030-20283",
+      "tgdbId": 2874,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 36898,
@@ -1947,7 +2631,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180036,
+    "_id": 180046,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2028,7 +2712,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180037,
+    "_id": 180047,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2084,7 +2768,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180038,
+    "_id": 180048,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2148,7 +2832,66 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180039,
+    "_id": 180049,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 8039,
+    "name": "Master of Darkness",
+    "first_release_date": "10/22/1992",
+    "total_rating": 68,
+    "esrb": "E10+",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/j5edfccl6gaku3yukepb.jpg",
+    "description": "The shadow of Dracula has spread over Victorian England. Make your way through strange and forbidding streets and cavernous warehouses while fighting his army of monsters. Find Dracula, the Master of Darkness, and rescue England from his terrifying grasp.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180050,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2208,7 +2951,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180040,
+    "_id": 180051,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2272,7 +3015,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180041,
+    "_id": 180052,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2338,7 +3081,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180042,
+    "_id": 180053,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2404,7 +3147,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180043,
+    "_id": 180054,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2486,7 +3229,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180044,
+    "_id": 180055,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2563,7 +3306,116 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180046,
+    "_id": 180057,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 136620,
+    "name": "Ninja Gaiden",
+    "first_release_date": "03/30/1992",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fy4.jpg",
+    "description": "Ninja Gaiden for Sega Master System was released in 1992 by SEGA. It is a different game from homonym NES game.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180058,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 12889,
+    "name": "The Ninja",
+    "first_release_date": "11/07/1986",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": [
+      "P_eY4RzCMLI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/r46s1eio2shjfr4wlxmt.jpg",
+    "description": "It is typical of a run and gun game, such as Commando and Ikari Warriors, where the player has to shoot enemies and defeat a boss. Enemies include samurai, ninja and dogs.",
+    "story": "Throughout your Journey to the Ohkami Castle, you'll battle evil Ninja Warriors. Once there, you must destroy their leader, Gyokuro. Only then Will you be able to save the princess from her prison Inside the castle.",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180059,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2623,7 +3475,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180047,
+    "_id": 180060,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2683,7 +3535,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180048,
+    "_id": 180061,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2740,7 +3592,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180049,
+    "_id": 180062,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2798,7 +3650,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180050,
+    "_id": 180063,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2860,7 +3712,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180051,
+    "_id": 180064,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2921,7 +3773,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180052,
+    "_id": 180065,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -2949,6 +3801,260 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 46337,
+    "name": "Power Strike II",
+    "first_release_date": "12/30/1993",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": [
+      "Zfopy8NFkMI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/thvbxrgw0rjj4bdqc9k1.jpg",
+    "description": "Power Strike II is a 2D vertical shooter game, developed by Compile and published by Sega, which was released in Europe for the Sega Master System in 1993.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180066,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 46337,
+    "name": "Power Strike II",
+    "first_release_date": "12/30/1993",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": [
+      "Zfopy8NFkMI"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/thvbxrgw0rjj4bdqc9k1.jpg",
+    "description": "Power Strike II is a 2D vertical shooter game, developed by Compile and published by Sega, which was released in Europe for the Sega Master System in 1993.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180067,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 2472,
+    "name": "Prince of Persia",
+    "first_release_date": "10/02/1989",
+    "total_rating": 83,
+    "esrb": "T",
+    "genres": [
+      "Fighting",
+      "Platform",
+      "Puzzle",
+      "Adventure"
+    ],
+    "genresDisplay": "Fighting, Platform, Puzzle, Adventure",
+    "videos": [
+      "Xv20j8ChtRY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vww.jpg",
+    "description": "The game is set in ancient Persia. While the sultan is fighting a war in a foreign land, his vizier Jaffar, a wizard, seizes power. Jaffar's only obstacle to the throne is the Sultan's daughter (although the game never specifically mentions how). Jaffar locks her in a tower and orders her, under threat of execution, to become his wife. The game's nameless protagonist, whom the Princess loves, is thrown into the palace dungeons. The player must lead the protagonist out of the dungeons and to the palace tower, defeating Jaffar and freeing the Princess in under 60 minutes. In addition to guards, various traps and dungeons, the protagonist is further hindered by his own doppelgänger, an apparition of his own self that is conjured out of a magic mirror.",
+    "story": "The game is set in ancient Persia. While the sultan is fighting a war in a foreign land, his vizier Jaffar, a wizard, seizes power. His only obstacle to the throne is the Sultan's daughter (although the game never specifically mentions how). Jaffar locks her in a tower and orders her to become his wife, or she would die within 60 minutes (extended to 120 minutes in the Super NES version, which has longer and harder levels). The game's unnamed protagonist, whom the Princess loves, is thrown prisoner into the palace dungeons. In order to free her, he must escape the dungeons, get to the palace tower and defeat Jaffar before time runs out. But in addition to guards, various traps and dungeons, the protagonist is further hindered by his own doppelgänger, an apparition of his own self that is conjured out of a magic mirror.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180068,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 46131,
+    "name": "Psycho Fox",
+    "first_release_date": "07/31/1989",
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3k59.jpg",
+    "description": "Psycho Fox must get to the right hand side of the level. However, there are many enemies in the way. He can use a Shinto stick to change into characters/animals like a hippopotamus, a monkey or a tiger, each of which has its own special ability. The hippopotamus is slow and cannot jump very high, but can punch through special destructible blocks in the game world. The monkey can jump higher than the other creatures and the tiger can run faster. Psycho also has an ally named Birdfly, who can be used as armor or as a boomerang. If Psycho is hit while carrying Birdfly, Birdfly goes away and the player does not lose a life.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180069,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Psycho Fox",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms37",
+      "igdbId": 46131,
+      "gbId": 18090,
+      "gbGuid": "3030-18090",
+      "tgdbId": 2980,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 6840,
@@ -2982,7 +4088,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180054,
+    "_id": 180071,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3040,7 +4146,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180055,
+    "_id": 180072,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3097,7 +4203,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180056,
+    "_id": 180073,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3182,7 +4288,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180057,
+    "_id": 180074,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3244,7 +4350,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180058,
+    "_id": 180075,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3272,6 +4378,146 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 3249,
+    "name": "Road Rash",
+    "first_release_date": "12/30/1991",
+    "total_rating": 70,
+    "esrb": "E",
+    "genres": [
+      "Fighting",
+      "Racing"
+    ],
+    "genresDisplay": "Fighting, Racing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/eywipiisblrls5hjxcrm.jpg",
+    "description": "Road Rash is an aggressive motorcycle racing game where the player assumes the role of a biker who takes part in a series of illegal races across the U.S.A. Starting at the back of the pack the objective is always to finish first on a linear course, overtaking the other bikers. This is achieved by driving very well or by playing it dirty, knocking opponents of their bikes using clubs, crowbars or your bare hands. The other racers fight back in a similar fashion and there are also hazards. All the races take place on the regular road with normal traffic (in both directions) and the cops, as well as occasional oil slicks and stray cows.By winning races you can get promoted to a stronger division and earn cash with which you can buy a better bike. Whenever you're knocked off your bike or hit something you will have to run back to your bike and lose valuable time, plus your bike will suffer some damage. When the player crashes with cops nearby, it is possible to get busted and then you have to forfeit the race.Like the whole Road Rash lineage, the game has arcade-like gameplay with no intention to be a motorcycle simulation. While the game has a two-player mode, this is not simultaneous.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180076,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 10218,
+    "name": "The Cyber Shinobi",
+    "first_release_date": "12/30/1990",
+    "genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up"
+    ],
+    "genresDisplay": "Platform, Hack and slash/Beat 'em up",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co30io.jpg",
+    "description": "The Cyber Shinobi is the SEGA Master System exclusive sequel to Shinobi. In some context the game has the subtitle Shinobi Part 2. It was the first Shinobi game to not have an Arcade counterpart.",
+    "story": "Set sometime during the 21st century, the player controls the grandson of the ninja master Joe Musashi, also named Joe, who is on a mission to defeat the minions of Cyber-Zeed, a terrorist organization founded by the remnants of the Zeed organization that the original Joe Musashi destroyed.\n\nJoe must fight his way through a series of six stages in order to prevent Cyber-Zeed from launching its stolen stockpiles of plutonium around the world. The stages consists of a construction site, a harbor, a heliport, a jungle, a waterfall, and the hideout of the enemy.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180077,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "The Cyber Shinobi",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms50",
+      "igdbId": 10218,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": 3057,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 19538,
@@ -3303,7 +4549,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180059,
+    "_id": 180078,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3361,7 +4607,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180060,
+    "_id": 180079,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3429,7 +4675,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180061,
+    "_id": 180080,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3490,7 +4736,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180062,
+    "_id": 180081,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3548,7 +4794,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180063,
+    "_id": 180082,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3606,7 +4852,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180064,
+    "_id": 180083,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3634,6 +4880,91 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 46124,
+    "name": "SpellCaster",
+    "first_release_date": "09/22/1988",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Platform, Role-playing (RPG), Hack and slash/Beat 'em up, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b8m.jpg",
+    "description": "He has been summoned by Daikak, the great leader of the Summit Temple, to stop a war between factions of warlords. The player explores temples and defeats enemies like ghosts, ninja, and feral beasts. There are also villages to explore and people to talk to as the player assembles clues on who desecrated his home town's temple and killed its guardians. The quest takes the player across medieval Japan and to the Underworld. Unlike most games, death does not lead to game over or even a loss of money or experience points. Instead, the player has to use a password in order to resurrect themselves from the dead.",
+    "story": null,
+    "player_perspectives": [
+      "First person",
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180084,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "SpellCaster",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms47",
+      "igdbId": 46124,
+      "gbId": 10557,
+      "gbGuid": "3030-10557",
+      "tgdbId": 3025,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   },
   {
     "id": 46123,
@@ -3663,7 +4994,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180065,
+    "_id": 180085,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3718,7 +5049,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180066,
+    "_id": 180086,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3776,7 +5107,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180067,
+    "_id": 180087,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3837,7 +5168,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180069,
+    "_id": 180089,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3895,7 +5226,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180072,
+    "_id": 180092,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -3955,7 +5286,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180073,
+    "_id": 180093,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4014,7 +5345,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180074,
+    "_id": 180094,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4073,7 +5404,7 @@
     "notes": "playable via GBA EverDrive",
     "createdAt": "10/17/2021",
     "updatedAt": "10/17/2021",
-    "_id": 180075,
+    "_id": 180095,
     "physicalDigital": [
       "EverDrive"
     ],
@@ -4101,5 +5432,87 @@
     },
     "extraData": [],
     "extraDataFull": []
+  },
+  {
+    "id": 46114,
+    "name": "Zillion II: The Tri Formation",
+    "first_release_date": "12/12/1987",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Racing"
+    ],
+    "genresDisplay": "Shooter, Platform, Racing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/dgggrjqoroliml1tihwg.jpg",
+    "description": "They're at it again. The dreaded Norsa Empire is back... and stronger than ever before. This time they won't make any mistakes. Others have tried to stop them and all have failed. The evil Baron Ricks knows you are coming. And it's a trap! But you're the galaxy's last hope. Can you do what's never been done before?",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-17",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/17/2021",
+    "updatedAt": "10/17/2021",
+    "_id": 180097,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Zillion II: The Tri Formation",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms55",
+      "igdbId": 46114,
+      "gbId": 19742,
+      "gbGuid": "3030-19742",
+      "tgdbId": 3126,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
   }
 ]

@@ -1,5 +1,13 @@
 [
   {
+    "gameNoParens": "Battletoads & Double Dragon - The Ultimate Team",
+    "error": {}
+  },
+  {
+    "gameNoParens": "Black Bass USA, The",
+    "error": {}
+  },
+  {
     "gameNoParens": "Duck Tales",
     "error": {}
   },
@@ -13,6 +21,10 @@
   },
   {
     "gameNoParens": "Galaga - Demons of Death",
+    "error": {}
+  },
+  {
+    "gameNoParens": "Gun-Nac",
     "error": {}
   },
   {

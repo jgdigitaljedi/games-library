@@ -27,9 +27,11 @@ export const filters = {
   },
   filterPlatform: (data: IGame[], platform: string[]): IGame[] => {
     if (platform?.length) {
+      console.log('platform', platform);
       return data.filter(d => {
         const conArr: string[] = d.consoleArr?.length
-          ? d.consoleArr?.filter(c => c.hasOwnProperty('physical')).map(c => c.consoleName)
+          ? // ? d.consoleArr?.filter(c => c.hasOwnProperty('physical')).map(c => c.consoleName)
+            d.consoleArr?.map(c => c.consoleName)
           : [''];
         return _intersection(platform, conArr).length > 0;
       });

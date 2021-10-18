@@ -1,0 +1,59 @@
+[
+  {
+    "id": 9155,
+    "name": "R.C. Pro-Am",
+    "first_release_date": "01/31/1988",
+    "total_rating": 80,
+    "genres": [
+      "Racing"
+    ],
+    "genresDisplay": "Racing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xcg.jpg",
+    "description": "Presented in an overhead isometric perspective, a single player races a radio-controlled car around a series of tracks. The objective of each track is to qualify for the next race by placing in the top three racers. Players collect items to improve performance, and they must avoid a variety of hazards such as rain puddles and oil slicks. It is an example of a racing game which features vehicular combat, in which racers can use missiles and bombs to temporarily disable opposing vehicles.  The game distanced itself from earlier racing titles by using an overhead, instead of a first-person, perspective. Reviews have cited it as inspiration for future games such as Super Off Road, Rock n' Roll Racing, and the Mario Kart series. It has appeared in many \"top games of all time\" lists and is regarded as one of the best titles in the NES library.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  }
+]

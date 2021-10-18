@@ -1,0 +1,1346 @@
+[
+  {
+    "id": 7776,
+    "name": "Battletoads & Double Dragon",
+    "first_release_date": "05/31/1993",
+    "total_rating": 81,
+    "genres": [
+      "Fighting",
+      "Hack and slash/Beat 'em up"
+    ],
+    "genresDisplay": "Fighting, Hack and slash/Beat 'em up",
+    "videos": [
+      "pw43zv0bpXA",
+      "vtMbJPh7MCg"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pj4.jpg",
+    "description": "Battletoads & Double Dragon - The Ultimate Team is the fourth game in the Battletoads series. It is a crossover with the Double Dragon series of beat 'em up games developed by Technos Japan. It was released for the NES, with ports for the Super NES, Sega Mega Drive/Genesis, and Nintendo Game Boy. Despite the presence of the Double Dragon characters, Technos Japan had no actual role in the game's development.",
+    "story": "Following her crushing defeat at the hands of the Battletoads on Ragnarok's World, the humiliated Dark Queen hightailed it to the outer reaches of the universe. Months have passed... and the Queen's parting threat of revenge has become a distant memory to Professor T. Bird and the Battletoads - Zitz, Rash and Pimple.\n\nHowever, when a mysterious energy beam from outer space renders Earth's military might powerless, and a city-sized spaceship called the Colossus smashes out of the moon, the Professor knows it has to be the Dark Queen trying her latest galaxy-dominating plan.\n\nHe's right, of course, but what he doesn't realize is that the shady lady's taking no chances this time, and she's cunningly teamed up with the equally shady Shadow Boss! This means that the Battletoads will not only have to fight the Queen and her sidekicks, General Slaughter, Big Blag and Robo Manus - but Abobo and Roper, the Shadow Boss's minions, as well!\n\nSo, that's how it stands 'toads: the Dark Queen's got herself some serious back-up and now she's comin' to take over your Earth - what're ya gonna do about it? First of all you're gonna get the sides EVEN! Those terrific twins, Billy and Jimmy Lee, otherwise known as the Double Dragon, are just rarin' to get in on the action, 'specially since the Shadow Boss is their archest of enemies!",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 17458,
+    "name": "The Black Bass",
+    "first_release_date": "10/17/1988",
+    "genres": [
+      "Simulator",
+      "Sport"
+    ],
+    "genresDisplay": "Simulator, Sport",
+    "videos": [
+      "PQWhTjfNWPQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/ubhplcepfprklyw68zzi.jpg",
+    "description": "The Black Bass is a fishing game designed for the Nintendo Entertainment System by HOT B games and released in 1988. Although not presented as a sequel, this game is the second in the Black Bass series-the first game being a Japan-exclusive.",
+    "story": "In this basic fishing game, the player attempts to catch as many black bass as possible throughout the day. The game allows for beginner mode and ranked mode. The ranked mode requires a password, and allows the player to select a specific location on the lake to begin fishing.",
+    "player_perspectives": [
+      "Third person",
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170002,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes405",
+      "name": "The Black Bass",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 17458,
+      "gbId": 5643,
+      "gbGuid": "3030-5643",
+      "tgdbId": 1650,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 6487,
+    "name": "DuckTales",
+    "first_release_date": "09/13/1989",
+    "total_rating": 84,
+    "genres": [
+      "Platform"
+    ],
+    "genresDisplay": "Platform",
+    "videos": [
+      "C_DdJYsvuUs",
+      "uoUrsGTszso",
+      "qNEq3zqeaDQ"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wks.jpg",
+    "description": "DuckTales is a platform game developed and published by Capcom and based on the Disney animated TV series of the same name. It was first released in North America for the Nintendo Entertainment System in 1989 and was later ported to the Game Boy in 1990. The story involves Scrooge McDuck traveling around the globe collecting treasure and outwitting his rival Flintheart Glomgold to become the world's richest duck.Produced by key personnel from the Mega Man series, DuckTales would go on to sell over a million copies worldwide on each system, becoming Capcom's best-selling title for both platforms. The game was praised for its tight control, unique and non-linear gameplay and bright presentation, and is often regarded as one of the best titles for the NES, appearing on numerous \"Best of\" lists.",
+    "story": "The Beagle Boys attempt another raid on Scrooge's money bin, with Baggy, Burger and Bouncer Beagle capturing Huey, Dewey and Louie. After Scrooge rescues them, he finds Big Time Beagle in his office with a painting in his hands. With the help of Duckworth, Big Time is defeated and retreats. The painting reveals the locations of five treasures, and Scrooge wastes no time to set out for them. Scrooge and Launchpad visit the Amazon to find the Sceptre of the Incan King. Using eight golden coins, they uncover the hidden temple of Manco Capquack, but the sceptre is lost and the temple is destroyed by its guardian statue. The chief of the natives then approaches Scrooge and Launchpad and thanks them for returning their city to them, and gives Scrooge the recovered sceptre in return, which was just the king's back scratcher. Scrooge, the nephews and Webby visit the castle of Drake Von Vladstone, also known as Dracula Duck, who was the heir to the Coin of the Lost Realm. The boys fall into a trap door and are spread throughout the Transylvanian mansion, but Scrooge saves them from the Beagle Boys, disguised as ghosts. Each of the beagle boys were also carrying a torn sheet of paper which contained part of a riddle. They uncover a mirror where Scrooge solves the riddle, and Magica De Spell reveals herself, who is also after the coin. Scrooge and Magica then face off for it, and the sorceress is defeated and retreats empty-handed. Scrooge and the nephews travel to the African Mines to find the Giant Diamond of the Inner Earth, but they find the workers are being scared off by voices and earthquakes, claiming the mine is haunted. Deep underground, Scrooge discovers that the Terra-Firmians and their games are the cause, and after interfering he is attacked by their king. Defeated, the king makes an agreement with Scrooge to stop the games in exchange for the mining operations to continue, as it will rid them of the diamonds they consider to be \"garbage rocks\". He gives Scrooge the Giant Diamond of the Inner Earth to start with.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170003,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 6488,
+    "name": "DuckTales 2",
+    "first_release_date": "04/22/1993",
+    "total_rating": 84,
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "epC0l6ElRFU",
+      "uoUrsGTszso"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zr6.jpg",
+    "description": "Scrooge McDuck is hot on the trail of the richest adventure ever. Pieces to the map of the Lost Treasure of McDuck have been scattered across the globe, and Scrooge must find them before the greedy Flintheart Glomgold grabs them. It's going to be a race to the finish as both of them try to find the treasure and become the richest duck in the world! Join Scrooge and his nephews as they explore the ancient pyramids of Egypt and do battle with swash-buckling pirates in the Bermuda Triangle. Help them search the haunted halls of an ancient Scottish castle and scale the watery heights of Niagara Falls. Aid Scrooge in his quest for the secret of the island of Mu and you'll gain the final clue to unravel the hidden location of the Lost Treasure of McDuck!",
+    "story": "As the game opens, Huey runs to his uncle Scrooge McDuck with a torn piece of paper, which is a piece of a treasure map drawn by Fergus McDuck. Inspired to discover the hidden treasure left by Fergus, Scrooge starts an expedition to find the missing pieces, unaware that his archenemy Flintheart Glomgold is also after the lost treasure of McDuck. \n \nScrooge travels to Niagara Falls, a pirate ship in the Bermuda Triangle, Mu, Egypt and Scotland. Each area has its own unique treasure that is guarded by a boss. After all five main stages are cleared, Webby is kidnapped by Glomgold and held for ransom on the pirate ship in the Bermuda Triangle. Scrooge arrives and gives Glomgold the treasures, only to discover that this \"Glomgold\" is actually a shapeshifting robot called the D-1000 programmed to destroy him. After the D-1000 is defeated, Glomgold sinks the ship and tries to take Scrooge and the treasures with it.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170004,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 2751,
+    "name": "Galaga",
+    "first_release_date": "08/31/1981",
+    "total_rating": 72,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Arcade"
+    ],
+    "genresDisplay": "Shooter, Arcade",
+    "videos": [
+      "jFuU0QYlDcA"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27k6.jpg",
+    "description": "The objective of Galaga is to score as many points as possible by destroying insect-like enemies. The player controls a starfighter that can move left and right along the bottom of the playfield. Enemies swarm in groups in a formation near the top of the screen, and then begin flying down toward the player, firing bombs at the fighter. The game ends when the player's last fighter is lost, either by colliding with an enemy or one of its bullets, or by being captured. Galaga introduces a number of new features over its predecessor, Galaxian. Among these is the ability to fire more than one bullet at a time, a count of the player's \"hit/miss ratio\" at the end of the game, and a bonus \"Challenging Stage\" that occurs every few levels, in which a series of enemies fly onto and out of the screen in set patterns without firing at the player's ship or trying to crash into it. These stages award a large point bonus if the player manages to destroy every enemy. Another gameplay feature new to Galaga is the ability for enemies to capture the player's fighter. While the player is in control of just one fighter, a \"boss Galaga\" (which takes two shots to kill) periodically attempts to capture the fighter using a tractor beam. If successful, the fighter joins the enemy formation. If the player has more lives remaining, play resumes with a new fighter. The captured fighter flies down with the enemy that captured it, firing upon the player just like normal enemies, and can be shot and destroyed. The player can free the fighter by destroying the boss Galaga while in flight, causing the captured fighter to link up with the player's current fighter, doubling his or her firepower but also making a target twice as large. Galaga has an exploitable bug that can cause the attackers to stop firing bullets at the player, due to a coding error. In addition, similar to the famous \"Split-Screen bug\" in Pac-Man, a bug exists in Galaga in which the game \"rolls over\" from Level 255 to Level 0. Depending on the difficulty setting of the machine, this can cause the game to stall, requiring that the machine be reset or power-cycled in order to start a new game.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170005,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 48935,
+    "name": "Gun Nac",
+    "first_release_date": "10/04/1990",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/jbjwvtk7ic4q5nhpkcgd.jpg",
+    "description": "The most happening place in the universe is the trendy, upscale solar system of IOTA Synthetica, part of the Galactic Federation of artificial stars. It's as far from dirty old Earth as can be... But don't sign up to go yet! A strange cosmic energy field with a major attitude has engulfed the system, and the most outrageous things are happening. Ordinary inanimate objects are coming to life - harmless little animals are becoming rabid giants - and the freaked-out residents are under attack! The only Galactic Commander who can handle this ordeal is the eccentric renegade called Gun-Nac. He can oust this aura that's threatening the destruction of comfortable artificial life as we know it. But where in the universe is he? He could be as far away as Earth, searching for a new Game Pak. Commander Gun-Nac, if you read this, call H.Q., A.S.A.P., O.K.? We N.E.E.D. you!",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170006,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 6471,
+    "name": "Adventure Island II",
+    "first_release_date": "01/31/1991",
+    "total_rating": 63,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pe1.jpg",
+    "description": "Adventure Island II is a side-scrolling platform game developed by Now Production and published by Hudson Soft that was released for the Nintendo Entertainment System in 1991. It is the sequel to Adventure Island and the second game in the series for the NES. While the first game was an adaptation of Westone's Wonder Boy arcade game, Adventure Island II is an entirely original work, as were all the subsequent Adventure Island games.",
+    "story": "Princess Leilani may be safe, but her sister, the sweet and beautiful Tina, has just been kidnapped by the Evil Witch Doctor's persistent followers. Eight perilous islands are in control of the various monster minions, although four friendly dinosaurs will gladly ally themselves with those willing to brave the islands' dangers and defeat their common oppressors. Thinking of how grateful his favorite lady will be when he comes to her rescue, Master Higgins embarks on a daunting quest to get to his honey.",
+    "player_perspectives": [
+      "Third person",
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170007,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 8737,
+    "name": "Adventure Island III",
+    "first_release_date": "07/29/1992",
+    "total_rating": 61,
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "-oOkaTIJmgk"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3spw.jpg",
+    "description": "Adventure Island is a side-scrolling platform game published by Hudson Soft that was originally released for the Nintendo Entertainment System in 1992. It is the third game in the Adventure Island released for the NES, following Adventure Island II.",
+    "story": "Master Higgins' girlfriend Tina (erroneously called \"Jeannie Jungle\" in English materials) is kidnapped once again, this time by a mysterious flying saucer. With the help of his prehistoric pals, Higgins must once again travel through eight different islands and go after the aliens keeping Tina hostage.",
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170008,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 23895,
+    "name": "M.U.L.E.",
+    "first_release_date": "12/30/1983",
+    "genres": [
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical"
+    ],
+    "genresDisplay": "Simulator, Strategy, Turn-based strategy (TBS), Tactical",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ike.jpg",
+    "description": "M.U.L.E. is about four hopeful explorers trying to make a fortune on a virgin planet. This is done by producing various goods (Food, Energy, Smithore, Crystite). Each of these goods have their uses: if you don't have enough food, you will have less time during your turn. If you don't have enough energy, your output will be lower. If enough smithore isn't produced, there will be a shortage of M.U.L.E.s. Crystite is the big earner that can make or break your game.  You start the game by selecting your race. Some are easier to play, some harder. There are three levels of difficulty, in the easiest the game only lasts 6 turns, but the real game is 12 turns. Crystite is not available at the easiest level.  Each turn starts with land claim. Each player gets to choose a spot of land for themselves from the map. If two players choose the same spot, the player with less money wins. The map consists of different landscape. River is best for producing food, plains for energy, mountains for smithore. Crystite is hidden and must be first found by taking a land sample to the town.  After the land claim each player takes turns in cultivating their land and do other tasks. They can buy M.U.L.E.s to start production on their land, sabotage other players by buying M.U.L.E.s and letting them loose, try to catch the Wumpus for cash and try to find crystite veins. The time to do these things depends on if the player has enough food. Finally the player goes to the casino and wins a small amount of money, depending on how much time was left.",
+    "story": "IRATA. A New World rich with opportunity. For wealth. And power. And you can become the richest, most powerful inhabitant of the newly discovered planet by owning the most land, mining the most precious metal, and supplying the most food and energy to all the peasants - otherwise known as your opponents. To win you need MULEs (Multiple Use Labor Elements), kind of mechanical donkeys which do your dirty work: growing food, mining, and producing energy. MULEs are critical, so you want to get as many as possible as cheaply as possible. And by the way, treachery is acceptable. So use it when needed. Then sit back and enjoy your wealth and power, OH MIGHTY RULER!",
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170009,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES Four Score compatible title"
+    ],
+    "extraDataFull": {
+      "name": "M.U.L.E.",
+      "id": "nes239",
+      "details": [
+        "NES Four Score compatible title"
+      ],
+      "igdbId": 23895,
+      "gbId": 14520,
+      "gbGuid": "3030-14520",
+      "special": [
+        {
+          "value": "NES Four Score compatible title",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
+  },
+  {
+    "id": 48933,
+    "name": "Tag Team Match: MUSCLE",
+    "first_release_date": "11/07/1985",
+    "genres": [
+      "Fighting"
+    ],
+    "genresDisplay": "Fighting",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tmr.jpg",
+    "description": "Tag Team Match: M.U.S.C.L.E. is based on characters from Yudetamago's manga and anime series Kinnikuman.It has eight playable characters, each with his own special move. The game was followed by a 1987 Japan-only sequel for the Famicom Disk System titled Kinnikuman: Kinniku-sei Ōi Sōdatsusen.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170010,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES hang tab game",
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "name": "Tag Team Match: M.U.S.C.L.E.",
+      "id": "nes389",
+      "details": [
+        "NES hang tab game"
+      ],
+      "igdbId": 48933,
+      "gbId": 10158,
+      "gbGuid": "3030-10158",
+      "tgdbId": 1891,
+      "special": [
+        {
+          "value": "NES hang tab game",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
+  },
+  {
+    "id": 1716,
+    "name": "Mega Man 3",
+    "first_release_date": "09/07/1990",
+    "total_rating": 81,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": [
+      "72hdMAeEY6s"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3urm.jpg",
+    "description": "It's robot rebellion, and nobody's safe! Least of all, Mega Man! This time the superpowerful cyborg takes on a horde of metal maniacs who've had it with being obedient! And they use every android-annihilator ever invented to make you believe it! Mega Man goes berserk, blasting through a galaxy of mining stations in search of energy crystals. But it takes more than guts to battle the phenomenal robot masters who control these worlds. It's a wrenching job, the worst - and the best - that Mega Man's faced so far!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170011,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1717,
+    "name": "Mega Man 4",
+    "first_release_date": "12/05/1991",
+    "total_rating": 77,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3s84.jpg",
+    "description": "For a year the city has been quiet, but a new robotic terror has gripped the city! That scheming scientist, Dr. Cossack has arrived in town with eight new metal maniacs who are bigger and badder than anything Dr. Wily dreamed of. It's going to be a cybernetic showdown as the streets of the city erupt with the sizzling sounds of molten metal! Armed with the new Mega Buster, Mega Man runs, jumps and dodges his way through mazes of metallic munchkins on his way to the Siberian citadel of Dr. Cossack for the final cataclysmic clash!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170012,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1717,
+    "name": "Mega Man 4",
+    "first_release_date": "12/05/1991",
+    "total_rating": 77,
+    "esrb": "E",
+    "genres": [
+      "Shooter",
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Shooter, Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3s84.jpg",
+    "description": "For a year the city has been quiet, but a new robotic terror has gripped the city! That scheming scientist, Dr. Cossack has arrived in town with eight new metal maniacs who are bigger and badder than anything Dr. Wily dreamed of. It's going to be a cybernetic showdown as the streets of the city erupt with the sizzling sounds of molten metal! Armed with the new Mega Buster, Mega Man runs, jumps and dodges his way through mazes of metallic munchkins on his way to the Siberian citadel of Dr. Cossack for the final cataclysmic clash!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170013,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1718,
+    "name": "Mega Man 5",
+    "first_release_date": "12/03/1992",
+    "total_rating": 78,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3s85.jpg",
+    "description": "In the fifth chapter of the original Mega Man series, the battle is closer to home as Mega Man fights to save the world from further destruction. Gain the advantage by picking up items and successfully defeating bosses to gain their weapons as your own. Get ready for intense action-platforming in 13 stages before taking up battle against Protoman!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170014,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1718,
+    "name": "Mega Man 5",
+    "first_release_date": "12/03/1992",
+    "total_rating": 78,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure"
+    ],
+    "genresDisplay": "Platform, Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3s85.jpg",
+    "description": "In the fifth chapter of the original Mega Man series, the battle is closer to home as Mega Man fights to save the world from further destruction. Gain the advantage by picking up items and successfully defeating bosses to gain their weapons as your own. Get ready for intense action-platforming in 13 stages before taking up battle against Protoman!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170015,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1719,
+    "name": "Mega Man 6",
+    "first_release_date": "11/04/1993",
+    "total_rating": 81,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Adventure",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Adventure, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w0f.jpg",
+    "description": "From the United States, Canada and Japan they came. The world's premier designers and their finest robotic warriors traveled to do battle in the First Annual Robot Tournament. But what began as a game suddenly took a terrifying twist! On the eve of the Grand Championship, the sponsor of the event announced that the entire tournament was just an elaborate scheme to get his hands on the world's most powerful robots! Now faced with an army of metallic mercenaries, Mega Man must fight a ferocious new foe - The Mysterious Mr. X!",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170016,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 1980,
+    "name": "Q*bert",
+    "first_release_date": "10/17/1982",
+    "total_rating": 63,
+    "esrb": "E",
+    "genres": [
+      "Platform",
+      "Puzzle",
+      "Arcade"
+    ],
+    "genresDisplay": "Platform, Puzzle, Arcade",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pp4.jpg",
+    "description": "Q*bert was a popular arcade game that was released on a large number of consoles in the early 1980s. It was developed and published by Gottlieb, and became their most successful game. The concept serves as a precursor to the isometric platformer genre, where the title character must work to turn all cubes to a certain colour in a psuedo-3D world, made 3D through isometric graphics in the same way that the Penrose Stairs was made. The game was widely successful and has become a highly recognizable brand of the 1980s gaming era.",
+    "story": "Q*bert is primarily a puzzle game where the title character must alter the colour of each cube in a pyramid by jumping on it, while avoiding the various monsters that seek to get in his way. No significant story was developed for the game, partly due to the original inception as an arcade game.",
+    "player_perspectives": [
+      "Bird view / Isometric",
+      "Side view"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170017,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 9156,
+    "name": "R.C. Pro-Am II",
+    "first_release_date": "12/30/1992",
+    "genres": [
+      "Racing"
+    ],
+    "genresDisplay": "Racing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/f13w2x4ijbbkblbb6wsu.jpg",
+    "description": "Play with up to 4 racers simultaneouslyRace through 24 unique levels of competitionCollect track prizes to increase car's performanceTrade winnings in the R.C. model shop for better gearAvoid track obstacles and weapons for your opponentsIt was released in Rare's 2015 Rare Replay compilation for Xbox One.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170019,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES Four Score compatible title"
+    ],
+    "extraDataFull": {
+      "name": "R.C. Pro-Am II",
+      "id": "nes313",
+      "details": [
+        "NES Four Score compatible title"
+      ],
+      "igdbId": 9156,
+      "gbId": 1316,
+      "gbGuid": "3030-1316",
+      "special": [
+        {
+          "value": "NES Four Score compatible title",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
+  },
+  {
+    "id": 12853,
+    "name": "Smash T.V.",
+    "first_release_date": "12/30/1990",
+    "total_rating": 70,
+    "esrb": "T",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/d8gi6iepz0ukld5oxqwk.jpg",
+    "description": "Moving from one room to the next within the studio/arena, players have to shoot down hordes of enemies as they advance from all sides, while at the same time collecting weapons, power-up items, and assorted bonus prizes until a final show down with the show's host where you are finally granted your prizes, your life and freedom. One of the enemies is fat and is named Mr. Shrapnel who roams aside of the walls of some rooms and after a short period of time he explodes. In the NES version, he is replaced by a giant rolling bomb.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170020,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES Four Score compatible title"
+    ],
+    "extraDataFull": {
+      "name": "Smash T.V.",
+      "id": "nes347",
+      "details": [
+        "NES Four Score compatible title"
+      ],
+      "igdbId": 12853,
+      "gbId": 16194,
+      "gbGuid": "3030-16194",
+      "special": [
+        {
+          "value": "NES Four Score compatible title",
+          "forPlatform": {
+            "name": "Nintendo Entertainment System (NES)",
+            "id": "ccl1",
+            "igdbId": 18,
+            "gbId": 21,
+            "gbGuid": "3045-21",
+            "tgdbId": 7
+          }
+        }
+      ],
+      "isExclusive": false,
+      "isLaunchTitle": false
+    }
+  },
+  {
+    "id": 48177,
+    "name": "Town & Country Surf Designs II: Thrilla's Surfari",
+    "first_release_date": "03/31/1992",
+    "genres": [
+      "Sport",
+      "Surfing"
+    ],
+    "genresDisplay": "Sport, Surfing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tnw.jpg",
+    "description": "Whoa, Thrilla Gorilla! Bag your boards and lay back tall for the raddest, weirdest surf and skate action ever! Wazula, an evil Kahuna, has stolen your babe and taken her to Africa. No curbs and quarter-pipes here, just the ultimate skate challenge of gnarly jungles and bakin' deserts! It's hardcore surfin' down killer volcanoes and mammoth waterfalls... ever catch a wave riding a shark? Wazula's got some smooth moves of his own, like a two-headed flying Rhino, a saw-toothed Great White, and a way-tough Lava Monster big as a volcano. So get rippin' through the scorpions, slashin' through the rapids, and trash that Wazula doofus! But don't choke, Thrilla... or your babe's toast.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo Entertainment System (NES)",
+    "consoleId": 18,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 170021,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "NES exclusive game"
+    ],
+    "extraDataFull": {
+      "id": "nes441",
+      "name": "Town & Country Surf Designs II: Thrilla's Surfari",
+      "details": [
+        "NES exclusive game"
+      ],
+      "igdbId": 48177,
+      "gbId": 30823,
+      "gbGuid": "3030-30823",
+      "tgdbId": 1904,
+      "isExclusive": [
+        {
+          "name": "Nintendo Entertainment System (NES)",
+          "id": "ccl1",
+          "igdbId": 18,
+          "gbId": 21,
+          "gbGuid": "3045-21",
+          "tgdbId": 7
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  }
+]

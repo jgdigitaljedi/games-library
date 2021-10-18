@@ -1,42 +1,22 @@
 [
   {
-    "gameNoParens": "Pac-Attack",
+    "gameNoParens": "Krusty's Fun House",
     "error": {}
   },
   {
-    "gameNoParens": "Paperboy 2",
+    "gameNoParens": "Ivan \"Ironman\" Stewart's Super Off Road",
     "error": {}
   },
   {
-    "gameNoParens": "Simpsons, The - Krusty's Fun House",
+    "gameNoParens": "Super Smash T.V.",
     "error": {}
   },
   {
-    "gameNoParens": "Sonic & Tails",
+    "gameNoParens": "TaleSpin",
     "error": {}
   },
   {
-    "gameNoParens": "Sonic & Tails 2",
-    "error": {}
-  },
-  {
-    "gameNoParens": "Streets of Rage II",
-    "error": {}
-  },
-  {
-    "gameNoParens": "Super Off-Road",
-    "error": {}
-  },
-  {
-    "gameNoParens": "Super Smash T V",
-    "error": {}
-  },
-  {
-    "gameNoParens": "Tale Spin",
-    "error": {}
-  },
-  {
-    "gameNoParens": "Taz-Mania - The Search for the Lost Seabirds",
+    "gameNoParens": "Taz-Mania",
     "error": {}
   }
 ]

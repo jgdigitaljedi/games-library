@@ -1,0 +1,202 @@
+[
+  {
+    "id": 6687,
+    "name": "Fantasy Zone II",
+    "first_release_date": "02/28/1987",
+    "esrb": "E",
+    "genres": [
+      "Fighting",
+      "Shooter"
+    ],
+    "genresDisplay": "Fighting, Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/qudpfdzjder78mmuqlil.jpg",
+    "description": "Fantasy Zone II: The Tears of Opa-Opa is the sequel to Fantasy Zone, in which you control Opa-Opa, a pretty colored ship with wings on its side. You must destroy the large creatures in each world before moving on to the next. Your task becomes difficult by other small creatures that happen to pass by. If you destroy a large creature, they will drop a dollar bill, which you can pick up and use at the shop to buy items and powerful weapons such as laser beams, x-way shots, and big wings. Another way to get money is to shoot certain kinds of enemies all in a row.More often than not, some large creatures will reveal a warp gate rather than a dollar bill. You can go through the warp gate to get to another part of the land, and destroy more large creatures. Only one of them will have a warp gate in the form of a 'stop' sign - that is your ticket to the round boss, but you must defeat all large creatures in order to pass through it. Also like in the original can you walk on the ground to avoid approaching enemies, and spend money in the shop to get new weapons (but they only last for a limited time).",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 180001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 46336,
+    "name": "R.C. Grand Prix",
+    "first_release_date": "12/30/1989",
+    "genres": [
+      "Racing"
+    ],
+    "genresDisplay": "Racing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2bfw.jpg",
+    "description": "R.C. Grand Prix is a Driving game, developed by Imagineering Inc and published by Absolute Entertainment, which was released in 1992.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 180002,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Sega Master System exclusive"
+    ],
+    "extraDataFull": {
+      "name": "R.C. Grand Prix",
+      "details": [
+        "Sega Master System exclusive"
+      ],
+      "id": "sms38",
+      "igdbId": 46336,
+      "gbId": 6208,
+      "gbGuid": "3030-6208",
+      "tgdbId": 2985,
+      "isExclusive": [
+        {
+          "name": "Sega Master System",
+          "id": "ccl13",
+          "igdbId": 64,
+          "gbId": 8,
+          "gbGuid": "3045-8",
+          "tgdbId": 35
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 12853,
+    "name": "Smash T.V.",
+    "first_release_date": "12/30/1990",
+    "total_rating": 70,
+    "esrb": "T",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/d8gi6iepz0ukld5oxqwk.jpg",
+    "description": "Moving from one room to the next within the studio/arena, players have to shoot down hordes of enemies as they advance from all sides, while at the same time collecting weapons, power-up items, and assorted bonus prizes until a final show down with the show's host where you are finally granted your prizes, your life and freedom. One of the enemies is fat and is named Mr. Shrapnel who roams aside of the walls of some rooms and after a short period of time he explodes. In the NES version, he is replaced by a giant rolling bomb.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 0,
+      "offlinecoopmax": 2,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Sega Master System",
+    "consoleId": 64,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-10-18",
+    "howAcquired": "piracy",
+    "notes": "playable via GBA EverDrive",
+    "createdAt": "10/18/2021",
+    "updatedAt": "10/18/2021",
+    "_id": 180004,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": true,
+    "location": "both",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Game Boy Advance",
+        "consoleId": 24
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  }
+]

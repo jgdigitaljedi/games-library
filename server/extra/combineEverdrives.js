@@ -5,7 +5,6 @@ console.log('HERE');
 const flatten = require('lodash/flatten');
 
 const edMasterList = require('./everDrives/everdriveLoadersMasterList.json');
-console.log(edMasterList);
 
 const fileReads = edMasterList.map(list => {
   try {

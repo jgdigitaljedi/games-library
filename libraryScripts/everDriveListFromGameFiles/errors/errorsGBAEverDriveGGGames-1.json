@@ -1,0 +1,34 @@
+[
+  {
+    "gameNoParens": "Ivan \"Ironman\" Stewart's Super Off Road",
+    "error": {
+      "message": "Request failed with status code 400",
+      "name": "Error",
+      "stack": "Error: Request failed with status code 400\n    at createError (/home/digitaljedi/code/PERSONAL/games-library/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/home/digitaljedi/code/PERSONAL/games-library/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/home/digitaljedi/code/PERSONAL/games-library/node_modules/axios/lib/adapters/http.js:260:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)",
+      "config": {
+        "url": "https://api.igdb.com/v4/games",
+        "method": "post",
+        "data": "fields age_ratings.rating,total_rating,total_rating_count,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary,genres.name,name;\nwhere release_dates.platform = 35;\nsearch \"Ivan \"Ironman\" Stewart's Super Off Road\";\nlimit 1;",
+        "headers": {
+          "Accept": "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Client-ID": "ggf6b7pez37ziv3gd5zl047vyy1xr0",
+          "Authorization": "Bearer ico4qv3g0wg86tzsz3qkcnxov30fqq",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 384
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      }
+    }
+  }
+]

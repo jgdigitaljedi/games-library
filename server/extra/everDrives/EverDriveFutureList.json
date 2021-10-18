@@ -1,0 +1,58 @@
+[
+  {
+    "file": "ps2OPLgames.json",
+    "platformId": 8,
+    "platformName": "PS2",
+    "location": "upstairs",
+    "notes": "played via OPL Loader from 1TB HD installed in PS2",
+    "title": "OPL Loader PlayStation 2 Games"
+  },
+  {
+    "file": "wiiHackedHdGames.json",
+    "platformId": 5,
+    "platformName": "Wii",
+    "location": "upstairs",
+    "notes": "played via Homebrew on Wii from USB hard drive",
+    "title": "Homebrew Loader Wii Games"
+  },
+  {
+    "file": "nintendo3dsHacked3DSGames.json",
+    "platformId": 37,
+    "platformName": "Nintendo 3DS",
+    "location": "upstairs",
+    "notes": "played via Homebrew on hacked Nintendo 3DS",
+    "title": "Nintendo 3DS Hacked Games (3DS)"
+  },
+  {
+    "file": "nintendo3dsHackedDSGames.json",
+    "platformId": 20,
+    "platformName": "Nintendo DS",
+    "location": "upstairs",
+    "notes": "played via Homebrew on hacked Nintendo 3DS",
+    "title": "Nintendo 3DS Hacked Games (DS)"
+  },
+  {
+    "file": "nintendo3dsHackedGBAGames.json",
+    "platformId": 24,
+    "platformName": "Game Boy Advance",
+    "location": "upstairs",
+    "notes": "played via Homebrew on hacked Nintendo 3DS",
+    "title": "Nintendo 3DS Hacked Games (GBA)"
+  },
+  {
+    "file": "nintendo3dsHackedGBCGames.json",
+    "platformId": 22,
+    "platformName": "Game Boy Color",
+    "location": "upstairs",
+    "notes": "played via Homebrew on hacked Nintendo 3DS",
+    "title": "Nintendo 3DS Hacked Games (GBC)"
+  },
+  {
+    "file": "nintendo3dsHackedGBGames.json",
+    "platformId": 33,
+    "platformName": "Game Boy",
+    "location": "upstairs",
+    "notes": "played via Homebrew on hacked Nintendo 3DS",
+    "title": "Nintendo 3DS Hacked Games (GB)"
+  }
+]

@@ -94,6 +94,15 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
     }
   };
 
+  const everdriveConsole = () => {
+    return (
+      <div className='game-dialog--everdrive-platform'>
+        <h4 className='game-dialog--everdrive-platform__label'>Original Platform</h4>
+        <div>{game.consoleName}</div>
+      </div>
+    );
+  };
+
   const formatCaseType = (type: string) => {
     return gameCaseSubTypes.find(gct => gct.value === type)?.label;
   };
@@ -183,7 +192,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                   </tbody>
                 </table>
               </div>
-              {consolesOwnedFor && consolesOwnedFor.length && (
+              {consolesOwnedFor && consolesOwnedFor.length > 0 && (
                 <table className='owned-for'>
                   <thead>
                     <tr>
@@ -217,6 +226,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                   </tbody>
                 </table>
               )}
+              {game.physicalDigital.indexOf('EverDrive') >= 0 && everdriveConsole()}
               {game.notes && game.notes.length && (
                 <div className='game-notes'>
                   <div className='game-notes--head'>Notes</div>

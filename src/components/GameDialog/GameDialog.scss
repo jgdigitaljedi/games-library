@@ -76,6 +76,16 @@
             }
           }
         }
+        .game-dialog--everdrive-platform {
+          display: flex;
+          align-items: center;
+          &__label {
+            color: $light-blue;
+            margin-right: 1rem;
+            margin-left: 0;
+            padding-left: 0;
+          }
+        }
         .game-notes {
           display: flex;
           width: 100%;

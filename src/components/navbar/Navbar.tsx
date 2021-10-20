@@ -7,12 +7,12 @@ import { Dialog } from 'primereact/dialog';
 import LoginDialog from '../LoginDialog/LoginDialog';
 import { ILoginResult } from '@/models/crud.model';
 import { NotificationContext } from '@/context/NotificationContext';
-import {Dispatch} from 'redux';
-import {connect, useSelector} from 'react-redux';
+import { Dispatch } from 'redux';
+import { connect, useSelector } from 'react-redux';
 import changeUserState from '../../actionCreators/userState';
 
 interface MapStateProps {
-  userState: boolean
+  userState: boolean;
 }
 
 interface MapDispatchProps {
@@ -82,7 +82,7 @@ const Navbar: FunctionComponent<IProps> = (props: IProps) => {
         setActive(path);
       }
     });
-  }, [setAuthKey, props.setUserState]);
+  }, [setAuthKey, props]);
 
   const [active, setActive] = useState<string>('');
   let menuEle: any;
@@ -158,76 +158,71 @@ const Navbar: FunctionComponent<IProps> = (props: IProps) => {
     routeOnLoad();
   }
   return (
-    <header className="navbar">
-      <div className="main-nav">
+    <header className='navbar'>
+      <div className='main-nav'>
         <Link
-          to="/gameslib"
+          to='/gameslib'
           className={active === 'home' ? 'active' : ''}
           onClick={() => setActive('home')}
         >
           Home
         </Link>
         <Link
-          to="/gameslib/library"
+          to='/gameslib/library'
           className={active === 'library' ? 'active' : ''}
           onClick={() => setActive('library')}
         >
           Library
         </Link>
         <Link
-          to="/gameslib/decider"
+          to='/gameslib/decider'
           className={active === 'decider' ? 'active' : ''}
           onClick={() => setActive('decider')}
         >
           Decider
         </Link>
         <Link
-          to="/gameslib/lists"
+          to='/gameslib/lists'
           className={active === 'lists' ? 'active' : ''}
           onClick={() => setActive('lists')}
         >
           Lists
         </Link>
         <Link
-          to="/gameslib/viz"
+          to='/gameslib/viz'
           className={active === 'viz' ? 'active' : ''}
           onClick={() => setActive('viz')}
         >
           Viz
         </Link>
         <Link
-          to="/gameslib/gallery"
+          to='/gameslib/gallery'
           className={active === 'gallery' ? 'active' : ''}
           onClick={() => setActive('gallery')}
         >
           Gallery
         </Link>
       </div>
-      <div className="auth-nav">
+      <div className='auth-nav'>
         <Button
           icon={authKey ? 'pi pi-lock' : 'pi pi-lock-open'}
-          className="p-button-text"
+          className='p-button-text'
           onClick={loginInOut}
         />
       </div>
-      <div className="mobile-nav">
+      <div className='mobile-nav'>
         <i
-          className="pi pi-bars"
-          onClick={(e) => {
+          className='pi pi-bars'
+          onClick={e => {
             // @ts-ignore
             menuEle.toggle(e);
           }}
         />
-        <Menu
-          className="mobile-nav--menu"
-          popup={true}
-          model={items}
-          ref={(el) => (menuEle = el)}
-        />
+        <Menu className='mobile-nav--menu' popup={true} model={items} ref={el => (menuEle = el)} />
       </div>
       <Dialog
         visible={showModal}
-        header="Login, but only if you are Joey!"
+        header='Login, but only if you are Joey!'
         modal={true}
         closeOnEscape={true}
         onHide={() => {
@@ -240,16 +235,14 @@ const Navbar: FunctionComponent<IProps> = (props: IProps) => {
   );
 };
 
-const mapStateToProps = ({userState}: {
-  userState: boolean;
-}): MapStateProps => {
+const mapStateToProps = ({ userState }: { userState: boolean }): MapStateProps => {
   return {
     userState
   };
 };
 
 const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
-  setUserState: (state: boolean) => dispatch(changeUserState(state)),
+  setUserState: (state: boolean) => dispatch(changeUserState(state))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Navbar);

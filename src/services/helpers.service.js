@@ -301,7 +301,7 @@ export const gameMediaType = [
   {
     label: 'Cartridge',
     value: 'cart',
-    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19]
+    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19, 87]
   },
   { label: 'Disc', value: 'disc', consoleIds: [50, 21, 7, 8, 9, 48, 78, 32, 5, 41, 11, 12, 49] },
   { label: 'Card', value: 'card', consoleIds: [130, 64, 86] },
@@ -310,7 +310,7 @@ export const gameMediaType = [
   {
     label: 'Flashcart',
     value: 'flashcart',
-    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19, 86]
+    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19, 86, 87]
   },
   { label: 'ODE', value: 'ode', consoleIds: [21, 7, 8, 78, 32] }
 ];

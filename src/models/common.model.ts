@@ -112,4 +112,5 @@ export interface IStats {
   totalPlatforms: number;
   totalAccessories: number;
   totalClones: number;
+  everDriveCounts: number;
 }

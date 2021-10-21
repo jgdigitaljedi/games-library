@@ -5,6 +5,7 @@ const _cloneDeep = require('lodash/cloneDeep');
 
 const games = require('../../../../db/games.json');
 const platforms = require('../../../../db/consoles.json');
+const everDrives = require('../../../../extra/everDrive.json');
 const accessories = require('../../../../db/gameAcc.json');
 const collectibles = require('../../../../db/collectibles.json');
 const clones = require('../../../../db/clones.json');
@@ -17,6 +18,7 @@ let genres = {},
     physical: 0,
     digital: 0
   },
+  everDriveCounts = 0,
   cibGames = 0,
   platformCompanies = {},
   howAcquiredGames = {},
@@ -40,6 +42,7 @@ function resetAll() {
   genres = {};
   conGames = {};
   conGamesCounts = {};
+  everDriveCounts = 0;
   esrbCounts = {};
   gameMedia = {
     physical: 0,
@@ -268,6 +271,7 @@ module.exports.getStats = () => {
   const highestPricePaidGames = getMostExpensive(games, 5);
   const highestPricePaidPlatforms = getMostExpensive(platforms, 5);
   const gamesByDecade = getMostPopularGameDecade();
+  const everDriveCounts = everDrives.length;
 
   games.forEach(game => {
     handleGenres(game);
@@ -341,7 +345,8 @@ module.exports.getStats = () => {
     totalAccessories: accessoriesCount,
     totalCollectibles: collectiblesCount,
     totalClones: clonesCount,
-    gamesByDecade
+    gamesByDecade,
+    everDriveCounts
   };
   resetAll();
   return finalData;

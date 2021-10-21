@@ -78,6 +78,11 @@ module.exports.everDrives = function (req, res) {
   }
 };
 
+module.exports.everdrivesTotal = function (req, res) {
+  const games = everDrives;
+  res.status(200).json({ count: games.length });
+};
+
 module.exports.collectionStats = function (req, res) {
   try {
     res.json(homePageStats.getStats());

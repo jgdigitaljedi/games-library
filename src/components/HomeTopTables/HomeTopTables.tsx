@@ -22,6 +22,7 @@ interface IProps {
   physicalVsDigitalGames: INumIndex;
   platformCompanies: INumIndex;
   gamesAddedPerYear: IDateRelated[];
+  everDriveCounts: number;
 }
 
 interface IStringIndex {
@@ -38,7 +39,8 @@ const HomeTopTables: FunctionComponent<IProps> = ({
   gamesByDecade,
   consolesByGenerationSorted,
   platformCompanies,
-  gamesAddedPerYear
+  gamesAddedPerYear,
+  everDriveCounts
 }) => {
   return (
     <div className='home--row totals-tables'>
@@ -67,6 +69,10 @@ const HomeTopTables: FunctionComponent<IProps> = ({
             <tr>
               <td>Digital Games</td>
               <td>{physicalVsDigitalGames.digital}</td>
+            </tr>
+            <tr>
+              <td>EverDrive/Loader Games</td>
+              <td>{everDriveCounts}</td>
             </tr>
             <tr>
               <td>Platforms</td>

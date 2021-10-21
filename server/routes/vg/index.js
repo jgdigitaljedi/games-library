@@ -55,6 +55,7 @@ router.get('/games/physicaltotal', vgDbCtrl.getPhysicalGamesTotal);
 
 // get everDrive data
 router.get('/everdrives', vgDbCtrl.everDrives);
+router.get('/everdrivescount', vgDbCtrl.everdrivesTotal);
 
 // get stats data
 router.get('/stats', vgDbCtrl.collectionStats);

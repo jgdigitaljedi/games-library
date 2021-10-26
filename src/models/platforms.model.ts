@@ -1,4 +1,5 @@
 import { IGbGame } from './games.model';
+import { IPriceChartingData } from './pricecharting.model';
 
 export interface IConsoleArr {
   consoleName: string;
@@ -145,5 +146,6 @@ export interface IConsole {
   resolutions?: string;
   storage?: string;
   lastUpdated: string;
+  priceCharting?: IPriceChartingData;
   _id?: string;
 }

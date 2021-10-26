@@ -1,4 +1,5 @@
 import { IConsoleArr } from './platforms.model';
+import { IPriceChartingData } from './pricecharting.model';
 
 export interface IMultiplayerModes {
   offlinemax: number;
@@ -55,6 +56,7 @@ export interface IGame {
     vrOnly: boolean;
     vrCompatible: boolean;
   };
+  priceCharting?: IPriceChartingData;
 }
 
 export interface IGameDisplay extends IGame {

@@ -23,6 +23,10 @@ import { connect, useSelector } from 'react-redux';
 import changeUserState from '../../../actionCreators/userState';
 import GameFormGameService from './GameFormGameService';
 import moment from 'moment';
+import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
+import { formatFormResult } from '@/services/pricecharting.service';
+import { IPriceChartingData } from '@/models/pricecharting.model';
+import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
 
 interface IProps extends MapDispatchProps, MapStateProps {
   game: IGame;
@@ -207,6 +211,14 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
           gCopy.vr = { vrOnly: false, vrCompatible: false };
       }
       setGameForm(gCopy);
+    }
+  };
+
+  const setPricechartingData = (data: IPriceChartingData) => {
+    if (gameForm) {
+      const updatedGame = { ...gameForm, priceCharting: data };
+      console.log('updatedGame', updatedGame);
+      setGameForm(updatedGame);
     }
   };
 
@@ -580,6 +592,18 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
               onFocus={() => closeConfirmation()}
             />
           </div>
+          {gameForm?.physical && (
+            <div className='crud-form--form__row'>
+              <label htmlFor='pc-input'>Price Charting</label>
+              <PcPriceComponent
+                data-id='pc-input'
+                item={formatFormResult(gameForm as IGame, 'GAME')}
+                onSelectionMade={setPricechartingData}
+              />
+            </div>
+          )}
+          {/** eslint-disable-next-line */}
+          {gameForm?.priceCharting && <PcPriceDetailsComponent pcData={gameForm.priceCharting} />}
           {gameForm && (
             <GameFormGameService addMode={addMode} userChange={userChange} game={gameForm} />
           )}

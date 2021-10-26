@@ -12,6 +12,7 @@ const utilsCtrl = require('./vgUtil.controller');
 const gallery = require('./gallery.controller.js');
 const auth = require('./auth.controller');
 const itemsCtrl = require('./itemsCtrl.controller');
+const pcCtrl = require('./pricecharting.controller');
 
 // insecure auth
 router.post('/auth', auth.login);
@@ -38,6 +39,10 @@ router.get('/items', itemsCtrl.getItems);
 
 // eBay price search
 router.post('/ebay', ebayCtrl.getEbayPrices);
+
+// pricecharting api calls
+router.post('/pcnamesearch', pcCtrl.searchByName);
+router.post('/pcgetprice', pcCtrl.searchById);
 
 // Update install_base values from GB on most recent generations of consoles
 router.post('/updateconsole/:id', updateCtrl.updateConsoles);

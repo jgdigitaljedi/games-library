@@ -81,13 +81,13 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       if (!acc.value) {
         acc.value = 0;
       }
-      if (obj?.priceCharting?.price) {
+      if (obj?.priceCharting?.price && obj.physical) {
         acc.value += obj.priceCharting.price;
       }
       if (!acc.spent) {
         acc.spent = 0;
       }
-      if (obj?.pricePaid) {
+      if (obj?.pricePaid && obj?.physical) {
         acc.spent += parseFloat(obj.pricePaid);
       }
       return acc;

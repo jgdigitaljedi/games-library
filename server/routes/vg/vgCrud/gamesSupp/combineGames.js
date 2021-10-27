@@ -48,7 +48,8 @@ module.exports.combine = function () {
                 notes: game.notes,
                 manual: game.manual,
                 handheld: game.handheld,
-                location: game.location
+                location: game.location,
+                priceCharting: game.priceCharting
               });
               if (
                 !acc[ind]?.consoleArr[accCurrentConsoleId]?.isBc &&
@@ -85,7 +86,8 @@ module.exports.combine = function () {
                 notes: game.notes,
                 manual: game.manual,
                 handheld: game.handheld,
-                location: game.location
+                location: game.location,
+                priceCharting: game.priceCharting
               }
             ];
             const bcConsoles = game.consoleId ? bc.bc(game.consoleId) : [];

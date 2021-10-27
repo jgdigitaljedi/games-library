@@ -17,6 +17,7 @@ import { Button } from 'primereact/button';
 import VideoGallery from '../VideoGallery/VideoGallery';
 import { uniq as _uniq } from 'lodash';
 import { uniqBy as _uniqBy } from 'lodash';
+import { IPriceChartingData } from '@/models/pricecharting.model';
 // import { getEbayPrices } from '../../services/globalData.service';
 
 interface IRatings {
@@ -34,6 +35,7 @@ interface IConsolesOwned {
   howAcquired?: string;
   pricePaid?: number;
   condition?: string;
+  priceCharting?: IPriceChartingData;
 }
 
 const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game: IGame }) => {
@@ -198,8 +200,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                     <tr>
                       <th>Platform</th>
                       <th>Price Paid</th>
-                      <th>Date Purchased</th>
-                      <th>How Acquired</th>
+                      <th>PC Price</th>
+                      <th>PC Date</th>
                       <th>Physical</th>
                       <th>Condition</th>
                       <th>Case</th>
@@ -211,8 +213,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                       <tr key={`con-row-${index}`}>
                         <td>{con.consoleName}</td>
                         <td>${con.pricePaid}</td>
-                        <td>{con.datePurchased}</td>
-                        <td>{con.howAcquired}</td>
+                        <td>{con.priceCharting?.price || '??'}</td>
+                        <td>{con.priceCharting?.lastUpdated || '??'}</td>
                         <td>{con.physical ? 'Physical' : 'Digital'}</td>
                         <td>{con.condition}</td>
                         <td>{`${con.case}${

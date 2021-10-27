@@ -23,6 +23,8 @@ import { gamesCount, getPlatformArr, physicalGamesCount } from './services/globa
 import DeciderCards from './components/DeciderCards/DeciderCards';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { NotificationContext } from './context/NotificationContext';
+import { IGame } from './models/games.model';
+import { CurrencyUtils } from 'stringman-utils';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -33,6 +35,11 @@ interface MapDispatchProps {
 }
 
 interface IProps extends RouteComponentProps, MapDispatchProps, MapStateProps {}
+
+interface PriceReducer {
+  value: number;
+  spent: number;
+}
 
 const Decider: FunctionComponent<IProps> = (props: IProps) => {
   // eslint-disable-next-line
@@ -45,6 +52,9 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
   const platformsArr: IDropdown[] = useSelector((state: any) => state.platformsArr);
   const [totalGames, setTotalGames] = useState(0);
   const [totalPhysicalGames, setTotalPhysicalGames] = useState(0);
+  const [priceData, setPriceData] = useState<PriceReducer | null>(null);
+
+  const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
   const getEverdrives = useCallback(async () => {
     const result = await axios.get(`${window.urlPrefix}/api/vg/everdrives`);
@@ -59,14 +69,31 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     }
   }, [setNotify]);
 
-  console.log('dc', dc);
-
   const sortData = useCallback(
     dat => {
       setData(sortsService.sortData([...dat], sc.prop, sc.dir));
     },
     [sc.dir, sc.prop]
   );
+
+  const getPriceTotals = useCallback(data => {
+    const prices = data.reduce((acc: PriceReducer, obj: IGame) => {
+      if (!acc.value) {
+        acc.value = 0;
+      }
+      if (obj?.priceCharting?.price) {
+        acc.value += obj.priceCharting.price;
+      }
+      if (!acc.spent) {
+        acc.spent = 0;
+      }
+      if (obj?.pricePaid) {
+        acc.spent += parseFloat(obj.pricePaid);
+      }
+      return acc;
+    }, {});
+    setPriceData(prices);
+  }, []);
 
   const getData = useCallback(
     async (ed?: boolean) => {
@@ -77,6 +104,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
         setData(result.data);
         setMasterData(result.data);
         sortData(result.data);
+        getPriceTotals(result.data);
       } else {
         setNotify({
           severity: 'error',
@@ -85,7 +113,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
         });
       }
     },
-    [setData, setMasterData, sortData, setNotify]
+    [setData, setMasterData, sortData, setNotify, getPriceTotals]
   );
 
   const checkForReset = useCallback(form => {
@@ -140,6 +168,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
     }
     setData(newData);
     sortData(newData);
+    getPriceTotals(newData);
     //eslint-disable-next-line
   }, [dc, masterData, checkForReset, everDrives, sortData]);
 
@@ -221,6 +250,13 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
           {dc.physical && `${totalPhysicalGames} total/`}
           {data.length} unique games
         </h3>
+        <h4>
+          {priceData
+            ? `${currencyUtils.formatCurrencyDisplay(
+                priceData.value
+              )} value / ${currencyUtils.formatCurrencyDisplay(priceData.spent)} spent`
+            : ''}
+        </h4>
       </div>
       <div className='decider--results'>
         <DeciderCards data={data} />

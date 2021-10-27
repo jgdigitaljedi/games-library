@@ -159,7 +159,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         await getData();
       }
       closeConfirmation();
-      hookedGetData();
+      if (action) hookedGetData();
       if (name && success) {
         setNotify({
           severity: 'success',

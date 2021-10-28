@@ -1,6 +1,7 @@
 const logger = require('../../config/logger');
 const axios = require('axios');
 const { SERVER_ERROR, BAD_REQUEST } = require('../../extra/utils/HttpStatusConstants');
+const chalk = require('chalk');
 
 const createSearchGameName = game => {
   return game
@@ -27,15 +28,19 @@ module.exports.searchByName = (req, res) => {
     axios
       .get(url)
       .then(result => {
-        const formatted = result?.data.products.map(item => {
-          return {
-            ...item,
-            productConsoleCombined: `${item['product-name']}${
-              item['console-name'] ? ' | ' + item['console-name'] : ''
-            }`
-          };
-        });
-        res.json(formatted);
+        if (req.body.isPlatform) {
+          res.json(result?.data?.products);
+        } else {
+          const formatted = result?.data.products.map(item => {
+            return {
+              ...item,
+              productConsoleCombined: `${item['product-name']}${
+                item['console-name'] ? ' | ' + item['console-name'] : ''
+              }`
+            };
+          });
+          res.json(formatted);
+        }
       })
       .catch(error => {
         logger.logThis(req, error);
@@ -50,6 +55,7 @@ module.exports.searchByName = (req, res) => {
 module.exports.searchById = (req, res) => {
   if (req?.body?.id) {
     const url = constructReqUrl('ID_SEARCH', req.body.id);
+    console.log(chalk.red.bold('url', url));
     axios
       .get(url)
       .then(result => {
@@ -57,6 +63,7 @@ module.exports.searchById = (req, res) => {
       })
       .catch(error => {
         logger.logThis(req, error);
+        console.log('error', error);
         res.status(SERVER_ERROR).json({ error: true, message: error });
       });
   } else {

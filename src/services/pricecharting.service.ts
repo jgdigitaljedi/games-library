@@ -40,14 +40,17 @@ export const pricechartingNameSearch = async (
 };
 
 export const getPriceById = async (
-  id: number
+  id: number | string
 ): Promise<AxiosResponse<PricechartingGameSearchResponse> | any> => {
   const hasKey = !!getRequestKey();
-
   if (hasKey && id) {
     const params = makeRequest(idPriceSearchEndpoint);
-    const result = await Axios.post(params.url, { id }, params.headers);
-    return result;
+    try {
+      const result = await Axios.post(params.url, { id: id.toString() }, params.headers);
+      return result;
+    } catch (error) {
+      return error;
+    }
   }
   return Promise.resolve({
     error: true,
@@ -83,6 +86,19 @@ function getPriceForBoxCase(data: PricechartingGameSearchResponse, boxCase: IPCC
   }
   return data['loose-price'] || 0;
 }
+
+export const formatUpdateData = (
+  result: PricechartingGameSearchResponse,
+  previous: IPriceChartingData
+): IPriceChartingData => {
+  const newPrice = getPriceForBoxCase(result, previous.case);
+  const lastUpdated = moment().format('MM/DD/YYYY');
+  return {
+    ...previous,
+    lastUpdated,
+    price: currencyUtils.minorToMajorUnits(newPrice, false) as number
+  };
+};
 
 export const formatPcResult = (
   data: PricechartingGameSearchResponse,

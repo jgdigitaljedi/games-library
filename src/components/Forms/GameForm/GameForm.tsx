@@ -1,4 +1,11 @@
-import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
+import React, {
+  FunctionComponent,
+  useState,
+  useEffect,
+  useCallback,
+  useContext,
+  MouseEventHandler
+} from 'react';
 import { IGame } from '@/models/games.model';
 import { InputText } from 'primereact/inputtext';
 import { InputSwitch } from 'primereact/inputswitch';
@@ -24,7 +31,7 @@ import changeUserState from '../../../actionCreators/userState';
 import GameFormGameService from './GameFormGameService';
 import moment from 'moment';
 import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
-import { formatFormResult } from '@/services/pricecharting.service';
+import { formatFormResult, formatUpdateData, getPriceById } from '@/services/pricecharting.service';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
 
@@ -217,8 +224,17 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   const setPricechartingData = (data: IPriceChartingData) => {
     if (gameForm) {
       const updatedGame = { ...gameForm, priceCharting: data };
-      console.log('updatedGame', updatedGame);
       setGameForm(updatedGame);
+    }
+  };
+
+  const updatePcData = async (e: MouseEventHandler<HTMLButtonElement>) => {
+    // @ts-ignore
+    e.preventDefault();
+    if (gameForm?.priceCharting?.id) {
+      const newData = await getPriceById(gameForm?.priceCharting?.id);
+      const formatted = formatUpdateData(newData.data, gameForm.priceCharting);
+      setGameForm({ ...gameForm, priceCharting: formatted });
     }
   };
 
@@ -592,6 +608,21 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
               onFocus={() => closeConfirmation()}
             />
           </div>
+          <div className='divider'>
+            <hr />
+            <h3>PriceCharting Data</h3>
+          </div>
+          {gameForm?.priceCharting && (
+            <div className='crud-form--form__row'>
+              <Button
+                // @ts-ignore
+                onClick={updatePcData}
+                label='Update PriceCharting Data'
+                disabled={!gameForm?.priceCharting?.id}
+                className='p-button-primary'
+              />
+            </div>
+          )}
           {gameForm?.physical && (
             <div className='crud-form--form__row'>
               <label htmlFor='pc-input'>Price Charting</label>

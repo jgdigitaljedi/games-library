@@ -1,4 +1,11 @@
-import React, { FunctionComponent, useState, useEffect, useCallback, useContext } from 'react';
+import React, {
+  FunctionComponent,
+  useState,
+  useEffect,
+  useCallback,
+  useContext,
+  MouseEventHandler
+} from 'react';
 import { IConsole } from '@/models/platforms.model';
 import { InputText } from 'primereact/inputtext';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
@@ -18,6 +25,10 @@ import {
   igdbPlatformVersions,
   savePlatform
 } from '@/services/platformsCrud.service';
+import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
+import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
+import { formatFormResult, formatUpdateData, getPriceById } from '@/services/pricecharting.service';
+import { IPriceChartingData } from '@/models/pricecharting.model';
 
 interface IProps {
   platform: IConsole;
@@ -94,6 +105,23 @@ const PlatformForm: FunctionComponent<IProps> = ({
       }
     }
   }, [closeConfirmation, platformForm, setNotify]);
+
+  const setPricechartingData = (data: IPriceChartingData) => {
+    if (platformForm) {
+      const updatedGame = { ...platformForm, priceCharting: data };
+      setPlatformForm(updatedGame);
+    }
+  };
+
+  const updatePcData = async (e: MouseEventHandler<HTMLButtonElement>) => {
+    // @ts-ignore
+    e.preventDefault();
+    if (platformForm?.priceCharting?.id) {
+      const newData = await getPriceById(platformForm?.priceCharting?.id);
+      const formatted = formatUpdateData(newData.data, platformForm.priceCharting);
+      setPlatformForm({ ...platformForm, priceCharting: formatted });
+    }
+  };
 
   useEffect(() => {
     if (platform && (platform.name === '' || platform.name === 'Add Console')) {
@@ -391,6 +419,33 @@ const PlatformForm: FunctionComponent<IProps> = ({
               readOnly
             />
           </div>
+          <div className='divider'>
+            <hr />
+            <h3>PriceCharting Data</h3>
+          </div>
+          {platformForm?.priceCharting && (
+            <div className='crud-form--form__row'>
+              <Button
+                // @ts-ignore
+                onClick={updatePcData}
+                label='Update PriceCharting Data'
+                disabled={!platformForm?.priceCharting?.id}
+                className='p-button-primary'
+              />
+            </div>
+          )}
+          <div className='crud-form--form__row'>
+            <label htmlFor='pc-input'>Price Charting</label>
+            <PcPriceComponent
+              data-id='pc-input'
+              item={formatFormResult(platformForm as IConsole, 'CONSOLE')}
+              onSelectionMade={setPricechartingData}
+            />
+          </div>
+          {/** eslint-disable-next-line */}
+          {platformForm?.priceCharting && (
+            <PcPriceDetailsComponent pcData={platformForm?.priceCharting} />
+          )}
         </form>
         <div className='crud-form--image-and-data'>
           {platformForm?.logo && <img src={platformForm?.logo} alt='platform' />}

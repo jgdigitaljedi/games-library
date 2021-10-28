@@ -3,6 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   padding: $gutter;
+  .price-totals-wrapper {
+    width: 100%;
+    text-align: center;
+  }
   h3 {
     color: $white;
   }

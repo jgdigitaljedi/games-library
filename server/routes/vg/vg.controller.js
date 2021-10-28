@@ -46,8 +46,6 @@ async function refreshAppKey() {
   const appKeyRes = await getAppAccessToken();
   appKey = appKeyRes.data;
   appKeyTimestamp = moment().add(appKey.expires_in - 60, 'seconds');
-  console.log('clientId', twitchClientId);
-  console.log('token', appKey.access_token);
   return igdb(twitchClientId, appKey.access_token);
 }
 
@@ -164,7 +162,6 @@ module.exports.searchPlatformVersions = async function (req, res) {
     client = await refreshAppKey();
   }
   if (req.body && req.body.platform) {
-    console.log('req.body.platform', req.body.platform);
     // const platform = req.body.platform;
     const request = client
       .fields(

@@ -5,7 +5,6 @@ const required = helper.accRequiredFields();
 
 module.exports.save = function (acc) {
   return new Promise((resolve, reject) => {
-    console.log('acc', JSON.stringify(acc, null, 2));
     const now = helper.timeStamp();
     acc.createdAt = now;
     acc.updatedAt = now;

@@ -21,6 +21,10 @@ import moment from 'moment';
 import { cloneDeep as _cloneDeep } from 'lodash';
 import { NotificationContext } from '@/context/NotificationContext';
 import { saveAcc } from '@/services/accCrud.service';
+import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
+import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
+import { formatFormResult, formatUpdateData, getPriceById } from '@/services/pricecharting.service';
+import { IPriceChartingData } from '@/models/pricecharting.model';
 
 interface IProps {
   acc: IAcc;
@@ -103,6 +107,17 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
     // @ts-ignore
     setAccForm(HelpersService.resetAccForm());
   }, [setAccForm]);
+
+  const setPricechartingData = (data: IPriceChartingData) => {
+    if (accForm) {
+      const priceMultipliedByQuantity = accForm.quantity
+        ? data.price * accForm.quantity
+        : data.price;
+      const updatedData = { ...data, price: priceMultipliedByQuantity };
+      const updatedAcc = { ...accForm, priceCharting: updatedData };
+      setAccForm(updatedAcc);
+    }
+  };
 
   const cancelClicked = () => {
     resetAccForm();
@@ -241,6 +256,16 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
               readOnly
             />
           </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pc-input'>Price Charting</label>
+            <PcPriceComponent
+              data-id='pc-input'
+              item={formatFormResult(accForm as IAcc, 'ACC')}
+              onSelectionMade={setPricechartingData}
+            />
+          </div>
+          {/** eslint-disable-next-line */}
+          {accForm?.priceCharting && <PcPriceDetailsComponent pcData={accForm?.priceCharting} />}
         </form>
         <div className='crud-form--image-and-data'>
           {accForm?.image && <img src={accForm?.image} alt='accessory' />}

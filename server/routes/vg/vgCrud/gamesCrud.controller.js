@@ -10,11 +10,9 @@ module.exports.save = function (game) {
     game.createdAt = now;
     game.updatedAt = now;
 
-    console.log('ABOUT TO VALIDATE *********************');
     helper
       .validate(game, required)
-      .then((missing) => {
-        console.log('missing', missing);
+      .then(missing => {
         if (!missing || !missing.length) {
           try {
             const saved = db.games.save(game);
@@ -31,7 +29,7 @@ module.exports.save = function (game) {
           });
         }
       })
-      .catch((error) => {
+      .catch(error => {
         reject(error);
       });
   });

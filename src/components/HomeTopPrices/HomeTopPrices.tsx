@@ -6,9 +6,10 @@ import HomeTopPricesTable from './HomeTopPricesTable/HomeTopPricesTable';
 
 interface TopPriceProps {
   data: any;
+  single?: boolean;
 }
 
-const HomeTopPrices: React.FC<TopPriceProps> = ({ data }) => {
+const HomeTopPrices: React.FC<TopPriceProps> = ({ data, single }) => {
   const platformRowData = _sortBy(
     Object.keys(data || {})
       .filter(key => {
@@ -26,12 +27,12 @@ const HomeTopPrices: React.FC<TopPriceProps> = ({ data }) => {
   );
   const middle = Math.round(platformRowData.length / 2);
   const firstHalf = platformRowData.slice(0, middle);
-  const secondHalf = platformRowData.slice(middle);
+  const secondHalf = single ? platformRowData : platformRowData.slice(middle);
   return (
     <div className='home-prices'>
       {data && (
         <React.Fragment>
-          <HomeTopPricesTable data={firstHalf} />
+          {!single && <HomeTopPricesTable data={firstHalf} />}
           <HomeTopPricesTable
             data={secondHalf}
             totals={{

@@ -35,7 +35,7 @@ function inCollectionExtra(platform) {
 
 function handleSpecial(data) {
   if (data && data.length) {
-    data.forEach((d) => {
+    data.forEach(d => {
       // Genesis extras
       if (d.value === 'Sega Genesis/Mega Drive black box grid game') {
         inCollectionExtra('Sega Mega Drive/Genesis');
@@ -142,12 +142,12 @@ function handleSpecial(data) {
 
 // now to get counts for games collection
 createMaster()
-  .then((result) => {
-    games.forEach((game) => {
+  .then(result => {
+    games.forEach(game => {
       const extraData = game.extraDataFull;
 
       if (extraData && extraData.length) {
-        extraData.forEach((ed) => {
+        extraData.forEach(ed => {
           if (ed.isLaunchTitle && ed.isLaunchTitle.length) {
             handleGame(ed, 'isLaunchTitle');
           }
@@ -163,7 +163,7 @@ createMaster()
     fs.writeFile(
       path.join(__dirname, '../server/extra/gameStats.json'),
       JSON.stringify(inCollection, null, 2),
-      (error) => {
+      error => {
         if (error) {
           console.log(chalk.red('ERROR WRITING USER STATS', error));
         } else {
@@ -172,7 +172,6 @@ createMaster()
       }
     );
   })
-  .catch((error) => {
-    console.log(chalk.red.bold("CAN'T GET VIZ STATS IF MASTER DATA SCRIPTS WON'T FINISH!!"));
-    console.log('error', error);
+  .catch(error => {
+    console.log(chalk.red.bold("CAN'T GET VIZ STATS IF MASTER DATA SCRIPTS WON'T FINISH!!", error));
   });

@@ -1,5 +1,6 @@
 import { ItemCondition } from './common.model';
 import { IGameEye } from './gameEye.model';
+import { IPriceChartingData } from './pricecharting.model';
 
 export interface IAccessory {
   name: string;
@@ -45,4 +46,5 @@ export interface IAcc {
   updatedAt: string;
   gameEye?: IGameEye;
   _id?: string;
+  priceCharting?: IPriceChartingData;
 }

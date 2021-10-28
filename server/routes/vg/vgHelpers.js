@@ -4,7 +4,6 @@ const moment = require('moment');
 
 module.exports.validate = function (obj, reqKeys) {
   return new Promise((resolve, reject) => {
-    console.log('VALIDATING ***********************');
     try {
       const missing = reqKeys.filter(item => {
         if (item.required) {

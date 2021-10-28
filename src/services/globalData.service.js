@@ -23,7 +23,6 @@ export const getPlatformData = async () => {
 export const getEbayPrices = async data => {
   const url = `${window.urlPrefix}/api/vg/ebay`;
   const ebay = await Axios.post(url, data);
-  console.log('ebay', ebay);
   return ebay;
 };
 

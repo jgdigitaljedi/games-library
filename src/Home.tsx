@@ -78,6 +78,33 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     }
   }, [setNotify]);
 
+  const combinePcStats = () => {
+    return {
+      // @ts-ignore
+      totalSpent: (pcGameStats?.totalSpent || 0) + (pcPlatformStats?.totalSpent || 0),
+      // @ts-ignore
+      totalValue: (pcGameStats?.totalValue || 0) + (pcPlatformStats?.totalValue || 0),
+      // @ts-ignore
+      totalDiff: (pcGameStats?.totalDiff || 0) + (pcPlatformStats?.totalDiff || 0),
+      'Game Totals': {
+        // @ts-ignore
+        spent: pcGameStats?.totalSpent || 0,
+        // @ts-ignore
+        value: pcGameStats?.totalValue || 0,
+        // @ts-ignore
+        diff: pcGameStats?.totalDiff || 0
+      },
+      'Console Totals': {
+        // @ts-ignore
+        spent: pcPlatformStats?.totalSpent || 0,
+        // @ts-ignore
+        value: pcPlatformStats?.totalValue || 0,
+        // @ts-ignore
+        diff: pcPlatformStats?.totalDiff || 0
+      }
+    };
+  };
+
   const itemClicked = useCallback(clicked => {
     console.log('clicked', clicked);
   }, []);
@@ -105,20 +132,28 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         />
       )}
       {pcGameStats && (
-        <React.Fragment>
+        <div className='price-totals-wrapper'>
           <h3>Game Collection Valuation</h3>
           <div className='home--row'>
             <HomeTopPrices data={pcGameStats} />
           </div>
-        </React.Fragment>
+        </div>
       )}
       {pcPlatformStats && (
-        <React.Fragment>
+        <div className='price-totals-wrapper'>
           <h3>Console Collection Valuation</h3>
           <div className='home--row'>
             <HomeTopPrices data={pcPlatformStats} />
           </div>
-        </React.Fragment>
+        </div>
+      )}
+      {pcPlatformStats && pcGameStats && (
+        <div className='price-totals-wrapper'>
+          <h3>Total Collection Valuation</h3>
+          <div className='home--row'>
+            <HomeTopPrices data={combinePcStats()} single={true} />
+          </div>
+        </div>
       )}
       <div className='home--row'>
         {data && data.mostRecentlyAddedGames && (

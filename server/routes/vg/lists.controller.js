@@ -39,7 +39,6 @@ function makeList(which, games) {
 }
 
 module.exports.getList = function (req, res) {
-  console.log('req.body.which', req.body.which);
   try {
     if (req && req.body && req.body.which) {
       combined()

@@ -25,7 +25,6 @@ const constructReqUrl = (type, param) => {
 module.exports.searchByName = (req, res) => {
   if (req?.body?.item) {
     const url = constructReqUrl('NAME_SEARCH', req.body.item);
-    console.log('url', url);
     axios
       .get(url)
       .then(result => {
@@ -56,7 +55,6 @@ module.exports.searchByName = (req, res) => {
 module.exports.searchById = (req, res) => {
   if (req?.body?.id) {
     const url = constructReqUrl('ID_SEARCH', req.body.id);
-    console.log(chalk.red.bold('url', url));
     axios
       .get(url)
       .then(result => {

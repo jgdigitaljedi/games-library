@@ -39,6 +39,5 @@ const consoleLocationList = {
 };
 
 module.exports.getLocation = id => {
-  console.log('location', consoleLocationList[id.toString()]);
   return consoleLocationList[id.toString()];
 };

@@ -11,6 +11,7 @@ import moment from 'moment';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
 import { CurrencyUtils } from 'stringman-utils';
+import { IAcc } from '@/models/accessories.model';
 
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
@@ -19,7 +20,7 @@ const idPriceSearchEndpoint = 'pcgetprice';
 const getGameStats = 'pcgamestats';
 const getPlatformStats = 'pcplatformstats';
 
-export type IPcFormatType = 'GAME' | 'CONSOLE';
+export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC';
 
 export const pricechartingNameSearch = async (
   game: string
@@ -137,15 +138,84 @@ export const formatPcResult = (
   };
 };
 
-export function formatFormResult(data: IGame | IConsole, type: IPcFormatType): IItemCommonFormat {
+function getCibStatus(item: IGame | IConsole | IAcc, type: string): boolean {
+  switch (type) {
+    case 'GAME':
+    case 'ACC':
+      // @ts-ignore
+      return !!item?.cib;
+    case 'CONSOLE':
+      return !!((item as IConsole)?.manual && (item as IConsole)?.box);
+    default:
+      return false;
+  }
+}
+
+function getConsoleName(item: IGame | IConsole | IAcc, type: string): string {
+  switch (type) {
+    case 'GAME':
+    case 'ACC':
+      // @ts-ignore
+      return item?.consoleName;
+    case 'CONSOLE':
+      return item?.name;
+    default:
+      return '';
+  }
+}
+
+function getConsoleId(item: IGame | IConsole | IAcc, type: string): number {
+  switch (type) {
+    case 'GAME':
+    case 'ACC':
+      // @ts-ignore
+      return item?.consoleId;
+    case 'CONSOLE':
+      // @ts-ignore
+      return item?.id;
+    default:
+      return 9999999999999999999999;
+  }
+}
+
+function getBox(item: IGame | IConsole | IAcc, type: string): boolean {
+  switch (type) {
+    case 'GAME':
+      return !!(item as IGame)?.cib;
+    case 'ACC':
+    case 'CONSOLE':
+      // @ts-ignore
+      return !!item?.box;
+    default:
+      return false;
+  }
+}
+
+function getManual(item: IGame | IConsole | IAcc, type: string): boolean {
+  switch (type) {
+    case 'ACC':
+      return !!(item as IAcc)?.cib;
+    case 'GAME':
+    case 'CONSOLE':
+      // @ts-ignore
+      return !!item?.manual;
+    default:
+      return false;
+  }
+}
+
+export function formatFormResult(
+  data: IGame | IConsole | IAcc,
+  type: IPcFormatType
+): IItemCommonFormat {
   return {
     name: data?.name || '',
-    cib: type === 'GAME' ? !!(data as IGame)?.cib : !!(data?.manual && (data as IConsole)?.box),
-    consoleName: type === 'GAME' ? (data as IGame)?.consoleName : data?.name,
+    cib: getCibStatus(data, type),
+    consoleName: getConsoleName(data, type),
     // @ts-ignore
-    consoleId: type === 'GAME' ? (data as IGame)?.consoleId : data?.id,
-    box: type === 'CONSOLE' ? !!(data as IConsole)?.box : !!(data as IGame)?.cib,
-    manual: data?.manual || false,
+    consoleId: getConsoleId(data, type),
+    box: getBox(data, type),
+    manual: getManual(data, type),
     notes: data?.notes || '',
     type
   };

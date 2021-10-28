@@ -3,7 +3,7 @@ const helper = require('../vgHelpers');
 
 const required = helper.consolesRequiredFields();
 
-module.exports.save = function(platform) {
+module.exports.save = function (platform) {
   return new Promise((resolve, reject) => {
     const now = helper.timeStamp();
     platform.createdAt = now;
@@ -33,12 +33,11 @@ module.exports.save = function(platform) {
   });
 };
 
-module.exports.getPlatforms = function() {
-  console.log('HERE *************');
+module.exports.getPlatforms = function () {
   return db.consoles.find();
 };
 
-module.exports.search = function(key, value) {
+module.exports.search = function (key, value) {
   if (key && value) {
     return db.consoles.find({ [key]: value });
   } else {
@@ -49,13 +48,13 @@ module.exports.search = function(key, value) {
   }
 };
 
-module.exports.delete = function(id) {
+module.exports.delete = function (id) {
   return db.consoles.remove({
     _id: id
   });
 };
 
-module.exports.edit = function(id, updatedData) {
+module.exports.edit = function (id, updatedData) {
   return new Promise((resolve, reject) => {
     const updated = db.consoles.update({ _id: id }, updatedData, { multi: false, upsert: false });
     if (updated && updated.updated && updated.updated === 1) {

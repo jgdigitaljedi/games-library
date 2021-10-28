@@ -40,9 +40,11 @@ router.get('/items', itemsCtrl.getItems);
 // eBay price search
 router.post('/ebay', ebayCtrl.getEbayPrices);
 
-// pricecharting api calls
+// pricecharting calls
 router.post('/pcnamesearch', pcCtrl.searchByName);
 router.post('/pcgetprice', pcCtrl.searchById);
+router.get('/pcgamestats', pcCtrl.gameStats);
+router.get('/pcplatformstats', pcCtrl.platformStats);
 
 // Update install_base values from GB on most recent generations of consoles
 router.post('/updateconsole/:id', updateCtrl.updateConsoles);

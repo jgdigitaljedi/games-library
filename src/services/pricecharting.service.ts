@@ -16,6 +16,8 @@ const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD'
 
 const nameSearchEndpoint = 'pcnamesearch';
 const idPriceSearchEndpoint = 'pcgetprice';
+const getGameStats = 'pcgamestats';
+const getPlatformStats = 'pcplatformstats';
 
 export type IPcFormatType = 'GAME' | 'CONSOLE';
 
@@ -47,6 +49,23 @@ export const getPriceById = async (
     const params = makeRequest(idPriceSearchEndpoint);
     try {
       const result = await Axios.post(params.url, { id: id.toString() }, params.headers);
+      return result;
+    } catch (error) {
+      return error;
+    }
+  }
+  return Promise.resolve({
+    error: true,
+    message: 'You must be logged in to fetch items from backend!'
+  });
+};
+
+export const getPcStats = async (which: IPcFormatType): Promise<any> => {
+  const hasKey = !!getRequestKey();
+  if (hasKey) {
+    const params = makeRequest(which === 'GAME' ? getGameStats : getPlatformStats);
+    try {
+      const result = await Axios.get(params.url);
       return result;
     } catch (error) {
       return error;

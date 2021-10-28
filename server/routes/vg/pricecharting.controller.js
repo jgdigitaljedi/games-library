@@ -2,6 +2,7 @@ const logger = require('../../config/logger');
 const axios = require('axios');
 const { SERVER_ERROR, BAD_REQUEST } = require('../../extra/utils/HttpStatusConstants');
 const chalk = require('chalk');
+const priceChartingStats = require('./vgCrud/gamesSupp/priceChartingStats');
 
 const createSearchGameName = game => {
   return game
@@ -68,5 +69,21 @@ module.exports.searchById = (req, res) => {
       });
   } else {
     res.status(BAD_REQUEST).json({ error: true, message: 'You sent and empty or bad request.' });
+  }
+};
+
+module.exports.gameStats = function (req, res) {
+  try {
+    res.json(priceChartingStats.getGameStats());
+  } catch (error) {
+    res.status(503).send(error);
+  }
+};
+
+module.exports.platformStats = function (req, res) {
+  try {
+    res.json(priceChartingStats.getPlatformStats());
+  } catch (error) {
+    res.status(503).send(error);
   }
 };

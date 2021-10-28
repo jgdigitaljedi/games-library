@@ -10,12 +10,15 @@ import HomeTopPrices from './components/HomeTopPrices/HomeTopPrices';
 import { IStats } from './models/common.model';
 import { NotificationContext } from './context/NotificationContext';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import { getPcStats } from './services/pricecharting.service';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   // @ts-ignore
   const [data, setData] = useState<IStats>({});
+  const [pcGameStats, setPcGameStats] = useState(null);
+  const [pcPlatformStats, setPcPlatformStats] = useState(null);
   const chartOptions = {
     responsive: true,
     responsiveAnimationDuration: 300,
@@ -49,7 +52,27 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     } else {
       setNotify({
         severity: 'error',
-        detail: 'Failed to fetch stats!',
+        detail: 'Failed to fetch home stats!',
+        summary: 'ERROR'
+      });
+    }
+    try {
+      const gameStats = await getPcStats('GAME');
+      setPcGameStats(gameStats.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch PriceCharting games stats!',
+        summary: 'ERROR'
+      });
+    }
+    try {
+      const platformStats = await getPcStats('CONSOLE');
+      setPcPlatformStats(platformStats.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch PriceCharting platforms stats!',
         summary: 'ERROR'
       });
     }
@@ -81,9 +104,22 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           everDriveCounts={data.everDriveCounts}
         />
       )}
-      <div className='home--row'>
-        <HomeTopPrices data={data.priceBreakdown} />
-      </div>
+      {pcGameStats && (
+        <React.Fragment>
+          <h3>Game Collection Valuation</h3>
+          <div className='home--row'>
+            <HomeTopPrices data={pcGameStats} />
+          </div>
+        </React.Fragment>
+      )}
+      {pcPlatformStats && (
+        <React.Fragment>
+          <h3>Console Collection Valuation</h3>
+          <div className='home--row'>
+            <HomeTopPrices data={pcPlatformStats} />
+          </div>
+        </React.Fragment>
+      )}
       <div className='home--row'>
         {data && data.mostRecentlyAddedGames && (
           <div className='container-column'>

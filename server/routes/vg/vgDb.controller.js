@@ -87,7 +87,7 @@ module.exports.collectionStats = function (req, res) {
   try {
     res.json(homePageStats.getStats());
   } catch (error) {
-    res.status(503).send(error);
+    res.status(500).send(error);
   }
 };
 

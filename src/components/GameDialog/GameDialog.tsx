@@ -18,7 +18,7 @@ import VideoGallery from '../VideoGallery/VideoGallery';
 import { uniq as _uniq } from 'lodash';
 import { uniqBy as _uniqBy } from 'lodash';
 import { IPriceChartingData } from '@/models/pricecharting.model';
-// import { getEbayPrices } from '../../services/globalData.service';
+import { CurrencyUtils } from 'stringman-utils';
 
 interface IRatings {
   [key: string]: string;
@@ -47,6 +47,8 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
   const [consolesOwnedFor, setConsolesOwnedFor] = useState<IConsolesOwned[]>([]);
+
+  const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
   // const getEbayPrice = () => {
   //   const queryString = `${game.name} ${game.consoleName}`;
@@ -212,8 +214,16 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                     {consolesOwnedFor.map((con, index) => (
                       <tr key={`con-row-${index}`}>
                         <td>{con.consoleName}</td>
-                        <td>${con.pricePaid}</td>
-                        <td>{con.priceCharting?.price || '??'}</td>
+                        <td>
+                          {con.pricePaid
+                            ? currencyUtils.formatCurrencyDisplay(con.pricePaid)
+                            : '??'}
+                        </td>
+                        <td>
+                          {con.priceCharting?.price
+                            ? currencyUtils.formatCurrencyDisplay(con.priceCharting?.price)
+                            : '??'}
+                        </td>
                         <td>{con.priceCharting?.lastUpdated || '??'}</td>
                         <td>{con.physical ? 'Physical' : 'Digital'}</td>
                         <td>{con.condition}</td>
@@ -222,7 +232,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                             ? ' - ' + formatCaseType(con.caseType)
                             : ''
                         }`}</td>
-                        <td>{con.cib ? 'YES' : 'NO'}</td>
+                        <td>{con.cib ? 'Y' : 'N'}</td>
                       </tr>
                     ))}
                   </tbody>

@@ -6,6 +6,7 @@ import { Chart } from 'primereact/chart';
 import ChartService from './services/chartData.service';
 import Colors from './style/colors';
 import HomeTopTables from './components/HomeTopTables/HomeTopTables';
+import HomeTopPrices from './components/HomeTopPrices/HomeTopPrices';
 import { IStats } from './models/common.model';
 import { NotificationContext } from './context/NotificationContext';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
@@ -43,6 +44,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   const getData = useCallback(async () => {
     const result = await Axios.get(`${window.urlPrefix}/api/vg/stats`);
     if (result && result.data) {
+      console.log('home data', result.data);
       setData(result.data);
     } else {
       setNotify({
@@ -79,6 +81,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           everDriveCounts={data.everDriveCounts}
         />
       )}
+      <div className='home--row'>
+        <HomeTopPrices data={data.priceBreakdown} />
+      </div>
       <div className='home--row'>
         {data && data.mostRecentlyAddedGames && (
           <div className='container-column'>

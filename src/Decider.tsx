@@ -81,14 +81,29 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       if (!acc.value) {
         acc.value = 0;
       }
-      if (obj?.priceCharting?.price && obj.physical) {
-        acc.value += obj.priceCharting.price;
-      }
       if (!acc.spent) {
         acc.spent = 0;
       }
-      if (obj?.pricePaid && obj?.physical) {
-        acc.spent += parseFloat(obj.pricePaid);
+      if (dc.platform?.length && obj.consoleArr?.length) {
+        obj.consoleArr.forEach(item => {
+          if (item.priceCharting?.price && dc.platform.indexOf(item.consoleName) >= 0) {
+            acc.value += item.priceCharting.price;
+            if (item.pricePaid && dc.platform.indexOf(item.consoleName) >= 0) {
+              // @ts-ignore
+              acc.spent += parseFloat(item.pricePaid);
+            }
+          }
+        });
+      } else if (obj.consoleArr?.length) {
+        obj.consoleArr.forEach(item => {
+          if (item.priceCharting?.price) {
+            acc.value += item.priceCharting.price;
+            if (item.pricePaid) {
+              // @ts-ignore
+              acc.spent += parseFloat(item.pricePaid);
+            }
+          }
+        });
       }
       return acc;
     }, {});
@@ -246,7 +261,7 @@ const Decider: FunctionComponent<IProps> = (props: IProps) => {
       </div>
       <div className='decider--counter'>
         <h3>
-          {data.length === masterData.length && `${totalGames} total/`}
+          {data.length === masterData.length && `${totalGames} total / `}
           {dc.physical && `${totalPhysicalGames} total/`}
           {data.length} unique games
         </h3>

@@ -4,6 +4,8 @@ import { IPriceChartingData } from './pricecharting.model';
 export interface IConsoleArr {
   consoleName: string;
   consoleId: number;
+  priceCharting?: IPriceChartingData;
+  pricePaid?: number;
 }
 
 interface IIgdbConsole {

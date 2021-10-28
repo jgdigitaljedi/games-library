@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const _cloneDeep = require('lodash/cloneDeep');
+const Add = require('stringman-utils').precisionMathAdd;
+const Sub = require('stringman-utils').precisionMathSubtract;
 
 const games = require('../../../../db/games.json');
 const platforms = require('../../../../db/consoles.json');
@@ -36,7 +38,8 @@ let genres = {},
   platformsCount = platforms.length,
   accessoriesCount = accessories.length,
   collectiblesCount = collectibles.length,
-  clonesCount = clones.length;
+  clonesCount = clones.length,
+  priceBreakdown = { totalSpent: 0, totalValue: 0 };
 
 function resetAll() {
   genres = {};
@@ -66,6 +69,7 @@ function resetAll() {
   accessoriesCount = accessories.length;
   collectiblesCount = collectibles.length;
   clonesCount = clones.length;
+  priceBreakdown = { totalSpent: 0, totalValue: 0 };
 }
 
 function handleConsoleByGeneration(con) {
@@ -263,6 +267,32 @@ function getMostPopularGameDecade() {
     }, {});
 }
 
+function getPriceBreakdown() {
+  return games.reduce((acc, game, index) => {
+    if (index === 0) {
+      acc.totalSpent = 0;
+      acc.totalValue = 0;
+    }
+    if (game.physical) {
+      const paid = game.pricePaid ? parseFloat(game.pricePaid) : 0;
+      const price = game.priceCharting?.price || 0;
+      acc.totalSpent = Add(acc.totalSpent, paid);
+      acc.totalValue = Add(acc.totalValue, price);
+      if (!acc.hasOwnProperty(game.consoleName)) {
+        acc[game.consoleName] = { spent: paid || 0, value: price || 0, diff: price - paid };
+      } else if (paid || price) {
+        acc[game.consoleName].spent = Add(acc[game.consoleName].spent, paid || 0);
+        acc[game.consoleName].value = Add(acc[game.consoleName].value, price || 0);
+        acc[game.consoleName].diff = Sub(acc[game.consoleName].value, acc[game.consoleName].spent);
+      }
+      if (index + 1 === games.length) {
+        acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
+      }
+    }
+    return acc;
+  }, {});
+}
+
 module.exports.getStats = () => {
   makeConGames();
   handleConGamesData();
@@ -281,6 +311,7 @@ module.exports.getStats = () => {
     handleAcqusition(game);
     purchasesByMonth(game);
     handleIgdbRating(game);
+    getPriceBreakdown(game);
   });
 
   platforms.forEach(platform => {
@@ -346,7 +377,8 @@ module.exports.getStats = () => {
     totalCollectibles: collectiblesCount,
     totalClones: clonesCount,
     gamesByDecade,
-    everDriveCounts
+    everDriveCounts,
+    priceBreakdown: getPriceBreakdown()
   };
   resetAll();
   return finalData;

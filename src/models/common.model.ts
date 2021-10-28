@@ -113,4 +113,5 @@ export interface IStats {
   totalAccessories: number;
   totalClones: number;
   everDriveCounts: number;
+  priceBreakdown: any;
 }

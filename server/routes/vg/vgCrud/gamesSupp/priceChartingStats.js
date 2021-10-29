@@ -1,12 +1,11 @@
-const games = require('../../../../db/games.json');
-const platforms = require('../../../../db/consoles.json');
-const accessories = require('../../../../db/gameAcc.json');
+const db = require('../../../../db');
 const _sortBy = require('lodash/sortBy');
 const Add = require('stringman-utils').precisionMathAdd;
 const Sub = require('stringman-utils').precisionMathSubtract;
 const Divide = require('stringman-utils').precisionMathDivide;
 
 module.exports.getGameStats = () => {
+  const games = db.games.find();
   return games.reduce((acc, game, index) => {
     if (index === 0) {
       acc.totalSpent = 0;
@@ -44,6 +43,7 @@ module.exports.getGameStats = () => {
 
 module.exports.getPlatformStats = () => {
   try {
+    const platforms = db.consoles.find();
     const counters = {};
     return platforms.reduce((acc, platform, index) => {
       if (index === 0) {
@@ -82,6 +82,7 @@ module.exports.getPlatformStats = () => {
 };
 
 module.exports.getAccStats = () => {
+  const accessories = db.acc.find();
   return accessories.reduce((acc, accessory, index) => {
     if (index === 0) {
       acc.totalSpent = 0;
@@ -124,9 +125,15 @@ module.exports.getAccStats = () => {
 };
 
 module.exports.getMostValuableGames = () => {
-  return _sortBy(games, 'priceCharting.price', null);
+  return _sortBy(db.games.find(), 'priceCharting.price', null)
+    .reverse()
+    .filter(d => d?.priceCharting?.price)
+    .slice(0, 4);
 };
 
 module.exports.getMostValuableConsoles = () => {
-  return _sortBy(platforms, 'priceCharting.price', null);
+  return _sortBy(db.consoles.find(), 'priceCharting.price', null)
+    .reverse()
+    .filter(d => d?.priceCharting?.price)
+    .slice(0, 4);
 };

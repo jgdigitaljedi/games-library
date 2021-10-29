@@ -10,17 +10,27 @@ import HomeTopPrices from './components/HomeTopPrices/HomeTopPrices';
 import { IStats } from './models/common.model';
 import { NotificationContext } from './context/NotificationContext';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import { getPcStats } from './services/pricecharting.service';
+import {
+  getHighestValueGames,
+  getHighestValuePlatforms,
+  getPcStats
+} from './services/pricecharting.service';
 import { CurrencyUtils } from 'stringman-utils';
+import { IPcStatsTotalsDynamic, IPcStatsTotalsFixed } from './models/pricecharting.model';
+import { IGame } from './models/games.model';
+import { IConsole } from './models/platforms.model';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   // @ts-ignore
   const [data, setData] = useState<IStats>({});
-  const [pcGameStats, setPcGameStats] = useState(null);
-  const [pcPlatformStats, setPcPlatformStats] = useState(null);
-  const [pcAccStats, setPcAccStats] = useState(null);
+  const [pcGameStats, setPcGameStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
+  const [pcPlatformStats, setPcPlatformStats] =
+    useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
+  const [pcAccStats, setPcAccStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
+  const [highValueGames, setHighValueGames] = useState<IGame[]>([]);
+  const [highValuePlatforms, setHighValuePlatforms] = useState<IConsole[]>([]);
   const chartOptions = {
     responsive: true,
     responsiveAnimationDuration: 300,
@@ -89,66 +99,62 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         summary: 'ERROR'
       });
     }
+    try {
+      const valuableGames = await getHighestValueGames();
+      setHighValueGames(valuableGames.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch highest value games!',
+        summary: 'ERROR'
+      });
+    }
+    try {
+      const valuablePlats = await getHighestValuePlatforms();
+      setHighValuePlatforms(valuablePlats.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch highest value games!',
+        summary: 'ERROR'
+      });
+    }
   }, [setNotify]);
 
   const combinePcStats = () => {
     return {
       totalSpent:
-        // @ts-ignore
         (pcGameStats?.totalSpent || 0) +
-        // @ts-ignore
         (pcPlatformStats?.totalSpent || 0) +
-        // @ts-ignore
         (pcAccStats?.totalSpent || 0),
       totalValue:
-        // @ts-ignore
         (pcGameStats?.totalValue || 0) +
-        // @ts-ignore
         (pcPlatformStats?.totalValue || 0) +
-        // @ts-ignore
         (pcAccStats?.totalValue || 0),
       totalDiff:
-        // @ts-ignore
         (pcGameStats?.totalDiff || 0) +
-        // @ts-ignore
         (pcPlatformStats?.totalDiff || 0) +
-        // @ts-ignore
         (pcAccStats?.totalDiff || 0),
       totalCount:
-        // @ts-ignore
         (pcGameStats?.totalCount || 0) +
-        // @ts-ignore
         (pcPlatformStats?.totalCount || 0) +
-        // @ts-ignore
         (pcAccStats?.totalCount || 0),
       'Game Totals': {
-        // @ts-ignore
         spent: pcGameStats?.totalSpent || 0,
-        // @ts-ignore
         value: pcGameStats?.totalValue || 0,
-        // @ts-ignore
         diff: pcGameStats?.totalDiff || 0,
-        // @ts-ignore
         count: pcGameStats?.totalCount || 0
       },
       'Console Totals': {
-        // @ts-ignore
         spent: pcPlatformStats?.totalSpent || 0,
-        // @ts-ignore
         value: pcPlatformStats?.totalValue || 0,
-        // @ts-ignore
         diff: pcPlatformStats?.totalDiff || 0,
-        // @ts-ignore
         count: pcPlatformStats?.totalCount || 0
       },
       'Accessory Totals': {
-        // @ts-ignore
         spent: pcAccStats?.totalSpent || 0,
-        // @ts-ignore
         value: pcAccStats?.totalValue || 0,
-        // @ts-ignore
         diff: pcAccStats?.totalDiff || 0,
-        // @ts-ignore
         count: pcAccStats?.totalCount || 0
       }
     };
@@ -183,7 +189,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       {pcGameStats && (
         <div className='price-totals-wrapper'>
           <h3>
-            Game Collection Valuation {/* @ts-ignore */}
+            Game Collection Valuation
             {`(Avg Price: ${currencyUtils.formatCurrencyDisplay(pcGameStats.averageValue)})`}
           </h3>
           <div className='home--row'>
@@ -195,10 +201,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         <div className='price-totals-wrapper'>
           <h3>
             Console Collection Valuation
-            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(
-              // @ts-ignore}
-              pcPlatformStats.averageValue
-            )})`}
+            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(pcPlatformStats.averageValue)})`}
           </h3>
           <div className='home--row'>
             <HomeTopPrices data={pcPlatformStats} noCounts={true} />
@@ -209,7 +212,6 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         <div className='price-totals-wrapper'>
           <h3>
             Accessory Collection Valuation
-            {/* @ts-ignore */}
             {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(pcAccStats.averageValue)})`}
           </h3>
           <div className='home--row'>
@@ -280,6 +282,29 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
             <ListView
               data={data.mostPaidForPlatforms}
               whichData='pricePaid'
+              listRowClick={itemClicked}
+              isPlatform={true}
+            />
+          </div>
+        )}
+      </div>
+      <div className='home--row'>
+        {highValueGames && (
+          <div className='container-column'>
+            <h3>Highest Value Games</h3>
+            <ListView
+              data={highValueGames}
+              whichData='priceCharting.price'
+              listRowClick={itemClicked}
+            />
+          </div>
+        )}
+        {highValuePlatforms && (
+          <div className='container-column'>
+            <h3>Highest Value Platforms</h3>
+            <ListView
+              data={highValuePlatforms}
+              whichData='priceCharting.price'
               listRowClick={itemClicked}
               isPlatform={true}
             />

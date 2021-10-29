@@ -1,16 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const chalk = require('chalk');
 const _cloneDeep = require('lodash/cloneDeep');
-const Add = require('stringman-utils').precisionMathAdd;
-const Sub = require('stringman-utils').precisionMathSubtract;
+const db = require('../../../../db');
 
-const games = require('../../../../db/games.json');
-const platforms = require('../../../../db/consoles.json');
+const games = db.games.find();
+const platforms = db.consoles.find();
 const everDrives = require('../../../../extra/everDrive.json');
-const accessories = require('../../../../db/gameAcc.json');
-const collectibles = require('../../../../db/collectibles.json');
-const clones = require('../../../../db/clones.json');
+const accessories = db.gameAcc.find();
+const collectibles = db.collectibles.find();
+const clones = db.clones.find();
 
 let genres = {},
   conGames = {},
@@ -20,7 +16,6 @@ let genres = {},
     physical: 0,
     digital: 0
   },
-  everDriveCounts = 0,
   cibGames = 0,
   platformCompanies = {},
   howAcquiredGames = {},
@@ -38,14 +33,12 @@ let genres = {},
   platformsCount = platforms.length,
   accessoriesCount = accessories.length,
   collectiblesCount = collectibles.length,
-  clonesCount = clones.length,
-  priceBreakdown = { totalSpent: 0, totalValue: 0 };
+  clonesCount = clones.length;
 
 function resetAll() {
   genres = {};
   conGames = {};
   conGamesCounts = {};
-  everDriveCounts = 0;
   esrbCounts = {};
   gameMedia = {
     physical: 0,
@@ -69,7 +62,6 @@ function resetAll() {
   accessoriesCount = accessories.length;
   collectiblesCount = collectibles.length;
   clonesCount = clones.length;
-  priceBreakdown = { totalSpent: 0, totalValue: 0 };
 }
 
 function handleConsoleByGeneration(con) {
@@ -349,8 +341,7 @@ module.exports.getStats = () => {
     totalAccessories: accessoriesCount,
     totalCollectibles: collectiblesCount,
     totalClones: clonesCount,
-    gamesByDecade,
-    everDriveCounts
+    gamesByDecade
   };
   resetAll();
   return finalData;

@@ -1,7 +1,6 @@
 const logger = require('../../config/logger');
 const axios = require('axios');
 const { SERVER_ERROR, BAD_REQUEST } = require('../../extra/utils/HttpStatusConstants');
-const chalk = require('chalk');
 const priceChartingStats = require('./vgCrud/gamesSupp/priceChartingStats');
 
 const createSearchGameName = game => {
@@ -89,6 +88,22 @@ module.exports.platformStats = function (req, res) {
 module.exports.accStats = function (req, res) {
   try {
     res.json(priceChartingStats.getAccStats());
+  } catch (error) {
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.mostValuableGames = function (req, res) {
+  try {
+    res.json(priceChartingStats.getMostValuableGames());
+  } catch (error) {
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.mostValuablePlatforms = function (req, res) {
+  try {
+    res.json(priceChartingStats.getMostValuableConsoles());
   } catch (error) {
     res.status(SERVER_ERROR).send(error);
   }

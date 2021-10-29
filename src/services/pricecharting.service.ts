@@ -6,7 +6,7 @@ import {
   IPriceChartingData,
   PricechartingGameSearchResponse
 } from '@/models/pricecharting.model';
-import Axios, { AxiosResponse } from 'axios';
+import Axios, { AxiosError, AxiosResponse } from 'axios';
 import moment from 'moment';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
@@ -17,9 +17,8 @@ const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD'
 
 const nameSearchEndpoint = 'pcnamesearch';
 const idPriceSearchEndpoint = 'pcgetprice';
-// const getGameStats = 'pcgamestats';
-// const getPlatformStats = 'pcplatformstats';
-// const getAccStats = 'pcaccstats';
+const mostValuableGames = 'pcvaluegames';
+const mostValuablePlatforms = 'pcvalueplatforms';
 
 const pcStatsEndpoints = {
   GAME: 'pcgamestats',
@@ -226,4 +225,38 @@ export function formatFormResult(
     notes: data?.notes || '',
     type
   };
+}
+
+export async function getHighestValueGames(): Promise<AxiosResponse<IGame[]> | any> {
+  const hasKey = !!getRequestKey();
+  if (hasKey) {
+    const params = makeRequest(mostValuableGames);
+    try {
+      const result = await Axios.get(params.url);
+      return result;
+    } catch (error) {
+      return error;
+    }
+  }
+  return Promise.resolve({
+    error: true,
+    message: 'You must be logged in to fetch items from backend!'
+  });
+}
+
+export async function getHighestValuePlatforms(): Promise<AxiosResponse<IConsole[]> | any> {
+  const hasKey = !!getRequestKey();
+  if (hasKey) {
+    const params = makeRequest(mostValuablePlatforms);
+    try {
+      const result = await Axios.get(params.url);
+      return result;
+    } catch (error) {
+      return error;
+    }
+  }
+  return Promise.resolve({
+    error: true,
+    message: 'You must be logged in to fetch items from backend!'
+  });
 }

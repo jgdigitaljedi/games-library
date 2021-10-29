@@ -33,3 +33,22 @@ export interface IItemCommonFormat {
   notes: string;
   type: IItemTypeField;
 }
+
+export interface IPcStatsTotalsFixed {
+  totalCount: number;
+  averageValue: number;
+  totalSpent: number;
+  totalDiff?: number;
+  totalValue: number;
+}
+
+export interface IPcStatsItem {
+  count: number;
+  spent: number;
+  price: number;
+  diff?: number;
+}
+
+export interface IPcStatsTotalsDynamic {
+  [key: string]: number | IPcStatsItem;
+}

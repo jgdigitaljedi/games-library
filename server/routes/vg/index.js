@@ -46,6 +46,8 @@ router.post('/pcgetprice', pcCtrl.searchById);
 router.get('/pcgamestats', pcCtrl.gameStats);
 router.get('/pcplatformstats', pcCtrl.platformStats);
 router.get('/pcaccstats', pcCtrl.accStats);
+router.get('/pcvaluegames', pcCtrl.mostValuableGames);
+router.get('/pcvalueplatforms', pcCtrl.mostValuablePlatforms);
 
 // Update install_base values from GB on most recent generations of consoles
 router.post('/updateconsole/:id', updateCtrl.updateConsoles);

@@ -620,6 +620,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
                 label='Update PriceCharting Data'
                 disabled={!gameForm?.priceCharting?.id}
                 className='p-button-primary'
+                icon='pi pi-arrow-circle-up'
               />
             </div>
           )}

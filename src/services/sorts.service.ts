@@ -19,6 +19,7 @@ export default {
       { label: 'Purchase Date', value: 'datePurchased' },
       { label: 'Name', value: 'name' },
       { label: 'Release Date', value: 'first_release_date' },
+      { label: 'Value', value: 'priceCharting.price' },
       { label: 'Purchase Price', value: 'pricePaid' },
       { label: 'Rating', value: 'total_rating' },
       { label: 'Max # Players', value: 'maxMultiplayer' }
@@ -38,7 +39,7 @@ export default {
       if (cat.toLowerCase().indexOf('date') >= 0) {
         // sortBy ain't gonna work with dates
         sorted = data
-          .filter((g) => {
+          .filter(g => {
             const hasData = _get(g, cat);
             if (!hasData) {
               noData.push(g);
@@ -73,7 +74,7 @@ export default {
         });
       } else if (cat === 'maxMultiplayer' || cat === 'pricePaid') {
         sorted = data
-          .filter((g) => {
+          .filter(g => {
             const gData = _get(g, cat);
             if (!gData) {
               noData.push(g);
@@ -101,7 +102,7 @@ export default {
           });
       } else {
         sorted = _sortBy(
-          data.filter((g) => {
+          data.filter(g => {
             const gData = _get(g, cat);
             if (!gData) {
               noData.push(g);

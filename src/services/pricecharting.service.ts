@@ -17,8 +17,15 @@ const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD'
 
 const nameSearchEndpoint = 'pcnamesearch';
 const idPriceSearchEndpoint = 'pcgetprice';
-const getGameStats = 'pcgamestats';
-const getPlatformStats = 'pcplatformstats';
+// const getGameStats = 'pcgamestats';
+// const getPlatformStats = 'pcplatformstats';
+// const getAccStats = 'pcaccstats';
+
+const pcStatsEndpoints = {
+  GAME: 'pcgamestats',
+  CONSOLE: 'pcplatformstats',
+  ACC: 'pcaccstats'
+};
 
 export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC';
 
@@ -64,7 +71,7 @@ export const getPriceById = async (
 export const getPcStats = async (which: IPcFormatType): Promise<any> => {
   const hasKey = !!getRequestKey();
   if (hasKey) {
-    const params = makeRequest(which === 'GAME' ? getGameStats : getPlatformStats);
+    const params = makeRequest(pcStatsEndpoints[which]);
     try {
       const result = await Axios.get(params.url);
       return result;
@@ -100,11 +107,11 @@ function getBoxSituation(
 
 function getPriceForBoxCase(data: PricechartingGameSearchResponse, boxCase: IPCCaseType): number {
   if (boxCase === 'sealed') {
-    return data['new-price'] || 0;
+    return Math.abs(data['new-price'] || 0);
   } else if (boxCase === 'cib') {
-    return data['cib-price'] || 0;
+    return Math.abs(data['cib-price'] || 0);
   }
-  return data['loose-price'] || 0;
+  return Math.abs(data['loose-price'] || 0);
 }
 
 export const formatUpdateData = (

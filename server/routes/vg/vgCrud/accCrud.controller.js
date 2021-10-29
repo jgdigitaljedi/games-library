@@ -10,6 +10,8 @@ module.exports.save = function (acc) {
     acc.updatedAt = now;
     acc.quantity = parseInt(acc.quantity);
     acc.pricePaid = acc.pricePaid ? parseFloat(acc.pricePaid) : null;
+    acc.box = !!acc.box;
+    acc.cib = !!acc.cib;
     helper
       .validate(acc, required)
       .then(missing => {

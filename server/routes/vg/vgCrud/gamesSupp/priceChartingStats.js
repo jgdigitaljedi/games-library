@@ -1,5 +1,6 @@
 const games = require('../../../../db/games.json');
 const platforms = require('../../../../db/consoles.json');
+const accessories = require('../../../../db/gameAcc.json');
 const Add = require('stringman-utils').precisionMathAdd;
 const Sub = require('stringman-utils').precisionMathSubtract;
 
@@ -63,4 +64,31 @@ module.exports.getPlatformStats = () => {
   } catch (error) {
     return error;
   }
+};
+
+module.exports.getAccStats = () => {
+  return accessories.reduce((acc, accessory, index) => {
+    if (index === 0) {
+      acc.totalSpent = 0;
+      acc.totalValue = 0;
+    }
+    if (accessory.hasOwnProperty('priceCharting')) {
+      const paid = accessory.pricePaid ? parseFloat(accessory.pricePaid) : 0;
+      const price = accessory.priceCharting?.price || 0;
+      acc.totalSpent = Add(acc.totalSpent, paid);
+      acc.totalValue = Add(acc.totalValue, price);
+      const accConsole = accessory?.associatedConsole?.consoleName || null;
+      if (!acc.hasOwnProperty(accConsole)) {
+        acc[accConsole] = { spent: paid || 0, value: price || 0, diff: price - paid };
+      } else if (paid || price) {
+        acc[accConsole].spent = Add(acc[accConsole].spent, paid || 0);
+        acc[accConsole].value = Add(acc[accConsole].value, price || 0);
+        acc[accConsole].diff = Sub(acc[accConsole].value, acc[accConsole].spent);
+      }
+      if (index + 1 === accessories.length) {
+        acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
+      }
+    }
+    return acc;
+  }, {});
 };

@@ -74,7 +74,7 @@ module.exports.gameStats = function (req, res) {
   try {
     res.json(priceChartingStats.getGameStats());
   } catch (error) {
-    res.status(503).send(error);
+    res.status(SERVER_ERROR).send(error);
   }
 };
 
@@ -82,6 +82,14 @@ module.exports.platformStats = function (req, res) {
   try {
     res.json(priceChartingStats.getPlatformStats());
   } catch (error) {
-    res.status(503).send(error);
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.accStats = function (req, res) {
+  try {
+    res.json(priceChartingStats.getAccStats());
+  } catch (error) {
+    res.status(SERVER_ERROR).send(error);
   }
 };

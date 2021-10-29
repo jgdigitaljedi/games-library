@@ -7,15 +7,12 @@ const endpoint = 'games';
 
 export const saveGame = async (game: IGame, isUpdate?: boolean) => {
   const hasKey = !!getRequestKey();
-  console.log('game to be updated', game);
   if (isUpdate && hasKey) {
     const params = makeRequest(endpoint, game._id);
     const result = await Axios.patch(params.url, game, params.headers);
     return result;
   } else if (hasKey) {
     const params = makeRequest(endpoint);
-    console.log('param', params);
-    console.log('game', game);
     const result = await Axios.put(params.url, game, params.headers);
     return result;
   } else {

@@ -19,6 +19,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   const [data, setData] = useState<IStats>({});
   const [pcGameStats, setPcGameStats] = useState(null);
   const [pcPlatformStats, setPcPlatformStats] = useState(null);
+  const [pcAccStats, setPcAccStats] = useState(null);
   const chartOptions = {
     responsive: true,
     responsiveAnimationDuration: 300,
@@ -76,16 +77,41 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         summary: 'ERROR'
       });
     }
+    try {
+      const accStats = await getPcStats('ACC');
+      setPcAccStats(accStats.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch PriceCharting accessories stats!',
+        summary: 'ERROR'
+      });
+    }
   }, [setNotify]);
 
   const combinePcStats = () => {
     return {
-      // @ts-ignore
-      totalSpent: (pcGameStats?.totalSpent || 0) + (pcPlatformStats?.totalSpent || 0),
-      // @ts-ignore
-      totalValue: (pcGameStats?.totalValue || 0) + (pcPlatformStats?.totalValue || 0),
-      // @ts-ignore
-      totalDiff: (pcGameStats?.totalDiff || 0) + (pcPlatformStats?.totalDiff || 0),
+      totalSpent:
+        // @ts-ignore
+        (pcGameStats?.totalSpent || 0) +
+        // @ts-ignore
+        (pcPlatformStats?.totalSpent || 0) +
+        // @ts-ignore
+        (pcAccStats?.totalSpent || 0),
+      totalValue:
+        // @ts-ignore
+        (pcGameStats?.totalValue || 0) +
+        // @ts-ignore
+        (pcPlatformStats?.totalValue || 0) +
+        // @ts-ignore
+        (pcAccStats?.totalValue || 0),
+      totalDiff:
+        // @ts-ignore
+        (pcGameStats?.totalDiff || 0) +
+        // @ts-ignore
+        (pcPlatformStats?.totalDiff || 0) +
+        // @ts-ignore
+        (pcAccStats?.totalDiff || 0),
       'Game Totals': {
         // @ts-ignore
         spent: pcGameStats?.totalSpent || 0,
@@ -101,6 +127,14 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         value: pcPlatformStats?.totalValue || 0,
         // @ts-ignore
         diff: pcPlatformStats?.totalDiff || 0
+      },
+      'Accessory Totals': {
+        // @ts-ignore
+        spent: pcAccStats?.totalSpent || 0,
+        // @ts-ignore
+        value: pcAccStats?.totalValue || 0,
+        // @ts-ignore
+        diff: pcAccStats?.totalDiff || 0
       }
     };
   };
@@ -144,6 +178,14 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           <h3>Console Collection Valuation</h3>
           <div className='home--row'>
             <HomeTopPrices data={pcPlatformStats} />
+          </div>
+        </div>
+      )}
+      {pcAccStats && (
+        <div className='price-totals-wrapper'>
+          <h3>Accessory Collection Valuation</h3>
+          <div className='home--row'>
+            <HomeTopPrices data={pcAccStats} />
           </div>
         </div>
       )}

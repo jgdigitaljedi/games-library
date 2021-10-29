@@ -236,9 +236,9 @@ module.exports.deleteAcc = function (req, res) {
 };
 
 module.exports.editAcc = function (req, res) {
-  if (req.params.id && req.body.platform) {
+  if (req.params.id && req.body.acc) {
     accCrud
-      .edit(req.params.id, req.body.platform)
+      .edit(req.params.id, req.body.acc)
       .then(result => {
         res.status(200).json(result);
       })

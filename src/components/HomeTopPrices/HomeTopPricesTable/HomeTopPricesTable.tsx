@@ -8,10 +8,13 @@ interface HomeTopTableProps {
     value: number;
     spent: number;
     diff: number;
+    count: number;
+    avg: number;
   };
+  noCounts?: boolean;
 }
 
-const HomeTopPricesTable: React.FC<HomeTopTableProps> = ({ data, totals }) => {
+const HomeTopPricesTable: React.FC<HomeTopTableProps> = ({ data, totals, noCounts }) => {
   const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
   return (
@@ -22,6 +25,7 @@ const HomeTopPricesTable: React.FC<HomeTopTableProps> = ({ data, totals }) => {
           <th>Spent</th>
           <th>Value</th>
           <th>Diff</th>
+          <th>Count</th>
         </tr>
       </thead>
       <tbody>
@@ -34,6 +38,7 @@ const HomeTopPricesTable: React.FC<HomeTopTableProps> = ({ data, totals }) => {
               <td className={row?.diff > 0 ? 'positive' : 'negative'}>
                 {currencyUtils.formatCurrencyDisplay(row.diff)}
               </td>
+              <td>{noCounts ? 1 : row.count}</td>
             </tr>
           );
         })}
@@ -47,6 +52,7 @@ const HomeTopPricesTable: React.FC<HomeTopTableProps> = ({ data, totals }) => {
             <td className={totals?.diff > 0 ? 'positive' : 'negative'}>
               {currencyUtils.formatCurrencyDisplay(totals?.diff || 0)}
             </td>
+            <td>{totals.count}</td>
           </tr>
         </tfoot>
       )}

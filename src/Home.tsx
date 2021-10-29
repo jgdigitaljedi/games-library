@@ -11,6 +11,7 @@ import { IStats } from './models/common.model';
 import { NotificationContext } from './context/NotificationContext';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { getPcStats } from './services/pricecharting.service';
+import { CurrencyUtils } from 'stringman-utils';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // eslint-disable-next-line
@@ -32,6 +33,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   };
 
   const extraChartOptions = ChartService.getExtraChartOptions();
+  const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
   function addTitle(text: string) {
     return {
@@ -112,13 +114,22 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         (pcPlatformStats?.totalDiff || 0) +
         // @ts-ignore
         (pcAccStats?.totalDiff || 0),
+      totalCount:
+        // @ts-ignore
+        (pcGameStats?.totalCount || 0) +
+        // @ts-ignore
+        (pcPlatformStats?.totalCount || 0) +
+        // @ts-ignore
+        (pcAccStats?.totalCount || 0),
       'Game Totals': {
         // @ts-ignore
         spent: pcGameStats?.totalSpent || 0,
         // @ts-ignore
         value: pcGameStats?.totalValue || 0,
         // @ts-ignore
-        diff: pcGameStats?.totalDiff || 0
+        diff: pcGameStats?.totalDiff || 0,
+        // @ts-ignore
+        count: pcGameStats?.totalCount || 0
       },
       'Console Totals': {
         // @ts-ignore
@@ -126,7 +137,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         // @ts-ignore
         value: pcPlatformStats?.totalValue || 0,
         // @ts-ignore
-        diff: pcPlatformStats?.totalDiff || 0
+        diff: pcPlatformStats?.totalDiff || 0,
+        // @ts-ignore
+        count: pcPlatformStats?.totalCount || 0
       },
       'Accessory Totals': {
         // @ts-ignore
@@ -134,7 +147,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         // @ts-ignore
         value: pcAccStats?.totalValue || 0,
         // @ts-ignore
-        diff: pcAccStats?.totalDiff || 0
+        diff: pcAccStats?.totalDiff || 0,
+        // @ts-ignore
+        count: pcAccStats?.totalCount || 0
       }
     };
   };
@@ -167,7 +182,10 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       )}
       {pcGameStats && (
         <div className='price-totals-wrapper'>
-          <h3>Game Collection Valuation</h3>
+          <h3>
+            Game Collection Valuation {/* @ts-ignore */}
+            {`(Avg Price: ${currencyUtils.formatCurrencyDisplay(pcGameStats.averageValue)})`}
+          </h3>
           <div className='home--row'>
             <HomeTopPrices data={pcGameStats} />
           </div>
@@ -175,15 +193,25 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       )}
       {pcPlatformStats && (
         <div className='price-totals-wrapper'>
-          <h3>Console Collection Valuation</h3>
+          <h3>
+            Console Collection Valuation
+            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(
+              // @ts-ignore}
+              pcPlatformStats.averageValue
+            )})`}
+          </h3>
           <div className='home--row'>
-            <HomeTopPrices data={pcPlatformStats} />
+            <HomeTopPrices data={pcPlatformStats} noCounts={true} />
           </div>
         </div>
       )}
       {pcAccStats && (
         <div className='price-totals-wrapper'>
-          <h3>Accessory Collection Valuation</h3>
+          <h3>
+            Accessory Collection Valuation
+            {/* @ts-ignore */}
+            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(pcAccStats.averageValue)})`}
+          </h3>
           <div className='home--row'>
             <HomeTopPrices data={pcAccStats} />
           </div>

@@ -29,6 +29,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   const [pcPlatformStats, setPcPlatformStats] =
     useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [pcAccStats, setPcAccStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
+  const [pcCloneStats, setPcCloneStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [highValueGames, setHighValueGames] = useState<IGame[]>([]);
   const [highValuePlatforms, setHighValuePlatforms] = useState<IConsole[]>([]);
   const chartOptions = {
@@ -100,6 +101,16 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       });
     }
     try {
+      const cloneStats = await getPcStats('CLONE');
+      setPcCloneStats(cloneStats.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch PriceCharting clones stats!',
+        summary: 'ERROR'
+      });
+    }
+    try {
       const valuableGames = await getHighestValueGames();
       setHighValueGames(valuableGames.data);
     } catch (err) {
@@ -156,6 +167,12 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         value: pcAccStats?.totalValue || 0,
         diff: pcAccStats?.totalDiff || 0,
         count: pcAccStats?.totalCount || 0
+      },
+      'Clone Totals': {
+        spent: pcCloneStats?.totalSpent || 0,
+        value: pcCloneStats?.totalValue || 0,
+        diff: pcCloneStats?.totalDiff || 0,
+        count: pcCloneStats?.totalCount || 0
       }
     };
   };
@@ -216,6 +233,17 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           </h3>
           <div className='home--row'>
             <HomeTopPrices data={pcAccStats} />
+          </div>
+        </div>
+      )}
+      {pcCloneStats && (
+        <div className='price-totals-wrapper'>
+          <h3>
+            Clone Collection Valuation
+            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(pcCloneStats.averageValue)})`}
+          </h3>
+          <div className='home--row'>
+            <HomeTopPrices data={pcCloneStats} noCounts={true} />
           </div>
         </div>
       )}

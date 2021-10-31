@@ -354,9 +354,10 @@ module.exports.deleteClone = function (req, res) {
 };
 
 module.exports.editClone = function (req, res) {
-  if (req.params.id && req.body.platform) {
+  console.log('**********************editClone');
+  if (req.params.id && req.body.clone) {
     clonesCrud
-      .edit(req.params.id, req.body.platform)
+      .edit(req.params.id, req.body.clone)
       .then(result => {
         res.status(200).json(result);
       })

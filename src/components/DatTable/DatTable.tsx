@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import ErrorBoundary from '../ErrorBoundary';
 import tableProps from '../../services/tableProps.service';
 import get from 'lodash/get';
+import { ViewWhatType } from '@/models/common.model';
 
 interface IProps {
   data: any[];
@@ -13,7 +14,7 @@ interface IProps {
 }
 
 interface MapStateProps {
-  viewWhat: string;
+  viewWhat: ViewWhatType;
 }
 const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => {
   const [dynamicColumns, setDynamicColumns] = useState<any>();
@@ -127,7 +128,7 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
   );
 };
 
-const mapStateToProps = ({ viewWhat }: { viewWhat: string }): MapStateProps => {
+const mapStateToProps = ({ viewWhat }: { viewWhat: ViewWhatType }): MapStateProps => {
   return {
     viewWhat
   };

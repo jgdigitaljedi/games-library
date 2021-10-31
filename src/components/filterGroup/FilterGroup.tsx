@@ -7,11 +7,11 @@ import filterPropsService from '../../services/filterProps.service';
 import { Dispatch } from 'redux';
 import debounce from 'lodash/debounce';
 import get from 'lodash/get';
-import { IDropdown } from '@/models/common.model';
+import { IDropdown, ViewWhatType } from '@/models/common.model';
 import { IGame } from '@/models/games.model';
 
 interface MapStateProps {
-  viewWhat: string;
+  viewWhat: ViewWhatType;
   masterData: object[];
   filteredData: object[];
 }
@@ -54,16 +54,16 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   };
 
   return (
-    <div className="filter-group">
+    <div className='filter-group'>
       <Dropdown
         value={selectedFilter}
-        onChange={(e) => setSelectedFilter(e.value)}
+        onChange={e => setSelectedFilter(e.value)}
         options={filters}
       />
       <InputText
         value={filterStr}
         onChange={handleChange}
-        placeholder="Filter String"
+        placeholder='Filter String'
         disabled={!selectedFilter || !selectedFilter.length}
       />
     </div>
@@ -75,7 +75,7 @@ const mapStateToProps = ({
   masterData,
   filteredData
 }: {
-  viewWhat: string;
+  viewWhat: ViewWhatType;
   masterData: object[];
   filteredData: object[];
 }): MapStateProps => {

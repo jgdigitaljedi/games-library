@@ -2,10 +2,25 @@ import { Button } from 'primereact/button';
 import { Calendar } from 'primereact/calendar';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputText } from 'primereact/inputtext';
-import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
+import React, {
+  FunctionComponent,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState
+} from 'react';
 import { IClone } from '@/models/common.model';
 import { handleChange } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
+import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
+import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
+import { formatFormResult } from '@/services/pricecharting.service';
+import { IPriceChartingData } from '@/models/pricecharting.model';
+import { cloneDeep as _cloneDeep } from 'lodash';
+import { NotificationContext } from '@/context/NotificationContext';
+import moment from 'moment';
+import { saveClone } from '@/services/cloneCrud.service';
 
 interface IProps {
   clone: IClone;
@@ -17,6 +32,8 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
   const [cloneForm, setCloneForm] = useState<IClone>();
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
 
   const userChange = (e: any) => {
     closeConfirmation();
@@ -57,18 +74,52 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
     }
   }, [clone, setAddMode]);
 
-  const updateAcc = useCallback(() => {
-    // make save call
-    // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
+  const isUpdate = useMemo(() => {
+    return !addMode && cloneForm?.hasOwnProperty('_id');
+  }, [addMode, cloneForm]);
+
+  const updateClone = useCallback(() => {
     closeConfirmation();
-    console.log('cloneForm save', cloneForm);
-    closeDialog(cloneForm?.name);
-  }, [cloneForm, closeDialog, closeConfirmation]);
+    const cloneCopy = _cloneDeep(cloneForm);
+    const isPatch = isUpdate;
+    if (!cloneCopy) {
+      setNotify({
+        severity: 'error',
+        detail: 'Empty of incomplete data for clone to be saved.',
+        summary: 'ERROR'
+      });
+      return;
+    }
+    if (!isPatch) {
+      cloneCopy.datePurchased = moment(cloneForm?.newPurchaseDate).format('YYYY-MM-DD');
+    }
+    delete cloneCopy.newPurchaseDate;
+    saveClone(cloneCopy, isPatch)
+      .then(result => {
+        closeDialog(cloneForm?.name, true, 'added');
+      })
+      .catch(error => {
+        console.log('save acc error', error);
+        closeDialog(cloneForm?.name, false, 'added');
+        setNotify({
+          severity: 'error',
+          detail: 'Error saving clone!.',
+          summary: 'ERROR'
+        });
+      });
+  }, [cloneForm, closeDialog, closeConfirmation, isUpdate, setNotify]);
 
   const cancelClicked = () => {
     // resetGameForm();
     closeConfirmation();
     closeDialog(null);
+  };
+
+  const setPricechartingData = (data: IPriceChartingData) => {
+    if (cloneForm) {
+      const updatedClone = { ...cloneForm, priceCharting: data };
+      setCloneForm(updatedClone);
+    }
   };
 
   return (
@@ -198,6 +249,18 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
               readOnly
             />
           </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pc-input'>Price Charting</label>
+            <PcPriceComponent
+              data-id='pc-input'
+              item={formatFormResult(cloneForm as IClone, 'CLONE')}
+              onSelectionMade={setPricechartingData}
+            />
+          </div>
+          {/** eslint-disable-next-line */}
+          {cloneForm?.priceCharting && (
+            <PcPriceDetailsComponent pcData={cloneForm?.priceCharting} />
+          )}
         </form>
         <div className='crud-form--image-and-data'>
           {cloneForm?.image && <img src={cloneForm?.image} alt='accessory' />}
@@ -213,7 +276,7 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
         />
         <Button
           label={`Save ${cloneForm?.name}`}
-          onClick={updateAcc}
+          onClick={updateClone}
           icon='pi pi-save'
           className='p-button-success'
         />

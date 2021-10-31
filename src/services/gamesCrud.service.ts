@@ -23,25 +23,6 @@ export const saveGame = async (game: IGame, isUpdate?: boolean) => {
   }
 };
 
-export const deleteGame = async (game: IGame) => {
-  const hasKey = !!getRequestKey();
-  if (hasKey && game) {
-    const params = makeRequest(endpoint, game._id);
-    const result = await Axios.delete(params.url, params.headers);
-    return result;
-  } else if (hasKey) {
-    return {
-      error: true,
-      message: 'Empty request: you must send a game to delete.'
-    };
-  } else {
-    return {
-      error: true,
-      message: 'You must be logged in to do that!'
-    };
-  }
-};
-
 export const igdbGameSearch = async (
   name: string,
   platform: number,

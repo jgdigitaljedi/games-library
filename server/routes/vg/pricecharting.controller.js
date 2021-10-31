@@ -2,6 +2,7 @@ const logger = require('../../config/logger');
 const axios = require('axios');
 const { SERVER_ERROR, BAD_REQUEST } = require('../../extra/utils/HttpStatusConstants');
 const priceChartingStats = require('./vgCrud/gamesSupp/priceChartingStats');
+const priceChartingUpdates = require('./vgCrud/gamesSupp/priceChartingUpdates');
 
 const createSearchGameName = game => {
   return game
@@ -88,6 +89,22 @@ module.exports.platformStats = function (req, res) {
 module.exports.accStats = function (req, res) {
   try {
     res.json(priceChartingStats.getAccStats());
+  } catch (error) {
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.cloneStats = function (req, res) {
+  try {
+    res.json(priceChartingStats.getClonesStats());
+  } catch (error) {
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.updateGamesPrices = function (req, res) {
+  try {
+    res.json(priceChartingUpdates.updateGames());
   } catch (error) {
     res.status(SERVER_ERROR).send(error);
   }

@@ -1,6 +1,7 @@
 import { ICollAssociatedCon } from './collectibles.model';
 import { IGame } from './games.model';
 import { IConsole } from './platforms.model';
+import { IPriceChartingData } from './pricecharting.model';
 
 export type Severity = 'success' | 'info' | 'error' | 'warn' | '';
 export type ItemCondition = 'Excellent' | 'Good' | 'Fair' | 'Poor' | 'Not Working';
@@ -77,8 +78,9 @@ export interface IClone {
   updatedAt: string;
   image: string;
   datePurchased: string;
-  newPurchaseDate: Date;
+  newPurchaseDate?: Date;
   _id: string;
+  priceCharting?: IPriceChartingData;
 }
 
 export interface IDateRelated {
@@ -115,3 +117,11 @@ export interface IStats {
   everDriveCounts: number;
   priceBreakdown: any;
 }
+
+export type ViewWhatType =
+  | 'games'
+  | 'consoles'
+  | 'accessories'
+  | 'clones'
+  | 'collectibles'
+  | 'hardware';

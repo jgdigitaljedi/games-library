@@ -32,10 +32,12 @@ module.exports.getGameStats = () => {
         acc[game.consoleName].diff = Sub(acc[game.consoleName].value, acc[game.consoleName].spent);
         acc[game.consoleName].count++;
       }
-      if (index + 1 === games.length) {
-        acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
-        acc.averageValue = Divide(acc.totalValue, acc.totalCount);
-      }
+    }
+    if (index + 1 === games.length) {
+      acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
+      console.log('acc.totalValue', acc.totalValue);
+      console.log('acc.totalCount', acc.totalCount);
+      acc.averageValue = Divide(acc.totalValue, acc.totalCount);
     }
     return acc;
   }, {});
@@ -82,7 +84,7 @@ module.exports.getPlatformStats = () => {
 };
 
 module.exports.getAccStats = () => {
-  const accessories = db.acc.find();
+  const accessories = db.gameAcc.find();
   return accessories.reduce((acc, accessory, index) => {
     if (index === 0) {
       acc.totalSpent = 0;
@@ -124,16 +126,57 @@ module.exports.getAccStats = () => {
   }, {});
 };
 
+module.exports.getClonesStats = () => {
+  try {
+    const clones = db.clones.find();
+    const counters = {};
+    return clones.reduce((acc, clone, index) => {
+      if (index === 0) {
+        acc.totalSpent = 0;
+        acc.totalValue = 0;
+        acc.totalCount = 0;
+        acc.averageValue = 0;
+      }
+      if (clone.hasOwnProperty('priceCharting')) {
+        const paid = clone.pricePaid ? parseFloat(clone.pricePaid) : 0;
+        const price = clone.priceCharting.price;
+        acc.totalSpent = Add(acc.totalSpent, paid);
+        acc.totalValue = Add(acc.totalValue, price);
+        acc.totalCount++;
+        if (!acc.hasOwnProperty(clone.name)) {
+          acc[clone.name] = { spent: paid || 0, value: price || 0, diff: price - paid };
+          counters[clone.name] = 1;
+        } else if (paid || price) {
+          const newCount = counters[clone.name] + 1;
+          counters[clone.name] = newCount;
+          acc[`${clone.name} (${newCount})`] = {
+            spent: paid || 0,
+            value: price || 0,
+            diff: price - paid
+          };
+        }
+        if (index + 1 === clones.length) {
+          acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
+          acc.averageValue = Divide(acc.totalValue, clones.length);
+        }
+      }
+      return acc;
+    }, {});
+  } catch (error) {
+    return error;
+  }
+};
+
 module.exports.getMostValuableGames = () => {
   return _sortBy(db.games.find(), 'priceCharting.price', null)
     .reverse()
     .filter(d => d?.priceCharting?.price)
-    .slice(0, 4);
+    .slice(0, 5);
 };
 
 module.exports.getMostValuableConsoles = () => {
   return _sortBy(db.consoles.find(), 'priceCharting.price', null)
     .reverse()
     .filter(d => d?.priceCharting?.price)
-    .slice(0, 4);
+    .slice(0, 5);
 };

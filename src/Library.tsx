@@ -9,7 +9,7 @@ import changePlatformsArr from './actionCreators/platformsArr';
 import FilterGroup from './components/filterGroup/FilterGroup';
 import { connect, useSelector } from 'react-redux';
 import { Dispatch } from 'redux';
-import { IDropdown } from './models/common.model';
+import { IDropdown, ViewWhatType } from './models/common.model';
 import { IGame } from './models/games.model';
 import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
@@ -24,7 +24,7 @@ import { getPlatformArr } from './services/globalData.service';
 import { NotificationContext } from './context/NotificationContext';
 import { cleanupGames } from './services/dataMassaging.service';
 import axios from 'axios';
-import { deleteGame } from './services/gamesCrud.service';
+import { deleteItem } from './services/generalCrud.service';
 
 interface IInputOptions {
   label: string;
@@ -33,7 +33,7 @@ interface IInputOptions {
 }
 
 interface MapStateProps {
-  viewWhat: string;
+  viewWhat: ViewWhatType;
   masterData: object[];
   filteredData: object[];
   platformsArr: IDropdown[];
@@ -41,7 +41,7 @@ interface MapStateProps {
 }
 
 interface MapDispatchProps {
-  setViewWhat: (viewWhat: string) => void;
+  setViewWhat: (viewWhat: ViewWhatType) => void;
   setMasterData: (masterData: object[]) => void;
   setFilteredData: (filteredData: object[]) => void;
   setPlatformsArr: (platformsArr: IDropdown[]) => void;
@@ -186,27 +186,25 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     [setShowModal, setNotify, getData]
   );
 
-  const deleteItem = async () => {
-    if (viewWhat === 'games') {
-      deleteGame(selectedItem)
-        .then(result => {
-          // @ts-ignore
-          if (result.status === 200) {
-            closeConfirmation();
-            closeDialog(selectedItem.name, true, 'removed');
-            getData();
-          }
-        })
-        .catch(error => {
-          console.log('delete game error', error);
+  const deleteEntry = async () => {
+    deleteItem(selectedItem._id, viewWhat as ViewWhatType)
+      .then(result => {
+        // @ts-ignore
+        if (result.status === 200) {
           closeConfirmation();
-          setNotify({
-            severity: 'error',
-            detail: 'Failed to delete game from collection!',
-            summary: 'ERROR'
-          });
+          closeDialog(selectedItem.name, true, 'removed');
+          getData();
+        }
+      })
+      .catch(error => {
+        console.log('delete game error', error);
+        closeConfirmation();
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to delete game from collection!',
+          summary: 'ERROR'
         });
-    }
+      });
   };
 
   useEffect(() => {
@@ -298,7 +296,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
                 icon='pi pi-check'
                 label='Yes'
                 className='p-button-primary'
-                onClick={deleteItem}
+                onClick={deleteEntry}
               />
               <Button
                 icon='pi pi-times'
@@ -363,7 +361,7 @@ const mapStateToProps = ({
   platformsArr,
   userState
 }: {
-  viewWhat: string;
+  viewWhat: ViewWhatType;
   masterData: object[];
   filteredData: object[];
   platformsArr: IDropdown[];
@@ -379,7 +377,7 @@ const mapStateToProps = ({
 };
 
 const mapDispatchToProps = (dispatch: Dispatch): MapDispatchProps => ({
-  setViewWhat: (viewWhat: string) => dispatch(changeViewWhat(viewWhat)),
+  setViewWhat: (viewWhat: ViewWhatType) => dispatch(changeViewWhat(viewWhat)),
   setMasterData: (masterData: object[]) => dispatch(changeMasterData(masterData)),
   setFilteredData: (filteredData: object[]) => dispatch(changeFilteredData(filteredData)),
   setPlatformsArr: (platformsArr: IDropdown[]) => dispatch(changePlatformsArr(platformsArr))

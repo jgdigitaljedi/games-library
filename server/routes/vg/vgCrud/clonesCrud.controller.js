@@ -3,7 +3,7 @@ const helper = require('../vgHelpers');
 
 const required = helper.clonesRequiredFields();
 
-module.exports.save = function(clone) {
+module.exports.save = function (clone) {
   return new Promise((resolve, reject) => {
     const now = helper.timeStamp();
     clone.createdAt = now;
@@ -33,7 +33,7 @@ module.exports.save = function(clone) {
   });
 };
 
-module.exports.getClones = function() {
+module.exports.getClones = function () {
   return db.clones.find().map(c => {
     c.wireless = c.wireless.toString();
     c.hacked = c.hacked.toString();
@@ -41,13 +41,14 @@ module.exports.getClones = function() {
   });
 };
 
-module.exports.delete = function(id) {
+module.exports.delete = function (id) {
   return db.clones.remove({
     _id: id
   });
 };
 
-module.exports.edit = function(id, updatedData) {
+module.exports.edit = function (id, updatedData) {
+  console.log('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& edit');
   return new Promise((resolve, reject) => {
     const updated = db.clones.update({ _id: id }, updatedData, { multi: false, upsert: false });
     if (updated && updated.updated && updated.updated === 1) {

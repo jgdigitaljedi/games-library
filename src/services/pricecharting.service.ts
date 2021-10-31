@@ -6,12 +6,13 @@ import {
   IPriceChartingData,
   PricechartingGameSearchResponse
 } from '@/models/pricecharting.model';
-import Axios, { AxiosError, AxiosResponse } from 'axios';
+import Axios, { AxiosResponse } from 'axios';
 import moment from 'moment';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
 import { CurrencyUtils } from 'stringman-utils';
 import { IAcc } from '@/models/accessories.model';
+import { IClone } from '@/models/common.model';
 
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
@@ -23,10 +24,11 @@ const mostValuablePlatforms = 'pcvalueplatforms';
 const pcStatsEndpoints = {
   GAME: 'pcgamestats',
   CONSOLE: 'pcplatformstats',
-  ACC: 'pcaccstats'
+  ACC: 'pcaccstats',
+  CLONE: 'pcclonestats'
 };
 
-export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC';
+export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC' | 'CLONE';
 
 export const pricechartingNameSearch = async (
   game: string
@@ -144,7 +146,7 @@ export const formatPcResult = (
   };
 };
 
-function getCibStatus(item: IGame | IConsole | IAcc, type: string): boolean {
+function getCibStatus(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
   switch (type) {
     case 'GAME':
     case 'ACC':
@@ -152,25 +154,28 @@ function getCibStatus(item: IGame | IConsole | IAcc, type: string): boolean {
       return !!item?.cib;
     case 'CONSOLE':
       return !!((item as IConsole)?.manual && (item as IConsole)?.box);
+    case 'CLONE':
+      return true; // @TODO: all of mine are CIB for now, need to add CIB to clones
     default:
       return false;
   }
 }
 
-function getConsoleName(item: IGame | IConsole | IAcc, type: string): string {
+function getConsoleName(item: IGame | IConsole | IAcc | IClone, type: string): string {
   switch (type) {
     case 'GAME':
     case 'ACC':
       // @ts-ignore
       return item?.consoleName;
     case 'CONSOLE':
+    case 'CLONE':
       return item?.name;
     default:
       return '';
   }
 }
 
-function getConsoleId(item: IGame | IConsole | IAcc, type: string): number {
+function getConsoleId(item: IGame | IConsole | IAcc | IClone, type: string): number {
   switch (type) {
     case 'GAME':
     case 'ACC':
@@ -179,12 +184,13 @@ function getConsoleId(item: IGame | IConsole | IAcc, type: string): number {
     case 'CONSOLE':
       // @ts-ignore
       return item?.id;
+    case 'CLONE':
     default:
       return 9999999999999999999999;
   }
 }
 
-function getBox(item: IGame | IConsole | IAcc, type: string): boolean {
+function getBox(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
   switch (type) {
     case 'GAME':
       return !!(item as IGame)?.cib;
@@ -192,12 +198,14 @@ function getBox(item: IGame | IConsole | IAcc, type: string): boolean {
     case 'CONSOLE':
       // @ts-ignore
       return !!item?.box;
+    case 'CLONE':
+      return true; // @TODO: all of mine are CIB for now, need to add box to clones
     default:
       return false;
   }
 }
 
-function getManual(item: IGame | IConsole | IAcc, type: string): boolean {
+function getManual(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
   switch (type) {
     case 'ACC':
       return !!(item as IAcc)?.cib;
@@ -205,13 +213,15 @@ function getManual(item: IGame | IConsole | IAcc, type: string): boolean {
     case 'CONSOLE':
       // @ts-ignore
       return !!item?.manual;
+    case 'CLONE':
+      return true; // @TODO: all of mine are CIB for now, need to add manual to clones
     default:
       return false;
   }
 }
 
 export function formatFormResult(
-  data: IGame | IConsole | IAcc,
+  data: IGame | IConsole | IAcc | IClone,
   type: IPcFormatType
 ): IItemCommonFormat {
   return {
@@ -222,7 +232,8 @@ export function formatFormResult(
     consoleId: getConsoleId(data, type),
     box: getBox(data, type),
     manual: getManual(data, type),
-    notes: data?.notes || '',
+    // @ts-ignore
+    notes: type === 'CLONE' ? '' : data?.notes || '', // @TODO: add notes to clones
     type
   };
 }

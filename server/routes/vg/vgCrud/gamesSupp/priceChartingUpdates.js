@@ -9,6 +9,7 @@ const saveUpdatedAcc = require('../../vgCrud/accCrud.controller').edit;
 const moment = require('moment');
 const CurrencyUtils = require('stringman-utils').CurrencyUtils;
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
+const Mult = require('stringman-utils').precisionMathMultiply;
 
 function getPriceForBoxCase(data, boxCase) {
   if (boxCase === 'sealed') {
@@ -22,7 +23,10 @@ function getPriceForBoxCase(data, boxCase) {
 const formatPcResult = (newData, data, which) => {
   console.log('data', data);
   const boxCase = data.priceCharting.case;
-  const itemPrice = getPriceForBoxCase(newData, boxCase);
+  const itemPrice =
+    which === 'ACC'
+      ? Mult(getPriceForBoxCase(newData, boxCase), data?.quantity || 1)
+      : getPriceForBoxCase(newData, boxCase);
   const lastUpdated = moment().format('MM/DD/YYYY');
   return {
     consoleName: data.priceCharting.consoleName,

@@ -69,7 +69,9 @@ export default function (view: string) {
         { field: 'hacked', header: 'Hacked', sortable: true },
         { field: 'addons', header: 'Addons', sortable: true },
         { field: 'datePurchased', header: 'Purchase Date', sortable: true },
-        { field: 'pricePaid', header: 'Purchase Price' }
+        { field: 'pricePaid', header: 'Purchase Price' },
+        { field: 'priceCharting.price', header: 'PC Price', sortable: true },
+        { field: 'priceCharting.lastUpdated', header: 'PC Date', sortable: true }
       ];
       break;
     case 'collectibles':

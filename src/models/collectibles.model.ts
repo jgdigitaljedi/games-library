@@ -1,3 +1,5 @@
+import { IPriceChartingData } from './pricecharting.model';
+
 export interface ICollAssociatedCon {
   id: number | string;
   name: string;
@@ -21,4 +23,5 @@ export interface ICollectible {
   type: string;
   updatedAt: string;
   _id: string;
+  priceCharting?: IPriceChartingData;
 }

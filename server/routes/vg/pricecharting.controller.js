@@ -103,9 +103,10 @@ module.exports.cloneStats = function (req, res) {
   }
 };
 
-module.exports.updateGamesPrices = function (req, res) {
+module.exports.updateGamesPrices = async function (req, res) {
   try {
-    res.json(priceChartingUpdates.updateGames());
+    await priceChartingUpdates.updateGames();
+    res.json(db.games.find());
   } catch (error) {
     res.status(SERVER_ERROR).send(error);
   }
@@ -115,6 +116,26 @@ module.exports.updateConsolesPrices = async function (req, res) {
   try {
     await priceChartingUpdates.updateConsoles();
     res.json(db.consoles.find());
+  } catch (error) {
+    console.log('(*^&^%^%$%$#%$^%&^%&^%*&error', error);
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.updateClonesPrices = async function (req, res) {
+  try {
+    await priceChartingUpdates.updateClones();
+    res.json(db.clones.find());
+  } catch (error) {
+    console.log('(*^&^%^%$%$#%$^%&^%&^%*&error', error);
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.updateAccPrices = async function (req, res) {
+  try {
+    await priceChartingUpdates.updateAcc();
+    res.json(db.gameAcc.find());
   } catch (error) {
     console.log('(*^&^%^%$%$#%$^%&^%&^%*&error', error);
     res.status(SERVER_ERROR).send(error);

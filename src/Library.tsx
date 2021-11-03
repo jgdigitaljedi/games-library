@@ -274,13 +274,15 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       <div className='filter-add'>
         <div className='items-count'>
           {filteredData.length} {viewWhat}
-          <Button
-            onClick={updateAllPcPrices}
-            loading={!!updatingAll}
-            icon={`pi ${updatingAll ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
-            label='Update All PC Prices'
-            style={{ marginLeft: '1rem' }}
-          />
+          {viewWhat !== 'hardware' && (
+            <Button
+              onClick={updateAllPcPrices}
+              loading={!!updatingAll}
+              icon={`pi ${updatingAll ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
+              label='Update All PC Prices'
+              style={{ marginLeft: '1rem' }}
+            />
+          )}
         </div>
         <FilterGroup />
         <Button

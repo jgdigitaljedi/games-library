@@ -13,6 +13,7 @@ import { makeRequest } from './generalCrud.service';
 import { CurrencyUtils } from 'stringman-utils';
 import { IAcc } from '@/models/accessories.model';
 import { IClone, ViewWhatType } from '@/models/common.model';
+import { ICollectible } from '@/models/collectibles.model';
 
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
@@ -25,7 +26,8 @@ const pcStatsEndpoints = {
   GAME: 'pcgamestats',
   CONSOLE: 'pcplatformstats',
   ACC: 'pcaccstats',
-  CLONE: 'pcclonestats'
+  CLONE: 'pcclonestats',
+  COLL: 'pccollstats'
 };
 
 interface IPcUpdateEndpoints {
@@ -41,12 +43,12 @@ const pcUpdateEndpoints: IPcUpdateEndpoints = {
   games: 'pcupdategames',
   consoles: 'pcupdateconsoles',
   accessories: 'pcupdateacc',
-  clones: 'pcupdatesclones',
+  clones: 'pcupdateclones',
   collectibles: 'pcupdatecollectibles',
   hardware: ''
 };
 
-export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC' | 'CLONE';
+export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC' | 'CLONE' | 'COLL';
 
 export const pricechartingNameSearch = async (
   game: string
@@ -164,7 +166,10 @@ export const formatPcResult = (
   };
 };
 
-function getCibStatus(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
+function getCibStatus(
+  item: IGame | IConsole | IAcc | IClone | ICollectible,
+  type: string
+): boolean {
   switch (type) {
     case 'GAME':
     case 'ACC':
@@ -174,12 +179,17 @@ function getCibStatus(item: IGame | IConsole | IAcc | IClone, type: string): boo
       return !!((item as IConsole)?.manual && (item as IConsole)?.box);
     case 'CLONE':
       return true; // @TODO: all of mine are CIB for now, need to add CIB to clones
+    case 'COLL':
+      return (item as ICollectible)?.notes.indexOf('box') >= 0;
     default:
       return false;
   }
 }
 
-function getConsoleName(item: IGame | IConsole | IAcc | IClone, type: string): string {
+function getConsoleName(
+  item: IGame | IConsole | IAcc | IClone | ICollectible,
+  type: string
+): string {
   switch (type) {
     case 'GAME':
     case 'ACC':
@@ -188,12 +198,14 @@ function getConsoleName(item: IGame | IConsole | IAcc | IClone, type: string): s
     case 'CONSOLE':
     case 'CLONE':
       return item?.name;
+    case 'COLL':
+      return (item as ICollectible)?.associatedConsoles[0].name || '';
     default:
       return '';
   }
 }
 
-function getConsoleId(item: IGame | IConsole | IAcc | IClone, type: string): number {
+function getConsoleId(item: IGame | IConsole | IAcc | IClone | ICollectible, type: string): number {
   switch (type) {
     case 'GAME':
     case 'ACC':
@@ -202,13 +214,17 @@ function getConsoleId(item: IGame | IConsole | IAcc | IClone, type: string): num
     case 'CONSOLE':
       // @ts-ignore
       return item?.id;
+    case 'COLL':
+      return parseInt(
+        (item as ICollectible)?.associatedConsoles[0].id.toString() || '9999999999999999999999'
+      );
     case 'CLONE':
     default:
       return 9999999999999999999999;
   }
 }
 
-function getBox(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
+function getBox(item: IGame | IConsole | IAcc | IClone | ICollectible, type: string): boolean {
   switch (type) {
     case 'GAME':
       return !!(item as IGame)?.cib;
@@ -218,12 +234,14 @@ function getBox(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
       return !!item?.box;
     case 'CLONE':
       return true; // @TODO: all of mine are CIB for now, need to add box to clones
+    case 'COLL':
+      return (item as ICollectible)?.notes.indexOf('box') >= 0;
     default:
       return false;
   }
 }
 
-function getManual(item: IGame | IConsole | IAcc | IClone, type: string): boolean {
+function getManual(item: IGame | IConsole | IAcc | IClone | ICollectible, type: string): boolean {
   switch (type) {
     case 'ACC':
       return !!(item as IAcc)?.cib;
@@ -233,13 +251,15 @@ function getManual(item: IGame | IConsole | IAcc | IClone, type: string): boolea
       return !!item?.manual;
     case 'CLONE':
       return true; // @TODO: all of mine are CIB for now, need to add manual to clones
+    case 'COLL':
+      return (item as ICollectible)?.notes.indexOf('box') >= 0;
     default:
       return false;
   }
 }
 
 export function formatFormResult(
-  data: IGame | IConsole | IAcc | IClone,
+  data: IGame | IConsole | IAcc | IClone | ICollectible,
   type: IPcFormatType
 ): IItemCommonFormat {
   return {
@@ -253,6 +273,7 @@ export function formatFormResult(
     // @ts-ignore
     notes: type === 'CLONE' ? '' : data?.notes || '', // @TODO: add notes to clones
     type,
+    // @ts-ignore
     priceCharting: data?.priceCharting || undefined
   };
 }

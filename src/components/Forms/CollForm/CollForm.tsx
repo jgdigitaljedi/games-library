@@ -10,6 +10,10 @@ import { handleChange } from '@/services/forms.service';
 import helpersService from '../../../services/helpers.service';
 import { connect } from 'react-redux';
 import { InputTextarea } from 'primereact/inputtextarea';
+import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
+import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
+import { formatFormResult } from '@/services/pricecharting.service';
+import { IPriceChartingData } from '@/models/pricecharting.model';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -79,6 +83,13 @@ const CollForm: FunctionComponent<IProps> = ({
     // resetGameForm();
     closeConfirmation();
     closeDialog(null);
+  };
+
+  const setPricechartingData = (data: IPriceChartingData) => {
+    if (collForm) {
+      const updatedColl = { ...collForm, priceCharting: data };
+      setCollForm(updatedColl);
+    }
   };
 
   return (
@@ -203,6 +214,16 @@ const CollForm: FunctionComponent<IProps> = ({
               readOnly
             />
           </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='pc-input'>Price Charting</label>
+            <PcPriceComponent
+              data-id='pc-input'
+              item={formatFormResult(collForm as ICollectible, 'COLL')}
+              onSelectionMade={setPricechartingData}
+            />
+          </div>
+          {/** eslint-disable-next-line */}
+          {collForm?.priceCharting && <PcPriceDetailsComponent pcData={collForm?.priceCharting} />}
         </form>
         <div className='crud-form--image-and-data'>
           {collForm?.image && <img src={collForm?.image} alt='collectible' />}

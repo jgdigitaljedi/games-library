@@ -21,7 +21,7 @@ export interface IPriceChartingData {
   lastUpdated: string;
 }
 
-type IItemTypeField = 'GAME' | 'CONSOLE' | 'ACC' | 'CLONE';
+type IItemTypeField = 'GAME' | 'CONSOLE' | 'ACC' | 'CLONE' | 'COLL';
 
 export interface IItemCommonFormat {
   name: string;

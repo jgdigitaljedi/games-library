@@ -35,8 +35,6 @@ module.exports.getGameStats = () => {
     }
     if (index + 1 === games.length) {
       acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
-      console.log('acc.totalValue', acc.totalValue);
-      console.log('acc.totalCount', acc.totalCount);
       acc.averageValue = Divide(acc.totalValue, acc.totalCount);
     }
     return acc;
@@ -155,10 +153,53 @@ module.exports.getClonesStats = () => {
             diff: price - paid
           };
         }
-        if (index + 1 === clones.length) {
-          acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
-          acc.averageValue = Divide(acc.totalValue, clones.length);
+      }
+      if (index + 1 === clones.length) {
+        acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
+        acc.averageValue = Divide(acc.totalValue, clones.length);
+      }
+      return acc;
+    }, {});
+  } catch (error) {
+    return error;
+  }
+};
+
+module.exports.getCollStats = () => {
+  try {
+    const colls = db.collectibles.find();
+    const counters = {};
+    return colls.reduce((acc, coll, index) => {
+      if (index === 0) {
+        acc.totalSpent = 0;
+        acc.totalValue = 0;
+        acc.totalCount = 0;
+        acc.averageValue = 0;
+        acc.totalDiff = 0;
+      }
+      if (coll.hasOwnProperty('priceCharting')) {
+        const paid = coll.pricePaid ? parseFloat(coll.pricePaid) : 0;
+        const price = coll.priceCharting.price;
+        acc.totalSpent = Add(acc.totalSpent, paid);
+        acc.totalValue = Add(acc.totalValue, price);
+        acc.totalCount++;
+        if (!acc.hasOwnProperty(coll.name)) {
+          acc[coll.name] = { spent: paid || 0, value: price || 0, diff: price - paid };
+          counters[coll.name] = 1;
+        } else if (paid || price) {
+          const newCount = counters[coll.name] + 1;
+          counters[coll.name] = newCount;
+          acc[`${coll.name} (${newCount})`] = {
+            spent: paid || 0,
+            value: price || 0,
+            diff: price - paid
+          };
         }
+      }
+      if (index + 1 === colls.length) {
+        // console.log('in last if', Divide(acc.totalValue, acc.totalLength));
+        acc.totalDiff = Sub(acc.totalValue, acc.totalSpent);
+        acc.averageValue = Divide(acc.totalValue, acc.totalCount);
       }
       return acc;
     }, {});

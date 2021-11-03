@@ -84,7 +84,9 @@ export default function (view: string) {
         { field: 'officialLicensed', header: 'Official', sortable: true },
         { field: 'purchaseDate', header: 'Purchase Date', sortable: true },
         { field: 'pricePaid', header: 'Purchase Price' },
-        { field: 'howAcquired', header: 'How Acquired', sortable: true }
+        { field: 'howAcquired', header: 'How Acquired', sortable: true },
+        { field: 'priceCharting.price', header: 'PC Price', sortable: true },
+        { field: 'priceCharting.lastUpdated', header: 'PC Date', sortable: true }
       ];
       break;
     case 'hardware':

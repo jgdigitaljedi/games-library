@@ -107,7 +107,7 @@ export const getPcStats = async (which: IPcFormatType): Promise<any> => {
 };
 
 function getBoxSituation(
-  item: IGame | IConsole | IItemCommonFormat,
+  item: IGame | IConsole | IAcc | ICollectible | IItemCommonFormat,
   type: IPcFormatType
 ): IPCCaseType {
   if (type === 'GAME') {
@@ -118,10 +118,21 @@ function getBoxSituation(
     }
     return 'loose';
   }
-  if ((item as IConsole).box && (item as IConsole).manual && item.notes.indexOf('sealed') >= 0) {
+  if (
+    type === 'CONSOLE' &&
+    (item as IConsole).box &&
+    (item as IConsole).manual &&
+    item.notes.indexOf('sealed') >= 0
+  ) {
     return 'sealed';
   } else if ((item as IConsole).box && (item as IConsole).manual) {
     return 'cib';
+  }
+  if (
+    (type === 'COLL' && (item as ICollectible).notes.indexOf('box') >= 0) ||
+    (item as ICollectible).notes.indexOf('sealed') >= 0
+  ) {
+    return 'sealed';
   }
   return 'loose';
 }
@@ -180,7 +191,10 @@ function getCibStatus(
     case 'CLONE':
       return true; // @TODO: all of mine are CIB for now, need to add CIB to clones
     case 'COLL':
-      return (item as ICollectible)?.notes.indexOf('box') >= 0;
+      return (
+        (item as ICollectible)?.notes.indexOf('box') >= 0 ||
+        (item as ICollectible)?.notes.indexOf('sealed') >= 0
+      );
     default:
       return false;
   }

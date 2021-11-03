@@ -48,7 +48,6 @@ module.exports.delete = function (id) {
 };
 
 module.exports.edit = function (id, updatedData) {
-  console.log('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& edit');
   return new Promise((resolve, reject) => {
     const updated = db.clones.update({ _id: id }, updatedData, { multi: false, upsert: false });
     if (updated && updated.updated && updated.updated === 1) {

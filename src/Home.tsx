@@ -30,6 +30,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [pcAccStats, setPcAccStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [pcCloneStats, setPcCloneStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
+  const [pcCollStats, setPcCollStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [highValueGames, setHighValueGames] = useState<IGame[]>([]);
   const [highValuePlatforms, setHighValuePlatforms] = useState<IConsole[]>([]);
   const chartOptions = {
@@ -111,6 +112,16 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       });
     }
     try {
+      const collStats = await getPcStats('COLL');
+      setPcCollStats(collStats.data);
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch PriceCharting collectibles stats!',
+        summary: 'ERROR'
+      });
+    }
+    try {
       const valuableGames = await getHighestValueGames();
       setHighValueGames(valuableGames.data);
     } catch (err) {
@@ -137,19 +148,23 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       totalSpent:
         (pcGameStats?.totalSpent || 0) +
         (pcPlatformStats?.totalSpent || 0) +
-        (pcAccStats?.totalSpent || 0),
+        (pcAccStats?.totalSpent || 0) +
+        (pcCollStats?.totalSpent || 0),
       totalValue:
         (pcGameStats?.totalValue || 0) +
         (pcPlatformStats?.totalValue || 0) +
-        (pcAccStats?.totalValue || 0),
+        (pcAccStats?.totalValue || 0) +
+        (pcCollStats?.totalValue || 0),
       totalDiff:
         (pcGameStats?.totalDiff || 0) +
         (pcPlatformStats?.totalDiff || 0) +
-        (pcAccStats?.totalDiff || 0),
+        (pcAccStats?.totalDiff || 0) +
+        (pcCollStats?.totalDiff || 0),
       totalCount:
         (pcGameStats?.totalCount || 0) +
         (pcPlatformStats?.totalCount || 0) +
-        (pcAccStats?.totalCount || 0),
+        (pcAccStats?.totalCount || 0) +
+        (pcCollStats?.totalCount || 0),
       'Game Totals': {
         spent: pcGameStats?.totalSpent || 0,
         value: pcGameStats?.totalValue || 0,
@@ -173,6 +188,12 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         value: pcCloneStats?.totalValue || 0,
         diff: pcCloneStats?.totalDiff || 0,
         count: pcCloneStats?.totalCount || 0
+      },
+      'Collectibles Totals': {
+        spent: pcCollStats?.totalSpent || 0,
+        value: pcCollStats?.totalValue || 0,
+        diff: pcCollStats?.totalDiff || 0,
+        count: pcCollStats?.totalCount || 0
       }
     };
   };
@@ -247,7 +268,18 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           </div>
         </div>
       )}
-      {pcPlatformStats && pcGameStats && (
+      {pcCollStats && (
+        <div className='price-totals-wrapper'>
+          <h3>
+            Collectibles Valuation
+            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(pcCollStats.averageValue)})`}
+          </h3>
+          <div className='home--row'>
+            <HomeTopPrices data={pcCollStats} noCounts={true} />
+          </div>
+        </div>
+      )}
+      {pcPlatformStats && pcGameStats && pcCollStats && pcCloneStats && (
         <div className='price-totals-wrapper'>
           <h3>Total Collection Valuation</h3>
           <div className='home--row'>

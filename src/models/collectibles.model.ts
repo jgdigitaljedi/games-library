@@ -15,7 +15,7 @@ export interface ICollectible {
   image: string;
   name: string;
   notes: string;
-  newPurchaseDate: Date;
+  newPurchaseDate?: Date;
   officialLicensed: string | boolean;
   pricePaid: string | number;
   purchaseDate: string;

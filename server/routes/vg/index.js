@@ -47,12 +47,14 @@ router.get('/pcgamestats', pcCtrl.gameStats);
 router.get('/pcplatformstats', pcCtrl.platformStats);
 router.get('/pcaccstats', pcCtrl.accStats);
 router.get('/pcclonestats', pcCtrl.cloneStats);
+router.get('/pccollstats', pcCtrl.collStats);
 router.get('/pcvaluegames', pcCtrl.mostValuableGames);
 router.get('/pcvalueplatforms', pcCtrl.mostValuablePlatforms);
 router.get('/pcupdategames', pcCtrl.updateGamesPrices);
 router.get('/pcupdateconsoles', pcCtrl.updateConsolesPrices);
 router.get('/pcupdateclones', pcCtrl.updateClonesPrices);
 router.get('/pcupdateacc', pcCtrl.updateAccPrices);
+router.get('/pcupdatecollectibles', pcCtrl.updateCollPrices);
 
 // Update install_base values from GB on most recent generations of consoles
 router.post('/updateconsole/:id', updateCtrl.updateConsoles);

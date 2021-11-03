@@ -103,6 +103,14 @@ module.exports.cloneStats = function (req, res) {
   }
 };
 
+module.exports.collStats = function (req, res) {
+  try {
+    res.json(priceChartingStats.getCollStats());
+  } catch (error) {
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
 module.exports.updateGamesPrices = async function (req, res) {
   try {
     await priceChartingUpdates.updateGames();
@@ -136,6 +144,16 @@ module.exports.updateAccPrices = async function (req, res) {
   try {
     await priceChartingUpdates.updateAcc();
     res.json(db.gameAcc.find());
+  } catch (error) {
+    console.log('(*^&^%^%$%$#%$^%&^%&^%*&error', error);
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.updateCollPrices = async function (req, res) {
+  try {
+    await priceChartingUpdates.updateColl();
+    res.json(db.collectibles.find());
   } catch (error) {
     console.log('(*^&^%^%$%$#%$^%&^%&^%*&error', error);
     res.status(SERVER_ERROR).send(error);

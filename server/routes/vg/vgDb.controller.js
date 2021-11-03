@@ -295,9 +295,9 @@ module.exports.deleteColl = function (req, res) {
 };
 
 module.exports.editColl = function (req, res) {
-  if (req.params.id && req.body.platform) {
+  if (req.params.id && req.body.collectible) {
     collCrud
-      .edit(req.params.id, req.body.platform)
+      .edit(req.params.id, req.body.collectible)
       .then(result => {
         res.status(200).json(result);
       })

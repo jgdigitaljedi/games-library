@@ -6,6 +6,7 @@ const saveUpdatedGame = require('../../vgCrud/gamesCrud.controller').edit;
 const saveUpdatedConsole = require('../../vgCrud/consolesCrud.controller').edit;
 const saveUpdatedClone = require('../../vgCrud/clonesCrud.controller').edit;
 const saveUpdatedAcc = require('../../vgCrud/accCrud.controller').edit;
+const saveUpdatedColl = require('../../vgCrud/collectiblesCrud.controller').edit;
 const moment = require('moment');
 const CurrencyUtils = require('stringman-utils').CurrencyUtils;
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
@@ -24,7 +25,7 @@ const formatPcResult = (newData, data, which) => {
   console.log('data', data);
   const boxCase = data.priceCharting.case;
   const itemPrice =
-    which === 'ACC'
+    which === 'ACC' || which === 'COLL'
       ? Mult(getPriceForBoxCase(newData, boxCase), data?.quantity || 1)
       : getPriceForBoxCase(newData, boxCase);
   const lastUpdated = moment().format('MM/DD/YYYY');
@@ -104,6 +105,20 @@ async function updateAccData(data) {
   }
 }
 
+async function updateCollData(data) {
+  if (data.hasOwnProperty('priceCharting')) {
+    const newData = await getDataById(data);
+    const formatted = formatPcResult(newData.data, data, 'COLL');
+    const saveStatus = await saveUpdatedColl(data._id, {
+      ...data,
+      priceCharting: { ...formatted }
+    });
+    return saveStatus;
+  } else {
+    return null;
+  }
+}
+
 function throttleCalls(data, cb) {
   return new Promise((resolve, reject) => {
     try {
@@ -155,6 +170,16 @@ module.exports.updateAcc = async function () {
   const acc = db.gameAcc.find();
   try {
     const result = await throttleCalls(acc, updateAccData);
+    return result;
+  } catch (error) {
+    return Promise.resolve({ error: true, message: error });
+  }
+};
+
+module.exports.updateColl = async function () {
+  const coll = db.collectibles.find();
+  try {
+    const result = await throttleCalls(coll, updateCollData);
     return result;
   } catch (error) {
     return Promise.resolve({ error: true, message: error });

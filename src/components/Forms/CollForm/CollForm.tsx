@@ -3,7 +3,14 @@ import { Calendar } from 'primereact/calendar';
 import { InputSwitch } from 'primereact/inputswitch';
 import { InputText } from 'primereact/inputtext';
 import { ListBox } from 'primereact/listbox';
-import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
+import React, {
+  FunctionComponent,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState
+} from 'react';
 import { IDropdown } from '@/models/common.model';
 import { ICollectible, ICollAssociatedCon } from '@/models/collectibles.model';
 import { handleChange } from '@/services/forms.service';
@@ -14,6 +21,10 @@ import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
 import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
 import { formatFormResult } from '@/services/pricecharting.service';
 import { IPriceChartingData } from '@/models/pricecharting.model';
+import { cloneDeep as _cloneDeep } from 'lodash';
+import { NotificationContext } from '@/context/NotificationContext';
+import moment from 'moment';
+import { saveCollectible } from '@/services/collectibleCrud.service';
 
 interface MapStateProps {
   platformsArr: IDropdown[];
@@ -35,6 +46,12 @@ const CollForm: FunctionComponent<IProps> = ({
   // eslint-disable-next-line
   const [addMode, setAddMode] = useState<boolean>(false);
   const [pArr, setPArr] = useState<ICollAssociatedCon[]>([]);
+  // eslint-disable-next-line
+  const [notify, setNotify] = useContext(NotificationContext);
+
+  const isUpdate = useMemo(() => {
+    return !addMode && collForm?.hasOwnProperty('_id');
+  }, [addMode, collForm]);
 
   const userChange = (e: any) => {
     closeConfirmation();
@@ -73,11 +90,35 @@ const CollForm: FunctionComponent<IProps> = ({
   }, [collectible, setAddMode, platformsArr]);
 
   const updateColl = useCallback(() => {
-    // make save call
-    // also, convert newDatePurchased to formatted string for datePurchased (or do I make the backend do this which is probably the better choice)
     closeConfirmation();
-    closeDialog(collForm?.name);
-  }, [closeConfirmation, closeDialog, collForm]);
+    const collCopy = _cloneDeep(collForm);
+    const isPatch = isUpdate;
+    if (!collCopy) {
+      setNotify({
+        severity: 'error',
+        detail: 'Empty of incomplete data for clone to be saved.',
+        summary: 'ERROR'
+      });
+      return;
+    }
+    if (!isPatch) {
+      collCopy.purchaseDate = moment(collForm?.newPurchaseDate).format('YYYY-MM-DD');
+    }
+    delete collCopy.newPurchaseDate;
+    saveCollectible(collCopy, isPatch)
+      .then(result => {
+        closeDialog(collForm?.name, true, 'added');
+      })
+      .catch(error => {
+        console.log('save collectible error', error);
+        closeDialog(collForm?.name, false, 'added');
+        setNotify({
+          severity: 'error',
+          detail: 'Error saving clone!.',
+          summary: 'ERROR'
+        });
+      });
+  }, [closeConfirmation, closeDialog, collForm, isUpdate, setNotify]);
 
   const cancelClicked = () => {
     // resetGameForm();

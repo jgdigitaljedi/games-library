@@ -33,7 +33,7 @@ const PcPriceComponent: React.FC<IPcPriceComponentProps> = ({ item, onSelectionM
   };
 
   useEffect(() => {
-    setValue(item.name || '');
+    setValue(item?.priceCharting?.name || item.name || '');
   }, [item]);
 
   return (

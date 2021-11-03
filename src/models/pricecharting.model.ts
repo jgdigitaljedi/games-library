@@ -32,6 +32,7 @@ export interface IItemCommonFormat {
   manual: boolean;
   notes: string;
   type: IItemTypeField;
+  priceCharting?: IPriceChartingData;
 }
 
 export interface IPcStatsTotalsFixed {

@@ -252,7 +252,8 @@ export function formatFormResult(
     manual: getManual(data, type),
     // @ts-ignore
     notes: type === 'CLONE' ? '' : data?.notes || '', // @TODO: add notes to clones
-    type
+    type,
+    priceCharting: data?.priceCharting || undefined
   };
 }
 

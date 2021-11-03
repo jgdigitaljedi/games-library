@@ -4,6 +4,8 @@ const chalk = require('chalk');
 const async = require('async');
 const saveUpdatedGame = require('../../vgCrud/gamesCrud.controller').edit;
 const saveUpdatedConsole = require('../../vgCrud/consolesCrud.controller').edit;
+const saveUpdatedClone = require('../../vgCrud/clonesCrud.controller').edit;
+const saveUpdatedAcc = require('../../vgCrud/accCrud.controller').edit;
 const moment = require('moment');
 const CurrencyUtils = require('stringman-utils').CurrencyUtils;
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
@@ -24,7 +26,7 @@ const formatPcResult = (newData, data, which) => {
   const lastUpdated = moment().format('MM/DD/YYYY');
   return {
     consoleName: data.priceCharting.consoleName,
-    id: data.id,
+    id: data.priceCharting.id,
     price: currencyUtils.minorToMajorUnits(itemPrice, false),
     name: data.priceCharting.name,
     case: boxCase,
@@ -70,6 +72,34 @@ async function updateConsoleData(data) {
   }
 }
 
+async function updateCloneData(data) {
+  if (data.hasOwnProperty('priceCharting')) {
+    const newData = await getDataById(data);
+    const formatted = formatPcResult(newData.data, data, 'CLONE');
+    const saveStatus = await saveUpdatedClone(data._id, {
+      ...data,
+      priceCharting: { ...formatted }
+    });
+    return saveStatus;
+  } else {
+    return null;
+  }
+}
+
+async function updateAccData(data) {
+  if (data.hasOwnProperty('priceCharting')) {
+    const newData = await getDataById(data);
+    const formatted = formatPcResult(newData.data, data, 'ACC');
+    const saveStatus = await saveUpdatedAcc(data._id, {
+      ...data,
+      priceCharting: { ...formatted }
+    });
+    return saveStatus;
+  } else {
+    return null;
+  }
+}
+
 function throttleCalls(data, cb) {
   return new Promise((resolve, reject) => {
     try {
@@ -101,6 +131,26 @@ module.exports.updateConsoles = async function () {
   const consoles = db.consoles.find();
   try {
     const result = await throttleCalls(consoles, updateConsoleData);
+    return result;
+  } catch (error) {
+    return Promise.resolve({ error: true, message: error });
+  }
+};
+
+module.exports.updateClones = async function () {
+  const clones = db.clones.find();
+  try {
+    const result = await throttleCalls(clones, updateCloneData);
+    return result;
+  } catch (error) {
+    return Promise.resolve({ error: true, message: error });
+  }
+};
+
+module.exports.updateAcc = async function () {
+  const acc = db.gameAcc.find();
+  try {
+    const result = await throttleCalls(acc, updateAccData);
     return result;
   } catch (error) {
     return Promise.resolve({ error: true, message: error });

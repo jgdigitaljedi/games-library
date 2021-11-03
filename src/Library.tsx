@@ -276,8 +276,10 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           {filteredData.length} {viewWhat}
           <Button
             onClick={updateAllPcPrices}
+            loading={!!updatingAll}
             icon={`pi ${updatingAll ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
             label='Update All PC Prices'
+            style={{ marginLeft: '1rem' }}
           />
         </div>
         <FilterGroup />

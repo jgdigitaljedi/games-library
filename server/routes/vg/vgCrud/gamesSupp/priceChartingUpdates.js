@@ -3,12 +3,41 @@ const axios = require('axios');
 const chalk = require('chalk');
 const async = require('async');
 const saveUpdatedGame = require('../../vgCrud/gamesCrud.controller').edit;
+const saveUpdatedConsole = require('../../vgCrud/consolesCrud.controller').edit;
+const moment = require('moment');
+const CurrencyUtils = require('stringman-utils').CurrencyUtils;
+const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
+
+function getPriceForBoxCase(data, boxCase) {
+  if (boxCase === 'sealed') {
+    return Math.abs(data['new-price'] || 0);
+  } else if (boxCase === 'cib') {
+    return Math.abs(data['cib-price'] || 0);
+  }
+  return Math.abs(data['loose-price'] || 0);
+}
+
+const formatPcResult = (newData, data, which) => {
+  console.log('data', data);
+  const boxCase = data.priceCharting.case;
+  const itemPrice = getPriceForBoxCase(newData, boxCase);
+  const lastUpdated = moment().format('MM/DD/YYYY');
+  return {
+    consoleName: data.priceCharting.consoleName,
+    id: data.id,
+    price: currencyUtils.minorToMajorUnits(itemPrice, false),
+    name: data.priceCharting.name,
+    case: boxCase,
+    lastUpdated
+  };
+};
 
 async function getDataById(item) {
   try {
     const url = `https://www.pricecharting.com/api/product?t=${process.env.PRICECHARTING_API_KEY}&id=${item.priceCharting.id}`;
     return await axios.get(url);
   } catch (error) {
+    console.log('pc call error', error);
     return { error: true, message: error };
   }
 }
@@ -16,18 +45,35 @@ async function getDataById(item) {
 async function updateGameData(game) {
   if (game.hasOwnProperty('priceCharting')) {
     const newData = await getDataById(game);
-    const saveStatus = await saveUpdatedGame(game._id, { ...game, priceCharting: { ...newData } });
+    const formatted = formatPcResult(newData.data, game, 'GAME');
+    const saveStatus = await saveUpdatedGame(game._id, {
+      ...game,
+      priceCharting: { ...formatted }
+    });
     return saveStatus;
   } else {
     return null;
   }
 }
 
-module.exports.updateGames = async function () {
+async function updateConsoleData(data) {
+  if (data.hasOwnProperty('priceCharting')) {
+    const newData = await getDataById(data);
+    const formatted = formatPcResult(newData.data, data, 'CONSOLE');
+    const saveStatus = await saveUpdatedConsole(data._id, {
+      ...data,
+      priceCharting: { ...formatted }
+    });
+    return saveStatus;
+  } else {
+    return null;
+  }
+}
+
+function throttleCalls(data, cb) {
   return new Promise((resolve, reject) => {
-    const games = db.find.games();
     try {
-      async.mapLimit(games, 1, updateGameData, (error, results) => {
+      return async.mapLimit(data, 1, cb, (error, results) => {
         if (error) {
           console.log(chalk.red.bold('ERROR IN ASYNC.MAP', error));
           reject(error);
@@ -39,4 +85,24 @@ module.exports.updateGames = async function () {
       reject(err);
     }
   });
+}
+
+module.exports.updateGames = async function () {
+  const games = db.games.find();
+  try {
+    const result = await throttleCalls(games, updateGameData);
+    return result;
+  } catch (error) {
+    return Promise.resolve({ error: true, message: error });
+  }
+};
+
+module.exports.updateConsoles = async function () {
+  const consoles = db.consoles.find();
+  try {
+    const result = await throttleCalls(consoles, updateConsoleData);
+    return result;
+  } catch (error) {
+    return Promise.resolve({ error: true, message: error });
+  }
 };

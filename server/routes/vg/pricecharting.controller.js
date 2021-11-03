@@ -3,6 +3,7 @@ const axios = require('axios');
 const { SERVER_ERROR, BAD_REQUEST } = require('../../extra/utils/HttpStatusConstants');
 const priceChartingStats = require('./vgCrud/gamesSupp/priceChartingStats');
 const priceChartingUpdates = require('./vgCrud/gamesSupp/priceChartingUpdates');
+const db = require('../../db');
 
 const createSearchGameName = game => {
   return game
@@ -106,6 +107,16 @@ module.exports.updateGamesPrices = function (req, res) {
   try {
     res.json(priceChartingUpdates.updateGames());
   } catch (error) {
+    res.status(SERVER_ERROR).send(error);
+  }
+};
+
+module.exports.updateConsolesPrices = async function (req, res) {
+  try {
+    await priceChartingUpdates.updateConsoles();
+    res.json(db.consoles.find());
+  } catch (error) {
+    console.log('(*^&^%^%$%$#%$^%&^%&^%*&error', error);
     res.status(SERVER_ERROR).send(error);
   }
 };

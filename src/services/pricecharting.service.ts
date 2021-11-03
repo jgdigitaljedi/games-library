@@ -12,7 +12,7 @@ import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
 import { CurrencyUtils } from 'stringman-utils';
 import { IAcc } from '@/models/accessories.model';
-import { IClone } from '@/models/common.model';
+import { IClone, ViewWhatType } from '@/models/common.model';
 
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
@@ -26,6 +26,24 @@ const pcStatsEndpoints = {
   CONSOLE: 'pcplatformstats',
   ACC: 'pcaccstats',
   CLONE: 'pcclonestats'
+};
+
+interface IPcUpdateEndpoints {
+  games: string;
+  consoles: string;
+  accessories: string;
+  clones: string;
+  collectibles: string;
+  hardware: string;
+}
+
+const pcUpdateEndpoints: IPcUpdateEndpoints = {
+  games: 'pcupdategames',
+  consoles: 'pcupdateconsoles',
+  accessories: 'pcupdateacc',
+  clones: 'pcupdatesclones',
+  collectibles: 'pcupdatecollectibles',
+  hardware: ''
 };
 
 export type IPcFormatType = 'GAME' | 'CONSOLE' | 'ACC' | 'CLONE';
@@ -269,5 +287,23 @@ export async function getHighestValuePlatforms(): Promise<AxiosResponse<IConsole
   return Promise.resolve({
     error: true,
     message: 'You must be logged in to fetch items from backend!'
+  });
+}
+
+export function updatesPcPrices(viewWhat: ViewWhatType): Promise<AxiosResponse<any>> {
+  return new Promise((resolve, reject) => {
+    const hasKey = !!getRequestKey();
+    if (hasKey) {
+      const params = makeRequest(pcUpdateEndpoints[viewWhat]);
+      try {
+        resolve(Axios.get(params.url));
+      } catch (error) {
+        reject(error);
+      }
+    }
+    reject({
+      error: true,
+      message: 'You must be logged in to fetch items from backend!'
+    });
   });
 }

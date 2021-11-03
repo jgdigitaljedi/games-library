@@ -25,6 +25,8 @@ import { NotificationContext } from './context/NotificationContext';
 import { cleanupGames } from './services/dataMassaging.service';
 import axios from 'axios';
 import { deleteItem } from './services/generalCrud.service';
+import { updatesPcPrices } from './services/pricecharting.service';
+import { ProgressSpinner } from 'primereact/progressspinner';
 
 interface IInputOptions {
   label: string;
@@ -60,6 +62,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [selectedItem, setSelectedItem] = useState<any>(null);
   const isLoggedIn = useSelector((state: any) => state.userState);
   const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
+  const [updatingAll, setUpdatingAll] = useState(false);
 
   const closeConfirmation = () => {
     setShowDeleteConfirmation(false);
@@ -207,6 +210,32 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       });
   };
 
+  const updateAllPcPrices = () => {
+    setUpdatingAll(true);
+    updatesPcPrices(viewWhat as ViewWhatType)
+      .then(result => {
+        console.log('result', result);
+        setUpdatingAll(false);
+        if (result?.data && props.setFilteredData && props.setMasterData) {
+          props.setMasterData(result.data);
+          props.setFilteredData(result.data);
+        }
+        setNotify({
+          severity: 'success',
+          detail: `Successfully updated all ${viewWhat} prices!`,
+          summary: 'Prices Updated'
+        });
+      })
+      .catch(result => {
+        setUpdatingAll(false);
+        setNotify({
+          severity: 'error',
+          detail: `Failed to update all ${viewWhat} prices!`,
+          summary: 'ERROR'
+        });
+      });
+  };
+
   useEffect(() => {
     closeConfirmation();
     if (!platformsArr?.length) {
@@ -245,6 +274,11 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       <div className='filter-add'>
         <div className='items-count'>
           {filteredData.length} {viewWhat}
+          <Button
+            onClick={updateAllPcPrices}
+            icon={`pi ${updatingAll ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
+            label='Update All PC Prices'
+          />
         </div>
         <FilterGroup />
         <Button

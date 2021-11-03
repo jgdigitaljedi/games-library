@@ -7,12 +7,13 @@ export default function (view: string) {
     { field: 'first_release_date', header: 'Release Date', sortable: true },
     { field: 'purchaseDate', header: 'Purchase Date', sortable: true },
     { field: 'pricePaid', header: 'Purchase Price', sortable: true },
+    { field: 'priceCharting.price', header: 'PC Price', sortable: true },
+    { field: 'priceCharting.lastUpdated', header: 'PC Date', sortable: true },
     { field: 'case', header: 'Case/Box', sortable: true },
     { field: 'condition', header: 'Condition', sortable: true },
     { field: 'genresDisplay', header: 'Genres' },
     { field: 'esrb', header: 'ESRB', sortable: true },
     { field: 'howAcquired', header: 'How Acquired' },
-    { field: 'total_rating', header: 'Rating', sortable: true },
     { field: 'notes', header: 'Notes', sortable: false }
   ];
   let cols;
@@ -32,6 +33,8 @@ export default function (view: string) {
         { field: 'box', header: 'box', sortable: true, bool: true },
         { field: 'datePurchased', header: 'Purchase Date', sortable: true },
         { field: 'pricePaid', header: 'Purchase Price', sortable: true },
+        { field: 'priceCharting.price', header: 'PC Price', sortable: true },
+        { field: 'priceCharting.lastUpdated', header: 'PC Date', sortable: true },
         { field: 'howAcquired', header: 'How Acquired', sortable: true },
         { field: 'notes', header: 'Notes', sortable: true }
       ];
@@ -47,6 +50,8 @@ export default function (view: string) {
         { field: 'quantity', header: 'quantity' },
         { field: 'purchaseDate', header: 'Purchase Date', sortable: true },
         { field: 'pricePaid', header: 'Purchase Price' },
+        { field: 'priceCharting.price', header: 'PC Price', sortable: true },
+        { field: 'priceCharting.lastUpdated', header: 'PC Date', sortable: true },
         { field: 'howAcquired', header: 'How Acquired', sortable: true },
         { field: 'cib', header: 'CIB', sortable: true },
         { field: 'mods', header: 'Mods', sortable: false },

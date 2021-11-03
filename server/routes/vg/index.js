@@ -50,6 +50,7 @@ router.get('/pcclonestats', pcCtrl.cloneStats);
 router.get('/pcvaluegames', pcCtrl.mostValuableGames);
 router.get('/pcvalueplatforms', pcCtrl.mostValuablePlatforms);
 router.get('/pcupdategames', pcCtrl.updateGamesPrices);
+router.get('/pcupdateconsoles', pcCtrl.updateConsolesPrices);
 
 // Update install_base values from GB on most recent generations of consoles
 router.post('/updateconsole/:id', updateCtrl.updateConsoles);

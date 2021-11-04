@@ -25,6 +25,8 @@ import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
 import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
 import { formatFormResult, formatUpdateData, getPriceById } from '@/services/pricecharting.service';
 import { IPriceChartingData } from '@/models/pricecharting.model';
+import { IClone } from '@/models/common.model';
+import axios from 'axios';
 
 interface IProps {
   acc: IAcc;
@@ -37,14 +39,16 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
   const [accForm, setAccForm] = useState<IAcc>();
   const [addMode, setAddMode] = useState<boolean>(false);
   const yearRange = `2000:${new Date().getFullYear()}`;
+  const [clones, setClones] = useState<IClone[]>([]);
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
 
   const platformsWithId = useMemo(() => {
-    return IContext.platformsWithId.map((platform: IPlatformsWithId) => {
+    const consFormatted = IContext.platformsWithId.map((platform: IPlatformsWithId) => {
       return { consoleId: platform.id, consoleName: platform.name };
     });
-  }, [IContext.platformsWithId]);
+    return [...consFormatted, ...clones];
+  }, [IContext.platformsWithId, clones]);
 
   const userChange = (e: any) => {
     closeConfirmation();
@@ -62,6 +66,25 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
     [accForm, closeConfirmation]
   );
 
+  const getClonesForConArray = useCallback(async () => {
+    try {
+      const clonesResult = await axios.get(`${window.urlPrefix}/api/vg/clones`);
+      if (clonesResult?.data) {
+        const clonesFormatted = clonesResult.data.map((c: IClone) => ({
+          consoleId: c.name,
+          consoleName: c.name
+        }));
+        setClones(clonesFormatted);
+      }
+    } catch (err) {
+      setNotify({
+        severity: 'error',
+        detail: 'Error fetching clones and merging with console array.',
+        summary: 'ERROR'
+      });
+    }
+  }, [setNotify]);
+
   useEffect(() => {
     if (acc && acc.name === '') {
       setAddMode(true);
@@ -70,6 +93,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
     if (acc?.purchaseDate) {
       (acc as IAcc).newPurchaseDate = new Date(acc.purchaseDate);
     }
+    getClonesForConArray();
   }, [acc, setAddMode]);
 
   const isUpdate = useCallback(() => {

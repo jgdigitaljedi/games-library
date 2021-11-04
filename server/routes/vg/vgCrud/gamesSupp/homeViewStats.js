@@ -341,7 +341,8 @@ module.exports.getStats = () => {
     totalAccessories: accessoriesCount,
     totalCollectibles: collectiblesCount,
     totalClones: clonesCount,
-    gamesByDecade
+    gamesByDecade,
+    everDriveCounts
   };
   resetAll();
   return finalData;

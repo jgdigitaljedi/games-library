@@ -61,6 +61,18 @@ const CollForm: FunctionComponent<IProps> = ({
     }
   };
 
+  const caseManuallyChanged = useCallback(
+    value => {
+      if (collForm?.priceCharting && value) {
+        const gfCopy = _cloneDeep(collForm);
+        // @ts-ignore
+        gfCopy.priceCharting.case = value;
+        setCollForm(gfCopy);
+      }
+    },
+    [collForm]
+  );
+
   useEffect(() => {
     setPArr(
       platformsArr.map((con: any) => {
@@ -264,7 +276,12 @@ const CollForm: FunctionComponent<IProps> = ({
             />
           </div>
           {/** eslint-disable-next-line */}
-          {collForm?.priceCharting && <PcPriceDetailsComponent pcData={collForm?.priceCharting} />}
+          {collForm?.priceCharting && (
+            <PcPriceDetailsComponent
+              pcData={collForm?.priceCharting}
+              caseChangeCb={caseManuallyChanged}
+            />
+          )}
         </form>
         <div className='crud-form--image-and-data'>
           {collForm?.image && <img src={collForm?.image} alt='collectible' />}

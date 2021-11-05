@@ -1,14 +1,32 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import { InputText } from 'primereact/inputtext';
 import { CurrencyUtils } from 'stringman-utils';
+import { Dropdown } from 'primereact/dropdown';
+
+type CaseSelection = 'loose' | 'cib' | 'sealed';
 
 interface IPcPriceComponentProps {
   pcData: IPriceChartingData;
+  caseChangeCb: (value: CaseSelection) => void;
 }
 
-const PcPriceDetailsComponent: React.FC<IPcPriceComponentProps> = ({ pcData }) => {
+const PcPriceDetailsComponent: React.FC<IPcPriceComponentProps> = ({ pcData, caseChangeCb }) => {
+  const [caseSelected, setCaseSelected] = useState<CaseSelection>(pcData?.case || 'loose');
   const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
+  const caseOptions = [
+    { label: 'loose', value: 'loose' },
+    { label: 'cib', value: 'cib' },
+    { label: 'sealed', value: 'sealed' }
+  ];
+
+  const caseSelectionMade = useCallback(
+    (value: CaseSelection) => {
+      setCaseSelected(value);
+      caseChangeCb(value);
+    },
+    [caseChangeCb]
+  );
 
   return (
     <React.Fragment>
@@ -31,7 +49,13 @@ const PcPriceDetailsComponent: React.FC<IPcPriceComponentProps> = ({ pcData }) =
       </div>
       <div className='crud-form--form__row'>
         <label htmlFor='pcCase'>PC Case/Box</label>
-        <InputText id='pcCase' value={pcData?.case} attr-which='pcCase' readOnly />
+        {/* <InputText id='pcCase' value={pcData?.case} attr-which='pcCase' /> */}
+        <Dropdown
+          value={caseSelected}
+          options={caseOptions}
+          onChange={e => caseSelectionMade(e.value)}
+          placeholder='Case/Box'
+        />
       </div>
       <div className='crud-form--form__row'>
         <label htmlFor='pcConsoleName'>PC Console</label>

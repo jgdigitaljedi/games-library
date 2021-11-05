@@ -85,6 +85,18 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
     }
   }, [setNotify]);
 
+  const caseManuallyChanged = useCallback(
+    value => {
+      if (accForm?.priceCharting && value) {
+        const gfCopy = _cloneDeep(accForm);
+        // @ts-ignore
+        gfCopy.priceCharting.case = value;
+        setAccForm(gfCopy);
+      }
+    },
+    [accForm]
+  );
+
   useEffect(() => {
     if (acc && acc.name === '') {
       setAddMode(true);
@@ -94,7 +106,7 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
       (acc as IAcc).newPurchaseDate = new Date(acc.purchaseDate);
     }
     getClonesForConArray();
-  }, [acc, setAddMode]);
+  }, [acc, setAddMode, getClonesForConArray]);
 
   const isUpdate = useCallback(() => {
     return !addMode && accForm?.hasOwnProperty('_id');
@@ -289,7 +301,12 @@ const AccForm: FunctionComponent<IProps> = ({ acc, closeDialog, closeConfirmatio
             />
           </div>
           {/** eslint-disable-next-line */}
-          {accForm?.priceCharting && <PcPriceDetailsComponent pcData={accForm?.priceCharting} />}
+          {accForm?.priceCharting && (
+            <PcPriceDetailsComponent
+              pcData={accForm?.priceCharting}
+              caseChangeCb={caseManuallyChanged}
+            />
+          )}
         </form>
         <div className='crud-form--image-and-data'>
           {accForm?.image && <img src={accForm?.image} alt='accessory' />}

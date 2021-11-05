@@ -123,6 +123,18 @@ const PlatformForm: FunctionComponent<IProps> = ({
     }
   };
 
+  const caseManuallyChanged = useCallback(
+    value => {
+      if (platformForm?.priceCharting && value) {
+        const gfCopy = _cloneDeep(platformForm);
+        // @ts-ignore
+        gfCopy.priceCharting.case = value;
+        setPlatformForm(gfCopy);
+      }
+    },
+    [platformForm]
+  );
+
   useEffect(() => {
     if (platform && (platform.name === '' || platform.name === 'Add Console')) {
       setAddMode(true);
@@ -444,7 +456,10 @@ const PlatformForm: FunctionComponent<IProps> = ({
           </div>
           {/** eslint-disable-next-line */}
           {platformForm?.priceCharting && (
-            <PcPriceDetailsComponent pcData={platformForm?.priceCharting} />
+            <PcPriceDetailsComponent
+              pcData={platformForm?.priceCharting}
+              caseChangeCb={caseManuallyChanged}
+            />
           )}
         </form>
         <div className='crud-form--image-and-data'>

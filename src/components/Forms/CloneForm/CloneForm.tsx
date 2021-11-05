@@ -122,6 +122,18 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
     }
   };
 
+  const caseManuallyChanged = useCallback(
+    value => {
+      if (cloneForm?.priceCharting && value) {
+        const gfCopy = _cloneDeep(cloneForm);
+        // @ts-ignore
+        gfCopy.priceCharting.case = value;
+        setCloneForm(gfCopy);
+      }
+    },
+    [cloneForm]
+  );
+
   return (
     <div className='crud-form clone-form'>
       <div className='crud-form--flex-wrapper'>
@@ -259,7 +271,10 @@ const CloneForm: FunctionComponent<IProps> = ({ clone, closeDialog, closeConfirm
           </div>
           {/** eslint-disable-next-line */}
           {cloneForm?.priceCharting && (
-            <PcPriceDetailsComponent pcData={cloneForm?.priceCharting} />
+            <PcPriceDetailsComponent
+              pcData={cloneForm?.priceCharting}
+              caseChangeCb={caseManuallyChanged}
+            />
           )}
         </form>
         <div className='crud-form--image-and-data'>

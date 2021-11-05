@@ -238,6 +238,18 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     }
   };
 
+  const caseManuallyChanged = useCallback(
+    value => {
+      if (gameForm?.priceCharting && value) {
+        const gfCopy = _cloneDeep(gameForm);
+        // @ts-ignore
+        gfCopy.priceCharting.case = value;
+        setGameForm(gfCopy);
+      }
+    },
+    [gameForm]
+  );
+
   useEffect(() => {
     if (game && (game.name === '' || game.name === 'Add Game')) {
       setAddMode(true);
@@ -635,7 +647,12 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             </div>
           )}
           {/** eslint-disable-next-line */}
-          {gameForm?.priceCharting && <PcPriceDetailsComponent pcData={gameForm.priceCharting} />}
+          {gameForm?.priceCharting && (
+            <PcPriceDetailsComponent
+              pcData={gameForm.priceCharting}
+              caseChangeCb={caseManuallyChanged}
+            />
+          )}
           {gameForm && (
             <GameFormGameService addMode={addMode} userChange={userChange} game={gameForm} />
           )}

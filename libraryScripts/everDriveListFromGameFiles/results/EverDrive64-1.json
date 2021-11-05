@@ -1,0 +1,768 @@
+[
+  {
+    "id": 3439,
+    "name": "Armorines: Project S.W.A.R.M.",
+    "first_release_date": "12/31/1998",
+    "esrb": "T",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r8s.jpg",
+    "description": "The invasion has begun - an alien species infestated Earth and now they are after your flesh! Choose one of two Armorines, each with their own selection of weapons and fight back against bugs of all sizes; minimize the enemies chance of eliminating human civilization as we know it and eradicate every single trace of their race on our beloved planet!",
+    "story": null,
+    "player_perspectives": [
+      "First person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220001,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 3366,
+    "name": "Bio F.R.E.A.K.S.",
+    "first_release_date": "12/31/1997",
+    "total_rating": 70,
+    "esrb": "M",
+    "genres": [
+      "Fighting"
+    ],
+    "genresDisplay": "Fighting",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l9k.jpg",
+    "description": "Bio F.R.E.A.K.S. is a 3D fighting game released by Midway in 1998. It was originally planned for arcades. However, this arcade prototype was scrapped and never officially released (although it exists on MAME), and the game was later released for the PlayStation, Nintendo 64 and PC.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220002,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 44043,
+    "name": "ClayFighter 63 1/3",
+    "first_release_date": "11/20/1997",
+    "total_rating": 50,
+    "esrb": "T",
+    "genres": [
+      "Fighting"
+    ],
+    "genresDisplay": "Fighting",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bc4.jpg",
+    "description": "Get ready to crumble! Once again, the clay fighters prove that when you play a state-of-the-art fighter, you might lose lives, you might lose limbs, but there's no reason to lose your sense of humor! Fight in and out of 3D backgrounds. Get tossed out of a window and resume fighting outside. Choose form 12 eccentric fighters including brand new combatants and old favorites like \"Bad Mister Frosty\" and \"Bonker the Clown.\" Includes bonus \"secret characters\" who are so famous that a legal gag order prohibits us from revealing their identity. Move freely in over 12 highly detailed 3D environments.",
+    "story": null,
+    "player_perspectives": [
+      "Side view"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 2,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 2,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220003,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo 64 exclusive"
+    ],
+    "extraDataFull": {
+      "name": "ClayFighter 63 1/3",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6428",
+      "igdbId": 44043,
+      "gbId": 3185,
+      "gbGuid": "3030-3185",
+      "tgdbId": 9362,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 3431,
+    "name": "Cyber Tiger",
+    "first_release_date": "09/29/1999",
+    "esrb": "E",
+    "genres": [
+      "Sport"
+    ],
+    "genresDisplay": "Sport",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47ot.jpg",
+    "description": "CyberTiger was a golf game released in 2000 with a career mode consisting of various tournaments",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": false
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220004,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 8503,
+    "name": "Duke Nukem: Zero Hour",
+    "first_release_date": "07/31/1999",
+    "esrb": "M",
+    "genres": [
+      "Shooter"
+    ],
+    "genresDisplay": "Shooter",
+    "videos": [
+      "q-02TbygSAc",
+      "bIevLhVnndw"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b2s.jpg",
+    "description": "He's all that stands between us and a Time-Spanning Alien invasion. He's Duke Nukem. Gaming's Greatest Action Hero. And this is his finest hour! Zero Hour! Awesome new enemies! Hilarious gags and one-liners! Same blood and guts attitude! Over 30 gut-wrenching levels set in four action-packed time eras! Incredible Teamplay and Deathmatch modes for up to 4 players! Over 20 all-new weapons of high-octane annihilation.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220005,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo 64 exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Duke Nukem: Zero Hour",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6435",
+      "igdbId": 8503,
+      "gbId": 2711,
+      "gbGuid": "3030-2711",
+      "tgdbId": 1092,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 3494,
+    "name": "F1 Pole Position 64",
+    "first_release_date": "03/27/1997",
+    "esrb": "E",
+    "genres": [
+      "Racing",
+      "Simulator"
+    ],
+    "genresDisplay": "Racing, Simulator",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dye.jpg",
+    "description": "The game featured all the tracks from that Formula One season, at a time when the racing began in Australia, and ended in Japan. Teams would be set up with relevant drivers, however there was a roster-feature included, which allowed the player to swap drivers from one team to another, and even removing a real driver and replacing him with unknown drivers named Driver 1-6.Grand Prix Mode allowed players to progress through the racing calendar, you could also choose single races or a time trial on various tracks. Battle mode allowed you to pick who you wanted to race against over a however many laps you chose.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220006,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo 64 exclusive"
+    ],
+    "extraDataFull": {
+      "name": "F1 Pole Position 64",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6437",
+      "igdbId": 3494,
+      "gbId": 3764,
+      "gbGuid": "3030-3764",
+      "tgdbId": 1098,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 3507,
+    "name": "Goemon Mononoke Sugoroku",
+    "first_release_date": "12/24/1999",
+    "genres": [
+      "Card & Board Game"
+    ],
+    "genresDisplay": "Card & Board Game",
+    "videos": [
+      "hg0zt56rctY"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f8s.jpg",
+    "description": "Goemon: Mononoke Sugoroku is a video game for the Nintendo 64, released in 1999. The game is based on the Goemon series and despite the series' relative popularity in the west for the system, the game was released only in Japan.The game is based on the Japanese board game Sugoroku, populated with Konami's array of Ganbare Goemon characters. Up to four players control two dice, and take them in turns to control Goemon, Ebisumaru, Sasuke, or Yae over pre-rendered boards that resemble previous locations in the Ganbare Goemon series.",
+    "story": null,
+    "player_perspectives": [
+      "Bird view / Isometric"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220008,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [
+      "Nintendo 64 exclusive"
+    ],
+    "extraDataFull": {
+      "name": "Goemon: Mononoke Sugoroku",
+      "details": [
+        "Nintendo 64 exclusive"
+      ],
+      "id": "n6447",
+      "igdbId": 3507,
+      "gbId": null,
+      "gbGuid": null,
+      "tgdbId": 25749,
+      "isExclusive": [
+        {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      ],
+      "isLaunchTitle": false,
+      "special": []
+    }
+  },
+  {
+    "id": 45213,
+    "name": "O.D.T.: Escape... ...Or Die Trying",
+    "first_release_date": "08/30/1998",
+    "esrb": "T",
+    "genres": [
+      "Adventure"
+    ],
+    "genresDisplay": "Adventure",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j5t.jpg",
+    "description": "Find yourself immersed in an atmosphere of mystery, magic and mayhem. Fight your way through incredible, multi-leveled, 3D worlds while searching for a magical green pearl that will help save millions from decimation. With hand-to-hand combat, devastating weapon power and some amazing magic spells, O.D.T. leads you deep into a mysterious tower full of hideous enemies and hidden dangers - it gets tough but there's no turning back!",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220009,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 3590,
+    "name": "Roadsters",
+    "first_release_date": "12/17/1999",
+    "esrb": "E",
+    "genres": [
+      "Racing"
+    ],
+    "genresDisplay": "Racing",
+    "videos": null,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co43a0.jpg",
+    "description": "Buckle up and brace yourself for the big time baby. This isn't just high speed racing on 10 different adrenaline pumping tracks with changing weather conditions and super responsible vehicle handling. It's street smarts. With Roadsters, the best driver, doesn't always win. Betting and trading cars are a major part of gameplay. Earning cash gives you the chance to upgrade your vehicle and change divisions. So pull down your top and put your foot to the floor. We're off!",
+    "story": null,
+    "player_perspectives": [],
+    "multiplayer_modes": {
+      "offlinemax": 4,
+      "offlinecoopmax": 0,
+      "splitscreen": true
+    },
+    "maxMultiplayer": 4,
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220010,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 3341,
+    "name": "S.C.A.R.S.",
+    "first_release_date": "12/03/1998",
+    "total_rating": 72,
+    "esrb": "E",
+    "genres": [
+      "Racing"
+    ],
+    "genresDisplay": "Racing",
+    "videos": [
+      "8k-Zr6XQgzo"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25g9.jpg",
+    "description": "In this game players take control of cars that take the shape of different animals. The game itself takes the role as a combat racing game as it features weapons to use against your opposition while racing, and the computers can do the same to you. The game has four modes: Grand Prix, Challenge and Time Attack.  The object of this game is to compete in the Grand Prix and to unlock new tracks and cars. The difficulty of each tournament is determined by which cup you choose to race for. The first cup you race for is the Carbon cup, and once you've beaten that you will unlock other cups that are based on elements like crystal, and diamond. Once you have won a tournament you will unlock a new cup to compete for, new levels to race in, and the chance to challenge other cars to gain access to them for use in Grand Prix races and vs mode.  While Racing you can acquire weapons located around the tracks to help you finish the race quicker or to slow down your opponents so you can overtake them. The combat system is different from many games, except for having health and being destroyed for a limited amount of time, if you or an enemy is hit by a weapon you will be temporarily be slowed downed which gives your opponent time to overtake you. They're some weapons that can be avoided by using your cars jump jets; all cars have jump jets and can be used to avoid certain weapons, however not all weapons can be avoided even with the Jump Jets.  The weapons are: turbo boost, magnets, seeker-style missiles, a boomerang, time bombs, stingers, stoppers, rounds of bullets, and a shield.",
+    "story": null,
+    "player_perspectives": [
+      "Third person"
+    ],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220011,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  },
+  {
+    "id": 3344,
+    "name": "Super Bowling",
+    "first_release_date": "08/31/1992",
+    "esrb": "E",
+    "genres": [
+      "Sport",
+      "Bowling"
+    ],
+    "genresDisplay": "Sport, Bowling",
+    "videos": [
+      "V1wUnqIu95Q"
+    ],
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/rdcujfejqcptlpmrxwrr.jpg",
+    "description": "Super Bowling is a third-person bowling game. Players may bowl in several different environments, which range from ice ponds to neon-lit Chinese temples. Players can face-off against characters in their home stages, much like a fighting game. If the player wins they can then play on these stages in other play modes.Multi-player modes are also available, with a number of different variations.The game was also released as a downloadable game for the Satellaview.",
+    "story": null,
+    "player_perspectives": [],
+    "consoleName": "Nintendo 64",
+    "consoleId": 4,
+    "condition": "other",
+    "case": false,
+    "pricePaid": 0,
+    "physical": false,
+    "cib": false,
+    "datePurchased": "2021-11-05",
+    "howAcquired": "piracy",
+    "notes": "playable via EverDrive 64",
+    "createdAt": "11/05/2021",
+    "updatedAt": "11/05/2021",
+    "_id": 220012,
+    "physicalDigital": [
+      "EverDrive"
+    ],
+    "manual": false,
+    "handheld": false,
+    "location": "upstairs",
+    "compilation": false,
+    "compilationGamesIds": [],
+    "gamesService": {
+      "xbGold": false,
+      "xbPass": false,
+      "psPlus": false,
+      "primeFree": false,
+      "switchFree": false
+    },
+    "consoleArr": [
+      {
+        "consoleName": "Nintendo 64",
+        "consoleId": 4
+      }
+    ],
+    "vr": {
+      "vrOnly": false,
+      "vrCompatible": false
+    },
+    "extraData": [],
+    "extraDataFull": []
+  }
+]

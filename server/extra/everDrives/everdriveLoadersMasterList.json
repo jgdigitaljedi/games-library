@@ -38,5 +38,13 @@
     "location": "both",
     "notes": "played via GBA EverDrive",
     "title": "GBA EverDrive Games"
+  },
+  {
+    "file": "EverDrive64.json",
+    "platformId": 4,
+    "platformName": "Nintendo 64",
+    "location": "upstairs",
+    "notes": "played via EverDrive 64",
+    "title": "EverDrive 64 Games"
   }
 ]

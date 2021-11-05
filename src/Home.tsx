@@ -228,7 +228,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
         <div className='price-totals-wrapper'>
           <h3>
             Game Collection Valuation
-            {`(Avg Price: ${currencyUtils.formatCurrencyDisplay(pcGameStats.averageValue)})`}
+            {` (Avg Price: ${currencyUtils.formatCurrencyDisplay(pcGameStats.averageValue)})`}
           </h3>
           <div className='home--row'>
             <HomeTopPrices data={pcGameStats} />

@@ -10,7 +10,7 @@ const _sortBy = require('lodash/sortBy');
 const edFilesPath = path.join(__dirname, 'results');
 
 // change this to suit needs
-const writeOutFileName = 'GBAEverDrive.json';
+const writeOutFileName = 'EverDrive64.json';
 
 function readInSingleFile(fileName) {
   return new Promise((resolve, reject) => {

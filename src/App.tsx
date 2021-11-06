@@ -40,7 +40,6 @@ function App(): JSX.Element {
   useEffect(() => {
     async function fetchItems() {
       const result = await getItems();
-      console.log('items in APP', result.data);
       setItems(result.data);
     }
     fetchItems();

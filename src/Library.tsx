@@ -26,7 +26,6 @@ import { cleanupGames } from './services/dataMassaging.service';
 import axios from 'axios';
 import { deleteItem } from './services/generalCrud.service';
 import { updatesPcPrices } from './services/pricecharting.service';
-import { ProgressSpinner } from 'primereact/progressspinner';
 
 interface IInputOptions {
   label: string;

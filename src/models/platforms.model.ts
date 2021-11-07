@@ -149,5 +149,6 @@ export interface IConsole {
   storage?: string;
   lastUpdated: string;
   priceCharting?: IPriceChartingData;
+  company?: string;
   _id?: string;
 }

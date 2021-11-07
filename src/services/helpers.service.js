@@ -314,3 +314,36 @@ export const gameMediaType = [
   },
   { label: 'ODE', value: 'ode', consoleIds: [21, 7, 8, 78, 32] }
 ];
+
+export const platformsCompany = [
+  { label: 'The 3DO Company', value: 'The 3DO Company' },
+  { label: 'Amiga', value: 'Amiga' },
+  { label: 'Amstrad', value: 'Amstrad' },
+  { label: 'Apple', value: 'Apple' },
+  { label: 'Atari', value: 'Atari' },
+  { label: 'Bally', value: 'Bally' },
+  { label: 'Bandai', value: 'Bandai' },
+  { label: 'Casio', value: 'Casio' },
+  { label: 'Coleco', value: 'Coleco' },
+  { label: 'Commodore', value: 'Commodore' },
+  { label: 'Emerson', value: 'Emerson' },
+  { label: 'Fairchild', value: 'Fairchild' },
+  { label: 'Fujitsu', value: 'Fujitsu' },
+  { label: 'Magnavox', value: 'Magnavox' },
+  { label: 'Mattel', value: 'Mattel' },
+  { label: 'Microsoft', value: 'Microsoft' },
+  { label: 'Milton Bradly', value: 'Milton Bradly' },
+  { label: 'NEC', value: 'NEC' },
+  { label: 'Nintendo', value: 'Nintendo' },
+  { label: 'Nokia', value: 'Nokia' },
+  { label: 'Nvidia', value: 'Nvidia' },
+  { label: 'Philips', value: 'Philips' },
+  { label: 'Pioneer', value: 'Pioneer' },
+  { label: 'Sega', value: 'Sega' },
+  { label: 'SNK', value: 'SNK' },
+  { label: 'Sony', value: 'Sony' },
+  { label: 'Tiger Electronics', value: 'Tiger Electronics' },
+  { label: 'Tiger Telematics', value: 'Tiger Telematics' },
+  { label: 'VTech', value: 'VTech' },
+  { label: 'UNKNOWN', value: 'UNKNOWN' }
+];

@@ -14,7 +14,7 @@ export interface ILoginResult {
 export interface IRequestParams {
   headers: {
     headers: {
-      [key: string]: string | null;
+      [key: string]: string;
     };
   };
   url: string;

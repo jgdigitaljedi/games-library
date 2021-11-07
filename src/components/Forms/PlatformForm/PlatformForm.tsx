@@ -9,7 +9,7 @@ import React, {
 import { IConsole } from '@/models/platforms.model';
 import { InputText } from 'primereact/inputtext';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
-import helpersService from '../../../services/helpers.service';
+import helpersService, { platformsCompany } from '../../../services/helpers.service';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { InputSwitch } from 'primereact/inputswitch';
 import { conditionArr } from '@/constants';
@@ -47,6 +47,8 @@ const PlatformForm: FunctionComponent<IProps> = ({
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const [platformVersions, setPlatformVersions] = useState([]);
+
+  const companies = platformsCompany;
 
   const userChange = (e: any) => {
     closeConfirmation();
@@ -331,6 +333,16 @@ const PlatformForm: FunctionComponent<IProps> = ({
           </div>
           <div className='divider'>
             <hr />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='company'>Company</label>
+            <Dropdown
+              value={platformForm?.company}
+              options={companies}
+              onChange={e => handleDropdown(e, 'company')}
+              attr-which='company'
+              id='company'
+            />
           </div>
           <div className='crud-form--form__row'>
             <label htmlFor='condition'>Condition</label>

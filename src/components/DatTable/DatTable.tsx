@@ -22,7 +22,7 @@ const TheTable: FunctionComponent<IProps> = ({ data, viewWhat, rowClicked }) => 
   const tableRef = useRef<any>();
 
   const updateDimensions = useCallback(() => {
-    const theTable = tableRef?.current?.container.querySelector(
+    const theTable = tableRef?.current?.container?.querySelector(
       '.p-datatable-scrollable-body-table'
     );
     if (theTable) {

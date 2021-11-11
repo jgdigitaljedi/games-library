@@ -24,6 +24,10 @@ router.get('/gallerylist', gallery.imageCategories);
 router.post('/searchgame', auth.insecureMW, vgCtrl.searchGame);
 router.post('/searchplatform', auth.insecureMW, vgCtrl.searchPlatforms);
 router.post('/searchplatformversions', auth.insecureMW, vgCtrl.searchPlatformVersions);
+router.post('/updategameigdb/:id', auth.insecureMW, vgCtrl.updateGameById);
+router.post('/updateplatformigdb/:id', auth.insecureMW, vgCtrl.updatePlatformById);
+router.get('/updatealligdbgames', auth.insecureMW, vgCtrl.updateAllIgdbGames);
+router.get('/updatealligdbplatforms', auth.insecureMW, vgCtrl.updateAllIgdbPlatforms);
 
 // export to file
 router.post('/exportcsv', exportCtrl.exportCsv);

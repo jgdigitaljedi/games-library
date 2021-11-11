@@ -1,4 +1,5 @@
 const _cloneDeep = require('lodash/cloneDeep');
+const _sortBy = require('lodash/sortBy');
 const db = require('../../../../db');
 
 const games = db.games.find();
@@ -295,7 +296,7 @@ module.exports.getStats = () => {
 
   const gamesBoughtInYear = Object.keys(gamesBoughtByMonth).reduce((acc, obj) => {
     const objSplit = obj.split('/');
-    const year = objSplit[1];
+    const year = objSplit[1].trim();
     if (acc.hasOwnProperty(year)) {
       acc[year] += gamesBoughtByMonth[obj];
     } else {
@@ -304,14 +305,15 @@ module.exports.getStats = () => {
     return acc;
   }, {});
 
-  const gamesInYearSorted = Object.keys(gamesBoughtInYear)
-    .map(year => {
+  const gamesInYearSorted = _sortBy(
+    Object.keys(gamesBoughtInYear).map(year => {
       return {
         dateFormatted: year,
         games: gamesBoughtInYear[year]
       };
-    })
-    .sort(sortByDateCounts);
+    }),
+    'dateFormatted'
+  ).reverse();
 
   const genSorted = Object.keys(consolesByGeneration).sort((a, b) => parseInt(a) > parseInt(b));
 

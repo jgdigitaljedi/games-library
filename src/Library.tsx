@@ -26,6 +26,8 @@ import { cleanupGames } from './services/dataMassaging.service';
 import axios from 'axios';
 import { deleteItem } from './services/generalCrud.service';
 import { updatesPcPrices } from './services/pricecharting.service';
+import { updateAllIgdbPlatformData } from './services/platformsCrud.service';
+import { updateAllIgdbGameData } from './services/gamesCrud.service';
 
 interface IInputOptions {
   label: string;
@@ -62,6 +64,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const isLoggedIn = useSelector((state: any) => state.userState);
   const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
   const [updatingAll, setUpdatingAll] = useState(false);
+  const [updatingIgdb, setUpdatingIgdb] = useState(false);
 
   const closeConfirmation = () => {
     setShowDeleteConfirmation(false);
@@ -213,7 +216,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     setUpdatingAll(true);
     updatesPcPrices(viewWhat as ViewWhatType)
       .then(result => {
-        console.log('result', result);
         setUpdatingAll(false);
         if (result?.data && props.setFilteredData && props.setMasterData) {
           props.setMasterData(result.data);
@@ -230,6 +232,31 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
         setNotify({
           severity: 'error',
           detail: `Failed to update all ${viewWhat} prices!`,
+          summary: 'ERROR'
+        });
+      });
+  };
+
+  const updateAllIgdbData = () => {
+    setUpdatingIgdb(true);
+    const updateMethod = viewWhat === 'games' ? updateAllIgdbGameData : updateAllIgdbPlatformData;
+    updateMethod()
+      .then(result => {
+        setUpdatingIgdb(false);
+        if (result?.data && props.setFilteredData && props.setMasterData) {
+          setUpdatingIgdb(false);
+          setNotify({
+            severity: 'success',
+            detail: `Successfully updated all ${viewWhat} IGDB data!`,
+            summary: 'IGDB Data Updated'
+          });
+        }
+      })
+      .catch(error => {
+        setUpdatingIgdb(false);
+        setNotify({
+          severity: 'error',
+          detail: `Failed to update all ${viewWhat} IGDB data!`,
           summary: 'ERROR'
         });
       });
@@ -273,15 +300,6 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
       <div className='filter-add'>
         <div className='items-count'>
           {filteredData.length} {viewWhat}
-          {viewWhat !== 'hardware' && (
-            <Button
-              onClick={updateAllPcPrices}
-              loading={!!updatingAll}
-              icon={`pi ${updatingAll ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
-              label='Update All PC Prices'
-              style={{ marginLeft: '1rem' }}
-            />
-          )}
         </div>
         <FilterGroup />
         <Button
@@ -291,6 +309,28 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           onClick={addSomething}
           disabled={!isLoggedIn}
         />
+      </div>
+      <div className='update-all-container'>
+        {viewWhat !== 'hardware' && isLoggedIn && (
+          <Button
+            onClick={updateAllPcPrices}
+            loading={!!updatingAll}
+            icon={`pi ${updatingAll ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
+            label='Update All PC Prices'
+            style={{ marginLeft: '1rem' }}
+            className='p-button-secondary'
+          />
+        )}
+        {(viewWhat === 'games' || viewWhat === 'consoles') && isLoggedIn && (
+          <Button
+            onClick={updateAllIgdbData}
+            loading={!!updatingIgdb}
+            icon={`pi ${updatingIgdb ? 'pi-spinner' : 'pi-arrow-circle-up'}`}
+            label='Update All IGDB Data'
+            style={{ marginLeft: '1rem' }}
+            className='p-button-success'
+          />
+        )}
       </div>
       <DatTable data={filteredData} rowClicked={rowClicked} />
       <Dialog

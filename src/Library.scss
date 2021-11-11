@@ -16,6 +16,12 @@
       font-weight: bold;
     }
   }
+  .update-all-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
   .form-dialog--header {
     display: flex;
     justify-content: center;
@@ -36,7 +42,7 @@
           display: flex;
           flex-wrap: nowrap;
           .item-name {
-            margin: 0 .25rem;
+            margin: 0 0.25rem;
             white-space: nowrap;
             overflow: hidden;
             font-weight: bold;

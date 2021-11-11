@@ -21,7 +21,7 @@ import HelpersService, {
   gameCaseSubTypes
 } from '../../../services/helpers.service';
 import { handleChange } from '@/services/forms.service';
-import { igdbGameSearch, saveGame } from '@/services/gamesCrud.service';
+import { igdbGameSearch, igdbUpdateById, saveGame } from '@/services/gamesCrud.service';
 import { getPlatformsWithIds } from '@/services/platformsCrud.service';
 import { NotificationContext } from '@/context/NotificationContext';
 import { Chips } from 'primereact/chips';
@@ -34,6 +34,7 @@ import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
 import { formatFormResult, formatUpdateData, getPriceById } from '@/services/pricecharting.service';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
+import { AxiosResponse } from 'axios';
 
 interface IProps extends MapDispatchProps, MapStateProps {
   game: IGame;
@@ -250,6 +251,31 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     [gameForm]
   );
 
+  const updateIgdbData = (e: MouseEventHandler<HTMLButtonElement>) => {
+    // @ts-ignore
+    e.preventDefault();
+    igdbUpdateById(game)
+      .then(result => {
+        if (result?.data) {
+          setGameForm(result.data);
+        } else {
+          setNotify({
+            severity: 'error',
+            detail: 'Error updating IGDB data (empty response).',
+            summary: 'ERROR'
+          });
+        }
+      })
+      .catch(error => {
+        setNotify({
+          severity: 'error',
+          detail: 'Error fetching platforms with ids.',
+          summary: 'ERROR'
+        });
+        console.log('update game error', error);
+      });
+  };
+
   useEffect(() => {
     if (game && (game.name === '' || game.name === 'Add Game')) {
       setAddMode(true);
@@ -335,7 +361,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
               </div>
             )}
           </div>
-          {!addMode && (
+          {!addMode && loggedIn && (
             <div className='divider'>
               <hr />
             </div>
@@ -363,6 +389,17 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             <hr />
           </div>
           <h3>Data from IGDB</h3>
+          {!addMode && loggedIn && (
+            <div className='crud-form--form__row'>
+              <Button
+                // @ts-ignore
+                onClick={updateIgdbData}
+                label='Update IGDB Data'
+                className='p-button-primary'
+                icon='pi pi-arrow-circle-up'
+              />
+            </div>
+          )}
           <div className='crud-form--form__row'>
             <label htmlFor='total_rating'>Total Rating</label>
             <InputText
@@ -624,7 +661,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             <hr />
             <h3>PriceCharting Data</h3>
           </div>
-          {gameForm?.priceCharting && (
+          {gameForm?.priceCharting && loggedIn && !addMode && (
             <div className='crud-form--form__row'>
               <Button
                 // @ts-ignore

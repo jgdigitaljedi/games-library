@@ -23,6 +23,7 @@ import {
   formatNewPlatformForSave,
   igdbPlatformSearch,
   igdbPlatformVersions,
+  igdbUpdatePlatformById,
   savePlatform
 } from '@/services/platformsCrud.service';
 import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
@@ -173,6 +174,31 @@ const PlatformForm: FunctionComponent<IProps> = ({
     closeDialog(null);
   };
 
+  const updateIgdbPlatformData = (e: MouseEventHandler<HTMLButtonElement>) => {
+    // @ts-ignore
+    e.preventDefault();
+    igdbUpdatePlatformById(platform)
+      .then(result => {
+        if (result?.data) {
+          setPlatformForm(result.data);
+        } else {
+          setNotify({
+            severity: 'error',
+            detail: 'Error updating IGDB data (empty response).',
+            summary: 'ERROR'
+          });
+        }
+      })
+      .catch(error => {
+        setNotify({
+          severity: 'error',
+          detail: 'Error fetching platforms with ids.',
+          summary: 'ERROR'
+        });
+        console.log('update platform error', error);
+      });
+  };
+
   return (
     <div className='crud-form platform-form'>
       <div className='crud-form--flex-wrapper'>
@@ -210,6 +236,18 @@ const PlatformForm: FunctionComponent<IProps> = ({
           <div className='divider'>
             <hr />
           </div>
+          <h3>Data from IGDB</h3>
+          {!addMode && (
+            <div className='crud-form--form__row'>
+              <Button
+                // @ts-ignore
+                onClick={updateIgdbPlatformData}
+                label='Update IGDB Data'
+                className='p-button-primary'
+                icon='pi pi-arrow-circle-up'
+              />
+            </div>
+          )}
           <div className='crud-form--form__row'>
             <label htmlFor='alternative_name'>Aliases</label>
             <InputText

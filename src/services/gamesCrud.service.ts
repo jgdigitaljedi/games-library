@@ -2,6 +2,7 @@ import Axios, { AxiosResponse } from 'axios';
 import { IGame } from '@/models/games.model';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
+import { IConsole } from '@/models/platforms.model';
 
 const endpoint = 'games';
 
@@ -43,6 +44,34 @@ export const igdbGameSearch = async (
     return {
       error: true,
       message: 'You must be logged in to search IGDB and you must at least send a name!'
+    };
+  }
+};
+
+export const igdbUpdateById = async (game: IGame): Promise<AxiosResponse<IGame> | any> => {
+  const hasKey = !!getRequestKey();
+  if (hasKey && game) {
+    const params = makeRequest('updategameigdb', game.id.toString());
+    const request = await Axios.post(params.url, { game }, params.headers);
+    return request;
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to search IGDB and you must at least send an ID!'
+    };
+  }
+};
+
+export const updateAllIgdbGameData = async (): Promise<AxiosResponse<any> | any> => {
+  const hasKey = !!getRequestKey();
+  if (hasKey) {
+    const params = makeRequest('updatealligdbgames');
+    const request = await Axios.get(params.url, params.headers);
+    return request.data;
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to update all IGDB games data!'
     };
   }
 };

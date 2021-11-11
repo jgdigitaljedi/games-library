@@ -249,3 +249,33 @@ export const savePlatform = async (platform: IConsole, addMode: boolean) => {
     };
   }
 };
+
+export const igdbUpdatePlatformById = async (
+  platform: IConsole
+): Promise<AxiosResponse<IConsole> | any> => {
+  const hasKey = !!getRequestKey();
+  if (hasKey && platform?.id) {
+    const params = makeRequest('updateplatformigdb', platform.id.toString());
+    const request = await Axios.post(params.url, { platform }, params.headers);
+    return request;
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to search IGDB and you must at least send an ID!'
+    };
+  }
+};
+
+export const updateAllIgdbPlatformData = async (): Promise<AxiosResponse<any> | any> => {
+  const hasKey = !!getRequestKey();
+  if (hasKey) {
+    const params = makeRequest('updatealligdbplatforms');
+    const request = await Axios.post(params.url, params.headers);
+    return request.data;
+  } else {
+    return {
+      error: true,
+      message: 'You must be logged in to update all IGDB platforms data!'
+    };
+  }
+};

@@ -34,6 +34,10 @@ const preferredRegionIds = {
   5: 'Japan'
 };
 
+const gameRequestFields = `age_ratings.rating,total_rating,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
+const platformVersionRequestFields = `connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output`;
+const platformRequestFields = `alternative_name,generation,name,summary,versions.name,versions.platform_version_release_dates.date,platform_logo.url,category`;
+
 const pcId = 6;
 
 async function getAppAccessToken() {
@@ -120,94 +124,84 @@ module.exports.checkKey = function (req, res) {
   }
 };
 
-module.exports.searchPlatforms = async function (req, res) {
-  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
-    client = await refreshAppKey();
-  }
-  if (req.body && req.body.platform) {
-    const request = client
-      .fields(
-        `alternative_name,generation,name,summary,versions.name,versions.platform_version_release_dates.date,platform_logo.url,category`
-      )
-      .search(req.body.platform)
-      .request('/platforms');
-    request
-      .then(result => {
-        if (result && result.data) {
-          const rCopy = _cloneDeep(result.data);
-          const cleaned = rCopy.map(item => {
-            if (item && item.platform_logo && item.platform_logo.url) {
-              item.logo = { url: item.platform_logo.url };
-            }
-            return item;
-          });
-          res.status(200).json(cleaned);
-        } else {
-          res.status(200).json({
-            error: true,
-            message: 'RESULT RETRIEVED BUT DOES NOT HAVE BODY!',
-            result: result
-          });
-        }
-      })
-      .catch(error => {
-        logger.logThis(error, req);
-        res.status(500).send(error);
-      });
-  }
-};
-
-module.exports.searchPlatformVersions = async function (req, res) {
-  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
-    client = await refreshAppKey();
-  }
-  if (req.body && req.body.platform) {
-    // const platform = req.body.platform;
-    const request = client
-      .fields(
-        `connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output`
-      )
-      // .search(req.body.platform)
-      .where(`id = ${req.body.platform}`)
-      .request('/platform_versions');
-    request
-      .then(result => {
-        if (result.status === 200) {
-          const item = result.data[0];
-          const formatted = {};
-          formatted.cpu = item.cpu ? item.cpu : null;
-          formatted.media = item.media ? item.media : null;
-          formatted.memory = item.memory ? item.memory : null;
-          formatted.output = item.output ? item.output : null;
-          formatted.os = item.os ? item.os : null;
-          formatted.logo =
-            item.platform_logo && item.platform_logo.image_id ? item.platform_logo.image_id : null;
-          formatted.connectivity = item.connectivity ? item.connectivity : null;
-          formatted.releaseDate = item.platform_version_release_dates;
-          res.status(200).json(formatted);
-        } else {
-          res.status(result.status || 500).json({ platformVersionId: req.body.platform, result });
-        }
-      })
-      .catch(error => {
-        logger.logThis(error, req);
-        res.status(500).send(error);
-      });
-  }
-};
+function formatIgdbGameData(gameData, platform) {
+  return gameData.map(item => {
+    const game = {};
+    if (item.summary) {
+      game.description = item.summary;
+    } else if (item.storyline) {
+      game.description = item.storyline;
+    } else {
+      game.description = '';
+    }
+    if (item.summary && item.storyline) {
+      game.story = item.storyline;
+    } else {
+      game.story = '';
+    }
+    if (item.first_release_date) {
+      const rDate = item.first_release_date;
+      game.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
+    }
+    if (item.total_rating) {
+      const trCopy = item.total_rating.toFixed();
+      game.total_rating = parseInt(trCopy);
+    } else {
+      game.total_rating = null;
+    }
+    item.esrb = { rating: null, letterRating: null };
+    if (item.age_ratings && item.age_ratings.length) {
+      const esrb = item.age_ratings.filter(r => r.rating > 5).map(r => r.rating);
+      game.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : null;
+    }
+    if (item.videos && item.videos.length) {
+      const vCopy = item.videos.map(v => v.video_id);
+      game.videos = vCopy;
+    } else {
+      game.videos = [];
+    }
+    if (item.player_perspectives && item.player_perspectives.length) {
+      const ppCopy = item.player_perspectives.map(p => p.name);
+      game.player_perspectives = ppCopy;
+    } else {
+      game.player_perspectives = [];
+    }
+    const gCopy = _cloneDeep(item.genres);
+    const gCleaned = gCopy && gCopy.length ? gCopy.map(g => g.name) : [];
+    const basicGenres = getBasicGenre(item.name);
+    const combinedGenres = _uniq([...gCleaned, ...basicGenres].filter(g => g)) || [];
+    game.genres = combinedGenres;
+    game.consoleId = platform || undefined;
+    if (item.cover && item.cover.url) {
+      const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
+      game.image = `https:${bigImage}`;
+    } else {
+      game.image = '';
+    }
+    if (item.multiplayer_modes) {
+      const modes = formatMultiplayerModes(item.multiplayer_modes);
+      game.maxMultiplayer = modes.max;
+      game.multiplayer_modes = modes.combined;
+    }
+    game.consoleName = getConsoleName(platform);
+    game.name = item.name;
+    game.id = item.id;
+    const defaultedOut = getDefaults(game);
+    return defaultedOut;
+  });
+}
 
 module.exports.searchGame = async function (req, res) {
-  const fields = `age_ratings.rating,total_rating,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
     client = await refreshAppKey();
   }
   if (req.body && req.body.game && req.body.platform) {
     let request;
     if (req.body.fuzzy || req.body.platform === 99999) {
-      request = client.fields(fields).search(req.body.game).request('/games');
+      request = client.fields(gameRequestFields).search(req.body.game).request('/games');
     } else {
       request = client
-        .fields(fields)
+        .fields(gameRequestFields)
         .search(req.body.game)
         .where(`platforms = [${req.body.platform}]`)
         .request('/games');
@@ -217,71 +211,8 @@ module.exports.searchGame = async function (req, res) {
       .then(result => {
         if (result.status === 200) {
           const rCopy = _cloneDeep(result.data);
-          const cleaned = rCopy.map(item => {
-            const game = {};
-            if (item.summary) {
-              game.description = item.summary;
-            } else if (item.storyline) {
-              game.description = item.storyline;
-            } else {
-              game.description = '';
-            }
-            if (item.summary && item.storyline) {
-              game.story = item.storyline;
-            } else {
-              game.story = '';
-            }
-            if (item.first_release_date) {
-              const rDate = item.first_release_date;
-              game.first_release_date = moment(parseInt(`${rDate}000`)).format('MM/DD/YYYY');
-            }
-            if (item.total_rating) {
-              const trCopy = item.total_rating.toFixed();
-              game.total_rating = parseInt(trCopy);
-            } else {
-              game.total_rating = null;
-            }
-            item.esrb = { rating: null, letterRating: null };
-            if (item.age_ratings && item.age_ratings.length) {
-              const esrb = item.age_ratings.filter(r => r.rating > 5).map(r => r.rating);
-              game.esrb = esrbData && esrb && esrb.length ? esrbData[esrb[0].toString()] : null;
-            }
-            if (item.videos && item.videos.length) {
-              const vCopy = item.videos.map(v => v.video_id);
-              game.videos = vCopy;
-            } else {
-              game.videos = [];
-            }
-            if (item.player_perspectives && item.player_perspectives.length) {
-              const ppCopy = item.player_perspectives.map(p => p.name);
-              game.player_perspectives = ppCopy;
-            } else {
-              game.player_perspectives = [];
-            }
-            const gCopy = _cloneDeep(item.genres);
-            const gCleaned = gCopy && gCopy.length ? gCopy.map(g => g.name) : [];
-            const basicGenres = getBasicGenre(item.name);
-            const combinedGenres = _uniq([...gCleaned, ...basicGenres].filter(g => g)) || [];
-            game.genres = combinedGenres;
-            game.consoleId = req.body.platform || undefined;
-            if (item.cover && item.cover.url) {
-              const bigImage = item.cover.url.replace('t_thumb', 't_cover_big');
-              game.image = `https:${bigImage}`;
-            } else {
-              game.image = '';
-            }
-            if (item.multiplayer_modes) {
-              const modes = formatMultiplayerModes(item.multiplayer_modes);
-              game.maxMultiplayer = modes.max;
-              game.multiplayer_modes = modes.combined;
-            }
-            game.consoleName = getConsoleName(req.body.platform);
-            game.name = item.name;
-            game.id = item.id;
-            const defaultedOut = getDefaults(game);
-            return defaultedOut;
-          });
-          res.status(200).json(cleaned);
+          const igdbFormatted = formatIgdbGameData(rCopy, req.body.platform);
+          res.status(200).json(igdbFormatted);
         }
       })
       .catch(error => {
@@ -322,23 +253,213 @@ module.exports.getGenre = function (req, res) {
   }
 };
 
-// module.exports.updateGameRatings = async function(id) {
-//   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
-//     client = await refreshAppKey();
-//   }
+module.exports.updateGameById = async (req, res) => {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  if (req?.body?.game && req.params.id) {
+    const request = client
+      .fields(gameRequestFields)
+      .where(`id = ${req.params.id}`)
+      .request('/games');
 
-//   return new Promise((resolve, reject) => {
-//     return client
-//       .fields(`id,name,total_rating,total_rating_count`)
-//       .search(req.body.game)
-//       .where(`platforms = [${req.body.platform}]`)
-//       .request('/games')
-//       .then(result => {
-//         resolve(result.data);
-//       })
-//       .catch(error => {
-//         logger.logThis(error, 'Update game with id: ' + id);
-//         reject(error);
-//       });
-//   });
-// };
+    const oldGame = req.body.game;
+
+    request
+      .then(result => {
+        const rCopy = _cloneDeep(result.data);
+        const igdbFormatted = formatIgdbGameData(rCopy, oldGame.consoleId)[0];
+        const genres = _uniq([...(oldGame.genres || []), ...(igdbFormatted.genres || [])]);
+        const final = {
+          case: oldGame.case,
+          caseType: oldGame.caseType,
+          cib: oldGame.cib,
+          compilation: oldGame.compilation,
+          compilationGamesIds: oldGame.compilationGamesIds,
+          condition: oldGame.condition,
+          consoleId: oldGame.consoleId,
+          consoleName: oldGame.consoleName,
+          createdAt: oldGame.createdAt,
+          datePurchased: oldGame.datePurchased,
+          description: igdbFormatted.description,
+          esrb: igdbFormatted.esrb,
+          extraData: oldGame.extraData,
+          extraDataFull: oldGame.extraDataFull,
+          first_release_date: igdbFormatted.first_release_date,
+          gamesService: oldGame.gamesService,
+          genres,
+          genresDisplay: genres.join(', '),
+          handheld: oldGame.handheld,
+          howAcquired: oldGame.howAcquired,
+          id: oldGame.id,
+          image: igdbFormatted.image,
+          location: oldGame.location,
+          manual: oldGame.manual,
+          maxMultiplayer: igdbFormatted.maxMultiplayer,
+          multiplayer_modes: igdbFormatted.multiplayer_modes,
+          name: igdbFormatted.name,
+          notes: oldGame.notes,
+          physical: oldGame.physical,
+          player_perspectives: igdbFormatted.player_perspectives,
+          priceCharting: oldGame.priceCharting,
+          pricePaid: oldGame.pricePaid,
+          purchaseDate: oldGame.purchaseDate,
+          story: igdbFormatted.story,
+          total_rating: igdbFormatted.total_rating,
+          updatedAt: moment().format('MM/DD/YYYY hh:mm a'),
+          videos: igdbFormatted.videos,
+          vr: oldGame.vr,
+          _id: oldGame._id
+        };
+        res.status(200).json(final);
+      })
+      .catch(error => {
+        console.log('error', error);
+        logger.logThis(error, req);
+        res.status(500).json(error);
+      });
+  } else {
+    if (req.body && !req.body.game) {
+      res.status(400).json({ error: true, message: 'BAD REQUEST. MISSING GAME ID TO SEARCH.' });
+    } else {
+      req.status(400).json({ error: true, message: 'BAD REQUEST.' });
+    }
+  }
+};
+
+/**
+ * ************ Platform Calls ************
+ * */
+
+function formatIgdbPlatformVersionData(item) {
+  const formatted = {};
+  formatted.cpu = item.cpu ? item.cpu : null;
+  formatted.media = item.media ? item.media : null;
+  formatted.memory = item.memory ? item.memory : null;
+  formatted.output = item.output ? item.output : null;
+  formatted.os = item.os ? item.os : null;
+  formatted.platform_logo = item.platform_logo || {};
+  formatted.connectivity = item.connectivity ? item.connectivity : null;
+  formatted.releaseDate = item.platform_version_release_dates;
+  return formatted;
+}
+
+function formatIgdbPlatformData(result) {
+  const rCopy = _cloneDeep(Array.isArray(result) ? result : [result]);
+  return rCopy.map(item => {
+    if (item && item.platform_logo && item.platform_logo.url) {
+      item.logo = { url: item.platform_logo.url };
+    }
+    return item;
+  });
+}
+
+module.exports.searchPlatformVersions = async function (req, res) {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  if (req.body && req.body.platform) {
+    const request = client
+      .fields(platformVersionRequestFields)
+      // .search(req.body.platform)
+      .where(`id = ${req.body.platform}`)
+      .request('/platform_versions');
+    request
+      .then(result => {
+        if (result.status === 200) {
+          const item = result.data[0];
+          const formatted = formatIgdbPlatformVersionData(item);
+          res.status(200).json(formatted);
+        } else {
+          res.status(result.status || 500).json({ platformVersionId: req.body.platform, result });
+        }
+      })
+      .catch(error => {
+        logger.logThis(error, req);
+        res.status(500).send(error);
+      });
+  }
+};
+
+module.exports.searchPlatforms = async function (req, res) {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  if (req.body && req.body.platform) {
+    const request = client
+      .fields(platformRequestFields)
+      .search(req.body.platform)
+      .request('/platforms');
+    request
+      .then(result => {
+        if (result && result.data) {
+          // const rCopy = _cloneDeep(result.data);
+          const cleaned = formatIgdbPlatformData(result.data);
+          res.status(200).json(cleaned);
+        } else {
+          res.status(200).json({
+            error: true,
+            message: 'RESULT RETRIEVED BUT DOES NOT HAVE BODY!',
+            result: result
+          });
+        }
+      })
+      .catch(error => {
+        logger.logThis(error, req);
+        res.status(500).send(error);
+      });
+  }
+};
+
+module.exports.updatePlatformById = async (req, res) => {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  if (req?.body?.platform && req.params.id) {
+    const oldPlatform = req.body.platform;
+    const request = client
+      .fields(platformRequestFields)
+      // .search(req.body.platform)
+      .where(`id = ${oldPlatform.id}`)
+      .request('/platforms');
+
+    const versionRequest = client
+      .fields(platformVersionRequestFields)
+      .where(`id = ${oldPlatform.version.id}`)
+      .request('/platform_versions');
+
+    request
+      .then(async result => {
+        if (result.status === 200) {
+          const item = result.data[0];
+          const formatted = formatIgdbPlatformData(item);
+          const versionRaw = (await versionRequest).data;
+          console.log('versionRaw', versionRaw);
+          const version = formatIgdbPlatformVersionData(versionRaw[0]);
+          console.log('version', version);
+          const combined = { ...oldPlatform, ...formatted, ...version };
+          const logoId = combined.logo;
+          // combined.logo = `https://images.igdb.com/igdb/image/upload/t_thumb/${logoId}`;
+          res.status(200).json(combined);
+        } else {
+          logger.logThis(result.error, req);
+          res.status(result.status || 500).json({ platformVersionId: req.body.platform, result });
+        }
+      })
+      .catch(error => {
+        console.log('ERROR*********', error);
+        logger.logThis(error, req);
+        res.status(500).send(error);
+      });
+  } else {
+    if (req.body && !req.body.platform) {
+      res.status(400).json({ error: true, message: 'BAD REQUEST. MISSING PLATFORM ID TO SEARCH.' });
+    } else {
+      req.status(400).json({ error: true, message: 'BAD REQUEST.' });
+    }
+  }
+};
+
+module.exports.updateAllIgdbGames = (req, res) => {};
+
+module.exports.updateAllIgdbPlatforms = (req, res) => {};

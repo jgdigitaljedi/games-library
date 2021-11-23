@@ -3,7 +3,14 @@ const igdb = require('igdb-api-node').default;
 const moment = require('moment');
 const _cloneDeep = require('lodash/cloneDeep');
 const _uniq = require('lodash/uniq');
+const _sortBy = require('lodash/sortBy');
 const axios = require('axios');
+const chalk = require('chalk');
+const async = require('async');
+
+const saveUpdatedGame = require('./vgCrud/gamesCrud.controller').edit;
+const saveUpdatedConsole = require('./vgCrud/clonesCrud.controller').edit;
+
 const logger = require('../../config/logger');
 const consolesCrud = require('./vgCrud/consolesCrud.controller');
 const getLocation = require('./gamesHelpers/consoleLocation').getLocation;
@@ -27,12 +34,12 @@ const esrbData = {
   12: 'AO'
 };
 
-const preferredRegionIds = {
-  2: 'North America',
-  8: 'Worldwide',
-  1: 'Europe',
-  5: 'Japan'
-};
+// prettier-ignore
+const preferredRegionIds = [
+  {id: '2', region: 'North America'},
+  {id: '8', region: 'Worldwide'},
+  {id: '5', region: 'Japan'}
+];
 
 const gameRequestFields = `age_ratings.rating,total_rating,first_release_date,genres.name,name,cover.url,multiplayer_modes,videos.video_id,multiplayer_modes.offlinecoopmax,multiplayer_modes.offlinemax,multiplayer_modes.splitscreen,player_perspectives.name,storyline,summary`;
 const platformVersionRequestFields = `connectivity,memory,cpu,os,media,name,output,platform_logo.url,platform_logo.image_id,platform_version_release_dates.human,platform_version_release_dates.region,resolutions,storage,summary,output`;
@@ -331,6 +338,37 @@ module.exports.updateGameById = async (req, res) => {
  * ************ Platform Calls ************
  * */
 
+function getReleaseDate(prd) {
+  const regionArr = prd.map(d => d.region.toString());
+  const preferrdIdsOrdered = preferredRegionIds.map(p => p.id);
+  const regionArrWithNames = preferrdIdsOrdered
+    .map((key, index) => {
+      const indOf = regionArr.indexOf(key);
+      if (indOf >= 0) {
+        return {
+          index: indOf,
+          region: preferredRegionIds[index].region,
+          date: moment.isDate(prd[indOf].human)
+            ? moment(prd[indOf].human).format('MM/DD/YYYY')
+            : moment(prd[indOf].human, 'MMM DD, YYYY').format('MM/DD/YYYY')
+        };
+      }
+      return null;
+    })
+    .filter(n => n);
+  console.log('regionArrWithNames', regionArrWithNames);
+  return {
+    region:
+      regionArrWithNames?.length && regionArrWithNames[0].hasOwnProperty('region')
+        ? regionArrWithNames[0].region
+        : null,
+    date:
+      regionArrWithNames?.length && regionArrWithNames[0].hasOwnProperty('date')
+        ? regionArrWithNames[0].date
+        : null
+  };
+}
+
 function formatIgdbPlatformVersionData(item) {
   const formatted = {};
   formatted.cpu = item.cpu ? item.cpu : null;
@@ -340,7 +378,8 @@ function formatIgdbPlatformVersionData(item) {
   formatted.os = item.os ? item.os : null;
   formatted.platform_logo = item.platform_logo || {};
   formatted.connectivity = item.connectivity ? item.connectivity : null;
-  formatted.releaseDate = item.platform_version_release_dates;
+  console.log('item.platform_version_release_dates', item.platform_version_release_dates);
+  formatted.releaseDate = getReleaseDate(item.platform_version_release_dates);
   return formatted;
 }
 
@@ -411,7 +450,8 @@ module.exports.searchPlatforms = async function (req, res) {
   }
 };
 
-module.exports.updatePlatformById = async (req, res) => {
+module.exports.updatePlatformById = async (req, res, shouldReturn) => {
+  console.log('shouldReturn', shouldReturn);
   if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
     client = await refreshAppKey();
   }
@@ -428,20 +468,30 @@ module.exports.updatePlatformById = async (req, res) => {
       .where(`id = ${oldPlatform.version.id}`)
       .request('/platform_versions');
 
-    request
+    return request
       .then(async result => {
         if (result.status === 200) {
           const item = result.data[0];
           const formatted = formatIgdbPlatformData(item);
           const versionRaw = (await versionRequest).data;
-          console.log('versionRaw', versionRaw);
-          const version = formatIgdbPlatformVersionData(versionRaw[0]);
-          console.log('version', version);
-          const combined = { ...oldPlatform, ...formatted, ...version };
-          const logoId = combined.logo;
-          // combined.logo = `https://images.igdb.com/igdb/image/upload/t_thumb/${logoId}`;
-          res.status(200).json(combined);
+          const correctVersion = versionRaw.find(v => v.id === oldPlatform.version.id);
+          const version = formatIgdbPlatformVersionData(correctVersion);
+          const combined = { ...oldPlatform, ...formatted[0], ...version };
+          delete combined.versions;
+          console.log('combined', combined);
+          if (shouldReturn === true) {
+            combined.updatedAt = moment().format('MM/DD/YYYY hh:mm a');
+            return Promise.resolve(combined);
+          } else {
+            res.status(200).json(combined);
+          }
         } else {
+          if (shouldReturn === true) {
+            return Promise.resolve({
+              error: true,
+              message: 'There was a problem updating IGDB data.'
+            });
+          }
           logger.logThis(result.error, req);
           res.status(result.status || 500).json({ platformVersionId: req.body.platform, result });
         }
@@ -449,7 +499,11 @@ module.exports.updatePlatformById = async (req, res) => {
       .catch(error => {
         console.log('ERROR*********', error);
         logger.logThis(error, req);
-        res.status(500).send(error);
+        if (shouldReturn) {
+          return Promise.resolve(error);
+        } else {
+          res.status(500).send(error);
+        }
       });
   } else {
     if (req.body && !req.body.platform) {
@@ -460,6 +514,97 @@ module.exports.updatePlatformById = async (req, res) => {
   }
 };
 
-module.exports.updateAllIgdbGames = (req, res) => {};
+/************** update all IGDB calls  ****************/
 
-module.exports.updateAllIgdbPlatforms = (req, res) => {};
+function throttleCalls(data, cb) {
+  return new Promise((resolve, reject) => {
+    try {
+      return async.mapLimit(data, 1, cb, (error, results) => {
+        if (error) {
+          console.log(chalk.red.bold('ERROR IN ASYNC.MAP', error));
+          reject(error);
+        }
+        resolve(results);
+      });
+    } catch (err) {
+      console.log(chalk.red.bold('ERROR: Async.mapLimit encountered an error', err));
+      reject(err);
+    }
+  });
+}
+
+async function getDataById(item, which) {
+  try {
+    if (which === 'CONSOLE') {
+      return await module.exports.updatePlatformById(
+        { body: { platform: item }, params: { id: item.id } },
+        null,
+        true
+      );
+    } else {
+    }
+  } catch (error) {
+    console.log('pc call error', error);
+    return { error: true, message: error };
+  }
+}
+
+async function updateGameData(game) {
+  // if (game.hasOwnProperty('id')) {
+  //   const newData = await getDataById(game);
+  //   const formatted = formatPcResult(newData.data, game, 'GAME');
+  //   const saveStatus = await saveUpdatedGame(game._id, {
+  //     ...game,
+  //     priceCharting: { ...formatted }
+  //   });
+  //   return saveStatus;
+  // } else {
+  //   return null;
+  // }
+}
+
+async function updatePlatformData(platform) {
+  console.log('platform', platform.name);
+  if (platform.hasOwnProperty('id')) {
+    try {
+      const newData = await getDataById(platform, 'CONSOLE');
+      console.log('result', newData);
+      return newData;
+      // const saveStatus = await saveUpdatedConsole(platform._id, {
+      //   ...newData
+      // });
+      // return saveStatus;
+    } catch (error) {
+      logger.logThis(error, 'updatePlatformData call');
+      return error;
+    }
+  } else {
+    return platform;
+  }
+}
+
+module.exports.updateAllIgdbGames = async (req, res) => {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  const games = db.games.find();
+  try {
+    const result = await throttleCalls(games, updateGameData);
+    return result;
+  } catch (error) {
+    return Promise.resolve({ error: true, message: error });
+  }
+};
+
+module.exports.updateAllIgdbPlatforms = async (req, res) => {
+  if (!client || !appKey || moment().isAfter(appKeyTimestamp)) {
+    client = await refreshAppKey();
+  }
+  const platforms = db.consoles.find();
+  try {
+    const result = await throttleCalls(platforms, updatePlatformData);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ error: true, message: error });
+  }
+};

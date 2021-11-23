@@ -270,7 +270,7 @@ export const updateAllIgdbPlatformData = async (): Promise<AxiosResponse<any> | 
   const hasKey = !!getRequestKey();
   if (hasKey) {
     const params = makeRequest('updatealligdbplatforms');
-    const request = await Axios.post(params.url, params.headers);
+    const request = await Axios.get(params.url, params.headers);
     return request.data;
   } else {
     return {

@@ -17,6 +17,8 @@ function makeList(which, games) {
       if (game.consoleArr && game.consoleArr.length > 1) {
         return true;
       }
+    } else if (which === 'sealed') {
+      return game.notes.toLowerCase().indexOf('sealed') > -1;
     } else if (which === 'exclusives' || which === 'special' || which === 'launch') {
       if (game.extraDataFull && game.extraDataFull.length) {
         const edArr = game.extraDataFull;
@@ -65,6 +67,9 @@ module.exports.getList = function (req, res) {
               break;
             case 'cib':
               theList = makeList('cib', result);
+              break;
+            case 'sealed':
+              theList = makeList('sealed', result);
               break;
             default:
               theList = [];

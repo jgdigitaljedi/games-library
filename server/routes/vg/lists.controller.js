@@ -2,6 +2,7 @@ const _sortBy = require('lodash/sortBy');
 const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
 function makeList(which, games) {
+  console.log('which', which);
   return games.filter(game => {
     if (which === 'multiplayer') {
       if (game.maxMultiplayer && game.maxMultiplayer >= 3) {
@@ -19,6 +20,8 @@ function makeList(which, games) {
       }
     } else if (which === 'sealed') {
       return game.notes.toLowerCase().indexOf('sealed') > -1;
+    } else if (which === 'free') {
+      return game.notes.toLowerCase().indexOf('free') > -1;
     } else if (which === 'exclusives' || which === 'special' || which === 'launch') {
       if (game.extraDataFull && game.extraDataFull.length) {
         const edArr = game.extraDataFull;
@@ -70,6 +73,9 @@ module.exports.getList = function (req, res) {
               break;
             case 'sealed':
               theList = makeList('sealed', result);
+              break;
+            case 'free':
+              theList = makeList('free', result);
               break;
             default:
               theList = [];

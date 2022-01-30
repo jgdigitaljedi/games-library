@@ -22,7 +22,8 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     { label: 'Special games', value: 'special' },
     { label: 'Multi-platform Games', value: 'multiplatform' },
     { label: 'Complete in Box Games', value: 'cib' },
-    { label: 'Sealed/New Games', value: 'sealed' }
+    { label: 'Sealed/New Games', value: 'sealed' },
+    { label: 'Free Games', value: 'free' }
   ];
   const [whichList, setWhichList] = useState<string>(lists[0].value);
   const [data, setData] = useState<IGame[]>([]);
@@ -37,6 +38,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
 
   const getList = useCallback(
     which => {
+      console.log('which', which);
       setWhichList(which);
       Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
         .then(result => {

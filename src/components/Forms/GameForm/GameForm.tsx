@@ -234,7 +234,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
     e.preventDefault();
     if (gameForm?.priceCharting?.id) {
       const newData = await getPriceById(gameForm?.priceCharting?.id);
-      const formatted = formatUpdateData(newData.data, gameForm.priceCharting);
+      const formatted = formatUpdateData(newData.data, gameForm.priceCharting, gameForm.manual);
       setGameForm({ ...gameForm, priceCharting: formatted });
     }
   };

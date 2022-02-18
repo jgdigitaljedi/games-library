@@ -121,7 +121,11 @@ const PlatformForm: FunctionComponent<IProps> = ({
     e.preventDefault();
     if (platformForm?.priceCharting?.id) {
       const newData = await getPriceById(platformForm?.priceCharting?.id);
-      const formatted = formatUpdateData(newData.data, platformForm.priceCharting);
+      const formatted = formatUpdateData(
+        newData.data,
+        platformForm.priceCharting,
+        platformForm.manual
+      );
       setPlatformForm({ ...platformForm, priceCharting: formatted });
     }
   };

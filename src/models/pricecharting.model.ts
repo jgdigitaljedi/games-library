@@ -8,6 +8,7 @@ export interface PricechartingGameSearchResponse {
   status?: string;
   'release-date'?: string;
   productConsoleCombined: string;
+  'manual-only-price'?: number;
 }
 
 export type IPCCaseType = 'cib' | 'sealed' | 'loose';

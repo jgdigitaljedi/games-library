@@ -137,20 +137,31 @@ function getBoxSituation(
   return 'loose';
 }
 
-function getPriceForBoxCase(data: PricechartingGameSearchResponse, boxCase: IPCCaseType): number {
+function getPriceForBoxCase(
+  data: PricechartingGameSearchResponse,
+  boxCase: IPCCaseType,
+  hasManual?: boolean
+): number {
+  console.log('data', data);
+  let initialPrice;
   if (boxCase === 'sealed') {
-    return Math.abs(data['new-price'] || 0);
+    initialPrice = Math.abs(data['new-price'] || 0);
   } else if (boxCase === 'cib') {
-    return Math.abs(data['cib-price'] || 0);
+    initialPrice = Math.abs(data['cib-price'] || 0);
   }
-  return Math.abs(data['loose-price'] || 0);
+  initialPrice = Math.abs(data['loose-price'] || 0);
+  if (hasManual && boxCase !== 'cib' && data['manual-only-price']) {
+    initialPrice += data['manual-only-price'];
+  }
+  return initialPrice;
 }
 
 export const formatUpdateData = (
   result: PricechartingGameSearchResponse,
-  previous: IPriceChartingData
+  previous: IPriceChartingData,
+  hasManual?: boolean
 ): IPriceChartingData => {
-  const newPrice = getPriceForBoxCase(result, previous.case);
+  const newPrice = getPriceForBoxCase(result, previous.case, hasManual);
   const lastUpdated = moment().format('MM/DD/YYYY');
   return {
     ...previous,
@@ -165,7 +176,7 @@ export const formatPcResult = (
   type: IPcFormatType
 ): IPriceChartingData => {
   const boxCase = getBoxSituation(item, type);
-  const itemPrice = getPriceForBoxCase(data, boxCase);
+  const itemPrice = getPriceForBoxCase(data, boxCase, item.manual);
   const lastUpdated = moment().format('MM/DD/YYYY');
   return {
     consoleName: data['console-name'] || '',

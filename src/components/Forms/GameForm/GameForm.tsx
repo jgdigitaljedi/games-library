@@ -688,6 +688,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
             <PcPriceDetailsComponent
               pcData={gameForm.priceCharting}
               caseChangeCb={caseManuallyChanged}
+              hasManual={gameForm.manual}
             />
           )}
           {gameForm && (

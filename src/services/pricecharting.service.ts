@@ -148,8 +148,9 @@ function getPriceForBoxCase(
     initialPrice = Math.abs(data['new-price'] || 0);
   } else if (boxCase === 'cib') {
     initialPrice = Math.abs(data['cib-price'] || 0);
+  } else {
+    initialPrice = Math.abs(data['loose-price'] || 0);
   }
-  initialPrice = Math.abs(data['loose-price'] || 0);
   if (hasManual && boxCase !== 'cib' && data['manual-only-price']) {
     initialPrice += data['manual-only-price'];
   }

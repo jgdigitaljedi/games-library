@@ -1,21 +1,27 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import { InputText } from 'primereact/inputtext';
 import { CurrencyUtils } from 'stringman-utils';
 import { Dropdown } from 'primereact/dropdown';
 
-type CaseSelection = 'loose' | 'cib' | 'sealed';
+type CaseSelection = 'loose' | 'loose+' | 'cib' | 'sealed';
 
 interface IPcPriceComponentProps {
   pcData: IPriceChartingData;
   caseChangeCb: (value: CaseSelection) => void;
+  hasManual?: boolean;
 }
 
-const PcPriceDetailsComponent: React.FC<IPcPriceComponentProps> = ({ pcData, caseChangeCb }) => {
+const PcPriceDetailsComponent: React.FC<IPcPriceComponentProps> = ({
+  pcData,
+  caseChangeCb,
+  hasManual
+}) => {
   const [caseSelected, setCaseSelected] = useState<CaseSelection>(pcData?.case || 'loose');
   const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
   const caseOptions = [
     { label: 'loose', value: 'loose' },
+    { label: 'loose+', value: 'loose+' },
     { label: 'cib', value: 'cib' },
     { label: 'sealed', value: 'sealed' }
   ];
@@ -27,6 +33,12 @@ const PcPriceDetailsComponent: React.FC<IPcPriceComponentProps> = ({ pcData, cas
     },
     [caseChangeCb]
   );
+
+  useEffect(() => {
+    if (caseSelected === 'loose' && hasManual) {
+      setCaseSelected('loose+');
+    }
+  }, [pcData]);
 
   return (
     <React.Fragment>

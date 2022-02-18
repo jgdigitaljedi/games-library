@@ -12,13 +12,19 @@ const CurrencyUtils = require('stringman-utils').CurrencyUtils;
 const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 const Mult = require('stringman-utils').precisionMathMultiply;
 
-function getPriceForBoxCase(data, boxCase) {
+function getPriceForBoxCase(data, boxCase, hasManual) {
+  let initialPrice;
   if (boxCase === 'sealed') {
-    return Math.abs(data['new-price'] || 0);
+    initialPrice = Math.abs(data['new-price'] || 0);
   } else if (boxCase === 'cib') {
-    return Math.abs(data['cib-price'] || 0);
+    initialPrice = Math.abs(data['cib-price'] || 0);
+  } else {
+    initialPrice = Math.abs(data['loose-price'] || 0);
   }
-  return Math.abs(data['loose-price'] || 0);
+  if (hasManual && boxCase !== 'cib' && data['manual-only-price']) {
+    initialPrice += data['manual-only-price'];
+  }
+  return initialPrice;
 }
 
 const formatPcResult = (newData, data, which) => {
@@ -26,8 +32,8 @@ const formatPcResult = (newData, data, which) => {
   const boxCase = data.priceCharting.case;
   const itemPrice =
     which === 'ACC' || which === 'COLL'
-      ? Mult(getPriceForBoxCase(newData, boxCase), data?.quantity || 1)
-      : getPriceForBoxCase(newData, boxCase);
+      ? Mult(getPriceForBoxCase(newData, boxCase), data?.quantity || 1, data.manual || false)
+      : getPriceForBoxCase(newData, boxCase, data.manual || false);
   const lastUpdated = moment().format('MM/DD/YYYY');
   return {
     consoleName: data.priceCharting.consoleName,

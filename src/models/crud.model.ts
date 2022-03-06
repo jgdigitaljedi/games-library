@@ -1,3 +1,5 @@
+import { HeaderObj } from '@/services/auth.service';
+
 export interface IAuthCreds {
   username: string;
   password: string;
@@ -12,10 +14,11 @@ export interface ILoginResult {
 }
 
 export interface IRequestParams {
-  headers: {
-    headers: {
-      [key: string]: string;
-    };
-  };
+  // headers: {
+  //   headers: {
+  //     [key: string]: string;
+  //   };
+  // };
+  headers: HeaderObj;
   url: string;
 }

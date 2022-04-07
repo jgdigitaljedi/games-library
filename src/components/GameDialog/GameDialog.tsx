@@ -15,7 +15,7 @@ import helpersService, { gameCaseSubTypes } from '../../services/helpers.service
 import ReadMore from '../ReadMore/ReadMore';
 import { Button } from 'primereact/button';
 import VideoGallery from '../VideoGallery/VideoGallery';
-import { uniq as _uniq } from 'lodash';
+import { truncate, uniq as _uniq } from 'lodash';
 import { uniqBy as _uniqBy } from 'lodash';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import { CurrencyUtils } from 'stringman-utils';
@@ -42,6 +42,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   const urlPrefix = UrlService.assets;
   const [showVideos, setShowVideos] = useState(false);
   const [vrStatus, setVrStatus] = useState<string>('');
+  const [gameTotals, setGameTotals] = useState({ amount: 0, paid: 0, value: 0 });
   const ratingImages = (letter: string): string => {
     const ratings: IRatings = assetsService.ratings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
@@ -120,7 +121,30 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           : [];
       setConsolesOwnedFor(owned);
       getVrStatus();
-      // getEbayPrice();
+      const totalPaid: number = owned.reduce((acc, item) => {
+        if (acc === undefined) {
+          acc = 0;
+        }
+        if (item.pricePaid) {
+          acc += item.pricePaid;
+        }
+        return acc;
+      }, 0);
+      const totalPcPrice: number = owned.reduce((acc, item) => {
+        if (acc === undefined) {
+          acc = 0;
+        }
+        if (item.priceCharting?.price) {
+          acc += item.priceCharting.price;
+        }
+        return acc;
+      }, 0);
+      console.log('totalPaid', totalPaid);
+      setGameTotals({
+        amount: owned.length,
+        paid: totalPaid || 0,
+        value: totalPcPrice || 0
+      });
     }
   }, [game, getVrStatus]);
 
@@ -236,6 +260,18 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
                       </tr>
                     ))}
                   </tbody>
+                  <tfoot>
+                    <tr>
+                      <td>{gameTotals.amount}</td>
+                      <td>{currencyUtils.formatCurrencyDisplay(gameTotals.paid)}</td>
+                      <td>{currencyUtils.formatCurrencyDisplay(gameTotals.value)}</td>
+                      <td>--</td>
+                      <td>--</td>
+                      <td>--</td>
+                      <td>--</td>
+                      <td>--</td>
+                    </tr>
+                  </tfoot>
                 </table>
               )}
               {game.physicalDigital.indexOf('EverDrive') >= 0 && everdriveConsole()}

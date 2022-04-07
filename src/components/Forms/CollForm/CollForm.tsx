@@ -117,6 +117,7 @@ const CollForm: FunctionComponent<IProps> = ({
       collCopy.purchaseDate = moment(collForm?.newPurchaseDate).format('YYYY-MM-DD');
     }
     delete collCopy.newPurchaseDate;
+    console.log('collCopy', collCopy);
     saveCollectible(collCopy, isPatch)
       .then(result => {
         closeDialog(collForm?.name, true, 'added');
@@ -202,6 +203,15 @@ const CollForm: FunctionComponent<IProps> = ({
               checked={!!collForm?.officialLicensed}
               onChange={userChange}
               attr-which='officialLicensed'
+            />
+          </div>
+          <div className='crud-form--form__row'>
+            <label htmlFor='image'>Image</label>
+            <InputText
+              id='image'
+              value={collForm?.image}
+              onChange={userChange}
+              attr-which='image'
             />
           </div>
           <div className='crud-form--form__row'>
@@ -296,7 +306,7 @@ const CollForm: FunctionComponent<IProps> = ({
           className='p-button-info'
         />
         <Button
-          label={`Save ${CollForm?.name}`}
+          label={`Save ${collForm?.name}`}
           onClick={updateColl}
           icon='pi pi-save'
           className='p-button-success'

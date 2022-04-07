@@ -204,8 +204,8 @@ function getCibStatus(
       return true; // @TODO: all of mine are CIB for now, need to add CIB to clones
     case 'COLL':
       return (
-        (item as ICollectible)?.notes.indexOf('box') >= 0 ||
-        (item as ICollectible)?.notes.indexOf('sealed') >= 0
+        (item as ICollectible)?.notes?.indexOf('box') >= 0 ||
+        (item as ICollectible)?.notes?.indexOf('sealed') >= 0
       );
     default:
       return false;
@@ -225,7 +225,9 @@ function getConsoleName(
     case 'CLONE':
       return item?.name;
     case 'COLL':
-      return (item as ICollectible)?.associatedConsoles[0].name || '';
+      const associatedConsoles = (item as ICollectible)?.associatedConsoles;
+      return associatedConsoles?.length > 0 ? associatedConsoles[0].name : '';
+    // return (item as ICollectible)?.associatedConsoles[0].name || '';
     default:
       return '';
   }
@@ -241,9 +243,10 @@ function getConsoleId(item: IGame | IConsole | IAcc | IClone | ICollectible, typ
       // @ts-ignore
       return item?.id;
     case 'COLL':
-      return parseInt(
-        (item as ICollectible)?.associatedConsoles[0].id.toString() || '9999999999999999999999'
-      );
+      const associatedConsoles = (item as ICollectible)?.associatedConsoles;
+      return associatedConsoles?.length > 0
+        ? parseInt(associatedConsoles[0].id.toString())
+        : 9999999999999999999999;
     case 'CLONE':
     default:
       return 9999999999999999999999;
@@ -261,7 +264,7 @@ function getBox(item: IGame | IConsole | IAcc | IClone | ICollectible, type: str
     case 'CLONE':
       return true; // @TODO: all of mine are CIB for now, need to add box to clones
     case 'COLL':
-      return (item as ICollectible)?.notes.indexOf('box') >= 0;
+      return ((item as ICollectible)?.notes || '').indexOf('box') >= 0;
     default:
       return false;
   }
@@ -278,7 +281,7 @@ function getManual(item: IGame | IConsole | IAcc | IClone | ICollectible, type: 
     case 'CLONE':
       return true; // @TODO: all of mine are CIB for now, need to add manual to clones
     case 'COLL':
-      return (item as ICollectible)?.notes.indexOf('box') >= 0;
+      return ((item as ICollectible)?.notes || '').indexOf('box') >= 0;
     default:
       return false;
   }

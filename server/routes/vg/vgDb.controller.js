@@ -257,9 +257,9 @@ module.exports.editAcc = function (req, res) {
  *********************************************/
 
 module.exports.saveColl = function (req, res) {
-  if (req.body && req.body.hasOwnProperty('coll')) {
+  if (req.body && req.body.hasOwnProperty('collectible')) {
     collCrud
-      .save(req.body.coll)
+      .save(req.body.collectible)
       .then(result => {
         res.status(200).json({ error: false, result });
       })

@@ -116,6 +116,12 @@ export interface IStats {
   totalClones: number;
   everDriveCounts: number;
   priceBreakdown: any;
+  nesBBOwned: number;
+  nesBBTotal: number;
+  nesHangTabsGamesOwned: number;
+  nesHangTabTotal: number;
+  genesisBBGridOwned: number;
+  genesisBBGridTotal: number;
 }
 
 export type ViewWhatType =

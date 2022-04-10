@@ -26,8 +26,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   // @ts-ignore
   const [data, setData] = useState<IStats>({});
   const [pcGameStats, setPcGameStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
-  const [pcPlatformStats, setPcPlatformStats] =
-    useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
+  const [pcPlatformStats, setPcPlatformStats] = useState<
+    IPcStatsTotalsFixed & IPcStatsTotalsDynamic
+  >();
   const [pcAccStats, setPcAccStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [pcCloneStats, setPcCloneStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [pcCollStats, setPcCollStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
@@ -202,6 +203,10 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     console.log('clicked', clicked);
   }, []);
 
+  const getPercent = (value: number, total: number): string => {
+    return ((value / total) * 100).toFixed(2);
+  };
+
   useEffect(() => {
     getData();
     // eslint-disable-next-line
@@ -371,7 +376,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
           </div>
         )}
       </div>
-      {data && data.gamesAcquisition && (
+      {/* {data && data.gamesAcquisition && (
         <div className='chart-container' style={{ width: '100%' }}>
           <Chart
             type='bar'
@@ -388,7 +393,42 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
             width='100%'
           />
         </div>
-      )}
+      )} */}
+      <div className='home--row'>
+        <h3>Game collection series data</h3>
+        <div className='home-prices'>
+          <table className='home-prices--table'>
+            <thead>
+              <tr>
+                <th>Series</th>
+                <th>Owned</th>
+                <th>Total</th>
+                <th>%</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>NES Black Box</td>
+                <td>{data.nesBBOwned}</td>
+                <td>{data.nesBBTotal}</td>
+                <td>{getPercent(data.nesBBOwned, data.nesBBTotal)}</td>
+              </tr>
+              <tr>
+                <td>NES Hang Tab</td>
+                <td>{data.nesHangTabsGamesOwned}</td>
+                <td>{data.nesHangTabTotal}</td>
+                <td>{getPercent(data.nesHangTabsGamesOwned, data.nesHangTabTotal)}</td>
+              </tr>
+              <tr>
+                <td>Genesis Black Box Grid</td>
+                <td>{data.genesisBBGridOwned}</td>
+                <td>{data.genesisBBGridTotal}</td>
+                <td>{getPercent(data.genesisBBGridOwned, data.genesisBBGridTotal)}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       <div className='home--row'>
         {data && data.physicalVsDigitalGames && (
           <div className='chart-container' style={{ width: '50%' }}>

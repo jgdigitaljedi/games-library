@@ -15,7 +15,7 @@ import helpersService, { gameCaseSubTypes } from '../../services/helpers.service
 import ReadMore from '../ReadMore/ReadMore';
 import { Button } from 'primereact/button';
 import VideoGallery from '../VideoGallery/VideoGallery';
-import { truncate, uniq as _uniq } from 'lodash';
+import { uniq as _uniq } from 'lodash';
 import { uniqBy as _uniqBy } from 'lodash';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import { CurrencyUtils } from 'stringman-utils';
@@ -50,17 +50,6 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   const [consolesOwnedFor, setConsolesOwnedFor] = useState<IConsolesOwned[]>([]);
 
   const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
-
-  // const getEbayPrice = () => {
-  //   const queryString = `${game.name} ${game.consoleName}`;
-  //   getEbayPrices(queryString)
-  //     .then((result: any) => {
-  //       console.log('ebay', result);
-  //     })
-  //     .catch((error: any) => {
-  //       console.log('ebay error', error);
-  //     });
-  // };
 
   const loadVideos = (load?: boolean) => {
     if (load) {

@@ -1,0 +1,794 @@
+[
+  {
+    "id": "gbbg1",
+    "name": "688 Attack Sub",
+    "igdbId": 5338,
+    "gbId": 3480,
+    "gbGuid": "3030-3480",
+    "tgdbId": 3863
+  },
+  {
+    "id": "gbbg2",
+    "name": "The Adventures of Rocky and Bullwinkle and Friends",
+    "igdbId": 5347,
+    "gbId": 8118,
+    "gbGuid": "3030-8118",
+    "tgdbId": 18275
+  },
+  {
+    "id": "gbbg3",
+    "name": "After Burner II",
+    "igdbId": 5352,
+    "gbId": 2139,
+    "gbGuid": "3030-2139",
+    "tgdbId": 446
+  },
+  {
+    "id": "gbbg4",
+    "name": "Alex Kidd in the Enchanted Castle",
+    "igdbId": 3217,
+    "gbId": 4968,
+    "gbGuid": "3030-4968",
+    "tgdbId": 2271
+  },
+  {
+    "id": "gbbg5",
+    "name": "Alien Storm",
+    "igdbId": 9969,
+    "gbId": 2596,
+    "gbGuid": "3030-2596",
+    "tgdbId": 2687
+  },
+  {
+    "id": "gbbg6",
+    "name": "Alisia Dragoon",
+    "igdbId": 19508,
+    "gbId": 9988,
+    "gbGuid": "3030-9988",
+    "tgdbId": 3486
+  },
+  {
+    "id": "gbbg7",
+    "name": "Altered Beast",
+    "igdbId": 2604,
+    "gbId": 2536,
+    "gbGuid": "3030-2536",
+    "tgdbId": 118
+  },
+  {
+    "id": "gbbg8",
+    "name": "David Crane's Amazing Tennis",
+    "igdbId": 46534,
+    "gbId": 22384,
+    "gbGuid": "3030-22384",
+    "tgdbId": 1745
+  },
+  {
+    "id": "gbbg9",
+    "name": "Arnold Palmer Tournament Golf",
+    "igdbId": 12869,
+    "gbId": 2762,
+    "gbGuid": "3030-2762",
+    "tgdbId": 4249
+  },
+  {
+    "id": "gbbg10",
+    "name": "Batman Returns",
+    "igdbId": 4379,
+    "gbId": 9710,
+    "gbGuid": "3030-9710",
+    "tgdbId": 1517
+  },
+  {
+    "id": "gbbg11",
+    "name": "Bio-Hazard Battle",
+    "igdbId": 4517,
+    "gbId": 15244,
+    "gbGuid": "3030-15244",
+    "tgdbId": 20258
+  },
+  {
+    "id": "gbbg12",
+    "name": "Bonanza Bros.",
+    "igdbId": 4511,
+    "gbId": 14087,
+    "gbGuid": "3030-14087",
+    "tgdbId": 4290
+  },
+  {
+    "id": "gbbg13",
+    "name": "James 'Buster' Douglas Knock Out Boxing",
+    "igdbId": 46530,
+    "gbId": 5261,
+    "gbGuid": "3030-5261",
+    "tgdbId": null
+  },
+  {
+    "id": "gbbg14",
+    "name": "California Games",
+    "igdbId": 11984,
+    "gbId": 3193,
+    "gbGuid": "3030-3193",
+    "tgdbId": 1662
+  },
+  {
+    "id": "gbbg15",
+    "name": "Castle of Illusion Starring Mickey Mouse",
+    "igdbId": 8122,
+    "gbId": 9513,
+    "gbGuid": "3030-9513",
+    "tgdbId": 115
+  },
+  {
+    "id": "gbbg16",
+    "name": "Chakan: The Forever Man",
+    "igdbId": 18091,
+    "gbId": 11805,
+    "gbGuid": "3030-11805",
+    "tgdbId": 3891
+  },
+  {
+    "id": "gbbg17",
+    "name": "Mega Twins",
+    "igdbId": 12184,
+    "gbId": 7238,
+    "gbGuid": "3030-7238",
+    "tgdbId": 24676
+  },
+  {
+    "id": "gbbg18",
+    "name": "Columns",
+    "igdbId": 4446,
+    "gbId": 5487,
+    "gbGuid": "3030-5487",
+    "tgdbId": 465
+  },
+  {
+    "id": "gbbg19",
+    "name": "Cyberball",
+    "igdbId": 12022,
+    "gbId": 8655,
+    "gbGuid": "3030-8655",
+    "tgdbId": 1684
+  },
+  {
+    "id": "gbbg20",
+    "name": "Cyborg Justice",
+    "igdbId": 46236,
+    "gbId": 3743,
+    "gbGuid": "3030-3743",
+    "tgdbId": 3898
+  },
+  {
+    "id": "gbbg21",
+    "name": "David Robinson's Supreme Court",
+    "igdbId": 46533,
+    "gbId": 22046,
+    "gbGuid": "3030-22046",
+    "tgdbId": 4328
+  },
+  {
+    "id": "gbbg22",
+    "name": "Death Duel",
+    "igdbId": 46224,
+    "gbId": 5003,
+    "gbGuid": "3030-5003",
+    "tgdbId": 4332
+  },
+  {
+    "id": "gbbg23",
+    "name": "Decap Attack",
+    "igdbId": 6067,
+    "gbId": 5596,
+    "gbGuid": "3030-5596",
+    "tgdbId": 8088
+  },
+  {
+    "id": "gbbg24",
+    "name": "Dick Tracy",
+    "igdbId": 13058,
+    "gbId": 40441,
+    "gbGuid": "3030-40441",
+    "tgdbId": 1694
+  },
+  {
+    "id": "gbbg25",
+    "name": "Dungeons & Dragons: Warriors of the Eternal Sun",
+    "igdbId": 4486,
+    "gbId": 314,
+    "gbGuid": "3030-314",
+    "tgdbId": 4330
+  },
+  {
+    "id": "gbbg26",
+    "name": "Dynamite Duke",
+    "igdbId": null,
+    "gbId": 3504,
+    "gbGuid": "3030-3504",
+    "tgdbId": 2734
+  },
+  {
+    "id": "gbbg27",
+    "name": "Ecco the Dolphin",
+    "igdbId": 5378,
+    "gbId": 9286,
+    "gbGuid": "3030-9286",
+    "tgdbId": 132
+  },
+  {
+    "id": "gbbg28",
+    "name": "ESWAT: City Under Siege",
+    "igdbId": 6670,
+    "gbId": 29056,
+    "gbGuid": "3030-29056",
+    "tgdbId": 4361
+  },
+  {
+    "id": "gbbg29",
+    "name": "Evander Holyfield's 'Real Deal' Boxing",
+    "igdbId": 45557,
+    "gbId": 1260,
+    "gbGuid": "3030-1260",
+    "tgdbId": 24159
+  },
+  {
+    "id": "gbbg30",
+    "name": "Ex-Mutants",
+    "igdbId": 36738,
+    "gbId": 17597,
+    "gbGuid": "3030-17597",
+    "tgdbId": 4364
+  },
+  {
+    "id": "gbbg31",
+    "name": "Fantasia",
+    "igdbId": 45587,
+    "gbId": 20273,
+    "gbGuid": "3030-20273",
+    "tgdbId": 39935
+  },
+  {
+    "id": "gbbg32",
+    "name": "Fatal Labyrinth",
+    "igdbId": 4496,
+    "gbId": 6380,
+    "gbGuid": "3030-6380",
+    "tgdbId": 477
+  },
+  {
+    "id": "gbbg33",
+    "name": "Flicky",
+    "igdbId": 6105,
+    "gbId": 12914,
+    "gbGuid": "3030-12914",
+    "tgdbId": 4379
+  },
+  {
+    "id": "gbbg34",
+    "name": "Forgotten Worlds",
+    "igdbId": 6794,
+    "gbId": 14220,
+    "gbGuid": "3030-14220",
+    "tgdbId": 2748
+  },
+  {
+    "id": "gbbg35",
+    "name": "G-LOC Air Battle",
+    "igdbId": 4464,
+    "gbId": 13742,
+    "gbGuid": "3030-13742",
+    "tgdbId": 2798
+  },
+  {
+    "id": "gbbg36",
+    "name": "Galaxy Force II",
+    "igdbId": 6799,
+    "gbId": 8320,
+    "gbGuid": "3030-8320",
+    "tgdbId": 36417
+  },
+  {
+    "id": "gbbg37",
+    "name": "Ghostbusters",
+    "igdbId": 4534,
+    "gbId": 21416,
+    "gbGuid": "3030-21416",
+    "tgdbId": 1292
+  },
+  {
+    "id": "gbbg38",
+    "name": "Ghouls 'n Ghosts",
+    "igdbId": 6817,
+    "gbId": 12381,
+    "gbGuid": "3030-12381",
+    "tgdbId": 2592
+  },
+  {
+    "id": "gbbg39",
+    "name": "Golden Axe",
+    "igdbId": 5565,
+    "gbId": 14351,
+    "gbGuid": "3030-14351",
+    "tgdbId": 209
+  },
+  {
+    "id": "gbbg40",
+    "name": "Golden Axe II",
+    "igdbId": 16214,
+    "gbId": 5402,
+    "gbGuid": "3030-5402",
+    "tgdbId": 967
+  },
+  {
+    "id": "gbbg41",
+    "name": "Greendog: The Beached Surfer Dude!",
+    "igdbId": 45792,
+    "gbId": 11123,
+    "gbGuid": "3030-11123",
+    "tgdbId": 2593
+  },
+  {
+    "id": "gbbg42",
+    "name": "Herzog Zwei",
+    "igdbId": 24073,
+    "gbId": 11439,
+    "gbGuid": "3030-11439",
+    "tgdbId": 486
+  },
+  {
+    "id": "gbbg43",
+    "name": "Home Alone",
+    "igdbId": 4523,
+    "gbId": 50880,
+    "gbGuid": "3030-50880",
+    "tgdbId": 487
+  },
+  {
+    "id": "gbbg44",
+    "name": "Jewel Master",
+    "igdbId": 4536,
+    "gbId": 629,
+    "gbGuid": "3030-629",
+    "tgdbId": 8094
+  },
+  {
+    "id": "gbbg45",
+    "name": "Joe Montana Football",
+    "igdbId": 5396,
+    "gbId": 1700,
+    "gbGuid": "3030-1700",
+    "tgdbId": 2870
+  },
+  {
+    "id": "gbbg46",
+    "name": "Joe Montana II: Sports Talk Football",
+    "igdbId": 46274,
+    "gbId": 29301,
+    "gbGuid": "3030-29301",
+    "tgdbId": 534
+  },
+  {
+    "id": "gbbg47",
+    "name": "Kid Chameleon",
+    "igdbId": 16035,
+    "gbId": 11175,
+    "gbGuid": "3030-11175",
+    "tgdbId": 2279
+  },
+  {
+    "id": "gbbg48",
+    "name": "Last Battle",
+    "igdbId": 27971,
+    "gbId": 12187,
+    "gbGuid": "3030-12187",
+    "tgdbId": 4482
+  },
+  {
+    "id": "gbbg49",
+    "name": "Lightening Force: Quest for the Darkstar",
+    "igdbId": 46273,
+    "gbId": 11627,
+    "gbGuid": "3030-11627",
+    "tgdbId": 543
+  },
+  {
+    "id": "gbbg50",
+    "name": "Disney's Ariel: The Little Mermaid",
+    "igdbId": 45628,
+    "gbId": 6251,
+    "gbGuid": "3030-6251",
+    "tgdbId": 449
+  },
+  {
+    "id": "gbbg51",
+    "name": "M-1 Abrams Battle Tank",
+    "igdbId": 45775,
+    "gbId": 18337,
+    "gbGuid": "3030-18337",
+    "tgdbId": 4488
+  },
+  {
+    "id": "gbbg52",
+    "name": "Mario Lemieux Hockey",
+    "igdbId": 4441,
+    "gbId": 30095,
+    "gbGuid": "3030-30095",
+    "tgdbId": 4495
+  },
+  {
+    "id": "gbbg53",
+    "name": "MERCS",
+    "igdbId": 4487,
+    "gbId": 10360,
+    "gbGuid": "3030-10360",
+    "tgdbId": 30618
+  },
+  {
+    "id": "gbbg54",
+    "name": "Midnight Resistance",
+    "igdbId": 4401,
+    "gbId": 7405,
+    "gbGuid": "3030-7405",
+    "tgdbId": 6533
+  },
+  {
+    "id": "gbbg55",
+    "name": "Michael Jackson's Moonwalker",
+    "igdbId": 18139,
+    "gbId": 21182,
+    "gbGuid": "3030-21182",
+    "tgdbId": 2908
+  },
+  {
+    "id": "gbbg56",
+    "name": "Mystic Defender",
+    "igdbId": 27989,
+    "gbId": 3162,
+    "gbGuid": "3030-3162",
+    "tgdbId": 2594
+  },
+  {
+    "id": "gbbg57",
+    "name": "OutRun",
+    "igdbId": 2051,
+    "gbId": 11260,
+    "gbGuid": "3030-11260",
+    "tgdbId": 2947
+  },
+  {
+    "id": "gbbg58",
+    "name": "OutRun 2019",
+    "igdbId": 45767,
+    "gbId": 3452,
+    "gbGuid": "3030-3452",
+    "tgdbId": 28056
+  },
+  {
+    "id": "gbbg59",
+    "name": "Pat Riley Basketball",
+    "igdbId": 28020,
+    "gbId": 29303,
+    "gbGuid": "3030-29303",
+    "tgdbId": 2961
+  },
+  {
+    "id": "gbbg60",
+    "name": "Phantasy Star II",
+    "igdbId": 1232,
+    "gbId": 4492,
+    "gbGuid": "3030-4492",
+    "tgdbId": 678
+  },
+  {
+    "id": "gbbg61",
+    "name": "Phantasy Star III: Generations of Doom",
+    "igdbId": 1231,
+    "gbId": 18253,
+    "gbGuid": "3030-18253",
+    "tgdbId": 679
+  },
+  {
+    "id": "gbbg62",
+    "name": "Jerry Glanville's Pigskin Footbrawl",
+    "igdbId": 46188,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 20392
+  },
+  {
+    "id": "gbbg63",
+    "name": "QuackShot Starring Donald Duck",
+    "igdbId": 46213,
+    "gbId": 9412,
+    "gbGuid": "3030-9412",
+    "tgdbId": 4581
+  },
+  {
+    "id": "gbbg64",
+    "name": "Rambo III",
+    "igdbId": 18145,
+    "gbId": 1172,
+    "gbGuid": "3030-1172",
+    "tgdbId": 2987
+  },
+  {
+    "id": "gbbg65",
+    "name": "The Revenge of Shinobi",
+    "igdbId": 3327,
+    "gbId": 236,
+    "gbGuid": "3030-236",
+    "tgdbId": 3731
+  },
+  {
+    "id": "gbbg66",
+    "name": "Shadow Dancer: The Secret of Shinobi",
+    "igdbId": 10217,
+    "gbId": 9761,
+    "gbGuid": "3030-9761",
+    "tgdbId": 5530
+  },
+  {
+    "id": "gbbg67",
+    "name": "Shining Force",
+    "igdbId": 3041,
+    "gbId": 20113,
+    "gbGuid": "3030-20113",
+    "tgdbId": 183
+  },
+  {
+    "id": "gbbg68",
+    "name": "Shining in the Darkness",
+    "igdbId": 9406,
+    "gbId": 15684,
+    "gbGuid": "3030-15684",
+    "tgdbId": 697
+  },
+  {
+    "id": "gbbg69",
+    "name": "Slaughter Sport",
+    "igdbId": 4378,
+    "gbId": 14672,
+    "gbGuid": "3030-14672",
+    "tgdbId": 4619
+  },
+  {
+    "id": "gbbg70",
+    "name": "Sonic The Hedgehog",
+    "igdbId": 3192,
+    "gbId": 2465,
+    "gbGuid": "3030-2465",
+    "tgdbId": 40416
+  },
+  {
+    "id": "gbbg71",
+    "name": "Space Harrier II",
+    "igdbId": 4498,
+    "gbId": 12420,
+    "gbGuid": "3030-12420",
+    "tgdbId": 2598
+  },
+  {
+    "id": "gbbg72",
+    "name": "Spider-Man",
+    "igdbId": 4500,
+    "gbId": 2926,
+    "gbGuid": "3030-2926",
+    "tgdbId": 611
+  },
+  {
+    "id": "gbbg73",
+    "name": "Sports Talk Baseball",
+    "igdbId": 46261,
+    "gbId": 15142,
+    "gbGuid": "3030-15142",
+    "tgdbId": 700
+  },
+  {
+    "id": "gbbg74",
+    "name": "NFL Sports Talk Football '93 Starring Joe Montana",
+    "igdbId": 46267,
+    "gbId": 8073,
+    "gbGuid": "3030-8073",
+    "tgdbId": 660
+  },
+  {
+    "id": "gbbg75",
+    "name": "Stormlord",
+    "igdbId": 12781,
+    "gbId": 1044,
+    "gbGuid": "3030-1044",
+    "tgdbId": 4639
+  },
+  {
+    "id": "gbbg76",
+    "name": "Streets of Rage",
+    "igdbId": 1652,
+    "gbId": 20436,
+    "gbGuid": "3030-20436",
+    "tgdbId": 971
+  },
+  {
+    "id": "gbbg77",
+    "name": "Strider",
+    "igdbId": 6969,
+    "gbId": 26410,
+    "gbGuid": "3030-26410",
+    "tgdbId": 702
+  },
+  {
+    "id": "gbbg78",
+    "name": "Garry Kitchen's Super Battletank: War in the Gulf",
+    "igdbId": 46681,
+    "gbId": 8036,
+    "gbGuid": "3030-8036",
+    "tgdbId": 20379
+  },
+  {
+    "id": "gbbg79",
+    "name": "Super Hang-On",
+    "igdbId": 6145,
+    "gbId": 18692,
+    "gbGuid": "3030-18692",
+    "tgdbId": 4643
+  },
+  {
+    "id": "gbbg80",
+    "name": "Super Monaco GP",
+    "igdbId": 4528,
+    "gbId": 532,
+    "gbGuid": "3030-532",
+    "tgdbId": 3040
+  },
+  {
+    "id": "gbbg81",
+    "name": "Ayrton Senna's Super Monaco GP II",
+    "igdbId": 27077,
+    "gbId": 8935,
+    "gbGuid": "3030-8935",
+    "tgdbId": 2697
+  },
+  {
+    "id": "gbbg82",
+    "name": "Super Thunder Blade",
+    "igdbId": 4471,
+    "gbId": 234,
+    "gbGuid": "3030-234",
+    "tgdbId": 704
+  },
+  {
+    "id": "gbbg83",
+    "name": "Super Volleyball",
+    "igdbId": 46192,
+    "gbId": 34438,
+    "gbGuid": "3030-34438",
+    "tgdbId": 4646
+  },
+  {
+    "id": "gbbg84",
+    "name": "Sword of Vermilion",
+    "igdbId": 30148,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 705
+  },
+  {
+    "id": "gbbg85",
+    "name": "TaleSpin",
+    "igdbId": 8067,
+    "gbId": 48591,
+    "gbGuid": "3030-48591",
+    "tgdbId": 707
+  },
+  {
+    "id": "gbbg86",
+    "name": "Taz-Mania",
+    "igdbId": 8066,
+    "gbId": 4894,
+    "gbGuid": "3030-4894",
+    "tgdbId": 2288
+  },
+  {
+    "id": "gbbg87",
+    "name": "Techno Cop",
+    "igdbId": 22746,
+    "gbId": 11861,
+    "gbGuid": "3030-11861",
+    "tgdbId": 4654
+  },
+  {
+    "id": "gbbg88",
+    "name": "Thunder Force II",
+    "igdbId": 6033,
+    "gbId": 12471,
+    "gbGuid": "3030-12471",
+    "tgdbId": 714
+  },
+  {
+    "id": "gbbg89",
+    "name": "ToeJam & Earl",
+    "igdbId": 8389,
+    "gbId": 13306,
+    "gbGuid": "3030-13306",
+    "tgdbId": 2289
+  },
+  {
+    "id": "gbbg90",
+    "name": "Toki",
+    "igdbId": 12228,
+    "gbId": 9823,
+    "gbGuid": "3030-9823",
+    "tgdbId": 2143
+  },
+  {
+    "id": "gbbg91",
+    "name": "Tommy Lasorda Baseball",
+    "igdbId": null,
+    "gbId": 11264,
+    "gbGuid": "3030-11264",
+    "tgdbId": 718
+  },
+  {
+    "id": "gbbg92",
+    "name": "Toxic Crusaders",
+    "igdbId": 8022,
+    "gbId": 10876,
+    "gbGuid": "3030-10876",
+    "tgdbId": 2149
+  },
+  {
+    "id": "gbbg93",
+    "name": "Toys",
+    "igdbId": 78103,
+    "gbId": 2166,
+    "gbGuid": "3030-2166",
+    "tgdbId": 4693
+  },
+  {
+    "id": "gbbg94",
+    "name": "Truxton",
+    "igdbId": 4418,
+    "gbId": 7598,
+    "gbGuid": "3030-7598",
+    "tgdbId": 721
+  },
+  {
+    "id": "gbbg95",
+    "name": "Twin Cobra",
+    "igdbId": 8189,
+    "gbId": 11930,
+    "gbGuid": "3030-11930",
+    "tgdbId": 2152
+  },
+  {
+    "id": "gbbg96",
+    "name": "Wonder Boy",
+    "igdbId": 9540,
+    "gbId": 9245,
+    "gbGuid": "3030-9245",
+    "tgdbId": 3106
+  },
+  {
+    "id": "gbbg97",
+    "name": "World Championship Soccer",
+    "igdbId": 27972,
+    "gbId": 2934,
+    "gbGuid": "3030-2934",
+    "tgdbId": 4733
+  },
+  {
+    "id": "gbbg98",
+    "name": "World of Illusion Starring Mickey Mouse and Donald Duck",
+    "igdbId": 8124,
+    "gbId": 6710,
+    "gbGuid": "3030-6710",
+    "tgdbId": 139
+  },
+  {
+    "id": "gbbg99",
+    "name": "Zoom!",
+    "igdbId": 28001,
+    "gbId": 16107,
+    "gbGuid": "3030-16107",
+    "tgdbId": 4751
+  }
+]

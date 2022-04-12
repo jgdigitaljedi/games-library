@@ -1,0 +1,497 @@
+[
+  {
+    "name": "20 em 1",
+    "details": "Sega Master System exclusive",
+    "id": "smsex1",
+    "igdbId": 94700,
+    "gbId": 19972,
+    "gbGuid": "3030-19972",
+    "tgdbId": 3129
+  },
+  {
+    "name": "Alex Kidd: BMX Trial",
+    "details": "Sega Master System exclusive",
+    "id": "smsex2",
+    "igdbId": 37174,
+    "gbId": 4553,
+    "gbGuid": "3030-4553",
+    "tgdbId": 2683
+  },
+  {
+    "name": "Alex Kidd: High-Tech World",
+    "details": "Sega Master System exclusive",
+    "id": "smsex3",
+    "igdbId": 46112,
+    "gbId": 7108,
+    "gbGuid": "3030-7108",
+    "tgdbId": 5536
+  },
+  {
+    "name": "ALF",
+    "details": "Sega Master System exclusive",
+    "id": "smsex4",
+    "igdbId": 65580,
+    "gbId": 5142,
+    "gbGuid": "3030-5142",
+    "tgdbId": 2686
+  },
+  {
+    "name": "Arcade Smash Hits",
+    "details": "Sega Master System exclusive",
+    "id": "smsex5",
+    "igdbId": 46151,
+    "gbId": 6044,
+    "gbGuid": "3030-6044",
+    "tgdbId": 2691
+  },
+  {
+    "name": "Assault City",
+    "details": "Sega Master System exclusive",
+    "id": "smsex6",
+    "igdbId": 46117,
+    "gbId": 312,
+    "gbGuid": "3030-312",
+    "tgdbId": 11521
+  },
+  {
+    "name": "Asterix",
+    "details": "Sega Master System exclusive",
+    "id": "smsex7",
+    "igdbId": 19486,
+    "gbId": 9018,
+    "gbGuid": "3030-9018",
+    "tgdbId": null
+  },
+  {
+    "name": "Astro Warrior",
+    "details": "Sega Master System exclusive",
+    "id": "smsex8",
+    "igdbId": 37176,
+    "gbId": 14539,
+    "gbGuid": "3030-14539",
+    "tgdbId": 2695
+  },
+  {
+    "name": "Aztec Adventure",
+    "details": "Sega Master System exclusive",
+    "id": "smsex9",
+    "igdbId": 45668,
+    "gbId": 6159,
+    "gbGuid": "3030-6159",
+    "tgdbId": 2698
+  },
+  {
+    "name": "Basketball Nightmare",
+    "details": "Sega Master System exclusive",
+    "id": "smsex10",
+    "igdbId": 45667,
+    "gbId": 40805,
+    "gbGuid": "3030-40805",
+    "tgdbId": 2703
+  },
+  {
+    "name": "Battle OutRun",
+    "details": "Sega Master System exclusive",
+    "id": "smsex11",
+    "igdbId": 2056,
+    "gbId": 407,
+    "gbGuid": "3030-407",
+    "tgdbId": 2704
+  },
+  {
+    "name": "Blade Eagle 3-D",
+    "details": "Sega Master System exclusive",
+    "id": "smsex12",
+    "igdbId": 45663,
+    "gbId": 18151,
+    "gbGuid": "3030-18151",
+    "tgdbId": 2707
+  },
+  {
+    "name": "Bomber Raid",
+    "details": "Sega Master System exclusive",
+    "id": "smsex13",
+    "igdbId": 45662,
+    "gbId": 6869,
+    "gbGuid": "3030-6869",
+    "tgdbId": 2708
+  },
+  {
+    "name": "Buggy Run",
+    "details": "Sega Master System exclusive",
+    "id": "smsex14",
+    "igdbId": 45657,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 2711
+  },
+  {
+    "name": "Casino Games",
+    "details": "Sega Master System exclusive",
+    "id": "smsex15",
+    "igdbId": 45656,
+    "gbId": 32028,
+    "gbGuid": "3030-32028",
+    "tgdbId": 2713
+  },
+  {
+    "name": "Champions of Europe",
+    "details": "Sega Master System exclusive",
+    "id": "smsex16",
+    "igdbId": 45655,
+    "gbId": 73315,
+    "gbGuid": "3030-73315",
+    "tgdbId": 2714
+  },
+  {
+    "name": "The Cyber Shinobi",
+    "details": "Sega Master System exclusive",
+    "id": "smsex17",
+    "igdbId": 10218,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 3057
+  },
+  {
+    "name": "Cyborg Hunter",
+    "details": "Sega Master System exclusive",
+    "id": "smsex18",
+    "igdbId": 45653,
+    "gbId": 20088,
+    "gbGuid": "3030-20088",
+    "tgdbId": 2722
+  },
+  {
+    "name": "Danan: The Jungle Fighter",
+    "details": "Sega Master System exclusive",
+    "id": "smsex19",
+    "igdbId": 45664,
+    "gbId": 3139,
+    "gbGuid": "3030-3139",
+    "tgdbId": 36019
+  },
+  {
+    "name": "Double Hawk",
+    "details": "Sega Master System exclusive",
+    "id": "smsex20",
+    "igdbId": 45659,
+    "gbId": 15311,
+    "gbGuid": "3030-15311",
+    "tgdbId": 2732
+  },
+  {
+    "name": "Ghost House",
+    "details": "Sega Master System exclusive",
+    "id": "smsex21",
+    "igdbId": 45649,
+    "gbId": 9862,
+    "gbGuid": "3030-9862",
+    "tgdbId": 2791
+  },
+  {
+    "name": "Golfamania",
+    "details": "Sega Master System exclusive",
+    "id": "smsex22",
+    "igdbId": 45673,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 2801
+  },
+  {
+    "name": "Great Baseball",
+    "details": "Sega Master System exclusive",
+    "id": "smsex23",
+    "igdbId": 46145,
+    "gbId": 12789,
+    "gbGuid": "3030-12789",
+    "tgdbId": 2804
+  },
+  {
+    "name": "Great Ice Hockey",
+    "details": "Sega Master System exclusive",
+    "id": "smsex24",
+    "igdbId": 46142,
+    "gbId": 37110,
+    "gbGuid": "3030-37110",
+    "tgdbId": 2812
+  },
+  {
+    "name": "Hoshi wo Sagashite...",
+    "details": "Sega Master System exclusive",
+    "id": "smsex25",
+    "igdbId": 46149,
+    "gbId": 17444,
+    "gbGuid": "3030-17444",
+    "tgdbId": 2849
+  },
+  {
+    "name": "Kenseiden",
+    "details": "Sega Master System exclusive",
+    "id": "smsex26",
+    "igdbId": 65579,
+    "gbId": 20283,
+    "gbGuid": "3030-20283",
+    "tgdbId": 2874
+  },
+  {
+    "name": "Kung Fu Kid",
+    "details": "Sega Master System exclusive",
+    "id": "smsex27",
+    "igdbId": 36898,
+    "gbId": 12779,
+    "gbGuid": "3030-12779",
+    "tgdbId": 2439
+  },
+  {
+    "name": "Lord of the Sword",
+    "details": "Sega Master System exclusive",
+    "id": "smsex28",
+    "igdbId": 46671,
+    "gbId": 10880,
+    "gbGuid": "3030-10880",
+    "tgdbId": 2889
+  },
+  {
+    "name": "Marksman Shooting & Trap Shooting",
+    "details": "Sega Master System exclusive",
+    "id": "smsex29",
+    "igdbId": 78779,
+    "gbId": 4368,
+    "gbGuid": "3030-4368",
+    "tgdbId": 2897
+  },
+  {
+    "name": "Monopoly",
+    "details": "Sega Master System exclusive",
+    "id": "smsex30",
+    "igdbId": 122241,
+    "gbId": 2958,
+    "gbGuid": "3030-2958",
+    "tgdbId": 1145
+  },
+  {
+    "name": "Ninja Gaiden",
+    "details": "Sega Master System exclusive",
+    "id": "smsex31",
+    "igdbId": 7558,
+    "gbId": 1653,
+    "gbGuid": "3030-1653",
+    "tgdbId": 1305
+  },
+  {
+    "name": "OutRun 3-D",
+    "details": "Sega Master System exclusive",
+    "id": "smsex32",
+    "igdbId": 46136,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 2949
+  },
+  {
+    "name": "Penguin Land",
+    "details": "Sega Master System exclusive",
+    "id": "smsex33",
+    "igdbId": 49152,
+    "gbId": 15446,
+    "gbGuid": "3030-15446",
+    "tgdbId": 2962
+  },
+  {
+    "name": "Fushigi no Oshiro Pit Pot",
+    "details": "Sega Master System exclusive",
+    "id": "smsex34",
+    "igdbId": 36678,
+    "gbId": 18268,
+    "gbGuid": "3030-18268",
+    "tgdbId": 3130
+  },
+  {
+    "name": "Poseidon Wars 3-D",
+    "details": "Sega Master System exclusive",
+    "id": "smsex35",
+    "igdbId": 46134,
+    "gbId": 20312,
+    "gbGuid": "3030-20312",
+    "tgdbId": 2971
+  },
+  {
+    "name": "Power Strike",
+    "details": "Sega Master System exclusive",
+    "id": "smsex36",
+    "igdbId": 46132,
+    "gbId": 3130,
+    "gbGuid": "3030-3130",
+    "tgdbId": 2972
+  },
+  {
+    "name": "Pro Wrestling",
+    "details": "Sega Master System exclusive",
+    "id": "smsex37",
+    "igdbId": 18143,
+    "gbId": 4962,
+    "gbGuid": "3030-4962",
+    "tgdbId": 1320
+  },
+  {
+    "name": "Psycho Fox",
+    "details": "Sega Master System exclusive",
+    "id": "smsex38",
+    "igdbId": 46131,
+    "gbId": 18090,
+    "gbGuid": "3030-18090",
+    "tgdbId": 2980
+  },
+  {
+    "name": "R.C. Grand Prix",
+    "details": "Sega Master System exclusive",
+    "id": "smsex39",
+    "igdbId": 46336,
+    "gbId": 6208,
+    "gbGuid": "3030-6208",
+    "tgdbId": 2985
+  },
+  {
+    "name": "Rambo III",
+    "details": "Sega Master System exclusive",
+    "id": "smsex40",
+    "igdbId": 18145,
+    "gbId": 1172,
+    "gbGuid": "3030-1172",
+    "tgdbId": 2987
+  },
+  {
+    "name": "Rocky",
+    "details": "Sega Master System exclusive",
+    "id": "smsex41",
+    "igdbId": 37175,
+    "gbId": 26048,
+    "gbGuid": "3030-26048",
+    "tgdbId": 2995
+  },
+  {
+    "name": "Running Battle",
+    "details": "Sega Master System exclusive",
+    "id": "smsex42",
+    "igdbId": 19511,
+    "gbId": 45429,
+    "gbGuid": "3030-45429",
+    "tgdbId": 2997
+  },
+  {
+    "name": "Sega World Tournament Golf",
+    "details": "Sega Master System exclusive",
+    "id": "smsex43",
+    "igdbId": 46128,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 3004
+  },
+  {
+    "name": "Sitio do Picapau Amarelo",
+    "details": "Sega Master System exclusive",
+    "id": "smsex44",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 3010
+  },
+  {
+    "name": "Slap Shot",
+    "details": "Sega Master System exclusive",
+    "id": "smsex45",
+    "igdbId": 81281,
+    "gbId": 40439,
+    "gbGuid": "3030-40439",
+    "tgdbId": 3011
+  },
+  {
+    "name": "Snail Maze",
+    "details": "Sega Master System exclusive",
+    "id": "smsex46",
+    "igdbId": 46118,
+    "gbId": 21555,
+    "gbGuid": "3030-21555",
+    "tgdbId": 36132
+  },
+  {
+    "name": "Space Harrier 3-D",
+    "details": "Sega Master System exclusive",
+    "id": "smsex47",
+    "igdbId": 46126,
+    "gbId": 10291,
+    "gbGuid": "3030-10291",
+    "tgdbId": 3021
+  },
+  {
+    "name": "SpellCaster",
+    "details": "Sega Master System exclusive",
+    "id": "smsex48",
+    "igdbId": 46124,
+    "gbId": 10557,
+    "gbGuid": "3030-10557",
+    "tgdbId": 3025
+  },
+  {
+    "name": "Taz-Mania",
+    "details": "Sega Master System exclusive",
+    "id": "smsex49",
+    "igdbId": 8066,
+    "gbId": 4894,
+    "gbGuid": "3030-4894",
+    "tgdbId": 2288
+  },
+  {
+    "name": "Tecmo World Cup '93",
+    "details": "Sega Master System exclusive",
+    "id": "smsex50",
+    "igdbId": 46101,
+    "gbId": 23136,
+    "gbGuid": "3030-23136",
+    "tgdbId": 3051
+  },
+  {
+    "name": "TransBot",
+    "details": "Sega Master System exclusive",
+    "id": "smsex51",
+    "igdbId": 29136,
+    "gbId": 15686,
+    "gbGuid": "3030-15686",
+    "tgdbId": 3083
+  },
+  {
+    "name": "Wanted",
+    "details": "Sega Master System exclusive",
+    "id": "smsex52",
+    "igdbId": 75090,
+    "gbId": 15956,
+    "gbGuid": "3030-15956",
+    "tgdbId": 3098
+  },
+  {
+    "name": "World Grand Prix",
+    "details": "Sega Master System exclusive",
+    "id": "smsex53",
+    "igdbId": 29132,
+    "gbId": 20203,
+    "gbGuid": "3030-20203",
+    "tgdbId": 3118
+  },
+  {
+    "name": "Zillion",
+    "details": "Sega Master System exclusive",
+    "id": "smsex54",
+    "igdbId": 18141,
+    "gbId": 8152,
+    "gbGuid": "3030-8152",
+    "tgdbId": 3125
+  },
+  {
+    "name": "Zillion II: The Tri Formation",
+    "details": "Sega Master System exclusive",
+    "id": "smsex55",
+    "igdbId": 46114,
+    "gbId": 19742,
+    "gbGuid": "3030-19742",
+    "tgdbId": 3126
+  }
+]

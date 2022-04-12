@@ -1,0 +1,299 @@
+[
+  {
+    "id": "ps4lt1",
+    "name": "Assassin's Creed IV: Black Flag",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 1970,
+    "gbId": 41518,
+    "gbGuid": "3030-41518",
+    "tgdbId": 17924
+  },
+  {
+    "id": "ps4lt2",
+    "name": "Battlefield 4",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 1979,
+    "gbId": 39035,
+    "gbGuid": "3030-39035",
+    "tgdbId": 16691
+  },
+  {
+    "id": "ps4lt3",
+    "name": "Call of Duty: Ghosts",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 2033,
+    "gbId": 41520,
+    "gbGuid": "3030-41520",
+    "tgdbId": 16900
+  },
+  {
+    "id": "ps4lt4",
+    "name": "DriveClub",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 1940,
+    "gbId": 41693,
+    "gbGuid": "3030-41693",
+    "tgdbId": 18091
+  },
+  {
+    "id": "ps4lt5",
+    "name": "FIFA 14",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 2920,
+    "gbId": 42410,
+    "gbGuid": "3030-42410",
+    "tgdbId": 17834
+  },
+  {
+    "id": "ps4lt6",
+    "name": "Just Dance 2014",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 3256,
+    "gbId": 42907,
+    "gbGuid": "3030-42907",
+    "tgdbId": 17859
+  },
+  {
+    "id": "ps4lt7",
+    "name": "Killzone: Shadow Fall",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 1937,
+    "gbId": 41690,
+    "gbGuid": "3030-41690",
+    "tgdbId": 18223
+  },
+  {
+    "id": "ps4lt8",
+    "name": "Knack",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 2957,
+    "gbId": 41687,
+    "gbGuid": "3030-41687",
+    "tgdbId": 17445
+  },
+  {
+    "id": "ps4lt9",
+    "name": "Lego: Marvel Super Heroes",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 2050,
+    "gbId": 41090,
+    "gbGuid": "3030-41090",
+    "tgdbId": 24259
+  },
+  {
+    "id": "ps4lt10",
+    "name": "Madden NFL 25",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 3185,
+    "gbId": 41459,
+    "gbGuid": "3030-41459",
+    "tgdbId": 17650
+  },
+  {
+    "id": "ps4lt11",
+    "name": "NBA 2K14",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 5329,
+    "gbId": 42632,
+    "gbGuid": "3030-42632",
+    "tgdbId": 17858
+  },
+  {
+    "id": "ps4lt12",
+    "name": "NBA Live 14",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 5330,
+    "gbId": 42864,
+    "gbGuid": "3030-42864",
+    "tgdbId": 18239
+  },
+  {
+    "id": "ps4lt13",
+    "name": "Need for Speed: Rivals",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 2074,
+    "gbId": 42584,
+    "gbGuid": "3030-42584",
+    "tgdbId": 17224
+  },
+  {
+    "id": "ps4lt14",
+    "name": "Skylanders: Swap Force",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 5159,
+    "gbId": 41485,
+    "gbGuid": "3030-41485",
+    "tgdbId": 48496
+  },
+  {
+    "id": "ps4lt15",
+    "name": "Watch Dogs",
+    "details": "Sony PlayStation 4 launch title",
+    "igdbId": 1121,
+    "gbId": 38538,
+    "gbGuid": "3030-38538",
+    "tgdbId": 10284
+  },
+  {
+    "id": "ps4lt16",
+    "name": "Basement Crawl",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 19916,
+    "gbId": 42858,
+    "gbGuid": "3030-42858",
+    "tgdbId": 63143
+  },
+  {
+    "id": "ps4lt17",
+    "name": "Blacklight: Retribution",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 2118,
+    "gbId": 36230,
+    "gbGuid": "3030-36230",
+    "tgdbId": 9610
+  },
+  {
+    "id": "ps4lt18",
+    "name": "Contrast",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 3839,
+    "gbId": 37669,
+    "gbGuid": "3030-37669",
+    "tgdbId": 18343
+  },
+  {
+    "id": "ps4lt19",
+    "name": "CounterSpy",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 7612,
+    "gbId": 42585,
+    "gbGuid": "3030-42585",
+    "tgdbId": 22942
+  },
+  {
+    "id": "ps4lt20",
+    "name": "DC Universe Online",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 576,
+    "gbId": 21110,
+    "gbGuid": "3030-21110",
+    "tgdbId": 9145
+  },
+  {
+    "id": "ps4lt21",
+    "name": "Doki-Doki Universe",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 8684,
+    "gbId": 42594,
+    "gbGuid": "3030-42594",
+    "tgdbId": 22545
+  },
+  {
+    "id": "ps4lt22",
+    "name": "Flower",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 1354,
+    "gbId": 21120,
+    "gbGuid": "3030-21120",
+    "tgdbId": 16687
+  },
+  {
+    "id": "ps4lt23",
+    "name": "Hohokum",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 10088,
+    "gbId": 42589,
+    "gbGuid": "3030-42589",
+    "tgdbId": 22674
+  },
+  {
+    "id": "ps4lt24",
+    "name": "Minecraft",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 121,
+    "gbId": 30475,
+    "gbGuid": "3030-30475",
+    "tgdbId": 320
+  },
+  {
+    "id": "ps4lt25",
+    "name": "N++",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 8750,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 52139
+  },
+  {
+    "id": "ps4lt26",
+    "name": "Pinball Arcade",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 16534,
+    "gbId": 36777,
+    "gbGuid": "3030-36777",
+    "tgdbId": 23468
+  },
+  {
+    "id": "ps4lt27",
+    "name": "PlanetSide 2",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 1265,
+    "gbId": 29025,
+    "gbGuid": "3030-29025",
+    "tgdbId": 12968
+  },
+  {
+    "id": "ps4lt28",
+    "name": "Pool Nation Extreme",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "id": "ps4lt29",
+    "name": "Resogun",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 6007,
+    "gbId": 43628,
+    "gbGuid": "3030-43628",
+    "tgdbId": 18528
+  },
+  {
+    "id": "ps4lt30",
+    "name": "Super Motherload",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 20078,
+    "gbId": 41717,
+    "gbGuid": "3030-41717",
+    "tgdbId": 54049
+  },
+  {
+    "id": "ps4lt31",
+    "name": "Tiny Brains",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 7649,
+    "gbId": 42020,
+    "gbGuid": "3030-42020",
+    "tgdbId": 19000
+  },
+  {
+    "id": "ps4lt32",
+    "name": "War Thunder",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 2165,
+    "gbId": 38992,
+    "gbGuid": "3030-38992",
+    "tgdbId": 17817
+  },
+  {
+    "id": "ps4lt33",
+    "name": "Warframe",
+    "details": "Sony PlayStation 4 launch title (download only)",
+    "igdbId": 2903,
+    "gbId": 38788,
+    "gbGuid": "3030-38788",
+    "tgdbId": 16807
+  }
+]

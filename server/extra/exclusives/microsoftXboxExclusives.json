@@ -1,0 +1,938 @@
+[
+  {
+    "name": "America's Army: Rise of a Soldier",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex1",
+    "igdbId": 5722,
+    "gbId": 4234,
+    "gbGuid": "3030-4234",
+    "tgdbId": 5947
+  },
+  {
+    "name": "AMF Bowling 2004",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex2",
+    "igdbId": 5723,
+    "gbId": 16393,
+    "gbGuid": "3030-16393",
+    "tgdbId": 5948
+  },
+  {
+    "name": "Amped 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex3",
+    "igdbId": 5725,
+    "gbId": 15510,
+    "gbGuid": "3030-15510",
+    "tgdbId": 5972
+  },
+  {
+    "name": "Amped: Freestyle Snowboarding",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex4",
+    "igdbId": 5484,
+    "gbId": 1509,
+    "gbGuid": "3030-1509",
+    "tgdbId": 5949
+  },
+  {
+    "name": "Azurik: Rise of Perathia",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex5",
+    "igdbId": 5733,
+    "gbId": 17039,
+    "gbGuid": "3030-17039",
+    "tgdbId": 5977
+  },
+  {
+    "name": "Bicycle Casino",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex6",
+    "igdbId": 5747,
+    "gbId": 18403,
+    "gbGuid": "3030-18403",
+    "tgdbId": 39658
+  },
+  {
+    "name": "Black Stone: Magic & Steel",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex7",
+    "igdbId": 5750,
+    "gbId": 11574,
+    "gbGuid": "3030-11574",
+    "tgdbId": 5992
+  },
+  {
+    "name": "Blinx 2: Masters of Time & Space",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex8",
+    "igdbId": 5752,
+    "gbId": 3399,
+    "gbGuid": "3030-3399",
+    "tgdbId": 5995
+  },
+  {
+    "name": "Blinx: The Time Sweeper",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex9",
+    "igdbId": 5751,
+    "gbId": 18385,
+    "gbGuid": "3030-18385",
+    "tgdbId": 5996
+  },
+  {
+    "name": "Blood Wake",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex10",
+    "igdbId": 5754,
+    "gbId": 8018,
+    "gbGuid": "3030-8018",
+    "tgdbId": 5999
+  },
+  {
+    "name": "Breakdown",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex11",
+    "igdbId": 5756,
+    "gbId": 13385,
+    "gbGuid": "3030-13385",
+    "tgdbId": 10594
+  },
+  {
+    "name": "Bruce Lee: Quest of the Dragon",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex12",
+    "igdbId": 5758,
+    "gbId": 17800,
+    "gbGuid": "3030-17800",
+    "tgdbId": 6005
+  },
+  {
+    "name": "Brute Force",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex13",
+    "igdbId": 5759,
+    "gbId": 6682,
+    "gbGuid": "3030-6682",
+    "tgdbId": 6006
+  },
+  {
+    "name": "Buffy the Vampire Slayer",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex14",
+    "igdbId": 5760,
+    "gbId": 15717,
+    "gbGuid": "3030-15717",
+    "tgdbId": 6007
+  },
+  {
+    "name": "C.A.T.: Cyber Attack Team",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex15",
+    "igdbId": 5762,
+    "gbId": 52757,
+    "gbGuid": "3030-52757",
+    "tgdbId": null
+  },
+  {
+    "name": "Carve",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex16",
+    "igdbId": 5767,
+    "gbId": 19986,
+    "gbGuid": "3030-19986",
+    "tgdbId": 28453
+  },
+  {
+    "name": "Championship Manager: Season 02/03",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex17",
+    "igdbId": 5770,
+    "gbId": 8563,
+    "gbGuid": "3030-8563",
+    "tgdbId": 28455
+  },
+  {
+    "name": "Chase: Hollywood Stunt Driver",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex18",
+    "igdbId": 5774,
+    "gbId": 24907,
+    "gbGuid": "3030-24907",
+    "tgdbId": 34735
+  },
+  {
+    "name": "Classified: The Sentinel Crisis",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex19",
+    "igdbId": 5777,
+    "gbId": 8685,
+    "gbGuid": "3030-8685",
+    "tgdbId": 41199
+  },
+  {
+    "name": "Conker: Live & Reloaded",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex20",
+    "igdbId": 1425,
+    "gbId": 7353,
+    "gbGuid": "3030-7353",
+    "tgdbId": 6029
+  },
+  {
+    "name": "Crimson Sea",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex21",
+    "igdbId": 5792,
+    "gbId": 15785,
+    "gbGuid": "3030-15785",
+    "tgdbId": 13947
+  },
+  {
+    "name": "Dance Dance Revolution Ultramix 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex22",
+    "igdbId": 5800,
+    "gbId": 18366,
+    "gbGuid": "3030-18366",
+    "tgdbId": 41683
+  },
+  {
+    "name": "Dancing Stage Unleashed",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex23",
+    "igdbId": 5803,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 28459
+  },
+  {
+    "name": "Dead or Alive 3",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex24",
+    "igdbId": 1389,
+    "gbId": 5418,
+    "gbGuid": "3030-5418",
+    "tgdbId": 6043
+  },
+  {
+    "name": "Dead or Alive Ultimate",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex25",
+    "igdbId": 1391,
+    "gbId": 13753,
+    "gbGuid": "3030-13753",
+    "tgdbId": 6041
+  },
+  {
+    "name": "Dead or Alive: Xtreme Beach Volleyball",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex26",
+    "igdbId": 1390,
+    "gbId": 21479,
+    "gbGuid": "3030-21479",
+    "tgdbId": 15547
+  },
+  {
+    "name": "Deathrow",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex27",
+    "igdbId": 5811,
+    "gbId": 3313,
+    "gbGuid": "3030-3313",
+    "tgdbId": 35097
+  },
+  {
+    "name": "Dino Crisis 3",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex28",
+    "igdbId": 5813,
+    "gbId": 11168,
+    "gbGuid": "3030-11168",
+    "tgdbId": 6049
+  },
+  {
+    "name": "Dungeons & Dragons: Heroes",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex29",
+    "igdbId": 5819,
+    "gbId": 1288,
+    "gbGuid": "3030-1288",
+    "tgdbId": 21436
+  },
+  {
+    "name": "Forza Motorsport",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex30",
+    "igdbId": 3073,
+    "gbId": 17599,
+    "gbGuid": "3030-17599",
+    "tgdbId": 6067
+  },
+  {
+    "name": "Fuzion Frenzy",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex31",
+    "igdbId": 5842,
+    "gbId": 16650,
+    "gbGuid": "3030-16650",
+    "tgdbId": 6070
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon 2: Summit Strike",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex32",
+    "igdbId": 1299,
+    "gbId": 21527,
+    "gbGuid": "3030-21527",
+    "tgdbId": 6184
+  },
+  {
+    "name": "Greg Hastings' Tournament Paintball",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex33",
+    "igdbId": 5854,
+    "gbId": 7207,
+    "gbGuid": "3030-7207",
+    "tgdbId": 38848
+  },
+  {
+    "name": "Group S Challenge",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex34",
+    "igdbId": 5856,
+    "gbId": 22785,
+    "gbGuid": "3030-22785",
+    "tgdbId": 52722
+  },
+  {
+    "name": "GunValkyrie",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex35",
+    "igdbId": 10234,
+    "gbId": 5716,
+    "gbGuid": "3030-5716",
+    "tgdbId": 7795
+  },
+  {
+    "name": "Hunter: The Reckoning Redeemer",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex36",
+    "igdbId": 5865,
+    "gbId": 8652,
+    "gbGuid": "3030-8652",
+    "tgdbId": 28474
+  },
+  {
+    "name": "JSRF: Jet Set Radio Future",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex37",
+    "igdbId": 1570,
+    "gbId": 12117,
+    "gbGuid": "3030-12117",
+    "tgdbId": 6082
+  },
+  {
+    "name": "Kabuki Warriors",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex38",
+    "igdbId": 5873,
+    "gbId": 5063,
+    "gbGuid": "3030-5063",
+    "tgdbId": 7986
+  },
+  {
+    "name": "Kakuto Chojin",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex39",
+    "igdbId": 5880,
+    "gbId": 866,
+    "gbGuid": "3030-866",
+    "tgdbId": 41406
+  },
+  {
+    "name": "Kingdom Under Fire: Heroes",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex40",
+    "igdbId": 5882,
+    "gbId": 15695,
+    "gbGuid": "3030-15695",
+    "tgdbId": 34203
+  },
+  {
+    "name": "Kingdom Under Fire: The Crusaders",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex41",
+    "igdbId": 5883,
+    "gbId": 229,
+    "gbGuid": "3030-229",
+    "tgdbId": 7987
+  },
+  {
+    "name": "Kung Fu Chaos",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex42",
+    "igdbId": 5898,
+    "gbId": 9533,
+    "gbGuid": "3030-9533",
+    "tgdbId": 6083
+  },
+  {
+    "name": "Links 2004",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex43",
+    "igdbId": 5902,
+    "gbId": 17940,
+    "gbGuid": "3030-17940",
+    "tgdbId": 10285
+  },
+  {
+    "name": "Loons: The Fight For Fame",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex44",
+    "igdbId": 5903,
+    "gbId": 10617,
+    "gbGuid": "3030-10617",
+    "tgdbId": 40409
+  },
+  {
+    "name": "Mad Dash Racing",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex45",
+    "igdbId": 5905,
+    "gbId": 4902,
+    "gbGuid": "3030-4902",
+    "tgdbId": 17866
+  },
+  {
+    "name": "Maximum Chase",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex46",
+    "igdbId": 73607,
+    "gbId": 14156,
+    "gbGuid": "3030-14156",
+    "tgdbId": 48889
+  },
+  {
+    "name": "MechAssault",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex47",
+    "igdbId": 5910,
+    "gbId": 17438,
+    "gbGuid": "3030-17438",
+    "tgdbId": 6090
+  },
+  {
+    "name": "MechAssault 2: Lone Wolf",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex48",
+    "igdbId": 5911,
+    "gbId": 17861,
+    "gbGuid": "3030-17861",
+    "tgdbId": 6091
+  },
+  {
+    "name": "Metal Dungeon",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex49",
+    "igdbId": 5914,
+    "gbId": 9106,
+    "gbGuid": "3030-9106",
+    "tgdbId": 8016
+  },
+  {
+    "name": "Midtown Madness 3",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex50",
+    "igdbId": 5929,
+    "gbId": 12359,
+    "gbGuid": "3030-12359",
+    "tgdbId": 8020
+  },
+  {
+    "name": "Murakumo: Renegade Mech Pursuit",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex51",
+    "igdbId": 5936,
+    "gbId": 25684,
+    "gbGuid": "3030-25684",
+    "tgdbId": 8024
+  },
+  {
+    "name": "N.U.D.E.@ Natural Ultimate Digital Experiment",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex52",
+    "igdbId": 5940,
+    "gbId": 16463,
+    "gbGuid": "3030-16463",
+    "tgdbId": 56112
+  },
+  {
+    "name": "NBA Inside Drive 2002",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex53",
+    "igdbId": 23446,
+    "gbId": 20281,
+    "gbGuid": "3030-20281",
+    "tgdbId": 29032
+  },
+  {
+    "name": "NBA Inside Drive 2003",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex98",
+    "igdbId": 47358,
+    "gbId": 17910,
+    "gbGuid": "3030-17910",
+    "tgdbId": 41281
+  },
+  {
+    "name": "NBA Inside Drive 2004",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex99",
+    "igdbId": 24124,
+    "gbId": 19999,
+    "gbGuid": "3030-19999",
+    "tgdbId": 6098
+  },
+  {
+    "name": "New Legends",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex54",
+    "igdbId": 18268,
+    "gbId": 1703,
+    "gbGuid": "3030-1703",
+    "tgdbId": 31766
+  },
+  {
+    "name": "NFL Fever 2002",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex55",
+    "igdbId": 5961,
+    "gbId": 4829,
+    "gbGuid": "3030-4829",
+    "tgdbId": 18467
+  },
+  {
+    "name": "NFL Fever 2003",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex56",
+    "igdbId": 5962,
+    "gbId": 21713,
+    "gbGuid": "3030-21713",
+    "tgdbId": 44201
+  },
+  {
+    "name": "NFL Fever 2004",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex57",
+    "igdbId": 24094,
+    "gbId": 17081,
+    "gbGuid": "3030-17081",
+    "tgdbId": 6102
+  },
+  {
+    "name": "Nightcaster II: Equinox",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex58",
+    "igdbId": 5970,
+    "gbId": 11459,
+    "gbGuid": "3030-11459",
+    "tgdbId": 46128
+  },
+  {
+    "name": "Otogi 2: Immortal Warriors",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex59",
+    "igdbId": 5976,
+    "gbId": 5511,
+    "gbGuid": "3030-5511",
+    "tgdbId": 6107
+  },
+  {
+    "name": "Otogi: Myth of Demons",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex60",
+    "igdbId": 5975,
+    "gbId": 20131,
+    "gbGuid": "3030-20131",
+    "tgdbId": 6106
+  },
+  {
+    "name": "Panzer Dragoon Orta",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex61",
+    "igdbId": 1672,
+    "gbId": 4535,
+    "gbGuid": "3030-4535",
+    "tgdbId": 6112
+  },
+  {
+    "name": "Phantom Crash",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex62",
+    "igdbId": 5980,
+    "gbId": 4051,
+    "gbGuid": "3030-4051",
+    "tgdbId": 29033
+  },
+  {
+    "name": "Project Gotham Racing",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex63",
+    "igdbId": 3320,
+    "gbId": 941,
+    "gbGuid": "3030-941",
+    "tgdbId": 21254
+  },
+  {
+    "name": "Project Gotham Racing 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex64",
+    "igdbId": 3321,
+    "gbId": 2279,
+    "gbGuid": "3030-2279",
+    "tgdbId": 6116
+  },
+  {
+    "name": "Pulse Racer",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex65",
+    "igdbId": 6010,
+    "gbId": 35302,
+    "gbGuid": "3030-35302",
+    "tgdbId": 53417
+  },
+  {
+    "name": "Quantum Redshift",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex66",
+    "igdbId": 5996,
+    "gbId": 15827,
+    "gbGuid": "3030-15827",
+    "tgdbId": 8036
+  },
+  {
+    "name": "Apex",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex67",
+    "igdbId": 5728,
+    "gbId": 1712,
+    "gbGuid": "3030-1712",
+    "tgdbId": 5973
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six: Critical Hour",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex68",
+    "igdbId": 1852,
+    "gbId": 11245,
+    "gbGuid": "3030-11245",
+    "tgdbId": 40092
+  },
+  {
+    "name": "RalliSport Challenge 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex69",
+    "igdbId": 5997,
+    "gbId": 6499,
+    "gbGuid": "3030-6499",
+    "tgdbId": 6118
+  },
+  {
+    "name": "Sega GT 2002",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex70",
+    "igdbId": 6039,
+    "gbId": 8779,
+    "gbGuid": "3030-8779",
+    "tgdbId": 21006
+  },
+  {
+    "name": "Shin Megami Tensei: Nine",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex71",
+    "igdbId": 6050,
+    "gbId": 3402,
+    "gbGuid": "3030-3402",
+    "tgdbId": 56113
+  },
+  {
+    "name": "Sneakers",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex72",
+    "igdbId": 6053,
+    "gbId": 29385,
+    "gbGuid": "3030-29385",
+    "tgdbId": 30741
+  },
+  {
+    "name": "Spikeout: Battle Street",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex73",
+    "igdbId": 6056,
+    "gbId": 19978,
+    "gbGuid": "3030-19978",
+    "tgdbId": 10601
+  },
+  {
+    "name": "Stake: Fortune Fighters",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex74",
+    "igdbId": 6158,
+    "gbId": 7444,
+    "gbGuid": "3030-7444",
+    "tgdbId": 12435
+  },
+  {
+    "name": "Star Wars: Obi-Wan",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex75",
+    "igdbId": 5599,
+    "gbId": 7311,
+    "gbGuid": "3030-7311",
+    "tgdbId": 8052
+  },
+  {
+    "name": "Steel Battalion",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex76",
+    "igdbId": 6163,
+    "gbId": 5828,
+    "gbGuid": "3030-5828",
+    "tgdbId": 6207
+  },
+  {
+    "name": "Steel Battalion: Line of Contact",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex77",
+    "igdbId": 6174,
+    "gbId": 12345,
+    "gbGuid": "3030-12345",
+    "tgdbId": 20204
+  },
+  {
+    "name": "Superman: The Man of Steel",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex78",
+    "igdbId": 6183,
+    "gbId": 16118,
+    "gbGuid": "3030-16118",
+    "tgdbId": 3046
+  },
+  {
+    "name": "Tao Feng: Fist of the Lotus",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex79",
+    "igdbId": 6190,
+    "gbId": 16870,
+    "gbGuid": "3030-16870",
+    "tgdbId": 34200
+  },
+  {
+    "name": "Tecmo Classic Arcade",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex80",
+    "igdbId": 6192,
+    "gbId": 328,
+    "gbGuid": "3030-328",
+    "tgdbId": 42228
+  },
+  {
+    "name": "ToeJam & Earl III: Mission to Earth",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex81",
+    "igdbId": 6202,
+    "gbId": 6768,
+    "gbGuid": "3030-6768",
+    "tgdbId": 16490
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 2X",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex82",
+    "igdbId": 47325,
+    "gbId": 12691,
+    "gbGuid": "3030-12691",
+    "tgdbId": 6219
+  },
+  {
+    "name": "Tork: Prehistoric Punk",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex83",
+    "igdbId": 6206,
+    "gbId": 20175,
+    "gbGuid": "3030-20175",
+    "tgdbId": 8068
+  },
+  {
+    "name": "Toxic Grind",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex84",
+    "igdbId": 6215,
+    "gbId": 4242,
+    "gbGuid": "3030-4242",
+    "tgdbId": 24307
+  },
+  {
+    "name": "TransWorld Snowboarding",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex85",
+    "igdbId": 20795,
+    "gbId": 15277,
+    "gbGuid": "3030-15277",
+    "tgdbId": 23957
+  },
+  {
+    "name": "Ultimate Fighting Championship: Tapout",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex86",
+    "igdbId": 6218,
+    "gbId": 45966,
+    "gbGuid": "3030-45966",
+    "tgdbId": 22709
+  },
+  {
+    "name": "UFC: Tapout 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex87",
+    "igdbId": 6219,
+    "gbId": 21481,
+    "gbGuid": "3030-21481",
+    "tgdbId": 53713
+  },
+  {
+    "name": "Unreal Championship",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex88",
+    "igdbId": 6220,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 22375
+  },
+  {
+    "name": "Unreal Championship 2: The Liandri Conflict",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex89",
+    "igdbId": 6221,
+    "gbId": 14292,
+    "gbGuid": "3030-14292",
+    "tgdbId": 14875
+  },
+  {
+    "name": "Virtual Pool: Tournament Edition",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex90",
+    "igdbId": 47331,
+    "gbId": 25873,
+    "gbGuid": "3030-25873",
+    "tgdbId": 22708
+  },
+  {
+    "name": "Whacked!",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex91",
+    "igdbId": 6229,
+    "gbId": 3689,
+    "gbGuid": "3030-3689",
+    "tgdbId": 13932
+  },
+  {
+    "name": "WWE Raw 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex92",
+    "igdbId": 6249,
+    "gbId": 13445,
+    "gbGuid": "3030-13445",
+    "tgdbId": 35868
+  },
+  {
+    "name": "WWE WrestleMania 21",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex93",
+    "igdbId": 6251,
+    "gbId": 487,
+    "gbGuid": "3030-487",
+    "tgdbId": 22523
+  },
+  {
+    "name": "Xbox Exhibition",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex94",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63275
+  },
+  {
+    "name": "Xbox Exhibition Volume 2",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex100",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63276
+  },
+  {
+    "name": "Xbox Exhibition Volume 3",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex101",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 56029
+  },
+  {
+    "name": "Xbox Exhibition Volume 4",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex102",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63278
+  },
+  {
+    "name": "Xbox Exhibition Volume 5",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex103",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63927
+  },
+  {
+    "name": "Xbox Exhibition Volume 6",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex104",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63279
+  },
+  {
+    "name": "Xbox Music Mixer",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex95",
+    "igdbId": 5798,
+    "gbId": 27651,
+    "gbGuid": "3030-27651",
+    "tgdbId": 24312
+  },
+  {
+    "name": "Xyanide",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex96",
+    "igdbId": 6254,
+    "gbId": 10758,
+    "gbGuid": "3030-10758",
+    "tgdbId": 32752
+  },
+  {
+    "name": "Yu-Gi-Oh! Dawn of Destiny",
+    "details": "Microsoft Xbox exclusive",
+    "id": "xbex97",
+    "igdbId": 6257,
+    "gbId": 17546,
+    "gbGuid": "3030-17546",
+    "tgdbId": 29074
+  }
+]

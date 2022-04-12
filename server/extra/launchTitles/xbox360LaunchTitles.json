@@ -1,0 +1,164 @@
+[
+  {
+    "id": "x360lt1",
+    "name": "Amped 3",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 5483,
+    "gbId": 16647,
+    "gbGuid": "3030-16647",
+    "tgdbId": 15018
+  },
+  {
+    "id": "x360lt2",
+    "name": "Call of Duty 2",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 622,
+    "gbId": 2347,
+    "gbGuid": "3030-2347",
+    "tgdbId": 753
+  },
+  {
+    "id": "x360lt3",
+    "name": "Condemned: Criminal Origins",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 6942,
+    "gbId": 8804,
+    "gbGuid": "3030-8804",
+    "tgdbId": 7166
+  },
+  {
+    "id": "x360lt4",
+    "name": "FIFA 06: Road to FIFA World Cup",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 22342,
+    "gbId": 27038,
+    "gbGuid": "3030-27038",
+    "tgdbId": 40459
+  },
+  {
+    "id": "x360lt5",
+    "name": "Gun",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 3939,
+    "gbId": 8873,
+    "gbGuid": "3030-8873",
+    "tgdbId": 2315
+  },
+  {
+    "id": "x360lt6",
+    "name": "Kameo: Elements of Power",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 7029,
+    "gbId": 19228,
+    "gbGuid": "3030-19228",
+    "tgdbId": 7496
+  },
+  {
+    "id": "x360lt7",
+    "name": "Madden NFL 06",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 5906,
+    "gbId": 6648,
+    "gbGuid": "3030-6648",
+    "tgdbId": 7000
+  },
+  {
+    "id": "x360lt8",
+    "name": "NBA 2K6",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 8835,
+    "gbId": 21363,
+    "gbGuid": "3030-21363",
+    "tgdbId": 13714
+  },
+  {
+    "id": "x360lt9",
+    "name": "NBA Live 06",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 4034,
+    "gbId": 7206,
+    "gbGuid": "3030-7206",
+    "tgdbId": 7010
+  },
+  {
+    "id": "x360lt10",
+    "name": "Need For Speed: Most Wanted",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 3193,
+    "gbId": 12976,
+    "gbGuid": "3030-12976",
+    "tgdbId": 22631
+  },
+  {
+    "id": "x360lt11",
+    "name": "NHL 2K6",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 5965,
+    "gbId": 9031,
+    "gbGuid": "3030-9031",
+    "tgdbId": 7552
+  },
+  {
+    "id": "x360lt12",
+    "name": "Perfect Dark Zero",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 1465,
+    "gbId": 14558,
+    "gbGuid": "3030-14558",
+    "tgdbId": 52
+  },
+  {
+    "id": "x360lt13",
+    "name": "Peter Jackson's King Kong: The Official Game of the Movie",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 4065,
+    "gbId": 9458,
+    "gbGuid": "3030-9458",
+    "tgdbId": 6864
+  },
+  {
+    "id": "x360lt14",
+    "name": "Project Gotham Racing 3",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 3322,
+    "gbId": 19809,
+    "gbGuid": "3030-19809",
+    "tgdbId": 7564
+  },
+  {
+    "id": "x360lt15",
+    "name": "Quake 4",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 356,
+    "gbId": 13683,
+    "gbGuid": "3030-13683",
+    "tgdbId": 778
+  },
+  {
+    "id": "x360lt16",
+    "name": "Ridge Racer 6",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 7160,
+    "gbId": 2324,
+    "gbGuid": "3030-2324",
+    "tgdbId": 59
+  },
+  {
+    "id": "x360lt17",
+    "name": "Tiger Woods PGA Tour 06",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 903,
+    "gbId": 3650,
+    "gbGuid": "3030-3650",
+    "tgdbId": 15792
+  },
+  {
+    "id": "x360lt18",
+    "name": "Tony Hawk's American Wasteland",
+    "details": "Microsoft Xbox 360 launch title",
+    "igdbId": 7219,
+    "gbId": 7222,
+    "gbGuid": "3030-7222",
+    "tgdbId": 2321
+  }
+]

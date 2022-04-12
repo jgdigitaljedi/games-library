@@ -1,0 +1,155 @@
+[
+  {
+    "id": "gbalt1",
+    "name": "Army Men Advance",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6307,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 3319
+  },
+  {
+    "id": "gbalt2",
+    "name": "Castlevania: Circle of the Moon",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 1132,
+    "gbId": 13197,
+    "gbGuid": "3030-13197",
+    "tgdbId": 3350
+  },
+  {
+    "id": "gbalt3",
+    "name": "ChuChu Rocket!",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6347,
+    "gbId": 13715,
+    "gbGuid": "3030-13715",
+    "tgdbId": 3445
+  },
+  {
+    "id": "gbalt4",
+    "name": "Earthworm Jim",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 3480,
+    "gbId": 11133,
+    "gbGuid": "3030-11133",
+    "tgdbId": 997
+  },
+  {
+    "id": "gbalt5",
+    "name": "F-Zero: Maximum Velocity",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 3491,
+    "gbId": 46,
+    "gbGuid": "3030-46",
+    "tgdbId": 2332
+  },
+  {
+    "id": "gbalt6",
+    "name": "Fire Pro Wrestling",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6407,
+    "gbId": 18302,
+    "gbGuid": "3030-18302",
+    "tgdbId": 3430
+  },
+  {
+    "id": "gbalt7",
+    "name": "GT Advance Championship Racing",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6424,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 14838
+  },
+  {
+    "id": "gbalt8",
+    "name": "Iridion 3D",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6449,
+    "gbId": 69,
+    "gbGuid": "3030-69",
+    "tgdbId": 26003
+  },
+  {
+    "id": "gbalt9",
+    "name": "Konami Krazy Racers",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6495,
+    "gbId": 710,
+    "gbGuid": "3030-710",
+    "tgdbId": 19449
+  },
+  {
+    "id": "gbalt10",
+    "name": "Namco Museum",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 85608,
+    "gbId": 32352,
+    "gbGuid": "3030-32352",
+    "tgdbId": 8146
+  },
+  {
+    "id": "gbalt11",
+    "name": "Pinobee: Wings of Adventure",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6535,
+    "gbId": 6584,
+    "gbGuid": "3030-6584",
+    "tgdbId": 3530
+  },
+  {
+    "id": "gbalt12",
+    "name": "Pitfall: The Mayan Adventure",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 5410,
+    "gbId": 9331,
+    "gbGuid": "3030-9331",
+    "tgdbId": 667
+  },
+  {
+    "id": "gbalt13",
+    "name": "Rayman Advance",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 22012,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 5491
+  },
+  {
+    "id": "gbalt14",
+    "name": "Ready 2 Rumble Boxing: Round 2",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 3587,
+    "gbId": 11649,
+    "gbGuid": "3030-11649",
+    "tgdbId": 1190
+  },
+  {
+    "id": "gbalt15",
+    "name": "Super Dodge Ball Advance",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 6620,
+    "gbId": 13484,
+    "gbGuid": "3030-13484",
+    "tgdbId": 3723
+  },
+  {
+    "id": "gbalt16",
+    "name": "Super Mario Advance",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 81197,
+    "gbId": 5215,
+    "gbGuid": "3030-5215",
+    "tgdbId": 2347
+  },
+  {
+    "id": "gbalt17",
+    "name": "Tony Hawk's Pro Skater 2",
+    "details": "Nintendo Game Boy Advance launch title",
+    "igdbId": 913,
+    "gbId": 990,
+    "gbGuid": "3030-990",
+    "tgdbId": 1218
+  }
+]

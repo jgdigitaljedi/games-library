@@ -8,6 +8,7 @@ const wlCrud = require('./vgCrud/wishlistCrud.controller');
 const logger = require('../../config/logger');
 const everDrives = require('../../extra/everDrive.json');
 const homePageStats = require('./vgCrud/gamesSupp/homeViewStats');
+const homePageExtra = require('./vgCrud/gamesSupp/homeViewExtraLists');
 const gameStats = require('../../extra/gameStats.json');
 const db = require('../../db');
 const combined = require('./vgCrud/gamesSupp/combineGames');
@@ -85,6 +86,14 @@ module.exports.everdrivesTotal = function (req, res) {
 module.exports.collectionStats = function (req, res) {
   try {
     res.json(homePageStats.getStats());
+  } catch (error) {
+    res.status(500).send(error);
+  }
+};
+
+module.exports.collectionExtra = function (req, res) {
+  try {
+    res.json(homePageExtra.getLaunchEx());
   } catch (error) {
     res.status(500).send(error);
   }

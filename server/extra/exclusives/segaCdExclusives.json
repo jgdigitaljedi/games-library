@@ -1,0 +1,326 @@
+[
+  {
+    "name": "A/X-101",
+    "details": "Sega CD exclusive",
+    "id": "scdex1",
+    "igdbId": 5360,
+    "gbId": 23240,
+    "gbGuid": "3030-23240",
+    "tgdbId": 4937
+  },
+  {
+    "name": "A-Rank Thunder Tanjouhen",
+    "details": "Sega CD exclusive",
+    "id": "scdex2",
+    "igdbId": 5355,
+    "gbId": 46881,
+    "gbGuid": "3030-46881",
+    "tgdbId": 41470
+  },
+  {
+    "name": "The Adventures of Batman & Robin",
+    "details": "Sega CD exclusive",
+    "id": "scdex3",
+    "igdbId": 5346,
+    "gbId": 12434,
+    "gbGuid": "3030-12434",
+    "tgdbId": 1049
+  },
+  {
+    "name": "Android Assault: The Revenge of Bari-Arm",
+    "details": "Sega CD exclusive",
+    "id": "scdex4",
+    "igdbId": 5358,
+    "gbId": 23241,
+    "gbGuid": "3030-23241",
+    "tgdbId": 4936
+  },
+  {
+    "name": "Anett Futatabi",
+    "details": "Sega CD exclusive",
+    "id": "scdex5",
+    "igdbId": null,
+    "gbId": 9159,
+    "gbGuid": "3030-9159",
+    "tgdbId": 25432
+  },
+  {
+    "name": "BattleCorps",
+    "details": "Sega CD exclusive",
+    "id": "scdex6",
+    "igdbId": 46423,
+    "gbId": 210,
+    "gbGuid": "3030-210",
+    "tgdbId": 4940
+  },
+  {
+    "name": "Bouncers",
+    "details": "Sega CD exclusive",
+    "id": "scdex7",
+    "igdbId": 46422,
+    "gbId": 7462,
+    "gbGuid": "3030-7462",
+    "tgdbId": 4943
+  },
+  {
+    "name": "Captain Tsubasa",
+    "details": "Sega CD exclusive",
+    "id": "scdex8",
+    "igdbId": 5369,
+    "gbId": 38265,
+    "gbGuid": "3030-38265",
+    "tgdbId": 23986
+  },
+  {
+    "name": "Dark Wizard",
+    "details": "Sega CD exclusive",
+    "id": "scdex9",
+    "igdbId": 5374,
+    "gbId": 15251,
+    "gbGuid": "3030-15251",
+    "tgdbId": 4954
+  },
+  {
+    "name": "ESPN NBA HangTime '95",
+    "details": "Sega CD exclusive",
+    "id": "scdex10",
+    "igdbId": 46406,
+    "gbId": 10512,
+    "gbGuid": "3030-10512",
+    "tgdbId": 31785
+  },
+  {
+    "name": "Eternal Champions: Challenge from the Dark Side",
+    "details": "Sega CD exclusive",
+    "id": "scdex11",
+    "igdbId": 5383,
+    "gbId": 8021,
+    "gbGuid": "3030-8021",
+    "tgdbId": 5010
+  },
+  {
+    "name": "Formula One World Championship: Beyond the Limit",
+    "details": "Sega CD exclusive",
+    "id": "scdex12",
+    "igdbId": 5388,
+    "gbId": 7432,
+    "gbGuid": "3030-7432",
+    "tgdbId": 5012
+  },
+  {
+    "name": "Ground Zero: Texas",
+    "details": "Sega CD exclusive",
+    "id": "scdex13",
+    "igdbId": 5390,
+    "gbId": 20309,
+    "gbGuid": "3030-20309",
+    "tgdbId": 5018
+  },
+  {
+    "name": "Heart of the Alien: Out of this World Parts I And II",
+    "details": "Sega CD exclusive",
+    "id": "scdex14",
+    "igdbId": 46420,
+    "gbId": 17785,
+    "gbGuid": "3030-17785",
+    "tgdbId": 5019
+  },
+  {
+    "name": "Jurassic Park",
+    "details": "Sega CD exclusive",
+    "id": "scdex15",
+    "igdbId": 4519,
+    "gbId": 21383,
+    "gbGuid": "3030-21383",
+    "tgdbId": 537
+  },
+  {
+    "name": "Keio Flying Squadron",
+    "details": "Sega CD exclusive",
+    "id": "scdex16",
+    "igdbId": 12912,
+    "gbId": 16410,
+    "gbGuid": "3030-16410",
+    "tgdbId": 2578
+  },
+  {
+    "name": "Lunar: The Silver Star",
+    "details": "Sega CD exclusive",
+    "id": "scdex17",
+    "igdbId": 5334,
+    "gbId": 13562,
+    "gbGuid": "3030-13562",
+    "tgdbId": 5054
+  },
+  {
+    "name": "INXS: Make My Video",
+    "details": "Sega CD exclusive",
+    "id": "scdex18",
+    "igdbId": 46418,
+    "gbId": 10517,
+    "gbGuid": "3030-10517",
+    "tgdbId": 5057
+  },
+  {
+    "name": "Kris Kross: Make My Video",
+    "details": "Sega CD exclusive",
+    "id": "scdex35",
+    "igdbId": 46417,
+    "gbId": 10670,
+    "gbGuid": "3030-10670",
+    "tgdbId": 5058
+  },
+  {
+    "name": "Marky Mark and the Funky Bunch: Make My Video",
+    "details": "Sega CD exclusive",
+    "id": "scdex36",
+    "igdbId": 46416,
+    "gbId": 5307,
+    "gbGuid": "3030-5307",
+    "tgdbId": 5059
+  },
+  {
+    "name": "The Masked Rider: Kamen Rider ZO",
+    "details": "Sega CD exclusive",
+    "id": "scdex19",
+    "igdbId": 46409,
+    "gbId": 15630,
+    "gbGuid": "3030-15630",
+    "tgdbId": 5106
+  },
+  {
+    "name": "Midnight Raiders",
+    "details": "Sega CD exclusive",
+    "id": "scdex20",
+    "igdbId": 19743,
+    "gbId": 16280,
+    "gbGuid": "3030-16280",
+    "tgdbId": 5064
+  },
+  {
+    "name": "Mighty Morphin Power Rangers",
+    "details": "Sega CD exclusive",
+    "id": "scdex21",
+    "igdbId": 3286,
+    "gbId": 27002,
+    "gbGuid": "3030-27002",
+    "tgdbId": 439
+  },
+  {
+    "name": "Power Factory Featuring C+C Music Factory",
+    "details": "Sega CD exclusive",
+    "id": "scdex22",
+    "igdbId": 5420,
+    "gbId": 18613,
+    "gbGuid": "3030-18613",
+    "tgdbId": 5076
+  },
+  {
+    "name": "Prize Fighter",
+    "details": "Sega CD exclusive",
+    "id": "scdex23",
+    "igdbId": 5424,
+    "gbId": 8564,
+    "gbGuid": "3030-8564",
+    "tgdbId": 5079
+  },
+  {
+    "name": "Racing Aces",
+    "details": "Sega CD exclusive",
+    "id": "scdex24",
+    "igdbId": 5426,
+    "gbId": 14317,
+    "gbGuid": "3030-14317",
+    "tgdbId": 444
+  },
+  {
+    "name": "RDF Global Conflict",
+    "details": "Sega CD exclusive",
+    "id": "scdex25",
+    "igdbId": 46606,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 5082
+  },
+  {
+    "name": "Robo Aleste",
+    "details": "Sega CD exclusive",
+    "id": "scdex26",
+    "igdbId": 5430,
+    "gbId": 12066,
+    "gbGuid": "3030-12066",
+    "tgdbId": 445
+  },
+  {
+    "name": "Sega Classics Arcade Collection 4-in-1",
+    "details": "Sega CD exclusive",
+    "id": "scdex27",
+    "igdbId": 5432,
+    "gbId": 43485,
+    "gbGuid": "3030-43485",
+    "tgdbId": 29399
+  },
+  {
+    "name": "Shadowrun",
+    "details": "Sega CD exclusive",
+    "id": "scdex28",
+    "igdbId": 78514,
+    "gbId": 34672,
+    "gbGuid": "3030-34672",
+    "tgdbId": 1306
+  },
+  {
+    "name": "Shining Force CD",
+    "details": "Sega CD exclusive",
+    "id": "scdex29",
+    "igdbId": 3198,
+    "gbId": 16383,
+    "gbGuid": "3030-16383",
+    "tgdbId": 5092
+  },
+  {
+    "name": "Soulstar",
+    "details": "Sega CD exclusive",
+    "id": "scdex30",
+    "igdbId": 5453,
+    "gbId": 15595,
+    "gbGuid": "3030-15595",
+    "tgdbId": 5266
+  },
+  {
+    "name": "Third World War",
+    "details": "Sega CD exclusive",
+    "id": "scdex31",
+    "igdbId": 5457,
+    "gbId": 40982,
+    "gbGuid": "3030-40982",
+    "tgdbId": 5109
+  },
+  {
+    "name": "Wild Woody",
+    "details": "Sega CD exclusive",
+    "id": "scdex32",
+    "igdbId": 5461,
+    "gbId": 20438,
+    "gbGuid": "3030-20438",
+    "tgdbId": 5116
+  },
+  {
+    "name": "Wirehead",
+    "details": "Sega CD exclusive",
+    "id": "scdex33",
+    "igdbId": 5462,
+    "gbId": 5705,
+    "gbGuid": "3030-5705",
+    "tgdbId": 5119
+  },
+  {
+    "name": "WWF Rage in the Cage",
+    "details": "Sega CD exclusive",
+    "id": "scdex34",
+    "igdbId": 5465,
+    "gbId": 22268,
+    "gbGuid": "3030-22268",
+    "tgdbId": 5123
+  }
+]

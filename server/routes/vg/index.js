@@ -80,6 +80,7 @@ router.get('/everdrivescount', vgDbCtrl.everdrivesTotal);
 
 // get stats data
 router.get('/stats', vgDbCtrl.collectionStats);
+router.get('/extra', vgDbCtrl.collectionExtra);
 router.get('/gamestats', vgDbCtrl.gameStats);
 
 // DB Platform/Console CRUD

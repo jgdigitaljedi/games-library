@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Space Harrier II",
+    "id": "glt1",
+    "details": "Genesis launch title",
+    "igdbId": 4498,
+    "gbId": 12420,
+    "gbGuid": "3030-12420",
+    "tgdbId": 2598
+  },
+  {
+    "name": "Tommy Lasorda Baseball",
+    "id": "glt2",
+    "details": "Genesis launch title",
+    "igdbId": null,
+    "gbId": 11264,
+    "gbGuid": "3030-11264",
+    "tgdbId": 718
+  },
+  {
+    "name": "Last Battle",
+    "id": "glt3",
+    "details": "Genesis launch title",
+    "igdbId": 27971,
+    "gbId": 12187,
+    "gbGuid": "3030-12187",
+    "tgdbId": 4482
+  },
+  {
+    "name": "Thunder Force II",
+    "id": "glt4",
+    "details": "Genesis launch title",
+    "igdbId": 6033,
+    "gbId": 12471,
+    "gbGuid": "3030-12471",
+    "tgdbId": 714
+  },
+  {
+    "name": "Altered Beast",
+    "id": "glt5",
+    "details": "Genesis launch title",
+    "igdbId": 2604,
+    "gbId": 2536,
+    "gbGuid": "3030-2536",
+    "tgdbId": 118
+  },
+  {
+    "name": "Alex Kidd in the Enchanted Castle",
+    "id": "glt6",
+    "details": "Genesis launch title",
+    "igdbId": 3217,
+    "gbId": 4968,
+    "gbGuid": "3030-4968",
+    "tgdbId": 2271
+  },
+  {
+    "name": "Ghouls 'n Ghosts",
+    "id": "glt7",
+    "details": "Genesis launch title",
+    "igdbId": 6817,
+    "gbId": 12381,
+    "gbGuid": "3030-12381",
+    "tgdbId": 2592
+  }
+]

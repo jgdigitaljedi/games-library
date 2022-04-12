@@ -1,0 +1,281 @@
+[
+  {
+    "name": "AD&D: Slayer",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex1",
+    "igdbId": 92033,
+    "gbId": 26112,
+    "gbGuid": "3030-26112",
+    "tgdbId": 3143
+  },
+  {
+    "name": "Blade Force",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex2",
+    "igdbId": 11860,
+    "gbId": 16059,
+    "gbGuid": "3030-16059",
+    "tgdbId": 4826
+  },
+  {
+    "name": "Cowboy Casino",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex3",
+    "igdbId": 38831,
+    "gbId": 38706,
+    "gbGuid": "3030-38706",
+    "tgdbId": 23988
+  },
+  {
+    "name": "Crash 'n Burn",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex4",
+    "igdbId": 95438,
+    "gbId": 12850,
+    "gbGuid": "3030-12850",
+    "tgdbId": 10089
+  },
+  {
+    "name": "Demolition Man",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex5",
+    "igdbId": 4341,
+    "gbId": 9607,
+    "gbGuid": "3030-9607",
+    "tgdbId": 1748
+  },
+  {
+    "name": "Doctor Hauzer",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex6",
+    "igdbId": 4278,
+    "gbId": 36588,
+    "gbGuid": "3030-36588",
+    "tgdbId": 26667
+  },
+  {
+    "name": "DORAEMONS YUUJOU DENSETSU",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex7",
+    "igdbId": 37224,
+    "gbId": 33911,
+    "gbGuid": "3030-33911",
+    "tgdbId": 45447
+  },
+  {
+    "name": "Escape from Monster Manor",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex8",
+    "igdbId": 4337,
+    "gbId": 13852,
+    "gbGuid": "3030-13852",
+    "tgdbId": 10096
+  },
+  {
+    "name": "Foes of Ali",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex9",
+    "igdbId": 4295,
+    "gbId": 29980,
+    "gbGuid": "3030-29980",
+    "tgdbId": 4839
+  },
+  {
+    "name": "Guardian War",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex10",
+    "igdbId": 4314,
+    "gbId": 12367,
+    "gbGuid": "3030-12367",
+    "tgdbId": 10100
+  },
+  {
+    "name": "Immercenary",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex11",
+    "igdbId": 4296,
+    "gbId": 17893,
+    "gbGuid": "3030-17893",
+    "tgdbId": 4844
+  },
+  {
+    "name": "Iron Angel of the Apocalypse",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex12",
+    "igdbId": 4322,
+    "gbId": 12600,
+    "gbGuid": "3030-12600",
+    "tgdbId": 10102
+  },
+  {
+    "name": "Iron Angel of the Apocalypse: The Return",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex13",
+    "igdbId": 4346,
+    "gbId": 2855,
+    "gbGuid": "3030-2855",
+    "tgdbId": 10101
+  },
+  {
+    "name": "John Madden Football",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex14",
+    "igdbId": 13240,
+    "gbId": 63837,
+    "gbGuid": "3030-63837",
+    "tgdbId": 286
+  },
+  {
+    "name": "Jurassic Park Interactive",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex15",
+    "igdbId": 4277,
+    "gbId": 43262,
+    "gbGuid": "3030-43262",
+    "tgdbId": 5843
+  },
+  {
+    "name": "Kurokishi no Kamen",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex16",
+    "igdbId": 112030,
+    "gbId": 70175,
+    "gbGuid": "3030-70175",
+    "tgdbId": 55618
+  },
+  {
+    "name": "Life Stage, Virtual House",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex17",
+    "igdbId": 4286,
+    "gbId": 32506,
+    "gbGuid": "3030-32506",
+    "tgdbId": 43026
+  },
+  {
+    "name": "Pataank",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex18",
+    "igdbId": 4333,
+    "gbId": 6692,
+    "gbGuid": "3030-6692",
+    "tgdbId": 10136
+  },
+  {
+    "name": "Bishoujo Senshi Sailor Moon S",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex19",
+    "igdbId": null,
+    "gbId": 7640,
+    "gbGuid": "3030-7640",
+    "tgdbId": 26724
+  },
+  {
+    "name": "Real Pinball",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex20",
+    "igdbId": 4266,
+    "gbId": 38079,
+    "gbGuid": "3030-38079",
+    "tgdbId": 10141
+  },
+  {
+    "name": "Scramble Cobra",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex21",
+    "igdbId": 4315,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 10144
+  },
+  {
+    "name": "Seal of the Pharaoh",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex22",
+    "igdbId": 4288,
+    "gbId": 55066,
+    "gbGuid": "3030-55066",
+    "tgdbId": 43044
+  },
+  {
+    "name": "Shadow: War of Succession",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex23",
+    "igdbId": 4325,
+    "gbId": 15219,
+    "gbGuid": "3030-15219",
+    "tgdbId": 26700
+  },
+  {
+    "name": "Slam 'n Jam 95",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex24",
+    "igdbId": 39017,
+    "gbId": 30156,
+    "gbGuid": "3030-30156",
+    "tgdbId": 4866
+  },
+  {
+    "name": "Club 3DO: Station Invasion",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex25",
+    "igdbId": 38830,
+    "gbId": 15624,
+    "gbGuid": "3030-15624",
+    "tgdbId": 23989
+  },
+  {
+    "name": "Twisted: The Game Show",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex26",
+    "igdbId": 4321,
+    "gbId": 7461,
+    "gbGuid": "3030-7461",
+    "tgdbId": 4884
+  },
+  {
+    "name": "Ultraman Powered",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex27",
+    "igdbId": 4307,
+    "gbId": 17160,
+    "gbGuid": "3030-17160",
+    "tgdbId": 43511
+  },
+  {
+    "name": "VR Stalker",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex28",
+    "igdbId": 4272,
+    "gbId": 52410,
+    "gbGuid": "3030-52410",
+    "tgdbId": 10154
+  },
+  {
+    "name": "Way of the Warrior",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex29",
+    "igdbId": 4326,
+    "gbId": 14900,
+    "gbGuid": "3030-14900",
+    "tgdbId": 4885
+  },
+  {
+    "name": "Yuu Yuu Hakusho",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex30",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 29220
+  },
+  {
+    "name": "Zhadnost: The People's Party",
+    "details": "3do Interactive Multiplayer exclusive",
+    "id": "3doex31",
+    "igdbId": 4298,
+    "gbId": 16144,
+    "gbGuid": "3030-16144",
+    "tgdbId": 10160
+  }
+]

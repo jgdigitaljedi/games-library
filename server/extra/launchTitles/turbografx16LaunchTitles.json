@@ -1,0 +1,83 @@
+[
+  {
+    "id": "t16lt1",
+    "name": "Alien Crush",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 12492,
+    "gbId": 19109,
+    "gbGuid": "3030-19109",
+    "tgdbId": 8186
+  },
+  {
+    "id": "t16lt2",
+    "name": "China Warrior",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 42127,
+    "gbId": 20828,
+    "gbGuid": "3030-20828",
+    "tgdbId": 4107
+  },
+  {
+    "id": "t16lt3",
+    "name": "Dungeon Explorer",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 74314,
+    "gbId": 7849,
+    "gbGuid": "3030-7849",
+    "tgdbId": 442
+  },
+  {
+    "id": "t16lt4",
+    "name": "Keith Courage in Alpha Zones",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 42122,
+    "gbId": 3479,
+    "gbGuid": "3030-3479",
+    "tgdbId": 5673
+  },
+  {
+    "id": "t16lt5",
+    "name": "Power Golf",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 42100,
+    "gbId": 20949,
+    "gbGuid": "3030-20949",
+    "tgdbId": 8223
+  },
+  {
+    "id": "t16lt6",
+    "name": "R-Type",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 6840,
+    "gbId": 13745,
+    "gbGuid": "3030-13745",
+    "tgdbId": 119
+  },
+  {
+    "id": "t16lt7",
+    "name": "The Legendary Axe",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 42121,
+    "gbId": 1906,
+    "gbGuid": "3030-1906",
+    "tgdbId": 5674
+  },
+  {
+    "id": "t16lt8",
+    "name": "Victory Run",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 42118,
+    "gbId": 10079,
+    "gbGuid": "3030-10079",
+    "tgdbId": 5685
+  },
+  {
+    "id": "t16lt9",
+    "name": "Vigilante",
+    "details": "TurboGrafx 16 launch title",
+    "igdbId": 10444,
+    "gbId": 4146,
+    "gbGuid": "3030-4146",
+    "tgdbId": 3094
+  }
+]

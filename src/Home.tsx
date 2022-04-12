@@ -25,6 +25,7 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
   // @ts-ignore
   const [data, setData] = useState<IStats>({});
+  const [extraData, setExtraData] = useState<any>({}); // TODO: type this when call is finished
   const [pcGameStats, setPcGameStats] = useState<IPcStatsTotalsFixed & IPcStatsTotalsDynamic>();
   const [pcPlatformStats, setPcPlatformStats] = useState<
     IPcStatsTotalsFixed & IPcStatsTotalsDynamic
@@ -144,6 +145,20 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     }
   }, [setNotify]);
 
+  const getExtra = useCallback(async () => {
+    const result = await Axios.get(`${window.urlPrefix}/api/vg/extra`);
+    if (result && result.data) {
+      console.log('extra data', result.data);
+      setExtraData(result.data);
+    } else {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch launch and exclusives data!',
+        summary: 'ERROR'
+      });
+    }
+  }, [setNotify]);
+
   const combinePcStats = () => {
     return {
       totalSpent:
@@ -209,8 +224,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
 
   useEffect(() => {
     getData();
+    getExtra();
     // eslint-disable-next-line
-  }, [getData]);
+  }, [getData, getExtra]);
 
   return (
     <div className='home'>
@@ -425,6 +441,29 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                 <td>{data.genesisBBGridTotal}</td>
                 <td>{getPercent(data.genesisBBGridOwned, data.genesisBBGridTotal)}</td>
               </tr>
+              {extraData?.length > 0 &&
+                extraData.map((item: any) => {
+                  return (
+                    <React.Fragment key={item.con.replace(' ', '-')}>
+                      {item?.launchTotal > 0 && (
+                        <tr>
+                          <td>{`${item.con} Launch Titles`}</td>
+                          <td>{item.launchOwned}</td>
+                          <td>{item.launchTotal}</td>
+                          <td>{getPercent(item.launchOwned, item.launchTotal)}</td>
+                        </tr>
+                      )}
+                      {item.exTotal > 0 && (
+                        <tr>
+                          <td>{`${item.con} Exclusives`}</td>
+                          <td>{item.exOwned}</td>
+                          <td>{item.exTotal}</td>
+                          <td>{getPercent(item.exOwned, item.exTotal)}</td>
+                        </tr>
+                      )}
+                    </React.Fragment>
+                  );
+                })}
             </tbody>
           </table>
         </div>
@@ -442,25 +481,6 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
               options={{
                 ...chartOptions,
                 ...addTitle('Physical Copy vs Digital Download'),
-                ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
-              }}
-              width='100%'
-              height='500px'
-            />
-          </div>
-        )}
-        {data && data.gamesPerEsrb && (
-          <div className='chart-container' style={{ width: '50%' }}>
-            <Chart
-              type='pie'
-              data={ChartService.returnSimpleDataSet(
-                data.gamesPerEsrb,
-                'Games per ESRB rating',
-                true
-              )}
-              options={{
-                ...chartOptions,
-                ...addTitle('Games per ESRB Rating'),
                 ...{ legend: { position: 'bottom', labels: { fontColor: Colors.white } } }
               }}
               width='100%'

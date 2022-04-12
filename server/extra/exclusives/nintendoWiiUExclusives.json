@@ -1,0 +1,3800 @@
+[
+  {
+    "name": "Animal Crossing: Amiibo Festival",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex1",
+    "igdbId": 11190,
+    "gbId": 49995,
+    "gbGuid": "3030-49995",
+    "tgdbId": 32901
+  },
+  {
+    "name": "Barbie Dreamhouse Party",
+    "details": "Nintendo Wii U console exclusive",
+    "id": "nwuex2",
+    "igdbId": 16671,
+    "gbId": 44612,
+    "gbGuid": "3030-44612",
+    "tgdbId": 42506
+  },
+  {
+    "name": "Devil's Third",
+    "details": "Nintendo Wii U console exclusive",
+    "id": "nwuex5",
+    "igdbId": 7395,
+    "gbId": 31672,
+    "gbGuid": "3030-31672",
+    "tgdbId": 16073
+  },
+  {
+    "name": "Disney Planes",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex6",
+    "igdbId": 17172,
+    "gbId": 42967,
+    "gbGuid": "3030-42967",
+    "tgdbId": 19072
+  },
+  {
+    "name": "ESPN Sports Connection",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex8",
+    "igdbId": 28334,
+    "gbId": 38552,
+    "gbGuid": "3030-38552",
+    "tgdbId": 12086
+  },
+  {
+    "name": "Family Party: 30 Great Games Obstacle Arcade",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex9",
+    "igdbId": 5312,
+    "gbId": 39790,
+    "gbGuid": "3030-39790",
+    "tgdbId": 16065
+  },
+  {
+    "name": "Fujiko F. Fujio Characters Daishuugou! SF Dotabata Party!!",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex10",
+    "igdbId": 60748,
+    "gbId": 48408,
+    "gbGuid": "3030-48408",
+    "tgdbId": null
+  },
+  {
+    "name": "Funky Barn",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex11",
+    "igdbId": 21698,
+    "gbId": 39772,
+    "gbGuid": "3030-39772",
+    "tgdbId": 16076
+  },
+  {
+    "name": "Game & Wario",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex12",
+    "igdbId": 1710,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 16077
+  },
+  {
+    "name": "Goutouchi Tetsudou: Goutouchi Chara to Nihon Zengoku no Tabi",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex13",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Hello Kitty Kruisers",
+    "details": "Nintendo Wii U console exclusive",
+    "id": "nwuex14",
+    "igdbId": 7463,
+    "gbId": 44192,
+    "gbGuid": "3030-44192",
+    "tgdbId": 40142
+  },
+  {
+    "name": "Hyrule Warriors",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex15",
+    "igdbId": 5314,
+    "gbId": 44782,
+    "gbGuid": "3030-44782",
+    "tgdbId": 23230
+  },
+  {
+    "name": "Kirby and the Rainbow Curse",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex16",
+    "igdbId": 7338,
+    "gbId": 46583,
+    "gbGuid": "3030-46583",
+    "tgdbId": 25043
+  },
+  {
+    "name": "The Legend of Zelda: Twilight Princess HD",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex18",
+    "igdbId": 18017,
+    "gbId": 51484,
+    "gbGuid": "3030-51484",
+    "tgdbId": 33799
+  },
+  {
+    "name": "The Legend of Zelda: The Wind Waker HD",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex19",
+    "igdbId": 2276,
+    "gbId": 41348,
+    "gbGuid": "3030-41348",
+    "tgdbId": 17824
+  },
+  {
+    "name": "Mario & Sonic at the Sochi 2014 Olympic Winter Games",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex20",
+    "igdbId": 3990,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mario & Sonic at the Rio 2016 Olympic Games",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex21",
+    "igdbId": 11258,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 35668
+  },
+  {
+    "name": "Mario Party 10",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex23",
+    "igdbId": 7340,
+    "gbId": 46586,
+    "gbGuid": "3030-46586",
+    "tgdbId": 25042
+  },
+  {
+    "name": "Mario Tennis: Ultra Smash",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex24",
+    "igdbId": 11220,
+    "gbId": 49997,
+    "gbGuid": "3030-49997",
+    "tgdbId": 33065
+  },
+  {
+    "name": "Monster High: 13 Wishes",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex25",
+    "igdbId": 25142,
+    "gbId": 44622,
+    "gbGuid": "3030-44622",
+    "tgdbId": 33058
+  },
+  {
+    "name": "Monster Hunter 3 Ultimate",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex26",
+    "igdbId": 2271,
+    "gbId": 36397,
+    "gbGuid": "3030-36397",
+    "tgdbId": 15181
+  },
+  {
+    "name": "New Super Luigi U",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex27",
+    "igdbId": 2173,
+    "gbId": 42657,
+    "gbGuid": "3030-42657",
+    "tgdbId": 17643
+  },
+  {
+    "name": "New Super Mario Bros. U",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex28",
+    "igdbId": 2171,
+    "gbId": 35574,
+    "gbGuid": "3030-35574",
+    "tgdbId": 9060
+  },
+  {
+    "name": "Nintendo Land",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex29",
+    "igdbId": 2172,
+    "gbId": 38549,
+    "gbGuid": "3030-38549",
+    "tgdbId": 11743
+  },
+  {
+    "name": "Paper Mario: Color Splash",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex30",
+    "igdbId": 18169,
+    "gbId": 52917,
+    "gbGuid": "3030-52917",
+    "tgdbId": 40148
+  },
+  {
+    "name": "The Penguins of Madagascar",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex31",
+    "igdbId": 50738,
+    "gbId": 69085,
+    "gbGuid": "3030-69085",
+    "tgdbId": 47507
+  },
+  {
+    "name": "Pikmin 3",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex32",
+    "igdbId": 2241,
+    "gbId": 27930,
+    "gbGuid": "3030-27930",
+    "tgdbId": 16079
+  },
+  {
+    "name": "Pokken Tournament",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex33",
+    "igdbId": 18138,
+    "gbId": 47583,
+    "gbGuid": "3030-47583",
+    "tgdbId": 35670
+  },
+  {
+    "name": "Rabbids Land",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex34",
+    "igdbId": 5320,
+    "gbId": 38550,
+    "gbGuid": "3030-38550",
+    "tgdbId": 12095
+  },
+  {
+    "name": "Rodea: The Sky Soldier",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex35",
+    "igdbId": 6872,
+    "gbId": 33890,
+    "gbGuid": "3030-33890",
+    "tgdbId": 33024
+  },
+  {
+    "name": "Scribblenauts Unlimited",
+    "details": "Nintendo Wii U console exclusive",
+    "id": "nwuex36",
+    "igdbId": 2943,
+    "gbId": 38545,
+    "gbGuid": "3030-38545",
+    "tgdbId": 12100
+  },
+  {
+    "name": "Scribblenauts Unmasked: A DC Comics Adventure",
+    "details": "Nintendo Wii U console exclusive",
+    "id": "nwuex37",
+    "igdbId": 5033,
+    "gbId": 42637,
+    "gbGuid": "3030-42637",
+    "tgdbId": 17925
+  },
+  {
+    "name": "SiNG Party",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex38",
+    "igdbId": 3108,
+    "gbId": 38547,
+    "gbGuid": "3030-38547",
+    "tgdbId": 16080
+  },
+  {
+    "name": "Sonic Boom: Rise of Lyric",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex39",
+    "igdbId": 5322,
+    "gbId": 45349,
+    "gbGuid": "3030-45349",
+    "tgdbId": 27460
+  },
+  {
+    "name": "Sonic: Lost World",
+    "details": "Nintendo Wii U console exclusive",
+    "id": "nwuex40",
+    "igdbId": 2607,
+    "gbId": 42655,
+    "gbGuid": "3030-42655",
+    "tgdbId": 18060
+  },
+  {
+    "name": "Splatoon",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex41",
+    "igdbId": 7335,
+    "gbId": 46582,
+    "gbGuid": "3030-46582",
+    "tgdbId": 21148
+  },
+  {
+    "name": "Star Fox Guard",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex42",
+    "igdbId": 19687,
+    "gbId": 46595,
+    "gbGuid": "3030-46595",
+    "tgdbId": 36918
+  },
+  {
+    "name": "Star Fox Zero",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex43",
+    "igdbId": 11196,
+    "gbId": 46584,
+    "gbGuid": "3030-46584",
+    "tgdbId": 31302
+  },
+  {
+    "name": "Super Mario 3D World",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex44",
+    "igdbId": 2180,
+    "gbId": 42931,
+    "gbGuid": "3030-42931",
+    "tgdbId": 18153
+  },
+  {
+    "name": "Super Mario Maker",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex45",
+    "igdbId": 7339,
+    "gbId": 46580,
+    "gbGuid": "3030-46580",
+    "tgdbId": 31277
+  },
+  {
+    "name": "Super Smash Bros. for Wii U",
+    "details": "Nintendo Wii U platform exclusive",
+    "id": "nwuex46",
+    "igdbId": 9602,
+    "gbId": 35573,
+    "gbGuid": "3030-35573",
+    "tgdbId": 11151
+  },
+  {
+    "name": "Taiko Drum Master",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex47",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 9824
+  },
+  {
+    "name": "Taiko no Tatsujin Wii",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex48",
+    "igdbId": 5207,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Taiko Drum Master: Wii U Version",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex49",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tank! Tank! Tank!",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex50",
+    "igdbId": 5323,
+    "gbId": 30864,
+    "gbGuid": "3030-30864",
+    "tgdbId": 16083
+  },
+  {
+    "name": "Tokyo Mirage Sessions #FE",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex51",
+    "igdbId": 5321,
+    "gbId": 41346,
+    "gbGuid": "3030-41346",
+    "tgdbId": 37556
+  },
+  {
+    "name": "Wii Fit U",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex53",
+    "igdbId": 5325,
+    "gbId": 38546,
+    "gbGuid": "3030-38546",
+    "tgdbId": 16085
+  },
+  {
+    "name": "Wii Party U",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex54",
+    "igdbId": 3106,
+    "gbId": 41350,
+    "gbGuid": "3030-41350",
+    "tgdbId": 18547
+  },
+  {
+    "name": "Wii Sports Club",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex55",
+    "igdbId": 23518,
+    "gbId": 43957,
+    "gbGuid": "3030-43957",
+    "tgdbId": 23982
+  },
+  {
+    "name": "The Wonderful 101",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex56",
+    "igdbId": 2639,
+    "gbId": 38553,
+    "gbGuid": "3030-38553",
+    "tgdbId": 16087
+  },
+  {
+    "name": "Xenoblade Chronicles X",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex57",
+    "igdbId": 2366,
+    "gbId": 41347,
+    "gbGuid": "3030-41347",
+    "tgdbId": 33363
+  },
+  {
+    "name": "Yo-kai Watch Dance: Just Dance Special Edition",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex58",
+    "igdbId": null,
+    "gbId": 50545,
+    "gbGuid": "3030-50545",
+    "tgdbId": null
+  },
+  {
+    "name": "Yoshi's Woolly World",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex59",
+    "igdbId": 7343,
+    "gbId": 41349,
+    "gbGuid": "3030-41349",
+    "tgdbId": 22650
+  },
+  {
+    "name": "Your Shape: Fitness Evolved 2013",
+    "details": "Nintendo Wii U full exclusive",
+    "id": "nwuex60",
+    "igdbId": 28347,
+    "gbId": 38551,
+    "gbGuid": "3030-38551",
+    "tgdbId": 16084
+  },
+  {
+    "name": "153 Hand Video Poker",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex61",
+    "igdbId": 84670,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "360 Breakout",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex62",
+    "igdbId": 57321,
+    "gbId": 56915,
+    "gbGuid": "3030-56915",
+    "tgdbId": null
+  },
+  {
+    "name": "3Souls",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex63",
+    "igdbId": 26407,
+    "gbId": 54791,
+    "gbGuid": "3030-54791",
+    "tgdbId": null
+  },
+  {
+    "name": "6-Hour Video Poker",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex64",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "8Bit Hero",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex65",
+    "igdbId": 84683,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "99Moves",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex66",
+    "igdbId": 84690,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "99Seconds",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex67",
+    "igdbId": 84691,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Absolutely Unstoppable MineRun",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex68",
+    "igdbId": 84861,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Abyss",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex69",
+    "igdbId": 12288,
+    "gbId": 15198,
+    "gbGuid": "3030-15198",
+    "tgdbId": 48537
+  },
+  {
+    "name": "ACE - Alien Cleanup Elite",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex70",
+    "igdbId": 84732,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "A Day at the Carnival",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex71",
+    "igdbId": 55853,
+    "gbId": 60252,
+    "gbGuid": "3030-60252",
+    "tgdbId": null
+  },
+  {
+    "name": "Adventures of Lolo",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex72",
+    "igdbId": 3662,
+    "gbId": 5026,
+    "gbGuid": "3030-5026",
+    "tgdbId": 328
+  },
+  {
+    "name": "Adventure Party: Cats and Caverns",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex73",
+    "igdbId": 84866,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Aenigma Os",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex74",
+    "igdbId": 84740,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Affordable Space Adventures",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex75",
+    "igdbId": 9673,
+    "gbId": 45542,
+    "gbGuid": "3030-45542",
+    "tgdbId": 48538
+  },
+  {
+    "name": "Alice in Wonderland",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex76",
+    "igdbId": 30787,
+    "gbId": 3599,
+    "gbGuid": "3030-3599",
+    "tgdbId": 9129
+  },
+  {
+    "name": "Alphadia Genesis",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex77",
+    "igdbId": 17849,
+    "gbId": 49689,
+    "gbGuid": "3030-49689",
+    "tgdbId": 45946
+  },
+  {
+    "name": "Amiibo Tap: Nintendo's Greatest Bits",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex78",
+    "igdbId": 60431,
+    "gbId": 49324,
+    "gbGuid": "3030-49324",
+    "tgdbId": 36400
+  },
+  {
+    "name": "Angry Bunnies: Colossal Carrot Crusade",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex79",
+    "igdbId": 84756,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Angry Video Game Nerd Adventures",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex80",
+    "igdbId": 7960,
+    "gbId": 42950,
+    "gbGuid": "3030-42950",
+    "tgdbId": 20585
+  },
+  {
+    "name": "Animal Gods",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex81",
+    "igdbId": 13191,
+    "gbId": 49028,
+    "gbGuid": "3030-49028",
+    "tgdbId": null
+  },
+  {
+    "name": "Annihilation",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex82",
+    "igdbId": 84748,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48792
+  },
+  {
+    "name": "Archery by Thornbury Software",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex83",
+    "igdbId": 84757,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Armello",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex84",
+    "igdbId": 84977,
+    "gbId": 36299,
+    "gbGuid": "3030-36299",
+    "tgdbId": 50071
+  },
+  {
+    "name": "Armored ACORNs: Action Squirrel Squad",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex85",
+    "igdbId": 56350,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Art Academy: Home Studio",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex86",
+    "igdbId": 21839,
+    "gbId": 42930,
+    "gbGuid": "3030-42930",
+    "tgdbId": 62998
+  },
+  {
+    "name": "Art Academy: Sketchpad",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex87",
+    "igdbId": 51185,
+    "gbId": 43456,
+    "gbGuid": "3030-43456",
+    "tgdbId": 46113
+  },
+  {
+    "name": "Ascent of Kings",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex88",
+    "igdbId": 85506,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Asdivine Hearts",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex89",
+    "igdbId": 34347,
+    "gbId": 53400,
+    "gbGuid": "3030-53400",
+    "tgdbId": 39457
+  },
+  {
+    "name": "Asteroid Quarry",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex90",
+    "igdbId": 84770,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Astral Breakers",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex91",
+    "igdbId": 19953,
+    "gbId": 54099,
+    "gbGuid": "3030-54099",
+    "tgdbId": 34789
+  },
+  {
+    "name": "Ava and Avior Save the Earth",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex92",
+    "igdbId": 84979,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Avoider",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex93",
+    "igdbId": 57056,
+    "gbId": 57628,
+    "gbGuid": "3030-57628",
+    "tgdbId": null
+  },
+  {
+    "name": "Azure Snake",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex94",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63242
+  },
+  {
+    "name": "B3 Game Expo For Bees",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex95",
+    "igdbId": 84775,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Baila Latino",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex96",
+    "igdbId": 58946,
+    "gbId": 52552,
+    "gbGuid": "3030-52552",
+    "tgdbId": 44224
+  },
+  {
+    "name": "Bigley's Revenge",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex97",
+    "igdbId": 59283,
+    "gbId": 52048,
+    "gbGuid": "3030-52048",
+    "tgdbId": 48583
+  },
+  {
+    "name": "Bird Mania Party",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex98",
+    "igdbId": 84995,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Bit Dungeon+",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex99",
+    "igdbId": 25816,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63477
+  },
+  {
+    "name": "Blackjack 21",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex100",
+    "igdbId": 85514,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Blasting Agent: Ultimate Edition",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex101",
+    "igdbId": 22034,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "BLOC",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex102",
+    "igdbId": 85001,
+    "gbId": 24564,
+    "gbGuid": "3030-24564",
+    "tgdbId": null
+  },
+  {
+    "name": "Blockara",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex103",
+    "igdbId": 43493,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Blocky Bot",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex104",
+    "igdbId": 84998,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Block Zombies!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex105",
+    "igdbId": 65415,
+    "gbId": 37372,
+    "gbGuid": "3030-37372",
+    "tgdbId": null
+  },
+  {
+    "name": "BLOK DROP U",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex106",
+    "igdbId": 62100,
+    "gbId": 45489,
+    "gbGuid": "3030-45489",
+    "tgdbId": null
+  },
+  {
+    "name": "Blok Drop x Twisted Fusion",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex107",
+    "igdbId": 61289,
+    "gbId": 47022,
+    "gbGuid": "3030-47022",
+    "tgdbId": null
+  },
+  {
+    "name": "Booty Diver",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex108",
+    "igdbId": 68321,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Box Up",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex109",
+    "igdbId": 54958,
+    "gbId": 60448,
+    "gbGuid": "3030-60448",
+    "tgdbId": null
+  },
+  {
+    "name": "Brave Tank Hero",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex110",
+    "igdbId": 11187,
+    "gbId": 49844,
+    "gbGuid": "3030-49844",
+    "tgdbId": null
+  },
+  {
+    "name": "Breakout Defense",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex111",
+    "igdbId": 56207,
+    "gbId": 59249,
+    "gbGuid": "3030-59249",
+    "tgdbId": null
+  },
+  {
+    "name": "Breezeblox",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex112",
+    "igdbId": 35275,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "BrickBlast U!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex113",
+    "igdbId": 85004,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Brick Race",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex114",
+    "igdbId": 56100,
+    "gbId": 59541,
+    "gbGuid": "3030-59541",
+    "tgdbId": null
+  },
+  {
+    "name": "Bubble Gum Popper",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex115",
+    "igdbId": 85010,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cake Ninja 3: The Legend Continues",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex116",
+    "igdbId": 85014,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Call of Nightmare",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex117",
+    "igdbId": 72499,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Candy Hoarder",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex118",
+    "igdbId": 85019,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Canvaleon",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex119",
+    "igdbId": 85017,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Chasing Aurora",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex120",
+    "igdbId": 20882,
+    "gbId": 37741,
+    "gbGuid": "3030-37741",
+    "tgdbId": null
+  },
+  {
+    "name": "Chompy Chomp Chomp Party",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex121",
+    "igdbId": 58675,
+    "gbId": 53410,
+    "gbGuid": "3030-53410",
+    "tgdbId": null
+  },
+  {
+    "name": "Christmas Adventure of Rocket Penguin",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex122",
+    "igdbId": 85027,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48585
+  },
+  {
+    "name": "Chroma Blast",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex123",
+    "igdbId": 43498,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Chubbins",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex124",
+    "igdbId": 85033,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Citadale: Gate of Souls",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex125",
+    "igdbId": 56152,
+    "gbId": 59344,
+    "gbGuid": "3030-59344",
+    "tgdbId": null
+  },
+  {
+    "name": "Citadale: The Legends Trilogy",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex126",
+    "igdbId": 56151,
+    "gbId": 59345,
+    "gbGuid": "3030-59345",
+    "tgdbId": null
+  },
+  {
+    "name": "Coaster Crazy Deluxe",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex127",
+    "igdbId": 85038,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Collateral Thinking",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex128",
+    "igdbId": 85039,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48586
+  },
+  {
+    "name": "COLOR BOMBS",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex129",
+    "igdbId": 85040,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Color Cubes",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex130",
+    "igdbId": 42150,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 32410
+  },
+  {
+    "name": "Color Symphony 2",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex131",
+    "igdbId": 34396,
+    "gbId": 53706,
+    "gbGuid": "3030-53706",
+    "tgdbId": null
+  },
+  {
+    "name": "Color Zen",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex132",
+    "igdbId": 39209,
+    "gbId": 43051,
+    "gbGuid": "3030-43051",
+    "tgdbId": 30233
+  },
+  {
+    "name": "Color Zen Kids",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex133",
+    "igdbId": 85048,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Coqui the Game",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex134",
+    "igdbId": 55982,
+    "gbId": 59864,
+    "gbGuid": "3030-59864",
+    "tgdbId": null
+  },
+  {
+    "name": "Cosmophony",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex135",
+    "igdbId": 35252,
+    "gbId": 49573,
+    "gbGuid": "3030-49573",
+    "tgdbId": null
+  },
+  {
+    "name": "Crab Cakes Rescue",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex136",
+    "igdbId": 10109,
+    "gbId": 50785,
+    "gbGuid": "3030-50785",
+    "tgdbId": null
+  },
+  {
+    "name": "Crush Insects",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex137",
+    "igdbId": 112817,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cube Blitz",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex138",
+    "igdbId": 85061,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cube Life: Island Survival",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex139",
+    "igdbId": 60151,
+    "gbId": 50076,
+    "gbGuid": "3030-50076",
+    "tgdbId": null
+  },
+  {
+    "name": "Cube Life: Pixel Action Heroes",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex140",
+    "igdbId": 70826,
+    "gbId": 60947,
+    "gbGuid": "3030-60947",
+    "tgdbId": 48587
+  },
+  {
+    "name": "Cubemen 2",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex141",
+    "igdbId": 6900,
+    "gbId": 42827,
+    "gbGuid": "3030-42827",
+    "tgdbId": 17205
+  },
+  {
+    "name": "Cubeshift",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex142",
+    "igdbId": 54542,
+    "gbId": 61540,
+    "gbGuid": "3030-61540",
+    "tgdbId": null
+  },
+  {
+    "name": "Cubit The Hardcore Platformer Robot",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex143",
+    "igdbId": 85060,
+    "gbId": 59866,
+    "gbGuid": "3030-59866",
+    "tgdbId": 24173
+  },
+  {
+    "name": "Cup Critters",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex144",
+    "igdbId": 56250,
+    "gbId": 59128,
+    "gbGuid": "3030-59128",
+    "tgdbId": null
+  },
+  {
+    "name": "Cutie Clash",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex145",
+    "igdbId": 85071,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cutie Pets Go Fishing",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex146",
+    "igdbId": 85070,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cutie Pets Jump Rope",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex147",
+    "igdbId": 85069,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cutie Pets Pick Berries",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex148",
+    "igdbId": 85068,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Cycle of Eternity: Space Anomaly",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex149",
+    "igdbId": 90686,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Daikon Set",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex150",
+    "igdbId": 55911,
+    "gbId": 60072,
+    "gbGuid": "3030-60072",
+    "tgdbId": 48588
+  },
+  {
+    "name": "Dare Up Adrenaline",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex151",
+    "igdbId": 85063,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Darts Up",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex152",
+    "igdbId": 85556,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Defend Your Crypt",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex153",
+    "igdbId": 33130,
+    "gbId": 52892,
+    "gbGuid": "3030-52892",
+    "tgdbId": null
+  },
+  {
+    "name": "Demonic Karma Summoner",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex154",
+    "igdbId": 85083,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dinox",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex155",
+    "igdbId": 85085,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Discovery",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex156",
+    "igdbId": 85562,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dodge Club Party",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex157",
+    "igdbId": 58693,
+    "gbId": 53347,
+    "gbGuid": "3030-53347",
+    "tgdbId": null
+  },
+  {
+    "name": "Dolphin Up",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex158",
+    "igdbId": 31155,
+    "gbId": 48817,
+    "gbGuid": "3030-48817",
+    "tgdbId": null
+  },
+  {
+    "name": "Don't Crash",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex159",
+    "igdbId": 58902,
+    "gbId": 52680,
+    "gbGuid": "3030-52680",
+    "tgdbId": null
+  },
+  {
+    "name": "Don't Touch Anything Red",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex160",
+    "igdbId": 85090,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dot Arcade",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex161",
+    "igdbId": 59290,
+    "gbId": 52026,
+    "gbGuid": "3030-52026",
+    "tgdbId": null
+  },
+  {
+    "name": "Double Breakout",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex162",
+    "igdbId": 57325,
+    "gbId": 56914,
+    "gbGuid": "3030-56914",
+    "tgdbId": null
+  },
+  {
+    "name": "Double Breakout II",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex163",
+    "igdbId": 56196,
+    "gbId": 59248,
+    "gbGuid": "3030-59248",
+    "tgdbId": null
+  },
+  {
+    "name": "Dracula's Legacy",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex164",
+    "igdbId": 34613,
+    "gbId": 72332,
+    "gbGuid": "3030-72332",
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Skills",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex165",
+    "igdbId": 85633,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Draw 2 Survive",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex166",
+    "igdbId": 85651,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Draw a Stickman: EPIC 2",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex167",
+    "igdbId": 34433,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dr. Luigi",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex168",
+    "igdbId": 3478,
+    "gbId": 44784,
+    "gbGuid": "3030-44784",
+    "tgdbId": 26457
+  },
+  {
+    "name": "Dual Core",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex169",
+    "igdbId": 33168,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dungeon Hearts DX",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex170",
+    "igdbId": 85103,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Eba & Egg: A Hatch Trip",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex171",
+    "igdbId": 54967,
+    "gbId": 60447,
+    "gbGuid": "3030-60447",
+    "tgdbId": null
+  },
+  {
+    "name": "EctoPlaza",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex172",
+    "igdbId": 85108,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Edge",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex173",
+    "igdbId": 111122,
+    "gbId": 30847,
+    "gbGuid": "3030-30847",
+    "tgdbId": 21211
+  },
+  {
+    "name": "Educational Pack of Kids Games",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex174",
+    "igdbId": 85107,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Elliot Quest",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex175",
+    "igdbId": 8596,
+    "gbId": 43798,
+    "gbGuid": "3030-43798",
+    "tgdbId": 61228
+  },
+  {
+    "name": "Emojikara: A Clever Emoji Match Game",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex176",
+    "igdbId": 58681,
+    "gbId": 53402,
+    "gbGuid": "3030-53402",
+    "tgdbId": null
+  },
+  {
+    "name": "Epic Dumpster Bear",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex177",
+    "igdbId": 19615,
+    "gbId": 53315,
+    "gbGuid": "3030-53315",
+    "tgdbId": null
+  },
+  {
+    "name": "Endless Golf",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex178",
+    "igdbId": 85638,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Escape From Flare Industries",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex179",
+    "igdbId": 58600,
+    "gbId": 53610,
+    "gbGuid": "3030-53610",
+    "tgdbId": null
+  },
+  {
+    "name": "Evofish",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex180",
+    "igdbId": 85652,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Explody Bomb",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex181",
+    "igdbId": 85133,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48626
+  },
+  {
+    "name": "Factotum 90",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex182",
+    "igdbId": 21317,
+    "gbId": 53305,
+    "gbGuid": "3030-53305",
+    "tgdbId": 54666
+  },
+  {
+    "name": "The Fall",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex183",
+    "igdbId": 9547,
+    "gbId": 43982,
+    "gbGuid": "3030-43982",
+    "tgdbId": 21303
+  },
+  {
+    "name": "Family Tennis SP",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex184",
+    "igdbId": 85658,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "FAST Racing Neo",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex185",
+    "igdbId": 14886,
+    "gbId": 44357,
+    "gbGuid": "3030-44357",
+    "tgdbId": 41429
+  },
+  {
+    "name": "Fatal Frame: Maiden of Black Water",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex186",
+    "igdbId": 51149,
+    "gbId": 46077,
+    "gbGuid": "3030-46077",
+    "tgdbId": 34156
+  },
+  {
+    "name": "Fat Dragons",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex187",
+    "igdbId": 88885,
+    "gbId": 67752,
+    "gbGuid": "3030-67752",
+    "tgdbId": null
+  },
+  {
+    "name": "FIFTEEN",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex188",
+    "igdbId": 54673,
+    "gbId": 59421,
+    "gbGuid": "3030-59421",
+    "tgdbId": null
+  },
+  {
+    "name": "The First Skunk Bundle",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex189",
+    "igdbId": 57866,
+    "gbId": 55350,
+    "gbGuid": "3030-55350",
+    "tgdbId": 48629
+  },
+  {
+    "name": "Fit Music for Wii U",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex190",
+    "igdbId": 61696,
+    "gbId": 46283,
+    "gbGuid": "3030-46283",
+    "tgdbId": null
+  },
+  {
+    "name": "Flapp & Zegeta",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex191",
+    "igdbId": 58124,
+    "gbId": 54680,
+    "gbGuid": "3030-54680",
+    "tgdbId": null
+  },
+  {
+    "name": "Flowerworks HD: Follie's Adventure",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex192",
+    "igdbId": 85150,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Forest Escape",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex193",
+    "igdbId": 74230,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Frederic: Resurrection of Music",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex194",
+    "igdbId": 9846,
+    "gbId": 40321,
+    "gbGuid": "3030-40321",
+    "tgdbId": 52351
+  },
+  {
+    "name": "Free Balling",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex195",
+    "igdbId": 32263,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "FreezeME",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex196",
+    "igdbId": 23480,
+    "gbId": 51873,
+    "gbGuid": "3030-51873",
+    "tgdbId": 48633
+  },
+  {
+    "name": "Frenchy Bird",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex197",
+    "igdbId": 85634,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48663
+  },
+  {
+    "name": "Funky Physics",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex198",
+    "igdbId": 85162,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Gaiabreaker",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex199",
+    "igdbId": 61316,
+    "gbId": 46958,
+    "gbGuid": "3030-46958",
+    "tgdbId": null
+  },
+  {
+    "name": "Galaxy Blaster",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex200",
+    "igdbId": 56156,
+    "gbId": 59330,
+    "gbGuid": "3030-59330",
+    "tgdbId": null
+  },
+  {
+    "name": "Games For Toddlers",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex201",
+    "igdbId": 84641,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "GEOM",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex202",
+    "igdbId": 93023,
+    "gbId": 13738,
+    "gbGuid": "3030-13738",
+    "tgdbId": null
+  },
+  {
+    "name": "The Gem Collector",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex203",
+    "igdbId": 85435,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "GetClose: A Game for RIVALS",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex204",
+    "igdbId": 84512,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Girls Like Robots",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex205",
+    "igdbId": 16841,
+    "gbId": 37524,
+    "gbGuid": "3030-37524",
+    "tgdbId": 30174
+  },
+  {
+    "name": "GravBlocks",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex206",
+    "igdbId": 34436,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Gravity+",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex207",
+    "igdbId": 84530,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Gravity Badgers",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex208",
+    "igdbId": 10376,
+    "gbId": 44627,
+    "gbGuid": "3030-44627",
+    "tgdbId": 19117
+  },
+  {
+    "name": "Grumpy Reaper",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex209",
+    "igdbId": 84495,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Gunman Clive HD Collection",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex210",
+    "igdbId": 60063,
+    "gbId": 50217,
+    "gbGuid": "3030-50217",
+    "tgdbId": 48684
+  },
+  {
+    "name": "Heptrix",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex211",
+    "igdbId": 84523,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Hold Your Fire: A Game About Responsibility",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex212",
+    "igdbId": 20029,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Horror Stories",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex213",
+    "igdbId": 60496,
+    "gbId": 49148,
+    "gbGuid": "3030-49148",
+    "tgdbId": null
+  },
+  {
+    "name": "Humanitarian Helicopter",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex214",
+    "igdbId": 85172,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48685
+  },
+  {
+    "name": "Hurry Up Bird Hunter!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex215",
+    "igdbId": 82107,
+    "gbId": 71907,
+    "gbGuid": "3030-71907",
+    "tgdbId": null
+  },
+  {
+    "name": "I C REDD",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex216",
+    "igdbId": 84543,
+    "gbId": 70071,
+    "gbGuid": "3030-70071",
+    "tgdbId": null
+  },
+  {
+    "name": "Insect Planet TD",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex217",
+    "igdbId": 111462,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Internal Invasion",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex218",
+    "igdbId": 85625,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "IQ Test",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex219",
+    "igdbId": 107446,
+    "gbId": 52244,
+    "gbGuid": "3030-52244",
+    "tgdbId": null
+  },
+  {
+    "name": "Island Flight Simulator",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex220",
+    "igdbId": 24747,
+    "gbId": 65536,
+    "gbGuid": "3030-65536",
+    "tgdbId": 53567
+  },
+  {
+    "name": "Ivanoid",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex221",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "I've Got to Run!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex222",
+    "igdbId": 85189,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Jett Tailfin Racers",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex223",
+    "igdbId": 60759,
+    "gbId": 48362,
+    "gbGuid": "3030-48362",
+    "tgdbId": null
+  },
+  {
+    "name": "Job the Leprechaun",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex224",
+    "igdbId": 34849,
+    "gbId": 71620,
+    "gbGuid": "3030-71620",
+    "tgdbId": null
+  },
+  {
+    "name": "JACKPOT 777",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex225",
+    "igdbId": 85201,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Jones on Fire",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex226",
+    "igdbId": 15495,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Journey of a Special Average Balloon",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex227",
+    "igdbId": 19616,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Keytari: 8-bit Music Maker",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex228",
+    "igdbId": 75214,
+    "gbId": 62191,
+    "gbGuid": "3030-62191",
+    "tgdbId": null
+  },
+  {
+    "name": "Kung Fu FIGHT!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex229",
+    "igdbId": 58239,
+    "gbId": 54494,
+    "gbGuid": "3030-54494",
+    "tgdbId": null
+  },
+  {
+    "name": "Kung Fu Rabbit",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex230",
+    "igdbId": 23584,
+    "gbId": 42418,
+    "gbGuid": "3030-42418",
+    "tgdbId": 34418
+  },
+  {
+    "name": "Land it Rocket",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex231",
+    "igdbId": 33328,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Laser Blaster",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex232",
+    "igdbId": 58252,
+    "gbId": 54470,
+    "gbGuid": "3030-54470",
+    "tgdbId": null
+  },
+  {
+    "name": "Last Soldier",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex233",
+    "igdbId": 52270,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Letter",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex234",
+    "igdbId": 85525,
+    "gbId": 51984,
+    "gbGuid": "3030-51984",
+    "tgdbId": 48791
+  },
+  {
+    "name": "Life of Pixel",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex235",
+    "igdbId": 10514,
+    "gbId": 40914,
+    "gbGuid": "3030-40914",
+    "tgdbId": 34947
+  },
+  {
+    "name": "Little Inferno",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex236",
+    "igdbId": 1363,
+    "gbId": 38828,
+    "gbGuid": "3030-38828",
+    "tgdbId": 16090
+  },
+  {
+    "name": "Lost Reavers",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex237",
+    "igdbId": 8595,
+    "gbId": 48581,
+    "gbGuid": "3030-48581",
+    "tgdbId": 48901
+  },
+  {
+    "name": "Lucentek - Activate",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex238",
+    "igdbId": 85262,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Lucentek Beyond",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex239",
+    "igdbId": 85263,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Lucadian Chronicles",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex240",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48902
+  },
+  {
+    "name": "Luv Me Buddies Wonderland",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex241",
+    "igdbId": 85265,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 54360
+  },
+  {
+    "name": "Mario vs. Donkey Kong: Tipping Stars",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex242",
+    "igdbId": 8594,
+    "gbId": 46587,
+    "gbGuid": "3030-46587",
+    "tgdbId": 25825
+  },
+  {
+    "name": "Maze",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex243",
+    "igdbId": 77803,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mega Maze",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex244",
+    "igdbId": 44287,
+    "gbId": 19207,
+    "gbGuid": "3030-19207",
+    "tgdbId": null
+  },
+  {
+    "name": "Midnight",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex245",
+    "igdbId": 33802,
+    "gbId": 53613,
+    "gbGuid": "3030-53613",
+    "tgdbId": null
+  },
+  {
+    "name": "Midnight 2",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex246",
+    "igdbId": 58602,
+    "gbId": 53609,
+    "gbGuid": "3030-53609",
+    "tgdbId": null
+  },
+  {
+    "name": "Midtown Crazy Race",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex247",
+    "igdbId": 85290,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mighty Switch Force! Hyper Drive Edition",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex248",
+    "igdbId": 2176,
+    "gbId": 36063,
+    "gbGuid": "3030-36063",
+    "tgdbId": 16091
+  },
+  {
+    "name": "Mighty Switch Force! 2",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex249",
+    "igdbId": 20081,
+    "gbId": 41759,
+    "gbGuid": "3030-41759",
+    "tgdbId": 21218
+  },
+  {
+    "name": "MikroGame: Rotator",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex250",
+    "igdbId": 84635,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mini-Games Madness Volume: #1 - Hello World!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex251",
+    "igdbId": 84632,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mini Mario & Friends: Amiibo Challenge",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex252",
+    "igdbId": 18195,
+    "gbId": 52322,
+    "gbGuid": "3030-52322",
+    "tgdbId": null
+  },
+  {
+    "name": "Molly Maggot",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex253",
+    "igdbId": 84603,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Momonga Pinball Adventures",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex254",
+    "igdbId": 22182,
+    "gbId": 41232,
+    "gbGuid": "3030-41232",
+    "tgdbId": null
+  },
+  {
+    "name": "Monkey Pirates",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex255",
+    "igdbId": 20960,
+    "gbId": 43466,
+    "gbGuid": "3030-43466",
+    "tgdbId": null
+  },
+  {
+    "name": "Mon Premier Karaoke",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex256",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mortar Melon",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex257",
+    "igdbId": 84594,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mutant Alien Moles of the Dead: Whack Whack or Die",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex258",
+    "igdbId": 55941,
+    "gbId": 59992,
+    "gbGuid": "3030-59992",
+    "tgdbId": null
+  },
+  {
+    "name": "Mutant Mudds: Super Challenge",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex259",
+    "igdbId": 20100,
+    "gbId": 48658,
+    "gbGuid": "3030-48658",
+    "tgdbId": 45819
+  },
+  {
+    "name": "My Arctic Farm",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex260",
+    "igdbId": 85297,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "My Exotic Farm",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex261",
+    "igdbId": 66391,
+    "gbId": 32605,
+    "gbGuid": "3030-32605",
+    "tgdbId": null
+  },
+  {
+    "name": "My Farm",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex262",
+    "igdbId": 107900,
+    "gbId": 34253,
+    "gbGuid": "3030-34253",
+    "tgdbId": null
+  },
+  {
+    "name": "My First Songs",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex263",
+    "igdbId": 84631,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "My Jurassic Farm",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex264",
+    "igdbId": 61473,
+    "gbId": 46674,
+    "gbGuid": "3030-46674",
+    "tgdbId": null
+  },
+  {
+    "name": "My Style Studio: Hair Salon",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex265",
+    "igdbId": 84711,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "My Style Studio: Notebook",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex266",
+    "igdbId": 84710,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Mysterious Cities of Gold: Secret Paths",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex267",
+    "igdbId": 53763,
+    "gbId": 47208,
+    "gbGuid": "3030-47208",
+    "tgdbId": null
+  },
+  {
+    "name": "Near Earth Objects",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex268",
+    "igdbId": 84622,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Neon Battle",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex269",
+    "igdbId": 85607,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "NES Remix",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex270",
+    "igdbId": 6401,
+    "gbId": 44783,
+    "gbGuid": "3030-44783",
+    "tgdbId": 20527
+  },
+  {
+    "name": "NES Remix 2",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex271",
+    "igdbId": 6402,
+    "gbId": 45415,
+    "gbGuid": "3030-45415",
+    "tgdbId": 20528
+  },
+  {
+    "name": "Ninja Strike: Dangerous Dash",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex272",
+    "igdbId": 85312,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Now I know my ABCs",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex273",
+    "igdbId": 85315,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Octocopter: Super Sub Squid Escape",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex274",
+    "igdbId": 85317,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Olympia Rising",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex275",
+    "igdbId": 17311,
+    "gbId": 49362,
+    "gbGuid": "3030-49362",
+    "tgdbId": null
+  },
+  {
+    "name": "Ohayou! Beginner's Japanese",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex276",
+    "igdbId": 85319,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Orbit",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex277",
+    "igdbId": 85597,
+    "gbId": 37008,
+    "gbGuid": "3030-37008",
+    "tgdbId": 20080
+  },
+  {
+    "name": "Outside the Realm",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex278",
+    "igdbId": 85320,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Overworld Defender Remix",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex279",
+    "igdbId": 85324,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Panda Love",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex280",
+    "igdbId": 43087,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Paparazzi",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex281",
+    "igdbId": 81503,
+    "gbId": 3236,
+    "gbGuid": "3030-3236",
+    "tgdbId": 42681
+  },
+  {
+    "name": "Peg Solitaire",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex282",
+    "igdbId": 85594,
+    "gbId": 57629,
+    "gbGuid": "3030-57629",
+    "tgdbId": null
+  },
+  {
+    "name": "PENTAPUZZLE",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex283",
+    "igdbId": 85334,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Percy's Predicament",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex284",
+    "igdbId": 61298,
+    "gbId": 47002,
+    "gbGuid": "3030-47002",
+    "tgdbId": null
+  },
+  {
+    "name": "The Perplexing Orb",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex285",
+    "igdbId": 85439,
+    "gbId": 75071,
+    "gbGuid": "3030-75071",
+    "tgdbId": null
+  },
+  {
+    "name": "Petite Zombies",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex286",
+    "igdbId": 110981,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Piano Teacher",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex287",
+    "igdbId": 84826,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Pic-a-Pix Color",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex288",
+    "igdbId": 82591,
+    "gbId": 63250,
+    "gbGuid": "3030-63250",
+    "tgdbId": null
+  },
+  {
+    "name": "Pinball",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex289",
+    "igdbId": 56075,
+    "gbId": 20885,
+    "gbGuid": "3030-20885",
+    "tgdbId": 372
+  },
+  {
+    "name": "Pinball Breakout",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex290",
+    "igdbId": 57322,
+    "gbId": 56912,
+    "gbGuid": "3030-56912",
+    "tgdbId": null
+  },
+  {
+    "name": "Pirate Pop Plus",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex291",
+    "igdbId": 25086,
+    "gbId": 54389,
+    "gbGuid": "3030-54389",
+    "tgdbId": null
+  },
+  {
+    "name": "PixelMaker",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex292",
+    "igdbId": 84816,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "PixelMaker Studio",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex293",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Pixel Paint",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex294",
+    "igdbId": 85592,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Pixel Slime U",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex295",
+    "igdbId": 84817,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 36368
+  },
+  {
+    "name": "PixlCross",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex296",
+    "igdbId": 58765,
+    "gbId": 53126,
+    "gbGuid": "3030-53126",
+    "tgdbId": null
+  },
+  {
+    "name": "Plantera",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex297",
+    "igdbId": 17004,
+    "gbId": 52499,
+    "gbGuid": "3030-52499",
+    "tgdbId": 35401
+  },
+  {
+    "name": "Plenty of Fishes",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex298",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Pokémon Rumble",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex299",
+    "igdbId": 4560,
+    "gbId": 41545,
+    "gbGuid": "3030-41545",
+    "tgdbId": 24441
+  },
+  {
+    "name": "Poker Dice Solitaire Future",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex300",
+    "igdbId": 61338,
+    "gbId": 46907,
+    "gbGuid": "3030-46907",
+    "tgdbId": null
+  },
+  {
+    "name": "Preston Sterling and the Legend of Excalibur",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex301",
+    "igdbId": 55868,
+    "gbId": 60150,
+    "gbGuid": "3030-60150",
+    "tgdbId": null
+  },
+  {
+    "name": "Prism Pets",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex302",
+    "igdbId": 85349,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "PSIBO",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex303",
+    "igdbId": 85352,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "psyscrolr",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex304",
+    "igdbId": 85351,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Puzzle Monkeys",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex305",
+    "igdbId": 85583,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Quadcopter Pilot Challenge",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex306",
+    "igdbId": 85358,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Quiet Collection",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex307",
+    "igdbId": 59887,
+    "gbId": 50715,
+    "gbGuid": "3030-50715",
+    "tgdbId": null
+  },
+  {
+    "name": "RADIANTFLUX: HYPERFRACTAL",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex308",
+    "igdbId": 85361,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rainbow Snake",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex309",
+    "igdbId": 68506,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rakoo & Friends",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex310",
+    "igdbId": 85360,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rayman Legends Challenges App",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex311",
+    "igdbId": 2925,
+    "gbId": 41651,
+    "gbGuid": "3030-41651",
+    "tgdbId": null
+  },
+  {
+    "name": "Red Riding Hood",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex312",
+    "igdbId": 54319,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Reptilian Rebellion",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex313",
+    "igdbId": 33013,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Retro Road Rumble",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex314",
+    "igdbId": 84843,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rock 'N Racing Off Road",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex315",
+    "igdbId": 86249,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rorrim",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex316",
+    "igdbId": 84852,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Roving Rogue",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex317",
+    "igdbId": 19982,
+    "gbId": 50212,
+    "gbGuid": "3030-50212",
+    "tgdbId": null
+  },
+  {
+    "name": "RTO 2",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex318",
+    "igdbId": 89729,
+    "gbId": 66453,
+    "gbGuid": "3030-66453",
+    "tgdbId": null
+  },
+  {
+    "name": "Runbow",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex319",
+    "igdbId": 11215,
+    "gbId": 48013,
+    "gbGuid": "3030-48013",
+    "tgdbId": 49072
+  },
+  {
+    "name": "Run Run And Die",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex320",
+    "igdbId": 34573,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "RUSH",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex321",
+    "igdbId": 7634,
+    "gbId": 33376,
+    "gbGuid": "3030-33376",
+    "tgdbId": 11027
+  },
+  {
+    "name": "Rynn's Adventure: Trouble in the Enchanted Forest",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex322",
+    "igdbId": 34013,
+    "gbId": 53799,
+    "gbGuid": "3030-53799",
+    "tgdbId": null
+  },
+  {
+    "name": "Santa Factory",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex323",
+    "igdbId": 85365,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Scram Kitty and His Buddy on Rails",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex324",
+    "igdbId": 22259,
+    "gbId": 41559,
+    "gbGuid": "3030-41559",
+    "tgdbId": 29971
+  },
+  {
+    "name": "Scribble",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex325",
+    "igdbId": 86248,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "SDK Paint",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex326",
+    "igdbId": 84860,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "SDK Spriter",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex327",
+    "igdbId": 84859,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Shadow Archer",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex328",
+    "igdbId": 84856,
+    "gbId": 69811,
+    "gbGuid": "3030-69811",
+    "tgdbId": null
+  },
+  {
+    "name": "Shadow Archery",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex329",
+    "igdbId": 96276,
+    "gbId": 69809,
+    "gbGuid": "3030-69809",
+    "tgdbId": null
+  },
+  {
+    "name": "Shadow Puppeteer",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex330",
+    "igdbId": 7819,
+    "gbId": 49070,
+    "gbGuid": "3030-49070",
+    "tgdbId": 31926
+  },
+  {
+    "name": "Shapes of Grey",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex331",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Shiny the Firefly",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex332",
+    "igdbId": 10823,
+    "gbId": 46322,
+    "gbGuid": "3030-46322",
+    "tgdbId": null
+  },
+  {
+    "name": "Shooting Range by Thornbury Software",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex333",
+    "igdbId": 84871,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "SHOOT THE BALL",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex334",
+    "igdbId": 85374,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "SHOOTY SPACE",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex335",
+    "igdbId": 86251,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Shovel Knight",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex336",
+    "igdbId": 7444,
+    "gbId": 42034,
+    "gbGuid": "3030-42034",
+    "tgdbId": 21178
+  },
+  {
+    "name": "SHUT THE BOX",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex337",
+    "igdbId": 85372,
+    "gbId": 7890,
+    "gbGuid": "3030-7890",
+    "tgdbId": null
+  },
+  {
+    "name": "Shuttle Rush",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex338",
+    "igdbId": 85373,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sinister Assistant",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex339",
+    "igdbId": 111906,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sketch Wars",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex340",
+    "igdbId": 36849,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "SKEASY",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex341",
+    "igdbId": 85376,
+    "gbId": 54482,
+    "gbGuid": "3030-54482",
+    "tgdbId": null
+  },
+  {
+    "name": "SKORB",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex342",
+    "igdbId": 57384,
+    "gbId": 56731,
+    "gbGuid": "3030-56731",
+    "tgdbId": null
+  },
+  {
+    "name": "Skunky B's Super Slots Saga #1",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex343",
+    "igdbId": 57867,
+    "gbId": 55349,
+    "gbGuid": "3030-55349",
+    "tgdbId": null
+  },
+  {
+    "name": "Slots",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex344",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 13605
+  },
+  {
+    "name": "Snake Den",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex345",
+    "igdbId": 84876,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Snowball!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex346",
+    "igdbId": 30835,
+    "gbId": 12287,
+    "gbGuid": "3030-12287",
+    "tgdbId": null
+  },
+  {
+    "name": "Solitaire Dungeon Escape",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex347",
+    "igdbId": 85380,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Soon Shine",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex348",
+    "igdbId": 85389,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Space Hunted",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex349",
+    "igdbId": 84892,
+    "gbId": 69813,
+    "gbGuid": "3030-69813",
+    "tgdbId": null
+  },
+  {
+    "name": "SpaceRoads",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex350",
+    "igdbId": 75420,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Spellcaster's Assistant",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex351",
+    "igdbId": 96733,
+    "gbId": 69812,
+    "gbGuid": "3030-69812",
+    "tgdbId": null
+  },
+  {
+    "name": "Sphere Slice",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex352",
+    "igdbId": 56019,
+    "gbId": 59737,
+    "gbGuid": "3030-59737",
+    "tgdbId": null
+  },
+  {
+    "name": "Spin the Bottle: Bumpie's Party",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex353",
+    "igdbId": 79172,
+    "gbId": 43468,
+    "gbGuid": "3030-43468",
+    "tgdbId": null
+  },
+  {
+    "name": "SPLASHY DUCK",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex354",
+    "igdbId": 84893,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sportsball",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex355",
+    "igdbId": 21708,
+    "gbId": 48128,
+    "gbGuid": "3030-48128",
+    "tgdbId": 61771
+  },
+  {
+    "name": "Spot the Differences: Party!",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex356",
+    "igdbId": 84897,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "SphereZor",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex357",
+    "igdbId": 84890,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Spy Chameleon",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex358",
+    "igdbId": 15462,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 54067
+  },
+  {
+    "name": "Squids Odyssey",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex359",
+    "igdbId": 19877,
+    "gbId": 43461,
+    "gbGuid": "3030-43461",
+    "tgdbId": 55512
+  },
+  {
+    "name": "Star Ghost",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex360",
+    "igdbId": 58873,
+    "gbId": 52779,
+    "gbGuid": "3030-52779",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Sky",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex361",
+    "igdbId": 18015,
+    "gbId": 47603,
+    "gbGuid": "3030-47603",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Sky 2",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex362",
+    "igdbId": 33512,
+    "gbId": 54325,
+    "gbGuid": "3030-54325",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Splash: Shattered Star",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex363",
+    "igdbId": 85392,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Steel Lords",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex364",
+    "igdbId": 57320,
+    "gbId": 56916,
+    "gbGuid": "3030-56916",
+    "tgdbId": null
+  },
+  {
+    "name": "Steel Rivals",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex365",
+    "igdbId": 34766,
+    "gbId": 51708,
+    "gbGuid": "3030-51708",
+    "tgdbId": 33647
+  },
+  {
+    "name": "The Stonecutter",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex366",
+    "igdbId": 84955,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Stone Shire",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex367",
+    "igdbId": 85535,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sudoku and Permudoku",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex368",
+    "igdbId": 84913,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sudoku Party",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex369",
+    "igdbId": 84915,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Destronaut",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex370",
+    "igdbId": 31859,
+    "gbId": 69371,
+    "gbGuid": "3030-69371",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Destronaut 2: Go Duck Yourself",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex371",
+    "igdbId": 84917,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Hero Math",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex372",
+    "igdbId": 84921,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Robo Mouse",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex373",
+    "igdbId": 61228,
+    "gbId": 47180,
+    "gbGuid": "3030-47180",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Toy Cars",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex374",
+    "igdbId": 9548,
+    "gbId": 45589,
+    "gbGuid": "3030-45589",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Ultra Star Shooter",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex375",
+    "igdbId": 85417,
+    "gbId": 69810,
+    "gbGuid": "3030-69810",
+    "tgdbId": null
+  },
+  {
+    "name": "Surfin' Sam - Attack of the Aqualites",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex376",
+    "igdbId": 85416,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Suspension Railroad Simulator",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex377",
+    "igdbId": 85414,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sweetest Thing",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex378",
+    "igdbId": 85412,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Swap Blocks",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex379",
+    "igdbId": 44217,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Swap Fire",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex380",
+    "igdbId": 77773,
+    "gbId": 62874,
+    "gbGuid": "3030-62874",
+    "tgdbId": 49291
+  },
+  {
+    "name": "Swords & Soldiers II",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex381",
+    "igdbId": 19975,
+    "gbId": 45534,
+    "gbGuid": "3030-45534",
+    "tgdbId": 49371
+  },
+  {
+    "name": "TABLETOP GALLERY",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex382",
+    "igdbId": 85419,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tadpole Treble",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex383",
+    "igdbId": 22444,
+    "gbId": 47054,
+    "gbGuid": "3030-47054",
+    "tgdbId": null
+  },
+  {
+    "name": "Tallowmere",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex384",
+    "igdbId": 9677,
+    "gbId": 48722,
+    "gbGuid": "3030-48722",
+    "tgdbId": null
+  },
+  {
+    "name": "Tap Tap Arcade",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex385",
+    "igdbId": 58901,
+    "gbId": 52681,
+    "gbGuid": "3030-52681",
+    "tgdbId": null
+  },
+  {
+    "name": "Tap Tap Arcade 2",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex386",
+    "igdbId": 58376,
+    "gbId": 54222,
+    "gbGuid": "3030-54222",
+    "tgdbId": null
+  },
+  {
+    "name": "Temple of Yog",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex387",
+    "igdbId": 60419,
+    "gbId": 49350,
+    "gbGuid": "3030-49350",
+    "tgdbId": null
+  },
+  {
+    "name": "Tengami",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex388",
+    "igdbId": 10089,
+    "gbId": 38568,
+    "gbGuid": "3030-38568",
+    "tgdbId": 39177
+  },
+  {
+    "name": "Test Your Mind",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex389",
+    "igdbId": 85432,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tetrobot and Co.",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex390",
+    "igdbId": 8985,
+    "gbId": 43495,
+    "gbGuid": "3030-43495",
+    "tgdbId": 22498
+  },
+  {
+    "name": "Tiny Galaxy",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex391",
+    "igdbId": 84951,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "TNT Racers: Nitro Machines Edition",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex392",
+    "igdbId": 51152,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 19827
+  },
+  {
+    "name": "Tomeling in Trouble",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex393",
+    "igdbId": 85447,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Toon Tanks",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex394",
+    "igdbId": 84947,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Toon War",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex395",
+    "igdbId": 86238,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "TOSS N GO",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex396",
+    "igdbId": 84945,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Totem Temple",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex397",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Touch Selections",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex398",
+    "igdbId": 57058,
+    "gbId": 57631,
+    "gbGuid": "3030-57631",
+    "tgdbId": null
+  },
+  {
+    "name": "Triple Breakout",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex399",
+    "igdbId": 56195,
+    "gbId": 59250,
+    "gbGuid": "3030-59250",
+    "tgdbId": null
+  },
+  {
+    "name": "Tri-Strip",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex400",
+    "igdbId": 85456,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Twin Robots",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex401",
+    "igdbId": 35144,
+    "gbId": 61996,
+    "gbGuid": "3030-61996",
+    "tgdbId": null
+  },
+  {
+    "name": "Twisted Fusion",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex402",
+    "igdbId": 61926,
+    "gbId": 45816,
+    "gbGuid": "3030-45816",
+    "tgdbId": 64625
+  },
+  {
+    "name": "Typoman",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex403",
+    "igdbId": 11225,
+    "gbId": 49960,
+    "gbGuid": "3030-49960",
+    "tgdbId": 61692
+  },
+  {
+    "name": "U Host",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex404",
+    "igdbId": 85463,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Unalive",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex405",
+    "igdbId": 29969,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 36374
+  },
+  {
+    "name": "Underground",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex406",
+    "igdbId": 77009,
+    "gbId": 47995,
+    "gbGuid": "3030-47995",
+    "tgdbId": 36277
+  },
+  {
+    "name": "uWordsmith",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex407",
+    "igdbId": 85466,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Vector Assault",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex408",
+    "igdbId": 33932,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "VoxelMaker",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex409",
+    "igdbId": 85481,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "VRog",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex410",
+    "igdbId": 29545,
+    "gbId": 60671,
+    "gbGuid": "3030-60671",
+    "tgdbId": null
+  },
+  {
+    "name": "Wall Ball",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex411",
+    "igdbId": 40681,
+    "gbId": 57516,
+    "gbGuid": "3030-57516",
+    "tgdbId": 38214
+  },
+  {
+    "name": "Wicked Monsters Blast! HD PLUS",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex412",
+    "igdbId": 85482,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Wii Street U",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex413",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Wii Sports Club",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex414",
+    "igdbId": 23518,
+    "gbId": 43957,
+    "gbGuid": "3030-43957",
+    "tgdbId": 23982
+  },
+  {
+    "name": "Wii U Panorama View",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex415",
+    "igdbId": 78866,
+    "gbId": 38559,
+    "gbGuid": "3030-38559",
+    "tgdbId": null
+  },
+  {
+    "name": "Wind-up Knight 2",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex416",
+    "igdbId": 61757,
+    "gbId": 46144,
+    "gbGuid": "3030-46144",
+    "tgdbId": null
+  },
+  {
+    "name": "Wings of Magloryx",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex417",
+    "igdbId": 85492,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Wooden Sen'SeY",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex418",
+    "igdbId": 10341,
+    "gbId": 43457,
+    "gbGuid": "3030-43457",
+    "tgdbId": 31424
+  },
+  {
+    "name": "Word Party",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex419",
+    "igdbId": 96133,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "World Logic by POWGI",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex420",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Word Puzzles by POWGI",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex421",
+    "igdbId": 59522,
+    "gbId": 51526,
+    "gbGuid": "3030-51526",
+    "tgdbId": null
+  },
+  {
+    "name": "WordsUp! Academy",
+    "details": "Nintendo Wii U platform exclusive (eShop)",
+    "id": "nwuex422",
+    "igdbId": 84961,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Xavier",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex423",
+    "igdbId": 84959,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "XType Plus",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex424",
+    "igdbId": 61248,
+    "gbId": 47108,
+    "gbGuid": "3030-47108",
+    "tgdbId": null
+  },
+  {
+    "name": "Y.A.S.G",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex425",
+    "igdbId": 84935,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Year Walk",
+    "details": "Nintendo Wii U console exclusive (eShop)",
+    "id": "nwuex426",
+    "igdbId": 6171,
+    "gbId": 41728,
+    "gbGuid": "3030-41728",
+    "tgdbId": 29550
+  },
+  {
+    "name": "ZaciSa's Last Stand",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex427",
+    "igdbId": 84957,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Zombie Brigade: No Brain No Gain",
+    "details": "Nintendo Wii U full exclusive (eShop)",
+    "id": "nwuex428",
+    "igdbId": 84931,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  }
+]

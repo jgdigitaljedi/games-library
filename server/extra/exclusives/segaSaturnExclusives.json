@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Albert Odyssey: Legend of Eldean",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex1",
+    "igdbId": 15021,
+    "gbId": 4216,
+    "gbGuid": "3030-4216",
+    "tgdbId": 9611
+  },
+  {
+    "name": "Assault Suit Leynos 2",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex2",
+    "igdbId": 45509,
+    "gbId": 24278,
+    "gbGuid": "3030-24278",
+    "tgdbId": 9195
+  },
+  {
+    "name": "Astal",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex3",
+    "igdbId": 45495,
+    "gbId": 13758,
+    "gbGuid": "3030-13758",
+    "tgdbId": 10493
+  },
+  {
+    "name": "Battle Monsters",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex4",
+    "igdbId": 45504,
+    "gbId": 5047,
+    "gbGuid": "3030-5047",
+    "tgdbId": 9830
+  },
+  {
+    "name": "Black Fire",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex5",
+    "igdbId": 46087,
+    "gbId": 47202,
+    "gbGuid": "3030-47202",
+    "tgdbId": 14419
+  },
+  {
+    "name": "Burning Rangers",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex6",
+    "igdbId": 19666,
+    "gbId": 5765,
+    "gbGuid": "3030-5765",
+    "tgdbId": 9978
+  },
+  {
+    "name": "Clockwork Knight",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex7",
+    "igdbId": 19756,
+    "gbId": 962,
+    "gbGuid": "3030-962",
+    "tgdbId": 9981
+  },
+  {
+    "name": "Clockwork Knight 2",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex8",
+    "igdbId": 19717,
+    "gbId": 29093,
+    "gbGuid": "3030-29093",
+    "tgdbId": 9984
+  },
+  {
+    "name": "Congo The Movie: The Lost City of Zinj",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex9",
+    "igdbId": 45516,
+    "gbId": 31291,
+    "gbGuid": "3030-31291",
+    "tgdbId": 7777
+  },
+  {
+    "name": "CrimeWave",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex10",
+    "igdbId": 73152,
+    "gbId": 19747,
+    "gbGuid": "3030-19747",
+    "tgdbId": 10579
+  },
+  {
+    "name": "Cyber Speedway",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex11",
+    "igdbId": 19740,
+    "gbId": 18723,
+    "gbGuid": "3030-18723",
+    "tgdbId": 10583
+  },
+  {
+    "name": "D-Xhird",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex12",
+    "igdbId": 46668,
+    "gbId": 26413,
+    "gbGuid": "3030-26413",
+    "tgdbId": 33048
+  },
+  {
+    "name": "Dark Savior",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex13",
+    "igdbId": 46058,
+    "gbId": 18766,
+    "gbGuid": "3030-18766",
+    "tgdbId": 11227
+  },
+  {
+    "name": "Deep Fear",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex14",
+    "igdbId": 46057,
+    "gbId": 16413,
+    "gbGuid": "3030-16413",
+    "tgdbId": 11230
+  },
+  {
+    "name": "Digital Pinball: Last Gladiators",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex15",
+    "igdbId": 19737,
+    "gbId": 10645,
+    "gbGuid": "3030-10645",
+    "tgdbId": 6279
+  },
+  {
+    "name": "Dungeon Master Nexus",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex16",
+    "igdbId": 3801,
+    "gbId": 61262,
+    "gbGuid": "3030-61262",
+    "tgdbId": null
+  },
+  {
+    "name": "Dungeons & Dragons Collection",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex17",
+    "igdbId": 22831,
+    "gbId": 19755,
+    "gbGuid": "3030-19755",
+    "tgdbId": 30118
+  },
+  {
+    "name": "F1 Challenge",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex18",
+    "igdbId": 95383,
+    "gbId": 39701,
+    "gbGuid": "3030-39701",
+    "tgdbId": 6825
+  },
+  {
+    "name": "Ghen War",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex19",
+    "igdbId": 45526,
+    "gbId": 23639,
+    "gbGuid": "3030-23639",
+    "tgdbId": 2397
+  },
+  {
+    "name": "Gotha",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex20",
+    "igdbId": 92102,
+    "gbId": 33446,
+    "gbGuid": "3030-33446",
+    "tgdbId": null
+  },
+  {
+    "name": "Grandia: Digital Museum",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex21",
+    "igdbId": 21658,
+    "gbId": 23434,
+    "gbGuid": "3030-23434",
+    "tgdbId": null
+  },
+  {
+    "name": "Gundam Gaiden 3",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex22",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Gungriffon",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex23",
+    "igdbId": 46054,
+    "gbId": 7104,
+    "gbGuid": "3030-7104",
+    "tgdbId": 11272
+  },
+  {
+    "name": "Hang-On GP",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex24",
+    "igdbId": 46098,
+    "gbId": 7503,
+    "gbGuid": "3030-7503",
+    "tgdbId": 11273
+  },
+  {
+    "name": "High Velocity: Mountain Racing Challenge",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex25",
+    "igdbId": 45519,
+    "gbId": 34248,
+    "gbGuid": "3030-34248",
+    "tgdbId": 6278
+  },
+  {
+    "name": "Iron Storm",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex26",
+    "igdbId": 8929,
+    "gbId": 6756,
+    "gbGuid": "3030-6756",
+    "tgdbId": 2396
+  },
+  {
+    "name": "The Legend of Oasis",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex27",
+    "igdbId": 22504,
+    "gbId": 22635,
+    "gbGuid": "3030-22635",
+    "tgdbId": 4106
+  },
+  {
+    "name": "Linkle Liver Story",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex28",
+    "igdbId": 94005,
+    "gbId": 23457,
+    "gbGuid": "3030-23457",
+    "tgdbId": 55234
+  },
+  {
+    "name": "Lunacy",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex29",
+    "igdbId": 71493,
+    "gbId": 3997,
+    "gbGuid": "3030-3997",
+    "tgdbId": 11290
+  },
+  {
+    "name": "Magic Knight Rayearth",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex30",
+    "igdbId": 105043,
+    "gbId": 19038,
+    "gbGuid": "3030-19038",
+    "tgdbId": 11295
+  },
+  {
+    "name": "Majin Tensei",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex31",
+    "igdbId": 38231,
+    "gbId": 17102,
+    "gbGuid": "3030-17102",
+    "tgdbId": 31478
+  },
+  {
+    "name": "Mr. Bones",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex32",
+    "igdbId": 25804,
+    "gbId": 13186,
+    "gbGuid": "3030-13186",
+    "tgdbId": 9982
+  },
+  {
+    "name": "Mystaria: The Realms of Lore",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex33",
+    "igdbId": 45513,
+    "gbId": 709,
+    "gbGuid": "3030-709",
+    "tgdbId": 7938
+  },
+  {
+    "name": "Nanatsu Kaze No Shima Monogatari",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex34",
+    "igdbId": 18493,
+    "gbId": 21771,
+    "gbGuid": "3030-21771",
+    "tgdbId": 50716
+  },
+  {
+    "name": "NFL '97",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex35",
+    "igdbId": 45485,
+    "gbId": 53218,
+    "gbGuid": "3030-53218",
+    "tgdbId": 11308
+  },
+  {
+    "name": "Panzer Dragoon Saga",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex36",
+    "igdbId": 1671,
+    "gbId": 3692,
+    "gbGuid": "3030-3692",
+    "tgdbId": 6828
+  },
+  {
+    "name": "Princess Quest",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex37",
+    "igdbId": 77600,
+    "gbId": 62710,
+    "gbGuid": "3030-62710",
+    "tgdbId": null
+  },
+  {
+    "name": "Robotica",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex38",
+    "igdbId": 19744,
+    "gbId": 23289,
+    "gbGuid": "3030-23289",
+    "tgdbId": 11325
+  },
+  {
+    "name": "Saturn Bomberman",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex39",
+    "igdbId": 28393,
+    "gbId": 17854,
+    "gbGuid": "3030-17854",
+    "tgdbId": 11326
+  },
+  {
+    "name": "Saturn Bomberman Fight!!",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex40",
+    "igdbId": 66221,
+    "gbId": 33442,
+    "gbGuid": "3030-33442",
+    "tgdbId": 49485
+  },
+  {
+    "name": "Scud: The Disposable Assassin",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex41",
+    "igdbId": 45483,
+    "gbId": 11835,
+    "gbGuid": "3030-11835",
+    "tgdbId": 11327
+  },
+  {
+    "name": "Shining Force III",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex42",
+    "igdbId": 28396,
+    "gbId": 8306,
+    "gbGuid": "3030-8306",
+    "tgdbId": 185
+  },
+  {
+    "name": "Shining the Holy Ark",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex43",
+    "igdbId": 46063,
+    "gbId": 16913,
+    "gbGuid": "3030-16913",
+    "tgdbId": 11174
+  },
+  {
+    "name": "Shining Wisdom",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex44",
+    "igdbId": 46059,
+    "gbId": 20150,
+    "gbGuid": "3030-20150",
+    "tgdbId": 11184
+  },
+  {
+    "name": "Shinobi Legions",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex45",
+    "igdbId": 10221,
+    "gbId": 12895,
+    "gbGuid": "3030-12895",
+    "tgdbId": 11342
+  },
+  {
+    "name": "Shinrei Jusatsushi Taromaru",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex46",
+    "igdbId": 45456,
+    "gbId": 16726,
+    "gbGuid": "3030-16726",
+    "tgdbId": 29448
+  },
+  {
+    "name": "Super Tempo",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex47",
+    "igdbId": 46050,
+    "gbId": 29099,
+    "gbGuid": "3030-29099",
+    "tgdbId": 38547
+  },
+  {
+    "name": "Virtual Hydlide",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex48",
+    "igdbId": 19738,
+    "gbId": 4083,
+    "gbGuid": "3030-4083",
+    "tgdbId": 11369
+  },
+  {
+    "name": "Virtual Open Tennis",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex49",
+    "igdbId": 45477,
+    "gbId": 16599,
+    "gbGuid": "3030-16599",
+    "tgdbId": 11371
+  },
+  {
+    "name": "Virtual Volleyball",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex50",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Virus",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex51",
+    "igdbId": 102439,
+    "gbId": 5933,
+    "gbGuid": "3030-5933",
+    "tgdbId": 30508
+  },
+  {
+    "name": "Wachenröder",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex52",
+    "igdbId": 93007,
+    "gbId": 14295,
+    "gbGuid": "3030-14295",
+    "tgdbId": 33718
+  },
+  {
+    "name": "Wing Arms",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex53",
+    "igdbId": 19720,
+    "gbId": 4075,
+    "gbGuid": "3030-4075",
+    "tgdbId": 2426
+  },
+  {
+    "name": "World Series Baseball II",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex54",
+    "igdbId": 45511,
+    "gbId": 33005,
+    "gbGuid": "3030-33005",
+    "tgdbId": 7942
+  },
+  {
+    "name": "Worldwide Soccer: Sega International Victory Goal Edition",
+    "details": "Sega Saturn exclusive",
+    "id": "ssex55",
+    "igdbId": 19755,
+    "gbId": 19794,
+    "gbGuid": "3030-19794",
+    "tgdbId": 11379
+  }
+]

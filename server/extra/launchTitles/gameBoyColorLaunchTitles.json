@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gbclt1",
+    "name": "Tetris DX",
+    "details": "Nintendo Game Boy Color launch title",
+    "igdbId": 49875,
+    "gbId": 796,
+    "gbGuid": "3030-796",
+    "tgdbId": 8657
+  },
+  {
+    "id": "gbclt2",
+    "name": "Game & Watch Gallery 2",
+    "details": "Nintendo Game Boy Color launch title",
+    "igdbId": 74423,
+    "gbId": 9957,
+    "gbGuid": "3030-9957",
+    "tgdbId": 8618
+  },
+  {
+    "id": "gbclt3",
+    "name": "Centipede",
+    "details": "Nintendo Game Boy Color launch title",
+    "igdbId": 2235,
+    "gbId": 1157,
+    "gbGuid": "3030-1157",
+    "tgdbId": 1346
+  },
+  {
+    "id": "gbclt4",
+    "name": "Pocket Bomberman",
+    "details": "Nintendo Game Boy Color launch title",
+    "igdbId": 2980,
+    "gbId": 23456,
+    "gbGuid": "3030-23456",
+    "tgdbId": 8638
+  }
+]

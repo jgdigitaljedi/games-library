@@ -1,0 +1,605 @@
+[
+  {
+    "name": "4 Wheel Thunder",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex1",
+    "igdbId": 3701,
+    "gbId": 15821,
+    "gbGuid": "3030-15821",
+    "tgdbId": 19316
+  },
+  {
+    "name": "90 Minutes",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex2",
+    "igdbId": 3707,
+    "gbId": 45187,
+    "gbGuid": "3030-45187",
+    "tgdbId": null
+  },
+  {
+    "name": "AeroWings",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex3",
+    "igdbId": 3709,
+    "gbId": 7963,
+    "gbGuid": "3030-7963",
+    "tgdbId": 19308
+  },
+  {
+    "name": "AeroWings 2: Air Strike",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex4",
+    "igdbId": 3708,
+    "gbId": 8209,
+    "gbGuid": "3030-8209",
+    "tgdbId": 19317
+  },
+  {
+    "name": "Armada",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex5",
+    "igdbId": 6713,
+    "gbId": 7164,
+    "gbGuid": "3030-7164",
+    "tgdbId": 3522
+  },
+  {
+    "name": "Blue Stinger",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex6",
+    "igdbId": 6715,
+    "gbId": 21183,
+    "gbGuid": "3030-21183",
+    "tgdbId": 3650
+  },
+  {
+    "name": "Bomberman Online",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex7",
+    "igdbId": 6716,
+    "gbId": 18180,
+    "gbGuid": "3030-18180",
+    "tgdbId": 8109
+  },
+  {
+    "name": "Carrier",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex8",
+    "igdbId": 6720,
+    "gbId": 13518,
+    "gbGuid": "3030-13518",
+    "tgdbId": 3646
+  },
+  {
+    "name": "Coaster Works",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex9",
+    "igdbId": 6725,
+    "gbId": 38082,
+    "gbGuid": "3030-38082",
+    "tgdbId": 13042
+  },
+  {
+    "name": "Cool Cool Toon",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex10",
+    "igdbId": 6728,
+    "gbId": 21422,
+    "gbGuid": "3030-21422",
+    "tgdbId": 19297
+  },
+  {
+    "name": "Culdcept II",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex11",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 49197
+  },
+  {
+    "name": "D2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex12",
+    "igdbId": 36736,
+    "gbId": 18898,
+    "gbGuid": "3030-18898",
+    "tgdbId": 8117
+  },
+  {
+    "name": "Daytona USA 2001",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex13",
+    "igdbId": 22007,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "El Dorado Gate",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex14",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Draconus: Cult of the Wyrm",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex15",
+    "igdbId": 9189,
+    "gbId": 7960,
+    "gbGuid": "3030-7960",
+    "tgdbId": 8125
+  },
+  {
+    "name": "Dux",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex16",
+    "igdbId": 68409,
+    "gbId": 26362,
+    "gbGuid": "3030-26362",
+    "tgdbId": 31201
+  },
+  {
+    "name": "Elemental Gimmick Gear",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex17",
+    "igdbId": 45862,
+    "gbId": 4499,
+    "gbGuid": "3030-4499",
+    "tgdbId": 2410
+  },
+  {
+    "name": "Evolution 2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex18",
+    "igdbId": 45858,
+    "gbId": 10842,
+    "gbGuid": "3030-10842",
+    "tgdbId": 3656
+  },
+  {
+    "name": "Evolution",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex19",
+    "igdbId": 23132,
+    "gbId": 4202,
+    "gbGuid": "3030-4202",
+    "tgdbId": 3644
+  },
+  {
+    "name": "CART Flag to Flag",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex20",
+    "igdbId": 6721,
+    "gbId": 6225,
+    "gbGuid": "3030-6225",
+    "tgdbId": 29230
+  },
+  {
+    "name": "Floigan Bros.: Episode 1",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex21",
+    "igdbId": 22050,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 8130
+  },
+  {
+    "name": "Frame Gride",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex22",
+    "igdbId": 10908,
+    "gbId": 29057,
+    "gbGuid": "3030-29057",
+    "tgdbId": null
+  },
+  {
+    "name": "Giant Killers",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex23",
+    "igdbId": 4354,
+    "gbId": 8649,
+    "gbGuid": "3030-8649",
+    "tgdbId": 11109
+  },
+  {
+    "name": "Godzilla Generations",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex24",
+    "igdbId": 45824,
+    "gbId": 22855,
+    "gbGuid": "3030-22855",
+    "tgdbId": 19310
+  },
+  {
+    "name": "Gundam Side Story 0079: Rise From the Ashes",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex25",
+    "igdbId": 45859,
+    "gbId": 21439,
+    "gbGuid": "3030-21439",
+    "tgdbId": 3645
+  },
+  {
+    "name": "Illbleed",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex26",
+    "igdbId": 26450,
+    "gbId": 126,
+    "gbGuid": "3030-126",
+    "tgdbId": 14373
+  },
+  {
+    "name": "Iron Aces",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex27",
+    "igdbId": 45853,
+    "gbId": 13397,
+    "gbGuid": "3030-13397",
+    "tgdbId": 8139
+  },
+  {
+    "name": "L.O.L.: Lack of Love",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex28",
+    "igdbId": 45799,
+    "gbId": 27575,
+    "gbGuid": "3030-27575",
+    "tgdbId": 30093
+  },
+  {
+    "name": "The Lost Golem",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex29",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 65176
+  },
+  {
+    "name": "Max Steel: Covert Missions",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex30",
+    "igdbId": 4352,
+    "gbId": 17376,
+    "gbGuid": "3030-17376",
+    "tgdbId": null
+  },
+  {
+    "name": "Metropolis Street Racer",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex31",
+    "igdbId": 3319,
+    "gbId": 3027,
+    "gbGuid": "3030-3027",
+    "tgdbId": 10589
+  },
+  {
+    "name": "Mortal Kombat Gold",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex32",
+    "igdbId": 45155,
+    "gbId": 4652,
+    "gbGuid": "3030-4652",
+    "tgdbId": 3648
+  },
+  {
+    "name": "Nanatsu no Hikan: Senritsu no Bishou",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex33",
+    "igdbId": 108772,
+    "gbId": 69415,
+    "gbGuid": "3030-69415",
+    "tgdbId": null
+  },
+  {
+    "name": "Napple Tale: Arsia in Daydream",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex34",
+    "igdbId": 28152,
+    "gbId": 19006,
+    "gbGuid": "3030-19006",
+    "tgdbId": 36015
+  },
+  {
+    "name": "NBA 2K",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex35",
+    "igdbId": 8832,
+    "gbId": 6839,
+    "gbGuid": "3030-6839",
+    "tgdbId": 11998
+  },
+  {
+    "name": "NBA 2K1",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex36",
+    "igdbId": 28836,
+    "gbId": 16896,
+    "gbGuid": "3030-16896",
+    "tgdbId": 425
+  },
+  {
+    "name": "NCAA College Football 2K2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex37",
+    "igdbId": 46380,
+    "gbId": 7532,
+    "gbGuid": "3030-7532",
+    "tgdbId": 3953
+  },
+  {
+    "name": "NFL 2K",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex38",
+    "igdbId": 8842,
+    "gbId": 4659,
+    "gbGuid": "3030-4659",
+    "tgdbId": 3954
+  },
+  {
+    "name": "NFL 2K1",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex39",
+    "igdbId": 8843,
+    "gbId": 805,
+    "gbGuid": "3030-805",
+    "tgdbId": 3955
+  },
+  {
+    "name": "NHL 2K",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex40",
+    "igdbId": 8839,
+    "gbId": 16447,
+    "gbGuid": "3030-16447",
+    "tgdbId": 11999
+  },
+  {
+    "name": "NHL 2K2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex41",
+    "igdbId": 8840,
+    "gbId": 21789,
+    "gbGuid": "3030-21789",
+    "tgdbId": 19485
+  },
+  {
+    "name": "Ooga Booga",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex42",
+    "igdbId": 10961,
+    "gbId": 13790,
+    "gbGuid": "3030-13790",
+    "tgdbId": 5565
+  },
+  {
+    "name": "Pen Pen TriIcelon",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex43",
+    "igdbId": 46361,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 39279
+  },
+  {
+    "name": "POD 2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex44",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Propeller Arena",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex45",
+    "igdbId": 46555,
+    "gbId": 24986,
+    "gbGuid": "3030-24986",
+    "tgdbId": 19328
+  },
+  {
+    "name": "Record of Lodoss War",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex46",
+    "igdbId": 69656,
+    "gbId": 11521,
+    "gbGuid": "3030-11521",
+    "tgdbId": 5568
+  },
+  {
+    "name": "Red Dog: Superior Firepower",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex47",
+    "igdbId": 45835,
+    "gbId": 5326,
+    "gbGuid": "3030-5326",
+    "tgdbId": 11101
+  },
+  {
+    "name": "The Ring: Terror's Realm",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex48",
+    "igdbId": 45832,
+    "gbId": 22224,
+    "gbGuid": "3030-22224",
+    "tgdbId": 14618
+  },
+  {
+    "name": "Rippin' Riders Snowboarding",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex49",
+    "igdbId": 26132,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Runabout: San Francisco Edition",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex50",
+    "igdbId": 45804,
+    "gbId": 19097,
+    "gbGuid": "3030-19097",
+    "tgdbId": 29243
+  },
+  {
+    "name": "Runabout 2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex66",
+    "igdbId": 44900,
+    "gbId": 39126,
+    "gbGuid": "3030-39126",
+    "tgdbId": 13632
+  },
+  {
+    "name": "Runabout 3: Neo Age",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex67",
+    "igdbId": 43599,
+    "gbId": 39127,
+    "gbGuid": "3030-39127",
+    "tgdbId": 18833
+  },
+  {
+    "name": "Segagaga",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex51",
+    "igdbId": 28151,
+    "gbId": 2259,
+    "gbGuid": "3030-2259",
+    "tgdbId": 30478
+  },
+  {
+    "name": "Seventh Cross Evolution",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex52",
+    "igdbId": 45788,
+    "gbId": 4047,
+    "gbGuid": "3030-4047",
+    "tgdbId": 43625
+  },
+  {
+    "name": "Sonic Shuffle",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex53",
+    "igdbId": 21969,
+    "gbId": 2819,
+    "gbGuid": "3030-2819",
+    "tgdbId": 2254
+  },
+  {
+    "name": "Soul Fighter",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex54",
+    "igdbId": 45840,
+    "gbId": 11592,
+    "gbGuid": "3030-11592",
+    "tgdbId": 11089
+  },
+  {
+    "name": "Street Fighter III: Double Impact",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex55",
+    "igdbId": 45194,
+    "gbId": 28446,
+    "gbGuid": "3030-28446",
+    "tgdbId": 9972
+  },
+  {
+    "name": "Sturmwind",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex56",
+    "igdbId": 9126,
+    "gbId": 36873,
+    "gbGuid": "3030-36873",
+    "tgdbId": 21859
+  },
+  {
+    "name": "Super Magnetic Neo",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex57",
+    "igdbId": 45863,
+    "gbId": 20208,
+    "gbGuid": "3030-20208",
+    "tgdbId": 435
+  },
+  {
+    "name": "Sword of the Berserk: Guts' Rage",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex58",
+    "igdbId": 28840,
+    "gbId": 5405,
+    "gbGuid": "3030-5405",
+    "tgdbId": 11081
+  },
+  {
+    "name": "Time Stalkers",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex59",
+    "igdbId": 45846,
+    "gbId": 3784,
+    "gbGuid": "3030-3784",
+    "tgdbId": 11072
+  },
+  {
+    "name": "TNN Motorsports Hardcore Heat",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex60",
+    "igdbId": 45845,
+    "gbId": 10015,
+    "gbGuid": "3030-10015",
+    "tgdbId": 11073
+  },
+  {
+    "name": "Tokyo Xtreme Racer 2",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex61",
+    "igdbId": 4359,
+    "gbId": 5397,
+    "gbGuid": "3030-5397",
+    "tgdbId": 11071
+  },
+  {
+    "name": "Toy Commander",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex62",
+    "igdbId": 10125,
+    "gbId": 3544,
+    "gbGuid": "3030-3544",
+    "tgdbId": 9927
+  },
+  {
+    "name": "Undercover AD2025 Kei",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex63",
+    "igdbId": 86084,
+    "gbId": 19118,
+    "gbGuid": "3030-19118",
+    "tgdbId": null
+  },
+  {
+    "name": "World Series Baseball 2K1",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex64",
+    "igdbId": 45849,
+    "gbId": 15930,
+    "gbGuid": "3030-15930",
+    "tgdbId": 11059
+  },
+  {
+    "name": "Zusar Vasar",
+    "details": "Sega Dreamcast exclusive",
+    "id": "sdcex65",
+    "igdbId": 58167,
+    "gbId": 54592,
+    "gbGuid": "3030-54592",
+    "tgdbId": 19339
+  }
+]

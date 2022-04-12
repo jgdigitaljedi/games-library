@@ -1,0 +1,4930 @@
+[
+  {
+    "name": "1 vs. 100",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex1",
+    "igdbId": 74406,
+    "gbId": 37912,
+    "gbGuid": "3030-37912",
+    "tgdbId": 16397
+  },
+  {
+    "name": "7th Dragon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex2",
+    "igdbId": 11817,
+    "gbId": 23936,
+    "gbGuid": "3030-23936",
+    "tgdbId": 20214
+  },
+  {
+    "name": "100 Classic Books",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex3",
+    "igdbId": 47939,
+    "gbId": 24804,
+    "gbGuid": "3030-24804",
+    "tgdbId": 24363
+  },
+  {
+    "name": "101 Minigolf World",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex4",
+    "igdbId": 84621,
+    "gbId": 26784,
+    "gbGuid": "3030-26784",
+    "tgdbId": null
+  },
+  {
+    "name": "101 Shark Pets",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex5",
+    "igdbId": 78409,
+    "gbId": 32010,
+    "gbGuid": "3030-32010",
+    "tgdbId": null
+  },
+  {
+    "name": "1001 Crystal Mazes Collection",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex6",
+    "igdbId": 66625,
+    "gbId": 31198,
+    "gbGuid": "3030-31198",
+    "tgdbId": null
+  },
+  {
+    "name": "AFL Mascot Manor",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex7",
+    "igdbId": 91707,
+    "gbId": 27154,
+    "gbGuid": "3030-27154",
+    "tgdbId": null
+  },
+  {
+    "name": "Again",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex8",
+    "igdbId": null,
+    "gbId": 24237,
+    "gbGuid": "3030-24237",
+    "tgdbId": null
+  },
+  {
+    "name": "Agatha Christie's The ABC Murders",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex9",
+    "igdbId": 19657,
+    "gbId": 28435,
+    "gbGuid": "3030-28435",
+    "tgdbId": 37019
+  },
+  {
+    "name": "Age of Empires: Mythologies",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex10",
+    "igdbId": 21221,
+    "gbId": 24380,
+    "gbGuid": "3030-24380",
+    "tgdbId": 11201
+  },
+  {
+    "name": "Age of Empires: The Age of Kings",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex11",
+    "igdbId": 24273,
+    "gbId": 14285,
+    "gbGuid": "3030-14285",
+    "tgdbId": 6571
+  },
+  {
+    "name": "Air Traffic Chaos",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex12",
+    "igdbId": 23032,
+    "gbId": 22680,
+    "gbGuid": "3030-22680",
+    "tgdbId": 19215
+  },
+  {
+    "name": "Air Traffic Controller",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex13",
+    "igdbId": 46978,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 34497
+  },
+  {
+    "name": "Alex Rider: Stormbreaker",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex14",
+    "igdbId": 2848,
+    "gbId": 21671,
+    "gbGuid": "3030-21671",
+    "tgdbId": 27897
+  },
+  {
+    "name": "Alice in Wonderland",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex15",
+    "igdbId": 4666,
+    "gbId": 30173,
+    "gbGuid": "3030-30173",
+    "tgdbId": 9129
+  },
+  {
+    "name": "Aliens: Infestation",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex16",
+    "igdbId": 20606,
+    "gbId": 35901,
+    "gbGuid": "3030-35901",
+    "tgdbId": 11981
+  },
+  {
+    "name": "Allison Road",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex17",
+    "igdbId": 11296,
+    "gbId": 51391,
+    "gbGuid": "3030-51391",
+    "tgdbId": null
+  },
+  {
+    "name": "Disney's American Dragon: Jake Long, Attack of the Dark Dragon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex18",
+    "igdbId": 8464,
+    "gbId": 17666,
+    "gbGuid": "3030-17666",
+    "tgdbId": 42549
+  },
+  {
+    "name": "Animal Boxing",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex19",
+    "igdbId": 68953,
+    "gbId": 21347,
+    "gbGuid": "3030-21347",
+    "tgdbId": 46882
+  },
+  {
+    "name": "Animal Paradise",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex20",
+    "igdbId": 24326,
+    "gbId": 28237,
+    "gbGuid": "3030-28237",
+    "tgdbId": 29814
+  },
+  {
+    "name": "Anno 1701: Dawn of Discovery",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex21",
+    "igdbId": 23077,
+    "gbId": 23547,
+    "gbGuid": "3030-23547",
+    "tgdbId": 11202
+  },
+  {
+    "name": "Another Code: Two Memories",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex22",
+    "igdbId": 18595,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Art Style: AQUIA",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex23",
+    "igdbId": 22537,
+    "gbId": 24932,
+    "gbGuid": "3030-24932",
+    "tgdbId": 38475
+  },
+  {
+    "name": "Arkanoid DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex24",
+    "igdbId": 21495,
+    "gbId": 21608,
+    "gbGuid": "3030-21608",
+    "tgdbId": 6574
+  },
+  {
+    "name": "Arrow of Laputa: Kage Nashi Sensei to Kiron no Fuuken",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex25",
+    "igdbId": 59210,
+    "gbId": 52067,
+    "gbGuid": "3030-52067",
+    "tgdbId": null
+  },
+  {
+    "name": "Art Academy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex26",
+    "igdbId": 22959,
+    "gbId": 32999,
+    "gbGuid": "3030-32999",
+    "tgdbId": 12597
+  },
+  {
+    "name": "Art Style: BOXLIFE",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex27",
+    "igdbId": 47826,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 30123
+  },
+  {
+    "name": "ASH: Archaic Sealed Heat",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex28",
+    "igdbId": 44072,
+    "gbId": 21584,
+    "gbGuid": "3030-21584",
+    "tgdbId": 17060
+  },
+  {
+    "name": "Atelier Annie: Alchemists of Sera Island",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex29",
+    "igdbId": 24262,
+    "gbId": 24244,
+    "gbGuid": "3030-24244",
+    "tgdbId": 11206
+  },
+  {
+    "name": "ATV: Quad Frenzy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex30",
+    "igdbId": 69810,
+    "gbId": 12341,
+    "gbGuid": "3030-12341",
+    "tgdbId": 8550
+  },
+  {
+    "name": "Aura-Aura Climber",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex31",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 64574
+  },
+  {
+    "name": "Avalon Code",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex32",
+    "igdbId": 21206,
+    "gbId": 21371,
+    "gbGuid": "3030-21371",
+    "tgdbId": 6576
+  },
+  {
+    "name": "Away: Shuffle Dungeon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex33",
+    "igdbId": 21332,
+    "gbId": 23166,
+    "gbGuid": "3030-23166",
+    "tgdbId": 15132
+  },
+  {
+    "name": "B-17: Fortress in the Sky",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex34",
+    "igdbId": 47933,
+    "gbId": 7530,
+    "gbGuid": "3030-7530",
+    "tgdbId": 31167
+  },
+  {
+    "name": "Baby Life",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex35",
+    "igdbId": 91752,
+    "gbId": 25877,
+    "gbGuid": "3030-25877",
+    "tgdbId": 66022
+  },
+  {
+    "name": "Baby Pals",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex36",
+    "igdbId": 91753,
+    "gbId": 25878,
+    "gbGuid": "3030-25878",
+    "tgdbId": 46915
+  },
+  {
+    "name": "Backyard Basketball",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex37",
+    "igdbId": 69242,
+    "gbId": 6342,
+    "gbGuid": "3030-6342",
+    "tgdbId": 24898
+  },
+  {
+    "name": "Backyard Hockey",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex38",
+    "igdbId": 122753,
+    "gbId": 15534,
+    "gbGuid": "3030-15534",
+    "tgdbId": 22234
+  },
+  {
+    "name": "Bakugan: Battle Brawlers",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex39",
+    "igdbId": 4703,
+    "gbId": 27110,
+    "gbGuid": "3030-27110",
+    "tgdbId": 18046
+  },
+  {
+    "name": "Ball Fighter",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex40",
+    "igdbId": 84778,
+    "gbId": 26640,
+    "gbGuid": "3030-26640",
+    "tgdbId": null
+  },
+  {
+    "name": "Bangai-O Spirits",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex41",
+    "igdbId": 21278,
+    "gbId": 20480,
+    "gbGuid": "3030-20480",
+    "tgdbId": 6577
+  },
+  {
+    "name": "Barnyard Blast: Swine of the Night",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex42",
+    "igdbId": 47917,
+    "gbId": 28402,
+    "gbGuid": "3030-28402",
+    "tgdbId": 42494
+  },
+  {
+    "name": "Battles of Prince of Persia",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex43",
+    "igdbId": 20485,
+    "gbId": 5239,
+    "gbGuid": "3030-5239",
+    "tgdbId": 6578
+  },
+  {
+    "name": "Battleship / Connect Four / Sorry! / Trouble",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex44",
+    "igdbId": null,
+    "gbId": 12023,
+    "gbGuid": "3030-12023",
+    "tgdbId": 42522
+  },
+  {
+    "name": "Best of Tests DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex45",
+    "igdbId": 47930,
+    "gbId": 28399,
+    "gbGuid": "3030-28399",
+    "tgdbId": 42536
+  },
+  {
+    "name": "Betty Boop's Double Shift",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex46",
+    "igdbId": 8455,
+    "gbId": 2618,
+    "gbGuid": "3030-2618",
+    "tgdbId": 44622
+  },
+  {
+    "name": "Big Bang Mini",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex47",
+    "igdbId": 18549,
+    "gbId": 24378,
+    "gbGuid": "3030-24378",
+    "tgdbId": 6579
+  },
+  {
+    "name": "Black Sigil: Blade of the Exiled",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex48",
+    "igdbId": 21124,
+    "gbId": 21240,
+    "gbGuid": "3030-21240",
+    "tgdbId": 11208
+  },
+  {
+    "name": "Blades of Thunder II",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex49",
+    "igdbId": 67584,
+    "gbId": 28412,
+    "gbGuid": "3030-28412",
+    "tgdbId": 47031
+  },
+  {
+    "name": "BlayzBloo: Super Melee Brawlers Battle Royale",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex50",
+    "igdbId": 67246,
+    "gbId": 29427,
+    "gbGuid": "3030-29427",
+    "tgdbId": null
+  },
+  {
+    "name": "Bleach DS 4th: Flame Bringer",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex51",
+    "igdbId": 47832,
+    "gbId": 25548,
+    "gbGuid": "3030-25548",
+    "tgdbId": 29193
+  },
+  {
+    "name": "Bleach: Dark Souls",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex52",
+    "igdbId": 21331,
+    "gbId": 20485,
+    "gbGuid": "3030-20485",
+    "tgdbId": 11209
+  },
+  {
+    "name": "Bleach: The 3rd Phantom",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex53",
+    "igdbId": 19103,
+    "gbId": 22933,
+    "gbGuid": "3030-22933",
+    "tgdbId": 29194
+  },
+  {
+    "name": "Bleach: The Blade of Fate",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex54",
+    "igdbId": 20530,
+    "gbId": 14550,
+    "gbGuid": "3030-14550",
+    "tgdbId": 11210
+  },
+  {
+    "name": "Blood of Bahamut",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex55",
+    "igdbId": 70641,
+    "gbId": 24479,
+    "gbGuid": "3030-24479",
+    "tgdbId": 5475
+  },
+  {
+    "name": "Blue Dragon Plus",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex56",
+    "igdbId": 19939,
+    "gbId": 22990,
+    "gbGuid": "3030-22990",
+    "tgdbId": 11212
+  },
+  {
+    "name": "Blue Dragon: Awakened Shadow",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex57",
+    "igdbId": 20465,
+    "gbId": 25152,
+    "gbGuid": "3030-25152",
+    "tgdbId": 11211
+  },
+  {
+    "name": "Boing! Docomodake DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex58",
+    "igdbId": 21473,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 6793
+  },
+  {
+    "name": "Bomberman",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex59",
+    "igdbId": 71303,
+    "gbId": 2430,
+    "gbGuid": "3030-2430",
+    "tgdbId": 1040
+  },
+  {
+    "name": "Bomberman 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex60",
+    "igdbId": 85843,
+    "gbId": 23793,
+    "gbGuid": "3030-23793",
+    "tgdbId": 20903
+  },
+  {
+    "name": "Bomberman Blitz",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex61",
+    "igdbId": 67318,
+    "gbId": 29211,
+    "gbGuid": "3030-29211",
+    "tgdbId": null
+  },
+  {
+    "name": "Bomberman Land Touch!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex62",
+    "igdbId": 20612,
+    "gbId": 8753,
+    "gbGuid": "3030-8753",
+    "tgdbId": 6581
+  },
+  {
+    "name": "Bomberman Land Touch! 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex63",
+    "igdbId": 20774,
+    "gbId": 23732,
+    "gbGuid": "3030-23732",
+    "tgdbId": 6582
+  },
+  {
+    "name": "Bomberman Story DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex64",
+    "igdbId": 66613,
+    "gbId": 31234,
+    "gbGuid": "3030-31234",
+    "tgdbId": 31806
+  },
+  {
+    "name": "Art Style: BOXLIFE",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex65",
+    "igdbId": 47826,
+    "gbId": 27229,
+    "gbGuid": "3030-27229",
+    "tgdbId": 30123
+  },
+  {
+    "name": "Brain Age 2: More Training in Minutes a Day",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex66",
+    "igdbId": 2711,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 6584
+  },
+  {
+    "name": "Brain Age Express: Arts & Letters",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex67",
+    "igdbId": 67792,
+    "gbId": 27771,
+    "gbGuid": "3030-27771",
+    "tgdbId": null
+  },
+  {
+    "name": "Digimon World: Dusk",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex538",
+    "igdbId": 78285,
+    "gbId": 24388,
+    "gbGuid": "3030-24388",
+    "tgdbId": 14214
+  },
+  {
+    "name": "Brain Age Express: Sudoku",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex539",
+    "igdbId": 67839,
+    "gbId": 27544,
+    "gbGuid": "3030-27544",
+    "tgdbId": null
+  },
+  {
+    "name": "Brain Assist",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex68",
+    "igdbId": 21679,
+    "gbId": 20489,
+    "gbGuid": "3030-20489",
+    "tgdbId": 27340
+  },
+  {
+    "name": "Brain Boost: Beta Wave",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex69",
+    "igdbId": 47836,
+    "gbId": 22597,
+    "gbGuid": "3030-22597",
+    "tgdbId": 27335
+  },
+  {
+    "name": "Brain Boost: Gamma Wave",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex540",
+    "igdbId": 44064,
+    "gbId": 22271,
+    "gbGuid": "3030-22271",
+    "tgdbId": 16094
+  },
+  {
+    "name": "Brain Buster: Puzzle Pak",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex70",
+    "igdbId": 77799,
+    "gbId": 27787,
+    "gbGuid": "3030-27787",
+    "tgdbId": 20198
+  },
+  {
+    "name": "Brain Quest Grades 3 & 4",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex71",
+    "igdbId": 68941,
+    "gbId": 21077,
+    "gbGuid": "3030-21077",
+    "tgdbId": null
+  },
+  {
+    "name": "Brain Quest Grades 5 & 6",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex72",
+    "igdbId": 68940,
+    "gbId": 21078,
+    "gbGuid": "3030-21078",
+    "tgdbId": null
+  },
+  {
+    "name": "Brain Voyage",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex73",
+    "igdbId": 21483,
+    "gbId": 28414,
+    "gbGuid": "3030-28414",
+    "tgdbId": 47034
+  },
+  {
+    "name": "Brave: Shaman's Challenge",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex74",
+    "igdbId": 73023,
+    "gbId": 21045,
+    "gbGuid": "3030-21045",
+    "tgdbId": null
+  },
+  {
+    "name": "Break 'Em All",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex75",
+    "igdbId": 20534,
+    "gbId": 14124,
+    "gbGuid": "3030-14124",
+    "tgdbId": 47042
+  },
+  {
+    "name": "BreakSoul",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex76",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Brothers in Arms DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex77",
+    "igdbId": 21422,
+    "gbId": 13502,
+    "gbGuid": "3030-13502",
+    "tgdbId": 42911
+  },
+  {
+    "name": "Bubble Bobble: Double Shot",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex78",
+    "igdbId": 20672,
+    "gbId": 19691,
+    "gbGuid": "3030-19691",
+    "tgdbId": 11213
+  },
+  {
+    "name": "Bubble Bobble Revolution",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex79",
+    "igdbId": 20577,
+    "gbId": 4401,
+    "gbGuid": "3030-4401",
+    "tgdbId": 11214
+  },
+  {
+    "name": "Build-A-Bear Workshop",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex80",
+    "igdbId": 47811,
+    "gbId": 23787,
+    "gbGuid": "3030-23787",
+    "tgdbId": 20199
+  },
+  {
+    "name": "Bust-a-Move DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex81",
+    "igdbId": 22572,
+    "gbId": 7091,
+    "gbGuid": "3030-7091",
+    "tgdbId": 6585
+  },
+  {
+    "name": "C.O.P.: The Recruit",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex82",
+    "igdbId": 8611,
+    "gbId": 26835,
+    "gbGuid": "3030-26835",
+    "tgdbId": 11215
+  },
+  {
+    "name": "C.O.R.E.",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex83",
+    "igdbId": 20977,
+    "gbId": 25713,
+    "gbGuid": "3030-25713",
+    "tgdbId": 47045
+  },
+  {
+    "name": "Call of Duty 4: Modern Warfare",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex84",
+    "igdbId": 623,
+    "gbId": 25636,
+    "gbGuid": "3030-25636",
+    "tgdbId": 648
+  },
+  {
+    "name": "Call of Duty: Modern Warfare - Mobilized",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex85",
+    "igdbId": 21198,
+    "gbId": 27664,
+    "gbGuid": "3030-27664",
+    "tgdbId": 36516
+  },
+  {
+    "name": "Call of Duty: Modern Warfare 3 - Defiance",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex86",
+    "igdbId": null,
+    "gbId": 35129,
+    "gbGuid": "3030-35129",
+    "tgdbId": 31168
+  },
+  {
+    "name": "Call of Duty: World at War",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex87",
+    "igdbId": 625,
+    "gbId": 20777,
+    "gbGuid": "3030-20777",
+    "tgdbId": 646
+  },
+  {
+    "name": "Camping Mama: Outdoor Adventures",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex88",
+    "igdbId": 47942,
+    "gbId": 36962,
+    "gbGuid": "3030-36962",
+    "tgdbId": 24163
+  },
+  {
+    "name": "Card Game",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex89",
+    "igdbId": 98612,
+    "gbId": 65347,
+    "gbGuid": "3030-65347",
+    "tgdbId": 47588
+  },
+  {
+    "name": "Castlevania: Order of Ecclesia",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex90",
+    "igdbId": 1141,
+    "gbId": 20627,
+    "gbGuid": "3030-20627",
+    "tgdbId": 11047
+  },
+  {
+    "name": "Castlevania: Portrait of Ruin",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex91",
+    "igdbId": 1138,
+    "gbId": 14357,
+    "gbGuid": "3030-14357",
+    "tgdbId": 6704
+  },
+  {
+    "name": "Championship Pony",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex92",
+    "igdbId": 67583,
+    "gbId": 28419,
+    "gbGuid": "3030-28419",
+    "tgdbId": 47071
+  },
+  {
+    "name": "Chao Dream Touch! Happy Anniversary",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex93",
+    "igdbId": 122870,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Cheetah Girls: Passport to Stardom",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex94",
+    "igdbId": 117498,
+    "gbId": 21979,
+    "gbGuid": "3030-21979",
+    "tgdbId": 47077
+  },
+  {
+    "name": "The Cheetah Girls: Pop Star Sensations",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex95",
+    "igdbId": 67759,
+    "gbId": 27900,
+    "gbGuid": "3030-27900",
+    "tgdbId": 47078
+  },
+  {
+    "name": "Chibi-Robo: Park Patrol",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex96",
+    "igdbId": 21307,
+    "gbId": 21629,
+    "gbGuid": "3030-21629",
+    "tgdbId": 6705
+  },
+  {
+    "name": "Chicken Hunter",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex97",
+    "igdbId": null,
+    "gbId": 25928,
+    "gbGuid": "3030-25928",
+    "tgdbId": 47079
+  },
+  {
+    "name": "Children of Mana",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex98",
+    "igdbId": 14988,
+    "gbId": 9471,
+    "gbGuid": "3030-9471",
+    "tgdbId": 6706
+  },
+  {
+    "name": "Club Penguin: Elite Penguin Force",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex99",
+    "igdbId": 78695,
+    "gbId": 24113,
+    "gbGuid": "3030-24113",
+    "tgdbId": 17989
+  },
+  {
+    "name": "Clubhouse Games",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex100",
+    "igdbId": 18597,
+    "gbId": 8573,
+    "gbGuid": "3030-8573",
+    "tgdbId": 6709
+  },
+  {
+    "name": "Code (video game)",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex101",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Code Lyoko",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex102",
+    "igdbId": 8453,
+    "gbId": 13447,
+    "gbGuid": "3030-13447",
+    "tgdbId": 15212
+  },
+  {
+    "name": "Code Lyoko: Fall of X.A.N.A.",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex103",
+    "igdbId": 8454,
+    "gbId": 25324,
+    "gbGuid": "3030-25324",
+    "tgdbId": 15213
+  },
+  {
+    "name": "Color Cross",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex104",
+    "igdbId": 21268,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 15030
+  },
+  {
+    "name": "Combat of Giants: Dinosaurs 3D",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex105",
+    "igdbId": 7906,
+    "gbId": 31766,
+    "gbGuid": "3030-31766",
+    "tgdbId": 13337
+  },
+  {
+    "name": "Command and Destroy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex106",
+    "igdbId": 47887,
+    "gbId": 28423,
+    "gbGuid": "3030-28423",
+    "tgdbId": 41067
+  },
+  {
+    "name": "Commando: Steel Disaster",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex107",
+    "igdbId": 21272,
+    "gbId": 21048,
+    "gbGuid": "3030-21048",
+    "tgdbId": 6710
+  },
+  {
+    "name": "Contact",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex108",
+    "igdbId": 20581,
+    "gbId": 2856,
+    "gbGuid": "3030-2856",
+    "tgdbId": 13830
+  },
+  {
+    "name": "Cooking Guide: Can't Decide What to Eat?",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex109",
+    "igdbId": 48047,
+    "gbId": 23074,
+    "gbGuid": "3030-23074",
+    "tgdbId": 44625
+  },
+  {
+    "name": "Cooking Mama 2: Dinner with Friends",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex110",
+    "igdbId": 3062,
+    "gbId": 7604,
+    "gbGuid": "3030-7604",
+    "tgdbId": 9112
+  },
+  {
+    "name": "Cooking Mama 3: Shop & Chop",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex111",
+    "igdbId": 3065,
+    "gbId": 26385,
+    "gbGuid": "3030-26385",
+    "tgdbId": 20898
+  },
+  {
+    "name": "Cory in the House",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex112",
+    "igdbId": 47969,
+    "gbId": 25994,
+    "gbGuid": "3030-25994",
+    "tgdbId": 42823
+  },
+  {
+    "name": "Cosmos X2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex113",
+    "igdbId": 85054,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Crafting Mama",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex114",
+    "igdbId": 47810,
+    "gbId": 30379,
+    "gbGuid": "3030-30379",
+    "tgdbId": 20547
+  },
+  {
+    "name": "Crash Boom Bang!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex115",
+    "igdbId": 1196,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 6711
+  },
+  {
+    "name": "Crayola Treasure Adventures",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex116",
+    "igdbId": 21363,
+    "gbId": 53524,
+    "gbGuid": "3030-53524",
+    "tgdbId": 45762
+  },
+  {
+    "name": "Crime Scene",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex117",
+    "igdbId": 21653,
+    "gbId": 31044,
+    "gbGuid": "3030-31044",
+    "tgdbId": 47093
+  },
+  {
+    "name": "Crosswords DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex118",
+    "igdbId": 47766,
+    "gbId": 21610,
+    "gbGuid": "3030-21610",
+    "tgdbId": null
+  },
+  {
+    "name": "CSI: Crime Scene Investigation: Dark Motives",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex119",
+    "igdbId": 72166,
+    "gbId": 5702,
+    "gbGuid": "3030-5702",
+    "tgdbId": 15130
+  },
+  {
+    "name": "CSI: Crime Scene Investigation: Unsolved!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex120",
+    "igdbId": 47796,
+    "gbId": 33010,
+    "gbGuid": "3030-33010",
+    "tgdbId": 15129
+  },
+  {
+    "name": "Custom Robo Arena",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex121",
+    "igdbId": 3466,
+    "gbId": 17424,
+    "gbGuid": "3030-17424",
+    "tgdbId": 18789
+  },
+  {
+    "name": "Daigasso! Band Brothers",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex122",
+    "igdbId": 28559,
+    "gbId": 505,
+    "gbGuid": "3030-505",
+    "tgdbId": 29901
+  },
+  {
+    "name": "The Dark Spire",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex123",
+    "igdbId": 21185,
+    "gbId": 24865,
+    "gbGuid": "3030-24865",
+    "tgdbId": 16557
+  },
+  {
+    "name": "Dead 'N' Furious",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex124",
+    "igdbId": 85072,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Death Jr. and the Science Fair of Doom",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex125",
+    "igdbId": 21412,
+    "gbId": 25992,
+    "gbGuid": "3030-25992",
+    "tgdbId": 34448
+  },
+  {
+    "name": "Dengeki Gakuen RPG: Cross of Venus",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex126",
+    "igdbId": 70697,
+    "gbId": 24247,
+    "gbGuid": "3030-24247",
+    "tgdbId": null
+  },
+  {
+    "name": "Densetsu no Stafi 4",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex127",
+    "igdbId": 85080,
+    "gbId": 13455,
+    "gbGuid": "3030-13455",
+    "tgdbId": null
+  },
+  {
+    "name": "Devilish: Ball Bounder",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex128",
+    "igdbId": 122509,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Diamond Trust of London",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex129",
+    "igdbId": 9138,
+    "gbId": 31101,
+    "gbGuid": "3030-31101",
+    "tgdbId": 42336
+  },
+  {
+    "name": "Dig Dug: Digging Strike",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex130",
+    "igdbId": 47729,
+    "gbId": 23674,
+    "gbGuid": "3030-23674",
+    "tgdbId": 6791
+  },
+  {
+    "name": "Digimon Story: Lost Evolution",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex131",
+    "igdbId": 67307,
+    "gbId": 29253,
+    "gbGuid": "3030-29253",
+    "tgdbId": 48743
+  },
+  {
+    "name": "Digimon World Championship",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex132",
+    "igdbId": 47897,
+    "gbId": 22672,
+    "gbGuid": "3030-22672",
+    "tgdbId": 39843
+  },
+  {
+    "name": "Digimon World: Dawn",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex133",
+    "igdbId": 21521,
+    "gbId": 24388,
+    "gbGuid": "3030-24388",
+    "tgdbId": 14213
+  },
+  {
+    "name": "Digimon World: Dusk",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex538",
+    "igdbId": 78285,
+    "gbId": 24388,
+    "gbGuid": "3030-24388",
+    "tgdbId": 14214
+  },
+  {
+    "name": "Digimon World DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex134",
+    "igdbId": 20609,
+    "gbId": 21933,
+    "gbGuid": "3030-21933",
+    "tgdbId": 14212
+  },
+  {
+    "name": "Dino Master",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex135",
+    "igdbId": 69143,
+    "gbId": 25884,
+    "gbGuid": "3030-25884",
+    "tgdbId": 47138
+  },
+  {
+    "name": "Dinosaur King",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex136",
+    "igdbId": 80832,
+    "gbId": 21079,
+    "gbGuid": "3030-21079",
+    "tgdbId": 44204
+  },
+  {
+    "name": "Disney Friends",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex137",
+    "igdbId": 47859,
+    "gbId": 19964,
+    "gbGuid": "3030-19964",
+    "tgdbId": 36954
+  },
+  {
+    "name": "Disney Princess: Magical Jewels",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex138",
+    "igdbId": 47698,
+    "gbId": 74519,
+    "gbGuid": "3030-74519",
+    "tgdbId": 14349
+  },
+  {
+    "name": "Doctor Who: Evacuation Earth",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex139",
+    "igdbId": 47842,
+    "gbId": 32424,
+    "gbGuid": "3030-32424",
+    "tgdbId": 25761
+  },
+  {
+    "name": "Dokapon Journey",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex140",
+    "igdbId": 21121,
+    "gbId": 24299,
+    "gbGuid": "3030-24299",
+    "tgdbId": 15175
+  },
+  {
+    "name": "Doki Doki Majo Shinpan! 2 DUO",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex141",
+    "igdbId": 21456,
+    "gbId": 21702,
+    "gbGuid": "3030-21702",
+    "tgdbId": null
+  },
+  {
+    "name": "Dokidoki Majo Shinpan!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex142",
+    "igdbId": 47970,
+    "gbId": 4707,
+    "gbGuid": "3030-4707",
+    "tgdbId": 42784
+  },
+  {
+    "name": "Doki Majo Plus",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex143",
+    "igdbId": 69120,
+    "gbId": 25950,
+    "gbGuid": "3030-25950",
+    "tgdbId": null
+  },
+  {
+    "name": "Dolphin Island: Underwater Adventures",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex144",
+    "igdbId": 122510,
+    "gbId": 48555,
+    "gbGuid": "3030-48555",
+    "tgdbId": null
+  },
+  {
+    "name": "Doodle Hex",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex145",
+    "igdbId": 21475,
+    "gbId": 21607,
+    "gbGuid": "3030-21607",
+    "tgdbId": 64525
+  },
+  {
+    "name": "Dr. Mario Express",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex146",
+    "igdbId": 47847,
+    "gbId": 24924,
+    "gbGuid": "3030-24924",
+    "tgdbId": 24520
+  },
+  {
+    "name": "Dr. Seuss: How the Grinch Stole Christmas!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex147",
+    "igdbId": 15489,
+    "gbId": 17539,
+    "gbGuid": "3030-17539",
+    "tgdbId": 47151
+  },
+  {
+    "name": "Draglade",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex148",
+    "igdbId": 21542,
+    "gbId": 20498,
+    "gbGuid": "3030-20498",
+    "tgdbId": 15125
+  },
+  {
+    "name": "Dragon Ball Kai: Ultimate Butouden",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex149",
+    "igdbId": 47834,
+    "gbId": 33253,
+    "gbGuid": "3030-33253",
+    "tgdbId": 27822
+  },
+  {
+    "name": "Dragon Ball Z: Attack of the Saiyans",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex150",
+    "igdbId": 21196,
+    "gbId": 25435,
+    "gbGuid": "3030-25435",
+    "tgdbId": 19299
+  },
+  {
+    "name": "Dragon Ball Z: Harukanaru Densetsu",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex151",
+    "igdbId": 21426,
+    "gbId": 24289,
+    "gbGuid": "3030-24289",
+    "tgdbId": 27574
+  },
+  {
+    "name": "Dragon Ball: Origins",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex152",
+    "igdbId": 19308,
+    "gbId": 22006,
+    "gbGuid": "3030-22006",
+    "tgdbId": 29493
+  },
+  {
+    "name": "Dragon Ball: Origins 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex153",
+    "igdbId": 20412,
+    "gbId": 29254,
+    "gbGuid": "3030-29254",
+    "tgdbId": 31880
+  },
+  {
+    "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex154",
+    "igdbId": 1820,
+    "gbId": 21666,
+    "gbGuid": "3030-21666",
+    "tgdbId": 11043
+  },
+  {
+    "name": "Dragon Quest Heroes: Rocket Slime",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex155",
+    "igdbId": 1824,
+    "gbId": 10252,
+    "gbGuid": "3030-10252",
+    "tgdbId": 11042
+  },
+  {
+    "name": "Dragon Quest Monsters: Joker",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex156",
+    "igdbId": 17460,
+    "gbId": 6632,
+    "gbGuid": "3030-6632",
+    "tgdbId": 14368
+  },
+  {
+    "name": "Dragon Quest Monsters: Joker 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex157",
+    "igdbId": 21727,
+    "gbId": 29922,
+    "gbGuid": "3030-29922",
+    "tgdbId": 14274
+  },
+  {
+    "name": "Dragon Quest Wars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex158",
+    "igdbId": 1825,
+    "gbId": 26476,
+    "gbGuid": "3030-26476",
+    "tgdbId": 20028
+  },
+  {
+    "name": "Dragon Tamer Sound Spirit",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex159",
+    "igdbId": 123156,
+    "gbId": 73182,
+    "gbGuid": "3030-73182",
+    "tgdbId": null
+  },
+  {
+    "name": "Nickelodeon Drake & Josh: Talent Showdown",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex160",
+    "igdbId": 7971,
+    "gbId": 31117,
+    "gbGuid": "3030-31117",
+    "tgdbId": 42543
+  },
+  {
+    "name": "Drawn to Life: SpongeBob SquarePants Edition",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex161",
+    "igdbId": 4822,
+    "gbId": 21076,
+    "gbGuid": "3030-21076",
+    "tgdbId": 15211
+  },
+  {
+    "name": "Drawn To Life: The Next Chapter",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex162",
+    "igdbId": 4820,
+    "gbId": 26615,
+    "gbGuid": "3030-26615",
+    "tgdbId": 27336
+  },
+  {
+    "name": "Drone Tactics",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex163",
+    "igdbId": 21487,
+    "gbId": 20506,
+    "gbGuid": "3030-20506",
+    "tgdbId": 11220
+  },
+  {
+    "name": "List of DS:Style products",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex164",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Ducati Moto",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex165",
+    "igdbId": 67746,
+    "gbId": 27923,
+    "gbGuid": "3030-27923",
+    "tgdbId": 47157
+  },
+  {
+    "name": "Duel Love",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex166",
+    "igdbId": 70538,
+    "gbId": 24809,
+    "gbGuid": "3030-24809",
+    "tgdbId": null
+  },
+  {
+    "name": "Duke Nukem: Critical Mass",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex167",
+    "igdbId": 47967,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42939
+  },
+  {
+    "name": "Dynasty Warriors DS: Fighter's Battle",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex168",
+    "igdbId": 21534,
+    "gbId": 23506,
+    "gbGuid": "3030-23506",
+    "tgdbId": 39456
+  },
+  {
+    "name": "Eco-Creatures: Save the Forest",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex169",
+    "igdbId": 21280,
+    "gbId": 24124,
+    "gbGuid": "3030-24124",
+    "tgdbId": 44535
+  },
+  {
+    "name": "Ed, Edd n Eddy: Scam of the Century",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex170",
+    "igdbId": 2817,
+    "gbId": 20508,
+    "gbGuid": "3030-20508",
+    "tgdbId": 39646
+  },
+  {
+    "name": "Elebits: The Adventures of Kai and Zero",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex171",
+    "igdbId": 47965,
+    "gbId": 21723,
+    "gbGuid": "3030-21723",
+    "tgdbId": 15034
+  },
+  {
+    "name": "Electroplankton",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex172",
+    "igdbId": 18340,
+    "gbId": 492,
+    "gbGuid": "3030-492",
+    "tgdbId": 6908
+  },
+  {
+    "name": "Elite Beat Agents",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex173",
+    "igdbId": 9109,
+    "gbId": 11982,
+    "gbGuid": "3030-11982",
+    "tgdbId": 6797
+  },
+  {
+    "name": "Elite Forces: Unit 77",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex174",
+    "igdbId": 21291,
+    "gbId": 25751,
+    "gbGuid": "3030-25751",
+    "tgdbId": 47173
+  },
+  {
+    "name": "Emergency Room: Real Life Rescues",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex175",
+    "igdbId": 24322,
+    "gbId": 27869,
+    "gbGuid": "3030-27869",
+    "tgdbId": 47174
+  },
+  {
+    "name": "Enchanted",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex176",
+    "igdbId": 13641,
+    "gbId": 27902,
+    "gbGuid": "3030-27902",
+    "tgdbId": 47177
+  },
+  {
+    "name": "Essential Sudoku DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex177",
+    "igdbId": 68784,
+    "gbId": 12723,
+    "gbGuid": "3030-12723",
+    "tgdbId": null
+  },
+  {
+    "name": "Etrian Odyssey",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex178",
+    "igdbId": 14716,
+    "gbId": 14350,
+    "gbGuid": "3030-14350",
+    "tgdbId": 11221
+  },
+  {
+    "name": "Etrian Odyssey II: Heroes of Lagaard",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex179",
+    "igdbId": 14717,
+    "gbId": 20511,
+    "gbGuid": "3030-20511",
+    "tgdbId": 6798
+  },
+  {
+    "name": "Etrian Odyssey III: The Drowned City",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex180",
+    "igdbId": 14718,
+    "gbId": 29469,
+    "gbGuid": "3030-29469",
+    "tgdbId": 11222
+  },
+  {
+    "name": "Family Park Tycoon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex181",
+    "igdbId": 123310,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Fashion Designer: Style Icon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex182",
+    "igdbId": 123309,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Feel the Magic: XY/XX",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex183",
+    "igdbId": 18331,
+    "gbId": 11248,
+    "gbGuid": "3030-11248",
+    "tgdbId": 6799
+  },
+  {
+    "name": "Fighting Fantasy: The Warlock of Firetop Mountain",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex184",
+    "igdbId": 81501,
+    "gbId": 27265,
+    "gbGuid": "3030-27265",
+    "tgdbId": 15174
+  },
+  {
+    "name": "Final Fantasy XII: Revenant Wings",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex185",
+    "igdbId": 392,
+    "gbId": 10751,
+    "gbGuid": "3030-10751",
+    "tgdbId": 6800
+  },
+  {
+    "name": "Final Fantasy Crystal Chronicles: Ring of Fates",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex186",
+    "igdbId": 9585,
+    "gbId": 22015,
+    "gbGuid": "3030-22015",
+    "tgdbId": 11049
+  },
+  {
+    "name": "Final Fantasy Fables: Chocobo Tales",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex187",
+    "igdbId": 41830,
+    "gbId": 3668,
+    "gbGuid": "3030-3668",
+    "tgdbId": 6801
+  },
+  {
+    "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex188",
+    "igdbId": 2408,
+    "gbId": 21286,
+    "gbGuid": "3030-21286",
+    "tgdbId": 6802
+  },
+  {
+    "name": "Final Fantasy: The 4 Heroes of Light",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex189",
+    "igdbId": 17463,
+    "gbId": 27186,
+    "gbGuid": "3030-27186",
+    "tgdbId": 11050
+  },
+  {
+    "name": "Fire Emblem: New Mystery of the Emblem",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex190",
+    "igdbId": 1445,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Flash Focus: Vision Training in Minutes a Day",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex191",
+    "igdbId": 21912,
+    "gbId": 14434,
+    "gbGuid": "3030-14434",
+    "tgdbId": 16876
+  },
+  {
+    "name": "Flipnote Studio",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex192",
+    "igdbId": 85636,
+    "gbId": 24930,
+    "gbGuid": "3030-24930",
+    "tgdbId": 20851
+  },
+  {
+    "name": "Florist Shop",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex193",
+    "igdbId": 44070,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 17026
+  },
+  {
+    "name": "Football Academy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex194",
+    "igdbId": 124015,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Fossil Fighters",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex195",
+    "igdbId": 20978,
+    "gbId": 27048,
+    "gbGuid": "3030-27048",
+    "tgdbId": 6804
+  },
+  {
+    "name": "Fossil Fighters: Champions",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex196",
+    "igdbId": 20979,
+    "gbId": 35583,
+    "gbGuid": "3030-35583",
+    "tgdbId": 14537
+  },
+  {
+    "name": "Foto Showdown",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex197",
+    "igdbId": 47903,
+    "gbId": 29542,
+    "gbGuid": "3030-29542",
+    "tgdbId": 42527
+  },
+  {
+    "name": "Freedom Wings",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex198",
+    "igdbId": 47820,
+    "gbId": 15594,
+    "gbGuid": "3030-15594",
+    "tgdbId": 19219
+  },
+  {
+    "name": "Freshly-Picked: Tingle's Rosy Rupeeland",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex199",
+    "igdbId": 11607,
+    "gbId": 21239,
+    "gbGuid": "3030-21239",
+    "tgdbId": 18058
+  },
+  {
+    "name": "From The Abyss",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex200",
+    "igdbId": 17266,
+    "gbId": 22044,
+    "gbGuid": "3030-22044",
+    "tgdbId": 13968
+  },
+  {
+    "name": "Ganbare Goemon: Toukai Douchuu Ooedo Tengurigaeshi no Maki",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex201",
+    "igdbId": 73299,
+    "gbId": 18424,
+    "gbGuid": "3030-18424",
+    "tgdbId": null
+  },
+  {
+    "name": "Garfield: A Tail of Two Kitties",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex202",
+    "igdbId": 23734,
+    "gbId": 5016,
+    "gbGuid": "3030-5016",
+    "tgdbId": 47202
+  },
+  {
+    "name": "Garfield's Nightmare",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex203",
+    "igdbId": 67853,
+    "gbId": 27498,
+    "gbGuid": "3030-27498",
+    "tgdbId": 47205
+  },
+  {
+    "name": "Glory of Heracles",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex205",
+    "igdbId": 21766,
+    "gbId": 26932,
+    "gbGuid": "3030-26932",
+    "tgdbId": 11250
+  },
+  {
+    "name": "Go Go Cosmo Cops",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex206"
+  },
+  {
+    "name": "Go! Go! Kokopolo: Harmonious Forest Revenge",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex207",
+    "igdbId": 65247,
+    "gbId": 38052,
+    "gbGuid": "3030-38052",
+    "tgdbId": null
+  },
+  {
+    "name": "Golden Nugget Casino DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex208",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47212
+  },
+  {
+    "name": "Golden Sun: Dark Dawn",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex209",
+    "igdbId": 1174,
+    "gbId": 26833,
+    "gbGuid": "3030-26833",
+    "tgdbId": 11251
+  },
+  {
+    "name": "GoPets: Vacation Island",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex210",
+    "igdbId": 124019,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47213
+  },
+  {
+    "name": "Guilty Gear Dust Strikers",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex211",
+    "igdbId": 9149,
+    "gbId": 21376,
+    "gbGuid": "3030-21376",
+    "tgdbId": 19221
+  },
+  {
+    "name": "Guitar Hero: On Tour",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex212",
+    "igdbId": 7088,
+    "gbId": 20639,
+    "gbGuid": "3030-20639",
+    "tgdbId": 6809
+  },
+  {
+    "name": "Guru Logic Champ",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex213",
+    "igdbId": 49239,
+    "gbId": 13113,
+    "gbGuid": "3030-13113",
+    "tgdbId": 32151
+  },
+  {
+    "name": "Hamsterz Life",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex214",
+    "igdbId": 9248,
+    "gbId": 22229,
+    "gbGuid": "3030-22229",
+    "tgdbId": 18790
+  },
+  {
+    "name": "Hands On! Tangrams",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex215",
+    "igdbId": 48043,
+    "gbId": 25915,
+    "gbGuid": "3030-25915",
+    "tgdbId": 44034
+  },
+  {
+    "name": "Hard-Hat Domo",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex216",
+    "igdbId": 69134,
+    "gbId": 26897,
+    "gbGuid": "3030-26897",
+    "tgdbId": null
+  },
+  {
+    "name": "Harvest Moon DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex217",
+    "igdbId": 3385,
+    "gbId": 12573,
+    "gbGuid": "3030-12573",
+    "tgdbId": 15220
+  },
+  {
+    "name": "Harvest Moon DS: Grand Bazaar",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex218",
+    "igdbId": 3391,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 15221
+  },
+  {
+    "name": "Harvest Moon DS: Island of Happiness",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex219",
+    "igdbId": 3387,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 15219
+  },
+  {
+    "name": "Harvest Moon DS: Sunshine Islands",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex220",
+    "igdbId": 3389,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 15218
+  },
+  {
+    "name": "Hayate the Combat Butler",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex221",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Hello Kitty: Big City Dreams",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex222",
+    "igdbId": 3686,
+    "gbId": 24505,
+    "gbGuid": "3030-24505",
+    "tgdbId": 41444
+  },
+  {
+    "name": "Henry Hatsworth in the Puzzling Adventure",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex223",
+    "igdbId": 9601,
+    "gbId": 23282,
+    "gbGuid": "3030-23282",
+    "tgdbId": 14131
+  },
+  {
+    "name": "Disney's Herbie: Rescue Rally",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex224",
+    "igdbId": 73552,
+    "gbId": 16248,
+    "gbGuid": "3030-16248",
+    "tgdbId": 47228
+  },
+  {
+    "name": "Hero's Saga: Laevatein Tactics",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex225",
+    "igdbId": 21034,
+    "gbId": 24252,
+    "gbGuid": "3030-24252",
+    "tgdbId": 11254
+  },
+  {
+    "name": "Heroes of Mana",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex226",
+    "igdbId": 14990,
+    "gbId": 21626,
+    "gbGuid": "3030-21626",
+    "tgdbId": 11253
+  },
+  {
+    "name": "Hi Hi Puffy AmiYumi: The Genie & the Amp",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex227",
+    "igdbId": 2818,
+    "gbId": 20524,
+    "gbGuid": "3030-20524",
+    "tgdbId": 47226
+  },
+  {
+    "name": "Disney High School Musical 2: Work This Out!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex228",
+    "igdbId": 21371,
+    "gbId": 22458,
+    "gbGuid": "3030-22458",
+    "tgdbId": 47232
+  },
+  {
+    "name": "Disney High School Musical 3: Senior Year",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex229",
+    "igdbId": 4912,
+    "gbId": 27864,
+    "gbGuid": "3030-27864",
+    "tgdbId": 16841
+  },
+  {
+    "name": "Disney High School Musical: Makin' the Cut",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex230",
+    "igdbId": 44063,
+    "gbId": 27903,
+    "gbGuid": "3030-27903",
+    "tgdbId": 16842
+  },
+  {
+    "name": "Honeycomb Beat",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex231",
+    "igdbId": 20685,
+    "gbId": 35792,
+    "gbGuid": "3030-35792",
+    "tgdbId": 44633
+  },
+  {
+    "name": "Hoshigami: Ruining Blue Earth",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex232",
+    "igdbId": 45223,
+    "gbId": 14011,
+    "gbGuid": "3030-14011",
+    "tgdbId": 553
+  },
+  {
+    "name": "Hotel Dusk: Room 215",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex233",
+    "igdbId": 9249,
+    "gbId": 1159,
+    "gbGuid": "3030-1159",
+    "tgdbId": 6812
+  },
+  {
+    "name": "THE iDOLM@STER Dearly Stars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex234",
+    "igdbId": 11700,
+    "gbId": 27313,
+    "gbGuid": "3030-27313",
+    "tgdbId": null
+  },
+  {
+    "name": "Infinite Space",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex235",
+    "igdbId": 11683,
+    "gbId": 24075,
+    "gbGuid": "3030-24075",
+    "tgdbId": 11258
+  },
+  {
+    "name": "DS Dengeki Bunko: Inukami! feat. Animation",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex236",
+    "igdbId": 112538,
+    "gbId": 70004,
+    "gbGuid": "3030-70004",
+    "tgdbId": null
+  },
+  {
+    "name": "Inuyasha: Secret of the Divine Jewel",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex237",
+    "igdbId": 20653,
+    "gbId": 16001,
+    "gbGuid": "3030-16001",
+    "tgdbId": 13856
+  },
+  {
+    "name": "IQ Sapuri",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex238",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "DS Dengeki Bunko: Iria no Sora, UFO no Natsu",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex239",
+    "igdbId": 112535,
+    "gbId": 70005,
+    "gbGuid": "3030-70005",
+    "tgdbId": null
+  },
+  {
+    "name": "Irodzuki Tingle no Koi no Balloon Trip",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex240",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Iron Feather",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex241",
+    "igdbId": 71609,
+    "gbId": 24233,
+    "gbGuid": "3030-24233",
+    "tgdbId": null
+  },
+  {
+    "name": "Izuna 2: The Unemployed Ninja Returns",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex242",
+    "igdbId": 21345,
+    "gbId": 21034,
+    "gbGuid": "3030-21034",
+    "tgdbId": 13970
+  },
+  {
+    "name": "Izuna: Legend of the Unemployed Ninja",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex243",
+    "igdbId": 20671,
+    "gbId": 4464,
+    "gbGuid": "3030-4464",
+    "tgdbId": 13969
+  },
+  {
+    "name": "JAM sessions",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex244",
+    "igdbId": 47925,
+    "gbId": 18573,
+    "gbGuid": "3030-18573",
+    "tgdbId": 18843
+  },
+  {
+    "name": "Jam with the Band",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex245",
+    "igdbId": 21100,
+    "gbId": 21366,
+    "gbGuid": "3030-21366",
+    "tgdbId": 27293
+  },
+  {
+    "name": "James Cameron's Avatar: The Game",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex246",
+    "igdbId": 4211,
+    "gbId": 30564,
+    "gbGuid": "3030-30564",
+    "tgdbId": 877
+  },
+  {
+    "name": "Jet Impulse",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex247",
+    "igdbId": 72952,
+    "gbId": 22030,
+    "gbGuid": "3030-22030",
+    "tgdbId": null
+  },
+  {
+    "name": "Johnny Test",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex248",
+    "igdbId": null,
+    "gbId": 72346,
+    "gbGuid": "3030-72346",
+    "tgdbId": 47285
+  },
+  {
+    "name": "Journey to the Center of the Earth",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex249",
+    "igdbId": 81426,
+    "gbId": 30581,
+    "gbGuid": "3030-30581",
+    "tgdbId": 21157
+  },
+  {
+    "name": "Jump Superstars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex250",
+    "igdbId": 28835,
+    "gbId": 21241,
+    "gbGuid": "3030-21241",
+    "tgdbId": 27192
+  },
+  {
+    "name": "Jump Ultimate Stars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex251",
+    "igdbId": 40263,
+    "gbId": 21788,
+    "gbGuid": "3030-21788",
+    "tgdbId": 21145
+  },
+  {
+    "name": "Kabu Trader Shun",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex252",
+    "igdbId": 123337,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Kanji Sonomama Rakubiki Jiten DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex253",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Keroro Gunsō the Super Movie",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex254",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Keroro RPG: Kishi to Busha to Densetsu no Kaizoku",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex255",
+    "igdbId": 67306,
+    "gbId": 29252,
+    "gbGuid": "3030-29252",
+    "tgdbId": null
+  },
+  {
+    "name": "Kimi ni Todoke: Sodateru Omoi",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex256",
+    "igdbId": 66964,
+    "gbId": 30179,
+    "gbGuid": "3030-30179",
+    "tgdbId": null
+  },
+  {
+    "name": "Kimi no Yusha",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex257",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Kingdom Hearts 358/2 Days",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex258",
+    "igdbId": 1223,
+    "gbId": 21448,
+    "gbGuid": "3030-21448",
+    "tgdbId": 11261
+  },
+  {
+    "name": "Konami Classics Series: Arcade Hits",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex259",
+    "igdbId": 21395,
+    "gbId": 15915,
+    "gbGuid": "3030-15915",
+    "tgdbId": 6816
+  },
+  {
+    "name": "Konductra",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex260",
+    "igdbId": 20619,
+    "gbId": 12040,
+    "gbGuid": "3030-12040",
+    "tgdbId": 47296
+  },
+  {
+    "name": "KORG DS-10 Synthesizer",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex261",
+    "igdbId": 73009,
+    "gbId": 21427,
+    "gbGuid": "3030-21427",
+    "tgdbId": 13137
+  },
+  {
+    "name": "Korogashi Puzzle Katamari Damacy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex262",
+    "igdbId": 6458,
+    "gbId": 25427,
+    "gbGuid": "3030-25427",
+    "tgdbId": null
+  },
+  {
+    "name": "Kousoku Card Battle: Card Hero",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex263",
+    "igdbId": 73037,
+    "gbId": 20804,
+    "gbGuid": "3030-20804",
+    "tgdbId": null
+  },
+  {
+    "name": "Art Style: KUBOS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex264",
+    "igdbId": 69261,
+    "gbId": 25386,
+    "gbGuid": "3030-25386",
+    "tgdbId": null
+  },
+  {
+    "name": "Kumatanchi",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex265",
+    "igdbId": 70683,
+    "gbId": 24288,
+    "gbGuid": "3030-24288",
+    "tgdbId": null
+  },
+  {
+    "name": "Kurikin: Nano Island Story",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex266",
+    "igdbId": 59337,
+    "gbId": 51915,
+    "gbGuid": "3030-51915",
+    "tgdbId": null
+  },
+  {
+    "name": "Last Bullet",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex267",
+    "igdbId": 94837,
+    "gbId": 24418,
+    "gbGuid": "3030-24418",
+    "tgdbId": null
+  },
+  {
+    "name": "Last Window: The Secret of Cape West",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex268",
+    "igdbId": 22958,
+    "gbId": 29533,
+    "gbGuid": "3030-29533",
+    "tgdbId": 14516
+  },
+  {
+    "name": "Learn with Pokémon: Typing Adventure",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex269",
+    "igdbId": 4564,
+    "gbId": 32812,
+    "gbGuid": "3030-32812",
+    "tgdbId": 60328
+  },
+  {
+    "name": "The Legend of Kage 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex270",
+    "igdbId": 21336,
+    "gbId": 21131,
+    "gbGuid": "3030-21131",
+    "tgdbId": 6817
+  },
+  {
+    "name": "The Legendary Starfy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex271",
+    "igdbId": 20280,
+    "gbId": 21016,
+    "gbGuid": "3030-21016",
+    "tgdbId": 6889
+  },
+  {
+    "name": "Lego Battles",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex272",
+    "igdbId": 2648,
+    "gbId": 25250,
+    "gbGuid": "3030-25250",
+    "tgdbId": 16406
+  },
+  {
+    "name": "Lego Battles: Ninjago",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex273",
+    "igdbId": 19767,
+    "gbId": 36924,
+    "gbGuid": "3030-36924",
+    "tgdbId": 19127
+  },
+  {
+    "name": "Let's Yoga",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex274",
+    "igdbId": 47857,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 37135
+  },
+  {
+    "name": "LifeSigns: Surgical Unit",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex275",
+    "igdbId": 18600,
+    "gbId": 21777,
+    "gbGuid": "3030-21777",
+    "tgdbId": 20134
+  },
+  {
+    "name": "Lionel Trains: On Track",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex276",
+    "igdbId": 10738,
+    "gbId": 17682,
+    "gbGuid": "3030-17682",
+    "tgdbId": 31558
+  },
+  {
+    "name": "Little Red Riding Hood's Zombie BBQ",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex277",
+    "igdbId": 21298,
+    "gbId": 21993,
+    "gbGuid": "3030-21993",
+    "tgdbId": 6820
+  },
+  {
+    "name": "LOL",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex278",
+    "igdbId": 124474,
+    "gbId": 21395,
+    "gbGuid": "3030-21395",
+    "tgdbId": null
+  },
+  {
+    "name": "Looney Tunes: Cartoon Conductor",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex279",
+    "igdbId": 21364,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 43442
+  },
+  {
+    "name": "Looney Tunes: Duck Amuck",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex280",
+    "igdbId": 8134,
+    "gbId": 20536,
+    "gbGuid": "3030-20536",
+    "tgdbId": 34449
+  },
+  {
+    "name": "Lost in Blue",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex281",
+    "igdbId": 22513,
+    "gbId": 8451,
+    "gbGuid": "3030-8451",
+    "tgdbId": 6821
+  },
+  {
+    "name": "Lost in Blue 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex282",
+    "igdbId": 21396,
+    "gbId": 14227,
+    "gbGuid": "3030-14227",
+    "tgdbId": 11268
+  },
+  {
+    "name": "Lost in Blue 3",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex283",
+    "igdbId": 21361,
+    "gbId": 23961,
+    "gbGuid": "3030-23961",
+    "tgdbId": 11269
+  },
+  {
+    "name": "Lost Magic",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex284",
+    "igdbId": 20522,
+    "gbId": 6453,
+    "gbGuid": "3030-6453",
+    "tgdbId": 12838
+  },
+  {
+    "name": "Shin Lucky Star Moe Drill: Tabidachi",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex285",
+    "igdbId": 72619,
+    "gbId": 23700,
+    "gbGuid": "3030-23700",
+    "tgdbId": null
+  },
+  {
+    "name": "Lufia: Curse of the Sinistrals",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex286",
+    "igdbId": 1181,
+    "gbId": 29232,
+    "gbGuid": "3030-29232",
+    "tgdbId": 11329
+  },
+  {
+    "name": "Luminous Arc",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex287",
+    "igdbId": 21447,
+    "gbId": 5534,
+    "gbGuid": "3030-5534",
+    "tgdbId": 11330
+  },
+  {
+    "name": "Luminous Arc 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex288",
+    "igdbId": 21330,
+    "gbId": 21163,
+    "gbGuid": "3030-21163",
+    "tgdbId": 11331
+  },
+  {
+    "name": "Luminous Arc 3: Eyes",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex289",
+    "igdbId": 25100,
+    "gbId": 27680,
+    "gbGuid": "3030-27680",
+    "tgdbId": 44797
+  },
+  {
+    "name": "Lunar Knights",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex290",
+    "igdbId": 9887,
+    "gbId": 7060,
+    "gbGuid": "3030-7060",
+    "tgdbId": 6822
+  },
+  {
+    "name": "Lunar: Dragon Song",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex291",
+    "igdbId": 13908,
+    "gbId": 16319,
+    "gbGuid": "3030-16319",
+    "tgdbId": 11332
+  },
+  {
+    "name": "Lux-Pain",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex292",
+    "igdbId": 21045,
+    "gbId": 25156,
+    "gbGuid": "3030-25156",
+    "tgdbId": 6823
+  },
+  {
+    "name": "Mage Knight: Destiny's Soldier",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex293",
+    "igdbId": 20576,
+    "gbId": 27921,
+    "gbGuid": "3030-27921",
+    "tgdbId": 11333
+  },
+  {
+    "name": "Magical Starsign",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex294",
+    "igdbId": 15839,
+    "gbId": 11278,
+    "gbGuid": "3030-11278",
+    "tgdbId": 6833
+  },
+  {
+    "name": "Magician's Quest: Mysterious Times",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex295",
+    "igdbId": 21183,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 15032
+  },
+  {
+    "name": "Where in the World is Carmen Sandiego? 3 - New Carmen Adventure",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex296",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Major League Baseball 2K8 Fantasy All Stars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex297",
+    "igdbId": 20781,
+    "gbId": 29371,
+    "gbGuid": "3030-29371",
+    "tgdbId": 34445
+  },
+  {
+    "name": "Major League Baseball 2K8 Fantasy All Stars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex298",
+    "igdbId": 80116,
+    "gbId": 25737,
+    "gbGuid": "3030-25737",
+    "tgdbId": 34445
+  },
+  {
+    "name": "Make 10",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex299",
+    "igdbId": 122550,
+    "gbId": 73693,
+    "gbGuid": "3030-73693",
+    "tgdbId": 64470
+  },
+  {
+    "name": "MapleStory DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex300",
+    "igdbId": 79942,
+    "gbId": 30700,
+    "gbGuid": "3030-30700",
+    "tgdbId": 19302
+  },
+  {
+    "name": "Mario & Luigi: Bowser's Inside Story",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex301",
+    "igdbId": 3363,
+    "gbId": 23983,
+    "gbGuid": "3030-23983",
+    "tgdbId": 438
+  },
+  {
+    "name": "Mario Hoops: 3 on 3",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex302",
+    "igdbId": 3988,
+    "gbId": 11206,
+    "gbGuid": "3030-11206",
+    "tgdbId": 6836
+  },
+  {
+    "name": "Mario vs. Donkey Kong: Mini-Land Mayhem",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex303",
+    "igdbId": 21093,
+    "gbId": 31742,
+    "gbGuid": "3030-31742",
+    "tgdbId": 11336
+  },
+  {
+    "name": "Mario vs. Donkey Kong: Minis March Again!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex304",
+    "igdbId": 48032,
+    "gbId": 26854,
+    "gbGuid": "3030-26854",
+    "tgdbId": 46103
+  },
+  {
+    "name": "Master of Illusion",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex305",
+    "igdbId": 20770,
+    "gbId": 22220,
+    "gbGuid": "3030-22220",
+    "tgdbId": 6839
+  },
+  {
+    "name": "MechAssault: Phantom War",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex306",
+    "igdbId": 19195,
+    "gbId": 17059,
+    "gbGuid": "3030-17059",
+    "tgdbId": 20674
+  },
+  {
+    "name": "Mega Man Star Force: Dragon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex307",
+    "igdbId": 1783,
+    "gbId": 1476,
+    "gbGuid": "3030-1476",
+    "tgdbId": 6841
+  },
+  {
+    "name": "Mega Man Star Force: Leo",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex700",
+    "igdbId": 1782,
+    "gbId": 1476,
+    "gbGuid": "3030-1476",
+    "tgdbId": 6842
+  },
+  {
+    "name": "Mega Man Star Force: Pegasus",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex701",
+    "igdbId": 1781,
+    "gbId": 1476,
+    "gbGuid": "3030-1476",
+    "tgdbId": 6843
+  },
+  {
+    "name": "Mega Man Star Force 2: Zerker x Ninja",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex308",
+    "igdbId": 1785,
+    "gbId": 20539,
+    "gbGuid": "3030-20539",
+    "tgdbId": 14499
+  },
+  {
+    "name": "Mega Man Star Force 2: Zerker x Saurian",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex703",
+    "igdbId": 1784,
+    "gbId": 20539,
+    "gbGuid": "3030-20539",
+    "tgdbId": 14501
+  },
+  {
+    "name": "Mega Man Star Force 3: Black Ace",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex309",
+    "igdbId": 1786,
+    "gbId": 21403,
+    "gbGuid": "3030-21403",
+    "tgdbId": 14498
+  },
+  {
+    "name": "Mega Man Star Force 3: Red Joker",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex704",
+    "igdbId": 1787,
+    "gbId": 21403,
+    "gbGuid": "3030-21403",
+    "tgdbId": 14500
+  },
+  {
+    "name": "Mega Man Zero Collection",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex310",
+    "igdbId": 24355,
+    "gbId": 29768,
+    "gbGuid": "3030-29768",
+    "tgdbId": 14057
+  },
+  {
+    "name": "Mega Man ZX",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex311",
+    "igdbId": 1779,
+    "gbId": 11103,
+    "gbGuid": "3030-11103",
+    "tgdbId": 6844
+  },
+  {
+    "name": "Mega Man ZX Advent",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex312",
+    "igdbId": 1780,
+    "gbId": 20435,
+    "gbGuid": "3030-20435",
+    "tgdbId": 6845
+  },
+  {
+    "name": "Metal Max 3",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex313",
+    "igdbId": 66922,
+    "gbId": 30297,
+    "gbGuid": "3030-30297",
+    "tgdbId": null
+  },
+  {
+    "name": "Metal Saga: Hagane no Kisetsu",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex314",
+    "igdbId": 66989,
+    "gbId": 30081,
+    "gbGuid": "3030-30081",
+    "tgdbId": null
+  },
+  {
+    "name": "Metroid Prime Pinball",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex315",
+    "igdbId": 1109,
+    "gbId": 5436,
+    "gbGuid": "3030-5436",
+    "tgdbId": 6849
+  },
+  {
+    "name": "Miami Law",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex316",
+    "igdbId": 20281,
+    "gbId": 25685,
+    "gbGuid": "3030-25685",
+    "tgdbId": 17033
+  },
+  {
+    "name": "Mighty Milky Way",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex317",
+    "igdbId": 80560,
+    "gbId": 33948,
+    "gbGuid": "3030-33948",
+    "tgdbId": null
+  },
+  {
+    "name": "Milon no Hoshizora Shabon: Puzzle Kumikyoku",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex318",
+    "igdbId": 97681,
+    "gbId": 67291,
+    "gbGuid": "3030-67291",
+    "tgdbId": null
+  },
+  {
+    "name": "MinDStorm",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex319",
+    "igdbId": 47861,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Miss Spider's Sunny Patch Friends: Harvest Time Hop and Fly",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex320",
+    "igdbId": 7979,
+    "gbId": 27499,
+    "gbGuid": "3030-27499",
+    "tgdbId": null
+  },
+  {
+    "name": "Mister Slime",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex321",
+    "igdbId": 21377,
+    "gbId": 21025,
+    "gbGuid": "3030-21025",
+    "tgdbId": 27291
+  },
+  {
+    "name": "Mixed Messages",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex322",
+    "igdbId": 80175,
+    "gbId": 25845,
+    "gbGuid": "3030-25845",
+    "tgdbId": null
+  },
+  {
+    "name": "Kidou Senshi Gundam 00",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex323",
+    "igdbId": 47870,
+    "gbId": 21740,
+    "gbGuid": "3030-21740",
+    "tgdbId": 31690
+  },
+  {
+    "name": "Moero! Nekketsu Rhythm Damashii: Osu! Tatakae! Ouendan 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex324",
+    "igdbId": 23095,
+    "gbId": 254,
+    "gbGuid": "3030-254",
+    "tgdbId": 47725
+  },
+  {
+    "name": "Monster Rancher DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex325",
+    "igdbId": 47795,
+    "gbId": 29487,
+    "gbGuid": "3030-29487",
+    "tgdbId": 15167
+  },
+  {
+    "name": "Monster Tale",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex326",
+    "igdbId": 21078,
+    "gbId": 31268,
+    "gbGuid": "3030-31268",
+    "tgdbId": 13853
+  },
+  {
+    "name": "Moto Racer DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex327",
+    "igdbId": 10564,
+    "gbId": 21630,
+    "gbGuid": "3030-21630",
+    "tgdbId": 11384
+  },
+  {
+    "name": "Mr. Driller: Drill Spirits",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex328",
+    "igdbId": 18330,
+    "gbId": 7095,
+    "gbGuid": "3030-7095",
+    "tgdbId": 17382
+  },
+  {
+    "name": "Mushishi",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex329",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "My Frogger: Toy Trials",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex330",
+    "igdbId": 11482,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 20905
+  },
+  {
+    "name": "My Little Pony: Pinkie Pie's Party",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex331",
+    "igdbId": 80769,
+    "gbId": 21074,
+    "gbGuid": "3030-21074",
+    "tgdbId": 47348
+  },
+  {
+    "name": "My SAT Coach with the Princeton Review",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex332",
+    "igdbId": 70537,
+    "gbId": 24810,
+    "gbGuid": "3030-24810",
+    "tgdbId": 47352
+  },
+  {
+    "name": "Mystery Case Files: MillionHeir",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex333",
+    "igdbId": 20276,
+    "gbId": 21061,
+    "gbGuid": "3030-21061",
+    "tgdbId": 6852
+  },
+  {
+    "name": "Nacho Libre",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex334",
+    "igdbId": 7997,
+    "gbId": 27026,
+    "gbGuid": "3030-27026",
+    "tgdbId": 24165
+  },
+  {
+    "name": "Namco Museum",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex335",
+    "igdbId": 2646,
+    "gbId": 31471,
+    "gbGuid": "3030-31471",
+    "tgdbId": 20726
+  },
+  {
+    "name": "Nanashi no Game",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex336",
+    "igdbId": 67979,
+    "gbId": 27137,
+    "gbGuid": "3030-27137",
+    "tgdbId": 61350
+  },
+  {
+    "name": "Nanostray",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex337",
+    "igdbId": 21436,
+    "gbId": 12864,
+    "gbGuid": "3030-12864",
+    "tgdbId": 6853
+  },
+  {
+    "name": "Nanostray 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex338",
+    "igdbId": 20992,
+    "gbId": 21385,
+    "gbGuid": "3030-21385",
+    "tgdbId": 6854
+  },
+  {
+    "name": "Art Style: NEMREM",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex339",
+    "igdbId": 84762,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Nervous Brickdown",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex340",
+    "igdbId": 9507,
+    "gbId": 20551,
+    "gbGuid": "3030-20551",
+    "tgdbId": 16872
+  },
+  {
+    "name": "New International Track & Field",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex341",
+    "igdbId": 23030,
+    "gbId": 20619,
+    "gbGuid": "3030-20619",
+    "tgdbId": 11386
+  },
+  {
+    "name": "The New York Times Crosswords",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex342",
+    "igdbId": 44069,
+    "gbId": 12937,
+    "gbGuid": "3030-12937",
+    "tgdbId": 16771
+  },
+  {
+    "name": "Ni no Kuni: Dominion of the Dark Djinn",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex343",
+    "igdbId": 18856,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Ninja Gaiden: Dragon Sword",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex344",
+    "igdbId": 21466,
+    "gbId": 21178,
+    "gbGuid": "3030-21178",
+    "tgdbId": 50
+  },
+  {
+    "name": "Ninjatown",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex345",
+    "igdbId": 2825,
+    "gbId": 22801,
+    "gbGuid": "3030-22801",
+    "tgdbId": 14607
+  },
+  {
+    "name": "Nintendogs",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex346",
+    "igdbId": 3058,
+    "gbId": 10148,
+    "gbGuid": "3030-10148",
+    "tgdbId": null
+  },
+  {
+    "name": "Nostalgia",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex347",
+    "igdbId": 21904,
+    "gbId": 23987,
+    "gbGuid": "3030-23987",
+    "tgdbId": 11387
+  },
+  {
+    "name": "NRL Mascot Mania",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex348",
+    "igdbId": 124026,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 63029
+  },
+  {
+    "name": "Oishinbo: Kyukyoku no Menu 3bon Syoubu",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex349",
+    "igdbId": 48406,
+    "gbId": 41425,
+    "gbGuid": "3030-41425",
+    "tgdbId": 27240
+  },
+  {
+    "name": "Okamiden",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex350",
+    "igdbId": 16618,
+    "gbId": 28006,
+    "gbGuid": "3030-28006",
+    "tgdbId": 11388
+  },
+  {
+    "name": "Ontamarama",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex351",
+    "igdbId": 21509,
+    "gbId": 20556,
+    "gbGuid": "3030-20556",
+    "tgdbId": 42524
+  },
+  {
+    "name": "Osu! Tatakae! Ouendan",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex352",
+    "igdbId": 24645,
+    "gbId": 7037,
+    "gbGuid": "3030-7037",
+    "tgdbId": 28931
+  },
+  {
+    "name": "Otona no Onnaryoku Kentei",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex353",
+    "igdbId": 123376,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Over the Hedge",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex354",
+    "igdbId": 4059,
+    "gbId": 7954,
+    "gbGuid": "3030-7954",
+    "tgdbId": 16836
+  },
+  {
+    "name": "Overlord Minions",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex355",
+    "igdbId": 48,
+    "gbId": 23396,
+    "gbGuid": "3030-23396",
+    "tgdbId": 15169
+  },
+  {
+    "name": "Pac-Pix",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex356",
+    "igdbId": 18275,
+    "gbId": 1863,
+    "gbGuid": "3030-1863",
+    "tgdbId": 27290
+  },
+  {
+    "name": "Paint by DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex357",
+    "igdbId": 79868,
+    "gbId": 26381,
+    "gbGuid": "3030-26381",
+    "tgdbId": null
+  },
+  {
+    "name": "Pang: Magical Michael",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex358",
+    "igdbId": 66524,
+    "gbId": 31921,
+    "gbGuid": "3030-31921",
+    "tgdbId": null
+  },
+  {
+    "name": "The Penguins of Madagascar",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex359",
+    "igdbId": 18273,
+    "gbId": 69085,
+    "gbGuid": "3030-69085",
+    "tgdbId": 47507
+  },
+  {
+    "name": "Personal Trainer: Walking",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex360",
+    "igdbId": 71901,
+    "gbId": 23979,
+    "gbGuid": "3030-23979",
+    "tgdbId": 47380
+  },
+  {
+    "name": "Pet Alien: An Intergalactic Puzzlepalooza",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex361",
+    "igdbId": 8120,
+    "gbId": 27497,
+    "gbGuid": "3030-27497",
+    "tgdbId": 17044
+  },
+  {
+    "name": "Petz Rescue: Ocean Patrol",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex362",
+    "igdbId": 70534,
+    "gbId": 24822,
+    "gbGuid": "3030-24822",
+    "tgdbId": 47386
+  },
+  {
+    "name": "Phantasy Star Zero",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex363",
+    "igdbId": 21091,
+    "gbId": 23777,
+    "gbGuid": "3030-23777",
+    "tgdbId": 11389
+  },
+  {
+    "name": "Phineas and Ferb",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex364",
+    "igdbId": 47788,
+    "gbId": 25334,
+    "gbGuid": "3030-25334",
+    "tgdbId": 16407
+  },
+  {
+    "name": "Phineas and Ferb: Ride Again",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex365",
+    "igdbId": 66260,
+    "gbId": 33262,
+    "gbGuid": "3030-33262",
+    "tgdbId": 46903
+  },
+  {
+    "name": "Photo Dojo",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex366",
+    "igdbId": 67245,
+    "gbId": 29430,
+    "gbGuid": "3030-29430",
+    "tgdbId": 46104
+  },
+  {
+    "name": "Pic Pic",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex367",
+    "igdbId": 85344,
+    "gbId": 30620,
+    "gbGuid": "3030-30620",
+    "tgdbId": 11390
+  },
+  {
+    "name": "Picopict",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex368",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Picross DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex369",
+    "igdbId": 10617,
+    "gbId": 19050,
+    "gbGuid": "3030-19050",
+    "tgdbId": 11392
+  },
+  {
+    "name": "Picture Perfect Hair Salon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex370",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47400
+  },
+  {
+    "name": "PictureBook Games: The Royal Bluff",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex371",
+    "igdbId": 77127,
+    "gbId": 29112,
+    "gbGuid": "3030-29112",
+    "tgdbId": null
+  },
+  {
+    "name": "Ping Pals",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex372",
+    "igdbId": 18274,
+    "gbId": 3853,
+    "gbGuid": "3030-3853",
+    "tgdbId": 34397
+  },
+  {
+    "name": "Pirates: Duels on the High Seas",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex373",
+    "igdbId": 21274,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Planet Puzzle League",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex374",
+    "igdbId": 23093,
+    "gbId": 19256,
+    "gbGuid": "3030-19256",
+    "tgdbId": 17619
+  },
+  {
+    "name": "Pokémon Black/White Version 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex375",
+    "igdbId": 8353,
+    "gbId": 37603,
+    "gbGuid": "3030-37603",
+    "tgdbId": 13557
+  },
+  {
+    "name": "Pokémon Black Version 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex705",
+    "igdbId": 8353,
+    "gbId": 37603,
+    "gbGuid": "3030-37603",
+    "tgdbId": 13556
+  },
+  {
+    "name": "Pokémon Black Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex376",
+    "igdbId": null,
+    "gbId": 30613,
+    "gbGuid": "3030-30613",
+    "tgdbId": 2370
+  },
+  {
+    "name": "Pokémon White Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex706",
+    "igdbId": null,
+    "gbId": 30613,
+    "gbGuid": "3030-30613",
+    "tgdbId": 2371
+  },
+  {
+    "name": "Pokemon Conquest ",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex377",
+    "igdbId": 2288,
+    "gbId": 37054,
+    "gbGuid": "3030-37054",
+    "tgdbId": 62962
+  },
+  {
+    "name": "Pokémon Dash",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex378",
+    "igdbId": 18594,
+    "gbId": 1145,
+    "gbGuid": "3030-1145",
+    "tgdbId": 29195
+  },
+  {
+    "name": "Pokémon Diamond Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex379",
+    "igdbId": 1560,
+    "gbId": 3240,
+    "gbGuid": "3030-3240",
+    "tgdbId": 1539
+  },
+  {
+    "name": "Pokémon Pearl Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex707",
+    "igdbId": null,
+    "gbId": 3240,
+    "gbGuid": "3030-3240",
+    "tgdbId": 2366
+  },
+  {
+    "name": "Pokémon HeartGold Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex380",
+    "igdbId": 1556,
+    "gbId": 26372,
+    "gbGuid": "3030-26372",
+    "tgdbId": 2368
+  },
+  {
+    "name": "Pokémon SoulSilver Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex708",
+    "igdbId": 1520,
+    "gbId": 26372,
+    "gbGuid": "3030-26372",
+    "tgdbId": 2369
+  },
+  {
+    "name": "Pokémon Platinum Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex381",
+    "igdbId": 1519,
+    "gbId": 21676,
+    "gbGuid": "3030-21676",
+    "tgdbId": 2367
+  },
+  {
+    "name": "Pokémon Ranger",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex382",
+    "igdbId": null,
+    "gbId": 1812,
+    "gbGuid": "3030-1812",
+    "tgdbId": 13455
+  },
+  {
+    "name": "Pokémon Ranger: Shadows of Almia",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex383",
+    "igdbId": 14699,
+    "gbId": 21127,
+    "gbGuid": "3030-21127",
+    "tgdbId": 12501
+  },
+  {
+    "name": "Pokémon Trozei!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex384",
+    "igdbId": 8588,
+    "gbId": 7395,
+    "gbGuid": "3030-7395",
+    "tgdbId": 20894
+  },
+  {
+    "name": "Polarium",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex385",
+    "igdbId": 6537,
+    "gbId": 11138,
+    "gbGuid": "3030-11138",
+    "tgdbId": 24424
+  },
+  {
+    "name": "Pop Cutie! Street Fashion Simulation",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex386",
+    "igdbId": 72743,
+    "gbId": 23144,
+    "gbGuid": "3030-23144",
+    "tgdbId": 47405
+  },
+  {
+    "name": "Pop Island",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex387",
+    "igdbId": 68124,
+    "gbId": 26727,
+    "gbGuid": "3030-26727",
+    "tgdbId": null
+  },
+  {
+    "name": "Pop Island: Paperfield",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex388",
+    "igdbId": 84811,
+    "gbId": 68864,
+    "gbGuid": "3030-68864",
+    "tgdbId": null
+  },
+  {
+    "name": "Populous DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex389",
+    "igdbId": 8898,
+    "gbId": 21149,
+    "gbGuid": "3030-21149",
+    "tgdbId": 14860
+  },
+  {
+    "name": "Prey the Stars",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex390",
+    "igdbId": 21337,
+    "gbId": 21132,
+    "gbGuid": "3030-21132",
+    "tgdbId": 27292
+  },
+  {
+    "name": "Prince Of Persia: The Fallen King",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex391",
+    "igdbId": 21267,
+    "gbId": 21809,
+    "gbGuid": "3030-21809",
+    "tgdbId": 19230
+  },
+  {
+    "name": "Princess Debut",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex392",
+    "igdbId": 21225,
+    "gbId": 23440,
+    "gbGuid": "3030-23440",
+    "tgdbId": 15122
+  },
+  {
+    "name": "Professor Brainium's Games",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex393",
+    "igdbId": 80358,
+    "gbId": 21036,
+    "gbGuid": "3030-21036",
+    "tgdbId": 47413
+  },
+  {
+    "name": "Professor Kageyama's Maths Training",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex394",
+    "igdbId": 21507,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 43443
+  },
+  {
+    "name": "Professor Layton and the Last Specter",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex395",
+    "igdbId": 1400,
+    "gbId": 29299,
+    "gbGuid": "3030-29299",
+    "tgdbId": 10664
+  },
+  {
+    "name": "Professor Layton and the Unwound Future",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex396",
+    "igdbId": 1399,
+    "gbId": 22336,
+    "gbGuid": "3030-22336",
+    "tgdbId": 10665
+  },
+  {
+    "name": "Project Hacker: Kakusei",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex397",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Puchi Puchi Virus",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex398",
+    "igdbId": 21053,
+    "gbId": 21029,
+    "gbGuid": "3030-21029",
+    "tgdbId": 21262
+  },
+  {
+    "name": "Puzzle de Harvest Moon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex399",
+    "igdbId": 20897,
+    "gbId": 23771,
+    "gbGuid": "3030-23771",
+    "tgdbId": 15223
+  },
+  {
+    "name": "Puzzle Series",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex400",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Quest Trio: Jewels, Cards and Tiles",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex401",
+    "igdbId": 124083,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 14246
+  },
+  {
+    "name": "QuickSpot",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex402",
+    "igdbId": 20677,
+    "gbId": 15668,
+    "gbGuid": "3030-15668",
+    "tgdbId": 42533
+  },
+  {
+    "name": "Race Driver: Create & Race",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex403",
+    "igdbId": 20763,
+    "gbId": 23416,
+    "gbGuid": "3030-23416",
+    "tgdbId": 47444
+  },
+  {
+    "name": "Ragnarok DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex404",
+    "igdbId": 21097,
+    "gbId": 24232,
+    "gbGuid": "3030-24232",
+    "tgdbId": 11397
+  },
+  {
+    "name": "Rainbow Islands Revolution",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex405",
+    "igdbId": 22598,
+    "gbId": 15893,
+    "gbGuid": "3030-15893",
+    "tgdbId": 27834
+  },
+  {
+    "name": "Disney/Pixar Ratatouille: Food Frenzy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex406",
+    "igdbId": 18296,
+    "gbId": 21778,
+    "gbGuid": "3030-21778",
+    "tgdbId": 47434
+  },
+  {
+    "name": "Remindelight",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex407",
+    "igdbId": 123405,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Retro Atari Classics",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex408",
+    "igdbId": 18402,
+    "gbId": 10555,
+    "gbGuid": "3030-10555",
+    "tgdbId": 6872
+  },
+  {
+    "name": "Retro Game Challenge",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex409",
+    "igdbId": 21251,
+    "gbId": 21465,
+    "gbGuid": "3030-21465",
+    "tgdbId": 6873
+  },
+  {
+    "name": "Rhythm 'n Notes: Improve Your Music Skills",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex410",
+    "igdbId": null,
+    "gbId": 11385,
+    "gbGuid": "3030-11385",
+    "tgdbId": 47437
+  },
+  {
+    "name": "Rhythm de Run Run Run",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex411",
+    "igdbId": 123406,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rhythm Heaven",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex412",
+    "igdbId": 8167,
+    "gbId": 21312,
+    "gbGuid": "3030-21312",
+    "tgdbId": 12481
+  },
+  {
+    "name": "River City Soccer Hooligans",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex413",
+    "igdbId": 47838,
+    "gbId": 31298,
+    "gbGuid": "3030-31298",
+    "tgdbId": 27193
+  },
+  {
+    "name": "Robot Rescue",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex414",
+    "igdbId": 84844,
+    "gbId": 26639,
+    "gbGuid": "3030-26639",
+    "tgdbId": null
+  },
+  {
+    "name": "Rockin' Pretty",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex415",
+    "igdbId": 69155,
+    "gbId": 25668,
+    "gbGuid": "3030-25668",
+    "tgdbId": 47440
+  },
+  {
+    "name": "Rockman EXE Operate Shooting Star",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex416",
+    "igdbId": 1774,
+    "gbId": 27101,
+    "gbGuid": "3030-27101",
+    "tgdbId": null
+  },
+  {
+    "name": "Rondo of Swords",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex417",
+    "igdbId": 21481,
+    "gbId": 20571,
+    "gbGuid": "3030-20571",
+    "tgdbId": 14064
+  },
+  {
+    "name": "Roogoo Attack!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex418",
+    "igdbId": 21242,
+    "gbId": 25868,
+    "gbGuid": "3030-25868",
+    "tgdbId": 47442
+  },
+  {
+    "name": "Rosario to Vampire: Tanabata no Miss Youkai Gakuen",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex419",
+    "igdbId": 58727,
+    "gbId": 53225,
+    "gbGuid": "3030-53225",
+    "tgdbId": null
+  },
+  {
+    "name": "The Rub Rabbits!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex420",
+    "igdbId": 20488,
+    "gbId": 3064,
+    "gbGuid": "3030-3064",
+    "tgdbId": 21464
+  },
+  {
+    "name": "Rune Factory 2: A Fantasy Harvest Moon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex421",
+    "igdbId": 20768,
+    "gbId": 23516,
+    "gbGuid": "3030-23516",
+    "tgdbId": 11409
+  },
+  {
+    "name": "Rune Factory 3: A Fantasy Harvest Moon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex422",
+    "igdbId": 9640,
+    "gbId": 27199,
+    "gbGuid": "3030-27199",
+    "tgdbId": 11410
+  },
+  {
+    "name": "Rune Factory: A Fantasy Harvest Moon",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex423",
+    "igdbId": 20767,
+    "gbId": 21486,
+    "gbGuid": "3030-21486",
+    "tgdbId": 11407
+  },
+  {
+    "name": "Sakura Note",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex424",
+    "igdbId": 67734,
+    "gbId": 27948,
+    "gbGuid": "3030-27948",
+    "tgdbId": null
+  },
+  {
+    "name": "Sands of Destruction",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex425",
+    "igdbId": 24331,
+    "gbId": 24200,
+    "gbGuid": "3030-24200",
+    "tgdbId": 11411
+  },
+  {
+    "name": "SBK: Snowboard Kids",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex426",
+    "igdbId": 47725,
+    "gbId": 22102,
+    "gbGuid": "3030-22102",
+    "tgdbId": 6878
+  },
+  {
+    "name": "Scribblenauts",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex427",
+    "igdbId": 8807,
+    "gbId": 24741,
+    "gbGuid": "3030-24741",
+    "tgdbId": 11412
+  },
+  {
+    "name": "Sekai no Gohan Shaberu! DS Oryouri Navi",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex428",
+    "igdbId": 70563,
+    "gbId": 24751,
+    "gbGuid": "3030-24751",
+    "tgdbId": null
+  },
+  {
+    "name": "Shaun the Sheep",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex429",
+    "igdbId": 68942,
+    "gbId": 21081,
+    "gbGuid": "3030-21081",
+    "tgdbId": 47458
+  },
+  {
+    "name": "Sherlock Holmes and the Mystery of Osborne House",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex430",
+    "igdbId": 47926,
+    "gbId": 39708,
+    "gbGuid": "3030-39708",
+    "tgdbId": 18658
+  },
+  {
+    "name": "Shining Force Feather",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex431",
+    "igdbId": 47720,
+    "gbId": 23986,
+    "gbGuid": "3030-23986",
+    "tgdbId": 11052
+  },
+  {
+    "name": "Shonen Kininden Tsumuji",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex432",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48742
+  },
+  {
+    "name": "Shrek: Ogres and Dronkeys",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex433",
+    "igdbId": 47860,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 36945
+  },
+  {
+    "name": "Sigma Harmonics",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex434",
+    "igdbId": 24946,
+    "gbId": 22311,
+    "gbGuid": "3030-22311",
+    "tgdbId": null
+  },
+  {
+    "name": "SimCity DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex435",
+    "igdbId": 1494,
+    "gbId": 17114,
+    "gbGuid": "3030-17114",
+    "tgdbId": 42788
+  },
+  {
+    "name": "SimCity Creator",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex436",
+    "igdbId": 1493,
+    "gbId": 20960,
+    "gbGuid": "3030-20960",
+    "tgdbId": 9116
+  },
+  {
+    "name": "The Sims 2: Apartment Pets",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex437",
+    "igdbId": 21464,
+    "gbId": 21054,
+    "gbGuid": "3030-21054",
+    "tgdbId": 47512
+  },
+  {
+    "name": "Slide Adventure: Mag Kid",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex438",
+    "igdbId": 69702,
+    "gbId": 12222,
+    "gbGuid": "3030-12222",
+    "tgdbId": 51091
+  },
+  {
+    "name": "The Smurfs",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex439",
+    "igdbId": 80521,
+    "gbId": 47406,
+    "gbGuid": "3030-47406",
+    "tgdbId": 2096
+  },
+  {
+    "name": "SNK vs. Capcom Card Fighters' Clash - Capcom Card Fighter's Version",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex440",
+    "igdbId": 28398,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Snoopy DS: Let's Go Meet Snoopy and His Friends!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex441",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Solatorobo: Red the Hunter",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex442",
+    "igdbId": 9597,
+    "gbId": 30423,
+    "gbGuid": "3030-30423",
+    "tgdbId": 13135
+  },
+  {
+    "name": "Soma Bringer",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex443",
+    "igdbId": 21468,
+    "gbId": 21633,
+    "gbGuid": "3030-21633",
+    "tgdbId": 11419
+  },
+  {
+    "name": "Sonic Chronicles: The Dark Brotherhood",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex444",
+    "igdbId": 217,
+    "gbId": 20641,
+    "gbGuid": "3030-20641",
+    "tgdbId": 9609
+  },
+  {
+    "name": "Sonic Classic Collection",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex445",
+    "igdbId": 20502,
+    "gbId": 30187,
+    "gbGuid": "3030-30187",
+    "tgdbId": 18931
+  },
+  {
+    "name": "Sonic Rush",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex446",
+    "igdbId": 19258,
+    "gbId": 9479,
+    "gbGuid": "3030-9479",
+    "tgdbId": 6879
+  },
+  {
+    "name": "Sonic Rush Adventure",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex447",
+    "igdbId": 19261,
+    "gbId": 12778,
+    "gbGuid": "3030-12778",
+    "tgdbId": 11421
+  },
+  {
+    "name": "Sora no Otoshimono Forte: Dreamy Season",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex448",
+    "igdbId": 62623,
+    "gbId": 44527,
+    "gbGuid": "3030-44527",
+    "tgdbId": null
+  },
+  {
+    "name": "Soul Bubbles",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex449",
+    "igdbId": 21370,
+    "gbId": 20611,
+    "gbGuid": "3030-20611",
+    "tgdbId": 16871
+  },
+  {
+    "name": "Space Bust-A-Move",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex450",
+    "igdbId": 20484,
+    "gbId": 25411,
+    "gbGuid": "3030-25411",
+    "tgdbId": 20893
+  },
+  {
+    "name": "Space Invaders Extreme 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex451",
+    "igdbId": 8199,
+    "gbId": 25127,
+    "gbGuid": "3030-25127",
+    "tgdbId": 17622
+  },
+  {
+    "name": "Spanish for Everyone!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex452",
+    "igdbId": 25018,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47482
+  },
+  {
+    "name": "Spectrobes",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex453",
+    "igdbId": 5174,
+    "gbId": 18602,
+    "gbGuid": "3030-18602",
+    "tgdbId": 6881
+  },
+  {
+    "name": "Spectrobes: Beyond the Portals",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex454",
+    "igdbId": 5175,
+    "gbId": 21159,
+    "gbGuid": "3030-21159",
+    "tgdbId": 13389
+  },
+  {
+    "name": "Spice and Wolf",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex455",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Spongebob vs. The Big One: Beach Party Cook-Off",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex456",
+    "igdbId": 7993,
+    "gbId": 25057,
+    "gbGuid": "3030-25057",
+    "tgdbId": null
+  },
+  {
+    "name": "Spore Hero Arena",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex457",
+    "igdbId": 21214,
+    "gbId": 25119,
+    "gbGuid": "3030-25119",
+    "tgdbId": 14835
+  },
+  {
+    "name": "Sprung",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex458",
+    "igdbId": 124057,
+    "gbId": 20145,
+    "gbGuid": "3030-20145",
+    "tgdbId": 6883
+  },
+  {
+    "name": "Spyro: Shadow Legacy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex459",
+    "igdbId": 1581,
+    "gbId": 13512,
+    "gbGuid": "3030-13512",
+    "tgdbId": 29150
+  },
+  {
+    "name": "Star Wars The Clone Wars: Jedi Alliance",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex460",
+    "igdbId": 21335,
+    "gbId": 21021,
+    "gbGuid": "3030-21021",
+    "tgdbId": 23186
+  },
+  {
+    "name": "Steal Princess",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex461",
+    "igdbId": 21186,
+    "gbId": 24307,
+    "gbGuid": "3030-24307",
+    "tgdbId": 11425
+  },
+  {
+    "name": "SteamWorld Tower Defense",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex462",
+    "igdbId": 84391,
+    "gbId": 32009,
+    "gbGuid": "3030-32009",
+    "tgdbId": null
+  },
+  {
+    "name": "Style Savvy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex463",
+    "igdbId": 85398,
+    "gbId": 23978,
+    "gbGuid": "3030-23978",
+    "tgdbId": 20897
+  },
+  {
+    "name": "Sudoku Gridmaster",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex464",
+    "igdbId": 20538,
+    "gbId": 27786,
+    "gbGuid": "3030-27786",
+    "tgdbId": 47497
+  },
+  {
+    "name": "Sudokuro",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex465",
+    "igdbId": 123454,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47496
+  },
+  {
+    "name": "Suikoden Tierkreis",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex466",
+    "igdbId": 1452,
+    "gbId": 23478,
+    "gbGuid": "3030-23478",
+    "tgdbId": 11426
+  },
+  {
+    "name": "Sujin Taisen Number Battles",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex467",
+    "igdbId": 85408,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Summon Night X: Tears Crown",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex468",
+    "igdbId": 69297,
+    "gbId": 25150,
+    "gbGuid": "3030-25150",
+    "tgdbId": null
+  },
+  {
+    "name": "Summon Night: Twin Age",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex469",
+    "igdbId": 21477,
+    "gbId": 20615,
+    "gbGuid": "3030-20615",
+    "tgdbId": 11427
+  },
+  {
+    "name": "Super Dodgeball Brawlers",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex470",
+    "igdbId": 21052,
+    "gbId": 21609,
+    "gbGuid": "3030-21609",
+    "tgdbId": 41081
+  },
+  {
+    "name": "Super Monkey Ball: Touch & Roll",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex471",
+    "igdbId": 20489,
+    "gbId": 16029,
+    "gbGuid": "3030-16029",
+    "tgdbId": 20910
+  },
+  {
+    "name": "Super Princess Peach",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex472",
+    "igdbId": 20497,
+    "gbId": 9882,
+    "gbGuid": "3030-9882",
+    "tgdbId": 6887
+  },
+  {
+    "name": "Super Robot Taisen OG Saga: Endless Frontier",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex473",
+    "igdbId": 21187,
+    "gbId": 23621,
+    "gbGuid": "3030-23621",
+    "tgdbId": 11428
+  },
+  {
+    "name": "Super Robot Taisen OG Saga: Mugen no Frontier EXCEED",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex474",
+    "igdbId": 124069,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 50629
+  },
+  {
+    "name": "Super Robot Wars W",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex475",
+    "igdbId": 79341,
+    "gbId": 21244,
+    "gbGuid": "3030-21244",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Scribblenauts",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex476",
+    "igdbId": 8808,
+    "gbId": 30209,
+    "gbGuid": "3030-30209",
+    "tgdbId": 11051
+  },
+  {
+    "name": "Super Swap!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex477",
+    "igdbId": 54414,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "System: Flaw",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex478",
+    "igdbId": 67695,
+    "gbId": 28014,
+    "gbGuid": "3030-28014",
+    "tgdbId": 47503
+  },
+  {
+    "name": "Tales of the Tempest",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex479",
+    "igdbId": 19096,
+    "gbId": 21446,
+    "gbGuid": "3030-21446",
+    "tgdbId": 16987
+  },
+  {
+    "name": "Tamagotchi Connection: Corner Shop",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex480",
+    "igdbId": 20491,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 20892
+  },
+  {
+    "name": "Tamagotchi Connection: Corner Shop 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex481",
+    "igdbId": 20607,
+    "gbId": 46327,
+    "gbGuid": "3030-46327",
+    "tgdbId": 47048
+  },
+  {
+    "name": "Tamagotchi Connection: Corner Shop 3",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex482",
+    "igdbId": 26544,
+    "gbId": 21351,
+    "gbGuid": "3030-21351",
+    "tgdbId": 43446
+  },
+  {
+    "name": "Tank Beat",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex483",
+    "igdbId": 21532,
+    "gbId": 24381,
+    "gbGuid": "3030-24381",
+    "tgdbId": 14920
+  },
+  {
+    "name": "Tao's Adventure: Curse of the Demon Seal",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex484",
+    "igdbId": 20495,
+    "gbId": 6402,
+    "gbGuid": "3030-6402",
+    "tgdbId": 27196
+  },
+  {
+    "name": "Tecmo Bowl: Kickoff",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex485",
+    "igdbId": 21329,
+    "gbId": 21038,
+    "gbGuid": "3030-21038",
+    "tgdbId": 9237
+  },
+  {
+    "name": "Teenage Zombies: Invasion of the Alien Brain Thingys!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex486",
+    "igdbId": 21301,
+    "gbId": 21611,
+    "gbGuid": "3030-21611",
+    "tgdbId": 14849
+  },
+  {
+    "name": "Tenchu: Dark Secret",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex487",
+    "igdbId": 20557,
+    "gbId": 19998,
+    "gbGuid": "3030-19998",
+    "tgdbId": 27198
+  },
+  {
+    "name": "Tetris DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex488",
+    "igdbId": 18599,
+    "gbId": 10234,
+    "gbGuid": "3030-10234",
+    "tgdbId": 6888
+  },
+  {
+    "name": "That's So Raven: Psychic on the Scene",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex489",
+    "igdbId": 47951,
+    "gbId": 24170,
+    "gbGuid": "3030-24170",
+    "tgdbId": 42546
+  },
+  {
+    "name": "Theresia",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex490",
+    "igdbId": 21300,
+    "gbId": 21411,
+    "gbGuid": "3030-21411",
+    "tgdbId": 13962
+  },
+  {
+    "name": "ThunderCats",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex491",
+    "igdbId": 8060,
+    "gbId": 38569,
+    "gbGuid": "3030-38569",
+    "tgdbId": 32838
+  },
+  {
+    "name": "Petz Wild Animals: Tigerz",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex492",
+    "igdbId": 66227,
+    "gbId": 33404,
+    "gbGuid": "3030-33404",
+    "tgdbId": 47387
+  },
+  {
+    "name": "Time Ace",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex493",
+    "igdbId": 21545,
+    "gbId": 46670,
+    "gbGuid": "3030-46670",
+    "tgdbId": 41060
+  },
+  {
+    "name": "Time Hollow",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex494",
+    "igdbId": 21055,
+    "gbId": 21052,
+    "gbGuid": "3030-21052",
+    "tgdbId": 11430
+  },
+  {
+    "name": "Tokyo Beat Down",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex495",
+    "igdbId": 20703,
+    "gbId": 25040,
+    "gbGuid": "3030-25040",
+    "tgdbId": 13948
+  },
+  {
+    "name": "Tomodachi Collection",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex496",
+    "igdbId": 71900,
+    "gbId": 23982,
+    "gbGuid": "3030-23982",
+    "tgdbId": 47098
+  },
+  {
+    "name": "Tony Hawk's Motion",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex497",
+    "igdbId": 21929,
+    "gbId": 23634,
+    "gbGuid": "3030-23634",
+    "tgdbId": 44536
+  },
+  {
+    "name": "Tornado",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex498",
+    "igdbId": 21333,
+    "gbId": 21086,
+    "gbGuid": "3030-21086",
+    "tgdbId": 41086
+  },
+  {
+    "name": "Touch Detective 2 1/2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex499",
+    "igdbId": 21237,
+    "gbId": 8676,
+    "gbGuid": "3030-8676",
+    "tgdbId": 19305
+  },
+  {
+    "name": "Touch Dictionary",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex500",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "TouchMaster",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex501",
+    "igdbId": 21442,
+    "gbId": 20637,
+    "gbGuid": "3030-20637",
+    "tgdbId": 6892
+  },
+  {
+    "name": "Toy Shop",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex502",
+    "igdbId": 21299,
+    "gbId": 22964,
+    "gbGuid": "3030-22964",
+    "tgdbId": 47527
+  },
+  {
+    "name": "TrackMania DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex503",
+    "igdbId": 21304,
+    "gbId": 22406,
+    "gbGuid": "3030-22406",
+    "tgdbId": 11432
+  },
+  {
+    "name": "Transformers Animated: The Game",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex504",
+    "igdbId": 47846,
+    "gbId": 27812,
+    "gbGuid": "3030-27812",
+    "tgdbId": 24618
+  },
+  {
+    "name": "Transformers: Autobots",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex505",
+    "igdbId": 21536,
+    "gbId": 27027,
+    "gbGuid": "3030-27027",
+    "tgdbId": 6895
+  },
+  {
+    "name": "Transformers: Decepticons",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex506",
+    "igdbId": 21536,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42727
+  },
+  {
+    "name": "Transformers: Revenge of the Fallen - Autobots",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex507",
+    "igdbId": 7471,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42729
+  },
+  {
+    "name": "Transformers: Revenge of the Fallen - Decepticons",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex508",
+    "igdbId": 7471,
+    "gbId": 27211,
+    "gbGuid": "3030-27211",
+    "tgdbId": 42730
+  },
+  {
+    "name": "Transformers: War for Cybertron",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex509",
+    "igdbId": 47945,
+    "gbId": 29405,
+    "gbGuid": "3030-29405",
+    "tgdbId": 900
+  },
+  {
+    "name": "Trauma Center: Under the Knife 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex510",
+    "igdbId": 1526,
+    "gbId": 20620,
+    "gbGuid": "3030-20620",
+    "tgdbId": 11053
+  },
+  {
+    "name": "Treasure World",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex511",
+    "igdbId": 21125,
+    "gbId": 26624,
+    "gbGuid": "3030-26624",
+    "tgdbId": 44070
+  },
+  {
+    "name": "Trioncube",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex512",
+    "igdbId": 21547,
+    "gbId": 31017,
+    "gbGuid": "3030-31017",
+    "tgdbId": 20891
+  },
+  {
+    "name": "True Swing Golf",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex513",
+    "igdbId": 20493,
+    "gbId": 11329,
+    "gbGuid": "3030-11329",
+    "tgdbId": 12841
+  },
+  {
+    "name": "Ultimate Mortal Kombat",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex514",
+    "igdbId": 21526,
+    "gbId": 21277,
+    "gbGuid": "3030-21277",
+    "tgdbId": 6897
+  },
+  {
+    "name": "Unsolved Crimes",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex515",
+    "igdbId": 21376,
+    "gbId": 21807,
+    "gbGuid": "3030-21807",
+    "tgdbId": 39082
+  },
+  {
+    "name": "Utacchi",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex516",
+    "igdbId": 80482,
+    "gbId": 30618,
+    "gbGuid": "3030-30618",
+    "tgdbId": null
+  },
+  {
+    "name": "Valkyrie Profile: Covenant of the Plume",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex517",
+    "igdbId": 6579,
+    "gbId": 21400,
+    "gbGuid": "3030-21400",
+    "tgdbId": 11434
+  },
+  {
+    "name": "Viewtiful Joe: Double Trouble!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex518",
+    "igdbId": 5987,
+    "gbId": 20043,
+    "gbGuid": "3030-20043",
+    "tgdbId": 6899
+  },
+  {
+    "name": "Viva Piñata: Pocket Paradise",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex519",
+    "igdbId": 47724,
+    "gbId": 21062,
+    "gbGuid": "3030-21062",
+    "tgdbId": 6900
+  },
+  {
+    "name": "Wagyan Land",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex520",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 26566
+  },
+  {
+    "name": "WarioWare: Snapped!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex521",
+    "igdbId": 1707,
+    "gbId": 24313,
+    "gbGuid": "3030-24313",
+    "tgdbId": null
+  },
+  {
+    "name": "What's Cooking with Jamie Oliver",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex522",
+    "igdbId": 80202,
+    "gbId": 24399,
+    "gbGuid": "3030-24399",
+    "tgdbId": 47540
+  },
+  {
+    "name": "A Witch's Tale",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex523",
+    "igdbId": 24264,
+    "gbId": 22803,
+    "gbGuid": "3030-22803",
+    "tgdbId": 11435
+  },
+  {
+    "name": "The Wizard of Oz: Beyond the Yellow Brick Road",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex524",
+    "igdbId": 21116,
+    "gbId": 24394,
+    "gbGuid": "3030-24394",
+    "tgdbId": 15128
+  },
+  {
+    "name": "Wizards of Waverly Place",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex525",
+    "igdbId": 44065,
+    "gbId": 26807,
+    "gbGuid": "3030-26807",
+    "tgdbId": 16970
+  },
+  {
+    "name": "Wizards of Waverly Place: Spellbound",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex526",
+    "igdbId": 24309,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42528
+  },
+  {
+    "name": "James Patterson: Women's Murder Club: Games of Passion",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex527",
+    "igdbId": 47831,
+    "gbId": 26836,
+    "gbGuid": "3030-26836",
+    "tgdbId": 29311
+  },
+  {
+    "name": "WordJong",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex528",
+    "igdbId": null,
+    "gbId": 21466,
+    "gbGuid": "3030-21466",
+    "tgdbId": 13371
+  },
+  {
+    "name": "World Snooker Championship 2007",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex529",
+    "igdbId": 7248,
+    "gbId": 38757,
+    "gbGuid": "3030-38757",
+    "tgdbId": 39288
+  },
+  {
+    "name": "X-Scape",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex530",
+    "igdbId": 67155,
+    "gbId": 29633,
+    "gbGuid": "3030-29633",
+    "tgdbId": null
+  },
+  {
+    "name": "Xenosaga I & II",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex531",
+    "igdbId": 26805,
+    "gbId": 11881,
+    "gbGuid": "3030-11881",
+    "tgdbId": 54170
+  },
+  {
+    "name": "Yakuman DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex532",
+    "igdbId": 18596,
+    "gbId": 29145,
+    "gbGuid": "3030-29145",
+    "tgdbId": 33581
+  },
+  {
+    "name": "Ys Strategy",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex533",
+    "igdbId": 15456,
+    "gbId": 24107,
+    "gbGuid": "3030-24107",
+    "tgdbId": 41056
+  },
+  {
+    "name": "Zoo Tycoon DS 2",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex534",
+    "igdbId": 20773,
+    "gbId": 41998,
+    "gbGuid": "3030-41998",
+    "tgdbId": 40455
+  },
+  {
+    "name": "Zoo Tycoon DS",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex535",
+    "igdbId": 18598,
+    "gbId": 9677,
+    "gbGuid": "3030-9677",
+    "tgdbId": 19824
+  },
+  {
+    "name": "Zoobles! Spring to Life!",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex536",
+    "igdbId": 9753,
+    "gbId": 36426,
+    "gbGuid": "3030-36426",
+    "tgdbId": 47565
+  },
+  {
+    "name": "Zubo",
+    "details": "Nintendo DS exclusive",
+    "id": "ndsex537",
+    "igdbId": 21472,
+    "gbId": 21085,
+    "gbGuid": "3030-21085",
+    "tgdbId": 15126
+  }
+]

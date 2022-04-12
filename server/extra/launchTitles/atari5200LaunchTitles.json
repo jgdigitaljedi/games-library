@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Galaxian",
+    "id": "a52lt1",
+    "details": "Atari 5200 launch title",
+    "igdbId": 4614,
+    "gbId": 2445,
+    "gbGuid": "3030-2445",
+    "tgdbId": 5158
+  },
+  {
+    "name": "Space Invaders",
+    "id": "a52lt2",
+    "details": "Atari 5200 launch title",
+    "igdbId": 3601,
+    "gbId": 5099,
+    "gbGuid": "3030-5099",
+    "tgdbId": 116
+  },
+  {
+    "name": "Super Breakout",
+    "id": "a52lt3",
+    "details": "Atari 5200 launch title",
+    "igdbId": 12321,
+    "gbId": 1055,
+    "gbGuid": "3030-1055",
+    "tgdbId": 5221
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "xblt1",
+    "name": "Shrek",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 3667,
+    "gbId": 17338,
+    "gbGuid": "3030-17338",
+    "tgdbId": 47795
+  },
+  {
+    "id": "xblt2",
+    "name": "Halo: Combat Evolved",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 740,
+    "gbId": 2600,
+    "gbGuid": "3030-2600",
+    "tgdbId": 1
+  },
+  {
+    "id": "xblt3",
+    "name": "Oddworld: Munch's Oddysee",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 1001,
+    "gbId": 3684,
+    "gbGuid": "3030-3684",
+    "tgdbId": 10395
+  },
+  {
+    "id": "xblt4",
+    "name": "Dead or Alive 3",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 1389,
+    "gbId": 5418,
+    "gbGuid": "3030-5418",
+    "tgdbId": 6043
+  },
+  {
+    "id": "xblt5",
+    "name": "Project Gotham Racing",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 3320,
+    "gbId": 941,
+    "gbGuid": "3030-941",
+    "tgdbId": 21254
+  },
+  {
+    "id": "xblt6",
+    "name": "NFL Fever 2002",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 5961,
+    "gbId": 4829,
+    "gbGuid": "3030-4829",
+    "tgdbId": 18467
+  },
+  {
+    "id": "xblt7",
+    "name": "AirForce Delta Storm",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 5718,
+    "gbId": 11494,
+    "gbGuid": "3030-11494",
+    "tgdbId": 3312
+  },
+  {
+    "id": "xblt8",
+    "name": "Mad Dash Racing",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 5905,
+    "gbId": 4902,
+    "gbGuid": "3030-4902",
+    "tgdbId": 17866
+  },
+  {
+    "id": "xblt9",
+    "name": "Cel Damage",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 3852,
+    "gbId": 19116,
+    "gbGuid": "3030-19116",
+    "tgdbId": 6021
+  },
+  {
+    "id": "xblt10",
+    "name": "Arctic Thunder",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 3703,
+    "gbId": 5118,
+    "gbGuid": "3030-5118",
+    "tgdbId": 9976
+  },
+  {
+    "id": "xblt11",
+    "name": "Fuzion Frenzy",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 5842,
+    "gbId": 16650,
+    "gbGuid": "3030-16650",
+    "tgdbId": 6070
+  },
+  {
+    "id": "xblt12",
+    "name": "Tony Hawk's Pro Skater 2X",
+    "details": "Microsoft Xbox launch title",
+    "igdbId": 47325,
+    "gbId": 12691,
+    "gbGuid": "3030-12691",
+    "tgdbId": 6219
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "gclt1",
+    "name": "All-Star Baseball 2002",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 10624,
+    "gbId": 15578,
+    "gbGuid": "3030-15578",
+    "tgdbId": 5765
+  },
+  {
+    "id": "gclt2",
+    "name": "Batman: Vengeance",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 5740,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 2569
+  },
+  {
+    "id": "gclt3",
+    "name": "Crazy Taxi",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 1805,
+    "gbId": 9112,
+    "gbGuid": "3030-9112",
+    "tgdbId": 2520
+  },
+  {
+    "id": "gclt4",
+    "name": "Dave Mirra Freestyle BMX 2",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 3871,
+    "gbId": 10174,
+    "gbGuid": "3030-10174",
+    "tgdbId": 3374
+  },
+  {
+    "id": "gclt5",
+    "name": "Disney's Tarzan Untamed",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": null,
+    "gbId": 19474,
+    "gbGuid": "3030-19474",
+    "tgdbId": 30811
+  },
+  {
+    "id": "gclt6",
+    "name": "Luigi's Mansion",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 2485,
+    "gbId": 10996,
+    "gbGuid": "3030-10996",
+    "tgdbId": 2237
+  },
+  {
+    "id": "gclt7",
+    "name": "Madden NFL 2002",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 3539,
+    "gbId": 10845,
+    "gbGuid": "3030-10845",
+    "tgdbId": 269
+  },
+  {
+    "id": "gclt8",
+    "name": "NHL Hitz 20-02",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 4046,
+    "gbId": 11863,
+    "gbGuid": "3030-11863",
+    "tgdbId": 7439
+  },
+  {
+    "id": "gclt9",
+    "name": "Star Wars Rogue Squadron II: Rogue Leader",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 4181,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 7055
+  },
+  {
+    "id": "gclt10",
+    "name": "Super Monkey Ball",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 2927,
+    "gbId": 7247,
+    "gbGuid": "3030-7247",
+    "tgdbId": 6780
+  },
+  {
+    "id": "gclt11",
+    "name": "Tony Hawk's Pro Skater 3",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 914,
+    "gbId": 5688,
+    "gbGuid": "3030-5688",
+    "tgdbId": 1219
+  },
+  {
+    "id": "gclt12",
+    "name": "Wave Race: Blue Storm",
+    "details": "Nintendo GameCube launch title",
+    "igdbId": 4232,
+    "gbId": 11793,
+    "gbGuid": "3030-11793",
+    "tgdbId": 2328
+  }
+]

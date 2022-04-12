@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Blue Stinger",
+    "id": "dclt1",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 6715,
+    "gbId": 21183,
+    "gbGuid": "3030-21183",
+    "tgdbId": 3650
+  },
+  {
+    "name": "Millennium Soldier Expendable",
+    "id": "dclt2",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 45816,
+    "gbId": 16472,
+    "gbGuid": "3030-16472",
+    "tgdbId": 52720
+  },
+  {
+    "name": "CART Flag to Flag",
+    "id": "dclt3",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 6721,
+    "gbId": 6225,
+    "gbGuid": "3030-6225",
+    "tgdbId": 29230
+  },
+  {
+    "name": "The House of the Dead 2",
+    "id": "dclt4",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 13777,
+    "gbId": 422,
+    "gbGuid": "3030-422",
+    "tgdbId": 3961
+  },
+  {
+    "name": "Hydro Thunder",
+    "id": "dclt5",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 3370,
+    "gbId": 13241,
+    "gbGuid": "3030-13241",
+    "tgdbId": 258
+  },
+  {
+    "name": "Monaco Grand Prix",
+    "id": "dclt6",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 3413,
+    "gbId": 27620,
+    "gbGuid": "3030-27620",
+    "tgdbId": 1144
+  },
+  {
+    "name": "Mortal Kombat Gold",
+    "id": "dclt7",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 45155,
+    "gbId": 4652,
+    "gbGuid": "3030-4652",
+    "tgdbId": 3648
+  },
+  {
+    "name": "NFL 2K",
+    "id": "dclt8",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 8842,
+    "gbId": 4659,
+    "gbGuid": "3030-4659",
+    "tgdbId": 3954
+  },
+  {
+    "name": "NFL Blitz 2000",
+    "id": "dclt9",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 4366,
+    "gbId": 2849,
+    "gbGuid": "3030-2849",
+    "tgdbId": 581
+  },
+  {
+    "name": "Pen Pen TriIcelon",
+    "id": "dclt10",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 46361,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 39279
+  },
+  {
+    "name": "Power Stone",
+    "id": "dclt11",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 4355,
+    "gbId": 20100,
+    "gbGuid": "3030-20100",
+    "tgdbId": 3576
+  },
+  {
+    "name": "Ready 2 Rumble Boxing",
+    "id": "dclt12",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 3586,
+    "gbId": 19836,
+    "gbGuid": "3030-19836",
+    "tgdbId": 396
+  },
+  {
+    "name": "Sonic Adventure",
+    "id": "dclt13",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 7860,
+    "gbId": 7852,
+    "gbGuid": "3030-7852",
+    "tgdbId": 2416
+  },
+  {
+    "name": "SoulCalibur",
+    "id": "dclt14",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 1564,
+    "gbId": 12411,
+    "gbGuid": "3030-12411",
+    "tgdbId": 7767
+  },
+  {
+    "name": "TNN Motorsports Hardcore Heat",
+    "id": "dclt15",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 45845,
+    "gbId": 10015,
+    "gbGuid": "3030-10015",
+    "tgdbId": 11073
+  },
+  {
+    "name": "Tokyo Xtreme Racer",
+    "id": "dclt16",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 20710,
+    "gbId": 7007,
+    "gbGuid": "3030-7007",
+    "tgdbId": 11070
+  },
+  {
+    "name": "TrickStyle",
+    "id": "dclt17",
+    "details": "Sega Dreamcast launch title",
+    "igdbId": 8229,
+    "gbId": 5290,
+    "gbGuid": "3030-5290",
+    "tgdbId": 11065
+  }
+]

@@ -1,0 +1,4313 @@
+[
+  {
+    "name": ".hack//Infection Part 1",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex1",
+    "igdbId": 11807,
+    "gbId": 10287,
+    "gbGuid": "3030-10287",
+    "tgdbId": 7218
+  },
+  {
+    "name": ".hack//Mutation Part 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex470",
+    "igdbId": 11808,
+    "gbId": 12021,
+    "gbGuid": "3030-12021",
+    "tgdbId": 7219
+  },
+  {
+    "name": ".hack//frägment",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex471",
+    "igdbId": 11811,
+    "gbId": 30691,
+    "gbGuid": "3030-30691",
+    "tgdbId": 20772
+  },
+  {
+    "name": ".hack//Outbreak Part 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex472",
+    "igdbId": 11809,
+    "gbId": 2038,
+    "gbGuid": "3030-2038",
+    "tgdbId": 7220
+  },
+  {
+    "name": ".hack//Quarantine Part 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex473",
+    "igdbId": 11810,
+    "gbId": 13921,
+    "gbGuid": "3030-13921",
+    "tgdbId": 7221
+  },
+  {
+    "name": ".hack//G.U. vol. 1//Rebirth",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex474",
+    "igdbId": 11987,
+    "gbId": 1695,
+    "gbGuid": "3030-1695",
+    "tgdbId": 12739
+  },
+  {
+    "name": ".hack//G.U. vol. 2//Reminisce",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex475",
+    "igdbId": 11988,
+    "gbId": 22823,
+    "gbGuid": "3030-22823",
+    "tgdbId": 12791
+  },
+  {
+    "name": ".hack//G.U. vol. 3//Redemption",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex476",
+    "igdbId": 12027,
+    "gbId": 22824,
+    "gbGuid": "3030-22824",
+    "tgdbId": 12768
+  },
+  {
+    "name": "Super Robot Wars Alpha 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex2",
+    "igdbId": 78766,
+    "gbId": 22607,
+    "gbGuid": "3030-22607",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Robot Wars Alpha 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex3",
+    "igdbId": 79338,
+    "gbId": 22429,
+    "gbGuid": "3030-22429",
+    "tgdbId": null
+  },
+  {
+    "name": "7 Blades",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex4",
+    "igdbId": 27622,
+    "gbId": 26491,
+    "gbGuid": "3030-26491",
+    "tgdbId": 27847
+  },
+  {
+    "name": "10,000 Bullets",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex5",
+    "igdbId": 14727,
+    "gbId": 23711,
+    "gbGuid": "3030-23711",
+    "tgdbId": 18703
+  },
+  {
+    "name": "24: The Game",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex6",
+    "igdbId": 6062,
+    "gbId": 13700,
+    "gbGuid": "3030-13700",
+    "tgdbId": 5854
+  },
+  {
+    "name": "Ace Combat 04: Shattered Skies",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex7",
+    "igdbId": 9763,
+    "gbId": 1602,
+    "gbGuid": "3030-1602",
+    "tgdbId": 9620
+  },
+  {
+    "name": "Ace Combat 5: The Unsung War",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex8",
+    "igdbId": 14753,
+    "gbId": 14827,
+    "gbGuid": "3030-14827",
+    "tgdbId": 3912
+  },
+  {
+    "name": "Ace Combat Zero: The Belkan War",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex9",
+    "igdbId": 14754,
+    "gbId": 17960,
+    "gbGuid": "3030-17960",
+    "tgdbId": 4422
+  },
+  {
+    "name": "AFL Premiership 2006",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex10",
+    "igdbId": 43452,
+    "gbId": 17674,
+    "gbGuid": "3030-17674",
+    "tgdbId": 30327
+  },
+  {
+    "name": "AFL Premiership 2007",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex11",
+    "igdbId": 43675,
+    "gbId": 18812,
+    "gbGuid": "3030-18812",
+    "tgdbId": 5386
+  },
+  {
+    "name": "Air Ranger: Rescue Helicopter",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex12",
+    "igdbId": 46036,
+    "gbId": 26498,
+    "gbGuid": "3030-26498",
+    "tgdbId": 5872
+  },
+  {
+    "name": "Airblade",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex13",
+    "igdbId": 8231,
+    "gbId": 21988,
+    "gbGuid": "3030-21988",
+    "tgdbId": 5869
+  },
+  {
+    "name": "Airforce Delta Strike",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex14",
+    "igdbId": 24187,
+    "gbId": 26515,
+    "gbGuid": "3030-26515",
+    "tgdbId": 5870
+  },
+  {
+    "name": "Akira Psycho Ball",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex15",
+    "igdbId": 27110,
+    "gbId": 24088,
+    "gbGuid": "3030-24088",
+    "tgdbId": 18388
+  },
+  {
+    "name": "All Star Pro-Wrestling",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex16",
+    "igdbId": 43646,
+    "gbId": 29915,
+    "gbGuid": "3030-29915",
+    "tgdbId": 35900
+  },
+  {
+    "name": "Altered Beast",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex17",
+    "igdbId": 19411,
+    "gbId": 35737,
+    "gbGuid": "3030-35737",
+    "tgdbId": 118
+  },
+  {
+    "name": "Amplitude",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex18",
+    "igdbId": 2141,
+    "gbId": 1420,
+    "gbGuid": "3030-1420",
+    "tgdbId": 36610
+  },
+  {
+    "name": "A.C.E.: Another Century's Episode",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex19",
+    "igdbId": 9566,
+    "gbId": 26524,
+    "gbGuid": "3030-26524",
+    "tgdbId": 41762
+  },
+  {
+    "name": "Another Century's Episode 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex20",
+    "igdbId": 9579,
+    "gbId": 25610,
+    "gbGuid": "3030-25610",
+    "tgdbId": null
+  },
+  {
+    "name": "Another Century's Episode 3: The Final",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex21",
+    "igdbId": 9582,
+    "gbId": 22533,
+    "gbGuid": "3030-22533",
+    "tgdbId": null
+  },
+  {
+    "name": "Ape Escape 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex22",
+    "igdbId": 6063,
+    "gbId": 11667,
+    "gbGuid": "3030-11667",
+    "tgdbId": 9625
+  },
+  {
+    "name": "Ape Escape 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex23",
+    "igdbId": 6064,
+    "gbId": 19388,
+    "gbGuid": "3030-19388",
+    "tgdbId": 9626
+  },
+  {
+    "name": "Ape Escape: Pumped & Primed",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex24",
+    "igdbId": 46030,
+    "gbId": 26504,
+    "gbGuid": "3030-26504",
+    "tgdbId": 5882
+  },
+  {
+    "name": "Aqua Aqua",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex25",
+    "igdbId": 43549,
+    "gbId": 3026,
+    "gbGuid": "3030-3026",
+    "tgdbId": 26654
+  },
+  {
+    "name": "Aqua Teen Hunger Force: Zombie Ninja Pro-Am",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex26",
+    "igdbId": 6911,
+    "gbId": 22105,
+    "gbGuid": "3030-22105",
+    "tgdbId": 5883
+  },
+  {
+    "name": "Ar tonelico II: Melody of Metafalica",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex27",
+    "igdbId": 21285,
+    "gbId": 21541,
+    "gbGuid": "3030-21541",
+    "tgdbId": 7676
+  },
+  {
+    "name": "Ar tonelico: Melody of Elemia",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex28",
+    "igdbId": 21538,
+    "gbId": 17621,
+    "gbGuid": "3030-17621",
+    "tgdbId": 5889
+  },
+  {
+    "name": "Arc the Lad: End of Darkness",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex29",
+    "igdbId": 43649,
+    "gbId": 3798,
+    "gbGuid": "3030-3798",
+    "tgdbId": 9627
+  },
+  {
+    "name": "Arc the Lad: Twilight of the Spirits",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex30",
+    "igdbId": 21558,
+    "gbId": 4247,
+    "gbGuid": "3030-4247",
+    "tgdbId": 9628
+  },
+  {
+    "name": "Arena Football: Road to Glory",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex31",
+    "igdbId": 17276,
+    "gbId": 25106,
+    "gbGuid": "3030-25106",
+    "tgdbId": 41145
+  },
+  {
+    "name": "Armored Core 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex32",
+    "igdbId": 31719,
+    "gbId": 20039,
+    "gbGuid": "3030-20039",
+    "tgdbId": 5365
+  },
+  {
+    "name": "Armored Core 2: Another Age",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex33",
+    "igdbId": 46029,
+    "gbId": 4609,
+    "gbGuid": "3030-4609",
+    "tgdbId": 5886
+  },
+  {
+    "name": "Armored Core: Nexus",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex34",
+    "igdbId": 19412,
+    "gbId": 22733,
+    "gbGuid": "3030-22733",
+    "tgdbId": 18839
+  },
+  {
+    "name": "Armored Core: Nine Breaker",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex35",
+    "igdbId": 23146,
+    "gbId": 22734,
+    "gbGuid": "3030-22734",
+    "tgdbId": 37323
+  },
+  {
+    "name": "Astro Boy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex36",
+    "igdbId": 121365,
+    "gbId": 12118,
+    "gbGuid": "3030-12118",
+    "tgdbId": 5247
+  },
+  {
+    "name": "Atelier Iris 2: The Azoth of Destiny",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex37",
+    "igdbId": 20510,
+    "gbId": 1959,
+    "gbGuid": "3030-1959",
+    "tgdbId": 9629
+  },
+  {
+    "name": "Atelier Iris 3: Grand Phantasm",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex38",
+    "igdbId": 21406,
+    "gbId": 21442,
+    "gbGuid": "3030-21442",
+    "tgdbId": 8545
+  },
+  {
+    "name": "Atelier Iris: Eternal Mana",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex39",
+    "igdbId": 19634,
+    "gbId": 15050,
+    "gbGuid": "3030-15050",
+    "tgdbId": 5890
+  },
+  {
+    "name": "ATV Offroad Fury",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex40",
+    "igdbId": 8269,
+    "gbId": 19032,
+    "gbGuid": "3030-19032",
+    "tgdbId": 5892
+  },
+  {
+    "name": "ATV Offroad Fury 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex41",
+    "igdbId": 8270,
+    "gbId": 19001,
+    "gbGuid": "3030-19001",
+    "tgdbId": 8320
+  },
+  {
+    "name": "Azumi",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex42",
+    "igdbId": 90930,
+    "gbId": 26530,
+    "gbGuid": "3030-26530",
+    "tgdbId": 52540
+  },
+  {
+    "name": "Bass Strike",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex43",
+    "igdbId": 43286,
+    "gbId": 45734,
+    "gbGuid": "3030-45734",
+    "tgdbId": 38021
+  },
+  {
+    "name": "Beatmania",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex44",
+    "igdbId": 20498,
+    "gbId": 2951,
+    "gbGuid": "3030-2951",
+    "tgdbId": 36446
+  },
+  {
+    "name": "Berserk: Millennium Falcon Hen Seima Senki no Shou",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex45",
+    "igdbId": 78212,
+    "gbId": 7700,
+    "gbGuid": "3030-7700",
+    "tgdbId": 23861
+  },
+  {
+    "name": "Best Student Council",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex46",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Beverly Hills Cop",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex47",
+    "igdbId": 11956,
+    "gbId": 33280,
+    "gbGuid": "3030-33280",
+    "tgdbId": 38129
+  },
+  {
+    "name": "Binchō-tan (manga)",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex48",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Black/Matrix",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex49",
+    "igdbId": 45415,
+    "gbId": 12638,
+    "gbGuid": "3030-12638",
+    "tgdbId": 31374
+  },
+  {
+    "name": "Bleach: Blade Battlers",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex50",
+    "igdbId": 72983,
+    "gbId": 21720,
+    "gbGuid": "3030-21720",
+    "tgdbId": null
+  },
+  {
+    "name": "Bleach: Blade Battlers 2nd",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex478",
+    "igdbId": 75997,
+    "gbId": 22231,
+    "gbGuid": "3030-22231",
+    "tgdbId": null
+  },
+  {
+    "name": "Blood Will Tell",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex51",
+    "igdbId": 18864,
+    "gbId": 11334,
+    "gbGuid": "3030-11334",
+    "tgdbId": 12794
+  },
+  {
+    "name": "Bloody Roar 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex52",
+    "igdbId": 24104,
+    "gbId": 22302,
+    "gbGuid": "3030-22302",
+    "tgdbId": 9634
+  },
+  {
+    "name": "Bludgeoning Angel Dokuro-Chan",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex53",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Goemon: Bouken Jidai Katsugeki",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex54",
+    "igdbId": 72230,
+    "gbId": 6317,
+    "gbGuid": "3030-6317",
+    "tgdbId": null
+  },
+  {
+    "name": "Bombastic",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex55",
+    "igdbId": 22280,
+    "gbId": 15899,
+    "gbGuid": "3030-15899",
+    "tgdbId": 9955
+  },
+  {
+    "name": "Bomberman Hardball",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex56",
+    "igdbId": 45295,
+    "gbId": 21531,
+    "gbGuid": "3030-21531",
+    "tgdbId": 4193
+  },
+  {
+    "name": "Bomberman Kart",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex57",
+    "igdbId": 43535,
+    "gbId": 38929,
+    "gbGuid": "3030-38929",
+    "tgdbId": 25072
+  },
+  {
+    "name": "Bomberman Land 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex58",
+    "igdbId": 64947,
+    "gbId": 38928,
+    "gbGuid": "3030-38928",
+    "tgdbId": null
+  },
+  {
+    "name": "The Bouncer",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex59",
+    "igdbId": 1349,
+    "gbId": 11814,
+    "gbGuid": "3030-11814",
+    "tgdbId": 5914
+  },
+  {
+    "name": "Brave: The Search for Spirit Dancer",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex60",
+    "igdbId": 20689,
+    "gbId": 5731,
+    "gbGuid": "3030-5731",
+    "tgdbId": 23836
+  },
+  {
+    "name": "Breath of Fire: Dragon Quarter",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex61",
+    "igdbId": 18056,
+    "gbId": 1273,
+    "gbGuid": "3030-1273",
+    "tgdbId": 9636
+  },
+  {
+    "name": "Bujingai: The Forsaken City",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex62",
+    "igdbId": 19413,
+    "gbId": 2838,
+    "gbGuid": "3030-2838",
+    "tgdbId": 5907
+  },
+  {
+    "name": "Buzz! Junior: Ace Racers",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex63",
+    "igdbId": 21305,
+    "gbId": 33136,
+    "gbGuid": "3030-33136",
+    "tgdbId": 28229
+  },
+  {
+    "name": "Buzz! The BIG Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex64",
+    "igdbId": 18716,
+    "gbId": 17236,
+    "gbGuid": "3030-17236",
+    "tgdbId": 9640
+  },
+  {
+    "name": "Buzz! The Hollywood Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex65",
+    "igdbId": 23065,
+    "gbId": 14010,
+    "gbGuid": "3030-14010",
+    "tgdbId": 27516
+  },
+  {
+    "name": "Buzz! The Mega Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex66",
+    "igdbId": 23089,
+    "gbId": 10866,
+    "gbGuid": "3030-10866",
+    "tgdbId": 28233
+  },
+  {
+    "name": "Buzz! The Music Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex67",
+    "igdbId": 18715,
+    "gbId": 19321,
+    "gbGuid": "3030-19321",
+    "tgdbId": 9639
+  },
+  {
+    "name": "Buzz! The Pop Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex68",
+    "igdbId": 43584,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Buzz!: The Schools Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex69",
+    "igdbId": 93404,
+    "gbId": 3746,
+    "gbGuid": "3030-3746",
+    "tgdbId": null
+  },
+  {
+    "name": "Buzz! The Sports Quiz",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex70",
+    "igdbId": 43520,
+    "gbId": 53101,
+    "gbGuid": "3030-53101",
+    "tgdbId": 27517
+  },
+  {
+    "name": "Cabela's Monster Bass",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex71",
+    "igdbId": 43219,
+    "gbId": 20916,
+    "gbGuid": "3030-20916",
+    "tgdbId": 45271
+  },
+  {
+    "name": "Call of Duty: World at War - Final Fronts",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex72",
+    "igdbId": 19836,
+    "gbId": 24485,
+    "gbGuid": "3030-24485",
+    "tgdbId": 19775
+  },
+  {
+    "name": "Champions of Norrath",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex73",
+    "igdbId": 9813,
+    "gbId": 13217,
+    "gbGuid": "3030-13217",
+    "tgdbId": 5923
+  },
+  {
+    "name": "Champions: Return to Arms",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex74",
+    "igdbId": 10237,
+    "gbId": 3156,
+    "gbGuid": "3030-3156",
+    "tgdbId": 5924
+  },
+  {
+    "name": "Chaos Wars",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex75",
+    "igdbId": 21051,
+    "gbId": 21398,
+    "gbGuid": "3030-21398",
+    "tgdbId": 12919
+  },
+  {
+    "name": "ChoroQ",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex76",
+    "igdbId": 27073,
+    "gbId": 4160,
+    "gbGuid": "3030-4160",
+    "tgdbId": 18781
+  },
+  {
+    "name": "City Crisis",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex77",
+    "igdbId": 22011,
+    "gbId": 20397,
+    "gbGuid": "3030-20397",
+    "tgdbId": 21551
+  },
+  {
+    "name": "Clock Tower 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex78",
+    "igdbId": 18305,
+    "gbId": 17962,
+    "gbGuid": "3030-17962",
+    "tgdbId": 9644
+  },
+  {
+    "name": "Code Age Commanders",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex79",
+    "igdbId": 91669,
+    "gbId": 27697,
+    "gbGuid": "3030-27697",
+    "tgdbId": null
+  },
+  {
+    "name": "Cold Winter",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex80",
+    "igdbId": 8277,
+    "gbId": 9491,
+    "gbGuid": "3030-9491",
+    "tgdbId": 5933
+  },
+  {
+    "name": "Coloball 2002",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex81",
+    "igdbId": 91681,
+    "gbId": 27655,
+    "gbGuid": "3030-27655",
+    "tgdbId": null
+  },
+  {
+    "name": "Colosseum: Road to Freedom",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex82",
+    "igdbId": 22456,
+    "gbId": 582,
+    "gbGuid": "3030-582",
+    "tgdbId": 5934
+  },
+  {
+    "name": "Cool Boarders: Code Alien",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex83",
+    "igdbId": 26134,
+    "gbId": 64977,
+    "gbGuid": "3030-64977",
+    "tgdbId": null
+  },
+  {
+    "name": "Cowboy Bebop: Tsuioku no Serenade",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex84",
+    "igdbId": 43406,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 35719
+  },
+  {
+    "name": "Crimson Sea",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex85",
+    "igdbId": 5792,
+    "gbId": 15785,
+    "gbGuid": "3030-15785",
+    "tgdbId": 13947
+  },
+  {
+    "name": "Crimson Tears",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex86",
+    "igdbId": 22300,
+    "gbId": 2700,
+    "gbGuid": "3030-2700",
+    "tgdbId": 12821
+  },
+  {
+    "name": "Cy Girls",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex87",
+    "igdbId": 22284,
+    "gbId": 2798,
+    "gbGuid": "3030-2798",
+    "tgdbId": 7199
+  },
+  {
+    "name": "Dance Dance Revolution Extreme 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex88",
+    "igdbId": 43577,
+    "gbId": 6962,
+    "gbGuid": "3030-6962",
+    "tgdbId": 22139
+  },
+  {
+    "name": "Dance Dance Revolution X2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex89",
+    "igdbId": 43218,
+    "gbId": 29420,
+    "gbGuid": "3030-29420",
+    "tgdbId": 45440
+  },
+  {
+    "name": "Dance Factory",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex90",
+    "igdbId": 20560,
+    "gbId": 20403,
+    "gbGuid": "3030-20403",
+    "tgdbId": 16974
+  },
+  {
+    "name": "Dancing Stage Max",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex91",
+    "igdbId": 62839,
+    "gbId": 44083,
+    "gbGuid": "3030-44083",
+    "tgdbId": null
+  },
+  {
+    "name": "Dancing Stage MegaMix",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex92",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 55461
+  },
+  {
+    "name": "Dark Angel: Vampire Apocalypse",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex93",
+    "igdbId": 43607,
+    "gbId": 13563,
+    "gbGuid": "3030-13563",
+    "tgdbId": 15210
+  },
+  {
+    "name": "Dark Cloud 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex94",
+    "igdbId": 1215,
+    "gbId": 10007,
+    "gbGuid": "3030-10007",
+    "tgdbId": 9649
+  },
+  {
+    "name": "Dark Cloud",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex95",
+    "igdbId": 1214,
+    "gbId": 1861,
+    "gbGuid": "3030-1861",
+    "tgdbId": 7201
+  },
+  {
+    "name": "Dawn of Mana",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex96",
+    "igdbId": 14989,
+    "gbId": 21772,
+    "gbGuid": "3030-21772",
+    "tgdbId": 12916
+  },
+  {
+    "name": "Dear Boys",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex97",
+    "igdbId": 44419,
+    "gbId": 37381,
+    "gbGuid": "3030-37381",
+    "tgdbId": 37676
+  },
+  {
+    "name": "DearS",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex98",
+    "igdbId": 60880,
+    "gbId": 48074,
+    "gbGuid": "3030-48074",
+    "tgdbId": null
+  },
+  {
+    "name": "Destruction Derby: Arenas",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex99",
+    "igdbId": 1171,
+    "gbId": 3729,
+    "gbGuid": "3030-3729",
+    "tgdbId": 7209
+  },
+  {
+    "name": "Digimon World Data Squad",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex100",
+    "igdbId": 20761,
+    "gbId": 25049,
+    "gbGuid": "3030-25049",
+    "tgdbId": 7213
+  },
+  {
+    "name": "Dino Stalker",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex101",
+    "igdbId": 22065,
+    "gbId": 7500,
+    "gbGuid": "3030-7500",
+    "tgdbId": 28250
+  },
+  {
+    "name": "Dirge of Cerberus: Final Fantasy VII",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex102",
+    "igdbId": 18068,
+    "gbId": 5571,
+    "gbGuid": "3030-5571",
+    "tgdbId": 839
+  },
+  {
+    "name": "Disney Golf",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex103",
+    "igdbId": 19212,
+    "gbId": 21262,
+    "gbGuid": "3030-21262",
+    "tgdbId": 28251
+  },
+  {
+    "name": "Disney's Stitch: Experiment 626",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex104",
+    "igdbId": 25911,
+    "gbId": 20410,
+    "gbGuid": "3030-20410",
+    "tgdbId": 7446
+  },
+  {
+    "name": "Dog's Life",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex105",
+    "igdbId": 22251,
+    "gbId": 5857,
+    "gbGuid": "3030-5857",
+    "tgdbId": 7217
+  },
+  {
+    "name": "Don 2: The King is Back (video game)",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex106",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Downhill Domination",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex107",
+    "igdbId": 6340,
+    "gbId": 21793,
+    "gbGuid": "3030-21793",
+    "tgdbId": 21114
+  },
+  {
+    "name": "Dragon Ball Z: Infinite World",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex108",
+    "igdbId": 2570,
+    "gbId": 23529,
+    "gbGuid": "3030-23529",
+    "tgdbId": 20820
+  },
+  {
+    "name": "Dragon Quest: Shōnen Yangus to Fushigi no Dungeon",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex109",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Rage",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex110",
+    "igdbId": 32159,
+    "gbId": 27491,
+    "gbGuid": "3030-27491",
+    "tgdbId": 21242
+  },
+  {
+    "name": "Drakan: The Ancients' Gates",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex111",
+    "igdbId": 7577,
+    "gbId": 13587,
+    "gbGuid": "3030-13587",
+    "tgdbId": 7227
+  },
+  {
+    "name": "Drakengard 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex112",
+    "igdbId": 11663,
+    "gbId": 19242,
+    "gbGuid": "3030-19242",
+    "tgdbId": 10720
+  },
+  {
+    "name": "Driving Emotion Type-S",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex113",
+    "igdbId": 44693,
+    "gbId": 6137,
+    "gbGuid": "3030-6137",
+    "tgdbId": 18759
+  },
+  {
+    "name": "Dropship: United Peace Force",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex114",
+    "igdbId": 44723,
+    "gbId": 12832,
+    "gbGuid": "3030-12832",
+    "tgdbId": 9653
+  },
+  {
+    "name": "Dynasty Tactics",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex115",
+    "igdbId": 6842,
+    "gbId": 15390,
+    "gbGuid": "3030-15390",
+    "tgdbId": 7232
+  },
+  {
+    "name": "The Earl and the Fairy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex116",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Echo Night: Beyond",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex117",
+    "igdbId": 9515,
+    "gbId": 11628,
+    "gbGuid": "3030-11628",
+    "tgdbId": 12412
+  },
+  {
+    "name": "Elemental Gelade",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex118",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Elvandia Story",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex119",
+    "igdbId": 43276,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 40060
+  },
+  {
+    "name": "Endonesia",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex120",
+    "igdbId": 91684,
+    "gbId": 27600,
+    "gbGuid": "3030-27600",
+    "tgdbId": null
+  },
+  {
+    "name": "Energy Airforce aimStrike!",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex121",
+    "igdbId": 43380,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47163
+  },
+  {
+    "name": "Enthusia Professional Racing",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex122",
+    "igdbId": 19818,
+    "gbId": 6978,
+    "gbGuid": "3030-6978",
+    "tgdbId": 7240
+  },
+  {
+    "name": "EOE: Eve of Extinction",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex123",
+    "igdbId": 23454,
+    "gbId": 11958,
+    "gbGuid": "3030-11958",
+    "tgdbId": 7245
+  },
+  {
+    "name": "Ephemeral Fantasia",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex124",
+    "igdbId": 44722,
+    "gbId": 6696,
+    "gbGuid": "3030-6696",
+    "tgdbId": 9682
+  },
+  {
+    "name": "Eternal Poison",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex125",
+    "igdbId": 21334,
+    "gbId": 22847,
+    "gbGuid": "3030-22847",
+    "tgdbId": 12778
+  },
+  {
+    "name": "Eternal Ring",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex126",
+    "igdbId": 10905,
+    "gbId": 18651,
+    "gbGuid": "3030-18651",
+    "tgdbId": 12639
+  },
+  {
+    "name": "Everblue",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex127",
+    "igdbId": 37082,
+    "gbId": 22126,
+    "gbGuid": "3030-22126",
+    "tgdbId": 36172
+  },
+  {
+    "name": "Everblue 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex128",
+    "igdbId": 9656,
+    "gbId": 12675,
+    "gbGuid": "3030-12675",
+    "tgdbId": 7246
+  },
+  {
+    "name": "EverGrace",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex129",
+    "igdbId": 10904,
+    "gbId": 11960,
+    "gbGuid": "3030-11960",
+    "tgdbId": 9656
+  },
+  {
+    "name": "EverQuest Online Adventures",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex130",
+    "igdbId": 23742,
+    "gbId": 19126,
+    "gbGuid": "3030-19126",
+    "tgdbId": 19747
+  },
+  {
+    "name": "Hot Shots Golf 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex131",
+    "igdbId": 23459,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 7297
+  },
+  {
+    "name": "Everybody's Golf 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex132",
+    "igdbId": 36584,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Everybody's Tennis",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex133",
+    "igdbId": 21537,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 44655
+  },
+  {
+    "name": "Extermination",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex134",
+    "igdbId": 10914,
+    "gbId": 18159,
+    "gbGuid": "3030-18159",
+    "tgdbId": 12924
+  },
+  {
+    "name": "Eyetoy Play: Pompom Party",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex135",
+    "igdbId": 2215,
+    "gbId": 31913,
+    "gbGuid": "3030-31913",
+    "tgdbId": 49642
+  },
+  {
+    "name": "EyeToy Play: Sports",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex790",
+    "igdbId": 44676,
+    "gbId": 31924,
+    "gbGuid": "3030-31924",
+    "tgdbId": 28308
+  },
+  {
+    "name": "EyeToy: AntiGrav",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex136",
+    "igdbId": 19253,
+    "gbId": 9806,
+    "gbGuid": "3030-9806",
+    "tgdbId": 24732
+  },
+  {
+    "name": "EyeToy: Groove",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex137",
+    "igdbId": 22250,
+    "gbId": 16620,
+    "gbGuid": "3030-16620",
+    "tgdbId": 9684
+  },
+  {
+    "name": "EyeToy: Kinetic",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex138",
+    "igdbId": 22550,
+    "gbId": 6739,
+    "gbGuid": "3030-6739",
+    "tgdbId": 45497
+  },
+  {
+    "name": "EyeToy: Monkey Mania",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex139",
+    "igdbId": null,
+    "gbId": 31917,
+    "gbGuid": "3030-31917",
+    "tgdbId": 28307
+  },
+  {
+    "name": "EyeToy: Operation Spy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex140",
+    "igdbId": null,
+    "gbId": 23430,
+    "gbGuid": "3030-23430",
+    "tgdbId": 60320
+  },
+  {
+    "name": "EyeToy: Play",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex141",
+    "igdbId": 18724,
+    "gbId": 6930,
+    "gbGuid": "3030-6930",
+    "tgdbId": 4920
+  },
+  {
+    "name": "EyeToy: Play 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex142",
+    "igdbId": 19842,
+    "gbId": 7172,
+    "gbGuid": "3030-7172",
+    "tgdbId": 9685
+  },
+  {
+    "name": "EyeToy: Play 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex143",
+    "igdbId": 19843,
+    "gbId": 4583,
+    "gbGuid": "3030-4583",
+    "tgdbId": 8714
+  },
+  {
+    "name": "The Familiar of Zero",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex144",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Final Approach",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex145",
+    "igdbId": 18973,
+    "gbId": 5593,
+    "gbGuid": "3030-5593",
+    "tgdbId": 30363
+  },
+  {
+    "name": "Final Fantasy X",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex146",
+    "igdbId": 418,
+    "gbId": 11237,
+    "gbGuid": "3030-11237",
+    "tgdbId": 20
+  },
+  {
+    "name": "Final Fantasy X-2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex147",
+    "igdbId": 413,
+    "gbId": 8985,
+    "gbGuid": "3030-8985",
+    "tgdbId": 19
+  },
+  {
+    "name": "Firefighter F.D. 18",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex148",
+    "igdbId": 22282,
+    "gbId": 7892,
+    "gbGuid": "3030-7892",
+    "tgdbId": 37333
+  },
+  {
+    "name": "Recca no Honoo: Flame of Recca",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex149",
+    "igdbId": 49412,
+    "gbId": 43479,
+    "gbGuid": "3030-43479",
+    "tgdbId": 31603
+  },
+  {
+    "name": "Forbidden Siren 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex150",
+    "igdbId": 14411,
+    "gbId": 15963,
+    "gbGuid": "3030-15963",
+    "tgdbId": 17692
+  },
+  {
+    "name": "Forever Kingdom",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex151",
+    "igdbId": 10907,
+    "gbId": 22700,
+    "gbGuid": "3030-22700",
+    "tgdbId": 12780
+  },
+  {
+    "name": "Formula One 04",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex152",
+    "igdbId": 8302,
+    "gbId": 5426,
+    "gbGuid": "3030-5426",
+    "tgdbId": 9692
+  },
+  {
+    "name": "Formula One 05",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex153",
+    "igdbId": 8303,
+    "gbId": 11983,
+    "gbGuid": "3030-11983",
+    "tgdbId": null
+  },
+  {
+    "name": "Formula One 2002",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex154",
+    "igdbId": 8300,
+    "gbId": 11266,
+    "gbGuid": "3030-11266",
+    "tgdbId": 18772
+  },
+  {
+    "name": "Formula One 2003",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex155",
+    "igdbId": 8301,
+    "gbId": 9056,
+    "gbGuid": "3030-9056",
+    "tgdbId": 37334
+  },
+  {
+    "name": "Frequency",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex156",
+    "igdbId": 9111,
+    "gbId": 5825,
+    "gbGuid": "3030-5825",
+    "tgdbId": 7266
+  },
+  {
+    "name": "Front Mission 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex157",
+    "igdbId": 1503,
+    "gbId": 771,
+    "gbGuid": "3030-771",
+    "tgdbId": 7268
+  },
+  {
+    "name": "Front Mission 5: Scars of the War",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex158",
+    "igdbId": 1506,
+    "gbId": 13524,
+    "gbGuid": "3030-13524",
+    "tgdbId": 21000
+  },
+  {
+    "name": "Fullmetal Alchemist 2: Curse of the Crimson Elixir",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex159",
+    "igdbId": 19072,
+    "gbId": 15106,
+    "gbGuid": "3030-15106",
+    "tgdbId": 7269
+  },
+  {
+    "name": "Fullmetal Alchemist 3: Kami o Tsugu Shojo",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex160",
+    "igdbId": 57443,
+    "gbId": 56591,
+    "gbGuid": "3030-56591",
+    "tgdbId": null
+  },
+  {
+    "name": "Fullmetal Alchemist and the Broken Angel",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex161",
+    "igdbId": 19071,
+    "gbId": 23866,
+    "gbGuid": "3030-23866",
+    "tgdbId": 4916
+  },
+  {
+    "name": "Fullmetal Alchemist: Dream Carnival",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex162",
+    "igdbId": 43405,
+    "gbId": 36066,
+    "gbGuid": "3030-36066",
+    "tgdbId": 35724
+  },
+  {
+    "name": "Futakoi",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex163",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Futakoi Alternative",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex164",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "G-Surfers",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex165",
+    "igdbId": 43624,
+    "gbId": 30163,
+    "gbGuid": "3030-30163",
+    "tgdbId": null
+  },
+  {
+    "name": "G1 Jockey",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex166",
+    "igdbId": 44695,
+    "gbId": 60294,
+    "gbGuid": "3030-60294",
+    "tgdbId": 18700
+  },
+  {
+    "name": "Gaelic Games: Football",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex167",
+    "igdbId": 98973,
+    "gbId": 1053,
+    "gbGuid": "3030-1053",
+    "tgdbId": null
+  },
+  {
+    "name": "Gakuen Utopia Manabi Straight! Kira Kira Happy Festa!",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex168",
+    "igdbId": 61449,
+    "gbId": 46709,
+    "gbGuid": "3030-46709",
+    "tgdbId": null
+  },
+  {
+    "name": "Galactic Wrestling: Featuring Ultimate Muscle",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex169",
+    "igdbId": 43679,
+    "gbId": 23204,
+    "gbGuid": "3030-23204",
+    "tgdbId": 35905
+  },
+  {
+    "name": "Galaxy Angel II",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex170",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Galerians: Ash",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex171",
+    "igdbId": 19629,
+    "gbId": 718,
+    "gbGuid": "3030-718",
+    "tgdbId": 13855
+  },
+  {
+    "name": "Gaurodan",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex172",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 23158
+  },
+  {
+    "name": "Genji: Dawn of the Samurai",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex173",
+    "igdbId": 14407,
+    "gbId": 8898,
+    "gbGuid": "3030-8898",
+    "tgdbId": 7276
+  },
+  {
+    "name": "Get On Da Mic",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex174",
+    "igdbId": 20186,
+    "gbId": 22492,
+    "gbGuid": "3030-22492",
+    "tgdbId": 7277
+  },
+  {
+    "name": "The Getaway",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex175",
+    "igdbId": 8237,
+    "gbId": 1470,
+    "gbGuid": "3030-1470",
+    "tgdbId": 7449
+  },
+  {
+    "name": "The Getaway: Black Monday",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex176",
+    "igdbId": 8238,
+    "gbId": 14785,
+    "gbGuid": "3030-14785",
+    "tgdbId": 7450
+  },
+  {
+    "name": "Ghost in the Shell: Stand Alone Complex",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex177",
+    "igdbId": 24252,
+    "gbId": 9987,
+    "gbGuid": "3030-9987",
+    "tgdbId": 5385
+  },
+  {
+    "name": "Ghosthunter",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex178",
+    "igdbId": 22279,
+    "gbId": 179,
+    "gbGuid": "3030-179",
+    "tgdbId": 7278
+  },
+  {
+    "name": "GioGio's Bizarre Adventure",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex179",
+    "igdbId": 75965,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Girls Bravo Romance15's",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex180",
+    "igdbId": 60879,
+    "gbId": 48075,
+    "gbGuid": "3030-48075",
+    "tgdbId": null
+  },
+  {
+    "name": "Glass Rose",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex181",
+    "igdbId": 43441,
+    "gbId": 1177,
+    "gbGuid": "3030-1177",
+    "tgdbId": 30686
+  },
+  {
+    "name": "Global Defence Force: Tactics",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex182",
+    "igdbId": 5582,
+    "gbId": 31138,
+    "gbGuid": "3030-31138",
+    "tgdbId": 42243
+  },
+  {
+    "name": "Go Go Golf",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex183",
+    "igdbId": 60885,
+    "gbId": 48053,
+    "gbGuid": "3030-48053",
+    "tgdbId": null
+  },
+  {
+    "name": "GoDai: Elemental Force",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex184",
+    "igdbId": 43654,
+    "gbId": 29924,
+    "gbGuid": "3030-29924",
+    "tgdbId": 7280
+  },
+  {
+    "name": "Golden Knight GARO",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex185",
+    "igdbId": 79099,
+    "gbId": 32057,
+    "gbGuid": "3030-32057",
+    "tgdbId": null
+  },
+  {
+    "name": "Graffiti Kingdom",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex186",
+    "igdbId": 11358,
+    "gbId": 11425,
+    "gbGuid": "3030-11425",
+    "tgdbId": 14877
+  },
+  {
+    "name": "Gran Turismo 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex187",
+    "igdbId": 1600,
+    "gbId": 12950,
+    "gbGuid": "3030-12950",
+    "tgdbId": 4164
+  },
+  {
+    "name": "Gran Turismo 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex188",
+    "igdbId": 1601,
+    "gbId": 17784,
+    "gbGuid": "3030-17784",
+    "tgdbId": 3929
+  },
+  {
+    "name": "Gran Turismo Concept",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex189",
+    "igdbId": 1603,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Grand Prix Challenge",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex190",
+    "igdbId": 43600,
+    "gbId": 14919,
+    "gbGuid": "3030-14919",
+    "tgdbId": 18783
+  },
+  {
+    "name": "Gregory Horror Show",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex191",
+    "igdbId": 22252,
+    "gbId": 6964,
+    "gbGuid": "3030-6964",
+    "tgdbId": 29918
+  },
+  {
+    "name": "Growlanser Generations",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex192",
+    "igdbId": 21311,
+    "gbId": 17786,
+    "gbGuid": "3030-17786",
+    "tgdbId": 9705
+  },
+  {
+    "name": "Growlanser II: The Sense of Justice",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex193",
+    "igdbId": 21310,
+    "gbId": 24207,
+    "gbGuid": "3030-24207",
+    "tgdbId": null
+  },
+  {
+    "name": "Growlanser III: The Dual Darkness",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex194",
+    "igdbId": 21312,
+    "gbId": 24208,
+    "gbGuid": "3030-24208",
+    "tgdbId": null
+  },
+  {
+    "name": "Growlanser VI: Precarious World",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex195",
+    "igdbId": 21314,
+    "gbId": 24209,
+    "gbGuid": "3030-24209",
+    "tgdbId": null
+  },
+  {
+    "name": "Guitar Hero",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex196",
+    "igdbId": 1285,
+    "gbId": 6311,
+    "gbGuid": "3030-6311",
+    "tgdbId": 7189
+  },
+  {
+    "name": "Guitar Hero Encore: Rocks the 80s",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex197",
+    "igdbId": 23081,
+    "gbId": 12241,
+    "gbGuid": "3030-12241",
+    "tgdbId": 19749
+  },
+  {
+    "name": "Gunbird Special Edition",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex198",
+    "igdbId": 44643,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 23485
+  },
+  {
+    "name": "Gundam: Battle Assault",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex199",
+    "igdbId": 45006,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 11537
+  },
+  {
+    "name": "Gundam: Battle Assault 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex800",
+    "igdbId": 45007,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 11536
+  },
+  {
+    "name": "Gunfighter II: Revenge of Jesse James",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex200",
+    "igdbId": 43531,
+    "gbId": 18780,
+    "gbGuid": "3030-18780",
+    "tgdbId": 25899
+  },
+  {
+    "name": "Gungrave",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex201",
+    "igdbId": 22072,
+    "gbId": 9037,
+    "gbGuid": "3030-9037",
+    "tgdbId": 7292
+  },
+  {
+    "name": "Gunslinger Girl Volume I",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex202",
+    "igdbId": 43268,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42316
+  },
+  {
+    "name": "Half-Life: Decay",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex203",
+    "igdbId": 6738,
+    "gbId": 22690,
+    "gbGuid": "3030-22690",
+    "tgdbId": null
+  },
+  {
+    "name": "Hard Hitter Tennis",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex204",
+    "igdbId": 43605,
+    "gbId": 27014,
+    "gbGuid": "3030-27014",
+    "tgdbId": 13972
+  },
+  {
+    "name": "Hardware: Online Arena",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex205",
+    "igdbId": 15697,
+    "gbId": 2441,
+    "gbGuid": "3030-2441",
+    "tgdbId": 29494
+  },
+  {
+    "name": "Harukanaru Toki no Naka de",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex206",
+    "igdbId": 70657,
+    "gbId": 24352,
+    "gbGuid": "3030-24352",
+    "tgdbId": 46475
+  },
+  {
+    "name": "Haruka: Beyond the Stream of Time (manga)",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex207",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Haunting Ground",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex208",
+    "igdbId": 14605,
+    "gbId": 2842,
+    "gbGuid": "3030-2842",
+    "tgdbId": 9710
+  },
+  {
+    "name": "Haven: Call of the King",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex209",
+    "igdbId": 19090,
+    "gbId": 4228,
+    "gbGuid": "3030-4228",
+    "tgdbId": 7294
+  },
+  {
+    "name": "Masters of the Universe: He-Man: Defender of Grayskull",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex210",
+    "igdbId": 8156,
+    "gbId": 8057,
+    "gbGuid": "3030-8057",
+    "tgdbId": 23327
+  },
+  {
+    "name": "Heavy Metal Thunder",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex211",
+    "igdbId": 56142,
+    "gbId": 59378,
+    "gbGuid": "3030-59378",
+    "tgdbId": null
+  },
+  {
+    "name": "Herdy Gerdy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex212",
+    "igdbId": 43657,
+    "gbId": 3004,
+    "gbGuid": "3030-3004",
+    "tgdbId": 7972
+  },
+  {
+    "name": "Heroes of Might and Magic: Quest for the Dragon Bone Staff",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex213",
+    "igdbId": 13459,
+    "gbId": 17108,
+    "gbGuid": "3030-17108",
+    "tgdbId": 12928
+  },
+  {
+    "name": "Hidden Invasion",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex214",
+    "igdbId": 43601,
+    "gbId": 14109,
+    "gbGuid": "3030-14109",
+    "tgdbId": 31775
+  },
+  {
+    "name": "Houkago no Love Beat",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex215",
+    "igdbId": 56957,
+    "gbId": 57779,
+    "gbGuid": "3030-57779",
+    "tgdbId": null
+  },
+  {
+    "name": "Hunter: The Reckoning Wayward",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex216",
+    "igdbId": 24096,
+    "gbId": 914,
+    "gbGuid": "3030-914",
+    "tgdbId": 17005
+  },
+  {
+    "name": "Ichigeki Sacchu!! HoiHoi-san",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex217",
+    "igdbId": 67054,
+    "gbId": 29897,
+    "gbGuid": "3030-29897",
+    "tgdbId": null
+  },
+  {
+    "name": "Demon Chaos",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex218",
+    "igdbId": 72861,
+    "gbId": 22555,
+    "gbGuid": "3030-22555",
+    "tgdbId": 50386
+  },
+  {
+    "name": "Inspector Gadget: Mad Robots Invasion",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex219",
+    "igdbId": 4865,
+    "gbId": 22098,
+    "gbGuid": "3030-22098",
+    "tgdbId": 23430
+  },
+  {
+    "name": "InuYasha: Feudal Combat",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex220",
+    "igdbId": 10256,
+    "gbId": 22109,
+    "gbGuid": "3030-22109",
+    "tgdbId": 23814
+  },
+  {
+    "name": "InuYasha: The Secret of the Cursed Mask",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex221",
+    "igdbId": 43655,
+    "gbId": 12564,
+    "gbGuid": "3030-12564",
+    "tgdbId": 7304
+  },
+  {
+    "name": "Winning Eleven 2007",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex222",
+    "igdbId": 83838,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "J.League Winning Eleven 2008 Club Championship",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex223",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "J.League Winning Eleven 2010 Club Championship",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex224",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Jackie Chan Adventures",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex225",
+    "igdbId": 8154,
+    "gbId": 17027,
+    "gbGuid": "3030-17027",
+    "tgdbId": 26014
+  },
+  {
+    "name": "Jade Cocoon 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex226",
+    "igdbId": 18079,
+    "gbId": 11572,
+    "gbGuid": "3030-11572",
+    "tgdbId": 12897
+  },
+  {
+    "name": "Rise to Honor",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex227",
+    "igdbId": 22281,
+    "gbId": 13809,
+    "gbGuid": "3030-13809",
+    "tgdbId": 7445
+  },
+  {
+    "name": "Jet X2O",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex228",
+    "igdbId": null,
+    "gbId": 29075,
+    "gbGuid": "3030-29075",
+    "tgdbId": 7312
+  },
+  {
+    "name": "Jonny Moseley: Mad Trix",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex229",
+    "igdbId": 49336,
+    "gbId": 834,
+    "gbGuid": "3030-834",
+    "tgdbId": 26005
+  },
+  {
+    "name": "Kamiwaza",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex230",
+    "igdbId": 92559,
+    "gbId": 36092,
+    "gbGuid": "3030-36092",
+    "tgdbId": null
+  },
+  {
+    "name": "Kanokon: Esuii",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex231",
+    "igdbId": 72556,
+    "gbId": 24090,
+    "gbGuid": "3030-24090",
+    "tgdbId": null
+  },
+  {
+    "name": "Karaoke Revolution",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex232",
+    "igdbId": 80460,
+    "gbId": 15661,
+    "gbGuid": "3030-15661",
+    "tgdbId": 15732
+  },
+  {
+    "name": "Kashimashi: Girl Meets Girl",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex233",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "KimiKiss",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex234",
+    "igdbId": 70540,
+    "gbId": 24806,
+    "gbGuid": "3030-24806",
+    "tgdbId": null
+  },
+  {
+    "name": "King's Field IV",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex235",
+    "igdbId": 9501,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Kingdom Hearts",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex236",
+    "igdbId": 1219,
+    "gbId": 10983,
+    "gbGuid": "3030-10983",
+    "tgdbId": 2559
+  },
+  {
+    "name": "Kingdom Hearts II",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex237",
+    "igdbId": 1221,
+    "gbId": 4763,
+    "gbGuid": "3030-4763",
+    "tgdbId": 1903
+  },
+  {
+    "name": "Kino's Journey",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex238",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Klonoa 2: Lunatea's Veil",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex239",
+    "igdbId": 9709,
+    "gbId": 7212,
+    "gbGuid": "3030-7212",
+    "tgdbId": 7327
+  },
+  {
+    "name": "Kuon",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex240",
+    "igdbId": 10909,
+    "gbId": 15099,
+    "gbGuid": "3030-15099",
+    "tgdbId": 7331
+  },
+  {
+    "name": "Kya: Dark Lineage",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex241",
+    "igdbId": 22283,
+    "gbId": 20351,
+    "gbGuid": "3030-20351",
+    "tgdbId": 7332
+  },
+  {
+    "name": "Kyo Kara Maoh!",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex242",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Legaia 2: Duel Saga",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex243",
+    "igdbId": 28161,
+    "gbId": 15986,
+    "gbGuid": "3030-15986",
+    "tgdbId": 7334
+  },
+  {
+    "name": "The Legend of Alon D'ar",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex244",
+    "igdbId": 19420,
+    "gbId": 21704,
+    "gbGuid": "3030-21704",
+    "tgdbId": 13123
+  },
+  {
+    "name": "Legion: The Legend of Excalibur",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex245",
+    "igdbId": 44714,
+    "gbId": 8635,
+    "gbGuid": "3030-8635",
+    "tgdbId": 7338
+  },
+  {
+    "name": "Let's Make a Soccer Team!",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex246",
+    "igdbId": 91708,
+    "gbId": 27148,
+    "gbGuid": "3030-27148",
+    "tgdbId": null
+  },
+  {
+    "name": "Lifeline",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex247",
+    "igdbId": 83829,
+    "gbId": 19969,
+    "gbGuid": "3030-19969",
+    "tgdbId": 14005
+  },
+  {
+    "name": "Love Story",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex248",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 28944
+  },
+  {
+    "name": "Lupin the 3rd: Treasure of the Sorcerer King",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex249",
+    "igdbId": 43635,
+    "gbId": 17061,
+    "gbGuid": "3030-17061",
+    "tgdbId": 7341
+  },
+  {
+    "name": "Lupin III: Lupin Is Dead, Zenigata Is In Love",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex250",
+    "igdbId": 66199,
+    "gbId": 33526,
+    "gbGuid": "3030-33526",
+    "tgdbId": null
+  },
+  {
+    "name": "Magic Pengel: The Quest for Color",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex251",
+    "igdbId": 11357,
+    "gbId": 9409,
+    "gbGuid": "3030-9409",
+    "tgdbId": 7349
+  },
+  {
+    "name": "Magician's Academy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex252",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Mark of Kri",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex253",
+    "igdbId": 9120,
+    "gbId": 2077,
+    "gbGuid": "3030-2077",
+    "tgdbId": 7458
+  },
+  {
+    "name": "Kenran Butou Sai: The Mars Daybreak",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex254",
+    "igdbId": 59077,
+    "gbId": 52253,
+    "gbGuid": "3030-52253",
+    "tgdbId": null
+  },
+  {
+    "name": "McFarlane's Evil Prophecy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex255",
+    "igdbId": 43633,
+    "gbId": 25175,
+    "gbGuid": "3030-25175",
+    "tgdbId": 7359
+  },
+  {
+    "name": "Metal Saga",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex256",
+    "igdbId": 20521,
+    "gbId": 6639,
+    "gbGuid": "3030-6639",
+    "tgdbId": 5375
+  },
+  {
+    "name": "Metal Slug",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex257",
+    "igdbId": 1404,
+    "gbId": 847,
+    "gbGuid": "3030-847",
+    "tgdbId": 222
+  },
+  {
+    "name": "Metropolismania",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex258",
+    "igdbId": 26661,
+    "gbId": 26711,
+    "gbGuid": "3030-26711",
+    "tgdbId": 7368
+  },
+  {
+    "name": "Michigan: Report from Hell",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex259",
+    "igdbId": 26294,
+    "gbId": 21975,
+    "gbGuid": "3030-21975",
+    "tgdbId": 14594
+  },
+  {
+    "name": "Mister Mosquito",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex260",
+    "igdbId": 8966,
+    "gbId": 20027,
+    "gbGuid": "3030-20027",
+    "tgdbId": 9730
+  },
+  {
+    "name": "Mobile Suit Gundam: Encounters in Space",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex261",
+    "igdbId": 43392,
+    "gbId": 26122,
+    "gbGuid": "3030-26122",
+    "tgdbId": 40162
+  },
+  {
+    "name": "Mobile Suit Gundam: Journey to Jaburo",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex262",
+    "igdbId": 43461,
+    "gbId": 22675,
+    "gbGuid": "3030-22675",
+    "tgdbId": 29861
+  },
+  {
+    "name": "Mobile Suit Gundam: Lost War Chronicles",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex263",
+    "igdbId": 66609,
+    "gbId": 31241,
+    "gbGuid": "3030-31241",
+    "tgdbId": null
+  },
+  {
+    "name": "Mobile Suit Gundam: Zeonic Front",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex264",
+    "igdbId": 43594,
+    "gbId": 8843,
+    "gbGuid": "3030-8843",
+    "tgdbId": 19751
+  },
+  {
+    "name": "Moeyo Ken (anime)",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex265",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Mojib-Ribbon",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex266",
+    "igdbId": 25097,
+    "gbId": 6912,
+    "gbGuid": "3030-6912",
+    "tgdbId": 29941
+  },
+  {
+    "name": "Monster Hunter 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex267",
+    "igdbId": 43668,
+    "gbId": 23612,
+    "gbGuid": "3030-23612",
+    "tgdbId": 93
+  },
+  {
+    "name": "Monster Rancher 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex268",
+    "igdbId": 43631,
+    "gbId": 4256,
+    "gbGuid": "3030-4256",
+    "tgdbId": 9733
+  },
+  {
+    "name": "Monster Rancher 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex269",
+    "igdbId": 43630,
+    "gbId": 7820,
+    "gbGuid": "3030-7820",
+    "tgdbId": 9734
+  },
+  {
+    "name": "Monster Rancher EVO",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex270",
+    "igdbId": 23142,
+    "gbId": 16933,
+    "gbGuid": "3030-16933",
+    "tgdbId": 23815
+  },
+  {
+    "name": "MotoGP '07",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex271",
+    "igdbId": 7079,
+    "gbId": 66479,
+    "gbGuid": "3030-66479",
+    "tgdbId": 46048
+  },
+  {
+    "name": "MotoGP",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex272",
+    "igdbId": 23012,
+    "gbId": 7808,
+    "gbGuid": "3030-7808",
+    "tgdbId": 19373
+  },
+  {
+    "name": "MotoGP 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex273",
+    "igdbId": 5933,
+    "gbId": 1284,
+    "gbGuid": "3030-1284",
+    "tgdbId": 47936
+  },
+  {
+    "name": "MotoGP 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex274",
+    "igdbId": 5938,
+    "gbId": 2455,
+    "gbGuid": "3030-2455",
+    "tgdbId": 9735
+  },
+  {
+    "name": "MotoGP 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex275",
+    "igdbId": null,
+    "gbId": 27756,
+    "gbGuid": "3030-27756",
+    "tgdbId": 4828
+  },
+  {
+    "name": "Motor Mayhem: Vehicular Combat League",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex276",
+    "igdbId": 43305,
+    "gbId": 18499,
+    "gbGuid": "3030-18499",
+    "tgdbId": 41651
+  },
+  {
+    "name": "MS Saga: A New Dawn",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex277",
+    "igdbId": 20492,
+    "gbId": 18856,
+    "gbGuid": "3030-18856",
+    "tgdbId": 12910
+  },
+  {
+    "name": "Musashi: Samurai Legend",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex278",
+    "igdbId": 1811,
+    "gbId": 13668,
+    "gbGuid": "3030-13668",
+    "tgdbId": 13105
+  },
+  {
+    "name": "MVP 07 NCAA Baseball",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex279",
+    "igdbId": 21388,
+    "gbId": 21260,
+    "gbGuid": "3030-21260",
+    "tgdbId": 13255
+  },
+  {
+    "name": "MX Rider",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex280",
+    "igdbId": 43608,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 15790
+  },
+  {
+    "name": "My Street",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex281",
+    "igdbId": 19306,
+    "gbId": 17156,
+    "gbGuid": "3030-17156",
+    "tgdbId": 7399
+  },
+  {
+    "name": "Myself ; Yourself",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex282",
+    "igdbId": null,
+    "gbId": 24270,
+    "gbGuid": "3030-24270",
+    "tgdbId": null
+  },
+  {
+    "name": "Namco x Capcom",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex283",
+    "igdbId": 44682,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 20020
+  },
+  {
+    "name": "namCollection",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex284",
+    "igdbId": 94721,
+    "gbId": 21391,
+    "gbGuid": "3030-21391",
+    "tgdbId": null
+  },
+  {
+    "name": "NanoBreaker",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex285",
+    "igdbId": 43637,
+    "gbId": 23035,
+    "gbGuid": "3030-23035",
+    "tgdbId": 7400
+  },
+  {
+    "name": "Naval Ops: Warship Gunner",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex286",
+    "igdbId": 23706,
+    "gbId": 21692,
+    "gbGuid": "3030-21692",
+    "tgdbId": 7409
+  },
+  {
+    "name": "NCAA Basketball 09",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex287",
+    "igdbId": 7109,
+    "gbId": 25545,
+    "gbGuid": "3030-25545",
+    "tgdbId": 13926
+  },
+  {
+    "name": "Neo Geo Online Collection",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex288",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Neopets: The Darkest Faerie",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex289",
+    "igdbId": 43641,
+    "gbId": 1137,
+    "gbGuid": "3030-1137",
+    "tgdbId": 7429
+  },
+  {
+    "name": "NHL FaceOff 2003",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex290",
+    "igdbId": 20434,
+    "gbId": 5001,
+    "gbGuid": "3030-5001",
+    "tgdbId": 24544
+  },
+  {
+    "name": "Nicktoons: Movin'",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex291",
+    "igdbId": 7982,
+    "gbId": 12760,
+    "gbGuid": "3030-12760",
+    "tgdbId": 7441
+  },
+  {
+    "name": "The Nightmare of Druaga: Fushigino Dungeon",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex292",
+    "igdbId": 43659,
+    "gbId": 5885,
+    "gbGuid": "3030-5885",
+    "tgdbId": 7459
+  },
+  {
+    "name": "Nightshade",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex293",
+    "igdbId": 10224,
+    "gbId": 22069,
+    "gbGuid": "3030-22069",
+    "tgdbId": 1967
+  },
+  {
+    "name": "Nogizaka Haruka no Himitsu",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex294",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "NRA Gun Club",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex295",
+    "igdbId": 20575,
+    "gbId": 12437,
+    "gbGuid": "3030-12437",
+    "tgdbId": 44205
+  },
+  {
+    "name": "Onimusha 2: Samurai's Destiny",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex296",
+    "igdbId": 11757,
+    "gbId": 19861,
+    "gbGuid": "3030-19861",
+    "tgdbId": 9766
+  },
+  {
+    "name": "Onimusha Blade Warriors",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex297",
+    "igdbId": 10551,
+    "gbId": 18522,
+    "gbGuid": "3030-18522",
+    "tgdbId": 17006
+  },
+  {
+    "name": "Onimusha: Dawn of Dreams",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex298",
+    "igdbId": 11759,
+    "gbId": 2136,
+    "gbGuid": "3030-2136",
+    "tgdbId": 12563
+  },
+  {
+    "name": "Online Pro Wrestling",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex299",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 52467
+  },
+  {
+    "name": "Orphen: Scion of Sorcery",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex300",
+    "igdbId": 24165,
+    "gbId": 11618,
+    "gbGuid": "3030-11618",
+    "tgdbId": 18999
+  },
+  {
+    "name": "Panzer Front Ausf.B",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex301",
+    "igdbId": 22571,
+    "gbId": 20265,
+    "gbGuid": "3030-20265",
+    "tgdbId": 45486
+  },
+  {
+    "name": "PaRappa The Rapper 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex302",
+    "igdbId": 6082,
+    "gbId": 10051,
+    "gbGuid": "3030-10051",
+    "tgdbId": 23396
+  },
+  {
+    "name": "Pride FC: Fighting Championships",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex303",
+    "igdbId": 18276,
+    "gbId": 21498,
+    "gbGuid": "3030-21498",
+    "tgdbId": 45753
+  },
+  {
+    "name": "PrideGP Grand Prix 2003",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex304",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 64706
+  },
+  {
+    "name": "Primal",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex305",
+    "igdbId": 11789,
+    "gbId": 6936,
+    "gbGuid": "3030-6936",
+    "tgdbId": 9775
+  },
+  {
+    "name": "Princess Princess: Himetachi no Abunai Houkago",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex306",
+    "igdbId": 72671,
+    "gbId": 23432,
+    "gbGuid": "3030-23432",
+    "tgdbId": null
+  },
+  {
+    "name": "Pro Evolution Soccer Management",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex307",
+    "igdbId": 4646,
+    "gbId": 44542,
+    "gbGuid": "3030-44542",
+    "tgdbId": 18636
+  },
+  {
+    "name": "Radiata Stories",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex308",
+    "igdbId": 19160,
+    "gbId": 10401,
+    "gbGuid": "3030-10401",
+    "tgdbId": 13303
+  },
+  {
+    "name": "Rahxephon: Soukyuu Gensoukyoku",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex309",
+    "igdbId": 77549,
+    "gbId": 62513,
+    "gbGuid": "3030-62513",
+    "tgdbId": 66676
+  },
+  {
+    "name": "Rakushou! Pachi-Slot Sengen",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex310",
+    "igdbId": 62350,
+    "gbId": 45080,
+    "gbGuid": "3030-45080",
+    "tgdbId": null
+  },
+  {
+    "name": "RC Revenge Pro",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex311",
+    "igdbId": 43253,
+    "gbId": 45,
+    "gbGuid": "3030-45",
+    "tgdbId": 43375
+  },
+  {
+    "name": "Rec (manga)",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex312",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Resident Evil Outbreak",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex313",
+    "igdbId": 972,
+    "gbId": 576,
+    "gbGuid": "3030-576",
+    "tgdbId": 3946
+  },
+  {
+    "name": "Resident Evil Outbreak File #2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex314",
+    "igdbId": 973,
+    "gbId": 15222,
+    "gbGuid": "3030-15222",
+    "tgdbId": 3947
+  },
+  {
+    "name": "Resident Evil: Dead Aim",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex315",
+    "igdbId": 971,
+    "gbId": 8675,
+    "gbGuid": "3030-8675",
+    "tgdbId": 3945
+  },
+  {
+    "name": "Riding Spirits",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex316",
+    "igdbId": 23761,
+    "gbId": 46037,
+    "gbGuid": "3030-46037",
+    "tgdbId": 41745
+  },
+  {
+    "name": "Rise Of The Kasai",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex317",
+    "igdbId": 21557,
+    "gbId": 3080,
+    "gbGuid": "3030-3080",
+    "tgdbId": 9784
+  },
+  {
+    "name": "RISK: Global Domination",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex318",
+    "igdbId": 19184,
+    "gbId": 17075,
+    "gbGuid": "3030-17075",
+    "tgdbId": 9785
+  },
+  {
+    "name": "Robot Alchemic Drive",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex319",
+    "igdbId": 24083,
+    "gbId": 18060,
+    "gbGuid": "3030-18060",
+    "tgdbId": 9787
+  },
+  {
+    "name": "Robot Warlords",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex320",
+    "igdbId": 72937,
+    "gbId": 22179,
+    "gbGuid": "3030-22179",
+    "tgdbId": 50879
+  },
+  {
+    "name": "Rosario to Vampire: Tanabata no Miss Youkai Gakuen",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex321",
+    "igdbId": 58727,
+    "gbId": 53225,
+    "gbGuid": "3030-53225",
+    "tgdbId": null
+  },
+  {
+    "name": "RTX Red Rock",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex322",
+    "igdbId": 22243,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 9791
+  },
+  {
+    "name": "Rugby League 2: World Cup Edition",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex323",
+    "igdbId": 6022,
+    "gbId": 12859,
+    "gbGuid": "3030-12859",
+    "tgdbId": 60082
+  },
+  {
+    "name": "Rule of Rose",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex324",
+    "igdbId": 7415,
+    "gbId": 12788,
+    "gbGuid": "3030-12788",
+    "tgdbId": 12684
+  },
+  {
+    "name": "Rumble Racing",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex325",
+    "igdbId": 43280,
+    "gbId": 12967,
+    "gbGuid": "3030-12967",
+    "tgdbId": 39465
+  },
+  {
+    "name": "Rumble Roses",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex326",
+    "igdbId": 27041,
+    "gbId": 18086,
+    "gbGuid": "3030-18086",
+    "tgdbId": 9793
+  },
+  {
+    "name": "Runabout 3: Neo Age",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex327",
+    "igdbId": 43599,
+    "gbId": 39127,
+    "gbGuid": "3030-39127",
+    "tgdbId": 18833
+  },
+  {
+    "name": "S.L.A.I.: Steel Lancer Arena International",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex328",
+    "igdbId": 22515,
+    "gbId": 8644,
+    "gbGuid": "3030-8644",
+    "tgdbId": 11183
+  },
+  {
+    "name": "Sacred Blaze",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex329",
+    "igdbId": 69407,
+    "gbId": 25143,
+    "gbGuid": "3030-25143",
+    "tgdbId": null
+  },
+  {
+    "name": "Saint Seiya: The Sanctuary",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex330",
+    "igdbId": 43345,
+    "gbId": 27571,
+    "gbGuid": "3030-27571",
+    "tgdbId": 31882
+  },
+  {
+    "name": "Samurai Champloo: Sidetracked",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex331",
+    "igdbId": 19625,
+    "gbId": 22045,
+    "gbGuid": "3030-22045",
+    "tgdbId": 22140
+  },
+  {
+    "name": "Samurai Western",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex332",
+    "igdbId": 43665,
+    "gbId": 6464,
+    "gbGuid": "3030-6464",
+    "tgdbId": 9802
+  },
+  {
+    "name": "Saru! Get You!",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex333",
+    "igdbId": 43438,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 25620
+  },
+  {
+    "name": "Seaman 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex334",
+    "igdbId": 11446,
+    "gbId": 25245,
+    "gbGuid": "3030-25245",
+    "tgdbId": null
+  },
+  {
+    "name": "Sega Rally 2006",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex335",
+    "igdbId": 1573,
+    "gbId": 28040,
+    "gbGuid": "3030-28040",
+    "tgdbId": null
+  },
+  {
+    "name": "Sega Superstars",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex336",
+    "igdbId": 43677,
+    "gbId": 3165,
+    "gbGuid": "3030-3165",
+    "tgdbId": 5398
+  },
+  {
+    "name": "Seven Samurai 20xx",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex337",
+    "igdbId": 24241,
+    "gbId": 2088,
+    "gbGuid": "3030-2088",
+    "tgdbId": 12407
+  },
+  {
+    "name": "Shadow Hearts",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex338",
+    "igdbId": 4170,
+    "gbId": 3960,
+    "gbGuid": "3030-3960",
+    "tgdbId": 12753
+  },
+  {
+    "name": "Shadow Hearts: Covenant",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex339",
+    "igdbId": 4171,
+    "gbId": 4001,
+    "gbGuid": "3030-4001",
+    "tgdbId": 12758
+  },
+  {
+    "name": "Shadow Hearts: From the New World",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex340",
+    "igdbId": 4172,
+    "gbId": 12349,
+    "gbGuid": "3030-12349",
+    "tgdbId": 12805
+  },
+  {
+    "name": "Shadow Man: 2econd Coming",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex341",
+    "igdbId": 3599,
+    "gbId": 2015,
+    "gbGuid": "3030-2015",
+    "tgdbId": 12939
+  },
+  {
+    "name": "Shadow of Rome",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex342",
+    "igdbId": 14406,
+    "gbId": 5704,
+    "gbGuid": "3030-5704",
+    "tgdbId": 17004
+  },
+  {
+    "name": "Shadow Tower: Abyss",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex343",
+    "igdbId": 9503,
+    "gbId": 34919,
+    "gbGuid": "3030-34919",
+    "tgdbId": 12661
+  },
+  {
+    "name": "Shaman King: Funbari Spirits",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex344",
+    "igdbId": null,
+    "gbId": 26577,
+    "gbGuid": "3030-26577",
+    "tgdbId": null
+  },
+  {
+    "name": "Shaman King: Power Of Spirit",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex345",
+    "igdbId": 43592,
+    "gbId": 11065,
+    "gbGuid": "3030-11065",
+    "tgdbId": 19760
+  },
+  {
+    "name": "Shifters",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex346",
+    "igdbId": 43557,
+    "gbId": 23881,
+    "gbGuid": "3030-23881",
+    "tgdbId": 23842
+  },
+  {
+    "name": "Shining Force Neo",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex347",
+    "igdbId": 22562,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 9807
+  },
+  {
+    "name": "Shining Tears",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex348",
+    "igdbId": 43663,
+    "gbId": 130,
+    "gbGuid": "3030-130",
+    "tgdbId": 9808
+  },
+  {
+    "name": "Shining Wind",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex349",
+    "igdbId": 72920,
+    "gbId": 22308,
+    "gbGuid": "3030-22308",
+    "tgdbId": null
+  },
+  {
+    "name": "Shinobido: Way of the Ninja",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex350",
+    "igdbId": 10899,
+    "gbId": 598,
+    "gbGuid": "3030-598",
+    "tgdbId": null
+  },
+  {
+    "name": "Shox",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex351",
+    "igdbId": 8265,
+    "gbId": 21669,
+    "gbGuid": "3030-21669",
+    "tgdbId": 43140
+  },
+  {
+    "name": "Silent Scope 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex352",
+    "igdbId": 44630,
+    "gbId": 4304,
+    "gbGuid": "3030-4304",
+    "tgdbId": 29936
+  },
+  {
+    "name": "Silpheed: The Lost Planet",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex353",
+    "igdbId": 22009,
+    "gbId": 14526,
+    "gbGuid": "3030-14526",
+    "tgdbId": 31894
+  },
+  {
+    "name": "The Simpsons Skateboarding",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex354",
+    "igdbId": 2843,
+    "gbId": 1013,
+    "gbGuid": "3030-1013",
+    "tgdbId": 4776
+  },
+  {
+    "name": "SingStar",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex355",
+    "igdbId": 15180,
+    "gbId": 1641,
+    "gbGuid": "3030-1641",
+    "tgdbId": 16559
+  },
+  {
+    "name": "Singstar The Dome",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex356",
+    "igdbId": 15093,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 62712
+  },
+  {
+    "name": "Sky Odyssey",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex357",
+    "igdbId": 43662,
+    "gbId": 16237,
+    "gbGuid": "3030-16237",
+    "tgdbId": 9811
+  },
+  {
+    "name": "SkyGunner",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex358",
+    "igdbId": 43615,
+    "gbId": 14337,
+    "gbGuid": "3030-14337",
+    "tgdbId": 9812
+  },
+  {
+    "name": "Sled Storm",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex359",
+    "igdbId": 8264,
+    "gbId": 14367,
+    "gbGuid": "3030-14367",
+    "tgdbId": 608
+  },
+  {
+    "name": "Smarties: Meltdown",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex360",
+    "igdbId": 43670,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 36026
+  },
+  {
+    "name": "Smash Court Tennis Pro Tournament",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex361",
+    "igdbId": 43618,
+    "gbId": 1789,
+    "gbGuid": "3030-1789",
+    "tgdbId": 9816
+  },
+  {
+    "name": "Smash Court Tennis Pro Tournament 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex362",
+    "igdbId": 20184,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 31552
+  },
+  {
+    "name": "SOCOM 3: U.S. Navy SEALs",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex363",
+    "igdbId": 8241,
+    "gbId": 14048,
+    "gbGuid": "3030-14048",
+    "tgdbId": 4792
+  },
+  {
+    "name": "SOCOM II: U.S. Navy SEALs",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex364",
+    "igdbId": 8240,
+    "gbId": 1049,
+    "gbGuid": "3030-1049",
+    "tgdbId": 4791
+  },
+  {
+    "name": "SOCOM: U.S. Navy SEALs",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex365",
+    "igdbId": 8239,
+    "gbId": 6246,
+    "gbGuid": "3030-6246",
+    "tgdbId": 4790
+  },
+  {
+    "name": "SOCOM: U.S. Navy SEALs: Combined Assault",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex366",
+    "igdbId": 8242,
+    "gbId": 21827,
+    "gbGuid": "3030-21827",
+    "tgdbId": 19761
+  },
+  {
+    "name": "The Sopranos: Road To Respect",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex367",
+    "igdbId": 17248,
+    "gbId": 8694,
+    "gbGuid": "3030-8694",
+    "tgdbId": 23491
+  },
+  {
+    "name": "SoulCalibur III",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex368",
+    "igdbId": 1566,
+    "gbId": 9855,
+    "gbGuid": "3030-9855",
+    "tgdbId": 4788
+  },
+  {
+    "name": "Space Battleship Yamato: Iscandar e no Tsuioku",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex369",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Space Battleship Yamato: Nijū Ginga no Hōkai",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex370",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Space Sheriff Spirits",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex371",
+    "igdbId": 64780,
+    "gbId": 39295,
+    "gbGuid": "3030-39295",
+    "tgdbId": null
+  },
+  {
+    "name": "Spectral Gene",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex372",
+    "igdbId": 44671,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 37713
+  },
+  {
+    "name": "Spy Fiction",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex373",
+    "igdbId": 43327,
+    "gbId": 23924,
+    "gbGuid": "3030-23924",
+    "tgdbId": 33420
+  },
+  {
+    "name": "SSX",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex374",
+    "igdbId": 4175,
+    "gbId": 1932,
+    "gbGuid": "3030-1932",
+    "tgdbId": 5424
+  },
+  {
+    "name": "Star Ocean: Till the End of Time",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex375",
+    "igdbId": 11212,
+    "gbId": 12099,
+    "gbGuid": "3030-12099",
+    "tgdbId": 7973
+  },
+  {
+    "name": "Star Trek: Encounters",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex376",
+    "igdbId": 20594,
+    "gbId": 5137,
+    "gbGuid": "3030-5137",
+    "tgdbId": 20789
+  },
+  {
+    "name": "Star Wars: Racer Revenge",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex377",
+    "igdbId": 19419,
+    "gbId": 7746,
+    "gbGuid": "3030-7746",
+    "tgdbId": 24555
+  },
+  {
+    "name": "Star Wars: Super Bombad Racing",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex378",
+    "igdbId": 18046,
+    "gbId": 6221,
+    "gbGuid": "3030-6221",
+    "tgdbId": 9798
+  },
+  {
+    "name": "State of Emergency 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex379",
+    "igdbId": 6162,
+    "gbId": 12365,
+    "gbGuid": "3030-12365",
+    "tgdbId": 23356
+  },
+  {
+    "name": "Steambot Chronicles",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex380",
+    "igdbId": 19619,
+    "gbId": 7087,
+    "gbGuid": "3030-7087",
+    "tgdbId": 10708
+  },
+  {
+    "name": "Stellvia",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex381",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Stepping Selection",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex382",
+    "igdbId": 66741,
+    "gbId": 30889,
+    "gbGuid": "3030-30889",
+    "tgdbId": null
+  },
+  {
+    "name": "Strawberry Marshmallow",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex383",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Strawberry Panic! Girls' School in Fullbloom",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex384",
+    "igdbId": 61405,
+    "gbId": 46782,
+    "gbGuid": "3030-46782",
+    "tgdbId": null
+  },
+  {
+    "name": "Street Fighter Alpha Anthology",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex385",
+    "igdbId": 14536,
+    "gbId": 4762,
+    "gbGuid": "3030-4762",
+    "tgdbId": 5361
+  },
+  {
+    "name": "Street Fighter EX3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex386",
+    "igdbId": 84219,
+    "gbId": 10989,
+    "gbGuid": "3030-10989",
+    "tgdbId": 17304
+  },
+  {
+    "name": "Stretch Panic",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex387",
+    "igdbId": 28502,
+    "gbId": 7084,
+    "gbGuid": "3030-7084",
+    "tgdbId": 25128
+  },
+  {
+    "name": "Suikoden III",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex388",
+    "igdbId": 1448,
+    "gbId": 11252,
+    "gbGuid": "3030-11252",
+    "tgdbId": 12388
+  },
+  {
+    "name": "Suikoden IV",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex389",
+    "igdbId": 1449,
+    "gbId": 18991,
+    "gbGuid": "3030-18991",
+    "tgdbId": 12390
+  },
+  {
+    "name": "Suikoden V",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex390",
+    "igdbId": 1456,
+    "gbId": 19152,
+    "gbGuid": "3030-19152",
+    "tgdbId": 12394
+  },
+  {
+    "name": "Suikoden Tactics",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex391",
+    "igdbId": 1450,
+    "gbId": 4834,
+    "gbGuid": "3030-4834",
+    "tgdbId": 12395
+  },
+  {
+    "name": "Summer Heat Beach Volleyball",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex392",
+    "igdbId": 22242,
+    "gbId": 456,
+    "gbGuid": "3030-456",
+    "tgdbId": 5904
+  },
+  {
+    "name": "Sunny Garcia Surfing",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex393",
+    "igdbId": 43386,
+    "gbId": 25743,
+    "gbGuid": "3030-25743",
+    "tgdbId": 41165
+  },
+  {
+    "name": "The Super Dimension Fortress Macross",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex394",
+    "igdbId": 44688,
+    "gbId": 32224,
+    "gbGuid": "3030-32224",
+    "tgdbId": 54425
+  },
+  {
+    "name": "Super Farm",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex395",
+    "igdbId": 43290,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 37356
+  },
+  {
+    "name": "Super Robot Wars: OG Gaiden",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex396",
+    "igdbId": 72741,
+    "gbId": 23222,
+    "gbGuid": "3030-23222",
+    "tgdbId": null
+  },
+  {
+    "name": "2nd Super Robot Wars Original Generation",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex397",
+    "igdbId": 80450,
+    "gbId": 22660,
+    "gbGuid": "3030-22660",
+    "tgdbId": 21378
+  },
+  {
+    "name": "Super Trucks Racing",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex398",
+    "igdbId": 43352,
+    "gbId": 22049,
+    "gbGuid": "3030-22049",
+    "tgdbId": 31136
+  },
+  {
+    "name": "Surveillance Kanshisha",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex399",
+    "igdbId": 65021,
+    "gbId": 38698,
+    "gbGuid": "3030-38698",
+    "tgdbId": null
+  },
+  {
+    "name": "Suzuki TT Superbikes: Real Road Racing Championship",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex400",
+    "igdbId": 20211,
+    "gbId": 21033,
+    "gbGuid": "3030-21033",
+    "tgdbId": 46820
+  },
+  {
+    "name": "The Sword of Etheria",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex401",
+    "igdbId": 10901,
+    "gbId": 44450,
+    "gbGuid": "3030-44450",
+    "tgdbId": 18140
+  },
+  {
+    "name": "Syphon Filter: The Omega Strain",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex402",
+    "igdbId": 20185,
+    "gbId": 13336,
+    "gbGuid": "3030-13336",
+    "tgdbId": 5422
+  },
+  {
+    "name": "Tales of Legendia",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex403",
+    "igdbId": 1206,
+    "gbId": 5315,
+    "gbGuid": "3030-5315",
+    "tgdbId": 12453
+  },
+  {
+    "name": "Taxi Rider",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex404",
+    "igdbId": 43457,
+    "gbId": 48067,
+    "gbGuid": "3030-48067",
+    "tgdbId": 33905
+  },
+  {
+    "name": "Thomas & Friends merchandise",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex405",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Thunder Force VI",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex406",
+    "igdbId": 43603,
+    "gbId": 22347,
+    "gbGuid": "3030-22347",
+    "tgdbId": 13775
+  },
+  {
+    "name": "Thunderhawk Operation Phoenix",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex407",
+    "igdbId": 43278,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 52865
+  },
+  {
+    "name": "TimeSplitters",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex408",
+    "igdbId": 2142,
+    "gbId": 12621,
+    "gbGuid": "3030-12621",
+    "tgdbId": 9232
+  },
+  {
+    "name": "Tokimeki Memorial 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex409",
+    "igdbId": 44686,
+    "gbId": 36065,
+    "gbGuid": "3030-36065",
+    "tgdbId": 27846
+  },
+  {
+    "name": "Tokyo Majin Gakuen Gehoujou",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex410",
+    "igdbId": 73211,
+    "gbId": 18698,
+    "gbGuid": "3030-18698",
+    "tgdbId": 55575
+  },
+  {
+    "name": "Tokyo Xtreme Racer 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex411",
+    "igdbId": 24184,
+    "gbId": 10403,
+    "gbGuid": "3030-10403",
+    "tgdbId": 38267
+  },
+  {
+    "name": "Tokyo Xtreme Racer Drift",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex412",
+    "igdbId": 44632,
+    "gbId": 46304,
+    "gbGuid": "3030-46304",
+    "tgdbId": 28377
+  },
+  {
+    "name": "Tokyo Xtreme Racer Drift 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex413",
+    "igdbId": 21441,
+    "gbId": 35453,
+    "gbGuid": "3030-35453",
+    "tgdbId": 38268
+  },
+  {
+    "name": "Tokyo Xtreme Racer zero",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex414",
+    "igdbId": 43289,
+    "gbId": 252,
+    "gbGuid": "3030-252",
+    "tgdbId": 37395
+  },
+  {
+    "name": "Top Gear: Dare Devil",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex415",
+    "igdbId": 43274,
+    "gbId": 18223,
+    "gbGuid": "3030-18223",
+    "tgdbId": 40371
+  },
+  {
+    "name": "Tourist Trophy",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex416",
+    "igdbId": 8213,
+    "gbId": 17890,
+    "gbGuid": "3030-17890",
+    "tgdbId": 18143
+  },
+  {
+    "name": "Transformers",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex417",
+    "igdbId": 18361,
+    "gbId": 14084,
+    "gbGuid": "3030-14084",
+    "tgdbId": 5378
+  },
+  {
+    "name": "Transformers: The Game",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex418",
+    "igdbId": 5244,
+    "gbId": 16624,
+    "gbGuid": "3030-16624",
+    "tgdbId": null
+  },
+  {
+    "name": "Tribes Aerial Assault",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex419",
+    "igdbId": 43597,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 18923
+  },
+  {
+    "name": "True Love Story",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex420",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tsugunai: Atonement",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex421",
+    "igdbId": 43606,
+    "gbId": 1209,
+    "gbGuid": "3030-1209",
+    "tgdbId": 13943
+  },
+  {
+    "name": "UFC: Sudden Impact",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex422",
+    "igdbId": 92763,
+    "gbId": 21480,
+    "gbGuid": "3030-21480",
+    "tgdbId": 53087
+  },
+  {
+    "name": "Ultraman Fighting Evolution 2",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex423",
+    "igdbId": 72608,
+    "gbId": 23755,
+    "gbGuid": "3030-23755",
+    "tgdbId": null
+  },
+  {
+    "name": "Ultraman Fighting Evolution 3",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex424",
+    "igdbId": 72605,
+    "gbId": 23765,
+    "gbGuid": "3030-23765",
+    "tgdbId": null
+  },
+  {
+    "name": "Ultraman Fighting Evolution Rebirth",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex425",
+    "igdbId": 72598,
+    "gbId": 23784,
+    "gbGuid": "3030-23784",
+    "tgdbId": null
+  },
+  {
+    "name": "Ultraman Nexus",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex426",
+    "igdbId": 66390,
+    "gbId": 32610,
+    "gbGuid": "3030-32610",
+    "tgdbId": null
+  },
+  {
+    "name": "Under the Skin",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex427",
+    "igdbId": 12495,
+    "gbId": 12051,
+    "gbGuid": "3030-12051",
+    "tgdbId": 9957
+  },
+  {
+    "name": "Underworld: The Eternal War",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex428",
+    "igdbId": 43567,
+    "gbId": 8829,
+    "gbGuid": "3030-8829",
+    "tgdbId": 23357
+  },
+  {
+    "name": "Unison: Rebels of Rhythm & Dance",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex429",
+    "igdbId": 71355,
+    "gbId": 2961,
+    "gbGuid": "3030-2961",
+    "tgdbId": 48664
+  },
+  {
+    "name": "Unlimited Saga",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex430",
+    "igdbId": 11314,
+    "gbId": 6505,
+    "gbGuid": "3030-6505",
+    "tgdbId": 9835
+  },
+  {
+    "name": "Urban Reign",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex431",
+    "igdbId": 19776,
+    "gbId": 15532,
+    "gbGuid": "3030-15532",
+    "tgdbId": 9836
+  },
+  {
+    "name": "Ururun Quest: Koiyuuki",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex432",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Valkyrie Profile 2: Silmeria",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex433",
+    "igdbId": 11793,
+    "gbId": 2889,
+    "gbGuid": "3030-2889",
+    "tgdbId": 9330
+  },
+  {
+    "name": "Vampire: Darkstalkers Collection",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex434",
+    "igdbId": 20012,
+    "gbId": 41159,
+    "gbGuid": "3030-41159",
+    "tgdbId": 49510
+  },
+  {
+    "name": "Vib Ripple",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex435",
+    "igdbId": 25096,
+    "gbId": 10787,
+    "gbGuid": "3030-10787",
+    "tgdbId": 34475
+  },
+  {
+    "name": "Victorious Boxers 2: Fighting Spirit",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex436",
+    "igdbId": 22450,
+    "gbId": 13642,
+    "gbGuid": "3030-13642",
+    "tgdbId": 37394
+  },
+  {
+    "name": "Victorious Boxers: Ippo's Road to Glory",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex437",
+    "igdbId": 43527,
+    "gbId": 18949,
+    "gbGuid": "3030-18949",
+    "tgdbId": 24072
+  },
+  {
+    "name": "Virtua Pro Football",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex438",
+    "igdbId": 43397,
+    "gbId": 38858,
+    "gbGuid": "3030-38858",
+    "tgdbId": 43058
+  },
+  {
+    "name": "Wacky Races: Mad Motors",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex439",
+    "igdbId": 56544,
+    "gbId": 58416,
+    "gbGuid": "3030-58416",
+    "tgdbId": 66184
+  },
+  {
+    "name": "Wave Rally",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex440",
+    "igdbId": 43304,
+    "gbId": 12830,
+    "gbGuid": "3030-12830",
+    "tgdbId": 41652
+  },
+  {
+    "name": "We Love Katamari",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex441",
+    "igdbId": 6454,
+    "gbId": 18373,
+    "gbGuid": "3030-18373",
+    "tgdbId": 14172
+  },
+  {
+    "name": "Wild Arms 4",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex442",
+    "igdbId": 1681,
+    "gbId": 11325,
+    "gbGuid": "3030-11325",
+    "tgdbId": 5425
+  },
+  {
+    "name": "Wild wild racing",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex443",
+    "igdbId": 43562,
+    "gbId": 12839,
+    "gbGuid": "3030-12839",
+    "tgdbId": 23852
+  },
+  {
+    "name": "WipEout Fusion",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex444",
+    "igdbId": 1541,
+    "gbId": 9157,
+    "gbGuid": "3030-9157",
+    "tgdbId": 8363
+  },
+  {
+    "name": "Wizardry: Tale of the Forsaken Land",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex445",
+    "igdbId": 43620,
+    "gbId": 7658,
+    "gbGuid": "3030-7658",
+    "tgdbId": null
+  },
+  {
+    "name": "World Championship Snooker 2002",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex446",
+    "igdbId": 72788,
+    "gbId": 22952,
+    "gbGuid": "3030-22952",
+    "tgdbId": 65668
+  },
+  {
+    "name": "World Heroes Anthology",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex447",
+    "igdbId": 20993,
+    "gbId": 10218,
+    "gbGuid": "3030-10218",
+    "tgdbId": 31890
+  },
+  {
+    "name": "World Rally Championship",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex448",
+    "igdbId": 8313,
+    "gbId": 12503,
+    "gbGuid": "3030-12503",
+    "tgdbId": null
+  },
+  {
+    "name": "WRC 3 World Rally Championship",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex449",
+    "igdbId": 8315,
+    "gbId": 66480,
+    "gbGuid": "3030-66480",
+    "tgdbId": 27016
+  },
+  {
+    "name": "WRC 4: World Rally Championship",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex450",
+    "igdbId": 8316,
+    "gbId": 66481,
+    "gbGuid": "3030-66481",
+    "tgdbId": 50835
+  },
+  {
+    "name": "WRC II Extreme",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex451",
+    "igdbId": 8314,
+    "gbId": 14757,
+    "gbGuid": "3030-14757",
+    "tgdbId": 18687
+  },
+  {
+    "name": "WRC: Rally Evolved",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex452",
+    "igdbId": 8317,
+    "gbId": 26473,
+    "gbGuid": "3030-26473",
+    "tgdbId": 34352
+  },
+  {
+    "name": "Wrestle Kingdom 2: Pro Wrestling Sekai Taisen",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex453",
+    "igdbId": 44715,
+    "gbId": 29959,
+    "gbGuid": "3030-29959",
+    "tgdbId": 35909
+  },
+  {
+    "name": "WWE Smackdown! Here Comes the Pain",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex454",
+    "igdbId": 6442,
+    "gbId": 15815,
+    "gbGuid": "3030-15815",
+    "tgdbId": 10246
+  },
+  {
+    "name": "WWE SmackDown! Shut Your Mouth",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex455",
+    "igdbId": 6461,
+    "gbId": 7552,
+    "gbGuid": "3030-7552",
+    "tgdbId": 23496
+  },
+  {
+    "name": "WWE SmackDown! vs. Raw",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex456",
+    "igdbId": 80852,
+    "gbId": 13393,
+    "gbGuid": "3030-13393",
+    "tgdbId": 23495
+  },
+  {
+    "name": "WWF SmackDown! Just Bring It",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex457",
+    "igdbId": 6445,
+    "gbId": 1696,
+    "gbGuid": "3030-1696",
+    "tgdbId": 23494
+  },
+  {
+    "name": "The X-Files: Resist or Serve",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex458",
+    "igdbId": 43672,
+    "gbId": 923,
+    "gbGuid": "3030-923",
+    "tgdbId": 4766
+  },
+  {
+    "name": "X-Squad",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex459",
+    "igdbId": 19423,
+    "gbId": 11151,
+    "gbGuid": "3030-11151",
+    "tgdbId": 9844
+  },
+  {
+    "name": "X-Treme Express",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex460",
+    "igdbId": 44696,
+    "gbId": 44094,
+    "gbGuid": "3030-44094",
+    "tgdbId": 18698
+  },
+  {
+    "name": "Xenosaga Episode I: Der Wille zur Macht",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex461",
+    "igdbId": 1227,
+    "gbId": 20336,
+    "gbGuid": "3030-20336",
+    "tgdbId": 5426
+  },
+  {
+    "name": "Xenosaga Episode II: Jenseits von Gut und Böse",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex462",
+    "igdbId": 1228,
+    "gbId": 11093,
+    "gbGuid": "3030-11093",
+    "tgdbId": 7974
+  },
+  {
+    "name": "Xenosaga Episode III: Also Sprach Zarathustra",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex463",
+    "igdbId": 1229,
+    "gbId": 8600,
+    "gbGuid": "3030-8600",
+    "tgdbId": 12614
+  },
+  {
+    "name": "Yanya Caballista: City Skater",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex464",
+    "igdbId": 43379,
+    "gbId": 21907,
+    "gbGuid": "3030-21907",
+    "tgdbId": 46610
+  },
+  {
+    "name": "Yoake no Mariko",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex465",
+    "igdbId": 65455,
+    "gbId": 37190,
+    "gbGuid": "3030-37190",
+    "tgdbId": null
+  },
+  {
+    "name": "Yoshitsune Eiyūden: The Story of Hero Yoshitsune",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex466",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Yu Yu Hakusho: Dark Tournament",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex467",
+    "igdbId": 43525,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 24551
+  },
+  {
+    "name": "Yu-Gi-Oh! The Duelists of the Roses",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex468",
+    "igdbId": 43616,
+    "gbId": 9209,
+    "gbGuid": "3030-9209",
+    "tgdbId": 9847
+  },
+  {
+    "name": "Yumeria",
+    "details": "Sony PlayStation 2 exclusive",
+    "id": "ps2ex469",
+    "igdbId": 63934,
+    "gbId": 41327,
+    "gbGuid": "3030-41327",
+    "tgdbId": null
+  }
+]

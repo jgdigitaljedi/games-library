@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vblt1",
+    "name": "Galactic Pinball",
+    "details": "Nintendo Virtual Boy launch title",
+    "igdbId": 20381,
+    "gbId": 20180,
+    "gbGuid": "3030-20180",
+    "tgdbId": 14738
+  },
+  {
+    "id": "vblt2",
+    "name": "Mario's Tennis",
+    "details": "Nintendo Virtual Boy launch title",
+    "igdbId": 20386,
+    "gbId": 14178,
+    "gbGuid": "3030-14178",
+    "tgdbId": 14744
+  },
+  {
+    "id": "vblt3",
+    "name": "Red Alarm",
+    "details": "Nintendo Virtual Boy launch title",
+    "igdbId": 20790,
+    "gbId": 12612,
+    "gbGuid": "3030-12612",
+    "tgdbId": 14748
+  },
+  {
+    "id": "vblt4",
+    "name": "Teleroboxer",
+    "details": "Nintendo Virtual Boy launch title",
+    "igdbId": 20984,
+    "gbId": 14650,
+    "gbGuid": "3030-14650",
+    "tgdbId": 14749
+  }
+]

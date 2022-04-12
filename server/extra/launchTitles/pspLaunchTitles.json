@@ -1,0 +1,146 @@
+[
+  {
+    "id": "psplt1",
+    "name": "Ape Escape: On the Loose",
+    "details": "Sony PSP launch title",
+    "igdbId": 44530,
+    "gbId": 7961,
+    "gbGuid": "3030-7961",
+    "tgdbId": 48998
+  },
+  {
+    "id": "psplt2",
+    "name": "Darkstalkers Chronicle: The Chaos Tower",
+    "details": "Sony PSP launch title",
+    "igdbId": 20011,
+    "gbId": 6295,
+    "gbGuid": "3030-6295",
+    "tgdbId": 7077
+  },
+  {
+    "id": "psplt3",
+    "name": "Dynasty Warriors",
+    "details": "Sony PSP launch title",
+    "igdbId": 2982,
+    "gbId": 21743,
+    "gbGuid": "3030-21743",
+    "tgdbId": 14216
+  },
+  {
+    "id": "psplt4",
+    "name": "Gretzky NHL 2005",
+    "details": "Sony PSP launch title",
+    "igdbId": 24162,
+    "gbId": 21656,
+    "gbGuid": "3030-21656",
+    "tgdbId": 7287
+  },
+  {
+    "id": "psplt5",
+    "name": "Lumines",
+    "details": "Sony PSP launch title",
+    "igdbId": 4689,
+    "gbId": 5057,
+    "gbGuid": "3030-5057",
+    "tgdbId": 7095
+  },
+  {
+    "id": "psplt6",
+    "name": "Metal Gear Acid",
+    "details": "Sony PSP launch title",
+    "igdbId": 12211,
+    "gbId": 9600,
+    "gbGuid": "3030-9600",
+    "tgdbId": 43
+  },
+  {
+    "id": "psplt7",
+    "name": "NBA",
+    "details": "Sony PSP launch title",
+    "igdbId": null,
+    "gbId": 22315,
+    "gbGuid": "3030-22315",
+    "tgdbId": 48320
+  },
+  {
+    "id": "psplt8",
+    "name": "Need for Speed: Underground Rivals",
+    "details": "Sony PSP launch title",
+    "igdbId": 22509,
+    "gbId": 1591,
+    "gbGuid": "3030-1591",
+    "tgdbId": 7109
+  },
+  {
+    "id": "psplt9",
+    "name": "NFL Street 2: Unleashed",
+    "details": "Sony PSP launch title",
+    "igdbId": 4042,
+    "gbId": 3912,
+    "gbGuid": "3030-3912",
+    "tgdbId": 53433
+  },
+  {
+    "id": "psplt10",
+    "name": "Ridge Racer",
+    "details": "Sony PSP launch title",
+    "igdbId": 18787,
+    "gbId": 23114,
+    "gbGuid": "3030-23114",
+    "tgdbId": 7112
+  },
+  {
+    "id": "psplt11",
+    "name": "Spider-Man 2",
+    "details": "Sony PSP launch title",
+    "igdbId": 6285,
+    "gbId": 1690,
+    "gbGuid": "3030-1690",
+    "tgdbId": 4778
+  },
+  {
+    "id": "psplt12",
+    "name": "Tony Hawk's Underground 2 Remix",
+    "details": "Sony PSP launch title",
+    "igdbId": 22311,
+    "gbId": 18231,
+    "gbGuid": "3030-18231",
+    "tgdbId": 20096
+  },
+  {
+    "id": "psplt13",
+    "name": "Twisted Metal: Head-On",
+    "details": "Sony PSP launch title",
+    "igdbId": 5414,
+    "gbId": 9259,
+    "gbGuid": "3030-9259",
+    "tgdbId": 7120
+  },
+  {
+    "id": "psplt14",
+    "name": "Untold Legends: Brotherhood of the Blade",
+    "details": "Sony PSP launch title",
+    "igdbId": 22508,
+    "gbId": 3247,
+    "gbGuid": "3030-3247",
+    "tgdbId": 7121
+  },
+  {
+    "id": "psplt15",
+    "name": "Wipeout Pure",
+    "details": "Sony PSP launch title",
+    "igdbId": 1542,
+    "gbId": 14796,
+    "gbGuid": "3030-14796",
+    "tgdbId": 7123
+  },
+  {
+    "id": "psplt16",
+    "name": "World Tour Soccer",
+    "details": "Sony PSP launch title",
+    "igdbId": 22291,
+    "gbId": 28436,
+    "gbGuid": "3030-28436",
+    "tgdbId": 7124
+  }
+]

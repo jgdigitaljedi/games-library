@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pilotwings 64",
+    "id": "n64lt1",
+    "details": "N64 launch title",
+    "igdbId": 3573,
+    "gbId": 108,
+    "gbGuid": "3030-108",
+    "tgdbId": 961
+  },
+  {
+    "name": "Super Mario 64",
+    "id": "n64lt2",
+    "details": "N64 launch title",
+    "igdbId": 1074,
+    "gbId": 2931,
+    "gbGuid": "3030-2931",
+    "tgdbId": 216
+  }
+]

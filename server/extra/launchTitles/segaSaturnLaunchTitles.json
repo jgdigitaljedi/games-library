@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Clockwork Knight",
+    "id": "sslt1",
+    "details": "Sega Saturn launch title",
+    "igdbId": 19756,
+    "gbId": 962,
+    "gbGuid": "3030-962",
+    "tgdbId": 9981
+  },
+  {
+    "name": "Daytona USA",
+    "id": "sslt2",
+    "details": "Sega Saturn launch title",
+    "igdbId": 17245,
+    "gbId": 22135,
+    "gbGuid": "3030-22135",
+    "tgdbId": 7766
+  },
+  {
+    "name": "Panzer Dragoon",
+    "id": "sslt3",
+    "details": "Sega Saturn launch title",
+    "igdbId": 1667,
+    "gbId": 4489,
+    "gbGuid": "3030-4489",
+    "tgdbId": 9260
+  },
+  {
+    "name": "Pebble Beach Golf Links",
+    "id": "sslt4",
+    "details": "Sega Saturn launch title",
+    "igdbId": 4273,
+    "gbId": 3325,
+    "gbGuid": "3030-3325",
+    "tgdbId": 675
+  },
+  {
+    "name": "Virtua Fighter",
+    "id": "sslt5",
+    "details": "Sega Saturn launch title",
+    "igdbId": 19734,
+    "gbId": 15584,
+    "gbGuid": "3030-15584",
+    "tgdbId": 4928
+  },
+  {
+    "name": "Worldwide Soccer: Sega International Victory Goal Edition",
+    "id": "sslt6",
+    "details": "Sega Saturn launch title",
+    "igdbId": 19755,
+    "gbId": 19794,
+    "gbGuid": "3030-19794",
+    "tgdbId": 11379
+  }
+]

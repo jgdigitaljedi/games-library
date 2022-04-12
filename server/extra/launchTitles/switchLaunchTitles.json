@@ -1,0 +1,92 @@
+[
+  {
+    "id": "nslt1",
+    "name": "1-2-Switch",
+    "details": "Nintendo Switch launch title",
+    "igdbId": 26762,
+    "gbId": 57685,
+    "gbGuid": "3030-57685",
+    "tgdbId": 42356
+  },
+  {
+    "id": "nslt2",
+    "name": "Just Dance 2017",
+    "details": "Nintendo Switch launch title",
+    "igdbId": 19550,
+    "gbId": 54221,
+    "gbGuid": "3030-54221",
+    "tgdbId": 44363
+  },
+  {
+    "id": "nslt3",
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "details": "Nintendo Switch launch title",
+    "igdbId": 7346,
+    "gbId": 41355,
+    "gbGuid": "3030-41355",
+    "tgdbId": 38455
+  },
+  {
+    "id": "nslt4",
+    "name": "Skylanders Imaginators",
+    "details": "Nintendo Switch launch title",
+    "igdbId": 19576,
+    "gbId": 54071,
+    "gbGuid": "3030-54071",
+    "tgdbId": 44757
+  },
+  {
+    "id": "nslt5",
+    "name": "Super Bomberman R",
+    "details": "Nintendo Switch launch title",
+    "igdbId": 26760,
+    "gbId": 57692,
+    "gbGuid": "3030-57692",
+    "tgdbId": 43343
+  },
+  {
+    "id": "nslt6",
+    "name": "I Am Setsuna",
+    "details": "Nintendo Switch launch title (digital only)",
+    "igdbId": 18861,
+    "gbId": 50001,
+    "gbGuid": "3030-50001",
+    "tgdbId": 40978
+  },
+  {
+    "id": "nslt7",
+    "name": "Snipperclips - Cut it out, together!",
+    "details": "Nintendo Switch launch title (digital only)",
+    "igdbId": 26774,
+    "gbId": 57698,
+    "gbGuid": "3030-57698",
+    "tgdbId": 42738
+  },
+  {
+    "id": "nslt8",
+    "name": "Shovel Knight: Treasure Trove",
+    "details": "Nintendo Switch launch title (digital only)",
+    "igdbId": 26848,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 43770
+  },
+  {
+    "id": "nslt9",
+    "name": "Shovel Knight: Specter of Torment",
+    "details": "Nintendo Switch launch title (digital only)",
+    "igdbId": 23910,
+    "gbId": 57920,
+    "gbGuid": "3030-57920",
+    "tgdbId": null
+  },
+  {
+    "id": "nslt10",
+    "name": "Fast RMX",
+    "details": "Nintendo Switch launch title (digital only)",
+    "igdbId": 26816,
+    "gbId": 57700,
+    "gbGuid": "3030-57700",
+    "tgdbId": 42376
+  }
+]

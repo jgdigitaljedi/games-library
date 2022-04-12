@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ndslt1",
+    "name": "Super Mario 64 DS",
+    "details": "Nintendo DS launch title",
+    "igdbId": 22301,
+    "gbId": 8942,
+    "gbGuid": "3030-8942",
+    "tgdbId": 6886
+  },
+  {
+    "id": "ndslt2",
+    "name": "Asphalt Urban GT",
+    "details": "Nintendo DS launch title",
+    "igdbId": 6260,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 34557
+  },
+  {
+    "id": "ndslt3",
+    "name": "The Urbz: Sims in the City",
+    "details": "Nintendo DS launch title",
+    "igdbId": 2158,
+    "gbId": 1842,
+    "gbGuid": "3030-1842",
+    "tgdbId": 4047
+  },
+  {
+    "id": "ndslt4",
+    "name": "Feel the Magic: XY/XX",
+    "details": "Nintendo DS launch title",
+    "igdbId": 18331,
+    "gbId": 11248,
+    "gbGuid": "3030-11248",
+    "tgdbId": 6799
+  },
+  {
+    "id": "ndslt5",
+    "name": "Spider-Man 2",
+    "details": "Nintendo DS launch title",
+    "igdbId": 6285,
+    "gbId": 1690,
+    "gbGuid": "3030-1690",
+    "tgdbId": 4778
+  },
+  {
+    "id": "ndslt6",
+    "name": "Madden NFL 2005",
+    "details": "Nintendo DS launch title",
+    "igdbId": 778,
+    "gbId": 4222,
+    "gbGuid": "3030-4222",
+    "tgdbId": 7001
+  },
+  {
+    "id": "ndslt7",
+    "name": "Metroid Prime Hunters – First Hunt (Demo)",
+    "details": "Nintendo DS launch title",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  }
+]

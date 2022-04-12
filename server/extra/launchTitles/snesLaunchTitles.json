@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Super Mario World",
+    "id": "snlt1",
+    "details": "SNES laucnh title",
+    "igdbId": 1070,
+    "gbId": 1334,
+    "gbGuid": "3030-1334",
+    "tgdbId": 136
+  },
+  {
+    "name": "F-Zero",
+    "id": "snlt2",
+    "details": "SNES laucnh title",
+    "igdbId": 3490,
+    "gbId": 15242,
+    "gbGuid": "3030-15242",
+    "tgdbId": 43448
+  },
+  {
+    "name": "Pilotwings",
+    "id": "snlt3",
+    "details": "SNES laucnh title",
+    "igdbId": 9619,
+    "gbId": 14727,
+    "gbGuid": "3030-14727",
+    "tgdbId": 2418
+  },
+  {
+    "name": "SimCity",
+    "id": "snlt4",
+    "details": "SNES laucnh title",
+    "igdbId": 1272,
+    "gbId": 15035,
+    "gbGuid": "3030-15035",
+    "tgdbId": 3259
+  },
+  {
+    "name": "Gradius III",
+    "id": "snlt5",
+    "details": "SNES laucnh title",
+    "igdbId": 1481,
+    "gbId": 7617,
+    "gbGuid": "3030-7617",
+    "tgdbId": 1918
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "gblt1",
+    "name": "Tetris",
+    "details": "Nintendo Game Boy launch title",
+    "igdbId": 86490,
+    "gbId": 1896,
+    "gbGuid": "3030-1896",
+    "tgdbId": 1424
+  },
+  {
+    "id": "gblt2",
+    "name": "Alleyway",
+    "details": "Nintendo Game Boy launch title",
+    "igdbId": 7751,
+    "gbId": 4381,
+    "gbGuid": "3030-4381",
+    "tgdbId": 3152
+  },
+  {
+    "id": "gblt3",
+    "name": "Baseball",
+    "details": "Nintendo Game Boy launch title",
+    "igdbId": 7580,
+    "gbId": 8145,
+    "gbGuid": "3030-8145",
+    "tgdbId": 335
+  },
+  {
+    "id": "gblt4",
+    "name": "Super Mario Land",
+    "details": "Nintendo Game Boy launch title",
+    "igdbId": 1069,
+    "gbId": 19834,
+    "gbGuid": "3030-19834",
+    "tgdbId": 1726
+  },
+  {
+    "id": "gblt5",
+    "name": "Tennis",
+    "details": "Nintendo Game Boy launch title",
+    "igdbId": 74548,
+    "gbId": 20780,
+    "gbGuid": "3030-20780",
+    "tgdbId": 384
+  }
+]

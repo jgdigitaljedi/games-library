@@ -1,0 +1,119 @@
+[
+  {
+    "name": "The Amazing Spider-Man: Web of Fire",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex1",
+    "igdbId": 45882,
+    "gbId": 4219,
+    "gbGuid": "3030-4219",
+    "tgdbId": 4925
+  },
+  {
+    "name": "Cosmic Carnage",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex2",
+    "igdbId": 45883,
+    "gbId": 13797,
+    "gbGuid": "3030-13797",
+    "tgdbId": 4914
+  },
+  {
+    "name": "DarXide",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex3",
+    "igdbId": 45877,
+    "gbId": 41013,
+    "gbGuid": "3030-41013",
+    "tgdbId": 9075
+  },
+  {
+    "name": "Golf Magazine Presents 36 Great Holes Starring Fred Couples",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex4",
+    "igdbId": 94921,
+    "gbId": 21309,
+    "gbGuid": "3030-21309",
+    "tgdbId": 4911
+  },
+  {
+    "name": "Knuckles' Chaotix",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex5",
+    "igdbId": 19762,
+    "gbId": 8284,
+    "gbGuid": "3030-8284",
+    "tgdbId": 2290
+  },
+  {
+    "name": "Kolibri",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex6",
+    "igdbId": 19733,
+    "gbId": 18959,
+    "gbGuid": "3030-18959",
+    "tgdbId": 2609
+  },
+  {
+    "name": "Metal Head",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex7",
+    "igdbId": 19780,
+    "gbId": 4621,
+    "gbGuid": "3030-4621",
+    "tgdbId": 4918
+  },
+  {
+    "name": "Motocross Championship",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex8",
+    "igdbId": 19779,
+    "gbId": 4838,
+    "gbGuid": "3030-4838",
+    "tgdbId": 9076
+  },
+  {
+    "name": "RBI Baseball '95",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex9",
+    "igdbId": 45876,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 9080
+  },
+  {
+    "name": "Shadow Squadron",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex10",
+    "igdbId": 19763,
+    "gbId": 11386,
+    "gbGuid": "3030-11386",
+    "tgdbId": 4923
+  },
+  {
+    "name": "Tempo",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex11",
+    "igdbId": 45881,
+    "gbId": 3595,
+    "gbGuid": "3030-3595",
+    "tgdbId": 4927
+  },
+  {
+    "name": "World Series Baseball Starring Deion Sanders",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex12",
+    "igdbId": 46428,
+    "gbId": 17117,
+    "gbGuid": "3030-17117",
+    "tgdbId": 20521
+  },
+  {
+    "name": "Zaxxon's Motherbase 2000",
+    "details": "Sega 32x exclusive",
+    "id": "s32xex13",
+    "igdbId": 19764,
+    "gbId": 7390,
+    "gbGuid": "3030-7390",
+    "tgdbId": 9083
+  }
+]

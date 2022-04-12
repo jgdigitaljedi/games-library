@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Cybermorph",
+    "id": "ajlt1",
+    "details": "Atari Jaguar launch title",
+    "igdbId": 40803,
+    "gbId": 9922,
+    "gbGuid": "3030-9922",
+    "tgdbId": 2518
+  },
+  {
+    "name": "Raiden",
+    "id": "ajlt2",
+    "details": "Atari Jaguar launch title",
+    "igdbId": 6841,
+    "gbId": 16693,
+    "gbGuid": "3030-16693",
+    "tgdbId": 2448
+  },
+  {
+    "name": "Trevor McFur in the Crescent Galaxy",
+    "id": "ajlt3",
+    "details": "Atari Jaguar launch title",
+    "igdbId": 40830,
+    "gbId": 19437,
+    "gbGuid": "3030-19437",
+    "tgdbId": 20281
+  }
+]

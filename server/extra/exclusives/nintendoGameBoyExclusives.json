@@ -1,0 +1,1253 @@
+[
+  {
+    "name": "The Addams Family",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex1",
+    "igdbId": 14208,
+    "gbId": 2865,
+    "gbGuid": "3030-2865",
+    "tgdbId": 1048
+  },
+  {
+    "name": "The Adventures of Star Saver",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex2",
+    "igdbId": 7745,
+    "gbId": 11420,
+    "gbGuid": "3030-11420",
+    "tgdbId": 18276
+  },
+  {
+    "name": "Aerostar",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex3",
+    "igdbId": 7746,
+    "gbId": 1554,
+    "gbGuid": "3030-1554",
+    "tgdbId": 18277
+  },
+  {
+    "name": "After Burst",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex4",
+    "igdbId": 7748,
+    "gbId": 34033,
+    "gbGuid": "3030-34033",
+    "tgdbId": 33477
+  },
+  {
+    "name": "Altered Space: A 3-D Alien Adventure",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex5",
+    "igdbId": 7752,
+    "gbId": 34509,
+    "gbGuid": "3030-34509",
+    "tgdbId": 18282
+  },
+  {
+    "name": "Amazing Penguin",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex6",
+    "igdbId": 7753,
+    "gbId": 34036,
+    "gbGuid": "3030-34036",
+    "tgdbId": 18286
+  },
+  {
+    "name": "The Amazing Spider-Man 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex7",
+    "igdbId": 107330,
+    "gbId": 44217,
+    "gbGuid": "3030-44217",
+    "tgdbId": 18287
+  },
+  {
+    "name": "Spider-Man 3: Invasion of the Spider-Slayers",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex8",
+    "igdbId": 48926,
+    "gbId": 10954,
+    "gbGuid": "3030-10954",
+    "tgdbId": 8380
+  },
+  {
+    "name": "The Amazing Spider-Man",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex9",
+    "igdbId": 83898,
+    "gbId": 5266,
+    "gbGuid": "3030-5266",
+    "tgdbId": 9579
+  },
+  {
+    "name": "Amazing Tater",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex10",
+    "igdbId": 7754,
+    "gbId": 14989,
+    "gbGuid": "3030-14989",
+    "tgdbId": 18289
+  },
+  {
+    "name": "Kikou Keisatsu Metal Jack",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex11",
+    "igdbId": null,
+    "gbId": 28298,
+    "gbGuid": "3030-28298",
+    "tgdbId": 33006
+  },
+  {
+    "name": "Asmik-kun World 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex12",
+    "igdbId": 7798,
+    "gbId": 42179,
+    "gbGuid": "3030-42179",
+    "tgdbId": 34698
+  },
+  {
+    "name": "Asterix",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex13",
+    "igdbId": 7757,
+    "gbId": 36064,
+    "gbGuid": "3030-36064",
+    "tgdbId": 3160
+  },
+  {
+    "name": "Astro Rabby",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex14",
+    "igdbId": 7759,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 46300
+  },
+  {
+    "name": "Atomic Punk",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex15",
+    "igdbId": 7760,
+    "gbId": 23410,
+    "gbGuid": "3030-23410",
+    "tgdbId": 18292
+  },
+  {
+    "name": "Ayakashi no Shiro",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex16",
+    "igdbId": 49150,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 46301
+  },
+  {
+    "name": "Barbie: Game Girl",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex17",
+    "igdbId": 45174,
+    "gbId": 5069,
+    "gbGuid": "3030-5069",
+    "tgdbId": 18296
+  },
+  {
+    "name": "Bart Simpson's Escape from Camp Deadly",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex18",
+    "igdbId": 2829,
+    "gbId": 16849,
+    "gbGuid": "3030-16849",
+    "tgdbId": 13059
+  },
+  {
+    "name": "Batman: The Animated Series",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex19",
+    "igdbId": 7771,
+    "gbId": 4669,
+    "gbGuid": "3030-4669",
+    "tgdbId": 11198
+  },
+  {
+    "name": "Batman: The Video Game",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex20",
+    "igdbId": 49227,
+    "gbId": 21264,
+    "gbGuid": "3030-21264",
+    "tgdbId": 337
+  },
+  {
+    "name": "Battle Bull",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex21",
+    "igdbId": 7770,
+    "gbId": 36127,
+    "gbGuid": "3030-36127",
+    "tgdbId": 18299
+  },
+  {
+    "name": "Battle Ping Pong",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex22",
+    "igdbId": 7774,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 40223
+  },
+  {
+    "name": "Battle Unit Zeoth",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex23",
+    "igdbId": 7775,
+    "gbId": 30831,
+    "gbGuid": "3030-30831",
+    "tgdbId": 13060
+  },
+  {
+    "name": "Battletoads",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex24",
+    "igdbId": 2970,
+    "gbId": 21228,
+    "gbGuid": "3030-21228",
+    "tgdbId": 736
+  },
+  {
+    "name": "MTV's Beavis and Butt-head",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex25",
+    "igdbId": 7777,
+    "gbId": 18248,
+    "gbGuid": "3030-18248",
+    "tgdbId": 60365
+  },
+  {
+    "name": "Bill & Ted's Excellent Adventure",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex26",
+    "igdbId": 7784,
+    "gbId": 7523,
+    "gbGuid": "3030-7523",
+    "tgdbId": 22406
+  },
+  {
+    "name": "Bionic Commando",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex27",
+    "igdbId": 7786,
+    "gbId": 20656,
+    "gbGuid": "3030-20656",
+    "tgdbId": 76
+  },
+  {
+    "name": "Blaster Master Jr.",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex28",
+    "igdbId": 7790,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Boomer's Adventure in ASMIK World",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex29",
+    "igdbId": 7797,
+    "gbId": 1309,
+    "gbGuid": "3030-1309",
+    "tgdbId": 3156
+  },
+  {
+    "name": "Boxing (1990 video game)",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex30",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Bram Stoker's Dracula",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex31",
+    "igdbId": 14340,
+    "gbId": 1792,
+    "gbGuid": "3030-1792",
+    "tgdbId": 458
+  },
+  {
+    "name": "The Bugs Bunny Crazy Castle 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex32",
+    "igdbId": 7814,
+    "gbId": 569,
+    "gbGuid": "3030-569",
+    "tgdbId": 18328
+  },
+  {
+    "name": "Castlevania Legends",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex33",
+    "igdbId": 1129,
+    "gbId": 12001,
+    "gbGuid": "3030-12001",
+    "tgdbId": 11526
+  },
+  {
+    "name": "Chikyuu Kaihougun ZAS",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex34",
+    "igdbId": 7822,
+    "gbId": 32925,
+    "gbGuid": "3030-32925",
+    "tgdbId": 40706
+  },
+  {
+    "name": "Cosmo Tank",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex35",
+    "igdbId": 7826,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 38035
+  },
+  {
+    "name": "Daffy Duck: The Marvin Missions",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex36",
+    "igdbId": 8132,
+    "gbId": 18031,
+    "gbGuid": "3030-18031",
+    "tgdbId": 283
+  },
+  {
+    "name": "Dead Heat Scramble",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex37",
+    "igdbId": 48950,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 18614
+  },
+  {
+    "name": "Dexterity",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex38",
+    "igdbId": 91263,
+    "gbId": 32867,
+    "gbGuid": "3030-32867",
+    "tgdbId": 18617
+  },
+  {
+    "name": "Dragon's Lair: The Legend",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex39",
+    "igdbId": 117950,
+    "gbId": 71737,
+    "gbGuid": "3030-71737",
+    "tgdbId": 18816
+  },
+  {
+    "name": "F-1 Spirit 3D Special",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex40",
+    "igdbId": 41705,
+    "gbId": 14201,
+    "gbGuid": "3030-14201",
+    "tgdbId": 33803
+  },
+  {
+    "name": "F-1 Spirit: the Way to Formula-1",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex136",
+    "igdbId": 41649,
+    "gbId": 7355,
+    "gbGuid": "3030-7355",
+    "tgdbId": 29043
+  },
+  {
+    "name": "Game Boy Camera",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex41",
+    "igdbId": 84643,
+    "gbId": 24032,
+    "gbGuid": "3030-24032",
+    "tgdbId": 23178
+  },
+  {
+    "name": "Game Boy Wars",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex42",
+    "igdbId": 1687,
+    "gbId": 21674,
+    "gbGuid": "3030-21674",
+    "tgdbId": 19078
+  },
+  {
+    "name": "GB Genjin Land: Viva! Chikkun Oukoku",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex43",
+    "igdbId": 64344,
+    "gbId": 40372,
+    "gbGuid": "3030-40372",
+    "tgdbId": null
+  },
+  {
+    "name": "Go! Go! Tank",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex44",
+    "igdbId": 48997,
+    "gbId": 34659,
+    "gbGuid": "3030-34659",
+    "tgdbId": 21644
+  },
+  {
+    "name": "God Medicine: Fantasy Sekai no Tanjou",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex45",
+    "igdbId": 60782,
+    "gbId": 48304,
+    "gbGuid": "3030-48304",
+    "tgdbId": 19042
+  },
+  {
+    "name": "Godzilla",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex46",
+    "igdbId": 75887,
+    "gbId": 3063,
+    "gbGuid": "3030-3063",
+    "tgdbId": 18684
+  },
+  {
+    "name": "Goldfish Warning!",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex47",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Great Greed",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex48",
+    "igdbId": 48994,
+    "gbId": 1992,
+    "gbGuid": "3030-1992",
+    "tgdbId": 21649
+  },
+  {
+    "name": "High Stakes Gambling",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex49",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 21653
+  },
+  {
+    "name": "Hyper Lode Runner",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex50",
+    "igdbId": 48980,
+    "gbId": 34330,
+    "gbGuid": "3030-34330",
+    "tgdbId": 20467
+  },
+  {
+    "name": "Itchy & Scratchy in Miniature Golf Madness",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex51",
+    "igdbId": 2836,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 18671
+  },
+  {
+    "name": "James Bond 007",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex52",
+    "igdbId": 1639,
+    "gbId": 21300,
+    "gbGuid": "3030-21300",
+    "tgdbId": 3187
+  },
+  {
+    "name": "Janken Man",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex53",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 54921
+  },
+  {
+    "name": "Jeep Jamboree: Off Road Adventure",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex54",
+    "igdbId": 48979,
+    "gbId": 17244,
+    "gbGuid": "3030-17244",
+    "tgdbId": 20470
+  },
+  {
+    "name": "Kaiju-Oh Godzilla",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex55",
+    "igdbId": 72803,
+    "gbId": 22868,
+    "gbGuid": "3030-22868",
+    "tgdbId": null
+  },
+  {
+    "name": "Kid Dracula",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex56",
+    "igdbId": 1125,
+    "gbId": 1913,
+    "gbGuid": "3030-1913",
+    "tgdbId": 11150
+  },
+  {
+    "name": "Kingdom Crusade",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex57",
+    "igdbId": 49047,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 24085
+  },
+  {
+    "name": "Kirby's Dream Land",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex58",
+    "igdbId": 1063,
+    "gbId": 19788,
+    "gbGuid": "3030-19788",
+    "tgdbId": 8706
+  },
+  {
+    "name": "Konami GB Collection Vol. 1",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex59",
+    "igdbId": null,
+    "gbId": 41149,
+    "gbGuid": "3030-41149",
+    "tgdbId": 8624
+  },
+  {
+    "name": "Konami GB Collection Vol. 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex137",
+    "igdbId": null,
+    "gbId": 41150,
+    "gbGuid": "3030-41150",
+    "tgdbId": 30728
+  },
+  {
+    "name": "Konami GB Collection Vol. 3",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex138",
+    "igdbId": null,
+    "gbId": 41151,
+    "gbGuid": "3030-41151",
+    "tgdbId": 30729
+  },
+  {
+    "name": "Konami GB Collection Vol. 4",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex139",
+    "igdbId": null,
+    "gbId": 41153,
+    "gbGuid": "3030-41153",
+    "tgdbId": 30730
+  },
+  {
+    "name": "Magnetic Soccer",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex60",
+    "igdbId": 49046,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 24090
+  },
+  {
+    "name": "Megalit",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex61",
+    "igdbId": 19558,
+    "gbId": 60118,
+    "gbGuid": "3030-60118",
+    "tgdbId": 21583
+  },
+  {
+    "name": "Mickey Mouse: Magic Wands",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex62",
+    "igdbId": 48990,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 43755
+  },
+  {
+    "name": "Mickey's Dangerous Chase",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex63",
+    "igdbId": 8127,
+    "gbId": 22059,
+    "gbGuid": "3030-22059",
+    "tgdbId": 43759
+  },
+  {
+    "name": "Mighty Morphin Power Rangers",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex64",
+    "igdbId": 75978,
+    "gbId": 6531,
+    "gbGuid": "3030-6531",
+    "tgdbId": 439
+  },
+  {
+    "name": "Mighty Morphin Power Rangers: The Movie",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex65",
+    "igdbId": 75981,
+    "gbId": 21927,
+    "gbGuid": "3030-21927",
+    "tgdbId": 3131
+  },
+  {
+    "name": "Monster Max",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex66",
+    "igdbId": 18629,
+    "gbId": 18183,
+    "gbGuid": "3030-18183",
+    "tgdbId": 17778
+  },
+  {
+    "name": "Motocross Maniacs",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex67",
+    "igdbId": 73130,
+    "gbId": 19879,
+    "gbGuid": "3030-19879",
+    "tgdbId": 18674
+  },
+  {
+    "name": "Mouse Trap Hotel",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex68",
+    "igdbId": 49037,
+    "gbId": 31052,
+    "gbGuid": "3030-31052",
+    "tgdbId": 21675
+  },
+  {
+    "name": "Mysterium",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex69",
+    "igdbId": null,
+    "gbId": 3241,
+    "gbGuid": "3030-3241",
+    "tgdbId": 21682
+  },
+  {
+    "name": "Nail 'N Scale",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex70",
+    "igdbId": 49035,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 21683
+  },
+  {
+    "name": "Nemesis",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex71",
+    "igdbId": 18630,
+    "gbId": 28016,
+    "gbGuid": "3030-28016",
+    "tgdbId": 18365
+  },
+  {
+    "name": "Nemesis 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex72",
+    "igdbId": 1482,
+    "gbId": 18815,
+    "gbGuid": "3030-18815",
+    "tgdbId": 35616
+  },
+  {
+    "name": "Ninja Boy",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex73",
+    "igdbId": 48967,
+    "gbId": 41286,
+    "gbGuid": "3030-41286",
+    "tgdbId": 21478
+  },
+  {
+    "name": "Ninja Boy 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex74",
+    "igdbId": 48966,
+    "gbId": 34751,
+    "gbGuid": "3030-34751",
+    "tgdbId": 21479
+  },
+  {
+    "name": "Ninja Gaiden Shadow",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex75",
+    "igdbId": 48929,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 2643
+  },
+  {
+    "name": "Ninja Taro",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex76",
+    "igdbId": 49034,
+    "gbId": 34674,
+    "gbGuid": "3030-34674",
+    "tgdbId": 43763
+  },
+  {
+    "name": "Out of Gas",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex77",
+    "igdbId": 49050,
+    "gbId": 17303,
+    "gbGuid": "3030-17303",
+    "tgdbId": 23338
+  },
+  {
+    "name": "Panel Action Bingo",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex78",
+    "igdbId": 49031,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 21692
+  },
+  {
+    "name": "Popeye",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex79",
+    "igdbId": null,
+    "gbId": 37309,
+    "gbGuid": "3030-37309",
+    "tgdbId": 1442
+  },
+  {
+    "name": "Popeye 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex80",
+    "igdbId": 12593,
+    "gbId": 37306,
+    "gbGuid": "3030-37306",
+    "tgdbId": 21699
+  },
+  {
+    "name": "Q Billion",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex81",
+    "igdbId": 49026,
+    "gbId": 27985,
+    "gbGuid": "3030-27985",
+    "tgdbId": 21706
+  },
+  {
+    "name": "Race Days",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex82",
+    "igdbId": 49009,
+    "gbId": 27398,
+    "gbGuid": "3030-27398",
+    "tgdbId": 21610
+  },
+  {
+    "name": "Raging Fighter",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex83",
+    "igdbId": 48921,
+    "gbId": 23928,
+    "gbGuid": "3030-23928",
+    "tgdbId": 13107
+  },
+  {
+    "name": "The Real GhostBusters",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex84",
+    "igdbId": 81546,
+    "gbId": 27203,
+    "gbGuid": "3030-27203",
+    "tgdbId": 2454
+  },
+  {
+    "name": "David Crane's The Rescue of Princess Blobette",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex85",
+    "igdbId": 48959,
+    "gbId": 13556,
+    "gbGuid": "3030-13556",
+    "tgdbId": 18333
+  },
+  {
+    "name": "Rolan's Curse",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex86",
+    "igdbId": 49023,
+    "gbId": 935,
+    "gbGuid": "3030-935",
+    "tgdbId": 21717
+  },
+  {
+    "name": "Rolan's Curse 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex87",
+    "igdbId": 49022,
+    "gbId": 39763,
+    "gbGuid": "3030-39763",
+    "tgdbId": 21718
+  },
+  {
+    "name": "Satoru Nakajima F-1 Hero GB World Championship '91",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex88",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Serpent",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex89",
+    "igdbId": 49021,
+    "gbId": 38932,
+    "gbGuid": "3030-38932",
+    "tgdbId": 21721
+  },
+  {
+    "name": "Shuyaku Sentai Irem Fighter",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex90",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Simpsons: Bart & the Beanstalk",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex91",
+    "igdbId": 2837,
+    "gbId": 5737,
+    "gbGuid": "3030-5737",
+    "tgdbId": 13058
+  },
+  {
+    "name": "The Simpsons: Bart vs. the Juggernauts",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex92",
+    "igdbId": 2831,
+    "gbId": 9730,
+    "gbGuid": "3030-9730",
+    "tgdbId": 21725
+  },
+  {
+    "name": "Skate or Die: Bad 'n' Rad",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex93",
+    "igdbId": 48942,
+    "gbId": 5589,
+    "gbGuid": "3030-5589",
+    "tgdbId": 18677
+  },
+  {
+    "name": "Skate Or Die: Tour de Thrash",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex94",
+    "igdbId": 49020,
+    "gbId": 23556,
+    "gbGuid": "3030-23556",
+    "tgdbId": 21727
+  },
+  {
+    "name": "Snoopy's Magic Show",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex95",
+    "igdbId": 49019,
+    "gbId": 23286,
+    "gbGuid": "3030-23286",
+    "tgdbId": 21731
+  },
+  {
+    "name": "Soccer",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex96",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42820
+  },
+  {
+    "name": "Soccer Mania",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex97",
+    "igdbId": 6597,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 3691
+  },
+  {
+    "name": "Solar Striker",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex98",
+    "igdbId": 48940,
+    "gbId": 10870,
+    "gbGuid": "3030-10870",
+    "tgdbId": 17780
+  },
+  {
+    "name": "Sports Collection",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex99",
+    "igdbId": 79444,
+    "gbId": 55728,
+    "gbGuid": "3030-55728",
+    "tgdbId": 47488
+  },
+  {
+    "name": "Spot: The Cool Adventure",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex100",
+    "igdbId": 2621,
+    "gbId": 34772,
+    "gbGuid": "3030-34772",
+    "tgdbId": 18589
+  },
+  {
+    "name": "Spud's Adventure",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex101",
+    "igdbId": 48970,
+    "gbId": 19400,
+    "gbGuid": "3030-19400",
+    "tgdbId": 21184
+  },
+  {
+    "name": "Star Trek: 25th Anniversary",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex102",
+    "igdbId": null,
+    "gbId": 15069,
+    "gbGuid": "3030-15069",
+    "tgdbId": 1453
+  },
+  {
+    "name": "Stop That Roach!",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex103",
+    "igdbId": 49016,
+    "gbId": 30685,
+    "gbGuid": "3030-30685",
+    "tgdbId": 21744
+  },
+  {
+    "name": "Sumo Fighter",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex104",
+    "igdbId": 49006,
+    "gbId": 37292,
+    "gbGuid": "3030-37292",
+    "tgdbId": 21619
+  },
+  {
+    "name": "Super Chinese Fighter GB",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex105",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Chinese Land 1-2-3 Dash",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex106",
+    "igdbId": 63969,
+    "gbId": 41285,
+    "gbGuid": "3030-41285",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Chinese Land 3",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex107",
+    "igdbId": null,
+    "gbId": 41287,
+    "gbGuid": "3030-41287",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Hunchback",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex108",
+    "igdbId": 49014,
+    "gbId": 6458,
+    "gbGuid": "3030-6458",
+    "tgdbId": 21589
+  },
+  {
+    "name": "Super R.C. Pro-AM",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex109",
+    "igdbId": 9157,
+    "gbId": 19111,
+    "gbGuid": "3030-19111",
+    "tgdbId": 19846
+  },
+  {
+    "name": "Tail 'Gator",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex110",
+    "igdbId": 49063,
+    "gbId": 32272,
+    "gbGuid": "3030-32272",
+    "tgdbId": 21777
+  },
+  {
+    "name": "Tasmania Story",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex111",
+    "igdbId": 49061,
+    "gbId": 38965,
+    "gbGuid": "3030-38965",
+    "tgdbId": 21780
+  },
+  {
+    "name": "Taz-Mania",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex112",
+    "igdbId": 19137,
+    "gbId": 4894,
+    "gbGuid": "3030-4894",
+    "tgdbId": 2288
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles II: Back from the Sewers",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex113",
+    "igdbId": 18639,
+    "gbId": 15414,
+    "gbGuid": "3030-15414",
+    "tgdbId": 6124
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles III: Radical Rescue",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex114",
+    "igdbId": 48927,
+    "gbId": 17952,
+    "gbGuid": "3030-17952",
+    "tgdbId": 6125
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: Fall of the Foot Clan",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex115",
+    "igdbId": 48928,
+    "gbId": 15797,
+    "gbGuid": "3030-15797",
+    "tgdbId": 6024
+  },
+  {
+    "name": "Tiny Toon Adventures 2: Montana's Movie Madness",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex116",
+    "igdbId": 8048,
+    "gbId": 7456,
+    "gbGuid": "3030-7456",
+    "tgdbId": 17693
+  },
+  {
+    "name": "Tiny Toon Adventures: Babs' Big Break",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex117",
+    "igdbId": 8046,
+    "gbId": 5782,
+    "gbGuid": "3030-5782",
+    "tgdbId": 17694
+  },
+  {
+    "name": "Top Gun: Guts and Glory",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex118",
+    "igdbId": 22914,
+    "gbId": 7182,
+    "gbGuid": "3030-7182",
+    "tgdbId": 21788
+  },
+  {
+    "name": "Tottemo! Luckyman",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex119",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Track Meet",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex120",
+    "igdbId": 49059,
+    "gbId": 40811,
+    "gbGuid": "3030-40811",
+    "tgdbId": 21794
+  },
+  {
+    "name": "Turn and Burn: The F-14 Dogfight Simulator",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex121",
+    "igdbId": 49058,
+    "gbId": 16753,
+    "gbGuid": "3030-16753",
+    "tgdbId": 21798
+  },
+  {
+    "name": "Turok: Battle of the Bionosaurs",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex122",
+    "igdbId": 1325,
+    "gbId": 7257,
+    "gbGuid": "3030-7257",
+    "tgdbId": 20138
+  },
+  {
+    "name": "TV Champion (video game)",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex123",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Ultra Golf",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex124",
+    "igdbId": 49057,
+    "gbId": 34382,
+    "gbGuid": "3030-34382",
+    "tgdbId": 21800
+  },
+  {
+    "name": "Undercover Cops",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex125",
+    "igdbId": 71941,
+    "gbId": 5540,
+    "gbGuid": "3030-5540",
+    "tgdbId": 2467
+  },
+  {
+    "name": "Wario Blast: Featuring Bomberman!",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex126",
+    "igdbId": 1713,
+    "gbId": 15003,
+    "gbGuid": "3030-15003",
+    "tgdbId": 20550
+  },
+  {
+    "name": "Wave Race",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex127",
+    "igdbId": 48915,
+    "gbId": 11105,
+    "gbGuid": "3030-11105",
+    "tgdbId": 17672
+  },
+  {
+    "name": "WCW The Main Event",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex128",
+    "igdbId": 48918,
+    "gbId": 42338,
+    "gbGuid": "3030-42338",
+    "tgdbId": 14454
+  },
+  {
+    "name": "Who Framed Roger Rabbit",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex129",
+    "igdbId": 75692,
+    "gbId": 4274,
+    "gbGuid": "3030-4274",
+    "tgdbId": 2180
+  },
+  {
+    "name": "Fortress of Fear: Wizards & Warriors X",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex130",
+    "igdbId": 48922,
+    "gbId": 24474,
+    "gbGuid": "3030-24474",
+    "tgdbId": 13068
+  },
+  {
+    "name": "WWF Superstars",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex131",
+    "igdbId": 39424,
+    "gbId": 30804,
+    "gbGuid": "3030-30804",
+    "tgdbId": 12868
+  },
+  {
+    "name": "WWF Superstars 2",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex132",
+    "igdbId": 49054,
+    "gbId": 30803,
+    "gbGuid": "3030-30803",
+    "tgdbId": 21812
+  },
+  {
+    "name": "X",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex133",
+    "igdbId": null,
+    "gbId": 23931,
+    "gbGuid": "3030-23931",
+    "tgdbId": 34676
+  },
+  {
+    "name": "Yakuman",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex134",
+    "igdbId": 67330,
+    "gbId": 29144,
+    "gbGuid": "3030-29144",
+    "tgdbId": null
+  },
+  {
+    "name": "Yogi Bear's Goldrush",
+    "details": "Nintendo Game Boy exclusive",
+    "id": "ngbex135",
+    "igdbId": 49053,
+    "gbId": 28647,
+    "gbGuid": "3030-28647",
+    "tgdbId": 21815
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Air-Sea Battle (Target Fun)",
+    "id": "a26lt1",
+    "details": "Atari 2600 launch title",
+    "igdbId": 11859,
+    "gbId": 5348,
+    "gbGuid": "3030-5348",
+    "tgdbId": 5296
+  },
+  {
+    "name": "Basic Math (Math)",
+    "id": "a26lt2",
+    "details": "Atari 2600 launch title",
+    "igdbId": 17258,
+    "gbId": 19476,
+    "gbGuid": "3030-19476",
+    "tgdbId": 10861
+  },
+  {
+    "name": "Blackjack",
+    "id": "a26lt3",
+    "details": "Atari 2600 launch title",
+    "igdbId": 41530,
+    "gbId": 23773,
+    "gbGuid": "3030-23773",
+    "tgdbId": 1344
+  },
+  {
+    "name": "Combat",
+    "id": "a26lt4",
+    "details": "Atari 2600 launch title",
+    "igdbId": 16759,
+    "gbId": 5368,
+    "gbGuid": "3030-5368",
+    "tgdbId": 4887
+  },
+  {
+    "name": "Indy 500",
+    "id": "a26lt5",
+    "details": "Atari 2600 launch title",
+    "igdbId": 54790,
+    "gbId": 19945,
+    "gbGuid": "3030-19945",
+    "tgdbId": 16865
+  },
+  {
+    "name": "Star Ship (Outer Space)",
+    "id": "a26lt6",
+    "details": "Atari 2600 launch title",
+    "igdbId": 18424,
+    "gbId": 13503,
+    "gbGuid": "3030-13503",
+    "tgdbId": 1355
+  },
+  {
+    "name": "Street Racer",
+    "id": "a26lt7",
+    "details": "Atari 2600 launch title",
+    "igdbId": 49118,
+    "gbId": 1811,
+    "gbGuid": "3030-1811",
+    "tgdbId": 6142
+  },
+  {
+    "name": "Surround (Chase)",
+    "id": "a26lt8",
+    "details": "Atari 2600 launch title",
+    "igdbId": 18002,
+    "gbId": 16028,
+    "gbGuid": "3030-16028",
+    "tgdbId": 21035
+  },
+  {
+    "name": "Video Olympics (Pong Sports)",
+    "id": "a26lt9",
+    "details": "Atari 2600 launch title",
+    "igdbId": 54791,
+    "gbId": 3294,
+    "gbGuid": "3030-3294",
+    "tgdbId": 7957
+  }
+]

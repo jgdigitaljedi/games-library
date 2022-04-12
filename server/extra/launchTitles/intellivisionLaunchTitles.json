@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ivlt1",
+    "name": "ABPA Backgammon",
+    "details": "Mattel Intellivision launch title",
+    "igdbId": 5653,
+    "gbId": 9049,
+    "gbGuid": "3030-9049",
+    "tgdbId": 4049
+  },
+  {
+    "id": "ivlt2",
+    "name": "Armor Battle",
+    "details": "Mattel Intellivision launch title",
+    "igdbId": 5656,
+    "gbId": 4088,
+    "gbGuid": "3030-4088",
+    "tgdbId": 4051
+  },
+  {
+    "id": "ivlt3",
+    "name": "The Electric Company Math Fun",
+    "details": "Mattel Intellivision launch title",
+    "igdbId": 41436,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 10513
+  },
+  {
+    "id": "ivlt4",
+    "name": "Las Vegas Poker & Blackjack",
+    "details": "Mattel Intellivision launch title",
+    "igdbId": 71274,
+    "gbId": 1411,
+    "gbGuid": "3030-1411",
+    "tgdbId": 4080
+  }
+]

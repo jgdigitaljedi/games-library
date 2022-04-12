@@ -1,0 +1,2054 @@
+[
+  {
+    "name": "Azito x Tatsunoko Legends",
+    "details": "Microsoft Xbox One full exclusive",
+    "id": "xb1ex1",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dead Rising 3",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex2",
+    "igdbId": 3199,
+    "gbId": 42902,
+    "gbGuid": "3030-42902",
+    "tgdbId": 17810
+  },
+  {
+    "name": "Kinect: Disneyland Adventures",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex3",
+    "igdbId": 16988,
+    "gbId": 35541,
+    "gbGuid": "3030-35541",
+    "tgdbId": 8308
+  },
+  {
+    "name": "Fantasia: Music Evolved",
+    "details": "Microsoft Xbox One platform exclusive",
+    "id": "xb1ex4",
+    "igdbId": 4785,
+    "gbId": 42842,
+    "gbGuid": "3030-42842",
+    "tgdbId": 30091
+  },
+  {
+    "name": "Forza Horizon 2",
+    "details": "Microsoft Xbox One platform exclusive",
+    "id": "xb1ex5",
+    "igdbId": 7326,
+    "gbId": 46474,
+    "gbGuid": "3030-46474",
+    "tgdbId": 20755
+  },
+  {
+    "name": "Forza Horizon 3",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex6",
+    "igdbId": 19539,
+    "gbId": 54214,
+    "gbGuid": "3030-54214",
+    "tgdbId": 39711
+  },
+  {
+    "name": "Forza Horizon 4",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex7",
+    "igdbId": 82090,
+    "gbId": 68909,
+    "gbGuid": "3030-68909",
+    "tgdbId": 56011
+  },
+  {
+    "name": "Forza Motorsport 5",
+    "details": "Microsoft Xbox One full exclusive",
+    "id": "xb1ex8",
+    "igdbId": 2131,
+    "gbId": 42693,
+    "gbGuid": "3030-42693",
+    "tgdbId": 17096
+  },
+  {
+    "name": "Forza Motorsport 6",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex9",
+    "igdbId": 8558,
+    "gbId": 48568,
+    "gbGuid": "3030-48568",
+    "tgdbId": 31419
+  },
+  {
+    "name": "Forza Motorsport 7",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex10",
+    "igdbId": 36872,
+    "gbId": 59896,
+    "gbGuid": "3030-59896",
+    "tgdbId": 49993
+  },
+  {
+    "name": "Gears of War: Ultimate Edition",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex11",
+    "igdbId": 16605,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 29245
+  },
+  {
+    "name": "Gears of War 4",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex12",
+    "igdbId": 11186,
+    "gbId": 45269,
+    "gbGuid": "3030-45269",
+    "tgdbId": 32352
+  },
+  {
+    "name": "Halo: The Master Chief Collection",
+    "details": "Microsoft Xbox One full exclusive",
+    "id": "xb1ex13",
+    "igdbId": 7348,
+    "gbId": 46552,
+    "gbGuid": "3030-46552",
+    "tgdbId": 21398
+  },
+  {
+    "name": "Halo 5: Guardians",
+    "details": "Microsoft Xbox One full exclusive",
+    "id": "xb1ex14",
+    "igdbId": 6803,
+    "gbId": 42905,
+    "gbGuid": "3030-42905",
+    "tgdbId": 21335
+  },
+  {
+    "name": "Halo Wars 2",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex15",
+    "igdbId": 11570,
+    "gbId": 50510,
+    "gbGuid": "3030-50510",
+    "tgdbId": 43184
+  },
+  {
+    "name": "Hello Neighbor",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex16",
+    "igdbId": 18167,
+    "gbId": 55793,
+    "gbGuid": "3030-55793",
+    "tgdbId": 46755
+  },
+  {
+    "name": "Powerstar Golf",
+    "details": "Microsoft Xbox One full exclusive",
+    "id": "xb1ex17",
+    "igdbId": 5331,
+    "gbId": 42906,
+    "gbGuid": "3030-42906",
+    "tgdbId": 24177
+  },
+  {
+    "name": "Project Spark",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex18",
+    "igdbId": 2742,
+    "gbId": 42900,
+    "gbGuid": "3030-42900",
+    "tgdbId": 20795
+  },
+  {
+    "name": "Quantum Break",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex19",
+    "igdbId": 3750,
+    "gbId": 42696,
+    "gbGuid": "3030-42696",
+    "tgdbId": 18130
+  },
+  {
+    "name": "Rare Replay",
+    "details": "Microsoft Xbox One full exclusive",
+    "id": "xb1ex20",
+    "igdbId": 11147,
+    "gbId": 49963,
+    "gbGuid": "3030-49963",
+    "tgdbId": 32132
+  },
+  {
+    "name": "ReCore",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex21",
+    "igdbId": 11131,
+    "gbId": 49962,
+    "gbGuid": "3030-49962",
+    "tgdbId": 37303
+  },
+  {
+    "name": "Rush: A Disney / Pixar Adventure",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex22",
+    "igdbId": 55072,
+    "gbId": 36720,
+    "gbGuid": "3030-36720",
+    "tgdbId": 53642
+  },
+  {
+    "name": "Ryse: Son of Rome",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex23",
+    "igdbId": 3812,
+    "gbId": 31709,
+    "gbGuid": "3030-31709",
+    "tgdbId": 17446
+  },
+  {
+    "name": "Sea of Thieves",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex24",
+    "igdbId": 11137,
+    "gbId": 49966,
+    "gbGuid": "3030-49966",
+    "tgdbId": 52211
+  },
+  {
+    "name": "ScreamRide",
+    "details": "Microsoft Xbox One platform exclusive",
+    "id": "xb1ex25",
+    "igdbId": 8730,
+    "gbId": 47351,
+    "gbGuid": "3030-47351",
+    "tgdbId": 25804
+  },
+  {
+    "name": "State of Decay: Year One Survival Edition",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex26",
+    "igdbId": 7710,
+    "gbId": 49160,
+    "gbGuid": "3030-49160",
+    "tgdbId": 34221
+  },
+  {
+    "name": "State of Decay 2",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex27",
+    "igdbId": 19541,
+    "gbId": 54215,
+    "gbGuid": "3030-54215",
+    "tgdbId": 52681
+  },
+  {
+    "name": "Sunset Overdrive",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex28",
+    "igdbId": 3247,
+    "gbId": 42898,
+    "gbGuid": "3030-42898",
+    "tgdbId": 20792
+  },
+  {
+    "name": "Super Lucky's Tale",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex29",
+    "igdbId": 37024,
+    "gbId": 59901,
+    "gbGuid": "3030-59901",
+    "tgdbId": 50985
+  },
+  {
+    "name": "Titanfall",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex30",
+    "igdbId": 2115,
+    "gbId": 42860,
+    "gbGuid": "3030-42860",
+    "tgdbId": 17252
+  },
+  {
+    "name": "Zoo Tycoon",
+    "details": "Microsoft Xbox One platform exclusive",
+    "id": "xb1ex31",
+    "igdbId": 18538,
+    "gbId": 42908,
+    "gbGuid": "3030-42908",
+    "tgdbId": 8699
+  },
+  {
+    "name": "Zoo Tycoon: Ultimate Animal Collection",
+    "details": "Microsoft Xbox One console exclusive",
+    "id": "xb1ex32",
+    "igdbId": 74712,
+    "gbId": 61782,
+    "gbGuid": "3030-61782",
+    "tgdbId": 53469
+  },
+  {
+    "name": "100 Ways",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex33",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "2urvive",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex34",
+    "igdbId": 77361,
+    "gbId": 62734,
+    "gbGuid": "3030-62734",
+    "tgdbId": null
+  },
+  {
+    "name": "911 Operator",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex35",
+    "igdbId": 20927,
+    "gbId": 55574,
+    "gbGuid": "3030-55574",
+    "tgdbId": 65783
+  },
+  {
+    "name": "Acorn Assault: Rodent Revolution",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex36",
+    "igdbId": 21991,
+    "gbId": 52842,
+    "gbGuid": "3030-52842",
+    "tgdbId": null
+  },
+  {
+    "name": "Action News Heroes",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex37",
+    "igdbId": 51614,
+    "gbId": 55464,
+    "gbGuid": "3030-55464",
+    "tgdbId": null
+  },
+  {
+    "name": "Aftercharge",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex38",
+    "igdbId": 27698,
+    "gbId": 69175,
+    "gbGuid": "3030-69175",
+    "tgdbId": 62956
+  },
+  {
+    "name": "Agents vs Villain",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex39",
+    "igdbId": 111818,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Air Guitar Warrior Gamepad Edition",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex40",
+    "igdbId": 106168,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Air Missions: Hind",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex41",
+    "igdbId": 20394,
+    "gbId": 67686,
+    "gbGuid": "3030-67686",
+    "tgdbId": 65937
+  },
+  {
+    "name": "Akuatica",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex42",
+    "igdbId": 34497,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Amazing princess sarah",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex43",
+    "igdbId": 20968,
+    "gbId": 46970,
+    "gbGuid": "3030-46970",
+    "tgdbId": 24907
+  },
+  {
+    "name": "Anode",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex44",
+    "igdbId": 34489,
+    "gbId": 55016,
+    "gbGuid": "3030-55016",
+    "tgdbId": null
+  },
+  {
+    "name": "Aritana and the Harpy's Feather",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex45",
+    "igdbId": 17660,
+    "gbId": 47385,
+    "gbGuid": "3030-47385",
+    "tgdbId": null
+  },
+  {
+    "name": "Armored Freedom",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex46",
+    "igdbId": 29625,
+    "gbId": 58841,
+    "gbGuid": "3030-58841",
+    "tgdbId": null
+  },
+  {
+    "name": "Ashen",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex47",
+    "igdbId": 6259,
+    "gbId": 4946,
+    "gbGuid": "3030-4946",
+    "tgdbId": 34556
+  },
+  {
+    "name": "ASTRONEER",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex48",
+    "igdbId": 13205,
+    "gbId": 53060,
+    "gbGuid": "3030-53060",
+    "tgdbId": 54843
+  },
+  {
+    "name": "Atomic Heist",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex49",
+    "igdbId": 90091,
+    "gbId": 68253,
+    "gbGuid": "3030-68253",
+    "tgdbId": null
+  },
+  {
+    "name": "A Walk in the Dark",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex50",
+    "igdbId": 16646,
+    "gbId": 36940,
+    "gbGuid": "3030-36940",
+    "tgdbId": 18236
+  },
+  {
+    "name": "Babylon 2055 Pinball",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex51",
+    "igdbId": 33113,
+    "gbId": 68262,
+    "gbGuid": "3030-68262",
+    "tgdbId": null
+  },
+  {
+    "name": "Backlash",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex52",
+    "igdbId": 55621,
+    "gbId": 73050,
+    "gbGuid": "3030-73050",
+    "tgdbId": 47841
+  },
+  {
+    "name": "Battle High 2 A+",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex53",
+    "igdbId": 76497,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Below",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex54",
+    "igdbId": null,
+    "gbId": 42903,
+    "gbGuid": "3030-42903",
+    "tgdbId": 54845
+  },
+  {
+    "name": "Ben-Hur",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex55",
+    "igdbId": 57820,
+    "gbId": 55467,
+    "gbGuid": "3030-55467",
+    "tgdbId": 55808
+  },
+  {
+    "name": "Bike Mayhem 2",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex56",
+    "igdbId": 21319,
+    "gbId": 52659,
+    "gbGuid": "3030-52659",
+    "tgdbId": null
+  },
+  {
+    "name": "Circuits",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex57",
+    "igdbId": 9881,
+    "gbId": 46082,
+    "gbGuid": "3030-46082",
+    "tgdbId": 20965
+  },
+  {
+    "name": "Cities: Skylines",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex58",
+    "igdbId": 9066,
+    "gbId": 47402,
+    "gbGuid": "3030-47402",
+    "tgdbId": 25473
+  },
+  {
+    "name": "CLASH",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex59",
+    "igdbId": 34233,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Clockwork Tales: Of Glass and Ink",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex60",
+    "igdbId": 17141,
+    "gbId": 46114,
+    "gbGuid": "3030-46114",
+    "tgdbId": 30566
+  },
+  {
+    "name": "ClusterPuck 99",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex61",
+    "igdbId": 24626,
+    "gbId": 48635,
+    "gbGuid": "3030-48635",
+    "tgdbId": 24899
+  },
+  {
+    "name": "Cobalt",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex62",
+    "igdbId": 2999,
+    "gbId": 36256,
+    "gbGuid": "3030-36256",
+    "tgdbId": 22368
+  },
+  {
+    "name": "Coffee Crisis",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex63",
+    "igdbId": 56697,
+    "gbId": 58346,
+    "gbGuid": "3030-58346",
+    "tgdbId": 60222
+  },
+  {
+    "name": "Crimson Dragon",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex64",
+    "igdbId": 4757,
+    "gbId": 32708,
+    "gbGuid": "3030-32708",
+    "tgdbId": 22452
+  },
+  {
+    "name": "Crypt of the Serpent King",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex65",
+    "igdbId": 31307,
+    "gbId": 51060,
+    "gbGuid": "3030-51060",
+    "tgdbId": 55402
+  },
+  {
+    "name": "Cubot",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex66",
+    "igdbId": 36000,
+    "gbId": 48957,
+    "gbGuid": "3030-48957",
+    "tgdbId": null
+  },
+  {
+    "name": "The Culling",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex67",
+    "igdbId": 17252,
+    "gbId": 52775,
+    "gbGuid": "3030-52775",
+    "tgdbId": null
+  },
+  {
+    "name": "Cyber Complex",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex68",
+    "igdbId": 54813,
+    "gbId": 66844,
+    "gbGuid": "3030-66844",
+    "tgdbId": null
+  },
+  {
+    "name": "D4: Dark Dreams Don't Die",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex69",
+    "igdbId": 4758,
+    "gbId": 42899,
+    "gbGuid": "3030-42899",
+    "tgdbId": 23506
+  },
+  {
+    "name": "Dad Beat Dads",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex70",
+    "igdbId": 34847,
+    "gbId": 56974,
+    "gbGuid": "3030-56974",
+    "tgdbId": null
+  },
+  {
+    "name": "The Darwin Project",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex71",
+    "igdbId": 27741,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 54855
+  },
+  {
+    "name": "Deadbeat Heroes",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex72",
+    "igdbId": 74197,
+    "gbId": 62133,
+    "gbGuid": "3030-62133",
+    "tgdbId": null
+  },
+  {
+    "name": "Deadliners",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex73",
+    "igdbId": 46489,
+    "gbId": 70427,
+    "gbGuid": "3030-70427",
+    "tgdbId": null
+  },
+  {
+    "name": "DGU: Death God University",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex74",
+    "igdbId": 35689,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "World of Van Helsing: Deathtrap",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex75",
+    "igdbId": 82402,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Decay: The Mare",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex76",
+    "igdbId": 10175,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Deep Rock Galactic",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex77",
+    "igdbId": 27134,
+    "gbId": 57465,
+    "gbGuid": "3030-57465",
+    "tgdbId": 53584
+  },
+  {
+    "name": "Dragon Bros",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex78",
+    "igdbId": 31970,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Draw a Stickman: EPIC",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex79",
+    "igdbId": 5032,
+    "gbId": 43736,
+    "gbGuid": "3030-43736",
+    "tgdbId": 29281
+  },
+  {
+    "name": "Drunk-Fu: Wasted Masters",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex80",
+    "igdbId": 28906,
+    "gbId": 61251,
+    "gbGuid": "3030-61251",
+    "tgdbId": null
+  },
+  {
+    "name": "Dungeon of the Endless",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex81",
+    "igdbId": 9683,
+    "gbId": 43670,
+    "gbGuid": "3030-43670",
+    "tgdbId": 27099
+  },
+  {
+    "name": "DYE",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex82",
+    "igdbId": 27288,
+    "gbId": 58169,
+    "gbGuid": "3030-58169",
+    "tgdbId": null
+  },
+  {
+    "name": "Elea",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex83",
+    "igdbId": 17469,
+    "gbId": 68244,
+    "gbGuid": "3030-68244",
+    "tgdbId": null
+  },
+  {
+    "name": "Energy Cycle",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex84",
+    "igdbId": 34202,
+    "gbId": 60672,
+    "gbGuid": "3030-60672",
+    "tgdbId": 54264
+  },
+  {
+    "name": "Eternal",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex85",
+    "igdbId": null,
+    "gbId": 52602,
+    "gbGuid": "3030-52602",
+    "tgdbId": null
+  },
+  {
+    "name": "Fable Fortune",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex86",
+    "igdbId": 19388,
+    "gbId": 54100,
+    "gbGuid": "3030-54100",
+    "tgdbId": 54862
+  },
+  {
+    "name": "Factotum 90",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex87",
+    "igdbId": 21317,
+    "gbId": 53305,
+    "gbGuid": "3030-53305",
+    "tgdbId": 54666
+  },
+  {
+    "name": "Fearful Symmetry & The Cursed Prince",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex88",
+    "igdbId": 75932,
+    "gbId": 63740,
+    "gbGuid": "3030-63740",
+    "tgdbId": null
+  },
+  {
+    "name": "Fermi's Path",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex89",
+    "igdbId": 20958,
+    "gbId": 51191,
+    "gbGuid": "3030-51191",
+    "tgdbId": null
+  },
+  {
+    "name": "Fighties",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex90",
+    "igdbId": 35466,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 33738
+  },
+  {
+    "name": "Final Star",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex91",
+    "igdbId": 113440,
+    "gbId": 71462,
+    "gbGuid": "3030-71462",
+    "tgdbId": null
+  },
+  {
+    "name": "Fission Superstar X",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex92",
+    "igdbId": 90312,
+    "gbId": 71406,
+    "gbGuid": "3030-71406",
+    "tgdbId": null
+  },
+  {
+    "name": "Flying Tigers: Shadows Over China",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex93",
+    "igdbId": 35361,
+    "gbId": 17966,
+    "gbGuid": "3030-17966",
+    "tgdbId": null
+  },
+  {
+    "name": "Forsaken Remastered",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex94",
+    "igdbId": 106102,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Fortified",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex95",
+    "igdbId": 18009,
+    "gbId": 48023,
+    "gbGuid": "3030-48023",
+    "tgdbId": 35022
+  },
+  {
+    "name": "Forza Horizon 2 Presents Fast & Furious",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex96",
+    "igdbId": 74159,
+    "gbId": 48965,
+    "gbGuid": "3030-48965",
+    "tgdbId": 37276
+  },
+  {
+    "name": "Frizzy",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex97",
+    "igdbId": 34764,
+    "gbId": 51994,
+    "gbGuid": "3030-51994",
+    "tgdbId": null
+  },
+  {
+    "name": "Fumiko!",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex98",
+    "igdbId": 27194,
+    "gbId": 57892,
+    "gbGuid": "3030-57892",
+    "tgdbId": null
+  },
+  {
+    "name": "Future War: Reborn",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex99",
+    "igdbId": 78061,
+    "gbId": 68155,
+    "gbGuid": "3030-68155",
+    "tgdbId": null
+  },
+  {
+    "name": "Ghost of a Tale",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex100",
+    "igdbId": 7684,
+    "gbId": 42460,
+    "gbGuid": "3030-42460",
+    "tgdbId": 22720
+  },
+  {
+    "name": "Gleaner Heights",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex101",
+    "igdbId": 86328,
+    "gbId": 66581,
+    "gbGuid": "3030-66581",
+    "tgdbId": null
+  },
+  {
+    "name": "GoatPunks",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex102",
+    "igdbId": 33929,
+    "gbId": 56979,
+    "gbGuid": "3030-56979",
+    "tgdbId": 64366
+  },
+  {
+    "name": "God of Light: Remastered",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex103",
+    "igdbId": 75048,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Goliath",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex104",
+    "igdbId": 11080,
+    "gbId": 53663,
+    "gbGuid": "3030-53663",
+    "tgdbId": null
+  },
+  {
+    "name": "Gigantic",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex105",
+    "igdbId": 11134,
+    "gbId": 47031,
+    "gbGuid": "3030-47031",
+    "tgdbId": 61434
+  },
+  {
+    "name": "G Prime Into The Rain",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex106",
+    "igdbId": 32201,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "GunWorld",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex107",
+    "igdbId": 82544,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 27551
+  },
+  {
+    "name": "Hack, Slash & Backstab",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex108",
+    "igdbId": 33600,
+    "gbId": 55309,
+    "gbGuid": "3030-55309",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo: Spartan Assault",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex109",
+    "igdbId": 4839,
+    "gbId": 42843,
+    "gbGuid": "3030-42843",
+    "tgdbId": 17215
+  },
+  {
+    "name": "Happy Wars",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex110",
+    "igdbId": 8410,
+    "gbId": 37989,
+    "gbGuid": "3030-37989",
+    "tgdbId": 20301
+  },
+  {
+    "name": "HeartZ: Co-Hope Puzzles",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex111",
+    "igdbId": 35803,
+    "gbId": 65749,
+    "gbGuid": "3030-65749",
+    "tgdbId": null
+  },
+  {
+    "name": "Hyper Universe",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex112",
+    "igdbId": 54817,
+    "gbId": 56933,
+    "gbGuid": "3030-56933",
+    "tgdbId": 63917
+  },
+  {
+    "name": "#IDARB",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex113",
+    "igdbId": 9888,
+    "gbId": 45701,
+    "gbGuid": "3030-45701",
+    "tgdbId": 25647
+  },
+  {
+    "name": "In Between",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex114",
+    "igdbId": null,
+    "gbId": 53710,
+    "gbGuid": "3030-53710",
+    "tgdbId": null
+  },
+  {
+    "name": "The Incredible Adventures of Van Helsing III",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex115",
+    "igdbId": 11703,
+    "gbId": 49895,
+    "gbGuid": "3030-49895",
+    "tgdbId": 32591
+  },
+  {
+    "name": "Initial2: New Stage",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex116",
+    "igdbId": null,
+    "gbId": 74345,
+    "gbGuid": "3030-74345",
+    "tgdbId": null
+  },
+  {
+    "name": "Into the Belly of the Beast",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex117",
+    "igdbId": 33890,
+    "gbId": 65748,
+    "gbGuid": "3030-65748",
+    "tgdbId": null
+  },
+  {
+    "name": "Iron Wings",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex118",
+    "igdbId": 25953,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "I, Hope",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex119",
+    "igdbId": 88401,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "I, Zombie",
+    "details": "Microsoft Xbox One platform exclusive (digital only)",
+    "id": "xb1ex120",
+    "igdbId": 9879,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 30526
+  },
+  {
+    "name": "Jump, Step, Step",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex121",
+    "igdbId": 29864,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Kaiju Panic",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex122",
+    "igdbId": 13190,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 33750
+  },
+  {
+    "name": "Kalimba",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex123",
+    "igdbId": 14711,
+    "gbId": 45997,
+    "gbGuid": "3030-45997",
+    "tgdbId": 30320
+  },
+  {
+    "name": "Killer Instinct",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex124",
+    "igdbId": 10354,
+    "gbId": 18484,
+    "gbGuid": "3030-18484",
+    "tgdbId": 1254
+  },
+  {
+    "name": "King's Guard TD",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex125",
+    "igdbId": 32750,
+    "gbId": 53581,
+    "gbGuid": "3030-53581",
+    "tgdbId": null
+  },
+  {
+    "name": "Knight Squad",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex126",
+    "igdbId": 14380,
+    "gbId": 46058,
+    "gbGuid": "3030-46058",
+    "tgdbId": 49080
+  },
+  {
+    "name": "Korgan",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex127",
+    "igdbId": 83810,
+    "gbId": 66681,
+    "gbGuid": "3030-66681",
+    "tgdbId": 64026
+  },
+  {
+    "name": "Land It!",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex128",
+    "igdbId": 76071,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Lilith-M",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex129",
+    "igdbId": 106240,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Line Of Defense Tactics",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex130",
+    "igdbId": 16894,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Living Dungeon",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex131",
+    "igdbId": 21316,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "LocoCycle",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex132",
+    "igdbId": 4846,
+    "gbId": 38529,
+    "gbGuid": "3030-38529",
+    "tgdbId": 23467
+  },
+  {
+    "name": "Magic: The Gathering - Duels of the Planeswalkers 2015",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex133",
+    "igdbId": 18218,
+    "gbId": 45981,
+    "gbGuid": "3030-45981",
+    "tgdbId": null
+  },
+  {
+    "name": "Magical Brickout",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex134",
+    "igdbId": 25071,
+    "gbId": 68993,
+    "gbGuid": "3030-68993",
+    "tgdbId": null
+  },
+  {
+    "name": "Magnetic: Cage Closed",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex135",
+    "igdbId": 20888,
+    "gbId": 49831,
+    "gbGuid": "3030-49831",
+    "tgdbId": 61241
+  },
+  {
+    "name": "MagNets: Fully Charged",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex136",
+    "igdbId": 21322,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Massive Chalice",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex137",
+    "igdbId": 15861,
+    "gbId": 42775,
+    "gbGuid": "3030-42775",
+    "tgdbId": 34983
+  },
+  {
+    "name": "Mayan Death Robots: Arena",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex138",
+    "igdbId": 82444,
+    "gbId": 47836,
+    "gbGuid": "3030-47836",
+    "tgdbId": null
+  },
+  {
+    "name": "Mimic Arena",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex139",
+    "igdbId": 33785,
+    "gbId": 50991,
+    "gbGuid": "3030-50991",
+    "tgdbId": null
+  },
+  {
+    "name": "Minion Masters: Forced to Duel",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex140",
+    "igdbId": 27150,
+    "gbId": 57014,
+    "gbGuid": "3030-57014",
+    "tgdbId": 61141
+  },
+  {
+    "name": "Molecats",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex141",
+    "igdbId": 22743,
+    "gbId": 68301,
+    "gbGuid": "3030-68301",
+    "tgdbId": null
+  },
+  {
+    "name": "Momentum",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex142",
+    "igdbId": 23568,
+    "gbId": 53478,
+    "gbGuid": "3030-53478",
+    "tgdbId": null
+  },
+  {
+    "name": "Monkey King Saga",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex143",
+    "igdbId": 34061,
+    "gbId": 54268,
+    "gbGuid": "3030-54268",
+    "tgdbId": null
+  },
+  {
+    "name": "Mystery Castle",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex144",
+    "igdbId": 19889,
+    "gbId": 53857,
+    "gbGuid": "3030-53857",
+    "tgdbId": null
+  },
+  {
+    "name": "NeuroBloxs",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex145",
+    "igdbId": 112435,
+    "gbId": 71131,
+    "gbGuid": "3030-71131",
+    "tgdbId": null
+  },
+  {
+    "name": "Nevermind",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex146",
+    "igdbId": 12452,
+    "gbId": 53333,
+    "gbGuid": "3030-53333",
+    "tgdbId": 33009
+  },
+  {
+    "name": "On A Roll 3D",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex147",
+    "igdbId": 35990,
+    "gbId": 54138,
+    "gbGuid": "3030-54138",
+    "tgdbId": null
+  },
+  {
+    "name": "The One We Found",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex148",
+    "igdbId": 109827,
+    "gbId": 70658,
+    "gbGuid": "3030-70658",
+    "tgdbId": null
+  },
+  {
+    "name": "oOo: Ascension",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex149",
+    "igdbId": 103214,
+    "gbId": 68131,
+    "gbGuid": "3030-68131",
+    "tgdbId": null
+  },
+  {
+    "name": "Operencia: The Stolen Sun",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex150",
+    "igdbId": 113212,
+    "gbId": 71542,
+    "gbGuid": "3030-71542",
+    "tgdbId": 64895
+  },
+  {
+    "name": "Orbit",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex151",
+    "igdbId": 20962,
+    "gbId": 37008,
+    "gbGuid": "3030-37008",
+    "tgdbId": 20080
+  },
+  {
+    "name": "Ori and the Blind Forest",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex152",
+    "igdbId": 7344,
+    "gbId": 46548,
+    "gbGuid": "3030-46548",
+    "tgdbId": 20797
+  },
+  {
+    "name": "Ori and the Blind Forest: Definitive Edition",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex153",
+    "igdbId": 19456,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 61249
+  },
+  {
+    "name": "Outbreak",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex154",
+    "igdbId": 77034,
+    "gbId": 31201,
+    "gbGuid": "3030-31201",
+    "tgdbId": null
+  },
+  {
+    "name": "Outbreak: Lost Hope",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex155",
+    "igdbId": 115905,
+    "gbId": 73852,
+    "gbGuid": "3030-73852",
+    "tgdbId": null
+  },
+  {
+    "name": "Outbreak: The Nightmare Chronicles",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex156",
+    "igdbId": 90135,
+    "gbId": 73851,
+    "gbGuid": "3030-73851",
+    "tgdbId": null
+  },
+  {
+    "name": "Outbreak: The New Nightmare",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex157",
+    "igdbId": 38782,
+    "gbId": 61615,
+    "gbGuid": "3030-61615",
+    "tgdbId": null
+  },
+  {
+    "name": "Outer Wilds",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex158",
+    "igdbId": 11737,
+    "gbId": 49344,
+    "gbGuid": "3030-49344",
+    "tgdbId": 64893
+  },
+  {
+    "name": "Overdriven Reloaded: Special Edition",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex159",
+    "igdbId": 53438,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Party Jousting",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex160",
+    "igdbId": 33608,
+    "gbId": 71364,
+    "gbGuid": "3030-71364",
+    "tgdbId": null
+  },
+  {
+    "name": "Path of Exile",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex161",
+    "igdbId": 1911,
+    "gbId": 32562,
+    "gbGuid": "3030-32562",
+    "tgdbId": 11131
+  },
+  {
+    "name": "Perfect Woman",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex162",
+    "igdbId": 57819,
+    "gbId": 55466,
+    "gbGuid": "3030-55466",
+    "tgdbId": null
+  },
+  {
+    "name": "Phantom Dust",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex163",
+    "igdbId": 7341,
+    "gbId": 15133,
+    "gbGuid": "3030-15133",
+    "tgdbId": 20769
+  },
+  {
+    "name": "Pit People",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex164",
+    "igdbId": 17207,
+    "gbId": 45982,
+    "gbGuid": "3030-45982",
+    "tgdbId": null
+  },
+  {
+    "name": "Planetbase",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex165",
+    "igdbId": 13200,
+    "gbId": 51197,
+    "gbGuid": "3030-51197",
+    "tgdbId": 65704
+  },
+  {
+    "name": "Polychromatic",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex167",
+    "igdbId": 20956,
+    "gbId": 50889,
+    "gbGuid": "3030-50889",
+    "tgdbId": null
+  },
+  {
+    "name": "Purple Chicken Spaceman",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex168",
+    "igdbId": 117777,
+    "gbId": 73204,
+    "gbGuid": "3030-73204",
+    "tgdbId": null
+  },
+  {
+    "name": "Q",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex169",
+    "igdbId": 82427,
+    "gbId": 50185,
+    "gbGuid": "3030-50185",
+    "tgdbId": null
+  },
+  {
+    "name": "Quantic Pinball",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex170",
+    "igdbId": 29831,
+    "gbId": 67119,
+    "gbGuid": "3030-67119",
+    "tgdbId": null
+  },
+  {
+    "name": "Quantum Rush Champions",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex171",
+    "igdbId": 17726,
+    "gbId": 50027,
+    "gbGuid": "3030-50027",
+    "tgdbId": null
+  },
+  {
+    "name": "Quatros Origins",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex172",
+    "igdbId": 33984,
+    "gbId": 54888,
+    "gbGuid": "3030-54888",
+    "tgdbId": null
+  },
+  {
+    "name": "Raining Blobs",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex173",
+    "igdbId": 24050,
+    "gbId": 52698,
+    "gbGuid": "3030-52698",
+    "tgdbId": null
+  },
+  {
+    "name": "Reagan Gorbachev",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex174",
+    "igdbId": 35414,
+    "gbId": 53491,
+    "gbGuid": "3030-53491",
+    "tgdbId": null
+  },
+  {
+    "name": "Refunct",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex175",
+    "igdbId": 13542,
+    "gbId": 51315,
+    "gbGuid": "3030-51315",
+    "tgdbId": 64297
+  },
+  {
+    "name": "Reversi Quest",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex176",
+    "igdbId": 104780,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Rivals of Aether",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex177",
+    "igdbId": 21646,
+    "gbId": 48000,
+    "gbGuid": "3030-48000",
+    "tgdbId": 51979
+  },
+  {
+    "name": "Roblox",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex178",
+    "igdbId": 17269,
+    "gbId": 25462,
+    "gbGuid": "3030-25462",
+    "tgdbId": 23742
+  },
+  {
+    "name": "Robocraft Infinity",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex179",
+    "igdbId": 93843,
+    "gbId": 67231,
+    "gbGuid": "3030-67231",
+    "tgdbId": 54894
+  },
+  {
+    "name": "Rocket Wars",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex180",
+    "igdbId": 36630,
+    "gbId": 59623,
+    "gbGuid": "3030-59623",
+    "tgdbId": null
+  },
+  {
+    "name": "Samsara",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex181",
+    "igdbId": 76641,
+    "gbId": 63411,
+    "gbGuid": "3030-63411",
+    "tgdbId": null
+  },
+  {
+    "name": "Save The Ninja Clan",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex182",
+    "igdbId": 27299,
+    "gbId": 57936,
+    "gbGuid": "3030-57936",
+    "tgdbId": null
+  },
+  {
+    "name": "Shadow Fencer Theatre",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex183",
+    "igdbId": 116488,
+    "gbId": 72452,
+    "gbGuid": "3030-72452",
+    "tgdbId": null
+  },
+  {
+    "name": "Shalnor Legends: Sacred Lands",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex184",
+    "igdbId": 69498,
+    "gbId": 64416,
+    "gbGuid": "3030-64416",
+    "tgdbId": null
+  },
+  {
+    "name": "ShellShock Live",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex185",
+    "igdbId": 17904,
+    "gbId": 49235,
+    "gbGuid": "3030-49235",
+    "tgdbId": 61465
+  },
+  {
+    "name": "Shiny",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex186",
+    "igdbId": 23956,
+    "gbId": 53796,
+    "gbGuid": "3030-53796",
+    "tgdbId": 62643
+  },
+  {
+    "name": "Sixty Second Shooter Prime",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex187",
+    "igdbId": 20056,
+    "gbId": 46688,
+    "gbGuid": "3030-46688",
+    "tgdbId": null
+  },
+  {
+    "name": "Skyling: Garden Defense",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex188",
+    "igdbId": 29821,
+    "gbId": 53293,
+    "gbGuid": "3030-53293",
+    "tgdbId": null
+  },
+  {
+    "name": "SlashDash",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex189",
+    "igdbId": 11651,
+    "gbId": 46195,
+    "gbGuid": "3030-46195",
+    "tgdbId": null
+  },
+  {
+    "name": "Smoots World Cup Tennis",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex190",
+    "igdbId": 24720,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Snooker Nation Championship",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex191",
+    "igdbId": 33123,
+    "gbId": 53560,
+    "gbGuid": "3030-53560",
+    "tgdbId": null
+  },
+  {
+    "name": "Soda Drinker Pro",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex192",
+    "igdbId": 20037,
+    "gbId": 41901,
+    "gbGuid": "3030-41901",
+    "tgdbId": null
+  },
+  {
+    "name": "The Solus Project",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex193",
+    "igdbId": 11221,
+    "gbId": 50016,
+    "gbGuid": "3030-50016",
+    "tgdbId": 60268
+  },
+  {
+    "name": "Spareware",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex194",
+    "igdbId": 31224,
+    "gbId": 54049,
+    "gbGuid": "3030-54049",
+    "tgdbId": null
+  },
+  {
+    "name": "Spectra: 8bit Racing",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex195",
+    "igdbId": 61509,
+    "gbId": 46576,
+    "gbGuid": "3030-46576",
+    "tgdbId": null
+  },
+  {
+    "name": "Speedboat Challenge",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex196",
+    "igdbId": 82415,
+    "gbId": 65626,
+    "gbGuid": "3030-65626",
+    "tgdbId": null
+  },
+  {
+    "name": "Standpoint",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex197",
+    "igdbId": 10885,
+    "gbId": 48441,
+    "gbGuid": "3030-48441",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Balls",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex198",
+    "igdbId": 35370,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Starpoint Gemini 2",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex199",
+    "igdbId": 8818,
+    "gbId": 43852,
+    "gbGuid": "3030-43852",
+    "tgdbId": 18737
+  },
+  {
+    "name": "Starpoint Gemini Warlords",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex200",
+    "igdbId": 23905,
+    "gbId": 53417,
+    "gbGuid": "3030-53417",
+    "tgdbId": null
+  },
+  {
+    "name": "Steel Rain X",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex201",
+    "igdbId": 51611,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Stories of Bethem: Full Moon",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex202",
+    "igdbId": 34180,
+    "gbId": 55463,
+    "gbGuid": "3030-55463",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Bomb Rush!",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex203",
+    "igdbId": 34566,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Space Serpent - Secondary Edition",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex204",
+    "igdbId": 117529,
+    "gbId": 73011,
+    "gbGuid": "3030-73011",
+    "tgdbId": null
+  },
+  {
+    "name": "Switch - Or Die Trying",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex205",
+    "igdbId": 31968,
+    "gbId": 67116,
+    "gbGuid": "3030-67116",
+    "tgdbId": null
+  },
+  {
+    "name": "Talent Not Included",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex206",
+    "igdbId": 32469,
+    "gbId": 59010,
+    "gbGuid": "3030-59010",
+    "tgdbId": null
+  },
+  {
+    "name": "Threes",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex207",
+    "igdbId": 9054,
+    "gbId": 45363,
+    "gbGuid": "3030-45363",
+    "tgdbId": 30051
+  },
+  {
+    "name": "Train Sim World: Founders Edition",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex208",
+    "igdbId": 90057,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "TurnOn",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex209",
+    "igdbId": 19606,
+    "gbId": 62642,
+    "gbGuid": "3030-62642",
+    "tgdbId": null
+  },
+  {
+    "name": "Tyler: Model 005",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex210",
+    "igdbId": 29943,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 61267
+  },
+  {
+    "name": "Unit 4",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex211",
+    "igdbId": 36422,
+    "gbId": 59695,
+    "gbGuid": "3030-59695",
+    "tgdbId": 62192
+  },
+  {
+    "name": "Unnamed Fiasco",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex212",
+    "igdbId": 34775,
+    "gbId": 54772,
+    "gbGuid": "3030-54772",
+    "tgdbId": null
+  },
+  {
+    "name": "Velocity G",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex213",
+    "igdbId": 107977,
+    "gbId": 72609,
+    "gbGuid": "3030-72609",
+    "tgdbId": null
+  },
+  {
+    "name": "Vicious Attack Llama Apocalypse",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex214",
+    "igdbId": 44289,
+    "gbId": 64035,
+    "gbGuid": "3030-64035",
+    "tgdbId": null
+  },
+  {
+    "name": "Vigor",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex215",
+    "igdbId": 103328,
+    "gbId": 68962,
+    "gbGuid": "3030-68962",
+    "tgdbId": 60620
+  },
+  {
+    "name": "Voice Commander, a Microsoft Garage project",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex216",
+    "igdbId": 82404,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Voodoo Vince: Remastered",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex217",
+    "igdbId": 25649,
+    "gbId": 7914,
+    "gbGuid": "3030-7914",
+    "tgdbId": 53320
+  },
+  {
+    "name": "The Way",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex218",
+    "igdbId": 80765,
+    "gbId": 37036,
+    "gbGuid": "3030-37036",
+    "tgdbId": 53218
+  },
+  {
+    "name": "Wells",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex219",
+    "igdbId": 31298,
+    "gbId": 52457,
+    "gbGuid": "3030-52457",
+    "tgdbId": null
+  },
+  {
+    "name": "Wenjia",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex220",
+    "igdbId": 110509,
+    "gbId": 70229,
+    "gbGuid": "3030-70229",
+    "tgdbId": null
+  },
+  {
+    "name": "Westerado: Double Barreled",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex221",
+    "igdbId": 8904,
+    "gbId": 41453,
+    "gbGuid": "3030-41453",
+    "tgdbId": 54117
+  },
+  {
+    "name": "Wheelspin Frenzy",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex222",
+    "igdbId": 104998,
+    "gbId": 69309,
+    "gbGuid": "3030-69309",
+    "tgdbId": null
+  },
+  {
+    "name": "Winx Club: Alfea Butterflix Adventures",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex223",
+    "igdbId": 79740,
+    "gbId": 69276,
+    "gbGuid": "3030-69276",
+    "tgdbId": null
+  },
+  {
+    "name": "World Enduro Rally",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex224",
+    "igdbId": 111671,
+    "gbId": 72012,
+    "gbGuid": "3030-72012",
+    "tgdbId": null
+  },
+  {
+    "name": "The World II: Hunting BOSS",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex225",
+    "igdbId": 17843,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 46277
+  },
+  {
+    "name": "Xbox Fitness",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex226",
+    "igdbId": 19172,
+    "gbId": 44034,
+    "gbGuid": "3030-44034",
+    "tgdbId": 41587
+  },
+  {
+    "name": "The Z Axis: Continuum",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex227",
+    "igdbId": 104794,
+    "gbId": 69685,
+    "gbGuid": "3030-69685",
+    "tgdbId": null
+  },
+  {
+    "name": "Zombie Driver: Ultimate Edition",
+    "details": "Microsoft Xbox One full exclusive (digital only)",
+    "id": "xb1ex228",
+    "igdbId": 20229,
+    "gbId": 29265,
+    "gbGuid": "3030-29265",
+    "tgdbId": null
+  },
+  {
+    "name": "Zombie Pinball",
+    "details": "Microsoft Xbox One console exclusive (digital only)",
+    "id": "xb1ex229",
+    "igdbId": 33114,
+    "gbId": 54823,
+    "gbGuid": "3030-54823",
+    "tgdbId": null
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Battle Arena Toshinden",
+    "id": "ps1lt1",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 1413,
+    "gbId": 5238,
+    "gbGuid": "3030-5238",
+    "tgdbId": 10954
+  },
+  {
+    "name": "ESPN Extreme Games",
+    "id": "ps1lt2",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 20587,
+    "gbId": 1870,
+    "gbGuid": "3030-1870",
+    "tgdbId": 15966
+  },
+  {
+    "name": "Kileak: The DNA Imperative",
+    "id": "ps1lt3",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 20255,
+    "gbId": 14799,
+    "gbGuid": "3030-14799",
+    "tgdbId": 30724
+  },
+  {
+    "name": "NBA Jam Tournament Edition",
+    "id": "ps1lt4",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 19712,
+    "gbId": 14792,
+    "gbGuid": "3030-14792",
+    "tgdbId": 656
+  },
+  {
+    "name": "Power Serve 3D Tennis",
+    "id": "ps1lt5",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 20641,
+    "gbId": 18631,
+    "gbGuid": "3030-18631",
+    "tgdbId": 31153
+  },
+  {
+    "name": "The Raiden Project",
+    "id": "ps1lt6",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 20301,
+    "gbId": 15131,
+    "gbGuid": "3030-15131",
+    "tgdbId": 13538
+  },
+  {
+    "name": "Rayman",
+    "id": "ps1lt7",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 1963,
+    "gbId": 18473,
+    "gbGuid": "3030-18473",
+    "tgdbId": 3982
+  },
+  {
+    "name": "Ridge Racer",
+    "id": "ps1lt8",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 18787,
+    "gbId": 2158,
+    "gbGuid": "3030-2158",
+    "tgdbId": 7112
+  },
+  {
+    "name": "Street Fighter: The Movie",
+    "id": "ps1lt9",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 19754,
+    "gbId": 3760,
+    "gbGuid": "3030-3760",
+    "tgdbId": 11354
+  },
+  {
+    "name": "Total Eclipse Turbo",
+    "id": "ps1lt10",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 44991,
+    "gbId": 22915,
+    "gbGuid": "3030-22915",
+    "tgdbId": 11665
+  },
+  {
+    "name": "Twisted Metal",
+    "id": "ps1lt11",
+    "details": "Sony PlayStation launch title",
+    "igdbId": 4695,
+    "gbId": 12318,
+    "gbGuid": "3030-12318",
+    "tgdbId": 6650
+  }
+]

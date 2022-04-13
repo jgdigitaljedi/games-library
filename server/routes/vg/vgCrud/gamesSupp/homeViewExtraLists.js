@@ -1,6 +1,8 @@
 const db = require('../../../../db');
 
-// TODO: get list for 3DS launch titles
+// TODO: get list for Nintendo 3DS launch titles
+// TODO: get list for REAL 3DO launch titles
+// TODO: get list for Virtual Boy exclusives
 
 // launch titles
 const atari2600Lt = require('../../../../extra/launchTitles/atari2600LaunchTitles.json').map(
@@ -61,6 +63,28 @@ const ps2LtIds = require('../../../../extra/launchTitles/ps2LaunchTitles.json').
 const ps3LtIds = require('../../../../extra/launchTitles/ps3LaunchTitles.json').map(g => g.igdbId);
 const ps4LtIds = require('../../../../extra/launchTitles/ps4LaunchTitles.json').map(g => g.igdbId);
 const pspLtIds = require('../../../../extra/launchTitles/pspLaunchTitles.json').map(g => g.igdbId);
+const dsLtIds = require('../../../../extra/launchTitles/dsLaunchTitles.json').map(g => g.igdbId);
+const gbLtIds = require('../../../../extra/launchTitles/gameBoyLaunchTitles.json').map(
+  g => g.igdbId
+);
+const gbcLtIds = require('../../../../extra/launchTitles/gameBoyColorLaunchTitles.json').map(
+  g => g.igdbId
+);
+const scdLtIds = require('../../../../extra/launchTitles/segaCdLaunchTitles.json').map(
+  g => g.igdbId
+);
+const ggLtIds = require('../../../../extra/launchTitles/gameGearLaunchTitles.json').map(
+  g => g.igdbId
+);
+const tgLtIds = require('../../../../extra/launchTitles/turbografx16LaunchTitles.json').map(
+  g => g.igdbId
+);
+const smsLtIds = require('../../../../extra/launchTitles/segaMasterSystemLaunchTitles.json').map(
+  g => g.igdbId
+);
+const nvbLtIds = require('../../../../extra/launchTitles/virtualBoyLaunchTitles.json').map(
+  g => g.igdbId
+);
 
 // exclusives
 const atari2600Ex = require('../../../../extra/exclusives/atari2600Exclusives.json').map(
@@ -130,6 +154,26 @@ const ps4ExIds = require('../../../../extra/exclusives/sonyPlaystation4Exclusive
   g => g.igdbId
 );
 const pspExIds = require('../../../../extra/exclusives/sonyPspExclusives.json').map(g => g.igdbId);
+const dsExIds = require('../../../../extra/exclusives/nintendoDsExclusives.json').map(
+  g => g.igdbId
+);
+const gbExIds = require('../../../../extra/exclusives/nintendoGameBoyExclusives.json').map(
+  g => g.igdbId
+);
+const gbcExIds = require('../../../../extra/exclusives/nintendoGameBoyColorExclusives.json').map(
+  g => g.igdbId
+);
+const r3doExIds = require('../../../../extra/exclusives/3doExclusives.json').map(g => g.igdbId);
+const scdExIds = require('../../../../extra/exclusives/segaCdExclusives.json').map(g => g.igdbId);
+const ggExIds = require('../../../../extra/exclusives/segaGameGearExclusives.json').map(
+  g => g.igdbId
+);
+const tgExIds = require('../../../../extra/exclusives/turbografx16Exclusives.json').map(
+  g => g.igdbId
+);
+const smsExIds = require('../../../../extra/exclusives/segaMasterSystemExclusives.json').map(
+  g => g.igdbId
+);
 
 const games = db.games.find();
 const launchOwned = {
@@ -156,7 +200,15 @@ const launchOwned = {
   ps2Lt: [],
   ps3Lt: [],
   ps4Lt: [],
-  pspLt: []
+  pspLt: [],
+  dsLt: [],
+  gbLt: [],
+  gbcLt: [],
+  scdLt: [],
+  ggLt: [],
+  tgLt: [],
+  smsLt: [],
+  nvbLt: []
 };
 
 const exOwned = {
@@ -184,7 +236,15 @@ const exOwned = {
   ps2Ex: [],
   ps3Ex: [],
   ps4Ex: [],
-  pspEx: []
+  pspEx: [],
+  dsEx: [],
+  gbEx: [],
+  gbcEx: [],
+  r3doEx: [],
+  scdEx: [],
+  ggEx: [],
+  tgEx: [],
+  smsEx: []
 };
 
 const igdbIdToFiles = {
@@ -209,21 +269,21 @@ const igdbIdToFiles = {
   9: { launch: ps3LtIds, exclusives: ps3ExIds, launchList: 'ps3Lt', exList: 'ps3Ex' }, // PS3
   48: { launch: ps4LtIds, exclusives: ps4ExIds, launchList: 'ps4Lt', exList: 'ps4Ex' }, // ps4
   38: { launch: pspLtIds, exclusives: pspExIds, launchList: 'pspLt', exList: 'pspEx' }, //psp,
-  20: { launch: [], exclusives: [] }, //ds,
-  33: { launch: [], exclusives: [] }, //gb,
-  22: { launch: [], exclusives: [] }, //gbc,
-  50: { launch: [], exclusives: [] }, // 3DO
-  78: { launch: [], exclusives: [] }, //scd,
-  35: { launch: [], exclusives: [] }, //sGg,
-  86: { launch: [], exclusives: [] }, //tg16,
+  20: { launch: dsLtIds, exclusives: dsExIds, launchList: 'dsLt', exList: 'dsEx' }, //ds,
+  33: { launch: gbLtIds, exclusives: gbExIds, launchList: 'gbLt', exList: 'gbEx' }, //gb,
+  22: { launch: gbcLtIds, exclusives: gbcExIds, launchList: 'gbcLt', exList: 'gbcEx' }, //gbc,
+  50: { launch: [], exclusives: r3doExIds, launchList: '', exList: 'r3doEx' }, // 3DO
+  78: { launch: scdLtIds, exclusives: scdExIds, launchList: 'scdLt', exList: 'scdEx' }, //scd,
+  35: { launch: ggLtIds, exclusives: ggExIds, launchList: 'ggLt', exList: 'ggEx' }, //sGg,
+  86: { launch: tgLtIds, exclusives: tgExIds, launchList: 'tgLt', tgEx: 'tgEx' }, //tg16,
   59: { launch: atari2600Lt, exclusives: atari2600Ex, launchList: 'a2600Lt', exList: 'a2600Ex' },
-  6: { launch: [], exclusives: [] }, //pc
   66: { launch: atari5200Lt, exclusives: atari5200Ex, launchList: 'a5200Lt', exList: 'a5200Ex' },
   60: { launch: atari7800Lt, exclusives: atari7800Ex, launchList: 'a7800Lt', exList: 'a7800Ex' },
-  64: { launch: [], exclusives: [] }, //sms,
+  64: { launch: smsLtIds, exclusives: smsExIds, launchList: 'smsLt', exList: 'smsEx' }, //sms,
   67: { launch: [], exclusives: [] }, //miv,
   62: { launch: atariJagLt, exclusives: atariJagEx, launchList: 'jagLt', exList: 'aJagEx' },
-  87: { launch: [], exclusives: [] } //nvb
+  87: { launch: [], exclusives: [] }, //nvb
+  6: { launch: nvbLtIds, exclusives: [], launchList: 'nvbLt', exList: '' } //pc
 };
 
 games.forEach(game => {
@@ -416,6 +476,69 @@ module.exports.getLaunchEx = function () {
       launchTotal: pspLtIds.length,
       exOwned: exOwned.pspEx.length,
       exTotal: pspExIds.length
+    },
+    {
+      con: 'Nintendo DS',
+      launchOwned: launchOwned.dsLt.length,
+      launchTotal: dsLtIds.length,
+      exOwned: exOwned.dsEx.length,
+      exTotal: dsExIds.length
+    },
+    {
+      con: 'Nintendo Game Boy',
+      launchOwned: launchOwned.gbLt.length,
+      launchTotal: gbLtIds.length,
+      exOwned: exOwned.gbEx.length,
+      exTotal: gbExIds.length
+    },
+    {
+      con: 'Nintendo Game Boy Color',
+      launchOwned: launchOwned.gbcLt.length,
+      launchTotal: gbcLtIds.length,
+      exOwned: exOwned.gbcEx.length,
+      exTotal: gbcExIds.length
+    },
+    {
+      con: 'REAL 3DO',
+      launchOwned: 0,
+      launchTotal: 0,
+      exOwned: exOwned.r3doEx.length,
+      exTotal: r3doExIds.length
+    },
+    {
+      con: 'Sega CD',
+      launchOwned: launchOwned.scdLt.length,
+      launchTotal: scdLtIds.length,
+      exOwned: exOwned.scdEx.length,
+      exTotal: scdExIds.length
+    },
+    {
+      con: 'Sega Game Gear',
+      launchOwned: launchOwned.ggLt.length,
+      launchTotal: ggLtIds.length,
+      exOwned: exOwned.ggEx.length,
+      exTotal: ggExIds.length
+    },
+    {
+      con: 'NEC TurboGrafx-16',
+      launchOwned: launchOwned.tgLt.length,
+      launchTotal: tgLtIds.length,
+      exOwned: exOwned.tgEx.length,
+      exTotal: tgExIds.length
+    },
+    {
+      con: 'Sega Master System',
+      launchOwned: launchOwned.smsLt.length,
+      launchTotal: smsLtIds.length,
+      exOwned: exOwned.smsEx.length,
+      exTotal: smsExIds.length
+    },
+    {
+      con: 'Nintendo Virtual Boy',
+      launchOwned: launchOwned.nvbLt.length,
+      launchTotal: nvbLtIds.length,
+      exOwned: 0,
+      exTotal: 0
     }
   ];
 };

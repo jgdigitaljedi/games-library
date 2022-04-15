@@ -10,7 +10,6 @@ const everDrives = require('../../extra/everDrive.json');
 const homePageStats = require('./vgCrud/gamesSupp/homeViewStats');
 const homePageExtra = require('./vgCrud/gamesSupp/homeViewExtraLists');
 const gameStats = require('../../extra/gameStats.json');
-const db = require('../../db');
 const combined = require('./vgCrud/gamesSupp/combineGames');
 const sortBy = require('lodash/sortBy');
 

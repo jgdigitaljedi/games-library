@@ -219,10 +219,6 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
     console.log('clicked', clicked);
   }, []);
 
-  const getPercent = (value: number, total: number): string => {
-    return ((value / total) * 100).toFixed(2);
-  };
-
   useEffect(() => {
     getData();
     getExtra();

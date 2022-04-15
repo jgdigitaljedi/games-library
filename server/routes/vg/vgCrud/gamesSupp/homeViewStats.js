@@ -1,6 +1,5 @@
 const _cloneDeep = require('lodash/cloneDeep');
 const _sortBy = require('lodash/sortBy');
-const _uniq = require('lodash/uniq');
 const db = require('../../../../db');
 
 const games = db.games.find();
@@ -9,13 +8,6 @@ const everDrives = require('../../../../extra/everDrive.json');
 const accessories = db.gameAcc.find();
 const collectibles = db.collectibles.find();
 const clones = db.clones.find();
-const nesBlackBox = require('../../../../extra/otherData/nesBlackBoxTitles.json');
-const genBlackBox = require('../../../../extra/otherData/blackBoxGridGenesisGames.json');
-const nesHangTab = require('../../../../extra/otherData/nesHangtabGames.json');
-
-const nesHangTabTotal = nesHangTab.length;
-const nesBBTotal = nesBlackBox.length;
-const genBBTotal = genBlackBox.length;
 
 let genres = {},
   conGames = {},
@@ -42,10 +34,7 @@ let genres = {},
   platformsCount = platforms.length,
   accessoriesCount = accessories.length,
   collectiblesCount = collectibles.length,
-  clonesCount = clones.length,
-  nesHangTabsIds = [],
-  nesBBIds = [],
-  genBBIds = [];
+  clonesCount = clones.length;
 
 function resetAll() {
   genres = {};
@@ -178,30 +167,12 @@ function handleAcqusition(game) {
   }
 }
 
-function gatherExtraData(extraData, id) {
-  extraData.forEach(data => {
-    const detailsString = data?.details?.join(';');
-    if (/NES hang tab game/gi.test(detailsString)) {
-      nesHangTabsIds.push(id);
-    } else if (/Sega Genesis\/Mega Drive black box grid game/gi.test(detailsString)) {
-      genBBIds.push(id);
-    }
-    if (/NES black box game/gi.test(detailsString)) {
-      nesBBIds.push(id);
-    }
-  });
-}
-
 function makeConGames() {
   _cloneDeep(games).forEach(game => {
     if (conGames.hasOwnProperty(game.consoleName)) {
       conGames[game.consoleName].push(game);
     } else {
       conGames[game.consoleName] = [game];
-    }
-    const extraData = game.extraDataFull || [];
-    if (extraData?.length > 0) {
-      gatherExtraData(extraData, game.id);
     }
   });
 }
@@ -351,10 +322,6 @@ module.exports.getStats = () => {
     consolesByGenSorted[gen] = consolesByGeneration[gen];
   });
 
-  const nesHangTabUnique = _uniq(nesHangTabsIds);
-  const nesBBUnique = _uniq(nesBBIds);
-  const genBBGridUnique = _uniq(genBBIds);
-
   const finalData = {
     mostRecentlyAddedGames: mostRecentGameArr,
     mostRecentlyAddedPlatforms: mostRecentConsoleArr,
@@ -377,13 +344,7 @@ module.exports.getStats = () => {
     totalCollectibles: collectiblesCount,
     totalClones: clonesCount,
     gamesByDecade,
-    everDriveCounts,
-    nesHangTabsGamesOwned: nesHangTabUnique.length,
-    nesHangTabTotal,
-    genesisBBGridOwned: genBBGridUnique.length,
-    genesisBBGridTotal: genBBTotal,
-    nesBBOwned: nesBBUnique.length,
-    nesBBTotal
+    everDriveCounts
   };
   resetAll();
   return finalData;

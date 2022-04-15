@@ -31,7 +31,7 @@ const HomeTopPricesTable: React.FC<HomeTopTableProps> = ({ data, totals, noCount
       <tbody>
         {data.map((row: any) => {
           return (
-            <tr>
+            <tr key={row.name.replace(' ', '')}>
               <td>{row.name}</td>
               <td>{currencyUtils.formatCurrencyDisplay(row.spent)}</td>
               <td>{currencyUtils.formatCurrencyDisplay(row.value)}</td>

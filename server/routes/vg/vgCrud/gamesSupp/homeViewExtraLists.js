@@ -1,4 +1,5 @@
 const db = require('../../../../db');
+const { funExtraData } = require('./seriesData/funExtraData');
 
 // TODO: get list for Nintendo 3DS launch titles
 // TODO: get list for REAL 3DO launch titles
@@ -83,6 +84,9 @@ const smsLtIds = require('../../../../extra/launchTitles/segaMasterSystemLaunchT
   g => g.igdbId
 );
 const nvbLtIds = require('../../../../extra/launchTitles/virtualBoyLaunchTitles.json').map(
+  g => g.igdbId
+);
+const mivLtIds = require('../../../../extra/launchTitles/intellivisionLaunchTitles.json').map(
   g => g.igdbId
 );
 
@@ -174,6 +178,9 @@ const tgExIds = require('../../../../extra/exclusives/turbografx16Exclusives.jso
 const smsExIds = require('../../../../extra/exclusives/segaMasterSystemExclusives.json').map(
   g => g.igdbId
 );
+const mivExIds = require('../../../../extra/exclusives/intellivisionExclusives.json').map(
+  g => g.igdbId
+);
 
 const games = db.games.find();
 const launchOwned = {
@@ -208,7 +215,8 @@ const launchOwned = {
   ggLt: [],
   tgLt: [],
   smsLt: [],
-  nvbLt: []
+  nvbLt: [],
+  mivLt: []
 };
 
 const exOwned = {
@@ -244,7 +252,8 @@ const exOwned = {
   scdEx: [],
   ggEx: [],
   tgEx: [],
-  smsEx: []
+  smsEx: [],
+  mivEx: []
 };
 
 const igdbIdToFiles = {
@@ -280,10 +289,10 @@ const igdbIdToFiles = {
   66: { launch: atari5200Lt, exclusives: atari5200Ex, launchList: 'a5200Lt', exList: 'a5200Ex' },
   60: { launch: atari7800Lt, exclusives: atari7800Ex, launchList: 'a7800Lt', exList: 'a7800Ex' },
   64: { launch: smsLtIds, exclusives: smsExIds, launchList: 'smsLt', exList: 'smsEx' }, //sms,
-  67: { launch: [], exclusives: [] }, //miv,
+  67: { launch: mivLtIds, exclusives: mivExIds, launchList: 'mivLt', exList: 'mivEx' }, //miv,
   62: { launch: atariJagLt, exclusives: atariJagEx, launchList: 'jagLt', exList: 'aJagEx' },
-  87: { launch: [], exclusives: [] }, //nvb
-  6: { launch: nvbLtIds, exclusives: [], launchList: 'nvbLt', exList: '' } //pc
+  87: { launch: nvbLtIds, exclusives: [], launchList: 'nvbLt', exList: '' }, //nvb
+  6: { launch: [], exclusives: [] } //pc
 };
 
 games.forEach(game => {
@@ -300,245 +309,360 @@ games.forEach(game => {
   }
 });
 
-module.exports.getLaunchEx = function () {
+module.exports.getLaunchEx = async function () {
+  const funData = await funExtraData();
   return [
+    ...funData,
     {
-      con: 'Atari 2600',
-      launchOwned: launchOwned.a2600Lt.length,
-      launchTotal: atari2600Lt.length,
-      exOwned: exOwned.a2600Ex.length,
-      exTotal: atari2600Ex.length
+      title: 'Atari 2600 launch titles',
+      owned: launchOwned.a2600Lt.length,
+      total: atari2600Lt.length
     },
     {
-      con: 'Atari 5200',
-      launchOwned: launchOwned.a5200Lt.length,
-      launchTotal: atari5200Lt.length,
-      exOwned: exOwned.a5200Ex.length,
-      exTotal: atari5200Ex.length
+      owned: exOwned.a2600Ex.length,
+      total: atari2600Ex.length,
+      title: 'Atari 2600 exclusives'
     },
     {
-      con: 'Atari 7800',
-      launchOwned: launchOwned.a7800Lt.length,
-      launchTotal: atari7800Lt.length,
-      exOwned: exOwned.a7800Ex.length,
-      exTotal: atari7800Ex.length
+      title: 'Atari 5200 launch titles',
+      owned: launchOwned.a5200Lt.length,
+      total: atari5200Lt.length
     },
     {
-      con: 'Atari Jaguar',
-      launchOwned: launchOwned.aJagLt.length,
-      launchTotal: atariJagLt.length,
-      exOwned: exOwned.aJagEx.length,
-      exTotal: atariJagEx.length
+      title: 'Atari 5200 exclusives',
+      owned: exOwned.a5200Ex.length,
+      total: atari5200Ex.length
     },
     {
-      con: 'Nintendo Entertainment System (NES)',
-      launchOwned: launchOwned.nesLt.length,
-      launchTotal: nesLtIds.length,
-      exOwned: exOwned.nesEx.length,
-      exTotal: nesExIds.length
+      title: 'Atari 7800 launch titles',
+      owned: launchOwned.a7800Lt.length,
+      total: atari7800Lt.length
     },
     {
-      con: 'Super Nintendo Entertainment System (SNES)',
-      launchOwned: launchOwned.snesLt.length,
-      launchTotal: snesLtIds.length,
-      exOwned: exOwned.snesEx.length,
-      exTotal: snesExIds.length
+      title: 'Atari 7800 exclusives',
+      owned: exOwned.a7800Ex.length,
+      total: atari7800Ex.length
     },
     {
-      con: 'Nintendo 64 (N64)',
-      launchOwned: launchOwned.n64Lt.length,
-      launchTotal: n64LtIds.length,
-      exOwned: exOwned.n64Ex.length,
-      exTotal: n64ExIds.length
+      title: 'Atari Jaguar launch titles',
+      owned: launchOwned.aJagLt.length,
+      total: atariJagLt.length
     },
     {
-      con: 'Nintendo GameCube',
-      launchOwned: launchOwned.gcLt.length,
-      launchTotal: gcLtIds.length,
-      exOwned: exOwned.gcEx.length,
-      exTotal: gcExIds.length
+      title: 'Atari Jaguar exclusives',
+      owned: exOwned.aJagEx.length,
+      total: atariJagEx.length
     },
     {
-      con: 'Nintendo Switch',
-      launchOwned: launchOwned.switchLt.length,
-      launchTotal: switchLtIds.length,
-      exOwned: exOwned.switchEx.length,
-      exTotal: switchExIds.length
+      title: 'Nintendo NES launch titles',
+      owned: launchOwned.nesLt.length,
+      total: nesLtIds.length
     },
     {
-      con: 'Nintendo Wii',
-      launchOwned: launchOwned.wiiLt.length,
-      launchTotal: wiiLtIds.length,
-      exOwned: exOwned.wiiEx.length,
-      exTotal: wiiExIds.length
+      title: 'Nintendo NES exclusives',
+      owned: exOwned.nesEx.length,
+      total: nesExIds.length
     },
     {
-      con: 'Nintendo Wii U',
-      launchOwned: launchOwned.wiiULt.length,
-      launchTotal: wiiULtIds.length,
-      exOwned: exOwned.wiiUEx.length,
-      exTotal: wiiUExIds.length
+      title: 'Nintendo SNES launch titles',
+      owned: launchOwned.snesLt.length,
+      total: snesLtIds.length
     },
     {
-      con: 'Nintendo 3DS',
-      launchOwned: 0,
-      launchTotal: 0,
-      exOwned: exOwned.n3dsEx.length,
-      exTotal: n3dsExIds.length
+      title: 'Nintendo SNES exclusives',
+      owned: exOwned.snesEx.length,
+      total: snesExIds.length
     },
     {
-      con: 'Nintendo Game Boy Advance',
-      launchOwned: launchOwned.gbaLt.length,
-      launchTotal: gbaLtIds.length,
-      exOwned: exOwned.gbaEx.length,
-      exTotal: gbaExIds.length
+      title: 'Nintendo 64 launch titles',
+      owned: launchOwned.n64Lt.length,
+      total: n64LtIds.length
     },
     {
-      con: 'Sega Mega Drive/Genesis',
-      launchOwned: launchOwned.genLt.length,
-      launchTotal: genLtIds.length,
-      exOwned: exOwned.genEx.length,
-      exTotal: genExIds.length
+      title: 'Nintendo 64 exclusives',
+      owned: exOwned.n64Ex.length,
+      total: n64ExIds.length
     },
     {
-      con: 'Sega 32X',
-      launchOwned: launchOwned.s32xLt.length,
-      launchTotal: s32xLtIds.length,
-      exOwned: exOwned.s32xEx.length,
-      exTotal: s32xExIds.length
+      title: 'Nintendo GameCube launch titles',
+      owned: launchOwned.gcLt.length,
+      total: gcLtIds.length
     },
     {
-      con: 'Sega Dreamcast',
-      launchOwned: launchOwned.dcLt.length,
-      launchTotal: dcLtIds.length,
-      exOwned: exOwned.dcEx.length,
-      exTotal: dcExIds.length
+      title: 'Nintendo GameCube exclusives',
+      owned: exOwned.gcEx.length,
+      total: gcExIds.length
     },
     {
-      con: 'Sega Saturn',
-      launchOwned: launchOwned.ssLt.length,
-      launchTotal: ssLtIds.length,
-      exOwned: exOwned.ssEx.length,
-      exTotal: ssExIds.length
+      title: 'Nintendo Wii launch titles',
+      owned: launchOwned.wiiLt.length,
+      total: wiiLtIds.length
     },
     {
-      con: 'Microsoft Xbox',
-      launchOwned: launchOwned.ogxbLt.length,
-      launchTotal: ogxbLtIds.length,
-      exOwned: exOwned.ogxbEx.length,
-      exTotal: ogxbExIds.length
+      title: 'Nintendo Wii exclusives',
+      owned: exOwned.wiiEx.length,
+      total: wiiExIds.length
     },
     {
-      con: 'Microsoft Xbox 360',
-      launchOwned: launchOwned.xb360Lt.length,
-      launchTotal: xb360LtIds.length,
-      exOwned: exOwned.xb360Ex.length,
-      exTotal: xb360ExIds.length
+      title: 'Nintendo Wii U launch titles',
+      owned: launchOwned.wiiULt.length,
+      total: wiiULtIds.length
     },
     {
-      con: 'Microsoft Xbox One',
-      launchOwned: launchOwned.xboneLt.length,
-      launchTotal: xboneLtIds.length,
-      exOwned: exOwned.xboneEx.length,
-      exTotal: xboneExIds.length
+      title: 'Nintendo Wii U exclusives',
+      owned: exOwned.wiiUEx.length,
+      total: wiiUExIds.length
     },
     {
-      con: 'Sony PlayStation',
-      launchOwned: launchOwned.ps1Lt.length,
-      launchTotal: ps1LtIds.length,
-      exOwned: exOwned.ps1Ex.length,
-      exTotal: ps1ExIds.length
+      title: 'Nintendo Switch launch titles',
+      owned: launchOwned.switchLt.length,
+      total: switchLtIds.length
     },
     {
-      con: 'Sony PlayStation 2',
-      launchOwned: launchOwned.ps2Lt.length,
-      launchTotal: ps2LtIds.length,
-      exOwned: exOwned.ps2Ex.length,
-      exTotal: ps2ExIds.length
+      title: 'Nintendo Switch exclusives',
+      owned: exOwned.switchEx.length,
+      total: switchExIds.length
     },
     {
-      con: 'Sony PlayStation 3',
-      launchOwned: launchOwned.ps3Lt.length,
-      launchTotal: ps3LtIds.length,
-      exOwned: exOwned.ps3Ex.length,
-      exTotal: ps3ExIds.length
+      title: 'Nintendo Game Boy launch titles',
+      owned: launchOwned.gbLt.length,
+      total: gbLtIds.length
     },
     {
-      con: 'Sony PlayStation 4',
-      launchOwned: launchOwned.ps4Lt.length,
-      launchTotal: ps4LtIds.length,
-      exOwned: exOwned.ps4Ex.length,
-      exTotal: ps4ExIds.length
+      title: 'Nintendo Game Boy exclusives',
+      owned: exOwned.gbEx.length,
+      total: gbExIds.length
     },
     {
-      con: 'Sony PlayStation Portable',
-      launchOwned: launchOwned.pspLt.length,
-      launchTotal: pspLtIds.length,
-      exOwned: exOwned.pspEx.length,
-      exTotal: pspExIds.length
+      title: 'Nintendo Virtual Boy launch titles',
+      owned: launchOwned.nvbLt.length,
+      total: nvbLtIds.length
+    },
+    // {
+    //   title: '',
+    //   owned: 0,
+    //   total: 0
+    // },
+    {
+      title: 'Nintendo Game Boy Color launch titles',
+      owned: launchOwned.gbcLt.length,
+      total: gbcLtIds.length
     },
     {
-      con: 'Nintendo DS',
-      launchOwned: launchOwned.dsLt.length,
-      launchTotal: dsLtIds.length,
-      exOwned: exOwned.dsEx.length,
-      exTotal: dsExIds.length
+      title: 'Nintendo Game Boy Color exclusives',
+      owned: exOwned.gbcEx.length,
+      total: gbcExIds.length
     },
     {
-      con: 'Nintendo Game Boy',
-      launchOwned: launchOwned.gbLt.length,
-      launchTotal: gbLtIds.length,
-      exOwned: exOwned.gbEx.length,
-      exTotal: gbExIds.length
+      title: 'Nintendo Game Boy Advance launch titles',
+      owned: launchOwned.gbaLt.length,
+      total: gbaLtIds.length
     },
     {
-      con: 'Nintendo Game Boy Color',
-      launchOwned: launchOwned.gbcLt.length,
-      launchTotal: gbcLtIds.length,
-      exOwned: exOwned.gbcEx.length,
-      exTotal: gbcExIds.length
+      title: 'Nintendo Game Boy advance exclusives',
+      owned: exOwned.gbaEx.length,
+      total: gbaExIds.length
     },
     {
-      con: 'REAL 3DO',
-      launchOwned: 0,
-      launchTotal: 0,
-      exOwned: exOwned.r3doEx.length,
-      exTotal: r3doExIds.length
+      title: 'Nintendo DS launch titles',
+      owned: launchOwned.dsLt.length,
+      total: dsLtIds.length
     },
     {
-      con: 'Sega CD',
-      launchOwned: launchOwned.scdLt.length,
-      launchTotal: scdLtIds.length,
-      exOwned: exOwned.scdEx.length,
-      exTotal: scdExIds.length
+      title: 'Nintendo DS exclusives',
+      owned: exOwned.dsEx.length,
+      total: dsExIds.length
+    },
+    // {
+    //   title: 'Nintendo 3DS',
+    //   owned: 0,
+    //   total: 0,
+    // },
+    {
+      title: 'Nintendo 3DS exclusives',
+      owned: exOwned.n3dsEx.length,
+      total: n3dsExIds.length
     },
     {
-      con: 'Sega Game Gear',
-      launchOwned: launchOwned.ggLt.length,
-      launchTotal: ggLtIds.length,
-      exOwned: exOwned.ggEx.length,
-      exTotal: ggExIds.length
+      title: 'Sega Master System launch titles',
+      owned: launchOwned.smsLt.length,
+      total: smsLtIds.length
     },
     {
-      con: 'NEC TurboGrafx-16',
-      launchOwned: launchOwned.tgLt.length,
-      launchTotal: tgLtIds.length,
-      exOwned: exOwned.tgEx.length,
-      exTotal: tgExIds.length
+      title: 'Sega Master System exclusives',
+      owned: exOwned.smsEx.length,
+      total: smsExIds.length
     },
     {
-      con: 'Sega Master System',
-      launchOwned: launchOwned.smsLt.length,
-      launchTotal: smsLtIds.length,
-      exOwned: exOwned.smsEx.length,
-      exTotal: smsExIds.length
+      title: 'Sega Genesis launch titles',
+      owned: launchOwned.genLt.length,
+      total: genLtIds.length
     },
     {
-      con: 'Nintendo Virtual Boy',
-      launchOwned: launchOwned.nvbLt.length,
-      launchTotal: nvbLtIds.length,
-      exOwned: 0,
-      exTotal: 0
+      title: 'Sega Genesis exclusives',
+      owned: exOwned.genEx.length,
+      total: genExIds.length
+    },
+    {
+      title: 'Sega 32X launch titles',
+      owned: launchOwned.s32xLt.length,
+      total: s32xLtIds.length
+    },
+    {
+      title: 'Sega 32X exclusives',
+      owned: exOwned.s32xEx.length,
+      total: s32xExIds.length
+    },
+    {
+      title: 'Sega CD launch titles',
+      owned: launchOwned.scdLt.length,
+      total: scdLtIds.length
+    },
+    {
+      title: 'Sega CD exclusives',
+      owned: exOwned.scdEx.length,
+      total: scdExIds.length
+    },
+    {
+      title: 'Sega Saturn launch titles',
+      owned: launchOwned.ssLt.length,
+      total: ssLtIds.length
+    },
+    {
+      title: 'Sega Saturn exclusives',
+      owned: exOwned.ssEx.length,
+      total: ssExIds.length
+    },
+    {
+      title: 'Sega Dreamcast launch titles',
+      owned: launchOwned.dcLt.length,
+      total: dcLtIds.length
+    },
+    {
+      title: 'Sega Dreamcast exclusives',
+      owned: exOwned.dcEx.length,
+      total: dcExIds.length
+    },
+    {
+      title: 'Sega Game Gear launch titles',
+      owned: launchOwned.ggLt.length,
+      total: ggLtIds.length
+    },
+    {
+      title: 'Sega Game Gear exclusives',
+      owned: exOwned.ggEx.length,
+      total: ggExIds.length
+    },
+
+    {
+      title: 'Microsoft Xbox launch titles',
+      owned: launchOwned.ogxbLt.length,
+      total: ogxbLtIds.length
+    },
+    {
+      title: 'Microsoft Xbox exclusives',
+      owned: exOwned.ogxbEx.length,
+      total: ogxbExIds.length
+    },
+    {
+      title: 'Microsoft Xbox 360 launch titles',
+      owned: launchOwned.xb360Lt.length,
+      total: xb360LtIds.length
+    },
+    {
+      title: 'Microsoft Xbox 360 exclusives',
+      owned: exOwned.xb360Ex.length,
+      total: xb360ExIds.length
+    },
+    {
+      title: 'Microsoft Xbox One launch titles',
+      owned: launchOwned.xboneLt.length,
+      total: xboneLtIds.length
+    },
+    {
+      title: 'Microsoft Xbox One exclusives',
+      owned: exOwned.xboneEx.length,
+      total: xboneExIds.length
+    },
+    {
+      title: 'Sony PlayStation launch titles',
+      owned: launchOwned.ps1Lt.length,
+      total: ps1LtIds.length
+    },
+    {
+      title: 'Sony PlayStation exclusives',
+      owned: exOwned.ps1Ex.length,
+      total: ps1ExIds.length
+    },
+    {
+      title: 'Sony PlayStation 2 launch titles',
+      owned: launchOwned.ps2Lt.length,
+      total: ps2LtIds.length
+    },
+    {
+      title: 'Sony PlayStation 2 exclusives',
+      owned: exOwned.ps2Ex.length,
+      total: ps2ExIds.length
+    },
+    {
+      title: 'Sony PlayStation 3 launch titles',
+      owned: launchOwned.ps3Lt.length,
+      total: ps3LtIds.length
+    },
+    {
+      title: 'Sony PlayStation 3 exclusives',
+      owned: exOwned.ps3Ex.length,
+      total: ps3ExIds.length
+    },
+    {
+      title: 'Sony PlayStation 4 launch titles',
+      owned: launchOwned.ps4Lt.length,
+      total: ps4LtIds.length
+    },
+    {
+      title: 'Sony PlayStation 4 exclusives',
+      owned: exOwned.ps4Ex.length,
+      total: ps4ExIds.length
+    },
+    {
+      title: 'Sony PlayStation Portable launch titles',
+      owned: launchOwned.pspLt.length,
+      total: pspLtIds.length
+    },
+    {
+      title: 'Sony PlayStation Portable exclusives',
+      owned: exOwned.pspEx.length,
+      total: pspExIds.length
+    },
+    // {
+    //   title: 'REAL 3DO',
+    //   owned: 0,
+    //   total: 0,
+    // },
+    {
+      title: 'REAL 3DO exclusives',
+      owned: exOwned.r3doEx.length,
+      total: r3doExIds.length
+    },
+    {
+      title: 'NEC TurboGrafx-16 launch titles',
+      owned: launchOwned.tgLt.length,
+      total: tgLtIds.length
+    },
+    {
+      title: 'NEC TurboGrafx-16 exclusives',
+      owned: exOwned.tgEx.length,
+      total: tgExIds.length
+    },
+    {
+      title: 'Mattel Intellivision launch titles',
+      owned: launchOwned.mivLt.length,
+      total: mivLtIds.length
+    },
+    {
+      title: 'Mattel Intellivision exclusives',
+      owned: exOwned.mivEx.length,
+      total: mivExIds.length
     }
   ];
 };

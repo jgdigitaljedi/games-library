@@ -19,6 +19,7 @@ import { CurrencyUtils } from 'stringman-utils';
 import { IPcStatsTotalsDynamic, IPcStatsTotalsFixed } from './models/pricecharting.model';
 import { IGame } from './models/games.model';
 import { IConsole } from './models/platforms.model';
+import HomeSeriesSection from './components/HomeSeriesSection/HomeSeriesSection';
 
 const Home: FunctionComponent<RouteComponentProps> = () => {
   // eslint-disable-next-line
@@ -412,8 +413,9 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
       )} */}
       <div className='home--row'>
         <h3>Game collection series data</h3>
-        <div className='home-prices'>
-          <table className='home-prices--table'>
+        <HomeSeriesSection extraData={extraData} />
+        {/* <div className='home-prices'> */}
+        {/* <table className='home-prices--table'>
             <thead>
               <tr>
                 <th>Series</th>
@@ -441,8 +443,8 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                 <td>{data.genesisBBGridTotal}</td>
                 <td>{getPercent(data.genesisBBGridOwned, data.genesisBBGridTotal)}</td>
               </tr>
-              {extraData?.length > 0 &&
-                extraData.map((item: any) => {
+              {extraData?.ltEx?.length > 0 &&
+                extraData.ltEx.map((item: any) => {
                   return (
                     <React.Fragment key={item.con.replace(' ', '-')}>
                       {item?.launchTotal > 0 && (
@@ -465,8 +467,8 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
                   );
                 })}
             </tbody>
-          </table>
-        </div>
+          </table> */}
+        {/* </div> */}
       </div>
       <div className='home--row'>
         {data && data.physicalVsDigitalGames && (

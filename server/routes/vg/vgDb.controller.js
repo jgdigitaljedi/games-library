@@ -91,9 +91,9 @@ module.exports.collectionStats = function (req, res) {
   }
 };
 
-module.exports.collectionExtra = function (req, res) {
+module.exports.collectionExtra = async function (req, res) {
   try {
-    res.json(homePageExtra.getLaunchEx());
+    res.json(await homePageExtra.getLaunchEx());
   } catch (error) {
     res.status(500).send(error);
   }

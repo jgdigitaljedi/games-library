@@ -1,8 +1,6 @@
 const db = require('../../../../db');
 const { funExtraData } = require('./seriesData/funExtraData');
 
-// TODO: get list for Nintendo 3DS launch titles
-// TODO: get list for REAL 3DO launch titles
 // TODO: get list for Virtual Boy exclusives
 
 // launch titles
@@ -87,6 +85,10 @@ const nvbLtIds = require('../../../../extra/launchTitles/virtualBoyLaunchTitles.
   g => g.igdbId
 );
 const mivLtIds = require('../../../../extra/launchTitles/intellivisionLaunchTitles.json').map(
+  g => g.igdbId
+);
+const r3doLtIds = require('../../../../extra/launchTitles/3doLaunchTitles.json').map(g => g.igdbId);
+const n3dsLtIds = require('../../../../extra/launchTitles/nintendo3dsLaunchTitles.json').map(
   g => g.igdbId
 );
 
@@ -181,6 +183,9 @@ const smsExIds = require('../../../../extra/exclusives/segaMasterSystemExclusive
 const mivExIds = require('../../../../extra/exclusives/intellivisionExclusives.json').map(
   g => g.igdbId
 );
+const nvbExIds = require('../../../../extra/exclusives/virtualBoyExclusives.json').map(
+  g => g.igdbId
+);
 
 const games = db.games.find();
 const launchOwned = {
@@ -216,7 +221,9 @@ const launchOwned = {
   tgLt: [],
   smsLt: [],
   nvbLt: [],
-  mivLt: []
+  mivLt: [],
+  r3doLt: [],
+  n3dsLt: []
 };
 
 const exOwned = {
@@ -253,7 +260,8 @@ const exOwned = {
   ggEx: [],
   tgEx: [],
   smsEx: [],
-  mivEx: []
+  mivEx: [],
+  nvbEx: []
 };
 
 const igdbIdToFiles = {
@@ -264,7 +272,7 @@ const igdbIdToFiles = {
   130: { launch: switchLtIds, exclusives: switchExIds, launchList: 'switchLt', exList: 'switchEx' }, // Nintendo Switch
   5: { launch: wiiLtIds, exclusives: wiiExIds, launchList: 'wiiLt', exList: 'wiiEx' }, //wii,
   41: { launch: wiiULtIds, exclusives: wiiUExIds, launchList: 'wiiULt', exList: 'wiiUEx' }, //wiiU,
-  37: { launch: [], exclusives: n3dsExIds, launchList: '', exList: 'n3dsEx' }, // Nintendo 3DS
+  37: { launch: n3dsLtIds, exclusives: n3dsExIds, launchList: 'n3dsLt', exList: 'n3dsEx' }, // Nintendo 3DS
   24: { launch: gbaLtIds, exclusives: gbaExIds, launchList: 'gbaLt', exList: 'gbaEx' }, // gba,
   29: { launch: genLtIds, exclusives: genExIds, launchList: 'genLt', exList: 'genEx' }, //gen,
   30: { launch: s32xLtIds, exclusives: s32xExIds, launchList: 's32xLt', exList: 's32xEx' }, //s32x,
@@ -281,7 +289,7 @@ const igdbIdToFiles = {
   20: { launch: dsLtIds, exclusives: dsExIds, launchList: 'dsLt', exList: 'dsEx' }, //ds,
   33: { launch: gbLtIds, exclusives: gbExIds, launchList: 'gbLt', exList: 'gbEx' }, //gb,
   22: { launch: gbcLtIds, exclusives: gbcExIds, launchList: 'gbcLt', exList: 'gbcEx' }, //gbc,
-  50: { launch: [], exclusives: r3doExIds, launchList: '', exList: 'r3doEx' }, // 3DO
+  50: { launch: r3doLtIds, exclusives: r3doExIds, launchList: 'r3doLt', exList: 'r3doEx' }, // 3DO
   78: { launch: scdLtIds, exclusives: scdExIds, launchList: 'scdLt', exList: 'scdEx' }, //scd,
   35: { launch: ggLtIds, exclusives: ggExIds, launchList: 'ggLt', exList: 'ggEx' }, //sGg,
   86: { launch: tgLtIds, exclusives: tgExIds, launchList: 'tgLt', tgEx: 'tgEx' }, //tg16,
@@ -291,7 +299,7 @@ const igdbIdToFiles = {
   64: { launch: smsLtIds, exclusives: smsExIds, launchList: 'smsLt', exList: 'smsEx' }, //sms,
   67: { launch: mivLtIds, exclusives: mivExIds, launchList: 'mivLt', exList: 'mivEx' }, //miv,
   62: { launch: atariJagLt, exclusives: atariJagEx, launchList: 'jagLt', exList: 'aJagEx' },
-  87: { launch: nvbLtIds, exclusives: [], launchList: 'nvbLt', exList: '' }, //nvb
+  87: { launch: nvbLtIds, exclusives: nvbExIds, launchList: 'nvbLt', exList: 'nvbEx' }, //nvb
   6: { launch: [], exclusives: [] } //pc
 };
 
@@ -438,11 +446,11 @@ module.exports.getLaunchEx = async function () {
       owned: launchOwned.nvbLt.length,
       total: nvbLtIds.length
     },
-    // {
-    //   title: '',
-    //   owned: 0,
-    //   total: 0
-    // },
+    {
+      title: 'Nintendo Virtual Boy exclusives',
+      owned: exOwned.nvbEx.length,
+      total: nvbExIds.length
+    },
     {
       title: 'Nintendo Game Boy Color launch titles',
       owned: launchOwned.gbcLt.length,
@@ -473,11 +481,11 @@ module.exports.getLaunchEx = async function () {
       owned: exOwned.dsEx.length,
       total: dsExIds.length
     },
-    // {
-    //   title: 'Nintendo 3DS',
-    //   owned: 0,
-    //   total: 0,
-    // },
+    {
+      title: 'Nintendo 3DS launch titles',
+      owned: launchOwned.n3dsLt.length,
+      total: n3dsLtIds.length
+    },
     {
       title: 'Nintendo 3DS exclusives',
       owned: exOwned.n3dsEx.length,
@@ -634,11 +642,11 @@ module.exports.getLaunchEx = async function () {
       owned: exOwned.pspEx.length,
       total: pspExIds.length
     },
-    // {
-    //   title: 'REAL 3DO',
-    //   owned: 0,
-    //   total: 0,
-    // },
+    {
+      title: 'REAL 3DO launch titles',
+      owned: launchOwned.r3doLt.length,
+      total: r3doLtIds.length
+    },
     {
       title: 'REAL 3DO exclusives',
       owned: exOwned.r3doEx.length,

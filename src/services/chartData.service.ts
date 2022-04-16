@@ -5,7 +5,8 @@ import {
   getPriceOverTimeData,
   getGameByReleaseYearData,
   getGamesCollectionGrowthData,
-  getPriceGroups
+  getPriceGroups,
+  getPcPriceGroups
 } from './chartDataGames.service';
 
 interface IDataSets {
@@ -58,6 +59,8 @@ export default {
       jointData = getGamesCollectionGrowthData(data);
     } else if (which === 'pricePaid') {
       jointData = getPriceGroups(data);
+    } else if (which === 'pcPrice') {
+      jointData = getPcPriceGroups(data);
     } else {
       jointData = { labels: [], dataObj: {} };
     }

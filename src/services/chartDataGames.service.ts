@@ -145,3 +145,85 @@ export const getPriceGroups = (data: IGame[]) => {
   });
   return { labels, dataObj };
 };
+
+function valueToGroup(value: number): string | null {
+  if (!value) {
+    return null;
+  } else if (value < 20.01) {
+    return '$0 - $20';
+  } else if (value >= 20.01 && value < 40.01) {
+    return '$20.01 - $40';
+  } else if (value >= 40.01 && value < 60.01) {
+    return '$60.01 - $80';
+  } else if (value >= 60.01 && value < 80.01) {
+    return '$60.01 - $80';
+  } else if (value >= 80.01 && value < 100.01) {
+    return '$80.01 - $100';
+  } else if (value >= 100.01 && value < 150.01) {
+    return '$100.01 - $150';
+  } else if (value >= 150.01 && value < 200.01) {
+    return '$150.01 - $200';
+  } else if (value >= 200.01 && value < 300.01) {
+    return '$200.01 - $300';
+  } else if (value >= 300.01 && value < 400.01) {
+    return '$300.01 - $400';
+  } else if (value >= 400.01 && value < 500.01) {
+    return '$400.01 - $500';
+  } else if (value >= 500.01 && value < 1000.01) {
+    return '$500.01 - $1,000';
+  } else if (value >= 1000.01) {
+    return '$1,000.01+';
+  } else {
+    return null;
+  }
+}
+
+export const getPcPriceGroups = (data: IGame[]) => {
+  const labels: string[] = [
+    '$0 - $20',
+    '$1,000.01+',
+    '$100.01 - $150',
+    '$150.01 - $200',
+    '$20.01 - $40',
+    '$200.01 - $300',
+    '$300.01 - $400',
+    '$40.01 - $60',
+    '$400.01 - $500',
+    '$500.01 - $1,000',
+    '$60.01 - $80',
+    '$80.01 - $100'
+  ];
+  const dataObjUnordered: IIndexedWithNum = {
+    '$0 - $20': 0,
+    '$20.01 - $40': 0,
+    '$40.01 - $60': 0,
+    '$60.01 - $80': 0,
+    '$80.01 - $100': 0,
+    '$100.01 - $150': 0,
+    '$150.01 - $200': 0,
+    '$200.01 - $300': 0,
+    '$300.01 - $400': 0,
+    '$400.01 - $500': 0,
+    '$500.01 - $1,000': 0,
+    '$1,000.01+': 0
+  };
+  data.forEach(d => {
+    const gameData = _get(d, 'priceCharting.price');
+    let dataFormatted;
+    if (gameData && typeof gameData === 'number') {
+      dataFormatted = valueToGroup(typeof gameData === 'number' ? gameData : parseFloat(gameData));
+      if (dataFormatted) {
+        if (!dataObjUnordered.hasOwnProperty(dataFormatted)) {
+          dataObjUnordered[dataFormatted] = 1;
+        } else {
+          dataObjUnordered[dataFormatted]++;
+        }
+      }
+    }
+  });
+  const dataObj: IIndexedWithNum = {};
+  labels.forEach(label => {
+    dataObj[label] = dataObjUnordered[label];
+  });
+  return { labels, dataObj };
+};

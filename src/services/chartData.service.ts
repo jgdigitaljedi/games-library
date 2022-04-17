@@ -67,7 +67,12 @@ export default {
     const { labels, dataObj } = jointData;
 
     let labelsSorted;
-    if (which === 'datePurchased' || which === 'numOfGamesTime' || which === 'pricePaid') {
+    if (
+      which === 'datePurchased' ||
+      which === 'numOfGamesTime' ||
+      which === 'pricePaid' ||
+      which === 'pcPrice'
+    ) {
       labelsSorted = labels;
     } else {
       labelsSorted = labels.sort();

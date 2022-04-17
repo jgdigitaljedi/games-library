@@ -3,6 +3,10 @@ import { IIndexedWithNum } from '@/models/common.model';
 import { get as _get, sum as _sum } from 'lodash';
 import sortsService from './sorts.service';
 
+interface IStringNumber {
+  [key: string]: number;
+}
+
 function getMonthYear(gameData: string): string {
   const dObj = new Date(gameData);
   return `${dObj.getMonth() + 1}/${dObj.getFullYear()}`;
@@ -149,12 +153,14 @@ export const getPriceGroups = (data: IGame[]) => {
 function valueToGroup(value: number): string | null {
   if (!value) {
     return null;
-  } else if (value < 20.01) {
-    return '$0 - $20';
+  } else if (value < 10.01) {
+    return '$0 - $10';
+  } else if (value >= 10.01 && value < 20.01) {
+    return '$10.01 - $20';
   } else if (value >= 20.01 && value < 40.01) {
     return '$20.01 - $40';
   } else if (value >= 40.01 && value < 60.01) {
-    return '$60.01 - $80';
+    return '$40.01 - $60';
   } else if (value >= 60.01 && value < 80.01) {
     return '$60.01 - $80';
   } else if (value >= 80.01 && value < 100.01) {
@@ -180,50 +186,35 @@ function valueToGroup(value: number): string | null {
 
 export const getPcPriceGroups = (data: IGame[]) => {
   const labels: string[] = [
-    '$0 - $20',
-    '$1,000.01+',
+    '$0 - $10',
+    '$10.01 - $20',
+    '$20.01 - $40',
+    '$40.01 - $60',
+    '$60.01 - $80',
+    '$80.01 - $100',
     '$100.01 - $150',
     '$150.01 - $200',
-    '$20.01 - $40',
     '$200.01 - $300',
     '$300.01 - $400',
-    '$40.01 - $60',
     '$400.01 - $500',
     '$500.01 - $1,000',
-    '$60.01 - $80',
-    '$80.01 - $100'
+    '$1,000.01+'
   ];
-  const dataObjUnordered: IIndexedWithNum = {
-    '$0 - $20': 0,
-    '$20.01 - $40': 0,
-    '$40.01 - $60': 0,
-    '$60.01 - $80': 0,
-    '$80.01 - $100': 0,
-    '$100.01 - $150': 0,
-    '$150.01 - $200': 0,
-    '$200.01 - $300': 0,
-    '$300.01 - $400': 0,
-    '$400.01 - $500': 0,
-    '$500.01 - $1,000': 0,
-    '$1,000.01+': 0
-  };
-  data.forEach(d => {
+  const baseObj = labels.reduce((acc: IStringNumber, val: string) => {
+    acc[val] = 0;
+    return acc;
+  }, {});
+  const dataSet = data.reduce((acc: IStringNumber, d: IGame) => {
     const gameData = _get(d, 'priceCharting.price');
     let dataFormatted;
     if (gameData && typeof gameData === 'number') {
       dataFormatted = valueToGroup(typeof gameData === 'number' ? gameData : parseFloat(gameData));
       if (dataFormatted) {
-        if (!dataObjUnordered.hasOwnProperty(dataFormatted)) {
-          dataObjUnordered[dataFormatted] = 1;
-        } else {
-          dataObjUnordered[dataFormatted]++;
-        }
+        acc[dataFormatted]++;
       }
+      return acc;
     }
-  });
-  const dataObj: IIndexedWithNum = {};
-  labels.forEach(label => {
-    dataObj[label] = dataObjUnordered[label];
-  });
-  return { labels, dataObj };
+    return acc;
+  }, baseObj);
+  return { labels, dataObj: dataSet };
 };

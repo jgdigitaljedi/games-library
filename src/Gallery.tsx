@@ -11,6 +11,10 @@ import { NotificationContext } from './context/NotificationContext';
 
 interface IProps extends RouteComponentProps {}
 
+// this is trash
+// I made a half-hearted effort to create this and never really finished it
+// TODO: do something with this view
+
 const GalleryComponent: FunctionComponent<IProps> = () => {
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
@@ -56,16 +60,16 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
   const itemTemplate = (item: string) => {
     return (
       <img
-        className="item-template"
+        className='item-template'
         src={`galleryPics/${item}`}
-        alt="pic of collection"
+        alt='pic of collection'
         onClick={openImage}
       />
     );
   };
 
   const thumbnailTemplate = (item: string) => {
-    return <img src={`galleryPics/${item}`} alt="thumb of collection" className="thumb-template" />;
+    return <img src={`galleryPics/${item}`} alt='thumb of collection' className='thumb-template' />;
   };
 
   const getCaption = (e: string) => {
@@ -78,7 +82,7 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
         setList(list.data);
         setDDList(Object.keys(list.data).map((d: any) => ({ label: d, value: d })));
       })
-      .catch((error) => {
+      .catch(error => {
         setNotify({
           severity: 'error',
           detail: error,
@@ -88,19 +92,19 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
       });
   }, [setNotify]);
   return (
-    <div className="gallery-wrapper">
+    <div className='gallery-wrapper'>
       {list && (
         <>
-          <div className="dropdown-wrapper">
-            <label htmlFor="category" className="dropdown-label">
+          <div className='dropdown-wrapper'>
+            <label htmlFor='category' className='dropdown-label'>
               Select category:
             </label>
             <Dropdown
-              className="dropdown"
-              id="category"
-              name="category"
+              className='dropdown'
+              id='category'
+              name='category'
               value={category}
-              onChange={(e) => {
+              onChange={e => {
                 setCategory(e.value);
               }}
               options={ddList || []}
@@ -113,7 +117,7 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
               thumbnail={thumbnailTemplate}
               responsiveOptions={responsiveOptions}
               numVisible={4}
-              className="gallery"
+              className='gallery'
               caption={getCaption}
             />
           )}
@@ -121,11 +125,11 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
             header={dialogHeader}
             visible={!!openDialog}
             onHide={() => setOpenDialog(null)}
-            position="top"
+            position='top'
             style={{ height: '92vh', width: 'auto', maxWidth: '100%' }}
           >
-            <div className="dialog-image">
-              <img src={openDialog as string} alt="" className="dialog-image--image" />
+            <div className='dialog-image'>
+              <img src={openDialog as string} alt='' className='dialog-image--image' />
             </div>
           </Dialog>
         </>

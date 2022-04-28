@@ -18,7 +18,7 @@
         max-width: 30rem;
         max-height: 25rem;
         width: auto;
-        height: auto;
+        height: 100%;
         display: block;
         @include bp_lte(md) {
           max-width: 100%;

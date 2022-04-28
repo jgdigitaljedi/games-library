@@ -125,5 +125,6 @@ router.get('/utils/platforms', utilsCtrl.getPlatformArray);
 router.get('/utils/esrb', utilsCtrl.getEsrbArray);
 router.get('/utils/genres', utilsCtrl.getGenreArray);
 router.get('/utils/platformids', utilsCtrl.getPlatformsWithId);
+router.get('/utils/howacquired', utilsCtrl.getHowAcquiredArr);
 
 module.exports = router;

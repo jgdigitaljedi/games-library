@@ -1,3 +1,4 @@
 libraryScripts/consoleLocation.js
 libraryScripts/fileLookup.js
 server/extra/fileLookup.js
+server/db/games.json

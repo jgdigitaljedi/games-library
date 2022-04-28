@@ -10,12 +10,16 @@ const chalk = require('chalk');
     return { id, name };
   });
   const uniquePlats = _sortBy(_uniqBy(platformsAndIds, 'id'), 'name');
-  fs.writeFile(path.join(__dirname, './consoleIds.json'), JSON.stringify(uniquePlats), error => {
-    if (error) {
-      console.log(chalk.red.bold('ERROR WRITING CONSOLE IDS!'));
-      console.log(chalk.red.bold(error));
-    } else {
-      console.log(chalk.green('SUCCESSFULLY WROTE CONSOLE IDS LIST!'));
+  fs.writeFile(
+    path.join(__dirname, './consoleIds.json'),
+    JSON.stringify(uniquePlats, null, 2),
+    error => {
+      if (error) {
+        console.log(chalk.red.bold('ERROR WRITING CONSOLE IDS!'));
+        console.log(chalk.red.bold(error));
+      } else {
+        console.log(chalk.green('SUCCESSFULLY WROTE CONSOLE IDS LIST!'));
+      }
     }
-  });
+  );
 })();

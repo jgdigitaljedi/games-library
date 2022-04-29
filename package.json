@@ -14,7 +14,9 @@
     "combine:everdrives": "node server/extra/combineEverdrives.js",
     "migrateGames": "node libraryScripts/migrateToNewDataStructure/migrateGames.js",
     "process:newGames": "node libraryScripts/addNewWhileUnderConstruction/addNew.js",
-    "gameeye": "node server/gameEye/convertCsv.js"
+    "gameeye": "node server/gameEye/convertCsv.js",
+    "updateExtraData:all": "node libraryScripts/addNewVgsdData/addNewVgsdAll.js",
+    "updateExtraData:single": "node libraryScripts/addNewVgsdData/addNewVgsdSingle.js"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",

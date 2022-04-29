@@ -1,6 +1,7 @@
 # Ideas for future me to consider adding
 
 - finish my 'extraData' branch where I build a way to pull in new data from my supplemental games data project easily.
+- add clones to bottom of game card if playable on a clone (only clones that play original games like the Pocket)
 - integrate Steam API to potentially pull my Steam game data in when viewing games
 - add 'free' and 'sealed' field to games so I can quit reading that data from the notes field
 - add a consoles page like the games page where you can view console data

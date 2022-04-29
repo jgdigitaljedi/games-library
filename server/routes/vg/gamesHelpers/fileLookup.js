@@ -1,3 +1,5 @@
+const consoleIds = require('../../../../libraryScripts/buildConsleIdList/consoleIds.json');
+
 const a2600 = require('../../../extra/consoleSpecificGameData/Atari2600.json');
 const a5200 = require('../../../extra/consoleSpecificGameData/Atari5200.json');
 const a7800 = require('../../../extra/consoleSpecificGameData/Atari7800.json');
@@ -73,4 +75,12 @@ const igdbIdToFile = {
 
 module.exports.getFileRef = id => {
   return igdbIdToFile[id.toString()];
+};
+
+module.exports.extraDataLists = () => {
+  return Object.keys(igdbIdToFile).map(key => {
+    const otherData = consoleIds.find(con => con.id == key);
+    otherData.data = igdbIdToFile[key];
+    return otherData;
+  });
 };

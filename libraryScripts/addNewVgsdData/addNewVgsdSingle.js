@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
-// const games = require('../../server/db/games.json');
-const games = require('../backup/gamesNew.json');
+const games = require('../../server/db/games.json');
 const chalk = require('chalk');
 const _uniqBy = require('lodash/uniqBy');
 const _uniq = require('lodash/uniq');
 
 const consoleListWithNewData = require('../../server/extra/consoleSpecificGameData/Nintendo3DS.json');
+
 const newDataConsoleIdgbId = 37;
 const testOutputPath = path.join(__dirname, '../backup/gamesNew.json');
 

@@ -28,6 +28,9 @@ const ps4 = require('../../../extra/consoleSpecificGameData/SonyPlayStation4.jso
 const sms = require('../../../extra/consoleSpecificGameData/SegaMasterSystem.json');
 const jag = require('../../../extra/consoleSpecificGameData/AtariJaguar.json');
 const miv = require('../../../extra/consoleSpecificGameData/MattelIntellivision.json');
+const nvb = require('../../../extra/consoleSpecificGameData/VirtualBoy.json');
+const r3do = require('../../../extra/consoleSpecificGameData/3DOInteractiveMultiplayer.json');
+const n3ds = require('../../../extra/consoleSpecificGameData/Nintendo3DS.json');
 
 const igdbIdToFile = {
   18: nes,
@@ -37,7 +40,7 @@ const igdbIdToFile = {
   130: null, // Nintendo Switch
   5: wii,
   41: wiiU,
-  37: null, // Nintendo 3DS
+  37: n3ds, // Nintendo 3DS
   24: gba,
   29: gen,
   30: s32x,
@@ -54,7 +57,7 @@ const igdbIdToFile = {
   20: ds,
   33: gb,
   22: gbc,
-  50: null, // 3DO
+  50: r3do, // 3DO
   78: scd,
   35: sGg,
   86: tg16,
@@ -64,7 +67,8 @@ const igdbIdToFile = {
   60: a7800,
   64: sms,
   67: miv,
-  62: jag
+  62: jag,
+  87: nvb
 };
 
 module.exports.getFileRef = id => {

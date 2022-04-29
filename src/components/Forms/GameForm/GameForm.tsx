@@ -34,12 +34,12 @@ import PcPriceComponent from '../PcPriceComponent/PcPriceComponent';
 import { formatFormResult, formatUpdateData, getPriceById } from '@/services/pricecharting.service';
 import { IPriceChartingData } from '@/models/pricecharting.model';
 import PcPriceDetailsComponent from '../PcPriceDetails/PcPriceDetailsComponent';
-import { AxiosResponse } from 'axios';
 
 interface IProps extends MapDispatchProps, MapStateProps {
   game: IGame;
   closeDialog: Function;
   closeConfirmation: () => void;
+  howAcquiredOptions: string[];
 }
 
 interface MapStateProps {
@@ -55,7 +55,12 @@ interface IGameEdit extends IGame {
 }
 
 // @TODO: circle back and make some interfaces
-const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmation }: IProps) => {
+const GameForm: FunctionComponent<IProps> = ({
+  game,
+  closeDialog,
+  closeConfirmation,
+  howAcquiredOptions
+}: IProps) => {
   const loggedIn = useSelector((state: any) => state.userState);
   const [gameForm, setGameForm] = useState<IGameEdit>();
   const [addMode, setAddMode] = useState<boolean>(false);
@@ -65,6 +70,7 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
   const [fuzzySearch, setFuzzySearch] = useState(false);
   const [vrStatus, setVrStatus] = useState<string>('');
   const [caseSubTypes, setCaseSubTypes] = useState<any>(gameCaseSubTypes);
+  const [haOptions, setHaOptions] = useState<string[]>([]);
   // eslint-disable-next-line
   const [notify, setNotify] = useContext(NotificationContext);
   const caseOptions = [
@@ -137,6 +143,18 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
       }
     }
   }, [closeConfirmation, gameForm, searchPlatform, setNotify]);
+
+  const searchHowAcquired = (event: any) => {
+    const query = event?.query;
+    if (query && howAcquiredOptions?.length) {
+      const newOptions = howAcquiredOptions.filter(opt => {
+        return opt.match(new RegExp(query, 'gi'));
+      });
+      setHaOptions(newOptions);
+    } else {
+      setHaOptions(howAcquiredOptions);
+    }
+  };
 
   const isUpdate = useCallback(() => {
     return !addMode && gameForm?.hasOwnProperty('_id');
@@ -529,11 +547,16 @@ const GameForm: FunctionComponent<IProps> = ({ game, closeDialog, closeConfirmat
           </div>
           <div className='crud-form--form__row'>
             <label htmlFor='howAcquired'>How Acquired</label>
-            <InputText
+            <AutoComplete
+              dropdown
+              className='search-field'
+              delay={100}
               id='howAcquired'
               value={gameForm?.howAcquired}
               onChange={userChange}
               attr-which='howAcquired'
+              suggestions={haOptions}
+              completeMethod={searchHowAcquired}
               onFocus={() => closeConfirmation()}
             />
           </div>

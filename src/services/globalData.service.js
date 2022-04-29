@@ -35,3 +35,12 @@ export const physicalGamesCount = async () => {
   const url = `${window.urlPrefix}/api/vg/games/physicaltotal`;
   return await Axios.get(url);
 };
+
+export const howAcquiredArr = () => {
+  return new Promise(resolve => {
+    const url = `${window.urlPrefix}/api/vg/utils/howacquired`;
+    Axios.get(url)
+      .then(result => resolve(result?.data))
+      .catch(() => resolve([]));
+  });
+};

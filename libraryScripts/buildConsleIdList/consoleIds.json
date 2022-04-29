@@ -29,6 +29,7 @@
   { "id": 32, "name": "Sega Saturn" },
   { "id": 19, "name": "Super Nintendo Entertainment System (SNES)" },
   { "id": 86, "name": "TurboGrafx-16/PC Engine" },
+  { "id": 87, "name": "Virtual Boy" },
   { "id": 5, "name": "Wii" },
   { "id": 41, "name": "Wii U" },
   { "id": 11, "name": "Xbox" },

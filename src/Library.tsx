@@ -20,7 +20,7 @@ import AccForm from './components/Forms/AccForm/AccForm';
 import CollForm from './components/Forms/CollForm/CollForm';
 import HardwareForm from './components/Forms/HardwareForm/HardwareForm';
 import CloneForm from './components/Forms/CloneForm/CloneForm';
-import { getPlatformArr } from './services/globalData.service';
+import { getPlatformArr, howAcquiredArr } from './services/globalData.service';
 import { NotificationContext } from './context/NotificationContext';
 import { cleanupGames } from './services/dataMassaging.service';
 import axios from 'axios';
@@ -65,6 +65,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
   const [updatingAll, setUpdatingAll] = useState(false);
   const [updatingIgdb, setUpdatingIgdb] = useState(false);
+  const [haOptions, setHaOptions] = useState<string[]>([]);
 
   const closeConfirmation = () => {
     setShowDeleteConfirmation(false);
@@ -138,6 +139,13 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
     },
     [setShowModal]
   );
+
+  const howAcquiredOptions = useCallback(async () => {
+    if (!haOptions.length) {
+      const haArr: string[] = await howAcquiredArr();
+      setHaOptions(haArr);
+    }
+  }, [haOptions]);
 
   const addSomething = useCallback(() => {
     closeConfirmation();
@@ -280,6 +288,9 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
           console.error('ERROR FETCHING PLATFORMS ARR', error);
         });
     }
+    if (!haOptions?.length) {
+      howAcquiredOptions();
+    }
   }, [props, platformsArr, setNotify, isLoggedIn]);
 
   return (
@@ -389,6 +400,7 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
             game={selectedItem}
             closeDialog={closeDialog}
             closeConfirmation={closeConfirmation}
+            howAcquiredOptions={haOptions}
           />
         )}
         {view === 'consoles' && (

@@ -102,7 +102,6 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   };
 
   useEffect(() => {
-    console.log('game', game);
     if (game) {
       const owned =
         game.consoleArr && game.consoleArr.length
@@ -115,7 +114,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           acc = 0;
         }
         if (item.pricePaid) {
-          acc += item.pricePaid;
+          acc += parseFloat(`${item.pricePaid}`);
         }
         return acc;
       }, 0);
@@ -124,11 +123,10 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
           acc = 0;
         }
         if (item.priceCharting?.price) {
-          acc += item.priceCharting.price;
+          acc += parseFloat(`${item.priceCharting.price}`);
         }
         return acc;
       }, 0);
-      console.log('totalPaid', totalPaid);
       setGameTotals({
         amount: owned.length,
         paid: totalPaid || 0,

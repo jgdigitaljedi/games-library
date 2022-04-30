@@ -149,6 +149,14 @@
     ]
   },
   {
+    "name": "Super Mario World 2: Yoshi's Island",
+    "id": 1073,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
+    ]
+  },
+  {
     "name": "Town & Country Surf Designs: Wood & Water Rage",
     "id": 48119,
     "old": [
@@ -160,6 +168,14 @@
     ]
   },
   {
+    "name": "SOCOM: US Navy SEALs",
+    "id": 22238,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
     "name": "Commando",
     "id": 5668,
     "old": [
@@ -168,6 +184,14 @@
     ],
     "new": [
       "NES hang tab game"
+    ]
+  },
+  {
+    "name": "Final Fantasy IX",
+    "id": 421,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -235,7 +259,8 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -291,6 +316,14 @@
     ],
     "new": [
       "Nintendo GameCube console exclusive"
+    ]
+  },
+  {
+    "name": "Final Fantasy VII Remake",
+    "id": 11169,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -379,7 +412,8 @@
       "Sony PlayStation exclusive"
     ],
     "new": [
-      "Sony PlayStation exclusive"
+      "Sony PlayStation exclusive",
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -433,6 +467,22 @@
     ]
   },
   {
+    "name": "Kill.Switch",
+    "id": 5881,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Ratchet & Clank: Up Your Arsenal",
+    "id": 1773,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
     "name": "Teenage Mutant Ninja Turtles: Tournament Fighters",
     "id": 48274,
     "old": [
@@ -441,6 +491,17 @@
     ],
     "new": [
       "Sega Genesis exclusive"
+    ]
+  },
+  {
+    "name": "Bully",
+    "id": 2720,
+    "old": [
+      "banned in Brazil: Banned for showing violence and harassment in a school setting. The ban was lifted on 23 June 2016; the game can now be acquired in physical and non-physical format through Steam."
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits",
+      "banned in Brazil: Banned for showing violence and harassment in a school setting. The ban was lifted on 23 June 2016; the game can now be acquired in physical and non-physical format through Steam."
     ]
   },
   {
@@ -496,11 +557,43 @@
     ]
   },
   {
+    "name": "Tomb Raider",
+    "id": 912,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
+    ]
+  },
+  {
     "name": "Demolition Man",
     "id": 4341,
     "old": [],
     "new": [
       "3do Interactive Multiplayer exclusive"
+    ]
+  },
+  {
+    "name": "Street Fighter Alpha 3",
+    "id": 6704,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
+    ]
+  },
+  {
+    "name": "Super Metroid",
+    "id": 1103,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
+    ]
+  },
+  {
+    "name": "Tekken 2",
+    "id": 1243,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -580,6 +673,22 @@
     ]
   },
   {
+    "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "id": 1092,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
+    ]
+  },
+  {
+    "name": "Pirates of the Caribbean: The Legend of Jack Sparrow",
+    "id": 23138,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
     "name": "Namco Museum Vol. 1",
     "id": 20611,
     "old": [
@@ -587,7 +696,8 @@
       "Sony PlayStation exclusive"
     ],
     "new": [
-      "Sony PlayStation exclusive"
+      "Sony PlayStation exclusive",
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -737,7 +847,8 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -768,7 +879,8 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -779,7 +891,16 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Driver",
+    "id": 675,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -918,6 +1039,14 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360"
+    ]
+  },
+  {
+    "name": "Final Fantasy VIII",
+    "id": 425,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -1064,6 +1193,14 @@
     ]
   },
   {
+    "name": "Syphon Filter: Dark Mirror",
+    "id": 20764,
+    "old": [],
+    "new": [
+      "Sony PSP Greatest Hits"
+    ]
+  },
+  {
     "name": "Diddy Kong Racing",
     "id": 2723,
     "old": [],
@@ -1102,6 +1239,22 @@
     ]
   },
   {
+    "name": "Far Cry 4",
+    "id": 6801,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Far Cry: Primal",
+    "id": 13182,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
     "name": "Excitebike",
     "id": 4600,
     "old": [
@@ -1129,7 +1282,8 @@
     ],
     "new": [
       "Sony PlayStation exclusive",
-      "Sony PlayStation multitap compatible title - 4 players"
+      "Sony PlayStation multitap compatible title - 4 players",
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -1180,6 +1334,30 @@
     ]
   },
   {
+    "name": "Final Fantasy VII",
+    "id": 427,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto",
+    "id": 980,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
+    ]
+  },
+  {
+    "name": "Croc: Legend of the Gobbos",
+    "id": 7901,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
+    ]
+  },
+  {
     "name": "Marvel's Spider-Man",
     "id": 19565,
     "old": [
@@ -1187,7 +1365,8 @@
       "Sony PlayStation 4 full exclusive"
     ],
     "new": [
-      "Sony PlayStation 4 full exclusive"
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -1225,6 +1404,19 @@
     ]
   },
   {
+    "name": "Grand Theft Auto: Vice City",
+    "id": 733,
+    "old": [
+      "banned in Germany: Originally given a 16+ rating. However, the game was later banned because of high-impact gory violence. The game was re-censored, re-attaining the 16+ rating. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits",
+      "banned in Germany: Originally given a 16+ rating. However, the game was later banned because of high-impact gory violence. The game was re-censored, re-attaining the 16+ rating. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ]
+  },
+  {
     "name": "Tekken Tag Tournament",
     "id": 1249,
     "old": [
@@ -1232,7 +1424,8 @@
       "Sony PlayStation 2 launch title"
     ],
     "new": [
-      "Sony PlayStation 2 launch title"
+      "Sony PlayStation 2 launch title",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -1246,7 +1439,8 @@
     ],
     "new": [
       "Sony PlayStation 2 launch title",
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -1380,6 +1574,14 @@
     ]
   },
   {
+    "name": "Super Star Wars",
+    "id": 20031,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
+    ]
+  },
+  {
     "name": "Doom 3: BFG Edition",
     "id": 6968,
     "old": [
@@ -1420,7 +1622,8 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -1488,6 +1691,30 @@
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+    ]
+  },
+  {
+    "name": "Grand Theft Auto III",
+    "id": 730,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Ratchet & Clank: Going Commando",
+    "id": 1770,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Final Fantasy XII",
+    "id": 398,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -1641,7 +1868,8 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -1712,7 +1940,8 @@
       "Sony PlayStation 4 full exclusive"
     ],
     "new": [
-      "Sony PlayStation 4 full exclusive"
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -1798,7 +2027,8 @@
       "Sony PSP launch title"
     ],
     "new": [
-      "Sony PSP launch title"
+      "Sony PSP launch title",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -1973,6 +2203,14 @@
     ]
   },
   {
+    "name": "Devil May Cry",
+    "id": 134,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
     "name": "Uniracers",
     "id": 16743,
     "old": [
@@ -2047,6 +2285,14 @@
     ]
   },
   {
+    "name": "Battlefield 1",
+    "id": 18320,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
     "name": "Horizon Zero Dawn",
     "id": 11156,
     "old": [
@@ -2068,7 +2314,8 @@
     ],
     "new": [
       "Sony PlayStation 4 launch title",
-      "Sony PlayStation 4 full exclusive"
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -2083,6 +2330,14 @@
     ]
   },
   {
+    "name": "Need for Speed",
+    "id": 10965,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
     "name": "Ratchet & Clank",
     "id": 11065,
     "old": [
@@ -2090,7 +2345,16 @@
       "Sony PlayStation 4 full exclusive"
     ],
     "new": [
-      "Sony PlayStation 4 full exclusive"
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Rayman Legends",
+    "id": 1968,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -2104,6 +2368,7 @@
     ],
     "new": [
       "Sony PlayStation 4 launch title",
+      "Sony PlayStation 4 Greatest Hits",
       "banned in UAE: Was initially banned likely due to sexual themes, nudity, excessive depictions of violence, and use of drugs and alcohol. The game's local distributor had confirmed that the title will be available in the U.A.E. and the rest of the region by August 15, 2014 for some platforms (PS3, PS4, Xbox 360) and without any in-game alterations. Only copies of the game with localised Middle East covers were allowed, subsequently banning imported copies for other platforms. For example, the Xbox One version was not released until some time after the console itself was officially launched in September 2014. The PC version remains unavailable, consequently blocking access to the downloadable version on Steam. Due to the fact Ubisoft cannot officially distribute their games on Nintendo consoles specifically for the Middle East (for various reasons), the Wii U version remains unavailable (Ubisoft games on Nintendo consoles are generally available as imported products in the region)."
     ]
   },
@@ -2140,7 +2405,24 @@
     ],
     "new": [
       "Sony PlayStation 4 launch title",
+      "Sony PlayStation 4 Greatest Hits",
       "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+    ]
+  },
+  {
+    "name": "Battlefield Hardline",
+    "id": 7081,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Dragon Age: Inquisition",
+    "id": 1887,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -2177,6 +2459,22 @@
     ]
   },
   {
+    "name": "Project CARS",
+    "id": 5319,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Tomb Raider: Definitive Edition",
+    "id": 19965,
+    "old": [],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
     "name": "Uncharted: The Nathan Drake Collection",
     "id": 10962,
     "old": [
@@ -2184,7 +2482,8 @@
       "Sony PlayStation 4 full exclusive"
     ],
     "new": [
-      "Sony PlayStation 4 full exclusive"
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -2213,6 +2512,7 @@
     ],
     "new": [
       "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits",
       "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted on the basis that the characters are of Greek mythology and the gameplay put a large emphasis on puzzle-solving.",
       "banned in UAE: The first title in the series was banned after complaints were filed regarding religious and sexual content in the game, and subsequently, the next seven games in the series were banned for similar reasons. The 2018 title God of War was the first entry to be legally approved for release in the U.A.E.",
       "banned in Suadia Arabia: Banned for a few weeks due to the presence of interactive sex scenes, partial nudity and sexual themes, as well as the word 'God' in the title. In 2018, the newest game in the series was approved for release"
@@ -2334,7 +2634,32 @@
     ],
     "new": [
       "Sony PSP launch title",
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
+    ]
+  },
+  {
+    "name": "Secret Agent Clank",
+    "id": 1793,
+    "old": [],
+    "new": [
+      "Sony PSP Greatest Hits"
+    ]
+  },
+  {
+    "name": "Ratchet & Clank: Size Matters",
+    "id": 1791,
+    "old": [],
+    "new": [
+      "Sony PSP Greatest Hits"
+    ]
+  },
+  {
+    "name": "God of War: Chains of Olympus",
+    "id": 552,
+    "old": [],
+    "new": [
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -2679,6 +3004,14 @@
     ]
   },
   {
+    "name": "The Legend of Zelda: A Link to the Past",
+    "id": 1026,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
+    ]
+  },
+  {
     "name": "Super Mario World",
     "id": 1070,
     "old": [
@@ -2686,7 +3019,16 @@
       "SNES laucnh title"
     ],
     "new": [
-      "SNES laucnh title"
+      "SNES laucnh title",
+      "SNES Player's Choice"
+    ]
+  },
+  {
+    "name": "Donkey Kong Country",
+    "id": 1090,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
     ]
   },
   {
@@ -2697,7 +3039,16 @@
       "SNES laucnh title"
     ],
     "new": [
-      "SNES laucnh title"
+      "SNES laucnh title",
+      "SNES Player's Choice"
+    ]
+  },
+  {
+    "name": "Super Mario Kart",
+    "id": 2332,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
     ]
   },
   {
@@ -2998,6 +3349,35 @@
     ]
   },
   {
+    "name": "Crazy Taxi",
+    "id": 1805,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "God of War",
+    "id": 549,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "id": 732,
+    "old": [
+      "banned in Germany: Originally banned because of high-impact gory violence. A censored version was released. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits",
+      "banned in Germany: Originally banned because of high-impact gory violence. A censored version was released. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ]
+  },
+  {
     "name": "Guitar Hero",
     "id": 1285,
     "old": [
@@ -3005,7 +3385,24 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Guitar Hero III: Legends of Rock",
+    "id": 2671,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Guitar Hero Encore: Rocks the 80's",
+    "id": 2676,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -3020,6 +3417,14 @@
     ]
   },
   {
+    "name": "Hitman 2: Silent Assassin",
+    "id": 748,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
     "name": "Hot Shots Golf 3",
     "id": 23459,
     "old": [
@@ -3027,7 +3432,16 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
+      "Sony PlayStation 2 Greatest Hits",
       "Sony PlayStation 2 exclusive"
+    ]
+  },
+  {
+    "name": "Jak II",
+    "id": 1529,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -3038,7 +3452,99 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Max Payne",
+    "id": 18,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Scarface: The World Is Yours",
+    "id": 5139,
+    "old": [
+      "banned in Germany: Banned because of high-impact gory violence. A censored version was released."
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits",
+      "banned in Germany: Banned because of high-impact gory violence. A censored version was released."
+    ]
+  },
+  {
+    "name": "The Simpsons: Road Rage",
+    "id": 2842,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Marvel: Ultimate Alliance",
+    "id": 4999,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "SSX 3",
+    "id": 4174,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon",
+    "id": 1294,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Tony Hawk's Project 8",
+    "id": 6204,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3",
+    "id": 914,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Twisted Metal: Black",
+    "id": 5413,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Guitar Hero II",
+    "id": 2670,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Tomb Raider III: Adventures of Lara Croft",
+    "id": 1157,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
     ]
   },
   {
@@ -3317,13 +3823,22 @@
     ]
   },
   {
+    "name": "Namco Museum",
+    "id": 131507,
+    "old": [],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
     "name": "Gran Turismo 3: A-Spec",
     "id": 1600,
     "old": [
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -3357,7 +3872,8 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -3391,7 +3907,8 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -3421,7 +3938,8 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
   },
   {
@@ -3617,7 +4135,8 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -3628,6 +4147,14 @@
     ],
     "new": [
       "Sega Genesis/Mega Drive black box grid game"
+    ]
+  },
+  {
+    "name": "Super Mario All-Stars",
+    "id": 5199,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
     ]
   },
   {
@@ -3717,7 +4244,8 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
     ]
   },
   {
@@ -3786,7 +4314,8 @@
     ],
     "new": [
       "Super Nintendo Entertainment System exclusive",
-      "SNES Super Multitap compatible title"
+      "SNES Super Multitap compatible title",
+      "SNES Player's Choice"
     ]
   },
   {
@@ -3846,6 +4375,14 @@
     ]
   },
   {
+    "name": "Tony Hawk's Pro Skater 2",
+    "id": 913,
+    "old": [],
+    "new": [
+      "Sony PlayStation Greatest Hits"
+    ]
+  },
+  {
     "name": "Ultimate Mortal Kombat 3",
     "id": 1621,
     "old": [
@@ -3863,6 +4400,14 @@
     ],
     "new": [
       "Sega 32x exclusive"
+    ]
+  },
+  {
+    "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+    "id": 1094,
+    "old": [],
+    "new": [
+      "SNES Player's Choice"
     ]
   },
   {

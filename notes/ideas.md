@@ -7,7 +7,6 @@
 - add a consoles page like the games page where you can view console data
 - better data visualizations. The current ones were what could be done quickly.
 - try to pull in Steam sales, GOG sales, Green Man Gaming, Nintendo Switch Online, etc data
-- possibly add a video games new view using RSS or something
 - maybe revisit my web scraping idea from GS-Scraper to add at least Craiglist scraping for local used games acquisitions
 - pull in friends statuses from the various game apps so you can see who is online now
   - compare games to friends' game so you know what you can play with which friend

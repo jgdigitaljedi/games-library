@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-// const games = require('../../server/db/games.json');
-const games = require('../backup/gamesBackup.json');
+const games = require('../../server/db/games.json');
+// const games = require('../backup/gamesBackup.json');
 const chalk = require('chalk');
 const _uniqBy = require('lodash/uniqBy');
 const _uniq = require('lodash/uniq');
@@ -12,11 +12,11 @@ const diffOutputPath = path.join(__dirname, '../backup/diff.json');
 
 (function () {
   // backup original games.json file for safety; comment out if db/games.json is in a bad state
-  // fs.writeFileSync(
-  //   path.join(__dirname, '../backup/gamesBackup.json'),
-  //   JSON.stringify(games),
-  //   'utf-8'
-  // );
+  fs.writeFileSync(
+    path.join(__dirname, '../backup/gamesBackup.json'),
+    JSON.stringify(games),
+    'utf-8'
+  );
 
   const diffs = [];
   const newDataFiles = fileLookup.extraDataLists();

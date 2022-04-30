@@ -1,6 +1,18 @@
 const _sortBy = require('lodash/sortBy');
 const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
+function greatestHitsOnly(ed) {
+  console.log('ed', ed);
+  return (
+    ed.filter(
+      g =>
+        g.indexOf('Greatest Hits') > -1 ||
+        g.indexOf('Nintendo Select') > -1 ||
+        g.indexOf("Player's Choice") > -1
+    ).length > 0
+  );
+}
+
 function makeList(which, games) {
   console.log('which', which);
   return games.filter(game => {
@@ -22,6 +34,8 @@ function makeList(which, games) {
       return game.notes.toLowerCase().indexOf('sealed') > -1;
     } else if (which === 'free') {
       return game.notes.toLowerCase().indexOf('free') > -1;
+    } else if (which === 'hits' && game.extraData?.length) {
+      return greatestHitsOnly(game.extraData);
     } else if (which === 'exclusives' || which === 'special' || which === 'launch') {
       if (game.extraDataFull && game.extraDataFull.length) {
         const edArr = game.extraDataFull;
@@ -38,7 +52,11 @@ function makeList(which, games) {
           })
           .filter(g => g).length;
         // return edArr.length;
+      } else {
+        return false;
       }
+    } else {
+      return false;
     }
   });
 }
@@ -76,6 +94,9 @@ module.exports.getList = function (req, res) {
               break;
             case 'free':
               theList = makeList('free', result);
+              break;
+            case 'hits':
+              theList = makeList('hits', result);
               break;
             default:
               theList = [];

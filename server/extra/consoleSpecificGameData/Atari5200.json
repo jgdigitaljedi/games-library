@@ -2,7 +2,9 @@
   {
     "id": "a520",
     "name": "Castle Crisis",
-    "details": ["Atari 5200 4 player game"],
+    "details": [
+      "Atari 5200 4 player game"
+    ],
     "igdbId": 40782,
     "gbId": 17536,
     "gbGuid": "3030-17536",
@@ -38,14 +40,18 @@
         "tgdbId": 26
       }
     ],
-    "details": ["Atari 5200 Exclusive Game"],
+    "details": [
+      null
+    ],
     "isLaunchTitle": false,
     "special": []
   },
   {
     "name": "Galaxian",
     "id": "a522",
-    "details": ["Atari 5200 launch title"],
+    "details": [
+      "Atari 5200 launch title"
+    ],
     "igdbId": 4614,
     "gbId": 2445,
     "gbGuid": "3030-2445",
@@ -79,14 +85,18 @@
         "tgdbId": 26
       }
     ],
-    "details": ["Atari 5200 Exclusive Game"],
+    "details": [
+      null
+    ],
     "isLaunchTitle": false,
     "special": []
   },
   {
     "id": "a524",
     "name": "M.U.L.E.",
-    "details": ["Atari 5200 4 player game"],
+    "details": [
+      "Atari 5200 4 player game"
+    ],
     "igdbId": 23895,
     "gbId": 14520,
     "gbGuid": "3030-14520",
@@ -109,7 +119,9 @@
   {
     "id": "a525",
     "name": "RealSports Tennis",
-    "details": ["Atari 5200 4 player game"],
+    "details": [
+      "Atari 5200 4 player game"
+    ],
     "igdbId": 18419,
     "gbId": 17776,
     "gbGuid": "3030-17776",
@@ -145,14 +157,18 @@
         "tgdbId": 26
       }
     ],
-    "details": ["Atari 5200 Exclusive Game"],
+    "details": [
+      null
+    ],
     "isLaunchTitle": false,
     "special": []
   },
   {
     "name": "Space Invaders",
     "id": "a527",
-    "details": ["Atari 5200 launch title"],
+    "details": [
+      "Atari 5200 launch title"
+    ],
     "igdbId": 3601,
     "gbId": 5099,
     "gbGuid": "3030-5099",
@@ -173,7 +189,10 @@
   {
     "name": "Super Breakout",
     "id": "a528",
-    "details": ["Atari 5200 launch title", "Atari 5200 4 player game"],
+    "details": [
+      "Atari 5200 launch title",
+      "Atari 5200 4 player game"
+    ],
     "igdbId": 12321,
     "gbId": 1055,
     "gbGuid": "3030-1055",

@@ -124,6 +124,15 @@ const Navbar: FunctionComponent<IProps> = (props: IProps) => {
       }
     },
     {
+      label: 'Platforms',
+      icon: 'pi pi-mobile',
+      className: active === 'platforms' ? 'active' : '',
+      command: () => {
+        setActive('platforms');
+        navigate(`/gameslib/platforms`);
+      }
+    },
+    {
       label: 'Viz',
       icon: 'pi pi-chart-bar',
       className: active === 'viz' ? 'active' : '',
@@ -187,6 +196,13 @@ const Navbar: FunctionComponent<IProps> = (props: IProps) => {
           onClick={() => setActive('lists')}
         >
           Lists
+        </Link>
+        <Link
+          to='/gameslib/platforms'
+          className={active === 'platforms' ? 'active' : ''}
+          onClick={() => setActive('platforms')}
+        >
+          Platforms
         </Link>
         <Link
           to='/gameslib/viz'

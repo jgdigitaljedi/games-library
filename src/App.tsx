@@ -19,6 +19,7 @@ import { NotificationContextProvider } from './context/NotificationContext';
 import NotificationWrapper from './NotificationWrapper';
 import ItemsContext from './context/ItemsContext';
 import { getItems } from './services/generalCrud.service';
+import Platforms from './Platforms';
 
 declare global {
   interface Window {
@@ -62,6 +63,7 @@ function App(): JSX.Element {
                     <Decider path='/gameslib/decider' />
                     <Library path='/gameslib/library' />
                     <Lists path='/gameslib/lists' />
+                    <Platforms path='/gameslib/platforms' />
                     <Viz path={`/gameslib/viz`} />
                     <GalleryComponent path={`/gameslib/gallery`} />
                   </Router>

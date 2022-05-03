@@ -17,6 +17,7 @@ const gen = require('../../../extra/consoleSpecificGameData/SegaGenesis.json');
 const sat = require('../../../extra/consoleSpecificGameData/SegaSaturn.json');
 const ps1 = require('../../../extra/consoleSpecificGameData/SonyPlaystation.json');
 const ps2 = require('../../../extra/consoleSpecificGameData/SonyPlaystation2.json');
+const ps3 = require('../../../extra/consoleSpecificGameData/SonyPlayStation3.json');
 const psp = require('../../../extra/consoleSpecificGameData/SonyPlayStationPortable.json');
 const snes = require('../../../extra/consoleSpecificGameData/SuperNintendoEntertainmentSystem.json');
 const tg16 = require('../../../extra/consoleSpecificGameData/TurboGrafx16.json');
@@ -53,8 +54,8 @@ const igdbIdToFile = {
   49: xbOne,
   7: ps1,
   8: ps2,
-  9: null, // PS3
-  48: ps4, // ps4
+  9: ps3,
+  48: ps4,
   38: psp,
   20: ds,
   33: gb,

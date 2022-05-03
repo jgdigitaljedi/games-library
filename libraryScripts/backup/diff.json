@@ -22,6 +22,22 @@
     ]
   },
   {
+    "name": "Heavy Rain",
+    "id": 493,
+    "old": [
+      "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
+      "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene.",
+      "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
+      "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+    ],
+    "new": [
+      "Sony PlayStation 3 console exclusive",
+      "Sony PlayStation 3 Greatest Hits",
+      "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
+      "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+    ]
+  },
+  {
     "name": "Animal Crossing: Amiibo Festival",
     "id": 11190,
     "old": [
@@ -138,6 +154,23 @@
     ]
   },
   {
+    "name": "Final Fantasy XIII",
+    "id": 389,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Killzone 3",
+    "id": 1867,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
     "name": "Super Mario World 2: Yoshi's Island",
     "id": 1073,
     "old": [
@@ -219,6 +252,15 @@
     "new": [
       "Nintendo GameCube console exclusive",
       "Nintendo GameCube Player's Choice"
+    ]
+  },
+  {
+    "name": "Killzone 3",
+    "id": 1867,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -733,7 +775,8 @@
     "name": "NBA 2K",
     "id": 8832,
     "old": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Sega All-Stars game (NA)"
     ],
     "new": [
       "Sega Dreamcast exclusive",
@@ -1195,6 +1238,14 @@
     ]
   },
   {
+    "name": "Ratchet & Clank: All 4 One",
+    "id": 1796,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive"
+    ]
+  },
+  {
     "name": "Rayman Raving Rabbids 2",
     "id": 2745,
     "old": [
@@ -1236,6 +1287,15 @@
       "NES launch title",
       "NES black box game: Programmable Series",
       "NES hang tab game"
+    ]
+  },
+  {
+    "name": "Killzone 2",
+    "id": 1866,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -1541,7 +1601,9 @@
   {
     "name": "Virtua Tennis",
     "id": 6291,
-    "old": [],
+    "old": [
+      "Sega All-Stars game (NA)"
+    ],
     "new": [
       "Sega All-Stars game (NA)"
     ]
@@ -1574,6 +1636,14 @@
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto IV",
+    "id": 731,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -1927,6 +1997,18 @@
     ]
   },
   {
+    "name": "Max Payne 3",
+    "id": 960,
+    "old": [
+      "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game.",
+      "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game."
+    ],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits",
+      "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game."
+    ]
+  },
+  {
     "name": "Gears of War 2",
     "id": 548,
     "old": [
@@ -2140,6 +2222,14 @@
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One - Available via Game Pass"
+    ]
+  },
+  {
+    "name": "Sonic Generations",
+    "id": 506,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -2738,7 +2828,8 @@
     "name": "Sonic Adventure",
     "id": 7860,
     "old": [
-      "Sega Dreamcast launch title"
+      "Sega Dreamcast launch title",
+      "Sega All-Stars game (NA)"
     ],
     "new": [
       "Sega Dreamcast launch title",
@@ -2748,7 +2839,9 @@
   {
     "name": "Crazy Taxi",
     "id": 1805,
-    "old": [],
+    "old": [
+      "Sega All-Stars game (NA)"
+    ],
     "new": [
       "Sega All-Stars game (NA)"
     ]
@@ -2757,7 +2850,8 @@
     "name": "The House of the Dead 2",
     "id": 13777,
     "old": [
-      "Sega Dreamcast launch title"
+      "Sega Dreamcast launch title",
+      "Sega All-Stars game (NA)"
     ],
     "new": [
       "Sega Dreamcast launch title",
@@ -3247,6 +3341,178 @@
     ]
   },
   {
+    "name": "Assassin's Creed II",
+    "id": 127,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Battlefield: Bad Company 2",
+    "id": 352,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Borderlands",
+    "id": 498,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Call of Duty: Black Ops II",
+    "id": 1122,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "The Eye of Judgment",
+    "id": 7302,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive"
+    ]
+  },
+  {
+    "name": "God of War Collection",
+    "id": 20068,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "God of War III",
+    "id": 499,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "God of War: Ascension",
+    "id": 1291,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive"
+    ]
+  },
+  {
+    "name": "Gran Turismo 5",
+    "id": 1602,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive"
+    ]
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "id": 1020,
+    "old": [
+      "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity",
+      "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits",
+      "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ]
+  },
+  {
+    "name": "Resistance: Fall of Man",
+    "id": 1278,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 launch title",
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Resistance 3",
+    "id": 3206,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive"
+    ]
+  },
+  {
+    "name": "Sonic's Ultimate Genesis Collection",
+    "id": 7189,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Uncharted: Drake's Fortune",
+    "id": 431,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Dungeon Hunter: Alliance",
+    "id": 21140,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 console exclusive (PlayStation Network)"
+    ]
+  },
+  {
+    "name": "High Stakes on the Vegas Strip: Poker Edition",
+    "id": 52236,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive (PlayStation Network)"
+    ]
+  },
+  {
+    "name": "High Velocity Bowling",
+    "id": 21816,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive (PlayStation Network)"
+    ]
+  },
+  {
+    "name": "LittleBigPlanet",
+    "id": 1058,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive"
+    ]
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon: Future Soldier",
+    "id": 1293,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
+    "name": "WipEout HD: Fury",
+    "id": 22991,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 Greatest Hits"
+    ]
+  },
+  {
     "name": "Amplitude",
     "id": 2141,
     "old": [
@@ -3697,6 +3963,14 @@
     ]
   },
   {
+    "name": "High Velocity Bowling",
+    "id": 21816,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive (PlayStation Network)"
+    ]
+  },
+  {
     "name": "Robotron: 2084",
     "id": 3592,
     "old": [
@@ -4119,6 +4393,14 @@
     ]
   },
   {
+    "name": "High Velocity Bowling",
+    "id": 21816,
+    "old": [],
+    "new": [
+      "Sony PlayStation 3 full exclusive (PlayStation Network)"
+    ]
+  },
+  {
     "name": "James 'Buster' Douglas Knock Out Boxing",
     "id": 46530,
     "old": [
@@ -4440,6 +4722,26 @@
     ],
     "new": [
       "Microsoft Xbox exclusive"
+    ]
+  },
+  {
+    "name": "Mario Tennis",
+    "id": 128874,
+    "old": [
+      "Nintendo Game Boy Color Nintendo Select"
+    ],
+    "new": [
+      "Nintendo Game Boy Color Nintendo Select"
+    ]
+  },
+  {
+    "name": "Crash Nitro Kart",
+    "id": 1193,
+    "old": [
+      "Xbox game plays on Xbox 360 - Multiplayer games do not work for this title"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360 - Multiplayer games do not work for this title"
     ]
   }
 ]

@@ -21,7 +21,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
     { label: 'Multiplayer party games', value: 'multiplayer' },
     { label: 'Special games', value: 'special' },
     { label: 'Multi-platform Games', value: 'multiplatform' },
-    { label: 'Greatist Hits', value: 'hits' },
+    { label: 'Greatest Hits', value: 'hits' },
     { label: 'Complete in Box Games', value: 'cib' },
     { label: 'Sealed/New Games', value: 'sealed' },
     { label: 'Free Games', value: 'free' }

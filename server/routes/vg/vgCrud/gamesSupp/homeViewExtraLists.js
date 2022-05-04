@@ -324,353 +324,493 @@ module.exports.getLaunchEx = async function () {
     {
       title: 'Atari 2600 launch titles',
       owned: launchOwned.a2600Lt.length,
-      total: atari2600Lt.length
+      total: atari2600Lt.length,
+      platformId: 59,
+      dataSet: 'LT'
     },
     {
       owned: exOwned.a2600Ex.length,
       total: atari2600Ex.length,
-      title: 'Atari 2600 exclusives'
+      title: 'Atari 2600 exclusives',
+      platformId: 59,
+      dataSet: 'EX'
     },
     {
       title: 'Atari 5200 launch titles',
       owned: launchOwned.a5200Lt.length,
-      total: atari5200Lt.length
+      total: atari5200Lt.length,
+      platformId: 66,
+      dataSet: 'LT'
     },
     {
       title: 'Atari 5200 exclusives',
       owned: exOwned.a5200Ex.length,
-      total: atari5200Ex.length
+      total: atari5200Ex.length,
+      platformId: 66,
+      dataSet: 'EX'
     },
     {
       title: 'Atari 7800 launch titles',
       owned: launchOwned.a7800Lt.length,
-      total: atari7800Lt.length
+      total: atari7800Lt.length,
+      platformId: 60,
+      dataSet: 'LT'
     },
     {
       title: 'Atari 7800 exclusives',
       owned: exOwned.a7800Ex.length,
-      total: atari7800Ex.length
+      total: atari7800Ex.length,
+      platformId: 60,
+      dataSet: 'EX'
     },
     {
       title: 'Atari Jaguar launch titles',
       owned: launchOwned.aJagLt.length,
-      total: atariJagLt.length
+      total: atariJagLt.length,
+      platformId: 62,
+      dataSet: 'LT'
     },
     {
       title: 'Atari Jaguar exclusives',
       owned: exOwned.aJagEx.length,
-      total: atariJagEx.length
+      total: atariJagEx.length,
+      platformId: 62,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo NES launch titles',
       owned: launchOwned.nesLt.length,
-      total: nesLtIds.length
+      total: nesLtIds.length,
+      platformId: 18,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo NES exclusives',
       owned: exOwned.nesEx.length,
-      total: nesExIds.length
+      total: nesExIds.length,
+      platformId: 18,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo SNES launch titles',
       owned: launchOwned.snesLt.length,
-      total: snesLtIds.length
+      total: snesLtIds.length,
+      platformId: 19,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo SNES exclusives',
       owned: exOwned.snesEx.length,
-      total: snesExIds.length
+      total: snesExIds.length,
+      platformId: 19,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo 64 launch titles',
       owned: launchOwned.n64Lt.length,
-      total: n64LtIds.length
+      total: n64LtIds.length,
+      platformId: 4,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo 64 exclusives',
       owned: exOwned.n64Ex.length,
-      total: n64ExIds.length
+      total: n64ExIds.length,
+      platformId: 4,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo GameCube launch titles',
       owned: launchOwned.gcLt.length,
-      total: gcLtIds.length
+      total: gcLtIds.length,
+      platformId: 21,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo GameCube exclusives',
       owned: exOwned.gcEx.length,
-      total: gcExIds.length
+      total: gcExIds.length,
+      platformId: 21,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Wii launch titles',
       owned: launchOwned.wiiLt.length,
-      total: wiiLtIds.length
+      total: wiiLtIds.length,
+      platformId: 5,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Wii exclusives',
       owned: exOwned.wiiEx.length,
-      total: wiiExIds.length
+      total: wiiExIds.length,
+      platformId: 5,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Wii U launch titles',
       owned: launchOwned.wiiULt.length,
-      total: wiiULtIds.length
+      total: wiiULtIds.length,
+      platformId: 41,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Wii U exclusives',
       owned: exOwned.wiiUEx.length,
-      total: wiiUExIds.length
+      total: wiiUExIds.length,
+      platformId: 41,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Switch launch titles',
       owned: launchOwned.switchLt.length,
-      total: switchLtIds.length
+      total: switchLtIds.length,
+      platformId: 130,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Switch exclusives',
       owned: exOwned.switchEx.length,
-      total: switchExIds.length
+      total: switchExIds.length,
+      platformId: 130,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Game Boy launch titles',
       owned: launchOwned.gbLt.length,
-      total: gbLtIds.length
+      total: gbLtIds.length,
+      platformId: 33,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Game Boy exclusives',
       owned: exOwned.gbEx.length,
-      total: gbExIds.length
+      total: gbExIds.length,
+      platformId: 33,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Virtual Boy launch titles',
       owned: launchOwned.nvbLt.length,
-      total: nvbLtIds.length
+      total: nvbLtIds.length,
+      platformId: 87,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Virtual Boy exclusives',
       owned: exOwned.nvbEx.length,
-      total: nvbExIds.length
+      total: nvbExIds.length,
+      platformId: 87,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Game Boy Color launch titles',
       owned: launchOwned.gbcLt.length,
-      total: gbcLtIds.length
+      total: gbcLtIds.length,
+      platformId: 22,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Game Boy Color exclusives',
       owned: exOwned.gbcEx.length,
-      total: gbcExIds.length
+      total: gbcExIds.length,
+      platformId: 22,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo Game Boy Advance launch titles',
       owned: launchOwned.gbaLt.length,
-      total: gbaLtIds.length
+      total: gbaLtIds.length,
+      platformId: 24,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo Game Boy advance exclusives',
       owned: exOwned.gbaEx.length,
-      total: gbaExIds.length
+      total: gbaExIds.length,
+      platformId: 24,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo DS launch titles',
       owned: launchOwned.dsLt.length,
-      total: dsLtIds.length
+      total: dsLtIds.length,
+      platformId: 20,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo DS exclusives',
       owned: exOwned.dsEx.length,
-      total: dsExIds.length
+      total: dsExIds.length,
+      platformId: 20,
+      dataSet: 'EX'
     },
     {
       title: 'Nintendo 3DS launch titles',
       owned: launchOwned.n3dsLt.length,
-      total: n3dsLtIds.length
+      total: n3dsLtIds.length,
+      platformId: 37,
+      dataSet: 'LT'
     },
     {
       title: 'Nintendo 3DS exclusives',
       owned: exOwned.n3dsEx.length,
-      total: n3dsExIds.length
+      total: n3dsExIds.length,
+      platformId: 37,
+      dataSet: 'EX'
     },
     {
       title: 'Sega Master System launch titles',
       owned: launchOwned.smsLt.length,
-      total: smsLtIds.length
+      total: smsLtIds.length,
+      platformId: 64,
+      dataSet: 'LT'
     },
     {
       title: 'Sega Master System exclusives',
       owned: exOwned.smsEx.length,
-      total: smsExIds.length
+      total: smsExIds.length,
+      platformId: 64,
+      dataSet: 'EX'
     },
     {
       title: 'Sega Genesis launch titles',
       owned: launchOwned.genLt.length,
-      total: genLtIds.length
+      total: genLtIds.length,
+      platformId: 29,
+      dataSet: 'LT'
     },
     {
       title: 'Sega Genesis exclusives',
       owned: exOwned.genEx.length,
-      total: genExIds.length
+      total: genExIds.length,
+      platformId: 29,
+      dataSet: 'EX'
     },
     {
       title: 'Sega 32X launch titles',
       owned: launchOwned.s32xLt.length,
-      total: s32xLtIds.length
+      total: s32xLtIds.length,
+      platformId: 30,
+      dataSet: 'LT'
     },
     {
       title: 'Sega 32X exclusives',
       owned: exOwned.s32xEx.length,
-      total: s32xExIds.length
+      total: s32xExIds.length,
+      platformId: 30,
+      dataSet: 'EX'
     },
     {
       title: 'Sega CD launch titles',
       owned: launchOwned.scdLt.length,
-      total: scdLtIds.length
+      total: scdLtIds.length,
+      platformId: 78,
+      dataSet: 'LT'
     },
     {
       title: 'Sega CD exclusives',
       owned: exOwned.scdEx.length,
-      total: scdExIds.length
+      total: scdExIds.length,
+      platformId: 78,
+      dataSet: 'EX'
     },
     {
       title: 'Sega Saturn launch titles',
       owned: launchOwned.ssLt.length,
-      total: ssLtIds.length
+      total: ssLtIds.length,
+      platformId: 32,
+      dataSet: 'LT'
     },
     {
       title: 'Sega Saturn exclusives',
       owned: exOwned.ssEx.length,
-      total: ssExIds.length
+      total: ssExIds.length,
+      platformId: 32,
+      dataSet: 'EX'
     },
     {
       title: 'Sega Dreamcast launch titles',
       owned: launchOwned.dcLt.length,
-      total: dcLtIds.length
+      total: dcLtIds.length,
+      platformId: 23,
+      dataSet: 'LT'
     },
     {
       title: 'Sega Dreamcast exclusives',
       owned: exOwned.dcEx.length,
-      total: dcExIds.length
+      total: dcExIds.length,
+      platformId: 23,
+      dataSet: 'EX'
     },
     {
       title: 'Sega Game Gear launch titles',
       owned: launchOwned.ggLt.length,
-      total: ggLtIds.length
+      total: ggLtIds.length,
+      platformId: 35,
+      dataSet: 'LT'
     },
     {
       title: 'Sega Game Gear exclusives',
       owned: exOwned.ggEx.length,
-      total: ggExIds.length
+      total: ggExIds.length,
+      platformId: 35,
+      dataSet: 'EX'
     },
 
     {
       title: 'Microsoft Xbox launch titles',
       owned: launchOwned.ogxbLt.length,
-      total: ogxbLtIds.length
+      total: ogxbLtIds.length,
+      platformId: 11,
+      dataSet: 'LT'
     },
     {
       title: 'Microsoft Xbox exclusives',
       owned: exOwned.ogxbEx.length,
-      total: ogxbExIds.length
+      total: ogxbExIds.length,
+      platformId: 11,
+      dataSet: 'EX'
     },
     {
       title: 'Microsoft Xbox 360 launch titles',
       owned: launchOwned.xb360Lt.length,
-      total: xb360LtIds.length
+      total: xb360LtIds.length,
+      platformId: 12,
+      dataSet: 'LT'
     },
     {
       title: 'Microsoft Xbox 360 exclusives',
       owned: exOwned.xb360Ex.length,
-      total: xb360ExIds.length
+      total: xb360ExIds.length,
+      platformId: 12,
+      dataSet: 'EX'
     },
     {
       title: 'Microsoft Xbox One launch titles',
       owned: launchOwned.xboneLt.length,
-      total: xboneLtIds.length
+      total: xboneLtIds.length,
+      platformId: 49,
+      dataSet: 'LT'
     },
     {
       title: 'Microsoft Xbox One exclusives',
       owned: exOwned.xboneEx.length,
-      total: xboneExIds.length
+      total: xboneExIds.length,
+      platformId: 49,
+      dataSet: 'EX'
     },
     {
       title: 'Sony PlayStation launch titles',
       owned: launchOwned.ps1Lt.length,
-      total: ps1LtIds.length
+      total: ps1LtIds.length,
+      platformId: 7,
+      dataSet: 'LT'
     },
     {
       title: 'Sony PlayStation exclusives',
       owned: exOwned.ps1Ex.length,
-      total: ps1ExIds.length
+      total: ps1ExIds.length,
+      platformId: 7,
+      dataSet: 'EX'
     },
     {
       title: 'Sony PlayStation 2 launch titles',
       owned: launchOwned.ps2Lt.length,
-      total: ps2LtIds.length
+      total: ps2LtIds.length,
+      platformId: 8,
+      dataSet: 'LT'
     },
     {
       title: 'Sony PlayStation 2 exclusives',
       owned: exOwned.ps2Ex.length,
-      total: ps2ExIds.length
+      total: ps2ExIds.length,
+      platformId: 8,
+      dataSet: 'EX'
     },
     {
       title: 'Sony PlayStation 3 launch titles',
       owned: launchOwned.ps3Lt.length,
-      total: ps3LtIds.length
+      total: ps3LtIds.length,
+      platformId: 9,
+      dataSet: 'LT'
     },
     {
       title: 'Sony PlayStation 3 exclusives',
       owned: exOwned.ps3Ex.length,
-      total: ps3ExIds.length
+      total: ps3ExIds.length,
+      platformId: 9,
+      dataSet: 'EX'
     },
     {
       title: 'Sony PlayStation 4 launch titles',
       owned: launchOwned.ps4Lt.length,
-      total: ps4LtIds.length
+      total: ps4LtIds.length,
+      platformId: 48,
+      dataSet: 'LT'
     },
     {
       title: 'Sony PlayStation 4 exclusives',
       owned: exOwned.ps4Ex.length,
-      total: ps4ExIds.length
+      total: ps4ExIds.length,
+      platformId: 48,
+      dataSet: 'EX'
     },
     {
       title: 'Sony PlayStation Portable launch titles',
       owned: launchOwned.pspLt.length,
-      total: pspLtIds.length
+      total: pspLtIds.length,
+      platformId: 38,
+      dataSet: 'LT'
     },
     {
       title: 'Sony PlayStation Portable exclusives',
       owned: exOwned.pspEx.length,
-      total: pspExIds.length
+      total: pspExIds.length,
+      platformId: 38,
+      dataSet: 'EX'
     },
     {
       title: 'REAL 3DO launch titles',
       owned: launchOwned.r3doLt.length,
-      total: r3doLtIds.length
+      total: r3doLtIds.length,
+      platformId: 50,
+      dataSet: 'LT'
     },
     {
       title: 'REAL 3DO exclusives',
       owned: exOwned.r3doEx.length,
-      total: r3doExIds.length
+      total: r3doExIds.length,
+      platformId: 50,
+      dataSet: 'EX'
     },
     {
       title: 'NEC TurboGrafx-16 launch titles',
       owned: launchOwned.tgLt.length,
-      total: tgLtIds.length
+      total: tgLtIds.length,
+      platformId: 86,
+      dataSet: 'LT'
     },
     {
       title: 'NEC TurboGrafx-16 exclusives',
       owned: exOwned.tgEx.length,
-      total: tgExIds.length
+      total: tgExIds.length,
+      platformId: 86,
+      dataSet: 'EX'
     },
     {
       title: 'Mattel Intellivision launch titles',
       owned: launchOwned.mivLt.length,
-      total: mivLtIds.length
+      total: mivLtIds.length,
+      platformId: 67,
+      dataSet: 'LT'
     },
     {
       title: 'Mattel Intellivision exclusives',
       owned: exOwned.mivEx.length,
-      total: mivExIds.length
+      total: mivExIds.length,
+      platformId: 67,
+      dataSet: 'EX'
     }
   ];
 };

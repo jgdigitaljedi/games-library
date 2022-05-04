@@ -6,6 +6,12 @@ import { IPriceChartingData } from './pricecharting.model';
 export type Severity = 'success' | 'info' | 'error' | 'warn' | '';
 export type ItemCondition = 'Excellent' | 'Good' | 'Fair' | 'Poor' | 'Not Working';
 
+export interface GenericError {
+  error: boolean;
+  message: string;
+  code?: object;
+}
+
 export interface INotification {
   severity: Severity;
   detail: string;

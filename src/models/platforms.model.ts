@@ -1,6 +1,12 @@
 import { IGbGame } from './games.model';
 import { IPriceChartingData } from './pricecharting.model';
 
+export enum PlatExtraDataSet {
+  LT = 'Launch titles',
+  EX = 'Platform exclusives',
+  SP = 'Special'
+}
+
 export interface IConsoleArr {
   consoleName: string;
   consoleId: number;
@@ -151,4 +157,12 @@ export interface IConsole {
   priceCharting?: IPriceChartingData;
   company?: string;
   _id?: string;
+}
+
+export interface PlatExtraData {
+  dataSet: keyof PlatExtraDataSet;
+  platformId: number;
+  title: string;
+  owned: number;
+  total: number;
 }

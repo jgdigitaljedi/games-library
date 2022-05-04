@@ -41,31 +41,31 @@ const Home: FunctionComponent<RouteComponentProps> = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedGame, setSelectedGame] = useState<IGame | null>(null);
 
-  const chartOptions = {
-    responsive: true,
-    responsiveAnimationDuration: 300,
-    maintainAspectRatio: false,
-    legend: {
-      labels: {
-        fontColor: Colors.lightKhaki
-      }
-    }
-  };
+  // const chartOptions = {
+  //   responsive: true,
+  //   responsiveAnimationDuration: 300,
+  //   maintainAspectRatio: false,
+  //   legend: {
+  //     labels: {
+  //       fontColor: Colors.lightKhaki
+  //     }
+  //   }
+  // };
 
-  const extraChartOptions = ChartService.getExtraChartOptions();
+  // const extraChartOptions = ChartService.getExtraChartOptions();
   const currencyUtils = new CurrencyUtils({ language: 'en', country: 'US' }, 'USD');
 
-  function addTitle(text: string) {
-    return {
-      title: {
-        text,
-        position: 'top',
-        fontColor: Colors.white,
-        display: true,
-        fontSize: 16
-      }
-    };
-  }
+  // function addTitle(text: string) {
+  //   return {
+  //     title: {
+  //       text,
+  //       position: 'top',
+  //       fontColor: Colors.white,
+  //       display: true,
+  //       fontSize: 16
+  //     }
+  //   };
+  // }
 
   const getData = useCallback(async () => {
     const result = await Axios.get(`${window.urlPrefix}/api/vg/stats`);

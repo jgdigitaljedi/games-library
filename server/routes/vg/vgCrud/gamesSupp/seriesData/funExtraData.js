@@ -54,17 +54,23 @@ module.exports.funExtraData = function () {
           {
             total: nesHangTabTotal,
             owned: _uniq(nesHangTabsIds).length,
-            title: 'NES Hang Tab Games'
+            title: 'NES Hang Tab Games',
+            platformId: 18,
+            dataSet: 'SP'
           },
           {
             total: nesBBTotal,
             owned: _uniq(nesBBIds).length,
-            title: 'NES Block Box Games'
+            title: 'NES Block Box Games',
+            platformId: 18,
+            dataSet: 'SP'
           },
           {
             total: genBBTotal,
             owned: _uniq(genBBIds).length,
-            title: 'Genesis Black Box Grid Games'
+            title: 'Genesis Black Box Grid Games',
+            platformId: 29,
+            dataSet: 'SP'
           },
           {
             total: null,

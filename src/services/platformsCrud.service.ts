@@ -4,6 +4,7 @@ import { makeRequest } from './generalCrud.service';
 import { get as _get, sortBy as _sortBy } from 'lodash';
 import { IConsole, IConsoleReleaseDate } from '@/models/platforms.model';
 import moment from 'moment';
+import { GenericError } from '@/models/common.model';
 
 const endpoint = 'consoles';
 
@@ -276,6 +277,32 @@ export const updateAllIgdbPlatformData = async (): Promise<AxiosResponse<any> | 
     return {
       error: true,
       message: 'You must be logged in to update all IGDB platforms data!'
+    };
+  }
+};
+
+export const getPlatforms = async (): Promise<AxiosResponse<IConsole[] | GenericError> | any> => {
+  try {
+    const request = await Axios.get(`${window.urlPrefix}/api/vg/consoles`);
+    return request.data;
+  } catch (error) {
+    return {
+      error: true,
+      message: 'There was an error fetching platform data!'
+    };
+  }
+};
+
+export const getPlatformExtras = async (): Promise<
+  AxiosResponse<IConsole[] | GenericError> | any
+> => {
+  try {
+    const request = await Axios.get(`${window.urlPrefix}/api/vg/extra`);
+    return request.data;
+  } catch (error) {
+    return {
+      error: true,
+      message: 'There was a problem fetching extra platform data'
     };
   }
 };

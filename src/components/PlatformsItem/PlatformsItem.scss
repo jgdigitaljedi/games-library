@@ -1,5 +1,27 @@
 @import '../../style/theme.scss';
 
 .platforms-item-wrapper {
-  
+  color: $white;
+  border-radius: 1rem;
+  background-color: $accent;
+  padding: $gutter;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
+  .platforms-item-section {
+    margin-right: 1rem;
+    img {
+      width: 10rem;
+      max-height: 100%;
+    }
+    &--sub {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-weight: bold;
+        color: $light-orange;
+      }
+    }
+  }
 }

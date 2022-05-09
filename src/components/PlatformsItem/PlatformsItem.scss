@@ -6,8 +6,8 @@
   background-color: $accent;
   padding: $gutter;
   margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;;
 
   .platforms-item-section {
     margin-right: 1rem;
@@ -18,6 +18,9 @@
     &--sub {
       display: flex;
       flex-direction: column;
+      &.top {
+        margin-bottom: 1rem;
+      }
       label {
         font-weight: bold;
         color: $light-orange;

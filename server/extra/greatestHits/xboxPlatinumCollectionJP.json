@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Atari Anthology",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj1",
+    "igdbId": 2641,
+    "gbId": 26604,
+    "gbGuid": "3030-26604",
+    "tgdbId": null
+  },
+  {
+    "name": "Buffy the Vampire Slayer: Chaos Bleeds",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj2",
+    "igdbId": 3837,
+    "gbId": 19312,
+    "gbGuid": "3030-19312",
+    "tgdbId": null
+  },
+  {
+    "name": "Counter-Strike",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj3",
+    "igdbId": 241,
+    "gbId": 11663,
+    "gbGuid": "3030-11663",
+    "tgdbId": null
+  },
+  {
+    "name": "Crazy Taxi 3: High Roller",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj4",
+    "igdbId": 1807,
+    "gbId": 8316,
+    "gbGuid": "3030-8316",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead Man's Hand",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj5",
+    "igdbId": 5809,
+    "gbId": 1803,
+    "gbGuid": "3030-1803",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead or Alive 3",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj6",
+    "igdbId": 1389,
+    "gbId": 5418,
+    "gbGuid": "3030-5418",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead or Alive 1 Ultimate",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj7",
+    "igdbId": 1391,
+    "gbId": 13753,
+    "gbGuid": "3030-13753",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead or Alive Xtreme Beach Volleyball",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj8",
+    "igdbId": 1390,
+    "gbId": 21479,
+    "gbGuid": "3030-21479",
+    "tgdbId": null
+  },
+  {
+    "name": "Dino Crisis 3",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj9",
+    "igdbId": 5813,
+    "gbId": 11168,
+    "gbGuid": "3030-11168",
+    "tgdbId": null
+  },
+  {
+    "name": "Dr. Seuss' The Cat in the Hat",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj10",
+    "igdbId": 5814,
+    "gbId": 10442,
+    "gbGuid": "3030-10442",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo: Combat Evolved",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj11",
+    "igdbId": 740,
+    "gbId": 2600,
+    "gbGuid": "3030-2600",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo 2",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj12",
+    "igdbId": 986,
+    "gbId": 7110,
+    "gbGuid": "3030-7110",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo: History Pack",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj13",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Hitman 2: Silent Assassin",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj14",
+    "igdbId": 748,
+    "gbId": 7004,
+    "gbGuid": "3030-7004",
+    "tgdbId": null
+  },
+  {
+    "name": "Hunter: The Reckoning - Redeemer",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj15",
+    "igdbId": 5865,
+    "gbId": 8652,
+    "gbGuid": "3030-8652",
+    "tgdbId": null
+  },
+  {
+    "name": "Inside Pitch 2003",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj16",
+    "igdbId": 23697,
+    "gbId": 19634,
+    "gbGuid": "3030-19634",
+    "tgdbId": null
+  },
+  {
+    "name": "Jockey's Road",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj17",
+    "igdbId": 62228,
+    "gbId": 45279,
+    "gbGuid": "3030-45279",
+    "tgdbId": null
+  },
+  {
+    "name": "Crimson Sea",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj18",
+    "igdbId": 5792,
+    "gbId": 15785,
+    "gbGuid": "3030-15785",
+    "tgdbId": null
+  },
+  {
+    "name": "Links 2004",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj19",
+    "igdbId": 5902,
+    "gbId": 17940,
+    "gbGuid": "3030-17940",
+    "tgdbId": null
+  },
+  {
+    "name": "Magic: The Gathering – Battlegrounds",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj20",
+    "igdbId": 5907,
+    "gbId": 18567,
+    "gbGuid": "3030-18567",
+    "tgdbId": null
+  },
+  {
+    "name": "Metal Arms: Glitch in the System",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj21",
+    "igdbId": 4004,
+    "gbId": 8006,
+    "gbGuid": "3030-8006",
+    "tgdbId": null
+  },
+  {
+    "name": "Murakumo: Renegade Mech Pursuit",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj22",
+    "igdbId": 5936,
+    "gbId": 25684,
+    "gbGuid": "3030-25684",
+    "tgdbId": null
+  },
+  {
+    "name": "Muzzle Flash",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj23",
+    "igdbId": 62073,
+    "gbId": 45529,
+    "gbGuid": "3030-45529",
+    "tgdbId": null
+  },
+  {
+    "name": "Ninja Gaiden Black",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj24",
+    "igdbId": 18735,
+    "gbId": 6602,
+    "gbGuid": "3030-6602",
+    "tgdbId": null
+  },
+  {
+    "name": "Otogi: Myth of Demons",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj25",
+    "igdbId": 5975,
+    "gbId": 20131,
+    "gbGuid": "3030-20131",
+    "tgdbId": null
+  },
+  {
+    "name": "Otogi 2: Immortal Warriors",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj26",
+    "igdbId": 5976,
+    "gbId": 5511,
+    "gbGuid": "3030-5511",
+    "tgdbId": null
+  },
+  {
+    "name": "Outlaw Golf",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj27",
+    "igdbId": 3438,
+    "gbId": 7498,
+    "gbGuid": "3030-7498",
+    "tgdbId": null
+  },
+  {
+    "name": "Outlaw Volleyball",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj28",
+    "igdbId": 3806,
+    "gbId": 5406,
+    "gbGuid": "3030-5406",
+    "tgdbId": null
+  },
+  {
+    "name": "Panzer Dragoon Orta",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj29",
+    "igdbId": 1672,
+    "gbId": 4535,
+    "gbGuid": "3030-4535",
+    "tgdbId": null
+  },
+  {
+    "name": "Project Gotham Racing 2",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj30",
+    "igdbId": 3321,
+    "gbId": 2279,
+    "gbGuid": "3030-2279",
+    "tgdbId": null
+  },
+  {
+    "name": "Rapala Pro Fishing",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj31",
+    "igdbId": 47336,
+    "gbId": 13538,
+    "gbGuid": "3030-13538",
+    "tgdbId": null
+  },
+  {
+    "name": "Return to Castle Wolfenstein: Tides of War",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj32",
+    "igdbId": 77220,
+    "gbId": 3719,
+    "gbGuid": "3030-3719",
+    "tgdbId": null
+  },
+  {
+    "name": "Rocky Legends",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj33",
+    "igdbId": 6016,
+    "gbId": 12978,
+    "gbGuid": "3030-12978",
+    "tgdbId": null
+  },
+  {
+    "name": "Shin Megami Tensei: NINE",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj34",
+    "igdbId": 6050,
+    "gbId": 3402,
+    "gbGuid": "3030-3402",
+    "tgdbId": null
+  },
+  {
+    "name": "Shrek 2",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj35",
+    "igdbId": 3668,
+    "gbId": 722,
+    "gbGuid": "3030-722",
+    "tgdbId": null
+  },
+  {
+    "name": "SoulCalibur II",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj36",
+    "igdbId": 1565,
+    "gbId": 11822,
+    "gbGuid": "3030-11822",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Jedi Knight - Jedi Academy",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj37",
+    "igdbId": 153,
+    "gbId": 16922,
+    "gbGuid": "3030-16922",
+    "tgdbId": null
+  },
+  {
+    "name": "SWAT: Global Strike Team",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj38",
+    "igdbId": 314,
+    "gbId": 23236,
+    "gbGuid": "3030-23236",
+    "tgdbId": null
+  },
+  {
+    "name": "Tao Feng: Fist of the Lotus",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj39",
+    "igdbId": 6190,
+    "gbId": 16870,
+    "gbGuid": "3030-16870",
+    "tgdbId": null
+  },
+  {
+    "name": "The Simpsons: Hit & Run",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj40",
+    "igdbId": 2844,
+    "gbId": 3157,
+    "gbGuid": "3030-3157",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Underground",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj41",
+    "igdbId": 2698,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Unreal Championship",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj42",
+    "igdbId": 6220,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Voodoo Vince",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj43",
+    "igdbId": 5466,
+    "gbId": 7914,
+    "gbGuid": "3030-7914",
+    "tgdbId": null
+  },
+  {
+    "name": "Wakeboarding Unleashed Featuring Shaun Murray",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj44",
+    "igdbId": 23694,
+    "gbId": 16373,
+    "gbGuid": "3030-16373",
+    "tgdbId": null
+  },
+  {
+    "name": "X-Men Legends",
+    "details": "Microsoft Xbox Platinum Collection (Japan)",
+    "id": "xbpcj45",
+    "igdbId": 4575,
+    "gbId": 13087,
+    "gbGuid": "3030-13087",
+    "tgdbId": null
+  }
+]

@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "James Bond 007: Agent Under Fire",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph1",
+    "igdbId": 1643,
+    "gbId": 16559,
+    "gbGuid": "3030-16559",
+    "tgdbId": null
+  },
+  {
+    "name": "James Bond 007: Everything or Nothing",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph2",
+    "igdbId": 1644,
+    "gbId": 6530,
+    "gbGuid": "3030-6530",
+    "tgdbId": null
+  },
+  {
+    "name": "James Bond 007: Nightfire",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph3",
+    "igdbId": 1631,
+    "gbId": 6647,
+    "gbGuid": "3030-6647",
+    "tgdbId": null
+  },
+  {
+    "name": "50 Cent: Bulletproof",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph4",
+    "igdbId": 4011,
+    "gbId": 16255,
+    "gbGuid": "3030-16255",
+    "tgdbId": null
+  },
+  {
+    "name": "Amped: Freestyle Snowboarding",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph5",
+    "igdbId": 5484,
+    "gbId": 1509,
+    "gbGuid": "3030-1509",
+    "tgdbId": null
+  },
+  {
+    "name": "Atari Anthology",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph6",
+    "igdbId": 2641,
+    "gbId": 26604,
+    "gbGuid": "3030-26604",
+    "tgdbId": null
+  },
+  {
+    "name": "ATV Quad Power Racing 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph7",
+    "igdbId": 3790,
+    "gbId": 1946,
+    "gbGuid": "3030-1946",
+    "tgdbId": null
+  },
+  {
+    "name": "Baldur's Gate: Dark Alliance",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph8",
+    "igdbId": 83,
+    "gbId": 13091,
+    "gbGuid": "3030-13091",
+    "tgdbId": null
+  },
+  {
+    "name": "BLACK",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph9",
+    "igdbId": 5749,
+    "gbId": 8369,
+    "gbGuid": "3030-8369",
+    "tgdbId": null
+  },
+  {
+    "name": "Blitz: The League",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph10",
+    "igdbId": 5753,
+    "gbId": 4166,
+    "gbGuid": "3030-4166",
+    "tgdbId": null
+  },
+  {
+    "name": "Blood Wake",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph11",
+    "igdbId": 5754,
+    "gbId": 8018,
+    "gbGuid": "3030-8018",
+    "tgdbId": null
+  },
+  {
+    "name": "Burnout 3: Takedown",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph12",
+    "igdbId": 5761,
+    "gbId": 357,
+    "gbGuid": "3030-357",
+    "tgdbId": null
+  },
+  {
+    "name": "Burnout Revenge",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph13",
+    "igdbId": 2626,
+    "gbId": 16492,
+    "gbGuid": "3030-16492",
+    "tgdbId": null
+  },
+  {
+    "name": "Brute Force",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph14",
+    "igdbId": 5759,
+    "gbId": 6682,
+    "gbGuid": "3030-6682",
+    "tgdbId": null
+  },
+  {
+    "name": "Cabela's Dangerous Hunts",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph15",
+    "igdbId": 5763,
+    "gbId": 19528,
+    "gbGuid": "3030-19528",
+    "tgdbId": null
+  },
+  {
+    "name": "Call of Duty: Finest Hour",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph16",
+    "igdbId": 3761,
+    "gbId": 3232,
+    "gbGuid": "3030-3232",
+    "tgdbId": null
+  },
+  {
+    "name": "Call of Duty 2: Big Red One",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph17",
+    "igdbId": 3845,
+    "gbId": 16711,
+    "gbGuid": "3030-16711",
+    "tgdbId": null
+  },
+  {
+    "name": "Call of Duty 3",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph18",
+    "igdbId": 949,
+    "gbId": 7524,
+    "gbGuid": "3030-7524",
+    "tgdbId": null
+  },
+  {
+    "name": "Conflict: Desert Storm",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph19",
+    "igdbId": 3863,
+    "gbId": 3055,
+    "gbGuid": "3030-3055",
+    "tgdbId": null
+  },
+  {
+    "name": "Counter-Strike",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph20",
+    "igdbId": 241,
+    "gbId": 11663,
+    "gbGuid": "3030-11663",
+    "tgdbId": null
+  },
+  {
+    "name": "Crimson Skies: High Road to Revenge",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph21",
+    "igdbId": 5793,
+    "gbId": 12911,
+    "gbGuid": "3030-12911",
+    "tgdbId": null
+  },
+  {
+    "name": "Dave Mirra Freestyle BMX 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph22",
+    "igdbId": 3871,
+    "gbId": 10174,
+    "gbGuid": "3030-10174",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead or Alive 3",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph23",
+    "igdbId": 1389,
+    "gbId": 5418,
+    "gbGuid": "3030-5418",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead To Rights",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph24",
+    "igdbId": 3872,
+    "gbId": 3032,
+    "gbGuid": "3030-3032",
+    "tgdbId": null
+  },
+  {
+    "name": "Def Jam: Fight for NY",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph25",
+    "igdbId": 3875,
+    "gbId": 3744,
+    "gbGuid": "3030-3744",
+    "tgdbId": null
+  },
+  {
+    "name": "Destroy All Humans!",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph26",
+    "igdbId": 2651,
+    "gbId": 17543,
+    "gbGuid": "3030-17543",
+    "tgdbId": null
+  },
+  {
+    "name": "DOOM 3",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph27",
+    "igdbId": 280,
+    "gbId": 14537,
+    "gbGuid": "3030-14537",
+    "tgdbId": null
+  },
+  {
+    "name": "Enter the Matrix",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph28",
+    "igdbId": 1003,
+    "gbId": 7570,
+    "gbGuid": "3030-7570",
+    "tgdbId": null
+  },
+  {
+    "name": "Fable: The Lost Chapters",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph29",
+    "igdbId": 694,
+    "gbId": 2092,
+    "gbGuid": "3030-2092",
+    "tgdbId": null
+  },
+  {
+    "name": "Fight Night 2004",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph30",
+    "igdbId": 5835,
+    "gbId": 5372,
+    "gbGuid": "3030-5372",
+    "tgdbId": null
+  },
+  {
+    "name": "Fight Night Round 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph31",
+    "igdbId": 3915,
+    "gbId": 14685,
+    "gbGuid": "3030-14685",
+    "tgdbId": null
+  },
+  {
+    "name": "Forza Motorsport",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph32",
+    "igdbId": 3073,
+    "gbId": 17599,
+    "gbGuid": "3030-17599",
+    "tgdbId": null
+  },
+  {
+    "name": "Fuzion Frenzy",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph33",
+    "igdbId": 5842,
+    "gbId": 16650,
+    "gbGuid": "3030-16650",
+    "tgdbId": null
+  },
+  {
+    "name": "Full Spectrum Warrior",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph34",
+    "igdbId": 5840,
+    "gbId": 9969,
+    "gbGuid": "3030-9969",
+    "tgdbId": null
+  },
+  {
+    "name": "GoldenEye: Rogue Agent",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph35",
+    "igdbId": 1632,
+    "gbId": 14123,
+    "gbGuid": "3030-14123",
+    "tgdbId": null
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph36",
+    "igdbId": 732,
+    "gbId": 7120,
+    "gbGuid": "3030-7120",
+    "tgdbId": null
+  },
+  {
+    "name": "Grand Theft Auto: Double Pack",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph37",
+    "igdbId": 119155,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Greg Hastings' Tournament Paintball",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph38",
+    "igdbId": 5854,
+    "gbId": 7207,
+    "gbGuid": "3030-7207",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo: Combat Evolved",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph39",
+    "igdbId": 740,
+    "gbId": 2600,
+    "gbGuid": "3030-2600",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo 2",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph40",
+    "igdbId": 986,
+    "gbId": 7110,
+    "gbGuid": "3030-7110",
+    "tgdbId": null
+  },
+  {
+    "name": "Hitman 2: Silent Assassin",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph41",
+    "igdbId": 748,
+    "gbId": 7004,
+    "gbGuid": "3030-7004",
+    "tgdbId": null
+  },
+  {
+    "name": "Juiced",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph42",
+    "igdbId": 5870,
+    "gbId": 7777,
+    "gbGuid": "3030-7777",
+    "tgdbId": null
+  },
+  {
+    "name": "Marvel: Ultimate Alliance",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph43",
+    "igdbId": 4999,
+    "gbId": 7527,
+    "gbGuid": "3030-7527",
+    "tgdbId": null
+  },
+  {
+    "name": "Max Payne",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph44",
+    "igdbId": 18,
+    "gbId": 2414,
+    "gbGuid": "3030-2414",
+    "tgdbId": null
+  },
+  {
+    "name": "MechAssault",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph45",
+    "igdbId": 5910,
+    "gbId": 17438,
+    "gbGuid": "3030-17438",
+    "tgdbId": null
+  },
+  {
+    "name": "MechAssault 2: Lone Wolf",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph46",
+    "igdbId": 5911,
+    "gbId": 17861,
+    "gbGuid": "3030-17861",
+    "tgdbId": null
+  },
+  {
+    "name": "Medal of Honor: Frontline",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph47",
+    "igdbId": 1309,
+    "gbId": 4857,
+    "gbGuid": "3030-4857",
+    "tgdbId": null
+  },
+  {
+    "name": "Medal of Honor: Rising Sun",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph48",
+    "igdbId": 1316,
+    "gbId": 16752,
+    "gbGuid": "3030-16752",
+    "tgdbId": null
+  },
+  {
+    "name": "Mercenaries: Playground of Destruction",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph49",
+    "igdbId": 2683,
+    "gbId": 7633,
+    "gbGuid": "3030-7633",
+    "tgdbId": null
+  },
+  {
+    "name": "Midnight Club II",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph50",
+    "igdbId": 4631,
+    "gbId": 20418,
+    "gbGuid": "3030-20418",
+    "tgdbId": null
+  },
+  {
+    "name": "Midnight Club 3: DUB Edition Remix",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph51",
+    "igdbId": 22583,
+    "gbId": 5875,
+    "gbGuid": "3030-5875",
+    "tgdbId": null
+  },
+  {
+    "name": "Mortal Kombat: Deadly Alliance",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph52",
+    "igdbId": 1612,
+    "gbId": 6588,
+    "gbGuid": "3030-6588",
+    "tgdbId": null
+  },
+  {
+    "name": "Mortal Kombat: Deception",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph53",
+    "igdbId": 1613,
+    "gbId": 383,
+    "gbGuid": "3030-383",
+    "tgdbId": null
+  },
+  {
+    "name": "MVP Baseball 2005",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph54",
+    "igdbId": 796,
+    "gbId": 9978,
+    "gbGuid": "3030-9978",
+    "tgdbId": null
+  },
+  {
+    "name": "MX Vs. ATV Unleashed",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph55",
+    "igdbId": 24150,
+    "gbId": 9981,
+    "gbGuid": "3030-9981",
+    "tgdbId": null
+  },
+  {
+    "name": "NBA Ballers",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph56",
+    "igdbId": 5948,
+    "gbId": 9938,
+    "gbGuid": "3030-9938",
+    "tgdbId": null
+  },
+  {
+    "name": "NBA Street Vol. 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph57",
+    "igdbId": 4036,
+    "gbId": 9866,
+    "gbGuid": "3030-9866",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Hot Pursuit 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph58",
+    "igdbId": 95,
+    "gbId": 12395,
+    "gbGuid": "3030-12395",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph59",
+    "igdbId": 98,
+    "gbId": 12976,
+    "gbGuid": "3030-12976",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Underground",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph60",
+    "igdbId": 96,
+    "gbId": 12254,
+    "gbGuid": "3030-12254",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Underground 2",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph61",
+    "igdbId": 97,
+    "gbId": 9651,
+    "gbGuid": "3030-9651",
+    "tgdbId": null
+  },
+  {
+    "name": "NFL Street",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph62",
+    "igdbId": 4041,
+    "gbId": 6287,
+    "gbGuid": "3030-6287",
+    "tgdbId": null
+  },
+  {
+    "name": "Ninja Gaiden",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph63",
+    "igdbId": 5972,
+    "gbId": 21876,
+    "gbGuid": "3030-21876",
+    "tgdbId": null
+  },
+  {
+    "name": "Ninja Gaiden Black",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph64",
+    "igdbId": 18735,
+    "gbId": 6602,
+    "gbGuid": "3030-6602",
+    "tgdbId": null
+  },
+  {
+    "name": "Oddworld: Munch's Oddysee",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph65",
+    "igdbId": 1001,
+    "gbId": 3684,
+    "gbGuid": "3030-3684",
+    "tgdbId": null
+  },
+  {
+    "name": "Prince of Persia: The Sands of Time",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph66",
+    "igdbId": 836,
+    "gbId": 5235,
+    "gbGuid": "3030-5235",
+    "tgdbId": null
+  },
+  {
+    "name": "Prince of Persia: Warrior Within",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph67",
+    "igdbId": 837,
+    "gbId": 17357,
+    "gbGuid": "3030-17357",
+    "tgdbId": null
+  },
+  {
+    "name": "Project Gotham Racing",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph68",
+    "igdbId": 3320,
+    "gbId": 941,
+    "gbGuid": "3030-941",
+    "tgdbId": null
+  },
+  {
+    "name": "Project Gotham Racing 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph69",
+    "igdbId": 3321,
+    "gbId": 2279,
+    "gbGuid": "3030-2279",
+    "tgdbId": null
+  },
+  {
+    "name": "Rallisport Challenge",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph70",
+    "igdbId": 841,
+    "gbId": 8944,
+    "gbGuid": "3030-8944",
+    "tgdbId": null
+  },
+  {
+    "name": "Red Dead Revolver",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph71",
+    "igdbId": 1969,
+    "gbId": 8440,
+    "gbGuid": "3030-8440",
+    "tgdbId": null
+  },
+  {
+    "name": "Return to Castle Wolfenstein: Tides of War",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph72",
+    "igdbId": 77220,
+    "gbId": 3719,
+    "gbGuid": "3030-3719",
+    "tgdbId": null
+  },
+  {
+    "name": "Silent Hill 2: Restless Dreams",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph73",
+    "igdbId": 22066,
+    "gbId": 614,
+    "gbGuid": "3030-614",
+    "tgdbId": null
+  },
+  {
+    "name": "SoulCalibur II",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph74",
+    "igdbId": 1565,
+    "gbId": 11822,
+    "gbGuid": "3030-11822",
+    "tgdbId": null
+  },
+  {
+    "name": "Spider-Man",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph75",
+    "igdbId": 19114,
+    "gbId": 8322,
+    "gbGuid": "3030-8322",
+    "tgdbId": null
+  },
+  {
+    "name": "Spider-Man 2",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph76",
+    "igdbId": 6285,
+    "gbId": 1690,
+    "gbGuid": "3030-1690",
+    "tgdbId": null
+  },
+  {
+    "name": "Spy Hunter",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph77",
+    "igdbId": 4167,
+    "gbId": 14843,
+    "gbGuid": "3030-14843",
+    "tgdbId": null
+  },
+  {
+    "name": "SSX Tricky",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph78",
+    "igdbId": 4176,
+    "gbId": 18782,
+    "gbGuid": "3030-18782",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Battlefront",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph79",
+    "igdbId": 141,
+    "gbId": 15481,
+    "gbGuid": "3030-15481",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Battlefront II",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph80",
+    "igdbId": 142,
+    "gbId": 7094,
+    "gbGuid": "3030-7094",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Episode III - Revenge of the Sith",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph81",
+    "igdbId": 6159,
+    "gbId": 9200,
+    "gbGuid": "3030-9200",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph82",
+    "igdbId": 116,
+    "gbId": 18741,
+    "gbGuid": "3030-18741",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph83",
+    "igdbId": 118,
+    "gbId": 8852,
+    "gbGuid": "3030-8852",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Obi-Wan",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph84",
+    "igdbId": 5599,
+    "gbId": 7311,
+    "gbGuid": "3030-7311",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Republic Commando",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph85",
+    "igdbId": 148,
+    "gbId": 1339,
+    "gbGuid": "3030-1339",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Starfighter",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph86",
+    "igdbId": 149,
+    "gbId": 13998,
+    "gbGuid": "3030-13998",
+    "tgdbId": null
+  },
+  {
+    "name": "Test Drive",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph87",
+    "igdbId": 78193,
+    "gbId": 23347,
+    "gbGuid": "3030-23347",
+    "tgdbId": null
+  },
+  {
+    "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph88",
+    "igdbId": 250,
+    "gbId": 11085,
+    "gbGuid": "3030-11085",
+    "tgdbId": null
+  },
+  {
+    "name": "The Elder Scrolls III: Morrowind",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph89",
+    "igdbId": 56,
+    "gbId": 17367,
+    "gbGuid": "3030-17367",
+    "tgdbId": null
+  },
+  {
+    "name": "The Elder Scrolls III: Morrowind - Game of the Year Edition",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph90",
+    "igdbId": 24775,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Godfather",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph91",
+    "igdbId": 2482,
+    "gbId": 13540,
+    "gbGuid": "3030-13540",
+    "tgdbId": null
+  },
+  {
+    "name": "The Incredibles",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph92",
+    "igdbId": 3782,
+    "gbId": 759,
+    "gbGuid": "3030-759",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph93",
+    "igdbId": 2972,
+    "gbId": 4157,
+    "gbGuid": "3030-4157",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph94",
+    "igdbId": 2973,
+    "gbId": 17686,
+    "gbGuid": "3030-17686",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph95",
+    "igdbId": 2965,
+    "gbId": 21334,
+    "gbGuid": "3030-21334",
+    "tgdbId": null
+  },
+  {
+    "name": "The Simpsons: Hit & Run",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph96",
+    "igdbId": 2844,
+    "gbId": 3157,
+    "gbGuid": "3030-3157",
+    "tgdbId": null
+  },
+  {
+    "name": "The Simpsons: Road Rage",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph97",
+    "igdbId": 2842,
+    "gbId": 17855,
+    "gbGuid": "3030-17855",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Classic Trilogy",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph98",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph99",
+    "igdbId": 1294,
+    "gbId": 8732,
+    "gbGuid": "3030-8732",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph100",
+    "igdbId": 1298,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon: Island Thunder",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph101",
+    "igdbId": 1296,
+    "gbId": 8017,
+    "gbGuid": "3030-8017",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six 3",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph102",
+    "igdbId": 9891,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Splinter Cell",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph103",
+    "igdbId": 910,
+    "gbId": 5961,
+    "gbGuid": "3030-5961",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph104",
+    "igdbId": 874,
+    "gbId": 15549,
+    "gbGuid": "3030-15549",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Splinter Cell: Chaos Theory",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph105",
+    "igdbId": 911,
+    "gbId": 12354,
+    "gbGuid": "3030-12354",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's American Wasteland",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph106",
+    "igdbId": 7219,
+    "gbId": 7222,
+    "gbGuid": "3030-7222",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph107",
+    "igdbId": 914,
+    "gbId": 5688,
+    "gbGuid": "3030-5688",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 4",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph108",
+    "igdbId": 915,
+    "gbId": 2101,
+    "gbGuid": "3030-2101",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Project 8",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph109",
+    "igdbId": 6204,
+    "gbId": 12077,
+    "gbGuid": "3030-12077",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Underground",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph110",
+    "igdbId": 2698,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Underground 2",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph111",
+    "igdbId": 2699,
+    "gbId": 1492,
+    "gbGuid": "3030-1492",
+    "tgdbId": null
+  },
+  {
+    "name": "True Crime: Streets of LA",
+    "details": "Microsoft Xbox Best of Platinum Hits",
+    "id": "xbph112",
+    "igdbId": 4216,
+    "gbId": 11153,
+    "gbGuid": "3030-11153",
+    "tgdbId": null
+  },
+  {
+    "name": "Unreal Championship",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph113",
+    "igdbId": 6220,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Wreckless: The Yakuza Missions",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph114",
+    "igdbId": 4568,
+    "gbId": 3563,
+    "gbGuid": "3030-3563",
+    "tgdbId": null
+  },
+  {
+    "name": "WWE Raw",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph115",
+    "igdbId": 6252,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "WWE Raw 2",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph116",
+    "igdbId": 6249,
+    "gbId": 13445,
+    "gbGuid": "3030-13445",
+    "tgdbId": null
+  },
+  {
+    "name": "WWE WrestleMania 21",
+    "details": "Microsoft Xbox Platinum Hits",
+    "id": "xbph117",
+    "igdbId": 6251,
+    "gbId": 487,
+    "gbGuid": "3030-487",
+    "tgdbId": null
+  },
+  {
+    "name": "Blinx: The Time Sweeper",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph118",
+    "igdbId": 5751,
+    "gbId": 18385,
+    "gbGuid": "3030-18385",
+    "tgdbId": null
+  },
+  {
+    "name": "Cars",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph119",
+    "igdbId": 3849,
+    "gbId": 7158,
+    "gbGuid": "3030-7158",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Bandicoot: The Wrath of Cortex",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph120",
+    "igdbId": 1188,
+    "gbId": 68,
+    "gbGuid": "3030-68",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Nitro Kart",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph122",
+    "igdbId": 1193,
+    "gbId": 2278,
+    "gbGuid": "3030-2278",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Tag Team Racing",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph124",
+    "igdbId": 1194,
+    "gbId": 21405,
+    "gbGuid": "3030-21405",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Twinsanity",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph125",
+    "igdbId": 1189,
+    "gbId": 14790,
+    "gbGuid": "3030-14790",
+    "tgdbId": null
+  },
+  {
+    "name": "Dance Dance Revolution: Ultramix",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph126",
+    "igdbId": 47301,
+    "gbId": 4204,
+    "gbGuid": "3030-4204",
+    "tgdbId": null
+  },
+  {
+    "name": "Finding Nemo",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph127",
+    "igdbId": 3781,
+    "gbId": 16805,
+    "gbGuid": "3030-16805",
+    "tgdbId": null
+  },
+  {
+    "name": "Dreamworks' Shark Tale",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph128",
+    "igdbId": 4148,
+    "gbId": 7932,
+    "gbGuid": "3030-7932",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter and the Chamber of Secrets",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph129",
+    "igdbId": 166325,
+    "gbId": 8370,
+    "gbGuid": "3030-8370",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter: Quidditch World Cup",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph130",
+    "igdbId": 3944,
+    "gbId": 9343,
+    "gbGuid": "3030-9343",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph131",
+    "igdbId": 96159,
+    "gbId": 3792,
+    "gbGuid": "3030-3792",
+    "tgdbId": null
+  },
+  {
+    "name": "LEGO Star Wars: The Video Game",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph132",
+    "igdbId": 2681,
+    "gbId": 251,
+    "gbGuid": "3030-251",
+    "tgdbId": null
+  },
+  {
+    "name": "LEGO Star Wars II: The Original Trilogy",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph133",
+    "igdbId": 190,
+    "gbId": 9631,
+    "gbGuid": "3030-9631",
+    "tgdbId": null
+  },
+  {
+    "name": "Madagascar",
+    "details": "Microsoft Xbox Best of Platinum Family Hits",
+    "id": "xbph134",
+    "igdbId": 3764,
+    "gbId": 5680,
+    "gbGuid": "3030-5680",
+    "tgdbId": null
+  },
+  {
+    "name": "Namco Museum",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph135",
+    "igdbId": 131507,
+    "gbId": 3013,
+    "gbGuid": "3030-3013",
+    "tgdbId": null
+  },
+  {
+    "name": "Over The Hedge",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph136",
+    "igdbId": 4059,
+    "gbId": 7954,
+    "gbGuid": "3030-7954",
+    "tgdbId": null
+  },
+  {
+    "name": "Pac-Man World 2",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph137",
+    "igdbId": 4063,
+    "gbId": 20178,
+    "gbGuid": "3030-20178",
+    "tgdbId": null
+  },
+  {
+    "name": "Shrek 2",
+    "details": "Microsoft Xbox Best of Platinum Family Hits",
+    "id": "xbph138",
+    "igdbId": 3668,
+    "gbId": 722,
+    "gbGuid": "3030-722",
+    "tgdbId": null
+  },
+  {
+    "name": "Shrek 2/Dreamwork's Shark Tale",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph139",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sonic Heroes",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph140",
+    "igdbId": 4156,
+    "gbId": 9523,
+    "gbGuid": "3030-9523",
+    "tgdbId": null
+  },
+  {
+    "name": "Super Monkey Ball Deluxe",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph142",
+    "igdbId": 2929,
+    "gbId": 6503,
+    "gbGuid": "3030-6503",
+    "tgdbId": null
+  },
+  {
+    "name": "Sonic Mega Collection Plus",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph143",
+    "igdbId": 22297,
+    "gbId": 12297,
+    "gbGuid": "3030-12297",
+    "tgdbId": null
+  },
+  {
+    "name": "Spongebob Squarepants: Battle For Bikini Bottom",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph146",
+    "igdbId": 2765,
+    "gbId": 10556,
+    "gbGuid": "3030-10556",
+    "tgdbId": null
+  },
+  {
+    "name": "Spongebob Squarepants: Lights, Camera, Pants!",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph147",
+    "igdbId": 2768,
+    "gbId": 9269,
+    "gbGuid": "3030-9269",
+    "tgdbId": null
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph148",
+    "igdbId": 19747,
+    "gbId": 26368,
+    "gbGuid": "3030-26368",
+    "tgdbId": null
+  },
+  {
+    "name": "The Sims",
+    "details": "Microsoft Xbox Best of Platinum Family Hits",
+    "id": "xbph149",
+    "igdbId": 223,
+    "gbId": 17463,
+    "gbGuid": "3030-17463",
+    "tgdbId": null
+  },
+  {
+    "name": "The Sims 2",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph150",
+    "igdbId": 224,
+    "gbId": 2473,
+    "gbGuid": "3030-2473",
+    "tgdbId": null
+  },
+  {
+    "name": "The Sims Bustin' Out",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph151",
+    "igdbId": 4151,
+    "gbId": 14043,
+    "gbGuid": "3030-14043",
+    "tgdbId": null
+  },
+  {
+    "name": "Thrillville",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph152",
+    "igdbId": 2852,
+    "gbId": 18956,
+    "gbGuid": "3030-18956",
+    "tgdbId": null
+  },
+  {
+    "name": "The Spongebob Squarepants Movie",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph153",
+    "igdbId": 2767,
+    "gbId": 581,
+    "gbGuid": "3030-581",
+    "tgdbId": null
+  },
+  {
+    "name": "Yu-Gi-Oh! The Dawn of Destiny",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph154",
+    "igdbId": 6257,
+    "gbId": 17546,
+    "gbGuid": "3030-17546",
+    "tgdbId": null
+  },
+  {
+    "name": "X-Men Legends",
+    "details": "Microsoft Xbox Platinum Hits Family Series",
+    "id": "xbph155",
+    "igdbId": 4575,
+    "gbId": 13087,
+    "gbGuid": "3030-13087",
+    "tgdbId": null
+  }
+]

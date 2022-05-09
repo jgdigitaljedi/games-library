@@ -8,13 +8,15 @@ function greatestHitsOnly(ed) {
       g =>
         g.indexOf('Greatest Hits') > -1 ||
         g.indexOf('Nintendo Select') > -1 ||
-        g.indexOf("Player's Choice") > -1
+        g.indexOf("Player's Choice") > -1 ||
+        g.indexOf('Platinum Hits') > -1 ||
+        g.indexOf('Platinum Collection') > -1 ||
+        g.indexOf('Xbox Classic') > -1
     ).length > 0
   );
 }
 
 function makeList(which, games) {
-  console.log('which', which);
   return games.filter(game => {
     if (which === 'multiplayer') {
       if (game.maxMultiplayer && game.maxMultiplayer >= 3) {

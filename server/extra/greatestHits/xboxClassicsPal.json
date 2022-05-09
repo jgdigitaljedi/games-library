@@ -1,0 +1,1181 @@
+[
+  {
+    "name": "50 Cent: Bulletproof",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp1",
+    "igdbId": 4011,
+    "gbId": 16255,
+    "gbGuid": "3030-16255",
+    "tgdbId": null
+  },
+  {
+    "name": "Amped: Freestyle Snowboarding",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp2",
+    "igdbId": 5484,
+    "gbId": 1509,
+    "gbGuid": "3030-1509",
+    "tgdbId": null
+  },
+  {
+    "name": "Blinx: The Time Sweeper",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp3",
+    "igdbId": 5751,
+    "gbId": 18385,
+    "gbGuid": "3030-18385",
+    "tgdbId": null
+  },
+  {
+    "name": "Buffy the Vampire Slayer",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp4",
+    "igdbId": 5760,
+    "gbId": 15717,
+    "gbGuid": "3030-15717",
+    "tgdbId": null
+  },
+  {
+    "name": "Burnout",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp5",
+    "igdbId": 3838,
+    "gbId": 20484,
+    "gbGuid": "3030-20484",
+    "tgdbId": null
+  },
+  {
+    "name": "Burnout 3: Takedown",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp6",
+    "igdbId": 5761,
+    "gbId": 357,
+    "gbGuid": "3030-357",
+    "tgdbId": null
+  },
+  {
+    "name": "Burnout Revenge",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp7",
+    "igdbId": 2626,
+    "gbId": 16492,
+    "gbGuid": "3030-16492",
+    "tgdbId": null
+  },
+  {
+    "name": "Call of Duty: Finest Hour",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp8",
+    "igdbId": 3761,
+    "gbId": 3232,
+    "gbGuid": "3030-3232",
+    "tgdbId": null
+  },
+  {
+    "name": "Call of Duty 2: Big Red One",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp9",
+    "igdbId": 3845,
+    "gbId": 16711,
+    "gbGuid": "3030-16711",
+    "tgdbId": null
+  },
+  {
+    "name": "Cars",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp10",
+    "igdbId": 3849,
+    "gbId": 7158,
+    "gbGuid": "3030-7158",
+    "tgdbId": null
+  },
+  {
+    "name": "Colin McRae Rally 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp11",
+    "igdbId": 7968,
+    "gbId": 20033,
+    "gbGuid": "3030-20033",
+    "tgdbId": null
+  },
+  {
+    "name": "Colin McRae Rally 04",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp12",
+    "igdbId": 641,
+    "gbId": 14519,
+    "gbGuid": "3030-14519",
+    "tgdbId": null
+  },
+  {
+    "name": "Colin McRae Rally 2005",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp13",
+    "igdbId": 7969,
+    "gbId": 15863,
+    "gbGuid": "3030-15863",
+    "tgdbId": null
+  },
+  {
+    "name": "Conflict: Desert Storm",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp14",
+    "igdbId": 3863,
+    "gbId": 3055,
+    "gbGuid": "3030-3055",
+    "tgdbId": null
+  },
+  {
+    "name": "Conflict: Desert Storm II",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp15",
+    "igdbId": 3864,
+    "gbId": 16557,
+    "gbGuid": "3030-16557",
+    "tgdbId": null
+  },
+  {
+    "name": "Conflict: Vietnam",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp16",
+    "igdbId": 5786,
+    "gbId": 12815,
+    "gbGuid": "3030-12815",
+    "tgdbId": null
+  },
+  {
+    "name": "Conker: Live & Reloaded",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp17",
+    "igdbId": 1425,
+    "gbId": 7353,
+    "gbGuid": "3030-7353",
+    "tgdbId": null
+  },
+  {
+    "name": "Counter-Strike",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp18",
+    "igdbId": 241,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Bandicoot: The Wrath of Cortex",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp19",
+    "igdbId": 1188,
+    "gbId": 68,
+    "gbGuid": "3030-68",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Nitro Kart",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp20",
+    "igdbId": 1193,
+    "gbId": 2278,
+    "gbGuid": "3030-2278",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Tag Team Racing",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp21",
+    "igdbId": 1194,
+    "gbId": 21405,
+    "gbGuid": "3030-21405",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Twinsanity",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp22",
+    "igdbId": 1189,
+    "gbId": 14790,
+    "gbGuid": "3030-14790",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead or Alive 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp23",
+    "igdbId": 1389,
+    "gbId": 5418,
+    "gbGuid": "3030-5418",
+    "tgdbId": null
+  },
+  {
+    "name": "Dead or Alive Xtreme Beach Volleyball",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp24",
+    "igdbId": 1390,
+    "gbId": 21479,
+    "gbGuid": "3030-21479",
+    "tgdbId": null
+  },
+  {
+    "name": "DOOM 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp25",
+    "igdbId": 280,
+    "gbId": 14537,
+    "gbGuid": "3030-14537",
+    "tgdbId": null
+  },
+  {
+    "name": "Driv3r",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp26",
+    "igdbId": 5817,
+    "gbId": 14491,
+    "gbGuid": "3030-14491",
+    "tgdbId": null
+  },
+  {
+    "name": "TOCA Race Driver 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp27",
+    "igdbId": 6201,
+    "gbId": 531,
+    "gbGuid": "3030-531",
+    "tgdbId": null
+  },
+  {
+    "name": "Enter the Matrix",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp28",
+    "igdbId": 1003,
+    "gbId": 7570,
+    "gbGuid": "3030-7570",
+    "tgdbId": null
+  },
+  {
+    "name": "Fable: The Lost Chapters",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp29",
+    "igdbId": 694,
+    "gbId": 2092,
+    "gbGuid": "3030-2092",
+    "tgdbId": null
+  },
+  {
+    "name": "FIFA 2003",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp30",
+    "igdbId": 43335,
+    "gbId": 4165,
+    "gbGuid": "3030-4165",
+    "tgdbId": null
+  },
+  {
+    "name": "FIFA Soccer 2004",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp31",
+    "igdbId": 3136,
+    "gbId": 9214,
+    "gbGuid": "3030-9214",
+    "tgdbId": null
+  },
+  {
+    "name": "FIFA Football 2005",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp32",
+    "igdbId": 703,
+    "gbId": 18564,
+    "gbGuid": "3030-18564",
+    "tgdbId": null
+  },
+  {
+    "name": "FIFA 06",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp33",
+    "igdbId": 700,
+    "gbId": 9171,
+    "gbGuid": "3030-9171",
+    "tgdbId": null
+  },
+  {
+    "name": "FIFA Street",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp34",
+    "igdbId": 5832,
+    "gbId": 15288,
+    "gbGuid": "3030-15288",
+    "tgdbId": null
+  },
+  {
+    "name": "Finding Nemo",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp35",
+    "igdbId": 3781,
+    "gbId": 16805,
+    "gbGuid": "3030-16805",
+    "tgdbId": null
+  },
+  {
+    "name": "Forza Motorsport",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp36",
+    "igdbId": 3073,
+    "gbId": 17599,
+    "gbGuid": "3030-17599",
+    "tgdbId": null
+  },
+  {
+    "name": "Full Spectrum Warrior",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp37",
+    "igdbId": 5840,
+    "gbId": 9969,
+    "gbGuid": "3030-9969",
+    "tgdbId": null
+  },
+  {
+    "name": "GoldenEye: Rogue Agent",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp38",
+    "igdbId": 1632,
+    "gbId": 14123,
+    "gbGuid": "3030-14123",
+    "tgdbId": null
+  },
+  {
+    "name": "Grand Theft Auto: San Andreas",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp39",
+    "igdbId": 732,
+    "gbId": 7120,
+    "gbGuid": "3030-7120",
+    "tgdbId": null
+  },
+  {
+    "name": "Gun",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp40",
+    "igdbId": 3939,
+    "gbId": 8873,
+    "gbGuid": "3030-8873",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo: Combat Evolved",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp41",
+    "igdbId": 740,
+    "gbId": 2600,
+    "gbGuid": "3030-2600",
+    "tgdbId": null
+  },
+  {
+    "name": "Halo 2",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp42",
+    "igdbId": 986,
+    "gbId": 7110,
+    "gbGuid": "3030-7110",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter and the Chamber of Secrets",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp43",
+    "igdbId": 166325,
+    "gbId": 8370,
+    "gbGuid": "3030-8370",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter and the Prisoner of Azkaban",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp44",
+    "igdbId": 96159,
+    "gbId": 3792,
+    "gbGuid": "3030-3792",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter and the Goblet of Fire",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp45",
+    "igdbId": 3942,
+    "gbId": 18427,
+    "gbGuid": "3030-18427",
+    "tgdbId": null
+  },
+  {
+    "name": "Harry Potter: Quidditch World Cup",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp46",
+    "igdbId": 3944,
+    "gbId": 9343,
+    "gbGuid": "3030-9343",
+    "tgdbId": null
+  },
+  {
+    "name": "Hitman 2: Silent Assassin",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp47",
+    "igdbId": 748,
+    "gbId": 7004,
+    "gbGuid": "3030-7004",
+    "tgdbId": null
+  },
+  {
+    "name": "Hulk",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp48",
+    "igdbId": 3949,
+    "gbId": 12153,
+    "gbGuid": "3030-12153",
+    "tgdbId": null
+  },
+  {
+    "name": "Ice Age 2: The Meltdown",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp49",
+    "igdbId": 3952,
+    "gbId": 1999,
+    "gbGuid": "3030-1999",
+    "tgdbId": null
+  },
+  {
+    "name": "Jade Empire",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp50",
+    "igdbId": 5867,
+    "gbId": 8580,
+    "gbGuid": "3030-8580",
+    "tgdbId": null
+  },
+  {
+    "name": "James Bond 007: Agent Under Fire",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp51",
+    "igdbId": 1643,
+    "gbId": 16559,
+    "gbGuid": "3030-16559",
+    "tgdbId": null
+  },
+  {
+    "name": "James Bond 007: Everything or Nothing",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp52",
+    "igdbId": 1644,
+    "gbId": 6530,
+    "gbGuid": "3030-6530",
+    "tgdbId": null
+  },
+  {
+    "name": "James Bond 007: Nightfire",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp53",
+    "igdbId": 1631,
+    "gbId": 6647,
+    "gbGuid": "3030-6647",
+    "tgdbId": null
+  },
+  {
+    "name": "Juiced",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp54",
+    "igdbId": 5870,
+    "gbId": 7777,
+    "gbGuid": "3030-7777",
+    "tgdbId": null
+  },
+  {
+    "name": "LEGO Star Wars: The Video Game",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp55",
+    "igdbId": 2681,
+    "gbId": 251,
+    "gbGuid": "3030-251",
+    "tgdbId": null
+  },
+  {
+    "name": "Madagascar",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp56",
+    "igdbId": 3764,
+    "gbId": 5680,
+    "gbGuid": "3030-5680",
+    "tgdbId": null
+  },
+  {
+    "name": "Max Payne",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp57",
+    "igdbId": 18,
+    "gbId": 2414,
+    "gbGuid": "3030-2414",
+    "tgdbId": null
+  },
+  {
+    "name": "Medal of Honor: European Assault",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp58",
+    "igdbId": 1311,
+    "gbId": 10228,
+    "gbGuid": "3030-10228",
+    "tgdbId": null
+  },
+  {
+    "name": "Medal of Honor: Frontline",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp59",
+    "igdbId": 1309,
+    "gbId": 4857,
+    "gbGuid": "3030-4857",
+    "tgdbId": null
+  },
+  {
+    "name": "Medal of Honor: Rising Sun",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp60",
+    "igdbId": 1316,
+    "gbId": 16752,
+    "gbGuid": "3030-16752",
+    "tgdbId": null
+  },
+  {
+    "name": "Men of Valor",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp61",
+    "igdbId": 5913,
+    "gbId": 9313,
+    "gbGuid": "3030-9313",
+    "tgdbId": null
+  },
+  {
+    "name": "Metal Gear Solid 2: Substance",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp62",
+    "igdbId": 474,
+    "gbId": 21654,
+    "gbGuid": "3030-21654",
+    "tgdbId": null
+  },
+  {
+    "name": "Midtown Madness 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp63",
+    "igdbId": 5929,
+    "gbId": 12359,
+    "gbGuid": "3030-12359",
+    "tgdbId": null
+  },
+  {
+    "name": "Mortal Kombat: Deadly Alliance",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp64",
+    "igdbId": 1612,
+    "gbId": 6588,
+    "gbGuid": "3030-6588",
+    "tgdbId": null
+  },
+  {
+    "name": "Moto GP: Ultimate racing technology",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp65",
+    "igdbId": 8268,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Moto GP – Ultimate Racing Technology 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp66",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp67",
+    "igdbId": 98,
+    "gbId": 12976,
+    "gbGuid": "3030-12976",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Underground",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp68",
+    "igdbId": 96,
+    "gbId": 12254,
+    "gbGuid": "3030-12254",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed: Underground 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp69",
+    "igdbId": 97,
+    "gbId": 9651,
+    "gbGuid": "3030-9651",
+    "tgdbId": null
+  },
+  {
+    "name": "Ninja Gaiden",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp70",
+    "igdbId": 5972,
+    "gbId": 21876,
+    "gbGuid": "3030-21876",
+    "tgdbId": null
+  },
+  {
+    "name": "Ninja Gaiden Black",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp71",
+    "igdbId": 18735,
+    "gbId": 6602,
+    "gbGuid": "3030-6602",
+    "tgdbId": null
+  },
+  {
+    "name": "Oddworld: Munch's Oddysee",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp72",
+    "igdbId": 1001,
+    "gbId": 3684,
+    "gbGuid": "3030-3684",
+    "tgdbId": null
+  },
+  {
+    "name": "Pirates of the Caribbean",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp73",
+    "igdbId": 5982,
+    "gbId": 1983,
+    "gbGuid": "3030-1983",
+    "tgdbId": null
+  },
+  {
+    "name": "Prince of Persia: The Sands of Time",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp74",
+    "igdbId": 836,
+    "gbId": 5235,
+    "gbGuid": "3030-5235",
+    "tgdbId": null
+  },
+  {
+    "name": "Prince of Persia: The Two Thrones",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp75",
+    "igdbId": 2437,
+    "gbId": 21380,
+    "gbGuid": "3030-21380",
+    "tgdbId": null
+  },
+  {
+    "name": "Prince of Persia: Warrior Within",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp76",
+    "igdbId": 837,
+    "gbId": 17357,
+    "gbGuid": "3030-17357",
+    "tgdbId": null
+  },
+  {
+    "name": "Pro Evolution Soccer 4",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp77",
+    "igdbId": 4644,
+    "gbId": 7540,
+    "gbGuid": "3030-7540",
+    "tgdbId": null
+  },
+  {
+    "name": "Project Gotham Racing",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp78",
+    "igdbId": 3320,
+    "gbId": 941,
+    "gbGuid": "3030-941",
+    "tgdbId": null
+  },
+  {
+    "name": "Project Gotham Racing 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp79",
+    "igdbId": 3321,
+    "gbId": 2279,
+    "gbGuid": "3030-2279",
+    "tgdbId": null
+  },
+  {
+    "name": "Rallisport Challenge",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp80",
+    "igdbId": 841,
+    "gbId": 8944,
+    "gbGuid": "3030-8944",
+    "tgdbId": null
+  },
+  {
+    "name": "RalliSport Challenge 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp81",
+    "igdbId": 5997,
+    "gbId": 6499,
+    "gbGuid": "3030-6499",
+    "tgdbId": null
+  },
+  {
+    "name": "Rayman 3: Hoodlum Havoc",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp82",
+    "igdbId": 1966,
+    "gbId": 5821,
+    "gbGuid": "3030-5821",
+    "tgdbId": null
+  },
+  {
+    "name": "Return to Castle Wolfenstein: Tides of War",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp83",
+    "igdbId": 77220,
+    "gbId": 3719,
+    "gbGuid": "3030-3719",
+    "tgdbId": null
+  },
+  {
+    "name": "Ricky Ponting International Cricket 2005",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp84",
+    "igdbId": 47360,
+    "gbId": 13430,
+    "gbGuid": "3030-13430",
+    "tgdbId": null
+  },
+  {
+    "name": "Rugby League",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp85",
+    "igdbId": 6021,
+    "gbId": 3491,
+    "gbGuid": "3030-3491",
+    "tgdbId": null
+  },
+  {
+    "name": "Shrek 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp86",
+    "igdbId": 3668,
+    "gbId": 722,
+    "gbGuid": "3030-722",
+    "tgdbId": null
+  },
+  {
+    "name": "Sonic Heroes",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp87",
+    "igdbId": 4156,
+    "gbId": 9523,
+    "gbGuid": "3030-9523",
+    "tgdbId": null
+  },
+  {
+    "name": "Sonic Mega Collection Plus",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp88",
+    "igdbId": 22297,
+    "gbId": 12297,
+    "gbGuid": "3030-12297",
+    "tgdbId": null
+  },
+  {
+    "name": "Spider-Man",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp89",
+    "igdbId": 19114,
+    "gbId": 8322,
+    "gbGuid": "3030-8322",
+    "tgdbId": null
+  },
+  {
+    "name": "Spider-Man 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp90",
+    "igdbId": 6285,
+    "gbId": 1690,
+    "gbGuid": "3030-1690",
+    "tgdbId": null
+  },
+  {
+    "name": "Spyro: A Hero's Tail",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp91",
+    "igdbId": 1580,
+    "gbId": 12209,
+    "gbGuid": "3030-12209",
+    "tgdbId": null
+  },
+  {
+    "name": "SSX 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp92",
+    "igdbId": 4174,
+    "gbId": 17149,
+    "gbGuid": "3030-17149",
+    "tgdbId": null
+  },
+  {
+    "name": "SSX Tricky",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp93",
+    "igdbId": 4176,
+    "gbId": 18782,
+    "gbGuid": "3030-18782",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Battlefront",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp94",
+    "igdbId": 141,
+    "gbId": 15481,
+    "gbGuid": "3030-15481",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Battlefront II",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp95",
+    "igdbId": 142,
+    "gbId": 7094,
+    "gbGuid": "3030-7094",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Episode III - Revenge of the Sith",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp96",
+    "igdbId": 6159,
+    "gbId": 9200,
+    "gbGuid": "3030-9200",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp97",
+    "igdbId": 116,
+    "gbId": 18741,
+    "gbGuid": "3030-18741",
+    "tgdbId": null
+  },
+  {
+    "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp98",
+    "igdbId": 250,
+    "gbId": 11085,
+    "gbGuid": "3030-11085",
+    "tgdbId": null
+  },
+  {
+    "name": "The Elder Scrolls III: Morrowind",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp99",
+    "igdbId": 56,
+    "gbId": 17367,
+    "gbGuid": "3030-17367",
+    "tgdbId": null
+  },
+  {
+    "name": "The Incredibles",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp100",
+    "igdbId": 3782,
+    "gbId": 759,
+    "gbGuid": "3030-759",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp101",
+    "igdbId": 2972,
+    "gbId": 4157,
+    "gbGuid": "3030-4157",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Return of the King",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp102",
+    "igdbId": 2973,
+    "gbId": 17686,
+    "gbGuid": "3030-17686",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Third Age",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp103",
+    "igdbId": 6500,
+    "gbId": 2959,
+    "gbGuid": "3030-2959",
+    "tgdbId": null
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp104",
+    "igdbId": 2965,
+    "gbId": 21334,
+    "gbGuid": "3030-21334",
+    "tgdbId": null
+  },
+  {
+    "name": "The Simpsons: Hit & Run",
+    "details": "Microsoft Xbox Best of Classics (PAL)",
+    "id": "xbcp105",
+    "igdbId": 2844,
+    "gbId": 3157,
+    "gbGuid": "3030-3157",
+    "tgdbId": null
+  },
+  {
+    "name": "The Sims Bustin' Out",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp106",
+    "igdbId": 4151,
+    "gbId": 14043,
+    "gbGuid": "3030-14043",
+    "tgdbId": null
+  },
+  {
+    "name": "The Urbz: Sims in the City",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp107",
+    "igdbId": 2158,
+    "gbId": 1842,
+    "gbGuid": "3030-1842",
+    "tgdbId": null
+  },
+  {
+    "name": "TimeSplitters 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp108",
+    "igdbId": 2143,
+    "gbId": 17246,
+    "gbGuid": "3030-17246",
+    "tgdbId": null
+  },
+  {
+    "name": "TOCA Race Driver 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp109",
+    "igdbId": 6201,
+    "gbId": 531,
+    "gbGuid": "3030-531",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp110",
+    "igdbId": 1294,
+    "gbId": 8732,
+    "gbGuid": "3030-8732",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp111",
+    "igdbId": 1298,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon: Island Thunder",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp112",
+    "igdbId": 1296,
+    "gbId": 8017,
+    "gbGuid": "3030-8017",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp113",
+    "igdbId": 9891,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six 3: Black Arrow",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp114",
+    "igdbId": 47321,
+    "gbId": 17491,
+    "gbGuid": "3030-17491",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Splinter Cell",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp115",
+    "igdbId": 910,
+    "gbId": 5961,
+    "gbGuid": "3030-5961",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's American Wasteland",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp116",
+    "igdbId": 7219,
+    "gbId": 7222,
+    "gbGuid": "3030-7222",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp117",
+    "igdbId": 914,
+    "gbId": 5688,
+    "gbGuid": "3030-5688",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 4",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp118",
+    "igdbId": 915,
+    "gbId": 2101,
+    "gbGuid": "3030-2101",
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Underground",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp119",
+    "igdbId": 2698,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Tony Hawk's Underground 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp120",
+    "igdbId": 2699,
+    "gbId": 1492,
+    "gbGuid": "3030-1492",
+    "tgdbId": null
+  },
+  {
+    "name": "Top Spin",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp121",
+    "igdbId": 5234,
+    "gbId": 19029,
+    "gbGuid": "3030-19029",
+    "tgdbId": null
+  },
+  {
+    "name": "True Crime: New York City",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp122",
+    "igdbId": 4215,
+    "gbId": 3345,
+    "gbGuid": "3030-3345",
+    "tgdbId": null
+  },
+  {
+    "name": "True Crime: Streets of LA",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp123",
+    "igdbId": 4216,
+    "gbId": 11153,
+    "gbGuid": "3030-11153",
+    "tgdbId": null
+  },
+  {
+    "name": "Turok: Evolution",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp124",
+    "igdbId": 1329,
+    "gbId": 3171,
+    "gbGuid": "3030-3171",
+    "tgdbId": null
+  },
+  {
+    "name": "Unreal Championship",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp125",
+    "igdbId": 6220,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "V8 Supercars 2",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp126",
+    "igdbId": 79836,
+    "gbId": 22215,
+    "gbGuid": "3030-22215",
+    "tgdbId": null
+  },
+  {
+    "name": "V8 Supercars Australia 3",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp127",
+    "igdbId": 47364,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Worms 3D",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp128",
+    "igdbId": 1047,
+    "gbId": 522,
+    "gbGuid": "3030-522",
+    "tgdbId": null
+  },
+  {
+    "name": "Wreckless: The Yakuza Missions",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp129",
+    "igdbId": 4568,
+    "gbId": 3563,
+    "gbGuid": "3030-3563",
+    "tgdbId": null
+  },
+  {
+    "name": "WWE WrestleMania 21",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp130",
+    "igdbId": 6251,
+    "gbId": 487,
+    "gbGuid": "3030-487",
+    "tgdbId": null
+  },
+  {
+    "name": "XIII",
+    "details": "Microsoft Xbox Classics (PAL)",
+    "id": "xbcp131",
+    "igdbId": 1987,
+    "gbId": 2955,
+    "gbGuid": "3030-2955",
+    "tgdbId": null
+  }
+]

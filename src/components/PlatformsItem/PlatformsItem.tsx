@@ -15,9 +15,23 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra }) => {
         {platform.logo && <img src={platform.logo} alt={`${platform.name} logo`} />}
       </div>
       <div className='platforms-item-section'>
-        <div className='platforms-item-section--sub'>
+        <div className='platforms-item-section--sub top'>
           <label>Release date</label>
-          <div>{platform.releaseDate?.date}</div>
+          <div>{platform.releaseDate?.date || '??'}</div>
+        </div>
+        <div className='platforms-item-section--sub'>
+          <label>Generation</label>
+          <div>{platform.generation}</div>
+        </div>
+      </div>
+      <div className='platforms-item-section'>
+        <div className='platforms-item-section--sub top'>
+          <label>Date purchased</label>
+          <div>{platform.datePurchased || '??'}</div>
+        </div>
+        <div className='platforms-item-section--sub'>
+          <label>How acquired</label>
+          <div>{platform.howAcquired}</div>
         </div>
       </div>
     </div>

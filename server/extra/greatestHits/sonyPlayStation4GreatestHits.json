@@ -1,0 +1,974 @@
+[
+  {
+    "name": "Assassin's Creed IV: Black Flag",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh1",
+    "igdbId": 1970,
+    "gbId": 41518,
+    "gbGuid": "3030-41518",
+    "tgdbId": null
+  },
+  {
+    "name": "Assassin's Creed: Syndicate - Special Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh2",
+    "igdbId": 135965,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Assassin's Creed: The Ezio Collection",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh3",
+    "igdbId": 23954,
+    "gbId": 55477,
+    "gbGuid": "3030-55477",
+    "tgdbId": null
+  },
+  {
+    "name": "Assassin's Creed: Unity",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh4",
+    "igdbId": 5606,
+    "gbId": 45744,
+    "gbGuid": "3030-45744",
+    "tgdbId": null
+  },
+  {
+    "name": "Batman: Arkham Knight",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh5",
+    "igdbId": null,
+    "gbId": 45577,
+    "gbGuid": "3030-45577",
+    "tgdbId": null
+  },
+  {
+    "name": "Battlefield 1",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh6",
+    "igdbId": 18320,
+    "gbId": 48113,
+    "gbGuid": "3030-48113",
+    "tgdbId": null
+  },
+  {
+    "name": "Battlefield 4",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh7",
+    "igdbId": 1979,
+    "gbId": 39035,
+    "gbGuid": "3030-39035",
+    "tgdbId": null
+  },
+  {
+    "name": "Battlefield Hardline",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh8",
+    "igdbId": 7081,
+    "gbId": 46431,
+    "gbGuid": "3030-46431",
+    "tgdbId": null
+  },
+  {
+    "name": "Bloodborne",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh9",
+    "igdbId": 7334,
+    "gbId": 46569,
+    "gbGuid": "3030-46569",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Bandicoot N. Sane Trilogy",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh10",
+    "igdbId": 26196,
+    "gbId": 57213,
+    "gbGuid": "3030-57213",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Bandicoot 4: It's About Time",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh11",
+    "igdbId": 135254,
+    "gbId": 79157,
+    "gbGuid": "3030-79157",
+    "tgdbId": null
+  },
+  {
+    "name": "Crash Team Racing Nitro-Fueled",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh12",
+    "igdbId": 113113,
+    "gbId": 71298,
+    "gbGuid": "3030-71298",
+    "tgdbId": null
+  },
+  {
+    "name": "The Crew",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh13",
+    "igdbId": 2137,
+    "gbId": 42914,
+    "gbGuid": "3030-42914",
+    "tgdbId": null
+  },
+  {
+    "name": "Death Stranding",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh14",
+    "igdbId": 19564,
+    "gbId": 54232,
+    "gbGuid": "3030-54232",
+    "tgdbId": null
+  },
+  {
+    "name": "Destiny: The Collection",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh15",
+    "igdbId": 22916,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Devil May Cry 4: Special Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh16",
+    "igdbId": 20022,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Disgaea 5: Alliance of Vengeance",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh17",
+    "igdbId": 11594,
+    "gbId": 43256,
+    "gbGuid": "3030-43256",
+    "tgdbId": null
+  },
+  {
+    "name": "DOOM",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh18",
+    "igdbId": 165206,
+    "gbId": 7326,
+    "gbGuid": "3030-7326",
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Age: Inquisition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh19",
+    "igdbId": 1887,
+    "gbId": 35398,
+    "gbGuid": "3030-35398",
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Ball: Xenoverse",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh20",
+    "igdbId": 7408,
+    "gbId": 46319,
+    "gbGuid": "3030-46319",
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Quest Builders",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh21",
+    "igdbId": 24069,
+    "gbId": 50284,
+    "gbGuid": "3030-50284",
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Quest Heroes II",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh22",
+    "igdbId": 26341,
+    "gbId": 49322,
+    "gbGuid": "3030-49322",
+    "tgdbId": null
+  },
+  {
+    "name": "Dragon Quest Heroes: The World Tree's Woe and the Blight Below",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh23",
+    "igdbId": 9214,
+    "gbId": 47726,
+    "gbGuid": "3030-47726",
+    "tgdbId": null
+  },
+  {
+    "name": "Dreams",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh24",
+    "igdbId": 11155,
+    "gbId": 49977,
+    "gbGuid": "3030-49977",
+    "tgdbId": null
+  },
+  {
+    "name": "Driveclub",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh25",
+    "igdbId": 1940,
+    "gbId": 41693,
+    "gbGuid": "3030-41693",
+    "tgdbId": null
+  },
+  {
+    "name": "Dying Light: The Following - Enhanced Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh26",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dynasty Warriors 8: Xtreme Legends Complete Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh27",
+    "igdbId": 21712,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Dynasty Warriors 9",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh28",
+    "igdbId": 26546,
+    "gbId": 57414,
+    "gbGuid": "3030-57414",
+    "tgdbId": null
+  },
+  {
+    "name": "EA Sports UFC 2",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh29",
+    "igdbId": 19918,
+    "gbId": 51541,
+    "gbGuid": "3030-51541",
+    "tgdbId": null
+  },
+  {
+    "name": "EA Sports UFC 3",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh30",
+    "igdbId": 75297,
+    "gbId": 63209,
+    "gbGuid": "3030-63209",
+    "tgdbId": null
+  },
+  {
+    "name": "Earth Defense Force 4.1: The Shadow of New Despair",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh31",
+    "igdbId": 11002,
+    "gbId": 47721,
+    "gbGuid": "3030-47721",
+    "tgdbId": null
+  },
+  {
+    "name": "Everybody's Golf",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh32",
+    "igdbId": 28187,
+    "gbId": 47827,
+    "gbGuid": "3030-47827",
+    "tgdbId": null
+  },
+  {
+    "name": "The Evil Within",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh33",
+    "igdbId": 4786,
+    "gbId": 39750,
+    "gbGuid": "3030-39750",
+    "tgdbId": null
+  },
+  {
+    "name": "F1 2015",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh34",
+    "igdbId": 9272,
+    "gbId": 49277,
+    "gbGuid": "3030-49277",
+    "tgdbId": null
+  },
+  {
+    "name": "Far Cry 4",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh35",
+    "igdbId": 6801,
+    "gbId": 46310,
+    "gbGuid": "3030-46310",
+    "tgdbId": null
+  },
+  {
+    "name": "Far Cry: Primal",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh36",
+    "igdbId": 13182,
+    "gbId": 51102,
+    "gbGuid": "3030-51102",
+    "tgdbId": null
+  },
+  {
+    "name": "Final Fantasy Type-0 HD",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh37",
+    "igdbId": 7399,
+    "gbId": 21848,
+    "gbGuid": "3030-21848",
+    "tgdbId": null
+  },
+  {
+    "name": "Final Fantasy VII Remake",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh38",
+    "igdbId": 11169,
+    "gbId": 49974,
+    "gbGuid": "3030-49974",
+    "tgdbId": null
+  },
+  {
+    "name": "Final Fantasy X/X-2 HD Remaster",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh39",
+    "igdbId": 14144,
+    "gbId": 42013,
+    "gbGuid": "3030-42013",
+    "tgdbId": null
+  },
+  {
+    "name": "Fist of the North Star: Lost Paradise",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh40",
+    "igdbId": 55112,
+    "gbId": 61006,
+    "gbGuid": "3030-61006",
+    "tgdbId": null
+  },
+  {
+    "name": "Friday the 13th: The Game",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh41",
+    "igdbId": 14389,
+    "gbId": 48132,
+    "gbGuid": "3030-48132",
+    "tgdbId": null
+  },
+  {
+    "name": "Valkyria Chronicles Remastered",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh42",
+    "igdbId": 18967,
+    "gbId": 20971,
+    "gbGuid": "3030-20971",
+    "tgdbId": null
+  },
+  {
+    "name": "God of War III: Remastered",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh43",
+    "igdbId": 19959,
+    "gbId": 20461,
+    "gbGuid": "3030-20461",
+    "tgdbId": null
+  },
+  {
+    "name": "God of War",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh44",
+    "igdbId": 19560,
+    "gbId": 54229,
+    "gbGuid": "3030-54229",
+    "tgdbId": null
+  },
+  {
+    "name": "Gran Turismo Sport",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh45",
+    "igdbId": 14363,
+    "gbId": 44517,
+    "gbGuid": "3030-44517",
+    "tgdbId": null
+  },
+  {
+    "name": "Gravity Rush 2",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh46",
+    "igdbId": 12528,
+    "gbId": 43972,
+    "gbGuid": "3030-43972",
+    "tgdbId": null
+  },
+  {
+    "name": "Gravity Rush Remastered",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh47",
+    "igdbId": 12529,
+    "gbId": 35617,
+    "gbGuid": "3030-35617",
+    "tgdbId": null
+  },
+  {
+    "name": "Horizon Zero Dawn: Complete Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh48",
+    "igdbId": 72870,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "inFAMOUS: First Light",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh49",
+    "igdbId": 7328,
+    "gbId": 46568,
+    "gbGuid": "3030-46568",
+    "tgdbId": null
+  },
+  {
+    "name": "inFAMOUS: Second Son",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh50",
+    "igdbId": 1941,
+    "gbId": 41695,
+    "gbGuid": "3030-41695",
+    "tgdbId": null
+  },
+  {
+    "name": "Injustice: Gods Among Us - Ultimate Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh51",
+    "igdbId": 23354,
+    "gbId": 38480,
+    "gbGuid": "3030-38480",
+    "tgdbId": null
+  },
+  {
+    "name": "Injustice 2",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh52",
+    "igdbId": 19470,
+    "gbId": 54144,
+    "gbGuid": "3030-54144",
+    "tgdbId": null
+  },
+  {
+    "name": "Just Dance 2014",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh53",
+    "igdbId": 3256,
+    "gbId": 42907,
+    "gbGuid": "3030-42907",
+    "tgdbId": null
+  },
+  {
+    "name": "Just Dance 2015",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh54",
+    "igdbId": 15559,
+    "gbId": 46561,
+    "gbGuid": "3030-46561",
+    "tgdbId": null
+  },
+  {
+    "name": "Just Dance 2016",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh55",
+    "igdbId": 11206,
+    "gbId": 49970,
+    "gbGuid": "3030-49970",
+    "tgdbId": null
+  },
+  {
+    "name": "Just Dance 2017",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh56",
+    "igdbId": 19550,
+    "gbId": 54221,
+    "gbGuid": "3030-54221",
+    "tgdbId": null
+  },
+  {
+    "name": "Killzone: Shadow Fall",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh57",
+    "igdbId": 1937,
+    "gbId": 41690,
+    "gbGuid": "3030-41690",
+    "tgdbId": null
+  },
+  {
+    "name": "Knack",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh58",
+    "igdbId": 2957,
+    "gbId": 41687,
+    "gbGuid": "3030-41687",
+    "tgdbId": null
+  },
+  {
+    "name": "Knack II",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh59",
+    "igdbId": 26194,
+    "gbId": 57214,
+    "gbGuid": "3030-57214",
+    "tgdbId": null
+  },
+  {
+    "name": "The Last Guardian",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh60",
+    "igdbId": 117,
+    "gbId": 26513,
+    "gbGuid": "3030-26513",
+    "tgdbId": null
+  },
+  {
+    "name": "The Last of Us Remastered",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh61",
+    "igdbId": 6036,
+    "gbId": 36989,
+    "gbGuid": "3030-36989",
+    "tgdbId": null
+  },
+  {
+    "name": "LEGO Jurassic World",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh62",
+    "igdbId": 9918,
+    "gbId": 48682,
+    "gbGuid": "3030-48682",
+    "tgdbId": null
+  },
+  {
+    "name": "LEGO Marvel Super Heroes",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh63",
+    "igdbId": 2050,
+    "gbId": 41090,
+    "gbGuid": "3030-41090",
+    "tgdbId": null
+  },
+  {
+    "name": "LEGO Worlds",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh64",
+    "igdbId": 10910,
+    "gbId": 49820,
+    "gbGuid": "3030-49820",
+    "tgdbId": null
+  },
+  {
+    "name": "LittleBigPlanet 3",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh65",
+    "igdbId": 7330,
+    "gbId": 46567,
+    "gbGuid": "3030-46567",
+    "tgdbId": null
+  },
+  {
+    "name": "Metal Gear Solid V: The Definitive Experience",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh66",
+    "igdbId": 25637,
+    "gbId": 67741,
+    "gbGuid": "3030-67741",
+    "tgdbId": null
+  },
+  {
+    "name": "Middle-earth: Shadow of Mordor - Game of the Year Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh67",
+    "igdbId": 25773,
+    "gbId": 44484,
+    "gbGuid": "3030-44484",
+    "tgdbId": null
+  },
+  {
+    "name": "Monster Hunter: World",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh68",
+    "igdbId": 36926,
+    "gbId": 59924,
+    "gbGuid": "3030-59924",
+    "tgdbId": null
+  },
+  {
+    "name": "Mortal Kombat X",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh69",
+    "igdbId": 7292,
+    "gbId": 46447,
+    "gbGuid": "3030-46447",
+    "tgdbId": null
+  },
+  {
+    "name": "Naruto Shippuden: Ultimate Ninja Storm 4",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh70",
+    "igdbId": 11059,
+    "gbId": 48358,
+    "gbGuid": "3030-48358",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh71",
+    "igdbId": 10965,
+    "gbId": 49598,
+    "gbGuid": "3030-49598",
+    "tgdbId": null
+  },
+  {
+    "name": "Need For Speed: Payback",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh72",
+    "igdbId": 36662,
+    "gbId": 53691,
+    "gbGuid": "3030-53691",
+    "tgdbId": null
+  },
+  {
+    "name": "Need for Speed Rivals",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh73",
+    "igdbId": 2074,
+    "gbId": 42584,
+    "gbGuid": "3030-42584",
+    "tgdbId": null
+  },
+  {
+    "name": "Nioh",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh74",
+    "igdbId": 12571,
+    "gbId": 27578,
+    "gbGuid": "3030-27578",
+    "tgdbId": null
+  },
+  {
+    "name": "One Piece: Pirate Warriors 3",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh75",
+    "igdbId": 6804,
+    "gbId": 47651,
+    "gbGuid": "3030-47651",
+    "tgdbId": null
+  },
+  {
+    "name": "The Order: 1886",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh76",
+    "igdbId": 3048,
+    "gbId": 42922,
+    "gbGuid": "3030-42922",
+    "tgdbId": null
+  },
+  {
+    "name": "Persona 5",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh77",
+    "igdbId": 9927,
+    "gbId": 30486,
+    "gbGuid": "3030-30486",
+    "tgdbId": null
+  },
+  {
+    "name": "Plants vs. Zombies: Garden Warfare 2",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh78",
+    "igdbId": 11148,
+    "gbId": 50020,
+    "gbGuid": "3030-50020",
+    "tgdbId": null
+  },
+  {
+    "name": "Project CARS",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh79",
+    "igdbId": 5319,
+    "gbId": 36993,
+    "gbGuid": "3030-36993",
+    "tgdbId": null
+  },
+  {
+    "name": "Ratchet & Clank",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh80",
+    "igdbId": 11065,
+    "gbId": 18309,
+    "gbGuid": "3030-18309",
+    "tgdbId": null
+  },
+  {
+    "name": "Rayman Legends",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh81",
+    "igdbId": 1968,
+    "gbId": 38141,
+    "gbGuid": "3030-38141",
+    "tgdbId": null
+  },
+  {
+    "name": "Resident Evil 6",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh82",
+    "igdbId": 1082,
+    "gbId": 37273,
+    "gbGuid": "3030-37273",
+    "tgdbId": null
+  },
+  {
+    "name": "Resident Evil 7 biohazard",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh83",
+    "igdbId": 19562,
+    "gbId": 54231,
+    "gbGuid": "3030-54231",
+    "tgdbId": null
+  },
+  {
+    "name": "Sengoku Basara 4 Sumeragi",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh84",
+    "igdbId": 42976,
+    "gbId": 48619,
+    "gbGuid": "3030-48619",
+    "tgdbId": null
+  },
+  {
+    "name": "Sleeping Dogs: Definitive Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh85",
+    "igdbId": 20228,
+    "gbId": 29441,
+    "gbGuid": "3030-29441",
+    "tgdbId": null
+  },
+  {
+    "name": "Marvel's Spider-Man",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh86",
+    "igdbId": 19565,
+    "gbId": 54233,
+    "gbGuid": "3030-54233",
+    "tgdbId": null
+  },
+  {
+    "name": "Spyro Reignited Trilogy",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh87",
+    "igdbId": 87683,
+    "gbId": 67871,
+    "gbGuid": "3030-67871",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars Battlefront",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh88",
+    "igdbId": 2113,
+    "gbId": 42912,
+    "gbGuid": "3030-42912",
+    "tgdbId": null
+  },
+  {
+    "name": "Star Wars Battlefront II",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh89",
+    "igdbId": 26401,
+    "gbId": 53692,
+    "gbGuid": "3030-53692",
+    "tgdbId": null
+  },
+  {
+    "name": "Street Fighter V",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh90",
+    "igdbId": 8258,
+    "gbId": 48320,
+    "gbGuid": "3030-48320",
+    "tgdbId": null
+  },
+  {
+    "name": "Tales of Berseria",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh91",
+    "igdbId": 18812,
+    "gbId": 49874,
+    "gbGuid": "3030-49874",
+    "tgdbId": null
+  },
+  {
+    "name": "Tearaway: Unfolded",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh92",
+    "igdbId": 7606,
+    "gbId": 47361,
+    "gbGuid": "3030-47361",
+    "tgdbId": null
+  },
+  {
+    "name": "Terraria",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh93",
+    "igdbId": 1879,
+    "gbId": 34940,
+    "gbGuid": "3030-34940",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six Siege",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh94",
+    "igdbId": 7360,
+    "gbId": 46562,
+    "gbGuid": "3030-46562",
+    "tgdbId": null
+  },
+  {
+    "name": "Tom Clancy's The Division",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh95",
+    "igdbId": 2114,
+    "gbId": 42918,
+    "gbGuid": "3030-42918",
+    "tgdbId": null
+  },
+  {
+    "name": "Tomb Raider: Definitive Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh96",
+    "igdbId": 19965,
+    "gbId": 27312,
+    "gbGuid": "3030-27312",
+    "tgdbId": null
+  },
+  {
+    "name": "Uncharted: The Nathan Drake Collection",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh97",
+    "igdbId": 10962,
+    "gbId": 49843,
+    "gbGuid": "3030-49843",
+    "tgdbId": null
+  },
+  {
+    "name": "Uncharted 4: A Thief's End",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh98",
+    "igdbId": 7331,
+    "gbId": 44507,
+    "gbGuid": "3030-44507",
+    "tgdbId": null
+  },
+  {
+    "name": "Uncharted: The Lost Legacy",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh99",
+    "igdbId": 26193,
+    "gbId": 57210,
+    "gbGuid": "3030-57210",
+    "tgdbId": null
+  },
+  {
+    "name": "Until Dawn",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh100",
+    "igdbId": 7609,
+    "gbId": 39358,
+    "gbGuid": "3030-39358",
+    "tgdbId": null
+  },
+  {
+    "name": "Watch_Dogs",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh101",
+    "igdbId": 1121,
+    "gbId": 38538,
+    "gbGuid": "3030-38538",
+    "tgdbId": null
+  },
+  {
+    "name": "Watch Dogs: Complete Edition",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh102",
+    "igdbId": 42951,
+    "gbId": 38538,
+    "gbGuid": "3030-38538",
+    "tgdbId": null
+  },
+  {
+    "name": "World Soccer Winning Eleven 2015",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh103",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": " World Soccer Winning Eleven 2017",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh104",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Yakuza 0",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh105",
+    "igdbId": 11397,
+    "gbId": 47551,
+    "gbGuid": "3030-47551",
+    "tgdbId": null
+  },
+  {
+    "name": "Yakuza Kiwami",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh106",
+    "igdbId": 12595,
+    "gbId": 50873,
+    "gbGuid": "3030-50873",
+    "tgdbId": null
+  },
+  {
+    "name": "Yakuza Kiwami 2",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh107",
+    "igdbId": 55090,
+    "gbId": 60980,
+    "gbGuid": "3030-60980",
+    "tgdbId": null
+  },
+  {
+    "name": "Yakuza 6: The Song of Life",
+    "details": "Sony PlayStation 4 Greatest Hits",
+    "id": "ps4gh108",
+    "igdbId": 12527,
+    "gbId": 50874,
+    "gbGuid": "3030-50874",
+    "tgdbId": null
+  }
+]

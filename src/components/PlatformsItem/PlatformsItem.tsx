@@ -8,9 +8,10 @@ interface PlatformsItemProps {
   pgame?: PgameData;
 }
 
-const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra }) => {
+const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame }) => {
   console.log('platform', platform);
   console.log('extra', extra);
+  console.log('pgame', pgame);
   return (
     <div className='platforms-item-wrapper'>
       <div className='platforms-item-section'>

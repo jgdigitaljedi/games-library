@@ -169,6 +169,8 @@ export interface PlatExtraData {
 
 export interface PgameData {
   total: number;
+  totalPaid: number;
+  totalValue: number;
   highestPaid: {
     id: number;
     name: string;

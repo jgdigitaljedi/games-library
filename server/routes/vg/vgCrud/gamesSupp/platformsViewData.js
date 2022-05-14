@@ -1,4 +1,5 @@
 const db = require('../../../../db');
+const pmAdd = require('stringman-utils').precisionMathAdd;
 
 function getId(game) {
   const id = game?.consoleId;
@@ -20,6 +21,8 @@ module.exports.getPlatformGamesStats = function () {
         if (!acc[id]) {
           acc[id] = {
             total: 1,
+            totalPaid: parseFloat(game.pricePaid) || 0,
+            totalValue: parseFloat(game.priceCharting?.price) || 0,
             highestPaid: {
               id: game.id,
               name: game.name,
@@ -33,6 +36,8 @@ module.exports.getPlatformGamesStats = function () {
           };
         } else {
           acc[id].total++;
+          acc[id].totalPaid = pmAdd(acc[id].totalPaid, game.pricePaid || 0);
+          acc[id].totalValue = pmAdd(acc[id].totalValue, game.priceCharting?.price || 0);
           if (game.pricePaid && parseFloat(game.pricePaid) > acc[id].highestPaid.pricePaid) {
             acc[id].highestPaid = {
               id: game.id,

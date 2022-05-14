@@ -166,3 +166,21 @@ export interface PlatExtraData {
   owned: number;
   total: number;
 }
+
+export interface PgameData {
+  total: number;
+  highestPaid: {
+    id: number;
+    name: string;
+    pricePaid: number;
+  };
+  highestValue: {
+    id: number;
+    name: string;
+    value: number;
+  };
+}
+
+export interface PgameReturn {
+  [key: string]: PgameData;
+}

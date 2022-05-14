@@ -306,3 +306,16 @@ export const getPlatformExtras = async (): Promise<
     };
   }
 };
+
+export const getPlatformGameData = async () => {
+  try {
+    const request = await Axios.get(`${window.urlPrefix}/api/vg/pgames`);
+    console.log('werwer', request);
+    return request.data;
+  } catch (error) {
+    return {
+      error: true,
+      message: 'There was a problem fetching extra platform games data.'
+    };
+  }
+};

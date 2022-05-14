@@ -12,6 +12,7 @@ const homePageExtra = require('./vgCrud/gamesSupp/homeViewExtraLists');
 const gameStats = require('../../extra/gameStats.json');
 const combined = require('./vgCrud/gamesSupp/combineGames');
 const sortBy = require('lodash/sortBy');
+const platformViewData = require('./vgCrud/gamesSupp/platformsViewData');
 
 /***********************************************************
  * Games CRUD
@@ -101,6 +102,14 @@ module.exports.collectionExtra = async function (req, res) {
 module.exports.gameStats = function (req, res) {
   try {
     res.status(200).json(gameStats);
+  } catch (error) {
+    res.status(503).send(error);
+  }
+};
+
+module.exports.platformGamesStats = function (req, res) {
+  try {
+    res.json(platformViewData.getPlatformGamesStats());
   } catch (error) {
     res.status(503).send(error);
   }

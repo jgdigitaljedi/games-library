@@ -82,6 +82,7 @@ router.get('/everdrivescount', vgDbCtrl.everdrivesTotal);
 router.get('/stats', vgDbCtrl.collectionStats);
 router.get('/extra', vgDbCtrl.collectionExtra);
 router.get('/gamestats', vgDbCtrl.gameStats);
+router.get('/pgames', vgDbCtrl.platformGamesStats);
 
 // DB Platform/Console CRUD
 router.get('/consoles', vgDbCtrl.getMyPlatforms);

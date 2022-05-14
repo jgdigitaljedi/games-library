@@ -2,14 +2,19 @@ import { RouteComponentProps } from '@reach/router';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import PlatformsItem from './components/PlatformsItem/PlatformsItem';
 import { NotificationContext } from './context/NotificationContext';
-import { IConsole } from './models/platforms.model';
-import { getPlatforms, getPlatformExtras } from './services/platformsCrud.service';
+import { IConsole, PgameReturn } from './models/platforms.model';
+import {
+  getPlatforms,
+  getPlatformExtras,
+  getPlatformGameData
+} from './services/platformsCrud.service';
 import { uniqBy as _uniqBy } from 'lodash';
 
 const Platforms: React.FC<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
   const [consolesData, setConsolesData] = useState<IConsole[]>([]);
   const [consolesExtras, setConsolesExtras] = useState<any[]>([]);
+  const [pgameData, setPgameDdata] = useState<PgameReturn>({});
 
   const getPlatformsArr = useCallback(async (): Promise<void> => {
     const platformsArr = await getPlatforms();
@@ -39,10 +44,25 @@ const Platforms: React.FC<RouteComponentProps> = () => {
     }
   }, [setNotify]);
 
+  const getPgameData = useCallback(async (): Promise<void> => {
+    const pgameData = await getPlatformGameData();
+    if (pgameData.error) {
+      setNotify({
+        severity: 'error',
+        detail: 'Failed to fetch platform games data!',
+        summary: 'ERROR'
+      });
+      console.error(pgameData.error);
+    } else {
+      setPgameDdata(pgameData);
+    }
+  }, [setNotify]);
+
   useEffect(() => {
     getPlatformsArr();
     getExtrasData();
-  }, [getPlatformsArr, getExtrasData]);
+    getPgameData();
+  }, [getPlatformsArr, getExtrasData, getPgameData]);
 
   return (
     <div className='platforms-wrapper'>
@@ -54,7 +74,9 @@ const Platforms: React.FC<RouteComponentProps> = () => {
             return <></>;
           }
           const conEx = consolesExtras.filter(ce => ce.platformId === con.id);
-          return <PlatformsItem platform={con} extra={conEx} />;
+          // @ts-ignore
+          const thisPgame = pgameData[con.id?.toString()];
+          return <PlatformsItem platform={con} extra={conEx} pgame={thisPgame} />;
         })}
     </div>
   );

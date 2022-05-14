@@ -1,13 +1,16 @@
-import { IConsole, PlatExtraData } from '@/models/platforms.model';
+import { IConsole, PgameData, PlatExtraData } from '@/models/platforms.model';
 import React from 'react';
 import './PlatformsItem.scss';
 
 interface PlatformsItemProps {
   platform: IConsole;
   extra: PlatExtraData[];
+  pgame?: PgameData;
 }
 
 const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra }) => {
+  console.log('platform', platform);
+  console.log('extra', extra);
   return (
     <div className='platforms-item-wrapper'>
       <div className='platforms-item-section'>

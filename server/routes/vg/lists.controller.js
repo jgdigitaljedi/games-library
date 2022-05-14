@@ -2,7 +2,6 @@ const _sortBy = require('lodash/sortBy');
 const combined = require('./vgCrud/gamesSupp/combineGames').combine;
 
 function greatestHitsOnly(ed) {
-  console.log('ed', ed);
   return (
     ed.filter(
       g =>

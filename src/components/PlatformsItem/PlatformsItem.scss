@@ -1,19 +1,38 @@
 @import '../../style/theme.scss';
+@import '../../style/mixins/index.scss';
 
 .platforms-item-wrapper {
   color: $white;
   border-radius: 1rem;
   background-color: $accent;
   padding: $gutter;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
   .platforms-item-section {
     margin-right: 1rem;
+    &.name-logo {
+      border-right: 1px solid $white;
+    }
     img {
       width: 10rem;
       max-height: 100%;
+    }
+    &.bg {
+      border-radius: 1rem;
+      height: 100%;
+      padding: .5rem;
+      @include box_shadow(2);
+      &--sub label,&--sub div {
+        justify-self: center;
+      }
+    }
+    &.games {
+      background-color: darken($accent, 5%); 
+    }
+    &.prices {
+      background-color: darken($accent, 10%);
     }
     &--sub {
       display: flex;
@@ -25,6 +44,7 @@
         font-weight: bold;
         color: $light-orange;
       }
+      
     }
   }
 }

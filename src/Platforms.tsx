@@ -9,6 +9,7 @@ import {
   getPlatformGameData
 } from './services/platformsCrud.service';
 import { uniqBy as _uniqBy } from 'lodash';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const Platforms: React.FC<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
@@ -66,7 +67,6 @@ const Platforms: React.FC<RouteComponentProps> = () => {
 
   return (
     <div className='platforms-wrapper'>
-      <h3>Platforms</h3>
       {consolesData?.length > 0 &&
         consolesExtras?.length > 0 &&
         consolesData.map((con: IConsole) => {
@@ -78,6 +78,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
           const thisPgame = pgameData[con.id?.toString()];
           return <PlatformsItem platform={con} extra={conEx} pgame={thisPgame} />;
         })}
+      <ScrollToTop position='right' />
     </div>
   );
 };

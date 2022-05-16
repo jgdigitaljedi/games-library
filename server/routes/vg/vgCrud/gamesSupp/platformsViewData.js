@@ -35,9 +35,11 @@ module.exports.getPlatformGamesStats = function () {
             }
           };
         } else {
+          const paid = acc[id].totalPaid;
+          const value = acc[id].totalValue;
           acc[id].total++;
-          acc[id].totalPaid = pmAdd(acc[id].totalPaid, game.pricePaid || 0);
-          acc[id].totalValue = pmAdd(acc[id].totalValue, game.priceCharting?.price || 0);
+          acc[id].totalPaid = pmAdd(paid, game.pricePaid || 0);
+          acc[id].totalValue = pmAdd(value, game.priceCharting?.price || 0);
           if (game.pricePaid && parseFloat(game.pricePaid) > acc[id].highestPaid.pricePaid) {
             acc[id].highestPaid = {
               id: game.id,

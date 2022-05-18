@@ -187,6 +187,51 @@ const nvbExIds = require('../../../../extra/exclusives/virtualBoyExclusives.json
   g => g.igdbId
 );
 
+// hits
+const threedss = require('../../../../extra/greatestHits/3dsNintendoSelects.json').map(
+  g => g.igdbId
+);
+const dcNaAs = require('../../../../extra/greatestHits/dreamcastNAAllStars.json').map(
+  g => g.igdbId
+);
+const gbcns = require('../../../../extra/greatestHits/gameBoyColorNintendoSelects.json').map(
+  g => g.igdbId
+);
+const gbpc = require('../../../../extra/greatestHits/gameboyPlayersChoice.json').map(g => g.igdbId);
+const gcpc = require('../../../../extra/greatestHits/gamecubePlayersChoice.json').map(
+  g => g.igdbId
+);
+const gbapc = require('../../../../extra/greatestHits/gbaPlayersChoice.json').map(g => g.igdbId);
+const n64pc = require('../../../../extra/greatestHits/nintendo64PlayersChoice.json').map(
+  g => g.igdbId
+);
+const snespc = require('../../../../extra/greatestHits/snesPlayersChoice.json').map(g => g.igdbId);
+const ps2gh = require('../../../../extra/greatestHits/sonyPlayStation2GreatestHits.json').map(
+  g => g.igdbId
+);
+const ps3gh = require('../../../../extra/greatestHits/sonyPlayStation3GreatestHits.json').map(
+  g => g.igdbId
+);
+const ps4gh = require('../../../../extra/greatestHits/sonyPlayStation4GreatestHits.json').map(
+  g => g.igdbId
+);
+const psgh = require('../../../../extra/greatestHits/sonyPlayStationGreatestHits.json').map(
+  g => g.igdbId
+);
+const pspgh =
+  require('../../../../extra/greatestHits/sonyPlayStationPortableGreatestHits.json').map(
+    g => g.igdbId
+  );
+const wns = require('../../../../extra/greatestHits/wiiNintendoSelects.json').map(g => g.igdbId);
+const wuns = require('../../../../extra/greatestHits/wiiUNintendoSelects.json').map(g => g.igdbId);
+const x360ph = require('../../../../extra/greatestHits/xbox360PlatinumHits.json').map(
+  g => g.igdbId
+);
+const xbonegh = require('../../../../extra/greatestHits/xboxOneGreatestHits.json').map(
+  g => g.igdbId
+);
+const xph = require('../../../../extra/greatestHits/xboxPlatinumHits.json').map(g => g.igdbId);
+
 const games = db.games.find();
 const launchOwned = {
   a2600Lt: [],
@@ -264,43 +309,309 @@ const exOwned = {
   nvbEx: []
 };
 
+const hitsOwned = {
+  snesHits: [],
+  n64Hits: [],
+  gcHits: [],
+  wiiHits: [],
+  wiiUHits: [],
+  threeDsHits: [],
+  gbaHits: [],
+  xbHits: [],
+  xb360Hits: [],
+  xb1Hits: [],
+  psHits: [],
+  ps2Hits: [],
+  ps3Hits: [],
+  ps4Hits: [],
+  pspHits: [],
+  gbHits: [],
+  gbcHits: [],
+  dcHits: []
+};
+
 const igdbIdToFiles = {
-  18: { launch: nesLtIds, exclusives: nesExIds, launchList: 'nesLt', exList: 'nesEx' }, //nes,
-  19: { launch: snesLtIds, exclusives: snesExIds, launchList: 'snesLt', exList: 'snesEx' }, //snes,
-  4: { launch: n64LtIds, exclusives: n64ExIds, launchList: 'n64Lt', exList: 'n64Ex' }, //n64,
-  21: { launch: gcLtIds, exclusives: gcExIds, launchList: 'gcLt', exList: 'gcEx' }, //gc,
-  130: { launch: switchLtIds, exclusives: switchExIds, launchList: 'switchLt', exList: 'switchEx' }, // Nintendo Switch
-  5: { launch: wiiLtIds, exclusives: wiiExIds, launchList: 'wiiLt', exList: 'wiiEx' }, //wii,
-  41: { launch: wiiULtIds, exclusives: wiiUExIds, launchList: 'wiiULt', exList: 'wiiUEx' }, //wiiU,
-  37: { launch: n3dsLtIds, exclusives: n3dsExIds, launchList: 'n3dsLt', exList: 'n3dsEx' }, // Nintendo 3DS
-  24: { launch: gbaLtIds, exclusives: gbaExIds, launchList: 'gbaLt', exList: 'gbaEx' }, // gba,
-  29: { launch: genLtIds, exclusives: genExIds, launchList: 'genLt', exList: 'genEx' }, //gen,
-  30: { launch: s32xLtIds, exclusives: s32xExIds, launchList: 's32xLt', exList: 's32xEx' }, //s32x,
-  23: { launch: dcLtIds, exclusives: dcExIds, launchList: 'dcLt', exList: 'dcEx' }, //sDc,
-  32: { launch: ssLtIds, exclusives: ssExIds, launchList: 'ssLt', exList: 'ssEx' }, //sat,
-  11: { launch: ogxbLtIds, exclusives: ogxbExIds, launchList: 'ogxbLt', exList: 'ogxbEx' }, //xbox,
-  12: { launch: xb360LtIds, exclusives: xb360ExIds, launchList: 'xb360Lt', exList: 'xb360Ex' }, //xb360,
-  49: { launch: xboneLtIds, exclusives: xboneExIds, launchList: 'xboneLt', exList: 'xboneEx' }, //xbOne,
-  7: { launch: ps1LtIds, exclusives: ps1ExIds, launchList: 'ps1Lt', exList: 'ps1Ex' }, //ps1,
-  8: { launch: ps2LtIds, exclusives: ps2ExIds, launchList: 'ps2Lt', exList: 'ps2Ex' }, //ps2,
-  9: { launch: ps3LtIds, exclusives: ps3ExIds, launchList: 'ps3Lt', exList: 'ps3Ex' }, // PS3
-  48: { launch: ps4LtIds, exclusives: ps4ExIds, launchList: 'ps4Lt', exList: 'ps4Ex' }, // ps4
-  38: { launch: pspLtIds, exclusives: pspExIds, launchList: 'pspLt', exList: 'pspEx' }, //psp,
-  20: { launch: dsLtIds, exclusives: dsExIds, launchList: 'dsLt', exList: 'dsEx' }, //ds,
-  33: { launch: gbLtIds, exclusives: gbExIds, launchList: 'gbLt', exList: 'gbEx' }, //gb,
-  22: { launch: gbcLtIds, exclusives: gbcExIds, launchList: 'gbcLt', exList: 'gbcEx' }, //gbc,
-  50: { launch: r3doLtIds, exclusives: r3doExIds, launchList: 'r3doLt', exList: 'r3doEx' }, // 3DO
-  78: { launch: scdLtIds, exclusives: scdExIds, launchList: 'scdLt', exList: 'scdEx' }, //scd,
-  35: { launch: ggLtIds, exclusives: ggExIds, launchList: 'ggLt', exList: 'ggEx' }, //sGg,
-  86: { launch: tgLtIds, exclusives: tgExIds, launchList: 'tgLt', tgEx: 'tgEx' }, //tg16,
-  59: { launch: atari2600Lt, exclusives: atari2600Ex, launchList: 'a2600Lt', exList: 'a2600Ex' },
-  66: { launch: atari5200Lt, exclusives: atari5200Ex, launchList: 'a5200Lt', exList: 'a5200Ex' },
-  60: { launch: atari7800Lt, exclusives: atari7800Ex, launchList: 'a7800Lt', exList: 'a7800Ex' },
-  64: { launch: smsLtIds, exclusives: smsExIds, launchList: 'smsLt', exList: 'smsEx' }, //sms,
-  67: { launch: mivLtIds, exclusives: mivExIds, launchList: 'mivLt', exList: 'mivEx' }, //miv,
-  62: { launch: atariJagLt, exclusives: atariJagEx, launchList: 'jagLt', exList: 'aJagEx' },
-  87: { launch: nvbLtIds, exclusives: nvbExIds, launchList: 'nvbLt', exList: 'nvbEx' }, //nvb
-  6: { launch: [], exclusives: [] } //pc
+  18: {
+    launch: nesLtIds,
+    exclusives: nesExIds,
+    hits: [],
+    launchList: 'nesLt',
+    exList: 'nesEx',
+    hitList: null
+  }, //nes,
+  19: {
+    launch: snesLtIds,
+    exclusives: snesExIds,
+    hits: snespc,
+    launchList: 'snesLt',
+    exList: 'snesEx',
+    hitList: 'snesHits'
+  }, //snes,
+  4: {
+    launch: n64LtIds,
+    exclusives: n64ExIds,
+    hits: n64pc,
+    launchList: 'n64Lt',
+    exList: 'n64Ex',
+    hitList: 'n64Hits'
+  }, //n64,
+  21: {
+    launch: gcLtIds,
+    exclusives: gcExIds,
+    hits: gcpc,
+    launchList: 'gcLt',
+    exList: 'gcEx',
+    hitList: 'gcHits'
+  }, //gc,
+  130: {
+    launch: switchLtIds,
+    exclusives: switchExIds,
+    hits: [],
+    launchList: 'switchLt',
+    exList: 'switchEx',
+    hitList: null
+  }, // Nintendo Switch
+  5: {
+    launch: wiiLtIds,
+    exclusives: wiiExIds,
+    hits: wns,
+    launchList: 'wiiLt',
+    exList: 'wiiEx',
+    hitList: 'wiiHits'
+  }, //wii,
+  41: {
+    launch: wiiULtIds,
+    exclusives: wiiUExIds,
+    hits: wuns,
+    launchList: 'wiiULt',
+    exList: 'wiiUEx',
+    hitList: 'wiiUHits'
+  }, //wiiU,
+  37: {
+    launch: n3dsLtIds,
+    exclusives: n3dsExIds,
+    hits: threedss,
+    launchList: 'n3dsLt',
+    exList: 'n3dsEx',
+    hitList: 'threeDsHits'
+  }, // Nintendo 3DS
+  24: {
+    launch: gbaLtIds,
+    exclusives: gbaExIds,
+    hits: gbapc,
+    launchList: 'gbaLt',
+    exList: 'gbaEx',
+    hitList: 'gbaHits'
+  }, // gba,
+  29: {
+    launch: genLtIds,
+    exclusives: genExIds,
+    hits: [],
+    launchList: 'genLt',
+    exList: 'genEx',
+    hitList: null
+  }, //gen,
+  30: {
+    launch: s32xLtIds,
+    exclusives: s32xExIds,
+    hits: [],
+    launchList: 's32xLt',
+    exList: 's32xEx',
+    hitList: null
+  }, //s32x,
+  23: {
+    launch: dcLtIds,
+    exclusives: dcExIds,
+    hits: dcNaAs,
+    launchList: 'dcLt',
+    exList: 'dcEx',
+    hitList: 'dcHits'
+  }, //sDc,
+  32: {
+    launch: ssLtIds,
+    exclusives: ssExIds,
+    hits: [],
+    launchList: 'ssLt',
+    exList: 'ssEx',
+    hitList: null
+  }, //sat,
+  11: {
+    launch: ogxbLtIds,
+    exclusives: ogxbExIds,
+    hits: xph,
+    launchList: 'ogxbLt',
+    exList: 'ogxbEx',
+    hitList: 'xbHits'
+  }, //xbox,
+  12: {
+    launch: xb360LtIds,
+    exclusives: xb360ExIds,
+    hits: x360ph,
+    launchList: 'xb360Lt',
+    exList: 'xb360Ex',
+    hitList: 'xb360Hits'
+  }, //xb360,
+  49: {
+    launch: xboneLtIds,
+    exclusives: xboneExIds,
+    hits: xbonegh,
+    launchList: 'xboneLt',
+    exList: 'xboneEx',
+    hitList: 'xb1Hits'
+  }, //xbOne,
+  7: {
+    launch: ps1LtIds,
+    exclusives: ps1ExIds,
+    hits: psgh,
+    launchList: 'ps1Lt',
+    exList: 'ps1Ex',
+    hitList: 'psHits'
+  }, //ps1,
+  8: {
+    launch: ps2LtIds,
+    exclusives: ps2ExIds,
+    hits: ps2gh,
+    launchList: 'ps2Lt',
+    exList: 'ps2Ex',
+    hitList: 'ps2Hits'
+  }, //ps2,
+  9: {
+    launch: ps3LtIds,
+    exclusives: ps3ExIds,
+    hits: ps3gh,
+    launchList: 'ps3Lt',
+    exList: 'ps3Ex',
+    hitList: 'ps3Hits'
+  }, // PS3
+  48: {
+    launch: ps4LtIds,
+    exclusives: ps4ExIds,
+    hits: ps4gh,
+    launchList: 'ps4Lt',
+    exList: 'ps4Ex',
+    hitList: 'ps4Hits'
+  }, // ps4
+  38: {
+    launch: pspLtIds,
+    exclusives: pspExIds,
+    hits: pspgh,
+    launchList: 'pspLt',
+    exList: 'pspEx',
+    hitList: 'pspHits'
+  }, //psp,
+  20: {
+    launch: dsLtIds,
+    exclusives: dsExIds,
+    hits: [],
+    launchList: 'dsLt',
+    exList: 'dsEx',
+    hitList: null
+  }, //ds,
+  33: {
+    launch: gbLtIds,
+    exclusives: gbExIds,
+    hits: gbpc,
+    launchList: 'gbLt',
+    exList: 'gbEx',
+    hitList: 'gbHits'
+  }, //gb,
+  22: {
+    launch: gbcLtIds,
+    exclusives: gbcExIds,
+    hits: gbcns,
+    launchList: 'gbcLt',
+    exList: 'gbcEx',
+    hitList: 'gbcHits'
+  }, //gbc,
+  50: {
+    launch: r3doLtIds,
+    exclusives: r3doExIds,
+    hits: [],
+    launchList: 'r3doLt',
+    exList: 'r3doEx',
+    hitList: null
+  }, // 3DO
+  78: {
+    launch: scdLtIds,
+    exclusives: scdExIds,
+    hits: [],
+    launchList: 'scdLt',
+    exList: 'scdEx',
+    hitList: null
+  }, //scd,
+  35: {
+    launch: ggLtIds,
+    exclusives: ggExIds,
+    hits: [],
+    launchList: 'ggLt',
+    exList: 'ggEx',
+    hitList: null
+  }, //sGg,
+  86: {
+    launch: tgLtIds,
+    exclusives: tgExIds,
+    hits: [],
+    launchList: 'tgLt',
+    tgEx: 'tgEx',
+    hitList: null
+  }, //tg16,
+  59: {
+    launch: atari2600Lt,
+    exclusives: atari2600Ex,
+    hits: [],
+    launchList: 'a2600Lt',
+    exList: 'a2600Ex',
+    hitList: null
+  },
+  66: {
+    launch: atari5200Lt,
+    exclusives: atari5200Ex,
+    hits: [],
+    launchList: 'a5200Lt',
+    exList: 'a5200Ex',
+    hitList: null
+  },
+  60: {
+    launch: atari7800Lt,
+    exclusives: atari7800Ex,
+    hits: [],
+    launchList: 'a7800Lt',
+    exList: 'a7800Ex',
+    hitList: null
+  },
+  64: {
+    launch: smsLtIds,
+    exclusives: smsExIds,
+    hits: [],
+    launchList: 'smsLt',
+    exList: 'smsEx',
+    hitList: null
+  }, //sms,
+  67: {
+    launch: mivLtIds,
+    exclusives: mivExIds,
+    hits: [],
+    launchList: 'mivLt',
+    exList: 'mivEx',
+    hitList: null
+  }, //miv,
+  62: {
+    launch: atariJagLt,
+    exclusives: atariJagEx,
+    hits: [],
+    launchList: 'jagLt',
+    exList: 'aJagEx',
+    hitList: null
+  },
+  87: {
+    launch: nvbLtIds,
+    exclusives: nvbExIds,
+    hits: [],
+    launchList: 'nvbLt',
+    exList: 'nvbEx',
+    hitList: null
+  }, //nvb
+  6: { launch: [], exclusives: [], hits: [] } //pc
 };
 
 games.forEach(game => {
@@ -313,6 +624,9 @@ games.forEach(game => {
     }
     if (lists.exclusives?.indexOf(id) > 0 && exOwned[lists?.exList]?.indexOf(id) < 0) {
       exOwned[lists.exList].push(id);
+    }
+    if (lists.hits?.indexOf(id) > 0 && hitsOwned[lists?.hitList]?.indexOf(id) < 0) {
+      hitsOwned[lists.hitList].push(id);
     }
   }
 });
@@ -406,6 +720,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: "Nintendo SNES Player's Choice",
+      owned: hitsOwned.snesHits.length,
+      total: snespc.length,
+      platformId: 19,
+      dataSet: 'GH'
+    },
+    {
       title: 'Nintendo 64 launch titles',
       owned: launchOwned.n64Lt.length,
       total: n64LtIds.length,
@@ -418,6 +739,13 @@ module.exports.getLaunchEx = async function () {
       total: n64ExIds.length,
       platformId: 4,
       dataSet: 'EX'
+    },
+    {
+      title: "Nintendo 64 Player's Choice",
+      owned: hitsOwned.n64Hits.length,
+      total: n64pc.length,
+      platformId: 4,
+      dataSet: 'GH'
     },
     {
       title: 'Nintendo GameCube launch titles',
@@ -434,6 +762,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: "Nintendo GameCube Player's Choice",
+      owned: hitsOwned.gcHits.length,
+      total: gcpc.length,
+      platformId: 21,
+      dataSet: 'GH'
+    },
+    {
       title: 'Nintendo Wii launch titles',
       owned: launchOwned.wiiLt.length,
       total: wiiLtIds.length,
@@ -448,6 +783,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: 'Nintendo Wii Nintendo Selects',
+      owned: hitsOwned.wiiHits.length,
+      total: wns.length,
+      platformId: 5,
+      dataSet: 'GH'
+    },
+    {
       title: 'Nintendo Wii U launch titles',
       owned: launchOwned.wiiULt.length,
       total: wiiULtIds.length,
@@ -460,6 +802,13 @@ module.exports.getLaunchEx = async function () {
       total: wiiUExIds.length,
       platformId: 41,
       dataSet: 'EX'
+    },
+    {
+      title: 'Nintendo Wii U Nintendo Selects',
+      owned: hitsOwned.wiiUHits.length,
+      total: wuns.length,
+      platformId: 41,
+      dataSet: 'GH'
     },
     {
       title: 'Nintendo Switch launch titles',
@@ -490,6 +839,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: "Nintendo Game Boy Player's Choice",
+      owned: hitsOwned.gbHits.length,
+      total: gbpc.length,
+      platformId: 33,
+      dataSet: 'GH'
+    },
+    {
       title: 'Nintendo Virtual Boy launch titles',
       owned: launchOwned.nvbLt.length,
       total: nvbLtIds.length,
@@ -518,6 +874,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: 'Nintendo Game Boy Color Nintendo Selects',
+      owned: hitsOwned.gbcHits.length,
+      total: gbcns.length,
+      platformId: 22,
+      dataSet: 'GH'
+    },
+    {
       title: 'Nintendo Game Boy Advance launch titles',
       owned: launchOwned.gbaLt.length,
       total: gbaLtIds.length,
@@ -530,6 +893,13 @@ module.exports.getLaunchEx = async function () {
       total: gbaExIds.length,
       platformId: 24,
       dataSet: 'EX'
+    },
+    {
+      title: "Nintendo Game Boy Advance Player's Choice",
+      owned: hitsOwned.gbaHits.length,
+      total: gbapc.length,
+      platformId: 24,
+      dataSet: 'GH'
     },
     {
       title: 'Nintendo DS launch titles',
@@ -558,6 +928,13 @@ module.exports.getLaunchEx = async function () {
       total: n3dsExIds.length,
       platformId: 37,
       dataSet: 'EX'
+    },
+    {
+      title: 'Nintendo 3DS Nintendo Selects',
+      owned: hitsOwned.threeDsHits.length,
+      total: threedss.length,
+      platformId: 37,
+      dataSet: 'GH'
     },
     {
       title: 'Sega Master System launch titles',
@@ -673,6 +1050,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: 'Microsoft Xbox Platinum Hits',
+      owned: hitsOwned.xbHits.length,
+      total: xph.length,
+      platformId: 11,
+      dataSet: 'GH'
+    },
+    {
       title: 'Microsoft Xbox 360 launch titles',
       owned: launchOwned.xb360Lt.length,
       total: xb360LtIds.length,
@@ -685,6 +1069,13 @@ module.exports.getLaunchEx = async function () {
       total: xb360ExIds.length,
       platformId: 12,
       dataSet: 'EX'
+    },
+    {
+      title: 'Microsoft Xbox 360 Platinum Hits',
+      owned: hitsOwned.xb360Hits.length,
+      total: x360ph.length,
+      platformId: 12,
+      dataSet: 'GH'
     },
     {
       title: 'Microsoft Xbox One launch titles',
@@ -701,6 +1092,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: 'Microsoft Xbox One Greatest Hits',
+      owned: hitsOwned.xb1Hits.length,
+      total: xbonegh.length,
+      platformId: 49,
+      dataSet: 'GH'
+    },
+    {
       title: 'Sony PlayStation launch titles',
       owned: launchOwned.ps1Lt.length,
       total: ps1LtIds.length,
@@ -713,6 +1111,13 @@ module.exports.getLaunchEx = async function () {
       total: ps1ExIds.length,
       platformId: 7,
       dataSet: 'EX'
+    },
+    {
+      title: 'Sony PlayStation Greatest Hits',
+      owned: hitsOwned.psHits.length,
+      total: psgh.length,
+      platformId: 7,
+      dataSet: 'GH'
     },
     {
       title: 'Sony PlayStation 2 launch titles',
@@ -729,6 +1134,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: 'Sony PlayStation 2 Greatest Hits',
+      owned: hitsOwned.ps2Hits.length,
+      total: ps2gh.length,
+      platformId: 8,
+      dataSet: 'GH'
+    },
+    {
       title: 'Sony PlayStation 3 launch titles',
       owned: launchOwned.ps3Lt.length,
       total: ps3LtIds.length,
@@ -741,6 +1153,13 @@ module.exports.getLaunchEx = async function () {
       total: ps3ExIds.length,
       platformId: 9,
       dataSet: 'EX'
+    },
+    {
+      title: 'Sony PlayStation 3 Greatest Hits',
+      owned: hitsOwned.ps3Hits.length,
+      total: ps3gh.length,
+      platformId: 9,
+      dataSet: 'GH'
     },
     {
       title: 'Sony PlayStation 4 launch titles',
@@ -757,6 +1176,13 @@ module.exports.getLaunchEx = async function () {
       dataSet: 'EX'
     },
     {
+      title: 'Sony PlayStation 4 Greatest Hits',
+      owned: hitsOwned.ps4Hits.length,
+      total: ps4gh.length,
+      platformId: 48,
+      dataSet: 'GH'
+    },
+    {
       title: 'Sony PlayStation Portable launch titles',
       owned: launchOwned.pspLt.length,
       total: pspLtIds.length,
@@ -769,6 +1195,13 @@ module.exports.getLaunchEx = async function () {
       total: pspExIds.length,
       platformId: 38,
       dataSet: 'EX'
+    },
+    {
+      title: 'Sony PlayStation Portable Greatest Hits',
+      owned: hitsOwned.pspHits.length,
+      total: pspgh.length,
+      platformId: 38,
+      dataSet: 'GH'
     },
     {
       title: 'REAL 3DO launch titles',

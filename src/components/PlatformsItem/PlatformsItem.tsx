@@ -27,6 +27,15 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
     return { total: exObj?.total || 0, owned: exObj?.owned || 0 };
   }, [extra]);
 
+  const greatestHits = useMemo(() => {
+    // @ts-ignore
+    const ghObj = extra?.find(e => e.dataSet === 'GH');
+    if (ghObj) {
+      return { total: ghObj.total, owned: ghObj.owned, title: ghObj.title };
+    }
+    return null;
+  }, []);
+
   return (
     <div className='platforms-item-wrapper'>
       <div className='platforms-item-section name-logo'>
@@ -98,10 +107,16 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
           <label>Launch titles owned</label>
           <div>{`${launchTitles.owned} of ${launchTitles.total}`}</div>
         </div>
-        <div className='platforms-item-section--sub'>
+        <div className='platforms-item-section--sub top'>
           <label>Exclusives owned</label>
           <div>{`${exclusives.owned} of ${exclusives.total}`}</div>
         </div>
+        {greatestHits && (
+          <div className='platforms-item-section--sub'>
+            <label>{greatestHits.title} owned</label>
+            <div>{`${greatestHits.owned} of ${greatestHits.total}`}</div>
+          </div>
+        )}
       </div>
       {pgame && (
         <div className='platforms-item-section bg prices'>

@@ -8,7 +8,8 @@ import {
   getPlatformExtras,
   getPlatformGameData
 } from './services/platformsCrud.service';
-import { uniqBy as _uniqBy } from 'lodash';
+import { sortBy as _sortBy } from 'lodash';
+import { flatten as _flatten } from 'lodash';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const Platforms: React.FC<RouteComponentProps> = () => {
@@ -26,9 +27,24 @@ const Platforms: React.FC<RouteComponentProps> = () => {
         summary: 'ERROR'
       });
     } else {
-      const uniqCons = _uniqBy(platformsArr, 'id');
+      // group by  company and  sort group by name
+      const grouped = platformsArr.reduce((acc: any, con: IConsole) => {
+        const company = con.company;
+        if (company && acc[company]) {
+          acc[company] = _sortBy([...acc[company], con], 'name');
+        } else if (con.company) {
+          acc[con.company] = [con];
+        }
+        return acc;
+      }, {});
+      const companyOrder = Object.keys(grouped).sort();
+      const sorted = _flatten(
+        companyOrder.map(company => {
+          return grouped[company];
+        })
+      );
       // @ts-ignore
-      setConsolesData(uniqCons);
+      setConsolesData(sorted);
     }
   }, [setNotify]);
 

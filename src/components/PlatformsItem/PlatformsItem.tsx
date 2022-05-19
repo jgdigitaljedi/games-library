@@ -34,13 +34,26 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
       return { total: ghObj.total, owned: ghObj.owned, title: ghObj.title };
     }
     return null;
-  }, []);
+  }, [extra]);
+
+  const special = useMemo(() => {
+    // @ts-ignore
+    const spObj = extra?.find(e => e.dataSet === 'SP');
+    if (spObj) {
+      return { total: spObj.total, owned: spObj.owned, title: spObj.title };
+    }
+    return null;
+  }, [extra]);
 
   return (
     <div className='platforms-item-wrapper'>
       <div className='platforms-item-section name-logo'>
         <h4>{platform.name}</h4>
-        {platform.logo && <img src={platform.logo} alt={`${platform.name} logo`} />}
+        {platform.logo && (
+          <div className='img-wrapper'>
+            <img src={platform.logo} alt={`${platform.name} logo`} />
+          </div>
+        )}
       </div>
       <div className='platforms-item-section'>
         <div className='platforms-item-section--sub top'>
@@ -59,6 +72,10 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
           <label>Alternate name(s)</label>
           <div>{platform.alternative_name || '??'}</div>
         </div>
+        <div className='platforms-item-section--sub top'>
+          <label>CPU</label>
+          <div>{platform.cpu || '??'}</div>
+        </div>
       </div>
       <div className='platforms-item-section'>
         <div className='platforms-item-section--sub top'>
@@ -73,9 +90,13 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
           <label>Condition</label>
           <div>{platform.condition || '??'}</div>
         </div>
-        <div className='platforms-item-section--sub'>
+        <div className='platforms-item-section--sub top'>
           <label>Mods</label>
           <div>{platform.mods || 'NONE'}</div>
+        </div>
+        <div className='platforms-item-section--sub'>
+          <label>Memory</label>
+          <div>{platform.memory || '??'}</div>
         </div>
       </div>
       <div className='platforms-item-section'>
@@ -91,9 +112,13 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
           <label>Current value</label>
           <div>{platform.priceCharting?.price ? `$${platform.priceCharting?.price}` : '??'}</div>
         </div>
-        <div className='platforms-item-section--sub'>
+        <div className='platforms-item-section--sub top'>
           <label>Storage capacity</label>
           <div>{platform.storage || 'NA'}</div>
+        </div>
+        <div className='platforms-item-section--sub top'>
+          <label>Notes</label>
+          <div>{platform.notes || 'NA'}</div>
         </div>
       </div>
       <div className='platforms-item-section bg games'>
@@ -104,17 +129,23 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
           </div>
         )}
         <div className='platforms-item-section--sub top'>
-          <label>Launch titles owned</label>
+          <label>Launch titles</label>
           <div>{`${launchTitles.owned} of ${launchTitles.total}`}</div>
         </div>
         <div className='platforms-item-section--sub top'>
-          <label>Exclusives owned</label>
+          <label>Exclusives</label>
           <div>{`${exclusives.owned} of ${exclusives.total}`}</div>
         </div>
         {greatestHits && (
-          <div className='platforms-item-section--sub'>
-            <label>{greatestHits.title} owned</label>
+          <div className='platforms-item-section--sub top'>
+            <label>{greatestHits.title}</label>
             <div>{`${greatestHits.owned} of ${greatestHits.total}`}</div>
+          </div>
+        )}
+        {special && (
+          <div className='platforms-item-section--sub'>
+            <label>{special.title}</label>
+            <div>{`${special.owned} of ${special.total}`}</div>
           </div>
         )}
       </div>

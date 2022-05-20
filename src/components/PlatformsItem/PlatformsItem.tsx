@@ -45,6 +45,15 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
     return null;
   }, [extra]);
 
+  const cib = useMemo(() => {
+    // @ts-ignore
+    const cibObj = extra?.find(e => e.dataSet === 'CIB');
+    if (cibObj) {
+      return { owned: cibObj.owned, title: cibObj.title };
+    }
+    return null;
+  }, [extra]);
+
   return (
     <div className='platforms-item-wrapper'>
       <div className='platforms-item-section name-logo'>
@@ -143,9 +152,15 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
           </div>
         )}
         {special && (
-          <div className='platforms-item-section--sub'>
+          <div className='platforms-item-section--sub top'>
             <label>{special.title}</label>
             <div>{`${special.owned} of ${special.total}`}</div>
+          </div>
+        )}
+        {cib && (
+          <div className='platforms-item-section--sub'>
+            <label>{cib.title}</label>
+            <div>{cib.owned}</div>
           </div>
         )}
       </div>

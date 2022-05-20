@@ -27,7 +27,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
         summary: 'ERROR'
       });
     } else {
-      // group by  company and  sort group by name
+      // group by company and sort group by name
       const grouped = platformsArr.reduce((acc: any, con: IConsole) => {
         const company = con.company;
         if (company && acc[company]) {

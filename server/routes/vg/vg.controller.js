@@ -379,7 +379,9 @@ function formatIgdbPlatformVersionData(item) {
   formatted.platform_logo = item.platform_logo || {};
   formatted.connectivity = item.connectivity ? item.connectivity : null;
   console.log('item.platform_version_release_dates', item.platform_version_release_dates);
-  formatted.releaseDate = getReleaseDate(item.platform_version_release_dates);
+  formatted.releaseDate = item.platform_version_release_dates
+    ? getReleaseDate(item.platform_version_release_dates)
+    : null;
   return formatted;
 }
 
@@ -407,6 +409,7 @@ module.exports.searchPlatformVersions = async function (req, res) {
       .then(result => {
         if (result.status === 200) {
           const item = result.data[0];
+          console.log('result.data', result.data);
           const formatted = formatIgdbPlatformVersionData(item);
           res.status(200).json(formatted);
         } else {

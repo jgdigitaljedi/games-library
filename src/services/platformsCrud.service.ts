@@ -2,7 +2,7 @@ import Axios, { AxiosResponse } from 'axios';
 import { getRequestKey } from './auth.service';
 import { makeRequest } from './generalCrud.service';
 import { get as _get, sortBy as _sortBy } from 'lodash';
-import { IConsole, IConsoleReleaseDate } from '@/models/platforms.model';
+import { IConsole, IConsoleReleaseDate, IConUserFields } from '@/models/platforms.model';
 import moment from 'moment';
 import { GenericError } from '@/models/common.model';
 
@@ -193,7 +193,10 @@ const getCategory = (cat?: number): string => {
   return categoryBreakdown[catStr];
 };
 
-export const formatNewPlatformForSave = (rawPlatform: RawPlatform): IConsole => {
+export const formatNewPlatformForSave = (
+  rawPlatform: RawPlatform,
+  userFields: IConUserFields
+): IConsole => {
   console.log('id in format', rawPlatform.id);
   return {
     id: rawPlatform.id || 99999,
@@ -202,18 +205,18 @@ export const formatNewPlatformForSave = (rawPlatform: RawPlatform): IConsole => 
     generation: rawPlatform.generation || null,
     name: rawPlatform.name,
     version: getPlatformVersion(rawPlatform),
-    condition: null,
-    box: false,
-    manual: false,
-    mods: '',
-    notes: '',
-    datePurchased: moment().format('YYYY-MM-DD'),
-    pricePaid: null,
-    ghostConsole: false,
-    createdAt: moment().format('MM/DD/YYYY'),
-    lastUpdated: moment().format('MM/DD/YYYY'),
-    howAcquired: '',
-    updatedAt: '',
+    condition: userFields?.condition || null,
+    box: userFields?.box || false,
+    manual: userFields?.manual || false,
+    mods: userFields?.mods || '',
+    notes: userFields?.notes || '',
+    datePurchased: userFields?.datePurchased || moment().format('YYYY-MM-DD'),
+    pricePaid: userFields?.pricePaid || null,
+    ghostConsole: userFields?.ghostConsole || false,
+    createdAt: userFields?.createdAt || moment().format('MM/DD/YYYY'),
+    lastUpdated: userFields?.lastUpdated || moment().format('MM/DD/YYYY'),
+    howAcquired: userFields?.howAcquired || '',
+    updatedAt: userFields?.updatedAt || '',
     connectivity: rawPlatform.connectivity || null,
     cpu: rawPlatform.cpu || '',
     media: rawPlatform.media || '',
@@ -225,7 +228,7 @@ export const formatNewPlatformForSave = (rawPlatform: RawPlatform): IConsole => 
       ? getReleaseDate(rawPlatform.releaseDate)
       : { region: null, date: null },
     summary: rawPlatform.summary || '',
-    storage: rawPlatform.storage || '',
+    storage: userFields?.storage || rawPlatform.storage || '',
     resolutions: rawPlatform.resolutions || ''
   };
 };

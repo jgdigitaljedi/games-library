@@ -63,6 +63,7 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
             <img src={platform.logo} alt={`${platform.name} logo`} />
           </div>
         )}
+        {platform.version?.name && <div className='version-wrapper'>{platform.version.name}</div>}
       </div>
       <div className='platforms-item-section'>
         <div className='platforms-item-section--sub top'>

@@ -6,7 +6,7 @@ import React, {
   useContext,
   MouseEventHandler
 } from 'react';
-import { IConsole } from '@/models/platforms.model';
+import { IConsole, IConUserFields } from '@/models/platforms.model';
 import { InputText } from 'primereact/inputtext';
 import { handleChange, handleDropdownFn } from '@/services/forms.service';
 import helpersService, { platformsCompany } from '../../../services/helpers.service';
@@ -67,6 +67,25 @@ const PlatformForm: FunctionComponent<IProps> = ({
     [closeConfirmation, platformForm]
   );
 
+  const getUserFields = (): IConUserFields => {
+    return {
+      box: platformForm?.box,
+      condition: platformForm?.condition,
+      createdAt: platformForm?.createdAt,
+      datePurchased: platformForm?.datePurchased,
+      newDatePurchased: platformForm?.newDatePurchased,
+      ghostConsole: platformForm?.ghostConsole,
+      howAcquired: platformForm?.howAcquired,
+      manual: platformForm?.manual,
+      mods: platformForm?.mods,
+      notes: platformForm?.notes,
+      priceCharting: platformForm?.priceCharting,
+      pricePaid: platformForm?.pricePaid,
+      updatedAt: platformForm?.updatedAt,
+      storage: platformForm?.storage
+    };
+  };
+
   const searchSelection = async (e: any) => {
     closeConfirmation();
     if (e?.value) {
@@ -82,7 +101,8 @@ const PlatformForm: FunctionComponent<IProps> = ({
     const versionData = await igdbPlatformVersions(plat);
     const fullPlatform = { ...plat, ...versionData.data };
     fullPlatform.id = plat.id;
-    const formattedPlatform = formatNewPlatformForSave(fullPlatform);
+    const userFields = getUserFields();
+    const formattedPlatform = formatNewPlatformForSave(fullPlatform, userFields);
     const pfCopy = _cloneDeep(platformForm);
     const savable = Object.assign(pfCopy, formattedPlatform);
     // @ts-ignore
@@ -183,8 +203,13 @@ const PlatformForm: FunctionComponent<IProps> = ({
     e.preventDefault();
     igdbUpdatePlatformById(platform)
       .then(result => {
+        console.log(
+          'new Date(platformForm.datePurchased)',
+          platformForm?.datePurchased ? new Date(platformForm?.datePurchased) : 'no  date'
+        );
         if (result?.data) {
-          setPlatformForm(result.data);
+          const userFields = getUserFields();
+          setPlatformForm({ ...result.data, ...userFields });
         } else {
           setNotify({
             severity: 'error',

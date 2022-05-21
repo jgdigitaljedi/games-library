@@ -11,6 +11,7 @@ import {
 import { sortBy as _sortBy } from 'lodash';
 import { flatten as _flatten } from 'lodash';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import PlatformsSort from './components/PlatformsSort';
 
 const Platforms: React.FC<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
@@ -83,6 +84,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
 
   return (
     <div className='platforms-wrapper'>
+      <PlatformsSort />
       {consolesData?.length > 0 &&
         consolesExtras?.length > 0 &&
         consolesData.map((con: IConsole) => {

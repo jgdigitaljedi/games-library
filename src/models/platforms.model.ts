@@ -159,6 +159,24 @@ export interface IConsole {
   _id?: string;
 }
 
+export interface IConUserFields {
+  condition?: string | null;
+  box?: boolean;
+  manual?: boolean;
+  mods?: string;
+  notes?: string;
+  datePurchased?: string | null;
+  pricePaid?: number | null;
+  ghostConsole?: boolean;
+  createdAt?: string;
+  howAcquired?: string;
+  updatedAt?: string;
+  newDatePurchased?: Date;
+  lastUpdated?: string;
+  priceCharting?: IPriceChartingData;
+  storage?: string;
+}
+
 export interface PlatExtraData {
   dataSet: keyof PlatExtraDataSet;
   platformId: number;

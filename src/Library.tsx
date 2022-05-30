@@ -143,7 +143,8 @@ const Library: FunctionComponent<RouteComponentProps> = (props: RouteComponentPr
   const howAcquiredOptions = useCallback(async () => {
     if (!haOptions.length) {
       const haArr: string[] = await howAcquiredArr();
-      setHaOptions(haArr);
+      console.log('haArr', haArr);
+      setHaOptions(haArr || []);
     }
   }, [haOptions]);
 

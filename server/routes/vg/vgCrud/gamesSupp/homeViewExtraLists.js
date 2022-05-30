@@ -691,7 +691,7 @@ games.forEach(game => {
   const extra = game.extraDataFull || [];
   const id = game.id;
   const lists = igdbIdToFiles[game.consoleId.toString()];
-  if (game.cib && cibOwned[lists.cibList]) {
+  if (game.cib && lists && cibOwned[lists.cibList]) {
     cibOwned[lists.cibList].push(id);
   }
   if (extra?.length) {

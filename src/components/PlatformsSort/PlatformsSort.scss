@@ -1,0 +1,25 @@
+@import '../../style/theme.scss';
+@import '../../style/mixins/index.scss';
+
+.platforms-sort {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: $gutter;
+  @include box_shadow(2);
+  .p-card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .platforms-sort--item-wrapper {
+      display: flex;
+      flex-direction: column;
+      label {
+        color: $white;
+        font-family: $secondary-font;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}

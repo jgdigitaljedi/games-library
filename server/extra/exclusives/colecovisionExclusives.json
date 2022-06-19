@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cvex1",
+    "name": "Dr. Seuss' Fix-Up the Mix-Up Puzzler",
+    "details": "ColecoVision exclusive",
+    "igdbId": 40898,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 10323
+  },
+  {
+    "id": "cvex2",
+    "name": "Illusions",
+    "details": "ColecoVision exclusive",
+    "igdbId": 40893,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 10341
+  },
+  {
+    "id": "cvex3",
+    "name": "Rocky Super Action Boxing",
+    "details": "ColecoVision exclusive",
+    "igdbId": 40885,
+    "gbId": 14022,
+    "gbGuid": "3030-14022",
+    "tgdbId": 10418
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "name": "Agent Hugo: Lemoon Twist (PAL)",
+    "id": "ps2ge1",
+    "details": "hologram sticker placed over spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/agenthugolemoon1.jpg",
+    "type": "Assembly",
+    "igdbId": 43252,
+    "gbId": 26496,
+    "gbGuid": "3030-26496"
+  },
+  {
+    "name": "Air Ranger Rescue Helicopter (PAL)",
+    "id": "ps2ge2",
+    "details": "missing Sony hologram",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/airrangerps2pal.jpg",
+    "type": "Assembly",
+    "igdbId": 46036,
+    "gbId": 26498,
+    "gbGuid": "3030-26498"
+  },
+  {
+    "name": "Athens 2004 (AUS)",
+    "id": "ps2ge3",
+    "details": "plays Pink Floyd The Wall (DVD movie).\nlook for S0100307870-A911/S0100307870-B911 with no PlayStation 2 holograms",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/athens041.jpg",
+    "type": "Data",
+    "igdbId": 22298,
+    "gbId": 17259,
+    "gbGuid": "3030-17259"
+  },
+  {
+    "name": "Baldur's Gate: Dark Alliance",
+    "id": "ps2ge4",
+    "details": "miscut cover ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/BaldursGateDarkAllianceps2.jpg",
+    "type": "Cutting",
+    "igdbId": 83,
+    "gbId": 13091,
+    "gbGuid": "3030-13091"
+  },
+  {
+    "name": "Britney's Dance Beat",
+    "id": "ps2ge5",
+    "details": "improperly cut cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/britneydancebeat_zps7c55e42d.jpg",
+    "type": "Cutting",
+    "igdbId": 6338,
+    "gbId": 2528,
+    "gbGuid": "3030-2528"
+  },
+  {
+    "name": "Bully",
+    "id": "ps2ge6",
+    "details": "no cover slip ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/sealed-ps2-bully_zpsdce6e05e.gif",
+    "type": "Assembly",
+    "igdbId": 2720,
+    "gbId": 10281,
+    "gbGuid": "3030-10281"
+  },
+  {
+    "name": "Buzz! Junior: Robo Jam (PAL)",
+    "id": "ps2ge7",
+    "details": "Plays Apocolypto with Italian Subtitles",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/robojam_zps79a46c62.jpg",
+    "type": "Data",
+    "igdbId": 44710,
+    "gbId": 27297,
+    "gbGuid": "3030-27297"
+  },
+  {
+    "name": "Castlevania: Lament of Innocence",
+    "id": "ps2ge8",
+    "details": "Tear strip placed over corner of case",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/castlevaniaps21.jpg",
+    "type": "Assembly",
+    "igdbId": 1135,
+    "gbId": 15790,
+    "gbGuid": "3030-15790"
+  },
+  {
+    "name": "Catwoman",
+    "id": "ps2ge9",
+    "details": "Only white layer on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/catwoman1.jpg",
+    "type": "Printing",
+    "igdbId": 3851,
+    "gbId": 3777,
+    "gbGuid": "3030-3777"
+  },
+  {
+    "name": "Chemist Tycoon (PAL)",
+    "id": "ps2ge10",
+    "details": "All Disc's labeled Sim Chemist",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/simchem_zps34a4f1a8.jpg",
+    "type": "Labeling",
+    "igdbId": 66959,
+    "gbId": 30230,
+    "gbGuid": "3030-30230"
+  },
+  {
+    "name": "ChoroQ (Trade demo)",
+    "id": "ps2ge11",
+    "details": "game called Charo Q on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/charoq.jpg",
+    "type": "Typo",
+    "igdbId": 27073,
+    "gbId": 4160,
+    "gbGuid": "3030-4160"
+  },
+  {
+    "name": "City Crisis",
+    "id": "ps2ge12",
+    "details": "No Title on spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/citycrisis_zps0319f169.jpg",
+    "type": "Typo",
+    "igdbId": 22011,
+    "gbId": 20397,
+    "gbGuid": "3030-20397"
+  },
+  {
+    "name": "Colosseum: Road to Freedom",
+    "id": "ps2ge13",
+    "details": "no label on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/colosseum1.jpg",
+    "type": "Labeling",
+    "igdbId": 22456,
+    "gbId": 582,
+    "gbGuid": "3030-582"
+  },
+  {
+    "name": "Combat Elite: WWII Paratroopers (Trade demo)",
+    "id": "ps2ge14",
+    "details": "says SLUS- 20854 on disc and sleeve\nshould be SLUS-28054 \nSLUS- 20854 belongs to Cy Girls disc 2",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/SLUS_28054_-_Sleeve-L.png",
+    "type": "Typo",
+    "igdbId": 5784,
+    "gbId": 21781,
+    "gbGuid": "3030-21781"
+  },
+  {
+    "name": "Crash 'N' Burn",
+    "id": "ps2ge15",
+    "details": "no insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/crashnburn1.jpg",
+    "type": "Assembly",
+    "igdbId": 5789,
+    "gbId": 26566,
+    "gbGuid": "3030-26566"
+  },
+  {
+    "name": "Crash 'N' Burn (Canada)",
+    "id": "ps2ge16",
+    "details": "no insert",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Assembly",
+    "igdbId": 5789,
+    "gbId": 26566,
+    "gbGuid": "3030-26566"
+  },
+  {
+    "name": "Dark Cloud 2",
+    "id": "ps2ge17",
+    "details": "no label on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/darkcloud2.jpg",
+    "type": "Printing",
+    "igdbId": 1215,
+    "gbId": 10007,
+    "gbGuid": "3030-10007"
+  },
+  {
+    "name": "The Legend of Spyro: A New Beginning (PAL)(Dutch)",
+    "id": "ps2ge18",
+    "details": "says Gorborden on spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/spyrodutch.jpg",
+    "type": "Typo",
+    "igdbId": 1582,
+    "gbId": 3883,
+    "gbGuid": "3030-3883"
+  },
+  {
+    "name": "Disney Golf",
+    "id": "ps2ge19",
+    "details": "plays Gauntlet Dark Legacy",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Data",
+    "igdbId": 19212,
+    "gbId": 21262,
+    "gbGuid": "3030-21262"
+  },
+  {
+    "name": "Drakan: The Ancients' Gates",
+    "id": "ps2ge20",
+    "details": "mis-cut cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/Drakan1.jpg",
+    "type": "Cutting",
+    "igdbId": 7577,
+    "gbId": 13587,
+    "gbGuid": "3030-13587"
+  },
+  {
+    "name": "The Dukes of Hazzard: Return of the General Lee (AUS)",
+    "id": "ps2ge21",
+    "details": "plays Maximum Risk DVD\nlook for VR 27419GP1V2A VB02 with no PlayStation 2 holograms",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/doh1.jpg",
+    "type": "Data",
+    "igdbId": 5818,
+    "gbId": 5175,
+    "gbGuid": "3030-5175"
+  },
+  {
+    "name": "Eternal Ring",
+    "id": "ps2ge22",
+    "details": "sealed sideways",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/eternalringps20.jpg",
+    "type": "Assembly",
+    "igdbId": 10905,
+    "gbId": 18651,
+    "gbGuid": "3030-18651"
+  },
+  {
+    "name": "Disney's Extreme Skate Adventure (AUS)",
+    "id": "ps2ge23",
+    "details": "Plays Grand Theft Auto: San Andreas. Look for A0100564585-A511 ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/skate1.jpg",
+    "type": "Data",
+    "igdbId": 3883,
+    "gbId": 6759,
+    "gbGuid": "3030-6759"
+  },
+  {
+    "name": "EyeToy: Chat (AUS)(bonus disk)",
+    "id": "ps2ge24",
+    "details": "Plays Seinfeld Season 3 DVD\nLook for A0100556710-A911/A0100556710-B911\nno PlayStation 2 holograms",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/eyetoy1.jpg",
+    "type": "Data",
+    "igdbId": null,
+    "gbId": 13061,
+    "gbGuid": "3030-13061"
+  },
+  {
+    "name": "Fatal Frame",
+    "id": "ps2ge25",
+    "details": "two tear strips on game",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/fatalframe_zpsjo844nrx.jpg",
+    "type": "Assembly",
+    "igdbId": 5106,
+    "gbId": 18070,
+    "gbGuid": "3030-18070"
+  },
+  {
+    "name": "Final Fantasy X-2",
+    "id": "ps2ge26",
+    "details": "no printing on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/ffx2_zpszgyejgsd.jpg",
+    "type": "Printing",
+    "igdbId": 413,
+    "gbId": 8985,
+    "gbGuid": "3030-8985"
+  },
+  {
+    "name": "Final Fantasy XII (CE)",
+    "id": "ps2ge27",
+    "details": "printer justification error",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/FFXIICE.jpg",
+    "type": "Printing",
+    "igdbId": 398,
+    "gbId": 11497,
+    "gbGuid": "3030-11497"
+  },
+  {
+    "name": "Formula One 04 (AUS)",
+    "id": "ps2ge28",
+    "details": "Plays Grand Theft Auto: San Andreas. Look for A0100564585-A511 ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/f1041.jpg",
+    "type": "Data",
+    "igdbId": 8302,
+    "gbId": 5426,
+    "gbGuid": "3030-5426"
+  },
+  {
+    "name": "Go, Diego, Go! Safari Rescue",
+    "id": "ps2ge29",
+    "details": "came with Go Diego Go Safari Rescue but says Mission Safari on cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/gogopal.JPG",
+    "type": "Packing",
+    "igdbId": 43581,
+    "gbId": 24284,
+    "gbGuid": "3030-24284"
+  },
+  {
+    "name": "God of War II (PE)",
+    "id": "ps2ge30",
+    "details": "miscut cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/gow2frontti8.jpg",
+    "type": "Cutting",
+    "igdbId": 551,
+    "gbId": 11314,
+    "gbGuid": "3030-11314"
+  },
+  {
+    "name": "God of War II",
+    "id": "ps2ge31",
+    "details": "completely blank disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/godofwarII.jpg",
+    "type": "Printing",
+    "igdbId": 551,
+    "gbId": 11314,
+    "gbGuid": "3030-11314"
+  },
+  {
+    "name": "The Golden Compass",
+    "id": "ps2ge32",
+    "details": "Rated E on Disc E10 on cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/goldencompass.jpg",
+    "type": "Printing",
+    "igdbId": 4892,
+    "gbId": 1819,
+    "gbGuid": "3030-1819"
+  },
+  {
+    "name": "Gradius III and IV",
+    "id": "ps2ge33",
+    "details": "\"Mild Animated Violence\" box printed off center",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/gradius34_zpsrjrnqkqm.png",
+    "type": "Printing",
+    "igdbId": 98976,
+    "gbId": 676,
+    "gbGuid": "3030-676"
+  },
+  {
+    "name": "Gran Turismo 3: A-Spec",
+    "id": "ps2ge34",
+    "details": "Insert is a test print from printer\n",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/P1050155.JPG",
+    "type": "Assembly",
+    "igdbId": 1600,
+    "gbId": 12950,
+    "gbGuid": "3030-12950"
+  },
+  {
+    "name": "Grand Theft Auto: The Trilogy",
+    "id": "ps2ge35",
+    "details": "small sticker placed upside down",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/GTACusd_zpsbd88f387.jpg",
+    "type": "Assembly",
+    "igdbId": 5850,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Grandia Xtreme",
+    "id": "ps2ge36",
+    "details": "Plays Spider-man DVD bonus footage",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Data",
+    "igdbId": 21660,
+    "gbId": 14159,
+    "gbGuid": "3030-14159"
+  },
+  {
+    "name": "Gretzky NHL '06",
+    "id": "ps2ge37",
+    "details": "two NHL holograms attached",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/gretskynhl06.jpg",
+    "type": "Assembly",
+    "igdbId": 24142,
+    "gbId": 21784,
+    "gbGuid": "3030-21784"
+  },
+  {
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "id": "ps2ge38",
+    "details": "Color layers on disc became severely mixed up",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/hpstdouble1.jpg",
+    "type": "Printing",
+    "igdbId": 117003,
+    "gbId": 577,
+    "gbGuid": "3030-577"
+  },
+  {
+    "name": "High School Musical 3: Senior Year Dance",
+    "id": "ps2ge39",
+    "details": "used a Black label insert instead of Greatest hits insert.",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/highschoolmusical3danceGH1.jpg",
+    "type": "Assembly",
+    "igdbId": 4912,
+    "gbId": 23757,
+    "gbGuid": "3030-23757"
+  },
+  {
+    "name": "Everybody's Golf 3 (GH)",
+    "id": "ps2ge40",
+    "details": "cover inserted improperly",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/hotshotgolf3gh.jpg",
+    "type": "Assembly",
+    "igdbId": 23459,
+    "gbId": 19428,
+    "gbGuid": "3030-19428"
+  },
+  {
+    "name": "Indiana Jones and the Staff of Kings",
+    "id": "ps2ge41",
+    "details": "no insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/ij2.jpg",
+    "type": "Assembly",
+    "igdbId": 4932,
+    "gbId": 24187,
+    "gbGuid": "3030-24187"
+  },
+  {
+    "name": "Jak 3",
+    "id": "ps2ge42",
+    "details": "miscut insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/jak31.jpg",
+    "type": "Cutting",
+    "igdbId": 1530,
+    "gbId": 9669,
+    "gbGuid": "3030-9669"
+  },
+  {
+    "name": "Kao the Kangaroo Round 2 (PAL)",
+    "id": "ps2ge43",
+    "details": "no blue die used for disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/kao21.png",
+    "type": "DiscManufacturing",
+    "igdbId": 3962,
+    "gbId": 11188,
+    "gbGuid": "3030-11188"
+  },
+  {
+    "name": "Kao the Kangaroo Round 2 (PAL)",
+    "id": "ps2ge44",
+    "details": "dvd logo used on disc ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/kao21.png",
+    "type": "Printing",
+    "igdbId": 3962,
+    "gbId": 11188,
+    "gbGuid": "3030-11188"
+  },
+  {
+    "name": "Kao the Kangaroo Round 2 (PAL)",
+    "id": "ps2ge45",
+    "details": "typos on back cover Teffifying and frienfs in English translation\n",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/kao2typos.png",
+    "type": "Typo",
+    "igdbId": 3962,
+    "gbId": 11188,
+    "gbGuid": "3030-11188"
+  },
+  {
+    "name": "Kao the Kangaroo Round 2 (PAL)(Demo)",
+    "id": "ps2ge46",
+    "details": "DVD logo used on Disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/kao2demo.png",
+    "type": "Printing",
+    "igdbId": 3962,
+    "gbId": 11188,
+    "gbGuid": "3030-11188"
+  },
+  {
+    "name": "Katamari Damacy",
+    "id": "ps2ge47",
+    "details": "goes by the Japanese name Katmari Damashi on tear strip",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/katamari.png",
+    "type": "Typo",
+    "igdbId": 6453,
+    "gbId": 11867,
+    "gbGuid": "3030-11867"
+  },
+  {
+    "name": "Kingdom Hearts II",
+    "id": "ps2ge49",
+    "details": "Fold over on page in manual",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/khfo1.jpg",
+    "type": "Cutting",
+    "igdbId": 1221,
+    "gbId": 4763,
+    "gbGuid": "3030-4763"
+  },
+  {
+    "name": "Kiosk demo disc 2.7",
+    "id": "ps2ge50",
+    "details": "says SCUS 972227 on disc should read\nSCUS 97227",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/SCUS_972227.jpg",
+    "type": "Typo",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "The Lord of the Rings: The Third Age",
+    "id": "ps2ge51",
+    "details": "Plays Crash Twinsanity Look for PDSS-011805A1",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/lotrta.jpg",
+    "type": "Data",
+    "igdbId": 6500,
+    "gbId": 2959,
+    "gbGuid": "3030-2959"
+  },
+  {
+    "name": "The Lord of the Rings: The Two Towers",
+    "id": "ps2ge52",
+    "details": "miscut insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/lotrmiscut.jpg",
+    "type": "Cutting",
+    "igdbId": 2965,
+    "gbId": 21334,
+    "gbGuid": "3030-21334"
+  },
+  {
+    "name": "Jonny Moseley: Mad Trix",
+    "id": "ps2ge53",
+    "details": "Box art sleeve is miscut for game.",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/ps2%20mad%20trix.png",
+    "type": "Cutting",
+    "igdbId": 49336,
+    "gbId": 834,
+    "gbGuid": "3030-834"
+  },
+  {
+    "name": "Madden NFL 2005",
+    "id": "ps2ge54",
+    "details": "miscut cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/madden05.jpg",
+    "type": "Cutting",
+    "igdbId": 778,
+    "gbId": 4222,
+    "gbGuid": "3030-4222"
+  },
+  {
+    "name": "Max Payne",
+    "id": "ps2ge55",
+    "details": "no insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/maxpaynenocover1_zps82ab0da9.jpg",
+    "type": "Assembly",
+    "igdbId": 18,
+    "gbId": 2414,
+    "gbGuid": "3030-2414"
+  },
+  {
+    "name": "Mega Man X7",
+    "id": "ps2ge56",
+    "details": "no label on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/megamanx70.jpg",
+    "type": "Printing",
+    "igdbId": 1747,
+    "gbId": 4776,
+    "gbGuid": "3030-4776"
+  },
+  {
+    "name": "Metal Gear Solid 2: Sons of Liberty",
+    "id": "ps2ge57",
+    "details": "no printing on insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/MGS2_blankslip.jpg",
+    "type": "Printing",
+    "igdbId": 376,
+    "gbId": 12388,
+    "gbGuid": "3030-12388"
+  },
+  {
+    "name": "Metal Gear Solid 2: Sons of Liberty",
+    "id": "ps2ge58",
+    "details": "miscut insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mgs2miscut.jpg",
+    "type": "Cutting",
+    "igdbId": 376,
+    "gbId": 12388,
+    "gbGuid": "3030-12388"
+  },
+  {
+    "name": "Metal Gear Solid 3: Snake Eater",
+    "id": "ps2ge59",
+    "details": "Plays ESPN College Hoops 2k5\nlook for data number PDSS-011995",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mgs3da2.jpg",
+    "type": "Data",
+    "igdbId": 379,
+    "gbId": 18082,
+    "gbGuid": "3030-18082"
+  },
+  {
+    "name": "Metal Gear Solid 3: Snake Eater",
+    "id": "ps2ge60",
+    "details": "miscut insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mgs31.jpg",
+    "type": "Cutting",
+    "igdbId": 379,
+    "gbId": 18082,
+    "gbGuid": "3030-18082"
+  },
+  {
+    "name": "Mortal Kombat: Armageddon (AUS)",
+    "id": "ps2ge61",
+    "details": "ratings sticker extremely crooked",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mk2ps2au.jpg",
+    "type": "Label Position",
+    "igdbId": 1616,
+    "gbId": 11843,
+    "gbGuid": "3030-11843"
+  },
+  {
+    "name": "Mortal Kombat: Deadly Alliance",
+    "id": "ps2ge62",
+    "details": "disc is blank",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/ps2mortalkombatdeadlyrare_a_zpsec0r2uv6.jpg",
+    "type": "Printing",
+    "igdbId": 1612,
+    "gbId": 6588,
+    "gbGuid": "3030-6588"
+  },
+  {
+    "name": "Mortal Kombat: Deadly Alliance",
+    "id": "ps2ge63",
+    "details": "Plays Final Fantasy Spirits Within",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Data",
+    "igdbId": 1612,
+    "gbId": 6588,
+    "gbGuid": "3030-6588"
+  },
+  {
+    "name": "Mortal Kombat: Deception",
+    "id": "ps2ge64",
+    "details": "Alignment Allies and Foes are from Scorpion's Bios. Moloch is also Misspelled Mokoch typo is also present on the Xbox Scorpion Kollector's Edition",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mkdecsz.jpg",
+    "type": "Typo",
+    "igdbId": 1613,
+    "gbId": 383,
+    "gbGuid": "3030-383"
+  },
+  {
+    "name": "Mortal Kombat Kollection",
+    "id": "ps2ge65",
+    "details": "included two copies of Mortal Kombat Armageddon",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mkcollection_zps76fbfef7.jpg",
+    "type": "Packing",
+    "igdbId": 43251,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Mortal Kombat: Shaolin Monks (PAL)",
+    "id": "ps2ge66",
+    "details": "no holo sticker on back",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mksholinpal.jpg",
+    "type": "Assembly",
+    "igdbId": 1614,
+    "gbId": 7649,
+    "gbGuid": "3030-7649"
+  },
+  {
+    "name": "MS Saga: A New Dawn",
+    "id": "ps2ge67",
+    "details": "two labels on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mssaga1.jpg",
+    "type": "Labeling",
+    "igdbId": 20492,
+    "gbId": 18856,
+    "gbGuid": "3030-18856"
+  },
+  {
+    "name": "MVP Baseball 2005",
+    "id": "ps2ge68",
+    "details": "missing 2005 on spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mvp2005.jpg",
+    "type": "Typo",
+    "igdbId": 796,
+    "gbId": 9978,
+    "gbGuid": "3030-9978"
+  },
+  {
+    "name": "MX vs. ATV: Untamed (PAL)",
+    "id": "ps2ge69",
+    "details": "PSP tear strip used on game",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/mxvsatv.png",
+    "type": "Assembly",
+    "igdbId": 5028,
+    "gbId": 20889,
+    "gbGuid": "3030-20889"
+  },
+  {
+    "name": "Myst III: Exile",
+    "id": "ps2ge70",
+    "details": "two tear strips",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/myst3.jpg",
+    "type": "Assembly",
+    "igdbId": 797,
+    "gbId": 18742,
+    "gbGuid": "3030-18742"
+  },
+  {
+    "name": "Need for Speed: Underground (PAL)",
+    "id": "ps2ge71",
+    "details": "miscut cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/NFSUps2pal.jpg",
+    "type": "Cutting",
+    "igdbId": 96,
+    "gbId": 12254,
+    "gbGuid": "3030-12254"
+  },
+  {
+    "name": "Need for Speed: Underground 2 (PAL)(AUS)",
+    "id": "ps2ge72",
+    "details": "Incorrectly Rated M instead of G",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/nfsug2plaus1.jpg",
+    "type": "Printing",
+    "igdbId": 97,
+    "gbId": 9651,
+    "gbGuid": "3030-9651"
+  },
+  {
+    "name": "NFL Head Coach",
+    "id": "ps2ge73",
+    "details": "Blue N in NFL logo",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/nflheadcoachbluen.jpg",
+    "type": "Printing",
+    "igdbId": 5963,
+    "gbId": 5035,
+    "gbGuid": "3030-5035"
+  },
+  {
+    "name": "NHL 2K6",
+    "id": "ps2ge74",
+    "details": "Plays Genji: Dawn of the Samurai\nlook for PDSS-019195A1 on data side of disc",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Data",
+    "igdbId": 5965,
+    "gbId": 9031,
+    "gbGuid": "3030-9031"
+  },
+  {
+    "name": "NHL 2K6",
+    "id": "ps2ge75",
+    "details": "Plays Genji: Dawn of the Samurai and two NHL holograms put on case",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/nhl2k62.jpg",
+    "type": "Multiple",
+    "igdbId": 5965,
+    "gbId": 9031,
+    "gbGuid": "3030-9031"
+  },
+  {
+    "name": "Odin Sphere",
+    "id": "ps2ge76",
+    "details": "upside down playstion tear strip ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/odinspherepal.jpg",
+    "type": "Assembly",
+    "igdbId": 9110,
+    "gbId": 9235,
+    "gbGuid": "3030-9235"
+  },
+  {
+    "name": "Official PlayStation Magazine 2 Demo 47",
+    "id": "ps2ge77",
+    "details": "called Issue 46 on sleeve",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/OPM247.jpg",
+    "type": "Typo",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Oni",
+    "id": "ps2ge78",
+    "details": "no insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/oninoart.jpg",
+    "type": "Assembly",
+    "igdbId": 2413,
+    "gbId": 17168,
+    "gbGuid": "3030-17168"
+  },
+  {
+    "name": "Ops2m demo 89 (PAL) ",
+    "id": "ps2ge79",
+    "details": "called demo 88 on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/opm2891.jpg",
+    "type": "Typo",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Playstation Underground Jampack Winter 2001",
+    "id": "ps2ge80",
+    "details": "Book not stapled correctly and pages miscut",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/jampackps21.jpg",
+    "type": "Multiple",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Power Drome",
+    "id": "ps2ge81",
+    "details": "Plays Good Times season 5 disc 1.\nlook for DVDL-241670A1\nDVDL-241670B1 ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/pder_zpsocbxo6zn.jpg",
+    "type": "Data",
+    "igdbId": 5985,
+    "gbId": 29925,
+    "gbGuid": "3030-29925"
+  },
+  {
+    "name": "Fatal Frame (PAL)",
+    "id": "ps2ge82",
+    "details": "rating sticker placed wrong",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/projectzeropal.jpg",
+    "type": "Assembly",
+    "igdbId": 5106,
+    "gbId": 18070,
+    "gbGuid": "3030-18070"
+  },
+  {
+    "name": "Raiden III",
+    "id": "ps2ge83",
+    "details": "has DVD logo on back of case when game is a CD",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/raidenIII.jpg",
+    "type": "Printing",
+    "igdbId": 8856,
+    "gbId": 413,
+    "gbGuid": "3030-413"
+  },
+  {
+    "name": "Ratchet: Deadlocked",
+    "id": "ps2ge84",
+    "details": "miscut insert",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Cutting",
+    "igdbId": 1790,
+    "gbId": 18745,
+    "gbGuid": "3030-18745"
+  },
+  {
+    "name": "Ratchet & Clank: Going Commando (AUS)",
+    "id": "ps2ge85",
+    "details": "plays Cool Cuts music CD info can be found here look for 0160848 on CD. big thanks to DoctorEncore from Video Game Sage and Reddit user JoeXM for identifying the CD",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/RC21.jpg",
+    "type": "Data",
+    "igdbId": 1770,
+    "gbId": 4618,
+    "gbGuid": "3030-4618"
+  },
+  {
+    "name": "Resident Evil 4 (GH)",
+    "id": "ps2ge86",
+    "details": "miscut insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/RE4ps2ghoc_zps8ybal9xt.jpg",
+    "type": "Cutting",
+    "igdbId": 145191,
+    "gbId": 1578,
+    "gbGuid": "3030-1578"
+  },
+  {
+    "name": "Resident Evil Outbreak",
+    "id": "ps2ge87",
+    "details": "typed wrong SCEA Consumer Services phone number on pg 26 came with a correction notice",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/residentevil.jpg",
+    "type": "Typo",
+    "igdbId": 972,
+    "gbId": 576,
+    "gbGuid": "3030-576"
+  },
+  {
+    "name": "Resident Evil: Outbreak (Public Beta vol 1.0)",
+    "id": "ps2ge88",
+    "details": "double label",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/reoutbreakbeta.jpg",
+    "type": "Labeling",
+    "igdbId": 972,
+    "gbId": 576,
+    "gbGuid": "3030-576"
+  },
+  {
+    "name": "Scaler (PAL)",
+    "id": "ps2ge89",
+    "details": "page got caught up in printer",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/scaler1pal.jpg",
+    "type": "Printing",
+    "igdbId": 4095,
+    "gbId": 11470,
+    "gbGuid": "3030-11470"
+  },
+  {
+    "name": "Seven Samurai 20XX (PAL)",
+    "id": "ps2ge90",
+    "details": "200XX on spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/sevensamurai.jpg",
+    "type": "Typo",
+    "igdbId": 24241,
+    "gbId": 2088,
+    "gbGuid": "3030-2088"
+  },
+  {
+    "name": "Dreamworks' Shark Tale (AUS)",
+    "id": "ps2ge91",
+    "details": "Plays True Crime: Streets of LA look for A0100486598-A511. big thanks to Spacepup from Video Game Sage for Identifying this game ",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/sharktale1.jpg",
+    "type": "Data",
+    "igdbId": 4148,
+    "gbId": 7932,
+    "gbGuid": "3030-7932"
+  },
+  {
+    "name": "Shin Megami Tensei: Devil Summoner 2: Raidou Kuzunoha vs King Abaddon",
+    "id": "ps2ge92",
+    "details": "case insert torn during manufactuing sealed only counts",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/devilsum2_zps2095fe2e.jpg",
+    "type": "Factory Damage",
+    "igdbId": 21192,
+    "gbId": 22526,
+    "gbGuid": "3030-22526"
+  },
+  {
+    "name": "Silent Hill 2 (GH)",
+    "id": "ps2ge93",
+    "details": "no printing on disc",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/silenthill2gh1.jpg",
+    "type": "Printing",
+    "igdbId": 481,
+    "gbId": 10780,
+    "gbGuid": "3030-10780"
+  },
+  {
+    "name": "Silent Hill 3",
+    "id": "ps2ge94",
+    "details": "came with 2 music CD's and no game",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Packing",
+    "igdbId": 482,
+    "gbId": 10369,
+    "gbGuid": "3030-10369"
+  },
+  {
+    "name": "SingStar Bollywood (India)",
+    "id": "ps2ge95",
+    "details": "Severely offset printing on box",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/bolly.gif",
+    "type": "Printing",
+    "igdbId": 20769,
+    "gbId": 32427,
+    "gbGuid": "3030-32427"
+  },
+  {
+    "name": "Speed Challenge: Jacques Villeneuve's Racing Vision (PAL)",
+    "id": "ps2ge96",
+    "details": "says speed challange on spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/speedchallengeps2.jpg",
+    "type": "Typo",
+    "igdbId": 4162,
+    "gbId": 8682,
+    "gbGuid": "3030-8682"
+  },
+  {
+    "name": "The Spongebob Squarepants Movie (GH)",
+    "id": "ps2ge97",
+    "details": "no title on cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/sbob.jpg",
+    "type": "Printing",
+    "igdbId": 2767,
+    "gbId": 581,
+    "gbGuid": "3030-581"
+  },
+  {
+    "name": "Star Ocean: Till the End of Time (Japan)",
+    "id": "ps2ge98",
+    "details": "game crashing on\nCrashing on SCPH-10000",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Programming",
+    "igdbId": 11212,
+    "gbId": 12099,
+    "gbGuid": "3030-12099"
+  },
+  {
+    "name": "Stuart Little 3: Big Photo Adventure (PAL)",
+    "id": "ps2ge99",
+    "details": "Review disc artwork used for final artwork",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/stl3.jpg",
+    "type": "Printing",
+    "igdbId": 43455,
+    "gbId": 23172,
+    "gbGuid": "3030-23172"
+  },
+  {
+    "name": "The Suffering",
+    "id": "ps2ge100",
+    "details": "Upside down cover",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/suffering1.jpg",
+    "type": "Assembly",
+    "igdbId": 6180,
+    "gbId": 3841,
+    "gbGuid": "3030-3841"
+  },
+  {
+    "name": "Suikoden V",
+    "id": "ps2ge101",
+    "details": "cover to manual cut crooked",
+    "image": "https://iamerror.gamehacking.orghttps://iamerror.gamehacking.org/Sony/ps2/suikodenV.jpg",
+    "type": "Cutting",
+    "igdbId": 1456,
+    "gbId": 19152,
+    "gbGuid": "3030-19152"
+  },
+  {
+    "name": "Syphon Filter: Dark Mirror",
+    "id": "ps2ge102",
+    "details": "no cover sheet included",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/syphonfilterdm1.jpg",
+    "type": "Assembly",
+    "igdbId": 20764,
+    "gbId": 15502,
+    "gbGuid": "3030-15502"
+  },
+  {
+    "name": "Syphon Filter: The Omega Strain",
+    "id": "ps2ge103",
+    "details": "no colors printed over gold",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/syphonOS.jpg",
+    "type": "Printing",
+    "igdbId": 20185,
+    "gbId": 13336,
+    "gbGuid": "3030-13336"
+  },
+  {
+    "name": "Syphon Filter: The Omega Strain",
+    "id": "ps2ge104",
+    "details": "no game included",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Packing",
+    "igdbId": 20185,
+    "gbId": 13336,
+    "gbGuid": "3030-13336"
+  },
+  {
+    "name": "The Getaway",
+    "id": "ps2ge105",
+    "details": "extremely miscut insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/getaway.png",
+    "type": "Cutting",
+    "igdbId": 8237,
+    "gbId": 1470,
+    "gbGuid": "3030-1470"
+  },
+  {
+    "name": "Thunder Cross (Japan)",
+    "id": "ps2ge106",
+    "details": "poor print quality on first and last pages",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/thundercrossps22.jpg",
+    "type": "Printing",
+    "igdbId": 46772,
+    "gbId": 53756,
+    "gbGuid": "3030-53756"
+  },
+  {
+    "name": "Tiger Woods PGA Tour 2003",
+    "id": "ps2ge107",
+    "details": "Incorrect SLUS on spine SLUS 20535 should be SLUS 20572\nSLUS 20535 belongs to NASCAR Thunder 2003",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/tigerwoods2003_zps58c4ac07.jpg",
+    "type": "Typo",
+    "igdbId": 904,
+    "gbId": 13664,
+    "gbGuid": "3030-13664"
+  },
+  {
+    "name": "Tokyo Road Race",
+    "id": "ps2ge108",
+    "details": "says Toyko Road Race on Spine",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/toykoroadracepal.jpg",
+    "type": "Typo",
+    "igdbId": 43303,
+    "gbId": 55447,
+    "gbGuid": "3030-55447"
+  },
+  {
+    "name": "Tom Clancy's Splinter Cell",
+    "id": "ps2ge109",
+    "details": "says it takes up 493MB for memory card space",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/splintercell.jpg",
+    "type": "Typo",
+    "igdbId": 910,
+    "gbId": 5961,
+    "gbGuid": "3030-5961"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 4",
+    "id": "ps2ge110",
+    "details": "shading layer rotated",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/thawk4.jpg",
+    "type": "Printing",
+    "igdbId": 915,
+    "gbId": 2101,
+    "gbGuid": "3030-2101"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 4 (GH)",
+    "id": "ps2ge111",
+    "details": "says saves take up 80M instead of 80K",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/thawk480m.jpg",
+    "type": "Typo",
+    "igdbId": 915,
+    "gbId": 2101,
+    "gbGuid": "3030-2101"
+  },
+  {
+    "name": "Twisted Metal: Black Online (PAL)",
+    "id": "ps2ge112",
+    "details": "used DVD icon instead of CD Rom icon",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/twisted.jpg",
+    "type": "Printing",
+    "igdbId": 22240,
+    "gbId": 9267,
+    "gbGuid": "3030-9267"
+  },
+  {
+    "name": "Unknown Game (PAL)",
+    "id": "ps2ge113",
+    "details": "no Insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/unknown.jpg",
+    "type": "Assembly",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Unknown Ps2 game",
+    "id": "ps2ge114",
+    "details": "blank cover sheet",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/unknownusps21.jpg",
+    "type": "Printing",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Victorious Boxers: Ippo's Road to Glory",
+    "id": "ps2ge115",
+    "details": "says Disc 1 on Disc when there was only one disc to the game",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/victboxers.jpg",
+    "type": "Typo",
+    "igdbId": 43527,
+    "gbId": 18949,
+    "gbGuid": "3030-18949"
+  },
+  {
+    "name": "World Tour Soccer 2002",
+    "id": "ps2ge116",
+    "details": "no insert",
+    "image": "https://iamerror.gamehacking.org/Sony/ps2/worldtoursocnosleeve_zpsn8q40h3l.jpg",
+    "type": "Assembly",
+    "igdbId": 23444,
+    "gbId": 15964,
+    "gbGuid": "3030-15964"
+  }
+]

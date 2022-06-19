@@ -1,0 +1,542 @@
+[
+  {
+    "name": "3-D Tic-Tac-Toe",
+    "id": "a2600ge1",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/3d-tictac-1986-paddles.jpg",
+    "type": "Typo",
+    "igdbId": 11854,
+    "gbId": 1025,
+    "gbGuid": "3030-1025"
+  },
+  {
+    "name": "Air-Sea Battle",
+    "id": "a2600ge2",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/air-sea-battle-1986.jpg",
+    "type": "Typo",
+    "igdbId": 11859,
+    "gbId": 5348,
+    "gbGuid": "3030-5348"
+  },
+  {
+    "name": "BASIC Programming",
+    "id": "a2600ge4",
+    "details": "starburst printing error",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/basic2600.jpg",
+    "type": "Printing",
+    "igdbId": 54794,
+    "gbId": 23772,
+    "gbGuid": "3030-23772"
+  },
+  {
+    "name": "BASIC Programming",
+    "id": "a2600ge5",
+    "details": "double label and printing error",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/basic2.jpg",
+    "type": "Multiple",
+    "igdbId": 54794,
+    "gbId": 23772,
+    "gbGuid": "3030-23772"
+  },
+  {
+    "name": "Breakout",
+    "id": "a2600ge6",
+    "details": "says for joystick controller not paddle controller was sticker corrected then later printed without text",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/breakoutint.jpg",
+    "type": "Typo",
+    "igdbId": 2754,
+    "gbId": 13049,
+    "gbGuid": "3030-13049"
+  },
+  {
+    "name": "Centipede",
+    "id": "a2600ge7",
+    "details": "upside down end label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/centipedeusdend_zpsf6066072.jpg",
+    "type": "Label Position",
+    "igdbId": 2235,
+    "gbId": 1157,
+    "gbGuid": "3030-1157"
+  },
+  {
+    "name": "Centipede",
+    "id": "a2600ge8",
+    "details": "double labeled with colecovision label underneath",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/centipede1.jpg",
+    "type": "Labeling",
+    "igdbId": 2235,
+    "gbId": 1157,
+    "gbGuid": "3030-1157"
+  },
+  {
+    "name": "Circus Atari",
+    "id": "a2600ge9",
+    "details": "end label upside down",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/circusatariusdel.jpg",
+    "type": "Label Position",
+    "igdbId": 5667,
+    "gbId": 1936,
+    "gbGuid": "3030-1936"
+  },
+  {
+    "name": "Code Breaker",
+    "id": "a2600ge10",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases was tape corrected\ntape removed as noted in pic",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/codebreaker.jpg",
+    "type": "Typo",
+    "igdbId": 43621,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Combat",
+    "id": "a2600ge11",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/usdcombat_zpsgn4jkkbq.jpg",
+    "type": "Label Position",
+    "igdbId": 16759,
+    "gbId": 5368,
+    "gbGuid": "3030-5368"
+  },
+  {
+    "name": "Computer Chess",
+    "id": "a2600ge12",
+    "details": "upside down and blank label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/computerchessblank_zps45adbfea.jpg",
+    "type": "Multiple",
+    "igdbId": 47531,
+    "gbId": 14976,
+    "gbGuid": "3030-14976"
+  },
+  {
+    "name": "A Game of Concentration",
+    "id": "a2600ge13",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/c_GameOfConcentration_Picture_front.jpg",
+    "type": "Typo",
+    "igdbId": 40723,
+    "gbId": 25476,
+    "gbGuid": "3030-25476"
+  },
+  {
+    "name": "Cosmic Creeps",
+    "id": "a2600ge14",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/cosmiccreeps.jpg",
+    "type": "Label Position",
+    "igdbId": 18547,
+    "gbId": 4260,
+    "gbGuid": "3030-4260"
+  },
+  {
+    "name": "Dark Chambers",
+    "id": "a2600ge15",
+    "details": "end label upside down",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/darkchambers.jpg",
+    "type": "Label Position",
+    "igdbId": 11869,
+    "gbId": 15295,
+    "gbGuid": "3030-15295"
+  },
+  {
+    "name": "Defender (PAL)",
+    "id": "a2600ge16",
+    "details": "Copyright info on label says (c) 1981 ATRRI, Inc.",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/defender-atrri.jpg",
+    "type": "Typo",
+    "igdbId": 3873,
+    "gbId": 5536,
+    "gbGuid": "3030-5536"
+  },
+  {
+    "name": "Dodge 'Em",
+    "id": "a2600ge17",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/dodgeemuwpc.jpg",
+    "type": "Typo",
+    "igdbId": 17020,
+    "gbId": 23399,
+    "gbGuid": "3030-23399"
+  },
+  {
+    "name": "Donkey Kong Junior",
+    "id": "a2600ge18",
+    "details": "printer justification error",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/dkjr2600.jpg",
+    "type": "Printing",
+    "igdbId": 192911,
+    "gbId": 19416,
+    "gbGuid": "3030-19416"
+  },
+  {
+    "name": "Enduro",
+    "id": "a2600ge19",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/enduro.jpg",
+    "type": "Label Position",
+    "igdbId": 18669,
+    "gbId": 6844,
+    "gbGuid": "3030-6844"
+  },
+  {
+    "name": "Flag Capture",
+    "id": "a2600ge20",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/flagcapture-atari-pic.jpg",
+    "type": "Typo",
+    "igdbId": 17024,
+    "gbId": 13981,
+    "gbGuid": "3030-13981"
+  },
+  {
+    "name": "Freeway",
+    "id": "a2600ge21",
+    "details": "Upside down label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/freeway.jpg",
+    "type": "Label Position",
+    "igdbId": 18045,
+    "gbId": 917,
+    "gbGuid": "3030-917"
+  },
+  {
+    "name": "Frog Pond",
+    "id": "a2600ge22",
+    "details": "double Label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/frogpond.jpg",
+    "type": "Labeling",
+    "igdbId": 172793,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Fun with Numbers",
+    "id": "a2600ge23",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/funwithnumbers-pic.jpg",
+    "type": "Typo",
+    "igdbId": 91817,
+    "gbId": 34582,
+    "gbGuid": "3030-34582"
+  },
+  {
+    "name": "Golf",
+    "id": "a2600ge24",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/golf_color_1986_cart_3.jpg",
+    "type": "Typo",
+    "igdbId": 18008,
+    "gbId": 3109,
+    "gbGuid": "3030-3109"
+  },
+  {
+    "name": "Grand Prix",
+    "id": "a2600ge25",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/grand-prix-blue2usd.jpg",
+    "type": "Label Position",
+    "igdbId": 18103,
+    "gbId": 6394,
+    "gbGuid": "3030-6394"
+  },
+  {
+    "name": "Home Run",
+    "id": "a2600ge26",
+    "details": "no controller instructions given was tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/homerun2600.jpg",
+    "type": "Typo",
+    "igdbId": 18414,
+    "gbId": 7287,
+    "gbGuid": "3030-7287"
+  },
+  {
+    "name": "Jawbreaker",
+    "id": "a2600ge27",
+    "details": "double Labeled",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/jawbreaker.jpg",
+    "type": "Labeling",
+    "igdbId": 18757,
+    "gbId": 16977,
+    "gbGuid": "3030-16977"
+  },
+  {
+    "name": "Joust",
+    "id": "a2600ge28",
+    "details": "P on end label and Atari spelled as Atar on main label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/c_Joust_Silver_p_end.jpg",
+    "type": "Typo",
+    "igdbId": 3659,
+    "gbId": 11689,
+    "gbGuid": "3030-11689"
+  },
+  {
+    "name": "Kangaroo",
+    "id": "a2600ge29",
+    "details": "off center cut of label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/kangaroo.jpg",
+    "type": "Cutting",
+    "igdbId": 12310,
+    "gbId": 11432,
+    "gbGuid": "3030-11432"
+  },
+  {
+    "name": "Keystone Kapers",
+    "id": "a2600ge30",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/keystone.jpg",
+    "type": "Label Position",
+    "igdbId": 12311,
+    "gbId": 4423,
+    "gbGuid": "3030-4423"
+  },
+  {
+    "name": "Megamania",
+    "id": "a2600ge31",
+    "details": "Double Labeled",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/megamania1.jpg",
+    "type": "Labeling",
+    "igdbId": 12312,
+    "gbId": 9694,
+    "gbGuid": "3030-9694"
+  },
+  {
+    "name": "Miner 2049er",
+    "id": "a2600ge32",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/2049er.jpg",
+    "type": "Label Position",
+    "igdbId": 18651,
+    "gbId": 14533,
+    "gbGuid": "3030-14533"
+  },
+  {
+    "name": "Pac-Man",
+    "id": "a2600ge33",
+    "details": "label placed off to one side",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/pacmanatari.jpg",
+    "type": "Label Position",
+    "igdbId": 2750,
+    "gbId": 7624,
+    "gbGuid": "3030-7624"
+  },
+  {
+    "name": "Pelé's Soccer",
+    "id": "a2600ge34",
+    "details": "says \"Atari Game Program Instructions\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/pele-soccer-1986.jpg",
+    "type": "Typo",
+    "igdbId": 18413,
+    "gbId": 27183,
+    "gbGuid": "3030-27183"
+  },
+  {
+    "name": "Pengo (PAL)",
+    "id": "a2600ge35",
+    "details": "says \"For use with paddle controllers\"",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/pengocontrolerrpal.jpg",
+    "type": "Typo",
+    "igdbId": 12316,
+    "gbId": 4196,
+    "gbGuid": "3030-4196"
+  },
+  {
+    "name": "Pole Position",
+    "id": "a2600ge36",
+    "details": "says Pole Positn' on end label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/c_PolePosition_Silver_positn_end.jpg",
+    "type": "Typo",
+    "igdbId": 5691,
+    "gbId": 10087,
+    "gbGuid": "3030-10087"
+  },
+  {
+    "name": "Video Olympics",
+    "id": "a2600ge37",
+    "details": "Upside down End Label (label says 'Pong Sports' as Sears rebranded to Video Olympics)",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/pongsportsend_zpscd234de8.jpg",
+    "type": "Label Position",
+    "igdbId": 54791,
+    "gbId": 3294,
+    "gbGuid": "3030-3294"
+  },
+  {
+    "name": "Raiders of the Lost Ark",
+    "id": "a2600ge38",
+    "details": "says Raiders Lost Ark on end label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/raiderstypo.jpg",
+    "type": "Typo",
+    "igdbId": 18036,
+    "gbId": 4739,
+    "gbGuid": "3030-4739"
+  },
+  {
+    "name": "RealSports Boxing (PAL)",
+    "id": "a2600ge39",
+    "details": "Says Atari 2600 Video Game Cartridge on end label instead of title",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/realsportsboxingpal.jpg",
+    "type": "Typo",
+    "igdbId": 18417,
+    "gbId": 6353,
+    "gbGuid": "3030-6353"
+  },
+  {
+    "name": "Sea Hawk",
+    "id": "a2600ge40",
+    "details": "called Sea Hank on Box was tape corrected \nSea Hank still visible through tape",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/sea_hawk_zellers_cart_2.jpg",
+    "type": "Typo",
+    "igdbId": 23911,
+    "gbId": 8663,
+    "gbGuid": "3030-8663"
+  },
+  {
+    "name": "Skeet Shoot",
+    "id": "a2600ge41",
+    "details": "upside down end label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/skeetshoot.jpg",
+    "type": "Label Position",
+    "igdbId": 40615,
+    "gbId": 4690,
+    "gbGuid": "3030-4690"
+  },
+  {
+    "name": "Slot Machine",
+    "id": "a2600ge42",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/slotusdml.jpg",
+    "type": "Label Position",
+    "igdbId": 18421,
+    "gbId": 9852,
+    "gbGuid": "3030-9852"
+  },
+  {
+    "name": "Space War (Space Combat)",
+    "id": "a2600ge43",
+    "details": "Double Labeled",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/spacecombatdl_zpscw28urdx.jpg",
+    "type": "Assembly",
+    "igdbId": 54792,
+    "gbId": 6674,
+    "gbGuid": "3030-6674"
+  },
+  {
+    "name": "Space Invaders",
+    "id": "a2600ge44",
+    "details": "Upside down end label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/spaceinvaders.jpg",
+    "type": "Label Position",
+    "igdbId": 3601,
+    "gbId": 5099,
+    "gbGuid": "3030-5099"
+  },
+  {
+    "name": "Star Raiders",
+    "id": "a2600ge45",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/starraiders.jpg",
+    "type": "Label Position",
+    "igdbId": 2217,
+    "gbId": 730,
+    "gbGuid": "3030-730"
+  },
+  {
+    "name": "Star Trek: Strategic Operations Simulator",
+    "id": "a2600ge46",
+    "details": "printer justification error on label ",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/startreksos.jpg",
+    "type": "Printing",
+    "igdbId": 12319,
+    "gbId": 13785,
+    "gbGuid": "3030-13785"
+  },
+  {
+    "name": "Super Cobra",
+    "id": "a2600ge47",
+    "details": "corner was folded over when cut pages stuck together",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/supercobramanual2_zps75ifyidj.jpg",
+    "type": "Cutting",
+    "igdbId": 5708,
+    "gbId": 10519,
+    "gbGuid": "3030-10519"
+  },
+  {
+    "name": "Super Challenge Football",
+    "id": "a2600ge48",
+    "details": "says Atari 7800 on end label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/superfootball7800_zpsljo6epjc.jpg",
+    "type": "Typo",
+    "igdbId": 40595,
+    "gbId": 32603,
+    "gbGuid": "3030-32603"
+  },
+  {
+    "name": "Superman",
+    "id": "a2600ge49",
+    "details": "printing error on label and double labeled",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/superman26001.jpg",
+    "type": "Multiple",
+    "igdbId": 18711,
+    "gbId": 769,
+    "gbGuid": "3030-769"
+  },
+  {
+    "name": "Track & Field",
+    "id": "a2600ge50",
+    "details": "game ID listed as 26127 which is for Gremlins",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/trackandfield_zps64ttogqt.jpg",
+    "type": "Typo",
+    "igdbId": 6439,
+    "gbId": 18232,
+    "gbGuid": "3030-18232"
+  },
+  {
+    "name": "Video Checkers",
+    "id": "a2600ge51",
+    "details": "says \"For use with paddle controllers\" part of 1986 releases maybe tape corrected",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/videocheckers-pic-1986.jpg",
+    "type": "Typo",
+    "igdbId": 18003,
+    "gbId": 13846,
+    "gbGuid": "3030-13846"
+  },
+  {
+    "name": "Video Pinball",
+    "id": "a2600ge52",
+    "details": "P on Label indicating PAL game on US game",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/videopinballpalmislabel.jpg",
+    "type": "Typo",
+    "igdbId": 46877,
+    "gbId": 11532,
+    "gbGuid": "3030-11532"
+  },
+  {
+    "name": "Video Pinball",
+    "id": "a2600ge53",
+    "details": "double labeled",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/videopballdouble.jpg",
+    "type": "Labeling",
+    "igdbId": 46877,
+    "gbId": 11532,
+    "gbGuid": "3030-11532"
+  },
+  {
+    "name": "Xonox Artillery Duel/ Spike's Peak",
+    "id": "a2600ge54",
+    "details": "double labeled",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/spike_artillery_zpsdd4d4cce.jpg",
+    "type": "Assembly",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null
+  },
+  {
+    "name": "Yars' Revenge",
+    "id": "a2600ge55",
+    "details": "double labeled red over black label",
+    "image": "https://iamerror.gamehacking.org/Atari/atari2600/yars0.jpg",
+    "type": "Labeling",
+    "igdbId": 9757,
+    "gbId": 14821,
+    "gbGuid": "3030-14821"
+  }
+]

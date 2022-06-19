@@ -1,0 +1,65 @@
+[
+  {
+    "id": "atcd1",
+    "name": "Blue Lightning",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 74903,
+    "gbId": 3142,
+    "gbGuid": "3030-3142",
+    "tgdbId": 5256
+  },
+  {
+    "id": "atcd2",
+    "name": "Vid Grid",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 71297,
+    "gbId": 2471,
+    "gbGuid": "3030-2471",
+    "tgdbId": 61120
+  },
+  {
+    "id": "atcd3",
+    "name": "Myst",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 236,
+    "gbId": 3970,
+    "gbGuid": "3030-3970",
+    "tgdbId": 4849
+  },
+  {
+    "id": "atcd4",
+    "name": "Battlemorph",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 70194,
+    "gbId": 14418,
+    "gbGuid": "3030-14418",
+    "tgdbId": 5254
+  },
+  {
+    "id": "atcd5",
+    "name": "Highlander: The Last of the MacLeods",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 46925,
+    "gbId": 10156,
+    "gbGuid": "3030-10156",
+    "tgdbId": 5260
+  },
+  {
+    "id": "atcd6",
+    "name": "Hover Strike: Unconquered Lands",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 46924,
+    "gbId": 19650,
+    "gbGuid": "3030-19650",
+    "tgdbId": 5261
+  },
+  {
+    "id": "atcd7",
+    "name": "Baldies",
+    "details": "Atari Jaguar CD launch title",
+    "igdbId": 90071,
+    "gbId": 2710,
+    "gbGuid": "3030-2710",
+    "tgdbId": 5252
+  }
+]

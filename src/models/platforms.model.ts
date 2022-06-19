@@ -204,3 +204,8 @@ export interface PgameData {
 export interface PgameReturn {
   [key: string]: PgameData;
 }
+
+export interface PlatformsPageItem extends IConsole {
+  conEx: PlatExtraData[];
+  pgame?: PgameData;
+}

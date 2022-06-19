@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Arumana no Kiseki",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex1",
+    "igdbId": 41255,
+    "gbId": 35518,
+    "gbGuid": "3030-35518",
+    "tgdbId": 32098
+  },
+  {
+    "name": "Cleopatra no Mahou",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex2",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42815
+  },
+  {
+    "name": "Dead Zone",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex3",
+    "igdbId": 41278,
+    "gbId": 41772,
+    "gbGuid": "3030-41772",
+    "tgdbId": 34386
+  },
+  {
+    "name": "Doremikko",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex4",
+    "igdbId": 41315,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42896
+  },
+  {
+    "name": "Falsion",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex5",
+    "igdbId": 64648,
+    "gbId": 39611,
+    "gbGuid": "3030-39611",
+    "tgdbId": 32445
+  },
+  {
+    "name": "Gall Force: Eternal Story",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex6",
+    "igdbId": 107627,
+    "gbId": 42172,
+    "gbGuid": "3030-42172",
+    "tgdbId": 32469
+  },
+  {
+    "name": "The Sword of Kalin",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex7",
+    "igdbId": 41286,
+    "gbId": 39606,
+    "gbGuid": "3030-39606",
+    "tgdbId": 32468
+  },
+  {
+    "name": "Knight Move",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex8",
+    "igdbId": 41270,
+    "gbId": 40461,
+    "gbGuid": "3030-40461",
+    "tgdbId": 33182
+  },
+  {
+    "name": "Meikyuu Jiin Dababa",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex9",
+    "igdbId": 41290,
+    "gbId": 39304,
+    "gbGuid": "3030-39304",
+    "tgdbId": 32444
+  },
+  {
+    "name": "Nakayama Miho no Tokimeki High School",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex10",
+    "igdbId": 41284,
+    "gbId": 37810,
+    "gbGuid": "3030-37810",
+    "tgdbId": 32767
+  },
+  {
+    "name": "Otocky",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex11",
+    "igdbId": 41234,
+    "gbId": 22383,
+    "gbGuid": "3030-22383",
+    "tgdbId": 26494
+  },
+  {
+    "name": "Risa no Yousei Densetsu",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex12",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42797
+  },
+  {
+    "name": "Suishō no Dragon",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex13",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Super Boy Allan",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex14",
+    "igdbId": 41305,
+    "gbId": 42272,
+    "gbGuid": "3030-42272",
+    "tgdbId": 41371
+  },
+  {
+    "name": "Tama and Friends",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex15",
+    "igdbId": 80502,
+    "gbId": 40596,
+    "gbGuid": "3030-40596",
+    "tgdbId": null
+  },
+  {
+    "name": "Time Twist Rekishi no Katasumi de... - Kouhen",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex16",
+    "igdbId": 41361,
+    "gbId": 37842,
+    "gbGuid": "3030-37842",
+    "tgdbId": 42898
+  },
+  {
+    "name": "Yūyūki",
+    "details": "Famicom Disk System exclusive",
+    "id": "fdsex17",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  }
+]

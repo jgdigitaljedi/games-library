@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Battleship",
+    "id": "cdilt1",
+    "details": "Philips CD-i launch title",
+    "igdbId": 77147,
+    "gbId": 37060,
+    "gbGuid": "3030-37060",
+    "tgdbId": 1638
+  },
+  {
+    "name": "Beauty and the Beast",
+    "id": "cdilt2",
+    "details": "Philips CD-i launch title",
+    "igdbId": 87474,
+    "gbId": 42700,
+    "gbGuid": "3030-42700",
+    "tgdbId": 3170
+  },
+  {
+    "name": "Caesar's World of Boxing",
+    "id": "cdilt3",
+    "details": "Philips CD-i launch title",
+    "igdbId": 45941,
+    "gbId": 23709,
+    "gbGuid": "3030-23709",
+    "tgdbId": 22986
+  },
+  {
+    "name": "Connect Four",
+    "id": "cdilt4",
+    "details": "Philips CD-i launch title",
+    "igdbId": 45935,
+    "gbId": 38715,
+    "gbGuid": "3030-38715",
+    "tgdbId": 22995
+  },
+  {
+    "name": "Dark Castle",
+    "id": "cdilt5",
+    "details": "Philips CD-i launch title",
+    "igdbId": 12034,
+    "gbId": 16167,
+    "gbGuid": "3030-16167",
+    "tgdbId": 469
+  },
+  {
+    "name": "Defender of the Crown",
+    "id": "cdilt6",
+    "details": "Philips CD-i launch title",
+    "igdbId": 1873,
+    "gbId": 5773,
+    "gbGuid": "3030-5773",
+    "tgdbId": 1263
+  },
+  {
+    "name": "Pac-Panic",
+    "id": "cdilt7",
+    "details": "Philips CD-i launch title",
+    "igdbId": 46572,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 23062
+  },
+  {
+    "name": "Sargon Chess",
+    "id": "cdilt8",
+    "details": "Philips CD-i launch title",
+    "igdbId": 46568,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 23070
+  }
+]

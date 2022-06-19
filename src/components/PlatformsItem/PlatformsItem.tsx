@@ -9,10 +9,6 @@ interface PlatformsItemProps {
 }
 
 const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame }) => {
-  console.log('platform', platform);
-  console.log('extra', extra);
-  console.log('pgame', pgame);
-
   const launchTitles = useMemo(() => {
     // @ts-ignore
     const ltObj = extra?.find(l => l.dataSet === 'LT');

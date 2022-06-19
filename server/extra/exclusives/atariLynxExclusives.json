@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Awesome Golf",
+    "details": "Atari Lynx exclusive",
+    "id": "alex1",
+    "igdbId": 12363,
+    "gbId": 16701,
+    "gbGuid": "3030-16701",
+    "tgdbId": 23773
+  },
+  {
+    "name": "Battle Wheels",
+    "details": "Atari Lynx exclusive",
+    "id": "alex2",
+    "igdbId": 46922,
+    "gbId": 13646,
+    "gbGuid": "3030-13646",
+    "tgdbId": 19539
+  },
+  {
+    "name": "Bill & Ted's Excellent Adventure",
+    "details": "Atari Lynx exclusive",
+    "id": "alex3",
+    "igdbId": 14302,
+    "gbId": 7523,
+    "gbGuid": "3030-7523",
+    "tgdbId": 22406
+  },
+  {
+    "name": "Blue Lightning",
+    "details": "Atari Lynx exclusive",
+    "id": "alex4",
+    "igdbId": 74903,
+    "gbId": 3142,
+    "gbGuid": "3030-3142",
+    "tgdbId": 5256
+  },
+  {
+    "name": "Bubble Trouble",
+    "details": "Atari Lynx exclusive",
+    "id": "alex5",
+    "igdbId": 40836,
+    "gbId": 1886,
+    "gbGuid": "3030-1886",
+    "tgdbId": 22408
+  },
+  {
+    "name": "Checkered Flag",
+    "details": "Atari Lynx exclusive",
+    "id": "alex6",
+    "igdbId": 40815,
+    "gbId": 12786,
+    "gbGuid": "3030-12786",
+    "tgdbId": 14797
+  },
+  {
+    "name": "Dirty Larry: Renegade Cop",
+    "details": "Atari Lynx exclusive",
+    "id": "alex7",
+    "igdbId": 72204,
+    "gbId": 5656,
+    "gbGuid": "3030-5656",
+    "tgdbId": 19542
+  },
+  {
+    "name": "Dracula: The Undead",
+    "details": "Atari Lynx exclusive",
+    "id": "alex8",
+    "igdbId": 46920,
+    "gbId": 5635,
+    "gbGuid": "3030-5635",
+    "tgdbId": 19550
+  },
+  {
+    "name": "Electrocop",
+    "details": "Atari Lynx exclusive",
+    "id": "alex9",
+    "igdbId": 40832,
+    "gbId": 11150,
+    "gbGuid": "3030-11150",
+    "tgdbId": 19551
+  },
+  {
+    "name": "The Fidelity Ultimate Chess Challenge",
+    "details": "Atari Lynx exclusive",
+    "id": "alex10",
+    "igdbId": 40838,
+    "gbId": 16214,
+    "gbGuid": "3030-16214",
+    "tgdbId": 65279
+  },
+  {
+    "name": "Gates of Zendocon",
+    "details": "Atari Lynx exclusive",
+    "id": "alex11",
+    "igdbId": 6035,
+    "gbId": 6909,
+    "gbGuid": "3030-6909",
+    "tgdbId": 19552
+  },
+  {
+    "name": "Gauntlet: The Third Encounter",
+    "details": "Atari Lynx exclusive",
+    "id": "alex12",
+    "igdbId": 7295,
+    "gbId": 13636,
+    "gbGuid": "3030-13636",
+    "tgdbId": 22418
+  },
+  {
+    "name": "Gordo 106",
+    "details": "Atari Lynx exclusive",
+    "id": "alex13",
+    "igdbId": 40837,
+    "gbId": 18537,
+    "gbGuid": "3030-18537",
+    "tgdbId": 22419
+  },
+  {
+    "name": "Hockey",
+    "details": "Atari Lynx exclusive",
+    "id": "alex14",
+    "igdbId": 68153,
+    "gbId": 16958,
+    "gbGuid": "3030-16958",
+    "tgdbId": 22421
+  },
+  {
+    "name": "Kung Food",
+    "details": "Atari Lynx exclusive",
+    "id": "alex15",
+    "igdbId": 12365,
+    "gbId": 1030,
+    "gbGuid": "3030-1030",
+    "tgdbId": 22428
+  },
+  {
+    "name": "Lynx Casino",
+    "details": "Atari Lynx exclusive",
+    "id": "alex16",
+    "igdbId": 40857,
+    "gbId": 8529,
+    "gbGuid": "3030-8529",
+    "tgdbId": 22431
+  },
+  {
+    "name": "Malibu Bikini Volleyball",
+    "details": "Atari Lynx exclusive",
+    "id": "alex17",
+    "igdbId": 40856,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 22432
+  },
+  {
+    "name": "NFL Football",
+    "details": "Atari Lynx exclusive",
+    "id": "alex18",
+    "igdbId": 64743,
+    "gbId": 15289,
+    "gbGuid": "3030-15289",
+    "tgdbId": 1965
+  },
+  {
+    "name": "Police Force",
+    "details": "Atari Lynx exclusive",
+    "id": "alex19",
+    "igdbId": 10709,
+    "gbId": 35209,
+    "gbGuid": "3030-35209",
+    "tgdbId": 9035
+  },
+  {
+    "name": "Power Factor",
+    "details": "Atari Lynx exclusive",
+    "id": "alex20",
+    "igdbId": 62298,
+    "gbId": 45163,
+    "gbGuid": "3030-45163",
+    "tgdbId": 27051
+  },
+  {
+    "name": "Robo-Squash",
+    "details": "Atari Lynx exclusive",
+    "id": "alex21",
+    "igdbId": 40833,
+    "gbId": 22147,
+    "gbGuid": "3030-22147",
+    "tgdbId": 19611
+  },
+  {
+    "name": "Super Asteroids & Missile Command",
+    "details": "Atari Lynx exclusive",
+    "id": "alex22",
+    "igdbId": 40863,
+    "gbId": 34026,
+    "gbGuid": "3030-34026",
+    "tgdbId": 27053
+  },
+  {
+    "name": "Warbirds",
+    "details": "Atari Lynx exclusive",
+    "id": "alex23",
+    "igdbId": 121927,
+    "gbId": 3001,
+    "gbGuid": "3030-3001",
+    "tgdbId": 19557
+  },
+  {
+    "name": "World Class Soccer",
+    "details": "Atari Lynx exclusive",
+    "id": "alex24",
+    "igdbId": 40864,
+    "gbId": 13458,
+    "gbGuid": "3030-13458",
+    "tgdbId": 27050
+  },
+  {
+    "name": "Zaku",
+    "details": "Atari Lynx exclusive",
+    "id": "alex25",
+    "igdbId": 62001,
+    "gbId": 45684,
+    "gbGuid": "3030-45684",
+    "tgdbId": null
+  },
+  {
+    "name": "Zarlor Mercenary",
+    "details": "Atari Lynx exclusive",
+    "id": "alex26",
+    "igdbId": 12371,
+    "gbId": 22557,
+    "gbGuid": "3030-22557",
+    "tgdbId": 19560
+  }
+]

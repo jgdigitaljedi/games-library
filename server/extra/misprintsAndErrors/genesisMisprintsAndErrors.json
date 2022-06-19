@@ -1,0 +1,462 @@
+[
+  {
+    "name": "6-Pak",
+    "id": "genge1",
+    "details": "Printer justification error on black",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/6paksg.jpg",
+    "type": "Printing",
+    "igdbId": 86067,
+    "gbId": 37005,
+    "gbGuid": "3030-37005"
+  },
+  {
+    "name": "Aero the Acro-Bat 2 (PAL)",
+    "id": "genge2",
+    "details": "has Zero the Kamikaze Squirrel on manual",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/aero2_zps02a04014.png",
+    "type": "Printing",
+    "igdbId": 5349,
+    "gbId": 11514,
+    "gbGuid": "3030-11514"
+  },
+  {
+    "name": "Disney's Aladdin",
+    "id": "genge3",
+    "details": "manual cut crooked",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/aladdingen.jpg",
+    "type": "Cutting",
+    "igdbId": 8118,
+    "gbId": 19944,
+    "gbGuid": "3030-19944"
+  },
+  {
+    "name": "Altered Beast",
+    "id": "genge4",
+    "details": "Upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/alteredusd_zps8b673060.jpg",
+    "type": "Label Position",
+    "igdbId": 2604,
+    "gbId": 2536,
+    "gbGuid": "3030-2536"
+  },
+  {
+    "name": "Altered Beast",
+    "id": "genge5",
+    "details": "printer justification error on black",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/alterbeast2.jpg",
+    "type": "Printing",
+    "igdbId": 2604,
+    "gbId": 2536,
+    "gbGuid": "3030-2536"
+  },
+  {
+    "name": "Altered Beast (PAL)(AU)",
+    "id": "genge6",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/alterpalau_zps59kxhzj4.jpg",
+    "type": "Label Position",
+    "igdbId": 2604,
+    "gbId": 2536,
+    "gbGuid": "3030-2536"
+  },
+  {
+    "name": "Barkley: Shut Up and Jam!",
+    "id": "genge7",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Label Position",
+    "igdbId": 4520,
+    "gbId": 11891,
+    "gbGuid": "3030-11891"
+  },
+  {
+    "name": "Batman: The Video Game",
+    "id": "genge8",
+    "details": "uses nes screenshots on back",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/batmangen.jpg",
+    "type": "Printing",
+    "igdbId": 10510,
+    "gbId": 21264,
+    "gbGuid": "3030-21264"
+  },
+  {
+    "name": "Bubsy 2",
+    "id": "genge9",
+    "details": "no name on spine",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/bubsy2_zpsc6cb5af0.jpg",
+    "type": "Printing",
+    "igdbId": 7803,
+    "gbId": 17096,
+    "gbGuid": "3030-17096"
+  },
+  {
+    "name": "Comix Zone (PAL)",
+    "id": "genge10",
+    "details": "Upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/20150430_121734_resized_zps7tblgkza.jpg",
+    "type": "Label Position",
+    "igdbId": 3071,
+    "gbId": 1416,
+    "gbGuid": "3030-1416"
+  },
+  {
+    "name": "Earthworm Jim",
+    "id": "genge11",
+    "details": "Upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/ewjusd_zps9dfc256d.jpg",
+    "type": "Label Position",
+    "igdbId": 3480,
+    "gbId": 11133,
+    "gbGuid": "3030-11133"
+  },
+  {
+    "name": "F-22 Interceptor",
+    "id": "genge12",
+    "details": "no barcode or text on back printed on it",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/f22int.jpg",
+    "type": "Printing",
+    "igdbId": 19494,
+    "gbId": 17702,
+    "gbGuid": "3030-17702"
+  },
+  {
+    "name": "Gargoyles",
+    "id": "genge13",
+    "details": "Inner tray lacking red over most of the inner tray",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/gargoyalinner1_zpss1ndjbji.jpg",
+    "type": "Printing",
+    "igdbId": 4530,
+    "gbId": 352,
+    "gbGuid": "3030-352"
+  },
+  {
+    "name": "Ghouls 'n Ghosts (PAL)",
+    "id": "genge14",
+    "details": "printer justification error",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/goulsnghostMD.jpg",
+    "type": "Printing",
+    "igdbId": 6817,
+    "gbId": 12381,
+    "gbGuid": "3030-12381"
+  },
+  {
+    "name": "Golden Axe II",
+    "id": "genge15",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/goldenaxeii.jpg",
+    "type": "Label Position",
+    "igdbId": 16214,
+    "gbId": 5402,
+    "gbGuid": "3030-5402"
+  },
+  {
+    "name": "Heavy Nova",
+    "id": "genge16",
+    "details": "says Heavy Nov a s on back of box",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/heavynova.jpg",
+    "type": "Typo",
+    "igdbId": 5392,
+    "gbId": 1898,
+    "gbGuid": "3030-1898"
+  },
+  {
+    "name": "Izzy's Quest for the Olympic Rings",
+    "id": "genge17",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/izzy0.jpg",
+    "type": "Label Position",
+    "igdbId": 4455,
+    "gbId": 13750,
+    "gbGuid": "3030-13750"
+  },
+  {
+    "name": "Klax (PAL)",
+    "id": "genge18",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/klax.jpg",
+    "type": "Label Position",
+    "igdbId": 4484,
+    "gbId": 16455,
+    "gbGuid": "3030-16455"
+  },
+  {
+    "name": "Lemmings (PAL)(AU)",
+    "id": "genge19",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/lem2_zpsykhgeugm.jpg",
+    "type": "Label Position",
+    "igdbId": 4239,
+    "gbId": 1446,
+    "gbGuid": "3030-1446"
+  },
+  {
+    "name": "Triple Score: 3 Games in 1 (PAL)",
+    "id": "genge20",
+    "details": "Double Labeled Pal over US Pal Label Upside down",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/megagamesi1.jpg",
+    "type": "Multiple",
+    "igdbId": 10193,
+    "gbId": 18978,
+    "gbGuid": "3030-18978"
+  },
+  {
+    "name": "Michael Jackson's Moonwalker",
+    "id": "genge21",
+    "details": "Upside down Label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/mjmoonusd_zps6efd611e.jpg",
+    "type": "Label Position",
+    "igdbId": 18139,
+    "gbId": 21182,
+    "gbGuid": "3030-21182"
+  },
+  {
+    "name": "Michael Jackson's Moonwalker (PAL)(AU)",
+    "id": "genge22",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/mjmw_zpsyltu16om.jpg",
+    "type": "Label Position",
+    "igdbId": 18139,
+    "gbId": 21182,
+    "gbGuid": "3030-21182"
+  },
+  {
+    "name": "NBA Jam (PAL)",
+    "id": "genge23",
+    "details": "double labeled\nhas US label under Pal",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/58AC9DC5-C34A-42F7-4F91916929DD2CEC_zpscizvgl3y.png",
+    "type": "Labeling",
+    "igdbId": 8995,
+    "gbId": 16928,
+    "gbGuid": "3030-16928"
+  },
+  {
+    "name": "NBA Jam (PAL)",
+    "id": "genge24",
+    "details": "has US label under Pal. Pal label is upside down",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/NBAjamMD1_zpsd07f5adc.png",
+    "type": "Multiple",
+    "igdbId": 8995,
+    "gbId": 16928,
+    "gbGuid": "3030-16928"
+  },
+  {
+    "name": "OutRun 2019 (PAL)",
+    "id": "genge25",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/outrun2019.jpg",
+    "type": "Label Position",
+    "igdbId": 45767,
+    "gbId": 3452,
+    "gbGuid": "3030-3452"
+  },
+  {
+    "name": "Pac-Man 2: The New Adventures",
+    "id": "genge26",
+    "details": "Double label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/pac2dl_zps251d1b42.jpg",
+    "type": "Labeling",
+    "igdbId": 11603,
+    "gbId": 12294,
+    "gbGuid": "3030-12294"
+  },
+  {
+    "name": "Phelios",
+    "id": "genge27",
+    "details": "Upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/phelios.jpg",
+    "type": "Label Position",
+    "igdbId": 199420,
+    "gbId": 16380,
+    "gbGuid": "3030-16380"
+  },
+  {
+    "name": "Pit Fighter",
+    "id": "genge28",
+    "details": "upside down Label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/pitfighterusd1.jpg",
+    "type": "Label Position",
+    "igdbId": 6824,
+    "gbId": 12530,
+    "gbGuid": "3030-12530"
+  },
+  {
+    "name": "PowerMonger",
+    "id": "genge29",
+    "details": "The back of the game is an advertisement for the game F-22\nImage discovered from IG user: nate_the_nemesis",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/pmongerf22.png",
+    "type": "Printing",
+    "igdbId": 5423,
+    "gbId": 10027,
+    "gbGuid": "3030-10027"
+  },
+  {
+    "name": "Primal Rage (PAL)",
+    "id": "genge30",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/jparkpal.jpg",
+    "type": "Label Position",
+    "igdbId": 4271,
+    "gbId": 14078,
+    "gbGuid": "3030-14078"
+  },
+  {
+    "name": "R.B.I. Baseball '94 (PAL)",
+    "id": "genge31",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/rbibaseball94_zpsb3f83196.jpg",
+    "type": "Label Position",
+    "igdbId": null,
+    "gbId": 34381,
+    "gbGuid": "3030-34381"
+  },
+  {
+    "name": "Shadowrun",
+    "id": "genge32",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/shadowrun.jpg",
+    "type": "Label Position",
+    "igdbId": 3000,
+    "gbId": 21710,
+    "gbGuid": "3030-21710"
+  },
+  {
+    "name": "Sonic the Hedgehog 2",
+    "id": "genge33",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/sonic2usd_zpszqvf7ijv.jpg",
+    "type": "Label Position",
+    "igdbId": 4438,
+    "gbId": 1662,
+    "gbGuid": "3030-1662"
+  },
+  {
+    "name": "Sonic the Hedgehog 2 (Not for resale)",
+    "id": "genge34",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/sonic21_zps802d31dc.jpg",
+    "type": "Label Position",
+    "igdbId": 4438,
+    "gbId": 1662,
+    "gbGuid": "3030-1662"
+  },
+  {
+    "name": "Sonic the Hedgehog 3",
+    "id": "genge35",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/usdsonic3b.jpg",
+    "type": "Label Position",
+    "igdbId": 6797,
+    "gbId": 4628,
+    "gbGuid": "3030-4628"
+  },
+  {
+    "name": "Streets of Rage",
+    "id": "genge36",
+    "details": "PBC broken unevenly",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/sor1.jpg",
+    "type": "Cutting",
+    "igdbId": 1652,
+    "gbId": 20436,
+    "gbGuid": "3030-20436"
+  },
+  {
+    "name": "Streets of Rage 2",
+    "id": "genge37",
+    "details": "Center page not stapled in",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/SORgen.jpg",
+    "type": "Assembly",
+    "igdbId": 1653,
+    "gbId": 18122,
+    "gbGuid": "3030-18122"
+  },
+  {
+    "name": "Strider Returns",
+    "id": "genge38",
+    "details": "Strider II PAL label under Strider II US label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/strider-2-1_zps275a11b7.jpg",
+    "type": "Labeling",
+    "igdbId": 72621,
+    "gbId": 23690,
+    "gbGuid": "3030-23690"
+  },
+  {
+    "name": "Super Hang-On (PAL)",
+    "id": "genge39",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/superho_zps1a4345ad.jpg",
+    "type": "Label Position",
+    "igdbId": 6145,
+    "gbId": 18692,
+    "gbGuid": "3030-18692"
+  },
+  {
+    "name": "Talmit's Adventure (PAL)",
+    "id": "genge40",
+    "details": "page 19 printed over cover",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/talmit.jpg",
+    "type": "Printing",
+    "igdbId": 45570,
+    "gbId": 1054,
+    "gbGuid": "3030-1054"
+  },
+  {
+    "name": "Taz in Escape From Mars",
+    "id": "genge41",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/tazusd.jpg",
+    "type": "Label Position",
+    "igdbId": 8065,
+    "gbId": 19748,
+    "gbGuid": "3030-19748"
+  },
+  {
+    "name": "Taz in Escape From Mars (Mega Hits)",
+    "id": "genge42",
+    "details": "no title on spine",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/tazinescape.jpg",
+    "type": "Printing",
+    "igdbId": 8065,
+    "gbId": 19748,
+    "gbGuid": "3030-19748"
+  },
+  {
+    "name": "Thunder Force IV (PAL)",
+    "id": "genge43",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/thunderforceiv.jpg",
+    "type": "Label Position",
+    "igdbId": 6034,
+    "gbId": 11627,
+    "gbGuid": "3030-11627"
+  },
+  {
+    "name": "Turrican",
+    "id": "genge44",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/turrican1.jpg",
+    "type": "Label Position",
+    "igdbId": 5164,
+    "gbId": 15092,
+    "gbGuid": "3030-15092"
+  },
+  {
+    "name": "World Series Baseball '95",
+    "id": "genge45",
+    "details": "missing 95 on front and spine",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/WSBno95_zpsd48f644f.jpg",
+    "type": "Printing",
+    "igdbId": 46327,
+    "gbId": 43821,
+    "gbGuid": "3030-43821"
+  },
+  {
+    "name": "World Trophy Soccer",
+    "id": "genge46",
+    "details": "upside down label",
+    "image": "https://iamerror.gamehacking.org/Sega/segagen/WTSgen.jpg",
+    "type": "Label Position",
+    "igdbId": 4390,
+    "gbId": 5763,
+    "gbGuid": "3030-5763"
+  }
+]

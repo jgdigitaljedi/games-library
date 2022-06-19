@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Checkmate",
+    "id": "balt1",
+    "details": "Bally Astrocade launch title",
+    "igdbId": 81568,
+    "gbId": 27190,
+    "gbGuid": "3030-27190",
+    "tgdbId": 38868
+  },
+  {
+    "name": "Gun Fight",
+    "id": "balt2",
+    "details": "Bally Astrocade launch title",
+    "igdbId": 85868,
+    "gbId": 32574,
+    "gbGuid": "3030-32574",
+    "tgdbId": 34925
+  }
+]

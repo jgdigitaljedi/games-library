@@ -1,3 +1,4 @@
+import { IConsole } from '@/models/platforms.model';
 import Axios from 'axios';
 
 export default {
@@ -7,6 +8,7 @@ export default {
     'Atari 7800': 'logos/atari7800.svg',
     'Atari 5200': 'logos/Atari_5200_Logo.svg',
     'Atari Jaguar': 'logos/Atari_Jaguar.svg',
+    'Analogue Pocket': 'logos/analogue_logo_icon_145501.svg',
     Dreamcast: 'logos/Dreamcast_logo.svg',
     'Game Boy': 'logos/Gameboy_logo.svg',
     'Game Boy Advance': 'logos/Gameboy_advance_logo.svg',
@@ -19,6 +21,7 @@ export default {
     'Nintendo DS': 'logos/Nintendo_DS_Lite_logo.svg',
     'Nintendo DS Lite': 'logos/Nintendo_DS_Lite_logo.svg',
     'Nintendo Entertainment System (NES)': 'logos/NES_logo.svg',
+    'Nintendo Game Boy Pocket': 'logos/Gameboy-pocket-logo.svg',
     'Nintendo Game Boy Advance': 'logos/Gameboy_advance_logo.svg',
     'Nintendo Game Boy Color': 'logos/Game_Boy_Color_logo.svg',
     'Nintendo GameCube': 'logos/GC_Logo.svg',

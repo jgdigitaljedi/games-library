@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cyber-Lip",
+    "id": "aesge1",
+    "details": "Double Labeled",
+    "image": "https://iamerror.gamehacking.org/SNK/AES/cyberlip1.jpg",
+    "type": "Labeling",
+    "igdbId": 71622,
+    "gbId": 4600,
+    "gbGuid": "3030-4600"
+  },
+  {
+    "name": "Mutation Nation",
+    "id": "aesge2",
+    "details": "Japanese Label under US. ",
+    "image": "https://iamerror.gamehacking.org/SNK/AES/mutationnation.jpg",
+    "type": "Labeling",
+    "igdbId": 39522,
+    "gbId": 8377,
+    "gbGuid": "3030-8377"
+  },
+  {
+    "name": "Ninja Commando",
+    "id": "aesge3",
+    "details": "Japanese Label under US",
+    "image": "https://iamerror.gamehacking.org/SNK/AES/ninjacommando.jpg",
+    "type": "Labeling",
+    "igdbId": 39951,
+    "gbId": 5689,
+    "gbGuid": "3030-5689"
+  }
+]

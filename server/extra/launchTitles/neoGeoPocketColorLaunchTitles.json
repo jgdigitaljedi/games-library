@@ -1,0 +1,29 @@
+[
+  {
+    "id": "npclt1",
+    "name": "Biomotor Unitron",
+    "details": "Neo Geo Pocket Color launch title",
+    "igdbId": 43998,
+    "gbId": 21180,
+    "gbGuid": "3030-21180",
+    "tgdbId": 18492
+  },
+  {
+    "id": "npclt2",
+    "name": "Metal Slug 1st Mission",
+    "details": "Neo Geo Pocket Color launch title",
+    "igdbId": 43986,
+    "gbId": 5313,
+    "gbGuid": "3030-5313",
+    "tgdbId": 18485
+  },
+  {
+    "id": "npclt3",
+    "name": "Pac-Man",
+    "details": "Neo Geo Pocket Color launch title",
+    "igdbId": 2750,
+    "gbId": 7624,
+    "gbGuid": "3030-7624",
+    "tgdbId": 5190
+  }
+]

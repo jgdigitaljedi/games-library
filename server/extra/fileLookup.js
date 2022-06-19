@@ -15,6 +15,7 @@ const gen = require('./consoleSpecificGameData/SegaGenesis.json');
 const sat = require('./consoleSpecificGameData/SegaSaturn.json');
 const ps1 = require('./consoleSpecificGameData/SonyPlaystation.json');
 const ps2 = require('./consoleSpecificGameData/SonyPlaystation2.json');
+const ps3 = require('./consoleSpecificGameData/SonyPlaystation3.json');
 const psp = require('./consoleSpecificGameData/SonyPlayStationPortable.json');
 const snes = require('./consoleSpecificGameData/SuperNintendoEntertainmentSystem.json');
 const tg16 = require('./consoleSpecificGameData/TurboGrafx16.json');
@@ -29,16 +30,19 @@ const sms = require('./consoleSpecificGameData/SegaMasterSystem.json');
 const jag = require('./consoleSpecificGameData/AtariJaguar.json');
 const miv = require('./consoleSpecificGameData/MattelIntellivision.json');
 const nvb = require('./consoleSpecificGameData/VirtualBoy.json');
+const n3ds = require('./consoleSpecificGameData/Nintendo3DS.json');
+const r3do = require('./consoleSpecificGameData/3DOInteractiveMultiplayer.json');
+const nsw = require('./consoleSpecificGameData/NintendoSwitch.json');
 
 const igdbIdToFile = {
   '18': nes,
   '19': snes,
   '4': n64,
   '21': gc,
-  '130': null, // Nintendo Switch
+  '130': nsw, // Nintendo Switch
   '5': wii,
   '41': wiiU,
-  '37': null, // Nintendo 3DS
+  '37': n3ds, // Nintendo 3DS
   '24': gba,
   '29': gen,
   '30': s32x,
@@ -49,13 +53,13 @@ const igdbIdToFile = {
   '49': xbOne,
   '7': ps1,
   '8': ps2,
-  '9': null, // PS3
+  '9': ps3, // PS3
   '48': ps4, // ps4
   '38': psp,
   '20': ds,
   '33': gb,
   '22': gbc,
-  '50': null, // 3DO
+  '50': r3do, // 3DO
   '78': scd,
   '35': sGg,
   '86': tg16,

@@ -1,14 +1,14 @@
 [
   {
     "name": "AD&D: Slayer",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
     "id": "r3do0",
     "igdbId": 92033,
     "gbId": 26112,
     "gbGuid": "3030-26112",
     "tgdbId": 3143,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -20,18 +20,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Bishoujo Senshi Sailor Moon S",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
     "id": "r3do1",
     "igdbId": null,
     "gbId": 7640,
     "gbGuid": "3030-7640",
     "tgdbId": 26724,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -43,18 +44,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Blade Force",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
     "id": "r3do2",
     "igdbId": 11860,
     "gbId": 16059,
     "gbGuid": "3030-16059",
     "tgdbId": 4826,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -66,18 +68,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Club 3DO: Station Invasion",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
     "id": "r3do3",
     "igdbId": 38830,
     "gbId": 15624,
     "gbGuid": "3030-15624",
     "tgdbId": 23989,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -89,18 +92,45 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Corpse Killer",
+    "id": "r3do4",
+    "igdbId": 5372,
+    "gbId": 2817,
+    "gbGuid": "3030-2817",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Cowboy Casino",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do4",
+    "id": "r3do5",
     "igdbId": 38831,
     "gbId": 38706,
     "gbGuid": "3030-38706",
     "tgdbId": 23988,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -112,28 +142,18 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Crash 'n Burn",
-    "id": "r3do5",
-    "details": [
-      "3DO Interactive Multiplayer launch title",
-      "3do Interactive Multiplayer exclusive"
-    ],
+    "id": "r3do6",
     "igdbId": 95438,
     "gbId": 12850,
     "gbGuid": "3030-12850",
-    "tgdbId": null,
-    "isLaunchTitle": [
-      {
-        "name": "3DO Interactive Multiplayer",
-        "id": "ccl35",
-        "igdbId": 50,
-        "gbId": 26,
-        "gbGuid": "3045-26",
-        "tgdbId": 25
-      }
+    "tgdbId": 10089,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
     ],
     "isExclusive": [
       {
@@ -145,18 +165,124 @@
         "tgdbId": 25
       }
     ],
-    "special": []
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Creature Shock",
+    "id": "r3do7",
+    "igdbId": 9259,
+    "gbId": 227,
+    "gbGuid": "3030-227",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Crime Patrol",
+    "id": "r3do8",
+    "igdbId": 5373,
+    "gbId": 14268,
+    "gbGuid": "3030-14268",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Crime Patrol 2: Drug Wars",
+    "id": "r3do9",
+    "igdbId": 4242,
+    "gbId": 17362,
+    "gbGuid": "3030-17362",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Cyberdillo",
+    "id": "r3do10",
+    "igdbId": 39014,
+    "gbId": 17774,
+    "gbGuid": "3030-17774",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "DORAEMONS YUUJOU DENSETSU",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do6",
+    "id": "r3do11",
     "igdbId": 37224,
     "gbId": 33911,
     "gbGuid": "3030-33911",
     "tgdbId": 45447,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -168,18 +294,20 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Demolition Man",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do7",
+    "id": "r3do12",
     "igdbId": 4341,
     "gbId": 9607,
     "gbGuid": "3030-9607",
     "tgdbId": 1748,
+    "details": [
+      "3do Interactive Multiplayer exclusive",
+      "3DO Interactive Multiplayer GameGun game"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -191,18 +319,31 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Doctor Hauzer",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do8",
+    "id": "r3do13",
     "igdbId": 4278,
     "gbId": 36588,
     "gbGuid": "3030-36588",
     "tgdbId": 26667,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -214,18 +355,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Escape from Monster Manor",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do9",
+    "id": "r3do14",
     "igdbId": 4337,
     "gbId": 13852,
     "gbGuid": "3030-13852",
     "tgdbId": 10096,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -237,18 +379,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Foes of Ali",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do10",
+    "id": "r3do15",
     "igdbId": 4295,
     "gbId": 29980,
     "gbGuid": "3030-29980",
     "tgdbId": 4839,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -260,18 +403,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Guardian War",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do11",
+    "id": "r3do16",
     "igdbId": 4314,
     "gbId": 12367,
     "gbGuid": "3030-12367",
     "tgdbId": 10100,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -283,18 +427,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Immercenary",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do12",
+    "id": "r3do17",
     "igdbId": 4296,
     "gbId": 17893,
     "gbGuid": "3030-17893",
     "tgdbId": 4844,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -306,18 +451,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Iron Angel of the Apocalypse",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do13",
+    "id": "r3do18",
     "igdbId": 4322,
     "gbId": 12600,
     "gbGuid": "3030-12600",
     "tgdbId": 10102,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -329,18 +475,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Iron Angel of the Apocalypse: The Return",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do14",
+    "id": "r3do19",
     "igdbId": 4346,
     "gbId": 2855,
     "gbGuid": "3030-2855",
     "tgdbId": 10101,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -352,18 +499,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "John Madden Football",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do15",
+    "id": "r3do20",
     "igdbId": 13240,
     "gbId": 63837,
     "gbGuid": "3030-63837",
     "tgdbId": 286,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -375,18 +523,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Jurassic Park Interactive",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do16",
+    "id": "r3do21",
     "igdbId": 4277,
     "gbId": 43262,
     "gbGuid": "3030-43262",
     "tgdbId": 5843,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -398,18 +547,45 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Killing Time",
+    "id": "r3do22",
+    "igdbId": 4334,
+    "gbId": 975,
+    "gbGuid": "3030-975",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Kurokishi no Kamen",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do17",
+    "id": "r3do23",
     "igdbId": 112030,
     "gbId": 70175,
     "gbGuid": "3030-70175",
     "tgdbId": 55618,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -421,18 +597,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Life Stage, Virtual House",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do18",
+    "id": "r3do24",
     "igdbId": 4286,
     "gbId": 32506,
     "gbGuid": "3030-32506",
     "tgdbId": 43026,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -444,18 +621,71 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mad Dog II: The Lost Gold",
+    "id": "r3do25",
+    "igdbId": 4269,
+    "gbId": 12886,
+    "gbGuid": "3030-12886",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mad Dog McCree",
+    "id": "r3do26",
+    "igdbId": 4254,
+    "gbId": 17486,
+    "gbGuid": "3030-17486",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Pataank",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do19",
+    "id": "r3do27",
     "igdbId": 4333,
     "gbId": 6692,
     "gbGuid": "3030-6692",
     "tgdbId": 10136,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -467,18 +697,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Real Pinball",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do20",
+    "id": "r3do28",
     "igdbId": 4266,
     "gbId": 38079,
     "gbGuid": "3030-38079",
     "tgdbId": 10141,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -490,18 +721,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Scramble Cobra",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do21",
+    "id": "r3do29",
     "igdbId": 4315,
     "gbId": null,
     "gbGuid": null,
     "tgdbId": 10144,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -513,18 +745,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Seal of the Pharaoh",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do22",
+    "id": "r3do30",
     "igdbId": 4288,
     "gbId": 55066,
     "gbGuid": "3030-55066",
     "tgdbId": 43044,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -536,18 +769,45 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Sewer Shark",
+    "id": "r3do31",
+    "igdbId": 4293,
+    "gbId": 7427,
+    "gbGuid": "3030-7427",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Shadow: War of Succession",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do23",
+    "id": "r3do32",
     "igdbId": 4325,
     "gbId": 15219,
     "gbGuid": "3030-15219",
     "tgdbId": 26700,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -559,18 +819,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Slam 'n Jam 95",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do24",
+    "id": "r3do33",
     "igdbId": 39017,
     "gbId": 30156,
     "gbGuid": "3030-30156",
     "tgdbId": 4866,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -582,18 +843,97 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Space Pirates",
+    "id": "r3do34",
+    "igdbId": 4246,
+    "gbId": 15830,
+    "gbGuid": "3030-15830",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "StarBlade",
+    "id": "r3do35",
+    "igdbId": 4244,
+    "gbId": 1716,
+    "gbGuid": "3030-1716",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "The Last Bounty Hunter",
+    "id": "r3do36",
+    "igdbId": 4287,
+    "gbId": 2446,
+    "gbGuid": "3030-2446",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Twisted: The Game Show",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do25",
+    "id": "r3do37",
     "igdbId": 4321,
     "gbId": 7461,
     "gbGuid": "3030-7461",
     "tgdbId": 4884,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -605,18 +945,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Ultraman Powered",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do26",
+    "id": "r3do38",
     "igdbId": 4307,
     "gbId": 17160,
     "gbGuid": "3030-17160",
     "tgdbId": 43511,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -628,18 +969,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "VR Stalker",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do27",
+    "id": "r3do39",
     "igdbId": 4272,
     "gbId": 52410,
     "gbGuid": "3030-52410",
     "tgdbId": 10154,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -651,41 +993,19 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   },
   {
     "name": "Way of the Warrior",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do28",
+    "id": "r3do40",
     "igdbId": 4326,
     "gbId": 14900,
     "gbGuid": "3030-14900",
     "tgdbId": 4885,
-    "isExclusive": [
-      {
-        "name": "3DO Interactive Multiplayer",
-        "id": "ccl35",
-        "igdbId": 50,
-        "gbId": 26,
-        "gbGuid": "3045-26",
-        "tgdbId": 25
-      }
-    ],
-    "isLaunchTitle": false,
-    "special": []
-  },
-  {
-    "name": "Yuu Yuu Hakusho",
     "details": [
       "3do Interactive Multiplayer exclusive"
     ],
-    "id": "r3do29",
-    "igdbId": null,
-    "gbId": null,
-    "gbGuid": null,
-    "tgdbId": 29220,
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -697,18 +1017,45 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Who Shot Johnny Rock?",
+    "id": "r3do41",
+    "igdbId": 4281,
+    "gbId": 17503,
+    "gbGuid": "3030-17503",
+    "details": [
+      "3DO Interactive Multiplayer GameGun game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "3DO Interactive Multiplayer GameGun game",
+        "forPlatform": {
+          "name": "3DO Interactive Multiplayer",
+          "id": "ccl35",
+          "igdbId": 50,
+          "gbId": 26,
+          "gbGuid": "3045-26",
+          "tgdbId": 25
+        }
+      }
+    ],
+    "misprintsErrors": []
   },
   {
     "name": "Zhadnost: The People's Party",
-    "details": [
-      "3do Interactive Multiplayer exclusive"
-    ],
-    "id": "r3do30",
+    "id": "r3do42",
     "igdbId": 4298,
     "gbId": 16144,
     "gbGuid": "3030-16144",
     "tgdbId": 10160,
+    "details": [
+      "3do Interactive Multiplayer exclusive"
+    ],
     "isExclusive": [
       {
         "name": "3DO Interactive Multiplayer",
@@ -720,6 +1067,7 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": []
+    "special": [],
+    "misprintsErrors": []
   }
 ]

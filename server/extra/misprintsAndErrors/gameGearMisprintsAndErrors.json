@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lemmings",
+    "id": "ggge1",
+    "details": "printer justification error",
+    "image": "https://iamerror.gamehacking.org/Sega/GG/lemmingsgg.jfif",
+    "type": "Printing",
+    "igdbId": 4239,
+    "gbId": 1446,
+    "gbGuid": "3030-1446"
+  },
+  {
+    "name": "Surf Ninjas (PAL)",
+    "id": "ggge2",
+    "details": "images behind text are from The Dragon's Trap and Devilish",
+    "image": "https://iamerror.gamehacking.org/Sega/GG/surfninjaggpal.jpeg",
+    "type": "Printing",
+    "igdbId": 181670,
+    "gbId": 23851,
+    "gbGuid": "3030-23851"
+  },
+  {
+    "name": "X-Men: Mojo World",
+    "id": "ggge3",
+    "details": "crooked label",
+    "image": "https://iamerror.gamehacking.org/Sega/GG/Xmenmojoworldcrooked_zpse15850c9.jpg",
+    "type": "Label Position",
+    "igdbId": 46326,
+    "gbId": 16994,
+    "gbGuid": "3030-16994"
+  }
+]

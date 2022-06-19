@@ -1,0 +1,222 @@
+[
+  {
+    "name": "AeroWings",
+    "id": "dcge1",
+    "details": "says [TN: I SUGGEST CHANGING BEHIND VIEW AND REAR VIEW IN THE EXCEL FILES TO 3RD-PERSON VIEW.]\nthis was translated and left in the manual TN most likely refers to translator's note",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/areowings_zpsygqlc5nv.jpg",
+    "type": "Typo",
+    "igdbId": 3709,
+    "gbId": 7963,
+    "gbGuid": "3030-7963"
+  },
+  {
+    "name": "Blue Stinger",
+    "id": "dcge2",
+    "details": "lacked proper boot code",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Programming",
+    "igdbId": 6715,
+    "gbId": 21183,
+    "gbGuid": "3030-21183"
+  },
+  {
+    "name": "Crazy Taxi (Sega All-Stars)",
+    "id": "dcge3",
+    "details": "off center printing on back inside image",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/crazytaxi_zpslklwvgw1.jpg",
+    "type": "Printing",
+    "igdbId": 1805,
+    "gbId": 9112,
+    "gbGuid": "3030-9112"
+  },
+  {
+    "name": "Fighting Force 2",
+    "id": "dcge4",
+    "details": "Toy Commander's retail barcode (0 10086 51020 1)",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Printing",
+    "igdbId": 11615,
+    "gbId": 18715,
+    "gbGuid": "3030-18715"
+  },
+  {
+    "name": "Grand Theft Auto 2",
+    "id": "dcge5",
+    "details": "Manual for game is uncut. Some pages have been torn apart as seen with the jagged edges in the picture.",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/gta2dc1.jpg",
+    "type": "Cutting",
+    "igdbId": 819,
+    "gbId": 10593,
+    "gbGuid": "3030-10593"
+  },
+  {
+    "name": "Jeremy McGrath Supercross 2000",
+    "id": "dcge6",
+    "details": "Plays Crazy Taxi 2",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Data",
+    "igdbId": 3523,
+    "gbId": 4298,
+    "gbGuid": "3030-4298"
+  },
+  {
+    "name": "Marvel vs. Capcom: Clash of Super Heroes",
+    "id": "dcge7",
+    "details": "most of picture missing from disc",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/marlvvscapdcpaertialprintdisc_zpsyndles33.jpg",
+    "type": "Printing",
+    "igdbId": 8246,
+    "gbId": 8605,
+    "gbGuid": "3030-8605"
+  },
+  {
+    "name": "Midway's Greatest Arcade Hits: Volume 1",
+    "id": "dcge8",
+    "details": "Plays Marvel Vs Capcom 2\nlook for data code\nT-1212N ",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/mvsc2_zpseaad9361.jpg",
+    "type": "Data",
+    "igdbId": 47679,
+    "gbId": 1661,
+    "gbGuid": "3030-1661"
+  },
+  {
+    "name": "Ms. Pac-Man Maze Madness",
+    "id": "dcge9",
+    "details": "miscut manual",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/mspacmandc.jpg",
+    "type": "Cutting",
+    "igdbId": 3338,
+    "gbId": 3903,
+    "gbGuid": "3030-3903"
+  },
+  {
+    "name": "NBA 2K1",
+    "id": "dcge10",
+    "details": "no print on disc",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/nba2k1dc.jpg",
+    "type": "Printing",
+    "igdbId": 28836,
+    "gbId": 16896,
+    "gbGuid": "3030-16896"
+  },
+  {
+    "name": "NFL Blitz 2000",
+    "id": "dcge11",
+    "details": "no sound in game only announcers",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/nflblitznosoud_zpssabmeotn.jpg",
+    "type": "Programming",
+    "igdbId": 4366,
+    "gbId": 2849,
+    "gbGuid": "3030-2849"
+  },
+  {
+    "name": "NHL 2K2",
+    "id": "dcge12",
+    "details": "Back insert upside down",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/nhl2k21.jpg",
+    "type": "Assembly",
+    "igdbId": 8840,
+    "gbId": 21789,
+    "gbGuid": "3030-21789"
+  },
+  {
+    "name": "Phantasy Star Online",
+    "id": "dcge13",
+    "details": "Disc printed off center",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/Phantasystaronlineoffcent_zpsq7gysncw.jpg",
+    "type": "Printing",
+    "igdbId": 21968,
+    "gbId": 20252,
+    "gbGuid": "3030-20252"
+  },
+  {
+    "name": "Resident Evil CODE: Veronica",
+    "id": "dcge14",
+    "details": "Disc 1 plays Disc 2\nlook for code T-1204N-2 on disc 1\n",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/recvdc_zpsfue7bn6c.jpg",
+    "type": "Data",
+    "igdbId": 968,
+    "gbId": 8402,
+    "gbGuid": "3030-8402"
+  },
+  {
+    "name": "Shenmue (PAL)",
+    "id": "dcge15",
+    "details": "no label on disc",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/shenmue.jpg",
+    "type": "Labeling",
+    "igdbId": 1217,
+    "gbId": 7812,
+    "gbGuid": "3030-7812"
+  },
+  {
+    "name": "Sonic Adventure",
+    "id": "dcge16",
+    "details": "off center disc printing",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/sonicadcoc_zpsih7lu5yf.jpg",
+    "type": "Printing",
+    "igdbId": 7860,
+    "gbId": 7852,
+    "gbGuid": "3030-7852"
+  },
+  {
+    "name": "Sonic Adventure",
+    "id": "dcge17",
+    "details": "lacked proper boot code",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Programming",
+    "igdbId": 7860,
+    "gbId": 7852,
+    "gbGuid": "3030-7852"
+  },
+  {
+    "name": "Sonic Adventure 2",
+    "id": "dcge18",
+    "details": "no blue ink on disc",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/sonicadventure2noblue.jpg",
+    "type": "Printing",
+    "igdbId": 7858,
+    "gbId": 19060,
+    "gbGuid": "3030-19060"
+  },
+  {
+    "name": "Tennis 2K2",
+    "id": "dcge19",
+    "details": "Dreamcast Stripe on wrong side",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/tennis2k2.jpg",
+    "type": "Printing",
+    "igdbId": 45843,
+    "gbId": 14977,
+    "gbGuid": "3030-14977"
+  },
+  {
+    "name": "Test Drive 6",
+    "id": "dcge20",
+    "details": "no printing on disc",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/_3_zpscp9vmigt.jpg",
+    "type": "Printing",
+    "igdbId": 4111,
+    "gbId": 6628,
+    "gbGuid": "3030-6628"
+  },
+  {
+    "name": "Toy Commander",
+    "id": "dcge21",
+    "details": "back inside image printed far to the right",
+    "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/toycom_zpsrnxoipym.jpg",
+    "type": "Printing",
+    "igdbId": 10125,
+    "gbId": 3544,
+    "gbGuid": "3030-3544"
+  },
+  {
+    "name": "Sega Dreamcast Web Browser",
+    "id": "dcge22",
+    "details": "lacked proper boot code",
+    "image": "https://iamerror.gamehacking.org/img_not_available.png",
+    "type": "Programming",
+    "igdbId": 131499,
+    "gbId": 27233,
+    "gbGuid": "3030-27233"
+  }
+]

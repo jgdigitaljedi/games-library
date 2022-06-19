@@ -2,7 +2,7 @@ import { RouteComponentProps } from '@reach/router';
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import PlatformsItem from './components/PlatformsItem/PlatformsItem';
 import { NotificationContext } from './context/NotificationContext';
-import { IConsole, PgameReturn } from './models/platforms.model';
+import { IConsole, PgameReturn, PlatExtraData, PlatformsPageItem } from './models/platforms.model';
 import {
   getPlatforms,
   getPlatformExtras,
@@ -16,8 +16,9 @@ import PlatformsSort from './components/PlatformsSort';
 const Platforms: React.FC<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
   const [consolesData, setConsolesData] = useState<IConsole[]>([]);
-  const [consolesExtras, setConsolesExtras] = useState<any[]>([]);
+  const [consolesExtras, setConsolesExtras] = useState<PlatExtraData[]>([]);
   const [pgameData, setPgameDdata] = useState<PgameReturn>({});
+  const [consolesList, setConsolesList] = useState<PlatformsPageItem | null>(null);
 
   const getPlatformsArr = useCallback(async (): Promise<void> => {
     const platformsArr = await getPlatforms();
@@ -76,15 +77,43 @@ const Platforms: React.FC<RouteComponentProps> = () => {
     }
   }, [setNotify]);
 
+  const buildConsolesList = useCallback(() => {
+    if (
+      !consolesList &&
+      consolesData?.length &&
+      consolesExtras?.length &&
+      Object.keys(pgameData).length
+    ) {
+      const masterList = consolesData.map((con: IConsole) => {
+        const conEx = consolesExtras.filter(ce => ce.platformId === con.id);
+        // @ts-ignore
+        const thisPgame = pgameData[con.id?.toString()];
+
+        return { ...con, conEx, pgame: thisPgame };
+      });
+      console.log('masterList', masterList);
+      // @ts-ignore
+      setConsolesList(masterList);
+    }
+  }, [consolesData, consolesExtras, pgameData, consolesList]);
+
+  const getData = async () => {};
+
   useEffect(() => {
     getPlatformsArr();
     getExtrasData();
     getPgameData();
+    buildConsolesList();
   }, [getPlatformsArr, getExtrasData, getPgameData]);
 
   return (
     <div className='platforms-wrapper'>
-      <PlatformsSort />
+      <PlatformsSort
+        onSortChanged={(newData: IConsole[]) => {
+          setConsolesData(newData);
+        }}
+        consoles={consolesData}
+      />
       {consolesData?.length > 0 &&
         consolesExtras?.length > 0 &&
         consolesData.map((con: IConsole) => {

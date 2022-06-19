@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Fighting Street",
+    "id": "tgcd1",
+    "details": "TurboGrafx16 CD launch title",
+    "igdbId": 37589,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 26639
+  },
+  {
+    "name": "Wonder Boy III: Monster Lair",
+    "id": "tgcd2",
+    "details": "TurboGrafx16 CD launch title",
+    "igdbId": 4481,
+    "gbId": 10133,
+    "gbGuid": "3030-10133",
+    "tgdbId": 4732
+  }
+]

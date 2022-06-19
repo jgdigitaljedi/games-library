@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Carnival",
+    "id": "cvlt1",
+    "details": "ColecoVision launch title",
+    "igdbId": 5666,
+    "gbId": 197,
+    "gbGuid": "3030-197",
+    "tgdbId": 3998
+  },
+  {
+    "name": "Cosmic Avenger",
+    "id": "cvlt2",
+    "details": "ColecoVision launch title",
+    "igdbId": 18504,
+    "gbId": 17011,
+    "gbGuid": "3030-17011",
+    "tgdbId": 3999
+  },
+  {
+    "name": "Donkey Kong",
+    "id": "cvlt3",
+    "details": "ColecoVision launch title",
+    "igdbId": 1086,
+    "gbId": 311,
+    "gbGuid": "3030-311",
+    "tgdbId": 5
+  },
+  {
+    "name": "Ken Uston's Blackjack/Poker",
+    "id": "cvlt4",
+    "details": "ColecoVision launch title",
+    "igdbId": null,
+    "gbId": 1770,
+    "gbGuid": "3030-1770",
+    "tgdbId": 10346
+  },
+  {
+    "name": "Lady Bug",
+    "id": "cvlt5",
+    "details": "ColecoVision launch title",
+    "igdbId": 5677,
+    "gbId": 17187,
+    "gbGuid": "3030-17187",
+    "tgdbId": 954
+  },
+  {
+    "name": "Mouse Trap",
+    "id": "cvlt6",
+    "details": "ColecoVision launch title",
+    "igdbId": 5687,
+    "gbId": 2276,
+    "gbGuid": "3030-2276",
+    "tgdbId": 4008
+  },
+  {
+    "name": "Smurf: Rescue in Gargamel's Castle",
+    "id": "cvlt7",
+    "details": "ColecoVision launch title",
+    "igdbId": 8080,
+    "gbId": 19373,
+    "gbGuid": "3030-19373",
+    "tgdbId": 10426
+  },
+  {
+    "name": "Space Fury",
+    "id": "cvlt8",
+    "details": "ColecoVision launch title",
+    "igdbId": 8805,
+    "gbId": 354,
+    "gbGuid": "3030-354",
+    "tgdbId": 4020
+  },
+  {
+    "name": "Space Panic",
+    "id": "cvlt9",
+    "details": "ColecoVision launch title",
+    "igdbId": 18678,
+    "gbId": 14588,
+    "gbGuid": "3030-14588",
+    "tgdbId": 10427
+  },
+  {
+    "name": "Turbo",
+    "id": "cvlt10",
+    "details": "ColecoVision launch title",
+    "igdbId": 18510,
+    "gbId": 18177,
+    "gbGuid": "3030-18177",
+    "tgdbId": 4023
+  },
+  {
+    "name": "Venture",
+    "id": "cvlt11",
+    "details": "ColecoVision launch title",
+    "igdbId": 5703,
+    "gbId": 6124,
+    "gbGuid": "3030-6124",
+    "tgdbId": 1358
+  },
+  {
+    "name": "Zaxxon",
+    "id": "cvlt12",
+    "details": "ColecoVision launch title",
+    "igdbId": 2753,
+    "gbId": 9547,
+    "gbGuid": "3030-9547",
+    "tgdbId": 4024
+  }
+]

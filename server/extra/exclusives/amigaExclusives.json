@@ -1,0 +1,623 @@
+[
+  {
+    "name": "Agony",
+    "details": "Amiga exclusive",
+    "id": "amex1",
+    "igdbId": 11890,
+    "gbId": 9587,
+    "gbGuid": "3030-9587",
+    "tgdbId": 24470
+  },
+  {
+    "name": "Alien Breed 3D 2: The Killing Grounds",
+    "details": "Amiga exclusive",
+    "id": "amex2",
+    "igdbId": 14240,
+    "gbId": 2220,
+    "gbGuid": "3030-2220",
+    "tgdbId": 24476
+  },
+  {
+    "name": "Ambermoon",
+    "details": "Amiga exclusive",
+    "id": "amex3",
+    "igdbId": 11897,
+    "gbId": 18454,
+    "gbGuid": "3030-18454",
+    "tgdbId": 24496
+  },
+  {
+    "name": "Amegas",
+    "details": "Amiga exclusive",
+    "id": "amex4",
+    "igdbId": 11898,
+    "gbId": 16576,
+    "gbGuid": "3030-16576",
+    "tgdbId": 49712
+  },
+  {
+    "name": "Soccer",
+    "details": "Amiga exclusive",
+    "id": "amex5",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 42820
+  },
+  {
+    "name": "Amnios",
+    "details": "Amiga exclusive",
+    "id": "amex6",
+    "igdbId": 14254,
+    "gbId": 17617,
+    "gbGuid": "3030-17617",
+    "tgdbId": 24501
+  },
+  {
+    "name": "Apano Sin",
+    "details": "Amiga exclusive",
+    "id": "amex7",
+    "igdbId": 14259,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Apidya",
+    "details": "Amiga exclusive",
+    "id": "amex8",
+    "igdbId": 11906,
+    "gbId": 27999,
+    "gbGuid": "3030-27999",
+    "tgdbId": 24506
+  },
+  {
+    "name": "Arabian Nights",
+    "details": "Amiga exclusive",
+    "id": "amex9",
+    "igdbId": 10861,
+    "gbId": 88,
+    "gbGuid": "3030-88",
+    "tgdbId": 10162
+  },
+  {
+    "name": "Assassin",
+    "details": "Amiga exclusive",
+    "id": "amex10",
+    "igdbId": 11920,
+    "gbId": 9308,
+    "gbGuid": "3030-9308",
+    "tgdbId": 39420
+  },
+  {
+    "name": "Banshee",
+    "details": "Amiga exclusive",
+    "id": "amex11",
+    "igdbId": 11939,
+    "gbId": 7970,
+    "gbGuid": "3030-7970",
+    "tgdbId": 10165
+  },
+  {
+    "name": "Behind the Iron Gate",
+    "details": "Amiga exclusive",
+    "id": "amex12",
+    "igdbId": 14294,
+    "gbId": 8919,
+    "gbGuid": "3030-8919",
+    "tgdbId": null
+  },
+  {
+    "name": "Black Crypt",
+    "details": "Amiga exclusive",
+    "id": "amex13",
+    "igdbId": 8692,
+    "gbId": 9261,
+    "gbGuid": "3030-9261",
+    "tgdbId": 52022
+  },
+  {
+    "name": "Blob",
+    "details": "Amiga exclusive",
+    "id": "amex14",
+    "igdbId": 14319,
+    "gbId": 15359,
+    "gbGuid": "3030-15359",
+    "tgdbId": null
+  },
+  {
+    "name": "Body Blows Galactic",
+    "details": "Amiga exclusive",
+    "id": "amex15",
+    "igdbId": 11975,
+    "gbId": 8633,
+    "gbGuid": "3030-8633",
+    "tgdbId": 50566
+  },
+  {
+    "name": "Cardiaxx",
+    "details": "Amiga exclusive",
+    "id": "amex16",
+    "igdbId": 12531,
+    "gbId": 4334,
+    "gbGuid": "3030-4334",
+    "tgdbId": null
+  },
+  {
+    "name": "Coala",
+    "details": "Amiga exclusive",
+    "id": "amex17",
+    "igdbId": 14622,
+    "gbId": 1107,
+    "gbGuid": "3030-1107",
+    "tgdbId": 55660
+  },
+  {
+    "name": "Crazy Sue goes on",
+    "details": "Amiga exclusive",
+    "id": "amex18",
+    "igdbId": 37276,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 39424
+  },
+  {
+    "name": "Cyberpunks",
+    "details": "Amiga exclusive",
+    "id": "amex19",
+    "igdbId": 14632,
+    "gbId": 10849,
+    "gbGuid": "3030-10849",
+    "tgdbId": null
+  },
+  {
+    "name": "Cytron",
+    "details": "Amiga exclusive",
+    "id": "amex20",
+    "igdbId": 12560,
+    "gbId": 12237,
+    "gbGuid": "3030-12237",
+    "tgdbId": 53602
+  },
+  {
+    "name": "Darkmere",
+    "details": "Amiga exclusive",
+    "id": "amex21",
+    "igdbId": 12564,
+    "gbId": 16860,
+    "gbGuid": "3030-16860",
+    "tgdbId": 24605
+  },
+  {
+    "name": "Datastorm",
+    "details": "Amiga exclusive",
+    "id": "amex22",
+    "igdbId": 73131,
+    "gbId": 19871,
+    "gbGuid": "3030-19871",
+    "tgdbId": null
+  },
+  {
+    "name": "Doman: Grzechy Ardana",
+    "details": "Amiga exclusive",
+    "id": "amex23",
+    "igdbId": null,
+    "gbId": 34498,
+    "gbGuid": "3030-34498",
+    "tgdbId": null
+  },
+  {
+    "name": "Dr. Plummet's House of Flux",
+    "details": "Amiga exclusive",
+    "id": "amex24",
+    "igdbId": 14658,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Ebonstar",
+    "details": "Amiga exclusive",
+    "id": "amex25",
+    "igdbId": 57627,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Elfmania",
+    "details": "Amiga exclusive",
+    "id": "amex26",
+    "igdbId": 12062,
+    "gbId": 4292,
+    "gbGuid": "3030-4292",
+    "tgdbId": 51350
+  },
+  {
+    "name": "F/A-18 Interceptor",
+    "details": "Amiga exclusive",
+    "id": "amex27",
+    "igdbId": 12081,
+    "gbId": 16566,
+    "gbGuid": "3030-16566",
+    "tgdbId": 30586
+  },
+  {
+    "name": "Fighter Duel Pro 2",
+    "details": "Amiga exclusive",
+    "id": "amex28",
+    "igdbId": 37216,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 31466
+  },
+  {
+    "name": "Final Countdown (video game)",
+    "details": "Amiga exclusive",
+    "id": "amex29",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Furball",
+    "details": "Amiga exclusive",
+    "id": "amex30",
+    "igdbId": 92127,
+    "gbId": 33613,
+    "gbGuid": "3030-33613",
+    "tgdbId": null
+  },
+  {
+    "name": "Gloom 3",
+    "details": "Amiga exclusive",
+    "id": "amex31",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Hoi AGA",
+    "details": "Amiga exclusive",
+    "id": "amex32",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Hybris",
+    "details": "Amiga exclusive",
+    "id": "amex33",
+    "igdbId": 12150,
+    "gbId": 11519,
+    "gbGuid": "3030-11519",
+    "tgdbId": 40028
+  },
+  {
+    "name": "K240",
+    "details": "Amiga exclusive",
+    "id": "amex34",
+    "igdbId": 12650,
+    "gbId": 9276,
+    "gbGuid": "3030-9276",
+    "tgdbId": 52331
+  },
+  {
+    "name": "Knights of the Crystallion",
+    "details": "Amiga exclusive",
+    "id": "amex35",
+    "igdbId": null,
+    "gbId": 11685,
+    "gbGuid": "3030-11685",
+    "tgdbId": null
+  },
+  {
+    "name": "Lionheart",
+    "details": "Amiga exclusive",
+    "id": "amex36",
+    "igdbId": 82018,
+    "gbId": 17450,
+    "gbGuid": "3030-17450",
+    "tgdbId": 29487
+  },
+  {
+    "name": "Mind Walker",
+    "details": "Amiga exclusive",
+    "id": "amex37",
+    "igdbId": 26379,
+    "gbId": 37932,
+    "gbGuid": "3030-37932",
+    "tgdbId": 47864
+  },
+  {
+    "name": "Mr. Nutz Hoppin' Mad",
+    "details": "Amiga exclusive",
+    "id": "amex38",
+    "igdbId": 39030,
+    "gbId": 14934,
+    "gbGuid": "3030-14934",
+    "tgdbId": 35752
+  },
+  {
+    "name": "Napalm: The Crimson Crisis",
+    "details": "Amiga exclusive",
+    "id": "amex39",
+    "igdbId": 69892,
+    "gbId": 14585,
+    "gbGuid": "3030-14585",
+    "tgdbId": null
+  },
+  {
+    "name": "Nevermind",
+    "details": "Amiga exclusive",
+    "id": "amex40",
+    "igdbId": 12452,
+    "gbId": 53333,
+    "gbGuid": "3030-53333",
+    "tgdbId": 33009
+  },
+  {
+    "name": "The Oath",
+    "details": "Amiga exclusive",
+    "id": "amex41",
+    "igdbId": 12705,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Operation: Cleanstreets",
+    "details": "Amiga exclusive",
+    "id": "amex42",
+    "igdbId": null,
+    "gbId": 18511,
+    "gbGuid": "3030-18511",
+    "tgdbId": null
+  },
+  {
+    "name": "Paragliding Simulation",
+    "details": "Amiga exclusive",
+    "id": "amex43",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Perihelion: The Prophecy",
+    "details": "Amiga exclusive",
+    "id": "amex44",
+    "igdbId": 72287,
+    "gbId": 6508,
+    "gbGuid": "3030-6508",
+    "tgdbId": null
+  },
+  {
+    "name": "Pioneer Plague",
+    "details": "Amiga exclusive",
+    "id": "amex45",
+    "igdbId": 68487,
+    "gbId": 11995,
+    "gbGuid": "3030-11995",
+    "tgdbId": null
+  },
+  {
+    "name": "R3 (video game)",
+    "details": "Amiga exclusive",
+    "id": "amex46",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Ruff 'n' Tumble",
+    "details": "Amiga exclusive",
+    "id": "amex47",
+    "igdbId": 12755,
+    "gbId": 7496,
+    "gbGuid": "3030-7496",
+    "tgdbId": 41910
+  },
+  {
+    "name": "Scorched Tanks",
+    "details": "Amiga exclusive",
+    "id": "amex48",
+    "igdbId": 72265,
+    "gbId": 2883,
+    "gbGuid": "3030-2883",
+    "tgdbId": 52118
+  },
+  {
+    "name": "Sensible Train-Spotting",
+    "details": "Amiga exclusive",
+    "id": "amex49",
+    "igdbId": 77374,
+    "gbId": 604,
+    "gbGuid": "3030-604",
+    "tgdbId": null
+  },
+  {
+    "name": "Shadow of the Beast III",
+    "details": "Amiga exclusive",
+    "id": "amex50",
+    "igdbId": 12221,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 24585
+  },
+  {
+    "name": "Shadow of the Devil",
+    "details": "Amiga exclusive",
+    "id": "amex51",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "The Speris Legacy",
+    "details": "Amiga exclusive",
+    "id": "amex52",
+    "igdbId": 15565,
+    "gbId": 3409,
+    "gbGuid": "3030-3409",
+    "tgdbId": 10309
+  },
+  {
+    "name": "Spherical Worlds",
+    "details": "Amiga exclusive",
+    "id": "amex53",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Sturmtruppen: The Videogame",
+    "details": "Amiga exclusive",
+    "id": "amex54",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 55328
+  },
+  {
+    "name": "Super League Manager",
+    "details": "Amiga exclusive",
+    "id": "amex55",
+    "igdbId": 93251,
+    "gbId": 8204,
+    "gbGuid": "3030-8204",
+    "tgdbId": 63572
+  },
+  {
+    "name": "Světák Bob",
+    "details": "Amiga exclusive",
+    "id": "amex56",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Testament",
+    "details": "Amiga exclusive",
+    "id": "amex57",
+    "igdbId": 100039,
+    "gbId": 3128,
+    "gbGuid": "3030-3128",
+    "tgdbId": null
+  },
+  {
+    "name": "Traps 'n' Treasures",
+    "details": "Amiga exclusive",
+    "id": "amex58",
+    "igdbId": 37275,
+    "gbId": 4903,
+    "gbGuid": "3030-4903",
+    "tgdbId": 39431
+  },
+  {
+    "name": "Trauma Zero",
+    "details": "Amiga exclusive",
+    "id": "amex59",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Turboraketti",
+    "details": "Amiga exclusive",
+    "id": "amex60",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Umut Tarlaları",
+    "details": "Amiga exclusive",
+    "id": "amex61",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  },
+  {
+    "name": "Uridium 2",
+    "details": "Amiga exclusive",
+    "id": "amex62",
+    "igdbId": 12808,
+    "gbId": 3306,
+    "gbGuid": "3030-3306",
+    "tgdbId": 47861
+  },
+  {
+    "name": "Virocop",
+    "details": "Amiga exclusive",
+    "id": "amex63",
+    "igdbId": 69792,
+    "gbId": 11738,
+    "gbGuid": "3030-11738",
+    "tgdbId": 50002
+  },
+  {
+    "name": "Walker",
+    "details": "Amiga exclusive",
+    "id": "amex64",
+    "igdbId": 12818,
+    "gbId": 12183,
+    "gbGuid": "3030-12183",
+    "tgdbId": 41985
+  },
+  {
+    "name": "Worms: The Director's Cut",
+    "details": "Amiga exclusive",
+    "id": "amex65",
+    "igdbId": null,
+    "gbId": 18826,
+    "gbGuid": "3030-18826",
+    "tgdbId": null
+  },
+  {
+    "name": "XTreme Racing",
+    "details": "Amiga exclusive",
+    "id": "amex66",
+    "igdbId": 94272,
+    "gbId": 3106,
+    "gbGuid": "3030-3106",
+    "tgdbId": null
+  },
+  {
+    "name": "Zarathrusta",
+    "details": "Amiga exclusive",
+    "id": "amex67",
+    "igdbId": 28514,
+    "gbId": 8859,
+    "gbGuid": "3030-8859",
+    "tgdbId": null
+  },
+  {
+    "name": "Zeewolf",
+    "details": "Amiga exclusive",
+    "id": "amex68",
+    "igdbId": 12629,
+    "gbId": 2712,
+    "gbGuid": "3030-2712",
+    "tgdbId": null
+  },
+  {
+    "name": "Zombie Massacre (video game)",
+    "details": "Amiga exclusive",
+    "id": "amex69",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": null
+  }
+]

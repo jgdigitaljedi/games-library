@@ -1,38 +1,146 @@
 [
-  { "id": 50, "name": "3DO Interactive Multiplayer" },
-  { "id": 59, "name": "Atari 2600" },
-  { "id": 66, "name": "Atari 5200" },
-  { "id": 60, "name": "Atari 7800" },
-  { "id": 62, "name": "Atari Jaguar" },
-  { "id": 23, "name": "Dreamcast" },
-  { "id": 33, "name": "Game Boy" },
-  { "id": 24, "name": "Game Boy Advance" },
-  { "id": 22, "name": "Game Boy Color" },
-  { "id": 67, "name": "Intellivision" },
-  { "id": 37, "name": "Nintendo 3DS" },
-  { "id": 4, "name": "Nintendo 64" },
-  { "id": 20, "name": "Nintendo DS" },
-  { "id": 18, "name": "Nintendo Entertainment System (NES)" },
-  { "id": 21, "name": "Nintendo GameCube" },
-  { "id": 130, "name": "Nintendo Switch" },
-  { "id": 6, "name": "PC (Microsoft Windows)" },
-  { "id": 7, "name": "PlayStation" },
-  { "id": 8, "name": "PlayStation 2" },
-  { "id": 9, "name": "PlayStation 3" },
-  { "id": 48, "name": "PlayStation 4" },
-  { "id": 38, "name": "PlayStation Portable" },
-  { "id": 30, "name": "Sega 32X" },
-  { "id": 78, "name": "Sega CD" },
-  { "id": 35, "name": "Sega Game Gear" },
-  { "id": 64, "name": "Sega Master System" },
-  { "id": 29, "name": "Sega Mega Drive/Genesis" },
-  { "id": 32, "name": "Sega Saturn" },
-  { "id": 19, "name": "Super Nintendo Entertainment System (SNES)" },
-  { "id": 86, "name": "TurboGrafx-16/PC Engine" },
-  { "id": 87, "name": "Virtual Boy" },
-  { "id": 5, "name": "Wii" },
-  { "id": 41, "name": "Wii U" },
-  { "id": 11, "name": "Xbox" },
-  { "id": 12, "name": "Xbox 360" },
-  { "id": 49, "name": "Xbox One" }
+  {
+    "id": 50,
+    "name": "3DO Interactive Multiplayer"
+  },
+  {
+    "id": 59,
+    "name": "Atari 2600"
+  },
+  {
+    "id": 66,
+    "name": "Atari 5200"
+  },
+  {
+    "id": 60,
+    "name": "Atari 7800"
+  },
+  {
+    "id": 62,
+    "name": "Atari Jaguar"
+  },
+  {
+    "id": 23,
+    "name": "Dreamcast"
+  },
+  {
+    "id": 33,
+    "name": "Game Boy"
+  },
+  {
+    "id": 24,
+    "name": "Game Boy Advance"
+  },
+  {
+    "id": 22,
+    "name": "Game Boy Color"
+  },
+  {
+    "id": 67,
+    "name": "Intellivision"
+  },
+  {
+    "id": 37,
+    "name": "Nintendo 3DS"
+  },
+  {
+    "id": 4,
+    "name": "Nintendo 64"
+  },
+  {
+    "id": 20,
+    "name": "Nintendo DS"
+  },
+  {
+    "id": 18,
+    "name": "Nintendo Entertainment System (NES)"
+  },
+  {
+    "id": 21,
+    "name": "Nintendo GameCube"
+  },
+  {
+    "id": 130,
+    "name": "Nintendo Switch"
+  },
+  {
+    "id": 6,
+    "name": "PC (Microsoft Windows)"
+  },
+  {
+    "id": 7,
+    "name": "PlayStation"
+  },
+  {
+    "id": 8,
+    "name": "PlayStation 2"
+  },
+  {
+    "id": 9,
+    "name": "PlayStation 3"
+  },
+  {
+    "id": 48,
+    "name": "PlayStation 4"
+  },
+  {
+    "id": 38,
+    "name": "PlayStation Portable"
+  },
+  {
+    "id": 30,
+    "name": "Sega 32X"
+  },
+  {
+    "id": 78,
+    "name": "Sega CD"
+  },
+  {
+    "id": 35,
+    "name": "Sega Game Gear"
+  },
+  {
+    "id": 64,
+    "name": "Sega Master System"
+  },
+  {
+    "id": 29,
+    "name": "Sega Mega Drive/Genesis"
+  },
+  {
+    "id": 32,
+    "name": "Sega Saturn"
+  },
+  {
+    "id": 19,
+    "name": "Super Nintendo Entertainment System (SNES)"
+  },
+  {
+    "id": 86,
+    "name": "TurboGrafx-16/PC Engine"
+  },
+  {
+    "id": 87,
+    "name": "Virtual Boy"
+  },
+  {
+    "id": 5,
+    "name": "Wii"
+  },
+  {
+    "id": 41,
+    "name": "Wii U"
+  },
+  {
+    "id": 11,
+    "name": "Xbox"
+  },
+  {
+    "id": 12,
+    "name": "Xbox 360"
+  },
+  {
+    "id": 49,
+    "name": "Xbox One"
+  }
 ]

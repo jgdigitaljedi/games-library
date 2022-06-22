@@ -10,6 +10,13 @@ interface PlatformsSortProps {
   onSortChanged: (consoles: PlatformsPageItem[]) => void;
 }
 
+// TODO: add more filtering options
+/** thoughts
+ * - radio group for handhelds, consoles, and both
+ * - more sorts in dropdown
+ *   - categorize some of the extra data (greatest hits) and add ability to sort by most/least
+ */
+
 const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }) => {
   const [currentSort, setCurrentSort] = useState<string>('name');
   const [currentSortDir, setCurrentSortDir] = useState<string>('ascending');

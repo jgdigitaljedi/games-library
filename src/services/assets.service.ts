@@ -127,6 +127,8 @@ export const canBePlayedOn = (consoleArr: IConsoleArr[] | undefined): LogoReturn
         break;
     }
     // TODO: add Xbox BC logic
+    // my idea here is to make a backend change by adding a property to platforms that indicates that it is bc
+    // and for which consoles. The current approach isn't great.
     return acc;
   }, []);
   return _uniqBy([...(returnArr || []), ...(additional || [])], 'img');

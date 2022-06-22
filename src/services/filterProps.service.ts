@@ -11,9 +11,9 @@ export default function (view: string) {
       ];
     case 'consoles':
       return [
-        { value: 'igdb.name', label: 'Name' },
+        { value: 'name', label: 'Name' },
         { value: 'gb.company', label: 'Company' },
-        { value: 'igdb.generation', label: 'Gen' },
+        { value: 'generation', label: 'Gen' },
         { value: 'condition', label: 'Condition' },
         { value: 'howAcquired', label: 'How Acquired' }
       ];

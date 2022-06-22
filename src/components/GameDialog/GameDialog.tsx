@@ -3,13 +3,19 @@ import React, {
   PropsWithChildren,
   useCallback,
   useEffect,
+  useMemo,
   useState
 } from 'react';
 import { Rating } from 'primereact/rating';
 import './GameDialog.scss';
 import { IConsoleArr } from '@/models/platforms.model';
 import { IGame } from '@/models/games.model';
-import assetsService from '../../services/assets.service';
+import {
+  platformLogos,
+  parentalRatings,
+  canBePlayedOn,
+  LogoReturn
+} from '../../services/assets.service';
 import UrlService from '../../services/url.service';
 import helpersService, { gameCaseSubTypes } from '../../services/helpers.service';
 import ReadMore from '../ReadMore/ReadMore';
@@ -44,7 +50,7 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
   const [vrStatus, setVrStatus] = useState<string>('');
   const [gameTotals, setGameTotals] = useState({ amount: 0, paid: 0, value: 0 });
   const ratingImages = (letter: string): string => {
-    const ratings: IRatings = assetsService.ratings;
+    const ratings: IRatings = parentalRatings;
     return ratings.hasOwnProperty(letter) ? ratings[letter] : '';
   };
   const [consolesOwnedFor, setConsolesOwnedFor] = useState<IConsolesOwned[]>([]);
@@ -101,8 +107,21 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
     return gameCaseSubTypes.find(gct => gct.value === type)?.label;
   };
 
+  const gameCanBePlayedOn = useMemo(
+    (consoleArr?: IConsoleArr[]) => {
+      if (game?.consoleArr) {
+        const compatiblePlatforms = canBePlayedOn(game?.consoleArr);
+        console.log('comp', compatiblePlatforms);
+        return compatiblePlatforms;
+      }
+      return [];
+    },
+    [game]
+  );
+
   useEffect(() => {
     if (game) {
+      // getCanBePlayedOn(game.consoleArr);
       const owned =
         game.consoleArr && game.consoleArr.length
           ? game.consoleArr.filter(g => g.hasOwnProperty('physical'))
@@ -298,16 +317,17 @@ const GameDialog: FunctionComponent<PropsWithChildren<any>> = ({ game }: { game:
         </div>
         <h4>{game && game.name ? game.name : ''} can be played on:</h4>
         <div className='game-dialog--body__consoles'>
-          {game && game.consoleArr ? (
-            _uniqBy(game.consoleArr, 'consoleId').map((con: IConsoleArr, index: number) => (
+          {gameCanBePlayedOn ? (
+            gameCanBePlayedOn.map((img: LogoReturn, index: number) => (
               <img
-                src={`${urlPrefix}${(assetsService.platformLogos as IRatings)[con.consoleName]}`}
-                alt={con.consoleName}
+                src={`${urlPrefix}${img.img}`}
+                alt={img.name}
                 key={`image-${index}`}
                 style={{
-                  maxWidth: `${90 / (game && game.consoleArr ? game.consoleArr.length : 1)}%`,
+                  maxWidth: `${90 / (gameCanBePlayedOn ? gameCanBePlayedOn.length : 1)}%`,
                   objectFit: 'contain'
                 }}
+                title={img.name}
               />
             ))
           ) : (

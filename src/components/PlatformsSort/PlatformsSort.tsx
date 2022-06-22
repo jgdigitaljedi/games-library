@@ -1,4 +1,4 @@
-import { IConsole } from '@/models/platforms.model';
+import { PlatformsPageItem } from '@/models/platforms.model';
 import { Card } from 'primereact/card';
 import { Dropdown } from 'primereact/dropdown';
 import React, { useState } from 'react';
@@ -6,21 +6,20 @@ import { sortBy as _sortBy } from 'lodash';
 import './PlatformsSort.scss';
 
 interface PlatformsSortProps {
-  consoles: IConsole[];
-  onSortChanged: (consoles: IConsole[]) => void;
+  consoles: PlatformsPageItem[];
+  onSortChanged: (consoles: PlatformsPageItem[]) => void;
 }
 
 const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }) => {
-  const [sortedConsoles, setSortedConsoles] = useState(consoles);
-  const [currentSort, setCurrentSort] = useState('name');
-  const [currentSortDir, setCurrentSortDir] = useState('ascending');
+  const [currentSort, setCurrentSort] = useState<string>('name');
+  const [currentSortDir, setCurrentSortDir] = useState<string>('ascending');
   const sortOptions = [
     { label: 'Name', value: 'name' },
     { label: 'Company', value: 'company' },
     { label: 'Generation', value: 'generation' },
     { label: 'Release date', value: 'releaseDate.date' },
-    { label: 'Date purchased', value: 'datePurchased' }
-    // { label: 'Value', value: 'priceCharting.value' }
+    { label: 'Date purchased', value: 'datePurchased' },
+    { label: 'Value', value: 'priceCharting.price' }
   ];
   const sortDirectionOptions = [
     { label: 'Ascending', value: 'ascending' },
@@ -32,14 +31,18 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }
     setCurrentSortDir(dir);
     const sorted =
       dir === 'descending'
-        ? _sortBy(sortedConsoles, currentSort).reverse()
-        : _sortBy(sortedConsoles, currentSort);
-    setSortedConsoles(sorted);
+        ? _sortBy(consoles, currentSort).reverse()
+        : _sortBy(consoles, currentSort);
     onSortChanged(sorted);
   };
 
   const onSortChange = (e: any) => {
     setCurrentSort(e.value);
+    const sorted =
+      currentSortDir === 'descending'
+        ? _sortBy(consoles, e.value).reverse()
+        : _sortBy(consoles, e.value);
+    onSortChanged(sorted);
   };
 
   return (

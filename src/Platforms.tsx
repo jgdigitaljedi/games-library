@@ -18,105 +18,115 @@ const Platforms: React.FC<RouteComponentProps> = () => {
   const [consolesData, setConsolesData] = useState<IConsole[]>([]);
   const [consolesExtras, setConsolesExtras] = useState<PlatExtraData[]>([]);
   const [pgameData, setPgameDdata] = useState<PgameReturn>({});
-  const [consolesList, setConsolesList] = useState<PlatformsPageItem | null>(null);
+  const [consolesList, setConsolesList] = useState<PlatformsPageItem[] | null>(null);
 
-  const getPlatformsArr = useCallback(async (): Promise<void> => {
-    const platformsArr = await getPlatforms();
-    if (platformsArr.error) {
-      setNotify({
-        severity: 'error',
-        detail: 'Failed to fetch platforms data!',
-        summary: 'ERROR'
-      });
-    } else {
-      // group by company and sort group by name
-      const grouped = platformsArr.reduce((acc: any, con: IConsole) => {
-        const company = con.company;
-        if (company && acc[company]) {
-          acc[company] = _sortBy([...acc[company], con], 'name');
-        } else if (con.company) {
-          acc[con.company] = [con];
-        }
-        return acc;
-      }, {});
-      const companyOrder = Object.keys(grouped).sort();
-      const sorted = _flatten(
-        companyOrder.map(company => {
-          return grouped[company];
-        })
-      );
-      // @ts-ignore
-      setConsolesData(sorted);
-    }
-  }, [setNotify]);
-
-  const getExtrasData = useCallback(async (): Promise<void> => {
-    const platExtras = await getPlatformExtras();
-    if (platExtras.error) {
-      setNotify({
-        severity: 'error',
-        detail: 'Failed to fetch platform extras!',
-        summary: 'ERROR'
-      });
-    } else {
-      setConsolesExtras(platExtras);
-    }
-  }, [setNotify]);
-
-  const getPgameData = useCallback(async (): Promise<void> => {
-    const pgameData = await getPlatformGameData();
-    if (pgameData.error) {
-      setNotify({
-        severity: 'error',
-        detail: 'Failed to fetch platform games data!',
-        summary: 'ERROR'
-      });
-      console.error(pgameData.error);
-    } else {
-      setPgameDdata(pgameData);
-    }
-  }, [setNotify]);
-
-  const buildConsolesList = useCallback(() => {
-    if (
-      !consolesList &&
-      consolesData?.length &&
-      consolesExtras?.length &&
-      Object.keys(pgameData).length
-    ) {
-      const masterList = consolesData.map((con: IConsole) => {
-        const conEx = consolesExtras.filter(ce => ce.platformId === con.id);
+  const getPlatformsArr = useCallback((): Promise<IConsole[]> => {
+    return new Promise(async (resolve, reject) => {
+      const platformsArr = await getPlatforms();
+      if (platformsArr.error) {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to fetch platforms data!',
+          summary: 'ERROR'
+        });
+        reject(platformsArr.error);
+      } else {
+        // group by company and sort group by name
+        const grouped = platformsArr.reduce((acc: any, con: IConsole) => {
+          const company = con.company;
+          if (company && acc[company]) {
+            acc[company] = _sortBy([...acc[company], con], 'name');
+          } else if (con.company) {
+            acc[con.company] = [con];
+          }
+          return acc;
+        }, {});
+        const companyOrder = Object.keys(grouped).sort();
+        const sorted = _flatten(
+          companyOrder.map(company => {
+            return grouped[company];
+          })
+        );
         // @ts-ignore
-        const thisPgame = pgameData[con.id?.toString()];
+        setConsolesData(sorted);
+        resolve(sorted);
+      }
+    });
+  }, [setNotify]);
 
-        return { ...con, conEx, pgame: thisPgame };
-      });
-      console.log('masterList', masterList);
-      // @ts-ignore
-      setConsolesList(masterList);
-    }
-  }, [consolesData, consolesExtras, pgameData, consolesList]);
+  const getExtrasData = useCallback((): Promise<PlatExtraData[]> => {
+    return new Promise(async (resolve, reject) => {
+      const platExtras = await getPlatformExtras();
+      if (platExtras.error) {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to fetch platform extras!',
+          summary: 'ERROR'
+        });
+        reject(platExtras.error);
+      } else {
+        setConsolesExtras(platExtras);
+        resolve(platExtras);
+      }
+    });
+  }, [setNotify]);
 
-  const getData = async () => {};
+  const getPgameData = useCallback((): Promise<PgameReturn> => {
+    return new Promise(async (resolve, reject) => {
+      const pgameData = await getPlatformGameData();
+      if (pgameData.error) {
+        setNotify({
+          severity: 'error',
+          detail: 'Failed to fetch platform games data!',
+          summary: 'ERROR'
+        });
+        console.error(pgameData.error);
+        reject(pgameData.error);
+      } else {
+        setPgameDdata(pgameData);
+        resolve(pgameData);
+      }
+    });
+  }, [setNotify]);
+
+  const buildConsolesList = useCallback(
+    (plats: IConsole[], xtra: PlatExtraData[], pgame: PgameReturn) => {
+      if (!consolesList && plats?.length && xtra?.length && Object.keys(pgame).length) {
+        const masterList = plats.map((con: IConsole) => {
+          const conEx = xtra.filter(ce => ce.platformId === con.id);
+          // @ts-ignore
+          const thisPgame = pgame[con.id?.toString()];
+
+          return { ...con, conEx, pgame: thisPgame };
+        });
+        // @ts-ignore
+        setConsolesList(masterList);
+      }
+    },
+    [consolesList]
+  );
+
+  const getData = useCallback(async () => {
+    const plats = await getPlatformsArr();
+    const xtra = await getExtrasData();
+    const pgame = await getPgameData();
+    buildConsolesList(plats, xtra, pgame);
+  }, [getPgameData, getPlatformsArr, getExtrasData, buildConsolesList]);
 
   useEffect(() => {
-    getPlatformsArr();
-    getExtrasData();
-    getPgameData();
-    buildConsolesList();
-  }, [getPlatformsArr, getExtrasData, getPgameData]);
+    getData();
+  }, [getData]);
 
   return (
     <div className='platforms-wrapper'>
       <PlatformsSort
-        onSortChanged={(newData: IConsole[]) => {
-          setConsolesData(newData);
+        onSortChanged={(newData: PlatformsPageItem[]) => {
+          setConsolesList(newData);
         }}
-        consoles={consolesData}
+        consoles={consolesList || []}
       />
-      {consolesData?.length > 0 &&
-        consolesExtras?.length > 0 &&
-        consolesData.map((con: IConsole) => {
+      {consolesList?.length &&
+        consolesList.map((con: IConsole) => {
           if (con.ghostConsole) {
             return <></>;
           }

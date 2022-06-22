@@ -40,6 +40,7 @@ const FilterGroup: FunctionComponent<IProps> = (props: IProps) => {
   const debounceFiltering = useCallback(
     debounce((value: string, sf: any): void => {
       const newData = masterData.filter((d: any) => {
+        console.log('this', d, sf);
         return get(d, sf).toLowerCase().indexOf(value.toLowerCase()) >= 0;
       });
       props.setFilteredData(newData);

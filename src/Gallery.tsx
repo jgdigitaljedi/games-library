@@ -4,7 +4,7 @@ import React, { FunctionComponent, useContext, useEffect, useState } from 'react
 import { IDropdown, IIndexStringArr } from './models/common.model';
 import { Dialog } from 'primereact/dialog';
 import { Galleria } from 'primereact/galleria';
-import AssetsService from './services/assets.service';
+import { getGalleryList } from './services/assets.service';
 import './Gallery.scss';
 import { Dropdown } from 'primereact/dropdown';
 import { NotificationContext } from './context/NotificationContext';
@@ -77,7 +77,7 @@ const GalleryComponent: FunctionComponent<IProps> = () => {
   };
 
   useEffect(() => {
-    AssetsService.getGalleryList()
+    getGalleryList()
       .then((list: AxiosResponse) => {
         setList(list.data);
         setDDList(Object.keys(list.data).map((d: any) => ({ label: d, value: d })));

@@ -60,7 +60,7 @@ export const filters = {
           return false;
         }
         // return genre.some((g) => get(d, 'genres').indexOf(g) >= 0);
-        return d.genres.some(g => genre.includes(g));
+        return d.genres.some(g => genre.includes(g.toLowerCase()));
       });
     }
     return data;

@@ -71,8 +71,9 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             if (!acc) {
               acc = [];
             }
-            if (acc && acc.indexOf(g) === -1 && g) {
-              acc.push(g);
+            const genre = g.toLowerCase();
+            if (acc && acc.indexOf(genre) === -1 && g) {
+              acc.push(genre);
             }
             return acc;
           }, [])

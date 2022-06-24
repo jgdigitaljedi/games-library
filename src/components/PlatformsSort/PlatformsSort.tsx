@@ -4,6 +4,7 @@ import { Dropdown } from 'primereact/dropdown';
 import React, { useState } from 'react';
 import { sortBy as _sortBy } from 'lodash';
 import './PlatformsSort.scss';
+import { appreciationConsolesSort, appreciationGamesSort } from '@/services/sorts.service';
 
 interface PlatformsSortProps {
   consoles: PlatformsPageItem[];
@@ -15,6 +16,7 @@ interface PlatformsSortProps {
  * - radio group for handhelds, consoles, and both
  * - more sorts in dropdown
  *   - categorize some of the extra data (greatest hits) and add ability to sort by most/least
+ *   - appreciation
  */
 
 const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }) => {
@@ -26,7 +28,9 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }
     { label: 'Generation', value: 'generation' },
     { label: 'Release date', value: 'releaseDate.date' },
     { label: 'Date purchased', value: 'datePurchased' },
-    { label: 'Value', value: 'priceCharting.price' }
+    { label: 'Value', value: 'priceCharting.price' },
+    { label: 'Appreciation (games)', value: 'appreciationGames' },
+    { label: 'Appreciation (consoles)', value: 'appreciationConsoles' }
   ];
   const sortDirectionOptions = [
     { label: 'Ascending', value: 'ascending' },
@@ -36,20 +40,34 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }
   const onDirChange = (e: any) => {
     const dir = e.value;
     setCurrentSortDir(dir);
-    const sorted =
-      dir === 'descending'
-        ? _sortBy(consoles, currentSort).reverse()
-        : _sortBy(consoles, currentSort);
-    onSortChanged(sorted);
+    if (currentSort === 'appreciationGames') {
+      onSortChanged(appreciationGamesSort(consoles, dir));
+    } else if (currentSort === 'appreciationConsoles') {
+      onSortChanged(appreciationConsolesSort(consoles, dir));
+    } else {
+      const sorted =
+        dir === 'descending'
+          ? _sortBy(consoles, currentSort).reverse()
+          : _sortBy(consoles, currentSort);
+      onSortChanged(sorted);
+    }
   };
 
   const onSortChange = (e: any) => {
-    setCurrentSort(e.value);
-    const sorted =
-      currentSortDir === 'descending'
-        ? _sortBy(consoles, e.value).reverse()
-        : _sortBy(consoles, e.value);
-    onSortChanged(sorted);
+    const sortProp = e.value;
+    console.log('sortProp', sortProp);
+    setCurrentSort(sortProp);
+    if (sortProp === 'appreciationGames') {
+      onSortChanged(appreciationGamesSort(consoles, currentSortDir));
+    } else if (currentSort === 'appreciationConsoles') {
+      onSortChanged(appreciationConsolesSort(consoles, currentSortDir));
+    } else {
+      const sorted =
+        currentSortDir === 'descending'
+          ? _sortBy(consoles, sortProp).reverse()
+          : _sortBy(consoles, sortProp);
+      onSortChanged(sorted);
+    }
   };
 
   return (

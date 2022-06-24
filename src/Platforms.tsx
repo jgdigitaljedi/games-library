@@ -107,11 +107,13 @@ const Platforms: React.FC<RouteComponentProps> = () => {
   );
 
   const getData = useCallback(async () => {
-    const plats = await getPlatformsArr();
-    const xtra = await getExtrasData();
-    const pgame = await getPgameData();
-    buildConsolesList(plats, xtra, pgame);
-  }, [getPgameData, getPlatformsArr, getExtrasData, buildConsolesList]);
+    if (!consolesList?.length) {
+      const plats = await getPlatformsArr();
+      const xtra = await getExtrasData();
+      const pgame = await getPgameData();
+      buildConsolesList(plats, xtra, pgame);
+    }
+  }, [getPgameData, getPlatformsArr, getExtrasData, buildConsolesList, consolesList]);
 
   useEffect(() => {
     getData();
@@ -121,6 +123,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
     <div className='platforms-wrapper'>
       <PlatformsSort
         onSortChanged={(newData: PlatformsPageItem[]) => {
+          console.log('newData', newData);
           setConsolesList(newData);
         }}
         consoles={consolesList || []}

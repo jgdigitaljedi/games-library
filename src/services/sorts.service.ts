@@ -1,5 +1,6 @@
 import { get as _get, sortBy as _sortBy } from 'lodash';
 import { IGame } from '@/models/games.model';
+import { PlatformsPageItem } from '@/models/platforms.model';
 
 export default {
   sortDateWithSlash: (data: string[]) => {
@@ -121,4 +122,56 @@ export default {
     }
     return data;
   }
+};
+
+export const appreciationGamesSort = (
+  consoles: PlatformsPageItem[],
+  currentSort: string
+): PlatformsPageItem[] => {
+  return [...consoles].sort((a: PlatformsPageItem, b: PlatformsPageItem): number => {
+    const aDiff = (a.pgame?.totalValue || 0) - (a.pgame?.totalPaid || 0);
+    const bDiff = (b.pgame?.totalValue || 0) - (b.pgame?.totalPaid || 0);
+    const isAscending = currentSort === 'ascending';
+    if (aDiff > bDiff && isAscending) {
+      return 1;
+    } else if (aDiff < bDiff && isAscending) {
+      return -1;
+    } else if (aDiff > bDiff && !isAscending) {
+      return -1;
+    } else if (aDiff < bDiff && !isAscending) {
+      return 1;
+    }
+    return 0;
+  });
+};
+
+export const appreciationConsolesSort = (
+  consoles: PlatformsPageItem[],
+  currentSort: string
+): PlatformsPageItem[] => {
+  return [...consoles].sort((a: PlatformsPageItem, b: PlatformsPageItem): number => {
+    if (a.pricePaid === null || a.pricePaid === undefined || !a.priceCharting) {
+      return 1;
+    }
+    if (b.pricePaid === null || b.pricePaid === undefined || !b.priceCharting) {
+      return -1;
+    }
+    const aDiff =
+      (a.priceCharting?.price || 0) -
+      (typeof a.pricePaid === 'string' ? parseFloat(a.pricePaid || 0) : a.pricePaid || 0);
+    const bDiff =
+      (b.pgame?.totalValue || 0) -
+      (typeof b.pricePaid === 'string' ? parseFloat(b.pricePaid || 0) : b.pricePaid || 0);
+    const isAscending = currentSort === 'ascending';
+    if (aDiff > bDiff && isAscending) {
+      return 1;
+    } else if (aDiff < bDiff && isAscending) {
+      return -1;
+    } else if (aDiff > bDiff && !isAscending) {
+      return -1;
+    } else if (aDiff < bDiff && !isAscending) {
+      return 1;
+    }
+    return 0;
+  });
 };

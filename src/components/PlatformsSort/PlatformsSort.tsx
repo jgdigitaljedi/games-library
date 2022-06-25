@@ -4,7 +4,12 @@ import { Dropdown } from 'primereact/dropdown';
 import React, { useState } from 'react';
 import { sortBy as _sortBy } from 'lodash';
 import './PlatformsSort.scss';
-import { appreciationConsolesSort, appreciationGamesSort } from '@/services/sorts.service';
+import {
+  appreciationConsolesSort,
+  appreciationGamesSort,
+  dateSortHyphen,
+  dateSortSlash
+} from '@/services/sorts.service';
 
 interface PlatformsSortProps {
   consoles: PlatformsPageItem[];
@@ -59,8 +64,12 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({ consoles, onSortChanged }
     setCurrentSort(sortProp);
     if (sortProp === 'appreciationGames') {
       onSortChanged(appreciationGamesSort(consoles, currentSortDir));
-    } else if (currentSort === 'appreciationConsoles') {
+    } else if (sortProp === 'appreciationConsoles') {
       onSortChanged(appreciationConsolesSort(consoles, currentSortDir));
+    } else if (sortProp === 'datePurchased') {
+      onSortChanged(dateSortHyphen(consoles, sortProp, currentSortDir));
+    } else if (sortProp === 'releaseData.date') {
+      onSortChanged(dateSortSlash(consoles, sortProp, currentSortDir));
     } else {
       const sorted =
         currentSortDir === 'descending'

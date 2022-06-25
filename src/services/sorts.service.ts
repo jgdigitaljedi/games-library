@@ -1,6 +1,7 @@
 import { get as _get, sortBy as _sortBy } from 'lodash';
 import { IGame } from '@/models/games.model';
 import { PlatformsPageItem } from '@/models/platforms.model';
+import { DateTime } from 'luxon';
 
 export default {
   sortDateWithSlash: (data: string[]) => {
@@ -170,6 +171,70 @@ export const appreciationConsolesSort = (
     } else if (aDiff > bDiff && !isAscending) {
       return -1;
     } else if (aDiff < bDiff && !isAscending) {
+      return 1;
+    }
+    return 0;
+  });
+};
+
+export const dateSortHyphen = (
+  consoles: PlatformsPageItem[],
+  sortProp: keyof PlatformsPageItem,
+  dir: string
+): PlatformsPageItem[] => {
+  return [...consoles].sort((a: PlatformsPageItem, b: PlatformsPageItem): number => {
+    let aDate;
+    let bDate;
+    const isAscending = dir === 'ascending';
+    if (a.hasOwnProperty(sortProp) && typeof a[sortProp] === 'string') {
+      // @ts-ignore
+      aDate = DateTime.fromISO(a[sortProp]);
+    }
+    if (b.hasOwnProperty(sortProp) && typeof b[sortProp] === 'string') {
+      // @ts-ignore
+      bDate = DateTime.fromISO(b[sortProp]);
+    }
+    if (!aDate) return -1;
+    if (!bDate) return 1;
+    if (aDate > bDate && isAscending) {
+      return 1;
+    } else if (aDate < bDate && isAscending) {
+      return -1;
+    } else if (aDate > bDate) {
+      return -1;
+    } else if (aDate < bDate) {
+      return 1;
+    }
+    return 0;
+  });
+};
+
+export const dateSortSlash = (
+  consoles: PlatformsPageItem[],
+  sortProp: keyof PlatformsPageItem,
+  dir: string
+): PlatformsPageItem[] => {
+  return [...consoles].sort((a: PlatformsPageItem, b: PlatformsPageItem): number => {
+    let aDate;
+    let bDate;
+    const isAscending = dir === 'ascending';
+    if (a.hasOwnProperty(sortProp) && typeof a[sortProp] === 'string') {
+      // @ts-ignore
+      aDate = DateTime.fromFormat(a[sortProp], 'MM/dd/yyyy');
+    }
+    if (b.hasOwnProperty(sortProp) && typeof b[sortProp] === 'string') {
+      // @ts-ignore
+      bDate = DateTime.fromFormat(b[sortProp], 'MM/dd/yyyy');
+    }
+    if (!aDate) return -1;
+    if (!bDate) return 1;
+    if (aDate > bDate && isAscending) {
+      return 1;
+    } else if (aDate < bDate && isAscending) {
+      return -1;
+    } else if (aDate > bDate) {
+      return -1;
+    } else if (aDate < bDate) {
       return 1;
     }
     return 0;

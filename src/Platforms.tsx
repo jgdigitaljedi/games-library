@@ -129,14 +129,21 @@ const Platforms: React.FC<RouteComponentProps> = () => {
         consoles={consolesList || []}
       />
       {consolesList?.length &&
-        consolesList.map((con: IConsole) => {
+        consolesList.map((con: IConsole, index: number) => {
           if (con.ghostConsole) {
             return <></>;
           }
           const conEx = consolesExtras.filter(ce => ce.platformId === con.id);
           // @ts-ignore
           const thisPgame = pgameData[con.id?.toString()];
-          return <PlatformsItem platform={con} extra={conEx} pgame={thisPgame} />;
+          return (
+            <PlatformsItem
+              platform={con}
+              extra={conEx}
+              pgame={thisPgame}
+              key={`${con.name}${con.lastUpdated}${index}`}
+            />
+          );
         })}
       <ScrollToTop position='right' />
     </div>

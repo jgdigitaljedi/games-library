@@ -10,7 +10,8 @@ function greatestHitsOnly(ed) {
         g.indexOf("Player's Choice") > -1 ||
         g.indexOf('Platinum Hits') > -1 ||
         g.indexOf('Platinum Collection') > -1 ||
-        g.indexOf('Xbox Classic') > -1
+        g.indexOf('Xbox Classic') > -1 ||
+        g.indexOf('Sega All-Stars') > -1
     ).length > 0
   );
 }

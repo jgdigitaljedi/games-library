@@ -76,6 +76,19 @@ const ListView: FunctionComponent<IProps> = ({
             .map(g => `CIB for ${g.consoleName}`)
             .join(', ');
           break;
+        case 'hits':
+          cellData =
+            game?.extraData?.filter(
+              g =>
+                g.indexOf('Greatest Hits') > -1 ||
+                g.indexOf('Nintendo Select') > -1 ||
+                g.indexOf("Player's Choice") > -1 ||
+                g.indexOf('Platinum Hits') > -1 ||
+                g.indexOf('Platinum Collection') > -1 ||
+                g.indexOf('Xbox Classic') > -1 ||
+                g.indexOf('Sega All-Stars') > -1
+            )[0] || '';
+          break;
         default:
           cellData = _get(game, whichData);
           break;

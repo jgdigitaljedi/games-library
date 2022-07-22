@@ -12,6 +12,8 @@ import { sortBy as _sortBy } from 'lodash';
 import { flatten as _flatten } from 'lodash';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import PlatformsSort from './components/PlatformsSort';
+import { PlatformType } from './components/PlatformsSort/PlatformsSort';
+import { consoleHandheldFilter } from './services/filters.service';
 
 const Platforms: React.FC<RouteComponentProps> = () => {
   const [notify, setNotify] = useContext(NotificationContext);
@@ -19,6 +21,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
   const [consolesExtras, setConsolesExtras] = useState<PlatExtraData[]>([]);
   const [pgameData, setPgameDdata] = useState<PgameReturn>({});
   const [consolesList, setConsolesList] = useState<PlatformsPageItem[] | null>(null);
+  const [fullConsolesList, setFullConsolesList] = useState<PlatformsPageItem[] | null>(null);
 
   const getPlatformsArr = useCallback((): Promise<IConsole[]> => {
     return new Promise(async (resolve, reject) => {
@@ -99,12 +102,21 @@ const Platforms: React.FC<RouteComponentProps> = () => {
 
           return { ...con, conEx, pgame: thisPgame };
         });
-        // @ts-ignore
+        setFullConsolesList(masterList);
         setConsolesList(masterList);
       }
     },
     [consolesList]
   );
+
+  const filterByType = (platformType: PlatformType) => {
+    console.log('platformType', platformType);
+    console.log('fullConsolesList', fullConsolesList);
+    if (fullConsolesList?.length) {
+      const newFiltered = consoleHandheldFilter(fullConsolesList, platformType);
+      setConsolesList(newFiltered);
+    }
+  };
 
   const getData = useCallback(async () => {
     if (!consolesList?.length) {
@@ -122,6 +134,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
   return (
     <div className='platforms-wrapper'>
       <PlatformsSort
+        onTypeChanged={filterByType}
         onSortChanged={(newData: PlatformsPageItem[]) => {
           console.log('newData', newData);
           setConsolesList(newData);

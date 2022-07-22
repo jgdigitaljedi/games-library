@@ -48,7 +48,8 @@ function makeList(which, games) {
             } else if (which === 'launch' && g.isLaunchTitle && g.isLaunchTitle.length) {
               return true;
             } else if (which === 'special' && g.special && g.special.length) {
-              return true;
+              const isHits = greatestHitsOnly(game.extraData);
+              return !isHits;
             }
             return false;
           })

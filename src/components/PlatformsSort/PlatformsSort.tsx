@@ -42,7 +42,6 @@ export enum PlatformType {
 
 // TODO: add more filtering options
 /** thoughts
- * - radio group for handhelds, consoles, and both
  * - more sorts in dropdown
  *   - categorize some of the extra data (greatest hits) and add ability to sort by most/least
  *   - appreciation

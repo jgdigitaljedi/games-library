@@ -215,26 +215,23 @@ export const dateSortSlash = (
   dir: string
 ): PlatformsPageItem[] => {
   return [...consoles].sort((a: PlatformsPageItem, b: PlatformsPageItem): number => {
-    let aDate;
-    let bDate;
     const isAscending = dir === 'ascending';
-    if (a.hasOwnProperty(sortProp) && typeof a[sortProp] === 'string') {
-      // @ts-ignore
-      aDate = DateTime.fromFormat(a[sortProp], 'MM/dd/yyyy');
-    }
-    if (b.hasOwnProperty(sortProp) && typeof b[sortProp] === 'string') {
-      // @ts-ignore
-      bDate = DateTime.fromFormat(b[sortProp], 'MM/dd/yyyy');
-    }
-    if (!aDate) return -1;
-    if (!bDate) return 1;
+    const aProp = _get(a, sortProp);
+    const bProp = _get(b, sortProp);
+    const aParsed = aProp ? DateTime.fromFormat(aProp.toString(), 'MM/dd/yyyy') : null;
+    const bParsed = bProp ? DateTime.fromFormat(bProp.toString(), 'MM/dd/yyyy') : null;
+
+    const aDate = aParsed && aParsed.isValid ? aParsed.toMillis() : 99999999999999;
+    const bDate = bParsed && bParsed.isValid ? bParsed.toMillis() : 99999999999999;
+    if (!aDate || isNaN(aDate)) return -1;
+    if (!bDate || isNaN(bDate)) return 1;
     if (aDate > bDate && isAscending) {
       return 1;
     } else if (aDate < bDate && isAscending) {
       return -1;
-    } else if (aDate > bDate) {
+    } else if (aDate > bDate && !isAscending) {
       return -1;
-    } else if (aDate < bDate) {
+    } else if (aDate < bDate && !isAscending) {
       return 1;
     }
     return 0;

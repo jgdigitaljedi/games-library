@@ -11,7 +11,7 @@
     "manual": false,
     "mods": "",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 06:12 am",
@@ -24,23 +24,17 @@
     "memory": "2 KiB",
     "output": "RF, composite",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6c.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6c.png",
     "releaseDate": { "date": "10/18/1985", "region": "North America" },
     "company": "Nintendo",
     "priceCharting": {
       "consoleName": "NES",
       "id": "13743",
-      "price": 25.66,
+      "price": 39.5,
       "name": "Nintendo NES Console",
       "case": "loose",
-      "lastUpdated": "07/23/2022"
-    },
-    "platform_logo": { "id": 229, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl6d.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": "",
-    "newDatePurchased": null
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "0": {
@@ -101,7 +95,7 @@
     "manual": false,
     "mods": "",
     "notes": "Typical yellowing on bottom half.",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 06:13 am",
@@ -111,10 +105,10 @@
     "connectivity": null,
     "cpu": "16-bit 65c816 Ricoh 5A22 3.58MHz",
     "media": "Satellaview (Japan only), Nintendo Power (Japan only), XBAND",
-    "memory": "",
-    "output": "",
+    "memory": null,
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/ob1omu1he33vpulatqzv.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/ob1omu1he33vpulatqzv.png",
     "releaseDate": [
       { "id": 17, "human": "Nov 21, 1990", "region": 5 },
       { "id": 18, "human": "Aug 23, 1991", "region": 2 },
@@ -125,16 +119,16 @@
     "priceCharting": {
       "consoleName": "Super Nintendo",
       "id": "7145",
-      "price": 58.75,
+      "price": 76.91,
       "name": "Super Nintendo System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     },
-    "platform_logo": { "id": 535, "url": "//images.igdb.com/igdb/image/upload/t_thumb/plev.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+    "platform_logo": {
+      "id": 73,
+      "image_id": "ob1omu1he33vpulatqzv",
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/ob1omu1he33vpulatqzv.jpg"
+    }
   },
   {
     "id": 130,
@@ -145,7 +139,7 @@
     "version": { "id": 173, "name": "Initial version" },
     "condition": "Excellent",
     "box": true,
-    "manual": true,
+    "manual": false,
     "mods": "",
     "notes": "128GB micro SD",
     "datePurchased": "12/01/2017",
@@ -161,23 +155,18 @@
     "memory": "4GB LPDDR4",
     "output": "HDMI, 3.5mm headphone jack, DisplayPort over USB-C (internal)",
     "os": "Nintendo Switch system software",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6b.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6b.png",
     "releaseDate": { "date": "03/03/2017", "region": "Worldwide" },
     "company": "Nintendo",
     "newDatePurchased": "2017-12-01T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "Nintendo Switch",
       "id": "37291",
-      "price": 228.75,
+      "price": 239.99,
       "name": "Nintendo Switch with Blue and Red Joy-con",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "256 GB",
-    "platform_logo": { "id": 534, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pleu.jpg" },
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "0": {
@@ -221,7 +210,7 @@
     "manual": false,
     "mods": "Softmodded to play backups; 320GB external HD full of games",
     "notes": "backwards compatibility with Wii U in living room",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": "250",
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:03 am",
@@ -234,7 +223,7 @@
     "memory": "80 MB",
     "output": "composite, S-Video, YPbPr component",
     "os": "Wii System Software",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl70.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl70.png",
     "releaseDate": [
       { "id": 94, "human": "Dec 02, 2006", "region": 5 },
       { "id": 95, "human": "Nov 19, 2006", "region": 2 },
@@ -245,16 +234,16 @@
     "priceCharting": {
       "consoleName": "Wii",
       "id": "21954",
-      "price": 69.29,
+      "price": 53.78,
       "name": "Black Nintendo Wii System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     },
-    "platform_logo": { "id": 326, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl92.jpg" },
-    "storage": "362 GB",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+    "platform_logo": {
+      "id": 252,
+      "image_id": "pl70",
+      "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl70.jpg"
+    }
   },
   {
     "id": 37,
@@ -268,7 +257,7 @@
     "manual": false,
     "mods": "softmodded to play backups; loaded full of games and homebrew",
     "notes": "Nintendo 3DS XL Black",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": 250,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:07 am",
@@ -279,24 +268,19 @@
     "cpu": "Dual-Core ARM11 MPCore",
     "media": "Nintendo 3DS Game Card, SD/SDHC card",
     "memory": "128 MB FCRAM, 6 MB VRAM",
-    "output": "",
+    "output": null,
     "os": "Nintendo 3DS OS",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6o.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6o.png",
     "releaseDate": { "date": "03/01/2011", "region": "Wordlwide" },
     "company": "Nintendo",
     "priceCharting": {
       "consoleName": "Nintendo 3DS",
       "id": "40455",
-      "price": 167.94,
+      "price": 149.58,
       "name": "Nintendo 3DS XL Black",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "32 GB",
-    "platform_logo": { "id": 240, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl6o.jpg" },
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 24,
@@ -310,7 +294,7 @@
     "manual": false,
     "mods": "",
     "notes": "Cobalt Gameboy Advance SP",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:07 am",
@@ -318,27 +302,22 @@
     "howAcquired": "bought from Chris",
     "updatedAt": "01/03/2021 09:04 am",
     "connectivity": null,
-    "cpu": "",
-    "media": "",
-    "memory": "",
-    "output": "",
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7x.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7x.png",
     "releaseDate": { "date": "03/23/2003", "region": "North America" },
     "company": "Nintendo",
     "priceCharting": {
       "consoleName": "GameBoy Advance",
       "id": "2064",
-      "price": 94.31,
+      "price": 75.43,
       "name": "Cobalt Gameboy Advance SP",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 255, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl73.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 23,
@@ -351,40 +330,34 @@
     "manual": false,
     "mods": "replaced clock battery with battery cradle and rechargeable battery",
     "notes": "early model that plays burned games",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:10 am",
     "_id": "0d22e5c6f72241cf8c41a84a86877e75",
     "howAcquired": "GameOver",
     "updatedAt": "01/03/2021 09:04 am",
-    "connectivity": "56K Modem, 100Mbit Broadband Adapter",
+    "connectivity": "VHF, Composite Video, S-Video, VGA",
     "cpu": "Hitachi SH4 32-bit RISC @ 200 MHz",
     "media": "CD, 1.2 GB GD-ROM",
-    "memory": "16 MB RAM, 8 MB video RAM, 2 MB audio RAM",
-    "output": "VHF, Composite Video, S-Video, VGA, RF Modulator, RGB SCART",
-    "os": "Custom Windows CE with DirectX API and dynamic-link libraries",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7i.jpg",
+    "memory": "16 MB",
+    "output": null,
+    "os": null,
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7i.png",
     "releaseDate": { "date": "09/09/1999", "region": "North America" },
     "company": "Sega",
     "priceCharting": {
       "consoleName": "Sega Dreamcast",
       "id": "13193",
-      "price": 143.08,
+      "price": 96.8,
       "name": "Sega Dreamcast Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "alternative_name": "DC",
-    "platform_logo": { "id": 270, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7i.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 49,
-    "alternative_name": "XONE",
+    "alternative_name": "Xbone",
     "category": "console",
     "generation": 8,
     "name": "Xbox One",
@@ -394,7 +367,7 @@
     "manual": false,
     "mods": "",
     "notes": "2TB external HD",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": 100,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:21 am",
@@ -407,22 +380,17 @@
     "memory": "8 GB DDR3",
     "output": "HDMI",
     "os": "Xbox OS",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6a.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6a.png",
     "releaseDate": { "date": "11/22/2013", "region": "Worldwide" },
     "company": "Microsoft",
     "priceCharting": {
       "consoleName": "Xbox One",
       "id": "35183",
-      "price": 132.07,
+      "price": 153.87,
       "name": "Xbox One 500 GB Black Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "2.5 TB",
-    "platform_logo": { "id": 329, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl95.jpg" },
-    "summary": "Welcome to a new generation of games and entertainment. Where games push the boundaries of realism. And television obeys your every command. Where listening to music while playing a game is a snap. And you can jump from TV to movies to music to a game in an instant. Where your experience is custom tailored to you. And the entertainment you love is all in one place. Welcome to the all-in-one, Xbox One",
-    "lastUpdated": "05/21/2022",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 8,
@@ -436,7 +404,7 @@
     "manual": false,
     "mods": "softmodded to play backups; 130+ games installed",
     "notes": "1TB HD installed; disc drive doesn't work; Playstation 2 System",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:24 am",
@@ -449,22 +417,17 @@
     "memory": "32 MB",
     "output": "Composite video, S-Video, RGB, VGA, YPBPR",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl71.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl71.png",
     "releaseDate": { "date": "10/26/2000", "region": "North America" },
     "company": "Sony",
     "priceCharting": {
       "consoleName": "Playstation 2",
       "id": "5642",
-      "price": 85.48,
+      "price": 90,
       "name": "Playstation 2 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "1 TB",
-    "platform_logo": { "id": 254, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl72.jpg" },
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 9,
@@ -477,7 +440,7 @@
     "manual": false,
     "mods": "swapped HD for 100GB HD",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:25 am",
@@ -488,28 +451,19 @@
     "cpu": "3,2 GHz Cell Broadband Engine",
     "media": "Blu-ray, DVD, Compact Disc, Playstation Game disc, Playstation 2 game disc, Super Audio CD, Digital distribution",
     "memory": "256 MB system, 256 MB video",
-    "output": "",
+    "output": null,
     "os": "XcrossMediaBar",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6l.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6l.png",
     "releaseDate": { "date": "03/16/2006", "region": "Europe" },
     "company": "Sony",
     "priceCharting": {
       "consoleName": "Playstation 3",
       "id": "13780",
-      "price": 56.62,
+      "price": 62.84,
       "name": "Playstation 3 System 80GB",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "100 GB",
-    "alternative_name": "PS3",
-    "platform_logo": {
-      "id": 79,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/tuyy1nrqodtmbqajp4jg.jpg"
-    },
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 48,
@@ -534,25 +488,20 @@
     "cpu": "x86-64 AMD \"Jaguar,\" 8 cores",
     "media": "BD × 6 CAV, DVD × 8 CAV",
     "memory": "GDDR5 8GB",
-    "output": "",
+    "output": null,
     "os": "Orbis OS",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6f.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6f.png",
     "releaseDate": { "date": "11/10/2016", "region": "Worldwide" },
     "company": "Sony",
     "newDatePurchased": "2017-12-01T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "Playstation 4",
       "id": "37393",
-      "price": 309.98,
+      "price": 348.13,
       "name": "Playstation 4 Pro 1TB Console",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "5 TB",
-    "platform_logo": { "id": 231, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl6f.jpg" },
-    "summary": "The PlayStation 4 system opens the door to an incredible journey through immersive new gaming worlds and a deeply connected gaming community. PS4 puts gamers first with an astounding launch line-up and over 180 games in development. Play amazing top-tier blockbusters and innovative indie hits on PS4. Developer inspired, gamer focused.",
-    "lastUpdated": "05/21/2022",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 38,
@@ -566,7 +515,7 @@
     "manual": false,
     "mods": "softmodded to play backups & emulators; screen replaced",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": 70,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:28 am",
@@ -577,24 +526,19 @@
     "cpu": "MIPS R4000",
     "media": "Universal Media Disc, digital distribution",
     "memory": "32 MB eDRAM",
-    "output": "",
+    "output": null,
     "os": "PlayStation Portable system software",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6q.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6q.png",
     "releaseDate": { "date": "03/24/2005", "region": "North America" },
     "company": "Sony",
     "priceCharting": {
       "consoleName": "PSP",
       "id": "6750",
-      "price": 74,
+      "price": 56.5,
       "name": "PSP 1000 Console Black",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "16 MB",
-    "platform_logo": { "id": 214, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl5y.jpg" },
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 20,
@@ -628,10 +572,10 @@
     "priceCharting": {
       "consoleName": "Nintendo DS",
       "id": "14902",
-      "price": 48.39,
+      "price": 50.36,
       "name": "Red Crimson & Black Nintendo DS Lite",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     }
   },
   {
@@ -656,26 +600,20 @@
     "cpu": "Sharp LR35902 @ 8 MHz",
     "media": "Game Boy Cartridge",
     "memory": "32 KB",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7l.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7l.png",
     "releaseDate": { "date": "11/18/1998", "region": "North America" },
     "company": "Nintendo",
     "newDatePurchased": "2020-03-06T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "GameBoy Color",
       "id": "16876",
-      "price": 68.85,
+      "price": 59.73,
       "name": "Game Boy Color Berry",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "alternative_name": "GBC",
-    "platform_logo": { "id": 273, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7l.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 50,
@@ -693,32 +631,26 @@
     "ghostConsole": false,
     "createdAt": "07/27/2019 02:59 pm",
     "_id": "ad704ca481074f4aacaa568c9535a698",
-    "howAcquired": "Classic Game Fest",
+    "howAcquired": null,
     "updatedAt": "01/03/2021 09:04 am",
     "connectivity": null,
     "cpu": "32-bit 12.5 MHz RISC CPU ARM60",
     "media": "CD-Rom",
     "memory": "2 MB DRAM, 1 MB VRAM",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7u.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7u.png",
     "releaseDate": { "date": "10/041993", "region": "North America" },
     "company": "The 3DO Company",
     "newDatePurchased": "2019-07-27T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "3DO",
       "id": "16662",
-      "price": 237.36,
+      "price": 219,
       "name": "3DO Console",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
-    },
-    "alternative_name": "3DO",
-    "platform_logo": { "id": 282, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7u.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 35,
@@ -742,26 +674,20 @@
     "cpu": "Zilog Z80 @ 3.5MHz",
     "media": "Cartridges",
     "memory": "8kB",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7z.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7z.png",
     "releaseDate": { "date": "04/26/1991", "region": "North America" },
     "company": "Sega",
     "newDatePurchased": "2019-08-20T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "Sega Game Gear",
       "id": "13194",
-      "price": 52.57,
+      "price": 82.48,
       "name": "Sega Game Gear Handheld",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "alternative_name": "GG",
-    "platform_logo": { "id": 287, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7z.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 86,
@@ -783,28 +709,22 @@
     "updatedAt": "01/03/2021 09:04 am",
     "connectivity": null,
     "cpu": "Hudson Soft HuC6280",
-    "media": "",
-    "memory": "",
-    "output": "",
+    "media": null,
+    "memory": null,
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl88.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl88.png",
     "releaseDate": { "date": "08/29/1989", "region": "North America" },
     "company": "NEC",
     "newDatePurchased": "2019-09-13T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "TurboGrafx-16",
       "id": "19984",
-      "price": 193.09,
+      "price": 166.5,
       "name": "TurboGrafx-16 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 296, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl88.jpg" },
-    "storage": "",
-    "alternative_name": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 64,
@@ -829,25 +749,20 @@
     "cpu": "Zilog Z80 @ 4MHz",
     "media": "Cartridges",
     "memory": "8kB RAM",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8a.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8a.png",
     "releaseDate": { "date": "09/01/1986", "region": "North America" },
     "company": "Sega",
     "newDatePurchased": "2020-11-30T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "Sega Master System",
       "id": "19068",
-      "price": 121.25,
+      "price": 147.16,
       "name": "Sega Master System Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 298, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl8a.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 4,
@@ -861,7 +776,7 @@
     "manual": false,
     "mods": "",
     "notes": "currently broken; Nintendo 64 System",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 06:13 am",
@@ -874,22 +789,17 @@
     "memory": "4 MB RDRAM",
     "output": "Composite video and S-Video",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl77.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl77.png",
     "releaseDate": { "date": "09/29/1996", "region": "North America" },
     "company": "Nintendo",
     "priceCharting": {
       "consoleName": "Nintendo 64",
       "id": "3858",
-      "price": 50,
+      "price": 70.94,
       "name": "Nintendo 64 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 260, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl78.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 4,
@@ -916,23 +826,18 @@
     "memory": "4 MB RDRAM",
     "output": "Composite video and S-Video",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl77.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl77.png",
     "releaseDate": { "date": "09/29/1996", "region": "North America" },
     "company": "Nintendo",
     "newDatePurchased": "2018-11-30T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "Nintendo 64",
       "id": "10588",
-      "price": 187.72,
+      "price": 169.99,
       "name": "Funtastic Ice Blue Nintendo 64 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 260, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl78.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 41,
@@ -945,7 +850,7 @@
     "manual": false,
     "mods": "",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": 300,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:04 am",
@@ -958,23 +863,17 @@
     "memory": "2 GB DDR3 @ 1600MHz",
     "output": "Composite, S-Video, YPbPr component, RGB SCART, D-Terminal, HDMI",
     "os": "Wii U OS",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6n.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6n.png",
     "releaseDate": { "date": "11/18/2012", "region": "North America" },
     "company": "Nintendo",
     "priceCharting": {
       "consoleName": "Wii U",
       "id": "33363",
-      "price": 110.9,
+      "price": 139.5,
       "name": "Wii U Console Deluxe Black 32GB",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "32 GB",
-    "platform_logo": { "id": 239, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl6n.jpg" },
-    "alternative_name": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 30,
@@ -987,7 +886,7 @@
     "manual": false,
     "mods": "completely disassembled and cleaned thoroughly",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:09 am",
@@ -995,28 +894,22 @@
     "howAcquired": "GameOver",
     "updatedAt": "01/03/2021 09:13 am",
     "connectivity": null,
-    "cpu": "",
-    "media": "",
-    "memory": "",
-    "output": "",
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7r.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7r.png",
     "releaseDate": { "date": "11/21/1994", "region": "North America" },
     "company": "Sega",
     "priceCharting": {
       "consoleName": "Sega 32X",
       "id": "11961",
-      "price": 150.81,
+      "price": 143.81,
       "name": "Sega 32X Unit",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 279, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7r.jpg" },
-    "storage": "",
-    "alternative_name": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 32,
@@ -1030,7 +923,7 @@
     "manual": false,
     "mods": "",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": 75,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:10 am",
@@ -1041,27 +934,19 @@
     "cpu": "Hitachi SH-2 @ 28,6 MHz",
     "media": "Sega Saturn Cartridge",
     "memory": "40 MB",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/hrmqljpwunky1all3v78.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/hrmqljpwunky1all3v78.png",
     "releaseDate": { "date": "05/11/1995", "region": "North America" },
     "company": "Sega",
     "priceCharting": {
       "consoleName": "Sega Saturn",
       "id": "13171",
-      "price": 133.5,
+      "price": 66.53,
       "name": "Sega Saturn Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": {
-      "id": 49,
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/hrmqljpwunky1all3v78.jpg"
-    },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 11,
@@ -1074,7 +959,7 @@
     "manual": false,
     "mods": "removed clock capacitor and cleaned up acid; replaced thermal paste with Artic Silver; replaced fan with 70mm Nexus fan",
     "notes": "",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:19 am",
@@ -1083,35 +968,29 @@
     "updatedAt": "01/03/2021 09:13 am",
     "connectivity": "100 Mbit Ethernet",
     "cpu": "Custom 733 MHz Intel Pentium III ''Coppermine-based''",
-    "media": "",
+    "media": null,
     "memory": "64 MB DDR SDRAM @ 200 MHz",
-    "output": "",
+    "output": null,
     "os": "Custom (Based on Windows NT architecture and Windows XP",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7e.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7e.png",
     "releaseDate": { "date": "11/15/2001", "region": "North America" },
     "company": "Microsoft",
     "priceCharting": {
       "consoleName": "Xbox",
       "id": "6736",
-      "price": 41.4,
+      "price": 41.9,
       "name": "Xbox System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 266, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7e.jpg" },
-    "storage": "",
-    "alternative_name": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 12,
-    "alternative_name": "X360",
+    "alternative_name": "xbx360",
     "category": "console",
     "generation": 7,
     "name": "Xbox 360",
-    "version": { "id": 83, "name": "Xbox 360 Original" },
+    "version": { "id": null, "name": "Xbox 360 E" },
     "condition": "Other",
     "box": false,
     "manual": false,
@@ -1124,29 +1003,24 @@
     "_id": "2bf06c56d6f54b66a7f0f60aa76a8b20",
     "howAcquired": "Game Over",
     "updatedAt": "01/03/2021 09:13 am",
-    "connectivity": "Ethernet",
-    "cpu": "3,2 GHz PowerPC Tri-Core ''Xenon''",
-    "media": "DVD, Compact Dics, Digital Download",
-    "memory": "512 MB GDDR3 @ 700 MHz",
-    "output": "HDMI",
+    "connectivity": null,
+    "cpu": null,
+    "media": null,
+    "memory": null,
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6x.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6z.png",
     "releaseDate": { "date": "06/10/2013", "region": "North America" },
     "company": "Microsoft",
     "newDatePurchased": "2019-03-23T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "Xbox 360",
       "id": "35782",
-      "price": 69.17,
+      "price": 65.11,
       "name": "Xbox 360 E Console 4GB",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "500 GB",
-    "platform_logo": { "id": 622, "url": "//images.igdb.com/igdb/image/upload/t_thumb/plha.jpg" },
-    "summary": "Xbox 360 brings you a total games and entertainment experience. The largest library of games, including titles that get you right into the thick of it with Kinect. Plus, your whole family can watch HD movies, TV shows, live events, music, sports and more—across all your devices. Xbox 360 is the center of your games and entertainment universe.",
-    "lastUpdated": "05/21/2022",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 7,
@@ -1169,27 +1043,21 @@
     "connectivity": null,
     "cpu": "MIPS R3051 @ 33,8688 MHz",
     "media": "CD-ROM Discs, Playstation game disc",
-    "memory": "",
+    "memory": null,
     "output": "S-Video, Composite",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7q.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7q.png",
     "releaseDate": { "date": "09/09/1995", "region": "North America" },
     "company": "Sony",
     "newDatePurchased": "2019-05-18T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "Playstation",
       "id": "4652",
-      "price": 34.41,
+      "price": 39.99,
       "name": "PlayStation System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "alternative_name": "PSX, PSOne, PS",
-    "platform_logo": { "id": 278, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7q.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 8,
@@ -1203,35 +1071,58 @@
     "manual": false,
     "mods": "",
     "notes": "Slim Playstation 2 System",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:22 am",
     "_id": "0237e9b6778549e186238ed4182eb0de",
     "howAcquired": "given from Mom",
     "updatedAt": "01/03/2021 09:13 am",
-    "connectivity": "100 Mbit Ethernet/modem, 2x USB 1.1",
+    "connectivity": "100 Mbit Ethernet/modem (Add-on), 2x USB 1.1",
     "cpu": "Emotion Engine @ 294.912 MHz",
-    "media": "",
+    "media": null,
     "memory": "32 MB",
     "output": "Composite video, S-Video, RGB, VGA, YPBPR",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl72.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl72.png",
     "releaseDate": { "date": "10/29/2004", "region": "North America" },
     "company": "Sony",
     "priceCharting": {
       "consoleName": "Playstation 2",
       "id": "5773",
-      "price": 80.5,
+      "price": 85.14,
       "name": "Slim Playstation 2 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 254, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl72.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
+  },
+  {
+    "id": 33,
+    "category": "portable console",
+    "generation": 4,
+    "name": "Game Boy",
+    "version": { "id": 39, "name": "Initial version" },
+    "condition": "Other",
+    "box": false,
+    "manual": false,
+    "mods": "",
+    "notes": "backwards compatibility on both the Game Boy Player for GameCube and the Game Boy Advance SP",
+    "datePurchased": null,
+    "pricePaid": null,
+    "ghostConsole": true,
+    "createdAt": "01/07/2019 07:33 am",
+    "_id": "dec879634f5e41ea874ea57ed27c7edb",
+    "howAcquired": null,
+    "updatedAt": "01/03/2021 09:13 am",
+    "connectivity": "2 Game Boys can be linked together via built-in serial ports, up to 4 with a DMG-07 4-player adapter. And 16 in maximum.",
+    "cpu": "Sharp LR35902 @ 4,19 MHz",
+    "media": "Game Boy Cartridge",
+    "memory": "8 KB S-RAM",
+    "output": null,
+    "os": null,
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7n.png",
+    "releaseDate": { "date": "07/31/1989", "region": "North America" },
+    "company": "Nintendo"
   },
   {
     "id": 6,
@@ -1251,17 +1142,16 @@
     "_id": "a1de4a91c4e04a4cb8ace611c4eff65b",
     "howAcquired": "Amazon",
     "updatedAt": "01/03/2021 09:13 am",
-    "connectivity": "Wifi 6, 2.5 Gb ethernet",
-    "cpu": "AMD Ryzen 5800x @ 4.7GHz",
+    "connectivity": null,
+    "cpu": null,
     "media": null,
-    "memory": "32 GB",
-    "output": "Display Port, HDMI",
-    "os": "Windows/Linux",
+    "memory": null,
+    "output": null,
+    "os": null,
     "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/irwvwpl023f8y19tidgq.png",
     "releaseDate": { "date": "11/29/2015", "region": "Worldwide" },
     "company": "Microsoft",
-    "newDatePurchased": "2019-06-27T05:00:00.000Z",
-    "storage": "3.5 TB"
+    "newDatePurchased": "2019-06-27T05:00:00.000Z"
   },
   {
     "id": 37,
@@ -1286,25 +1176,20 @@
     "cpu": "Dual-Core ARM11 MPCore",
     "media": "Nintendo 3DS Game Card, SD/SDHC card",
     "memory": "128 MB FCRAM, 6 MB VRAM",
-    "output": "",
+    "output": null,
     "os": "Nintendo 3DS OS",
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6o.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl6o.png",
     "releaseDate": { "date": "03/01/2011", "region": "Worldwide" },
     "company": "Nintendo",
     "newDatePurchased": "2020-02-22T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "Nintendo 3DS",
       "id": "32509",
-      "price": 217.19,
+      "price": 186.61,
       "name": "Nintendo 3DS Black Zelda Limited Edition",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
-    },
-    "storage": "32 GB",
-    "platform_logo": { "id": 240, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl6o.jpg" },
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 60,
@@ -1319,7 +1204,7 @@
     "mods": "Capacitor replacement; composite video mod",
     "notes": "Given for free from Game Over as anniversary gift. ",
     "datePurchased": "07/24/2020",
-    "pricePaid": null,
+    "pricePaid": 0,
     "ghostConsole": false,
     "createdAt": "07/25/2020 07:35 am",
     "_id": "7c459ded0cf542e78ac2bca787a64964",
@@ -1331,23 +1216,18 @@
     "memory": "4KB RAM",
     "output": "S-Video",
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8f.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8f.png",
     "releaseDate": { "date": "06/14/1984", "region": "North America" },
     "company": "Atari",
     "newDatePurchased": "2020-07-24T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "Atari 7800",
       "id": "20211",
-      "price": 139.99,
+      "price": 158.21,
       "name": "Atari 7800 Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 303, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl8f.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 66,
@@ -1372,25 +1252,20 @@
     "cpu": "MOS 6502C @ 1,79 MHz",
     "media": "Atari Game cartridge",
     "memory": "16 KB",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8g.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8g.png",
     "releaseDate": { "date": "05/24/1984", "region": "North America" },
     "company": "Atari",
     "newDatePurchased": "2020-08-07T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "Atari 5200",
       "id": "31661",
-      "price": 108.21,
+      "price": 127.38,
       "name": "Atari 5200 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 304, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl8g.jpg" },
-    "summary": "the mother text",
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 29,
@@ -1404,7 +1279,7 @@
     "manual": false,
     "mods": "",
     "notes": "model 2",
-    "datePurchased": "2022-05-21",
+    "datePurchased": null,
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/16/2018 08:09 am",
@@ -1413,26 +1288,21 @@
     "updatedAt": "01/03/2021 09:17 am",
     "connectivity": null,
     "cpu": "16/32-bit Motorola 68000",
-    "media": "",
+    "media": null,
     "memory": "72kB of RAM",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl85.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl85.png",
     "releaseDate": { "date": "08/14/1989", "region": "North America" },
     "company": "Sega",
     "priceCharting": {
       "consoleName": "Sega Genesis",
       "id": "18475",
-      "price": 41.58,
+      "price": 39.99,
       "name": "Sega Genesis Model 2 Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 293, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl85.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 78,
@@ -1456,26 +1326,21 @@
     "connectivity": null,
     "cpu": "MC68000 @ 12.5 MHz",
     "media": "CD-ROM, CD+G",
-    "memory": "",
-    "output": "",
+    "memory": null,
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7w.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl7w.png",
     "releaseDate": { "date": "10/15/1992", "region": "North America" },
     "company": "Sega",
     "newDatePurchased": "2019-08-15T05:00:00.000Z",
     "priceCharting": {
       "consoleName": "Sega CD",
       "id": "40428",
-      "price": 189.99,
+      "price": 176.53,
       "name": "Sega CD Model 2 Console",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "platform_logo": { "id": 284, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7w.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "id": 59,
@@ -1497,28 +1362,22 @@
     "updatedAt": "01/03/2021 09:17 am",
     "connectivity": null,
     "cpu": "MOS 6507 @ 1,19 MHz",
-    "media": "",
+    "media": null,
     "memory": "128 bytes ram",
-    "output": "",
+    "output": null,
     "os": null,
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl8l.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_logo_med/pl8l.png",
     "releaseDate": { "date": "09/11/1977", "region": "North America" },
     "company": "Atari",
     "newDatePurchased": "2019-11-28T06:00:00.000Z",
     "priceCharting": {
       "consoleName": "Atari 2600",
       "id": "19987",
-      "price": 41,
+      "price": 53,
       "name": "Atari 2600 System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "alternative_name": "Atari VCS",
-    "platform_logo": { "id": 309, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl8l.jpg" },
-    "storage": "",
-    "lastUpdated": "05/21/2022",
-    "summary": "",
-    "resolutions": ""
+      "lastUpdated": "04/07/2022"
+    }
   },
   {
     "name": "Atari Jaguar",
@@ -1538,7 +1397,7 @@
     "pricePaid": "430",
     "ghostConsole": false,
     "createdAt": "07/29/2021 07:17 am",
-    "lastUpdated": "05/21/2022",
+    "lastUpdated": "07/29/2021",
     "howAcquired": "Classic Game Fest",
     "updatedAt": "07/29/2021 07:17 am",
     "connectivity": null,
@@ -1557,10 +1416,10 @@
     "priceCharting": {
       "consoleName": "Jaguar",
       "id": "21952",
-      "price": 487.43,
+      "price": 460.11,
       "name": "Atari Jaguar System",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     }
   },
   {
@@ -1581,7 +1440,7 @@
     "pricePaid": "100",
     "ghostConsole": false,
     "createdAt": "07/29/2021 07:25 am",
-    "lastUpdated": "05/21/2022",
+    "lastUpdated": "07/29/2021",
     "howAcquired": "Classic Game Fest",
     "updatedAt": "07/29/2021 07:25 am",
     "connectivity": null,
@@ -1600,10 +1459,10 @@
     "priceCharting": {
       "consoleName": "Intellivision",
       "id": "16859",
-      "price": 80.63,
+      "price": 80.29,
       "name": "Intellivision System",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     }
   },
   {
@@ -1624,7 +1483,7 @@
     "pricePaid": "30",
     "ghostConsole": false,
     "createdAt": "08/23/2021 07:16 pm",
-    "lastUpdated": "05/21/2022",
+    "lastUpdated": "08/23/2021",
     "howAcquired": "bought from Solis",
     "updatedAt": "08/23/2021 07:16 pm",
     "connectivity": null,
@@ -1642,10 +1501,10 @@
     "priceCharting": {
       "consoleName": "GameBoy Advance",
       "id": "2212",
-      "price": 69.69,
+      "price": 68.81,
       "name": "Glacier Gameboy Advance System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     },
     "company": "Nintendo"
   },
@@ -1656,7 +1515,7 @@
     "generation": 5,
     "platform_logo": { "id": 280, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7s.jpg" },
     "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7s.jpg",
-    "alternative_name": "VB",
+    "alternative_name": "",
     "version": { "id": 100, "name": "Initial version" },
     "condition": "Good",
     "box": true,
@@ -1667,7 +1526,7 @@
     "pricePaid": "650",
     "ghostConsole": false,
     "createdAt": "09/12/2021 08:05 pm",
-    "lastUpdated": "05/21/2022",
+    "lastUpdated": "09/12/2021",
     "howAcquired": "GameOver",
     "updatedAt": "09/12/2021 08:05 pm",
     "connectivity": null,
@@ -1686,10 +1545,10 @@
     "priceCharting": {
       "consoleName": "Virtual Boy",
       "id": "20121",
-      "price": 666.55,
+      "price": 825.77,
       "name": "Virtual Boy System",
       "case": "cib",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     }
   },
   {
@@ -1699,7 +1558,7 @@
     "generation": 6,
     "platform_logo": { "id": 262, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7a.jpg" },
     "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7a.jpg",
-    "version": { "id": 121, "name": "DOL-101" },
+    "version": { "id": 54, "name": "Initial version" },
     "condition": "Good",
     "box": false,
     "manual": false,
@@ -1709,15 +1568,15 @@
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/06/2021 06:50 am",
-    "lastUpdated": "05/21/2022",
-    "howAcquired": "GameOver",
+    "lastUpdated": "11/06/2021",
+    "howAcquired": "",
     "updatedAt": "11/06/2021 06:50 am",
-    "connectivity": null,
-    "cpu": "",
-    "media": "",
-    "memory": "",
-    "output": "",
-    "os": null,
+    "connectivity": "Nintendo GameCube Broadband Adapter",
+    "cpu": "IBM PowerPC ''Gekko'' @ 485 MHz",
+    "media": "Nintendo GameCube game disc",
+    "memory": "24MB",
+    "output": "Composite, S-Video, YPbPr component, RGB component (Japan only)",
+    "os": "Dolphin OS",
     "releaseDate": { "region": "Japan", "date": "09/14/2001" },
     "summary": "",
     "storage": "",
@@ -1725,15 +1584,14 @@
     "priceCharting": {
       "consoleName": "Gamecube",
       "id": "144811",
-      "price": 73.21,
+      "price": 105,
       "name": "Black Gamecube System [DOL-001]",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     },
     "_id": "b38faa85e69b4d74b332493b224be6d8",
     "newDatePurchased": "2021-11-06T05:00:00.000Z",
-    "company": "Nintendo",
-    "category": "console"
+    "company": "Nintendo"
   },
   {
     "name": "Nintendo GameCube",
@@ -1743,7 +1601,7 @@
     "generation": 6,
     "platform_logo": { "id": 262, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7a.jpg" },
     "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7a.jpg",
-    "version": { "id": 121, "name": "DOL-101" },
+    "version": { "id": 54, "name": "Initial version" },
     "condition": "Good",
     "box": false,
     "manual": false,
@@ -1753,26 +1611,26 @@
     "pricePaid": "40",
     "ghostConsole": false,
     "createdAt": "11/06/2021 06:52 am",
-    "lastUpdated": "05/21/2022",
+    "lastUpdated": "11/06/2021",
     "howAcquired": "GameOver",
     "updatedAt": "11/06/2021 06:52 am",
-    "connectivity": null,
-    "cpu": "",
-    "media": "",
-    "memory": "",
-    "output": "",
-    "os": null,
+    "connectivity": "Nintendo GameCube Broadband Adapter",
+    "cpu": "IBM PowerPC ''Gekko'' @ 485 MHz",
+    "media": "Nintendo GameCube game disc",
+    "memory": "24MB",
+    "output": "Composite, S-Video, YPbPr component, RGB component (Japan only)",
+    "os": "Dolphin OS",
     "releaseDate": { "region": "Japan", "date": "09/14/2001" },
     "summary": "",
-    "storage": "256 GB",
+    "storage": "",
     "resolutions": "",
     "priceCharting": {
       "consoleName": "Gamecube",
       "id": "3337",
-      "price": 61.35,
+      "price": 58.33,
       "name": "Indigo GameCube System",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     },
     "_id": "e69059435b164c75b2f2ea1f804ae366",
     "newDatePurchased": "2021-11-06T05:00:00.000Z",
@@ -1785,7 +1643,7 @@
     "category": "portable console",
     "generation": 7,
     "platform_logo": { "id": 245, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl6t.jpg" },
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pdn0g4fyks0y1v2ckzws.jpg",
+    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl6t.jpg",
     "version": { "id": 190, "name": "Nintendo DS Lite" },
     "condition": "Good",
     "box": false,
@@ -1796,7 +1654,7 @@
     "pricePaid": null,
     "ghostConsole": false,
     "createdAt": "11/06/2021 06:54 am",
-    "lastUpdated": "05/21/2022",
+    "lastUpdated": "11/06/2021",
     "howAcquired": "GameOver",
     "updatedAt": "11/06/2021 06:54 am",
     "connectivity": "Wi-Fi",
@@ -1812,56 +1670,13 @@
     "priceCharting": {
       "consoleName": "Nintendo DS",
       "id": "21836",
-      "price": 33.27,
+      "price": 39.61,
       "name": "Metallic Rose Nintendo DS Lite",
       "case": "loose",
-      "lastUpdated": "07/11/2022"
+      "lastUpdated": "04/07/2022"
     },
     "_id": "671840b0076f4563b9d5f455a9bad7df",
     "newDatePurchased": "2021-11-06T05:00:00.000Z",
     "company": "Nintendo"
-  },
-  {
-    "name": "Game Boy",
-    "id": 33,
-    "alternative_name": "GB",
-    "category": "portable console",
-    "generation": 4,
-    "platform_logo": { "id": 274, "url": "//images.igdb.com/igdb/image/upload/t_thumb/pl7m.jpg" },
-    "logo": "https://images.igdb.com/igdb/image/upload/t_thumb/pl7o.jpg",
-    "version": { "id": 181, "name": "Game Boy Pocket" },
-    "condition": "Good",
-    "box": false,
-    "manual": false,
-    "mods": "",
-    "notes": "",
-    "datePurchased": "2022-06-19",
-    "pricePaid": "55",
-    "ghostConsole": false,
-    "createdAt": "06/19/2022 04:49 pm",
-    "lastUpdated": "06/19/2022",
-    "howAcquired": "GameOver",
-    "updatedAt": "06/19/2022 04:49 pm",
-    "connectivity": "2 Game Boys can be linked together via built-in serial ports, up to 4 with a DMG-07 4-player adapter. And 16 in maximum.",
-    "cpu": "Sharp LR35902 @ 4,19 MHz",
-    "media": "Game Boy Cartridge",
-    "memory": "8 KB S-RAM",
-    "output": "",
-    "os": null,
-    "releaseDate": { "region": "", "date": "06/19/2022" },
-    "summary": "",
-    "storage": "",
-    "resolutions": "",
-    "company": "Nintendo",
-    "newDatePurchased": "2022-06-19T05:00:00.000Z",
-    "priceCharting": {
-      "consoleName": "GameBoy",
-      "id": "45735",
-      "price": 36.93,
-      "name": "Silver Game Boy Pocket",
-      "case": "loose",
-      "lastUpdated": "07/11/2022"
-    },
-    "_id": "16a1c5825d7448f3874a4119a1db6880"
   }
 ]

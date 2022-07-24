@@ -7,7 +7,9 @@ const handheldsArr = [
   '33', // Game Boy
   '22', // Game Boy Color
   '35', // Game Gear
-  '87' // Virtual Boy
+  '87', // Virtual Boy
+  '46', // Vita
+  '379' // Game.com
 ];
 
 const inHandheldsArr = (id, name) => {

@@ -225,7 +225,7 @@ export const gameCaseSubTypes = [
     custom: true,
     original: true,
     none: false,
-    consoleIds: [33, 24, 22, 37, 20, 35, 87]
+    consoleIds: [33, 24, 22, 37, 20, 35, 87, 46, 379]
   },
   { label: 'PSP Case', value: 'psp', custom: true, original: true, none: false, consoleIds: [38] },
   {
@@ -235,6 +235,14 @@ export const gameCaseSubTypes = [
     original: true,
     none: false,
     consoleIds: [7, 78, 32]
+  },
+  {
+    label: 'Long Box CD',
+    value: 'longboxCd',
+    custom: true,
+    original: true,
+    none: false,
+    consoleIds: [30]
   },
   {
     label: 'Cart Shell/Disc Sleeve',
@@ -252,7 +260,7 @@ export const gameCaseSubTypes = [
     none: true,
     consoleIds: [
       50, 59, 66, 60, 62, 23, 33, 24, 22, 67, 37, 4, 20, 18, 21, 130, 6, 7, 8, 9, 48, 38, 30, 78,
-      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87
+      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87, 46, 379
     ]
   },
   {
@@ -286,6 +294,14 @@ export const gameCaseSubTypes = [
     original: true,
     none: false,
     consoleIds: [49]
+  },
+  {
+    label: 'PlayStation Vita Case',
+    value: 'vita',
+    custom: false,
+    original: true,
+    none: false,
+    consoleIds: [46]
   }
 ];
 
@@ -301,10 +317,10 @@ export const gameMediaType = [
   {
     label: 'Cartridge',
     value: 'cart',
-    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19, 87]
+    consoleIds: [59, 66, 60, 62, 33, 24, 22, 67, 37, 4, 20, 18, 130, 30, 35, 64, 29, 19, 87, 379]
   },
   { label: 'Disc', value: 'disc', consoleIds: [50, 21, 7, 8, 9, 48, 78, 32, 5, 41, 11, 12, 49] },
-  { label: 'Card', value: 'card', consoleIds: [130, 64, 86] },
+  { label: 'Card', value: 'card', consoleIds: [130, 64, 86, 46] },
   { label: 'UMD', value: 'umd', consoleIds: [38] },
   { label: 'Digital', value: 'digital', consoleIds: [37, 20, 6, 8, 9, 48, 38, 5, 41, 11, 12, 49] },
   {

@@ -33,6 +33,8 @@ const nvb = require('./consoleSpecificGameData/VirtualBoy.json');
 const n3ds = require('./consoleSpecificGameData/Nintendo3DS.json');
 const r3do = require('./consoleSpecificGameData/3DOInteractiveMultiplayer.json');
 const nsw = require('./consoleSpecificGameData/NintendoSwitch.json');
+const gcom = require('./consoleSpecificGameData/GameCom.json');
+const vita = require('./consoleSpecificGameData/SonyPlaystationVita.json')
 
 const igdbIdToFile = {
   '18': nes,
@@ -70,7 +72,9 @@ const igdbIdToFile = {
   '64': sms,
   '67': miv,
   '62': jag,
-  '87': nvb
+  '87': nvb,
+  '46': vita,
+  '379': gcom
 };
 
 module.exports.getFileRef = id => {

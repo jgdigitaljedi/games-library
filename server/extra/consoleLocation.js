@@ -35,7 +35,9 @@ const consoleLocationList = {
   '62': 'upstairs', // Atari Jaguar
   '67': 'upstairs', // IntelliVision
   '64': 'upstairs', // Master System
-  '87': 'both'
+  '87': 'both',
+  '379': 'both', // Game.com
+  '46': 'both' // Vita
 };
 
 module.exports.getLocation = id => {

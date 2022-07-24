@@ -126,5 +126,13 @@
   {
     "appName": "Xbox One",
     "dataName": "Microsoft Xbox One"
+  },
+  {
+    "appName": "Game.com",
+    "dataName": "Tiger Game.com"
+  },
+  {
+    "appName": "PlayStation Vita",
+    "dataName": "Sony PlayStation Vita"
   }
 ]

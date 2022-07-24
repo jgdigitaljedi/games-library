@@ -134,5 +134,9 @@
   {
     "appName": "PlayStation Vita",
     "dataName": "Sony PlayStation Vita"
+  },
+  {
+    "appName": "Atari Lynx",
+    "dataName": "Atari Lynx"
   }
 ]

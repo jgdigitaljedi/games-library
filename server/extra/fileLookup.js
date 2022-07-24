@@ -35,6 +35,7 @@ const r3do = require('./consoleSpecificGameData/3DOInteractiveMultiplayer.json')
 const nsw = require('./consoleSpecificGameData/NintendoSwitch.json');
 const gcom = require('./consoleSpecificGameData/GameCom.json');
 const vita = require('./consoleSpecificGameData/SonyPlaystationVita.json')
+const lynx = require('./consoleSpecificGameData/AtariLynx.json');
 
 const igdbIdToFile = {
   '18': nes,
@@ -74,7 +75,8 @@ const igdbIdToFile = {
   '62': jag,
   '87': nvb,
   '46': vita,
-  '379': gcom
+  '379': gcom,
+  '61': lynx
 };
 
 module.exports.getFileRef = id => {

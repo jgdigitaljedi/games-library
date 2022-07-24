@@ -34,6 +34,9 @@ const miv = require('../../../extra/consoleSpecificGameData/MattelIntellivision.
 const nvb = require('../../../extra/consoleSpecificGameData/VirtualBoy.json');
 const r3do = require('../../../extra/consoleSpecificGameData/3DOInteractiveMultiplayer.json');
 const n3ds = require('../../../extra/consoleSpecificGameData/Nintendo3DS.json');
+const vita = require('../../../extra/consoleSpecificGameData/SonyPlaystationVita.json');
+const gcom = require('../../../extra/consoleSpecificGameData/GameCom.json');
+const lynx = require('../../../extra/consoleSpecificGameData/AtariLynx.json');
 
 const igdbIdToFile = {
   18: nes,
@@ -71,7 +74,10 @@ const igdbIdToFile = {
   64: sms,
   67: miv,
   62: jag,
-  87: nvb
+  87: nvb,
+  46: vita,
+  379: gcom,
+  61: lynx
 };
 
 module.exports.getFileRef = id => {

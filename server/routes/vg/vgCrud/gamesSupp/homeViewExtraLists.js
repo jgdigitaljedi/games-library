@@ -91,6 +91,12 @@ const r3doLtIds = require('../../../../extra/launchTitles/3doLaunchTitles.json')
 const n3dsLtIds = require('../../../../extra/launchTitles/nintendo3dsLaunchTitles.json').map(
   g => g.igdbId
 );
+const lynxLtIds = require('../../../../extra/launchTitles/atariLynxLaunchTitles.json').map(
+  g => g.igdbId
+);
+const vitaLtIds = require('../../../../extra/launchTitles/psVitaLaunchTitles.json').map(
+  g => g.igdbId
+);
 
 // exclusives
 const atari2600Ex = require('../../../../extra/exclusives/atari2600Exclusives.json').map(
@@ -186,6 +192,12 @@ const mivExIds = require('../../../../extra/exclusives/intellivisionExclusives.j
 const nvbExIds = require('../../../../extra/exclusives/virtualBoyExclusives.json').map(
   g => g.igdbId
 );
+const lynxExIds = require('../../../../extra/exclusives/atariLynxExclusives.json').map(
+  g => g.igdbId
+);
+const vitaExIds = require('../../../../extra/exclusives/sonyPlaystationVitaExclusives.json').map(
+  g => g.igdbId
+);
 
 // hits
 const threedss = require('../../../../extra/greatestHits/3dsNintendoSelects.json').map(
@@ -268,7 +280,10 @@ const launchOwned = {
   nvbLt: [],
   mivLt: [],
   r3doLt: [],
-  n3dsLt: []
+  n3dsLt: [],
+  lynxLt: [],
+  vitaLt: [],
+  gcomLt: []
 };
 
 const exOwned = {
@@ -306,7 +321,10 @@ const exOwned = {
   tgEx: [],
   smsEx: [],
   mivEx: [],
-  nvbEx: []
+  nvbEx: [],
+  lynxEx: [],
+  vitaEx: [],
+  gcomEx: []
 };
 
 const hitsOwned = {
@@ -365,7 +383,10 @@ const cibOwned = {
   tgCib: [],
   smsCib: [],
   mivCib: [],
-  nvbCib: []
+  nvbCib: [],
+  lynxCib: [],
+  vitaCib: [],
+  gcomCib: []
 };
 
 const igdbIdToFiles = {
@@ -684,6 +705,33 @@ const igdbIdToFiles = {
     hitList: null,
     cibList: 'nvbCib'
   }, //nvb
+  61: {
+    launch: lynxLtIds,
+    exclusives: lynxExIds,
+    hits: [],
+    launchList: 'lynxLt',
+    exList: 'lynxEx',
+    hitList: null,
+    cibList: 'lynxCib'
+  }, // lynx
+  46: {
+    launch: vitaLtIds,
+    exclusives: vitaExIds,
+    hits: [],
+    launchList: 'vitaLt',
+    exList: 'vitaEx',
+    hitList: null,
+    cibList: 'vitaCib'
+  }, // vita
+  379: {
+    launch: [],
+    exclusives: [],
+    hits: [],
+    launchList: null,
+    exList: null,
+    hitList: null,
+    cibList: 'gcomCib'
+  }, // Game.com
   6: { launch: [], exclusives: [], hits: [] } //pc
 };
 
@@ -790,6 +838,26 @@ module.exports.getLaunchEx = async function () {
         owned: cibOwned.aJagCib.length,
         title: 'Atari Jaguar CIB',
         platformId: 62,
+        dataSet: 'CIB'
+      },
+      {
+        title: 'Atari Lynx launch titles',
+        owned: launchOwned.lynxLt.length,
+        total: lynxLtIds.length,
+        platformId: 61,
+        dataSet: 'LT'
+      },
+      {
+        title: 'Atari Lynx exclusives',
+        owned: exOwned.lynxEx.length,
+        total: lynxExIds.length,
+        platformId: 61,
+        dataSet: 'EX'
+      },
+      {
+        owned: cibOwned.lynxCib.length,
+        title: 'Atari Lynx CIB',
+        platformId: 61,
         dataSet: 'CIB'
       },
       {
@@ -1479,6 +1547,26 @@ module.exports.getLaunchEx = async function () {
         dataSet: 'CIB'
       },
       {
+        title: 'Sony PlayStation Vita launch titles',
+        owned: launchOwned.vitaLt.length,
+        total: vitaLtIds.length,
+        platformId: 46,
+        dataSet: 'LT'
+      },
+      {
+        title: 'Sony PlayStation Vita exclusives',
+        owned: exOwned.vitaEx.length,
+        total: vitaExIds.length,
+        platformId: 46,
+        dataSet: 'EX'
+      },
+      {
+        owned: cibOwned.vitaCib.length,
+        title: 'Sony PlayStation Vita CIB',
+        platformId: 46,
+        dataSet: 'CIB'
+      },
+      {
         title: 'REAL 3DO launch titles',
         owned: launchOwned.r3doLt.length,
         total: r3doLtIds.length,
@@ -1536,6 +1624,26 @@ module.exports.getLaunchEx = async function () {
         owned: cibOwned.mivCib.length,
         title: 'Mattel Intellivision CIB',
         platformId: 67,
+        dataSet: 'CIB'
+      },
+      {
+        title: 'Tiger Game.com launch titles',
+        owned: launchOwned.gcomLt.length,
+        total: 0,
+        platformId: 379,
+        dataSet: 'LT'
+      },
+      {
+        title: 'Tiger Game.com exclusives',
+        owned: exOwned.gcomEx.length,
+        total: 0,
+        platformId: 379,
+        dataSet: 'EX'
+      },
+      {
+        owned: cibOwned.gcomCib.length,
+        title: 'Tiger Game.com CIB',
+        platformId: 379,
         dataSet: 'CIB'
       }
     ];

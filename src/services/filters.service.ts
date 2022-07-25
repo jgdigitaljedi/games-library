@@ -9,7 +9,10 @@ const handheldsArr = [
   '33', // Game Boy
   '22', // Game Boy Color
   '35', // Game Gear
-  '130' // Switch
+  '130', // Switch
+  '379', // Game.com
+  '46', // Vita
+  '61' // Lynx
 ];
 
 const consoleHandheldFilter = (platforms: PlatformsPageItem[], which: PlatformType) => {

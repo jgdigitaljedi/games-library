@@ -70,6 +70,7 @@ const Viz: FunctionComponent<RouteComponentProps> = () => {
     const result = await Axios.get(`${window.urlPrefix}/api/vg/stats`);
     if (result && result.data) {
       setStats(result.data);
+      console.log('result', result.data);
     } else {
       setNotify({
         severity: 'error',

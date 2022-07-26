@@ -8,18 +8,38 @@
   @include box_shadow(2);
   .p-card-content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
-    .platforms-sort--item-wrapper {
+    .platforms-sort--row {
       display: flex;
-      flex-direction: column;
-      label {
-        color: $white;
-        font-family: $secondary-font;
-        font-weight: bold;
-        text-align: center;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      &.top {
+        margin-bottom: 2rem;
       }
+      .platforms-sort-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 4rem 0 2rem;
+        i {
+          margin-right: .5rem;
+        }
+      }
+      .platforms-sort--row__item-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+        label {
+          color: $white;
+          font-family: $secondary-font;
+          font-weight: bold;
+          text-align: center;
+        }
+    }
     }
   }
 }

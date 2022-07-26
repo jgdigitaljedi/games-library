@@ -118,6 +118,21 @@ const Platforms: React.FC<RouteComponentProps> = () => {
     }
   };
 
+  const filterChanged = (key: string, value: string | null) => {
+    if (key && value) {
+      const filteredConsoles = fullConsolesList?.filter(con => {
+        if (con.hasOwnProperty(key)) {
+          // @ts-ignore
+          return con[key] === value;
+        }
+      });
+      if (filteredConsoles?.length) {
+        setConsolesList(filteredConsoles);
+      }
+    }
+    return consolesList;
+  };
+
   const getData = useCallback(async () => {
     if (!consolesList?.length) {
       const plats = await getPlatformsArr();
@@ -134,6 +149,7 @@ const Platforms: React.FC<RouteComponentProps> = () => {
   return (
     <div className='platforms-wrapper'>
       <PlatformsSort
+        onFilterChanged={filterChanged}
         onTypeChanged={filterByType}
         onSortChanged={(newData: PlatformsPageItem[]) => {
           console.log('newData', newData);

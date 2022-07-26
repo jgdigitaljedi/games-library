@@ -11,11 +11,13 @@ import {
   dateSortHyphen,
   dateSortSlash
 } from '@/services/sorts.service';
+import { platformsViewSecondFilters } from '@/services/filters.service';
 
 interface PlatformsSortProps {
   consoles: PlatformsPageItem[];
   onSortChanged: (consoles: PlatformsPageItem[]) => void;
   onTypeChanged: (platformType: PlatformType) => void;
+  onFilterChanged: (filterKey: string, filerValue: string | null) => void;
 }
 
 enum CurrentSortType {
@@ -40,6 +42,12 @@ export enum PlatformType {
   Handhelds = 'handhelds'
 }
 
+export enum PlatFilters {
+  None = '',
+  Company = 'company',
+  Gen = 'generation'
+}
+
 // TODO: add more filtering options
 /** thoughts
  * - more sorts in dropdown
@@ -50,11 +58,15 @@ export enum PlatformType {
 const PlatformsSort: React.FC<PlatformsSortProps> = ({
   consoles,
   onSortChanged,
-  onTypeChanged
+  onTypeChanged,
+  onFilterChanged
 }) => {
   const [currentSort, setCurrentSort] = useState<string>('name');
   const [currentSortDir, setCurrentSortDir] = useState<string>('ascending');
   const [currentPType, setCurrentPType] = useState<string>('all');
+  const [currentFilter, setCurrentFilter] = useState('');
+  const [secondFilter, setSecondFilter] = useState<string[] | number[] | null>(null);
+  const [secondFilterSelection, setSecondFilterSelection] = useState<string | null>(null);
   const sortOptions = Object.keys(CurrentSortType).map((option: string) => {
     return { label: option, value: CurrentSortType[option as keyof typeof CurrentSortType] };
   });
@@ -63,6 +75,9 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({
   });
   const platformTypeOptions = Object.keys(PlatformType).map((option: string) => {
     return { label: option, value: PlatformType[option as keyof typeof PlatformType] };
+  });
+  const filterTypeOptions = Object.keys(PlatFilters).map((option: string) => {
+    return { label: option, value: PlatFilters[option as keyof typeof PlatFilters] };
   });
 
   const onPTypeChange = (e: any) => {
@@ -110,36 +125,90 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({
     }
   };
 
+  const setSecondFilterFields = (which: PlatFilters) => {
+    if (which) {
+      const initialArr = platformsViewSecondFilters(which, consoles);
+      if (initialArr) {
+        setSecondFilter(initialArr);
+      }
+    } else {
+      setSecondFilter(null);
+    }
+  };
+
+  const onFilterChange = (e: any) => {
+    setCurrentFilter(e.value);
+    setSecondFilterFields(e.value);
+  };
+
+  const onSecondFilterSelected = (e: any) => {
+    const filterValue = e.value;
+    setSecondFilterSelection(filterValue);
+    onFilterChanged(currentFilter, filterValue);
+  };
+
   return (
     <Card className='platforms-sort card'>
-      <div className='platforms-sort--item-wrapper'>
-        <label htmlFor='platform-type'>Platform Type</label>
-        <SelectButton
-          id='platform-type'
-          options={platformTypeOptions}
-          optionLabel='label'
-          optionValue='value'
-          value={currentPType}
-          onChange={onPTypeChange}
-        />
+      <div className='platforms-sort--row top'>
+        <div className='platforms-sort-header'>
+          <i className='pi pi-filter' />
+          <h3>Filter</h3>
+        </div>
+        <div className='platforms-sort--row__item-wrapper'>
+          <label htmlFor='platform-type'>Platform Type</label>
+          <SelectButton
+            id='platform-type'
+            options={platformTypeOptions}
+            optionLabel='label'
+            optionValue='value'
+            value={currentPType}
+            onChange={onPTypeChange}
+          />
+        </div>
+        <div className='platforms-sort--row__item-wrapper'>
+          <label htmlFor='filter'>Filter</label>
+          <Dropdown
+            options={filterTypeOptions}
+            name='filter'
+            value={currentFilter}
+            onChange={onFilterChange}
+          />
+        </div>
+        {secondFilter?.length && (
+          <div className='platforms-sort--row__item-wrapper'>
+            <label htmlFor='secondFilter'>{currentFilter}</label>
+            <Dropdown
+              options={secondFilter}
+              name='secondFilter'
+              value={secondFilterSelection}
+              onChange={onSecondFilterSelected}
+            />
+          </div>
+        )}
       </div>
-      <div className='platforms-sort--item-wrapper'>
-        <label htmlFor='sort-direction'>Sort direction</label>
-        <Dropdown
-          options={sortDirectionOptions}
-          name='sort-direction'
-          value={currentSortDir}
-          onChange={onDirChange}
-        />
-      </div>
-      <div className='platforms-sort--item-wrapper'>
-        <label htmlFor='sort-options'>Sort by</label>
-        <Dropdown
-          options={sortOptions}
-          name='sort-options'
-          value={currentSort}
-          onChange={onSortChange}
-        />
+      <div className='platforms-sort--row'>
+        <div className='platforms-sort-header'>
+          <i className='pi pi-sort-alt' />
+          <h3>Sort</h3>
+        </div>
+        <div className='platforms-sort--row__item-wrapper'>
+          <label htmlFor='sort-direction'>Sort direction</label>
+          <Dropdown
+            options={sortDirectionOptions}
+            name='sort-direction'
+            value={currentSortDir}
+            onChange={onDirChange}
+          />
+        </div>
+        <div className='platforms-sort--row__item-wrapper'>
+          <label htmlFor='sort-options'>Sort by</label>
+          <Dropdown
+            options={sortOptions}
+            name='sort-options'
+            value={currentSort}
+            onChange={onSortChange}
+          />
+        </div>
       </div>
     </Card>
   );

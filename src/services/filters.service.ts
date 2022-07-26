@@ -1,5 +1,5 @@
-import { PlatformType } from '@/components/PlatformsSort/PlatformsSort';
-import { PlatformsPageItem } from '@/models/platforms.model';
+import { PlatFilters, PlatformType } from '@/components/PlatformsSort/PlatformsSort';
+import { IConsole, PlatformsPageItem } from '@/models/platforms.model';
 
 const handheldsArr = [
   '37', // Nintendo 3DS
@@ -36,4 +36,27 @@ const consoleHandheldFilter = (platforms: PlatformsPageItem[], which: PlatformTy
   }
 };
 
-export { consoleHandheldFilter };
+const platformsViewSecondFilters = (which: PlatFilters, plats: IConsole[]) => {
+  switch (which) {
+    case 'company':
+      return plats
+        .reduce((acc: string[], plat: IConsole) => {
+          if (plat?.company && acc.indexOf(plat.company) === -1) {
+            acc.push(plat.company);
+          }
+          return acc;
+        }, [])
+        .sort();
+    case 'generation':
+      return plats
+        .reduce((acc: number[], plat: IConsole) => {
+          if (plat?.generation && acc.indexOf(plat.generation) === -1) {
+            acc.push(plat.generation);
+          }
+          return acc;
+        }, [])
+        .sort();
+  }
+};
+
+export { consoleHandheldFilter, platformsViewSecondFilters };

@@ -54,7 +54,9 @@ export const platformLogos: { [key: string]: string } = {
   'Wii U': 'logos/WiiU.svg',
   Xbox: 'logos/Vectorial_Xbox_logo.svg',
   'Xbox 360': 'logos/Xbox_logo_2012_cropped.svg',
-  'Xbox One': 'logos/Xbox_one_logo.svg'
+  'Xbox One': 'logos/Xbox_one_logo.svg',
+  'Game.com': 'logos/Game_com_gif_logo.svg',
+  'Atari Lynx': 'logos/Atari_Lynx_logo.svg'
 };
 
 export const getGalleryList = async () => {

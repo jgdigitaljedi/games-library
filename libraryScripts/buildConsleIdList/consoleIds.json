@@ -142,5 +142,17 @@
   {
     "id": 49,
     "name": "Xbox One"
+  },
+  {
+    "id": 46,
+    "name": "Sony PlayStation Vita"
+  },
+  {
+    "id": 61,
+    "name": "Atari Lynx"
+  },
+  {
+    "id": 379,
+    "name": "Tiger Game.com"
   }
 ]

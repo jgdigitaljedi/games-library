@@ -32,9 +32,9 @@
     ],
     "new": [
       "Sony PlayStation 3 console exclusive",
-      "Sony PlayStation 3 Greatest Hits",
       "banned in Suadia Arabia: Banned because of high impact violence, nudity and a sex scene",
-      "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene."
+      "banned in UAE: Banned likely due to graphic violence, sexual content, nudity108 and a sultry seduction scene.",
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -70,6 +70,12 @@
     ]
   },
   {
+    "name": "Kangaroo",
+    "id": 12310,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Spider-Man",
     "id": 3325,
     "old": [
@@ -78,6 +84,12 @@
     "new": [
       "Atari 2600 exclusive"
     ]
+  },
+  {
+    "name": "Yars' Revenge",
+    "id": 9757,
+    "old": [],
+    "new": []
   },
   {
     "name": "NBA Jam Tournament Edition",
@@ -98,6 +110,12 @@
     "new": [
       "Atari 5200 launch title"
     ]
+  },
+  {
+    "name": "Star Trek: Strategic Operations Simulator",
+    "id": 12319,
+    "old": [],
+    "new": []
   },
   {
     "name": "James 'Buster' Douglas Knock Out Boxing",
@@ -172,7 +190,8 @@
     ],
     "new": [
       "Sony PlayStation 3 full exclusive",
-      "Sony PlayStation 3 Greatest Hits"
+      "Sony PlayStation 3 Greatest Hits",
+      "Sony PlayStation 3 light gun game (PSMove)"
     ]
   },
   {
@@ -194,6 +213,18 @@
     "new": [
       "NES exclusive game"
     ]
+  },
+  {
+    "name": "Super C",
+    "id": 84919,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "RealSports Baseball",
+    "id": 117409,
+    "old": [],
+    "new": []
   },
   {
     "name": "SOCOM: US Navy SEALs",
@@ -268,7 +299,8 @@
     ],
     "new": [
       "Sony PlayStation 3 full exclusive",
-      "Sony PlayStation 3 Greatest Hits"
+      "Sony PlayStation 3 Greatest Hits",
+      "Sony PlayStation 3 light gun game (PSMove)"
     ]
   },
   {
@@ -288,7 +320,8 @@
       "NES exclusive game"
     ],
     "new": [
-      "NES exclusive game"
+      "NES exclusive game",
+      "NES light gun game (compatible)"
     ]
   },
   {
@@ -327,12 +360,14 @@
     "name": "Assassin's Creed III",
     "id": 1266,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -368,6 +403,12 @@
     ]
   },
   {
+    "name": "Super Mario Bros. 2",
+    "id": 1067,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Mortal Kombat: Deception",
     "id": 1613,
     "old": [
@@ -380,6 +421,18 @@
     ]
   },
   {
+    "name": "Power Drome",
+    "id": 5985,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Untitled Goose Game",
+    "id": 72813,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Prince of Persia: The Fallen King",
     "id": 21267,
     "old": [
@@ -387,6 +440,14 @@
     ],
     "new": [
       "Nintendo DS exclusive"
+    ]
+  },
+  {
+    "name": "Gauntlet: Seven Sorrows",
+    "id": 5844,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -443,9 +504,15 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Best of Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Best of Platinum Hits"
     ]
+  },
+  {
+    "name": "Syphon Filter: Dark Mirror",
+    "id": 20764,
+    "old": [],
+    "new": []
   },
   {
     "name": "Cool Boarders 4",
@@ -482,6 +549,16 @@
     ]
   },
   {
+    "name": "Gun",
+    "id": 3939,
+    "old": [
+      "banned in Germany: Banned because of high-impact gory violence. A censored version was released."
+    ],
+    "new": [
+      "banned in Germany: Banned because of high-impact gory violence. A censored version was released."
+    ]
+  },
+  {
     "name": "Top Gun",
     "id": 18021,
     "old": [
@@ -494,7 +571,9 @@
   {
     "name": "Skate",
     "id": 2585,
-    "old": [],
+    "old": [
+      "Microsoft Xbox 360 Classics (PAL)"
+    ],
     "new": [
       "Microsoft Xbox 360 Classics (PAL)"
     ]
@@ -509,8 +588,8 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Best of Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -542,7 +621,8 @@
       "Sony PlayStation 2 Greatest Hits"
     ],
     "new": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -594,7 +674,8 @@
       "Nintendo GameCube console exclusive"
     ],
     "new": [
-      "Nintendo GameCube console exclusive"
+      "Nintendo GameCube console exclusive",
+      "Nintendo GameCube Player's Choice"
     ]
   },
   {
@@ -610,7 +691,9 @@
   {
     "name": "Skate 2",
     "id": 2586,
-    "old": [],
+    "old": [
+      "Microsoft Xbox 360 Platinum Hits"
+    ],
     "new": [
       "Microsoft Xbox 360 Platinum Hits"
     ]
@@ -619,12 +702,22 @@
     "name": "Skate 3",
     "id": 2587,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
+    ]
+  },
+  {
+    "name": "MTV Music Generator 2",
+    "id": 18725,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 8 players"
     ]
   },
   {
@@ -644,8 +737,15 @@
       "3do Interactive Multiplayer exclusive"
     ],
     "new": [
-      "3do Interactive Multiplayer exclusive"
+      "3do Interactive Multiplayer exclusive",
+      "3DO Interactive Multiplayer GameGun game"
     ]
+  },
+  {
+    "name": "Earthworm Jim",
+    "id": 3480,
+    "old": [],
+    "new": []
   },
   {
     "name": "Street Fighter Alpha 3",
@@ -656,6 +756,12 @@
     "new": [
       "Sony PlayStation Greatest Hits"
     ]
+  },
+  {
+    "name": "Streets of Rage 2",
+    "id": 1653,
+    "old": [],
+    "new": []
   },
   {
     "name": "Super Metroid",
@@ -736,6 +842,12 @@
     ]
   },
   {
+    "name": "Pac-Man",
+    "id": 2750,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Hyrule Warriors",
     "id": 5314,
     "old": [
@@ -754,6 +866,12 @@
     "new": [
       "SNES Player's Choice"
     ]
+  },
+  {
+    "name": "Dr. Mario",
+    "id": 3476,
+    "old": [],
+    "new": []
   },
   {
     "name": "Pirates of the Caribbean: The Legend of Jack Sparrow",
@@ -788,6 +906,12 @@
     ]
   },
   {
+    "name": "Defender",
+    "id": 3873,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Combat",
     "id": 16759,
     "old": [
@@ -810,7 +934,8 @@
     "new": [
       "NES launch title",
       "NES black box game: Light Gun Series",
-      "NES hang tab game"
+      "NES hang tab game",
+      "NES light gun game (required)"
     ]
   },
   {
@@ -836,9 +961,21 @@
     ]
   },
   {
+    "name": "Splatterhouse",
+    "id": 7191,
+    "old": [
+      "banned in Germany: Banned because of high-impact gory violence."
+    ],
+    "new": [
+      "banned in Germany: Banned because of high-impact gory violence."
+    ]
+  },
+  {
     "name": "Kinect Sports: Season Two",
     "id": 18026,
-    "old": [],
+    "old": [
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
+    ],
     "new": [
       "Microsoft Xbox 360 Platinum Collection (Japan)"
     ]
@@ -848,25 +985,29 @@
     "id": 996,
     "old": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Classics (PAL)",
       "banned in Germany: Banned because of high-impact gory violence."
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
-      "Microsoft Xbox 360 Platinum Hits",
+      "banned in Germany: Banned because of high-impact gory violence.",
       "Microsoft Xbox 360 Classics (PAL)",
-      "banned in Germany: Banned because of high-impact gory violence."
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
     "name": "Borderlands 2",
     "id": 1011,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Also available in Borderlands: The Handsome Collection which includes remastered versions of Borderlands 2 and Borderlands: The Pre-Sequel for Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One - Also available in Borderlands: The Handsome Collection which includes remastered versions of Borderlands 2 and Borderlands: The Pre-Sequel for Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Also available in Borderlands: The Handsome Collection which includes remastered versions of Borderlands 2 and Borderlands: The Pre-Sequel for Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -884,13 +1025,15 @@
     "id": 1262,
     "old": [
       "Xbox 360 game backward compatible with Xbox One - Also released on Xbox One",
+      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Classics (PAL)",
       "banned in Suadia Arabia: Banned because of extremely offensive content"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Also released on Xbox One",
-      "Microsoft Xbox 360 Platinum Hits",
+      "banned in Suadia Arabia: Banned because of extremely offensive content",
       "Microsoft Xbox 360 Classics (PAL)",
-      "banned in Suadia Arabia: Banned because of extremely offensive content"
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -898,35 +1041,39 @@
     "id": 76,
     "old": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
       "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
-      "Microsoft Xbox 360 Platinum Collection (Japan)",
-      "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game."
+      "banned in UAE: Banned likely due to sexual themes, including possible homosexual relationships. The ban has since been lifted for the digital versions of the game.",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
     ]
   },
   {
     "name": "L.A. Noire",
     "id": 109,
     "old": [
+      "Microsoft Xbox 360 Platinum Hits",
       "banned in Suadia Arabia: Banned because of extreme impact violence and nudity"
     ],
     "new": [
-      "Microsoft Xbox 360 Platinum Hits",
-      "banned in Suadia Arabia: Banned because of extreme impact violence and nudity"
+      "banned in Suadia Arabia: Banned because of extreme impact violence and nudity",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
     "name": "Street Fighter IV",
     "id": 884,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1085,8 +1232,8 @@
       "Microsoft Xbox Platinum Collection (Japan)"
     ],
     "new": [
-      "Microsoft Xbox Platinum Hits Family Series",
-      "Microsoft Xbox Platinum Collection (Japan)"
+      "Microsoft Xbox Platinum Collection (Japan)",
+      "Microsoft Xbox Platinum Hits Family Series"
     ]
   },
   {
@@ -1097,8 +1244,8 @@
       "Microsoft Xbox Classics (PAL)"
     ],
     "new": [
-      "Microsoft Xbox Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits"
     ]
   },
   {
@@ -1135,13 +1282,16 @@
     "name": "Battlefield: Bad Company",
     "id": 473,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1152,8 +1302,8 @@
       "Microsoft Xbox Classics (PAL)"
     ],
     "new": [
-      "Microsoft Xbox Platinum Hits Family Series",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits Family Series"
     ]
   },
   {
@@ -1299,6 +1449,12 @@
     ]
   },
   {
+    "name": "Space Harrier",
+    "id": 12857,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Cosmic Carnage",
     "id": 45883,
     "old": [
@@ -1362,7 +1518,8 @@
     "name": "Rage",
     "id": 509,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Platinum Hits"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One",
@@ -1372,7 +1529,9 @@
   {
     "name": "Payday 2",
     "id": 2058,
-    "old": [],
+    "old": [
+      "Microsoft Xbox 360 Classics (PAL)"
+    ],
     "new": [
       "Microsoft Xbox 360 Classics (PAL)"
     ]
@@ -1444,6 +1603,18 @@
     ]
   },
   {
+    "name": "Grand Theft Auto: Liberty City Stories",
+    "id": 3263,
+    "old": [
+      "banned in Germany: Originally banned because of high-impact gory violence. A censored version was released. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ],
+    "new": [
+      "banned in Germany: Originally banned because of high-impact gory violence. A censored version was released. The ban was lifted in 2012.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+    ]
+  },
+  {
     "name": "Twisted Metal III",
     "id": 4697,
     "old": [
@@ -1500,13 +1671,16 @@
     ],
     "new": [
       "Nintendo GameCube launch title",
-      "Nintendo GameCube console exclusive"
+      "Nintendo GameCube console exclusive",
+      "Nintendo GameCube Player's Choice"
     ]
   },
   {
     "name": "Mortal Kombat : Komplete Edition",
     "id": 2977,
-    "old": [],
+    "old": [
+      "Microsoft Xbox 360 Platinum Hits"
+    ],
     "new": [
       "Microsoft Xbox 360 Platinum Hits"
     ]
@@ -1519,8 +1693,8 @@
       "Microsoft Xbox Classics (PAL)"
     ],
     "new": [
-      "Microsoft Xbox Best of Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -1541,8 +1715,8 @@
       "Microsoft Xbox Classics (PAL)"
     ],
     "new": [
-      "Microsoft Xbox Best of Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -1622,16 +1796,6 @@
     ]
   },
   {
-    "name": "The Legend of Zelda: Link's Awakening",
-    "id": 1028,
-    "old": [
-      "Nintendo Game Boy Player's Choice"
-    ],
-    "new": [
-      "Nintendo Game Boy Player's Choice"
-    ]
-  },
-  {
     "name": "Grand Theft Auto: Vice City",
     "id": 733,
     "old": [
@@ -1654,7 +1818,8 @@
     ],
     "new": [
       "Sony PlayStation 2 launch title",
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -1698,7 +1863,8 @@
       "Nintendo Wii U full exclusive"
     ],
     "new": [
-      "Nintendo Wii U full exclusive"
+      "Nintendo Wii U full exclusive",
+      "Wii U Nintendo Select"
     ]
   },
   {
@@ -1712,11 +1878,18 @@
     ]
   },
   {
+    "name": "Skate or Die",
+    "id": 12267,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Banjo-Kazooie: Nuts & Bolts",
     "id": 3008,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+      "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
+      "Microsoft Xbox 360 Platinum Hits"
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
@@ -1728,7 +1901,8 @@
     "name": "Crysis 3: Hunter Edition",
     "id": 1268,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One",
@@ -1739,12 +1913,14 @@
     "name": "Dead Space 2",
     "id": 38,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1760,7 +1936,9 @@
   {
     "name": "Far Cry 4",
     "id": 6801,
-    "old": [],
+    "old": [
+      "Microsoft Xbox 360 Classics (PAL)"
+    ],
     "new": [
       "Microsoft Xbox 360 Classics (PAL)"
     ]
@@ -1769,24 +1947,28 @@
     "name": "Forza Motorsport 3",
     "id": 3069,
     "old": [
-      "Microsoft Xbox 360 full exclusive"
-    ],
-    "new": [
       "Microsoft Xbox 360 full exclusive",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 full exclusive",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
     "name": "Forza Motorsport 4",
     "id": 3068,
     "old": [
-      "Microsoft Xbox 360 full exclusive"
-    ],
-    "new": [
       "Microsoft Xbox 360 full exclusive",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 full exclusive",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1795,16 +1977,35 @@
     "old": [
       "Microsoft Xbox 360 launch title",
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games"
+      "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
+      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Classics (PAL)"
     ],
     "new": [
       "Microsoft Xbox 360 launch title",
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Also included as part of the Rare Replay collection of games",
-      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Classics (PAL)",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
-      "Microsoft Xbox 360 Classics (PAL)"
+      "Microsoft Xbox 360 Platinum Hits"
     ]
+  },
+  {
+    "name": "Dead Island",
+    "id": 536,
+    "old": [
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2019."
+    ],
+    "new": [
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2019."
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Link's Awakening DX",
+    "id": 1027,
+    "old": [],
+    "new": []
   },
   {
     "name": "Virtua Tennis",
@@ -1840,12 +2041,14 @@
     "name": "Crysis 2",
     "id": 471,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1869,6 +2072,12 @@
     ]
   },
   {
+    "name": "The Legend of Zelda: Twilight Princess",
+    "id": 1036,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Killzone: Liberation",
     "id": 1868,
     "old": [
@@ -1890,8 +2099,8 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360 - The unlockable NES arcade games cannot be played",
-      "Microsoft Xbox Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits"
     ]
   },
   {
@@ -1910,13 +2119,14 @@
     "old": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
       "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One",
-      "Microsoft Xbox 360 Platinum Collection (Japan)",
-      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018.",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
     ]
   },
   {
@@ -1924,14 +2134,17 @@
     "id": 522,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One"
-    ],
-    "new": [
-      "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1939,14 +2152,17 @@
     "id": 73,
     "old": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
-      "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
-    ],
-    "new": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)",
       "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18.",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -1997,15 +2213,18 @@
     "old": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Classics (PAL)",
       "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One",
-      "Microsoft Xbox 360 Platinum Hits",
-      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018.",
       "Microsoft Xbox 360 Classics (PAL)",
-      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2018."
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -2023,26 +2242,31 @@
     "id": 74,
     "old": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
-      "banned in UAE: Both banned likely due to possible homosexual relationships. However, the ban did not extend to the digital versions of the games."
-    ],
-    "new": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)",
       "banned in UAE: Both banned likely due to possible homosexual relationships. However, the ban did not extend to the digital versions of the games."
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "banned in UAE: Both banned likely due to possible homosexual relationships. However, the ban did not extend to the digital versions of the games.",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
     "name": "Far Cry 2",
     "id": 361,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
     ]
   },
   {
@@ -2072,14 +2296,17 @@
     "id": 989,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content"
-    ],
-    "new": [
-      "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo: The Master Chief Collection via downloadable content",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -2099,14 +2326,17 @@
     "id": 990,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content"
-    ],
-    "new": [
-      "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version is in development for Halo: The Master Chief Collection via downloadable content",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -2114,14 +2344,17 @@
     "id": 988,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition"
-    ],
-    "new": [
-      "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 full exclusive",
+      "Xbox 360 game backward compatible with Xbox One - Remastered version available in Halo Wars: Defintive Edition",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -2137,6 +2370,14 @@
     ]
   },
   {
+    "name": "Operation Wolf",
+    "id": 12190,
+    "old": [],
+    "new": [
+      "NES light gun game (optional)"
+    ]
+  },
+  {
     "name": "Project Gotham Racing 2",
     "id": 3321,
     "old": [
@@ -2149,9 +2390,9 @@
     "new": [
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360 - Cars don't render properly in Car Select and Transmission Select, The car radio does not work in-game, A graphic error occurs when choosing Xbox Demos",
-      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Platinum Hits"
     ]
   },
   {
@@ -2179,6 +2420,12 @@
       "Nintendo 3DS exclusive",
       "3DS Nintendo Select"
     ]
+  },
+  {
+    "name": "Zelda II: The Adventure of Link",
+    "id": 1025,
+    "old": [],
+    "new": []
   },
   {
     "name": "The Legend of Zelda",
@@ -2252,8 +2499,8 @@
       "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game."
     ],
     "new": [
-      "Sony PlayStation 3 Greatest Hits",
-      "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game."
+      "banned in UAE: Banned likely due to excessive violence and sexual themes. The ban was issued roughly three weeks after the official release. The ban has since been lifted for digital versions of the game.",
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -2262,15 +2509,18 @@
     "old": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Classics (PAL)",
       "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016."
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
-      "Microsoft Xbox 360 Platinum Hits",
-      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016.",
       "Microsoft Xbox 360 Classics (PAL)",
-      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016."
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -2278,7 +2528,8 @@
     "id": 492,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition"
+      "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
@@ -2327,6 +2578,12 @@
     "new": [
       "Sega Dreamcast launch title"
     ]
+  },
+  {
+    "name": "Platoon",
+    "id": 12718,
+    "old": [],
+    "new": []
   },
   {
     "name": "Metroid Prime 3: Corruption",
@@ -2421,6 +2678,12 @@
     ]
   },
   {
+    "name": "Sonic the Hedgehog 3",
+    "id": 6797,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Madden NFL '94",
     "id": 4381,
     "old": [
@@ -2463,9 +2726,9 @@
     ],
     "new": [
       "Microsoft Xbox exclusive",
-      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Platinum Hits"
     ]
   },
   {
@@ -2543,7 +2806,8 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -2629,7 +2893,8 @@
       "Sony PlayStation 4 full exclusive"
     ],
     "new": [
-      "Sony PlayStation 4 full exclusive"
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
     ]
   },
   {
@@ -2773,6 +3038,12 @@
     ]
   },
   {
+    "name": "Star Wars: Racer Revenge",
+    "id": 19419,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Tomb Raider: Definitive Edition",
     "id": 19965,
     "old": [
@@ -2821,6 +3092,12 @@
       "banned in UAE: The first title in the series was banned after complaints were filed regarding religious and sexual content in the game, and subsequently, the next seven games in the series were banned for similar reasons. The 2018 title God of War was the first entry to be legally approved for release in the U.A.E.",
       "banned in Suadia Arabia: Banned for a few weeks due to the presence of interactive sex scenes, partial nudity and sexual themes, as well as the word 'God' in the title. In 2018, the newest game in the series was approved for release"
     ]
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "id": 7346,
+    "old": [],
+    "new": []
   },
   {
     "name": "The Legend of Zelda: Twilight Princess HD",
@@ -3047,6 +3324,12 @@
     ]
   },
   {
+    "name": "Sonic the Hedgehog 2",
+    "id": 4438,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Crazy Taxi: Catch a Ride",
     "id": 1808,
     "old": [
@@ -3129,7 +3412,8 @@
     ],
     "new": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Sega Dreamcast light gun game"
     ]
   },
   {
@@ -3329,6 +3613,12 @@
     ]
   },
   {
+    "name": "U.N. Squadron",
+    "id": 1357,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Super Mario World",
     "id": 1070,
     "old": [
@@ -3403,6 +3693,18 @@
     ]
   },
   {
+    "name": "Q*bert",
+    "id": 1980,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Super Mario Bros. 2",
+    "id": 1067,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Super Mario Bros./Duckhunt",
     "id": 358,
     "old": [
@@ -3417,23 +3719,33 @@
     ]
   },
   {
+    "name": "Wheel of Fortune: Junior Edition",
+    "id": 48094,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "BioShock",
     "id": 20,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
     "name": "BioShock 2",
     "id": 21,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
+      "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
+      "Microsoft Xbox 360 Platinum Hits"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
@@ -3444,7 +3756,8 @@
     "name": "Bioshock Infinite",
     "id": 538,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One"
+      "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
+      "Microsoft Xbox 360 Platinum Hits"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Also available in BioShock: The Collection, featuring remastered versions of all 3 BioShock titles on Xbox One",
@@ -3456,7 +3769,8 @@
     "id": 504,
     "old": [
       "Microsoft Xbox 360 full exclusive",
-      "Xbox 360 game backward compatible with Xbox One"
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
@@ -3470,15 +3784,18 @@
     "old": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
+      "Microsoft Xbox 360 Platinum Hits",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Classics (PAL)",
       "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016."
     ],
     "new": [
       "Microsoft Xbox 360 full exclusive",
       "Xbox 360 game backward compatible with Xbox One - Was also available as a bonus with purchase of Gears of War: Ultimate Edition",
-      "Microsoft Xbox 360 Platinum Hits",
-      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016.",
       "Microsoft Xbox 360 Classics (PAL)",
-      "banned in Germany: Originally banned because of high-impact gory violence. The ban was lifted in 2016."
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -3486,21 +3803,25 @@
     "id": 73,
     "old": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
-      "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
-    ],
-    "new": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Platinum Collection (Japan)",
       "Microsoft Xbox 360 Classics (PAL)",
       "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18."
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "banned in Singapore: Banned because of a homosexual encounter between a feminine alien and female human. The ban was later lifted and the title re-rated M18.",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
     "name": "Mirror's Edge",
     "id": 1051,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access"
+      "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
+      "Microsoft Xbox 360 Classics (PAL)"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One - Available in the Vault of EA Access",
@@ -3511,7 +3832,8 @@
     "name": "The Orange Box",
     "id": 339,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Platinum Hits"
     ],
     "new": [
       "Xbox 360 game backward compatible with Xbox One",
@@ -3522,12 +3844,14 @@
     "name": "Sonic Generations",
     "id": 506,
     "old": [
-      "Xbox 360 game backward compatible with Xbox One"
-    ],
-    "new": [
       "Xbox 360 game backward compatible with Xbox One",
       "Microsoft Xbox 360 Platinum Hits",
       "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One",
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Hits"
     ]
   },
   {
@@ -3542,8 +3866,8 @@
     "new": [
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits"
     ]
   },
   {
@@ -3581,9 +3905,9 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360 - Performance problems while playing on the Backwash map, Occasionally the player may observe \"ghost\" images displayed on the screen, According to Micorosft a workaround for this issue is to return to the Dashboard and restart the game",
-      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Classics (PAL)"
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -3604,8 +3928,8 @@
       "Microsoft Xbox Classics (PAL)"
     ],
     "new": [
-      "Microsoft Xbox Best of Platinum Hits",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -3630,8 +3954,8 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360 - The controller vibration does not work",
-      "Microsoft Xbox Best of Platinum Hits",
-      "Microsoft Xbox Platinum Collection (Japan)"
+      "Microsoft Xbox Platinum Collection (Japan)",
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -3647,9 +3971,9 @@
     "new": [
       "Microsoft Xbox launch title",
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Classics (PAL)"
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -3665,9 +3989,9 @@
     "new": [
       "Microsoft Xbox launch title",
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Classics (PAL)"
+      "Microsoft Xbox Best of Platinum Hits"
     ]
   },
   {
@@ -3773,9 +4097,9 @@
       "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
     ],
     "new": [
-      "Sony PlayStation 3 Greatest Hits",
       "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
-      "banned in Suadia Arabia: Banned for extreme impact violence and nudity"
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity",
+      "Sony PlayStation 3 Greatest Hits"
     ]
   },
   {
@@ -3799,7 +4123,8 @@
       "Sony PlayStation 3 full exclusive"
     ],
     "new": [
-      "Sony PlayStation 3 full exclusive"
+      "Sony PlayStation 3 full exclusive",
+      "Sony PlayStation 3 light gun game (PSMove)"
     ]
   },
   {
@@ -3885,13 +4210,22 @@
     ]
   },
   {
+    "name": "2006 FIFA World Cup",
+    "id": 5474,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 8 players"
+    ]
+  },
+  {
     "name": "Amplitude",
     "id": 2141,
     "old": [
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
-      "Sony PlayStation 2 exclusive"
+      "Sony PlayStation 2 exclusive",
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -3998,8 +4332,9 @@
       "Sony PlayStation 2 exclusive"
     ],
     "new": [
+      "Sony PlayStation 2 exclusive",
       "Sony PlayStation 2 Greatest Hits",
-      "Sony PlayStation 2 exclusive"
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -4035,6 +4370,14 @@
     ]
   },
   {
+    "name": "Micro Machines V4",
+    "id": 8512,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 4 players"
+    ]
+  },
+  {
     "name": "Scarface: The World Is Yours",
     "id": 5139,
     "old": [
@@ -4063,7 +4406,8 @@
       "Sony PlayStation 2 Greatest Hits"
     ],
     "new": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -4074,6 +4418,14 @@
     ],
     "new": [
       "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Tetris Worlds",
+    "id": 4200,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -4113,7 +4465,16 @@
       "Sony PlayStation 2 Greatest Hits"
     ],
     "new": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Multitap compatible game - 4 players"
+    ]
+  },
+  {
+    "name": "Worms 3D",
+    "id": 1047,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -4124,6 +4485,14 @@
     ],
     "new": [
       "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Midway Arcade Treasures",
+    "id": 4007,
+    "old": [],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 4 players"
     ]
   },
   {
@@ -4345,6 +4714,12 @@
     ]
   },
   {
+    "name": "Super Star Wars: The Empire Strikes Back",
+    "id": 44463,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Robotron: 2084",
     "id": 3592,
     "old": [
@@ -4406,16 +4781,6 @@
     ],
     "new": [
       "Atari 7800 launch title"
-    ]
-  },
-  {
-    "name": "Metroid II: Return of Samus",
-    "id": 1102,
-    "old": [
-      "Nintendo Game Boy Player's Choice"
-    ],
-    "new": [
-      "Nintendo Game Boy Player's Choice"
     ]
   },
   {
@@ -4641,6 +5006,12 @@
     ]
   },
   {
+    "name": "Blaster Master",
+    "id": 2367,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Baseball",
     "id": 7580,
     "old": [
@@ -4649,6 +5020,12 @@
     "new": [
       "Nintendo Game Boy launch title"
     ]
+  },
+  {
+    "name": "Super Mario RPG: Legend of the Seven Stars",
+    "id": 5418,
+    "old": [],
+    "new": []
   },
   {
     "name": "Yoshi's Story",
@@ -4693,6 +5070,12 @@
     ]
   },
   {
+    "name": "Lock 'n' Chase",
+    "id": 22717,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Cybermorph",
     "id": 40803,
     "old": [
@@ -4723,6 +5106,12 @@
     "new": [
       "Atari Jaguar exclusive"
     ]
+  },
+  {
+    "name": "Space Invaders",
+    "id": 3601,
+    "old": [],
+    "new": []
   },
   {
     "name": "LEGO Star Wars: The Video Game",
@@ -4837,6 +5226,12 @@
     ]
   },
   {
+    "name": "Bonk's Adventure",
+    "id": 7794,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "Mario's Tennis",
     "id": 20386,
     "old": [
@@ -4881,6 +5276,12 @@
     ]
   },
   {
+    "name": "Super Mario Bros. 3",
+    "id": 1068,
+    "old": [],
+    "new": []
+  },
+  {
     "name": "John Madden Football",
     "id": 13240,
     "old": [
@@ -4909,8 +5310,15 @@
       "Sony PlayStation Portable exclusive"
     ],
     "new": [
-      "Sony PlayStation Portable exclusive"
+      "Sony PlayStation Portable exclusive",
+      "Sony PSP Greatest Hits"
     ]
+  },
+  {
+    "name": "The Legend of Zelda: Twilight Princess",
+    "id": 1036,
+    "old": [],
+    "new": []
   },
   {
     "name": "Metroid Prime",
@@ -5011,6 +5419,12 @@
     "new": [
       "Sony PlayStation Portable exclusive"
     ]
+  },
+  {
+    "name": "Primal Rage",
+    "id": 4271,
+    "old": [],
+    "new": []
   },
   {
     "name": "Skiing",
@@ -5115,16 +5529,6 @@
     ]
   },
   {
-    "name": "Mario Tennis",
-    "id": 128874,
-    "old": [
-      "Nintendo Game Boy Color Nintendo Select"
-    ],
-    "new": [
-      "Nintendo Game Boy Color Nintendo Select"
-    ]
-  },
-  {
     "name": "Crash Nitro Kart",
     "id": 1193,
     "old": [
@@ -5134,8 +5538,8 @@
     ],
     "new": [
       "Xbox game plays on Xbox 360 - Multiplayer games do not work for this title",
-      "Microsoft Xbox Platinum Hits Family Series",
-      "Microsoft Xbox Best of Classics (PAL)"
+      "Microsoft Xbox Best of Classics (PAL)",
+      "Microsoft Xbox Platinum Hits Family Series"
     ]
   },
   {
@@ -5156,6 +5560,188 @@
     ],
     "new": [
       "NES hang tab game"
+    ]
+  },
+  {
+    "name": "Forza Motorsport",
+    "id": 3073,
+    "old": [
+      "Microsoft Xbox exclusive",
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox Classics (PAL)"
+    ],
+    "new": [
+      "Microsoft Xbox exclusive",
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits"
+    ]
+  },
+  {
+    "name": "Guitar Hero World Tour",
+    "id": 2669,
+    "old": [
+      "PlayStation 2 Multitap compatible game - 4 players"
+    ],
+    "new": [
+      "PlayStation 2 Multitap compatible game - 4 players"
+    ]
+  },
+  {
+    "name": "Coaster Works",
+    "id": 6725,
+    "old": [
+      "Sega Dreamcast exclusive"
+    ],
+    "new": [
+      "Sega Dreamcast exclusive"
+    ]
+  },
+  {
+    "name": "Star Wars: Knights of the Old Republic",
+    "id": 116,
+    "old": [
+      "Xbox game plays on Xbox 360",
+      "Xbox game plays on Xbox One - Available via Game Pass",
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360",
+      "Xbox game plays on Xbox One - Available via Game Pass",
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits"
+    ]
+  },
+  {
+    "name": "Shadow Squadron",
+    "id": 19763,
+    "old": [
+      "Sega 32x exclusive"
+    ],
+    "new": [
+      "Sega 32x exclusive"
+    ]
+  },
+  {
+    "name": "Kolibri",
+    "id": 19733,
+    "old": [
+      "Sega 32x exclusive"
+    ],
+    "new": [
+      "Sega 32x exclusive"
+    ]
+  },
+  {
+    "name": "Virtual Boy Wario Land",
+    "id": 1696,
+    "old": [
+      "Nintendo Virtual Boy exclusive"
+    ],
+    "new": [
+      "Nintendo Virtual Boy exclusive"
+    ]
+  },
+  {
+    "name": "Star Wars: Shadows of the Empire",
+    "id": 164,
+    "old": [
+      "Nintendo 64 Player's Choice"
+    ],
+    "new": [
+      "Nintendo 64 Player's Choice"
+    ]
+  },
+  {
+    "name": "Vigilante",
+    "id": 10444,
+    "old": [
+      "TurboGrafx 16 launch title"
+    ],
+    "new": [
+      "TurboGrafx 16 launch title"
+    ]
+  },
+  {
+    "name": "Keith Courage in Alpha Zones",
+    "id": 42122,
+    "old": [
+      "TurboGrafx 16 launch title",
+      "NEC Turbografx 16 exclusive"
+    ],
+    "new": [
+      "TurboGrafx 16 launch title",
+      "NEC Turbografx 16 exclusive"
+    ]
+  },
+  {
+    "name": "Bomberman",
+    "id": 3446,
+    "old": [
+      "TurboGrafx-16 Multitap compatible title",
+      "TurboGrafx-16 5 player",
+      "also supports TurboExpress Link"
+    ],
+    "new": [
+      "TurboGrafx-16 Multitap compatible title",
+      "TurboGrafx-16 5 player",
+      "also supports TurboExpress Link"
+    ]
+  },
+  {
+    "name": "Super Puzzle Fighter II Turbo",
+    "id": 20803,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Oddworld: Munch's Oddysee HD",
+    "id": 51329,
+    "old": [],
+    "new": [
+      "Sony PlayStation Vita platform exclusive (PlayStation Network)"
+    ]
+  },
+  {
+    "name": "Williams Arcade Classics",
+    "id": 199435,
+    "old": [],
+    "new": [
+      "Tiger Game.com launch title"
+    ]
+  },
+  {
+    "name": "Blue Lightning",
+    "id": 74903,
+    "old": [
+      "Atari Lynx launch title",
+      "Atari Lynx exclusive"
+    ],
+    "new": [
+      "Atari Lynx launch title",
+      "Atari Lynx exclusive"
+    ]
+  },
+  {
+    "name": "California Games",
+    "id": 11984,
+    "old": [
+      "Atari Lynx launch title"
+    ],
+    "new": [
+      "Atari Lynx launch title"
+    ]
+  },
+  {
+    "name": "Malibu Bikini Volleyball",
+    "id": 40856,
+    "old": [
+      "Atari Lynx exclusive"
+    ],
+    "new": [
+      "Atari Lynx exclusive"
     ]
   }
 ]

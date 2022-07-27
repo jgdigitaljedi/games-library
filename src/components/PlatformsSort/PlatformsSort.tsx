@@ -16,8 +16,12 @@ import { platformsViewSecondFilters } from '@/services/filters.service';
 interface PlatformsSortProps {
   consoles: PlatformsPageItem[];
   onSortChanged: (consoles: PlatformsPageItem[]) => void;
-  onTypeChanged: (platformType: PlatformType) => void;
-  onFilterChanged: (filterKey: string, filerValue: string | null) => void;
+  onTypeChanged: (
+    platformType: PlatformType,
+    filterKey: string,
+    filterValue: string | null
+  ) => void;
+  onFilterChanged: (filterKey: string, filerValue: string | null, pType: PlatformType) => void;
 }
 
 enum CurrentSortType {
@@ -81,10 +85,9 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({
   });
 
   const onPTypeChange = (e: any) => {
-    console.log('e.value', e.value);
     if (e.value) {
       setCurrentPType(e.value);
-      onTypeChanged(e.value);
+      onTypeChanged(e.value, currentFilter, secondFilterSelection);
     }
   };
 
@@ -137,14 +140,18 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({
   };
 
   const onFilterChange = (e: any) => {
-    setCurrentFilter(e.value);
-    setSecondFilterFields(e.value);
+    const fil = e.value;
+    setCurrentFilter(fil);
+    setSecondFilterFields(fil);
+    if (!fil) {
+      onFilterChanged(fil, null, currentPType as PlatformType);
+    }
   };
 
   const onSecondFilterSelected = (e: any) => {
     const filterValue = e.value;
     setSecondFilterSelection(filterValue);
-    onFilterChanged(currentFilter, filterValue);
+    onFilterChanged(currentFilter, filterValue, currentPType as PlatformType);
   };
 
   return (

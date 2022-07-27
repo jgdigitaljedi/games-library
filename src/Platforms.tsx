@@ -109,18 +109,47 @@ const Platforms: React.FC<RouteComponentProps> = () => {
     [consolesList]
   );
 
-  const filterByType = (platformType: PlatformType) => {
-    console.log('platformType', platformType);
-    console.log('fullConsolesList', fullConsolesList);
-    if (fullConsolesList?.length) {
+  const filterByType = (
+    platformType: PlatformType,
+    filterKey: string,
+    filterValue: string | null
+  ) => {
+    if (fullConsolesList?.length && platformType !== 'all') {
       const newFiltered = consoleHandheldFilter(fullConsolesList, platformType);
-      setConsolesList(newFiltered);
+      if (filterKey && filterValue) {
+        const filteredConsoles = newFiltered?.filter(con => {
+          if (con.hasOwnProperty(filterKey)) {
+            // @ts-ignore
+            return con[filterKey] === filterValue;
+          }
+        });
+        setConsolesList(filteredConsoles);
+      } else {
+        setConsolesList(newFiltered);
+      }
+    } else {
+      const cons = fullConsolesList?.length ? [...fullConsolesList] : [];
+      if (filterKey && filterValue) {
+        const filteredConsoles = cons?.filter(con => {
+          if (con.hasOwnProperty(filterKey)) {
+            // @ts-ignore
+            return con[filterKey] === filterValue;
+          }
+        });
+        setConsolesList(filteredConsoles);
+      } else {
+        setConsolesList(fullConsolesList);
+      }
     }
   };
 
-  const filterChanged = (key: string, value: string | null) => {
+  const filterChanged = (key: string, value: string | null, platformType: PlatformType) => {
+    const cons =
+      platformType !== 'all'
+        ? consoleHandheldFilter(fullConsolesList || [], platformType)
+        : consolesList;
     if (key && value) {
-      const filteredConsoles = fullConsolesList?.filter(con => {
+      const filteredConsoles = cons?.filter(con => {
         if (con.hasOwnProperty(key)) {
           // @ts-ignore
           return con[key] === value;
@@ -129,6 +158,8 @@ const Platforms: React.FC<RouteComponentProps> = () => {
       if (filteredConsoles?.length) {
         setConsolesList(filteredConsoles);
       }
+    } else {
+      setConsolesList(cons);
     }
     return consolesList;
   };

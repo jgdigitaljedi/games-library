@@ -209,7 +209,7 @@ export const gameCaseSubTypes = [
     custom: true,
     original: true,
     none: false,
-    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86, 87, 64]
+    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86, 87, 64, 12]
   },
   {
     label: 'CD Case',
@@ -217,7 +217,7 @@ export const gameCaseSubTypes = [
     custom: true,
     original: true,
     none: false,
-    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86]
+    consoleIds: [50, 23, 21, 6, 7, 8, 9, 48, 78, 32, 5, 41, 11, 49, 86, 12]
   },
   {
     label: '3DS/DS Case',
@@ -260,7 +260,7 @@ export const gameCaseSubTypes = [
     none: true,
     consoleIds: [
       50, 59, 66, 60, 62, 23, 33, 24, 22, 67, 37, 4, 20, 18, 21, 130, 6, 7, 8, 9, 48, 38, 30, 78,
-      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87, 46, 379, 61
+      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87, 46, 379, 61, 12
     ]
   },
   {

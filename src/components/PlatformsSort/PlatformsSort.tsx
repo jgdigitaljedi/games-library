@@ -143,9 +143,9 @@ const PlatformsSort: React.FC<PlatformsSortProps> = ({
     const fil = e.value;
     setCurrentFilter(fil);
     setSecondFilterFields(fil);
-    // if (!fil) {
-    onFilterChanged(fil, null, currentPType as PlatformType);
-    // }
+    if (!fil) {
+      onFilterChanged(fil, null, currentPType as PlatformType);
+    }
   };
 
   const onSecondFilterSelected = (e: any) => {

@@ -59,6 +59,15 @@ const PlatformForm: FunctionComponent<IProps> = ({
     }
   };
 
+  const onClearButtonClick = () => {
+    const pCopy = _cloneDeep(platformForm);
+    if (pCopy?.datePurchased) {
+      pCopy.datePurchased = null;
+      pCopy.newDatePurchased = undefined;
+      setPlatformForm(pCopy);
+    }
+  };
+
   const handleDropdown = useCallback(
     (e: any, which: string) => {
       closeConfirmation();
@@ -88,7 +97,7 @@ const PlatformForm: FunctionComponent<IProps> = ({
 
   const searchSelection = async (e: any) => {
     closeConfirmation();
-    if (e?.value) {
+    if (e?.value && platformForm) {
       const platform = e.value;
       setPlatformVersions(platform.versions);
       const pfCopy = _cloneDeep(platformForm);
@@ -97,18 +106,20 @@ const PlatformForm: FunctionComponent<IProps> = ({
   };
 
   const searchVersion = async (version: any) => {
-    const plat = { ...platformForm, versions: [version] };
-    const versionData = await igdbPlatformVersions(plat);
-    const fullPlatform = { ...plat, ...versionData.data };
-    fullPlatform.id = plat.id;
-    const userFields = getUserFields();
-    const formattedPlatform = formatNewPlatformForSave(fullPlatform, userFields);
-    const pfCopy = _cloneDeep(platformForm);
-    const savable = Object.assign(pfCopy, formattedPlatform);
-    // @ts-ignore
-    delete savable.versions;
-    console.log('savable', savable);
-    setPlatformForm(savable);
+    if (platformForm) {
+      const plat = { ...platformForm, versions: [version] };
+      const versionData = await igdbPlatformVersions(plat);
+      const fullPlatform = { ...plat, ...versionData.data };
+      fullPlatform.id = plat.id;
+      const userFields = getUserFields();
+      const formattedPlatform = formatNewPlatformForSave(fullPlatform, userFields);
+      const pfCopy = _cloneDeep(platformForm);
+      const savable = Object.assign(pfCopy, formattedPlatform);
+      // @ts-ignore
+      delete savable.versions;
+      console.log('savable', savable);
+      setPlatformForm(savable);
+    }
   };
 
   const searchIgdb = useCallback(async () => {
@@ -180,6 +191,8 @@ const PlatformForm: FunctionComponent<IProps> = ({
     // make save call
     const platformCopy = _cloneDeep(platformForm as IConsole);
 
+    console.log('save platform data', platformCopy);
+
     savePlatform(platformCopy, addMode)
       .then(result => {
         closeDialog(platformForm?.name, true, 'added');
@@ -201,31 +214,32 @@ const PlatformForm: FunctionComponent<IProps> = ({
   const updateIgdbPlatformData = (e: MouseEventHandler<HTMLButtonElement>) => {
     // @ts-ignore
     e.preventDefault();
-    igdbUpdatePlatformById(platform)
-      .then(result => {
-        console.log(
-          'new Date(platformForm.datePurchased)',
-          platformForm?.datePurchased ? new Date(platformForm?.datePurchased) : 'no  date'
-        );
-        if (result?.data) {
-          const userFields = getUserFields();
-          setPlatformForm({ ...result.data, ...userFields });
-        } else {
-          setNotify({
-            severity: 'error',
-            detail: 'Error updating IGDB data (empty response).',
-            summary: 'ERROR'
-          });
-        }
-      })
-      .catch(error => {
-        setNotify({
-          severity: 'error',
-          detail: 'Error fetching platforms with ids.',
-          summary: 'ERROR'
-        });
-        console.log('update platform error', error);
-      });
+    console.log('platform data', platform);
+    // igdbUpdatePlatformById(platform)
+    //   .then(result => {
+    //     console.log(
+    //       'new Date(platformForm.datePurchased)',
+    //       platformForm?.datePurchased ? new Date(platformForm?.datePurchased) : 'no  date'
+    //     );
+    //     if (result?.data) {
+    //       const userFields = getUserFields();
+    //       setPlatformForm({ ...result.data, ...userFields });
+    //     } else {
+    //       setNotify({
+    //         severity: 'error',
+    //         detail: 'Error updating IGDB data (empty response).',
+    //         summary: 'ERROR'
+    //       });
+    //     }
+    //   })
+    //   .catch(error => {
+    //     setNotify({
+    //       severity: 'error',
+    //       detail: 'Error fetching platforms with ids.',
+    //       summary: 'ERROR'
+    //     });
+    //     console.log('update platform error', error);
+    //   });
   };
 
   return (
@@ -478,6 +492,8 @@ const PlatformForm: FunctionComponent<IProps> = ({
               value={platformForm?.newDatePurchased}
               onChange={userChange}
               attr-which='newDatePurchased'
+              showButtonBar
+              onClearButtonClick={onClearButtonClick}
             />
           </div>
           <div className='crud-form--form__row'>

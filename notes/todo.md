@@ -16,6 +16,8 @@ Some things that I thought about and need to get done.
 
 Some smaller things I've found that work ok but could be improved.
 
+- fix issue with Platform updates in Library messing up Date Purchased
+- Platforms view sorts and filters still behave weird sometimes. Fix the above issue first and make sure Platform data is correct.
 - Centralize more data. There's too much duplication.
   - Handhelds checks live in multiple places
 - Delete some older files that aren't being used

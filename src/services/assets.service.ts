@@ -56,7 +56,8 @@ export const platformLogos: { [key: string]: string } = {
   'Xbox 360': 'logos/Xbox_logo_2012_cropped.svg',
   'Xbox One': 'logos/Xbox_one_logo.svg',
   'Game.com': 'logos/Game_com_gif_logo.svg',
-  'Atari Lynx': 'logos/Atari_Lynx_logo.svg'
+  'Atari Lynx': 'logos/Atari_Lynx_logo.svg',
+  'PlayStation Vita': 'logos/PlayStation_Vita_logo.svg'
 };
 
 export const getGalleryList = async () => {

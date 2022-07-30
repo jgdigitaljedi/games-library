@@ -1,4 +1,4 @@
-import { IConsoleArr } from '@/models/platforms.model';
+import { IConsole, IConsoleArr } from '@/models/platforms.model';
 import Axios from 'axios';
 import { uniqBy as _uniqBy } from 'lodash';
 
@@ -58,6 +58,102 @@ export const platformLogos: { [key: string]: string } = {
   'Game.com': 'logos/Game_com_gif_logo.svg',
   'Atari Lynx': 'logos/Atari_Lynx_logo.svg',
   'PlayStation Vita': 'logos/PlayStation_Vita_logo.svg'
+};
+
+const platformImages = {
+  '3DO Interactive Multiplayer': 'consolePics/panasonic_3do.jpg',
+  'Atari 2600': 'consolePics/atari_2600.png',
+  'Atari 7800': 'consolePics/Atari-7800.png',
+  'Atari 5200': 'consolePics/atari-5200.jpg',
+  'Atari Jaguar': 'consolePics/atari_jaguar.jpg',
+  'Atari Lynx': 'consolePics/Atari-Lynx-1.png',
+  'Atari Lynx II': 'consolePics/atari_lynx.jpg',
+  Dreamcast: 'consolePics/Dreamcast.png',
+  'Game Boy': 'consolePics/nintendo-game-boy-pocket.jpg',
+  'Game Boy Advance': 'consolePics/game_boy_advance.jpg',
+  'Game Boy Advance SP': 'consolePics/game_boy_advance_sp.jpg',
+  'Game Boy Color': 'consolePics/game_boy_color_.jpg',
+  Intellivision: 'consolePics/intellivision.jpg',
+  'Microsoft Xbox 360': 'consolePics/xbox360e.png',
+  'Microsoft Xbox One': 'consolePics/xboxOne.jpg',
+  'Nintendo 3DS': 'consolePics/nintendo_3ds_xl.jpg',
+  'Nintendo 3DS Zelda': 'consolePics/Zelda-3DS.jpg',
+  'Nintendo 64 Japanese': 'consolePics/n64.jpg',
+  'Nintendo 64': 'consolePics/n64_us.jpg',
+  'Nintendo DS': 'consolePics/nintendo_ds_lite.jpg',
+  'Nintendo DS Rose': 'consolePics/nintendo-ds-lite-rose (1).jpg',
+  'Nintendo Entertainment System (NES)': 'consolePics/nes.jpg',
+  'Nintendo Game Boy Advance': 'consolePics/game_boy_advance.jpg',
+  'Nintendo Game Boy Advance SP': 'consolePics/game_boy_advance_sp.jpg',
+  'Nintendo Game Boy Color': 'consolePics/game_boy_color_.jpg',
+  'Nintendo GameCube': 'consolePics/gamecube.jpg',
+  'Nintendo GameCube Indigo': 'consolePics/gamecube_indigo.jpg',
+  'Nintendo Switch': 'consolePics/nintendo-switch.png',
+  'Nintendo Wii U': 'consolePics/wiiu.png',
+  'PC (Microsoft Windows)': 'logos/windows.png',
+  PlayStation: 'consolePics/sony_playstation.jpg',
+  'PlayStation 2': 'consolePics/sony-ps2.png',
+  'PlayStation 2 Slim': 'consolePics/sony_ps2_slim.jpg',
+  'PlayStation 3': 'consolePics/ps3.jpg',
+  'PlayStation 4': 'consolePics/ps4_pro.jpg',
+  'PlayStation Portable': 'consolePics/Sony-PSP-1000.png',
+  'Sega 32X': 'consolePics/Sega-Genesis-Model2-32X.jpg',
+  'Sega CD': 'consolePics/sega-genesis-2-cd-2-32x.jpg',
+  'Sega Game Gear': 'consolePics/Game-gear.png',
+  'Sega Master System': 'consolePics/Sega-Master-System.jpg',
+  'Sega Mega Drive/Genesis': 'consolePics/sega-genesis-2.png',
+  'Sega Saturn': 'consolePics/sega_saturn.png',
+  'Sony PlayStation 2': 'consolePics/sony-ps2.png',
+  'Sony PlayStation 3': 'consolePics/ps3.jpg',
+  'Super Nintendo Entertainment System (SNES)': 'consolePics/SNES_US.jpg',
+  'TurboGrafx-16/PC Engine': 'consolePics/turbografx-16.jpg',
+  'Virtual Boy': 'consolePics/virtual-boy.jpg',
+  Wii: 'consolePics/wii.jpg',
+  'Wii U': 'consolePics/wiiu.png',
+  Xbox: 'consolePics/xbox.png',
+  'Xbox 360': 'consolePics/xbox360e.png',
+  'Xbox One': 'consolePics/xboxOne.jpg',
+  'Game.com': 'consolePics/Tiger_Game.com.png',
+  'PlayStation Vita': 'consolePics/playstation-vita.jpg'
+};
+
+// this is stupid, but I was being lazy
+export const getConsoleImage = (con: IConsole): string => {
+  switch (con.name) {
+    case 'Atari Lynx':
+      return con.version.id === 189
+        ? platformImages['Atari Lynx II']
+        : platformImages['Atari Lynx'];
+    case 'Nintendo 3DS':
+      return con.notes === 'Nintendo 3DS Black Zelda Limited Edition; CIB'
+        ? platformImages['Nintendo 3DS Zelda']
+        : platformImages['Nintendo 3DS'];
+    case 'Nintendo GameCube':
+      return con.priceCharting?.name === 'Indigo GameCube System'
+        ? platformImages['Nintendo GameCube Indigo']
+        : platformImages['Nintendo GameCube'];
+    case 'Sony PlayStation 2':
+    case 'PlayStation 2':
+      return con.version.id === 114
+        ? platformImages['PlayStation 2 Slim']
+        : platformImages['PlayStation 2'];
+    case 'Nintendo 64':
+      return con.priceCharting?.name === 'Funtastic Ice Blue Nintendo 64 System'
+        ? platformImages['Nintendo 64 Japanese']
+        : platformImages['Nintendo 64'];
+    case 'Game Boy Advance':
+    case 'Nintendo Game Boy Advance':
+      return con.version.id === 193
+        ? platformImages['Nintendo Game Boy Advance SP']
+        : platformImages['Nintendo Game Boy Advance'];
+    case 'Nintendo DS':
+      return con.notes === "Brandy's"
+        ? platformImages['Nintendo DS Rose']
+        : platformImages['Nintendo DS'];
+    default:
+      // @ts-ignore
+      return platformImages[con.name];
+  }
 };
 
 export const getGalleryList = async () => {

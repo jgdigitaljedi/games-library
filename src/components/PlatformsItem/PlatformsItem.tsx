@@ -1,4 +1,5 @@
 import { IConsole, PgameData, PlatExtraData } from '@/models/platforms.model';
+import { getConsoleImage } from '@/services/assets.service';
 import React, { useMemo } from 'react';
 import './PlatformsItem.scss';
 
@@ -50,13 +51,17 @@ const PlatformsItem: React.FC<PlatformsItemProps> = ({ platform, extra, pgame })
     return null;
   }, [extra]);
 
+  const platImage = useMemo(() => {
+    return getConsoleImage(platform);
+  }, [platform]);
+
   return (
     <div className='platforms-item-wrapper'>
       <div className='platforms-item-section name-logo'>
         <h4>{platform.name}</h4>
-        {platform.logo && (
+        {platImage && (
           <div className='img-wrapper'>
-            <img src={platform.logo} alt={`${platform.name} logo`} />
+            <img src={platImage} alt={`${platform.name} logo`} />
           </div>
         )}
         {platform.version?.name && <div className='version-wrapper'>{platform.version.name}</div>}

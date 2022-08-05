@@ -1,0 +1,576 @@
+[
+  {
+    "name": "Battleship",
+    "id": "pcdi0",
+    "igdbId": 77147,
+    "gbId": 37060,
+    "gbGuid": "3030-37060",
+    "tgdbId": 1638,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Beauty and the Beast",
+    "id": "pcdi1",
+    "igdbId": 87474,
+    "gbId": 42700,
+    "gbGuid": "3030-42700",
+    "tgdbId": 3170,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Caesar's World of Boxing",
+    "id": "pcdi2",
+    "igdbId": 45941,
+    "gbId": 23709,
+    "gbGuid": "3030-23709",
+    "tgdbId": 22986,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Chaos Control",
+    "id": "pcdi3",
+    "igdbId": 176140,
+    "gbId": 17289,
+    "gbGuid": "3030-17289",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Connect Four",
+    "id": "pcdi4",
+    "igdbId": 45935,
+    "gbId": 38715,
+    "gbGuid": "3030-38715",
+    "tgdbId": 22995,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Creature Shock",
+    "id": "pcdi5",
+    "igdbId": 9259,
+    "gbId": 227,
+    "gbGuid": "3030-227",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Crime Patrol",
+    "id": "pcdi6",
+    "igdbId": 5373,
+    "gbId": 14268,
+    "gbGuid": "3030-14268",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Crime Patrol 2: Drug Wars",
+    "id": "pcdi7",
+    "igdbId": 4242,
+    "gbId": 17362,
+    "gbGuid": "3030-17362",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Dark Castle",
+    "id": "pcdi8",
+    "igdbId": 12034,
+    "gbId": 16167,
+    "gbGuid": "3030-16167",
+    "tgdbId": 469,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Defender of the Crown",
+    "id": "pcdi9",
+    "igdbId": 1873,
+    "gbId": 5773,
+    "gbGuid": "3030-5773",
+    "tgdbId": 1263,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Hotel Mario",
+    "id": "pcdi10",
+    "igdbId": 8535,
+    "gbId": 5841,
+    "gbGuid": "3030-5841",
+    "tgdbId": 14904,
+    "details": [
+      "Philips CD-i exclusive game"
+    ],
+    "isExclusive": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Link: The Faces of Evil",
+    "id": "pcdi11",
+    "igdbId": 8532,
+    "gbId": 5043,
+    "gbGuid": "3030-5043",
+    "tgdbId": 14754,
+    "details": [
+      "Philips CD-i exclusive game"
+    ],
+    "isExclusive": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mad Dog II: The Lost Gold",
+    "id": "pcdi12",
+    "igdbId": 4269,
+    "gbId": 12886,
+    "gbGuid": "3030-12886",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mad Dog McCree",
+    "id": "pcdi13",
+    "igdbId": 4254,
+    "gbId": 17486,
+    "gbGuid": "3030-17486",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mystic Midway: Phantom Express",
+    "id": "pcdi14",
+    "igdbId": 45911,
+    "gbId": 37233,
+    "gbGuid": "3030-37233",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mystic Midway: Rest in Pieces",
+    "id": "pcdi15",
+    "igdbId": 45910,
+    "gbId": 16542,
+    "gbGuid": "3030-16542",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pac-Panic",
+    "id": "pcdi16",
+    "igdbId": 46572,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 23062,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Sargon Chess",
+    "id": "pcdi17",
+    "igdbId": 46568,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 23070,
+    "details": [
+      "Philips CD-i launch title"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "The Last Bounty Hunter",
+    "id": "pcdi18",
+    "igdbId": 4287,
+    "gbId": 2446,
+    "gbGuid": "3030-2446",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Thunder in Paradise",
+    "id": "pcdi19",
+    "igdbId": 20529,
+    "gbId": 6525,
+    "gbGuid": "3030-6525",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Who Shot Johnny Rock?",
+    "id": "pcdi20",
+    "igdbId": 4281,
+    "gbId": 17503,
+    "gbGuid": "3030-17503",
+    "details": [
+      "Philips CD-i Peacekeeper Revovler (light gun) game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Philips CD-i Peacekeeper Revovler (light gun) game",
+        "forPlatform": {
+          "name": "Philips CD-i",
+          "id": "ccl36",
+          "igdbId": 117,
+          "gbId": 27,
+          "gbGuid": "3045-27",
+          "tgdbId": 4917
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Zelda's Adventure",
+    "id": "pcdi21",
+    "igdbId": 8534,
+    "gbId": 14181,
+    "gbGuid": "3030-14181",
+    "tgdbId": 14755,
+    "details": [
+      "Philips CD-i exclusive game"
+    ],
+    "isExclusive": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Zelda: The Wand of Gamelon",
+    "id": "pcdi22",
+    "igdbId": 8533,
+    "gbId": 17713,
+    "gbGuid": "3030-17713",
+    "tgdbId": 14753,
+    "details": [
+      "Philips CD-i exclusive game"
+    ],
+    "isExclusive": [
+      {
+        "name": "Philips CD-i",
+        "id": "ccl36",
+        "igdbId": 117,
+        "gbId": 27,
+        "gbGuid": "3045-27",
+        "tgdbId": 4917
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  }
+]

@@ -31,6 +31,8 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
   const [selectedGame, setSelectedGame] = useState<IGame | null>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
   const [cardView, setCardView] = useState<boolean>(false);
+  const [hideDigital, setHideDigital] = useState<boolean>(false);
+  const [displayData, setDisplayData] = useState<IGame[]>([]);
 
   const cardClicked = (game: IGame): void => {
     setSelectedGame(game);
@@ -39,12 +41,20 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
 
   const getList = useCallback(
     which => {
-      console.log('which', which);
       setWhichList(which);
       Axios.post(`${window.urlPrefix}/api/vg/lists`, { which })
         .then(result => {
           if (result && result.data) {
-            setData(_sortBy(result.data, 'consoleName'));
+            const results = _sortBy(result.data, 'consoleName');
+            setData(results);
+            console.log('hideDigital', hideDigital);
+            if (hideDigital) {
+              setDisplayData(
+                results.filter((game: IGame) => game.physicalDigital.indexOf('physical') > -1)
+              );
+            } else {
+              setDisplayData(results);
+            }
           }
         })
         .catch(error => {
@@ -57,7 +67,7 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
           }
         });
     },
-    [setNotify]
+    [setNotify, hideDigital]
   );
 
   useEffect((): void => {
@@ -76,17 +86,23 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
           <InputSwitch checked={cardView} onChange={e => setCardView(!!e.value)} />
         </div>
         <div className='lists-head--group'>
-          <label>{data.length} games</label>
+          <label>Hide Digital?</label>
+          <InputSwitch checked={hideDigital} onChange={e => setHideDigital(!!e.value)} />
+        </div>
+        <div className='lists-head--group'>
+          <label>{displayData.length} games</label>
         </div>
       </div>
       <div className='list-container'>
         {cardView &&
-          data.map((d, index) => {
+          displayData.map((d, index) => {
             return (
               <GameCard data={d} key={`${index}-${d?.name || 'game'}`} cardClicked={cardClicked} />
             );
           })}
-        {!cardView && <ListView data={data} listRowClick={cardClicked} whichData={whichList} />}
+        {!cardView && (
+          <ListView data={displayData} listRowClick={cardClicked} whichData={whichList} />
+        )}
       </div>
       <ScrollToTop position='right' />
       <Dialog

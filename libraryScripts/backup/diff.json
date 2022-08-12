@@ -657,6 +657,7 @@
     "name": "Mortal Kombat II",
     "id": 1619,
     "old": [
+      "Sega 32X 6 button compatible game",
       "banned in Germany: Banned because of high-impact gory violence."
     ],
     "new": [
@@ -807,7 +808,9 @@
   {
     "name": "The Lion King",
     "id": 3166,
-    "old": [],
+    "old": [
+      "Sega Genesis 6 button compatible game"
+    ],
     "new": [
       "Sega Genesis 6 button compatible game"
     ]
@@ -1419,7 +1422,9 @@
   {
     "name": "Mortal Kombat",
     "id": 1618,
-    "old": [],
+    "old": [
+      "Sega Genesis 6 button compatible game"
+    ],
     "new": [
       "Sega Genesis 6 button compatible game"
     ]
@@ -1479,7 +1484,9 @@
   {
     "name": "Pitfall: The Mayan Adventure",
     "id": 5410,
-    "old": [],
+    "old": [
+      "Sega 32X 6 button compatible game"
+    ],
     "new": [
       "Sega 32X 6 button compatible game"
     ]
@@ -2141,7 +2148,9 @@
   {
     "name": "Eternal Champions",
     "id": 4477,
-    "old": [],
+    "old": [
+      "Sega Genesis 6 button compatible game"
+    ],
     "new": [
       "Sega Genesis 6 button compatible game"
     ]
@@ -2709,7 +2718,8 @@
     "id": 46535,
     "old": [
       "Sega Genesis exclusive",
-      "Sega Genesis Team Player compatible title"
+      "Sega Genesis Team Player compatible title",
+      "Sega Genesis 6 button compatible game"
     ],
     "new": [
       "Sega Genesis exclusive",
@@ -2875,7 +2885,9 @@
     "name": "Star Wars Arcade",
     "id": 39822,
     "old": [
-      "Sega 32X launch title"
+      "Sega 32X launch title",
+      "Sega 32X 6 button compatible game",
+      "Sega 32X 6 button controller MODE button extra functionality"
     ],
     "new": [
       "Sega 32X launch title",
@@ -3309,7 +3321,9 @@
     "name": "Doom",
     "id": 673,
     "old": [
-      "Sega 32X launch title"
+      "Sega 32X launch title",
+      "Sega 32X 6 button compatible game",
+      "Sega 32X 6 button controller MODE button extra functionality"
     ],
     "new": [
       "Sega 32X launch title",
@@ -3321,7 +3335,9 @@
     "name": "Metal Head",
     "id": 19780,
     "old": [
-      "Sega 32x exclusive"
+      "Sega 32x exclusive",
+      "Sega 32X 6 button compatible game",
+      "Sega 32X 6 button controller MODE button extra functionality"
     ],
     "new": [
       "Sega 32x exclusive",
@@ -3332,7 +3348,9 @@
   {
     "name": "Virtua Fighter",
     "id": 19734,
-    "old": [],
+    "old": [
+      "Sega 32X 6 button compatible game"
+    ],
     "new": [
       "Sega 32X 6 button compatible game"
     ]
@@ -3341,7 +3359,8 @@
     "name": "Virtua Racing Deluxe",
     "id": 45880,
     "old": [
-      "Sega 32X launch title"
+      "Sega 32X launch title",
+      "Sega 32X 6 button compatible game"
     ],
     "new": [
       "Sega 32X launch title",
@@ -5051,7 +5070,9 @@
   {
     "name": "Hang-On",
     "id": 6110,
-    "old": [],
+    "old": [
+      "Sega Master System built-in game (some models)"
+    ],
     "new": [
       "Sega Master System built-in game (some models)"
     ]
@@ -5059,7 +5080,9 @@
   {
     "name": "Zaxxon 3-D",
     "id": 46104,
-    "old": [],
+    "old": [
+      "Sega Master System 3D game (3-D Glasses)"
+    ],
     "new": [
       "Sega Master System 3D game (3-D Glasses)"
     ]
@@ -5533,7 +5556,9 @@
   {
     "name": "Primal Rage",
     "id": 4271,
-    "old": [],
+    "old": [
+      "Sega Genesis 6 button compatible game"
+    ],
     "new": [
       "Sega Genesis 6 button compatible game"
     ]
@@ -5582,7 +5607,8 @@
     "name": "Ultimate Mortal Kombat 3",
     "id": 1621,
     "old": [
-      "Sega Genesis Team Player compatible title"
+      "Sega Genesis Team Player compatible title",
+      "Sega Genesis 6 button compatible game"
     ],
     "new": [
       "Sega Genesis Team Player compatible title",
@@ -5593,7 +5619,8 @@
     "name": "Knuckles' Chaotix",
     "id": 19762,
     "old": [
-      "Sega 32x exclusive"
+      "Sega 32x exclusive",
+      "Sega 32X 6 button controller hidden functionality (Extra sound test controls)"
     ],
     "new": [
       "Sega 32x exclusive",
@@ -5659,7 +5686,9 @@
   {
     "name": "Streets of Rage 3",
     "id": 1654,
-    "old": [],
+    "old": [
+      "Sega Genesis 6 button compatible game"
+    ],
     "new": [
       "Sega Genesis 6 button compatible game"
     ]
@@ -5740,7 +5769,8 @@
     "name": "Shadow Squadron",
     "id": 19763,
     "old": [
-      "Sega 32x exclusive"
+      "Sega 32x exclusive",
+      "Sega 32X 6 button compatible game"
     ],
     "new": [
       "Sega 32x exclusive",
@@ -5750,7 +5780,9 @@
   {
     "name": "BC Racers",
     "id": 5362,
-    "old": [],
+    "old": [
+      "Sega 32X 6 button compatible game"
+    ],
     "new": [
       "Sega 32X 6 button compatible game"
     ]
@@ -5824,7 +5856,9 @@
   {
     "name": "Alex Kidd in Miracle World",
     "id": 26778,
-    "old": [],
+    "old": [
+      "Sega Master System built-in game (some models)"
+    ],
     "new": [
       "Sega Master System built-in game (some models)"
     ]
@@ -5858,7 +5892,9 @@
   {
     "name": "WWF WrestleMania: The Arcade Game",
     "id": 4546,
-    "old": [],
+    "old": [
+      "Sega 32X 6 button compatible game"
+    ],
     "new": [
       "Sega 32X 6 button compatible game"
     ]

@@ -48,8 +48,34 @@
     "misprintsErrors": []
   },
   {
-    "name": "1001 Crystal Mazes Collection",
+    "name": "1000 Cooking Recipes from Elle à Table",
     "id": "nds2",
+    "igdbId": 98671,
+    "gbId": 65236,
+    "gbGuid": "3030-65236",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Record your own recipes and share them with friends via local wireless connections - snap photos of your culinary masterpieces)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Record your own recipes and share them with friends via local wireless connections - snap photos of your culinary masterpieces)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "1001 Crystal Mazes Collection",
+    "id": "nds3",
     "igdbId": 66625,
     "gbId": 31198,
     "gbGuid": "3030-31198",
@@ -72,7 +98,7 @@
   },
   {
     "name": "101 Minigolf World",
-    "id": "nds3",
+    "id": "nds4",
     "igdbId": 84621,
     "gbId": 26784,
     "gbGuid": "3030-26784",
@@ -95,7 +121,7 @@
   },
   {
     "name": "101 Shark Pets",
-    "id": "nds4",
+    "id": "nds5",
     "igdbId": 78409,
     "gbId": 32010,
     "gbGuid": "3030-32010",
@@ -118,7 +144,7 @@
   },
   {
     "name": "7th Dragon",
-    "id": "nds5",
+    "id": "nds6",
     "igdbId": 11817,
     "gbId": 23936,
     "gbGuid": "3030-23936",
@@ -142,7 +168,7 @@
   },
   {
     "name": "A Witch's Tale",
-    "id": "nds6",
+    "id": "nds7",
     "igdbId": 24264,
     "gbId": 22803,
     "gbGuid": "3030-22803",
@@ -166,7 +192,7 @@
   },
   {
     "name": "AFL Mascot Manor",
-    "id": "nds7",
+    "id": "nds8",
     "igdbId": 91707,
     "gbId": 27154,
     "gbGuid": "3030-27154",
@@ -189,7 +215,7 @@
   },
   {
     "name": "ASH: Archaic Sealed Heat",
-    "id": "nds8",
+    "id": "nds9",
     "igdbId": 44072,
     "gbId": 21584,
     "gbGuid": "3030-21584",
@@ -213,7 +239,7 @@
   },
   {
     "name": "ATV: Quad Frenzy",
-    "id": "nds9",
+    "id": "nds10",
     "igdbId": 69810,
     "gbId": 12341,
     "gbGuid": "3030-12341",
@@ -236,8 +262,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Again",
+    "id": "nds11",
+    "igdbId": null,
+    "gbId": 24237,
+    "gbGuid": "3030-24237",
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Agatha Christie's The ABC Murders",
-    "id": "nds10",
+    "id": "nds12",
     "igdbId": 19657,
     "gbId": 28435,
     "gbGuid": "3030-28435",
@@ -261,7 +310,7 @@
   },
   {
     "name": "Age of Empires: Mythologies",
-    "id": "nds11",
+    "id": "nds13",
     "igdbId": 21221,
     "gbId": 24380,
     "gbGuid": "3030-24380",
@@ -285,7 +334,7 @@
   },
   {
     "name": "Age of Empires: The Age of Kings",
-    "id": "nds12",
+    "id": "nds14",
     "igdbId": 24273,
     "gbId": 14285,
     "gbGuid": "3030-14285",
@@ -309,7 +358,7 @@
   },
   {
     "name": "Air Traffic Chaos",
-    "id": "nds13",
+    "id": "nds15",
     "igdbId": 23032,
     "gbId": 22680,
     "gbGuid": "3030-22680",
@@ -333,7 +382,7 @@
   },
   {
     "name": "Air Traffic Controller",
-    "id": "nds14",
+    "id": "nds16",
     "igdbId": 46978,
     "gbId": null,
     "gbGuid": null,
@@ -357,7 +406,7 @@
   },
   {
     "name": "Alex Rider: Stormbreaker",
-    "id": "nds15",
+    "id": "nds17",
     "igdbId": 2848,
     "gbId": 21671,
     "gbGuid": "3030-21671",
@@ -381,13 +430,14 @@
   },
   {
     "name": "Alice in Wonderland",
-    "id": "nds16",
+    "id": "nds18",
     "igdbId": 4666,
     "gbId": 30173,
     "gbGuid": "3030-30173",
     "tgdbId": 9129,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (use DSi's camera to detect colors and trigger unlockables)"
     ],
     "isExclusive": [
       {
@@ -400,12 +450,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (use DSi's camera to detect colors and trigger unlockables)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Aliens: Infestation",
-    "id": "nds17",
+    "id": "nds19",
     "igdbId": 20606,
     "gbId": 35901,
     "gbGuid": "3030-35901",
@@ -429,7 +491,7 @@
   },
   {
     "name": "Allison Road",
-    "id": "nds18",
+    "id": "nds20",
     "igdbId": 11296,
     "gbId": 51391,
     "gbGuid": "3030-51391",
@@ -452,7 +514,7 @@
   },
   {
     "name": "Animal Boxing",
-    "id": "nds19",
+    "id": "nds21",
     "igdbId": 68953,
     "gbId": 21347,
     "gbGuid": "3030-21347",
@@ -476,7 +538,7 @@
   },
   {
     "name": "Animal Paradise",
-    "id": "nds20",
+    "id": "nds22",
     "igdbId": 24326,
     "gbId": 28237,
     "gbGuid": "3030-28237",
@@ -500,7 +562,7 @@
   },
   {
     "name": "Anno 1701: Dawn of Discovery",
-    "id": "nds21",
+    "id": "nds23",
     "igdbId": 23077,
     "gbId": 23547,
     "gbGuid": "3030-23547",
@@ -524,7 +586,7 @@
   },
   {
     "name": "Another Code: Two Memories",
-    "id": "nds22",
+    "id": "nds24",
     "igdbId": 18595,
     "gbId": null,
     "gbGuid": null,
@@ -546,8 +608,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Are You Smarter Than A 5th Grader Back To School",
+    "id": "nds25",
+    "igdbId": 50741,
+    "gbId": 41138,
+    "gbGuid": "3030-41138",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Use camera to import your picture into the game)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Use camera to import your picture into the game)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Arkanoid DS",
-    "id": "nds23",
+    "id": "nds26",
     "igdbId": 21495,
     "gbId": 21608,
     "gbGuid": "3030-21608",
@@ -571,7 +659,7 @@
   },
   {
     "name": "Arrow of Laputa: Kage Nashi Sensei to Kiron no Fuuken",
-    "id": "nds24",
+    "id": "nds27",
     "igdbId": 59210,
     "gbId": 52067,
     "gbGuid": "3030-52067",
@@ -594,13 +682,14 @@
   },
   {
     "name": "Art Academy",
-    "id": "nds25",
+    "id": "nds28",
     "igdbId": 22959,
     "gbId": 32999,
     "gbGuid": "3030-32999",
     "tgdbId": 12597,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (can redraw photos you have taken)"
     ],
     "isExclusive": [
       {
@@ -613,12 +702,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (can redraw photos you have taken)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Art Style: AQUIA",
-    "id": "nds26",
+    "id": "nds29",
     "igdbId": 22537,
     "gbId": 24932,
     "gbGuid": "3030-24932",
@@ -642,7 +743,7 @@
   },
   {
     "name": "Art Style: BOXLIFE",
-    "id": "nds27",
+    "id": "nds30",
     "igdbId": 47826,
     "gbId": null,
     "gbGuid": null,
@@ -666,7 +767,7 @@
   },
   {
     "name": "Art Style: KUBOS",
-    "id": "nds28",
+    "id": "nds31",
     "igdbId": 69261,
     "gbId": 25386,
     "gbGuid": "3030-25386",
@@ -689,7 +790,7 @@
   },
   {
     "name": "Art Style: NEMREM",
-    "id": "nds29",
+    "id": "nds32",
     "igdbId": 84762,
     "gbId": null,
     "gbGuid": null,
@@ -712,7 +813,7 @@
   },
   {
     "name": "Asphalt Urban GT",
-    "id": "nds30",
+    "id": "nds33",
     "igdbId": 6260,
     "gbId": null,
     "gbGuid": null,
@@ -735,8 +836,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Assassin's Creed II: Discovery",
+    "id": "nds34",
+    "igdbId": 18865,
+    "gbId": 27884,
+    "gbGuid": "3030-27884",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (can take pictures to put on wanted posters)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (can take pictures to put on wanted posters)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Atelier Annie: Alchemists of Sera Island",
-    "id": "nds31",
+    "id": "nds35",
     "igdbId": 24262,
     "gbId": 24244,
     "gbGuid": "3030-24244",
@@ -759,8 +886,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Aura-Aura Climber",
+    "id": "nds36",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 64574,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Avalon Code",
-    "id": "nds32",
+    "id": "nds37",
     "igdbId": 21206,
     "gbId": 21371,
     "gbGuid": "3030-21371",
@@ -784,7 +935,7 @@
   },
   {
     "name": "Away: Shuffle Dungeon",
-    "id": "nds33",
+    "id": "nds38",
     "igdbId": 21332,
     "gbId": 23166,
     "gbGuid": "3030-23166",
@@ -808,7 +959,7 @@
   },
   {
     "name": "B-17: Fortress in the Sky",
-    "id": "nds34",
+    "id": "nds39",
     "igdbId": 47933,
     "gbId": 7530,
     "gbGuid": "3030-7530",
@@ -832,7 +983,7 @@
   },
   {
     "name": "Baby Life",
-    "id": "nds35",
+    "id": "nds40",
     "igdbId": 91752,
     "gbId": 25877,
     "gbGuid": "3030-25877",
@@ -856,7 +1007,7 @@
   },
   {
     "name": "Baby Pals",
-    "id": "nds36",
+    "id": "nds41",
     "igdbId": 91753,
     "gbId": 25878,
     "gbGuid": "3030-25878",
@@ -880,7 +1031,7 @@
   },
   {
     "name": "Backyard Basketball",
-    "id": "nds37",
+    "id": "nds42",
     "igdbId": 69242,
     "gbId": 6342,
     "gbGuid": "3030-6342",
@@ -904,7 +1055,7 @@
   },
   {
     "name": "Backyard Hockey",
-    "id": "nds38",
+    "id": "nds43",
     "igdbId": 122753,
     "gbId": 15534,
     "gbGuid": "3030-15534",
@@ -928,7 +1079,7 @@
   },
   {
     "name": "Bakugan: Battle Brawlers",
-    "id": "nds39",
+    "id": "nds44",
     "igdbId": 4703,
     "gbId": 27110,
     "gbGuid": "3030-27110",
@@ -952,7 +1103,7 @@
   },
   {
     "name": "Ball Fighter",
-    "id": "nds40",
+    "id": "nds45",
     "igdbId": 84778,
     "gbId": 26640,
     "gbGuid": "3030-26640",
@@ -975,7 +1126,7 @@
   },
   {
     "name": "Bangai-O Spirits",
-    "id": "nds41",
+    "id": "nds46",
     "igdbId": 21278,
     "gbId": 20480,
     "gbGuid": "3030-20480",
@@ -998,8 +1149,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Barbie: Jet, Set & Style!",
+    "id": "nds47",
+    "igdbId": 17450,
+    "gbId": 77036,
+    "gbGuid": "3030-77036",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Using camera, design a T-shirt for your clients showing off your fashionista skills)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Using camera, design a T-shirt for your clients showing off your fashionista skills)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Barnyard Blast: Swine of the Night",
-    "id": "nds42",
+    "id": "nds48",
     "igdbId": 47917,
     "gbId": 28402,
     "gbGuid": "3030-28402",
@@ -1023,7 +1200,7 @@
   },
   {
     "name": "Battles of Prince of Persia",
-    "id": "nds43",
+    "id": "nds49",
     "igdbId": 20485,
     "gbId": 5239,
     "gbGuid": "3030-5239",
@@ -1046,8 +1223,58 @@
     "misprintsErrors": []
   },
   {
+    "name": "Battleship / Connect Four / Sorry! / Trouble",
+    "id": "nds50",
+    "igdbId": null,
+    "gbId": 12023,
+    "gbGuid": "3030-12023",
+    "tgdbId": 42522,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Bejeweled Twist",
+    "id": "nds51",
+    "igdbId": 15712,
+    "gbId": 24493,
+    "gbGuid": "3030-24493",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (ability to battle owners of DSiWare game)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (ability to battle owners of DSiWare game)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Best of Tests DS",
-    "id": "nds44",
+    "id": "nds52",
     "igdbId": 47930,
     "gbId": 28399,
     "gbGuid": "3030-28399",
@@ -1071,7 +1298,7 @@
   },
   {
     "name": "Betty Boop's Double Shift",
-    "id": "nds45",
+    "id": "nds53",
     "igdbId": 8455,
     "gbId": 2618,
     "gbGuid": "3030-2618",
@@ -1095,7 +1322,7 @@
   },
   {
     "name": "Big Bang Mini",
-    "id": "nds46",
+    "id": "nds54",
     "igdbId": 18549,
     "gbId": 24378,
     "gbGuid": "3030-24378",
@@ -1119,7 +1346,7 @@
   },
   {
     "name": "Black Sigil: Blade of the Exiled",
-    "id": "nds47",
+    "id": "nds55",
     "igdbId": 21124,
     "gbId": 21240,
     "gbGuid": "3030-21240",
@@ -1143,7 +1370,7 @@
   },
   {
     "name": "Blades of Thunder II",
-    "id": "nds48",
+    "id": "nds56",
     "igdbId": 67584,
     "gbId": 28412,
     "gbGuid": "3030-28412",
@@ -1167,7 +1394,7 @@
   },
   {
     "name": "BlayzBloo: Super Melee Brawlers Battle Royale",
-    "id": "nds49",
+    "id": "nds57",
     "igdbId": 67246,
     "gbId": 29427,
     "gbGuid": "3030-29427",
@@ -1190,7 +1417,7 @@
   },
   {
     "name": "Bleach DS 4th: Flame Bringer",
-    "id": "nds50",
+    "id": "nds58",
     "igdbId": 47832,
     "gbId": 25548,
     "gbGuid": "3030-25548",
@@ -1214,7 +1441,7 @@
   },
   {
     "name": "Bleach: Dark Souls",
-    "id": "nds51",
+    "id": "nds59",
     "igdbId": 21331,
     "gbId": 20485,
     "gbGuid": "3030-20485",
@@ -1238,7 +1465,7 @@
   },
   {
     "name": "Bleach: The 3rd Phantom",
-    "id": "nds52",
+    "id": "nds60",
     "igdbId": 19103,
     "gbId": 22933,
     "gbGuid": "3030-22933",
@@ -1262,7 +1489,7 @@
   },
   {
     "name": "Bleach: The Blade of Fate",
-    "id": "nds53",
+    "id": "nds61",
     "igdbId": 20530,
     "gbId": 14550,
     "gbGuid": "3030-14550",
@@ -1286,7 +1513,7 @@
   },
   {
     "name": "Blood of Bahamut",
-    "id": "nds54",
+    "id": "nds62",
     "igdbId": 70641,
     "gbId": 24479,
     "gbGuid": "3030-24479",
@@ -1310,7 +1537,7 @@
   },
   {
     "name": "Blue Dragon Plus",
-    "id": "nds55",
+    "id": "nds63",
     "igdbId": 19939,
     "gbId": 22990,
     "gbGuid": "3030-22990",
@@ -1334,7 +1561,7 @@
   },
   {
     "name": "Blue Dragon: Awakened Shadow",
-    "id": "nds56",
+    "id": "nds64",
     "igdbId": 20465,
     "gbId": 25152,
     "gbGuid": "3030-25152",
@@ -1358,7 +1585,7 @@
   },
   {
     "name": "Boing! Docomodake DS",
-    "id": "nds57",
+    "id": "nds65",
     "igdbId": 21473,
     "gbId": null,
     "gbGuid": null,
@@ -1382,7 +1609,7 @@
   },
   {
     "name": "Bomberman",
-    "id": "nds58",
+    "id": "nds66",
     "igdbId": 71303,
     "gbId": 2430,
     "gbGuid": "3030-2430",
@@ -1406,7 +1633,7 @@
   },
   {
     "name": "Bomberman 2",
-    "id": "nds59",
+    "id": "nds67",
     "igdbId": 85843,
     "gbId": 23793,
     "gbGuid": "3030-23793",
@@ -1430,7 +1657,7 @@
   },
   {
     "name": "Bomberman Blitz",
-    "id": "nds60",
+    "id": "nds68",
     "igdbId": 67318,
     "gbId": 29211,
     "gbGuid": "3030-29211",
@@ -1453,7 +1680,7 @@
   },
   {
     "name": "Bomberman Land Touch!",
-    "id": "nds61",
+    "id": "nds69",
     "igdbId": 20612,
     "gbId": 8753,
     "gbGuid": "3030-8753",
@@ -1477,7 +1704,7 @@
   },
   {
     "name": "Bomberman Land Touch! 2",
-    "id": "nds62",
+    "id": "nds70",
     "igdbId": 20774,
     "gbId": 23732,
     "gbGuid": "3030-23732",
@@ -1501,7 +1728,7 @@
   },
   {
     "name": "Bomberman Story DS",
-    "id": "nds63",
+    "id": "nds71",
     "igdbId": 66613,
     "gbId": 31234,
     "gbGuid": "3030-31234",
@@ -1525,7 +1752,7 @@
   },
   {
     "name": "Brain Age 2: More Training in Minutes a Day",
-    "id": "nds64",
+    "id": "nds72",
     "igdbId": 2711,
     "gbId": null,
     "gbGuid": null,
@@ -1549,7 +1776,7 @@
   },
   {
     "name": "Brain Age Express: Arts & Letters",
-    "id": "nds65",
+    "id": "nds73",
     "igdbId": 67792,
     "gbId": 27771,
     "gbGuid": "3030-27771",
@@ -1572,7 +1799,7 @@
   },
   {
     "name": "Brain Age Express: Sudoku",
-    "id": "nds66",
+    "id": "nds74",
     "igdbId": 67839,
     "gbId": 27544,
     "gbGuid": "3030-27544",
@@ -1595,7 +1822,7 @@
   },
   {
     "name": "Brain Assist",
-    "id": "nds67",
+    "id": "nds75",
     "igdbId": 21679,
     "gbId": 20489,
     "gbGuid": "3030-20489",
@@ -1619,7 +1846,7 @@
   },
   {
     "name": "Brain Boost: Beta Wave",
-    "id": "nds68",
+    "id": "nds76",
     "igdbId": 47836,
     "gbId": 22597,
     "gbGuid": "3030-22597",
@@ -1643,7 +1870,7 @@
   },
   {
     "name": "Brain Boost: Gamma Wave",
-    "id": "nds69",
+    "id": "nds77",
     "igdbId": 44064,
     "gbId": 22271,
     "gbGuid": "3030-22271",
@@ -1667,7 +1894,7 @@
   },
   {
     "name": "Brain Buster: Puzzle Pak",
-    "id": "nds70",
+    "id": "nds78",
     "igdbId": 77799,
     "gbId": 27787,
     "gbGuid": "3030-27787",
@@ -1691,7 +1918,7 @@
   },
   {
     "name": "Brain Quest Grades 3 & 4",
-    "id": "nds71",
+    "id": "nds79",
     "igdbId": 68941,
     "gbId": 21077,
     "gbGuid": "3030-21077",
@@ -1714,7 +1941,7 @@
   },
   {
     "name": "Brain Quest Grades 5 & 6",
-    "id": "nds72",
+    "id": "nds80",
     "igdbId": 68940,
     "gbId": 21078,
     "gbGuid": "3030-21078",
@@ -1737,7 +1964,7 @@
   },
   {
     "name": "Brain Voyage",
-    "id": "nds73",
+    "id": "nds81",
     "igdbId": 21483,
     "gbId": 28414,
     "gbGuid": "3030-28414",
@@ -1760,8 +1987,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Brainstorm Series: Treasure Chase",
+    "id": "nds82",
+    "igdbId": 130389,
+    "gbId": 77037,
+    "gbGuid": "3030-77037",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (DSi picture function - Extra puzzles by scanning QR codes in manual)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (DSi picture function - Extra puzzles by scanning QR codes in manual)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Bratz: Fashion Boutique",
+    "id": "nds83",
+    "igdbId": 47638,
+    "gbId": 40062,
+    "gbGuid": "3030-40062",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Unlock exclusive content using QR-codes found on the Bratz Boutique, Chic Mystique, and Style Starz toylines)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Unlock exclusive content using QR-codes found on the Bratz Boutique, Chic Mystique, and Style Starz toylines)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Brave: Shaman's Challenge",
-    "id": "nds74",
+    "id": "nds84",
     "igdbId": 73023,
     "gbId": 21045,
     "gbGuid": "3030-21045",
@@ -1784,7 +2063,7 @@
   },
   {
     "name": "Break 'Em All",
-    "id": "nds75",
+    "id": "nds85",
     "igdbId": 20534,
     "gbId": 14124,
     "gbGuid": "3030-14124",
@@ -1807,8 +2086,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "BreakSoul",
+    "id": "nds86",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Brothers in Arms DS",
-    "id": "nds76",
+    "id": "nds87",
     "igdbId": 21422,
     "gbId": 13502,
     "gbGuid": "3030-13502",
@@ -1832,7 +2134,7 @@
   },
   {
     "name": "Bubble Bobble Revolution",
-    "id": "nds77",
+    "id": "nds88",
     "igdbId": 20577,
     "gbId": 4401,
     "gbGuid": "3030-4401",
@@ -1856,7 +2158,7 @@
   },
   {
     "name": "Bubble Bobble: Double Shot",
-    "id": "nds78",
+    "id": "nds89",
     "igdbId": 20672,
     "gbId": 19691,
     "gbGuid": "3030-19691",
@@ -1880,7 +2182,7 @@
   },
   {
     "name": "Build-A-Bear Workshop",
-    "id": "nds79",
+    "id": "nds90",
     "igdbId": 47811,
     "gbId": 23787,
     "gbGuid": "3030-23787",
@@ -1904,7 +2206,7 @@
   },
   {
     "name": "Bust-a-Move DS",
-    "id": "nds80",
+    "id": "nds91",
     "igdbId": 22572,
     "gbId": 7091,
     "gbGuid": "3030-7091",
@@ -1928,7 +2230,7 @@
   },
   {
     "name": "C.O.P.: The Recruit",
-    "id": "nds81",
+    "id": "nds92",
     "igdbId": 8611,
     "gbId": 26835,
     "gbGuid": "3030-26835",
@@ -1952,7 +2254,7 @@
   },
   {
     "name": "C.O.R.E.",
-    "id": "nds82",
+    "id": "nds93",
     "igdbId": 20977,
     "gbId": 25713,
     "gbGuid": "3030-25713",
@@ -1976,7 +2278,7 @@
   },
   {
     "name": "CSI: Crime Scene Investigation: Dark Motives",
-    "id": "nds83",
+    "id": "nds94",
     "igdbId": 72166,
     "gbId": 5702,
     "gbGuid": "3030-5702",
@@ -2000,13 +2302,14 @@
   },
   {
     "name": "CSI: Crime Scene Investigation: Unsolved!",
-    "id": "nds84",
+    "id": "nds95",
     "igdbId": 47796,
     "gbId": 33010,
     "gbGuid": "3030-33010",
     "tgdbId": 15129,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (Make use of the camera for exclusive lab and field work)"
     ],
     "isExclusive": [
       {
@@ -2019,12 +2322,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Make use of the camera for exclusive lab and field work)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Call of Duty 4: Modern Warfare",
-    "id": "nds85",
+    "id": "nds96",
     "igdbId": 623,
     "gbId": 25636,
     "gbGuid": "3030-25636",
@@ -2048,7 +2363,7 @@
   },
   {
     "name": "Call of Duty: Modern Warfare - Mobilized",
-    "id": "nds86",
+    "id": "nds97",
     "igdbId": 21198,
     "gbId": 27664,
     "gbGuid": "3030-27664",
@@ -2071,8 +2386,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Call of Duty: Modern Warfare 3 - Defiance",
+    "id": "nds98",
+    "igdbId": null,
+    "gbId": 35129,
+    "gbGuid": "3030-35129",
+    "tgdbId": 31168,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Call of Duty: World at War",
-    "id": "nds87",
+    "id": "nds99",
     "igdbId": 625,
     "gbId": 20777,
     "gbGuid": "3030-20777",
@@ -2096,7 +2435,7 @@
   },
   {
     "name": "Camping Mama: Outdoor Adventures",
-    "id": "nds88",
+    "id": "nds100",
     "igdbId": 47942,
     "gbId": 36962,
     "gbGuid": "3030-36962",
@@ -2120,7 +2459,7 @@
   },
   {
     "name": "Card Game",
-    "id": "nds89",
+    "id": "nds101",
     "igdbId": 98612,
     "gbId": 65347,
     "gbGuid": "3030-65347",
@@ -2143,8 +2482,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Cars 2",
+    "id": "nds102",
+    "igdbId": 210274,
+    "gbId": 34172,
+    "gbGuid": "3030-34172",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Castlevania: Order of Ecclesia",
-    "id": "nds90",
+    "id": "nds103",
     "igdbId": 1141,
     "gbId": 20627,
     "gbGuid": "3030-20627",
@@ -2168,7 +2533,7 @@
   },
   {
     "name": "Castlevania: Portrait of Ruin",
-    "id": "nds91",
+    "id": "nds104",
     "igdbId": 1138,
     "gbId": 14357,
     "gbGuid": "3030-14357",
@@ -2192,7 +2557,7 @@
   },
   {
     "name": "Championship Pony",
-    "id": "nds92",
+    "id": "nds105",
     "igdbId": 67583,
     "gbId": 28419,
     "gbGuid": "3030-28419",
@@ -2216,7 +2581,7 @@
   },
   {
     "name": "Chao Dream Touch! Happy Anniversary",
-    "id": "nds93",
+    "id": "nds106",
     "igdbId": 122870,
     "gbId": null,
     "gbGuid": null,
@@ -2238,8 +2603,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Chara-Chinko",
+    "id": "nds107",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Chibi-Robo: Park Patrol",
-    "id": "nds94",
+    "id": "nds108",
     "igdbId": 21307,
     "gbId": 21629,
     "gbGuid": "3030-21629",
@@ -2262,8 +2653,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Chicken Hunter",
+    "id": "nds109",
+    "igdbId": null,
+    "gbId": 25928,
+    "gbGuid": "3030-25928",
+    "tgdbId": 47079,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Children of Mana",
-    "id": "nds95",
+    "id": "nds110",
     "igdbId": 14988,
     "gbId": 9471,
     "gbGuid": "3030-9471",
@@ -2286,8 +2701,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Chronicles of Mystery: The Secret Tree of Life",
+    "id": "nds111",
+    "igdbId": 66175,
+    "gbId": 33587,
+    "gbGuid": "3030-33587",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera puzzles)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera puzzles)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Classic Word Games",
+    "id": "nds112",
+    "igdbId": 79535,
+    "gbId": 26876,
+    "gbGuid": "3030-26876",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Utilizes DSi memory to offer additional themes, can create unlimited number of crossword grids)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Utilizes DSi memory to offer additional themes, can create unlimited number of crossword grids)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Club Penguin: Elite Penguin Force",
-    "id": "nds96",
+    "id": "nds113",
     "igdbId": 78695,
     "gbId": 24113,
     "gbGuid": "3030-24113",
@@ -2311,7 +2778,7 @@
   },
   {
     "name": "Clubhouse Games",
-    "id": "nds97",
+    "id": "nds114",
     "igdbId": 18597,
     "gbId": 8573,
     "gbGuid": "3030-8573",
@@ -2334,8 +2801,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Code (video game)",
+    "id": "nds115",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Code Lyoko",
-    "id": "nds98",
+    "id": "nds116",
     "igdbId": 8453,
     "gbId": 13447,
     "gbGuid": "3030-13447",
@@ -2359,7 +2849,7 @@
   },
   {
     "name": "Code Lyoko: Fall of X.A.N.A.",
-    "id": "nds99",
+    "id": "nds117",
     "igdbId": 8454,
     "gbId": 25324,
     "gbGuid": "3030-25324",
@@ -2383,7 +2873,7 @@
   },
   {
     "name": "Color Cross",
-    "id": "nds100",
+    "id": "nds118",
     "igdbId": 21268,
     "gbId": null,
     "gbGuid": null,
@@ -2407,7 +2897,7 @@
   },
   {
     "name": "Combat of Giants: Dinosaurs 3D",
-    "id": "nds101",
+    "id": "nds119",
     "igdbId": 7906,
     "gbId": 31766,
     "gbGuid": "3030-31766",
@@ -2431,7 +2921,7 @@
   },
   {
     "name": "Command and Destroy",
-    "id": "nds102",
+    "id": "nds120",
     "igdbId": 47887,
     "gbId": 28423,
     "gbGuid": "3030-28423",
@@ -2455,7 +2945,7 @@
   },
   {
     "name": "Commando: Steel Disaster",
-    "id": "nds103",
+    "id": "nds121",
     "igdbId": 21272,
     "gbId": 21048,
     "gbGuid": "3030-21048",
@@ -2479,7 +2969,7 @@
   },
   {
     "name": "Contact",
-    "id": "nds104",
+    "id": "nds122",
     "igdbId": 20581,
     "gbId": 2856,
     "gbGuid": "3030-2856",
@@ -2503,7 +2993,7 @@
   },
   {
     "name": "Cooking Guide: Can't Decide What to Eat?",
-    "id": "nds105",
+    "id": "nds123",
     "igdbId": 48047,
     "gbId": 23074,
     "gbGuid": "3030-23074",
@@ -2527,7 +3017,7 @@
   },
   {
     "name": "Cooking Mama",
-    "id": "nds106",
+    "id": "nds124",
     "igdbId": 3060,
     "gbId": 6163,
     "gbGuid": "3030-6163",
@@ -2545,7 +3035,7 @@
   },
   {
     "name": "Cooking Mama 2: Dinner with Friends",
-    "id": "nds107",
+    "id": "nds125",
     "igdbId": 3062,
     "gbId": 7604,
     "gbGuid": "3030-7604",
@@ -2569,7 +3059,7 @@
   },
   {
     "name": "Cooking Mama 3: Shop & Chop",
-    "id": "nds108",
+    "id": "nds126",
     "igdbId": 3065,
     "gbId": 26385,
     "gbGuid": "3030-26385",
@@ -2593,7 +3083,7 @@
   },
   {
     "name": "Cory in the House",
-    "id": "nds109",
+    "id": "nds127",
     "igdbId": 47969,
     "gbId": 25994,
     "gbGuid": "3030-25994",
@@ -2616,8 +3106,86 @@
     "misprintsErrors": []
   },
   {
+    "name": "Cosmetic Paradise",
+    "id": "nds128",
+    "igdbId": 47871,
+    "gbId": 24338,
+    "gbGuid": "3030-24338",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Cosmetic Paradise: Kirei no Mahou",
+    "id": "nds129",
+    "igdbId": 130393,
+    "gbId": 77031,
+    "gbGuid": "3030-77031",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Cosmetic Paradise: Princess Life",
+    "id": "nds130",
+    "igdbId": 130392,
+    "gbId": 77032,
+    "gbGuid": "3030-77032",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Cosmos X2",
-    "id": "nds110",
+    "id": "nds131",
     "igdbId": 85054,
     "gbId": null,
     "gbGuid": null,
@@ -2640,7 +3208,7 @@
   },
   {
     "name": "Crafting Mama",
-    "id": "nds111",
+    "id": "nds132",
     "igdbId": 47810,
     "gbId": 30379,
     "gbGuid": "3030-30379",
@@ -2664,7 +3232,7 @@
   },
   {
     "name": "Crash Boom Bang!",
-    "id": "nds112",
+    "id": "nds133",
     "igdbId": 1196,
     "gbId": null,
     "gbGuid": null,
@@ -2688,7 +3256,7 @@
   },
   {
     "name": "Crayola Treasure Adventures",
-    "id": "nds113",
+    "id": "nds134",
     "igdbId": 21363,
     "gbId": 53524,
     "gbGuid": "3030-53524",
@@ -2711,8 +3279,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Crime Lab: Body of Evidence",
+    "id": "nds135",
+    "igdbId": 23665,
+    "gbId": 76526,
+    "gbGuid": "3030-76526",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (includes skippable minigames that are incorporate the camera)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (includes skippable minigames that are incorporate the camera)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Crime Scene",
-    "id": "nds114",
+    "id": "nds136",
     "igdbId": 21653,
     "gbId": 31044,
     "gbGuid": "3030-31044",
@@ -2736,7 +3330,7 @@
   },
   {
     "name": "Crosswords DS",
-    "id": "nds115",
+    "id": "nds137",
     "igdbId": 47766,
     "gbId": 21610,
     "gbGuid": "3030-21610",
@@ -2759,7 +3353,7 @@
   },
   {
     "name": "Custom Robo Arena",
-    "id": "nds116",
+    "id": "nds138",
     "igdbId": 3466,
     "gbId": 17424,
     "gbGuid": "3030-17424",
@@ -2783,7 +3377,7 @@
   },
   {
     "name": "DS Dengeki Bunko: Inukami! feat. Animation",
-    "id": "nds117",
+    "id": "nds139",
     "igdbId": 112538,
     "gbId": 70004,
     "gbGuid": "3030-70004",
@@ -2806,7 +3400,7 @@
   },
   {
     "name": "DS Dengeki Bunko: Iria no Sora, UFO no Natsu",
-    "id": "nds118",
+    "id": "nds140",
     "igdbId": 112535,
     "gbId": 70005,
     "gbGuid": "3030-70005",
@@ -2828,8 +3422,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "DS-Pico Series: Sanrio Puro Land - Waku Waku Okaimono - Suteki na Oheya Otsukuri Masho",
+    "id": "nds141",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Daigasso! Band Brothers",
-    "id": "nds119",
+    "id": "nds142",
     "igdbId": 28559,
     "gbId": 505,
     "gbGuid": "3030-505",
@@ -2852,8 +3472,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Daniel X: The Ultimate Power",
+    "id": "nds143",
+    "igdbId": 67188,
+    "gbId": 29573,
+    "gbGuid": "3030-29573",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (use camera to take photos of family and friends. Let the Daniel X Alien Detector determine who can be trusted-and who is an alien)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (use camera to take photos of family and friends. Let the Daniel X Alien Detector determine who can be trusted-and who is an alien)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Dead 'N' Furious",
-    "id": "nds120",
+    "id": "nds144",
     "igdbId": 85072,
     "gbId": null,
     "gbGuid": null,
@@ -2876,7 +3522,7 @@
   },
   {
     "name": "Death Jr. and the Science Fair of Doom",
-    "id": "nds121",
+    "id": "nds145",
     "igdbId": 21412,
     "gbId": 25992,
     "gbGuid": "3030-25992",
@@ -2900,7 +3546,7 @@
   },
   {
     "name": "Dengeki Gakuen RPG: Cross of Venus",
-    "id": "nds122",
+    "id": "nds146",
     "igdbId": 70697,
     "gbId": 24247,
     "gbGuid": "3030-24247",
@@ -2923,7 +3569,7 @@
   },
   {
     "name": "Densetsu no Stafi 4",
-    "id": "nds123",
+    "id": "nds147",
     "igdbId": 85080,
     "gbId": 13455,
     "gbGuid": "3030-13455",
@@ -2945,8 +3591,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Der Fluch der Osterinsel",
+    "id": "nds148",
+    "igdbId": 6664,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Devilish: Ball Bounder",
-    "id": "nds124",
+    "id": "nds149",
     "igdbId": 122509,
     "gbId": null,
     "gbGuid": null,
@@ -2969,7 +3641,7 @@
   },
   {
     "name": "Diamond Trust of London",
-    "id": "nds125",
+    "id": "nds150",
     "igdbId": 9138,
     "gbId": 31101,
     "gbGuid": "3030-31101",
@@ -2993,7 +3665,7 @@
   },
   {
     "name": "Dig Dug: Digging Strike",
-    "id": "nds126",
+    "id": "nds151",
     "igdbId": 47729,
     "gbId": 23674,
     "gbGuid": "3030-23674",
@@ -3017,7 +3689,7 @@
   },
   {
     "name": "Digimon Story: Lost Evolution",
-    "id": "nds127",
+    "id": "nds152",
     "igdbId": 67307,
     "gbId": 29253,
     "gbGuid": "3030-29253",
@@ -3041,7 +3713,7 @@
   },
   {
     "name": "Digimon World Championship",
-    "id": "nds128",
+    "id": "nds153",
     "igdbId": 47897,
     "gbId": 22672,
     "gbGuid": "3030-22672",
@@ -3065,7 +3737,7 @@
   },
   {
     "name": "Digimon World DS",
-    "id": "nds129",
+    "id": "nds154",
     "igdbId": 20609,
     "gbId": 21933,
     "gbGuid": "3030-21933",
@@ -3089,7 +3761,7 @@
   },
   {
     "name": "Digimon World: Dawn",
-    "id": "nds130",
+    "id": "nds155",
     "igdbId": 21521,
     "gbId": 24388,
     "gbGuid": "3030-24388",
@@ -3113,7 +3785,7 @@
   },
   {
     "name": "Digimon World: Dusk",
-    "id": "nds131",
+    "id": "nds156",
     "igdbId": 78285,
     "gbId": 24388,
     "gbGuid": "3030-24388",
@@ -3137,7 +3809,7 @@
   },
   {
     "name": "Dino Master",
-    "id": "nds132",
+    "id": "nds157",
     "igdbId": 69143,
     "gbId": 25884,
     "gbGuid": "3030-25884",
@@ -3161,7 +3833,7 @@
   },
   {
     "name": "Dinosaur King",
-    "id": "nds133",
+    "id": "nds158",
     "igdbId": 80832,
     "gbId": 21079,
     "gbGuid": "3030-21079",
@@ -3184,8 +3856,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Disney Camp Rock: The Final Jam",
+    "id": "nds159",
+    "igdbId": 122508,
+    "gbId": 77038,
+    "gbGuid": "3030-77038",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (you can take a photo of yourself that will appear in the game scenery)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (you can take a photo of yourself that will appear in the game scenery)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Disney Friends",
-    "id": "nds134",
+    "id": "nds160",
     "igdbId": 47859,
     "gbId": 19964,
     "gbGuid": "3030-19964",
@@ -3209,7 +3907,7 @@
   },
   {
     "name": "Disney High School Musical 2: Work This Out!",
-    "id": "nds135",
+    "id": "nds161",
     "igdbId": 21371,
     "gbId": 22458,
     "gbGuid": "3030-22458",
@@ -3233,7 +3931,7 @@
   },
   {
     "name": "Disney High School Musical 3: Senior Year",
-    "id": "nds136",
+    "id": "nds162",
     "igdbId": 4912,
     "gbId": 27864,
     "gbGuid": "3030-27864",
@@ -3257,7 +3955,7 @@
   },
   {
     "name": "Disney High School Musical: Makin' the Cut",
-    "id": "nds137",
+    "id": "nds163",
     "igdbId": 44063,
     "gbId": 27903,
     "gbGuid": "3030-27903",
@@ -3281,7 +3979,7 @@
   },
   {
     "name": "Disney Princess: Magical Jewels",
-    "id": "nds138",
+    "id": "nds164",
     "igdbId": 47698,
     "gbId": 74519,
     "gbGuid": "3030-74519",
@@ -3305,7 +4003,7 @@
   },
   {
     "name": "Disney's American Dragon: Jake Long, Attack of the Dark Dragon",
-    "id": "nds139",
+    "id": "nds165",
     "igdbId": 8464,
     "gbId": 17666,
     "gbGuid": "3030-17666",
@@ -3329,7 +4027,7 @@
   },
   {
     "name": "Disney's Herbie: Rescue Rally",
-    "id": "nds140",
+    "id": "nds166",
     "igdbId": 73552,
     "gbId": 16248,
     "gbGuid": "3030-16248",
@@ -3353,7 +4051,7 @@
   },
   {
     "name": "Disney/Pixar Ratatouille: Food Frenzy",
-    "id": "nds141",
+    "id": "nds167",
     "igdbId": 18296,
     "gbId": 21778,
     "gbGuid": "3030-21778",
@@ -3377,7 +4075,7 @@
   },
   {
     "name": "Doctor Who: Evacuation Earth",
-    "id": "nds142",
+    "id": "nds168",
     "igdbId": 47842,
     "gbId": 32424,
     "gbGuid": "3030-32424",
@@ -3401,7 +4099,7 @@
   },
   {
     "name": "Dokapon Journey",
-    "id": "nds143",
+    "id": "nds169",
     "igdbId": 21121,
     "gbId": 24299,
     "gbGuid": "3030-24299",
@@ -3425,7 +4123,7 @@
   },
   {
     "name": "Doki Doki Majo Shinpan! 2 DUO",
-    "id": "nds144",
+    "id": "nds170",
     "igdbId": 21456,
     "gbId": 21702,
     "gbGuid": "3030-21702",
@@ -3448,7 +4146,7 @@
   },
   {
     "name": "Doki Majo Plus",
-    "id": "nds145",
+    "id": "nds171",
     "igdbId": 69120,
     "gbId": 25950,
     "gbGuid": "3030-25950",
@@ -3471,7 +4169,7 @@
   },
   {
     "name": "Dokidoki Majo Shinpan!",
-    "id": "nds146",
+    "id": "nds172",
     "igdbId": 47970,
     "gbId": 4707,
     "gbGuid": "3030-4707",
@@ -3495,12 +4193,13 @@
   },
   {
     "name": "Dolphin Island: Underwater Adventures",
-    "id": "nds147",
+    "id": "nds173",
     "igdbId": 122510,
     "gbId": 48555,
     "gbGuid": "3030-48555",
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (camera, Parental Controls)"
     ],
     "isExclusive": [
       {
@@ -3513,12 +4212,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera, Parental Controls)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Doodle Hex",
-    "id": "nds148",
+    "id": "nds174",
     "igdbId": 21475,
     "gbId": 21607,
     "gbGuid": "3030-21607",
@@ -3542,7 +4253,7 @@
   },
   {
     "name": "Dr. Mario Express",
-    "id": "nds149",
+    "id": "nds175",
     "igdbId": 47847,
     "gbId": 24924,
     "gbGuid": "3030-24924",
@@ -3566,7 +4277,7 @@
   },
   {
     "name": "Dr. Seuss: How the Grinch Stole Christmas!",
-    "id": "nds150",
+    "id": "nds176",
     "igdbId": 15489,
     "gbId": 17539,
     "gbGuid": "3030-17539",
@@ -3590,7 +4301,7 @@
   },
   {
     "name": "Draglade",
-    "id": "nds151",
+    "id": "nds177",
     "igdbId": 21542,
     "gbId": 20498,
     "gbGuid": "3030-20498",
@@ -3614,7 +4325,7 @@
   },
   {
     "name": "Dragon Ball Kai: Ultimate Butouden",
-    "id": "nds152",
+    "id": "nds178",
     "igdbId": 47834,
     "gbId": 33253,
     "gbGuid": "3030-33253",
@@ -3638,7 +4349,7 @@
   },
   {
     "name": "Dragon Ball Z: Attack of the Saiyans",
-    "id": "nds153",
+    "id": "nds179",
     "igdbId": 21196,
     "gbId": 25435,
     "gbGuid": "3030-25435",
@@ -3662,7 +4373,7 @@
   },
   {
     "name": "Dragon Ball Z: Harukanaru Densetsu",
-    "id": "nds154",
+    "id": "nds180",
     "igdbId": 21426,
     "gbId": 24289,
     "gbGuid": "3030-24289",
@@ -3686,7 +4397,7 @@
   },
   {
     "name": "Dragon Ball: Origins",
-    "id": "nds155",
+    "id": "nds181",
     "igdbId": 19308,
     "gbId": 22006,
     "gbGuid": "3030-22006",
@@ -3710,7 +4421,7 @@
   },
   {
     "name": "Dragon Ball: Origins 2",
-    "id": "nds156",
+    "id": "nds182",
     "igdbId": 20412,
     "gbId": 29254,
     "gbGuid": "3030-29254",
@@ -3734,7 +4445,7 @@
   },
   {
     "name": "Dragon Quest Heroes: Rocket Slime",
-    "id": "nds157",
+    "id": "nds183",
     "igdbId": 1824,
     "gbId": 10252,
     "gbGuid": "3030-10252",
@@ -3758,7 +4469,7 @@
   },
   {
     "name": "Dragon Quest IX: Sentinels of the Starry Skies",
-    "id": "nds158",
+    "id": "nds184",
     "igdbId": 1820,
     "gbId": 21666,
     "gbGuid": "3030-21666",
@@ -3782,7 +4493,7 @@
   },
   {
     "name": "Dragon Quest Monsters: Joker",
-    "id": "nds159",
+    "id": "nds185",
     "igdbId": 17460,
     "gbId": 6632,
     "gbGuid": "3030-6632",
@@ -3806,7 +4517,7 @@
   },
   {
     "name": "Dragon Quest Monsters: Joker 2",
-    "id": "nds160",
+    "id": "nds186",
     "igdbId": 21727,
     "gbId": 29922,
     "gbGuid": "3030-29922",
@@ -3830,7 +4541,7 @@
   },
   {
     "name": "Dragon Quest Wars",
-    "id": "nds161",
+    "id": "nds187",
     "igdbId": 1825,
     "gbId": 26476,
     "gbGuid": "3030-26476",
@@ -3854,7 +4565,7 @@
   },
   {
     "name": "Dragon Tamer Sound Spirit",
-    "id": "nds162",
+    "id": "nds188",
     "igdbId": 123156,
     "gbId": 73182,
     "gbGuid": "3030-73182",
@@ -3877,7 +4588,7 @@
   },
   {
     "name": "Drawn To Life: The Next Chapter",
-    "id": "nds163",
+    "id": "nds189",
     "igdbId": 4820,
     "gbId": 26615,
     "gbGuid": "3030-26615",
@@ -3901,7 +4612,7 @@
   },
   {
     "name": "Drawn to Life: SpongeBob SquarePants Edition",
-    "id": "nds164",
+    "id": "nds190",
     "igdbId": 4822,
     "gbId": 21076,
     "gbGuid": "3030-21076",
@@ -3925,7 +4636,7 @@
   },
   {
     "name": "Drone Tactics",
-    "id": "nds165",
+    "id": "nds191",
     "igdbId": 21487,
     "gbId": 20506,
     "gbGuid": "3030-20506",
@@ -3949,7 +4660,7 @@
   },
   {
     "name": "Ducati Moto",
-    "id": "nds166",
+    "id": "nds192",
     "igdbId": 67746,
     "gbId": 27923,
     "gbGuid": "3030-27923",
@@ -3973,7 +4684,7 @@
   },
   {
     "name": "Duel Love",
-    "id": "nds167",
+    "id": "nds193",
     "igdbId": 70538,
     "gbId": 24809,
     "gbGuid": "3030-24809",
@@ -3996,7 +4707,7 @@
   },
   {
     "name": "Duke Nukem: Critical Mass",
-    "id": "nds168",
+    "id": "nds194",
     "igdbId": 47967,
     "gbId": null,
     "gbGuid": null,
@@ -4020,7 +4731,7 @@
   },
   {
     "name": "Dynasty Warriors DS: Fighter's Battle",
-    "id": "nds169",
+    "id": "nds195",
     "igdbId": 21534,
     "gbId": 23506,
     "gbGuid": "3030-23506",
@@ -4044,7 +4755,7 @@
   },
   {
     "name": "Eco-Creatures: Save the Forest",
-    "id": "nds170",
+    "id": "nds196",
     "igdbId": 21280,
     "gbId": 24124,
     "gbGuid": "3030-24124",
@@ -4068,7 +4779,7 @@
   },
   {
     "name": "Ed, Edd n Eddy: Scam of the Century",
-    "id": "nds171",
+    "id": "nds197",
     "igdbId": 2817,
     "gbId": 20508,
     "gbGuid": "3030-20508",
@@ -4092,7 +4803,7 @@
   },
   {
     "name": "Elebits: The Adventures of Kai and Zero",
-    "id": "nds172",
+    "id": "nds198",
     "igdbId": 47965,
     "gbId": 21723,
     "gbGuid": "3030-21723",
@@ -4116,7 +4827,7 @@
   },
   {
     "name": "Electroplankton",
-    "id": "nds173",
+    "id": "nds199",
     "igdbId": 18340,
     "gbId": 492,
     "gbGuid": "3030-492",
@@ -4140,7 +4851,7 @@
   },
   {
     "name": "Elite Beat Agents",
-    "id": "nds174",
+    "id": "nds200",
     "igdbId": 9109,
     "gbId": 11982,
     "gbGuid": "3030-11982",
@@ -4164,7 +4875,7 @@
   },
   {
     "name": "Elite Forces: Unit 77",
-    "id": "nds175",
+    "id": "nds201",
     "igdbId": 21291,
     "gbId": 25751,
     "gbGuid": "3030-25751",
@@ -4187,8 +4898,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Elminage II DS Remix: Sousei no Megami to Unmei no Daichi",
+    "id": "nds202",
+    "igdbId": 21028,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Emergency Room: Real Life Rescues",
-    "id": "nds176",
+    "id": "nds203",
     "igdbId": 24322,
     "gbId": 27869,
     "gbGuid": "3030-27869",
@@ -4211,8 +4948,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Emily the Strange: Strangerous",
+    "id": "nds204",
+    "igdbId": 47765,
+    "gbId": 35382,
+    "gbGuid": "3030-35382",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (scan QR codes with the camera to unlock zonster parts to create your own personal Zonster)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (scan QR codes with the camera to unlock zonster parts to create your own personal Zonster)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Enchanted",
-    "id": "nds177",
+    "id": "nds205",
     "igdbId": 13641,
     "gbId": 27902,
     "gbGuid": "3030-27902",
@@ -4236,7 +4999,7 @@
   },
   {
     "name": "Essential Sudoku DS",
-    "id": "nds178",
+    "id": "nds206",
     "igdbId": 68784,
     "gbId": 12723,
     "gbGuid": "3030-12723",
@@ -4259,7 +5022,7 @@
   },
   {
     "name": "Etrian Odyssey",
-    "id": "nds179",
+    "id": "nds207",
     "igdbId": 14716,
     "gbId": 14350,
     "gbGuid": "3030-14350",
@@ -4283,7 +5046,7 @@
   },
   {
     "name": "Etrian Odyssey II: Heroes of Lagaard",
-    "id": "nds180",
+    "id": "nds208",
     "igdbId": 14717,
     "gbId": 20511,
     "gbGuid": "3030-20511",
@@ -4307,7 +5070,7 @@
   },
   {
     "name": "Etrian Odyssey III: The Drowned City",
-    "id": "nds181",
+    "id": "nds209",
     "igdbId": 14718,
     "gbId": 29469,
     "gbGuid": "3030-29469",
@@ -4330,8 +5093,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "FIFA 11",
+    "id": "nds210",
+    "igdbId": 503,
+    "gbId": 31651,
+    "gbGuid": "3030-31651",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera allows players to create unique in-game trading cards)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera allows players to create unique in-game trading cards)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Family Park Tycoon",
-    "id": "nds182",
+    "id": "nds211",
     "igdbId": 123310,
     "gbId": null,
     "gbGuid": null,
@@ -4353,8 +5142,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Fancy Nancy: Tea Party Time!",
+    "id": "nds212",
+    "igdbId": 66370,
+    "gbId": 32690,
+    "gbGuid": "3030-32690",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (create glamorous stickers using your camera, take a picture of yourself and fancy it up with bows, laces, jewels, and such)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (create glamorous stickers using your camera, take a picture of yourself and fancy it up with bows, laces, jewels, and such)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Fashion Designer: Style Icon",
-    "id": "nds183",
+    "id": "nds213",
     "igdbId": 123309,
     "gbId": null,
     "gbGuid": null,
@@ -4377,7 +5192,7 @@
   },
   {
     "name": "Feel the Magic: XY/XX",
-    "id": "nds184",
+    "id": "nds214",
     "igdbId": 18331,
     "gbId": 11248,
     "gbGuid": "3030-11248",
@@ -4411,7 +5226,7 @@
   },
   {
     "name": "Fighting Fantasy: The Warlock of Firetop Mountain",
-    "id": "nds185",
+    "id": "nds215",
     "igdbId": 81501,
     "gbId": 27265,
     "gbGuid": "3030-27265",
@@ -4435,7 +5250,7 @@
   },
   {
     "name": "Final Fantasy Crystal Chronicles: Ring of Fates",
-    "id": "nds186",
+    "id": "nds216",
     "igdbId": 9585,
     "gbId": 22015,
     "gbGuid": "3030-22015",
@@ -4459,7 +5274,7 @@
   },
   {
     "name": "Final Fantasy Fables: Chocobo Tales",
-    "id": "nds187",
+    "id": "nds217",
     "igdbId": 41830,
     "gbId": 3668,
     "gbGuid": "3030-3668",
@@ -4483,7 +5298,7 @@
   },
   {
     "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
-    "id": "nds188",
+    "id": "nds218",
     "igdbId": 2408,
     "gbId": 21286,
     "gbGuid": "3030-21286",
@@ -4507,7 +5322,7 @@
   },
   {
     "name": "Final Fantasy XII: Revenant Wings",
-    "id": "nds189",
+    "id": "nds219",
     "igdbId": 392,
     "gbId": 10751,
     "gbGuid": "3030-10751",
@@ -4531,7 +5346,7 @@
   },
   {
     "name": "Final Fantasy: The 4 Heroes of Light",
-    "id": "nds190",
+    "id": "nds220",
     "igdbId": 17463,
     "gbId": 27186,
     "gbGuid": "3030-27186",
@@ -4555,12 +5370,13 @@
   },
   {
     "name": "Fire Emblem: New Mystery of the Emblem",
-    "id": "nds191",
+    "id": "nds221",
     "igdbId": 1445,
     "gbId": null,
     "gbGuid": null,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (Japan)"
     ],
     "isExclusive": [
       {
@@ -4573,12 +5389,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Flash Focus: Vision Training in Minutes a Day",
-    "id": "nds192",
+    "id": "nds222",
     "igdbId": 21912,
     "gbId": 14434,
     "gbGuid": "3030-14434",
@@ -4602,7 +5430,7 @@
   },
   {
     "name": "Flipnote Studio",
-    "id": "nds193",
+    "id": "nds223",
     "igdbId": 85636,
     "gbId": 24930,
     "gbGuid": "3030-24930",
@@ -4626,7 +5454,7 @@
   },
   {
     "name": "Florist Shop",
-    "id": "nds194",
+    "id": "nds224",
     "igdbId": 44070,
     "gbId": null,
     "gbGuid": null,
@@ -4650,7 +5478,7 @@
   },
   {
     "name": "Football Academy",
-    "id": "nds195",
+    "id": "nds225",
     "igdbId": 124015,
     "gbId": null,
     "gbGuid": null,
@@ -4673,7 +5501,7 @@
   },
   {
     "name": "Fossil Fighters",
-    "id": "nds196",
+    "id": "nds226",
     "igdbId": 20978,
     "gbId": 27048,
     "gbGuid": "3030-27048",
@@ -4697,13 +5525,14 @@
   },
   {
     "name": "Fossil Fighters: Champions",
-    "id": "nds197",
+    "id": "nds227",
     "igdbId": 20979,
     "gbId": 35583,
     "gbGuid": "3030-35583",
     "tgdbId": 14537,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi"
     ],
     "isExclusive": [
       {
@@ -4716,12 +5545,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Foto Showdown",
-    "id": "nds198",
+    "id": "nds228",
     "igdbId": 47903,
     "gbId": 29542,
     "gbGuid": "3030-29542",
@@ -4745,7 +5586,7 @@
   },
   {
     "name": "Freedom Wings",
-    "id": "nds199",
+    "id": "nds229",
     "igdbId": 47820,
     "gbId": 15594,
     "gbGuid": "3030-15594",
@@ -4769,7 +5610,7 @@
   },
   {
     "name": "Freshly-Picked: Tingle's Rosy Rupeeland",
-    "id": "nds200",
+    "id": "nds230",
     "igdbId": 11607,
     "gbId": 21239,
     "gbGuid": "3030-21239",
@@ -4793,7 +5634,7 @@
   },
   {
     "name": "From The Abyss",
-    "id": "nds201",
+    "id": "nds231",
     "igdbId": 17266,
     "gbId": 22044,
     "gbGuid": "3030-22044",
@@ -4816,8 +5657,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Fuyu no Sonata DS",
+    "id": "nds232",
+    "igdbId": 124014,
+    "gbId": 75911,
+    "gbGuid": "3030-75911",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Ganbare Goemon: Toukai Douchuu Ooedo Tengurigaeshi no Maki",
-    "id": "nds202",
+    "id": "nds233",
     "igdbId": 73299,
     "gbId": 18424,
     "gbGuid": "3030-18424",
@@ -4840,7 +5707,7 @@
   },
   {
     "name": "Garfield's Nightmare",
-    "id": "nds203",
+    "id": "nds234",
     "igdbId": 67853,
     "gbId": 27498,
     "gbGuid": "3030-27498",
@@ -4864,7 +5731,7 @@
   },
   {
     "name": "Garfield: A Tail of Two Kitties",
-    "id": "nds204",
+    "id": "nds235",
     "igdbId": 23734,
     "gbId": 5016,
     "gbGuid": "3030-5016",
@@ -4888,7 +5755,7 @@
   },
   {
     "name": "Glory of Heracles",
-    "id": "nds205",
+    "id": "nds236",
     "igdbId": 21766,
     "gbId": 26932,
     "gbGuid": "3030-26932",
@@ -4912,7 +5779,7 @@
   },
   {
     "name": "Go Go Cosmo Cops",
-    "id": "nds206",
+    "id": "nds237",
     "details": [
       "Nintendo DS exclusive"
     ],
@@ -4932,7 +5799,7 @@
   },
   {
     "name": "Go! Go! Kokopolo: Harmonious Forest Revenge",
-    "id": "nds207",
+    "id": "nds238",
     "igdbId": 65247,
     "gbId": 38052,
     "gbGuid": "3030-38052",
@@ -4955,7 +5822,7 @@
   },
   {
     "name": "GoPets: Vacation Island",
-    "id": "nds208",
+    "id": "nds239",
     "igdbId": 124019,
     "gbId": null,
     "gbGuid": null,
@@ -4978,8 +5845,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Golden Nugget Casino DS",
+    "id": "nds240",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47212,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Golden Sun: Dark Dawn",
-    "id": "nds209",
+    "id": "nds241",
     "igdbId": 1174,
     "gbId": 26833,
     "gbGuid": "3030-26833",
@@ -5002,8 +5893,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Grease",
+    "id": "nds242",
+    "igdbId": 4895,
+    "gbId": 27200,
+    "gbGuid": "3030-27200",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (use camera to take a picture of yourself and see yourself in the game)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (use camera to take a picture of yourself and see yourself in the game)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Guilty Gear Dust Strikers",
-    "id": "nds210",
+    "id": "nds243",
     "igdbId": 9149,
     "gbId": 21376,
     "gbGuid": "3030-21376",
@@ -5027,7 +5944,7 @@
   },
   {
     "name": "Guitar Hero: On Tour",
-    "id": "nds211",
+    "id": "nds244",
     "igdbId": 7088,
     "gbId": 20639,
     "gbGuid": "3030-20639",
@@ -5051,7 +5968,7 @@
   },
   {
     "name": "Guru Logic Champ",
-    "id": "nds212",
+    "id": "nds245",
     "igdbId": 49239,
     "gbId": 13113,
     "gbGuid": "3030-13113",
@@ -5075,7 +5992,7 @@
   },
   {
     "name": "Hamsterz Life",
-    "id": "nds213",
+    "id": "nds246",
     "igdbId": 9248,
     "gbId": 22229,
     "gbGuid": "3030-22229",
@@ -5099,7 +6016,7 @@
   },
   {
     "name": "Hands On! Tangrams",
-    "id": "nds214",
+    "id": "nds247",
     "igdbId": 48043,
     "gbId": 25915,
     "gbGuid": "3030-25915",
@@ -5123,7 +6040,7 @@
   },
   {
     "name": "Hard-Hat Domo",
-    "id": "nds215",
+    "id": "nds248",
     "igdbId": 69134,
     "gbId": 26897,
     "gbGuid": "3030-26897",
@@ -5146,7 +6063,7 @@
   },
   {
     "name": "Harvest Moon DS",
-    "id": "nds216",
+    "id": "nds249",
     "igdbId": 3385,
     "gbId": 12573,
     "gbGuid": "3030-12573",
@@ -5170,7 +6087,7 @@
   },
   {
     "name": "Harvest Moon DS: Grand Bazaar",
-    "id": "nds217",
+    "id": "nds250",
     "igdbId": 3391,
     "gbId": null,
     "gbGuid": null,
@@ -5194,7 +6111,7 @@
   },
   {
     "name": "Harvest Moon DS: Island of Happiness",
-    "id": "nds218",
+    "id": "nds251",
     "igdbId": 3387,
     "gbId": null,
     "gbGuid": null,
@@ -5218,7 +6135,7 @@
   },
   {
     "name": "Harvest Moon DS: Sunshine Islands",
-    "id": "nds219",
+    "id": "nds252",
     "igdbId": 3389,
     "gbId": null,
     "gbGuid": null,
@@ -5241,8 +6158,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Hayate the Combat Butler",
+    "id": "nds253",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Hello Kitty: Big City Dreams",
-    "id": "nds220",
+    "id": "nds254",
     "igdbId": 3686,
     "gbId": 24505,
     "gbGuid": "3030-24505",
@@ -5266,7 +6206,7 @@
   },
   {
     "name": "Henry Hatsworth in the Puzzling Adventure",
-    "id": "nds221",
+    "id": "nds255",
     "igdbId": 9601,
     "gbId": 23282,
     "gbGuid": "3030-23282",
@@ -5290,7 +6230,7 @@
   },
   {
     "name": "Hero's Saga: Laevatein Tactics",
-    "id": "nds222",
+    "id": "nds256",
     "igdbId": 21034,
     "gbId": 24252,
     "gbGuid": "3030-24252",
@@ -5314,7 +6254,7 @@
   },
   {
     "name": "Heroes of Mana",
-    "id": "nds223",
+    "id": "nds257",
     "igdbId": 14990,
     "gbId": 21626,
     "gbGuid": "3030-21626",
@@ -5338,7 +6278,7 @@
   },
   {
     "name": "Hi Hi Puffy AmiYumi: The Genie & the Amp",
-    "id": "nds224",
+    "id": "nds258",
     "igdbId": 2818,
     "gbId": 20524,
     "gbGuid": "3030-20524",
@@ -5362,7 +6302,7 @@
   },
   {
     "name": "Honeycomb Beat",
-    "id": "nds225",
+    "id": "nds259",
     "igdbId": 20685,
     "gbId": 35792,
     "gbGuid": "3030-35792",
@@ -5386,7 +6326,7 @@
   },
   {
     "name": "Hoshigami: Ruining Blue Earth",
-    "id": "nds226",
+    "id": "nds260",
     "igdbId": 45223,
     "gbId": 14011,
     "gbGuid": "3030-14011",
@@ -5409,8 +6349,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Hot Wheels Track Attack",
+    "id": "nds261",
+    "igdbId": 4917,
+    "gbId": 32983,
+    "gbGuid": "3030-32983",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Hotel Dusk: Room 215",
-    "id": "nds227",
+    "id": "nds262",
     "igdbId": 9249,
     "gbId": 1159,
     "gbGuid": "3030-1159",
@@ -5440,7 +6406,7 @@
   },
   {
     "name": "IL-2 Sturmovik: Birds of Prey",
-    "id": "nds228",
+    "id": "nds263",
     "igdbId": 193298,
     "gbId": 20722,
     "gbGuid": "3030-20722",
@@ -5457,8 +6423,265 @@
     ]
   },
   {
+    "name": "IQ Sapuri",
+    "id": "nds264",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Animal Doctor Care Center",
+    "id": "nds265",
+    "igdbId": 7948,
+    "gbId": 2683,
+    "gbGuid": "3030-2683",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Use camera to take your picture and create your own Veterinarian ID card!)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Use camera to take your picture and create your own Veterinarian ID card!)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Artist",
+    "id": "nds266",
+    "igdbId": 7944,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take a photo and incorporate it into your art)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take a photo and incorporate it into your art)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Babyz Fashion",
+    "id": "nds267",
+    "igdbId": 7946,
+    "gbId": 29136,
+    "gbGuid": "3030-29136",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Take a picture of a real world pattern with the Dsis to incorporate in your designs for a unique look)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Take a picture of a real world pattern with the Dsis to incorporate in your designs for a unique look)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Champion Rider",
+    "id": "nds268",
+    "igdbId": 7919,
+    "gbId": 24401,
+    "gbGuid": "3030-24401",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Fashion Designer World Tour",
+    "id": "nds269",
+    "igdbId": 7945,
+    "gbId": 28452,
+    "gbGuid": "3030-28452",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take pictures of patterns in the real world and apply them to your designs)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take pictures of patterns in the real world and apply them to your designs)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Fashion Stylist",
+    "id": "nds270",
+    "igdbId": 7949,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (see characters 'in your own room' as they are trying out things)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (see characters 'in your own room' as they are trying out things)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Reporter",
+    "id": "nds271",
+    "igdbId": 7942,
+    "gbId": 29195,
+    "gbGuid": "3030-29195",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (capture photos of celebs as though they were right next to you)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (capture photos of celebs as though they were right next to you)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Rescue Vet",
+    "id": "nds272",
+    "igdbId": 147432,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Imagine: Resort Owner",
+    "id": "nds273",
+    "igdbId": 7947,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (color and paint your hotel rooms by finding the perfect matching colors in your own environments)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (color and paint your hotel rooms by finding the perfect matching colors in your own environments)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Infinite Space",
-    "id": "nds229",
+    "id": "nds274",
     "igdbId": 11683,
     "gbId": 24075,
     "gbGuid": "3030-24075",
@@ -5482,7 +6705,7 @@
   },
   {
     "name": "Inuyasha: Secret of the Divine Jewel",
-    "id": "nds230",
+    "id": "nds275",
     "igdbId": 20653,
     "gbId": 16001,
     "gbGuid": "3030-16001",
@@ -5505,8 +6728,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Irodzuki Tingle no Koi no Balloon Trip",
+    "id": "nds276",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Iron Feather",
-    "id": "nds231",
+    "id": "nds277",
     "igdbId": 71609,
     "gbId": 24233,
     "gbGuid": "3030-24233",
@@ -5529,7 +6775,7 @@
   },
   {
     "name": "Izuna 2: The Unemployed Ninja Returns",
-    "id": "nds232",
+    "id": "nds278",
     "igdbId": 21345,
     "gbId": 21034,
     "gbGuid": "3030-21034",
@@ -5553,7 +6799,7 @@
   },
   {
     "name": "Izuna: Legend of the Unemployed Ninja",
-    "id": "nds233",
+    "id": "nds279",
     "igdbId": 20671,
     "gbId": 4464,
     "gbGuid": "3030-4464",
@@ -5577,7 +6823,7 @@
   },
   {
     "name": "JAM sessions",
-    "id": "nds234",
+    "id": "nds280",
     "igdbId": 47925,
     "gbId": 18573,
     "gbGuid": "3030-18573",
@@ -5600,8 +6846,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Jam Sessions 2",
+    "id": "nds281",
+    "igdbId": 65090,
+    "gbId": 38479,
+    "gbGuid": "3030-38479",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (can use recordings you make and edit and stuff in songs you record)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (can use recordings you make and edit and stuff in songs you record)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Jam with the Band",
-    "id": "nds235",
+    "id": "nds282",
     "igdbId": 21100,
     "gbId": 21366,
     "gbGuid": "3030-21366",
@@ -5625,7 +6897,7 @@
   },
   {
     "name": "James Cameron's Avatar: The Game",
-    "id": "nds236",
+    "id": "nds283",
     "igdbId": 4211,
     "gbId": 30564,
     "gbGuid": "3030-30564",
@@ -5648,14 +6920,41 @@
     "misprintsErrors": []
   },
   {
+    "name": "James Cameron's Avatar: The Game",
+    "id": "nds284",
+    "igdbId": 200999,
+    "gbId": 30564,
+    "gbGuid": "3030-30564",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera photos unlock upgrades)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera photos unlock upgrades)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "James Patterson: Women's Murder Club: Games of Passion",
-    "id": "nds237",
+    "id": "nds285",
     "igdbId": 47831,
     "gbId": 26836,
     "gbGuid": "3030-26836",
     "tgdbId": 29311,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (Create your own WMC mystery utilizing the camera. Determine suspects, evidence and ultimately solve this new case on your own)"
     ],
     "isExclusive": [
       {
@@ -5668,12 +6967,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Create your own WMC mystery utilizing the camera. Determine suspects, evidence and ultimately solve this new case on your own)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Jet Impulse",
-    "id": "nds238",
+    "id": "nds286",
     "igdbId": 72952,
     "gbId": 22030,
     "gbGuid": "3030-22030",
@@ -5695,8 +7006,136 @@
     "misprintsErrors": []
   },
   {
+    "name": "Jig-a-Pix: Love Is",
+    "id": "nds287",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Jigapix Wild World",
+    "id": "nds288",
+    "igdbId": 47919,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Jigapix: Pets",
+    "id": "nds289",
+    "igdbId": 209987,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Jigapix: Wonderful World",
+    "id": "nds290",
+    "igdbId": 209988,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take a photo, make a jigsaw)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Johnny Test",
+    "id": "nds291",
+    "igdbId": null,
+    "gbId": 72346,
+    "gbGuid": "3030-72346",
+    "tgdbId": 47285,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Journey to the Center of the Earth",
-    "id": "nds239",
+    "id": "nds292",
     "igdbId": 81426,
     "gbId": 30581,
     "gbGuid": "3030-30581",
@@ -5720,7 +7159,7 @@
   },
   {
     "name": "Jump Superstars",
-    "id": "nds240",
+    "id": "nds293",
     "igdbId": 28835,
     "gbId": 21241,
     "gbGuid": "3030-21241",
@@ -5744,7 +7183,7 @@
   },
   {
     "name": "Jump Ultimate Stars",
-    "id": "nds241",
+    "id": "nds294",
     "igdbId": 40263,
     "gbId": 21788,
     "gbGuid": "3030-21788",
@@ -5767,8 +7206,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Just Sing!",
+    "id": "nds295",
+    "igdbId": 81460,
+    "gbId": 46904,
+    "gbGuid": "3030-46904",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (record yourself whilst singing, and then see the movie being streamed live on-screen behind your avatar)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (record yourself whilst singing, and then see the movie being streamed live on-screen behind your avatar)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "KORG DS-10 Plus",
+    "id": "nds296",
+    "igdbId": 124490,
+    "gbId": 27155,
+    "gbGuid": "3030-27155",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Optimized for DSi with 12-voice polyphony and to double the power of the original KORG DS-10: 4 analog synthesizer tracks and 8 dedicated drum tracks, increase the total number of tracks from 6 to 12.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Optimized for DSi with 12-voice polyphony and to double the power of the original KORG DS-10: 4 analog synthesizer tracks and 8 dedicated drum tracks, increase the total number of tracks from 6 to 12.)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "KORG DS-10 Synthesizer",
-    "id": "nds242",
+    "id": "nds297",
     "igdbId": 73009,
     "gbId": 21427,
     "gbGuid": "3030-21427",
@@ -5792,7 +7283,7 @@
   },
   {
     "name": "Kabu Trader Shun",
-    "id": "nds243",
+    "id": "nds298",
     "igdbId": 123337,
     "gbId": null,
     "gbGuid": null,
@@ -5814,8 +7305,106 @@
     "misprintsErrors": []
   },
   {
+    "name": "Kanji Sonomama Rakubiki Jiten DS",
+    "id": "nds299",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Katekyo Hitman Reborn! DS Flame Rumble XX - Kessen! Real 6 Chouka",
+    "id": "nds300",
+    "igdbId": 64381,
+    "gbId": 40287,
+    "gbGuid": "3030-40287",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Katekyoo Hitman Reborn! Ore ga Boss! Saikyou Family Taisen",
+    "id": "nds301",
+    "igdbId": null,
+    "gbId": 84504,
+    "gbGuid": "3030-84504",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Keroro Gunsō the Super Movie",
+    "id": "nds302",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Keroro RPG: Kishi to Busha to Densetsu no Kaizoku",
-    "id": "nds244",
+    "id": "nds303",
     "igdbId": 67306,
     "gbId": 29252,
     "gbGuid": "3030-29252",
@@ -5838,7 +7427,7 @@
   },
   {
     "name": "Kidou Senshi Gundam 00",
-    "id": "nds245",
+    "id": "nds304",
     "igdbId": 47870,
     "gbId": 21740,
     "gbGuid": "3030-21740",
@@ -5862,7 +7451,7 @@
   },
   {
     "name": "Kimi ni Todoke: Sodateru Omoi",
-    "id": "nds246",
+    "id": "nds305",
     "igdbId": 66964,
     "gbId": 30179,
     "gbGuid": "3030-30179",
@@ -5884,8 +7473,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Kimi no Yusha",
+    "id": "nds306",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Kingdom Hearts 358/2 Days",
-    "id": "nds247",
+    "id": "nds307",
     "igdbId": 1223,
     "gbId": 21448,
     "gbGuid": "3030-21448",
@@ -5915,7 +7527,7 @@
   },
   {
     "name": "Konami Classics Series: Arcade Hits",
-    "id": "nds248",
+    "id": "nds308",
     "igdbId": 21395,
     "gbId": 15915,
     "gbGuid": "3030-15915",
@@ -5939,7 +7551,7 @@
   },
   {
     "name": "Konductra",
-    "id": "nds249",
+    "id": "nds309",
     "igdbId": 20619,
     "gbId": 12040,
     "gbGuid": "3030-12040",
@@ -5963,7 +7575,7 @@
   },
   {
     "name": "Korogashi Puzzle Katamari Damacy",
-    "id": "nds250",
+    "id": "nds310",
     "igdbId": 6458,
     "gbId": 25427,
     "gbGuid": "3030-25427",
@@ -5986,7 +7598,7 @@
   },
   {
     "name": "Kousoku Card Battle: Card Hero",
-    "id": "nds251",
+    "id": "nds311",
     "igdbId": 73037,
     "gbId": 20804,
     "gbGuid": "3030-20804",
@@ -6009,7 +7621,7 @@
   },
   {
     "name": "Kumatanchi",
-    "id": "nds252",
+    "id": "nds312",
     "igdbId": 70683,
     "gbId": 24288,
     "gbGuid": "3030-24288",
@@ -6031,8 +7643,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Kung Fu Panda 2",
+    "id": "nds313",
+    "igdbId": 200906,
+    "gbId": 34990,
+    "gbGuid": "3030-34990",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Kurikin: Nano Island Story",
-    "id": "nds253",
+    "id": "nds314",
     "igdbId": 59337,
     "gbId": 51915,
     "gbGuid": "3030-51915",
@@ -6055,7 +7693,7 @@
   },
   {
     "name": "LEGO Star Wars: The Complete Saga (Canada)",
-    "id": "nds254",
+    "id": "nds315",
     "igdbId": 194935,
     "gbId": 11120,
     "gbGuid": "3030-11120",
@@ -6073,7 +7711,7 @@
   },
   {
     "name": "LOL",
-    "id": "nds255",
+    "id": "nds316",
     "igdbId": 124474,
     "gbId": 21395,
     "gbGuid": "3030-21395",
@@ -6096,7 +7734,7 @@
   },
   {
     "name": "Last Bullet",
-    "id": "nds256",
+    "id": "nds317",
     "igdbId": 94837,
     "gbId": 24418,
     "gbGuid": "3030-24418",
@@ -6119,7 +7757,7 @@
   },
   {
     "name": "Last Window: The Secret of Cape West",
-    "id": "nds257",
+    "id": "nds318",
     "igdbId": 22958,
     "gbId": 29533,
     "gbGuid": "3030-29533",
@@ -6143,7 +7781,7 @@
   },
   {
     "name": "Learn with Pokémon: Typing Adventure",
-    "id": "nds258",
+    "id": "nds319",
     "igdbId": 4564,
     "gbId": 32812,
     "gbGuid": "3030-32812",
@@ -6167,7 +7805,7 @@
   },
   {
     "name": "Lego Battles",
-    "id": "nds259",
+    "id": "nds320",
     "igdbId": 2648,
     "gbId": 25250,
     "gbGuid": "3030-25250",
@@ -6191,7 +7829,7 @@
   },
   {
     "name": "Lego Battles: Ninjago",
-    "id": "nds260",
+    "id": "nds321",
     "igdbId": 19767,
     "gbId": 36924,
     "gbGuid": "3030-36924",
@@ -6215,7 +7853,7 @@
   },
   {
     "name": "Let's Yoga",
-    "id": "nds261",
+    "id": "nds322",
     "igdbId": 47857,
     "gbId": null,
     "gbGuid": null,
@@ -6239,7 +7877,7 @@
   },
   {
     "name": "LifeSigns: Surgical Unit",
-    "id": "nds262",
+    "id": "nds323",
     "igdbId": 18600,
     "gbId": 21777,
     "gbGuid": "3030-21777",
@@ -6263,7 +7901,7 @@
   },
   {
     "name": "Lionel Trains: On Track",
-    "id": "nds263",
+    "id": "nds324",
     "igdbId": 10738,
     "gbId": 17682,
     "gbGuid": "3030-17682",
@@ -6286,8 +7924,57 @@
     "misprintsErrors": []
   },
   {
+    "name": "List of DS:Style products",
+    "id": "nds325",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Little Book Of Big Secrets",
+    "id": "nds326",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take photos on your Nintendo DSi and customise your diary)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take photos on your Nintendo DSi and customise your diary)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Little Red Riding Hood's Zombie BBQ",
-    "id": "nds264",
+    "id": "nds327",
     "igdbId": 21298,
     "gbId": 21993,
     "gbGuid": "3030-21993",
@@ -6311,7 +7998,7 @@
   },
   {
     "name": "Looney Tunes: Cartoon Conductor",
-    "id": "nds265",
+    "id": "nds328",
     "igdbId": 21364,
     "gbId": null,
     "gbGuid": null,
@@ -6335,7 +8022,7 @@
   },
   {
     "name": "Looney Tunes: Duck Amuck",
-    "id": "nds266",
+    "id": "nds329",
     "igdbId": 8134,
     "gbId": 20536,
     "gbGuid": "3030-20536",
@@ -6358,8 +8045,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Lost Identities",
+    "id": "nds330",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Lost Magic",
-    "id": "nds267",
+    "id": "nds331",
     "igdbId": 20522,
     "gbId": 6453,
     "gbGuid": "3030-6453",
@@ -6383,7 +8096,7 @@
   },
   {
     "name": "Lost in Blue",
-    "id": "nds268",
+    "id": "nds332",
     "igdbId": 22513,
     "gbId": 8451,
     "gbGuid": "3030-8451",
@@ -6407,7 +8120,7 @@
   },
   {
     "name": "Lost in Blue 2",
-    "id": "nds269",
+    "id": "nds333",
     "igdbId": 21396,
     "gbId": 14227,
     "gbGuid": "3030-14227",
@@ -6431,7 +8144,7 @@
   },
   {
     "name": "Lost in Blue 3",
-    "id": "nds270",
+    "id": "nds334",
     "igdbId": 21361,
     "gbId": 23961,
     "gbGuid": "3030-23961",
@@ -6454,8 +8167,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Lovely Lisa and Friends",
+    "id": "nds335",
+    "igdbId": 47911,
+    "gbId": 29750,
+    "gbGuid": "3030-29750",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (snap shots and customize Lisa's outfits)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (snap shots and customize Lisa's outfits)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Lufia: Curse of the Sinistrals",
-    "id": "nds271",
+    "id": "nds336",
     "igdbId": 1181,
     "gbId": 29232,
     "gbGuid": "3030-29232",
@@ -6479,7 +8218,7 @@
   },
   {
     "name": "Luminous Arc",
-    "id": "nds272",
+    "id": "nds337",
     "igdbId": 21447,
     "gbId": 5534,
     "gbGuid": "3030-5534",
@@ -6503,7 +8242,7 @@
   },
   {
     "name": "Luminous Arc 2",
-    "id": "nds273",
+    "id": "nds338",
     "igdbId": 21330,
     "gbId": 21163,
     "gbGuid": "3030-21163",
@@ -6527,7 +8266,7 @@
   },
   {
     "name": "Luminous Arc 3: Eyes",
-    "id": "nds274",
+    "id": "nds339",
     "igdbId": 25100,
     "gbId": 27680,
     "gbGuid": "3030-27680",
@@ -6551,7 +8290,7 @@
   },
   {
     "name": "Lunar Knights",
-    "id": "nds275",
+    "id": "nds340",
     "igdbId": 9887,
     "gbId": 7060,
     "gbGuid": "3030-7060",
@@ -6575,7 +8314,7 @@
   },
   {
     "name": "Lunar: Dragon Song",
-    "id": "nds276",
+    "id": "nds341",
     "igdbId": 13908,
     "gbId": 16319,
     "gbGuid": "3030-16319",
@@ -6599,7 +8338,7 @@
   },
   {
     "name": "Lux-Pain",
-    "id": "nds277",
+    "id": "nds342",
     "igdbId": 21045,
     "gbId": 25156,
     "gbGuid": "3030-25156",
@@ -6623,7 +8362,7 @@
   },
   {
     "name": "Madden NFL 2005",
-    "id": "nds278",
+    "id": "nds343",
     "igdbId": 778,
     "gbId": 4222,
     "gbGuid": "3030-4222",
@@ -6647,7 +8386,7 @@
   },
   {
     "name": "Mage Knight: Destiny's Soldier",
-    "id": "nds279",
+    "id": "nds344",
     "igdbId": 20576,
     "gbId": 27921,
     "gbGuid": "3030-27921",
@@ -6671,7 +8410,7 @@
   },
   {
     "name": "Magical Starsign",
-    "id": "nds280",
+    "id": "nds345",
     "igdbId": 15839,
     "gbId": 11278,
     "gbGuid": "3030-11278",
@@ -6695,7 +8434,7 @@
   },
   {
     "name": "Magician's Quest: Mysterious Times",
-    "id": "nds281",
+    "id": "nds346",
     "igdbId": 21183,
     "gbId": null,
     "gbGuid": null,
@@ -6719,7 +8458,7 @@
   },
   {
     "name": "Major League Baseball 2K8 Fantasy All Stars",
-    "id": "nds282",
+    "id": "nds347",
     "igdbId": 20781,
     "gbId": 29371,
     "gbGuid": "3030-29371",
@@ -6743,7 +8482,7 @@
   },
   {
     "name": "Make 10",
-    "id": "nds283",
+    "id": "nds348",
     "igdbId": 122550,
     "gbId": 73693,
     "gbGuid": "3030-73693",
@@ -6767,7 +8506,7 @@
   },
   {
     "name": "MapleStory DS",
-    "id": "nds284",
+    "id": "nds349",
     "igdbId": 79942,
     "gbId": 30700,
     "gbGuid": "3030-30700",
@@ -6791,7 +8530,7 @@
   },
   {
     "name": "Mario & Luigi: Bowser's Inside Story",
-    "id": "nds285",
+    "id": "nds350",
     "igdbId": 3363,
     "gbId": 23983,
     "gbGuid": "3030-23983",
@@ -6815,7 +8554,7 @@
   },
   {
     "name": "Mario & Luigi: Partners in Time",
-    "id": "nds286",
+    "id": "nds351",
     "igdbId": 3364,
     "gbId": 15439,
     "gbGuid": "3030-15439",
@@ -6833,7 +8572,7 @@
   },
   {
     "name": "Mario Hoops: 3 on 3",
-    "id": "nds287",
+    "id": "nds352",
     "igdbId": 3988,
     "gbId": 11206,
     "gbGuid": "3030-11206",
@@ -6857,13 +8596,14 @@
   },
   {
     "name": "Mario vs. Donkey Kong: Mini-Land Mayhem",
-    "id": "nds288",
+    "id": "nds353",
     "igdbId": 21093,
     "gbId": 31742,
     "gbGuid": "3030-31742",
     "tgdbId": 11336,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi"
     ],
     "isExclusive": [
       {
@@ -6876,12 +8616,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Mario vs. Donkey Kong: Minis March Again!",
-    "id": "nds289",
+    "id": "nds354",
     "igdbId": 48032,
     "gbId": 26854,
     "gbGuid": "3030-26854",
@@ -6905,7 +8657,7 @@
   },
   {
     "name": "Master of Illusion",
-    "id": "nds290",
+    "id": "nds355",
     "igdbId": 20770,
     "gbId": 22220,
     "gbGuid": "3030-22220",
@@ -6929,7 +8681,7 @@
   },
   {
     "name": "MechAssault: Phantom War",
-    "id": "nds291",
+    "id": "nds356",
     "igdbId": 19195,
     "gbId": 17059,
     "gbGuid": "3030-17059",
@@ -6953,7 +8705,7 @@
   },
   {
     "name": "Mega Man Star Force 2: Zerker x Ninja",
-    "id": "nds292",
+    "id": "nds357",
     "igdbId": 1785,
     "gbId": 20539,
     "gbGuid": "3030-20539",
@@ -6983,7 +8735,7 @@
   },
   {
     "name": "Mega Man Star Force 2: Zerker x Saurian",
-    "id": "nds293",
+    "id": "nds358",
     "igdbId": 1784,
     "gbId": 20539,
     "gbGuid": "3030-20539",
@@ -7007,7 +8759,7 @@
   },
   {
     "name": "Mega Man Star Force 3: Black Ace",
-    "id": "nds294",
+    "id": "nds359",
     "igdbId": 1786,
     "gbId": 21403,
     "gbGuid": "3030-21403",
@@ -7037,7 +8789,7 @@
   },
   {
     "name": "Mega Man Star Force 3: Red Joker",
-    "id": "nds295",
+    "id": "nds360",
     "igdbId": 1787,
     "gbId": 21403,
     "gbGuid": "3030-21403",
@@ -7061,7 +8813,7 @@
   },
   {
     "name": "Mega Man Star Force: Dragon",
-    "id": "nds296",
+    "id": "nds361",
     "igdbId": 1783,
     "gbId": 1476,
     "gbGuid": "3030-1476",
@@ -7085,7 +8837,7 @@
   },
   {
     "name": "Mega Man Star Force: Leo",
-    "id": "nds297",
+    "id": "nds362",
     "igdbId": 1782,
     "gbId": 1476,
     "gbGuid": "3030-1476",
@@ -7109,7 +8861,7 @@
   },
   {
     "name": "Mega Man Star Force: Pegasus",
-    "id": "nds298",
+    "id": "nds363",
     "igdbId": 1781,
     "gbId": 1476,
     "gbGuid": "3030-1476",
@@ -7133,7 +8885,7 @@
   },
   {
     "name": "Mega Man ZX",
-    "id": "nds299",
+    "id": "nds364",
     "igdbId": 1779,
     "gbId": 11103,
     "gbGuid": "3030-11103",
@@ -7157,7 +8909,7 @@
   },
   {
     "name": "Mega Man ZX Advent",
-    "id": "nds300",
+    "id": "nds365",
     "igdbId": 1780,
     "gbId": 20435,
     "gbGuid": "3030-20435",
@@ -7181,7 +8933,7 @@
   },
   {
     "name": "Mega Man Zero Collection",
-    "id": "nds301",
+    "id": "nds366",
     "igdbId": 24355,
     "gbId": 29768,
     "gbGuid": "3030-29768",
@@ -7205,7 +8957,7 @@
   },
   {
     "name": "Metal Max 3",
-    "id": "nds302",
+    "id": "nds367",
     "igdbId": 66922,
     "gbId": 30297,
     "gbGuid": "3030-30297",
@@ -7228,7 +8980,7 @@
   },
   {
     "name": "Metal Saga: Hagane no Kisetsu",
-    "id": "nds303",
+    "id": "nds368",
     "igdbId": 66989,
     "gbId": 30081,
     "gbGuid": "3030-30081",
@@ -7251,24 +9003,14 @@
   },
   {
     "name": "Metroid Prime Hunters – First Hunt (Demo)",
-    "id": "nds304",
+    "id": "nds369",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
     "details": [
-      "Nintendo DS launch title",
-      "Nintendo DS exclusive"
+      "Nintendo DS launch title"
     ],
-    "isExclusive": [
-      {
-        "name": "Nintendo DS",
-        "id": "ccl11",
-        "igdbId": 20,
-        "gbId": 52,
-        "gbGuid": "3045-52",
-        "tgdbId": 8
-      }
-    ],
+    "isExclusive": false,
     "isLaunchTitle": [
       {
         "name": "Nintendo DS",
@@ -7284,7 +9026,7 @@
   },
   {
     "name": "Metroid Prime Pinball",
-    "id": "nds305",
+    "id": "nds370",
     "igdbId": 1109,
     "gbId": 5436,
     "gbGuid": "3030-5436",
@@ -7308,7 +9050,7 @@
   },
   {
     "name": "Miami Law",
-    "id": "nds306",
+    "id": "nds371",
     "igdbId": 20281,
     "gbId": 25685,
     "gbGuid": "3030-25685",
@@ -7332,7 +9074,7 @@
   },
   {
     "name": "Mighty Milky Way",
-    "id": "nds307",
+    "id": "nds372",
     "igdbId": 80560,
     "gbId": 33948,
     "gbGuid": "3030-33948",
@@ -7355,7 +9097,7 @@
   },
   {
     "name": "Milon no Hoshizora Shabon: Puzzle Kumikyoku",
-    "id": "nds308",
+    "id": "nds373",
     "igdbId": 97681,
     "gbId": 67291,
     "gbGuid": "3030-67291",
@@ -7378,7 +9120,7 @@
   },
   {
     "name": "MinDStorm",
-    "id": "nds309",
+    "id": "nds374",
     "igdbId": 47861,
     "gbId": null,
     "gbGuid": null,
@@ -7401,7 +9143,7 @@
   },
   {
     "name": "Miss Spider's Sunny Patch Friends: Harvest Time Hop and Fly",
-    "id": "nds310",
+    "id": "nds375",
     "igdbId": 7979,
     "gbId": 27499,
     "gbGuid": "3030-27499",
@@ -7424,7 +9166,7 @@
   },
   {
     "name": "Mister Slime",
-    "id": "nds311",
+    "id": "nds376",
     "igdbId": 21377,
     "gbId": 21025,
     "gbGuid": "3030-21025",
@@ -7448,7 +9190,7 @@
   },
   {
     "name": "Mixed Messages",
-    "id": "nds312",
+    "id": "nds377",
     "igdbId": 80175,
     "gbId": 25845,
     "gbGuid": "3030-25845",
@@ -7471,7 +9213,7 @@
   },
   {
     "name": "Moero! Nekketsu Rhythm Damashii: Osu! Tatakae! Ouendan 2",
-    "id": "nds313",
+    "id": "nds378",
     "igdbId": 23095,
     "gbId": 254,
     "gbGuid": "3030-254",
@@ -7494,8 +9236,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Mommy Talk DS",
+    "id": "nds379",
+    "igdbId": null,
+    "gbId": 77033,
+    "gbGuid": "3030-77033",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Monster High: Ghoul Spirit",
+    "id": "nds380",
+    "igdbId": 8567,
+    "gbId": 36772,
+    "gbGuid": "3030-36772",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera, parental controls)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera, parental controls)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Monster Rancher DS",
-    "id": "nds314",
+    "id": "nds381",
     "igdbId": 47795,
     "gbId": 29487,
     "gbGuid": "3030-29487",
@@ -7519,7 +9313,7 @@
   },
   {
     "name": "Monster Tale",
-    "id": "nds315",
+    "id": "nds382",
     "igdbId": 21078,
     "gbId": 31268,
     "gbGuid": "3030-31268",
@@ -7543,7 +9337,7 @@
   },
   {
     "name": "Moto Racer DS",
-    "id": "nds316",
+    "id": "nds383",
     "igdbId": 10564,
     "gbId": 21630,
     "gbGuid": "3030-21630",
@@ -7567,7 +9361,7 @@
   },
   {
     "name": "Mr. Driller: Drill Spirits",
-    "id": "nds317",
+    "id": "nds384",
     "igdbId": 18330,
     "gbId": 7095,
     "gbGuid": "3030-7095",
@@ -7590,8 +9384,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Mushishi",
+    "id": "nds385",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "My Frogger: Toy Trials",
-    "id": "nds318",
+    "id": "nds386",
     "igdbId": 11482,
     "gbId": null,
     "gbGuid": null,
@@ -7614,8 +9431,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "My Healthy Cooking Coach",
+    "id": "nds387",
+    "igdbId": 47702,
+    "gbId": 40853,
+    "gbGuid": "3030-40853",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take pictures of yourself to use with profiles; extra recipes)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take pictures of yourself to use with profiles; extra recipes)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "My Little Pony: Pinkie Pie's Party",
-    "id": "nds319",
+    "id": "nds388",
     "igdbId": 80769,
     "gbId": 21074,
     "gbGuid": "3030-21074",
@@ -7639,7 +9482,7 @@
   },
   {
     "name": "My SAT Coach with the Princeton Review",
-    "id": "nds320",
+    "id": "nds389",
     "igdbId": 70537,
     "gbId": 24810,
     "gbGuid": "3030-24810",
@@ -7663,7 +9506,7 @@
   },
   {
     "name": "Mystery Case Files: MillionHeir",
-    "id": "nds321",
+    "id": "nds390",
     "igdbId": 20276,
     "gbId": 21061,
     "gbGuid": "3030-21061",
@@ -7687,7 +9530,7 @@
   },
   {
     "name": "NRL Mascot Mania",
-    "id": "nds322",
+    "id": "nds391",
     "igdbId": 124026,
     "gbId": null,
     "gbGuid": null,
@@ -7711,7 +9554,7 @@
   },
   {
     "name": "Nacho Libre",
-    "id": "nds323",
+    "id": "nds392",
     "igdbId": 7997,
     "gbId": 27026,
     "gbGuid": "3030-27026",
@@ -7735,7 +9578,7 @@
   },
   {
     "name": "Namco Museum",
-    "id": "nds324",
+    "id": "nds393",
     "igdbId": 2646,
     "gbId": 31471,
     "gbGuid": "3030-31471",
@@ -7759,7 +9602,7 @@
   },
   {
     "name": "Nanashi no Game",
-    "id": "nds325",
+    "id": "nds394",
     "igdbId": 67979,
     "gbId": 27137,
     "gbGuid": "3030-27137",
@@ -7783,7 +9626,7 @@
   },
   {
     "name": "Nanostray",
-    "id": "nds326",
+    "id": "nds395",
     "igdbId": 21436,
     "gbId": 12864,
     "gbGuid": "3030-12864",
@@ -7807,7 +9650,7 @@
   },
   {
     "name": "Nanostray 2",
-    "id": "nds327",
+    "id": "nds396",
     "igdbId": 20992,
     "gbId": 21385,
     "gbGuid": "3030-21385",
@@ -7831,7 +9674,7 @@
   },
   {
     "name": "Nervous Brickdown",
-    "id": "nds328",
+    "id": "nds397",
     "igdbId": 9507,
     "gbId": 20551,
     "gbGuid": "3030-20551",
@@ -7854,8 +9697,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "New Carnival Games",
+    "id": "nds398",
+    "igdbId": 4057,
+    "gbId": 31760,
+    "gbGuid": "3030-31760",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera support lets you be part of the crazy carnival)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera support lets you be part of the crazy carnival)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "New International Track & Field",
-    "id": "nds329",
+    "id": "nds399",
     "igdbId": 23030,
     "gbId": 20619,
     "gbGuid": "3030-20619",
@@ -7879,7 +9748,7 @@
   },
   {
     "name": "Ni no Kuni: Dominion of the Dark Djinn",
-    "id": "nds330",
+    "id": "nds400",
     "igdbId": 18856,
     "gbId": null,
     "gbGuid": null,
@@ -7902,7 +9771,7 @@
   },
   {
     "name": "Nickelodeon Drake & Josh: Talent Showdown",
-    "id": "nds331",
+    "id": "nds401",
     "igdbId": 7971,
     "gbId": 31117,
     "gbGuid": "3030-31117",
@@ -7926,7 +9795,7 @@
   },
   {
     "name": "Ninja Gaiden: Dragon Sword",
-    "id": "nds332",
+    "id": "nds402",
     "igdbId": 21466,
     "gbId": 21178,
     "gbGuid": "3030-21178",
@@ -7950,7 +9819,7 @@
   },
   {
     "name": "Ninjatown",
-    "id": "nds333",
+    "id": "nds403",
     "igdbId": 2825,
     "gbId": 22801,
     "gbGuid": "3030-22801",
@@ -7974,7 +9843,7 @@
   },
   {
     "name": "Nintendogs",
-    "id": "nds334",
+    "id": "nds404",
     "igdbId": 3058,
     "gbId": 10148,
     "gbGuid": "3030-10148",
@@ -7997,7 +9866,7 @@
   },
   {
     "name": "Nostalgia",
-    "id": "nds335",
+    "id": "nds405",
     "igdbId": 21904,
     "gbId": 23987,
     "gbGuid": "3030-23987",
@@ -8021,7 +9890,7 @@
   },
   {
     "name": "Oishinbo: Kyukyoku no Menu 3bon Syoubu",
-    "id": "nds336",
+    "id": "nds406",
     "igdbId": 48406,
     "gbId": 41425,
     "gbGuid": "3030-41425",
@@ -8045,7 +9914,7 @@
   },
   {
     "name": "Okamiden",
-    "id": "nds337",
+    "id": "nds407",
     "igdbId": 16618,
     "gbId": 28006,
     "gbGuid": "3030-28006",
@@ -8069,7 +9938,7 @@
   },
   {
     "name": "Ontamarama",
-    "id": "nds338",
+    "id": "nds408",
     "igdbId": 21509,
     "gbId": 20556,
     "gbGuid": "3030-20556",
@@ -8093,7 +9962,7 @@
   },
   {
     "name": "Osu! Tatakae! Ouendan",
-    "id": "nds339",
+    "id": "nds409",
     "igdbId": 24645,
     "gbId": 7037,
     "gbGuid": "3030-7037",
@@ -8117,7 +9986,7 @@
   },
   {
     "name": "Otona no Onnaryoku Kentei",
-    "id": "nds340",
+    "id": "nds410",
     "igdbId": 123376,
     "gbId": null,
     "gbGuid": null,
@@ -8140,7 +10009,7 @@
   },
   {
     "name": "Over the Hedge",
-    "id": "nds341",
+    "id": "nds411",
     "igdbId": 4059,
     "gbId": 7954,
     "gbGuid": "3030-7954",
@@ -8164,7 +10033,7 @@
   },
   {
     "name": "Overlord Minions",
-    "id": "nds342",
+    "id": "nds412",
     "igdbId": 48,
     "gbId": 23396,
     "gbGuid": "3030-23396",
@@ -8188,7 +10057,7 @@
   },
   {
     "name": "Pac-Pix",
-    "id": "nds343",
+    "id": "nds413",
     "igdbId": 18275,
     "gbId": 1863,
     "gbGuid": "3030-1863",
@@ -8212,7 +10081,7 @@
   },
   {
     "name": "Paint by DS",
-    "id": "nds344",
+    "id": "nds414",
     "igdbId": 79868,
     "gbId": 26381,
     "gbGuid": "3030-26381",
@@ -8235,7 +10104,7 @@
   },
   {
     "name": "Pang: Magical Michael",
-    "id": "nds345",
+    "id": "nds415",
     "igdbId": 66524,
     "gbId": 31921,
     "gbGuid": "3030-31921",
@@ -8257,8 +10126,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Paws & Claws Pampered Pets 2",
+    "id": "nds416",
+    "igdbId": 202226,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Paws & Claws: Marine Rescue",
+    "id": "nds417",
+    "igdbId": 47851,
+    "gbId": 33780,
+    "gbGuid": "3030-33780",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Personal Trainer: Walking",
-    "id": "nds346",
+    "id": "nds418",
     "igdbId": 71901,
     "gbId": 23979,
     "gbGuid": "3030-23979",
@@ -8282,7 +10203,7 @@
   },
   {
     "name": "Pet Alien: An Intergalactic Puzzlepalooza",
-    "id": "nds347",
+    "id": "nds419",
     "igdbId": 8120,
     "gbId": 27497,
     "gbGuid": "3030-27497",
@@ -8305,8 +10226,112 @@
     "misprintsErrors": []
   },
   {
+    "name": "Petz Dolphinz Encounter",
+    "id": "nds420",
+    "igdbId": 67345,
+    "gbId": 29052,
+    "gbGuid": "3030-29052",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Take a picture of yourself with the Camera to put yourself into the game and become a true member of the Ocean Rescue Team)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Take a picture of yourself with the Camera to put yourself into the game and become a true member of the Ocean Rescue Team)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Petz Fantasy: Moonlight Magic",
+    "id": "nds421",
+    "igdbId": 66364,
+    "gbId": 32751,
+    "gbGuid": "3030-32751",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Petz Fantasy: Sunshine Magic",
+    "id": "nds422",
+    "igdbId": 47962,
+    "gbId": 32753,
+    "gbGuid": "3030-32753",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Petz Horsez Family",
+    "id": "nds423",
+    "igdbId": 209998,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Petz Rescue: Ocean Patrol",
-    "id": "nds348",
+    "id": "nds424",
     "igdbId": 70534,
     "gbId": 24822,
     "gbGuid": "3030-24822",
@@ -8330,7 +10355,7 @@
   },
   {
     "name": "Petz Wild Animals: Tigerz",
-    "id": "nds349",
+    "id": "nds425",
     "igdbId": 66227,
     "gbId": 33404,
     "gbGuid": "3030-33404",
@@ -8354,7 +10379,7 @@
   },
   {
     "name": "Phantasy Star Zero",
-    "id": "nds350",
+    "id": "nds426",
     "igdbId": 21091,
     "gbId": 23777,
     "gbGuid": "3030-23777",
@@ -8378,7 +10403,7 @@
   },
   {
     "name": "Phineas and Ferb",
-    "id": "nds351",
+    "id": "nds427",
     "igdbId": 47788,
     "gbId": 25334,
     "gbGuid": "3030-25334",
@@ -8402,13 +10427,14 @@
   },
   {
     "name": "Phineas and Ferb: Ride Again",
-    "id": "nds352",
+    "id": "nds428",
     "igdbId": 66260,
     "gbId": 33262,
     "gbGuid": "3030-33262",
     "tgdbId": 46903,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (Compete in DSi specific camera controlled mini-game)"
     ],
     "isExclusive": [
       {
@@ -8421,12 +10447,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Compete in DSi specific camera controlled mini-game)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Photo Dojo",
-    "id": "nds353",
+    "id": "nds429",
     "igdbId": 67245,
     "gbId": 29430,
     "gbGuid": "3030-29430",
@@ -8450,7 +10488,7 @@
   },
   {
     "name": "Pic Pic",
-    "id": "nds354",
+    "id": "nds430",
     "igdbId": 85344,
     "gbId": 30620,
     "gbGuid": "3030-30620",
@@ -8473,8 +10511,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Picopict",
+    "id": "nds431",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Picross DS",
-    "id": "nds355",
+    "id": "nds432",
     "igdbId": 10617,
     "gbId": 19050,
     "gbGuid": "3030-19050",
@@ -8497,8 +10558,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Picture Perfect Hair Salon",
+    "id": "nds433",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 47400,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "PictureBook Games: The Royal Bluff",
-    "id": "nds356",
+    "id": "nds434",
     "igdbId": 77127,
     "gbId": 29112,
     "gbGuid": "3030-29112",
@@ -8521,7 +10606,7 @@
   },
   {
     "name": "Ping Pals",
-    "id": "nds357",
+    "id": "nds435",
     "igdbId": 18274,
     "gbId": 3853,
     "gbGuid": "3030-3853",
@@ -8545,7 +10630,7 @@
   },
   {
     "name": "Pirates: Duels on the High Seas",
-    "id": "nds358",
+    "id": "nds436",
     "igdbId": 21274,
     "gbId": null,
     "gbGuid": null,
@@ -8568,7 +10653,7 @@
   },
   {
     "name": "Planet Puzzle League",
-    "id": "nds359",
+    "id": "nds437",
     "igdbId": 23093,
     "gbId": 19256,
     "gbGuid": "3030-19256",
@@ -8592,13 +10677,14 @@
   },
   {
     "name": "Pokemon Conquest ",
-    "id": "nds360",
+    "id": "nds438",
     "igdbId": 2288,
     "gbId": 37054,
     "gbGuid": "3030-37054",
     "tgdbId": 62962,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi"
     ],
     "isExclusive": [
       {
@@ -8611,16 +10697,54 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
-    "name": "Pokémon Black/White Version 2",
-    "id": "nds361",
-    "igdbId": 8353,
-    "gbId": 37603,
-    "gbGuid": "3030-37603",
-    "tgdbId": 13557,
+    "name": "Pokémon Black",
+    "id": "nds439",
+    "igdbId": 1521,
+    "gbId": 30613,
+    "gbGuid": "3030-30613",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pokémon Black Version",
+    "id": "nds440",
+    "igdbId": null,
+    "gbId": 30613,
+    "gbGuid": "3030-30613",
+    "tgdbId": 2370,
     "details": [
       "Nintendo DS exclusive"
     ],
@@ -8639,8 +10763,71 @@
     "misprintsErrors": []
   },
   {
+    "name": "Pokémon Black Version 2",
+    "id": "nds441",
+    "igdbId": 8284,
+    "gbId": 37603,
+    "gbGuid": "3030-37603",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly; video chat)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly; video chat)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pokémon Black/White Version 2",
+    "id": "nds442",
+    "igdbId": 8353,
+    "gbId": 37603,
+    "gbGuid": "3030-37603",
+    "tgdbId": 13557,
+    "details": [
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly)"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Pokémon Dash",
-    "id": "nds362",
+    "id": "nds443",
     "igdbId": 18594,
     "gbId": 1145,
     "gbGuid": "3030-1145",
@@ -8664,7 +10851,7 @@
   },
   {
     "name": "Pokémon Diamond Version",
-    "id": "nds363",
+    "id": "nds444",
     "igdbId": 1560,
     "gbId": 3240,
     "gbGuid": "3030-3240",
@@ -8688,7 +10875,7 @@
   },
   {
     "name": "Pokémon HeartGold Version",
-    "id": "nds364",
+    "id": "nds445",
     "igdbId": 1556,
     "gbId": 26372,
     "gbGuid": "3030-26372",
@@ -8711,8 +10898,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Pokémon Pearl Version",
+    "id": "nds446",
+    "igdbId": null,
+    "gbId": 3240,
+    "gbGuid": "3030-3240",
+    "tgdbId": 2366,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Pokémon Platinum Version",
-    "id": "nds365",
+    "id": "nds447",
     "igdbId": 1519,
     "gbId": 21676,
     "gbGuid": "3030-21676",
@@ -8735,8 +10946,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Pokémon Ranger",
+    "id": "nds448",
+    "igdbId": null,
+    "gbId": 1812,
+    "gbGuid": "3030-1812",
+    "tgdbId": 13455,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Pokémon Ranger: Shadows of Almia",
-    "id": "nds366",
+    "id": "nds449",
     "igdbId": 14699,
     "gbId": 21127,
     "gbGuid": "3030-21127",
@@ -8760,7 +10995,7 @@
   },
   {
     "name": "Pokémon SoulSilver Version",
-    "id": "nds367",
+    "id": "nds450",
     "igdbId": 1520,
     "gbId": 26372,
     "gbGuid": "3030-26372",
@@ -8784,7 +11019,7 @@
   },
   {
     "name": "Pokémon Trozei!",
-    "id": "nds368",
+    "id": "nds451",
     "igdbId": 8588,
     "gbId": 7395,
     "gbGuid": "3030-7395",
@@ -8807,8 +11042,58 @@
     "misprintsErrors": []
   },
   {
+    "name": "Pokémon White",
+    "id": "nds452",
+    "igdbId": 1522,
+    "gbId": 30613,
+    "gbGuid": "3030-30613",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (ability to connect to Wi Fi using WEP or WPA signal; C-Gear looks different; voice chat; DS battery meter is more detailed; plays more quickly)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pokémon White Version",
+    "id": "nds453",
+    "igdbId": null,
+    "gbId": 30613,
+    "gbGuid": "3030-30613",
+    "tgdbId": 2371,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Polarium",
-    "id": "nds369",
+    "id": "nds454",
     "igdbId": 6537,
     "gbId": 11138,
     "gbGuid": "3030-11138",
@@ -8832,7 +11117,7 @@
   },
   {
     "name": "Pop Cutie! Street Fashion Simulation",
-    "id": "nds370",
+    "id": "nds455",
     "igdbId": 72743,
     "gbId": 23144,
     "gbGuid": "3030-23144",
@@ -8856,7 +11141,7 @@
   },
   {
     "name": "Pop Island",
-    "id": "nds371",
+    "id": "nds456",
     "igdbId": 68124,
     "gbId": 26727,
     "gbGuid": "3030-26727",
@@ -8879,7 +11164,7 @@
   },
   {
     "name": "Pop Island: Paperfield",
-    "id": "nds372",
+    "id": "nds457",
     "igdbId": 84811,
     "gbId": 68864,
     "gbGuid": "3030-68864",
@@ -8901,8 +11186,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Popstars",
+    "id": "nds458",
+    "igdbId": 92843,
+    "gbId": 36735,
+    "gbGuid": "3030-36735",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Populous DS",
-    "id": "nds373",
+    "id": "nds459",
     "igdbId": 8898,
     "gbId": 21149,
     "gbGuid": "3030-21149",
@@ -8931,8 +11242,112 @@
     ]
   },
   {
+    "name": "Power Pro-Kun Pocket 12",
+    "id": "nds460",
+    "igdbId": 84333,
+    "gbId": 28477,
+    "gbGuid": "3030-28477",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Power Pro-Kun Pocket 13",
+    "id": "nds461",
+    "igdbId": 98509,
+    "gbId": 65615,
+    "gbGuid": "3030-65615",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Power Pro-Kun Pocket 14",
+    "id": "nds462",
+    "igdbId": 63216,
+    "gbId": 43101,
+    "gbGuid": "3030-43101",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pretty Rhythm Collection",
+    "id": "nds463",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Prey the Stars",
-    "id": "nds374",
+    "id": "nds464",
     "igdbId": 21337,
     "gbId": 21132,
     "gbGuid": "3030-21132",
@@ -8956,7 +11371,7 @@
   },
   {
     "name": "Prince Of Persia: The Fallen King",
-    "id": "nds375",
+    "id": "nds465",
     "igdbId": 21267,
     "gbId": 21809,
     "gbGuid": "3030-21809",
@@ -8979,8 +11394,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Prince of Persia: The Forgotten Sands",
+    "id": "nds466",
+    "igdbId": 142712,
+    "gbId": 29321,
+    "gbGuid": "3030-29321",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (pointing the lens to a source of light when prompted will unlock challenge levels, new enemies and the chance to use your own pictures as background fillers)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (pointing the lens to a source of light when prompted will unlock challenge levels, new enemies and the chance to use your own pictures as background fillers)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Princess Debut",
-    "id": "nds376",
+    "id": "nds467",
     "igdbId": 21225,
     "gbId": 23440,
     "gbGuid": "3030-23440",
@@ -9004,7 +11445,7 @@
   },
   {
     "name": "Professor Brainium's Games",
-    "id": "nds377",
+    "id": "nds468",
     "igdbId": 80358,
     "gbId": 21036,
     "gbGuid": "3030-21036",
@@ -9028,7 +11469,7 @@
   },
   {
     "name": "Professor Kageyama's Maths Training",
-    "id": "nds378",
+    "id": "nds469",
     "igdbId": 21507,
     "gbId": null,
     "gbGuid": null,
@@ -9052,7 +11493,7 @@
   },
   {
     "name": "Professor Layton and the Last Specter",
-    "id": "nds379",
+    "id": "nds470",
     "igdbId": 1400,
     "gbId": 29299,
     "gbGuid": "3030-29299",
@@ -9076,7 +11517,7 @@
   },
   {
     "name": "Professor Layton and the Unwound Future",
-    "id": "nds380",
+    "id": "nds471",
     "igdbId": 1399,
     "gbId": 22336,
     "gbGuid": "3030-22336",
@@ -9099,8 +11540,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Project Hacker: Kakusei",
+    "id": "nds472",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Puchi Puchi Virus",
-    "id": "nds381",
+    "id": "nds473",
     "igdbId": 21053,
     "gbId": 21029,
     "gbGuid": "3030-21029",
@@ -9123,8 +11587,57 @@
     "misprintsErrors": []
   },
   {
+    "name": "Puss In Boots",
+    "id": "nds474",
+    "igdbId": 192927,
+    "gbId": 31938,
+    "gbGuid": "3030-31938",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Puzzle Series",
+    "id": "nds475",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Puzzle de Harvest Moon",
-    "id": "nds382",
+    "id": "nds476",
     "igdbId": 20897,
     "gbId": 23771,
     "gbGuid": "3030-23771",
@@ -9148,7 +11661,7 @@
   },
   {
     "name": "QuickSpot",
-    "id": "nds383",
+    "id": "nds477",
     "igdbId": 20677,
     "gbId": 15668,
     "gbGuid": "3030-15668",
@@ -9171,8 +11684,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "RPG Tsukuuru DS+: Create the New World",
+    "id": "nds478",
+    "igdbId": 63508,
+    "gbId": 42378,
+    "gbGuid": "3030-42378",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Rabbids Go Home",
+    "id": "nds479",
+    "igdbId": 193295,
+    "gbId": 25792,
+    "gbGuid": "3030-25792",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take pictures with rabbids to send to friends)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take pictures with rabbids to send to friends)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Race Driver: Create & Race",
-    "id": "nds384",
+    "id": "nds480",
     "igdbId": 20763,
     "gbId": 23416,
     "gbGuid": "3030-23416",
@@ -9196,7 +11761,7 @@
   },
   {
     "name": "Ragnarok DS",
-    "id": "nds385",
+    "id": "nds481",
     "igdbId": 21097,
     "gbId": 24232,
     "gbGuid": "3030-24232",
@@ -9220,7 +11785,7 @@
   },
   {
     "name": "Rainbow Islands Revolution",
-    "id": "nds386",
+    "id": "nds482",
     "igdbId": 22598,
     "gbId": 15893,
     "gbGuid": "3030-15893",
@@ -9244,7 +11809,7 @@
   },
   {
     "name": "Remindelight",
-    "id": "nds387",
+    "id": "nds483",
     "igdbId": 123405,
     "gbId": null,
     "gbGuid": null,
@@ -9267,7 +11832,7 @@
   },
   {
     "name": "Retro Atari Classics",
-    "id": "nds388",
+    "id": "nds484",
     "igdbId": 18402,
     "gbId": 10555,
     "gbGuid": "3030-10555",
@@ -9291,7 +11856,7 @@
   },
   {
     "name": "Retro Game Challenge",
-    "id": "nds389",
+    "id": "nds485",
     "igdbId": 21251,
     "gbId": 21465,
     "gbGuid": "3030-21465",
@@ -9314,8 +11879,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Rhythm 'n Notes: Improve Your Music Skills",
+    "id": "nds486",
+    "igdbId": null,
+    "gbId": 11385,
+    "gbGuid": "3030-11385",
+    "tgdbId": 47437,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Rhythm Heaven",
-    "id": "nds390",
+    "id": "nds487",
     "igdbId": 8167,
     "gbId": 21312,
     "gbGuid": "3030-21312",
@@ -9339,7 +11928,7 @@
   },
   {
     "name": "Rhythm de Run Run Run",
-    "id": "nds391",
+    "id": "nds488",
     "igdbId": 123406,
     "gbId": null,
     "gbGuid": null,
@@ -9361,8 +11950,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Rika-Chan DS Motto! Onna no Ko Lesson: Oshare Oshigoto Otetsudai Daisuki!",
+    "id": "nds489",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Rio",
+    "id": "nds490",
+    "igdbId": 209217,
+    "gbId": 34202,
+    "gbGuid": "3030-34202",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Take a photo of yourself or a friend using the camera and dance the Samba)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Take a photo of yourself or a friend using the camera and dance the Samba)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "River City Soccer Hooligans",
-    "id": "nds392",
+    "id": "nds491",
     "igdbId": 47838,
     "gbId": 31298,
     "gbGuid": "3030-31298",
@@ -9386,7 +12027,7 @@
   },
   {
     "name": "Robot Rescue",
-    "id": "nds393",
+    "id": "nds492",
     "igdbId": 84844,
     "gbId": 26639,
     "gbGuid": "3030-26639",
@@ -9409,7 +12050,7 @@
   },
   {
     "name": "Rockin' Pretty",
-    "id": "nds394",
+    "id": "nds493",
     "igdbId": 69155,
     "gbId": 25668,
     "gbGuid": "3030-25668",
@@ -9433,7 +12074,7 @@
   },
   {
     "name": "Rockman EXE Operate Shooting Star",
-    "id": "nds395",
+    "id": "nds494",
     "igdbId": 1774,
     "gbId": 27101,
     "gbGuid": "3030-27101",
@@ -9455,8 +12096,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Roller Angels",
+    "id": "nds495",
+    "igdbId": 84847,
+    "gbId": 35881,
+    "gbGuid": "3030-35881",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Rondo of Swords",
-    "id": "nds396",
+    "id": "nds496",
     "igdbId": 21481,
     "gbId": 20571,
     "gbGuid": "3030-20571",
@@ -9480,7 +12147,7 @@
   },
   {
     "name": "Roogoo Attack!",
-    "id": "nds397",
+    "id": "nds497",
     "igdbId": 21242,
     "gbId": 25868,
     "gbGuid": "3030-25868",
@@ -9504,7 +12171,7 @@
   },
   {
     "name": "Rosario to Vampire: Tanabata no Miss Youkai Gakuen",
-    "id": "nds398",
+    "id": "nds498",
     "igdbId": 58727,
     "gbId": 53225,
     "gbGuid": "3030-53225",
@@ -9527,7 +12194,7 @@
   },
   {
     "name": "Rune Factory 2: A Fantasy Harvest Moon",
-    "id": "nds399",
+    "id": "nds499",
     "igdbId": 20768,
     "gbId": 23516,
     "gbGuid": "3030-23516",
@@ -9551,7 +12218,7 @@
   },
   {
     "name": "Rune Factory 3: A Fantasy Harvest Moon",
-    "id": "nds400",
+    "id": "nds500",
     "igdbId": 9640,
     "gbId": 27199,
     "gbGuid": "3030-27199",
@@ -9575,7 +12242,7 @@
   },
   {
     "name": "Rune Factory: A Fantasy Harvest Moon",
-    "id": "nds401",
+    "id": "nds501",
     "igdbId": 20767,
     "gbId": 21486,
     "gbGuid": "3030-21486",
@@ -9599,7 +12266,7 @@
   },
   {
     "name": "SBK: Snowboard Kids",
-    "id": "nds402",
+    "id": "nds502",
     "igdbId": 47725,
     "gbId": 22102,
     "gbGuid": "3030-22102",
@@ -9623,7 +12290,7 @@
   },
   {
     "name": "SNK vs. Capcom Card Fighters' Clash - Capcom Card Fighter's Version",
-    "id": "nds403",
+    "id": "nds503",
     "igdbId": 28398,
     "gbId": null,
     "gbGuid": null,
@@ -9646,7 +12313,7 @@
   },
   {
     "name": "Sakura Note",
-    "id": "nds404",
+    "id": "nds504",
     "igdbId": 67734,
     "gbId": 27948,
     "gbGuid": "3030-27948",
@@ -9669,7 +12336,7 @@
   },
   {
     "name": "Sands of Destruction",
-    "id": "nds405",
+    "id": "nds505",
     "igdbId": 24331,
     "gbId": 24200,
     "gbGuid": "3030-24200",
@@ -9693,7 +12360,7 @@
   },
   {
     "name": "Scooby-Doo! Who's Watching Who?",
-    "id": "nds406",
+    "id": "nds506",
     "igdbId": 8087,
     "gbId": 21272,
     "gbGuid": "3030-21272",
@@ -9711,7 +12378,7 @@
   },
   {
     "name": "Scribblenauts",
-    "id": "nds407",
+    "id": "nds507",
     "igdbId": 8807,
     "gbId": 24741,
     "gbGuid": "3030-24741",
@@ -9734,8 +12401,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Scripps Spelling Bee",
+    "id": "nds508",
+    "igdbId": 206644,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (take a picture of your child to put beside their name in the menu section)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take a picture of your child to put beside their name in the menu section)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Sekai no Gohan Shaberu! DS Oryouri Navi",
-    "id": "nds408",
+    "id": "nds509",
     "igdbId": 70563,
     "gbId": 24751,
     "gbGuid": "3030-24751",
@@ -9758,7 +12451,7 @@
   },
   {
     "name": "Shaun the Sheep",
-    "id": "nds409",
+    "id": "nds510",
     "igdbId": 68942,
     "gbId": 21081,
     "gbGuid": "3030-21081",
@@ -9782,7 +12475,7 @@
   },
   {
     "name": "Sherlock Holmes and the Mystery of Osborne House",
-    "id": "nds410",
+    "id": "nds511",
     "igdbId": 47926,
     "gbId": 39708,
     "gbGuid": "3030-39708",
@@ -9806,7 +12499,7 @@
   },
   {
     "name": "Shin Lucky Star Moe Drill: Tabidachi",
-    "id": "nds411",
+    "id": "nds512",
     "igdbId": 72619,
     "gbId": 23700,
     "gbGuid": "3030-23700",
@@ -9828,8 +12521,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Shin Noukyo Iku",
+    "id": "nds513",
+    "igdbId": null,
+    "gbId": 83374,
+    "gbGuid": "3030-83374",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Shining Force Feather",
-    "id": "nds412",
+    "id": "nds514",
     "igdbId": 47720,
     "gbId": 23986,
     "gbGuid": "3030-23986",
@@ -9852,8 +12571,58 @@
     "misprintsErrors": []
   },
   {
+    "name": "Shonen Kininden Tsumuji",
+    "id": "nds515",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 48742,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Shrek Forever After",
+    "id": "nds516",
+    "igdbId": 210458,
+    "gbId": 30877,
+    "gbGuid": "3030-30877",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Shrek: Ogres and Dronkeys",
-    "id": "nds413",
+    "id": "nds517",
     "igdbId": 47860,
     "gbId": null,
     "gbGuid": null,
@@ -9877,7 +12646,7 @@
   },
   {
     "name": "Sigma Harmonics",
-    "id": "nds414",
+    "id": "nds518",
     "igdbId": 24946,
     "gbId": 22311,
     "gbGuid": "3030-22311",
@@ -9900,7 +12669,7 @@
   },
   {
     "name": "SimCity Creator",
-    "id": "nds415",
+    "id": "nds519",
     "igdbId": 1493,
     "gbId": 20960,
     "gbGuid": "3030-20960",
@@ -9924,7 +12693,7 @@
   },
   {
     "name": "SimCity DS",
-    "id": "nds416",
+    "id": "nds520",
     "igdbId": 1494,
     "gbId": 17114,
     "gbGuid": "3030-17114",
@@ -9948,7 +12717,7 @@
   },
   {
     "name": "Slide Adventure: Mag Kid",
-    "id": "nds417",
+    "id": "nds521",
     "igdbId": 69702,
     "gbId": 12222,
     "gbGuid": "3030-12222",
@@ -9971,12 +12740,11 @@
     "misprintsErrors": []
   },
   {
-    "name": "Solatorobo: Red the Hunter",
-    "id": "nds418",
-    "igdbId": 9597,
-    "gbId": 30423,
-    "gbGuid": "3030-30423",
-    "tgdbId": 13135,
+    "name": "Snoopy DS: Let's Go Meet Snoopy and His Friends!",
+    "id": "nds522",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
     "details": [
       "Nintendo DS exclusive"
     ],
@@ -9995,8 +12763,45 @@
     "misprintsErrors": []
   },
   {
+    "name": "Solatorobo: Red the Hunter",
+    "id": "nds523",
+    "igdbId": 9597,
+    "gbId": 30423,
+    "gbGuid": "3030-30423",
+    "tgdbId": 13135,
+    "details": [
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (take one photo that identifies you and another that identifies the environment you are in. You can retake these photos whenever you want and they have no effect on the game)"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (take one photo that identifies you and another that identifies the environment you are in. You can retake these photos whenever you want and they have no effect on the game)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Soma Bringer",
-    "id": "nds419",
+    "id": "nds524",
     "igdbId": 21468,
     "gbId": 21633,
     "gbGuid": "3030-21633",
@@ -10020,7 +12825,7 @@
   },
   {
     "name": "Sonic Chronicles: The Dark Brotherhood",
-    "id": "nds420",
+    "id": "nds525",
     "igdbId": 217,
     "gbId": 20641,
     "gbGuid": "3030-20641",
@@ -10044,13 +12849,14 @@
   },
   {
     "name": "Sonic Classic Collection",
-    "id": "nds421",
+    "id": "nds526",
     "igdbId": 20502,
     "gbId": 30187,
     "gbGuid": "3030-30187",
     "tgdbId": 18931,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (improved emulation)"
     ],
     "isExclusive": [
       {
@@ -10063,12 +12869,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (improved emulation)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Sonic Rush",
-    "id": "nds422",
+    "id": "nds527",
     "igdbId": 19258,
     "gbId": 9479,
     "gbGuid": "3030-9479",
@@ -10098,7 +12916,7 @@
   },
   {
     "name": "Sonic Rush Adventure",
-    "id": "nds423",
+    "id": "nds528",
     "igdbId": 19261,
     "gbId": 12778,
     "gbGuid": "3030-12778",
@@ -10121,8 +12939,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Sonny with a Chance",
+    "id": "nds529",
+    "igdbId": 66903,
+    "gbId": 30361,
+    "gbGuid": "3030-30361",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Compete in over 40 mini-games, including two DSi-exclusive games)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Compete in over 40 mini-games, including two DSi-exclusive games)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Sora no Otoshimono Forte: Dreamy Season",
-    "id": "nds424",
+    "id": "nds530",
     "igdbId": 62623,
     "gbId": 44527,
     "gbGuid": "3030-44527",
@@ -10145,7 +12989,7 @@
   },
   {
     "name": "Soul Bubbles",
-    "id": "nds425",
+    "id": "nds531",
     "igdbId": 21370,
     "gbId": 20611,
     "gbGuid": "3030-20611",
@@ -10169,7 +13013,7 @@
   },
   {
     "name": "Space Bust-A-Move",
-    "id": "nds426",
+    "id": "nds532",
     "igdbId": 20484,
     "gbId": 25411,
     "gbGuid": "3030-25411",
@@ -10193,7 +13037,7 @@
   },
   {
     "name": "Space Invaders Extreme 2",
-    "id": "nds427",
+    "id": "nds533",
     "igdbId": 8199,
     "gbId": 25127,
     "gbGuid": "3030-25127",
@@ -10217,7 +13061,7 @@
   },
   {
     "name": "Spanish for Everyone!",
-    "id": "nds428",
+    "id": "nds534",
     "igdbId": 25018,
     "gbId": null,
     "gbGuid": null,
@@ -10241,7 +13085,7 @@
   },
   {
     "name": "Spectrobes",
-    "id": "nds429",
+    "id": "nds535",
     "igdbId": 5174,
     "gbId": 18602,
     "gbGuid": "3030-18602",
@@ -10265,7 +13109,7 @@
   },
   {
     "name": "Spectrobes: Beyond the Portals",
-    "id": "nds430",
+    "id": "nds536",
     "igdbId": 5175,
     "gbId": 21159,
     "gbGuid": "3030-21159",
@@ -10288,8 +13132,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Spice and Wolf",
+    "id": "nds537",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "Spider-Man 2",
-    "id": "nds431",
+    "id": "nds538",
     "igdbId": 6285,
     "gbId": 1690,
     "gbGuid": "3030-1690",
@@ -10313,7 +13180,7 @@
   },
   {
     "name": "Spider-Man: Web of Shadows",
-    "id": "nds432",
+    "id": "nds539",
     "igdbId": 5181,
     "gbId": 20762,
     "gbGuid": "3030-20762",
@@ -10330,8 +13197,34 @@
     ]
   },
   {
+    "name": "SpongeBob's Boating Bash",
+    "id": "nds540",
+    "igdbId": 5189,
+    "gbId": 30168,
+    "gbGuid": "3030-30168",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Take Photo and Decorate with 100s of SpongeBob accessories; insert images and backgrounds into the game via the DSi's digital cameras)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Take Photo and Decorate with 100s of SpongeBob accessories; insert images and backgrounds into the game via the DSi's digital cameras)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Spongebob vs. The Big One: Beach Party Cook-Off",
-    "id": "nds433",
+    "id": "nds541",
     "igdbId": 7993,
     "gbId": 25057,
     "gbGuid": "3030-25057",
@@ -10354,7 +13247,7 @@
   },
   {
     "name": "Spore Hero Arena",
-    "id": "nds434",
+    "id": "nds542",
     "igdbId": 21214,
     "gbId": 25119,
     "gbGuid": "3030-25119",
@@ -10378,7 +13271,7 @@
   },
   {
     "name": "Sprung",
-    "id": "nds435",
+    "id": "nds543",
     "igdbId": 124057,
     "gbId": 20145,
     "gbGuid": "3030-20145",
@@ -10402,7 +13295,7 @@
   },
   {
     "name": "Spyro: Shadow Legacy",
-    "id": "nds436",
+    "id": "nds544",
     "igdbId": 1581,
     "gbId": 13512,
     "gbGuid": "3030-13512",
@@ -10426,7 +13319,7 @@
   },
   {
     "name": "Star Wars The Clone Wars: Jedi Alliance",
-    "id": "nds437",
+    "id": "nds545",
     "igdbId": 21335,
     "gbId": 21021,
     "gbGuid": "3030-21021",
@@ -10450,7 +13343,7 @@
   },
   {
     "name": "Steal Princess",
-    "id": "nds438",
+    "id": "nds546",
     "igdbId": 21186,
     "gbId": 24307,
     "gbGuid": "3030-24307",
@@ -10474,7 +13367,7 @@
   },
   {
     "name": "SteamWorld Tower Defense",
-    "id": "nds439",
+    "id": "nds547",
     "igdbId": 84391,
     "gbId": 32009,
     "gbGuid": "3030-32009",
@@ -10496,8 +13389,86 @@
     "misprintsErrors": []
   },
   {
+    "name": "Style Lab Makeover",
+    "id": "nds548",
+    "igdbId": 47980,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (use camera to make in-game avatar)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (use camera to make in-game avatar)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Style Lab: Fashion Design",
+    "id": "nds549",
+    "igdbId": 208358,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Style Lab: Jewelry Design",
+    "id": "nds550",
+    "igdbId": 208359,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (place game-created jewelry into photos)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (place game-created jewelry into photos)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Style Savvy",
-    "id": "nds440",
+    "id": "nds551",
     "igdbId": 85398,
     "gbId": 23978,
     "gbGuid": "3030-23978",
@@ -10521,7 +13492,7 @@
   },
   {
     "name": "Sudoku Gridmaster",
-    "id": "nds441",
+    "id": "nds552",
     "igdbId": 20538,
     "gbId": 27786,
     "gbGuid": "3030-27786",
@@ -10545,7 +13516,7 @@
   },
   {
     "name": "Sudokuro",
-    "id": "nds442",
+    "id": "nds553",
     "igdbId": 123454,
     "gbId": null,
     "gbGuid": null,
@@ -10569,7 +13540,7 @@
   },
   {
     "name": "Suikoden Tierkreis",
-    "id": "nds443",
+    "id": "nds554",
     "igdbId": 1452,
     "gbId": 23478,
     "gbGuid": "3030-23478",
@@ -10593,7 +13564,7 @@
   },
   {
     "name": "Sujin Taisen Number Battles",
-    "id": "nds444",
+    "id": "nds555",
     "igdbId": 85408,
     "gbId": null,
     "gbGuid": null,
@@ -10616,7 +13587,7 @@
   },
   {
     "name": "Summon Night X: Tears Crown",
-    "id": "nds445",
+    "id": "nds556",
     "igdbId": 69297,
     "gbId": 25150,
     "gbGuid": "3030-25150",
@@ -10639,7 +13610,7 @@
   },
   {
     "name": "Summon Night: Twin Age",
-    "id": "nds446",
+    "id": "nds557",
     "igdbId": 21477,
     "gbId": 20615,
     "gbGuid": "3030-20615",
@@ -10663,7 +13634,7 @@
   },
   {
     "name": "Super Dodgeball Brawlers",
-    "id": "nds447",
+    "id": "nds558",
     "igdbId": 21052,
     "gbId": 21609,
     "gbGuid": "3030-21609",
@@ -10687,7 +13658,7 @@
   },
   {
     "name": "Super Mario 64 DS",
-    "id": "nds448",
+    "id": "nds559",
     "igdbId": 22301,
     "gbId": 8942,
     "gbGuid": "3030-8942",
@@ -10711,7 +13682,7 @@
   },
   {
     "name": "Super Monkey Ball: Touch & Roll",
-    "id": "nds449",
+    "id": "nds560",
     "igdbId": 20489,
     "gbId": 16029,
     "gbGuid": "3030-16029",
@@ -10735,7 +13706,7 @@
   },
   {
     "name": "Super Princess Peach",
-    "id": "nds450",
+    "id": "nds561",
     "igdbId": 20497,
     "gbId": 9882,
     "gbGuid": "3030-9882",
@@ -10759,7 +13730,7 @@
   },
   {
     "name": "Super Robot Taisen OG Saga: Endless Frontier",
-    "id": "nds451",
+    "id": "nds562",
     "igdbId": 21187,
     "gbId": 23621,
     "gbGuid": "3030-23621",
@@ -10783,7 +13754,7 @@
   },
   {
     "name": "Super Robot Taisen OG Saga: Mugen no Frontier EXCEED",
-    "id": "nds452",
+    "id": "nds563",
     "igdbId": 124069,
     "gbId": null,
     "gbGuid": null,
@@ -10807,7 +13778,7 @@
   },
   {
     "name": "Super Robot Wars W",
-    "id": "nds453",
+    "id": "nds564",
     "igdbId": 79341,
     "gbId": 21244,
     "gbGuid": "3030-21244",
@@ -10830,7 +13801,7 @@
   },
   {
     "name": "Super Scribblenauts",
-    "id": "nds454",
+    "id": "nds565",
     "igdbId": 8808,
     "gbId": 30209,
     "gbGuid": "3030-30209",
@@ -10854,7 +13825,7 @@
   },
   {
     "name": "Super Swap!",
-    "id": "nds455",
+    "id": "nds566",
     "igdbId": 54414,
     "gbId": null,
     "gbGuid": null,
@@ -10877,7 +13848,7 @@
   },
   {
     "name": "System: Flaw",
-    "id": "nds456",
+    "id": "nds567",
     "igdbId": 67695,
     "gbId": 28014,
     "gbGuid": "3030-28014",
@@ -10901,12 +13872,13 @@
   },
   {
     "name": "THE iDOLM@STER Dearly Stars",
-    "id": "nds457",
+    "id": "nds568",
     "igdbId": 11700,
     "gbId": 27313,
     "gbGuid": "3030-27313",
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (Japan)"
     ],
     "isExclusive": [
       {
@@ -10919,12 +13891,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Tales of the Tempest",
-    "id": "nds458",
+    "id": "nds569",
     "igdbId": 19096,
     "gbId": 21446,
     "gbGuid": "3030-21446",
@@ -10948,7 +13932,7 @@
   },
   {
     "name": "Tamagotchi Connection: Corner Shop",
-    "id": "nds459",
+    "id": "nds570",
     "igdbId": 20491,
     "gbId": null,
     "gbGuid": null,
@@ -10972,7 +13956,7 @@
   },
   {
     "name": "Tamagotchi Connection: Corner Shop 2",
-    "id": "nds460",
+    "id": "nds571",
     "igdbId": 20607,
     "gbId": 46327,
     "gbGuid": "3030-46327",
@@ -10996,7 +13980,7 @@
   },
   {
     "name": "Tamagotchi Connection: Corner Shop 3",
-    "id": "nds461",
+    "id": "nds572",
     "igdbId": 26544,
     "gbId": 21351,
     "gbGuid": "3030-21351",
@@ -11020,7 +14004,7 @@
   },
   {
     "name": "Tank Beat",
-    "id": "nds462",
+    "id": "nds573",
     "igdbId": 21532,
     "gbId": 24381,
     "gbGuid": "3030-24381",
@@ -11044,7 +14028,7 @@
   },
   {
     "name": "Tao's Adventure: Curse of the Demon Seal",
-    "id": "nds463",
+    "id": "nds574",
     "igdbId": 20495,
     "gbId": 6402,
     "gbGuid": "3030-6402",
@@ -11068,7 +14052,7 @@
   },
   {
     "name": "Tecmo Bowl: Kickoff",
-    "id": "nds464",
+    "id": "nds575",
     "igdbId": 21329,
     "gbId": 21038,
     "gbGuid": "3030-21038",
@@ -11092,7 +14076,7 @@
   },
   {
     "name": "Teenage Zombies: Invasion of the Alien Brain Thingys!",
-    "id": "nds465",
+    "id": "nds576",
     "igdbId": 21301,
     "gbId": 21611,
     "gbGuid": "3030-21611",
@@ -11116,7 +14100,7 @@
   },
   {
     "name": "Tenchu: Dark Secret",
-    "id": "nds466",
+    "id": "nds577",
     "igdbId": 20557,
     "gbId": 19998,
     "gbGuid": "3030-19998",
@@ -11140,7 +14124,7 @@
   },
   {
     "name": "Tetris DS",
-    "id": "nds467",
+    "id": "nds578",
     "igdbId": 18599,
     "gbId": 10234,
     "gbGuid": "3030-10234",
@@ -11164,7 +14148,7 @@
   },
   {
     "name": "That's So Raven: Psychic on the Scene",
-    "id": "nds468",
+    "id": "nds579",
     "igdbId": 47951,
     "gbId": 24170,
     "gbGuid": "3030-24170",
@@ -11187,8 +14171,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "The Biggest Loser",
+    "id": "nds580",
+    "igdbId": 48035,
+    "gbId": 28433,
+    "gbGuid": "3030-28433",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Advanced DSi camera, Internet and Facebook functionality that allows you to share your progress with the world)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Advanced DSi camera, Internet and Facebook functionality that allows you to share your progress with the world)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "The Cheetah Girls: Passport to Stardom",
-    "id": "nds469",
+    "id": "nds581",
     "igdbId": 117498,
     "gbId": 21979,
     "gbGuid": "3030-21979",
@@ -11212,7 +14222,7 @@
   },
   {
     "name": "The Cheetah Girls: Pop Star Sensations",
-    "id": "nds470",
+    "id": "nds582",
     "igdbId": 67759,
     "gbId": 27900,
     "gbGuid": "3030-27900",
@@ -11236,7 +14246,7 @@
   },
   {
     "name": "The Dark Spire",
-    "id": "nds471",
+    "id": "nds583",
     "igdbId": 21185,
     "gbId": 24865,
     "gbGuid": "3030-24865",
@@ -11259,8 +14269,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "The Last Airbender",
+    "id": "nds584",
+    "igdbId": 27458,
+    "gbId": 30601,
+    "gbGuid": "3030-30601",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (The Bender Detector - Shoot a photo and discover what type of bender you and your friends are)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (The Bender Detector - Shoot a photo and discover what type of bender you and your friends are)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "The Legend of Kage 2",
-    "id": "nds472",
+    "id": "nds585",
     "igdbId": 21336,
     "gbId": 21131,
     "gbGuid": "3030-21131",
@@ -11284,7 +14320,7 @@
   },
   {
     "name": "The Legendary Starfy",
-    "id": "nds473",
+    "id": "nds586",
     "igdbId": 20280,
     "gbId": 21016,
     "gbGuid": "3030-21016",
@@ -11308,7 +14344,7 @@
   },
   {
     "name": "The New York Times Crosswords",
-    "id": "nds474",
+    "id": "nds587",
     "igdbId": 44069,
     "gbId": 12937,
     "gbGuid": "3030-12937",
@@ -11332,13 +14368,14 @@
   },
   {
     "name": "The Penguins of Madagascar",
-    "id": "nds475",
+    "id": "nds588",
     "igdbId": 18273,
     "gbId": 69085,
     "gbGuid": "3030-69085",
     "tgdbId": 47507,
     "details": [
-      "Nintendo DS exclusive"
+      "Nintendo DS exclusive",
+      "Nintendo DS game with enhanced features on DSi (Hear hilarious King Julien critique your photo or snap a picture into a puzzle & use your stylus to put it back together)"
     ],
     "isExclusive": [
       {
@@ -11351,12 +14388,50 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Hear hilarious King Julien critique your photo or snap a picture into a puzzle & use your stylus to put it back together)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "The Penguins of Madagascar: Dr. Blowhole Returns – Again!",
+    "id": "nds589",
+    "igdbId": 3768,
+    "gbId": 35805,
+    "gbGuid": "3030-35805",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "The Quest Trio: Jewels, Cards and Tiles",
-    "id": "nds476",
+    "id": "nds590",
     "igdbId": 124083,
     "gbId": null,
     "gbGuid": null,
@@ -11380,7 +14455,7 @@
   },
   {
     "name": "The Rub Rabbits!",
-    "id": "nds477",
+    "id": "nds591",
     "igdbId": 20488,
     "gbId": 3064,
     "gbGuid": "3030-3064",
@@ -11404,7 +14479,7 @@
   },
   {
     "name": "The Sims 2: Apartment Pets",
-    "id": "nds478",
+    "id": "nds592",
     "igdbId": 21464,
     "gbId": 21054,
     "gbGuid": "3030-21054",
@@ -11427,8 +14502,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "The Sims 3",
+    "id": "nds593",
+    "igdbId": 260,
+    "gbId": 20581,
+    "gbGuid": "3030-20581",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "The Smurfs",
-    "id": "nds479",
+    "id": "nds594",
     "igdbId": 80521,
     "gbId": 47406,
     "gbGuid": "3030-47406",
@@ -11452,7 +14553,7 @@
   },
   {
     "name": "The Urbz: Sims in the City",
-    "id": "nds480",
+    "id": "nds595",
     "igdbId": 2158,
     "gbId": 1842,
     "gbGuid": "3030-1842",
@@ -11476,7 +14577,7 @@
   },
   {
     "name": "The Wizard of Oz: Beyond the Yellow Brick Road",
-    "id": "nds481",
+    "id": "nds596",
     "igdbId": 21116,
     "gbId": 24394,
     "gbGuid": "3030-24394",
@@ -11500,7 +14601,7 @@
   },
   {
     "name": "Theresia",
-    "id": "nds482",
+    "id": "nds597",
     "igdbId": 21300,
     "gbId": 21411,
     "gbGuid": "3030-21411",
@@ -11524,7 +14625,7 @@
   },
   {
     "name": "ThunderCats",
-    "id": "nds483",
+    "id": "nds598",
     "igdbId": 8060,
     "gbId": 38569,
     "gbGuid": "3030-38569",
@@ -11548,7 +14649,7 @@
   },
   {
     "name": "Time Ace",
-    "id": "nds484",
+    "id": "nds599",
     "igdbId": 21545,
     "gbId": 46670,
     "gbGuid": "3030-46670",
@@ -11572,7 +14673,7 @@
   },
   {
     "name": "Time Hollow",
-    "id": "nds485",
+    "id": "nds600",
     "igdbId": 21055,
     "gbId": 21052,
     "gbGuid": "3030-21052",
@@ -11596,7 +14697,7 @@
   },
   {
     "name": "Tokyo Beat Down",
-    "id": "nds486",
+    "id": "nds601",
     "igdbId": 20703,
     "gbId": 25040,
     "gbGuid": "3030-25040",
@@ -11620,7 +14721,7 @@
   },
   {
     "name": "Tomodachi Collection",
-    "id": "nds487",
+    "id": "nds602",
     "igdbId": 71900,
     "gbId": 23982,
     "gbGuid": "3030-23982",
@@ -11644,7 +14745,7 @@
   },
   {
     "name": "Tony Hawk's Motion",
-    "id": "nds488",
+    "id": "nds603",
     "igdbId": 21929,
     "gbId": 23634,
     "gbGuid": "3030-23634",
@@ -11668,7 +14769,7 @@
   },
   {
     "name": "Tornado",
-    "id": "nds489",
+    "id": "nds604",
     "igdbId": 21333,
     "gbId": 21086,
     "gbGuid": "3030-21086",
@@ -11692,7 +14793,7 @@
   },
   {
     "name": "Touch Detective 2 1/2",
-    "id": "nds490",
+    "id": "nds605",
     "igdbId": 21237,
     "gbId": 8676,
     "gbGuid": "3030-8676",
@@ -11715,8 +14816,31 @@
     "misprintsErrors": []
   },
   {
+    "name": "Touch Dictionary",
+    "id": "nds606",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "TouchMaster",
-    "id": "nds491",
+    "id": "nds607",
     "igdbId": 21442,
     "gbId": 20637,
     "gbGuid": "3030-20637",
@@ -11739,8 +14863,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "TouchMaster Connect",
+    "id": "nds608",
+    "igdbId": 124102,
+    "gbId": 73761,
+    "gbGuid": "3030-73761",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera, parental controls, high-speed/high-security wireless communications, high-speed CPU)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera, parental controls, high-speed/high-security wireless communications, high-speed CPU)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Toy Shop",
-    "id": "nds492",
+    "id": "nds609",
     "igdbId": 21299,
     "gbId": 22964,
     "gbGuid": "3030-22964",
@@ -11763,8 +14913,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Toy Story 3: The Video Game",
+    "id": "nds610",
+    "igdbId": 202117,
+    "gbId": 30039,
+    "gbGuid": "3030-30039",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "TrackMania DS",
-    "id": "nds493",
+    "id": "nds611",
     "igdbId": 21304,
     "gbId": 22406,
     "gbGuid": "3030-22406",
@@ -11788,7 +14964,7 @@
   },
   {
     "name": "Transformers Animated: The Game",
-    "id": "nds494",
+    "id": "nds612",
     "igdbId": 47846,
     "gbId": 27812,
     "gbGuid": "3030-27812",
@@ -11812,7 +14988,7 @@
   },
   {
     "name": "Transformers: Autobots",
-    "id": "nds495",
+    "id": "nds613",
     "igdbId": 21536,
     "gbId": 27027,
     "gbGuid": "3030-27027",
@@ -11836,7 +15012,7 @@
   },
   {
     "name": "Transformers: Revenge of the Fallen - Autobots",
-    "id": "nds496",
+    "id": "nds614",
     "igdbId": 7471,
     "gbId": null,
     "gbGuid": null,
@@ -11860,7 +15036,7 @@
   },
   {
     "name": "Transformers: War for Cybertron",
-    "id": "nds497",
+    "id": "nds615",
     "igdbId": 47945,
     "gbId": 29405,
     "gbGuid": "3030-29405",
@@ -11884,7 +15060,7 @@
   },
   {
     "name": "Trauma Center: Under the Knife 2",
-    "id": "nds498",
+    "id": "nds616",
     "igdbId": 1526,
     "gbId": 20620,
     "gbGuid": "3030-20620",
@@ -11908,7 +15084,7 @@
   },
   {
     "name": "Treasure World",
-    "id": "nds499",
+    "id": "nds617",
     "igdbId": 21125,
     "gbId": 26624,
     "gbGuid": "3030-26624",
@@ -11932,7 +15108,7 @@
   },
   {
     "name": "Trioncube",
-    "id": "nds500",
+    "id": "nds618",
     "igdbId": 21547,
     "gbId": 31017,
     "gbGuid": "3030-31017",
@@ -11955,8 +15131,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Tron Evolution: Battle Grids",
+    "id": "nds619",
+    "igdbId": 5246,
+    "gbId": 29284,
+    "gbGuid": "3030-29284",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "True Swing Golf",
-    "id": "nds501",
+    "id": "nds620",
     "igdbId": 20493,
     "gbId": 11329,
     "gbGuid": "3030-11329",
@@ -11980,7 +15182,7 @@
   },
   {
     "name": "Ultimate Mortal Kombat",
-    "id": "nds502",
+    "id": "nds621",
     "igdbId": 21526,
     "gbId": 21277,
     "gbGuid": "3030-21277",
@@ -12004,7 +15206,7 @@
   },
   {
     "name": "Unsolved Crimes",
-    "id": "nds503",
+    "id": "nds622",
     "igdbId": 21376,
     "gbId": 21807,
     "gbGuid": "3030-21807",
@@ -12028,7 +15230,7 @@
   },
   {
     "name": "Utacchi",
-    "id": "nds504",
+    "id": "nds623",
     "igdbId": 80482,
     "gbId": 30618,
     "gbGuid": "3030-30618",
@@ -12051,7 +15253,7 @@
   },
   {
     "name": "Valkyrie Profile: Covenant of the Plume",
-    "id": "nds505",
+    "id": "nds624",
     "igdbId": 6579,
     "gbId": 21400,
     "gbGuid": "3030-21400",
@@ -12074,8 +15276,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Vampire Legends: Power of Three",
+    "id": "nds625",
+    "igdbId": 18308,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Viewtiful Joe: Double Trouble!",
-    "id": "nds506",
+    "id": "nds626",
     "igdbId": 5987,
     "gbId": 20043,
     "gbGuid": "3030-20043",
@@ -12099,7 +15327,7 @@
   },
   {
     "name": "Viva Piñata: Pocket Paradise",
-    "id": "nds507",
+    "id": "nds627",
     "igdbId": 47724,
     "gbId": 21062,
     "gbGuid": "3030-21062",
@@ -12122,8 +15350,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "Wagyan Land",
+    "id": "nds628",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "tgdbId": 26566,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "WarioWare: Snapped!",
-    "id": "nds508",
+    "id": "nds629",
     "igdbId": 1707,
     "gbId": 24313,
     "gbGuid": "3030-24313",
@@ -12146,7 +15398,7 @@
   },
   {
     "name": "What's Cooking with Jamie Oliver",
-    "id": "nds509",
+    "id": "nds630",
     "igdbId": 80202,
     "gbId": 24399,
     "gbGuid": "3030-24399",
@@ -12169,8 +15421,57 @@
     "misprintsErrors": []
   },
   {
+    "name": "Where in the World is Carmen Sandiego? 3 - New Carmen Adventure",
+    "id": "nds631",
+    "igdbId": null,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Witches & Vampires Ghost Pirates Of Ashburry",
+    "id": "nds632",
+    "igdbId": 47812,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Wizards of Waverly Place",
-    "id": "nds510",
+    "id": "nds633",
     "igdbId": 44065,
     "gbId": 26807,
     "gbGuid": "3030-26807",
@@ -12194,7 +15495,7 @@
   },
   {
     "name": "Wizards of Waverly Place: Spellbound",
-    "id": "nds511",
+    "id": "nds634",
     "igdbId": 24309,
     "gbId": null,
     "gbGuid": null,
@@ -12217,8 +15518,32 @@
     "misprintsErrors": []
   },
   {
+    "name": "WordJong",
+    "id": "nds635",
+    "igdbId": null,
+    "gbId": 21466,
+    "gbGuid": "3030-21466",
+    "tgdbId": 13371,
+    "details": [
+      "Nintendo DS exclusive"
+    ],
+    "isExclusive": [
+      {
+        "name": "Nintendo DS",
+        "id": "ccl11",
+        "igdbId": 20,
+        "gbId": 52,
+        "gbGuid": "3045-52",
+        "tgdbId": 8
+      }
+    ],
+    "isLaunchTitle": false,
+    "special": [],
+    "misprintsErrors": []
+  },
+  {
     "name": "World Snooker Championship 2007",
-    "id": "nds512",
+    "id": "nds636",
     "igdbId": 7248,
     "gbId": 38757,
     "gbGuid": "3030-38757",
@@ -12242,7 +15567,7 @@
   },
   {
     "name": "X-Scape",
-    "id": "nds513",
+    "id": "nds637",
     "igdbId": 67155,
     "gbId": 29633,
     "gbGuid": "3030-29633",
@@ -12265,7 +15590,7 @@
   },
   {
     "name": "Xenosaga I & II",
-    "id": "nds514",
+    "id": "nds638",
     "igdbId": 26805,
     "gbId": 11881,
     "gbGuid": "3030-11881",
@@ -12289,7 +15614,7 @@
   },
   {
     "name": "Yakuman DS",
-    "id": "nds515",
+    "id": "nds639",
     "igdbId": 18596,
     "gbId": 29145,
     "gbGuid": "3030-29145",
@@ -12312,8 +15637,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "You Don't Know Jack",
+    "id": "nds640",
+    "igdbId": 5304,
+    "gbId": 31816,
+    "gbGuid": "3030-31816",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Youda Farmer",
+    "id": "nds641",
+    "igdbId": 9315,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Ys Strategy",
-    "id": "nds516",
+    "id": "nds642",
     "igdbId": 15456,
     "gbId": 24107,
     "gbGuid": "3030-24107",
@@ -12336,8 +15713,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Zaidan Houjin Nippon Kanji Nouryoku Kentai Kyoukai Kyouryoku Kanken DS Training",
+    "id": "nds643",
+    "igdbId": 123032,
+    "gbId": 73826,
+    "gbGuid": "3030-73826",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Japan)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Japan)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "ZhuZhu Pets 2: Featuring The Wild Bunch",
+    "id": "nds644",
+    "igdbId": 50978,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (camera)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (camera)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Zoo Tycoon DS",
-    "id": "nds517",
+    "id": "nds645",
     "igdbId": 18598,
     "gbId": 9677,
     "gbGuid": "3030-9677",
@@ -12361,7 +15790,7 @@
   },
   {
     "name": "Zoo Tycoon DS 2",
-    "id": "nds518",
+    "id": "nds646",
     "igdbId": 20773,
     "gbId": 41998,
     "gbGuid": "3030-41998",
@@ -12385,7 +15814,7 @@
   },
   {
     "name": "Zoobles! Spring to Life!",
-    "id": "nds519",
+    "id": "nds647",
     "igdbId": 9753,
     "gbId": 36426,
     "gbGuid": "3030-36426",
@@ -12409,7 +15838,7 @@
   },
   {
     "name": "Zorro: Quest for Justice",
-    "id": "nds520",
+    "id": "nds648",
     "igdbId": 60504,
     "gbId": 49126,
     "gbGuid": "3030-49126",
@@ -12427,7 +15856,7 @@
   },
   {
     "name": "Zubo",
-    "id": "nds521",
+    "id": "nds649",
     "igdbId": 21472,
     "gbId": 21085,
     "gbGuid": "3030-21085",
@@ -12447,6 +15876,110 @@
     ],
     "isLaunchTitle": false,
     "special": [],
+    "misprintsErrors": []
+  },
+  {
+    "name": "de Blob 2",
+    "id": "nds650",
+    "igdbId": 4796,
+    "gbId": 29940,
+    "gbGuid": "3030-29940",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (can unlock a cheat by playing some camera mini-games)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (can unlock a cheat by playing some camera mini-games)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "iCarly",
+    "id": "nds651",
+    "igdbId": 4921,
+    "gbId": 28441,
+    "gbGuid": "3030-28441",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (special audio and graphics integration via the Dsi's improved audio functionality and digital cameras)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (special audio and graphics integration via the Dsi's improved audio functionality and digital cameras)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "iCarly 2: iJoin the Click",
+    "id": "nds652",
+    "igdbId": 4922,
+    "gbId": 39017,
+    "gbGuid": "3030-39017",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (use camera to take shots and import images to customize her look and wardrobe in true iCarly style)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (use camera to take shots and import images to customize her look and wardrobe in true iCarly style)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "uDraw Pictionary",
+    "id": "nds653",
+    "igdbId": 5186,
+    "gbId": 17553,
+    "gbGuid": "3030-17553",
+    "details": [
+      "Nintendo DS game with enhanced features on DSi (Take pictures with the camera, then trace and color them to make your own clues)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Nintendo DS game with enhanced features on DSi (Take pictures with the camera, then trace and color them to make your own clues)",
+        "forPlatform": {
+          "name": "Nintendo DS",
+          "id": "ccl11",
+          "igdbId": 20,
+          "gbId": 52,
+          "gbGuid": "3045-52",
+          "tgdbId": 8
+        }
+      }
+    ],
     "misprintsErrors": []
   }
 ]

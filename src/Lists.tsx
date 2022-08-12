@@ -47,7 +47,6 @@ const Lists: FunctionComponent<RouteComponentProps> = () => {
           if (result && result.data) {
             const results = _sortBy(result.data, 'consoleName');
             setData(results);
-            console.log('hideDigital', hideDigital);
             if (hideDigital) {
               setDisplayData(
                 results.filter((game: IGame) => game.physicalDigital.indexOf('physical') > -1)

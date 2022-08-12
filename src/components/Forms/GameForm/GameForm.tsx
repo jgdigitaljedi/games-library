@@ -204,6 +204,7 @@ const GameForm: FunctionComponent<IProps> = ({
       const game = e.value;
       // setSelectedFromSearch(game);
       const gfCopy = _cloneDeep(gameForm);
+      // @ts-ignore
       setGameForm(Object.assign(gfCopy, game));
     }
   };

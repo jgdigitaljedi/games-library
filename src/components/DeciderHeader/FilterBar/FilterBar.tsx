@@ -343,7 +343,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             fsCopy.releaseDateStart = e.value;
             setDc(fsCopy);
           }}
-          options={items.gameReleaseYears}
+          options={items?.gameReleaseYears || []}
         />
       </div>
       <div className='decider--form__input-group'>
@@ -362,7 +362,7 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
             fsCopy.releaseDateEnd = e.value;
             setDc(fsCopy);
           }}
-          options={items.gameReleaseYears}
+          options={items?.gameReleaseYears || []}
         />
       </div>
     </form>

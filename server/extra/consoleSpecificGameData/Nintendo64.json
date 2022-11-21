@@ -50,8 +50,34 @@
     "misprintsErrors": []
   },
   {
-    "name": "64 Oozumou",
+    "name": "40 Winks",
     "id": "n642",
+    "igdbId": 5568,
+    "gbId": 18694,
+    "gbGuid": "3030-18694",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables two hi-res modes.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "64 Oozumou",
+    "id": "n643",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -74,14 +100,41 @@
     "misprintsErrors": []
   },
   {
+    "name": "64 Oozumou",
+    "id": "n644",
+    "igdbId": 3433,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "64 de Hakken! Tamagotchi Minna de Tamagotchi World",
-    "id": "n643",
+    "id": "n645",
     "igdbId": 3611,
     "gbId": null,
     "gbGuid": null,
     "tgdbId": 25733,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -94,12 +147,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Aero Fighters Assault",
-    "id": "n644",
+    "id": "n646",
     "igdbId": 3330,
     "gbId": null,
     "gbGuid": null,
@@ -123,7 +188,7 @@
   },
   {
     "name": "AeroGauge",
-    "id": "n645",
+    "id": "n647",
     "igdbId": 3329,
     "gbId": 19906,
     "gbGuid": "3030-19906",
@@ -147,13 +212,14 @@
   },
   {
     "name": "Aidyn Chronicles: The First Mage",
-    "id": "n646",
+    "id": "n648",
     "igdbId": 2850,
     "gbId": 14602,
     "gbGuid": "3030-14602",
     "tgdbId": 1054,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 Expansion Pak Game: no required (Required for the High Quality graphics setting. Enables a 640x240 high resolution mode.)"
     ],
     "isExclusive": [
       {
@@ -166,12 +232,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: no required (Required for the High Quality graphics setting. Enables a 640x240 high resolution mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Airboarder 64",
-    "id": "n647",
+    "id": "n649",
     "igdbId": 47763,
     "gbId": null,
     "gbGuid": null,
@@ -194,14 +272,41 @@
     "misprintsErrors": []
   },
   {
+    "name": "All Star Tennis '99",
+    "id": "n6410",
+    "igdbId": 3436,
+    "gbId": 13377,
+    "gbGuid": "3030-13377",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "All-Star Baseball '99",
-    "id": "n648",
+    "id": "n6411",
     "igdbId": 10663,
     "gbId": 19311,
     "gbGuid": "3030-19311",
     "tgdbId": 18281,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -214,18 +319,32 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "All-Star Baseball 2000",
-    "id": "n649",
+    "id": "n6412",
     "igdbId": 10658,
     "gbId": 4565,
     "gbGuid": "3030-4565",
     "tgdbId": 1058,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
     ],
     "isExclusive": [
       {
@@ -238,18 +357,258 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "All-Star Baseball 2001",
+    "id": "n6413",
+    "igdbId": 69229,
+    "gbId": 12481,
+    "gbGuid": "3030-12481",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Armorines: Project S.W.A.R.M.",
+    "id": "n6414",
+    "igdbId": 3439,
+    "gbId": 6563,
+    "gbGuid": "3030-6563",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increase resolution to 480x360 or 480x232.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increase resolution to 480x360 or 480x232.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Army Men: Air Combat",
+    "id": "n6415",
+    "igdbId": 47694,
+    "gbId": 1691,
+    "gbGuid": "3030-1691",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Army Men: Sarge's Heroes",
+    "id": "n6416",
+    "igdbId": 3440,
+    "gbId": 11157,
+    "gbGuid": "3030-11157",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 high resolution mode.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables a 640x240 high resolution mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Army Men: Sarge's Heroes 2",
+    "id": "n6417",
+    "igdbId": 3441,
+    "gbId": 14160,
+    "gbGuid": "3030-14160",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 high resolution mode.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables a 640x240 high resolution mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Asteroids Hyper 64",
+    "id": "n6418",
+    "igdbId": 10664,
+    "gbId": 437,
+    "gbGuid": "3030-437",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Automobili Lamborghini",
-    "id": "n6410",
+    "id": "n6419",
     "igdbId": 3442,
     "gbId": 27569,
     "gbGuid": "3030-27569",
     "tgdbId": 1063,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -262,12 +621,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Bakushou Jinsei 64: Mezase! Resort Ou",
-    "id": "n6411",
+    "id": "n6420",
     "igdbId": null,
     "gbId": 22507,
     "gbGuid": "3030-22507",
@@ -290,8 +661,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Bakushou Jinsei 64: Mezase! Resort-ou",
+    "id": "n6421",
+    "igdbId": 44039,
+    "gbId": 22507,
+    "gbGuid": "3030-22507",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Banjo-Kazooie",
-    "id": "n6412",
+    "id": "n6422",
     "igdbId": 2148,
     "gbId": 10920,
     "gbGuid": "3030-10920",
@@ -316,8 +713,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Banjo-Tooie",
+    "id": "n6423",
+    "igdbId": 3418,
+    "gbId": 2871,
+    "gbGuid": "3030-2871",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Bassmasters 2000",
-    "id": "n6413",
+    "id": "n6424",
     "igdbId": 3420,
     "gbId": null,
     "gbGuid": null,
@@ -340,14 +763,93 @@
     "misprintsErrors": []
   },
   {
+    "name": "BattleTanx",
+    "id": "n6425",
+    "igdbId": 3421,
+    "gbId": 3687,
+    "gbGuid": "3030-3687",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "BattleTanx: Global Assault",
+    "id": "n6426",
+    "igdbId": 47685,
+    "gbId": 17922,
+    "gbGuid": "3030-17922",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Battlezone: Rise of the Black Dogs",
+    "id": "n6427",
+    "igdbId": 3423,
+    "gbId": 3720,
+    "gbGuid": "3030-3720",
+    "details": [
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Beetle Adventure Racing!",
-    "id": "n6414",
+    "id": "n6428",
     "igdbId": 2715,
     "gbId": 10791,
     "gbGuid": "3030-10791",
     "tgdbId": 1067,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -360,12 +862,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Big Mountain 2000",
-    "id": "n6415",
+    "id": "n6429",
     "igdbId": 3367,
     "gbId": 22568,
     "gbGuid": "3030-22568",
@@ -389,7 +903,7 @@
   },
   {
     "name": "Blast Corps",
-    "id": "n6416",
+    "id": "n6430",
     "igdbId": 3424,
     "gbId": 13245,
     "gbGuid": "3030-13245",
@@ -413,7 +927,7 @@
   },
   {
     "name": "Blues Brothers 2000",
-    "id": "n6417",
+    "id": "n6431",
     "igdbId": 3425,
     "gbId": 13658,
     "gbGuid": "3030-13658",
@@ -437,7 +951,7 @@
   },
   {
     "name": "Body Harvest",
-    "id": "n6418",
+    "id": "n6432",
     "igdbId": 3426,
     "gbId": 18772,
     "gbGuid": "3030-18772",
@@ -461,7 +975,7 @@
   },
   {
     "name": "Bomberman 64",
-    "id": "n6419",
+    "id": "n6433",
     "igdbId": 3451,
     "gbId": 17348,
     "gbGuid": "3030-17348",
@@ -485,12 +999,13 @@
   },
   {
     "name": "Bomberman 64",
-    "id": "n6420",
+    "id": "n6434",
     "igdbId": 80368,
     "gbId": 17348,
     "gbGuid": "3030-17348",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -505,13 +1020,24 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Bomberman 64: The Second Attack!",
-    "id": "n6421",
+    "id": "n6435",
     "igdbId": 3452,
     "gbId": 17082,
     "gbGuid": "3030-17082",
@@ -535,7 +1061,7 @@
   },
   {
     "name": "Bomberman Hero",
-    "id": "n6422",
+    "id": "n6436",
     "igdbId": 3453,
     "gbId": 15079,
     "gbGuid": "3030-15079",
@@ -561,7 +1087,7 @@
   },
   {
     "name": "Buck Bumble",
-    "id": "n6423",
+    "id": "n6437",
     "igdbId": 3368,
     "gbId": 8907,
     "gbGuid": "3030-8907",
@@ -584,8 +1110,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Bust-a-Move '99",
+    "id": "n6438",
+    "igdbId": 44958,
+    "gbId": 8208,
+    "gbGuid": "3030-8208",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Castlevania",
-    "id": "n6424",
+    "id": "n6439",
     "igdbId": 1130,
     "gbId": 22950,
     "gbGuid": "3030-22950",
@@ -609,13 +1161,14 @@
   },
   {
     "name": "Castlevania: Legacy of Darkness",
-    "id": "n6425",
+    "id": "n6440",
     "igdbId": 1131,
     "gbId": 6467,
     "gbGuid": "3030-6467",
     "tgdbId": 246,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 490×355, however performance suffers as a result.)"
     ],
     "isExclusive": [
       {
@@ -628,18 +1181,57 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 490×355, however performance suffers as a result.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Centre Court Tennis",
+    "id": "n6441",
+    "igdbId": 3456,
+    "gbId": 17603,
+    "gbGuid": "3030-17603",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Chameleon Twist",
-    "id": "n6426",
+    "id": "n6442",
     "igdbId": 3427,
     "gbId": 8523,
     "gbGuid": "3030-8523",
     "tgdbId": 1081,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -652,12 +1244,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Chameleon Twist 2",
-    "id": "n6427",
+    "id": "n6443",
     "igdbId": 10609,
     "gbId": 15991,
     "gbGuid": "3030-15991",
@@ -680,8 +1284,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Charlie Blasts Territory",
+    "id": "n6444",
+    "igdbId": 10665,
+    "gbId": 4717,
+    "gbGuid": "3030-4717",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Chopper Attack",
-    "id": "n6428",
+    "id": "n6445",
     "igdbId": 3428,
     "gbId": 9026,
     "gbGuid": "3030-9026",
@@ -705,7 +1335,7 @@
   },
   {
     "name": "Choro Q 64 2: Hachamecha Grand Prix Race",
-    "id": "n6429",
+    "id": "n6446",
     "igdbId": 47742,
     "gbId": 67808,
     "gbGuid": "3030-67808",
@@ -729,7 +1359,7 @@
   },
   {
     "name": "Chou-Kuukan Night Pro Yakyuu King",
-    "id": "n6430",
+    "id": "n6447",
     "igdbId": null,
     "gbId": 22751,
     "gbGuid": "3030-22751",
@@ -753,7 +1383,7 @@
   },
   {
     "name": "Chou-Kuukan Night Pro Yakyuu King 2",
-    "id": "n6431",
+    "id": "n6448",
     "igdbId": null,
     "gbId": 22755,
     "gbGuid": "3030-22755",
@@ -777,7 +1407,7 @@
   },
   {
     "name": "ClayFighter 63 1/3",
-    "id": "n6432",
+    "id": "n6449",
     "igdbId": 44043,
     "gbId": 3185,
     "gbGuid": "3030-3185",
@@ -800,8 +1430,86 @@
     "misprintsErrors": []
   },
   {
+    "name": "Command & Conquer",
+    "id": "n6450",
+    "igdbId": 647,
+    "gbId": 4384,
+    "gbGuid": "3030-4384",
+    "details": [
+      "N64 Expansion Pak Game: not required (The Expansion Pak is required for high-resolution map textures.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak is required for high-resolution map textures.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Conker's Bad Fur Day",
+    "id": "n6451",
+    "igdbId": 1286,
+    "gbId": 10533,
+    "gbGuid": "3030-10533",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Cruis'n Exotica",
+    "id": "n6452",
+    "igdbId": 10163,
+    "gbId": 19022,
+    "gbGuid": "3030-19022",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Cruis'n USA",
-    "id": "n6433",
+    "id": "n6453",
     "igdbId": 3429,
     "gbId": 9890,
     "gbGuid": "3030-9890",
@@ -826,8 +1534,124 @@
     "misprintsErrors": []
   },
   {
+    "name": "Cruis'n World",
+    "id": "n6454",
+    "igdbId": 3430,
+    "gbId": 9482,
+    "gbGuid": "3030-9482",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Custom Robo V2",
+    "id": "n6455",
+    "igdbId": 3463,
+    "gbId": 32075,
+    "gbGuid": "3030-32075",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Cyber Tiger",
+    "id": "n6456",
+    "igdbId": 3431,
+    "gbId": 1336,
+    "gbGuid": "3030-1336",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Daikatana",
+    "id": "n6457",
+    "igdbId": 8201,
+    "gbId": 7747,
+    "gbGuid": "3030-7747",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Allows for a hi-res graphics mode, which changes the game to a widescreen view but has little noticeable effect on graphics.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Allows for a hi-res graphics mode, which changes the game to a widescreen view but has little noticeable effect on graphics.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Densha de Go! 2",
-    "id": "n6434",
+    "id": "n6458",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -850,13 +1674,66 @@
     "misprintsErrors": []
   },
   {
+    "name": "Derby Stallion 64",
+    "id": "n6459",
+    "igdbId": 47743,
+    "gbId": 73673,
+    "gbGuid": "3030-73673",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Destruction Derby 64",
+    "id": "n6460",
+    "igdbId": 10686,
+    "gbId": 16810,
+    "gbGuid": "3030-16810",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Diddy Kong Racing",
-    "id": "n6435",
+    "id": "n6461",
     "igdbId": 2723,
     "gbId": 15990,
     "gbGuid": "3030-15990",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -871,20 +1748,85 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Dinosaur Planet",
+    "id": "n6462",
+    "igdbId": 134251,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "N64 Expansion Pak Game: REQUIRED (Cancelled game, required to play any build leaked)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: REQUIRED (Cancelled game, required to play any build leaked)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Donald Duck: Goin' Quackers",
+    "id": "n6463",
+    "igdbId": 360,
+    "gbId": 9551,
+    "gbGuid": "3030-9551",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 480×360.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 480×360.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Donkey Kong 64",
-    "id": "n6436",
+    "id": "n6464",
     "igdbId": 1096,
     "gbId": 15000,
     "gbGuid": "3030-15000",
     "tgdbId": 250,
     "details": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: REQUIRED (Does not boot without the expansion pak except the expansion pak warning.)"
     ],
     "isExclusive": [
       {
@@ -908,13 +1850,35 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: REQUIRED (Does not boot without the expansion pak except the expansion pak warning.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Doom 64",
-    "id": "n6437",
+    "id": "n6465",
     "igdbId": 3471,
     "gbId": 16788,
     "gbGuid": "3030-16788",
@@ -938,7 +1902,7 @@
   },
   {
     "name": "Doraemon: Nobita and the Three Fairy Spirit Stones",
-    "id": "n6438",
+    "id": "n6466",
     "igdbId": 3472,
     "gbId": 16699,
     "gbGuid": "3030-16699",
@@ -960,8 +1924,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Dr. Mario 64",
+    "id": "n6467",
+    "igdbId": 3475,
+    "gbId": 1072,
+    "gbGuid": "3030-1072",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Dual Heroes",
-    "id": "n6439",
+    "id": "n6468",
     "igdbId": 3477,
     "gbId": 17455,
     "gbGuid": "3030-17455",
@@ -985,7 +1975,7 @@
   },
   {
     "name": "Duck Dodgers Starring Daffy Duck",
-    "id": "n6440",
+    "id": "n6469",
     "igdbId": 3336,
     "gbId": null,
     "gbGuid": null,
@@ -1008,14 +1998,42 @@
     "misprintsErrors": []
   },
   {
+    "name": "Duke Nukem 64",
+    "id": "n6470",
+    "igdbId": 10680,
+    "gbId": 3407,
+    "gbGuid": "3030-3407",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Duke Nukem: Zero Hour",
-    "id": "n6441",
+    "id": "n6471",
     "igdbId": 8503,
     "gbId": 2711,
     "gbGuid": "3030-2711",
     "tgdbId": 1092,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (The Expansion Pak allows the player to choose between playing at high resolution or with a faster frame rate.)"
     ],
     "isExclusive": [
       {
@@ -1028,18 +2046,106 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak allows the player to choose between playing at high resolution or with a faster frame rate.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "ECW Hardcore Revolution",
+    "id": "n6472",
+    "igdbId": 3483,
+    "gbId": 8647,
+    "gbGuid": "3030-8647",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Excitebike 64",
+    "id": "n6473",
+    "igdbId": 3337,
+    "gbId": 15429,
+    "gbGuid": "3030-15429",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Extreme-G",
-    "id": "n6442",
+    "id": "n6474",
     "igdbId": 3485,
     "gbId": 2379,
     "gbGuid": "3030-2379",
     "tgdbId": 957,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1052,12 +2158,50 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Extreme-G 2",
+    "id": "n6475",
+    "igdbId": 3486,
+    "gbId": 9774,
+    "gbGuid": "3030-9774",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "F-1 World Grand Prix",
-    "id": "n6443",
+    "id": "n6476",
     "igdbId": 3487,
     "gbId": 6455,
     "gbGuid": "3030-6455",
@@ -1082,13 +2226,40 @@
     "misprintsErrors": []
   },
   {
+    "name": "F-1 World Grand Prix II",
+    "id": "n6477",
+    "igdbId": 3488,
+    "gbId": 13102,
+    "gbGuid": "3030-13102",
+    "details": [
+      "N64 Expansion Pak Game: not required (The Expansion Pak allows a full race replay.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak allows a full race replay.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "F-Zero X",
-    "id": "n6444",
+    "id": "n6478",
     "igdbId": 3489,
     "gbId": 18808,
     "gbGuid": "3030-18808",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -1103,13 +2274,24 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "F1 Pole Position 64",
-    "id": "n6445",
+    "id": "n6479",
     "igdbId": 3494,
     "gbId": 3764,
     "gbGuid": "3030-3764",
@@ -1132,14 +2314,53 @@
     "misprintsErrors": []
   },
   {
+    "name": "FIFA 99",
+    "id": "n6480",
+    "igdbId": 699,
+    "gbId": 15945,
+    "gbGuid": "3030-15945",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Allows for an unadvertised Super High resolution mode of 640×480.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Allows for an unadvertised Super High resolution mode of 640×480.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "FIFA Soccer 64",
-    "id": "n6446",
+    "id": "n6481",
     "igdbId": 10682,
     "gbId": 10335,
     "gbGuid": "3030-10335",
     "tgdbId": 1104,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1152,12 +2373,50 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "FIFA: Road to World Cup 98",
+    "id": "n6482",
+    "igdbId": 705,
+    "gbId": 11207,
+    "gbGuid": "3030-11207",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Famista 64",
-    "id": "n6447",
+    "id": "n6483",
     "igdbId": 80390,
     "gbId": 62169,
     "gbGuid": "3030-62169",
@@ -1180,8 +2439,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Fighter Destiny 2",
+    "id": "n6484",
+    "igdbId": 10683,
+    "gbId": 8673,
+    "gbGuid": "3030-8673",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Fighters Destiny",
-    "id": "n6448",
+    "id": "n6485",
     "igdbId": 3496,
     "gbId": 13172,
     "gbGuid": "3030-13172",
@@ -1205,7 +2490,7 @@
   },
   {
     "name": "Flying Dragon",
-    "id": "n6449",
+    "id": "n6486",
     "igdbId": 3497,
     "gbId": 15662,
     "gbGuid": "3030-15662",
@@ -1228,8 +2513,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Forsaken",
+    "id": "n6487",
+    "igdbId": 718,
+    "gbId": 15636,
+    "gbGuid": "3030-15636",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Fox Sports College Hoops '99",
-    "id": "n6450",
+    "id": "n6488",
     "igdbId": 3498,
     "gbId": 22752,
     "gbGuid": "3030-22752",
@@ -1253,7 +2564,7 @@
   },
   {
     "name": "G.A.S.P!! Fighters' NEXTream",
-    "id": "n6451",
+    "id": "n6489",
     "igdbId": 3500,
     "gbId": null,
     "gbGuid": null,
@@ -1277,7 +2588,7 @@
   },
   {
     "name": "GT 64: Championship Edition",
-    "id": "n6452",
+    "id": "n6490",
     "igdbId": 3375,
     "gbId": 34874,
     "gbGuid": "3030-34874",
@@ -1300,8 +2611,46 @@
     "misprintsErrors": []
   },
   {
+    "name": "Gauntlet Legends",
+    "id": "n6491",
+    "igdbId": 3501,
+    "gbId": 12245,
+    "gbGuid": "3030-12245",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (The Expansion Pak is required for 4 player multiplayer.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak is required for 4 player multiplayer.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Getter Love!! Cho Renai Party Game",
-    "id": "n6453",
+    "id": "n6492",
     "igdbId": 44052,
     "gbId": 22833,
     "gbGuid": "3030-22833",
@@ -1323,8 +2672,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Getter Love!!: Chou Renai Party Game Tanjou",
+    "id": "n6493",
+    "igdbId": 3504,
+    "gbId": 22833,
+    "gbGuid": "3030-22833",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Goemon's Great Adventure",
-    "id": "n6454",
+    "id": "n6494",
     "igdbId": 94994,
     "gbId": 14117,
     "gbGuid": "3030-14117",
@@ -1348,13 +2723,14 @@
   },
   {
     "name": "Goemon: Mononoke Sugoroku",
-    "id": "n6455",
+    "id": "n6495",
     "igdbId": 3507,
     "gbId": null,
     "gbGuid": null,
     "tgdbId": 25749,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1367,12 +2743,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Golden Nugget 64",
-    "id": "n6456",
+    "id": "n6496",
     "igdbId": 3374,
     "gbId": 2215,
     "gbGuid": "3030-2215",
@@ -1396,14 +2784,15 @@
   },
   {
     "name": "GoldenEye 007",
-    "id": "n6457",
+    "id": "n6497",
     "igdbId": 1638,
     "gbId": 3166,
     "gbGuid": "3030-3166",
     "tgdbId": 160,
     "details": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1427,13 +2816,24 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Hamster Monogatari 64",
-    "id": "n6458",
+    "id": "n6498",
     "igdbId": 3509,
     "gbId": 22834,
     "gbGuid": "3030-22834",
@@ -1457,7 +2857,7 @@
   },
   {
     "name": "Heiwa Pachinko World 64",
-    "id": "n6459",
+    "id": "n6499",
     "igdbId": 3510,
     "gbId": 47081,
     "gbGuid": "3030-47081",
@@ -1480,8 +2880,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Hexen",
+    "id": "n64100",
+    "igdbId": 93641,
+    "gbId": 22548,
+    "gbGuid": "3030-22548",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Hey You, Pikachu!",
-    "id": "n6460",
+    "id": "n64101",
     "igdbId": 2642,
     "gbId": 17113,
     "gbGuid": "3030-17113",
@@ -1505,13 +2931,14 @@
   },
   {
     "name": "Hybrid Heaven",
-    "id": "n6461",
+    "id": "n64102",
     "igdbId": 3513,
     "gbId": 16990,
     "gbGuid": "3030-16990",
     "tgdbId": 1117,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increases resolution to 640×480 however performance suffers greatly as a result.)"
     ],
     "isExclusive": [
       {
@@ -1524,18 +2951,57 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increases resolution to 640×480 however performance suffers greatly as a result.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Hydro Thunder",
+    "id": "n64103",
+    "igdbId": 3370,
+    "gbId": 13241,
+    "gbGuid": "3030-13241",
+    "details": [
+      "N64 Expansion Pak Game: not required (The Expansion Pak is required for 3 and 4 player multiplayer.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak is required for 3 and 4 player multiplayer.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Iggy's Reckin' Balls",
-    "id": "n6462",
+    "id": "n64104",
     "igdbId": 3394,
     "gbId": 2736,
     "gbGuid": "3030-2736",
     "tgdbId": 1118,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1548,12 +3014,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "In-Fisherman Bass Hunter 64",
-    "id": "n6463",
+    "id": "n64105",
     "igdbId": 3419,
     "gbId": 22222,
     "gbGuid": "3030-22222",
@@ -1576,14 +3054,41 @@
     "misprintsErrors": []
   },
   {
+    "name": "Indiana Jones and the Infernal Machine",
+    "id": "n64106",
+    "igdbId": 188,
+    "gbId": 7284,
+    "gbGuid": "3030-7284",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440 and unlocks level 13, King Sol's Mines.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440 and unlocks level 13, King Sol's Mines.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Indy Racing 2000",
-    "id": "n6464",
+    "id": "n64107",
     "igdbId": 3395,
     "gbId": 16322,
     "gbGuid": "3030-16322",
     "tgdbId": 1119,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 Expansion Pak Game: not required"
     ],
     "isExclusive": [
       {
@@ -1596,18 +3101,31 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "International Superstar Soccer '98",
-    "id": "n6465",
+    "id": "n64108",
     "igdbId": 3514,
     "gbId": 12841,
     "gbGuid": "3030-12841",
     "tgdbId": 1122,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1620,18 +3138,69 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "International Superstar Soccer 2000",
+    "id": "n64109",
+    "igdbId": 3515,
+    "gbId": 7818,
+    "gbGuid": "3030-7818",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (The Expansion Pak is required for high-resolution textures; however, performance suffered as a result.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak is required for high-resolution textures; however, performance suffered as a result.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "International Superstar Soccer 64",
-    "id": "n6466",
+    "id": "n64110",
     "igdbId": 3516,
     "gbId": 9790,
     "gbGuid": "3030-9790",
     "tgdbId": 1121,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1644,18 +3213,69 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "International Track & Field 2000",
+    "id": "n64111",
+    "igdbId": 3517,
+    "gbId": 6820,
+    "gbGuid": "3030-6820",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "J-League Dynamite Soccer 64",
-    "id": "n6467",
+    "id": "n64112",
     "igdbId": 3519,
     "gbId": 22754,
     "gbGuid": "3030-22754",
     "tgdbId": 25753,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1668,18 +3288,31 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "J-League Live 64",
-    "id": "n6468",
+    "id": "n64113",
     "igdbId": 3521,
     "gbId": null,
     "gbGuid": null,
     "tgdbId": 25777,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1692,12 +3325,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "J-League Tactics Soccer",
-    "id": "n6469",
+    "id": "n64114",
     "igdbId": 3522,
     "gbId": null,
     "gbGuid": null,
@@ -1721,13 +3366,14 @@
   },
   {
     "name": "J.League Eleven Beat 1997",
-    "id": "n6470",
+    "id": "n64115",
     "igdbId": 3520,
     "gbId": 22756,
     "gbGuid": "3030-22756",
     "tgdbId": 31700,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1740,12 +3386,178 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "James Bond 007: The World Is Not Enough",
+    "id": "n64116",
+    "igdbId": 144507,
+    "gbId": 18168,
+    "gbGuid": "3030-18168",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Provides enhanced graphics and visual effects.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Provides enhanced graphics and visual effects.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Japan Pro Golf Tour 64",
+    "id": "n64117",
+    "igdbId": 65112,
+    "gbId": 38402,
+    "gbGuid": "3030-38402",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Jeopardy!",
+    "id": "n64118",
+    "igdbId": 3396,
+    "gbId": 988,
+    "gbGuid": "3030-988",
+    "details": [
+      "N64 3 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 3 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Jeremy McGrath Supercross 2000",
+    "id": "n64119",
+    "igdbId": 3523,
+    "gbId": 4298,
+    "gbGuid": "3030-4298",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Jet Force Gemini",
+    "id": "n64120",
+    "igdbId": 1355,
+    "gbId": 12696,
+    "gbGuid": "3030-12696",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Jikkyou G1 Stable",
-    "id": "n6471",
+    "id": "n64121",
     "igdbId": 44045,
     "gbId": null,
     "gbGuid": null,
@@ -1768,14 +3580,41 @@
     "misprintsErrors": []
   },
   {
+    "name": "Jikkyou J.League Perfect Striker",
+    "id": "n64122",
+    "igdbId": 185992,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Jinsei Game 64",
-    "id": "n6472",
+    "id": "n64123",
     "igdbId": 3530,
     "gbId": 67442,
     "gbGuid": "3030-67442",
     "tgdbId": 47660,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1788,12 +3627,50 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Ken Griffey Jr.'s Slugfest",
+    "id": "n64124",
+    "igdbId": 3531,
+    "gbId": 11803,
+    "gbGuid": "3030-11803",
+    "details": [
+      "N64 Expansion Pak Game: not required (Allows for hi-res gameplay.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Allows for hi-res gameplay.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Killer Instinct Gold",
-    "id": "n6473",
+    "id": "n64125",
     "igdbId": 10613,
     "gbId": 10614,
     "gbGuid": "3030-10614",
@@ -1817,13 +3694,14 @@
   },
   {
     "name": "Kiratto Kaiketsu! 64 Tanteidan",
-    "id": "n6474",
+    "id": "n64126",
     "igdbId": 3532,
     "gbId": null,
     "gbGuid": null,
     "tgdbId": 47661,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1836,18 +3714,57 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Kirby 64: The Crystal Shards",
+    "id": "n64127",
+    "igdbId": 2713,
+    "gbId": 17093,
+    "gbGuid": "3030-17093",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Knife Edge: Nose Gunner",
-    "id": "n6475",
+    "id": "n64128",
     "igdbId": 3533,
     "gbId": 6007,
     "gbGuid": "3030-6007",
     "tgdbId": 1128,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1860,19 +3777,32 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Kobe Bryant in NBA Courtside",
-    "id": "n6476",
+    "id": "n64129",
     "igdbId": 3397,
     "gbId": 5012,
     "gbGuid": "3030-5012",
     "tgdbId": 1129,
     "details": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1896,13 +3826,24 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Lode Runner 3-D",
-    "id": "n6477",
+    "id": "n64130",
     "igdbId": 3372,
     "gbId": 13907,
     "gbGuid": "3030-13907",
@@ -1926,7 +3867,7 @@
   },
   {
     "name": "Looney Tunes: Taz Express",
-    "id": "n6478",
+    "id": "n64131",
     "igdbId": 3345,
     "gbId": 16162,
     "gbGuid": "3030-16162",
@@ -1950,7 +3891,7 @@
   },
   {
     "name": "MRC: Multi-Racing Championship",
-    "id": "n6479",
+    "id": "n64132",
     "igdbId": 3544,
     "gbId": 9826,
     "gbGuid": "3030-9826",
@@ -1974,13 +3915,14 @@
   },
   {
     "name": "Madden Football 64",
-    "id": "n6480",
+    "id": "n64133",
     "igdbId": 3536,
     "gbId": 16446,
     "gbGuid": "3030-16446",
     "tgdbId": 1133,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -1993,12 +3935,164 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Madden NFL 2000",
+    "id": "n64134",
+    "igdbId": 3537,
+    "gbId": 12373,
+    "gbGuid": "3030-12373",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Madden NFL 2001",
+    "id": "n64135",
+    "igdbId": 3538,
+    "gbId": 8822,
+    "gbGuid": "3030-8822",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Madden NFL 2002",
+    "id": "n64136",
+    "igdbId": 3539,
+    "gbId": 10845,
+    "gbGuid": "3030-10845",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Madden NFL 99",
+    "id": "n64137",
+    "igdbId": 779,
+    "gbId": 13996,
+    "gbGuid": "3030-13996",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Major League Baseball Featuring Ken Griffey, Jr.",
-    "id": "n6481",
+    "id": "n64138",
     "igdbId": 3540,
     "gbId": 14051,
     "gbGuid": "3030-14051",
@@ -2021,13 +4115,92 @@
     "misprintsErrors": []
   },
   {
+    "name": "Mario Artist: Paint Studio",
+    "id": "n64139",
+    "igdbId": 73026,
+    "gbId": 21201,
+    "gbGuid": "3030-21201",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mario Artist: Polygon Studio",
+    "id": "n64140",
+    "igdbId": 73027,
+    "gbId": 21204,
+    "gbGuid": "3030-21204",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mario Golf",
+    "id": "n64141",
+    "igdbId": 3401,
+    "gbId": 19716,
+    "gbGuid": "3030-19716",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Mario Kart 64",
-    "id": "n6482",
+    "id": "n64142",
     "igdbId": 2342,
     "gbId": 10084,
     "gbGuid": "3030-10084",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -2042,19 +4215,31 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Mario Party",
-    "id": "n6483",
+    "id": "n64143",
     "igdbId": 2327,
     "gbId": 6424,
     "gbGuid": "3030-6424",
     "tgdbId": 42,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2067,18 +4252,57 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mario Party 2",
+    "id": "n64144",
+    "igdbId": 2328,
+    "gbId": 12162,
+    "gbGuid": "3030-12162",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Mario Party 3",
-    "id": "n6484",
+    "id": "n64145",
     "igdbId": 2329,
     "gbId": 12447,
     "gbGuid": "3030-12447",
     "tgdbId": 960,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2091,12 +4315,50 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Mario Tennis",
+    "id": "n64146",
+    "igdbId": 3406,
+    "gbId": 6073,
+    "gbGuid": "3030-6073",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Mario no Photopie",
-    "id": "n6485",
+    "id": "n64147",
     "igdbId": 3541,
     "gbId": 29970,
     "gbGuid": "3030-29970",
@@ -2120,7 +4382,7 @@
   },
   {
     "name": "Masters '98: Harukanaru Augusta",
-    "id": "n6486",
+    "id": "n64148",
     "igdbId": 47744,
     "gbId": 47921,
     "gbGuid": "3030-47921",
@@ -2144,7 +4406,7 @@
   },
   {
     "name": "Michael Owen's WLS 2000",
-    "id": "n6487",
+    "id": "n64149",
     "igdbId": 3407,
     "gbId": null,
     "gbGuid": null,
@@ -2167,8 +4429,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Mickey's Speedway USA",
+    "id": "n64150",
+    "igdbId": 3408,
+    "gbId": 6368,
+    "gbGuid": "3030-6368",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Mike Piazza's Strike Zone",
-    "id": "n6488",
+    "id": "n64151",
     "igdbId": 3410,
     "gbId": 22760,
     "gbGuid": "3030-22760",
@@ -2192,13 +4480,14 @@
   },
   {
     "name": "Milo's Astro Lanes",
-    "id": "n6489",
+    "id": "n64152",
     "igdbId": 3411,
     "gbId": 3405,
     "gbGuid": "3030-3405",
     "tgdbId": 1142,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2211,12 +4500,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Mischief Makers",
-    "id": "n6490",
+    "id": "n64153",
     "igdbId": 3412,
     "gbId": 3849,
     "gbGuid": "3030-3849",
@@ -2240,7 +4541,7 @@
   },
   {
     "name": "Monopoly",
-    "id": "n6491",
+    "id": "n64154",
     "igdbId": 122241,
     "gbId": 2958,
     "gbGuid": "3030-2958",
@@ -2263,8 +4564,60 @@
     "misprintsErrors": []
   },
   {
+    "name": "Monopoly",
+    "id": "n64155",
+    "igdbId": 176024,
+    "gbId": 2958,
+    "gbGuid": "3030-2958",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Monster Truck Madness 64",
+    "id": "n64156",
+    "igdbId": 10615,
+    "gbId": 26441,
+    "gbGuid": "3030-26441",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Morita Shogi 64",
-    "id": "n6492",
+    "id": "n64157",
     "igdbId": 3543,
     "gbId": 68529,
     "gbGuid": "3030-68529",
@@ -2287,8 +4640,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Ms. Pac-Man Maze Madness",
+    "id": "n64158",
+    "igdbId": 3338,
+    "gbId": 3903,
+    "gbGuid": "3030-3903",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Mystical Ninja Starring Goemon",
-    "id": "n6493",
+    "id": "n64159",
     "igdbId": null,
     "gbId": 6243,
     "gbGuid": "3030-6243",
@@ -2312,13 +4691,14 @@
   },
   {
     "name": "NBA Courtside 2 Featuring Kobe Bryant",
-    "id": "n6494",
+    "id": "n64160",
     "igdbId": 3549,
     "gbId": 18984,
     "gbGuid": "3030-18984",
     "tgdbId": 1155,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2331,18 +4711,84 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA Hangtime",
+    "id": "n64161",
+    "igdbId": 3550,
+    "gbId": 10512,
+    "gbGuid": "3030-10512",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA In The Zone 2000",
+    "id": "n64162",
+    "igdbId": 43718,
+    "gbId": 872,
+    "gbGuid": "3030-872",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "NBA Jam 2000",
-    "id": "n6495",
+    "id": "n64163",
     "igdbId": 3552,
     "gbId": 22242,
     "gbGuid": "3030-22242",
     "tgdbId": 1160,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Only the PAL version signifies its Expansion Pak compatibility on the box.)"
     ],
     "isExclusive": [
       {
@@ -2355,18 +4801,303 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Only the PAL version signifies its Expansion Pak compatibility on the box.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA Jam 99",
+    "id": "n64164",
+    "igdbId": 3551,
+    "gbId": 20342,
+    "gbGuid": "3030-20342",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA Live 2000",
+    "id": "n64165",
+    "igdbId": 3553,
+    "gbId": 3771,
+    "gbGuid": "3030-3771",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA Live 99",
+    "id": "n64166",
+    "igdbId": 811,
+    "gbId": 2861,
+    "gbGuid": "3030-2861",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA Showtime: NBA on NBC",
+    "id": "n64167",
+    "igdbId": 3554,
+    "gbId": 4632,
+    "gbGuid": "3030-4632",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA in the Zone '98",
+    "id": "n64168",
+    "igdbId": 43719,
+    "gbId": 11866,
+    "gbGuid": "3030-11866",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NBA in the Zone '99",
+    "id": "n64169",
+    "igdbId": 72053,
+    "gbId": 7202,
+    "gbGuid": "3030-7202",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NFL Blitz 2000",
+    "id": "n64170",
+    "igdbId": 4366,
+    "gbId": 2849,
+    "gbGuid": "3030-2849",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NFL Blitz 2001",
+    "id": "n64171",
+    "igdbId": 47752,
+    "gbId": 12669,
+    "gbGuid": "3030-12669",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NFL Blitz: Special Edition",
+    "id": "n64172",
+    "igdbId": 47757,
+    "gbId": 40658,
+    "gbGuid": "3030-40658",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NFL QB Club 2001",
+    "id": "n64173",
+    "igdbId": 3560,
+    "gbId": 15381,
+    "gbGuid": "3030-15381",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "NFL Quarterback Club '99",
-    "id": "n6496",
+    "id": "n64174",
     "igdbId": 47756,
     "gbId": 18346,
     "gbGuid": "3030-18346",
     "tgdbId": 1166,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
     ],
     "isExclusive": [
       {
@@ -2379,18 +5110,80 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NFL Quarterback Club 2000",
+    "id": "n64175",
+    "igdbId": 3559,
+    "gbId": 7966,
+    "gbGuid": "3030-7966",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "NFL Quarterback Club 98",
-    "id": "n6497",
+    "id": "n64176",
     "igdbId": 3558,
     "gbId": 10536,
     "gbGuid": "3030-10536",
     "tgdbId": 1165,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2403,18 +5196,109 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NHL 99",
+    "id": "n64177",
+    "igdbId": 3561,
+    "gbId": 7774,
+    "gbGuid": "3030-7774",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NHL Blades of Steel '99",
+    "id": "n64178",
+    "igdbId": 3562,
+    "gbId": 5337,
+    "gbGuid": "3030-5337",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "NHL Breakaway 98",
+    "id": "n64179",
+    "igdbId": 3563,
+    "gbId": 19417,
+    "gbGuid": "3030-19417",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "NHL Breakaway 99",
-    "id": "n6498",
+    "id": "n64180",
     "igdbId": 3564,
     "gbId": 27596,
     "gbGuid": "3030-27596",
     "tgdbId": 1172,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2427,12 +5311,50 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Nagano Winter Olympics '98",
+    "id": "n64181",
+    "igdbId": 3546,
+    "gbId": 14096,
+    "gbGuid": "3030-14096",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Neon Genesis Evangelion",
-    "id": "n6499",
+    "id": "n64182",
     "igdbId": 3555,
     "gbId": 24392,
     "gbGuid": "3030-24392",
@@ -2455,8 +5377,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Nuclear Strike 64",
+    "id": "n64183",
+    "igdbId": 47755,
+    "gbId": 11731,
+    "gbGuid": "3030-11731",
+    "details": [
+      "N64 Expansion Pak Game: not required"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Nushi Tsuri 64",
-    "id": "n64100",
+    "id": "n64184",
     "igdbId": 3565,
     "gbId": 22788,
     "gbGuid": "3030-22788",
@@ -2480,7 +5428,7 @@
   },
   {
     "name": "Nushi Tsuri 64: Shiokaze ni Notte",
-    "id": "n64101",
+    "id": "n64185",
     "igdbId": 3566,
     "gbId": 22789,
     "gbGuid": "3030-22789",
@@ -2504,12 +5452,13 @@
   },
   {
     "name": "Olympic Hockey Nagano '98",
-    "id": "n64102",
+    "id": "n64186",
     "igdbId": 3569,
     "gbId": null,
     "gbGuid": null,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2522,12 +5471,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "PD Ultraman Battle Collection 64",
-    "id": "n64103",
+    "id": "n64187",
     "igdbId": 3572,
     "gbId": null,
     "gbGuid": null,
@@ -2550,8 +5511,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "PGA European Tour",
+    "id": "n64188",
+    "igdbId": 176028,
+    "gbId": 47138,
+    "gbGuid": "3030-47138",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Parlor! Pro 64",
-    "id": "n64104",
+    "id": "n64189",
     "igdbId": 3571,
     "gbId": null,
     "gbGuid": null,
@@ -2575,13 +5562,14 @@
   },
   {
     "name": "Penny Racers",
-    "id": "n64105",
+    "id": "n64190",
     "igdbId": 1292,
     "gbId": 30086,
     "gbGuid": "3030-30086",
     "tgdbId": 1179,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2594,19 +5582,33 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Perfect Dark",
-    "id": "n64106",
+    "id": "n64191",
     "igdbId": 1463,
     "gbId": 21256,
     "gbGuid": "3030-21256",
     "tgdbId": 173,
     "details": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: REQUIRED (Required for the single player, co-operative and counter-operative campaigns, as well as most multiplayer features. Enables hi-res mode, which increases resolution to 640×222.)"
     ],
     "isExclusive": [
       {
@@ -2630,13 +5632,35 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: REQUIRED (Required for the single player, co-operative and counter-operative campaigns, as well as most multiplayer features. Enables hi-res mode, which increases resolution to 640×222.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Pilotwings 64",
-    "id": "n64107",
+    "id": "n64192",
     "igdbId": 3573,
     "gbId": 108,
     "gbGuid": "3030-108",
@@ -2670,14 +5694,15 @@
   },
   {
     "name": "Pokemon Stadium",
-    "id": "n64108",
+    "id": "n64193",
     "igdbId": 2289,
     "gbId": 7270,
     "gbGuid": "3030-7270",
     "tgdbId": 38362,
     "details": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2701,13 +5726,24 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Pokémon Snap",
-    "id": "n64109",
+    "id": "n64194",
     "igdbId": 2324,
     "gbId": 10024,
     "gbGuid": "3030-10024",
@@ -2733,13 +5769,15 @@
   },
   {
     "name": "Pokémon Stadium 2",
-    "id": "n64110",
+    "id": "n64195",
     "igdbId": 2290,
     "gbId": 6132,
     "gbGuid": "3030-6132",
     "tgdbId": 392,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Increases resolution to 640×480.)"
     ],
     "isExclusive": [
       {
@@ -2752,12 +5790,61 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Increases resolution to 640×480.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Polaris SnoCross",
+    "id": "n64196",
+    "igdbId": 3575,
+    "gbId": 26585,
+    "gbGuid": "3030-26585",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Power League 64",
-    "id": "n64111",
+    "id": "n64197",
     "igdbId": 3576,
     "gbId": 22791,
     "gbGuid": "3030-22791",
@@ -2780,8 +5867,46 @@
     "misprintsErrors": []
   },
   {
+    "name": "Quake II",
+    "id": "n64198",
+    "igdbId": 286,
+    "gbId": 3207,
+    "gbGuid": "3030-3207",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Uses the Expansion Pak for higher color depth and smoother framerate.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Uses the Expansion Pak for higher color depth and smoother framerate.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Quest 64",
-    "id": "n64112",
+    "id": "n64199",
     "igdbId": 3580,
     "gbId": 4924,
     "gbGuid": "3030-4924",
@@ -2805,7 +5930,7 @@
   },
   {
     "name": "Rakuga Kids",
-    "id": "n64113",
+    "id": "n64200",
     "igdbId": 3581,
     "gbId": 3298,
     "gbGuid": "3030-3298",
@@ -2829,7 +5954,7 @@
   },
   {
     "name": "Rally '99",
-    "id": "n64114",
+    "id": "n64201",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -2852,13 +5977,14 @@
   },
   {
     "name": "Rally Challenge 2000",
-    "id": "n64115",
+    "id": "n64202",
     "igdbId": 3582,
     "gbId": 36714,
     "gbGuid": "3030-36714",
     "tgdbId": 1187,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2871,18 +5997,226 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Rampage 2: Universal Tour",
+    "id": "n64203",
+    "igdbId": 3583,
+    "gbId": 9382,
+    "gbGuid": "3030-9382",
+    "details": [
+      "N64 3 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 3 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Rampage World Tour",
+    "id": "n64204",
+    "igdbId": 3056,
+    "gbId": 12331,
+    "gbGuid": "3030-12331",
+    "details": [
+      "N64 3 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 3 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Rat Attack!",
+    "id": "n64205",
+    "igdbId": 3415,
+    "gbId": 16953,
+    "gbGuid": "3030-16953",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Rayman 2: The Great Escape",
+    "id": "n64206",
+    "igdbId": 843,
+    "gbId": 609,
+    "gbGuid": "3030-609",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 480×360.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 480×360.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Re-Volt",
+    "id": "n64207",
+    "igdbId": 3585,
+    "gbId": 5037,
+    "gbGuid": "3030-5037",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 medium resolution mode.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables a 640x240 medium resolution mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Resident Evil 2",
+    "id": "n64208",
+    "igdbId": 880,
+    "gbId": 9418,
+    "gbGuid": "3030-9418",
+    "details": [
+      "N64 Expansion Pak Game: not required (Increases resolution to 640x480.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Increases resolution to 640x480.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Ridge Racer 64",
+    "id": "n64209",
+    "igdbId": 3588,
+    "gbId": 1880,
+    "gbGuid": "3030-1880",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Road Rash 64",
-    "id": "n64116",
+    "id": "n64210",
     "igdbId": 3589,
     "gbId": 18864,
     "gbGuid": "3030-18864",
     "tgdbId": 962,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (The Expansion Pak increases the framerate from 30 Hz to 60 Hz.)"
     ],
     "isExclusive": [
       {
@@ -2895,12 +6229,61 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak increases the framerate from 30 Hz to 60 Hz.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Roadsters",
+    "id": "n64211",
+    "igdbId": 3590,
+    "gbId": 25254,
+    "gbGuid": "3030-25254",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Robopon 64: Robot Ponkottsu 64",
-    "id": "n64117",
+    "id": "n64212",
     "igdbId": 3591,
     "gbId": null,
     "gbGuid": null,
@@ -2924,7 +6307,7 @@
   },
   {
     "name": "Robotech: Crystal Dreams",
-    "id": "n64118",
+    "id": "n64213",
     "igdbId": 44035,
     "gbId": null,
     "gbGuid": null,
@@ -2948,7 +6331,7 @@
   },
   {
     "name": "Rocket: Robot on Wheels",
-    "id": "n64119",
+    "id": "n64214",
     "igdbId": 2644,
     "gbId": 7804,
     "gbGuid": "3030-7804",
@@ -2971,14 +6354,41 @@
     "misprintsErrors": []
   },
   {
+    "name": "Rugrats in Paris: The Movie",
+    "id": "n64215",
+    "igdbId": 2792,
+    "gbId": 8046,
+    "gbGuid": "3030-8046",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Rugrats: Scavenger Hunt",
-    "id": "n64120",
+    "id": "n64216",
     "igdbId": 2786,
     "gbId": 21658,
     "gbGuid": "3030-21658",
     "tgdbId": 1196,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -2991,12 +6401,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Rush 2: Extreme Racing USA",
-    "id": "n64121",
+    "id": "n64217",
     "igdbId": 3593,
     "gbId": 1221,
     "gbGuid": "3030-1221",
@@ -3019,8 +6441,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "S.C.A.R.S.",
+    "id": "n64218",
+    "igdbId": 3341,
+    "gbId": 7156,
+    "gbGuid": "3030-7156",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Saikyou Habu Shogi",
-    "id": "n64122",
+    "id": "n64219",
     "igdbId": null,
     "gbId": 33848,
     "gbGuid": "3030-33848",
@@ -3043,8 +6491,72 @@
     "misprintsErrors": []
   },
   {
+    "name": "San Francisco Rush 2049",
+    "id": "n64220",
+    "igdbId": 3596,
+    "gbId": 18834,
+    "gbGuid": "3030-18834",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (The Expansion Pak improves performance and visual effects, and is required for Track 6, the Advanced Circuit, changeable rims, and for music to play during Arcade races.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak improves performance and visual effects, and is required for Track 6, the Advanced Circuit, changeable rims, and for music to play during Arcade races.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Shadow Man",
+    "id": "n64221",
+    "igdbId": 3598,
+    "gbId": 10746,
+    "gbGuid": "3030-10746",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Shadowgate 64: Trials of the Four Towers",
-    "id": "n64123",
+    "id": "n64222",
     "igdbId": 3600,
     "gbId": 1617,
     "gbGuid": "3030-1617",
@@ -3068,7 +6580,7 @@
   },
   {
     "name": "Shiren the Wanderer 2",
-    "id": "n64124",
+    "id": "n64223",
     "igdbId": 67376,
     "gbId": null,
     "gbGuid": null,
@@ -3091,18 +6603,30 @@
   },
   {
     "name": "Snowboard Kids",
-    "id": "n64125",
+    "id": "n64224",
     "igdbId": 3342,
     "gbId": 18062,
     "gbGuid": "3030-18062",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
     "special": [
       {
         "value": "Nintendo 64 Player's Choice",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 4 player game",
         "forPlatform": {
           "name": "Nintendo 64",
           "id": "ccl3",
@@ -3117,13 +6641,14 @@
   },
   {
     "name": "Snowboard Kids 2",
-    "id": "n64126",
+    "id": "n64225",
     "igdbId": 3343,
     "gbId": 18426,
     "gbGuid": "3030-18426",
     "tgdbId": 1203,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3136,23 +6661,215 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "South Park",
+    "id": "n64226",
+    "igdbId": 1257,
+    "gbId": 8845,
+    "gbGuid": "3030-8845",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, increases frame rate in lo-res mode.Enables hi-res mode, increases frame rate in lo-res mode.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, increases frame rate in lo-res mode.Enables hi-res mode, increases frame rate in lo-res mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "South Park Rally",
+    "id": "n64227",
+    "igdbId": 1259,
+    "gbId": 10325,
+    "gbGuid": "3030-10325",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "South Park: Chef's Luv Shack",
+    "id": "n64228",
+    "igdbId": 1258,
+    "gbId": 2127,
+    "gbGuid": "3030-2127",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Spider-Man",
+    "id": "n64229",
+    "igdbId": 3603,
+    "gbId": 21586,
+    "gbGuid": "3030-21586",
+    "details": [
+      "N64 Expansion Pak Game: not required (Improves performance)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Improves performance)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Star Fox 64",
-    "id": "n64127",
+    "id": "n64230",
     "igdbId": 2591,
     "gbId": 19203,
     "gbGuid": "3030-19203",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
     "special": [
       {
         "value": "Nintendo 64 Player's Choice",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Star Wars: Episode I - Battle for Naboo",
+    "id": "n64231",
+    "igdbId": 156,
+    "gbId": 8114,
+    "gbGuid": "3030-8114",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Star Wars: Episode I - Racer",
+    "id": "n64232",
+    "igdbId": 154,
+    "gbId": 13526,
+    "gbGuid": "3030-13526",
+    "details": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480, as well as increasing the framerate in lo-res mode for smoother gameplay.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480, as well as increasing the framerate in lo-res mode for smoother gameplay.)",
         "forPlatform": {
           "name": "Nintendo 64",
           "id": "ccl3",
@@ -3167,12 +6884,13 @@
   },
   {
     "name": "Star Wars: Rogue Squadron",
-    "id": "n64128",
+    "id": "n64233",
     "igdbId": 163,
     "gbId": 4011,
     "gbGuid": "3030-4011",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440.)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -3187,13 +6905,24 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Star Wars: Shadows of the Empire",
-    "id": "n64129",
+    "id": "n64234",
     "igdbId": 164,
     "gbId": 12139,
     "gbGuid": "3030-12139",
@@ -3218,8 +6947,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "StarCraft 64",
+    "id": "n64235",
+    "igdbId": 9067,
+    "gbId": 13062,
+    "gbGuid": "3030-13062",
+    "details": [
+      "N64 Expansion Pak Game: not required (The Expansion Pak is required for the Brood War missions.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (The Expansion Pak is required for the Brood War missions.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Stunt Racer 64",
-    "id": "n64130",
+    "id": "n64236",
     "igdbId": 3606,
     "gbId": 12060,
     "gbGuid": "3030-12060",
@@ -3243,7 +6998,7 @@
   },
   {
     "name": "Super B-Daman Battle Phoenix 64",
-    "id": "n64131",
+    "id": "n64237",
     "igdbId": 3607,
     "gbId": 30959,
     "gbGuid": "3030-30959",
@@ -3266,8 +7021,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "Super Bowling",
+    "id": "n64238",
+    "igdbId": 3344,
+    "gbId": 5847,
+    "gbGuid": "3030-5847",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Super Mario 64",
-    "id": "n64132",
+    "id": "n64239",
     "igdbId": 1074,
     "gbId": 2931,
     "gbGuid": "3030-2931",
@@ -3291,7 +7072,7 @@
   },
   {
     "name": "Super Mario 64",
-    "id": "n64133",
+    "id": "n64240",
     "igdbId": 132642,
     "gbId": 2931,
     "gbGuid": "3030-2931",
@@ -3317,7 +7098,7 @@
   },
   {
     "name": "Super Robot Spirits",
-    "id": "n64134",
+    "id": "n64241",
     "igdbId": 3608,
     "gbId": null,
     "gbGuid": null,
@@ -3341,7 +7122,7 @@
   },
   {
     "name": "Super Robot Wars 64",
-    "id": "n64135",
+    "id": "n64242",
     "igdbId": 3609,
     "gbId": 23088,
     "gbGuid": "3030-23088",
@@ -3364,12 +7145,13 @@
   },
   {
     "name": "Super Smash Bros.",
-    "id": "n64136",
+    "id": "n64243",
     "igdbId": 1626,
     "gbId": 19125,
     "gbGuid": "3030-19125",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -3384,19 +7166,31 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Superman",
-    "id": "n64137",
+    "id": "n64244",
     "igdbId": 3005,
     "gbId": 20702,
     "gbGuid": "3030-20702",
     "tgdbId": 2790,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3409,12 +7203,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Tetris 64",
-    "id": "n64138",
+    "id": "n64245",
     "igdbId": 3346,
     "gbId": 26861,
     "gbGuid": "3030-26861",
@@ -3438,7 +7244,7 @@
   },
   {
     "name": "Tetrisphere",
-    "id": "n64139",
+    "id": "n64246",
     "igdbId": 3612,
     "gbId": 3049,
     "gbGuid": "3030-3049",
@@ -3461,8 +7267,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "The Legend of Zelda: Majora's Mask",
+    "id": "n64247",
+    "igdbId": 1030,
+    "gbId": 13594,
+    "gbGuid": "3030-13594",
+    "details": [
+      "N64 Expansion Pak Game: REQUIRED (Used to enhance graphics such as increased texture detail, removal of fog and increase number of on-screen models as well as effects.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: REQUIRED (Used to enhance graphics such as increased texture detail, removal of fog and increase number of on-screen models as well as effects.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "The Legend of Zelda: Ocarina of Time",
-    "id": "n64140",
+    "id": "n64248",
     "igdbId": 1029,
     "gbId": 12572,
     "gbGuid": "3030-12572",
@@ -3488,13 +7320,14 @@
   },
   {
     "name": "The New Tetris",
-    "id": "n64141",
+    "id": "n64249",
     "igdbId": 3339,
     "gbId": 1737,
     "gbGuid": "3030-1737",
     "tgdbId": 1161,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3507,18 +7340,109 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Tony Hawk's Pro Skater",
+    "id": "n64250",
+    "igdbId": 210451,
+    "gbId": 7236,
+    "gbGuid": "3030-7236",
+    "details": [
+      "N64 Expansion Pak Game: not required (Improves performance and adds a women's face on the back of the boxes in the Mall.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Improves performance and adds a women's face on the back of the boxes in the Mall.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 2",
+    "id": "n64251",
+    "igdbId": 913,
+    "gbId": 990,
+    "gbGuid": "3030-990",
+    "details": [
+      "N64 Expansion Pak Game: not required (Improves performance)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Improves performance)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3",
+    "id": "n64252",
+    "igdbId": 194213,
+    "gbId": 5688,
+    "gbGuid": "3030-5688",
+    "details": [
+      "N64 Expansion Pak Game: not required (Improves performance)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required (Improves performance)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Top Gear Hyper-Bike",
-    "id": "n64142",
+    "id": "n64253",
     "igdbId": 3615,
     "gbId": 9586,
     "gbGuid": "3030-9586",
     "tgdbId": 1220,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 Expansion Pak Game: not required"
     ],
     "isExclusive": [
       {
@@ -3531,18 +7455,32 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Top Gear Overdrive",
-    "id": "n64143",
+    "id": "n64254",
     "igdbId": 3616,
     "gbId": 15563,
     "gbGuid": "3030-15563",
     "tgdbId": 1221,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables hi-res option, which increases resolution to 640x240)"
     ],
     "isExclusive": [
       {
@@ -3555,18 +7493,43 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables hi-res option, which increases resolution to 640x240)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Top Gear Rally 2",
-    "id": "n64144",
+    "id": "n64255",
     "igdbId": 3618,
     "gbId": 9706,
     "gbGuid": "3030-9706",
     "tgdbId": 1222,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
     ],
     "isExclusive": [
       {
@@ -3579,12 +7542,35 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "True Golf Classics: Waialae Country Club",
-    "id": "n64145",
+    "id": "n64256",
     "igdbId": 3627,
     "gbId": 22798,
     "gbGuid": "3030-22798",
@@ -3608,12 +7594,14 @@
   },
   {
     "name": "Turok 2: Seeds of Evil",
-    "id": "n64146",
+    "id": "n64257",
     "igdbId": 1326,
     "gbId": 7052,
     "gbGuid": "3030-7052",
     "details": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increases resolution to 480x360 or 480x232.)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -3628,19 +7616,43 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increases resolution to 480x360 or 480x232.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Turok 3: Shadow of Oblivion",
-    "id": "n64147",
+    "id": "n64258",
     "igdbId": 1328,
     "gbId": 10047,
     "gbGuid": "3030-10047",
     "tgdbId": 1226,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increase resolution to 480x360 or 480x232.)"
     ],
     "isExclusive": [
       {
@@ -3653,12 +7665,35 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increase resolution to 480x360 or 480x232.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Turok: Dinosaur Hunter",
-    "id": "n64148",
+    "id": "n64259",
     "igdbId": 1321,
     "gbId": 14614,
     "gbGuid": "3030-14614",
@@ -3684,13 +7719,15 @@
   },
   {
     "name": "Turok: Rage Wars",
-    "id": "n64149",
+    "id": "n64260",
     "igdbId": 1327,
     "gbId": 7962,
     "gbGuid": "3030-7962",
     "tgdbId": 408,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increase resolution to 480x360 or 480x232.)"
     ],
     "isExclusive": [
       {
@@ -3703,12 +7740,35 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increase resolution to 480x360 or 480x232.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Twisted Edge Extreme Snowboarding",
-    "id": "n64150",
+    "id": "n64261",
     "igdbId": 3622,
     "gbId": 565,
     "gbGuid": "3030-565",
@@ -3732,7 +7792,7 @@
   },
   {
     "name": "Ucchannanchan no Honō no Challenger: Denryū Iraira Bō",
-    "id": "n64151",
+    "id": "n64262",
     "igdbId": 3623,
     "gbId": 33849,
     "gbGuid": "3030-33849",
@@ -3754,14 +7814,91 @@
     "misprintsErrors": []
   },
   {
+    "name": "Vigilante 8",
+    "id": "n64263",
+    "igdbId": 3332,
+    "gbId": 13200,
+    "gbGuid": "3030-13200",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required(Enables a 480x360 hi-res mode, and a hidden 640x480 mode.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required(Enables a 480x360 hi-res mode, and a hidden 640x480 mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Vigilante 8: 2nd Offense",
+    "id": "n64264",
+    "igdbId": 3333,
+    "gbId": 7468,
+    "gbGuid": "3030-7468",
+    "details": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 480x360 hi-res mode, and a hidden 640x480 mode.)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required (Enables a 480x360 hi-res mode, and a hidden 640x480 mode.)",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Virtual Chess 64",
-    "id": "n64152",
+    "id": "n64265",
     "igdbId": 3334,
     "gbId": 14771,
     "gbGuid": "3030-14771",
     "tgdbId": 1228,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3774,12 +7911,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Virtual Pool 64",
-    "id": "n64153",
+    "id": "n64266",
     "igdbId": 3624,
     "gbId": 22795,
     "gbGuid": "3030-22795",
@@ -3803,13 +7952,14 @@
   },
   {
     "name": "Virtual Pro Wrestling 2: Oudou Keishou",
-    "id": "n64154",
+    "id": "n64267",
     "igdbId": 3625,
     "gbId": 23213,
     "gbGuid": "3030-23213",
     "tgdbId": 31085,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3822,18 +7972,31 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Virtual Pro Wrestling 64",
-    "id": "n64155",
+    "id": "n64268",
     "igdbId": 3626,
     "gbId": 23212,
     "gbGuid": "3030-23212",
     "tgdbId": 31084,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3846,19 +8009,84 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WCW Mayhem",
+    "id": "n64269",
+    "igdbId": 3633,
+    "gbId": 1204,
+    "gbGuid": "3030-1204",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WCW Nitro",
+    "id": "n64270",
+    "igdbId": 3634,
+    "gbId": 7908,
+    "gbGuid": "3030-7908",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "WCW Vs. nWo: World Tour",
-    "id": "n64156",
+    "id": "n64271",
     "igdbId": 3635,
     "gbId": 14786,
     "gbGuid": "3030-14786",
     "tgdbId": 1235,
     "details": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3882,19 +8110,31 @@
           "gbGuid": "3045-43",
           "tgdbId": 3
         }
+      },
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "WCW/nWo Revenge",
-    "id": "n64157",
+    "id": "n64272",
     "igdbId": 3636,
     "gbId": 18320,
     "gbGuid": "3030-18320",
     "tgdbId": 1236,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3907,18 +8147,57 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WWF Attitude",
+    "id": "n64273",
+    "igdbId": 3643,
+    "gbId": 16435,
+    "gbGuid": "3030-16435",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "WWF No Mercy",
-    "id": "n64158",
+    "id": "n64274",
     "igdbId": 3644,
     "gbId": 11394,
     "gbGuid": "3030-11394",
     "tgdbId": 416,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3931,12 +8210,76 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WWF War Zone",
+    "id": "n64275",
+    "igdbId": 3645,
+    "gbId": 18801,
+    "gbGuid": "3030-18801",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WWF WrestleMania 2000",
+    "id": "n64276",
+    "igdbId": 3646,
+    "gbId": 3667,
+    "gbGuid": "3030-3667",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Wave Race 64",
-    "id": "n64159",
+    "id": "n64277",
     "igdbId": 3629,
     "gbId": 11969,
     "gbGuid": "3030-11969",
@@ -3961,14 +8304,119 @@
     "misprintsErrors": []
   },
   {
+    "name": "Wayne Gretzky's 3D Hockey",
+    "id": "n64278",
+    "igdbId": 3630,
+    "gbId": 20062,
+    "gbGuid": "3030-20062",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Wayne Gretzky's 3D Hockey '98",
+    "id": "n64279",
+    "igdbId": 3631,
+    "gbId": 22796,
+    "gbGuid": "3030-22796",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Wheel of Fortune",
+    "id": "n64280",
+    "igdbId": 142026,
+    "gbId": 25501,
+    "gbGuid": "3030-25501",
+    "details": [
+      "N64 3 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 3 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WinBack: Covert Operations",
+    "id": "n64281",
+    "igdbId": 47680,
+    "gbId": 15774,
+    "gbGuid": "3030-15774",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Wipeout 64",
-    "id": "n64160",
+    "id": "n64282",
     "igdbId": 1539,
     "gbId": 12064,
     "gbGuid": "3030-12064",
     "tgdbId": 1238,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game"
     ],
     "isExclusive": [
       {
@@ -3981,12 +8429,24 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Wonder Project J2",
-    "id": "n64161",
+    "id": "n64283",
     "igdbId": 47748,
     "gbId": 29874,
     "gbGuid": "3030-29874",
@@ -4009,8 +8469,34 @@
     "misprintsErrors": []
   },
   {
+    "name": "World Cup 98",
+    "id": "n64284",
+    "igdbId": 3641,
+    "gbId": 12771,
+    "gbGuid": "3030-12771",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "World Driver Championship",
-    "id": "n64162",
+    "id": "n64285",
     "igdbId": 3642,
     "gbId": 10150,
     "gbGuid": "3030-10150",
@@ -4033,14 +8519,68 @@
     "misprintsErrors": []
   },
   {
+    "name": "World League Soccer 2000",
+    "id": "n64286",
+    "igdbId": 72820,
+    "gbId": 22797,
+    "gbGuid": "3030-22797",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Worms Armageddon",
+    "id": "n64287",
+    "igdbId": 948,
+    "gbId": 17255,
+    "gbGuid": "3030-17255",
+    "details": [
+      "N64 4 player game"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Xena: Warrior Princess - The Talisman of Fate",
-    "id": "n64163",
+    "id": "n64288",
     "igdbId": 3647,
     "gbId": 8939,
     "gbGuid": "3030-8939",
     "tgdbId": 418,
     "details": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required"
     ],
     "isExclusive": [
       {
@@ -4053,12 +8593,35 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "N64 4 player game",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      },
+      {
+        "value": "N64 Expansion Pak Game: not required",
+        "forPlatform": {
+          "name": "Nintendo 64",
+          "id": "ccl3",
+          "igdbId": 4,
+          "gbId": 43,
+          "gbGuid": "3045-43",
+          "tgdbId": 3
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Yoshi's Story",
-    "id": "n64164",
+    "id": "n64289",
     "igdbId": 3213,
     "gbId": 15207,
     "gbGuid": "3030-15207",
@@ -4084,7 +8647,7 @@
   },
   {
     "name": "Zoor: Majuu Tsukai Densetsu",
-    "id": "n64165",
+    "id": "n64290",
     "igdbId": 3650,
     "gbId": null,
     "gbGuid": null,

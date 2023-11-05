@@ -57,7 +57,9 @@ export const platformLogos: { [key: string]: string } = {
   'Xbox One': 'logos/Xbox_one_logo.svg',
   'Game.com': 'logos/Game_com_gif_logo.svg',
   'Atari Lynx': 'logos/Atari_Lynx_logo.svg',
-  'PlayStation Vita': 'logos/PlayStation_Vita_logo.svg'
+  'PlayStation Vita': 'logos/PlayStation_Vita_logo.svg',
+  'Retron 77': 'logos/hyperkin77.png',
+  'RetroUSB AVS': 'logos/retrousbAVS.svg'
 };
 
 const platformImages = {
@@ -181,6 +183,7 @@ export const canBePlayedOn = (consoleArr: IConsoleArr[] | undefined): LogoReturn
     switch (con.consoleId) {
       case 59: // Atari 2600
         acc.push({ name: 'Atari 7800', img: platformLogos['Atari 7800'] });
+        acc.push({ name: 'Retron 77', img: platformLogos['Retron 77'] });
         break;
       case 33: // Game Boy
         acc.push({ name: 'Game Boy Color', img: platformLogos['Game Boy Color'] });
@@ -221,6 +224,9 @@ export const canBePlayedOn = (consoleArr: IConsoleArr[] | undefined): LogoReturn
         break;
       case 5: // Nintendo Wii
         acc.push({ name: 'Nintendo Wii U', img: platformLogos['Nintendo Wii U'] });
+        break;
+      case 18:
+        acc.push({ name: 'RetroUSB AVS', img: platformLogos['RetroUSB AVS'] });
         break;
       default:
         break;

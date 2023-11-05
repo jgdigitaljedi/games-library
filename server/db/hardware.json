@@ -3,10 +3,7 @@
     "name": "Composite to HDMI upscaler",
     "image": "https://images-na.ssl-images-amazon.com/images/I/61UlSr7PEGL._SL1001_.jpg",
     "type": "Upscaler",
-    "forConsoles": [
-      { "id": 18, "name": "Nintendo Entertainment System (NES)" },
-      { "id": "a1e262480def409488cff0077ab75eda", "name": "Atari Flashback" }
-    ],
+    "forConsoles": [],
     "pricePaid": "20",
     "purchaseDate": "2017-03-31",
     "howAcquired": "Amazon",
@@ -22,10 +19,7 @@
     "name": "S-Video to HDMI Upscaler",
     "image": "https://images-na.ssl-images-amazon.com/images/I/81oll64nYuL._SL1500_.jpg",
     "type": "Upscaler",
-    "forConsoles": [
-      { "id": 21, "name": "Nintendo GameCube" },
-      { "id": 4, "name": "Nintendo 64" }
-    ],
+    "forConsoles": [],
     "pricePaid": "36",
     "purchaseDate": "2017-03-15",
     "howAcquired": "Amazon",
@@ -41,12 +35,7 @@
     "name": "SCART to HDMI Upscaler",
     "image": "https://images-na.ssl-images-amazon.com/images/I/41bsO9MXl4L.jpg",
     "type": "Upscaler",
-    "forConsoles": [
-      { "id": 30, "name": "Sega 32X" },
-      { "id": 29, "name": "Sega Mega Drive/Genesis" },
-      { "id": 19, "name": "Super Nintendo Entertainment System (SNES)" },
-      { "id": 32, "name": "Sega Saturn" }
-    ],
+    "forConsoles": [],
     "pricePaid": "33",
     "purchaseDate": "2016-11-20",
     "howAcquired": "Amazon",
@@ -61,10 +50,7 @@
     "name": "Component to HDMI Upscaler",
     "image": "https://images-na.ssl-images-amazon.com/images/I/51X87uknbaL._SL1000_.jpg",
     "type": "Upscaler",
-    "forConsoles": [
-      { "id": 8, "name": "PlayStation 2" },
-      { "id": 11, "name": "Xbox" }
-    ],
+    "forConsoles": [],
     "pricePaid": "30",
     "purchaseDate": "2016-11-30",
     "howAcquired": "Amazon",
@@ -79,7 +65,7 @@
     "name": "VGA to HDMI Upscaler",
     "image": "https://images-na.ssl-images-amazon.com/images/I/514UZLF6V3L._SL1024_.jpg",
     "type": "Upscaler",
-    "forConsoles": [{ "id": 23, "name": "Dreamcast" }],
+    "forConsoles": [],
     "pricePaid": "33",
     "purchaseDate": "2016-11-30",
     "howAcquired": "Amazon",
@@ -110,15 +96,7 @@
     "name": "4-port HDMI Switch",
     "image": "https://images-na.ssl-images-amazon.com/images/I/719iPHHsTDL._SL1500_.jpg",
     "type": "Switcher",
-    "forConsoles": [
-      { "id": 4, "name": "Nintendo 64" },
-      { "id": 18, "name": "Nintendo Entertainment System (NES)" },
-      { "id": 21, "name": "Nintendo GameCube" },
-      { "id": 30, "name": "Sega 32X" },
-      { "id": 29, "name": "Sega Mega Drive/Genesis" },
-      { "id": 19, "name": "Super Nintendo Entertainment System (SNES)" },
-      { "id": 32, "name": "Sega Saturn" }
-    ],
+    "forConsoles": [],
     "pricePaid": "40",
     "purchaseDate": "2016-12-26",
     "howAcquired": "Amazon",
@@ -133,12 +111,7 @@
     "name": "3-port SCART Switch",
     "image": "https://images-na.ssl-images-amazon.com/images/I/71bcOPi5WUL._SL1500_.jpg",
     "type": "Switcher",
-    "forConsoles": [
-      { "id": 30, "name": "Sega 32X" },
-      { "id": 29, "name": "Sega Mega Drive/Genesis" },
-      { "id": 32, "name": "Sega Saturn" },
-      { "id": 19, "name": "Super Nintendo Entertainment System (SNES)" }
-    ],
+    "forConsoles": [],
     "pricePaid": "52",
     "purchaseDate": "2017-04-17",
     "howAcquired": "Amazon",
@@ -153,10 +126,7 @@
     "name": "4-port S-Video Switch",
     "image": "https://images-na.ssl-images-amazon.com/images/I/51UfRNpcWWL._SL1000_.jpg",
     "type": "Switcher",
-    "forConsoles": [
-      { "id": 21, "name": "Nintendo GameCube" },
-      { "id": 4, "name": "Nintendo 64" }
-    ],
+    "forConsoles": [],
     "pricePaid": "20",
     "purchaseDate": "2017-04-04",
     "howAcquired": "Amazon",
@@ -171,10 +141,7 @@
     "name": "8-port RCA Switch",
     "image": "https://images-na.ssl-images-amazon.com/images/I/51uqtqUpX9L._SL1000_.jpg",
     "type": "Switcher",
-    "forConsoles": [
-      { "id": 18, "name": "Nintendo Entertainment System (NES)" },
-      { "id": "a1e262480def409488cff0077ab75eda", "name": "Atari Flashback" }
-    ],
+    "forConsoles": [],
     "pricePaid": "23",
     "purchaseDate": "2015-02-26",
     "howAcquired": "Amazon",
@@ -190,23 +157,7 @@
     "name": "8-port HDMI Switch",
     "image": "https://images.monoprice.com/productlargeimages/40671.jpg",
     "type": "Switcher",
-    "forConsoles": [
-      { "id": "a1e262480def409488cff0077ab75eda", "name": "Atari Flashback" },
-      { "id": 23, "name": "Dreamcast" },
-      { "id": 4, "name": "Nintendo 64" },
-      { "id": 18, "name": "Nintendo Entertainment System (NES)" },
-      { "id": 21, "name": "Nintendo GameCube" },
-      { "id": 130, "name": "Nintendo Switch" },
-      { "id": 8, "name": "PlayStation 2" },
-      { "id": 9, "name": "PlayStation 3" },
-      { "id": 30, "name": "Sega 32X" },
-      { "id": 41, "name": "Wii U" },
-      { "id": 32, "name": "Sega Saturn" },
-      { "id": 29, "name": "Sega Mega Drive/Genesis" },
-      { "id": 19, "name": "Super Nintendo Entertainment System (SNES)" },
-      { "id": 11, "name": "Xbox" },
-      { "id": 49, "name": "Xbox One" }
-    ],
+    "forConsoles": [],
     "pricePaid": "100",
     "purchaseDate": "2018-12-25",
     "howAcquired": "Amazon",
@@ -232,14 +183,15 @@
       { "id": 11, "name": "Xbox" },
       { "id": 78, "name": "Sega CD" },
       { "id": 62, "name": "Atari Jaguar" },
-      { "id": 64, "name": "Sega Master System" }
+      { "id": 64, "name": "Sega Master System" },
+      { "id": 5, "name": "Nintendo Wii" }
     ],
     "pricePaid": "335",
     "purchaseDate": "2023-11-04",
     "howAcquired": "RetroTINK website",
     "company": "RetroTINK",
     "quantity": 1,
-    "notes": null,
+    "notes": "Everything hooked up via component and SCART switchers",
     "createdAt": "11/05/2023 05:10 am",
     "updatedAt": "11/05/2023 05:10 am",
     "_id": "7a8c6785ebba43a48ebc5070f10fcef5"
@@ -260,7 +212,7 @@
     "howAcquired": "Amazon",
     "company": "Marseille",
     "quantity": 1,
-    "notes": null,
+    "notes": "Everything hooked up via 5-port HDMI switcher.",
     "createdAt": "11/05/2023 05:12 am",
     "updatedAt": "11/05/2023 05:12 am",
     "_id": "7a8c6785ebba43a48ebc5070f10fceg6"

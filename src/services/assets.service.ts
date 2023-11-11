@@ -225,7 +225,7 @@ export const canBePlayedOn = (consoleArr: IConsoleArr[] | undefined): LogoReturn
       case 5: // Nintendo Wii
         acc.push({ name: 'Nintendo Wii U', img: platformLogos['Nintendo Wii U'] });
         break;
-      case 18:
+      case 18: // NES
         acc.push({ name: 'RetroUSB AVS', img: platformLogos['RetroUSB AVS'] });
         break;
       default:

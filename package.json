@@ -4,7 +4,7 @@
   "homepage": "http://ghome.help/gameslib",
   "scripts": {
     "start": "npm run start:server & npm run start:ui",
-    "start:ui": "npm run watch-css & node scripts/start.js",
+    "start:ui": "npm run watch-css & BROWSER=none node scripts/start.js",
     "start:server": "NODE_ENV=development nodemon server/server.js --ignore 'server/db/*'",
     "build": "NODE_ENV=production & node-sass-chokidar src/App.scss -o src/ & node scripts/build.js",
     "build-css": "node-sass-chokidar src/App.scss -o src/",

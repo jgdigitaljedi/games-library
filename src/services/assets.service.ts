@@ -21,6 +21,7 @@ export const platformLogos: { [key: string]: string } = {
   Intellivision: 'logos/Intellivision-shadow-logo.svg',
   'Microsoft Xbox 360': 'logos/Xbox_logo_2012_cropped.svg',
   'Microsoft Xbox One': 'logos/Xbox_one_logo.svg',
+  'Neo Geo AES': 'logos/Neo_geo_aes-logo.svg',
   'Nintendo 3DS': 'logos/Nintendo_3ds_logo.svg',
   'Nintendo 64': 'logos/Nintendo_64_Logo.svg',
   'Nintendo DS': 'logos/Nintendo_DS_Lite_logo.svg',
@@ -31,6 +32,7 @@ export const platformLogos: { [key: string]: string } = {
   'Nintendo GameCube': 'logos/GC_Logo.svg',
   'Nintendo GameCube (Game Boy Player)': 'logos/Game_Boy_Player_logo.svg',
   'Nintendo Switch': 'logos/Nintendo_Switch_Logo.svg',
+  'Nintendo Switch 2': 'logos/Nintendo_Switch_2_Logo.svg',
   'Nintendo Wii U': 'logos/WiiU.svg',
   'PC (Microsoft Windows)': 'logos/windows.png',
   PlayStation: 'logos/Playstation_logo_colour.svg',
@@ -49,6 +51,7 @@ export const platformLogos: { [key: string]: string } = {
   'Super Game Boy': 'logos/SuperGameBoy.svg',
   'Super Nintendo Entertainment System (SNES)': 'logos/SNES_logo.svg',
   'TurboGrafx-16/PC Engine': 'logos/TurboGrafx16logo.jpg',
+  'TurboGrafx-16/PC Engine CD': 'logos/NEC_TurboGrafx-CD.svg',
   'Virtual Boy': 'logos/Virtualboy_logo.svg',
   Wii: 'logos/Wii.svg',
   'Wii U': 'logos/WiiU.svg',
@@ -78,6 +81,7 @@ const platformImages = {
   Intellivision: 'consolePics/intellivision.jpg',
   'Microsoft Xbox 360': 'consolePics/xbox360e.png',
   'Microsoft Xbox One': 'consolePics/xboxOne.jpg',
+  'Neo Geo AES': 'consolePics/neo-geo-aes.jpg',
   'Nintendo 3DS': 'consolePics/nintendo_3ds_xl.jpg',
   'Nintendo 3DS Zelda': 'consolePics/Zelda-3DS.jpg',
   'Nintendo 64 Japanese': 'consolePics/n64.jpg',
@@ -91,6 +95,7 @@ const platformImages = {
   'Nintendo GameCube': 'consolePics/gamecube.jpg',
   'Nintendo GameCube Indigo': 'consolePics/gamecube_indigo.jpg',
   'Nintendo Switch': 'consolePics/nintendo-switch.png',
+  'Nintendo Switch 2': 'consolePics/Nintendo_Switch_2.jpg',
   'Nintendo Wii U': 'consolePics/wiiu.png',
   'PC (Microsoft Windows)': 'logos/windows.png',
   PlayStation: 'consolePics/sony_playstation.jpg',
@@ -109,6 +114,7 @@ const platformImages = {
   'Sony PlayStation 3': 'consolePics/ps3.jpg',
   'Super Nintendo Entertainment System (SNES)': 'consolePics/SNES_US.jpg',
   'TurboGrafx-16/PC Engine': 'consolePics/turbografx-16.jpg',
+  'Turbografx-16/PC Engine CD': 'consolePics/Turbografx_CD.jpg',
   'Virtual Boy': 'consolePics/virtual-boy.jpg',
   Wii: 'consolePics/wii.jpg',
   'Wii U': 'consolePics/wiiu.png',
@@ -227,6 +233,9 @@ export const canBePlayedOn = (consoleArr: IConsoleArr[] | undefined): LogoReturn
         break;
       case 18: // NES
         acc.push({ name: 'RetroUSB AVS', img: platformLogos['RetroUSB AVS'] });
+        break;
+      case 130: // Nintendo Switch
+        acc.push({ name: 'Nintendo Switch 2', img: platformLogos['Nintendo Switch 2']});
         break;
       default:
         break;

@@ -163,6 +163,7 @@ export const consoleGenerationYears = {
   6: '1998 - 2013',
   7: '2005 - 2017',
   8: '2012 - 2020',
+  9: '2020 - ??',
   UNKNOWN: '???'
 };
 
@@ -175,6 +176,7 @@ export const consoleGenerationNames = {
   6: 'Sixth Gen',
   7: 'Seventh Gen',
   8: 'Eighth Gen',
+  9: 'Nineth Gen',
   UNKNOWN: 'UNKNOWN'
 };
 
@@ -302,6 +304,22 @@ export const gameCaseSubTypes = [
     original: true,
     none: false,
     consoleIds: [46]
+  },
+  {
+    label: 'Neo Geo AES Case',
+    value: 'neogeo',
+    custom: false,
+    original: true,
+    none: false,
+    consoleIds: [80]
+  },
+  {
+    label: 'Nintendo Switch 2 Case',
+    value: 'switch2',
+    custom: false,
+    original: true,
+    none: false,
+    consoleIds: [508]
   }
 ];
 

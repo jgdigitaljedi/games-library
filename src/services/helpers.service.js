@@ -262,7 +262,7 @@ export const gameCaseSubTypes = [
     none: true,
     consoleIds: [
       50, 59, 66, 60, 62, 23, 33, 24, 22, 67, 37, 4, 20, 18, 21, 130, 6, 7, 8, 9, 48, 38, 30, 78,
-      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87, 46, 379, 61, 12
+      35, 64, 29, 32, 19, 86, 5, 41, 11, 12, 49, 87, 46, 379, 61, 12, 508, 80
     ]
   },
   {
@@ -340,7 +340,7 @@ export const gameMediaType = [
     ]
   },
   { label: 'Disc', value: 'disc', consoleIds: [50, 21, 7, 8, 9, 48, 78, 32, 5, 41, 11, 12, 49] },
-  { label: 'Card', value: 'card', consoleIds: [130, 64, 86, 46] },
+  { label: 'Card', value: 'card', consoleIds: [130, 64, 86, 46, 508] },
   { label: 'UMD', value: 'umd', consoleIds: [38] },
   { label: 'Digital', value: 'digital', consoleIds: [37, 20, 6, 8, 9, 48, 38, 5, 41, 11, 12, 49] },
   {

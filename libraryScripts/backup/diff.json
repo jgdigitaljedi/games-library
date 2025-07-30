@@ -70,6 +70,16 @@
     ]
   },
   {
+    "name": "Xevious",
+    "id": 12346,
+    "old": [
+      "Atari 7800 PAL game has issues on NTSC console: Moderate - Graphical glitching at top of screen, uneven frame rate"
+    ],
+    "new": [
+      "Atari 7800 PAL game has issues on NTSC console: Moderate - Graphical glitching at top of screen, uneven frame rate"
+    ]
+  },
+  {
     "name": "Kangaroo",
     "id": 12310,
     "old": [],
@@ -92,13 +102,25 @@
     "new": []
   },
   {
+    "name": "NES Open Tournament Golf",
+    "id": 3400,
+    "old": [
+      "NES game has save battery"
+    ],
+    "new": [
+      "NES game has save battery"
+    ]
+  },
+  {
     "name": "NBA Jam Tournament Edition",
     "id": 19712,
     "old": [
-      "Sega 32X Team Player compatible title"
+      "Sega 32X Team Player compatible title",
+      "Sega 32X game has save battery"
     ],
     "new": [
-      "Sega 32X Team Player compatible title"
+      "Sega 32X Team Player compatible title",
+      "Sega 32X game has save battery"
     ]
   },
   {
@@ -121,9 +143,11 @@
     "name": "James 'Buster' Douglas Knock Out Boxing",
     "id": 46530,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -131,9 +155,11 @@
     "name": "Golden Axe",
     "id": 5565,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -142,23 +168,29 @@
     "id": 2733,
     "old": [
       "NES launch title",
-      "NES black box game: Sports Series",
-      "NES hang tab game"
+      "NES Black Box game: Sports Series",
+      "NES hang tab game",
+      "NES black box game: Sports Series"
     ],
     "new": [
       "NES launch title",
-      "NES black box game: Sports Series",
-      "NES hang tab game"
+      "NES Black Box game: Sports Series",
+      "NES hang tab game",
+      "NES black box game: Sports Series"
     ]
   },
   {
     "name": "Star Fox 64",
     "id": 2591,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -199,10 +231,12 @@
     "name": "Super Mario World 2: Yoshi's Island",
     "id": 1073,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
@@ -222,19 +256,59 @@
     "new": []
   },
   {
+    "name": "Jet Force Gemini",
+    "id": 1355,
+    "old": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (letterboxes)"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (letterboxes)"
+    ]
+  },
+  {
+    "name": "Karateka",
+    "id": 4602,
+    "old": [
+      "Atari 7800 PAL game has issues on NTSC console: Unplayable - Boots to black screen"
+    ],
+    "new": [
+      "Atari 7800 PAL game has issues on NTSC console: Unplayable - Boots to black screen"
+    ]
+  },
+  {
     "name": "RealSports Baseball",
     "id": 117409,
-    "old": [],
-    "new": []
+    "old": [
+      "Atari 7800 PAL game has issues on NTSC console: Severe - Entire screen flickers"
+    ],
+    "new": [
+      "Atari 7800 PAL game has issues on NTSC console: Severe - Entire screen flickers"
+    ]
   },
   {
     "name": "SOCOM: US Navy SEALs",
     "id": 22238,
     "old": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ],
     "new": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
+    ]
+  },
+  {
+    "name": "Jinks",
+    "id": 12330,
+    "old": [
+      "Atari 7800 PAL game has issues on NTSC console: Severe - Sound samples on title screen are just random noise, major graphical corruption"
+    ],
+    "new": [
+      "Atari 7800 PAL game has issues on NTSC console: Severe - Sound samples on title screen are just random noise, major graphical corruption"
     ]
   },
   {
@@ -272,11 +346,13 @@
     "id": 3986,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -284,11 +360,13 @@
     "id": 2686,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ]
   },
   {
@@ -343,20 +421,38 @@
     "name": "The Granstream Saga",
     "id": 19156,
     "old": [
-      "Sony PlayStation exclusive"
+      "Sony PlayStation exclusive",
+      "Sony PlayStation game runs at 60 FPS"
     ],
     "new": [
-      "Sony PlayStation exclusive"
+      "Sony PlayStation exclusive",
+      "Sony PlayStation game runs at 60 FPS"
     ]
   },
   {
     "name": "Pokémon Stadium 2",
     "id": 2290,
     "old": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Increases resolution to 640×480.)"
     ],
     "new": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Increases resolution to 640×480.)"
+    ]
+  },
+  {
+    "name": "Dead To Rights",
+    "id": 3872,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): Widescreen",
+      "banned in Germany: Banned because of high-impact gory violence."
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): Widescreen",
+      "banned in Germany: Banned because of high-impact gory violence."
     ]
   },
   {
@@ -378,21 +474,29 @@
     "id": 47321,
     "old": [
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
     "name": "Eternal Darkness: Sanity's Requiem",
     "id": 3907,
     "old": [
-      "Nintendo GameCube console exclusive"
+      "Nintendo GameCube console exclusive",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ],
     "new": [
-      "Nintendo GameCube console exclusive"
+      "Nintendo GameCube console exclusive",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ]
   },
   {
@@ -416,11 +520,15 @@
     "id": 1613,
     "old": [
       "Xbox game plays on Xbox 360 - There is flickering on the title screen",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - There is flickering on the title screen",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ]
   },
   {
@@ -449,10 +557,12 @@
     "name": "Gauntlet: Seven Sorrows",
     "id": 5844,
     "old": [
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ],
     "new": [
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -472,31 +582,49 @@
     "id": 1329,
     "old": [
       "Xbox game plays on Xbox 360 - During gameplay there are flickering textures",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - During gameplay there are flickering textures",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
     "name": "Half-Life 2",
     "id": 233,
     "old": [
-      "Xbox game plays on Xbox 360 - This game does not play on PAL-60 televisions with composite cabling this does not affect PAL-50, Screen corruption in attract mode after console has been idle for a long period of time"
+      "Xbox game plays on Xbox 360 - This game does not play on PAL-60 televisions with composite cabling this does not affect PAL-50, Screen corruption in attract mode after console has been idle for a long period of time",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ],
     "new": [
-      "Xbox game plays on Xbox 360 - This game does not play on PAL-60 televisions with composite cabling this does not affect PAL-50, Screen corruption in attract mode after console has been idle for a long period of time"
+      "Xbox game plays on Xbox 360 - This game does not play on PAL-60 televisions with composite cabling this does not affect PAL-50, Screen corruption in attract mode after console has been idle for a long period of time",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ]
   },
   {
     "name": "Streets of Rage",
     "id": 1652,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
+    ]
+  },
+  {
+    "name": "Baseball Stars",
+    "id": 9903,
+    "old": [
+      "NES game has save battery"
+    ],
+    "new": [
+      "NES game has save battery"
     ]
   },
   {
@@ -505,12 +633,14 @@
     "old": [
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ],
     "new": [
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ]
   },
   {
@@ -536,11 +666,13 @@
     "id": 6160,
     "old": [
       "Xbox game plays on Xbox 360 - Minor slowdown during menu selections and transitions, minor performance issues during cut scenes, Items on HUD may randomly become solid instead of transparent",
-      "Xbox game plays on Xbox One"
+      "Xbox game plays on Xbox One",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - Minor slowdown during menu selections and transitions, minor performance issues during cut scenes, Items on HUD may randomly become solid instead of transparent",
-      "Xbox game plays on Xbox One"
+      "Xbox game plays on Xbox One",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -589,12 +721,14 @@
     "old": [
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ],
     "new": [
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ]
   },
   {
@@ -602,11 +736,13 @@
     "id": 281,
     "old": [
       "Xbox game plays on Xbox 360",
-      "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
+      "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence.",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360",
-      "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence."
+      "banned in Germany: Originally given a 16+ rating with Nazi references censored. Later banned for high-impact gory violence.",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -624,11 +760,25 @@
     "id": 1773,
     "old": [
       "Sony PlayStation 2 Greatest Hits",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ],
     "new": [
       "Sony PlayStation 2 Greatest Hits",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
+    ]
+  },
+  {
+    "name": "Nights into Dreams...",
+    "id": 5075,
+    "old": [
+      "came with Sega Saturn 3D Controller",
+      "Sega Saturn game has widescreen mode (some extra side pixels and some cropping)"
+    ],
+    "new": [
+      "came with Sega Saturn 3D Controller",
+      "Sega Saturn game has widescreen mode (some extra side pixels and some cropping)"
     ]
   },
   {
@@ -676,13 +826,25 @@
     ]
   },
   {
+    "name": "Panzer Dragoon II Zwei",
+    "id": 1669,
+    "old": [
+      "Sega Saturn game has widescreen mode (anamorphic ws)"
+    ],
+    "new": [
+      "Sega Saturn game has widescreen mode (anamorphic ws)"
+    ]
+  },
+  {
     "name": "Metroid Prime 2: Echoes",
     "id": 1108,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60 (The PAL version only supports 60Hz)"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60 (The PAL version only supports 60Hz)"
     ]
   },
   {
@@ -690,11 +852,13 @@
     "id": 4182,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -742,6 +906,16 @@
     ]
   },
   {
+    "name": "Pokémon Trading Card Game",
+    "id": 4567,
+    "old": [
+      "GameBoy Color cartridge has save battery (CR1616)"
+    ],
+    "new": [
+      "GameBoy Color cartridge has save battery (CR1616)"
+    ]
+  },
+  {
     "name": "Tomb Raider",
     "id": 912,
     "old": [
@@ -780,6 +954,16 @@
     ]
   },
   {
+    "name": "Paper Mario",
+    "id": 3340,
+    "old": [
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
     "name": "Streets of Rage 2",
     "id": 1653,
     "old": [],
@@ -789,20 +973,24 @@
     "name": "Super Metroid",
     "id": 1103,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
     "name": "Tekken 2",
     "id": 1243,
     "old": [
-      "Sony PlayStation Greatest Hits"
+      "Sony PlayStation Greatest Hits",
+      "Sony PlayStation game runs at 60 FPS"
     ],
     "new": [
-      "Sony PlayStation Greatest Hits"
+      "Sony PlayStation Greatest Hits",
+      "Sony PlayStation game runs at 60 FPS"
     ]
   },
   {
@@ -820,11 +1008,13 @@
     "id": 4026,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -893,10 +1083,12 @@
     "name": "Donkey Kong Country 2: Diddy's Kong Quest",
     "id": 1092,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
@@ -920,11 +1112,13 @@
     "id": 20611,
     "old": [
       "Sony PlayStation exclusive",
-      "Sony PlayStation Greatest Hits"
+      "Sony PlayStation Greatest Hits",
+      "Sony PlayStation game supports tate mode (Galaga: game rotated counterclockwise.)"
     ],
     "new": [
       "Sony PlayStation exclusive",
-      "Sony PlayStation Greatest Hits"
+      "Sony PlayStation Greatest Hits",
+      "Sony PlayStation game supports tate mode (Galaga: game rotated counterclockwise.)"
     ]
   },
   {
@@ -960,24 +1154,28 @@
     "id": 4601,
     "old": [
       "NES launch title",
-      "NES black box game: Light Gun Series",
+      "NES Black Box game: Light Gun Series",
       "NES hang tab game",
-      "NES light gun game (required)"
+      "NES light gun game (required)",
+      "NES black box game: Light Gun Series"
     ],
     "new": [
       "NES launch title",
-      "NES black box game: Light Gun Series",
+      "NES Black Box game: Light Gun Series",
       "NES hang tab game",
-      "NES light gun game (required)"
+      "NES light gun game (required)",
+      "NES black box game: Light Gun Series"
     ]
   },
   {
     "name": "Sonic the Hedgehog",
     "id": 3192,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -986,11 +1184,13 @@
     "id": 8832,
     "old": [
       "Sega Dreamcast exclusive",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Team statistics)"
     ],
     "new": [
       "Sega Dreamcast exclusive",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Team statistics)"
     ]
   },
   {
@@ -1181,20 +1381,24 @@
     "name": "Pong: The Next Level",
     "id": 9187,
     "old": [
-      "Sony PlayStation multitap compatible title - 4 players"
+      "Sony PlayStation multitap compatible title - 4 players",
+      "Sony PlayStation game runs at 60 FPS"
     ],
     "new": [
-      "Sony PlayStation multitap compatible title - 4 players"
+      "Sony PlayStation multitap compatible title - 4 players",
+      "Sony PlayStation game runs at 60 FPS"
     ]
   },
   {
     "name": "F-1 World Grand Prix",
     "id": 3487,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -1223,10 +1427,22 @@
     "name": "Outlaw Golf 2",
     "id": 3437,
     "old": [
-      "Xbox game plays on Xbox 360"
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox online multiplayer game"
     ],
     "new": [
-      "Xbox game plays on Xbox 360"
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox online multiplayer game"
+    ]
+  },
+  {
+    "name": "Gun Metal",
+    "id": 5858,
+    "old": [
+      "Microsoft Xbox game has alternate display mode(s): 480p"
+    ],
+    "new": [
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -1236,13 +1452,19 @@
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360 - The frame rate drops in the Story Mode character selection screen, There are occasional system hangs during Instant Action games, and after leaving the game while navigating back to the Xbox Dashboard, There are some missing textures on the Eternal map",
       "Xbox game plays on Xbox One",
-      "banned in Germany: Banned because of high-impact gory violence. A censored version was released."
+      "banned in Germany: Banned because of high-impact gory violence. A censored version was released.",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360 - The frame rate drops in the Story Mode character selection screen, There are occasional system hangs during Instant Action games, and after leaving the game while navigating back to the Xbox Dashboard, There are some missing textures on the Eternal map",
       "Xbox game plays on Xbox One",
-      "banned in Germany: Banned because of high-impact gory violence. A censored version was released."
+      "banned in Germany: Banned because of high-impact gory violence. A censored version was released.",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -1250,11 +1472,17 @@
     "id": 5725,
     "old": [
       "Microsoft Xbox exclusive",
-      "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly"
+      "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
-      "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly"
+      "Xbox game plays on Xbox 360 - There is flickering geometry during some levels, On occasion a sound effect will play repeatedly",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ]
   },
   {
@@ -1262,11 +1490,25 @@
     "id": 4575,
     "old": [
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Platinum Hits Family Series"
+      "Microsoft Xbox Platinum Hits Family Series",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ],
     "new": [
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Platinum Hits Family Series"
+      "Microsoft Xbox Platinum Hits Family Series",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
+    ]
+  },
+  {
+    "name": "X-Men Legends II: Rise of Apocalypse",
+    "id": 4576,
+    "old": [
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
+    ],
+    "new": [
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ]
   },
   {
@@ -1274,11 +1516,13 @@
     "id": 1003,
     "old": [
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p/1080i"
     ],
     "new": [
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p/1080i"
     ]
   },
   {
@@ -1305,10 +1549,12 @@
     "name": "Resident Evil Zero",
     "id": 970,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): Can be forced to 480p through Swiss without any issues."
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): Can be forced to 480p through Swiss without any issues."
     ]
   },
   {
@@ -1353,10 +1599,12 @@
     "name": "Grand Theft Auto III",
     "id": 730,
     "old": [
-      "Xbox game plays on Xbox 360"
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ],
     "new": [
-      "Xbox game plays on Xbox 360"
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ]
   },
   {
@@ -1531,10 +1779,12 @@
     "name": "Banjo-Kazooie",
     "id": 2148,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -1551,10 +1801,14 @@
     "name": "Diddy Kong Racing",
     "id": 2723,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -1634,13 +1888,15 @@
     "id": 4600,
     "old": [
       "NES launch title",
-      "NES black box game: Programmable Series",
-      "NES hang tab game"
+      "NES Black Box game: Programmable Series",
+      "NES hang tab game",
+      "NES black box game: Programmable Series"
     ],
     "new": [
       "NES launch title",
-      "NES black box game: Programmable Series",
-      "NES hang tab game"
+      "NES Black Box game: Programmable Series",
+      "NES hang tab game",
+      "NES black box game: Programmable Series"
     ]
   },
   {
@@ -1673,12 +1929,28 @@
     "old": [
       "Sony PlayStation exclusive",
       "Sony PlayStation multitap compatible title - 4 players",
-      "Sony PlayStation Greatest Hits"
+      "Sony PlayStation Greatest Hits",
+      "Sony PlayStation game Link Cable compatible"
     ],
     "new": [
       "Sony PlayStation exclusive",
       "Sony PlayStation multitap compatible title - 4 players",
-      "Sony PlayStation Greatest Hits"
+      "Sony PlayStation Greatest Hits",
+      "Sony PlayStation game Link Cable compatible"
+    ]
+  },
+  {
+    "name": "Re-Volt",
+    "id": 3585,
+    "old": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 medium resolution mode.)",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 medium resolution mode.)",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -1692,27 +1964,47 @@
     ]
   },
   {
+    "name": "Game & Watch Gallery",
+    "id": 72016,
+    "old": [
+      "GameBoy cartridge has save battery (CR1616)"
+    ],
+    "new": [
+      "GameBoy cartridge has save battery (CR1616)"
+    ]
+  },
+  {
     "name": "Jade Empire",
     "id": 5867,
     "old": [
       "Xbox game plays on Xbox 360 - The Monk Zeng content from the limited edition became available as of the December 2005 update",
       "Xbox game plays on Xbox One",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - The Monk Zeng content from the limited edition became available as of the December 2005 update",
       "Xbox game plays on Xbox One",
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
     "name": "Super Smash Bros.",
     "id": 1626,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game",
+      "N64 game has save battery",
+      "Nintendo 64 game runs at 60 FPS"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game",
+      "N64 game has save battery",
+      "Nintendo 64 game runs at 60 FPS"
     ]
   },
   {
@@ -1721,12 +2013,14 @@
     "old": [
       "Nintendo GameCube launch title",
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube launch title",
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -1744,11 +2038,13 @@
     "id": 1631,
     "old": [
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ],
     "new": [
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ]
   },
   {
@@ -1804,6 +2100,22 @@
     ]
   },
   {
+    "name": "Army Men: Sarge's Heroes 2",
+    "id": 3441,
+    "old": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 high resolution mode.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (letterbox mode with extra pixels but isn't 16:9)"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables a 640x240 high resolution mode.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (letterbox mode with extra pixels but isn't 16:9)"
+    ]
+  },
+  {
     "name": "Marvel's Spider-Man",
     "id": 19565,
     "old": [
@@ -1847,6 +2159,18 @@
     "new": [
       "Nintendo 3DS exclusive",
       "3DS Nintendo Select"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Link's Awakening",
+    "id": 1028,
+    "old": [
+      "GameBoy cartridge has save battery (CR1616)",
+      "Nintendo Game Boy Player's Choice"
+    ],
+    "new": [
+      "GameBoy cartridge has save battery (CR1616)",
+      "Nintendo Game Boy Player's Choice"
     ]
   },
   {
@@ -1895,20 +2219,24 @@
     "name": "The Legend of Zelda: Oracle of Ages",
     "id": 1041,
     "old": [
-      "Nintendo Game Boy Color exclusive"
+      "Nintendo Game Boy Color exclusive",
+      "GameBoy Color cartridge has save battery (CR1616)"
     ],
     "new": [
-      "Nintendo Game Boy Color exclusive"
+      "Nintendo Game Boy Color exclusive",
+      "GameBoy Color cartridge has save battery (CR1616)"
     ]
   },
   {
     "name": "The Legend of Zelda: Oracle of Seasons",
     "id": 1032,
     "old": [
-      "Nintendo Game Boy Color exclusive"
+      "Nintendo Game Boy Color exclusive",
+      "GameBoy Color cartridge has save battery (CR1616)"
     ],
     "new": [
-      "Nintendo Game Boy Color exclusive"
+      "Nintendo Game Boy Color exclusive",
+      "GameBoy Color cartridge has save battery (CR1616)"
     ]
   },
   {
@@ -2058,19 +2386,45 @@
     ]
   },
   {
+    "name": "Kirby 64: The Crystal Shards",
+    "id": 2713,
+    "old": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
     "name": "The Legend of Zelda: Link's Awakening DX",
     "id": 1027,
     "old": [],
     "new": []
   },
   {
+    "name": "The Legend of Zelda: Majora's Mask",
+    "id": 1030,
+    "old": [
+      "N64 Expansion Pak Game: REQUIRED (Used to enhance graphics such as increased texture detail, removal of fog and increase number of on-screen models as well as effects.)",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 Expansion Pak Game: REQUIRED (Used to enhance graphics such as increased texture detail, removal of fog and increase number of on-screen models as well as effects.)",
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
     "name": "Virtua Tennis",
     "id": 6291,
     "old": [
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Wireframe match)"
     ],
     "new": [
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Wireframe match)"
     ]
   },
   {
@@ -2130,8 +2484,12 @@
   {
     "name": "The Legend of Zelda: Twilight Princess",
     "id": 1036,
-    "old": [],
-    "new": []
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
+    ]
   },
   {
     "name": "Killzone: Liberation",
@@ -2161,12 +2519,16 @@
     "old": [
       "Xbox game plays on Xbox 360 - The unlockable NES arcade games cannot be played",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - The unlockable NES arcade games cannot be played",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ]
   },
   {
@@ -2266,11 +2628,13 @@
     "id": 1034,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -2301,6 +2665,28 @@
     ],
     "new": [
       "Microsoft Xbox One console exclusive"
+    ]
+  },
+  {
+    "name": "NFL 2K2",
+    "id": 8845,
+    "old": [
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
+    ],
+    "new": [
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
+    "id": 45142,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -2453,14 +2839,22 @@
       "Xbox game plays on Xbox 360 - Cars don't render properly in Car Select and Transmission Select, The car radio does not work in-game, A graphic error occurs when choosing Xbox Demos",
       "Microsoft Xbox Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ],
     "new": [
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360 - Cars don't render properly in Car Select and Transmission Select, The car radio does not work in-game, A graphic error occurs when choosing Xbox Demos",
       "Microsoft Xbox Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ]
   },
   {
@@ -2492,17 +2886,23 @@
   {
     "name": "Zelda II: The Adventure of Link",
     "id": 1025,
-    "old": [],
-    "new": []
+    "old": [
+      "NES game has save battery"
+    ],
+    "new": [
+      "NES game has save battery"
+    ]
   },
   {
     "name": "The Legend of Zelda",
     "id": 1022,
     "old": [
-      "NES hang tab game"
+      "NES hang tab game",
+      "NES game has save battery"
     ],
     "new": [
-      "NES hang tab game"
+      "NES hang tab game",
+      "NES game has save battery"
     ]
   },
   {
@@ -2572,6 +2972,16 @@
     ]
   },
   {
+    "name": "SSX Tricky",
+    "id": 4176,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): Widescreen (Can be forced to 480p through Swiss without any issues.)"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): Widescreen (Can be forced to 480p through Swiss without any issues.)"
+    ]
+  },
+  {
     "name": "Gears of War 2",
     "id": 548,
     "old": [
@@ -2609,20 +3019,26 @@
     "name": "Mario Kart 64",
     "id": 2342,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game"
     ]
   },
   {
     "name": "Wipeout 64",
     "id": 1539,
     "old": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 exclusive"
+      "Nintendo 64 exclusive",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -2641,10 +3057,12 @@
     "name": "SoulCalibur",
     "id": 1564,
     "old": [
-      "Sega Dreamcast launch title"
+      "Sega Dreamcast launch title",
+      "Dreamcast game has VMU features: (VMU minigames: Three mini-games) (In-game features: Animated characters)"
     ],
     "new": [
-      "Sega Dreamcast launch title"
+      "Sega Dreamcast launch title",
+      "Dreamcast game has VMU features: (VMU minigames: Three mini-games) (In-game features: Animated characters)"
     ]
   },
   {
@@ -2667,10 +3085,12 @@
     "name": "Crash Bandicoot 2: N-Tranced",
     "id": 1198,
     "old": [
-      "Nintendo Game Boy Advance exclusive"
+      "Nintendo Game Boy Advance exclusive",
+      "Game Boy Advance cartridge has save battery"
     ],
     "new": [
-      "Nintendo Game Boy Advance exclusive"
+      "Nintendo Game Boy Advance exclusive",
+      "Game Boy Advance cartridge has save battery"
     ]
   },
   {
@@ -2697,10 +3117,18 @@
     "name": "Turok 2: Seeds of Evil",
     "id": 1326,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increases resolution to 480x360 or 480x232.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (letterboxed if expansion pak present with slightly lower framerate)"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables two hi-res modes, which increases resolution to 480x360 or 480x232.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (letterboxed if expansion pak present with slightly lower framerate)"
     ]
   },
   {
@@ -2719,12 +3147,14 @@
     "old": [
       "Sega Genesis exclusive",
       "Sega Genesis Team Player compatible title",
-      "Sega Genesis 6 button compatible game"
+      "Sega Genesis 6 button compatible game",
+      "Sega Genesis game has save battery"
     ],
     "new": [
       "Sega Genesis exclusive",
       "Sega Genesis Team Player compatible title",
-      "Sega Genesis 6 button compatible game"
+      "Sega Genesis 6 button compatible game",
+      "Sega Genesis game has save battery"
     ]
   },
   {
@@ -2741,26 +3171,34 @@
     "name": "NBA Jam Tournament Edition",
     "id": 19712,
     "old": [
-      "Sega Genesis Team Player compatible title"
+      "Sega Genesis Team Player compatible title",
+      "Sega Genesis game has save battery"
     ],
     "new": [
-      "Sega Genesis Team Player compatible title"
+      "Sega Genesis Team Player compatible title",
+      "Sega Genesis game has save battery"
     ]
   },
   {
     "name": "Sonic the Hedgehog 3",
     "id": 6797,
-    "old": [],
-    "new": []
+    "old": [
+      "Sega Genesis game has save battery"
+    ],
+    "new": [
+      "Sega Genesis game has save battery"
+    ]
   },
   {
     "name": "Madden NFL '94",
     "id": 4381,
     "old": [
-      "Sega Genesis Team Player compatible title"
+      "Sega Genesis Team Player compatible title",
+      "Sega Genesis game has save battery"
     ],
     "new": [
-      "Sega Genesis Team Player compatible title"
+      "Sega Genesis Team Player compatible title",
+      "Sega Genesis game has save battery"
     ]
   },
   {
@@ -2792,23 +3230,31 @@
       "Microsoft Xbox exclusive",
       "Microsoft Xbox Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
       "Microsoft Xbox Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
     "name": "TimeSplitters 2",
     "id": 2143,
     "old": [
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
-      "Microsoft Xbox Classics (PAL)"
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -2819,14 +3265,16 @@
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One - Available via Game Pass",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox launch title",
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One - Available via Game Pass",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -2853,20 +3301,24 @@
     "name": "Uniracers",
     "id": 16743,
     "old": [
-      "Super Nintendo Entertainment System exclusive"
+      "Super Nintendo Entertainment System exclusive",
+      "SNES game has save battery"
     ],
     "new": [
-      "Super Nintendo Entertainment System exclusive"
+      "Super Nintendo Entertainment System exclusive",
+      "SNES game has save battery"
     ]
   },
   {
     "name": "Sonic Heroes",
     "id": 4156,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60 (The PAL version runs 20% faster than intended in 60 Hz mode, due to PAL optimizations still being present.)"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60 (The PAL version runs 20% faster than intended in 60 Hz mode, due to PAL optimizations still being present.)"
     ]
   },
   {
@@ -2874,11 +3326,13 @@
     "id": 9111,
     "old": [
       "Sony PlayStation 2 exclusive",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ],
     "new": [
       "Sony PlayStation 2 exclusive",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -2913,6 +3367,16 @@
     ],
     "new": [
       "Nintendo 64 exclusive"
+    ]
+  },
+  {
+    "name": "San Francisco Rush: Extreme Racing",
+    "id": 3595,
+    "old": [
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -3288,6 +3752,16 @@
     ]
   },
   {
+    "name": "Sega Genesis Collection",
+    "id": 20621,
+    "old": [
+      "PlayStation Portable game is incompatible with PSTV"
+    ],
+    "new": [
+      "PlayStation Portable game is incompatible with PSTV"
+    ]
+  },
+  {
     "name": "Secret Agent Clank",
     "id": 1793,
     "old": [
@@ -3315,6 +3789,16 @@
     ],
     "new": [
       "Sony PSP Greatest Hits"
+    ]
+  },
+  {
+    "name": "Virtua Fighter 2",
+    "id": 1547,
+    "old": [
+      "Sega Saturn game runs at 60 FPS"
+    ],
+    "new": [
+      "Sega Saturn game runs at 60 FPS"
     ]
   },
   {
@@ -3360,11 +3844,13 @@
     "id": 45880,
     "old": [
       "Sega 32X launch title",
-      "Sega 32X 6 button compatible game"
+      "Sega 32X 6 button compatible game",
+      "Sega 32X game has save battery"
     ],
     "new": [
       "Sega 32X launch title",
-      "Sega 32X 6 button compatible game"
+      "Sega 32X 6 button compatible game",
+      "Sega 32X game has save battery"
     ]
   },
   {
@@ -3372,10 +3858,12 @@
     "id": 2604,
     "old": [
       "Genesis launch title",
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
       "Genesis launch title",
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -3383,9 +3871,11 @@
     "name": "Columns",
     "id": 4446,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -3403,9 +3893,11 @@
     "name": "Mercs",
     "id": 4487,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -3413,10 +3905,12 @@
     "name": "NFL Football '94 Starring Joe Montana",
     "id": 46268,
     "old": [
-      "Sega Genesis exclusive"
+      "Sega Genesis exclusive",
+      "Sega Genesis game has save battery"
     ],
     "new": [
-      "Sega Genesis exclusive"
+      "Sega Genesis exclusive",
+      "Sega Genesis game has save battery"
     ]
   },
   {
@@ -3429,10 +3923,32 @@
     "name": "Crazy Taxi: Catch a Ride",
     "id": 1808,
     "old": [
-      "Nintendo Game Boy Advance exclusive"
+      "Nintendo Game Boy Advance exclusive",
+      "Game Boy Advance cartridge has save battery"
     ],
     "new": [
-      "Nintendo Game Boy Advance exclusive"
+      "Nintendo Game Boy Advance exclusive",
+      "Game Boy Advance cartridge has save battery"
+    ]
+  },
+  {
+    "name": "Advance Wars 2: Black Hole Rising",
+    "id": 1692,
+    "old": [
+      "Game Boy Advance cartridge has save battery"
+    ],
+    "new": [
+      "Game Boy Advance cartridge has save battery"
+    ]
+  },
+  {
+    "name": "Metroid: Zero Mission",
+    "id": 1107,
+    "old": [
+      "Game Boy Advance cartridge has save battery (?[5])"
+    ],
+    "new": [
+      "Game Boy Advance cartridge has save battery (?[5])"
     ]
   },
   {
@@ -3450,11 +3966,13 @@
     "id": 81197,
     "old": [
       "Nintendo Game Boy Advance launch title",
-      "Nintendo Game Boy Advance Player's Choice"
+      "Nintendo Game Boy Advance Player's Choice",
+      "Game Boy Advance cartridge has save battery"
     ],
     "new": [
       "Nintendo Game Boy Advance launch title",
-      "Nintendo Game Boy Advance Player's Choice"
+      "Nintendo Game Boy Advance Player's Choice",
+      "Game Boy Advance cartridge has save battery"
     ]
   },
   {
@@ -3482,11 +4000,13 @@
     "id": 7860,
     "old": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (VMU minigame: Chao Adventure) (In-game features: Chao animation)"
     ],
     "new": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (VMU minigame: Chao Adventure) (In-game features: Chao animation)"
     ]
   },
   {
@@ -3526,15 +4046,39 @@
     ]
   },
   {
+    "name": "Quake III Arena",
+    "id": 355,
+    "old": [
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (VMU minigame: Maze mini-game) (In-game features: Animation)"
+    ],
+    "new": [
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (VMU minigame: Maze mini-game) (In-game features: Animation)"
+    ]
+  },
+  {
+    "name": "Donkey Konga 2",
+    "id": 3890,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
+    ]
+  },
+  {
     "name": "F-Zero GX",
     "id": 3492,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ]
   },
   {
@@ -3542,21 +4086,27 @@
     "id": 1033,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
     "name": "Mario Kart: Double Dash!!",
     "id": 2344,
     "old": [
-      "Nintendo GameCube console exclusive"
+      "Nintendo GameCube console exclusive",
+      "GameCube broadband adapter; connect multiple GameCubes via LAN",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
-      "Nintendo GameCube console exclusive"
+      "Nintendo GameCube console exclusive",
+      "GameCube broadband adapter; connect multiple GameCubes via LAN",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -3564,11 +4114,13 @@
     "id": 2333,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -3576,21 +4128,25 @@
     "id": 3403,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
     "name": "Metroid Prime",
     "id": 1105,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -3604,13 +4160,25 @@
     ]
   },
   {
+    "name": "Need for Speed: Carbon",
+    "id": 99,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
+    ]
+  },
+  {
     "name": "Prince of Persia: The Sands of Time",
     "id": 836,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -3618,10 +4186,12 @@
     "id": 974,
     "old": [
       "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60",
       "banned in Germany: Banned because of high-impact violence related to incentives and rewards via two unlockable bonus games. A censored version was released. The ban was lifted in 2017."
     ],
     "new": [
       "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60",
       "banned in Germany: Banned because of high-impact violence related to incentives and rewards via two unlockable bonus games. A censored version was released. The ban was lifted in 2017."
     ]
   },
@@ -3629,30 +4199,36 @@
     "name": "Sonic Adventure 2: Battle",
     "id": 7862,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
     "name": "Sonic Gems Collection",
     "id": 22510,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
     "name": "Sonic Mega Collection",
     "id": 4157,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): Can be forced to 480p through Swiss without any issues."
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): Can be forced to 480p through Swiss without any issues."
     ]
   },
   {
@@ -3660,21 +4236,25 @@
     "id": 1075,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
     "name": "Super Monkey Ball 2",
     "id": 2928,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ]
   },
   {
@@ -3682,11 +4262,13 @@
     "id": 1627,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -3703,10 +4285,12 @@
     "name": "The Legend of Zelda: A Link to the Past",
     "id": 1026,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
@@ -3720,21 +4304,25 @@
     "id": 1070,
     "old": [
       "SNES laucnh title",
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
       "SNES laucnh title",
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
     "name": "Donkey Kong Country",
     "id": 1090,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
@@ -3742,21 +4330,25 @@
     "id": 3490,
     "old": [
       "SNES laucnh title",
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
       "SNES laucnh title",
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
     "name": "Super Mario Kart",
     "id": 2332,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
@@ -3767,6 +4359,16 @@
     ],
     "new": [
       "NES hang tab game"
+    ]
+  },
+  {
+    "name": "Kirby's Adventure",
+    "id": 3717,
+    "old": [
+      "NES game has save battery"
+    ],
+    "new": [
+      "NES game has save battery"
     ]
   },
   {
@@ -3806,13 +4408,15 @@
     "id": 358,
     "old": [
       "NES launch title",
-      "NES black box game: Action Series",
-      "NES hang tab game"
+      "NES Black Box game: Action Series",
+      "NES hang tab game",
+      "NES black box game: Action Series"
     ],
     "new": [
       "NES launch title",
-      "NES black box game: Action Series",
-      "NES hang tab game"
+      "NES Black Box game: Action Series",
+      "NES hang tab game",
+      "NES black box game: Action Series"
     ]
   },
   {
@@ -3958,13 +4562,15 @@
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ]
   },
   {
@@ -3973,22 +4579,30 @@
     "old": [
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
     "name": "Fable",
     "id": 521,
     "old": [
-      "Xbox game plays on Xbox 360 - Occasionally there is an audio \"scratch\" or static popping sound"
+      "Xbox game plays on Xbox 360 - Occasionally there is an audio \"scratch\" or static popping sound",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
-      "Xbox game plays on Xbox 360 - Occasionally there is an audio \"scratch\" or static popping sound"
+      "Xbox game plays on Xbox 360 - Occasionally there is an audio \"scratch\" or static popping sound",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -3998,13 +4612,19 @@
       "Xbox game plays on Xbox 360 - Performance problems while playing on the Backwash map, Occasionally the player may observe \"ghost\" images displayed on the screen, According to Micorosft a workaround for this issue is to return to the Dashboard and restart the game",
       "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - Performance problems while playing on the Backwash map, Occasionally the player may observe \"ghost\" images displayed on the screen, According to Micorosft a workaround for this issue is to return to the Dashboard and restart the game",
       "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ]
   },
   {
@@ -4022,11 +4642,13 @@
     "id": 96,
     "old": [
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -4034,11 +4656,13 @@
     "id": 1570,
     "old": [
       "Microsoft Xbox exclusive",
-      "Xbox game plays on Xbox 360 - There is graphic flickering in the main menu"
+      "Xbox game plays on Xbox 360 - There is graphic flickering in the main menu",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
-      "Xbox game plays on Xbox 360 - There is graphic flickering in the main menu"
+      "Xbox game plays on Xbox 360 - There is graphic flickering in the main menu",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -4063,14 +4687,18 @@
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox launch title",
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -4081,14 +4709,18 @@
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox launch title",
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Best of Classics (PAL)",
       "Microsoft Xbox Platinum Collection (Japan)",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -4311,10 +4943,12 @@
     "name": "2006 FIFA World Cup",
     "id": 5474,
     "old": [
-      "PlayStation 2 Multitap compatible game - 8 players"
+      "PlayStation 2 Multitap compatible game - 8 players",
+      "PlayStation 2 Online game"
     ],
     "new": [
-      "PlayStation 2 Multitap compatible game - 8 players"
+      "PlayStation 2 Multitap compatible game - 8 players",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -4322,11 +4956,13 @@
     "id": 2141,
     "old": [
       "Sony PlayStation 2 exclusive",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ],
     "new": [
       "Sony PlayStation 2 exclusive",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -4450,15 +5086,27 @@
     ]
   },
   {
+    "name": "Juiced 2: Hot Import Nights",
+    "id": 7024,
+    "old": [
+      "PlayStation 2 Online game"
+    ],
+    "new": [
+      "PlayStation 2 Online game"
+    ]
+  },
+  {
     "name": "SOCOM 3: U.S. Navy SEALs",
     "id": 8241,
     "old": [
       "Sony PlayStation 2 exclusive",
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ],
     "new": [
       "Sony PlayStation 2 exclusive",
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -4508,21 +5156,25 @@
     "id": 4999,
     "old": [
       "Sony PlayStation 2 Greatest Hits",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ],
     "new": [
       "Sony PlayStation 2 Greatest Hits",
-      "PlayStation 2 Multitap compatible game - 4 players"
+      "PlayStation 2 Multitap compatible game - 4 players",
+      "PlayStation 2 Online game"
     ]
   },
   {
     "name": "SSX 3",
     "id": 4174,
     "old": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ],
     "new": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -4559,10 +5211,12 @@
     "name": "Tony Hawk's Pro Skater 3",
     "id": 914,
     "old": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ],
     "new": [
-      "Sony PlayStation 2 Greatest Hits"
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
     ]
   },
   {
@@ -4754,11 +5408,17 @@
     "id": 1638,
     "old": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (anamorphic WS; multiple options)"
     ],
     "new": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (anamorphic WS; multiple options)"
     ]
   },
   {
@@ -4766,21 +5426,35 @@
     "id": 1096,
     "old": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: REQUIRED (Does not boot without the expansion pak except the expansion pak warning.)",
+      "N64 Rumble Pak Game",
+      "N64 game bundled with Expansion Pak",
+      "Nintendo 64 game has widescreen mode (stretched to about 14.5:9)"
     ],
     "new": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: REQUIRED (Does not boot without the expansion pak except the expansion pak warning.)",
+      "N64 Rumble Pak Game",
+      "N64 game bundled with Expansion Pak",
+      "Nintendo 64 game has widescreen mode (stretched to about 14.5:9)"
     ]
   },
   {
     "name": "The Legend of Zelda: Ocarina of Time",
     "id": 1029,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game",
+      "N64 game has save battery"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game",
+      "N64 game has save battery"
     ]
   },
   {
@@ -4788,31 +5462,85 @@
     "id": 1463,
     "old": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: REQUIRED (Required for the single player, co-operative and counter-operative campaigns, as well as most multiplayer features. Enables hi-res mode, which increases resolution to 640×222.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (several anamorphic WS modes)"
     ],
     "new": [
       "Nintendo 64 exclusive",
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Expansion Pak Game: REQUIRED (Required for the single player, co-operative and counter-operative campaigns, as well as most multiplayer features. Enables hi-res mode, which increases resolution to 640×222.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (several anamorphic WS modes)"
+    ]
+  },
+  {
+    "name": "South Park",
+    "id": 1257,
+    "old": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, increases frame rate in lo-res mode.Enables hi-res mode, increases frame rate in lo-res mode.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (some more pixels and cropping)"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, increases frame rate in lo-res mode.Enables hi-res mode, increases frame rate in lo-res mode.)",
+      "N64 Rumble Pak Game",
+      "Nintendo 64 game has widescreen mode (some more pixels and cropping)"
+    ]
+  },
+  {
+    "name": "Star Wars: Episode I - Racer",
+    "id": 154,
+    "old": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480, as well as increasing the framerate in lo-res mode for smoother gameplay.)",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 640×480, as well as increasing the framerate in lo-res mode for smoother gameplay.)",
+      "N64 Rumble Pak Game"
     ]
   },
   {
     "name": "Star Wars: Rogue Squadron",
     "id": 163,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440.)",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Expansion Pak Game: not required (Enables hi-res mode, which increases resolution to 400×440.)",
+      "N64 Rumble Pak Game"
     ]
   },
   {
     "name": "Wave Race 64",
     "id": 3629,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
+    "name": "Extreme-G 2",
+    "id": 3486,
+    "old": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -4846,13 +5574,15 @@
     "id": 3399,
     "old": [
       "NES launch title",
-      "NES black box game: Sports Series",
-      "NES hang tab game"
+      "NES Black Box game: Sports Series",
+      "NES hang tab game",
+      "NES black box game: Sports Series"
     ],
     "new": [
       "NES launch title",
-      "NES black box game: Sports Series",
-      "NES hang tab game"
+      "NES Black Box game: Sports Series",
+      "NES hang tab game",
+      "NES black box game: Sports Series"
     ]
   },
   {
@@ -4889,10 +5619,24 @@
     "name": "Ms. Pac-Man",
     "id": 7452,
     "old": [
-      "Atari 7800 launch title"
+      "Atari 7800 launch title",
+      "Atari 7800 PAL game has issues on NTSC console: Severe - Screen is extremely jumpy, plays too slow"
     ],
     "new": [
-      "Atari 7800 launch title"
+      "Atari 7800 launch title",
+      "Atari 7800 PAL game has issues on NTSC console: Severe - Screen is extremely jumpy, plays too slow"
+    ]
+  },
+  {
+    "name": "Metroid II: Return of Samus",
+    "id": 1102,
+    "old": [
+      "GameBoy cartridge has save battery (CR1616)",
+      "Nintendo Game Boy Player's Choice"
+    ],
+    "new": [
+      "GameBoy cartridge has save battery (CR1616)",
+      "Nintendo Game Boy Player's Choice"
     ]
   },
   {
@@ -4942,13 +5686,15 @@
     "id": 7580,
     "old": [
       "NES launch title",
-      "NES black box game: Sports Series",
-      "NES hang tab game"
+      "NES Black Box game: Sports Series",
+      "NES hang tab game",
+      "NES black box game: Sports Series"
     ],
     "new": [
       "NES launch title",
-      "NES black box game: Sports Series",
-      "NES hang tab game"
+      "NES Black Box game: Sports Series",
+      "NES hang tab game",
+      "NES black box game: Sports Series"
     ]
   },
   {
@@ -4977,10 +5723,12 @@
     "name": "Tony Hawk's Pro Skater 4",
     "id": 915,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -4991,6 +5739,26 @@
     ],
     "new": [
       "Nintendo GameCube Player's Choice (Europe)"
+    ]
+  },
+  {
+    "name": "Worms Blast",
+    "id": 4236,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
+    ]
+  },
+  {
+    "name": "Prince of Persia: The Two Thrones",
+    "id": 2437,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
     ]
   },
   {
@@ -5068,6 +5836,26 @@
     ]
   },
   {
+    "name": "Thunder Blade",
+    "id": 12862,
+    "old": [
+      "Sega Master System game has FM audio"
+    ],
+    "new": [
+      "Sega Master System game has FM audio"
+    ]
+  },
+  {
+    "name": "OutRun",
+    "id": 2051,
+    "old": [
+      "Sega Master System game has FM audio"
+    ],
+    "new": [
+      "Sega Master System game has FM audio"
+    ]
+  },
+  {
     "name": "Hang-On",
     "id": 6110,
     "old": [
@@ -5078,13 +5866,27 @@
     ]
   },
   {
+    "name": "After Burner",
+    "id": 5468,
+    "old": [
+      "Sega Master System has compatibility issues with: HES Converter",
+      "Sega Master System game has FM audio"
+    ],
+    "new": [
+      "Sega Master System has compatibility issues with: HES Converter",
+      "Sega Master System game has FM audio"
+    ]
+  },
+  {
     "name": "Zaxxon 3-D",
     "id": 46104,
     "old": [
-      "Sega Master System 3D game (3-D Glasses)"
+      "Sega Master System 3D game (3-D Glasses)",
+      "Sega Master System game has FM audio"
     ],
     "new": [
-      "Sega Master System 3D game (3-D Glasses)"
+      "Sega Master System 3D game (3-D Glasses)",
+      "Sega Master System game has FM audio"
     ]
   },
   {
@@ -5111,20 +5913,24 @@
     "name": "Lego Bionicle: Quest for the Toa",
     "id": 6323,
     "old": [
-      "Nintendo Game Boy Advance exclusive"
+      "Nintendo Game Boy Advance exclusive",
+      "Game Boy Advance cartridge has save battery"
     ],
     "new": [
-      "Nintendo Game Boy Advance exclusive"
+      "Nintendo Game Boy Advance exclusive",
+      "Game Boy Advance cartridge has save battery"
     ]
   },
   {
     "name": "NFL Quarterback Club",
     "id": 114754,
     "old": [
-      "Sega 32X Team Player compatible title"
+      "Sega 32X Team Player compatible title",
+      "Sega 32X game has save battery"
     ],
     "new": [
-      "Sega 32X Team Player compatible title"
+      "Sega 32X Team Player compatible title",
+      "Sega 32X game has save battery"
     ]
   },
   {
@@ -5156,17 +5962,23 @@
   {
     "name": "Super Mario RPG: Legend of the Seven Stars",
     "id": 5418,
-    "old": [],
-    "new": []
+    "old": [
+      "SNES game has save battery"
+    ],
+    "new": [
+      "SNES game has save battery"
+    ]
   },
   {
     "name": "Yoshi's Story",
     "id": 3213,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -5185,10 +5997,22 @@
     "name": "Michael Jackson's Moonwalker",
     "id": 18139,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
+    ]
+  },
+  {
+    "name": "Super Punch-Out!!",
+    "id": 9151,
+    "old": [
+      "SNES game has save battery"
+    ],
+    "new": [
+      "SNES game has save battery"
     ]
   },
   {
@@ -5246,6 +6070,16 @@
     "new": []
   },
   {
+    "name": "SSX 3",
+    "id": 4174,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/Widescreen"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/Widescreen"
+    ]
+  },
+  {
     "name": "LEGO Star Wars: The Video Game",
     "id": 2681,
     "old": [
@@ -5253,6 +6087,16 @@
     ],
     "new": [
       "Nintendo GameCube Player's Choice"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Collector's Edition",
+    "id": 45139,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60 (The PAL version only supports 60 Hz. The two NES titles on the disc run at 240p by default, see the 240p games section below)"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60 (The PAL version only supports 60 Hz. The two NES titles on the disc run at 240p by default, see the 240p games section below)"
     ]
   },
   {
@@ -5301,39 +6145,69 @@
     "name": "James 'Buster' Douglas Knock Out Boxing",
     "id": 46530,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
+    ]
+  },
+  {
+    "name": "Jet Grind Radio",
+    "id": 1569,
+    "old": [
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (VMU minigame: Graffiti transfer)"
+    ],
+    "new": [
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (VMU minigame: Graffiti transfer)"
     ]
   },
   {
     "name": "Namco Museum",
     "id": 131507,
     "old": [
-      "Microsoft Xbox Platinum Hits Family Series"
+      "Microsoft Xbox Platinum Hits Family Series",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
-      "Microsoft Xbox Platinum Hits Family Series"
+      "Microsoft Xbox Platinum Hits Family Series",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
+    ]
+  },
+  {
+    "name": "Galaga",
+    "id": 2751,
+    "old": [
+      "Atari 7800 PAL game has issues on NTSC console: Minor - No issues other than the screen being shifted down"
+    ],
+    "new": [
+      "Atari 7800 PAL game has issues on NTSC console: Minor - No issues other than the screen being shifted down"
     ]
   },
   {
     "name": "Super Mario All-Stars",
     "id": 5199,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
     "name": "ToeJam & Earl",
     "id": 8389,
     "old": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ],
     "new": [
+      "Sega Genesis black box grid game",
       "Sega Genesis/Mega Drive black box grid game"
     ]
   },
@@ -5450,17 +6324,33 @@
   {
     "name": "The Legend of Zelda: Twilight Princess",
     "id": 1036,
-    "old": [],
-    "new": []
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
+    "id": 45142,
+    "old": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
+    ],
+    "new": [
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p"
+    ]
   },
   {
     "name": "Metroid Prime",
     "id": 1105,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
@@ -5468,31 +6358,49 @@
     "id": 1075,
     "old": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ],
     "new": [
       "Nintendo GameCube console exclusive",
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60"
     ]
   },
   {
     "name": "Super Monkey Ball 2",
     "id": 2928,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): NTSC 480p/PAL 60/Widescreen"
     ]
   },
   {
     "name": "Sonic Mega Collection",
     "id": 4157,
     "old": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): Can be forced to 480p through Swiss without any issues."
     ],
     "new": [
-      "Nintendo GameCube Player's Choice"
+      "Nintendo GameCube Player's Choice",
+      "Nintendo GameCube game has alternate display mode(s): Can be forced to 480p through Swiss without any issues."
+    ]
+  },
+  {
+    "name": "Forsaken",
+    "id": 718,
+    "old": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -5522,6 +6430,18 @@
     ]
   },
   {
+    "name": "Conker's Bad Fur Day",
+    "id": 1286,
+    "old": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
     "name": "Castlevania",
     "id": 1130,
     "old": [
@@ -5536,11 +6456,17 @@
     "id": 5910,
     "old": [
       "Microsoft Xbox exclusive",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
-      "Microsoft Xbox Best of Platinum Hits"
+      "Microsoft Xbox Best of Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -5551,6 +6477,16 @@
     ],
     "new": [
       "Sony PlayStation Portable exclusive"
+    ]
+  },
+  {
+    "name": "ChuChu Rocket!",
+    "id": 6347,
+    "old": [
+      "Dreamcast online game (SegaNet)"
+    ],
+    "new": [
+      "Dreamcast online game (SegaNet)"
     ]
   },
   {
@@ -5574,6 +6510,16 @@
     ]
   },
   {
+    "name": "Metroid Fusion",
+    "id": 1104,
+    "old": [
+      "Game Boy Advance cartridge has save battery (CR1616[4])"
+    ],
+    "new": [
+      "Game Boy Advance cartridge has save battery (CR1616[4])"
+    ]
+  },
+  {
     "name": "Metroid: Samus Returns",
     "id": 37140,
     "old": [
@@ -5591,6 +6537,20 @@
     ],
     "new": [
       "Nintendo GameCube Player's Choice"
+    ]
+  },
+  {
+    "name": "TimeSplitters: Future Perfect",
+    "id": 2144,
+    "old": [
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ],
+    "new": [
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
     ]
   },
   {
@@ -5620,31 +6580,47 @@
     "id": 19762,
     "old": [
       "Sega 32x exclusive",
-      "Sega 32X 6 button controller hidden functionality (Extra sound test controls)"
+      "Sega 32X 6 button controller hidden functionality (Extra sound test controls)",
+      "Sega 32X game has save battery"
     ],
     "new": [
       "Sega 32x exclusive",
-      "Sega 32X 6 button controller hidden functionality (Extra sound test controls)"
+      "Sega 32X 6 button controller hidden functionality (Extra sound test controls)",
+      "Sega 32X game has save battery"
+    ]
+  },
+  {
+    "name": "San Francisco Rush 2049",
+    "id": 3596,
+    "old": [
+      "Dreamcast online game (SegaNet)"
+    ],
+    "new": [
+      "Dreamcast online game (SegaNet)"
     ]
   },
   {
     "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
     "id": 1094,
     "old": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ],
     "new": [
-      "SNES Player's Choice"
+      "SNES Player's Choice",
+      "SNES game has save battery"
     ]
   },
   {
     "name": "Bomberman Hero",
     "id": 3453,
     "old": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ],
     "new": [
-      "Nintendo 64 Player's Choice"
+      "Nintendo 64 Player's Choice",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -5662,11 +6638,25 @@
     "id": 5754,
     "old": [
       "Microsoft Xbox exclusive",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Microsoft Xbox exclusive",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
+    ]
+  },
+  {
+    "name": "Mario Tennis",
+    "id": 128874,
+    "old": [
+      "GameBoy Color cartridge has save battery (CR1616)",
+      "Nintendo Game Boy Color Nintendo Select"
+    ],
+    "new": [
+      "GameBoy Color cartridge has save battery (CR1616)",
+      "Nintendo Game Boy Color Nintendo Select"
     ]
   },
   {
@@ -5675,12 +6665,14 @@
     "old": [
       "Xbox game plays on Xbox 360 - Multiplayer games do not work for this title",
       "Microsoft Xbox Best of Classics (PAL)",
-      "Microsoft Xbox Platinum Hits Family Series"
+      "Microsoft Xbox Platinum Hits Family Series",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ],
     "new": [
       "Xbox game plays on Xbox 360 - Multiplayer games do not work for this title",
       "Microsoft Xbox Best of Classics (PAL)",
-      "Microsoft Xbox Platinum Hits Family Series"
+      "Microsoft Xbox Platinum Hits Family Series",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
     ]
   },
   {
@@ -5697,10 +6689,24 @@
     "name": "Super Mario Land 2: 6 Golden Coins",
     "id": 1071,
     "old": [
+      "GameBoy cartridge has save battery (CR1616)",
       "Nintendo Game Boy Player's Choice"
     ],
     "new": [
+      "GameBoy cartridge has save battery (CR1616)",
       "Nintendo Game Boy Player's Choice"
+    ]
+  },
+  {
+    "name": "Rampage World Tour",
+    "id": 3056,
+    "old": [
+      "N64 3 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 3 player game",
+      "N64 Rumble Pak Game"
     ]
   },
   {
@@ -5720,13 +6726,21 @@
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ],
     "new": [
       "Microsoft Xbox exclusive",
       "Xbox game plays on Xbox 360",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p",
+      "Microsoft Xbox game has non-roamable (EEEPROM locked) saves"
     ]
   },
   {
@@ -5756,13 +6770,15 @@
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One - Available via Game Pass",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ],
     "new": [
       "Xbox game plays on Xbox 360",
       "Xbox game plays on Xbox One - Available via Game Pass",
       "Microsoft Xbox Classics (PAL)",
-      "Microsoft Xbox Platinum Hits"
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
     ]
   },
   {
@@ -5785,6 +6801,16 @@
     ],
     "new": [
       "Sega 32X 6 button compatible game"
+    ]
+  },
+  {
+    "name": "Night Trap",
+    "id": 2486,
+    "old": [
+      "Sega 32X game has save battery"
+    ],
+    "new": [
+      "Sega 32X game has save battery"
     ]
   },
   {
@@ -5851,6 +6877,18 @@
       "TurboGrafx-16 Multitap compatible title",
       "TurboGrafx-16 5 player",
       "also supports TurboExpress Link"
+    ]
+  },
+  {
+    "name": "Shinobi",
+    "id": 6899,
+    "old": [
+      "Sega Master System has compatibility issues with: HES Converter",
+      "Sega Master System game has FM audio"
+    ],
+    "new": [
+      "Sega Master System has compatibility issues with: HES Converter",
+      "Sega Master System game has FM audio"
     ]
   },
   {
@@ -5932,6 +6970,16 @@
     ]
   },
   {
+    "name": "Klax",
+    "id": 4484,
+    "old": [
+      "Atari Lynx game supports tate mode"
+    ],
+    "new": [
+      "Atari Lynx game supports tate mode"
+    ]
+  },
+  {
     "name": "MLB The Show 16",
     "id": 2212,
     "old": [
@@ -5954,6 +7002,822 @@
   {
     "name": "Kingdoms of Amalur: Reckoning",
     "id": 1059,
+    "old": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One"
+    ]
+  },
+  {
+    "name": "Need for Speed: Most Wanted",
+    "id": 3193,
+    "old": [
+      "Sony PlayStation Vita platform exclusive"
+    ],
+    "new": [
+      "Sony PlayStation Vita platform exclusive"
+    ]
+  },
+  {
+    "name": "Mega Bomberman",
+    "id": 4513,
+    "old": [
+      "Sega Genesis Team Player compatible title"
+    ],
+    "new": [
+      "Sega Genesis Team Player compatible title"
+    ]
+  },
+  {
+    "name": "FIFA 18",
+    "id": 27081,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Sanvein",
+    "id": 44902,
+    "old": [
+      "Sony PlayStation game runs at 60 FPS"
+    ],
+    "new": [
+      "Sony PlayStation game runs at 60 FPS"
+    ]
+  },
+  {
+    "name": "X-Men 2: Clone Wars",
+    "id": 9161,
+    "old": [
+      "Sega Genesis exclusive"
+    ],
+    "new": [
+      "Sega Genesis exclusive"
+    ]
+  },
+  {
+    "name": "Resistance: Burning Skies",
+    "id": 19907,
+    "old": [
+      "Sony PlayStation Vita full exclusive",
+      "PlayStation Vita game is incompatible with PSTV"
+    ],
+    "new": [
+      "Sony PlayStation Vita full exclusive",
+      "PlayStation Vita game is incompatible with PSTV"
+    ]
+  },
+  {
+    "name": "NASL Soccer",
+    "id": 5688,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Castlevania II: Simon's Quest",
+    "id": 1116,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "E.T. the Extra-Terrestrial",
+    "id": 6706,
+    "old": [
+      "Atari 2600 exclusive"
+    ],
+    "new": [
+      "Atari 2600 exclusive"
+    ]
+  },
+  {
+    "name": "The Chronicles of Riddick: Escape from Butcher Bay",
+    "id": 250,
+    "old": [
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ],
+    "new": [
+      "Microsoft Xbox Classics (PAL)",
+      "Microsoft Xbox Platinum Hits",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ]
+  },
+  {
+    "name": "Pokémon Moon",
+    "id": 18099,
+    "old": [
+      "Nintendo 3DS exclusive"
+    ],
+    "new": [
+      "Nintendo 3DS exclusive"
+    ]
+  },
+  {
+    "name": "Pokémon Diamond",
+    "id": 1560,
+    "old": [
+      "Nintendo DS exclusive"
+    ],
+    "new": [
+      "Nintendo DS exclusive"
+    ]
+  },
+  {
+    "name": "SOCOM: US Navy SEALs",
+    "id": 22238,
+    "old": [
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits",
+      "PlayStation 2 Online game"
+    ]
+  },
+  {
+    "name": "Wipeout Fusion",
+    "id": 1541,
+    "old": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "new": [
+      "Sony PlayStation 2 exclusive"
+    ]
+  },
+  {
+    "name": "Sea Battle",
+    "id": 5694,
+    "old": [
+      "Intellivision exclusive"
+    ],
+    "new": [
+      "Intellivision exclusive"
+    ]
+  },
+  {
+    "name": "Tekken 4",
+    "id": 1245,
+    "old": [
+      "Sony PlayStation 2 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Ace Combat 5: The Unsung War",
+    "id": 14753,
+    "old": [
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "NBA 2K3",
+    "id": 4030,
+    "old": [
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p/720p"
+    ]
+  },
+  {
+    "name": "LocoRoco",
+    "id": 1459,
+    "old": [
+      "Sony PlayStation Portable exclusive"
+    ],
+    "new": [
+      "Sony PlayStation Portable exclusive"
+    ]
+  },
+  {
+    "name": "Horse Racing",
+    "id": 47279,
+    "old": [
+      "Intellivision exclusive"
+    ],
+    "new": [
+      "Intellivision exclusive"
+    ]
+  },
+  {
+    "name": "Tekken 5",
+    "id": 1246,
+    "old": [
+      "Sony PlayStation 2 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Super Mario Maker for Nintendo 3DS",
+    "id": 26157,
+    "old": [
+      "3DS Nintendo Select"
+    ],
+    "new": [
+      "3DS Nintendo Select"
+    ]
+  },
+  {
+    "name": "Mario Party: The Top 100",
+    "id": 66812,
+    "old": [
+      "Nintendo 3DS exclusive"
+    ],
+    "new": [
+      "Nintendo 3DS exclusive"
+    ]
+  },
+  {
+    "name": "Kirby: Planet Robobot",
+    "id": 18221,
+    "old": [
+      "Nintendo 3DS exclusive"
+    ],
+    "new": [
+      "Nintendo 3DS exclusive"
+    ]
+  },
+  {
+    "name": "Dragon Ball Fusions",
+    "id": 19314,
+    "old": [
+      "Nintendo 3DS exclusive"
+    ],
+    "new": [
+      "Nintendo 3DS exclusive"
+    ]
+  },
+  {
+    "name": "Scribblenauts",
+    "id": 8807,
+    "old": [
+      "Nintendo DS exclusive"
+    ],
+    "new": [
+      "Nintendo DS exclusive"
+    ]
+  },
+  {
+    "name": "Freeway",
+    "id": 18045,
+    "old": [
+      "Atari 2600 exclusive"
+    ],
+    "new": [
+      "Atari 2600 exclusive"
+    ]
+  },
+  {
+    "name": "Rumble Racing",
+    "id": 43280,
+    "old": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "new": [
+      "Sony PlayStation 2 exclusive"
+    ]
+  },
+  {
+    "name": "NBA 2K14",
+    "id": 5329,
+    "old": [
+      "Sony PlayStation 4 launch title"
+    ],
+    "new": [
+      "Sony PlayStation 4 launch title"
+    ]
+  },
+  {
+    "name": "Demons to Diamonds",
+    "id": 17019,
+    "old": [
+      "Atari 2600 exclusive"
+    ],
+    "new": [
+      "Atari 2600 exclusive"
+    ]
+  },
+  {
+    "name": "Kingdom Hearts: The Story So Far",
+    "id": 110592,
+    "old": [
+      "Sony PlayStation 4 full exclusive"
+    ],
+    "new": [
+      "Sony PlayStation 4 full exclusive"
+    ]
+  },
+  {
+    "name": "Boxing",
+    "id": 5663,
+    "old": [
+      "Intellivision exclusive"
+    ],
+    "new": [
+      "Intellivision exclusive"
+    ]
+  },
+  {
+    "name": "Onimusha 2: Samurai's Destiny",
+    "id": 11757,
+    "old": [
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 2 exclusive",
+      "Sony PlayStation 2 Greatest Hits"
+    ]
+  },
+  {
+    "name": "MLB 08: The Show",
+    "id": 7370,
+    "old": [
+      "PlayStation 2 Online game"
+    ],
+    "new": [
+      "PlayStation 2 Online game"
+    ]
+  },
+  {
+    "name": "Excitebots: Trick Racing",
+    "id": 4836,
+    "old": [
+      "Nintendo Wii exclusive"
+    ],
+    "new": [
+      "Nintendo Wii exclusive"
+    ]
+  },
+  {
+    "name": "Hot Shots Tennis: Get a Grip",
+    "id": 21754,
+    "old": [
+      "Sony PlayStation Portable exclusive"
+    ],
+    "new": [
+      "Sony PlayStation Portable exclusive"
+    ]
+  },
+  {
+    "name": "Super Mario Galaxy 2",
+    "id": 1078,
+    "old": [
+      "Wii Nintendo Select"
+    ],
+    "new": [
+      "Wii Nintendo Select"
+    ]
+  },
+  {
+    "name": "Basketball",
+    "id": 5689,
+    "old": [
+      "Intellivision exclusive"
+    ],
+    "new": [
+      "Intellivision exclusive"
+    ]
+  },
+  {
+    "name": "Guitar Hero: On Tour",
+    "id": 7088,
+    "old": [
+      "Nintendo DS exclusive"
+    ],
+    "new": [
+      "Nintendo DS exclusive"
+    ]
+  },
+  {
+    "name": "Kobe Bryant in NBA Courtside",
+    "id": 3397,
+    "old": [
+      "Nintendo 64 exclusive",
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "Nintendo 64 exclusive",
+      "Nintendo 64 Player's Choice",
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
+    "name": "Bill Walsh College Football",
+    "id": 5363,
+    "old": [
+      "SNES Super Multitap compatible title"
+    ],
+    "new": [
+      "SNES Super Multitap compatible title"
+    ]
+  },
+  {
+    "name": "WCW Mayhem",
+    "id": 3633,
+    "old": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ],
+    "new": [
+      "N64 4 player game",
+      "N64 Rumble Pak Game"
+    ]
+  },
+  {
+    "name": "Mr. Driller: Drill Spirits",
+    "id": 18330,
+    "old": [
+      "Nintendo DS exclusive"
+    ],
+    "new": [
+      "Nintendo DS exclusive"
+    ]
+  },
+  {
+    "name": "Knack",
+    "id": 2957,
+    "old": [
+      "Sony PlayStation 4 launch title",
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 4 launch title",
+      "Sony PlayStation 4 full exclusive",
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "NCAA March Madness 2005",
+    "id": 5960,
+    "old": [
+      "Xbox game plays on Xbox 360 - Video stutters during the introductory video",
+      "Microsoft Xbox online multiplayer game"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360 - Video stutters during the introductory video",
+      "Microsoft Xbox online multiplayer game"
+    ]
+  },
+  {
+    "name": "ESPN NFL 2K5",
+    "id": 7881,
+    "old": [
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ]
+  },
+  {
+    "name": "Soul Bubbles",
+    "id": 21370,
+    "old": [
+      "Nintendo DS exclusive"
+    ],
+    "new": [
+      "Nintendo DS exclusive"
+    ]
+  },
+  {
+    "name": "Las Vegas Poker & Blackjack",
+    "id": 71274,
+    "old": [
+      "Mattel Intellivision launch title"
+    ],
+    "new": [
+      "Mattel Intellivision launch title"
+    ]
+  },
+  {
+    "name": "Tom Clancy's The Division",
+    "id": 2114,
+    "old": [
+      "Microsoft Xbox One Greatest Hits"
+    ],
+    "new": [
+      "Microsoft Xbox One Greatest Hits"
+    ]
+  },
+  {
+    "name": "Wipeout Fusion",
+    "id": 1541,
+    "old": [
+      "Sony PlayStation 2 exclusive"
+    ],
+    "new": [
+      "Sony PlayStation 2 exclusive"
+    ]
+  },
+  {
+    "name": "Teleroboxer",
+    "id": 20984,
+    "old": [
+      "Nintendo Virtual Boy launch title",
+      "Nintendo Virtual Boy exclusive"
+    ],
+    "new": [
+      "Nintendo Virtual Boy launch title",
+      "Nintendo Virtual Boy exclusive"
+    ]
+  },
+  {
+    "name": "MLB 11: The Show",
+    "id": 7373,
+    "old": [
+      "Sony PlayStation 3 platform exclusive"
+    ],
+    "new": [
+      "Sony PlayStation 3 platform exclusive"
+    ]
+  },
+  {
+    "name": "Untitled Goose Game",
+    "id": 72813,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Mario Paint",
+    "id": 8203,
+    "old": [
+      "Super Nintendo Entertainment System exclusive",
+      "SNES Player's Choice",
+      "SNES game has save battery"
+    ],
+    "new": [
+      "Super Nintendo Entertainment System exclusive",
+      "SNES Player's Choice",
+      "SNES game has save battery"
+    ]
+  },
+  {
+    "name": "Hunter: The Reckoning",
+    "id": 3950,
+    "old": [
+      "Xbox game plays on Xbox 360",
+      "Xbox game plays on Xbox One",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360",
+      "Xbox game plays on Xbox One",
+      "Microsoft Xbox game has alternate display mode(s): 480p"
+    ]
+  },
+  {
+    "name": "Utopia",
+    "id": 5702,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Zoo Tycoon",
+    "id": 18538,
+    "old": [
+      "Microsoft Xbox One launch title",
+      "Microsoft Xbox One platform exclusive",
+      "Microsoft Xbox One Greatest Hits"
+    ],
+    "new": [
+      "Microsoft Xbox One launch title",
+      "Microsoft Xbox One platform exclusive",
+      "Microsoft Xbox One Greatest Hits"
+    ]
+  },
+  {
+    "name": "Golf",
+    "id": 18008,
+    "old": [
+      "Atari 2600 exclusive"
+    ],
+    "new": [
+      "Atari 2600 exclusive"
+    ]
+  },
+  {
+    "name": "Air-Sea Battle",
+    "id": 11859,
+    "old": [
+      "Atari 2600 launch title"
+    ],
+    "new": [
+      "Atari 2600 launch title"
+    ]
+  },
+  {
+    "name": "Star Voyager",
+    "id": 3284,
+    "old": [
+      "Atari 2600 exclusive"
+    ],
+    "new": [
+      "Atari 2600 exclusive"
+    ]
+  },
+  {
+    "name": "Just Cause 2",
+    "id": 558,
+    "old": [
+      "Xbox 360 game backward compatible with Xbox One - Also available as a bonus with purchase of successor Just Cause 3",
+      "Microsoft Xbox 360 Classics (PAL)"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Also available as a bonus with purchase of successor Just Cause 3",
+      "Microsoft Xbox 360 Classics (PAL)"
+    ]
+  },
+  {
+    "name": "Resident Evil 7: Biohazard",
+    "id": 19562,
+    "old": [
+      "Sony PlayStation 4 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Armor Battle",
+    "id": 5656,
+    "old": [
+      "Mattel Intellivision launch title"
+    ],
+    "new": [
+      "Mattel Intellivision launch title"
+    ]
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim",
+    "id": 472,
+    "old": [
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
+    ],
+    "new": [
+      "Microsoft Xbox 360 Classics (PAL)",
+      "Microsoft Xbox 360 Platinum Collection (Japan)"
+    ]
+  },
+  {
+    "name": "Battlefield 4",
+    "id": 1979,
+    "old": [
+      "Microsoft Xbox One launch title",
+      "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+    ],
+    "new": [
+      "Microsoft Xbox One launch title",
+      "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+    ]
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "id": 1020,
+    "old": [
+      "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity",
+      "Microsoft Xbox 360 Platinum Hits"
+    ],
+    "new": [
+      "banned in North Korea: Banned because of the presence of gambling in GTA Online. Gambling of any kind is banned in North Korea.",
+      "banned in Suadia Arabia: Banned for extreme impact violence and nudity",
+      "Microsoft Xbox 360 Platinum Hits"
+    ]
+  },
+  {
+    "name": "Space Armada",
+    "id": 18646,
+    "old": [],
+    "new": []
+  },
+  {
+    "name": "Call of Duty: Ghosts",
+    "id": 2033,
+    "old": [
+      "Xbox 360 game backward compatible with Xbox One - Also released as a launch title for Xbox One"
+    ],
+    "new": [
+      "Xbox 360 game backward compatible with Xbox One - Also released as a launch title for Xbox One"
+    ]
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six Siege",
+    "id": 7360,
+    "old": [
+      "Sony PlayStation 4 Greatest Hits"
+    ],
+    "new": [
+      "Sony PlayStation 4 Greatest Hits"
+    ]
+  },
+  {
+    "name": "Mario Kart World",
+    "id": 338067,
+    "old": [
+      "Nintendo Switch 2 launch title"
+    ],
+    "new": [
+      "Nintendo Switch 2 launch title"
+    ]
+  },
+  {
+    "name": "Baseball Stars Professional",
+    "id": 39595,
+    "old": [
+      "Neo Geo AES launch title"
+    ],
+    "new": [
+      "Neo Geo AES launch title"
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild - Nintendo Switch 2 Edition",
+    "id": 338072,
+    "old": [
+      "Nintendo Switch 2 launch title"
+    ],
+    "new": [
+      "Nintendo Switch 2 launch title"
+    ]
+  },
+  {
+    "name": "Fast Fusion",
+    "id": 338093,
+    "old": [
+      "Nintendo Switch 2 launch title"
+    ],
+    "new": [
+      "Nintendo Switch 2 launch title"
+    ]
+  },
+  {
+    "name": "Battlefield 4",
+    "id": 1979,
+    "old": [
+      "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+    ],
+    "new": [
+      "banned in China: Banned for discrediting China's national image as well as threatening national security. The Chinese Ministry claims that the game shows a 'cultural invasion'."
+    ]
+  },
+  {
+    "name": "Star Wars: Jedi Knight - Jedi Academy",
+    "id": 153,
+    "old": [
+      "Xbox game plays on Xbox 360 - Cannot play split-screen games for this title",
+      "Xbox game plays on Xbox One",
+      "Microsoft Xbox Platinum Collection (Japan)",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ],
+    "new": [
+      "Xbox game plays on Xbox 360 - Cannot play split-screen games for this title",
+      "Xbox game plays on Xbox One",
+      "Microsoft Xbox Platinum Collection (Japan)",
+      "Microsoft Xbox System Link game",
+      "Microsoft Xbox online multiplayer game",
+      "Microsoft Xbox game has alternate display mode(s): 16:9/480p"
+    ]
+  },
+  {
+    "name": "NHL Stanley Cup",
+    "id": 42655,
+    "old": [
+      "Super Nintendo Entertainment System exclusive",
+      "SNES game has save battery"
+    ],
+    "new": [
+      "Super Nintendo Entertainment System exclusive",
+      "SNES game has save battery"
+    ]
+  },
+  {
+    "name": "Call of Duty: Modern Warfare 3",
+    "id": 979,
     "old": [
       "Xbox 360 game backward compatible with Xbox One"
     ],

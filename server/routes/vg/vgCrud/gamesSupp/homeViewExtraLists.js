@@ -743,13 +743,13 @@ games.forEach(game => {
     cibOwned[lists.cibList].push(id);
   }
   if (extra?.length) {
-    if (lists.launch?.indexOf(id) > 0 && launchOwned[lists?.launchList]?.indexOf(id) < 0) {
+    if (lists?.launch?.indexOf(id) > 0 && launchOwned[lists?.launchList]?.indexOf(id) < 0) {
       launchOwned[lists.launchList].push(id);
     }
-    if (lists.exclusives?.indexOf(id) > 0 && exOwned[lists?.exList]?.indexOf(id) < 0) {
+    if (lists?.exclusives?.indexOf(id) > 0 && exOwned[lists?.exList]?.indexOf(id) < 0) {
       exOwned[lists.exList].push(id);
     }
-    if (lists.hits?.indexOf(id) > 0 && hitsOwned[lists?.hitList]?.indexOf(id) < 0) {
+    if (lists?.hits?.indexOf(id) > 0 && hitsOwned[lists?.hitList]?.indexOf(id) < 0) {
       hitsOwned[lists.hitList].push(id);
     }
   }

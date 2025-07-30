@@ -21,7 +21,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -72,7 +73,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -99,7 +101,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -149,7 +152,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -200,7 +204,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -228,7 +233,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -255,7 +261,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -324,7 +331,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -351,7 +359,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -389,7 +398,8 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -443,8 +453,35 @@
     "misprintsErrors": []
   },
   {
-    "name": "Davis Cup Tennis",
+    "name": "Darius Plus",
     "id": "tg1617",
+    "igdbId": 38078,
+    "gbId": 5412,
+    "gbGuid": "3030-5412",
+    "details": [
+      "Supergrafx enhanced PC Engine game - slightly enhanced graphics when played on the Supergrafx"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Supergrafx enhanced PC Engine game - slightly enhanced graphics when played on the Supergrafx",
+        "forPlatform": {
+          "name": "NEC TurboGrafx 16",
+          "id": "ccl33",
+          "igdbId": 86,
+          "gbId": 55,
+          "gbGuid": "3045-55",
+          "tgdbId": 34
+        },
+        "category": "enhanced"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Davis Cup Tennis",
+    "id": "tg1618",
     "igdbId": 49175,
     "gbId": 18902,
     "gbGuid": "3030-18902",
@@ -464,14 +501,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Dead Moon",
-    "id": "tg1618",
+    "id": "tg1619",
     "igdbId": 42111,
     "gbId": 15250,
     "gbGuid": "3030-15250",
@@ -495,7 +533,7 @@
   },
   {
     "name": "Deep Blue",
-    "id": "tg1619",
+    "id": "tg1620",
     "igdbId": 75524,
     "gbId": 34389,
     "gbGuid": "3030-34389",
@@ -519,7 +557,7 @@
   },
   {
     "name": "Devil's Crush",
-    "id": "tg1620",
+    "id": "tg1621",
     "igdbId": 6827,
     "gbId": 11721,
     "gbGuid": "3030-11721",
@@ -539,14 +577,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Disney's Darkwing Duck",
-    "id": "tg1621",
+    "id": "tg1622",
     "igdbId": 81487,
     "gbId": 17216,
     "gbGuid": "3030-17216",
@@ -570,7 +609,7 @@
   },
   {
     "name": "Double Dungeons",
-    "id": "tg1622",
+    "id": "tg1623",
     "igdbId": 42110,
     "gbId": 20894,
     "gbGuid": "3030-20894",
@@ -590,14 +629,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Dungeon Explorer",
-    "id": "tg1623",
+    "id": "tg1624",
     "igdbId": 74314,
     "gbId": 7849,
     "gbGuid": "3030-7849",
@@ -628,14 +668,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Dungeons & Dragons: Order of the Griffon",
-    "id": "tg1624",
+    "id": "tg1625",
     "igdbId": 42102,
     "gbId": 19681,
     "gbGuid": "3030-19681",
@@ -659,7 +700,7 @@
   },
   {
     "name": "Falcon",
-    "id": "tg1625",
+    "id": "tg1626",
     "igdbId": 12088,
     "gbId": 11453,
     "gbGuid": "3030-11453",
@@ -680,14 +721,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Final Lap Twin",
-    "id": "tg1626",
+    "id": "tg1627",
     "igdbId": 42124,
     "gbId": 12897,
     "gbGuid": "3030-12897",
@@ -718,14 +760,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Final Match Tennis",
-    "id": "tg1627",
+    "id": "tg1628",
     "igdbId": 42060,
     "gbId": 40445,
     "gbGuid": "3030-40445",
@@ -749,7 +792,7 @@
   },
   {
     "name": "Hit the Ice: The Video Hockey League",
-    "id": "tg1628",
+    "id": "tg1629",
     "igdbId": 46208,
     "gbId": 22324,
     "gbGuid": "3030-22324",
@@ -769,14 +812,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Jack Nicklaus' Greatest 18 Holes of Major Championship Golf",
-    "id": "tg1629",
+    "id": "tg1630",
     "igdbId": 18101,
     "gbId": 15139,
     "gbGuid": "3030-15139",
@@ -796,14 +840,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Jackie Chan's Action Kung Fu",
-    "id": "tg1630",
+    "id": "tg1631",
     "igdbId": 12522,
     "gbId": 5129,
     "gbGuid": "3030-5129",
@@ -821,7 +866,7 @@
   },
   {
     "name": "Keith Courage in Alpha Zones",
-    "id": "tg1631",
+    "id": "tg1632",
     "igdbId": 42122,
     "gbId": 3479,
     "gbGuid": "3030-3479",
@@ -855,7 +900,7 @@
   },
   {
     "name": "King Of Casino",
-    "id": "tg1632",
+    "id": "tg1633",
     "igdbId": 42105,
     "gbId": 34390,
     "gbGuid": "3030-34390",
@@ -875,14 +920,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Knight Rider Special",
-    "id": "tg1633",
+    "id": "tg1634",
     "igdbId": 42058,
     "gbId": 51753,
     "gbGuid": "3030-51753",
@@ -906,7 +952,7 @@
   },
   {
     "name": "Legendary Axe II",
-    "id": "tg1634",
+    "id": "tg1635",
     "igdbId": 42120,
     "gbId": 6441,
     "gbGuid": "3030-6441",
@@ -929,7 +975,7 @@
   },
   {
     "name": "Military Madness",
-    "id": "tg1635",
+    "id": "tg1636",
     "igdbId": 44334,
     "gbId": 4152,
     "gbGuid": "3030-4152",
@@ -949,14 +995,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Momotarou Densetsu Turbo",
-    "id": "tg1636",
+    "id": "tg1637",
     "igdbId": 42049,
     "gbId": null,
     "gbGuid": null,
@@ -979,7 +1026,7 @@
   },
   {
     "name": "Moto Roader",
-    "id": "tg1637",
+    "id": "tg1638",
     "igdbId": 42104,
     "gbId": 9303,
     "gbGuid": "3030-9303",
@@ -999,14 +1046,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Ninja Spirit",
-    "id": "tg1638",
+    "id": "tg1639",
     "igdbId": 6819,
     "gbId": 11674,
     "gbGuid": "3030-11674",
@@ -1026,14 +1074,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Ordyne",
-    "id": "tg1639",
+    "id": "tg1640",
     "igdbId": 39968,
     "gbId": 5879,
     "gbGuid": "3030-5879",
@@ -1053,14 +1102,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Parasol Stars: The Story of Bubble Bobble III",
-    "id": "tg1640",
+    "id": "tg1641",
     "igdbId": 42101,
     "gbId": 10496,
     "gbGuid": "3030-10496",
@@ -1080,14 +1130,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Power Golf",
-    "id": "tg1641",
+    "id": "tg1642",
     "igdbId": 42100,
     "gbId": 20949,
     "gbGuid": "3030-20949",
@@ -1118,14 +1169,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "R-Type",
-    "id": "tg1642",
+    "id": "tg1643",
     "igdbId": 6840,
     "gbId": 13745,
     "gbGuid": "3030-13745",
@@ -1149,7 +1201,7 @@
   },
   {
     "name": "Shanghai",
-    "id": "tg1643",
+    "id": "tg1644",
     "igdbId": 12765,
     "gbId": 1655,
     "gbGuid": "3030-1655",
@@ -1172,7 +1224,7 @@
   },
   {
     "name": "Shockman",
-    "id": "tg1644",
+    "id": "tg1645",
     "igdbId": 42098,
     "gbId": 33381,
     "gbGuid": "3030-33381",
@@ -1192,14 +1244,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Sinistron",
-    "id": "tg1645",
+    "id": "tg1646",
     "igdbId": 44342,
     "gbId": 14706,
     "gbGuid": "3030-14706",
@@ -1223,7 +1276,7 @@
   },
   {
     "name": "Somer Assault",
-    "id": "tg1646",
+    "id": "tg1647",
     "igdbId": 44341,
     "gbId": 930,
     "gbGuid": "3030-930",
@@ -1247,7 +1300,7 @@
   },
   {
     "name": "Sonic Spike",
-    "id": "tg1647",
+    "id": "tg1648",
     "igdbId": 44340,
     "gbId": 34437,
     "gbGuid": "3030-34437",
@@ -1267,14 +1320,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Super Volleyball",
-    "id": "tg1648",
+    "id": "tg1649",
     "igdbId": 46192,
     "gbId": 34438,
     "gbGuid": "3030-34438",
@@ -1294,14 +1348,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "TV Sports Basketball",
-    "id": "tg1649",
+    "id": "tg1650",
     "igdbId": 8672,
     "gbId": 4869,
     "gbGuid": "3030-4869",
@@ -1321,14 +1376,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "TV Sports Football",
-    "id": "tg1650",
+    "id": "tg1651",
     "igdbId": 8671,
     "gbId": null,
     "gbGuid": null,
@@ -1348,14 +1404,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "TV Sports Hockey",
-    "id": "tg1651",
+    "id": "tg1652",
     "igdbId": 8675,
     "gbId": 26553,
     "gbGuid": "3030-26553",
@@ -1375,14 +1432,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Takin' it to the Hoop",
-    "id": "tg1652",
+    "id": "tg1653",
     "igdbId": 44338,
     "gbId": 30612,
     "gbGuid": "3030-30612",
@@ -1402,14 +1460,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "TaleSpin",
-    "id": "tg1653",
+    "id": "tg1654",
     "igdbId": 8067,
     "gbId": 48591,
     "gbGuid": "3030-48591",
@@ -1433,7 +1492,7 @@
   },
   {
     "name": "The Legendary Axe",
-    "id": "tg1654",
+    "id": "tg1655",
     "igdbId": 42121,
     "gbId": 1906,
     "gbGuid": "3030-1906",
@@ -1467,7 +1526,7 @@
   },
   {
     "name": "Tricky Kick",
-    "id": "tg1655",
+    "id": "tg1656",
     "igdbId": 92879,
     "gbId": 16919,
     "gbGuid": "3030-16919",
@@ -1491,7 +1550,7 @@
   },
   {
     "name": "Victory Run",
-    "id": "tg1656",
+    "id": "tg1657",
     "igdbId": 42118,
     "gbId": 10079,
     "gbGuid": "3030-10079",
@@ -1515,7 +1574,7 @@
   },
   {
     "name": "Vigilante",
-    "id": "tg1657",
+    "id": "tg1658",
     "igdbId": 10444,
     "gbId": 4146,
     "gbGuid": "3030-4146",
@@ -1539,7 +1598,7 @@
   },
   {
     "name": "World Class Baseball",
-    "id": "tg1658",
+    "id": "tg1659",
     "igdbId": 37734,
     "gbId": 20977,
     "gbGuid": "3030-20977",
@@ -1559,14 +1618,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "World Court Tennis",
-    "id": "tg1659",
+    "id": "tg1660",
     "igdbId": 37732,
     "gbId": 34442,
     "gbGuid": "3030-34442",
@@ -1586,14 +1646,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "World Sports Competition",
-    "id": "tg1660",
+    "id": "tg1661",
     "igdbId": 37731,
     "gbId": 20978,
     "gbGuid": "3030-20978",
@@ -1613,14 +1674,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Yo' Bro",
-    "id": "tg1661",
+    "id": "tg1662",
     "igdbId": 42023,
     "gbId": 17505,
     "gbGuid": "3030-17505",
@@ -1640,14 +1702,15 @@
           "gbId": 55,
           "gbGuid": "3045-55",
           "tgdbId": 34
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Zero4 Champ",
-    "id": "tg1662",
+    "id": "tg1663",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,

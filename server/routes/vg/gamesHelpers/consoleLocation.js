@@ -34,7 +34,11 @@ const consoleLocationList = {
   '60': 'upstairs', // Atari 7800
   '62': 'upstairs', // Atari Jaguar
   '67': 'upstairs', // IntelliVision
-  '64': 'upstairs' // Master System
+  '64': 'upstairs', // Master System
+  '61': 'upstairs', // Atari Lynx
+  '508': 'upstairs', // Nintendo Switch 2
+  '80': 'upstairs', // Neo Geo Pocket
+  '379': 'upstairs' // GameCube
 };
 
 module.exports.getLocation = id => {

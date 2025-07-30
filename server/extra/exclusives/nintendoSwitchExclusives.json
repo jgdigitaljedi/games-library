@@ -2,4591 +2,5509 @@
   {
     "name": "1-2-Switch",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex1"
+    "id": "nswex1",
+    "category": "exclusive"
   },
   {
     "name": "Arms",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex2"
+    "id": "nswex2",
+    "category": "exclusive"
   },
   {
     "name": "Azure Striker Gunvolt: Striker Pack",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex3"
+    "id": "nswex3",
+    "category": "exclusive"
   },
   {
     "name": "Bayonetta 2",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex4"
+    "id": "nswex4",
+    "category": "exclusive"
   },
   {
     "name": "Beyblade Burst: Battle Zero",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex5"
+    "id": "nswex5",
+    "category": "exclusive"
   },
   {
     "name": "Billion Road",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex6"
+    "id": "nswex6",
+    "category": "exclusive"
   },
   {
     "name": "Captain Toad: Treasure Tracker",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex7"
+    "id": "nswex7",
+    "category": "exclusive"
   },
   {
     "name": "Cave Story+",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex8"
+    "id": "nswex8",
+    "category": "exclusive"
   },
   {
     "name": "Cendrillon palikA",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex9"
+    "id": "nswex9",
+    "category": "exclusive"
   },
   {
     "name": "Champion Jockey Special",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex10"
+    "id": "nswex10",
+    "category": "exclusive"
   },
   {
     "name": "Chou Tousouchuu & Chou Sentouchuu Double Pack",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex11"
+    "id": "nswex11",
+    "category": "exclusive"
   },
   {
     "name": "Code of Princess EX",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex12"
+    "id": "nswex12",
+    "category": "exclusive"
   },
   {
     "name": "Cube Creator X",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex13"
+    "id": "nswex13",
+    "category": "exclusive"
   },
   {
     "name": "Cytus Alpha",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex14"
+    "id": "nswex14",
+    "category": "exclusive"
   },
   {
     "name": "Darius Cozmic Collection",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex15"
+    "id": "nswex15",
+    "category": "exclusive"
   },
   {
     "name": "Diabolik Lovers: Chaos Lineage",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex16"
+    "id": "nswex16",
+    "category": "exclusive"
   },
   {
     "name": "Donkey Kong Country: Tropical Freeze",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex17"
+    "id": "nswex17",
+    "category": "exclusive"
   },
   {
     "name": "Doraemon: Nobita’s Chronicle of the Moon Exploration",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex18"
+    "id": "nswex18",
+    "category": "exclusive"
   },
   {
     "name": "Fire Emblem: Three Houses",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex19"
+    "id": "nswex19",
+    "category": "exclusive"
   },
   {
     "name": "Fire Emblem Warriors",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex20"
+    "id": "nswex20",
+    "category": "exclusive"
   },
   {
     "name": "Fitness Boxing",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex21"
+    "id": "nswex21",
+    "category": "exclusive"
   },
   {
     "name": "Fun! Fun! Animal Park",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex22"
+    "id": "nswex22",
+    "category": "exclusive"
   },
   {
     "name": "Gal Metal",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex23"
+    "id": "nswex23",
+    "category": "exclusive"
   },
   {
     "name": "Gear.Club Unlimited",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex24"
+    "id": "nswex24",
+    "category": "exclusive"
   },
   {
     "name": "Gear.Club Unlimited 2",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex25"
+    "id": "nswex25",
+    "category": "exclusive"
   },
   {
     "name": "Gesshizu: Gajigaji Nakama wo Sodateyou",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex26"
+    "id": "nswex26",
+    "category": "exclusive"
   },
   {
     "name": "Gotouchi Tetsudou for Nintendo Switch",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex27"
+    "id": "nswex27",
+    "category": "exclusive"
   },
   {
     "name": "Go Vacation",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex28"
+    "id": "nswex28",
+    "category": "exclusive"
   },
   {
     "name": "Hello Kitty Kruisers",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex29"
+    "id": "nswex29",
+    "category": "exclusive"
   },
   {
     "name": "Hifumi Katou-Supervised Hifumin's Shogi Dojo",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex30"
+    "id": "nswex30",
+    "category": "exclusive"
   },
   {
     "name": "Hyrule Warriors: Definitive Edition",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex31"
+    "id": "nswex31",
+    "category": "exclusive"
   },
   {
     "name": "Kamen Rider: Climax Scramble",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex32"
+    "id": "nswex32",
+    "category": "exclusive"
   },
   {
     "name": "Katamari Damacy Reroll",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex33"
+    "id": "nswex33",
+    "category": "exclusive"
   },
   {
     "name": "Kirby: Star Allies",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex34"
+    "id": "nswex34",
+    "category": "exclusive"
   },
   {
     "name": "The Legend of Zelda: Breath of the Wild",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex35"
+    "id": "nswex35",
+    "category": "exclusive"
   },
   {
     "name": "Little Friends: Dogs & Cats",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex36"
+    "id": "nswex36",
+    "category": "exclusive"
   },
   {
     "name": "Mario Kart 8 Deluxe",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex37"
+    "id": "nswex37",
+    "category": "exclusive"
   },
   {
     "name": "Mario + Rabbids Kingdom Battle",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex38"
+    "id": "nswex38",
+    "category": "exclusive"
   },
   {
     "name": "Mario Tennis Aces",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex39"
+    "id": "nswex39",
+    "category": "exclusive"
   },
   {
     "name": "Marvel Ultimate Alliance 3: The Black Order",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex40"
+    "id": "nswex40",
+    "category": "exclusive"
   },
   {
     "name": "Monopoly for Nintendo Switch",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex41"
+    "id": "nswex41",
+    "category": "exclusive"
   },
   {
     "name": "Monster Hunter Generations Ultimate",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex42"
+    "id": "nswex42",
+    "category": "exclusive"
   },
   {
     "name": "Namco Museum Arcade Pac",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex43"
+    "id": "nswex43",
+    "category": "exclusive"
   },
   {
     "name": "Nari Kids Park: HUGtto! PreCure",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex44"
+    "id": "nswex44",
+    "category": "exclusive"
   },
   {
     "name": "Nari Kids Park: Kaitou Sentai Lupinranger VS Keisatsu Sentai Patoranger",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex45"
+    "id": "nswex45",
+    "category": "exclusive"
   },
   {
     "name": "Nari Kids Park: Ultraman R/B",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex46"
+    "id": "nswex46",
+    "category": "exclusive"
   },
   {
     "name": "Neko Tomo",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex47"
+    "id": "nswex47",
+    "category": "exclusive"
   },
   {
     "name": "New Super Mario Bros. U Deluxe",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex48"
+    "id": "nswex48",
+    "category": "exclusive"
   },
   {
     "name": "Nintendo Labo Toy-Con 01: Variety Kit",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex49"
+    "id": "nswex49",
+    "category": "exclusive"
   },
   {
     "name": "Nintendo Labo Toy-Con 02: Robot Kit",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex50"
+    "id": "nswex50",
+    "category": "exclusive"
   },
   {
     "name": "Nintendo Labo Toy-Con 03: Vehicle Kit",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex51"
+    "id": "nswex51",
+    "category": "exclusive"
   },
   {
     "name": "Nintendo Labo Toy-Con 04: VR Kit",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex52"
+    "id": "nswex52",
+    "category": "exclusive"
   },
   {
     "name": "Octopath Traveler",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex53"
+    "id": "nswex53",
+    "category": "exclusive"
   },
   {
     "name": "OPUS Collection: The Day We Found Earth + Rocket of Whispers",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex54"
+    "id": "nswex54",
+    "category": "exclusive"
   },
   {
     "name": "Party Arcade",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex55"
+    "id": "nswex55",
+    "category": "exclusive"
   },
   {
     "name": "Party Planet",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex56"
+    "id": "nswex56",
+    "category": "exclusive"
   },
   {
     "name": "Pikachin-Kit: Game de Pirameki Daisakusen",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex57"
+    "id": "nswex57",
+    "category": "exclusive"
   },
   {
     "name": "Pokemon Let's Go, Pikachu / Let's Go, Eevee",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex58"
+    "id": "nswex58",
+    "category": "exclusive"
   },
   {
     "name": "Pokken Tournament DX",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex59"
+    "id": "nswex59",
+    "category": "exclusive"
   },
   {
     "name": "PriPara: All Idol Perfect Stage",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex60"
+    "id": "nswex60",
+    "category": "exclusive"
   },
   {
     "name": "Pro Yakyuu Famista Evolution",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex61"
+    "id": "nswex61",
+    "category": "exclusive"
   },
   {
     "name": "Puru-Chara Friends: Hoppe-chan to Sanrio Characters",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex62"
+    "id": "nswex62",
+    "category": "exclusive"
   },
   {
     "name": "Rollercoaster Tycoon Adventures",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex63"
+    "id": "nswex63",
+    "category": "exclusive"
   },
   {
     "name": "Senran Kagura: Senran Kagura",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex64"
+    "id": "nswex64",
+    "category": "exclusive"
   },
   {
     "name": "Sid Meier's Civilization VI",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex65"
+    "id": "nswex65",
+    "category": "exclusive"
   },
   {
     "name": "Snipperclips Plus: Cut It Out, Together!",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex66"
+    "id": "nswex66",
+    "category": "exclusive"
   },
   {
     "name": "Splatoon 2",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex67"
+    "id": "nswex67",
+    "category": "exclusive"
   },
   {
     "name": "Sports Party",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex68"
+    "id": "nswex68",
+    "category": "exclusive"
   },
   {
     "name": "Sumikko Gurashi: Atsumare! Sumikko Town",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex69"
+    "id": "nswex69",
+    "category": "exclusive"
   },
   {
     "name": "Sumikko Gurashi: Sumikko Park he Youkoso",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex70"
+    "id": "nswex70",
+    "category": "exclusive"
   },
   {
     "name": "Summer Pockets",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex71"
+    "id": "nswex71",
+    "category": "exclusive"
   },
   {
     "name": "Super Dragon Ball Heroes: World Mission",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex72"
+    "id": "nswex72",
+    "category": "exclusive"
   },
   {
     "name": "Super Mario Maker 2",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex73"
+    "id": "nswex73",
+    "category": "exclusive"
   },
   {
     "name": "Super Mario Odyssey",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex74"
+    "id": "nswex74",
+    "category": "exclusive"
   },
   {
     "name": "Super Mario Party",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex75"
+    "id": "nswex75",
+    "category": "exclusive"
   },
   {
     "name": "Super Smash Bros. Ultimate",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex76"
+    "id": "nswex76",
+    "category": "exclusive"
   },
   {
     "name": "Sushi Striker: The Way of Sushido",
     "details": "Nintendo Switch platform exclusive",
-    "id": "nswex77"
+    "id": "nswex77",
+    "category": "exclusive"
   },
   {
     "name": "Tiny Barbarian DX",
     "details": "Nintendo Switch console exclusive",
-    "id": "nswex78"
+    "id": "nswex78",
+    "category": "exclusive"
   },
   {
     "name": "Ultra Street Fighter II: The Final Challengers",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex79"
+    "id": "nswex79",
+    "category": "exclusive"
   },
   {
     "name": "Umihara Kawase Fresh!",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex80"
+    "id": "nswex80",
+    "category": "exclusive"
   },
   {
     "name": "The World Ends With You: Final Remix",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex81"
+    "id": "nswex81",
+    "category": "exclusive"
   },
   {
     "name": "Xenoblade Chronicles 2",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex82"
+    "id": "nswex82",
+    "category": "exclusive"
   },
   {
     "name": "Yoshi's Crafted World",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex83"
+    "id": "nswex83",
+    "category": "exclusive"
   },
   {
     "name": "Zoids Wild: King of Blast",
     "details": "Nintendo Switch full exclusive",
-    "id": "nswex84"
+    "id": "nswex84",
+    "category": "exclusive"
   },
   {
     "name": "12 is Better Than 6",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex85"
+    "id": "nswex85",
+    "category": "exclusive"
   },
   {
     "name": "12 Labours of Hercules",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex86"
+    "id": "nswex86",
+    "category": "exclusive"
   },
   {
     "name": "1917: The Alien Invasion DX",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex87"
+    "id": "nswex87",
+    "category": "exclusive"
   },
   {
     "name": "10 Second Run Returns",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex88"
+    "id": "nswex88",
+    "category": "exclusive"
   },
   {
     "name": "1001 Ultimate Mahjong 2",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex89"
+    "id": "nswex89",
+    "category": "exclusive"
   },
   {
     "name": "2064: Read Only Memories Integral",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex90"
+    "id": "nswex90",
+    "category": "exclusive"
   },
   {
     "name": "30-in-1 Game Collection",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex91"
+    "id": "nswex91",
+    "category": "exclusive"
   },
   {
     "name": "60 Seconds",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex92"
+    "id": "nswex92",
+    "category": "exclusive"
   },
   {
     "name": "7 Billion Humans",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex93"
+    "id": "nswex93",
+    "category": "exclusive"
   },
   {
     "name": "99Moves",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex94"
+    "id": "nswex94",
+    "category": "exclusive"
   },
   {
     "name": "99Seconds",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex95"
+    "id": "nswex95",
+    "category": "exclusive"
   },
   {
     "name": "Abyss",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex96"
+    "id": "nswex96",
+    "category": "exclusive"
   },
   {
     "name": "ACA NEOGEO: Art of Fighting 3",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex97"
+    "id": "nswex97",
+    "category": "exclusive"
   },
   {
     "name": "ACA NEOGEO: Garou: Mark of the Wolves",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex98"
+    "id": "nswex98",
+    "category": "exclusive"
   },
   {
     "name": "ACA NEOGEO: The King of Fighters 2000",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex99"
+    "id": "nswex99",
+    "category": "exclusive"
   },
   {
     "name": "ACA NEOGEO: World Heroes Perfect",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex100"
+    "id": "nswex100",
+    "category": "exclusive"
   },
   {
     "name": "ACORN Tactics",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex101"
+    "id": "nswex101",
+    "category": "exclusive"
   },
   {
     "name": "Active Soccer 2019",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex102"
+    "id": "nswex102",
+    "category": "exclusive"
   },
   {
     "name": "A Dark Room",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex103"
+    "id": "nswex103",
+    "category": "exclusive"
   },
   {
     "name": "Adrenaline Rush: Miami Drive",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex104"
+    "id": "nswex104",
+    "category": "exclusive"
   },
   {
     "name": "The Adventures of Elena Temple",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex105"
+    "id": "nswex105",
+    "category": "exclusive"
   },
   {
     "name": "Agartha-S",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex106"
+    "id": "nswex106",
+    "category": "exclusive"
   },
   {
     "name": "Airfield Mania",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex107"
+    "id": "nswex107",
+    "category": "exclusive"
   },
   {
     "name": "Air Hockey",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex108"
+    "id": "nswex108",
+    "category": "exclusive"
   },
   {
     "name": "Air Mail",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex109"
+    "id": "nswex109",
+    "category": "exclusive"
   },
   {
     "name": "Akane",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex110"
+    "id": "nswex110",
+    "category": "exclusive"
   },
   {
     "name": "A-Kei Otaku Kanojo",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex111"
+    "id": "nswex111",
+    "category": "exclusive"
   },
   {
     "name": "Akihabara Crash! 123 Stage + 1",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex112"
+    "id": "nswex112",
+    "category": "exclusive"
   },
   {
     "name": "Akihabara: Feel the Rhythm Remixed",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex113"
+    "id": "nswex113",
+    "category": "exclusive"
   },
   {
     "name": "Almightree: The Last Dreamer",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex114"
+    "id": "nswex114",
+    "category": "exclusive"
   },
   {
     "name": "Alpha",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex115"
+    "id": "nswex115",
+    "category": "exclusive"
   },
   {
     "name": "A Magical High School Girl",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex116"
+    "id": "nswex116",
+    "category": "exclusive"
   },
   {
     "name": "The Amazing Shinsengumi: Heroes in Love",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex117"
+    "id": "nswex117",
+    "category": "exclusive"
   },
   {
     "name": "Ambition of the Slimes",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex118"
+    "id": "nswex118",
+    "category": "exclusive"
   },
   {
     "name": "Ancient Rush 2",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex119"
+    "id": "nswex119",
+    "category": "exclusive"
   },
   {
     "name": "Angels of Death",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex120"
+    "id": "nswex120",
+    "category": "exclusive"
   },
   {
     "name": "Animal Hunter Z",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex121"
+    "id": "nswex121",
+    "category": "exclusive"
   },
   {
     "name": "Animated Jigsaws: Beautiful Japanese Scenery",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex122"
+    "id": "nswex122",
+    "category": "exclusive"
   },
   {
     "name": "Animated Jigsaws: Beautiful Japanese Women",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex123"
+    "id": "nswex123",
+    "category": "exclusive"
   },
   {
     "name": "Animated Jigsaws: Wild Animals",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex124"
+    "id": "nswex124",
+    "category": "exclusive"
   },
   {
     "name": "Animus",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex125"
+    "id": "nswex125",
+    "category": "exclusive"
   },
   {
     "name": "Ankh Guardian - Treasure of the Demon's Temple",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex126"
+    "id": "nswex126",
+    "category": "exclusive"
   },
   {
     "name": "A Normal Lost Phone",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex127"
+    "id": "nswex127",
+    "category": "exclusive"
   },
   {
     "name": "Another Lost Phone: Laura's Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex128"
+    "id": "nswex128",
+    "category": "exclusive"
   },
   {
     "name": "Ape Out",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex129"
+    "id": "nswex129",
+    "category": "exclusive"
   },
   {
     "name": "Apocryph",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex130"
+    "id": "nswex130",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Donkey Kong",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex131"
+    "id": "nswex131",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Donkey Kong 3",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex132"
+    "id": "nswex132",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Donkey Kong Jr.",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex133"
+    "id": "nswex133",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Excitebike",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex134"
+    "id": "nswex134",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Ice Climber",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex135"
+    "id": "nswex135",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Mario Bros.",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex136"
+    "id": "nswex136",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Punch-Out!!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex137"
+    "id": "nswex137",
+    "category": "exclusive"
   },
   {
     "name": "Arcade Archives: Sky Skipper",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex138"
+    "id": "nswex138",
+    "category": "exclusive"
   },
   {
     "name": "Archlion Saga",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex139"
+    "id": "nswex139",
+    "category": "exclusive"
   },
   {
     "name": "Arena of Valor",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex140"
+    "id": "nswex140",
+    "category": "exclusive"
   },
   {
     "name": "A Robot Named Fight",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex141"
+    "id": "nswex141",
+    "category": "exclusive"
   },
   {
     "name": "Artifact Adventure Gaiden DX",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex142"
+    "id": "nswex142",
+    "category": "exclusive"
   },
   {
     "name": "Assault on Metaltron",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex143"
+    "id": "nswex143",
+    "category": "exclusive"
   },
   {
     "name": "Astro Bears",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex144"
+    "id": "nswex144",
+    "category": "exclusive"
   },
   {
     "name": "Astro Bears Party",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex145"
+    "id": "nswex145",
+    "category": "exclusive"
   },
   {
     "name": "Astro Duel Deluxe",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex146"
+    "id": "nswex146",
+    "category": "exclusive"
   },
   {
     "name": "Atomik: RunGunJumpGun",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex147"
+    "id": "nswex147",
+    "category": "exclusive"
   },
   {
     "name": "Automachef",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex148"
+    "id": "nswex148",
+    "category": "exclusive"
   },
   {
     "name": "Avenger Bird",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex149"
+    "id": "nswex149",
+    "category": "exclusive"
   },
   {
     "name": "Awe",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex150"
+    "id": "nswex150",
+    "category": "exclusive"
   },
   {
     "name": "Ayakashi Koi Gikyoku: Forbidden Romance with Mysterious Spirit",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex151"
+    "id": "nswex151",
+    "category": "exclusive"
   },
   {
     "name": "Azure Saga: Pathfinder Deluxe Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex152"
+    "id": "nswex152",
+    "category": "exclusive"
   },
   {
     "name": "Baba Is You",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex153"
+    "id": "nswex153",
+    "category": "exclusive"
   },
   {
     "name": "Bad Dream: Coma",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex154"
+    "id": "nswex154",
+    "category": "exclusive"
   },
   {
     "name": "Bad Dream: Fever",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex155"
+    "id": "nswex155",
+    "category": "exclusive"
   },
   {
     "name": "BAFL: Brakes Are For Losers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex156"
+    "id": "nswex156",
+    "category": "exclusive"
   },
   {
     "name": "Balance BloX",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex157"
+    "id": "nswex157",
+    "category": "exclusive"
   },
   {
     "name": "Baobabs Mausoleum Ep.1: Ovnifagos Don't Eat Flamingos",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex158"
+    "id": "nswex158",
+    "category": "exclusive"
   },
   {
     "name": "Baobabs Mausoleum Ep.2: 1313 Barnabas Dead End Drive",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex159"
+    "id": "nswex159",
+    "category": "exclusive"
   },
   {
     "name": "Bargain HunterBasketball",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex160"
+    "id": "nswex160",
+    "category": "exclusive"
   },
   {
     "name": "Battery Jam",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex161"
+    "id": "nswex161",
+    "category": "exclusive"
   },
   {
     "name": "Battle & Crash",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex162"
+    "id": "nswex162",
+    "category": "exclusive"
   },
   {
     "name": "Battle Group 2",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex163"
+    "id": "nswex163",
+    "category": "exclusive"
   },
   {
     "name": "Battleship",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex164"
+    "id": "nswex164",
+    "category": "exclusive"
   },
   {
     "name": "Battle Supremacy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex165"
+    "id": "nswex165",
+    "category": "exclusive"
   },
   {
     "name": "Battlloon",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex166"
+    "id": "nswex166",
+    "category": "exclusive"
   },
   {
     "name": "Beat Rush",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex167"
+    "id": "nswex167",
+    "category": "exclusive"
   },
   {
     "name": "Beekyr Reloaded",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex168"
+    "id": "nswex168",
+    "category": "exclusive"
   },
   {
     "name": "Behind the Screen",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex169"
+    "id": "nswex169",
+    "category": "exclusive"
   },
   {
     "name": "Beyond Enemy Lines: Covert Operations",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex170"
+    "id": "nswex170",
+    "category": "exclusive"
   },
   {
     "name": "Billiard",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex171"
+    "id": "nswex171",
+    "category": "exclusive"
   },
   {
     "name": "Bingo for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex172"
+    "id": "nswex172",
+    "category": "exclusive"
   },
   {
     "name": "Bitlogic",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex173"
+    "id": "nswex173",
+    "category": "exclusive"
   },
   {
     "name": "Black Bird",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex174"
+    "id": "nswex174",
+    "category": "exclusive"
   },
   {
     "name": "Blaster Master Zero",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex175"
+    "id": "nswex175",
+    "category": "exclusive"
   },
   {
     "name": "Blaster Master Zero II",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex176"
+    "id": "nswex176",
+    "category": "exclusive"
   },
   {
     "name": "Blazing Beaks",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex177"
+    "id": "nswex177",
+    "category": "exclusive"
   },
   {
     "name": "Bleep Bloop",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex178"
+    "id": "nswex178",
+    "category": "exclusive"
   },
   {
     "name": "BlobCat",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex179"
+    "id": "nswex179",
+    "category": "exclusive"
   },
   {
     "name": "Blossom Tales: The Sleeping King",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex180"
+    "id": "nswex180",
+    "category": "exclusive"
   },
   {
     "name": "Bomb Chicken",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex181"
+    "id": "nswex181",
+    "category": "exclusive"
   },
   {
     "name": "BombFall",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex182"
+    "id": "nswex182",
+    "category": "exclusive"
   },
   {
     "name": "Boom Ball: Boost Edition",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex183"
+    "id": "nswex183",
+    "category": "exclusive"
   },
   {
     "name": "Boom Beast",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex184"
+    "id": "nswex184",
+    "category": "exclusive"
   },
   {
     "name": "Bot Vice",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex185"
+    "id": "nswex185",
+    "category": "exclusive"
   },
   {
     "name": "Bouncy Bob",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex186"
+    "id": "nswex186",
+    "category": "exclusive"
   },
   {
     "name": "Box Align",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex187"
+    "id": "nswex187",
+    "category": "exclusive"
   },
   {
     "name": "Box Boy! + Box Girl!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex188"
+    "id": "nswex188",
+    "category": "exclusive"
   },
   {
     "name": "BQM: BlockQuest Maker",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex189"
+    "id": "nswex189",
+    "category": "exclusive"
   },
   {
     "name": "Brave Dungeon + Dark Witch Story: Combat",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex190"
+    "id": "nswex190",
+    "category": "exclusive"
   },
   {
     "name": "Braveland Trilogy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex191"
+    "id": "nswex191",
+    "category": "exclusive"
   },
   {
     "name": "#Breakforcist Battle",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex192"
+    "id": "nswex192",
+    "category": "exclusive"
   },
   {
     "name": "Bubble Cats Rescue",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex193"
+    "id": "nswex193",
+    "category": "exclusive"
   },
   {
     "name": "Buddy Collection if",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex194"
+    "id": "nswex194",
+    "category": "exclusive"
   },
   {
     "name": "Bullet Battle Evolution",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex195"
+    "id": "nswex195",
+    "category": "exclusive"
   },
   {
     "name": "Burnstar",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex196"
+    "id": "nswex196",
+    "category": "exclusive"
   },
   {
     "name": "Bury Me, My Love",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex197"
+    "id": "nswex197",
+    "category": "exclusive"
   },
   {
     "name": "Bus Fix 2019",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex198"
+    "id": "nswex198",
+    "category": "exclusive"
   },
   {
     "name": "Cadence of Hyrule: Crypt of the NecroDancer feat. The Legend of Zelda",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex199"
+    "id": "nswex199",
+    "category": "exclusive"
   },
   {
     "name": "Cafeteria Nipponica",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex200"
+    "id": "nswex200",
+    "category": "exclusive"
   },
   {
     "name": "Caged Garden Cock Robin",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex201"
+    "id": "nswex201",
+    "category": "exclusive"
   },
   {
     "name": "Cake Laboratory",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex202"
+    "id": "nswex202",
+    "category": "exclusive"
   },
   {
     "name": "Calculation Castle: Greco's Ghostly Challenge \"Addition\"",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex203"
+    "id": "nswex203",
+    "category": "exclusive"
   },
   {
     "name": "Calculation Castle: Greco's Ghostly Challenge \"Division\"",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex204"
+    "id": "nswex204",
+    "category": "exclusive"
   },
   {
     "name": "Calculation Castle: Greco's Ghostly Challenge \"Multiplication\"",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex205"
+    "id": "nswex205",
+    "category": "exclusive"
   },
   {
     "name": "Calculation Castle: Greco's Ghostly Challenge \"Subtraction\"",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex206"
+    "id": "nswex206",
+    "category": "exclusive"
   },
   {
     "name": "Captain StarONE",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex207"
+    "id": "nswex207",
+    "category": "exclusive"
   },
   {
     "name": "Carcassonne",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex208"
+    "id": "nswex208",
+    "category": "exclusive"
   },
   {
     "name": "Car Mayhem",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex209"
+    "id": "nswex209",
+    "category": "exclusive"
   },
   {
     "name": "Car Quest",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex210"
+    "id": "nswex210",
+    "category": "exclusive"
   },
   {
     "name": "Car Trader",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex211"
+    "id": "nswex211",
+    "category": "exclusive"
   },
   {
     "name": "Case Closed Skateboard Run: Phantom Thief Kid and the Mysterious Treasures",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex212"
+    "id": "nswex212",
+    "category": "exclusive"
   },
   {
     "name": "Castle of Heart",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex213"
+    "id": "nswex213",
+    "category": "exclusive"
   },
   {
     "name": "Catch 'Em! Goldfish Scooping",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex214"
+    "id": "nswex214",
+    "category": "exclusive"
   },
   {
     "name": "Cattails",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex215"
+    "id": "nswex215",
+    "category": "exclusive"
   },
   {
     "name": "Caveblazers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex216"
+    "id": "nswex216",
+    "category": "exclusive"
   },
   {
     "name": "Chalk Dash Carnival",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex217"
+    "id": "nswex217",
+    "category": "exclusive"
   },
   {
     "name": "Chameleon Run Deluxe Edition",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex218"
+    "id": "nswex218",
+    "category": "exclusive"
   },
   {
     "name": "The Charming Empire",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex219"
+    "id": "nswex219",
+    "category": "exclusive"
   },
   {
     "name": "Chicken Rider",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex220"
+    "id": "nswex220",
+    "category": "exclusive"
   },
   {
     "name": "Chiki-Chiki Boxy Pro Wrestling",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex221"
+    "id": "nswex221",
+    "category": "exclusive"
   },
   {
     "name": "Chiki-Chiki Boxy Racers",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex222"
+    "id": "nswex222",
+    "category": "exclusive"
   },
   {
     "name": "Chrono Clash: Fantasy Tactics",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex223"
+    "id": "nswex223",
+    "category": "exclusive"
   },
   {
     "name": "Cinders",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex224"
+    "id": "nswex224",
+    "category": "exclusive"
   },
   {
     "name": "Circle of Sumo",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex225"
+    "id": "nswex225",
+    "category": "exclusive"
   },
   {
     "name": "City Builder",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex226"
+    "id": "nswex226",
+    "category": "exclusive"
   },
   {
     "name": "Choju Giga Wars",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex227"
+    "id": "nswex227",
+    "category": "exclusive"
   },
   {
     "name": "Cinderella: An Interactive Fairy Tale",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex228"
+    "id": "nswex228",
+    "category": "exclusive"
   },
   {
     "name": "Class of Heroes: Anniversary Edition",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex229"
+    "id": "nswex229",
+    "category": "exclusive"
   },
   {
     "name": "Clock Simulator",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex230"
+    "id": "nswex230",
+    "category": "exclusive"
   },
   {
     "name": "Clue: The Classic Mystery Game",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex231"
+    "id": "nswex231",
+    "category": "exclusive"
   },
   {
     "name": "Collide-a-Ball 2",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex232"
+    "id": "nswex232",
+    "category": "exclusive"
   },
   {
     "name": "Combat Core",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex233"
+    "id": "nswex233",
+    "category": "exclusive"
   },
   {
     "name": "Commander Keen in Keen Dreams",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex234"
+    "id": "nswex234",
+    "category": "exclusive"
   },
   {
     "name": "Collection of Mana",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex235"
+    "id": "nswex235",
+    "category": "exclusive"
   },
   {
     "name": "Collidalot",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex236"
+    "id": "nswex236",
+    "category": "exclusive"
   },
   {
     "name": "Coloring Book",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex237"
+    "id": "nswex237",
+    "category": "exclusive"
   },
   {
     "name": "Color Zen",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex238"
+    "id": "nswex238",
+    "category": "exclusive"
   },
   {
     "name": "Color Zen Kids",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex239"
+    "id": "nswex239",
+    "category": "exclusive"
   },
   {
     "name": "Conduct Together!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex240"
+    "id": "nswex240",
+    "category": "exclusive"
   },
   {
     "name": "Crashlands",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex241"
+    "id": "nswex241",
+    "category": "exclusive"
   },
   {
     "name": "CricktoGame: Nintendo Switch Edition",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex242"
+    "id": "nswex242",
+    "category": "exclusive"
   },
   {
     "name": "Crush Your Enemies!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex243"
+    "id": "nswex243",
+    "category": "exclusive"
   },
   {
     "name": "Cycle 28",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex244"
+    "id": "nswex244",
+    "category": "exclusive"
   },
   {
     "name": "Dandy Dungeon: Legend of Brave Yamada",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex245"
+    "id": "nswex245",
+    "category": "exclusive"
   },
   {
     "name": "Danger Mouse: The Danger Games",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex246"
+    "id": "nswex246",
+    "category": "exclusive"
   },
   {
     "name": "Danmaku Unlimited 3",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex247"
+    "id": "nswex247",
+    "category": "exclusive"
   },
   {
     "name": "Darkest Hunters",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex248"
+    "id": "nswex248",
+    "category": "exclusive"
   },
   {
     "name": "The Darkside Detective",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex249"
+    "id": "nswex249",
+    "category": "exclusive"
   },
   {
     "name": "Dark Witch Music Episode: Rudymical",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex250"
+    "id": "nswex250",
+    "category": "exclusive"
   },
   {
     "name": "Darts Up",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex251"
+    "id": "nswex251",
+    "category": "exclusive"
   },
   {
     "name": "Dawn of the Breakers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex252"
+    "id": "nswex252",
+    "category": "exclusive"
   },
   {
     "name": "Dawn of Survivors",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex253"
+    "id": "nswex253",
+    "category": "exclusive"
   },
   {
     "name": "Dead Dungeon",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex254"
+    "id": "nswex254",
+    "category": "exclusive"
   },
   {
     "name": "Dead Fun Pack: Penguins and Aliens Strike Again",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex255"
+    "id": "nswex255",
+    "category": "exclusive"
   },
   {
     "name": "Dead in Vinland: True Viking Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex256"
+    "id": "nswex256",
+    "category": "exclusive"
   },
   {
     "name": "Dear Magi: Mahou Shounen Gakka",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex257"
+    "id": "nswex257",
+    "category": "exclusive"
   },
   {
     "name": "Dear My Abyss",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex258"
+    "id": "nswex258",
+    "category": "exclusive"
   },
   {
     "name": "Defend Your Castle",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex259"
+    "id": "nswex259",
+    "category": "exclusive"
   },
   {
     "name": "Defoliation",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex260"
+    "id": "nswex260",
+    "category": "exclusive"
   },
   {
     "name": "Demolition Crew",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex261"
+    "id": "nswex261",
+    "category": "exclusive"
   },
   {
     "name": "The Demon Crystal",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex262"
+    "id": "nswex262",
+    "category": "exclusive"
   },
   {
     "name": "Deru: The Art of Cooperation",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex263"
+    "id": "nswex263",
+    "category": "exclusive"
   },
   {
     "name": "Desktop Baseball",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex264"
+    "id": "nswex264",
+    "category": "exclusive"
   },
   {
     "name": "Desktop Bowling",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex265"
+    "id": "nswex265",
+    "category": "exclusive"
   },
   {
     "name": "Desktop Soccer",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex266"
+    "id": "nswex266",
+    "category": "exclusive"
   },
   {
     "name": "Destiny’s Princess: A War Story, A Love Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex267"
+    "id": "nswex267",
+    "category": "exclusive"
   },
   {
     "name": "Destruction",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex268"
+    "id": "nswex268",
+    "category": "exclusive"
   },
   {
     "name": "Dexteritrip",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex269"
+    "id": "nswex269",
+    "category": "exclusive"
   },
   {
     "name": "Diggerman",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex270"
+    "id": "nswex270",
+    "category": "exclusive"
   },
   {
     "name": "Ding Dong XL",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex271"
+    "id": "nswex271",
+    "category": "exclusive"
   },
   {
     "name": "Doggie Ninja: The Golden Mission",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex272"
+    "id": "nswex272",
+    "category": "exclusive"
   },
   {
     "name": "Don't Sink",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex273"
+    "id": "nswex273",
+    "category": "exclusive"
   },
   {
     "name": "Disease: Hidden Object",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex274"
+    "id": "nswex274",
+    "category": "exclusive"
   },
   {
     "name": "Double Cross",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex275"
+    "id": "nswex275",
+    "category": "exclusive"
   },
   {
     "name": "Dragon Blaze for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex276"
+    "id": "nswex276",
+    "category": "exclusive"
   },
   {
     "name": "Dragon: Marked for Death",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex277"
+    "id": "nswex277",
+    "category": "exclusive"
   },
   {
     "name": "Dragon Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex278"
+    "id": "nswex278",
+    "category": "exclusive"
   },
   {
     "name": "Double Quest Rivals",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex279"
+    "id": "nswex279",
+    "category": "exclusive"
   },
   {
     "name": "Dragon Snakes",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex280"
+    "id": "nswex280",
+    "category": "exclusive"
   },
   {
     "name": "Drift Legends",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex281"
+    "id": "nswex281",
+    "category": "exclusive"
   },
   {
     "name": "Driving School Original",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex282"
+    "id": "nswex282",
+    "category": "exclusive"
   },
   {
     "name": "Drone Fight",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex283"
+    "id": "nswex283",
+    "category": "exclusive"
   },
   {
     "name": "Duck Hunting Challenge",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex284"
+    "id": "nswex284",
+    "category": "exclusive"
   },
   {
     "name": "Dungeons & Aliens",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex285"
+    "id": "nswex285",
+    "category": "exclusive"
   },
   {
     "name": "Dungeon Village",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex286"
+    "id": "nswex286",
+    "category": "exclusive"
   },
   {
     "name": "Dyna Bomb",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex287"
+    "id": "nswex287",
+    "category": "exclusive"
   },
   {
     "name": "Eagle Island",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex288"
+    "id": "nswex288",
+    "category": "exclusive"
   },
   {
     "name": "Earthworms",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex289"
+    "id": "nswex289",
+    "category": "exclusive"
   },
   {
     "name": "Eastville Chronicles: The Drama Queen Murder",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex290"
+    "id": "nswex290",
+    "category": "exclusive"
   },
   {
     "name": "Eat Beat Deadspike-san",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex291"
+    "id": "nswex291",
+    "category": "exclusive"
   },
   {
     "name": "Eggggg",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex292"
+    "id": "nswex292",
+    "category": "exclusive"
   },
   {
     "name": "Elemental Knights R",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex293"
+    "id": "nswex293",
+    "category": "exclusive"
   },
   {
     "name": "Elevator... To The Moon! Turbo Champion's Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex294"
+    "id": "nswex294",
+    "category": "exclusive"
   },
   {
     "name": "Enchanted in the Moonlight: Kiryu, Chikage, & Yukinojo",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex295"
+    "id": "nswex295",
+    "category": "exclusive"
   },
   {
     "name": "Enchanted in the Moonlight: Miyabi, Kyoga, & Samon",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex296"
+    "id": "nswex296",
+    "category": "exclusive"
   },
   {
     "name": "Enchanting Mahjong Match",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex297"
+    "id": "nswex297",
+    "category": "exclusive"
   },
   {
     "name": "Epic Astro Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex298"
+    "id": "nswex298",
+    "category": "exclusive"
   },
   {
     "name": "Escape Doodland",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex299"
+    "id": "nswex299",
+    "category": "exclusive"
   },
   {
     "name": "Escape Trick: 35 Fateful Enigmas",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex300"
+    "id": "nswex300",
+    "category": "exclusive"
   },
   {
     "name": "Estiman",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex301"
+    "id": "nswex301",
+    "category": "exclusive"
   },
   {
     "name": "European Conqueror X",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex302"
+    "id": "nswex302",
+    "category": "exclusive"
   },
   {
     "name": "Event Horizon",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex303"
+    "id": "nswex303",
+    "category": "exclusive"
   },
   {
     "name": "Everybody, Hearts!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex304"
+    "id": "nswex304",
+    "category": "exclusive"
   },
   {
     "name": "Evil Defenders",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex305"
+    "id": "nswex305",
+    "category": "exclusive"
   },
   {
     "name": "Exorder",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex306"
+    "id": "nswex306",
+    "category": "exclusive"
   },
   {
     "name": "Extreme Poker",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex307"
+    "id": "nswex307",
+    "category": "exclusive"
   },
   {
     "name": "Fairune Collection",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex308"
+    "id": "nswex308",
+    "category": "exclusive"
   },
   {
     "name": "Fairy Tale Puzzles: Magic Objects",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex309"
+    "id": "nswex309",
+    "category": "exclusive"
   },
   {
     "name": "Family Card Games SP",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex310"
+    "id": "nswex310",
+    "category": "exclusive"
   },
   {
     "name": "Farm Expert 2018 for Nintendo Switch",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex311"
+    "id": "nswex311",
+    "category": "exclusive"
   },
   {
     "name": "Fast RMX",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex312"
+    "id": "nswex312",
+    "category": "exclusive"
   },
   {
     "name": "Feather",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex313"
+    "id": "nswex313",
+    "category": "exclusive"
   },
   {
     "name": "Fight of Gods",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex314"
+    "id": "nswex314",
+    "category": "exclusive"
   },
   {
     "name": "Final Light, The Prison",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex315"
+    "id": "nswex315",
+    "category": "exclusive"
   },
   {
     "name": "Find the Balance",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex316"
+    "id": "nswex316",
+    "category": "exclusive"
   },
   {
     "name": "Fishing Star: World Tour",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex317"
+    "id": "nswex317",
+    "category": "exclusive"
   },
   {
     "name": "Fishing Universe Simulator",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex318"
+    "id": "nswex318",
+    "category": "exclusive"
   },
   {
     "name": "Flat Heroes",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex319"
+    "id": "nswex319",
+    "category": "exclusive"
   },
   {
     "name": "Flip Over Frog",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex320"
+    "id": "nswex320",
+    "category": "exclusive"
   },
   {
     "name": "Flip Wars",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex321"
+    "id": "nswex321",
+    "category": "exclusive"
   },
   {
     "name": "Flood of Light",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex322"
+    "id": "nswex322",
+    "category": "exclusive"
   },
   {
     "name": "Flowlines VS",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex323"
+    "id": "nswex323",
+    "category": "exclusive"
   },
   {
     "name": "Fly O'Clock",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex324"
+    "id": "nswex324",
+    "category": "exclusive"
   },
   {
     "name": "Food Truck Tycoon",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex325"
+    "id": "nswex325",
+    "category": "exclusive"
   },
   {
     "name": "Football Manager Touch 2018",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex326"
+    "id": "nswex326",
+    "category": "exclusive"
   },
   {
     "name": "Football Manager 2019 Touch",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex327"
+    "id": "nswex327",
+    "category": "exclusive"
   },
   {
     "name": "Forever Forest",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex328"
+    "id": "nswex328",
+    "category": "exclusive"
   },
   {
     "name": "Forgotten Tales: Day of the Dead",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex329"
+    "id": "nswex329",
+    "category": "exclusive"
   },
   {
     "name": "Forklift: The Simulation",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex330"
+    "id": "nswex330",
+    "category": "exclusive"
   },
   {
     "name": "Framed Collection",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex331"
+    "id": "nswex331",
+    "category": "exclusive"
   },
   {
     "name": "Frederic: The Resurrection of Music",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex332"
+    "id": "nswex332",
+    "category": "exclusive"
   },
   {
     "name": "Frederic 2: Evil Strikes Back",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex333"
+    "id": "nswex333",
+    "category": "exclusive"
   },
   {
     "name": "Freecell Battle King",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex334"
+    "id": "nswex334",
+    "category": "exclusive"
   },
   {
     "name": "Freecell Solitaire",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex335"
+    "id": "nswex335",
+    "category": "exclusive"
   },
   {
     "name": "Friday the 13th: Killer Puzzle",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex336"
+    "id": "nswex336",
+    "category": "exclusive"
   },
   {
     "name": "The Friends of Ringo Ishikawa",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex337"
+    "id": "nswex337",
+    "category": "exclusive"
   },
   {
     "name": "FruitFall Crush",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex338"
+    "id": "nswex338",
+    "category": "exclusive"
   },
   {
     "name": "FunBox Party",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex339"
+    "id": "nswex339",
+    "category": "exclusive"
   },
   {
     "name": "Gabucchi",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex340"
+    "id": "nswex340",
+    "category": "exclusive"
   },
   {
     "name": "Game Dev Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex341"
+    "id": "nswex341",
+    "category": "exclusive"
   },
   {
     "name": "Gakuen Club",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex342"
+    "id": "nswex342",
+    "category": "exclusive"
   },
   {
     "name": "Gaokao.Love.100Days",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex343"
+    "id": "nswex343",
+    "category": "exclusive"
   },
   {
     "name": "Garage",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex344"
+    "id": "nswex344",
+    "category": "exclusive"
   },
   {
     "name": "Garage Mechanic Simulator",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex345"
+    "id": "nswex345",
+    "category": "exclusive"
   },
   {
     "name": "Gato Roboto",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex346"
+    "id": "nswex346",
+    "category": "exclusive"
   },
   {
     "name": "Geki Yaba Runner Anniversary Edition",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex347"
+    "id": "nswex347",
+    "category": "exclusive"
   },
   {
     "name": "Gelly Break",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex348"
+    "id": "nswex348",
+    "category": "exclusive"
   },
   {
     "name": "Gem Crash",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex349"
+    "id": "nswex349",
+    "category": "exclusive"
   },
   {
     "name": "Gem Smashers",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex350"
+    "id": "nswex350",
+    "category": "exclusive"
   },
   {
     "name": "GetAmped Mobile",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex351"
+    "id": "nswex351",
+    "category": "exclusive"
   },
   {
     "name": "Glaive: Brick Breaker",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex352"
+    "id": "nswex352",
+    "category": "exclusive"
   },
   {
     "name": "Godly Corp",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex353"
+    "id": "nswex353",
+    "category": "exclusive"
   },
   {
     "name": "Goetia",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex354"
+    "id": "nswex354",
+    "category": "exclusive"
   },
   {
     "name": "GoFishing 3D",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex355"
+    "id": "nswex355",
+    "category": "exclusive"
   },
   {
     "name": "Goken",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex356"
+    "id": "nswex356",
+    "category": "exclusive"
   },
   {
     "name": "Golf Peaks",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex357"
+    "id": "nswex357",
+    "category": "exclusive"
   },
   {
     "name": "Golf Story",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex358"
+    "id": "nswex358",
+    "category": "exclusive"
   },
   {
     "name": "Goonya Fighter",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex359"
+    "id": "nswex359",
+    "category": "exclusive"
   },
   {
     "name": "Grab Lab",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex360"
+    "id": "nswex360",
+    "category": "exclusive"
   },
   {
     "name": "Grandpa and the Zombies",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex361"
+    "id": "nswex361",
+    "category": "exclusive"
   },
   {
     "name": "Grand Prix Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex362"
+    "id": "nswex362",
+    "category": "exclusive"
   },
   {
     "name": "Greco's Hall of Kanji　Learn Japanese: Beginner",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex363"
+    "id": "nswex363",
+    "category": "exclusive"
   },
   {
     "name": "Green",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex364"
+    "id": "nswex364",
+    "category": "exclusive"
   },
   {
     "name": "Grid Mania",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex365"
+    "id": "nswex365",
+    "category": "exclusive"
   },
   {
     "name": "GRIS",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex366"
+    "id": "nswex366",
+    "category": "exclusive"
   },
   {
     "name": "Guess the Character",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex367"
+    "id": "nswex367",
+    "category": "exclusive"
   },
   {
     "name": "Guess the Word",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex368"
+    "id": "nswex368",
+    "category": "exclusive"
   },
   {
     "name": "Gunbarich for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex369"
+    "id": "nswex369",
+    "category": "exclusive"
   },
   {
     "name": "Gunbird for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex370"
+    "id": "nswex370",
+    "category": "exclusive"
   },
   {
     "name": "Gunbird 2 for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex371"
+    "id": "nswex371",
+    "category": "exclusive"
   },
   {
     "name": "Gunlord X",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex372"
+    "id": "nswex372",
+    "category": "exclusive"
   },
   {
     "name": "Gunpowder on the Teeth: Arcade",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex373"
+    "id": "nswex373",
+    "category": "exclusive"
   },
   {
     "name": "Gym Hero: Idle Fitness Tycoon",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex374"
+    "id": "nswex374",
+    "category": "exclusive"
   },
   {
     "name": "Gyro Boss DX",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex375"
+    "id": "nswex375",
+    "category": "exclusive"
   },
   {
     "name": "Halcyon 6: Starbase Commander",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex376"
+    "id": "nswex376",
+    "category": "exclusive"
   },
   {
     "name": "Happy Words",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex377"
+    "id": "nswex377",
+    "category": "exclusive"
   },
   {
     "name": "Hardway Party",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex378"
+    "id": "nswex378",
+    "category": "exclusive"
   },
   {
     "name": "Hard West",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex379"
+    "id": "nswex379",
+    "category": "exclusive"
   },
   {
     "name": "Harvest Life",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex380"
+    "id": "nswex380",
+    "category": "exclusive"
   },
   {
     "name": "Headball Soccer Deluxe",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex381"
+    "id": "nswex381",
+    "category": "exclusive"
   },
   {
     "name": "Hell is Other Demons",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex382"
+    "id": "nswex382",
+    "category": "exclusive"
   },
   {
     "name": "Hellmut: The Badass from Hell",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex383"
+    "id": "nswex383",
+    "category": "exclusive"
   },
   {
     "name": "Heroki",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex384"
+    "id": "nswex384",
+    "category": "exclusive"
   },
   {
     "name": "Hexagravity",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex385"
+    "id": "nswex385",
+    "category": "exclusive"
   },
   {
     "name": "Hexologic",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex386"
+    "id": "nswex386",
+    "category": "exclusive"
   },
   {
     "name": "Hidden Folks",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex387"
+    "id": "nswex387",
+    "category": "exclusive"
   },
   {
     "name": "High Noon Revolver",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex388"
+    "id": "nswex388",
+    "category": "exclusive"
   },
   {
     "name": "Hiragana Pixel Party!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex389"
+    "id": "nswex389",
+    "category": "exclusive"
   },
   {
     "name": "History 2048",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex390"
+    "id": "nswex390",
+    "category": "exclusive"
   },
   {
     "name": "Hollow",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex391"
+    "id": "nswex391",
+    "category": "exclusive"
   },
   {
     "name": "Home Escape",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex392"
+    "id": "nswex392",
+    "category": "exclusive"
   },
   {
     "name": "Homo Machina",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex393"
+    "id": "nswex393",
+    "category": "exclusive"
   },
   {
     "name": "Honkai AI Tousai: Daifugou",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex394"
+    "id": "nswex394",
+    "category": "exclusive"
   },
   {
     "name": "Hook",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex395"
+    "id": "nswex395",
+    "category": "exclusive"
   },
   {
     "name": "Hotel Dracula",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex396"
+    "id": "nswex396",
+    "category": "exclusive"
   },
   {
     "name": "Hototogisu Tairan 1553: Ryuuko Aiutsu",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex397"
+    "id": "nswex397",
+    "category": "exclusive"
   },
   {
     "name": "Hot Springs Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex398"
+    "id": "nswex398",
+    "category": "exclusive"
   },
   {
     "name": "Human Resource Machine",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex399"
+    "id": "nswex399",
+    "category": "exclusive"
   },
   {
     "name": "Human Rocket Person",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex400"
+    "id": "nswex400",
+    "category": "exclusive"
   },
   {
     "name": "Hungry Baby: Party Treats",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex401"
+    "id": "nswex401",
+    "category": "exclusive"
   },
   {
     "name": "Hyperide",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex402"
+    "id": "nswex402",
+    "category": "exclusive"
   },
   {
     "name": "Hyperide: Vector Raid",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex403"
+    "id": "nswex403",
+    "category": "exclusive"
   },
   {
     "name": "Hyperlight Ultimate",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex404"
+    "id": "nswex404",
+    "category": "exclusive"
   },
   {
     "name": "Implosion: Never Lose Hope",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex405"
+    "id": "nswex405",
+    "category": "exclusive"
   },
   {
     "name": "Inops",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex406"
+    "id": "nswex406",
+    "category": "exclusive"
   },
   {
     "name": "Instant Tennis",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex407"
+    "id": "nswex407",
+    "category": "exclusive"
   },
   {
     "name": "Into the Breach",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex408"
+    "id": "nswex408",
+    "category": "exclusive"
   },
   {
     "name": "Inventioneers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex409"
+    "id": "nswex409",
+    "category": "exclusive"
   },
   {
     "name": "Invisiballs",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex410"
+    "id": "nswex410",
+    "category": "exclusive"
   },
   {
     "name": "Iris School of Wizardry: Vinculum Hearts",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex411"
+    "id": "nswex411",
+    "category": "exclusive"
   },
   {
     "name": "Iro Hero",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex412"
+    "id": "nswex412",
+    "category": "exclusive"
   },
   {
     "name": "Ise Shima Mystery Guide: The False Black Pearl",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex413"
+    "id": "nswex413",
+    "category": "exclusive"
   },
   {
     "name": "Isoland",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex414"
+    "id": "nswex414",
+    "category": "exclusive"
   },
   {
     "name": "Isoland 2: Ashes of Time",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex415"
+    "id": "nswex415",
+    "category": "exclusive"
   },
   {
     "name": "Istanbul Digital Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex416"
+    "id": "nswex416",
+    "category": "exclusive"
   },
   {
     "name": "Ivanych vs Eared Beast",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex417"
+    "id": "nswex417",
+    "category": "exclusive"
   },
   {
     "name": "Jang-Navi Mahjong Online",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex418"
+    "id": "nswex418",
+    "category": "exclusive"
   },
   {
     "name": "Japanese Mah-jongg",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex419"
+    "id": "nswex419",
+    "category": "exclusive"
   },
   {
     "name": "JCB Pioneer: Mars",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex420"
+    "id": "nswex420",
+    "category": "exclusive"
   },
   {
     "name": "Jim is Moving Out",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex421"
+    "id": "nswex421",
+    "category": "exclusive"
   },
   {
     "name": "Job the Leprechaun",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex422"
+    "id": "nswex422",
+    "category": "exclusive"
   },
   {
     "name": "Joggernauts",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex423"
+    "id": "nswex423",
+    "category": "exclusive"
   },
   {
     "name": "Julie's Sweets",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex424"
+    "id": "nswex424",
+    "category": "exclusive"
   },
   {
     "name": "Jungle Z",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex425"
+    "id": "nswex425",
+    "category": "exclusive"
   },
   {
     "name": "Junk Planet",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex426"
+    "id": "nswex426",
+    "category": "exclusive"
   },
   {
     "name": "Jump Head: Battle 4 Fun!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex427"
+    "id": "nswex427",
+    "category": "exclusive"
   },
   {
     "name": "Jumping Joe & Friends",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex428"
+    "id": "nswex428",
+    "category": "exclusive"
   },
   {
     "name": "Jurassic Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex429"
+    "id": "nswex429",
+    "category": "exclusive"
   },
   {
     "name": "Kadobat Wars",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex430"
+    "id": "nswex430",
+    "category": "exclusive"
   },
   {
     "name": "Kanazawa Shogi: Level 300",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex431"
+    "id": "nswex431",
+    "category": "exclusive"
   },
   {
     "name": "Katana ZERO",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex432"
+    "id": "nswex432",
+    "category": "exclusive"
   },
   {
     "name": "The Keep",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex433"
+    "id": "nswex433",
+    "category": "exclusive"
   },
   {
     "name": "Kemono Friends Picross",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex434"
+    "id": "nswex434",
+    "category": "exclusive"
   },
   {
     "name": "Kensho",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex435"
+    "id": "nswex435",
+    "category": "exclusive"
   },
   {
     "name": "Kentucky Robo Chicken",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex436"
+    "id": "nswex436",
+    "category": "exclusive"
   },
   {
     "name": "Keotoshi! Treasure Hunter!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex437"
+    "id": "nswex437",
+    "category": "exclusive"
   },
   {
     "name": "Kitty Love: Way to Look for Love",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex438"
+    "id": "nswex438",
+    "category": "exclusive"
   },
   {
     "name": "Klondike Solitaire",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex439"
+    "id": "nswex439",
+    "category": "exclusive"
   },
   {
     "name": "The Knight & the Dragon",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex440"
+    "id": "nswex440",
+    "category": "exclusive"
   },
   {
     "name": "Knight Terrors",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex441"
+    "id": "nswex441",
+    "category": "exclusive"
   },
   {
     "name": "Knock 'Em Down Bowling",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex442"
+    "id": "nswex442",
+    "category": "exclusive"
   },
   {
     "name": "Koloro",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex443"
+    "id": "nswex443",
+    "category": "exclusive"
   },
   {
     "name": "Koral",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex444"
+    "id": "nswex444",
+    "category": "exclusive"
   },
   {
     "name": "KORG Gadget for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex445"
+    "id": "nswex445",
+    "category": "exclusive"
   },
   {
     "name": "Kuso",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex446"
+    "id": "nswex446",
+    "category": "exclusive"
   },
   {
     "name": "Lanota",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex447"
+    "id": "nswex447",
+    "category": "exclusive"
   },
   {
     "name": "Laser Kitty Pow Pow",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex448"
+    "id": "nswex448",
+    "category": "exclusive"
   },
   {
     "name": "The Legend of Evil",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex449"
+    "id": "nswex449",
+    "category": "exclusive"
   },
   {
     "name": "Leopoldo Manquiseil",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex450"
+    "id": "nswex450",
+    "category": "exclusive"
   },
   {
     "name": "Let's Go Nuts",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex451"
+    "id": "nswex451",
+    "category": "exclusive"
   },
   {
     "name": "Levels+: Addictive Puzzle Game",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex452"
+    "id": "nswex452",
+    "category": "exclusive"
   },
   {
     "name": "L.F.O.: Lost Future Omega",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex453"
+    "id": "nswex453",
+    "category": "exclusive"
   },
   {
     "name": "Light Fall",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex454"
+    "id": "nswex454",
+    "category": "exclusive"
   },
   {
     "name": "Light Fingers",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex455"
+    "id": "nswex455",
+    "category": "exclusive"
   },
   {
     "name": "Lightseekers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex456"
+    "id": "nswex456",
+    "category": "exclusive"
   },
   {
     "name": "Lines X",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex457"
+    "id": "nswex457",
+    "category": "exclusive"
   },
   {
     "name": "The Lion's Song",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex458"
+    "id": "nswex458",
+    "category": "exclusive"
   },
   {
     "name": "Little Inferno",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex459"
+    "id": "nswex459",
+    "category": "exclusive"
   },
   {
     "name": "Little Shopping",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex460"
+    "id": "nswex460",
+    "category": "exclusive"
   },
   {
     "name": "Lode Runner Legacy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex461"
+    "id": "nswex461",
+    "category": "exclusive"
   },
   {
     "name": "Long Story: A Dating Game for the Real World",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex462"
+    "id": "nswex462",
+    "category": "exclusive"
   },
   {
     "name": "Loot Monkey: Bling Palace",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex463"
+    "id": "nswex463",
+    "category": "exclusive"
   },
   {
     "name": "Lost in Harmony",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex464"
+    "id": "nswex464",
+    "category": "exclusive"
   },
   {
     "name": "Lost King's Lullaby",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex465"
+    "id": "nswex465",
+    "category": "exclusive"
   },
   {
     "name": "Lost Phone Stories",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex466"
+    "id": "nswex466",
+    "category": "exclusive"
   },
   {
     "name": "Love",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex467"
+    "id": "nswex467",
+    "category": "exclusive"
   },
   {
     "name": "Lucah: Born of a Dream",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex468"
+    "id": "nswex468",
+    "category": "exclusive"
   },
   {
     "name": "Luke & Rebecca",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex469"
+    "id": "nswex469",
+    "category": "exclusive"
   },
   {
     "name": "Lyrica",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex470"
+    "id": "nswex470",
+    "category": "exclusive"
   },
   {
     "name": "Macho de Pon! ZZ",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex471"
+    "id": "nswex471",
+    "category": "exclusive"
   },
   {
     "name": "Mad Bullets",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex472"
+    "id": "nswex472",
+    "category": "exclusive"
   },
   {
     "name": "Mad Carnage",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex473"
+    "id": "nswex473",
+    "category": "exclusive"
   },
   {
     "name": "Maddening Euphoria",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex474"
+    "id": "nswex474",
+    "category": "exclusive"
   },
   {
     "name": "Madorica Real Estate",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex475"
+    "id": "nswex475",
+    "category": "exclusive"
   },
   {
     "name": "Magic Nations",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex476"
+    "id": "nswex476",
+    "category": "exclusive"
   },
   {
     "name": "Magic Scroll Tactics",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex477"
+    "id": "nswex477",
+    "category": "exclusive"
   },
   {
     "name": "Mahjong",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex478"
+    "id": "nswex478",
+    "category": "exclusive"
   },
   {
     "name": "The Mahjong Huntress",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex479"
+    "id": "nswex479",
+    "category": "exclusive"
   },
   {
     "name": "Mahjong Solitaire Refresh",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex480"
+    "id": "nswex480",
+    "category": "exclusive"
   },
   {
     "name": "Mahjong Stories: Vampire Romance",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex481"
+    "id": "nswex481",
+    "category": "exclusive"
   },
   {
     "name": "Mana Spark",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex482"
+    "id": "nswex482",
+    "category": "exclusive"
   },
   {
     "name": "Manticore: Galaxy on Fire",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex483"
+    "id": "nswex483",
+    "category": "exclusive"
   },
   {
     "name": "Mecha Storm",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex484"
+    "id": "nswex484",
+    "category": "exclusive"
   },
   {
     "name": "Mech Rage",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex485"
+    "id": "nswex485",
+    "category": "exclusive"
   },
   {
     "name": "Mechstermination Force",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex486"
+    "id": "nswex486",
+    "category": "exclusive"
   },
   {
     "name": "Mega Mall Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex487"
+    "id": "nswex487",
+    "category": "exclusive"
   },
   {
     "name": "Membrane",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex488"
+    "id": "nswex488",
+    "category": "exclusive"
   },
   {
     "name": "The Men of Yoshiwara: Kikuya",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex489"
+    "id": "nswex489",
+    "category": "exclusive"
   },
   {
     "name": "The Men of Yoshiwara: Ohgiya",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex490"
+    "id": "nswex490",
+    "category": "exclusive"
   },
   {
     "name": "Mentori Puzzle",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex491"
+    "id": "nswex491",
+    "category": "exclusive"
   },
   {
     "name": "Mercenaries Saga Chronicles",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex492"
+    "id": "nswex492",
+    "category": "exclusive"
   },
   {
     "name": "Merchants of Kaidan",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex493"
+    "id": "nswex493",
+    "category": "exclusive"
   },
   {
     "name": "Mercury Race",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex494"
+    "id": "nswex494",
+    "category": "exclusive"
   },
   {
     "name": "The Messenger",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex495"
+    "id": "nswex495",
+    "category": "exclusive"
   },
   {
     "name": "Mighty Gunvolt Burst",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex496"
+    "id": "nswex496",
+    "category": "exclusive"
   },
   {
     "name": "Mimic Hunter",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex497"
+    "id": "nswex497",
+    "category": "exclusive"
   },
   {
     "name": "Mimpi Dreams",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex498"
+    "id": "nswex498",
+    "category": "exclusive"
   },
   {
     "name": "Minefield",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex499"
+    "id": "nswex499",
+    "category": "exclusive"
   },
   {
     "name": "Mini Trains",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex500"
+    "id": "nswex500",
+    "category": "exclusive"
   },
   {
     "name": "Minna de Daifugou",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex501"
+    "id": "nswex501",
+    "category": "exclusive"
   },
   {
     "name": "Minna de Kuuki Yomi",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex502"
+    "id": "nswex502",
+    "category": "exclusive"
   },
   {
     "name": "Moai VI: Unexpected Guests",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex503"
+    "id": "nswex503",
+    "category": "exclusive"
   },
   {
     "name": "Modern Combat Blackout",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex504"
+    "id": "nswex504",
+    "category": "exclusive"
   },
   {
     "name": "Moero Chronicle Hyper",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex505"
+    "id": "nswex505",
+    "category": "exclusive"
   },
   {
     "name": "Mom Hid My Game!",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex506"
+    "id": "nswex506",
+    "category": "exclusive"
   },
   {
     "name": "Monkey Business",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex507"
+    "id": "nswex507",
+    "category": "exclusive"
   },
   {
     "name": "Monkey Wall",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex508"
+    "id": "nswex508",
+    "category": "exclusive"
   },
   {
     "name": "Monster Dynamite",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex509"
+    "id": "nswex509",
+    "category": "exclusive"
   },
   {
     "name": "Monster Puzzle",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex510"
+    "id": "nswex510",
+    "category": "exclusive"
   },
   {
     "name": "Monument Builders Rushmore",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex511"
+    "id": "nswex511",
+    "category": "exclusive"
   },
   {
     "name": "Moorhuhn Knights & Castles",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex512"
+    "id": "nswex512",
+    "category": "exclusive"
   },
   {
     "name": "Moorhuhn Remake",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex513"
+    "id": "nswex513",
+    "category": "exclusive"
   },
   {
     "name": "Moorhuhn Wanted",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex514"
+    "id": "nswex514",
+    "category": "exclusive"
   },
   {
     "name": "Mordheim: Warband Skirmish",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex515"
+    "id": "nswex515",
+    "category": "exclusive"
   },
   {
     "name": "Morphies Law",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex516"
+    "id": "nswex516",
+    "category": "exclusive"
   },
   {
     "name": "Motorsport Manage for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex517"
+    "id": "nswex517",
+    "category": "exclusive"
   },
   {
     "name": "Moto Rush GT",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex518"
+    "id": "nswex518",
+    "category": "exclusive"
   },
   {
     "name": "Mowin' & Throwin'",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex519"
+    "id": "nswex519",
+    "category": "exclusive"
   },
   {
     "name": "Muddledash",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex520"
+    "id": "nswex520",
+    "category": "exclusive"
   },
   {
     "name": "MUJO",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex521"
+    "id": "nswex521",
+    "category": "exclusive"
   },
   {
     "name": "Mulletman and the Molemen",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex522"
+    "id": "nswex522",
+    "category": "exclusive"
   },
   {
     "name": "Mummy Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex523"
+    "id": "nswex523",
+    "category": "exclusive"
   },
   {
     "name": "Muse Dash",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex524"
+    "id": "nswex524",
+    "category": "exclusive"
   },
   {
     "name": "My Exotic Farm 2018",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex525"
+    "id": "nswex525",
+    "category": "exclusive"
   },
   {
     "name": "My Jurassic Farm 2018",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex526"
+    "id": "nswex526",
+    "category": "exclusive"
   },
   {
     "name": "My Farm",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex527"
+    "id": "nswex527",
+    "category": "exclusive"
   },
   {
     "name": "My Girlfriend is a Mermaid!?",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex528"
+    "id": "nswex528",
+    "category": "exclusive"
   },
   {
     "name": "My Lovely Daughter",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex529"
+    "id": "nswex529",
+    "category": "exclusive"
   },
   {
     "name": "The Mystery of the Hudson Case",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex530"
+    "id": "nswex530",
+    "category": "exclusive"
   },
   {
     "name": "The Mystery of Woolley Mountain",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex531"
+    "id": "nswex531",
+    "category": "exclusive"
   },
   {
     "name": "NAIRI: Tower of Shirin",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex532"
+    "id": "nswex532",
+    "category": "exclusive"
   },
   {
     "name": "Namco Museum",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex533"
+    "id": "nswex533",
+    "category": "exclusive"
   },
   {
     "name": "Nanami to Issho ni Manabo! English Joutatsu no Kotsu Rironhen",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex534"
+    "id": "nswex534",
+    "category": "exclusive"
   },
   {
     "name": "Nanami to Issho ni Manabo! TOEIC Listening and Reading Test Kanzen Master",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex535"
+    "id": "nswex535",
+    "category": "exclusive"
   },
   {
     "name": "Neko Navy: Daydream Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex536"
+    "id": "nswex536",
+    "category": "exclusive"
   },
   {
     "name": "Nelly Cootalot: The Fowl Fleet",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex537"
+    "id": "nswex537",
+    "category": "exclusive"
   },
   {
     "name": "Neo Atlas 1469",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex538"
+    "id": "nswex538",
+    "category": "exclusive"
   },
   {
     "name": "Neon Caves",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex539"
+    "id": "nswex539",
+    "category": "exclusive"
   },
   {
     "name": "Net Catcher Netch",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex540"
+    "id": "nswex540",
+    "category": "exclusive"
   },
   {
     "name": "Never Stop Sneakin'",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex541"
+    "id": "nswex541",
+    "category": "exclusive"
   },
   {
     "name": "New Frontier Days: Founding Pioneers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex542"
+    "id": "nswex542",
+    "category": "exclusive"
   },
   {
     "name": "The Next Penelope",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex543"
+    "id": "nswex543",
+    "category": "exclusive"
   },
   {
     "name": "Nice Slice",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex544"
+    "id": "nswex544",
+    "category": "exclusive"
   },
   {
     "name": "Ninja Striker",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex545"
+    "id": "nswex545",
+    "category": "exclusive"
   },
   {
     "name": "Ninja Village",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex546"
+    "id": "nswex546",
+    "category": "exclusive"
   },
   {
     "name": "NoReload Heroes",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex547"
+    "id": "nswex547",
+    "category": "exclusive"
   },
   {
     "name": "No Thing",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex548"
+    "id": "nswex548",
+    "category": "exclusive"
   },
   {
     "name": "Not Not: A Brain Buster",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex549"
+    "id": "nswex549",
+    "category": "exclusive"
   },
   {
     "name": "Nuclien",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex550"
+    "id": "nswex550",
+    "category": "exclusive"
   },
   {
     "name": "Numbala",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex551"
+    "id": "nswex551",
+    "category": "exclusive"
   },
   {
     "name": "Numpla 10000",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex552"
+    "id": "nswex552",
+    "category": "exclusive"
   },
   {
     "name": "Obakeido!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex553"
+    "id": "nswex553",
+    "category": "exclusive"
   },
   {
     "name": "Octocopter: Double or Squids",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex554"
+    "id": "nswex554",
+    "category": "exclusive"
   },
   {
     "name": "Octogeddon",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex555"
+    "id": "nswex555",
+    "category": "exclusive"
   },
   {
     "name": "OkunoKA",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex556"
+    "id": "nswex556",
+    "category": "exclusive"
   },
   {
     "name": "Okuri Inu",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex557"
+    "id": "nswex557",
+    "category": "exclusive"
   },
   {
     "name": "Old School Musical",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex558"
+    "id": "nswex558",
+    "category": "exclusive"
   },
   {
     "name": "Omvorm",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex559"
+    "id": "nswex559",
+    "category": "exclusive"
   },
   {
     "name": "One Strike",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex560"
+    "id": "nswex560",
+    "category": "exclusive"
   },
   {
     "name": "Oomori Chari-Sou DX",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex561"
+    "id": "nswex561",
+    "category": "exclusive"
   },
   {
     "name": "Operation Hardcore",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex562"
+    "id": "nswex562",
+    "category": "exclusive"
   },
   {
     "name": "Operation Pig",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex563"
+    "id": "nswex563",
+    "category": "exclusive"
   },
   {
     "name": "OPUS: The Day We Found Earth",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex564"
+    "id": "nswex564",
+    "category": "exclusive"
   },
   {
     "name": "OPUS: Rocket of Whispers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex565"
+    "id": "nswex565",
+    "category": "exclusive"
   },
   {
     "name": "Order Land!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex566"
+    "id": "nswex566",
+    "category": "exclusive"
   },
   {
     "name": "Osyaberi! Horijyo!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex567"
+    "id": "nswex567",
+    "category": "exclusive"
   },
   {
     "name": "Osyaberi! Kakejyo! Ubowareta Dot Coin wo Oe!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex568"
+    "id": "nswex568",
+    "category": "exclusive"
   },
   {
     "name": "Othello",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex569"
+    "id": "nswex569",
+    "category": "exclusive"
   },
   {
     "name": "Otto",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex570"
+    "id": "nswex570",
+    "category": "exclusive"
   },
   {
     "name": "OTTTD: Over The Top Tower Defense",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex571"
+    "id": "nswex571",
+    "category": "exclusive"
   },
   {
     "name": "Out There: Omega The Alliance",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex572"
+    "id": "nswex572",
+    "category": "exclusive"
   },
   {
     "name": "Overwhelm",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex573"
+    "id": "nswex573",
+    "category": "exclusive"
   },
   {
     "name": "Oxyjet",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex574"
+    "id": "nswex574",
+    "category": "exclusive"
   },
   {
     "name": "Our Drop Eraser",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex575"
+    "id": "nswex575",
+    "category": "exclusive"
   },
   {
     "name": "Packet Queen #",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex576"
+    "id": "nswex576",
+    "category": "exclusive"
   },
   {
     "name": "Panty Party",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex577"
+    "id": "nswex577",
+    "category": "exclusive"
   },
   {
     "name": "Paper Wars: Cannon Fodder Devastated",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex578"
+    "id": "nswex578",
+    "category": "exclusive"
   },
   {
     "name": "Parallel",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex579"
+    "id": "nswex579",
+    "category": "exclusive"
   },
   {
     "name": "Party Trivia",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex580"
+    "id": "nswex580",
+    "category": "exclusive"
   },
   {
     "name": "Passpartout: The Starving Artist",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex581"
+    "id": "nswex581",
+    "category": "exclusive"
   },
   {
     "name": "Pato Box",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex582"
+    "id": "nswex582",
+    "category": "exclusive"
   },
   {
     "name": "Peace, Death! Complete Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex583"
+    "id": "nswex583",
+    "category": "exclusive"
   },
   {
     "name": "Perchang",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex584"
+    "id": "nswex584",
+    "category": "exclusive"
   },
   {
     "name": "Percy's Predicament Deluxe",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex585"
+    "id": "nswex585",
+    "category": "exclusive"
   },
   {
     "name": "Perry Pig Jump",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex586"
+    "id": "nswex586",
+    "category": "exclusive"
   },
   {
     "name": "Pet Care",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex587"
+    "id": "nswex587",
+    "category": "exclusive"
   },
   {
     "name": "Phantaruk",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex588"
+    "id": "nswex588",
+    "category": "exclusive"
   },
   {
     "name": "Photon Cube",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex589"
+    "id": "nswex589",
+    "category": "exclusive"
   },
   {
     "name": "Phrasefight",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex590"
+    "id": "nswex590",
+    "category": "exclusive"
   },
   {
     "name": "Physical Contact: 2048",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex591"
+    "id": "nswex591",
+    "category": "exclusive"
   },
   {
     "name": "Physical Contact: Picture Place",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex592"
+    "id": "nswex592",
+    "category": "exclusive"
   },
   {
     "name": "Physical Contact: Speed",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex593"
+    "id": "nswex593",
+    "category": "exclusive"
   },
   {
     "name": "Pianista: The Legendary Virtuoso",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex594"
+    "id": "nswex594",
+    "category": "exclusive"
   },
   {
     "name": "Pic-a-Pix Deluxe",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex595"
+    "id": "nswex595",
+    "category": "exclusive"
   },
   {
     "name": "Pico Park",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex596"
+    "id": "nswex596",
+    "category": "exclusive"
   },
   {
     "name": "Picross Lord of the Nazarick",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex597"
+    "id": "nswex597",
+    "category": "exclusive"
   },
   {
     "name": "Picross S",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex598"
+    "id": "nswex598",
+    "category": "exclusive"
   },
   {
     "name": "Picross S2",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex599"
+    "id": "nswex599",
+    "category": "exclusive"
   },
   {
     "name": "Picross S3",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex600"
+    "id": "nswex600",
+    "category": "exclusive"
   },
   {
     "name": "Picture Painting Puzzle 1000!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex601"
+    "id": "nswex601",
+    "category": "exclusive"
   },
   {
     "name": "Piczle Colors",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex602"
+    "id": "nswex602",
+    "category": "exclusive"
   },
   {
     "name": "Piczle Lines DX",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex603"
+    "id": "nswex603",
+    "category": "exclusive"
   },
   {
     "name": "Piczle Lines DX: 500 More Puzzles!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex604"
+    "id": "nswex604",
+    "category": "exclusive"
   },
   {
     "name": "Pikuniku",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex605"
+    "id": "nswex605",
+    "category": "exclusive"
   },
   {
     "name": "Ping Pong Trick Shot Evolution",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex606"
+    "id": "nswex606",
+    "category": "exclusive"
   },
   {
     "name": "Pirates: All Aboard!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex607"
+    "id": "nswex607",
+    "category": "exclusive"
   },
   {
     "name": "Pirate Pop Plus",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex608"
+    "id": "nswex608",
+    "category": "exclusive"
   },
   {
     "name": "Pirates Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex609"
+    "id": "nswex609",
+    "category": "exclusive"
   },
   {
     "name": "Pitfall Planet",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex610"
+    "id": "nswex610",
+    "category": "exclusive"
   },
   {
     "name": "Pixel Action Heroes",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex611"
+    "id": "nswex611",
+    "category": "exclusive"
   },
   {
     "name": "Pixel Devil and the Broken Cartridge",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex612"
+    "id": "nswex612",
+    "category": "exclusive"
   },
   {
     "name": "Planetarian: The Reverie of the Little Planet",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex613"
+    "id": "nswex613",
+    "category": "exclusive"
   },
   {
     "name": "Plantera Deluxe",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex614"
+    "id": "nswex614",
+    "category": "exclusive"
   },
   {
     "name": "PlataGO! Super Platform Game Maker",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex615"
+    "id": "nswex615",
+    "category": "exclusive"
   },
   {
     "name": "Platinum Train: Nihon Juudan Tetsudou no Tabi",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex616"
+    "id": "nswex616",
+    "category": "exclusive"
   },
   {
     "name": "Please, Don't Touch Anything",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex617"
+    "id": "nswex617",
+    "category": "exclusive"
   },
   {
     "name": "Pocket Academy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex618"
+    "id": "nswex618",
+    "category": "exclusive"
   },
   {
     "name": "Pocket League Story",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex619"
+    "id": "nswex619",
+    "category": "exclusive"
   },
   {
     "name": "Pocket Rumble",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex620"
+    "id": "nswex620",
+    "category": "exclusive"
   },
   {
     "name": "Poisoft Thud Card",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex621"
+    "id": "nswex621",
+    "category": "exclusive"
   },
   {
     "name": "Pokemon Quest",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex622"
+    "id": "nswex622",
+    "category": "exclusive"
   },
   {
     "name": "Poly Bridge",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex623"
+    "id": "nswex623",
+    "category": "exclusive"
   },
   {
     "name": "Pool",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex624"
+    "id": "nswex624",
+    "category": "exclusive"
   },
   {
     "name": "Pool Panic",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex625"
+    "id": "nswex625",
+    "category": "exclusive"
   },
   {
     "name": "President F.net",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex626"
+    "id": "nswex626",
+    "category": "exclusive"
   },
   {
     "name": "Preventive Strike",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex627"
+    "id": "nswex627",
+    "category": "exclusive"
   },
   {
     "name": "Prime World: Defenders",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex628"
+    "id": "nswex628",
+    "category": "exclusive"
   },
   {
     "name": "Professor Lupo and his Horrible Pets",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex629"
+    "id": "nswex629",
+    "category": "exclusive"
   },
   {
     "name": "Proficient Paddles Deluxe",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex630"
+    "id": "nswex630",
+    "category": "exclusive"
   },
   {
     "name": "Pub Encounter",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex631"
+    "id": "nswex631",
+    "category": "exclusive"
   },
   {
     "name": "Pure / Electric Love \"Everyone else!\" - Ema Sakura",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex632"
+    "id": "nswex632",
+    "category": "exclusive"
   },
   {
     "name": "Pure / Electric Love \"Look at my eyes!\" - Moe Yamauchi",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex633"
+    "id": "nswex633",
+    "category": "exclusive"
   },
   {
     "name": "Pure / Electric Love \"What do you want?\" - Eri Kitami",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex634"
+    "id": "nswex634",
+    "category": "exclusive"
   },
   {
     "name": "Pure Mahjong",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex635"
+    "id": "nswex635",
+    "category": "exclusive"
   },
   {
     "name": "Putty Pals",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex636"
+    "id": "nswex636",
+    "category": "exclusive"
   },
   {
     "name": "Puzzle Adventure Blockle",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex637"
+    "id": "nswex637",
+    "category": "exclusive"
   },
   {
     "name": "Puzzle Box Maker",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex638"
+    "id": "nswex638",
+    "category": "exclusive"
   },
   {
     "name": "Puzzle Herder",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex639"
+    "id": "nswex639",
+    "category": "exclusive"
   },
   {
     "name": "Puzzle Wall",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex640"
+    "id": "nswex640",
+    "category": "exclusive"
   },
   {
     "name": "Qbics Paint",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex641"
+    "id": "nswex641",
+    "category": "exclusive"
   },
   {
     "name": "Qbik",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex642"
+    "id": "nswex642",
+    "category": "exclusive"
   },
   {
     "name": "Quad Fighter K",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex643"
+    "id": "nswex643",
+    "category": "exclusive"
   },
   {
     "name": "Quadle",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex644"
+    "id": "nswex644",
+    "category": "exclusive"
   },
   {
     "name": "Quest Hunter",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex645"
+    "id": "nswex645",
+    "category": "exclusive"
   },
   {
     "name": "Quranatine Circular",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex646"
+    "id": "nswex646",
+    "category": "exclusive"
   },
   {
     "name": "Q-YO Blaster",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex647"
+    "id": "nswex647",
+    "category": "exclusive"
   },
   {
     "name": "Radiation City",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex648"
+    "id": "nswex648",
+    "category": "exclusive"
   },
   {
     "name": "Radiation Island",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex649"
+    "id": "nswex649",
+    "category": "exclusive"
   },
   {
     "name": "Rage in Peace",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex650"
+    "id": "nswex650",
+    "category": "exclusive"
   },
   {
     "name": "Ragtag Adventurers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex651"
+    "id": "nswex651",
+    "category": "exclusive"
   },
   {
     "name": "The Rainsdowne Players",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex652"
+    "id": "nswex652",
+    "category": "exclusive"
   },
   {
     "name": "Rally Racers",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex653"
+    "id": "nswex653",
+    "category": "exclusive"
   },
   {
     "name": "Rally Rock 'N Racing",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex654"
+    "id": "nswex654",
+    "category": "exclusive"
   },
   {
     "name": "Real Drift Racing",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex655"
+    "id": "nswex655",
+    "category": "exclusive"
   },
   {
     "name": "Realpolitiks: New Power",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex656"
+    "id": "nswex656",
+    "category": "exclusive"
   },
   {
     "name": "RecoChoku",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex657"
+    "id": "nswex657",
+    "category": "exclusive"
   },
   {
     "name": "Red Hot Ricochet",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex658"
+    "id": "nswex658",
+    "category": "exclusive"
   },
   {
     "name": "Redneck Skeet Shooting",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex659"
+    "id": "nswex659",
+    "category": "exclusive"
   },
   {
     "name": "Red Siren: Space Defense",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex660"
+    "id": "nswex660",
+    "category": "exclusive"
   },
   {
     "name": "Red's Kingdom",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex661"
+    "id": "nswex661",
+    "category": "exclusive"
   },
   {
     "name": "The Red Strings Club",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex662"
+    "id": "nswex662",
+    "category": "exclusive"
   },
   {
     "name": "Reigns: Game of Thrones",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex663"
+    "id": "nswex663",
+    "category": "exclusive"
   },
   {
     "name": "Reigns: Kings & Queens",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex664"
+    "id": "nswex664",
+    "category": "exclusive"
   },
   {
     "name": "Reptilian Rebellion",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex665"
+    "id": "nswex665",
+    "category": "exclusive"
   },
   {
     "name": "Retimed",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex666"
+    "id": "nswex666",
+    "category": "exclusive"
   },
   {
     "name": "Revertia",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex667"
+    "id": "nswex667",
+    "category": "exclusive"
   },
   {
     "name": "Rise: Race the Future",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex668"
+    "id": "nswex668",
+    "category": "exclusive"
   },
   {
     "name": "Risky Rescue",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex669"
+    "id": "nswex669",
+    "category": "exclusive"
   },
   {
     "name": "Roarr! Jurassic Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex670"
+    "id": "nswex670",
+    "category": "exclusive"
   },
   {
     "name": "Robothorium",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex671"
+    "id": "nswex671",
+    "category": "exclusive"
   },
   {
     "name": "Robot Squad Simulator",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex672"
+    "id": "nswex672",
+    "category": "exclusive"
   },
   {
     "name": "Robotto",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex673"
+    "id": "nswex673",
+    "category": "exclusive"
   },
   {
     "name": "Robox",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex674"
+    "id": "nswex674",
+    "category": "exclusive"
   },
   {
     "name": "Rocket Fist",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex675"
+    "id": "nswex675",
+    "category": "exclusive"
   },
   {
     "name": "Rogue Bit",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex676"
+    "id": "nswex676",
+    "category": "exclusive"
   },
   {
     "name": "Rollin' Eggz",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex677"
+    "id": "nswex677",
+    "category": "exclusive"
   },
   {
     "name": "Rolling Sky",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex678"
+    "id": "nswex678",
+    "category": "exclusive"
   },
   {
     "name": "The Room",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex679"
+    "id": "nswex679",
+    "category": "exclusive"
   },
   {
     "name": "Royal Adviser",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex680"
+    "id": "nswex680",
+    "category": "exclusive"
   },
   {
     "name": "Run the Fan",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex681"
+    "id": "nswex681",
+    "category": "exclusive"
   },
   {
     "name": "RXN: Raijin",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex682"
+    "id": "nswex682",
+    "category": "exclusive"
   },
   {
     "name": "Safety First!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex683"
+    "id": "nswex683",
+    "category": "exclusive"
   },
   {
     "name": "Sally's Law",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex684"
+    "id": "nswex684",
+    "category": "exclusive"
   },
   {
     "name": "Samurai Aces for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex685"
+    "id": "nswex685",
+    "category": "exclusive"
   },
   {
     "name": "Samurai Defender: Ninja Warfare",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex686"
+    "id": "nswex686",
+    "category": "exclusive"
   },
   {
     "name": "Santa Tracker",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex687"
+    "id": "nswex687",
+    "category": "exclusive"
   },
   {
     "name": "Sausage Sports Club",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex688"
+    "id": "nswex688",
+    "category": "exclusive"
   },
   {
     "name": "Save me Mr Tako: Tasukete Tako-San",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex689"
+    "id": "nswex689",
+    "category": "exclusive"
   },
   {
     "name": "Sea King",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex690"
+    "id": "nswex690",
+    "category": "exclusive"
   },
   {
     "name": "Secrets of Magic: The Book of Spells",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex691"
+    "id": "nswex691",
+    "category": "exclusive"
   },
   {
     "name": "Seeders Puzzle Reboot",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex692"
+    "id": "nswex692",
+    "category": "exclusive"
   },
   {
     "name": "Selma and the Wisp",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex693"
+    "id": "nswex693",
+    "category": "exclusive"
   },
   {
     "name": "Scrap Rush!!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex694"
+    "id": "nswex694",
+    "category": "exclusive"
   },
   {
     "name": "Screen Cheat: Unplugged",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex695"
+    "id": "nswex695",
+    "category": "exclusive"
   },
   {
     "name": "Secret Files: Tunguska",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex696"
+    "id": "nswex696",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Alex Kidd in Miracle World",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex697"
+    "id": "nswex697",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Gain Ground",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex698"
+    "id": "nswex698",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Lightening Force: Quest for the Darkstar",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex699"
+    "id": "nswex699",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Out Run",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex700"
+    "id": "nswex700",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Phantasy Star",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex701"
+    "id": "nswex701",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Sonic the Hedgehog",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex702"
+    "id": "nswex702",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Virtua Racing",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex703"
+    "id": "nswex703",
+    "category": "exclusive"
   },
   {
     "name": "Sega Ages Wonder Boy in Monster Land",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex704"
+    "id": "nswex704",
+    "category": "exclusive"
   },
   {
     "name": "Semblance",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex705"
+    "id": "nswex705",
+    "category": "exclusive"
   },
   {
     "name": "Sengoku Cannon for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex706"
+    "id": "nswex706",
+    "category": "exclusive"
   },
   {
     "name": "Senran Kagura Reflexions",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex707"
+    "id": "nswex707",
+    "category": "exclusive"
   },
   {
     "name": "Shadow Bug",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex708"
+    "id": "nswex708",
+    "category": "exclusive"
   },
   {
     "name": "Shadow Fight 2",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex709"
+    "id": "nswex709",
+    "category": "exclusive"
   },
   {
     "name": "Shadows of Adam",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex710"
+    "id": "nswex710",
+    "category": "exclusive"
   },
   {
     "name": "Shalnor Legends: Sacred Lands",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex711"
+    "id": "nswex711",
+    "category": "exclusive"
   },
   {
     "name": "She and the Light Bearer",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex712"
+    "id": "nswex712",
+    "category": "exclusive"
   },
   {
     "name": "Sheep in Hell",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex713"
+    "id": "nswex713",
+    "category": "exclusive"
   },
   {
     "name": "Shelter Generations",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex714"
+    "id": "nswex714",
+    "category": "exclusive"
   },
   {
     "name": "Shephy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex715"
+    "id": "nswex715",
+    "category": "exclusive"
   },
   {
     "name": "She Remembered Caterpillars",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex716"
+    "id": "nswex716",
+    "category": "exclusive"
   },
   {
     "name": "Shinobi Spirits S: Legend of Heroes",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex717"
+    "id": "nswex717",
+    "category": "exclusive"
   },
   {
     "name": "Shred! 2: Freeride Mountainbiking",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex718"
+    "id": "nswex718",
+    "category": "exclusive"
   },
   {
     "name": "The Shrouded Isle",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex719"
+    "id": "nswex719",
+    "category": "exclusive"
   },
   {
     "name": "Shut Eye",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex720"
+    "id": "nswex720",
+    "category": "exclusive"
   },
   {
     "name": "Simple Mahjong Online",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex721"
+    "id": "nswex721",
+    "category": "exclusive"
   },
   {
     "name": "Six Sides of the World Enhanced",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex722"
+    "id": "nswex722",
+    "category": "exclusive"
   },
   {
     "name": "Skee-Ball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex723"
+    "id": "nswex723",
+    "category": "exclusive"
   },
   {
     "name": "Skies of Fury DX",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex724"
+    "id": "nswex724",
+    "category": "exclusive"
   },
   {
     "name": "Sky Gamblers: Afterburner",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex725"
+    "id": "nswex725",
+    "category": "exclusive"
   },
   {
     "name": "Sky Gamblers: Storm Raiders",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex726"
+    "id": "nswex726",
+    "category": "exclusive"
   },
   {
     "name": "Skypeace",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex727"
+    "id": "nswex727",
+    "category": "exclusive"
   },
   {
     "name": "Sky Rogue",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex728"
+    "id": "nswex728",
+    "category": "exclusive"
   },
   {
     "name": "SlabWell: The Quest For Kaktun's Alpaca",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex729"
+    "id": "nswex729",
+    "category": "exclusive"
   },
   {
     "name": "Sleep Tight",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex730"
+    "id": "nswex730",
+    "category": "exclusive"
   },
   {
     "name": "Slime Tactics",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex731"
+    "id": "nswex731",
+    "category": "exclusive"
   },
   {
     "name": "Sling Ming",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex732"
+    "id": "nswex732",
+    "category": "exclusive"
   },
   {
     "name": "Snowboarding: The Next Phase",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex733"
+    "id": "nswex733",
+    "category": "exclusive"
   },
   {
     "name": "Soap Dodgem",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex734"
+    "id": "nswex734",
+    "category": "exclusive"
   },
   {
     "name": "Solar Flux",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex735"
+    "id": "nswex735",
+    "category": "exclusive"
   },
   {
     "name": "Solitaire Battle Royal",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex736"
+    "id": "nswex736",
+    "category": "exclusive"
   },
   {
     "name": "Snipperclips: Cut It Out, Together!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex737"
+    "id": "nswex737",
+    "category": "exclusive"
   },
   {
     "name": "Soccer Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex738"
+    "id": "nswex738",
+    "category": "exclusive"
   },
   {
     "name": "Soccer Slammers",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex739"
+    "id": "nswex739",
+    "category": "exclusive"
   },
   {
     "name": "Sol Divide: Sword of Darkness for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex740"
+    "id": "nswex740",
+    "category": "exclusive"
   },
   {
     "name": "Solitaire",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex741"
+    "id": "nswex741",
+    "category": "exclusive"
   },
   {
     "name": "Solitaire Klondike Black",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex742"
+    "id": "nswex742",
+    "category": "exclusive"
   },
   {
     "name": "Solstice Chronicles: MIA",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex743"
+    "id": "nswex743",
+    "category": "exclusive"
   },
   {
     "name": "Son of a Witch",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex744"
+    "id": "nswex744",
+    "category": "exclusive"
   },
   {
     "name": "Soulblight",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex745"
+    "id": "nswex745",
+    "category": "exclusive"
   },
   {
     "name": "Spacecats with Lasers : The Outerspace",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex746"
+    "id": "nswex746",
+    "category": "exclusive"
   },
   {
     "name": "Space Lift Danger Panic!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex747"
+    "id": "nswex747",
+    "category": "exclusive"
   },
   {
     "name": "Space Ribbon",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex748"
+    "id": "nswex748",
+    "category": "exclusive"
   },
   {
     "name": "Space War Arena",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex749"
+    "id": "nswex749",
+    "category": "exclusive"
   },
   {
     "name": "The Sparkle 2: Evo",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex750"
+    "id": "nswex750",
+    "category": "exclusive"
   },
   {
     "name": "The Sparkle 3: Genesis",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex751"
+    "id": "nswex751",
+    "category": "exclusive"
   },
   {
     "name": "The Sparkle Zero",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex752"
+    "id": "nswex752",
+    "category": "exclusive"
   },
   {
     "name": "Spell Casting: Purrfectly Portable Edition",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex753"
+    "id": "nswex753",
+    "category": "exclusive"
   },
   {
     "name": "SpellKeeper",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex754"
+    "id": "nswex754",
+    "category": "exclusive"
   },
   {
     "name": "Spelunker Party",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex755"
+    "id": "nswex755",
+    "category": "exclusive"
   },
   {
     "name": "SpiderSolitaire Black",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex756"
+    "id": "nswex756",
+    "category": "exclusive"
   },
   {
     "name": "Spider Solitaire F",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex757"
+    "id": "nswex757",
+    "category": "exclusive"
   },
   {
     "name": "SpiritSphere DX",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex758"
+    "id": "nswex758",
+    "category": "exclusive"
   },
   {
     "name": "Splat the Fruit",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex759"
+    "id": "nswex759",
+    "category": "exclusive"
   },
   {
     "name": "Splitter Critters",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex760"
+    "id": "nswex760",
+    "category": "exclusive"
   },
   {
     "name": "Spoiler Alert",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex761"
+    "id": "nswex761",
+    "category": "exclusive"
   },
   {
     "name": "Spot the Difference: Ultimate Edition",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex762"
+    "id": "nswex762",
+    "category": "exclusive"
   },
   {
     "name": "Squids Odyssey",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex763"
+    "id": "nswex763",
+    "category": "exclusive"
   },
   {
     "name": "Star Ghost",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex764"
+    "id": "nswex764",
+    "category": "exclusive"
   },
   {
     "name": "Starman",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex765"
+    "id": "nswex765",
+    "category": "exclusive"
   },
   {
     "name": "Starship Avenger: Operation Take Back Earth",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex766"
+    "id": "nswex766",
+    "category": "exclusive"
   },
   {
     "name": "Star Sky",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex767"
+    "id": "nswex767",
+    "category": "exclusive"
   },
   {
     "name": "Star Story: The Horizon Escape",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex768"
+    "id": "nswex768",
+    "category": "exclusive"
   },
   {
     "name": "Startide",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex769"
+    "id": "nswex769",
+    "category": "exclusive"
   },
   {
     "name": "Steamburg",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex770"
+    "id": "nswex770",
+    "category": "exclusive"
   },
   {
     "name": "Steamroll",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex771"
+    "id": "nswex771",
+    "category": "exclusive"
   },
   {
     "name": "The Stillness of the Wind",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex772"
+    "id": "nswex772",
+    "category": "exclusive"
   },
   {
     "name": "Storm in a Teacup",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex773"
+    "id": "nswex773",
+    "category": "exclusive"
   },
   {
     "name": "Stray Cat Doors",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex774"
+    "id": "nswex774",
+    "category": "exclusive"
   },
   {
     "name": "Street Basketball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex775"
+    "id": "nswex775",
+    "category": "exclusive"
   },
   {
     "name": "Strikers 1945 for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex776"
+    "id": "nswex776",
+    "category": "exclusive"
   },
   {
     "name": "Strikers 1945 II for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex777"
+    "id": "nswex777",
+    "category": "exclusive"
   },
   {
     "name": "Strikey Sisters",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex778"
+    "id": "nswex778",
+    "category": "exclusive"
   },
   {
     "name": "Stump",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex779"
+    "id": "nswex779",
+    "category": "exclusive"
   },
   {
     "name": "Subsurface Circular",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex780"
+    "id": "nswex780",
+    "category": "exclusive"
   },
   {
     "name": "Sudoku Relax",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex781"
+    "id": "nswex781",
+    "category": "exclusive"
   },
   {
     "name": "Super Arcade Soccer",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex782"
+    "id": "nswex782",
+    "category": "exclusive"
   },
   {
     "name": "Super Beat Sports",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex783"
+    "id": "nswex783",
+    "category": "exclusive"
   },
   {
     "name": "Superbrothers: Sword & Sworcery EP",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex784"
+    "id": "nswex784",
+    "category": "exclusive"
   },
   {
     "name": "Super Gachapon World: SD Gundam X",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex785"
+    "id": "nswex785",
+    "category": "exclusive"
   },
   {
     "name": "Super Hero Fight Club: Reloaded",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex786"
+    "id": "nswex786",
+    "category": "exclusive"
   },
   {
     "name": "Super Ineffecient Golf",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex787"
+    "id": "nswex787",
+    "category": "exclusive"
   },
   {
     "name": "Superola and the Lost Burgers",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex788"
+    "id": "nswex788",
+    "category": "exclusive"
   },
   {
     "name": "Super One More Jump",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex789"
+    "id": "nswex789",
+    "category": "exclusive"
   },
   {
     "name": "Super Phantom Cat",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex790"
+    "id": "nswex790",
+    "category": "exclusive"
   },
   {
     "name": "Super Ping Pong Trick Shot",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex791"
+    "id": "nswex791",
+    "category": "exclusive"
   },
   {
     "name": "Super Rock Blasters",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex792"
+    "id": "nswex792",
+    "category": "exclusive"
   },
   {
     "name": "Super Rocket Shootout",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex793"
+    "id": "nswex793",
+    "category": "exclusive"
   },
   {
     "name": "Super Saurio Fly",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex794"
+    "id": "nswex794",
+    "category": "exclusive"
   },
   {
     "name": "Super Sportmatchen",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex795"
+    "id": "nswex795",
+    "category": "exclusive"
   },
   {
     "name": "Super Star Blast",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex796"
+    "id": "nswex796",
+    "category": "exclusive"
   },
   {
     "name": "Super Star Path",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex797"
+    "id": "nswex797",
+    "category": "exclusive"
   },
   {
     "name": "Sushi Time",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex798"
+    "id": "nswex798",
+    "category": "exclusive"
   },
   {
     "name": "The Sushi Spinnery",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex799"
+    "id": "nswex799",
+    "category": "exclusive"
   },
   {
     "name": "Suugaku Ryokuou: Chuugaku 1-Nen",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex800"
+    "id": "nswex800",
+    "category": "exclusive"
   },
   {
     "name": "Suugaku Ryokuou: Chuugaku 2-Nen",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex801"
+    "id": "nswex801",
+    "category": "exclusive"
   },
   {
     "name": "Suugaku Ryokuou: Chuugaku 3-Nen",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex802"
+    "id": "nswex802",
+    "category": "exclusive"
   },
   {
     "name": "Swamp Defense 2",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex803"
+    "id": "nswex803",
+    "category": "exclusive"
   },
   {
     "name": "Swap This!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex804"
+    "id": "nswex804",
+    "category": "exclusive"
   },
   {
     "name": "Symphonic Rain",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex805"
+    "id": "nswex805",
+    "category": "exclusive"
   },
   {
     "name": "Sweet Witches",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex806"
+    "id": "nswex806",
+    "category": "exclusive"
   },
   {
     "name": "Swim Out",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex807"
+    "id": "nswex807",
+    "category": "exclusive"
   },
   {
     "name": "Switch 'N' Shoot",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex808"
+    "id": "nswex808",
+    "category": "exclusive"
   },
   {
     "name": "Switchy Road",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex809"
+    "id": "nswex809",
+    "category": "exclusive"
   },
   {
     "name": "Sword of the Guardian",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex810"
+    "id": "nswex810",
+    "category": "exclusive"
   },
   {
     "name": "Tactical Mind",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex811"
+    "id": "nswex811",
+    "category": "exclusive"
   },
   {
     "name": "Taiko no Tatsujin: Drum 'n' Fun!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex812"
+    "id": "nswex812",
+    "category": "exclusive"
   },
   {
     "name": "Tanzia",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex813"
+    "id": "nswex813",
+    "category": "exclusive"
   },
   {
     "name": "Tales of the Orient: The Rising Sun",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex814"
+    "id": "nswex814",
+    "category": "exclusive"
   },
   {
     "name": "Tallowmere",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex815"
+    "id": "nswex815",
+    "category": "exclusive"
   },
   {
     "name": "Tangledeep",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex816"
+    "id": "nswex816",
+    "category": "exclusive"
   },
   {
     "name": "Tangrams Deluxe",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex817"
+    "id": "nswex817",
+    "category": "exclusive"
   },
   {
     "name": "Tanks Meet Zombies",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex818"
+    "id": "nswex818",
+    "category": "exclusive"
   },
   {
     "name": "Tardy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex819"
+    "id": "nswex819",
+    "category": "exclusive"
   },
   {
     "name": "Teddy the Wanderer: Kayaking",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex820"
+    "id": "nswex820",
+    "category": "exclusive"
   },
   {
     "name": "Teddy the Wanderer: Mountain Hike",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex821"
+    "id": "nswex821",
+    "category": "exclusive"
   },
   {
     "name": "Tengai for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex822"
+    "id": "nswex822",
+    "category": "exclusive"
   },
   {
     "name": "Tennis",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex823"
+    "id": "nswex823",
+    "category": "exclusive"
   },
   {
     "name": "Tetjis",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex824"
+    "id": "nswex824",
+    "category": "exclusive"
   },
   {
     "name": "Tetris 99",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex825"
+    "id": "nswex825",
+    "category": "exclusive"
   },
   {
     "name": "Theatre Tales",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex826"
+    "id": "nswex826",
+    "category": "exclusive"
   },
   {
     "name": "Them Bombs",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex827"
+    "id": "nswex827",
+    "category": "exclusive"
   },
   {
     "name": "THE Number Puzzle",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex828"
+    "id": "nswex828",
+    "category": "exclusive"
   },
   {
     "name": "Thief Simulator",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex829"
+    "id": "nswex829",
+    "category": "exclusive"
   },
   {
     "name": "Tied Together",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex830"
+    "id": "nswex830",
+    "category": "exclusive"
   },
   {
     "name": "Timberman VS",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex831"
+    "id": "nswex831",
+    "category": "exclusive"
   },
   {
     "name": "Tinboy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex832"
+    "id": "nswex832",
+    "category": "exclusive"
   },
   {
     "name": "Tiny Derby",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex833"
+    "id": "nswex833",
+    "category": "exclusive"
   },
   {
     "name": "Tiny Hands Adventure",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex834"
+    "id": "nswex834",
+    "category": "exclusive"
   },
   {
     "name": "Tiny Metal: Full Metal Rumble",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex835"
+    "id": "nswex835",
+    "category": "exclusive"
   },
   {
     "name": "Titans Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex836"
+    "id": "nswex836",
+    "category": "exclusive"
   },
   {
     "name": "Toast Time: Smash Up!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex837"
+    "id": "nswex837",
+    "category": "exclusive"
   },
   {
     "name": "Tobeyo!! Dragon!",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex838"
+    "id": "nswex838",
+    "category": "exclusive"
   },
   {
     "name": "Tokyo School Life",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex839"
+    "id": "nswex839",
+    "category": "exclusive"
   },
   {
     "name": "Toridama: Brave Challenge",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex840"
+    "id": "nswex840",
+    "category": "exclusive"
   },
   {
     "name": "Toshokan SW Meisaku 100-Sen + Alpha",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex841"
+    "id": "nswex841",
+    "category": "exclusive"
   },
   {
     "name": "Totes the Goat",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex842"
+    "id": "nswex842",
+    "category": "exclusive"
   },
   {
     "name": "Touch Battle Tank SP",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex843"
+    "id": "nswex843",
+    "category": "exclusive"
   },
   {
     "name": "Tower of Babel",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex844"
+    "id": "nswex844",
+    "category": "exclusive"
   },
   {
     "name": "Townsmen",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex845"
+    "id": "nswex845",
+    "category": "exclusive"
   },
   {
     "name": "Toy Stunt Bike: Tiptop's Trials",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex846"
+    "id": "nswex846",
+    "category": "exclusive"
   },
   {
     "name": "The Trail: Frontier Challenge",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex847"
+    "id": "nswex847",
+    "category": "exclusive"
   },
   {
     "name": "Trax: Build It - Race It",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex848"
+    "id": "nswex848",
+    "category": "exclusive"
   },
   {
     "name": "Trouserheart",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex849"
+    "id": "nswex849",
+    "category": "exclusive"
   },
   {
     "name": "TurtlePop: Journey to Freedom",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex850"
+    "id": "nswex850",
+    "category": "exclusive"
   },
   {
     "name": "Twist & Match",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex851"
+    "id": "nswex851",
+    "category": "exclusive"
   },
   {
     "name": "Trybit Logic",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex852"
+    "id": "nswex852",
+    "category": "exclusive"
   },
   {
     "name": "Ultimate Runner",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex853"
+    "id": "nswex853",
+    "category": "exclusive"
   },
   {
     "name": "Ultra Hyperball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex854"
+    "id": "nswex854",
+    "category": "exclusive"
   },
   {
     "name": "Ultra Space Battle Brawl",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex855"
+    "id": "nswex855",
+    "category": "exclusive"
   },
   {
     "name": "Undead's Building",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex856"
+    "id": "nswex856",
+    "category": "exclusive"
   },
   {
     "name": "Uni",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex857"
+    "id": "nswex857",
+    "category": "exclusive"
   },
   {
     "name": "Unicornicopia",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex858"
+    "id": "nswex858",
+    "category": "exclusive"
   },
   {
     "name": "Unworthy",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex859"
+    "id": "nswex859",
+    "category": "exclusive"
   },
   {
     "name": "Urban Trial Playground",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex860"
+    "id": "nswex860",
+    "category": "exclusive"
   },
   {
     "name": "Utopia 9: A Volatile Vacation",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex861"
+    "id": "nswex861",
+    "category": "exclusive"
   },
   {
     "name": "Uurnog Uurnlimited",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex862"
+    "id": "nswex862",
+    "category": "exclusive"
   },
   {
     "name": "Vandals",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex863"
+    "id": "nswex863",
+    "category": "exclusive"
   },
   {
     "name": "Varion",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex864"
+    "id": "nswex864",
+    "category": "exclusive"
   },
   {
     "name": "Vectronom",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex865"
+    "id": "nswex865",
+    "category": "exclusive"
   },
   {
     "name": "Venture Kid",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex866"
+    "id": "nswex866",
+    "category": "exclusive"
   },
   {
     "name": "Venture Towns",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex867"
+    "id": "nswex867",
+    "category": "exclusive"
   },
   {
     "name": "Vertical Drop Heroes HD",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex868"
+    "id": "nswex868",
+    "category": "exclusive"
   },
   {
     "name": "Vertical Strike: Endless Challenge",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex869"
+    "id": "nswex869",
+    "category": "exclusive"
   },
   {
     "name": "Violett",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex870"
+    "id": "nswex870",
+    "category": "exclusive"
   },
   {
     "name": "Viviette",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex871"
+    "id": "nswex871",
+    "category": "exclusive"
   },
   {
     "name": "Voez",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex872"
+    "id": "nswex872",
+    "category": "exclusive"
   },
   {
     "name": "V.O.I.D.",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex873"
+    "id": "nswex873",
+    "category": "exclusive"
   },
   {
     "name": "Voxel Shot for Nintendo Switch",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex874"
+    "id": "nswex874",
+    "category": "exclusive"
   },
   {
     "name": "Vroom in the Night Sky",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex875"
+    "id": "nswex875",
+    "category": "exclusive"
   },
   {
     "name": "VSR: Void Space Racing",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex876"
+    "id": "nswex876",
+    "category": "exclusive"
   },
   {
     "name": "Waku Waku Sweets",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex877"
+    "id": "nswex877",
+    "category": "exclusive"
   },
   {
     "name": "Warhammer Age of Sigmar: Champions",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex878"
+    "id": "nswex878",
+    "category": "exclusive"
   },
   {
     "name": "The Warlock of Firetop Mountain: Goblin Scourge Edition!",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex879"
+    "id": "nswex879",
+    "category": "exclusive"
   },
   {
     "name": "Warlocks 2: God Slayers",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex880"
+    "id": "nswex880",
+    "category": "exclusive"
   },
   {
     "name": "Warp Shift",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex881"
+    "id": "nswex881",
+    "category": "exclusive"
   },
   {
     "name": "Watermelon Party",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex882"
+    "id": "nswex882",
+    "category": "exclusive"
   },
   {
     "name": "Wayout",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex883"
+    "id": "nswex883",
+    "category": "exclusive"
   },
   {
     "name": "Wenjia",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex884"
+    "id": "nswex884",
+    "category": "exclusive"
   },
   {
     "name": "Werewolf Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex885"
+    "id": "nswex885",
+    "category": "exclusive"
   },
   {
     "name": "West of Loathing",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex886"
+    "id": "nswex886",
+    "category": "exclusive"
   },
   {
     "name": "When Ski Lifts Go Wrong",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex887"
+    "id": "nswex887",
+    "category": "exclusive"
   },
   {
     "name": "Whip! Whip! ",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex888"
+    "id": "nswex888",
+    "category": "exclusive"
   },
   {
     "name": "Witch and Hero",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex889"
+    "id": "nswex889",
+    "category": "exclusive"
   },
   {
     "name": "Witch Thief",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex890"
+    "id": "nswex890",
+    "category": "exclusive"
   },
   {
     "name": "Wondershot",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex891"
+    "id": "nswex891",
+    "category": "exclusive"
   },
   {
     "name": "Woodle Tree 2 Deluxe",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex892"
+    "id": "nswex892",
+    "category": "exclusive"
   },
   {
     "name": "Word Mesh",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex893"
+    "id": "nswex893",
+    "category": "exclusive"
   },
   {
     "name": "World Conqueror X",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex894"
+    "id": "nswex894",
+    "category": "exclusive"
   },
   {
     "name": "The World Next Door",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex895"
+    "id": "nswex895",
+    "category": "exclusive"
   },
   {
     "name": "World Soccer",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex896"
+    "id": "nswex896",
+    "category": "exclusive"
   },
   {
     "name": "World Neverland: Daily Life in the Elnea Kingdom for Nintendo Switch",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex897"
+    "id": "nswex897",
+    "category": "exclusive"
   },
   {
     "name": "World of Goo",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex898"
+    "id": "nswex898",
+    "category": "exclusive"
   },
   {
     "name": "World of Riders",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex899"
+    "id": "nswex899",
+    "category": "exclusive"
   },
   {
     "name": "World Soccer Pinball",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex900"
+    "id": "nswex900",
+    "category": "exclusive"
   },
   {
     "name": "World Tree Marche",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex901"
+    "id": "nswex901",
+    "category": "exclusive"
   },
   {
     "name": "World Wide Adventure! Collection",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex902"
+    "id": "nswex902",
+    "category": "exclusive"
   },
   {
     "name": "Xtreme Club Racing",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex903"
+    "id": "nswex903",
+    "category": "exclusive"
   },
   {
     "name": "Yodanji",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex904"
+    "id": "nswex904",
+    "category": "exclusive"
   },
   {
     "name": "Yono and the Celestial Elephants",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex905"
+    "id": "nswex905",
+    "category": "exclusive"
   },
   {
     "name": "You Died but a Necromancer Revived You",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex906"
+    "id": "nswex906",
+    "category": "exclusive"
   },
   {
     "name": "Yume Nikki: Dream Diary",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex907"
+    "id": "nswex907",
+    "category": "exclusive"
   },
   {
     "name": "Yuso",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex908"
+    "id": "nswex908",
+    "category": "exclusive"
   },
   {
     "name": "Zaccaria Pinball",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex909"
+    "id": "nswex909",
+    "category": "exclusive"
   },
   {
     "name": "Zen Bound 2",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex910"
+    "id": "nswex910",
+    "category": "exclusive"
   },
   {
     "name": "Zero Gunner 2 for Nintendo Switch",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex911"
+    "id": "nswex911",
+    "category": "exclusive"
   },
   {
     "name": "Zombie Gold Rush",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex912"
+    "id": "nswex912",
+    "category": "exclusive"
   },
   {
     "name": "Zombie Mansion",
     "details": "Nintendo Switch full exclusive (digital)",
-    "id": "nswex913"
+    "id": "nswex913",
+    "category": "exclusive"
   },
   {
     "name": "Zombie Night Terror",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex914"
+    "id": "nswex914",
+    "category": "exclusive"
   },
   {
     "name": "Zombie Panic in Wonderland DX",
     "details": "Nintendo Switch platform exclusive (digital)",
-    "id": "nswex915"
+    "id": "nswex915",
+    "category": "exclusive"
   },
   {
     "name": "Zombie Scrapper",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex916"
+    "id": "nswex916",
+    "category": "exclusive"
   },
   {
     "name": "Zombillie",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex917"
+    "id": "nswex917",
+    "category": "exclusive"
   },
   {
     "name": "Zotrix: Solar Division",
     "details": "Nintendo Switch console exclusive (digital)",
-    "id": "nswex918"
+    "id": "nswex918",
+    "category": "exclusive"
   }
 ]

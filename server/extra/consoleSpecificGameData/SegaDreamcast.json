@@ -21,7 +21,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       },
       {
         "value": "Dreamcast online game (SegaNet)",
@@ -32,7 +33,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -58,7 +60,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
@@ -108,7 +111,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -157,7 +161,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
@@ -170,7 +175,8 @@
     "gbGuid": "3030-7963",
     "tgdbId": 19308,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Sega Dreamcast game has widescreen mode (some cropping to about 15.115:1)"
     ],
     "isExclusive": [
       {
@@ -183,7 +189,20 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode (some cropping to about 15.115:1)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": [
       {
         "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/areowings_zpsygqlc5nv.jpg",
@@ -223,7 +242,8 @@
     "gbId": 7790,
     "gbGuid": "3030-7790",
     "details": [
-      "Sega All-Stars game (JP)"
+      "Sega All-Stars game (JP)",
+      "Dreamcast game lacks native VGA support"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -237,7 +257,20 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
@@ -263,7 +296,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
@@ -293,8 +327,35 @@
     "misprintsErrors": []
   },
   {
-    "name": "Black/Matrix Advanced",
+    "name": "Bangai-O",
     "id": "sdc11",
+    "igdbId": 3443,
+    "gbId": 16481,
+    "gbGuid": "3030-16481",
+    "details": [
+      "Dreamcast game lacks native VGA support"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Black/Matrix Advanced",
+    "id": "sdc12",
     "igdbId": null,
     "gbId": 14237,
     "gbGuid": "3030-14237",
@@ -313,14 +374,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Blue Stinger",
-    "id": "sdc12",
+    "id": "sdc13",
     "igdbId": 6715,
     "gbId": 21183,
     "gbGuid": "3030-21183",
@@ -360,7 +422,7 @@
   },
   {
     "name": "Bomberman Online",
-    "id": "sdc13",
+    "id": "sdc14",
     "igdbId": 6716,
     "gbId": 18180,
     "gbGuid": "3030-18180",
@@ -390,14 +452,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "CART Flag to Flag",
-    "id": "sdc14",
+    "id": "sdc15",
     "igdbId": 6721,
     "gbId": 6225,
     "gbGuid": "3030-6225",
@@ -431,7 +494,7 @@
   },
   {
     "name": "Capcom vs. SNK 2: Mark of the Millennium 2001",
-    "id": "sdc15",
+    "id": "sdc16",
     "igdbId": 3846,
     "gbId": 8492,
     "gbGuid": "3030-8492",
@@ -450,14 +513,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Capcom vs. SNK 2: Millionaire Fighting 2001",
-    "id": "sdc16",
+    "id": "sdc17",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -476,14 +540,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Capcom vs. SNK: Millennium Fight 2000 Pro",
-    "id": "sdc17",
+    "id": "sdc18",
     "igdbId": 45829,
     "gbId": 5640,
     "gbGuid": "3030-5640",
@@ -502,20 +567,49 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Cardcaptor Sakura: Tomoyo no Video Daisakusen",
+    "id": "sdc19",
+    "igdbId": 66251,
+    "gbId": 33288,
+    "gbGuid": "3030-33288",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigames: Breakout, Oyatu, Tobakero) (Clock: four themes)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigames: Breakout, Oyatu, Tobakero) (Clock: four themes)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Carrier",
-    "id": "sdc18",
+    "id": "sdc20",
     "igdbId": 6720,
     "gbId": 13518,
     "gbGuid": "3030-13518",
     "tgdbId": 3646,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (In-game features: Health condition)"
     ],
     "isExclusive": [
       {
@@ -528,12 +622,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health condition)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Castle Fantasia: Seimadaisen",
-    "id": "sdc19",
+    "id": "sdc21",
     "igdbId": 78008,
     "gbId": 11163,
     "gbGuid": "3030-11163",
@@ -552,6 +659,33 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Castle Shikigami 2",
+    "id": "sdc22",
+    "igdbId": 4149,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
         }
       }
     ],
@@ -559,7 +693,7 @@
   },
   {
     "name": "ChuChu Rocket!",
-    "id": "sdc20",
+    "id": "sdc23",
     "igdbId": 6347,
     "gbId": 13715,
     "gbGuid": "3030-13715",
@@ -578,14 +712,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Close to: Inori no Oka",
-    "id": "sdc21",
+    "id": "sdc24",
     "igdbId": 196027,
     "gbId": null,
     "gbGuid": null,
@@ -604,14 +739,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Coaster Works",
-    "id": "sdc22",
+    "id": "sdc25",
     "igdbId": 6725,
     "gbId": 38082,
     "gbGuid": "3030-38082",
@@ -635,7 +771,7 @@
   },
   {
     "name": "Comic Party",
-    "id": "sdc23",
+    "id": "sdc26",
     "igdbId": 80719,
     "gbId": 23687,
     "gbGuid": "3030-23687",
@@ -654,14 +790,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Confidential Mission",
-    "id": "sdc24",
+    "id": "sdc27",
     "igdbId": 6726,
     "gbId": 15008,
     "gbGuid": "3030-15008",
@@ -681,7 +818,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       },
       {
         "value": "Sega Dreamcast light gun game",
@@ -692,14 +830,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "lightGun"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Cool Boarders Burrrn!",
-    "id": "sdc25",
+    "id": "sdc28",
     "igdbId": 45784,
     "gbId": null,
     "gbGuid": null,
@@ -718,14 +857,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Cool Cool Toon",
-    "id": "sdc26",
+    "id": "sdc29",
     "igdbId": 6728,
     "gbId": 21422,
     "gbGuid": "3030-21422",
@@ -749,7 +889,7 @@
   },
   {
     "name": "Crazy Taxi (Sega All-Stars)",
-    "id": "sdc27",
+    "id": "sdc30",
     "igdbId": 1805,
     "gbId": 9112,
     "gbGuid": "3030-9112",
@@ -768,7 +908,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": [
@@ -781,7 +922,7 @@
   },
   {
     "name": "Crazy Taxi 2",
-    "id": "sdc28",
+    "id": "sdc31",
     "igdbId": 1806,
     "gbId": 18195,
     "gbGuid": "3030-18195",
@@ -800,14 +941,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Culdcept II",
-    "id": "sdc29",
+    "id": "sdc32",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -831,7 +973,7 @@
   },
   {
     "name": "Culdcept II",
-    "id": "sdc30",
+    "id": "sdc33",
     "igdbId": 137524,
     "gbId": null,
     "gbGuid": null,
@@ -850,14 +992,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Cyber Troopers Virtual-On Oratorio Tangram",
-    "id": "sdc31",
+    "id": "sdc34",
     "igdbId": 9190,
     "gbId": 4819,
     "gbGuid": "3030-4819",
@@ -876,14 +1019,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "D+Vine [Luv]",
-    "id": "sdc32",
+    "id": "sdc35",
     "igdbId": null,
     "gbId": 85882,
     "gbGuid": "3030-85882",
@@ -902,20 +1046,22 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "D2",
-    "id": "sdc33",
+    "id": "sdc36",
     "igdbId": 36736,
     "gbId": 18898,
     "gbGuid": "3030-18898",
     "tgdbId": 8117,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (VMU minigame: Photo viewer) (In-game features: Compass)"
     ],
     "isExclusive": [
       {
@@ -928,12 +1074,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Photo viewer) (In-game features: Compass)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Daytona USA 2001",
-    "id": "sdc34",
+    "id": "sdc37",
     "igdbId": 22007,
     "gbId": null,
     "gbGuid": null,
@@ -962,14 +1121,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "De La Jet Set Radio",
-    "id": "sdc35",
+    "id": "sdc38",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -988,14 +1148,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Death Crimson 2",
-    "id": "sdc36",
+    "id": "sdc39",
     "igdbId": 45785,
     "gbId": 49144,
     "gbGuid": "3030-49144",
@@ -1014,14 +1175,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "lightGun"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Death Crimson OX",
-    "id": "sdc37",
+    "id": "sdc40",
     "igdbId": 40106,
     "gbId": 23185,
     "gbGuid": "3030-23185",
@@ -1040,14 +1202,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "lightGun"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Demolition Racer: No Exit",
-    "id": "sdc38",
+    "id": "sdc41",
     "igdbId": 46376,
     "gbId": 11909,
     "gbGuid": "3030-11909",
@@ -1066,14 +1229,82 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "lightGun"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Dino Crisis",
+    "id": "sdc42",
+    "igdbId": 3027,
+    "gbId": 11917,
+    "gbGuid": "3030-11917",
+    "details": [
+      "Dreamcast game lacks native VGA support (patched created to provide VGA support: PAL, additionally patched with 60hz support)",
+      "Dreamcast game has VMU features: (In-game features: Health Condition, Ammo count)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support (patched created to provide VGA support: PAL, additionally patched with 60hz support)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health Condition, Ammo count)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Disney's Donald Duck: Goin' Quackers",
+    "id": "sdc43",
+    "igdbId": 360,
+    "gbId": 9551,
+    "gbGuid": "3030-9551",
+    "details": [
+      "Sega Dreamcast game has widescreen mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Dousoukai 2 Again & Refrain",
-    "id": "sdc39",
+    "id": "sdc44",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -1092,14 +1323,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Draconus: Cult of the Wyrm",
-    "id": "sdc40",
+    "id": "sdc45",
     "igdbId": 9189,
     "gbId": 7960,
     "gbGuid": "3030-7960",
@@ -1123,7 +1355,7 @@
   },
   {
     "name": "Dux",
-    "id": "sdc41",
+    "id": "sdc46",
     "igdbId": 68409,
     "gbId": 26362,
     "gbGuid": "3030-26362",
@@ -1147,7 +1379,7 @@
   },
   {
     "name": "El Dorado Gate",
-    "id": "sdc42",
+    "id": "sdc47",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -1170,7 +1402,7 @@
   },
   {
     "name": "Elemental Gimmick Gear",
-    "id": "sdc43",
+    "id": "sdc48",
     "igdbId": 45862,
     "gbId": 4499,
     "gbGuid": "3030-4499",
@@ -1194,7 +1426,7 @@
   },
   {
     "name": "Ever17: The Out of Infinity",
-    "id": "sdc44",
+    "id": "sdc49",
     "igdbId": 18037,
     "gbId": null,
     "gbGuid": null,
@@ -1213,20 +1445,49 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Evil Twin: Cyprien's Chronicles",
+    "id": "sdc50",
+    "igdbId": 18332,
+    "gbId": 19465,
+    "gbGuid": "3030-19465",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Four mini-games)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Four mini-games)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Evolution",
-    "id": "sdc45",
+    "id": "sdc51",
     "igdbId": 23132,
     "gbId": 4202,
     "gbGuid": "3030-4202",
     "tgdbId": 3644,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (In-game features: Health condition)"
     ],
     "isExclusive": [
       {
@@ -1239,18 +1500,32 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health condition)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Evolution 2",
-    "id": "sdc46",
+    "id": "sdc52",
     "igdbId": 45858,
     "gbId": 10842,
     "gbGuid": "3030-10842",
     "tgdbId": 3656,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (VMU minigame: 12-hour clock)"
     ],
     "isExclusive": [
       {
@@ -1263,12 +1538,65 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: 12-hour clock)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "F355 Challenge",
+    "id": "sdc53",
+    "igdbId": 10348,
+    "gbId": 285,
+    "gbGuid": "3030-285",
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Arcade connectivity)",
+      "Sega Dreamcast game has widescreen mode (only in interlaced mode without VGA mode)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Arcade connectivity)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      },
+      {
+        "value": "Sega Dreamcast game has widescreen mode (only in interlaced mode without VGA mode)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Fighting Force 2",
-    "id": "sdc47",
+    "id": "sdc54",
     "igdbId": 11615,
     "gbId": 18715,
     "gbGuid": "3030-18715",
@@ -1286,7 +1614,7 @@
   },
   {
     "name": "Fighting Vipers 2",
-    "id": "sdc48",
+    "id": "sdc55",
     "igdbId": 39447,
     "gbId": 13923,
     "gbGuid": "3030-13923",
@@ -1305,14 +1633,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Floigan Bros.: Episode 1",
-    "id": "sdc49",
+    "id": "sdc56",
     "igdbId": 22050,
     "gbId": null,
     "gbGuid": null,
@@ -1336,7 +1665,7 @@
   },
   {
     "name": "Frame Gride",
-    "id": "sdc50",
+    "id": "sdc57",
     "igdbId": 10908,
     "gbId": 29057,
     "gbGuid": "3030-29057",
@@ -1359,7 +1688,7 @@
   },
   {
     "name": "Gaia Master Kessen! Seikiou Densetsu",
-    "id": "sdc51",
+    "id": "sdc58",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -1378,14 +1707,95 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Ghost Blade",
+    "id": "sdc59",
+    "igdbId": 23442,
+    "gbId": 47999,
+    "gbGuid": "3030-47999",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
         }
       }
     ],
     "misprintsErrors": []
   },
   {
+    "name": "Giant Gram 2000: All Japan Pro Wrestling 3",
+    "id": "sdc60",
+    "igdbId": 45827,
+    "gbId": 22408,
+    "gbGuid": "3030-22408",
+    "details": [
+      "Sega Dreamcast game has widescreen mode (cropped)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode (cropped)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Giant Gram: All Japan Pro Wrestling 2",
+    "id": "sdc61",
+    "igdbId": 45828,
+    "gbId": 68541,
+    "gbGuid": "3030-68541",
+    "details": [
+      "Sega Dreamcast game has widescreen mode (cropped)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode (cropped)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Giant Killers",
-    "id": "sdc52",
+    "id": "sdc62",
     "igdbId": 4354,
     "gbId": 8649,
     "gbGuid": "3030-8649",
@@ -1409,13 +1819,14 @@
   },
   {
     "name": "Godzilla Generations",
-    "id": "sdc53",
+    "id": "sdc63",
     "igdbId": 45824,
     "gbId": 22855,
     "gbGuid": "3030-22855",
     "tgdbId": 19310,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (VMU minigames: Atsumete Godzilla, Gamera Dream Battle, Mothra Dream Battle)"
     ],
     "isExclusive": [
       {
@@ -1428,12 +1839,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigames: Atsumete Godzilla, Gamera Dream Battle, Mothra Dream Battle)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Grand Theft Auto 2",
-    "id": "sdc54",
+    "id": "sdc64",
     "igdbId": 819,
     "gbId": 10593,
     "gbGuid": "3030-10593",
@@ -1451,7 +1875,7 @@
   },
   {
     "name": "Grandia II",
-    "id": "sdc55",
+    "id": "sdc65",
     "igdbId": 9580,
     "gbId": 10129,
     "gbGuid": "3030-10129",
@@ -1470,14 +1894,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Guilty Gear X",
-    "id": "sdc56",
+    "id": "sdc66",
     "igdbId": 9141,
     "gbId": 3978,
     "gbGuid": "3030-3978",
@@ -1496,6 +1921,33 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Gunbird 2",
+    "id": "sdc67",
+    "igdbId": 40150,
+    "gbId": 19931,
+    "gbGuid": "3030-19931",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
         }
       }
     ],
@@ -1503,7 +1955,7 @@
   },
   {
     "name": "Gundam Side Story 0079: Rise From the Ashes",
-    "id": "sdc57",
+    "id": "sdc68",
     "igdbId": 45859,
     "gbId": 21439,
     "gbGuid": "3030-21439",
@@ -1527,7 +1979,7 @@
   },
   {
     "name": "Hanagumi Taisen Columns 2",
-    "id": "sdc58",
+    "id": "sdc69",
     "igdbId": 81567,
     "gbId": 35912,
     "gbGuid": "3030-35912",
@@ -1546,14 +1998,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Happy Lesson",
-    "id": "sdc59",
+    "id": "sdc70",
     "igdbId": 78643,
     "gbId": 25182,
     "gbGuid": "3030-25182",
@@ -1572,21 +2025,23 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Hydro Thunder",
-    "id": "sdc60",
+    "id": "sdc71",
     "igdbId": 3370,
     "gbId": 13241,
     "gbGuid": "3030-13241",
     "tgdbId": 258,
     "details": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game lacks native VGA support (playable in progressive scan via MagiClock feature on DCDigital HW2)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -1609,6 +2064,45 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game lacks native VGA support (playable in progressive scan via MagiClock feature on DCDigital HW2)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Ikaruga",
+    "id": "sdc72",
+    "igdbId": 200996,
+    "gbId": 12069,
+    "gbGuid": "3030-12069",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
         }
       }
     ],
@@ -1616,7 +2110,7 @@
   },
   {
     "name": "Illbleed",
-    "id": "sdc61",
+    "id": "sdc73",
     "igdbId": 26450,
     "gbId": 126,
     "gbGuid": "3030-126",
@@ -1640,7 +2134,7 @@
   },
   {
     "name": "Inoue Ryouko: Roommate",
-    "id": "sdc62",
+    "id": "sdc74",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -1659,14 +2153,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Interlude",
-    "id": "sdc63",
+    "id": "sdc75",
     "igdbId": 139421,
     "gbId": 39326,
     "gbGuid": "3030-39326",
@@ -1685,14 +2180,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Iron Aces",
-    "id": "sdc64",
+    "id": "sdc76",
     "igdbId": 45853,
     "gbId": 13397,
     "gbGuid": "3030-13397",
@@ -1716,7 +2212,7 @@
   },
   {
     "name": "Jeremy McGrath Supercross 2000",
-    "id": "sdc65",
+    "id": "sdc77",
     "igdbId": 3523,
     "gbId": 4298,
     "gbGuid": "3030-4298",
@@ -1734,18 +2230,85 @@
   },
   {
     "name": "Jet Grind Radio",
-    "id": "sdc66",
+    "id": "sdc78",
     "igdbId": 1569,
     "gbId": 20096,
     "gbGuid": "3030-20096",
     "details": [
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (VMU minigame: Graffiti transfer)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
     "special": [
       {
         "value": "Dreamcast online game (SegaNet)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Graffiti transfer)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "JoJo's Bizarre Adventure",
+    "id": "sdc79",
+    "igdbId": 75963,
+    "gbId": 18647,
+    "gbGuid": "3030-18647",
+    "details": [
+      "Dreamcast game lacks native VGA support (Japanese version has VGA support, North American does not)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support (Japanese version has VGA support, North American does not)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Karous",
+    "id": "sdc80",
+    "igdbId": 45818,
+    "gbId": 3359,
+    "gbGuid": "3030-3359",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
         "forPlatform": {
           "name": "Sega Dreamcast",
           "id": "ccl18",
@@ -1760,13 +2323,14 @@
   },
   {
     "name": "L.O.L.: Lack of Love",
-    "id": "sdc67",
+    "id": "sdc81",
     "igdbId": 45799,
     "gbId": 27575,
     "gbGuid": "3030-27575",
     "tgdbId": 30093,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game lacks native VGA support (patched created to provide VGA support: NTSC-J, note that VGA patch was also used for the English translation patch)"
     ],
     "isExclusive": [
       {
@@ -1779,12 +2343,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support (patched created to provide VGA support: NTSC-J, note that VGA patch was also used for the English translation patch)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Martian Successor Nadesico: Nadesico the Mission",
-    "id": "sdc68",
+    "id": "sdc82",
     "igdbId": 125366,
     "gbId": 75963,
     "gbGuid": "3030-75963",
@@ -1803,14 +2380,42 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Marvel vs. Capcom 2: New Age of Heroes",
+    "id": "sdc83",
+    "igdbId": 8247,
+    "gbId": 2612,
+    "gbGuid": "3030-2612",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame) (Transfer characters, colors and stages) (In-game features: Arcade connectivity)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame) (Transfer characters, colors and stages) (In-game features: Arcade connectivity)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Marvel vs. Capcom: Clash of Super Heroes",
-    "id": "sdc69",
+    "id": "sdc84",
     "igdbId": 8246,
     "gbId": 8605,
     "gbGuid": "3030-8605",
@@ -1829,7 +2434,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": [
@@ -1842,7 +2448,7 @@
   },
   {
     "name": "Max Steel: Covert Missions",
-    "id": "sdc70",
+    "id": "sdc85",
     "igdbId": 4352,
     "gbId": 17376,
     "gbGuid": "3030-17376",
@@ -1865,7 +2471,7 @@
   },
   {
     "name": "Maximum Pool",
-    "id": "sdc71",
+    "id": "sdc86",
     "igdbId": 45815,
     "gbId": 9501,
     "gbGuid": "3030-9501",
@@ -1884,14 +2490,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Memories Off 2nd",
-    "id": "sdc72",
+    "id": "sdc87",
     "igdbId": 78209,
     "gbId": 26570,
     "gbGuid": "3030-26570",
@@ -1910,14 +2517,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Memories Off Complete",
-    "id": "sdc73",
+    "id": "sdc88",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -1936,14 +2544,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Mercurius Pretty: End of the Century",
-    "id": "sdc74",
+    "id": "sdc89",
     "igdbId": 66277,
     "gbId": 33176,
     "gbGuid": "3030-33176",
@@ -1962,20 +2571,22 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Metropolis Street Racer",
-    "id": "sdc75",
+    "id": "sdc90",
     "igdbId": 3319,
     "gbId": 3027,
     "gbGuid": "3030-3027",
     "tgdbId": 10589,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Sega Dreamcast game has widescreen mode (in cheat menu; has some cropping; stretches more with each race)"
     ],
     "isExclusive": [
       {
@@ -1988,12 +2599,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode (in cheat menu; has some cropping; stretches more with each race)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Midway's Greatest Arcade Hits: Volume 1",
-    "id": "sdc76",
+    "id": "sdc91",
     "igdbId": 47679,
     "gbId": 1661,
     "gbGuid": "3030-1661",
@@ -2011,7 +2635,7 @@
   },
   {
     "name": "Millennium Soldier Expendable",
-    "id": "sdc77",
+    "id": "sdc92",
     "igdbId": 45816,
     "gbId": 16472,
     "gbGuid": "3030-16472",
@@ -2035,7 +2659,7 @@
   },
   {
     "name": "Miss Moonlight",
-    "id": "sdc78",
+    "id": "sdc93",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -2054,14 +2678,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Monaco Grand Prix",
-    "id": "sdc79",
+    "id": "sdc94",
     "igdbId": 3413,
     "gbId": 27620,
     "gbGuid": "3030-27620",
@@ -2085,7 +2710,7 @@
   },
   {
     "name": "Mortal Kombat Gold",
-    "id": "sdc80",
+    "id": "sdc95",
     "igdbId": 45155,
     "gbId": 4652,
     "gbGuid": "3030-4652",
@@ -2119,7 +2744,7 @@
   },
   {
     "name": "Ms. Pac-Man Maze Madness",
-    "id": "sdc81",
+    "id": "sdc96",
     "igdbId": 3338,
     "gbId": 3903,
     "gbGuid": "3030-3903",
@@ -2137,14 +2762,15 @@
   },
   {
     "name": "NBA 2K",
-    "id": "sdc82",
+    "id": "sdc97",
     "igdbId": 8832,
     "gbId": 6839,
     "gbGuid": "3030-6839",
     "tgdbId": 11998,
     "details": [
       "Sega Dreamcast exclusive",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Team statistics)"
     ],
     "isExclusive": [
       {
@@ -2167,14 +2793,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Team statistics)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NBA 2K1",
-    "id": "sdc83",
+    "id": "sdc98",
     "igdbId": 28836,
     "gbId": 16896,
     "gbGuid": "3030-16896",
@@ -2182,7 +2821,8 @@
     "details": [
       "Sega Dreamcast exclusive",
       "Sega All-Stars game (NA)",
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (In-game features: Team statistics)"
     ],
     "isExclusive": [
       {
@@ -2205,7 +2845,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       },
       {
         "value": "Dreamcast online game (SegaNet)",
@@ -2216,7 +2857,20 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Team statistics)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": [
@@ -2229,12 +2883,13 @@
   },
   {
     "name": "NBA 2K2",
-    "id": "sdc84",
+    "id": "sdc99",
     "igdbId": 4029,
     "gbId": 756,
     "gbGuid": "3030-756",
     "details": [
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (In-game features: Team statistics)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -2248,14 +2903,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Team statistics)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NCAA College Football 2K2",
-    "id": "sdc85",
+    "id": "sdc100",
     "igdbId": 46380,
     "gbId": 7532,
     "gbGuid": "3030-7532",
@@ -2285,14 +2953,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NFL 2K",
-    "id": "sdc86",
+    "id": "sdc101",
     "igdbId": 8842,
     "gbId": 4659,
     "gbGuid": "3030-4659",
@@ -2301,7 +2970,8 @@
       "Sega Dreamcast launch title",
       "Sega Dreamcast exclusive",
       "Sega All-Stars game (JP)",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
     ],
     "isExclusive": [
       {
@@ -2333,7 +3003,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       },
       {
         "value": "Sega All-Stars game (NA)",
@@ -2344,14 +3015,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Secret plays)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NFL 2K1",
-    "id": "sdc87",
+    "id": "sdc102",
     "igdbId": 8843,
     "gbId": 805,
     "gbGuid": "3030-805",
@@ -2359,7 +3043,8 @@
     "details": [
       "Sega Dreamcast exclusive",
       "Sega All-Stars game (NA)",
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
     ],
     "isExclusive": [
       {
@@ -2382,7 +3067,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       },
       {
         "value": "Dreamcast online game (SegaNet)",
@@ -2393,19 +3079,33 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Secret plays)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NFL 2K2",
-    "id": "sdc88",
+    "id": "sdc103",
     "igdbId": 8845,
     "gbId": 14001,
     "gbGuid": "3030-14001",
     "details": [
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -2419,21 +3119,35 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Secret plays)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NFL Blitz 2000",
-    "id": "sdc89",
+    "id": "sdc104",
     "igdbId": 4366,
     "gbId": 2849,
     "gbGuid": "3030-2849",
     "tgdbId": 581,
     "details": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -2456,7 +3170,20 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Secret plays)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": [
@@ -2468,8 +3195,35 @@
     ]
   },
   {
+    "name": "NFL Blitz 2001",
+    "id": "sdc105",
+    "igdbId": 47752,
+    "gbId": 12669,
+    "gbGuid": "3030-12669",
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Secret plays)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Secret plays)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "NHL 2K",
-    "id": "sdc90",
+    "id": "sdc106",
     "igdbId": 8839,
     "gbId": 16447,
     "gbGuid": "3030-16447",
@@ -2499,14 +3253,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "NHL 2K2",
-    "id": "sdc91",
+    "id": "sdc107",
     "igdbId": 8840,
     "gbId": 21789,
     "gbGuid": "3030-21789",
@@ -2536,7 +3291,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": [
@@ -2548,13 +3304,41 @@
     ]
   },
   {
+    "name": "Namco Museum",
+    "id": "sdc108",
+    "igdbId": 177623,
+    "gbId": 13641,
+    "gbGuid": "3030-13641",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pac-It)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pac-It)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Nanatsu no Hikan: Senritsu no Bishou",
-    "id": "sdc92",
+    "id": "sdc109",
     "igdbId": 108772,
     "gbId": 69415,
     "gbGuid": "3030-69415",
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game lacks native VGA support"
     ],
     "isExclusive": [
       {
@@ -2567,12 +3351,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Napple Tale: Arsia in Daydream",
-    "id": "sdc93",
+    "id": "sdc110",
     "igdbId": 28152,
     "gbId": 19006,
     "gbGuid": "3030-19006",
@@ -2602,14 +3399,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Never 7: The End of Infinity",
-    "id": "sdc94",
+    "id": "sdc111",
     "igdbId": 18018,
     "gbId": null,
     "gbGuid": null,
@@ -2628,14 +3426,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Ooga Booga",
-    "id": "sdc95",
+    "id": "sdc112",
     "igdbId": 10961,
     "gbId": 13790,
     "gbGuid": "3030-13790",
@@ -2665,14 +3464,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Outtrigger",
-    "id": "sdc96",
+    "id": "sdc113",
     "igdbId": 39605,
     "gbId": 15175,
     "gbGuid": "3030-15175",
@@ -2691,14 +3491,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "POD 2",
-    "id": "sdc97",
+    "id": "sdc114",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -2721,7 +3522,7 @@
   },
   {
     "name": "POD SpeedZone",
-    "id": "sdc98",
+    "id": "sdc115",
     "igdbId": 84320,
     "gbId": 20135,
     "gbGuid": "3030-20135",
@@ -2740,14 +3541,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Pandora no Yume",
-    "id": "sdc99",
+    "id": "sdc116",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -2766,14 +3568,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Pen Pen TriIcelon",
-    "id": "sdc100",
+    "id": "sdc117",
     "igdbId": 46361,
     "gbId": null,
     "gbGuid": null,
@@ -2807,7 +3610,7 @@
   },
   {
     "name": "Phantasy Star Online",
-    "id": "sdc101",
+    "id": "sdc118",
     "igdbId": 21968,
     "gbId": 20252,
     "gbGuid": "3030-20252",
@@ -2826,7 +3629,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": [
@@ -2839,7 +3643,7 @@
   },
   {
     "name": "Phantasy Star Online Ver. 2",
-    "id": "sdc102",
+    "id": "sdc119",
     "igdbId": 45812,
     "gbId": 7929,
     "gbGuid": "3030-7929",
@@ -2858,14 +3662,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Planet Ring",
-    "id": "sdc103",
+    "id": "sdc120",
     "igdbId": 45805,
     "gbId": 5916,
     "gbGuid": "3030-5916",
@@ -2884,21 +3689,158 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Plasma Sword: Nightmare of Bilstein",
+    "id": "sdc121",
+    "igdbId": 14679,
+    "gbId": 13875,
+    "gbGuid": "3030-13875",
+    "details": [
+      "Dreamcast game lacks native VGA support"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pop'n Music 2",
+    "id": "sdc122",
+    "igdbId": 78975,
+    "gbId": 22617,
+    "gbGuid": "3030-22617",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pop'n music",
+    "id": "sdc123",
+    "igdbId": 186652,
+    "gbId": 21655,
+    "gbGuid": "3030-21655",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pop'n music 3",
+    "id": "sdc124",
+    "igdbId": 78977,
+    "gbId": 22618,
+    "gbGuid": "3030-22618",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Pop'n music 4",
+    "id": "sdc125",
+    "igdbId": 78978,
+    "gbId": 22619,
+    "gbGuid": "3030-22619",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pop'n Music Anywhere mini-game) (In-game features: Virtual Pop'n Music controller)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Power Stone",
-    "id": "sdc104",
+    "id": "sdc126",
     "igdbId": 4355,
     "gbId": 20100,
     "gbGuid": "3030-20100",
     "tgdbId": 3576,
     "details": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: VMU minigames: Gunrock’s Gun-Gun Slot, Falcon’s Aerial Adventure, Ayame’s Shuriken Training)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -2921,19 +3863,33 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: VMU minigames: Gunrock’s Gun-Gun Slot, Falcon’s Aerial Adventure, Ayame’s Shuriken Training)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Power Stone 2",
-    "id": "sdc105",
+    "id": "sdc127",
     "igdbId": 13106,
     "gbId": 3712,
     "gbGuid": "3030-3712",
     "details": [
-      "Sega All-Stars game (JP)"
+      "Sega All-Stars game (JP)",
+      "Dreamcast game has VMU features: (VMU minigame: View and trade items)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -2947,14 +3903,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: View and trade items)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Princess Maker Collection",
-    "id": "sdc106",
+    "id": "sdc128",
     "igdbId": 78302,
     "gbId": 39219,
     "gbGuid": "3030-39219",
@@ -2973,14 +3942,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Project Justice",
-    "id": "sdc107",
+    "id": "sdc129",
     "igdbId": 13096,
     "gbId": 4348,
     "gbGuid": "3030-4348",
@@ -2999,14 +3969,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Propeller Arena",
-    "id": "sdc108",
+    "id": "sdc130",
     "igdbId": 46555,
     "gbId": 24986,
     "gbGuid": "3030-24986",
@@ -3029,8 +4000,61 @@
     "misprintsErrors": []
   },
   {
+    "name": "Psychic Force 2012",
+    "id": "sdc131",
+    "igdbId": 22849,
+    "gbId": 3107,
+    "gbGuid": "3030-3107",
+    "details": [
+      "Dreamcast game lacks native VGA support"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Psyvariar 2: The Will to Fabricate",
+    "id": "sdc132",
+    "igdbId": 5993,
+    "gbId": 6596,
+    "gbGuid": "3030-6596",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Puyo Pop Fever",
-    "id": "sdc109",
+    "id": "sdc133",
     "igdbId": 4075,
     "gbId": 7226,
     "gbGuid": "3030-7226",
@@ -3049,19 +4073,21 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Quake III Arena",
-    "id": "sdc110",
+    "id": "sdc134",
     "igdbId": 355,
     "gbId": 3874,
     "gbGuid": "3030-3874",
     "details": [
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Dreamcast game has VMU features: (VMU minigame: Maze mini-game) (In-game features: Animation)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -3075,21 +4101,88 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Maze mini-game) (In-game features: Animation)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Radirgy",
+    "id": "sdc135",
+    "igdbId": 4077,
+    "gbId": 9682,
+    "gbGuid": "3030-9682",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
         }
       }
     ],
     "misprintsErrors": []
   },
   {
+    "name": "Rayman 2: The Great Escape",
+    "id": "sdc136",
+    "igdbId": 193314,
+    "gbId": 609,
+    "gbGuid": "3030-609",
+    "details": [
+      "Sega Dreamcast game has widescreen mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Ready 2 Rumble Boxing",
-    "id": "sdc111",
+    "id": "sdc137",
     "igdbId": 3586,
     "gbId": 19836,
     "gbGuid": "3030-19836",
     "tgdbId": 396,
     "details": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Punch count, Hit percentage)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -3112,14 +4205,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Punch count, Hit percentage)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Record of Lodoss War",
-    "id": "sdc112",
+    "id": "sdc138",
     "igdbId": 69656,
     "gbId": 11521,
     "gbGuid": "3030-11521",
@@ -3149,14 +4255,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Red Dog: Superior Firepower",
-    "id": "sdc113",
+    "id": "sdc139",
     "igdbId": 45835,
     "gbId": 5326,
     "gbGuid": "3030-5326",
@@ -3180,7 +4287,7 @@
   },
   {
     "name": "Renai Chu! Happy Perfect",
-    "id": "sdc114",
+    "id": "sdc140",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -3199,21 +4306,91 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Resident Evil 2",
+    "id": "sdc141",
+    "igdbId": 880,
+    "gbId": 9418,
+    "gbGuid": "3030-9418",
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Health condition)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health condition)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Resident Evil 3: Nemesis",
+    "id": "sdc142",
+    "igdbId": 966,
+    "gbId": 5587,
+    "gbGuid": "3030-5587",
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Health condition)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health condition)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Resident Evil CODE: Veronica",
-    "id": "sdc115",
+    "id": "sdc143",
     "igdbId": 968,
     "gbId": 8402,
     "gbGuid": "3030-8402",
-    "details": [],
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Health condition)"
+    ],
     "isExclusive": false,
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health condition)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": [
       {
         "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/recvdc_zpsfue7bn6c.jpg",
@@ -3223,8 +4400,35 @@
     ]
   },
   {
+    "name": "Resident Evil Code: Veronica X",
+    "id": "sdc144",
+    "igdbId": 24369,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Health condition)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Health condition)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Rippin' Riders Snowboarding",
-    "id": "sdc116",
+    "id": "sdc145",
     "igdbId": 26132,
     "gbId": null,
     "gbGuid": null,
@@ -3247,7 +4451,7 @@
   },
   {
     "name": "Roommate Asami: Okusama ha Joshikousei - Director's Edition",
-    "id": "sdc117",
+    "id": "sdc146",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -3266,14 +4470,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Roommate Novel: Satou Yuka",
-    "id": "sdc118",
+    "id": "sdc147",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -3292,14 +4497,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Runabout 2",
-    "id": "sdc119",
+    "id": "sdc148",
     "igdbId": 44900,
     "gbId": 39126,
     "gbGuid": "3030-39126",
@@ -3323,7 +4529,7 @@
   },
   {
     "name": "Runabout 3: Neo Age",
-    "id": "sdc120",
+    "id": "sdc149",
     "igdbId": 43599,
     "gbId": 39127,
     "gbGuid": "3030-39127",
@@ -3346,8 +4552,35 @@
     "misprintsErrors": []
   },
   {
+    "name": "Sakura Taisen 3: Paris ha Moeteiru ka?",
+    "id": "sdc150",
+    "igdbId": 80143,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Kinematron messages, Area map)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Kinematron messages, Area map)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "San Francisco Rush 2049",
-    "id": "sdc121",
+    "id": "sdc151",
     "igdbId": 3596,
     "gbId": 18834,
     "gbGuid": "3030-18834",
@@ -3366,14 +4599,42 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Seaman",
+    "id": "sdc152",
+    "igdbId": 9130,
+    "gbId": 1442,
+    "gbGuid": "3030-1442",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Organize and raise food for Seaman) (In-game features: Seaman microphone status)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Organize and raise food for Seaman) (In-game features: Seaman microphone status)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Sega Bass Fishing",
-    "id": "sdc122",
+    "id": "sdc153",
     "igdbId": 5147,
     "gbId": 10998,
     "gbGuid": "3030-10998",
@@ -3392,14 +4653,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Sega Dreamcast Web Browser",
-    "id": "sdc123",
+    "id": "sdc154",
     "igdbId": 131499,
     "gbId": 27233,
     "gbGuid": "3030-27233",
@@ -3416,8 +4678,62 @@
     ]
   },
   {
+    "name": "Sega GT",
+    "id": "sdc155",
+    "igdbId": 28838,
+    "gbId": 15965,
+    "gbGuid": "3030-15965",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pocket GT (Japan, Europe and US))"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pocket GT (Japan, Europe and US))",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Sega Rally 2",
+    "id": "sdc156",
+    "igdbId": 1572,
+    "gbId": 16191,
+    "gbGuid": "3030-16191",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Stats and records)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Stats and records)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "Sega Swirl",
-    "id": "sdc124",
+    "id": "sdc157",
     "igdbId": 46374,
     "gbId": 3722,
     "gbGuid": "3030-3722",
@@ -3436,14 +4752,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Segagaga",
-    "id": "sdc125",
+    "id": "sdc158",
     "igdbId": 28151,
     "gbId": 2259,
     "gbGuid": "3030-2259",
@@ -3473,14 +4790,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Seventh Cross Evolution",
-    "id": "sdc126",
+    "id": "sdc159",
     "igdbId": 45788,
     "gbId": 4047,
     "gbGuid": "3030-4047",
@@ -3504,14 +4822,29 @@
   },
   {
     "name": "Shenmue (PAL)",
-    "id": "sdc127",
+    "id": "sdc160",
     "igdbId": 1217,
     "gbId": 7812,
     "gbGuid": "3030-7812",
-    "details": [],
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Shenmue Goodies) (In-game features: Training instructions)"
+    ],
     "isExclusive": false,
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Shenmue Goodies) (In-game features: Training instructions)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": [
       {
         "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/shenmue.jpg",
@@ -3522,7 +4855,7 @@
   },
   {
     "name": "Shenmue II",
-    "id": "sdc128",
+    "id": "sdc161",
     "igdbId": 1218,
     "gbId": 1187,
     "gbGuid": "3030-1187",
@@ -3541,21 +4874,77 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Silent Scope",
+    "id": "sdc162",
+    "igdbId": 49182,
+    "gbId": 9780,
+    "gbGuid": "3030-9780",
+    "details": [
+      "Dreamcast game has VMU features: (In-game features: Sniper rifle scope view)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Sniper rifle scope view)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Skies of Arcadia",
+    "id": "sdc163",
+    "igdbId": 19007,
+    "gbId": 1609,
+    "gbGuid": "3030-1609",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Pinta's Quest) (In-game features: Cham alert)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Pinta's Quest) (In-game features: Cham alert)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Sonic Adventure",
-    "id": "sdc129",
+    "id": "sdc164",
     "igdbId": 7860,
     "gbId": 7852,
     "gbGuid": "3030-7852",
     "tgdbId": 2416,
     "details": [
       "Sega Dreamcast launch title",
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (VMU minigame: Chao Adventure) (In-game features: Chao animation)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -3578,7 +4967,20 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Chao Adventure) (In-game features: Chao animation)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": [
@@ -3596,14 +4998,29 @@
   },
   {
     "name": "Sonic Adventure 2",
-    "id": "sdc130",
+    "id": "sdc165",
     "igdbId": 7858,
     "gbId": 19060,
     "gbGuid": "3030-19060",
-    "details": [],
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Chao Adventure 2)"
+    ],
     "isExclusive": false,
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Chao Adventure 2)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": [
       {
         "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/sonicadventure2noblue.jpg",
@@ -3614,13 +5031,14 @@
   },
   {
     "name": "Sonic Shuffle",
-    "id": "sdc131",
+    "id": "sdc166",
     "igdbId": 21969,
     "gbId": 2819,
     "gbGuid": "3030-2819",
     "tgdbId": 2254,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (In-game features: Revealed card numbers)"
     ],
     "isExclusive": [
       {
@@ -3633,12 +5051,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Revealed card numbers)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Soul Fighter",
-    "id": "sdc132",
+    "id": "sdc167",
     "igdbId": 45840,
     "gbId": 11592,
     "gbGuid": "3030-11592",
@@ -3662,13 +5093,14 @@
   },
   {
     "name": "SoulCalibur",
-    "id": "sdc133",
+    "id": "sdc168",
     "igdbId": 1564,
     "gbId": 12411,
     "gbGuid": "3030-12411",
     "tgdbId": 7767,
     "details": [
-      "Sega Dreamcast launch title"
+      "Sega Dreamcast launch title",
+      "Dreamcast game has VMU features: (VMU minigames: Three mini-games) (In-game features: Animated characters)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -3681,12 +5113,25 @@
         "tgdbId": 16
       }
     ],
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigames: Three mini-games) (In-game features: Animated characters)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Space Channel 5",
-    "id": "sdc134",
+    "id": "sdc169",
     "igdbId": 6602,
     "gbId": 7466,
     "gbGuid": "3030-7466",
@@ -3705,14 +5150,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Speed Devils: Online Racing",
-    "id": "sdc135",
+    "id": "sdc170",
     "igdbId": 46371,
     "gbId": 40852,
     "gbGuid": "3030-40852",
@@ -3731,19 +5177,21 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "StarLancer",
-    "id": "sdc136",
+    "id": "sdc171",
     "igdbId": 11230,
     "gbId": 5584,
     "gbGuid": "3030-5584",
     "details": [
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Sega Dreamcast game has widescreen mode (some stretching in HUD)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -3757,14 +5205,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Sega Dreamcast game has widescreen mode (some stretching in HUD)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Street Fighter III: Double Impact",
-    "id": "sdc137",
+    "id": "sdc172",
     "igdbId": 45194,
     "gbId": 28446,
     "gbGuid": "3030-28446",
@@ -3788,7 +5249,7 @@
   },
   {
     "name": "Sturmwind",
-    "id": "sdc138",
+    "id": "sdc173",
     "igdbId": 9126,
     "gbId": 36873,
     "gbGuid": "3030-36873",
@@ -3812,13 +5273,14 @@
   },
   {
     "name": "Super Magnetic Neo",
-    "id": "sdc139",
+    "id": "sdc174",
     "igdbId": 45863,
     "gbId": 20208,
     "gbGuid": "3030-20208",
     "tgdbId": 435,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (In-game features: Secret area alerts)"
     ],
     "isExclusive": [
       {
@@ -3831,12 +5293,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Secret area alerts)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Super Runabout: San Francisco Edition",
-    "id": "sdc140",
+    "id": "sdc175",
     "igdbId": 45804,
     "gbId": 19097,
     "gbGuid": "3030-19097",
@@ -3860,7 +5335,7 @@
   },
   {
     "name": "Sword of the Berserk: Guts' Rage",
-    "id": "sdc141",
+    "id": "sdc176",
     "igdbId": 28840,
     "gbId": 5405,
     "gbGuid": "3030-5405",
@@ -3884,7 +5359,7 @@
   },
   {
     "name": "TNN Motorsports Hardcore Heat",
-    "id": "sdc142",
+    "id": "sdc177",
     "igdbId": 45845,
     "gbId": 10015,
     "gbGuid": "3030-10015",
@@ -3918,7 +5393,7 @@
   },
   {
     "name": "Tako no Marine",
-    "id": "sdc143",
+    "id": "sdc178",
     "igdbId": 107647,
     "gbId": 69456,
     "gbGuid": "3030-69456",
@@ -3937,14 +5412,42 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Tech Romancer",
+    "id": "sdc179",
+    "igdbId": 39313,
+    "gbId": 7560,
+    "gbGuid": "3030-7560",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigames: Three mini-games)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigames: Three mini-games)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Tennis 2K2",
-    "id": "sdc144",
+    "id": "sdc180",
     "igdbId": 45843,
     "gbId": 14977,
     "gbGuid": "3030-14977",
@@ -3962,7 +5465,7 @@
   },
   {
     "name": "Tentama: 1st Sunny Side",
-    "id": "sdc145",
+    "id": "sdc181",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -3981,14 +5484,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Test Drive 6",
-    "id": "sdc146",
+    "id": "sdc182",
     "igdbId": 4111,
     "gbId": 6628,
     "gbGuid": "3030-6628",
@@ -4005,8 +5509,35 @@
     ]
   },
   {
+    "name": "Test Drive V-Rally",
+    "id": "sdc183",
+    "igdbId": 45844,
+    "gbId": null,
+    "gbGuid": null,
+    "details": [
+      "Sega Dreamcast game has widescreen mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
     "name": "The House of the Dead 2",
-    "id": "sdc147",
+    "id": "sdc184",
     "igdbId": 13777,
     "gbId": 422,
     "gbGuid": "3030-422",
@@ -4037,7 +5568,8 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       },
       {
         "value": "Sega Dreamcast light gun game",
@@ -4048,14 +5580,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "lightGun"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "The King of Fighters 2000",
-    "id": "sdc148",
+    "id": "sdc185",
     "igdbId": 15431,
     "gbId": 15728,
     "gbGuid": "3030-15728",
@@ -4074,14 +5607,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "The King of Fighters 2001",
-    "id": "sdc149",
+    "id": "sdc186",
     "igdbId": 15432,
     "gbId": 449,
     "gbGuid": "3030-449",
@@ -4100,14 +5634,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "The King of Fighters 2002",
-    "id": "sdc150",
+    "id": "sdc187",
     "igdbId": 5884,
     "gbId": 7581,
     "gbGuid": "3030-7581",
@@ -4126,19 +5661,21 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "The King of Fighters: Dream Match 1999",
-    "id": "sdc151",
+    "id": "sdc188",
     "igdbId": 45861,
     "gbId": 6452,
     "gbGuid": "3030-6452",
     "details": [
-      "Sega All-Stars game (JP)"
+      "Sega All-Stars game (JP)",
+      "Dreamcast game lacks native VGA support"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -4152,14 +5689,81 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "The King of Fighters: Evolution",
+    "id": "sdc189",
+    "igdbId": 4361,
+    "gbId": 13352,
+    "gbGuid": "3030-13352",
+    "details": [
+      "Dreamcast game lacks native VGA support"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "The Last Blade 2",
+    "id": "sdc190",
+    "igdbId": 76045,
+    "gbId": 7564,
+    "gbGuid": "3030-7564",
+    "details": [
+      "Dreamcast game lacks native VGA support"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "The Lost Golem",
-    "id": "sdc152",
+    "id": "sdc191",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -4183,7 +5787,7 @@
   },
   {
     "name": "The Next Tetris On-Line Edition",
-    "id": "sdc153",
+    "id": "sdc192",
     "igdbId": 45789,
     "gbId": 20446,
     "gbGuid": "3030-20446",
@@ -4202,14 +5806,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "The Ring: Terror's Realm",
-    "id": "sdc154",
+    "id": "sdc193",
     "igdbId": 45832,
     "gbId": 22224,
     "gbGuid": "3030-22224",
@@ -4233,13 +5838,14 @@
   },
   {
     "name": "Time Stalkers",
-    "id": "sdc155",
+    "id": "sdc194",
     "igdbId": 45846,
     "gbId": 3784,
     "gbGuid": "3030-3784",
     "tgdbId": 11072,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Dreamcast game has VMU features: (VMU minigames: Five mini-games)"
     ],
     "isExclusive": [
       {
@@ -4252,12 +5858,52 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigames: Five mini-games)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Tokyo Bus Guide",
+    "id": "sdc195",
+    "igdbId": 72903,
+    "gbId": 22367,
+    "gbGuid": "3030-22367",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigame: Traffic Signs Quiz)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: Traffic Signs Quiz)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Tokyo Xtreme Racer",
-    "id": "sdc156",
+    "id": "sdc196",
     "igdbId": 20710,
     "gbId": 7007,
     "gbGuid": "3030-7007",
@@ -4281,13 +5927,14 @@
   },
   {
     "name": "Tokyo Xtreme Racer 2",
-    "id": "sdc157",
+    "id": "sdc197",
     "igdbId": 4359,
     "gbId": 5397,
     "gbGuid": "3030-5397",
     "tgdbId": 11071,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Sega Dreamcast game has widescreen mode (does not work in VGA mode; about 14:9)"
     ],
     "isExclusive": [
       {
@@ -4300,12 +5947,25 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode (does not work in VGA mode; about 14:9)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Tony Hawk's Pro Skater",
-    "id": "sdc158",
+    "id": "sdc198",
     "igdbId": 6692,
     "gbId": 7236,
     "gbGuid": "3030-7236",
@@ -4324,20 +5984,22 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Toy Commander",
-    "id": "sdc159",
+    "id": "sdc199",
     "igdbId": 10125,
     "gbId": 3544,
     "gbGuid": "3030-3544",
     "tgdbId": 9927,
     "details": [
-      "Sega Dreamcast exclusive"
+      "Sega Dreamcast exclusive",
+      "Sega Dreamcast game has widescreen mode"
     ],
     "isExclusive": [
       {
@@ -4350,7 +6012,20 @@
       }
     ],
     "isLaunchTitle": false,
-    "special": [],
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
     "misprintsErrors": [
       {
         "image": "https://iamerror.gamehacking.org/Sega/Dreamcast/toycom_zpsrnxoipym.jpg",
@@ -4361,12 +6036,13 @@
   },
   {
     "name": "Toy Racer",
-    "id": "sdc160",
+    "id": "sdc200",
     "igdbId": 46369,
     "gbId": 15326,
     "gbGuid": "3030-15326",
     "details": [
-      "Dreamcast online game (SegaNet)"
+      "Dreamcast online game (SegaNet)",
+      "Sega Dreamcast game has widescreen mode"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -4380,20 +6056,35 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      },
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "TrickStyle",
-    "id": "sdc161",
+    "id": "sdc201",
     "igdbId": 8229,
     "gbId": 5290,
     "gbGuid": "3030-5290",
     "tgdbId": 11065,
     "details": [
-      "Sega Dreamcast launch title"
+      "Sega Dreamcast launch title",
+      "Dreamcast game has VMU features: (VMU minigame: TrickStyle Jr.)",
+      "Sega Dreamcast game has widescreen mode (cropped)"
     ],
     "isExclusive": false,
     "isLaunchTitle": [
@@ -4406,12 +6097,142 @@
         "tgdbId": 16
       }
     ],
-    "special": [],
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigame: TrickStyle Jr.)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      },
+      {
+        "value": "Sega Dreamcast game has widescreen mode (cropped)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Trigger Heart Exelica",
+    "id": "sdc202",
+    "igdbId": null,
+    "gbId": 1462,
+    "gbGuid": "3030-1462",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Trizeal",
+    "id": "sdc203",
+    "igdbId": 93063,
+    "gbId": 12960,
+    "gbGuid": "3030-12960",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "UEFA Dream Soccer",
+    "id": "sdc204",
+    "igdbId": 45803,
+    "gbId": 3829,
+    "gbGuid": "3030-3829",
+    "details": [
+      "Sega Dreamcast game has widescreen mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Under Defeat",
+    "id": "sdc205",
+    "igdbId": 21015,
+    "gbId": 6200,
+    "gbGuid": "3030-6200",
+    "details": [
+      "Sega Dreamcast game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game supports tate mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        }
+      }
+    ],
     "misprintsErrors": []
   },
   {
     "name": "Undercover AD2025 Kei",
-    "id": "sdc162",
+    "id": "sdc206",
     "igdbId": 86084,
     "gbId": 19118,
     "gbGuid": "3030-19118",
@@ -4434,7 +6255,7 @@
   },
   {
     "name": "Unreal Tournament",
-    "id": "sdc163",
+    "id": "sdc207",
     "igdbId": 272,
     "gbId": 17448,
     "gbGuid": "3030-17448",
@@ -4453,14 +6274,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Virtua Cop 2",
-    "id": "sdc164",
+    "id": "sdc208",
     "igdbId": 2470,
     "gbId": 9341,
     "gbGuid": "3030-9341",
@@ -4479,19 +6301,21 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "lightGun"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Virtua Tennis",
-    "id": "sdc165",
+    "id": "sdc209",
     "igdbId": 6291,
     "gbId": 10676,
     "gbGuid": "3030-10676",
     "details": [
-      "Sega All-Stars game (NA)"
+      "Sega All-Stars game (NA)",
+      "Dreamcast game has VMU features: (In-game features: Wireframe match)"
     ],
     "isExclusive": false,
     "isLaunchTitle": false,
@@ -4505,14 +6329,27 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      },
+      {
+        "value": "Dreamcast game has VMU features: (In-game features: Wireframe match)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Virtua Tennis 2",
-    "id": "sdc166",
+    "id": "sdc210",
     "igdbId": 22048,
     "gbId": null,
     "gbGuid": null,
@@ -4531,14 +6368,69 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "WWF Attitude",
+    "id": "sdc211",
+    "igdbId": 3643,
+    "gbId": 16435,
+    "gbGuid": "3030-16435",
+    "details": [
+      "Dreamcast game lacks native VGA support (patched created to provide VGA support: PAL, additionally patched with 60hz support)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game lacks native VGA support (patched created to provide VGA support: PAL, additionally patched with 60hz support)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Wacky Races Starring Dastardly & Muttley",
+    "id": "sdc212",
+    "igdbId": 43447,
+    "gbId": 21342,
+    "gbGuid": "3030-21342",
+    "details": [
+      "Sega Dreamcast game has widescreen mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Sega Dreamcast game has widescreen mode",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "World Series Baseball 2K1",
-    "id": "sdc167",
+    "id": "sdc213",
     "igdbId": 45849,
     "gbId": 15930,
     "gbGuid": "3030-15930",
@@ -4568,14 +6460,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "World Series Baseball 2K2",
-    "id": "sdc168",
+    "id": "sdc214",
     "igdbId": 6240,
     "gbId": 17823,
     "gbGuid": "3030-17823",
@@ -4594,14 +6487,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Worms World Party",
-    "id": "sdc169",
+    "id": "sdc215",
     "igdbId": 6294,
     "gbId": 18822,
     "gbGuid": "3030-18822",
@@ -4620,14 +6514,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "multiplayer"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Yoshia no Oka de Nekoronde...",
-    "id": "sdc170",
+    "id": "sdc216",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -4646,14 +6541,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Yume no Tsubasa",
-    "id": "sdc171",
+    "id": "sdc217",
     "igdbId": 166390,
     "gbId": null,
     "gbGuid": null,
@@ -4672,14 +6568,15 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Zero Gunner 2",
-    "id": "sdc172",
+    "id": "sdc218",
     "igdbId": 21014,
     "gbId": 15418,
     "gbGuid": "3030-15418",
@@ -4698,14 +6595,42 @@
           "gbId": 37,
           "gbGuid": "3045-37",
           "tgdbId": 16
-        }
+        },
+        "category": "hits"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Zombie Revenge",
+    "id": "sdc219",
+    "igdbId": 24798,
+    "gbId": 12478,
+    "gbGuid": "3030-12478",
+    "details": [
+      "Dreamcast game has VMU features: (VMU minigames: Three mini-games)"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Dreamcast game has VMU features: (VMU minigames: Three mini-games)",
+        "forPlatform": {
+          "name": "Sega Dreamcast",
+          "id": "ccl18",
+          "igdbId": 23,
+          "gbId": 37,
+          "gbGuid": "3045-37",
+          "tgdbId": 16
+        },
+        "category": "other"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Zusar Vasar",
-    "id": "sdc173",
+    "id": "sdc220",
     "igdbId": 58167,
     "gbId": 54592,
     "gbGuid": "3030-54592",

@@ -32,6 +32,7 @@ const diffOutputPath = path.join(__dirname, '../backup/diff.json');
   // loop through games, if has right consoleId, check if in file
   const newDataAdded = games.map(game => {
     try {
+      // eslint-disable-next-line eqeqeq
       const conData = newDataArr.find(con => con.id == game.consoleId);
       const extraData = conData?.data;
       const dataIndex = extraData?.length ? conData.gameIds.indexOf(game.id) : -1;
@@ -45,6 +46,7 @@ const diffOutputPath = path.join(__dirname, '../backup/diff.json');
       }
 
       if (dataIndex > -1) {
+        console.log('asdasd', dataIndex);
         const newData = extraData[dataIndex];
         let newEdf = [];
         if (game?.extraDataFull?.length) {

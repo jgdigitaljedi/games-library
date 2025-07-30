@@ -1543,7 +1543,8 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
@@ -2603,7 +2604,8 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
@@ -3161,7 +3163,8 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
@@ -3752,8 +3755,35 @@
     "misprintsErrors": []
   },
   {
-    "name": "Girls Like Robots",
+    "name": "Ghost Blade HD",
     "id": "wiiu159",
+    "igdbId": 26947,
+    "gbId": 47999,
+    "gbGuid": "3030-47999",
+    "details": [
+      "Wii U game supports tate mode"
+    ],
+    "isExclusive": false,
+    "isLaunchTitle": false,
+    "special": [
+      {
+        "value": "Wii U game supports tate mode",
+        "forPlatform": {
+          "name": "Nintendo Wii U",
+          "id": "ccl6",
+          "igdbId": 41,
+          "gbId": 139,
+          "gbGuid": "3045-139",
+          "tgdbId": 38
+        },
+        "category": "other"
+      }
+    ],
+    "misprintsErrors": []
+  },
+  {
+    "name": "Girls Like Robots",
+    "id": "wiiu160",
     "igdbId": 16841,
     "gbId": 37524,
     "gbGuid": "3030-37524",
@@ -3777,7 +3807,7 @@
   },
   {
     "name": "Goutouchi Tetsudou: Goutouchi Chara to Nihon Zengoku no Tabi",
-    "id": "wiiu160",
+    "id": "wiiu161",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -3800,7 +3830,7 @@
   },
   {
     "name": "GravBlocks",
-    "id": "wiiu161",
+    "id": "wiiu162",
     "igdbId": 34436,
     "gbId": null,
     "gbGuid": null,
@@ -3823,7 +3853,7 @@
   },
   {
     "name": "Gravity Badgers",
-    "id": "wiiu162",
+    "id": "wiiu163",
     "igdbId": 10376,
     "gbId": 44627,
     "gbGuid": "3030-44627",
@@ -3847,7 +3877,7 @@
   },
   {
     "name": "Gravity+",
-    "id": "wiiu163",
+    "id": "wiiu164",
     "igdbId": 84530,
     "gbId": null,
     "gbGuid": null,
@@ -3870,7 +3900,7 @@
   },
   {
     "name": "Grumpy Reaper",
-    "id": "wiiu164",
+    "id": "wiiu165",
     "igdbId": 84495,
     "gbId": null,
     "gbGuid": null,
@@ -3893,7 +3923,7 @@
   },
   {
     "name": "Gunman Clive HD Collection",
-    "id": "wiiu165",
+    "id": "wiiu166",
     "igdbId": 60063,
     "gbId": 50217,
     "gbGuid": "3030-50217",
@@ -3917,7 +3947,7 @@
   },
   {
     "name": "Hello Kitty Kruisers",
-    "id": "wiiu166",
+    "id": "wiiu167",
     "igdbId": 7463,
     "gbId": 44192,
     "gbGuid": "3030-44192",
@@ -3941,7 +3971,7 @@
   },
   {
     "name": "Heptrix",
-    "id": "wiiu167",
+    "id": "wiiu168",
     "igdbId": 84523,
     "gbId": null,
     "gbGuid": null,
@@ -3964,7 +3994,7 @@
   },
   {
     "name": "Hold Your Fire: A Game About Responsibility",
-    "id": "wiiu168",
+    "id": "wiiu169",
     "igdbId": 20029,
     "gbId": null,
     "gbGuid": null,
@@ -3987,7 +4017,7 @@
   },
   {
     "name": "Horror Stories",
-    "id": "wiiu169",
+    "id": "wiiu170",
     "igdbId": 60496,
     "gbId": 49148,
     "gbGuid": "3030-49148",
@@ -4010,7 +4040,7 @@
   },
   {
     "name": "Humanitarian Helicopter",
-    "id": "wiiu170",
+    "id": "wiiu171",
     "igdbId": 85172,
     "gbId": null,
     "gbGuid": null,
@@ -4034,7 +4064,7 @@
   },
   {
     "name": "Hurry Up Bird Hunter!",
-    "id": "wiiu171",
+    "id": "wiiu172",
     "igdbId": 82107,
     "gbId": 71907,
     "gbGuid": "3030-71907",
@@ -4057,7 +4087,7 @@
   },
   {
     "name": "Hyrule Warriors",
-    "id": "wiiu172",
+    "id": "wiiu173",
     "igdbId": 5314,
     "gbId": 44782,
     "gbGuid": "3030-44782",
@@ -4081,7 +4111,7 @@
   },
   {
     "name": "I C REDD",
-    "id": "wiiu173",
+    "id": "wiiu174",
     "igdbId": 84543,
     "gbId": 70071,
     "gbGuid": "3030-70071",
@@ -4104,7 +4134,7 @@
   },
   {
     "name": "I've Got to Run!",
-    "id": "wiiu174",
+    "id": "wiiu175",
     "igdbId": 85189,
     "gbId": null,
     "gbGuid": null,
@@ -4127,7 +4157,7 @@
   },
   {
     "name": "IQ Test",
-    "id": "wiiu175",
+    "id": "wiiu176",
     "igdbId": 107446,
     "gbId": 52244,
     "gbGuid": "3030-52244",
@@ -4150,7 +4180,7 @@
   },
   {
     "name": "Insect Planet TD",
-    "id": "wiiu176",
+    "id": "wiiu177",
     "igdbId": 111462,
     "gbId": null,
     "gbGuid": null,
@@ -4173,7 +4203,7 @@
   },
   {
     "name": "Internal Invasion",
-    "id": "wiiu177",
+    "id": "wiiu178",
     "igdbId": 85625,
     "gbId": null,
     "gbGuid": null,
@@ -4196,7 +4226,7 @@
   },
   {
     "name": "Island Flight Simulator",
-    "id": "wiiu178",
+    "id": "wiiu179",
     "igdbId": 24747,
     "gbId": 65536,
     "gbGuid": "3030-65536",
@@ -4220,7 +4250,7 @@
   },
   {
     "name": "Ivanoid",
-    "id": "wiiu179",
+    "id": "wiiu180",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -4243,7 +4273,7 @@
   },
   {
     "name": "JACKPOT 777",
-    "id": "wiiu180",
+    "id": "wiiu181",
     "igdbId": 85201,
     "gbId": null,
     "gbGuid": null,
@@ -4266,7 +4296,7 @@
   },
   {
     "name": "Jett Tailfin Racers",
-    "id": "wiiu181",
+    "id": "wiiu182",
     "igdbId": 60759,
     "gbId": 48362,
     "gbGuid": "3030-48362",
@@ -4289,7 +4319,7 @@
   },
   {
     "name": "Job the Leprechaun",
-    "id": "wiiu182",
+    "id": "wiiu183",
     "igdbId": 34849,
     "gbId": 71620,
     "gbGuid": "3030-71620",
@@ -4312,7 +4342,7 @@
   },
   {
     "name": "Jones on Fire",
-    "id": "wiiu183",
+    "id": "wiiu184",
     "igdbId": 15495,
     "gbId": null,
     "gbGuid": null,
@@ -4335,7 +4365,7 @@
   },
   {
     "name": "Journey of a Special Average Balloon",
-    "id": "wiiu184",
+    "id": "wiiu185",
     "igdbId": 19616,
     "gbId": null,
     "gbGuid": null,
@@ -4358,7 +4388,7 @@
   },
   {
     "name": "Just Dance 2019",
-    "id": "wiiu185",
+    "id": "wiiu186",
     "igdbId": 103315,
     "gbId": 68929,
     "gbGuid": "3030-68929",
@@ -4376,7 +4406,7 @@
   },
   {
     "name": "Just Dance 4",
-    "id": "wiiu186",
+    "id": "wiiu187",
     "igdbId": 3255,
     "gbId": 38543,
     "gbGuid": "3030-38543",
@@ -4400,7 +4430,7 @@
   },
   {
     "name": "Keytari: 8-bit Music Maker",
-    "id": "wiiu187",
+    "id": "wiiu188",
     "igdbId": 75214,
     "gbId": 62191,
     "gbGuid": "3030-62191",
@@ -4423,7 +4453,7 @@
   },
   {
     "name": "Kirby and the Rainbow Curse",
-    "id": "wiiu188",
+    "id": "wiiu189",
     "igdbId": 7338,
     "gbId": 46583,
     "gbGuid": "3030-46583",
@@ -4447,7 +4477,7 @@
   },
   {
     "name": "Kung Fu FIGHT!",
-    "id": "wiiu189",
+    "id": "wiiu190",
     "igdbId": 58239,
     "gbId": 54494,
     "gbGuid": "3030-54494",
@@ -4470,7 +4500,7 @@
   },
   {
     "name": "Kung Fu Rabbit",
-    "id": "wiiu190",
+    "id": "wiiu191",
     "igdbId": 23584,
     "gbId": 42418,
     "gbGuid": "3030-42418",
@@ -4494,7 +4524,7 @@
   },
   {
     "name": "LEGO City Undercover",
-    "id": "wiiu191",
+    "id": "wiiu192",
     "igdbId": 2177,
     "gbId": 35576,
     "gbGuid": "3030-35576",
@@ -4513,14 +4543,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Land it Rocket",
-    "id": "wiiu192",
+    "id": "wiiu193",
     "igdbId": 33328,
     "gbId": null,
     "gbGuid": null,
@@ -4543,7 +4574,7 @@
   },
   {
     "name": "Laser Blaster",
-    "id": "wiiu193",
+    "id": "wiiu194",
     "igdbId": 58252,
     "gbId": 54470,
     "gbGuid": "3030-54470",
@@ -4566,7 +4597,7 @@
   },
   {
     "name": "Last Soldier",
-    "id": "wiiu194",
+    "id": "wiiu195",
     "igdbId": 52270,
     "gbId": null,
     "gbGuid": null,
@@ -4589,7 +4620,7 @@
   },
   {
     "name": "Life of Pixel",
-    "id": "wiiu195",
+    "id": "wiiu196",
     "igdbId": 10514,
     "gbId": 40914,
     "gbGuid": "3030-40914",
@@ -4613,7 +4644,7 @@
   },
   {
     "name": "Little Inferno",
-    "id": "wiiu196",
+    "id": "wiiu197",
     "igdbId": 1363,
     "gbId": 38828,
     "gbGuid": "3030-38828",
@@ -4647,7 +4678,7 @@
   },
   {
     "name": "Lost Reavers",
-    "id": "wiiu197",
+    "id": "wiiu198",
     "igdbId": 8595,
     "gbId": 48581,
     "gbGuid": "3030-48581",
@@ -4671,7 +4702,7 @@
   },
   {
     "name": "Lucadian Chronicles",
-    "id": "wiiu198",
+    "id": "wiiu199",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -4695,7 +4726,7 @@
   },
   {
     "name": "Lucentek - Activate",
-    "id": "wiiu199",
+    "id": "wiiu200",
     "igdbId": 85262,
     "gbId": null,
     "gbGuid": null,
@@ -4718,7 +4749,7 @@
   },
   {
     "name": "Lucentek Beyond",
-    "id": "wiiu200",
+    "id": "wiiu201",
     "igdbId": 85263,
     "gbId": null,
     "gbGuid": null,
@@ -4741,7 +4772,7 @@
   },
   {
     "name": "Luv Me Buddies Wonderland",
-    "id": "wiiu201",
+    "id": "wiiu202",
     "igdbId": 85265,
     "gbId": null,
     "gbGuid": null,
@@ -4765,7 +4796,7 @@
   },
   {
     "name": "Madden NFL 13",
-    "id": "wiiu202",
+    "id": "wiiu203",
     "igdbId": 4988,
     "gbId": 37754,
     "gbGuid": "3030-37754",
@@ -4789,7 +4820,7 @@
   },
   {
     "name": "Mario & Sonic at the Rio 2016 Olympic Games",
-    "id": "wiiu203",
+    "id": "wiiu204",
     "igdbId": 11258,
     "gbId": null,
     "gbGuid": null,
@@ -4813,7 +4844,7 @@
   },
   {
     "name": "Mario & Sonic at the Sochi 2014 Olympic Winter Games",
-    "id": "wiiu204",
+    "id": "wiiu205",
     "igdbId": 3990,
     "gbId": null,
     "gbGuid": null,
@@ -4836,7 +4867,7 @@
   },
   {
     "name": "Mario Party 10",
-    "id": "wiiu205",
+    "id": "wiiu206",
     "igdbId": 7340,
     "gbId": 46586,
     "gbGuid": "3030-46586",
@@ -4866,14 +4897,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Mario Tennis: Ultra Smash",
-    "id": "wiiu206",
+    "id": "wiiu207",
     "igdbId": 11220,
     "gbId": 49997,
     "gbGuid": "3030-49997",
@@ -4897,7 +4929,7 @@
   },
   {
     "name": "Mario vs. Donkey Kong: Tipping Stars",
-    "id": "wiiu207",
+    "id": "wiiu208",
     "igdbId": 8594,
     "gbId": 46587,
     "gbGuid": "3030-46587",
@@ -4921,7 +4953,7 @@
   },
   {
     "name": "Mass Effect 3",
-    "id": "wiiu208",
+    "id": "wiiu209",
     "igdbId": 75,
     "gbId": 29935,
     "gbGuid": "3030-29935",
@@ -4945,7 +4977,7 @@
   },
   {
     "name": "Maze",
-    "id": "wiiu209",
+    "id": "wiiu210",
     "igdbId": 77803,
     "gbId": null,
     "gbGuid": null,
@@ -4968,7 +5000,7 @@
   },
   {
     "name": "Mega Maze",
-    "id": "wiiu210",
+    "id": "wiiu211",
     "igdbId": 44287,
     "gbId": 19207,
     "gbGuid": "3030-19207",
@@ -4991,7 +5023,7 @@
   },
   {
     "name": "Midnight",
-    "id": "wiiu211",
+    "id": "wiiu212",
     "igdbId": 33802,
     "gbId": 53613,
     "gbGuid": "3030-53613",
@@ -5014,7 +5046,7 @@
   },
   {
     "name": "Midnight 2",
-    "id": "wiiu212",
+    "id": "wiiu213",
     "igdbId": 58602,
     "gbId": 53609,
     "gbGuid": "3030-53609",
@@ -5037,7 +5069,7 @@
   },
   {
     "name": "Midtown Crazy Race",
-    "id": "wiiu213",
+    "id": "wiiu214",
     "igdbId": 85290,
     "gbId": null,
     "gbGuid": null,
@@ -5060,7 +5092,7 @@
   },
   {
     "name": "Mighty Switch Force! 2",
-    "id": "wiiu214",
+    "id": "wiiu215",
     "igdbId": 20081,
     "gbId": 41759,
     "gbGuid": "3030-41759",
@@ -5084,7 +5116,7 @@
   },
   {
     "name": "Mighty Switch Force! Hyper Drive Edition",
-    "id": "wiiu215",
+    "id": "wiiu216",
     "igdbId": 2176,
     "gbId": 36063,
     "gbGuid": "3030-36063",
@@ -5118,7 +5150,7 @@
   },
   {
     "name": "MikroGame: Rotator",
-    "id": "wiiu216",
+    "id": "wiiu217",
     "igdbId": 84635,
     "gbId": null,
     "gbGuid": null,
@@ -5141,7 +5173,7 @@
   },
   {
     "name": "Mini Mario & Friends: Amiibo Challenge",
-    "id": "wiiu217",
+    "id": "wiiu218",
     "igdbId": 18195,
     "gbId": 52322,
     "gbGuid": "3030-52322",
@@ -5164,7 +5196,7 @@
   },
   {
     "name": "Mini-Games Madness Volume: #1 - Hello World!",
-    "id": "wiiu218",
+    "id": "wiiu219",
     "igdbId": 84632,
     "gbId": null,
     "gbGuid": null,
@@ -5187,7 +5219,7 @@
   },
   {
     "name": "Molly Maggot",
-    "id": "wiiu219",
+    "id": "wiiu220",
     "igdbId": 84603,
     "gbId": null,
     "gbGuid": null,
@@ -5210,7 +5242,7 @@
   },
   {
     "name": "Momonga Pinball Adventures",
-    "id": "wiiu220",
+    "id": "wiiu221",
     "igdbId": 22182,
     "gbId": 41232,
     "gbGuid": "3030-41232",
@@ -5233,7 +5265,7 @@
   },
   {
     "name": "Mon Premier Karaoke",
-    "id": "wiiu221",
+    "id": "wiiu222",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -5256,7 +5288,7 @@
   },
   {
     "name": "Monkey Pirates",
-    "id": "wiiu222",
+    "id": "wiiu223",
     "igdbId": 20960,
     "gbId": 43466,
     "gbGuid": "3030-43466",
@@ -5279,7 +5311,7 @@
   },
   {
     "name": "Monster High: 13 Wishes",
-    "id": "wiiu223",
+    "id": "wiiu224",
     "igdbId": 25142,
     "gbId": 44622,
     "gbGuid": "3030-44622",
@@ -5303,7 +5335,7 @@
   },
   {
     "name": "Monster Hunter 3 Ultimate",
-    "id": "wiiu224",
+    "id": "wiiu225",
     "igdbId": 2271,
     "gbId": 36397,
     "gbGuid": "3030-36397",
@@ -5327,7 +5359,7 @@
   },
   {
     "name": "Mortar Melon",
-    "id": "wiiu225",
+    "id": "wiiu226",
     "igdbId": 84594,
     "gbId": null,
     "gbGuid": null,
@@ -5350,7 +5382,7 @@
   },
   {
     "name": "Mutant Alien Moles of the Dead: Whack Whack or Die",
-    "id": "wiiu226",
+    "id": "wiiu227",
     "igdbId": 55941,
     "gbId": 59992,
     "gbGuid": "3030-59992",
@@ -5373,7 +5405,7 @@
   },
   {
     "name": "Mutant Mudds: Super Challenge",
-    "id": "wiiu227",
+    "id": "wiiu228",
     "igdbId": 20100,
     "gbId": 48658,
     "gbGuid": "3030-48658",
@@ -5397,7 +5429,7 @@
   },
   {
     "name": "My Arctic Farm",
-    "id": "wiiu228",
+    "id": "wiiu229",
     "igdbId": 85297,
     "gbId": null,
     "gbGuid": null,
@@ -5420,7 +5452,7 @@
   },
   {
     "name": "My Exotic Farm",
-    "id": "wiiu229",
+    "id": "wiiu230",
     "igdbId": 66391,
     "gbId": 32605,
     "gbGuid": "3030-32605",
@@ -5443,7 +5475,7 @@
   },
   {
     "name": "My Farm",
-    "id": "wiiu230",
+    "id": "wiiu231",
     "igdbId": 107900,
     "gbId": 34253,
     "gbGuid": "3030-34253",
@@ -5466,7 +5498,7 @@
   },
   {
     "name": "My First Songs",
-    "id": "wiiu231",
+    "id": "wiiu232",
     "igdbId": 84631,
     "gbId": null,
     "gbGuid": null,
@@ -5489,7 +5521,7 @@
   },
   {
     "name": "My Jurassic Farm",
-    "id": "wiiu232",
+    "id": "wiiu233",
     "igdbId": 61473,
     "gbId": 46674,
     "gbGuid": "3030-46674",
@@ -5512,7 +5544,7 @@
   },
   {
     "name": "My Style Studio: Hair Salon",
-    "id": "wiiu233",
+    "id": "wiiu234",
     "igdbId": 84711,
     "gbId": null,
     "gbGuid": null,
@@ -5535,7 +5567,7 @@
   },
   {
     "name": "My Style Studio: Notebook",
-    "id": "wiiu234",
+    "id": "wiiu235",
     "igdbId": 84710,
     "gbId": null,
     "gbGuid": null,
@@ -5558,7 +5590,7 @@
   },
   {
     "name": "NBA 2K13",
-    "id": "wiiu235",
+    "id": "wiiu236",
     "igdbId": 5058,
     "gbId": 38377,
     "gbGuid": "3030-38377",
@@ -5582,7 +5614,7 @@
   },
   {
     "name": "NES Remix",
-    "id": "wiiu236",
+    "id": "wiiu237",
     "igdbId": 6401,
     "gbId": 44783,
     "gbGuid": "3030-44783",
@@ -5606,7 +5638,7 @@
   },
   {
     "name": "NES Remix 2",
-    "id": "wiiu237",
+    "id": "wiiu238",
     "igdbId": 6402,
     "gbId": 45415,
     "gbGuid": "3030-45415",
@@ -5630,7 +5662,7 @@
   },
   {
     "name": "NES Remix Pack",
-    "id": "wiiu238",
+    "id": "wiiu239",
     "igdbId": 51151,
     "gbId": 45416,
     "gbGuid": "3030-45416",
@@ -5649,14 +5681,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Nano Assault Neo",
-    "id": "wiiu239",
+    "id": "wiiu240",
     "igdbId": 21385,
     "gbId": 39765,
     "gbGuid": "3030-39765",
@@ -5680,7 +5713,7 @@
   },
   {
     "name": "Near Earth Objects",
-    "id": "wiiu240",
+    "id": "wiiu241",
     "igdbId": 84622,
     "gbId": null,
     "gbGuid": null,
@@ -5703,7 +5736,7 @@
   },
   {
     "name": "Neon Battle",
-    "id": "wiiu241",
+    "id": "wiiu242",
     "igdbId": 85607,
     "gbId": null,
     "gbGuid": null,
@@ -5726,7 +5759,7 @@
   },
   {
     "name": "New Super Luigi U",
-    "id": "wiiu242",
+    "id": "wiiu243",
     "igdbId": 2173,
     "gbId": 42657,
     "gbGuid": "3030-42657",
@@ -5756,14 +5789,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "New Super Mario Bros. U",
-    "id": "wiiu243",
+    "id": "wiiu244",
     "igdbId": 2171,
     "gbId": 35574,
     "gbGuid": "3030-35574",
@@ -5803,14 +5837,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "New Super Mario Bros. U + New Super Luigi U (Canada)",
-    "id": "wiiu244",
+    "id": "wiiu245",
     "igdbId": 119120,
     "gbId": null,
     "gbGuid": null,
@@ -5828,7 +5863,7 @@
   },
   {
     "name": "Ninja Gaiden 3: Razor's Edge",
-    "id": "wiiu245",
+    "id": "wiiu246",
     "igdbId": 5317,
     "gbId": 39749,
     "gbGuid": "3030-39749",
@@ -5852,7 +5887,7 @@
   },
   {
     "name": "Ninja Strike: Dangerous Dash",
-    "id": "wiiu246",
+    "id": "wiiu247",
     "igdbId": 85312,
     "gbId": null,
     "gbGuid": null,
@@ -5875,7 +5910,7 @@
   },
   {
     "name": "Nintendo Land",
-    "id": "wiiu247",
+    "id": "wiiu248",
     "igdbId": 2172,
     "gbId": 38549,
     "gbGuid": "3030-38549",
@@ -5915,14 +5950,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Now I know my ABCs",
-    "id": "wiiu248",
+    "id": "wiiu249",
     "igdbId": 85315,
     "gbId": null,
     "gbGuid": null,
@@ -5945,7 +5981,7 @@
   },
   {
     "name": "Octocopter: Super Sub Squid Escape",
-    "id": "wiiu249",
+    "id": "wiiu250",
     "igdbId": 85317,
     "gbId": null,
     "gbGuid": null,
@@ -5968,7 +6004,7 @@
   },
   {
     "name": "Ohayou! Beginner's Japanese",
-    "id": "wiiu250",
+    "id": "wiiu251",
     "igdbId": 85319,
     "gbId": null,
     "gbGuid": null,
@@ -5991,7 +6027,7 @@
   },
   {
     "name": "Olympia Rising",
-    "id": "wiiu251",
+    "id": "wiiu252",
     "igdbId": 17311,
     "gbId": 49362,
     "gbGuid": "3030-49362",
@@ -6014,7 +6050,7 @@
   },
   {
     "name": "Orbit",
-    "id": "wiiu252",
+    "id": "wiiu253",
     "igdbId": 85597,
     "gbId": 37008,
     "gbGuid": "3030-37008",
@@ -6038,7 +6074,7 @@
   },
   {
     "name": "Outside the Realm",
-    "id": "wiiu253",
+    "id": "wiiu254",
     "igdbId": 85320,
     "gbId": null,
     "gbGuid": null,
@@ -6061,7 +6097,7 @@
   },
   {
     "name": "Overworld Defender Remix",
-    "id": "wiiu254",
+    "id": "wiiu255",
     "igdbId": 85324,
     "gbId": null,
     "gbGuid": null,
@@ -6084,7 +6120,7 @@
   },
   {
     "name": "PENTAPUZZLE",
-    "id": "wiiu255",
+    "id": "wiiu256",
     "igdbId": 85334,
     "gbId": null,
     "gbGuid": null,
@@ -6107,7 +6143,7 @@
   },
   {
     "name": "PSIBO",
-    "id": "wiiu256",
+    "id": "wiiu257",
     "igdbId": 85352,
     "gbId": null,
     "gbGuid": null,
@@ -6130,7 +6166,7 @@
   },
   {
     "name": "Panda Love",
-    "id": "wiiu257",
+    "id": "wiiu258",
     "igdbId": 43087,
     "gbId": null,
     "gbGuid": null,
@@ -6153,7 +6189,7 @@
   },
   {
     "name": "Paparazzi",
-    "id": "wiiu258",
+    "id": "wiiu259",
     "igdbId": 81503,
     "gbId": 3236,
     "gbGuid": "3030-3236",
@@ -6177,7 +6213,7 @@
   },
   {
     "name": "Paper Mario: Color Splash",
-    "id": "wiiu259",
+    "id": "wiiu260",
     "igdbId": 18169,
     "gbId": 52917,
     "gbGuid": "3030-52917",
@@ -6201,7 +6237,7 @@
   },
   {
     "name": "Peg Solitaire",
-    "id": "wiiu260",
+    "id": "wiiu261",
     "igdbId": 85594,
     "gbId": 57629,
     "gbGuid": "3030-57629",
@@ -6224,7 +6260,7 @@
   },
   {
     "name": "Percy's Predicament",
-    "id": "wiiu261",
+    "id": "wiiu262",
     "igdbId": 61298,
     "gbId": 47002,
     "gbGuid": "3030-47002",
@@ -6247,7 +6283,7 @@
   },
   {
     "name": "Petite Zombies",
-    "id": "wiiu262",
+    "id": "wiiu263",
     "igdbId": 110981,
     "gbId": null,
     "gbGuid": null,
@@ -6270,7 +6306,7 @@
   },
   {
     "name": "Piano Teacher",
-    "id": "wiiu263",
+    "id": "wiiu264",
     "igdbId": 84826,
     "gbId": null,
     "gbGuid": null,
@@ -6293,7 +6329,7 @@
   },
   {
     "name": "Pic-a-Pix Color",
-    "id": "wiiu264",
+    "id": "wiiu265",
     "igdbId": 82591,
     "gbId": 63250,
     "gbGuid": "3030-63250",
@@ -6316,7 +6352,7 @@
   },
   {
     "name": "Pikmin 3",
-    "id": "wiiu265",
+    "id": "wiiu266",
     "igdbId": 2241,
     "gbId": 27930,
     "gbGuid": "3030-27930",
@@ -6346,14 +6382,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Pinball",
-    "id": "wiiu266",
+    "id": "wiiu267",
     "igdbId": 56075,
     "gbId": 20885,
     "gbGuid": "3030-20885",
@@ -6377,7 +6414,7 @@
   },
   {
     "name": "Pinball Breakout",
-    "id": "wiiu267",
+    "id": "wiiu268",
     "igdbId": 57322,
     "gbId": 56912,
     "gbGuid": "3030-56912",
@@ -6400,7 +6437,7 @@
   },
   {
     "name": "Pirate Pop Plus",
-    "id": "wiiu268",
+    "id": "wiiu269",
     "igdbId": 25086,
     "gbId": 54389,
     "gbGuid": "3030-54389",
@@ -6423,7 +6460,7 @@
   },
   {
     "name": "Pixel Paint",
-    "id": "wiiu269",
+    "id": "wiiu270",
     "igdbId": 85592,
     "gbId": null,
     "gbGuid": null,
@@ -6446,7 +6483,7 @@
   },
   {
     "name": "Pixel Slime U",
-    "id": "wiiu270",
+    "id": "wiiu271",
     "igdbId": 84817,
     "gbId": null,
     "gbGuid": null,
@@ -6470,7 +6507,7 @@
   },
   {
     "name": "PixelMaker",
-    "id": "wiiu271",
+    "id": "wiiu272",
     "igdbId": 84816,
     "gbId": null,
     "gbGuid": null,
@@ -6493,7 +6530,7 @@
   },
   {
     "name": "PixelMaker Studio",
-    "id": "wiiu272",
+    "id": "wiiu273",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -6516,7 +6553,7 @@
   },
   {
     "name": "PixlCross",
-    "id": "wiiu273",
+    "id": "wiiu274",
     "igdbId": 58765,
     "gbId": 53126,
     "gbGuid": "3030-53126",
@@ -6539,7 +6576,7 @@
   },
   {
     "name": "Plantera",
-    "id": "wiiu274",
+    "id": "wiiu275",
     "igdbId": 17004,
     "gbId": 52499,
     "gbGuid": "3030-52499",
@@ -6563,7 +6600,7 @@
   },
   {
     "name": "Plenty of Fishes",
-    "id": "wiiu275",
+    "id": "wiiu276",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -6586,7 +6623,7 @@
   },
   {
     "name": "Poker Dice Solitaire Future",
-    "id": "wiiu276",
+    "id": "wiiu277",
     "igdbId": 61338,
     "gbId": 46907,
     "gbGuid": "3030-46907",
@@ -6609,7 +6646,7 @@
   },
   {
     "name": "Pokken Tournament",
-    "id": "wiiu277",
+    "id": "wiiu278",
     "igdbId": 18138,
     "gbId": 47583,
     "gbGuid": "3030-47583",
@@ -6633,7 +6670,7 @@
   },
   {
     "name": "Pokémon Rumble",
-    "id": "wiiu278",
+    "id": "wiiu279",
     "igdbId": 4560,
     "gbId": 41545,
     "gbGuid": "3030-41545",
@@ -6657,7 +6694,7 @@
   },
   {
     "name": "Preston Sterling and the Legend of Excalibur",
-    "id": "wiiu279",
+    "id": "wiiu280",
     "igdbId": 55868,
     "gbId": 60150,
     "gbGuid": "3030-60150",
@@ -6680,7 +6717,7 @@
   },
   {
     "name": "Prism Pets",
-    "id": "wiiu280",
+    "id": "wiiu281",
     "igdbId": 85349,
     "gbId": null,
     "gbGuid": null,
@@ -6703,7 +6740,7 @@
   },
   {
     "name": "Puzzle Monkeys",
-    "id": "wiiu281",
+    "id": "wiiu282",
     "igdbId": 85583,
     "gbId": null,
     "gbGuid": null,
@@ -6726,7 +6763,7 @@
   },
   {
     "name": "Quadcopter Pilot Challenge",
-    "id": "wiiu282",
+    "id": "wiiu283",
     "igdbId": 85358,
     "gbId": null,
     "gbGuid": null,
@@ -6749,7 +6786,7 @@
   },
   {
     "name": "RADIANTFLUX: HYPERFRACTAL",
-    "id": "wiiu283",
+    "id": "wiiu284",
     "igdbId": 85361,
     "gbId": null,
     "gbGuid": null,
@@ -6772,7 +6809,7 @@
   },
   {
     "name": "RTO 2",
-    "id": "wiiu284",
+    "id": "wiiu285",
     "igdbId": 89729,
     "gbId": 66453,
     "gbGuid": "3030-66453",
@@ -6795,7 +6832,7 @@
   },
   {
     "name": "RUSH",
-    "id": "wiiu285",
+    "id": "wiiu286",
     "igdbId": 7634,
     "gbId": 33376,
     "gbGuid": "3030-33376",
@@ -6819,7 +6856,7 @@
   },
   {
     "name": "Rabbids Land",
-    "id": "wiiu286",
+    "id": "wiiu287",
     "igdbId": 5320,
     "gbId": 38550,
     "gbGuid": "3030-38550",
@@ -6853,7 +6890,7 @@
   },
   {
     "name": "Rainbow Snake",
-    "id": "wiiu287",
+    "id": "wiiu288",
     "igdbId": 68506,
     "gbId": null,
     "gbGuid": null,
@@ -6876,7 +6913,7 @@
   },
   {
     "name": "Rakoo & Friends",
-    "id": "wiiu288",
+    "id": "wiiu289",
     "igdbId": 85360,
     "gbId": null,
     "gbGuid": null,
@@ -6899,7 +6936,7 @@
   },
   {
     "name": "Rayman Legends Challenges App",
-    "id": "wiiu289",
+    "id": "wiiu290",
     "igdbId": 2925,
     "gbId": 41651,
     "gbGuid": "3030-41651",
@@ -6922,7 +6959,7 @@
   },
   {
     "name": "Red Riding Hood",
-    "id": "wiiu290",
+    "id": "wiiu291",
     "igdbId": 54319,
     "gbId": null,
     "gbGuid": null,
@@ -6945,7 +6982,7 @@
   },
   {
     "name": "Reptilian Rebellion",
-    "id": "wiiu291",
+    "id": "wiiu292",
     "igdbId": 33013,
     "gbId": null,
     "gbGuid": null,
@@ -6968,7 +7005,7 @@
   },
   {
     "name": "Retro Road Rumble",
-    "id": "wiiu292",
+    "id": "wiiu293",
     "igdbId": 84843,
     "gbId": null,
     "gbGuid": null,
@@ -6991,7 +7028,7 @@
   },
   {
     "name": "Rock 'N Racing Off Road",
-    "id": "wiiu293",
+    "id": "wiiu294",
     "igdbId": 86249,
     "gbId": null,
     "gbGuid": null,
@@ -7014,7 +7051,7 @@
   },
   {
     "name": "Rodea: The Sky Soldier",
-    "id": "wiiu294",
+    "id": "wiiu295",
     "igdbId": 6872,
     "gbId": 33890,
     "gbGuid": "3030-33890",
@@ -7038,7 +7075,7 @@
   },
   {
     "name": "Rorrim",
-    "id": "wiiu295",
+    "id": "wiiu296",
     "igdbId": 84852,
     "gbId": null,
     "gbGuid": null,
@@ -7061,7 +7098,7 @@
   },
   {
     "name": "Roving Rogue",
-    "id": "wiiu296",
+    "id": "wiiu297",
     "igdbId": 19982,
     "gbId": 50212,
     "gbGuid": "3030-50212",
@@ -7084,7 +7121,7 @@
   },
   {
     "name": "Run Run And Die",
-    "id": "wiiu297",
+    "id": "wiiu298",
     "igdbId": 34573,
     "gbId": null,
     "gbGuid": null,
@@ -7107,7 +7144,7 @@
   },
   {
     "name": "Runbow",
-    "id": "wiiu298",
+    "id": "wiiu299",
     "igdbId": 11215,
     "gbId": 48013,
     "gbGuid": "3030-48013",
@@ -7131,7 +7168,7 @@
   },
   {
     "name": "Rynn's Adventure: Trouble in the Enchanted Forest",
-    "id": "wiiu299",
+    "id": "wiiu300",
     "igdbId": 34013,
     "gbId": 53799,
     "gbGuid": "3030-53799",
@@ -7154,7 +7191,7 @@
   },
   {
     "name": "SDK Paint",
-    "id": "wiiu300",
+    "id": "wiiu301",
     "igdbId": 84860,
     "gbId": null,
     "gbGuid": null,
@@ -7177,7 +7214,7 @@
   },
   {
     "name": "SDK Spriter",
-    "id": "wiiu301",
+    "id": "wiiu302",
     "igdbId": 84859,
     "gbId": null,
     "gbGuid": null,
@@ -7200,7 +7237,7 @@
   },
   {
     "name": "SHOOT THE BALL",
-    "id": "wiiu302",
+    "id": "wiiu303",
     "igdbId": 85374,
     "gbId": null,
     "gbGuid": null,
@@ -7223,7 +7260,7 @@
   },
   {
     "name": "SHOOTY SPACE",
-    "id": "wiiu303",
+    "id": "wiiu304",
     "igdbId": 86251,
     "gbId": null,
     "gbGuid": null,
@@ -7246,7 +7283,7 @@
   },
   {
     "name": "SHUT THE BOX",
-    "id": "wiiu304",
+    "id": "wiiu305",
     "igdbId": 85372,
     "gbId": 7890,
     "gbGuid": "3030-7890",
@@ -7269,7 +7306,7 @@
   },
   {
     "name": "SKEASY",
-    "id": "wiiu305",
+    "id": "wiiu306",
     "igdbId": 85376,
     "gbId": 54482,
     "gbGuid": "3030-54482",
@@ -7292,7 +7329,7 @@
   },
   {
     "name": "SKORB",
-    "id": "wiiu306",
+    "id": "wiiu307",
     "igdbId": 57384,
     "gbId": 56731,
     "gbGuid": "3030-56731",
@@ -7315,7 +7352,7 @@
   },
   {
     "name": "SPLASHY DUCK",
-    "id": "wiiu307",
+    "id": "wiiu308",
     "igdbId": 84893,
     "gbId": null,
     "gbGuid": null,
@@ -7338,7 +7375,7 @@
   },
   {
     "name": "Santa Factory",
-    "id": "wiiu308",
+    "id": "wiiu309",
     "igdbId": 85365,
     "gbId": null,
     "gbGuid": null,
@@ -7361,7 +7398,7 @@
   },
   {
     "name": "Scram Kitty and His Buddy on Rails",
-    "id": "wiiu309",
+    "id": "wiiu310",
     "igdbId": 22259,
     "gbId": 41559,
     "gbGuid": "3030-41559",
@@ -7385,7 +7422,7 @@
   },
   {
     "name": "Scribble",
-    "id": "wiiu310",
+    "id": "wiiu311",
     "igdbId": 86248,
     "gbId": null,
     "gbGuid": null,
@@ -7408,7 +7445,7 @@
   },
   {
     "name": "Scribblenauts Unlimited",
-    "id": "wiiu311",
+    "id": "wiiu312",
     "igdbId": 2943,
     "gbId": 38545,
     "gbGuid": "3030-38545",
@@ -7442,7 +7479,7 @@
   },
   {
     "name": "Scribblenauts Unmasked: A DC Comics Adventure",
-    "id": "wiiu312",
+    "id": "wiiu313",
     "igdbId": 5033,
     "gbId": 42637,
     "gbGuid": "3030-42637",
@@ -7466,7 +7503,7 @@
   },
   {
     "name": "Shadow Archer",
-    "id": "wiiu313",
+    "id": "wiiu314",
     "igdbId": 84856,
     "gbId": 69811,
     "gbGuid": "3030-69811",
@@ -7489,7 +7526,7 @@
   },
   {
     "name": "Shadow Archery",
-    "id": "wiiu314",
+    "id": "wiiu315",
     "igdbId": 96276,
     "gbId": 69809,
     "gbGuid": "3030-69809",
@@ -7512,7 +7549,7 @@
   },
   {
     "name": "Shadow Puppeteer",
-    "id": "wiiu315",
+    "id": "wiiu316",
     "igdbId": 7819,
     "gbId": 49070,
     "gbGuid": "3030-49070",
@@ -7536,7 +7573,7 @@
   },
   {
     "name": "Shapes of Grey",
-    "id": "wiiu316",
+    "id": "wiiu317",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -7559,7 +7596,7 @@
   },
   {
     "name": "Shiny the Firefly",
-    "id": "wiiu317",
+    "id": "wiiu318",
     "igdbId": 10823,
     "gbId": 46322,
     "gbGuid": "3030-46322",
@@ -7582,7 +7619,7 @@
   },
   {
     "name": "Shooting Range by Thornbury Software",
-    "id": "wiiu318",
+    "id": "wiiu319",
     "igdbId": 84871,
     "gbId": null,
     "gbGuid": null,
@@ -7605,7 +7642,7 @@
   },
   {
     "name": "Shovel Knight",
-    "id": "wiiu319",
+    "id": "wiiu320",
     "igdbId": 7444,
     "gbId": 42034,
     "gbGuid": "3030-42034",
@@ -7629,7 +7666,7 @@
   },
   {
     "name": "Shuttle Rush",
-    "id": "wiiu320",
+    "id": "wiiu321",
     "igdbId": 85373,
     "gbId": null,
     "gbGuid": null,
@@ -7652,7 +7689,7 @@
   },
   {
     "name": "SiNG Party",
-    "id": "wiiu321",
+    "id": "wiiu322",
     "igdbId": 3108,
     "gbId": 38547,
     "gbGuid": "3030-38547",
@@ -7686,7 +7723,7 @@
   },
   {
     "name": "Sinister Assistant",
-    "id": "wiiu322",
+    "id": "wiiu323",
     "igdbId": 111906,
     "gbId": null,
     "gbGuid": null,
@@ -7709,7 +7746,7 @@
   },
   {
     "name": "Sketch Wars",
-    "id": "wiiu323",
+    "id": "wiiu324",
     "igdbId": 36849,
     "gbId": null,
     "gbGuid": null,
@@ -7732,7 +7769,7 @@
   },
   {
     "name": "Skunky B's Super Slots Saga #1",
-    "id": "wiiu324",
+    "id": "wiiu325",
     "igdbId": 57867,
     "gbId": 55349,
     "gbGuid": "3030-55349",
@@ -7755,7 +7792,7 @@
   },
   {
     "name": "Skylanders Giants",
-    "id": "wiiu325",
+    "id": "wiiu326",
     "igdbId": 1586,
     "gbId": 37417,
     "gbGuid": "3030-37417",
@@ -7779,7 +7816,7 @@
   },
   {
     "name": "Slots",
-    "id": "wiiu326",
+    "id": "wiiu327",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -7803,7 +7840,7 @@
   },
   {
     "name": "Snake Den",
-    "id": "wiiu327",
+    "id": "wiiu328",
     "igdbId": 84876,
     "gbId": null,
     "gbGuid": null,
@@ -7826,7 +7863,7 @@
   },
   {
     "name": "Snowball!",
-    "id": "wiiu328",
+    "id": "wiiu329",
     "igdbId": 30835,
     "gbId": 12287,
     "gbGuid": "3030-12287",
@@ -7849,7 +7886,7 @@
   },
   {
     "name": "Solitaire Dungeon Escape",
-    "id": "wiiu329",
+    "id": "wiiu330",
     "igdbId": 85380,
     "gbId": null,
     "gbGuid": null,
@@ -7872,7 +7909,7 @@
   },
   {
     "name": "Sonic & All-Stars Racing Transformed",
-    "id": "wiiu330",
+    "id": "wiiu331",
     "igdbId": 2174,
     "gbId": 38173,
     "gbGuid": "3030-38173",
@@ -7902,14 +7939,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Sonic Boom: Rise of Lyric",
-    "id": "wiiu331",
+    "id": "wiiu332",
     "igdbId": 5322,
     "gbId": 45349,
     "gbGuid": "3030-45349",
@@ -7933,7 +7971,7 @@
   },
   {
     "name": "Sonic: Lost World",
-    "id": "wiiu332",
+    "id": "wiiu333",
     "igdbId": 2607,
     "gbId": 42655,
     "gbGuid": "3030-42655",
@@ -7957,7 +7995,7 @@
   },
   {
     "name": "Soon Shine",
-    "id": "wiiu333",
+    "id": "wiiu334",
     "igdbId": 85389,
     "gbId": null,
     "gbGuid": null,
@@ -7980,7 +8018,7 @@
   },
   {
     "name": "Space Hunted",
-    "id": "wiiu334",
+    "id": "wiiu335",
     "igdbId": 84892,
     "gbId": 69813,
     "gbGuid": "3030-69813",
@@ -8003,7 +8041,7 @@
   },
   {
     "name": "SpaceRoads",
-    "id": "wiiu335",
+    "id": "wiiu336",
     "igdbId": 75420,
     "gbId": null,
     "gbGuid": null,
@@ -8026,7 +8064,7 @@
   },
   {
     "name": "Spellcaster's Assistant",
-    "id": "wiiu336",
+    "id": "wiiu337",
     "igdbId": 96733,
     "gbId": 69812,
     "gbGuid": "3030-69812",
@@ -8049,7 +8087,7 @@
   },
   {
     "name": "Sphere Slice",
-    "id": "wiiu337",
+    "id": "wiiu338",
     "igdbId": 56019,
     "gbId": 59737,
     "gbGuid": "3030-59737",
@@ -8072,7 +8110,7 @@
   },
   {
     "name": "SphereZor",
-    "id": "wiiu338",
+    "id": "wiiu339",
     "igdbId": 84890,
     "gbId": null,
     "gbGuid": null,
@@ -8095,7 +8133,7 @@
   },
   {
     "name": "Spin the Bottle: Bumpie's Party",
-    "id": "wiiu339",
+    "id": "wiiu340",
     "igdbId": 79172,
     "gbId": 43468,
     "gbGuid": "3030-43468",
@@ -8118,7 +8156,7 @@
   },
   {
     "name": "Splatoon",
-    "id": "wiiu340",
+    "id": "wiiu341",
     "igdbId": 7335,
     "gbId": 46582,
     "gbGuid": "3030-46582",
@@ -8142,7 +8180,7 @@
   },
   {
     "name": "Sportsball",
-    "id": "wiiu341",
+    "id": "wiiu342",
     "igdbId": 21708,
     "gbId": 48128,
     "gbGuid": "3030-48128",
@@ -8166,7 +8204,7 @@
   },
   {
     "name": "Spot the Differences: Party!",
-    "id": "wiiu342",
+    "id": "wiiu343",
     "igdbId": 84897,
     "gbId": null,
     "gbGuid": null,
@@ -8189,7 +8227,7 @@
   },
   {
     "name": "Spy Chameleon",
-    "id": "wiiu343",
+    "id": "wiiu344",
     "igdbId": 15462,
     "gbId": null,
     "gbGuid": null,
@@ -8213,7 +8251,7 @@
   },
   {
     "name": "Squids Odyssey",
-    "id": "wiiu344",
+    "id": "wiiu345",
     "igdbId": 19877,
     "gbId": 43461,
     "gbGuid": "3030-43461",
@@ -8237,7 +8275,7 @@
   },
   {
     "name": "Star Fox Guard",
-    "id": "wiiu345",
+    "id": "wiiu346",
     "igdbId": 19687,
     "gbId": 46595,
     "gbGuid": "3030-46595",
@@ -8261,7 +8299,7 @@
   },
   {
     "name": "Star Fox Zero",
-    "id": "wiiu346",
+    "id": "wiiu347",
     "igdbId": 11196,
     "gbId": 46584,
     "gbGuid": "3030-46584",
@@ -8285,7 +8323,7 @@
   },
   {
     "name": "Star Ghost",
-    "id": "wiiu347",
+    "id": "wiiu348",
     "igdbId": 58873,
     "gbId": 52779,
     "gbGuid": "3030-52779",
@@ -8308,7 +8346,7 @@
   },
   {
     "name": "Star Sky",
-    "id": "wiiu348",
+    "id": "wiiu349",
     "igdbId": 18015,
     "gbId": 47603,
     "gbGuid": "3030-47603",
@@ -8331,7 +8369,7 @@
   },
   {
     "name": "Star Sky 2",
-    "id": "wiiu349",
+    "id": "wiiu350",
     "igdbId": 33512,
     "gbId": 54325,
     "gbGuid": "3030-54325",
@@ -8354,7 +8392,7 @@
   },
   {
     "name": "Star Splash: Shattered Star",
-    "id": "wiiu350",
+    "id": "wiiu351",
     "igdbId": 85392,
     "gbId": null,
     "gbGuid": null,
@@ -8377,7 +8415,7 @@
   },
   {
     "name": "SteamWorld Collection",
-    "id": "wiiu351",
+    "id": "wiiu352",
     "igdbId": 24421,
     "gbId": 54761,
     "gbGuid": "3030-54761",
@@ -8396,14 +8434,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Steel Lords",
-    "id": "wiiu352",
+    "id": "wiiu353",
     "igdbId": 57320,
     "gbId": 56916,
     "gbGuid": "3030-56916",
@@ -8426,7 +8465,7 @@
   },
   {
     "name": "Steel Rivals",
-    "id": "wiiu353",
+    "id": "wiiu354",
     "igdbId": 34766,
     "gbId": 51708,
     "gbGuid": "3030-51708",
@@ -8450,7 +8489,7 @@
   },
   {
     "name": "Stone Shire",
-    "id": "wiiu354",
+    "id": "wiiu355",
     "igdbId": 85535,
     "gbId": null,
     "gbGuid": null,
@@ -8473,7 +8512,7 @@
   },
   {
     "name": "Sudoku Party",
-    "id": "wiiu355",
+    "id": "wiiu356",
     "igdbId": 84915,
     "gbId": null,
     "gbGuid": null,
@@ -8496,7 +8535,7 @@
   },
   {
     "name": "Sudoku and Permudoku",
-    "id": "wiiu356",
+    "id": "wiiu357",
     "igdbId": 84913,
     "gbId": null,
     "gbGuid": null,
@@ -8519,7 +8558,7 @@
   },
   {
     "name": "Super Destronaut",
-    "id": "wiiu357",
+    "id": "wiiu358",
     "igdbId": 31859,
     "gbId": 69371,
     "gbGuid": "3030-69371",
@@ -8542,7 +8581,7 @@
   },
   {
     "name": "Super Destronaut 2: Go Duck Yourself",
-    "id": "wiiu358",
+    "id": "wiiu359",
     "igdbId": 84917,
     "gbId": null,
     "gbGuid": null,
@@ -8565,7 +8604,7 @@
   },
   {
     "name": "Super Hero Math",
-    "id": "wiiu359",
+    "id": "wiiu360",
     "igdbId": 84921,
     "gbId": null,
     "gbGuid": null,
@@ -8588,7 +8627,7 @@
   },
   {
     "name": "Super Mario 3D World",
-    "id": "wiiu360",
+    "id": "wiiu361",
     "igdbId": 2180,
     "gbId": 42931,
     "gbGuid": "3030-42931",
@@ -8618,14 +8657,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Super Mario Maker",
-    "id": "wiiu361",
+    "id": "wiiu362",
     "igdbId": 7339,
     "gbId": 46580,
     "gbGuid": "3030-46580",
@@ -8649,7 +8689,7 @@
   },
   {
     "name": "Super Robo Mouse",
-    "id": "wiiu362",
+    "id": "wiiu363",
     "igdbId": 61228,
     "gbId": 47180,
     "gbGuid": "3030-47180",
@@ -8672,7 +8712,7 @@
   },
   {
     "name": "Super Smash Bros. for Wii U",
-    "id": "wiiu363",
+    "id": "wiiu364",
     "igdbId": 9602,
     "gbId": 35573,
     "gbGuid": "3030-35573",
@@ -8696,7 +8736,7 @@
   },
   {
     "name": "Super Toy Cars",
-    "id": "wiiu364",
+    "id": "wiiu365",
     "igdbId": 9548,
     "gbId": 45589,
     "gbGuid": "3030-45589",
@@ -8719,7 +8759,7 @@
   },
   {
     "name": "Super Ultra Star Shooter",
-    "id": "wiiu365",
+    "id": "wiiu366",
     "igdbId": 85417,
     "gbId": 69810,
     "gbGuid": "3030-69810",
@@ -8742,7 +8782,7 @@
   },
   {
     "name": "Surfin' Sam - Attack of the Aqualites",
-    "id": "wiiu366",
+    "id": "wiiu367",
     "igdbId": 85416,
     "gbId": null,
     "gbGuid": null,
@@ -8765,7 +8805,7 @@
   },
   {
     "name": "Suspension Railroad Simulator",
-    "id": "wiiu367",
+    "id": "wiiu368",
     "igdbId": 85414,
     "gbId": null,
     "gbGuid": null,
@@ -8788,7 +8828,7 @@
   },
   {
     "name": "Swap Blocks",
-    "id": "wiiu368",
+    "id": "wiiu369",
     "igdbId": 44217,
     "gbId": null,
     "gbGuid": null,
@@ -8811,7 +8851,7 @@
   },
   {
     "name": "Swap Fire",
-    "id": "wiiu369",
+    "id": "wiiu370",
     "igdbId": 77773,
     "gbId": 62874,
     "gbGuid": "3030-62874",
@@ -8835,7 +8875,7 @@
   },
   {
     "name": "Sweetest Thing",
-    "id": "wiiu370",
+    "id": "wiiu371",
     "igdbId": 85412,
     "gbId": null,
     "gbGuid": null,
@@ -8858,7 +8898,7 @@
   },
   {
     "name": "Swords & Soldiers II",
-    "id": "wiiu371",
+    "id": "wiiu372",
     "igdbId": 19975,
     "gbId": 45534,
     "gbGuid": "3030-45534",
@@ -8882,7 +8922,7 @@
   },
   {
     "name": "TABLETOP GALLERY",
-    "id": "wiiu372",
+    "id": "wiiu373",
     "igdbId": 85419,
     "gbId": null,
     "gbGuid": null,
@@ -8905,7 +8945,7 @@
   },
   {
     "name": "TNT Racers: Nitro Machines Edition",
-    "id": "wiiu373",
+    "id": "wiiu374",
     "igdbId": 51152,
     "gbId": null,
     "gbGuid": null,
@@ -8929,7 +8969,7 @@
   },
   {
     "name": "TOSS N GO",
-    "id": "wiiu374",
+    "id": "wiiu375",
     "igdbId": 84945,
     "gbId": null,
     "gbGuid": null,
@@ -8952,7 +8992,7 @@
   },
   {
     "name": "Tadpole Treble",
-    "id": "wiiu375",
+    "id": "wiiu376",
     "igdbId": 22444,
     "gbId": 47054,
     "gbGuid": "3030-47054",
@@ -8975,7 +9015,7 @@
   },
   {
     "name": "Taiko Drum Master",
-    "id": "wiiu376",
+    "id": "wiiu377",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -8999,7 +9039,7 @@
   },
   {
     "name": "Taiko Drum Master: Wii U Version",
-    "id": "wiiu377",
+    "id": "wiiu378",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -9022,7 +9062,7 @@
   },
   {
     "name": "Taiko no Tatsujin Wii",
-    "id": "wiiu378",
+    "id": "wiiu379",
     "igdbId": 5207,
     "gbId": null,
     "gbGuid": null,
@@ -9045,7 +9085,7 @@
   },
   {
     "name": "Tallowmere",
-    "id": "wiiu379",
+    "id": "wiiu380",
     "igdbId": 9677,
     "gbId": 48722,
     "gbGuid": "3030-48722",
@@ -9068,7 +9108,7 @@
   },
   {
     "name": "Tank! Tank! Tank!",
-    "id": "wiiu380",
+    "id": "wiiu381",
     "igdbId": 5323,
     "gbId": 30864,
     "gbGuid": "3030-30864",
@@ -9102,7 +9142,7 @@
   },
   {
     "name": "Tap Tap Arcade",
-    "id": "wiiu381",
+    "id": "wiiu382",
     "igdbId": 58901,
     "gbId": 52681,
     "gbGuid": "3030-52681",
@@ -9125,7 +9165,7 @@
   },
   {
     "name": "Tap Tap Arcade 2",
-    "id": "wiiu382",
+    "id": "wiiu383",
     "igdbId": 58376,
     "gbId": 54222,
     "gbGuid": "3030-54222",
@@ -9148,7 +9188,7 @@
   },
   {
     "name": "Tekken Tag Tournament 2: Wii U Edition",
-    "id": "wiiu383",
+    "id": "wiiu384",
     "igdbId": 21693,
     "gbId": 32716,
     "gbGuid": "3030-32716",
@@ -9172,7 +9212,7 @@
   },
   {
     "name": "Temple of Yog",
-    "id": "wiiu384",
+    "id": "wiiu385",
     "igdbId": 60419,
     "gbId": 49350,
     "gbGuid": "3030-49350",
@@ -9195,7 +9235,7 @@
   },
   {
     "name": "Tengami",
-    "id": "wiiu385",
+    "id": "wiiu386",
     "igdbId": 10089,
     "gbId": 38568,
     "gbGuid": "3030-38568",
@@ -9219,7 +9259,7 @@
   },
   {
     "name": "Test Your Mind",
-    "id": "wiiu386",
+    "id": "wiiu387",
     "igdbId": 85432,
     "gbId": null,
     "gbGuid": null,
@@ -9242,7 +9282,7 @@
   },
   {
     "name": "Tetrobot and Co.",
-    "id": "wiiu387",
+    "id": "wiiu388",
     "igdbId": 8985,
     "gbId": 43495,
     "gbGuid": "3030-43495",
@@ -9266,7 +9306,7 @@
   },
   {
     "name": "The Fall",
-    "id": "wiiu388",
+    "id": "wiiu389",
     "igdbId": 9547,
     "gbId": 43982,
     "gbGuid": "3030-43982",
@@ -9290,7 +9330,7 @@
   },
   {
     "name": "The First Skunk Bundle",
-    "id": "wiiu389",
+    "id": "wiiu390",
     "igdbId": 57866,
     "gbId": 55350,
     "gbGuid": "3030-55350",
@@ -9314,7 +9354,7 @@
   },
   {
     "name": "The Gem Collector",
-    "id": "wiiu390",
+    "id": "wiiu391",
     "igdbId": 85435,
     "gbId": null,
     "gbGuid": null,
@@ -9337,7 +9377,7 @@
   },
   {
     "name": "The Legend of Zelda: Breath of the Wild",
-    "id": "wiiu391",
+    "id": "wiiu392",
     "igdbId": 7346,
     "gbId": 41355,
     "gbGuid": "3030-41355",
@@ -9355,7 +9395,7 @@
   },
   {
     "name": "The Legend of Zelda: The Wind Waker HD",
-    "id": "wiiu392",
+    "id": "wiiu393",
     "igdbId": 2276,
     "gbId": 41348,
     "gbGuid": "3030-41348",
@@ -9385,7 +9425,8 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": [
@@ -9398,7 +9439,7 @@
   },
   {
     "name": "The Legend of Zelda: Twilight Princess HD",
-    "id": "wiiu393",
+    "id": "wiiu394",
     "igdbId": 18017,
     "gbId": 51484,
     "gbGuid": "3030-51484",
@@ -9422,7 +9463,7 @@
   },
   {
     "name": "The Letter",
-    "id": "wiiu394",
+    "id": "wiiu395",
     "igdbId": 85525,
     "gbId": 51984,
     "gbGuid": "3030-51984",
@@ -9446,7 +9487,7 @@
   },
   {
     "name": "The Mysterious Cities of Gold: Secret Paths",
-    "id": "wiiu395",
+    "id": "wiiu396",
     "igdbId": 53763,
     "gbId": 47208,
     "gbGuid": "3030-47208",
@@ -9469,7 +9510,7 @@
   },
   {
     "name": "The Penguins of Madagascar",
-    "id": "wiiu396",
+    "id": "wiiu397",
     "igdbId": 50738,
     "gbId": 69085,
     "gbGuid": "3030-69085",
@@ -9493,7 +9534,7 @@
   },
   {
     "name": "The Perplexing Orb",
-    "id": "wiiu397",
+    "id": "wiiu398",
     "igdbId": 85439,
     "gbId": 75071,
     "gbGuid": "3030-75071",
@@ -9516,7 +9557,7 @@
   },
   {
     "name": "The Quiet Collection",
-    "id": "wiiu398",
+    "id": "wiiu399",
     "igdbId": 59887,
     "gbId": 50715,
     "gbGuid": "3030-50715",
@@ -9539,7 +9580,7 @@
   },
   {
     "name": "The Stonecutter",
-    "id": "wiiu399",
+    "id": "wiiu400",
     "igdbId": 84955,
     "gbId": null,
     "gbGuid": null,
@@ -9562,7 +9603,7 @@
   },
   {
     "name": "The Wonderful 101",
-    "id": "wiiu400",
+    "id": "wiiu401",
     "igdbId": 2639,
     "gbId": 38553,
     "gbGuid": "3030-38553",
@@ -9586,7 +9627,7 @@
   },
   {
     "name": "Tiny Galaxy",
-    "id": "wiiu401",
+    "id": "wiiu402",
     "igdbId": 84951,
     "gbId": null,
     "gbGuid": null,
@@ -9609,7 +9650,7 @@
   },
   {
     "name": "Tokyo Mirage Sessions #FE",
-    "id": "wiiu402",
+    "id": "wiiu403",
     "igdbId": 5321,
     "gbId": 41346,
     "gbGuid": "3030-41346",
@@ -9633,7 +9674,7 @@
   },
   {
     "name": "Tomeling in Trouble",
-    "id": "wiiu403",
+    "id": "wiiu404",
     "igdbId": 85447,
     "gbId": null,
     "gbGuid": null,
@@ -9656,7 +9697,7 @@
   },
   {
     "name": "Toon Tanks",
-    "id": "wiiu404",
+    "id": "wiiu405",
     "igdbId": 84947,
     "gbId": null,
     "gbGuid": null,
@@ -9679,7 +9720,7 @@
   },
   {
     "name": "Toon War",
-    "id": "wiiu405",
+    "id": "wiiu406",
     "igdbId": 86238,
     "gbId": null,
     "gbGuid": null,
@@ -9702,7 +9743,7 @@
   },
   {
     "name": "Totem Temple",
-    "id": "wiiu406",
+    "id": "wiiu407",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -9725,7 +9766,7 @@
   },
   {
     "name": "Touch Selections",
-    "id": "wiiu407",
+    "id": "wiiu408",
     "igdbId": 57058,
     "gbId": 57631,
     "gbGuid": "3030-57631",
@@ -9748,7 +9789,7 @@
   },
   {
     "name": "Transformers Prime: The Game",
-    "id": "wiiu408",
+    "id": "wiiu409",
     "igdbId": 23676,
     "gbId": 38581,
     "gbGuid": "3030-38581",
@@ -9772,7 +9813,7 @@
   },
   {
     "name": "Tri-Strip",
-    "id": "wiiu409",
+    "id": "wiiu410",
     "igdbId": 85456,
     "gbId": null,
     "gbGuid": null,
@@ -9795,7 +9836,7 @@
   },
   {
     "name": "Trine 2: Director's Cut",
-    "id": "wiiu410",
+    "id": "wiiu411",
     "igdbId": 20845,
     "gbId": 31661,
     "gbGuid": "3030-31661",
@@ -9819,7 +9860,7 @@
   },
   {
     "name": "Triple Breakout",
-    "id": "wiiu411",
+    "id": "wiiu412",
     "igdbId": 56195,
     "gbId": 59250,
     "gbGuid": "3030-59250",
@@ -9842,7 +9883,7 @@
   },
   {
     "name": "Twin Robots",
-    "id": "wiiu412",
+    "id": "wiiu413",
     "igdbId": 35144,
     "gbId": 61996,
     "gbGuid": "3030-61996",
@@ -9865,7 +9906,7 @@
   },
   {
     "name": "Twisted Fusion",
-    "id": "wiiu413",
+    "id": "wiiu414",
     "igdbId": 61926,
     "gbId": 45816,
     "gbGuid": "3030-45816",
@@ -9889,7 +9930,7 @@
   },
   {
     "name": "Typoman",
-    "id": "wiiu414",
+    "id": "wiiu415",
     "igdbId": 11225,
     "gbId": 49960,
     "gbGuid": "3030-49960",
@@ -9913,7 +9954,7 @@
   },
   {
     "name": "U Host",
-    "id": "wiiu415",
+    "id": "wiiu416",
     "igdbId": 85463,
     "gbId": null,
     "gbGuid": null,
@@ -9936,7 +9977,7 @@
   },
   {
     "name": "Unalive",
-    "id": "wiiu416",
+    "id": "wiiu417",
     "igdbId": 29969,
     "gbId": null,
     "gbGuid": null,
@@ -9960,7 +10001,7 @@
   },
   {
     "name": "Underground",
-    "id": "wiiu417",
+    "id": "wiiu418",
     "igdbId": 77009,
     "gbId": 47995,
     "gbGuid": "3030-47995",
@@ -9984,7 +10025,7 @@
   },
   {
     "name": "VRog",
-    "id": "wiiu418",
+    "id": "wiiu419",
     "igdbId": 29545,
     "gbId": 60671,
     "gbGuid": "3030-60671",
@@ -10007,7 +10048,7 @@
   },
   {
     "name": "Vector Assault",
-    "id": "wiiu419",
+    "id": "wiiu420",
     "igdbId": 33932,
     "gbId": null,
     "gbGuid": null,
@@ -10030,7 +10071,7 @@
   },
   {
     "name": "VoxelMaker",
-    "id": "wiiu420",
+    "id": "wiiu421",
     "igdbId": 85481,
     "gbId": null,
     "gbGuid": null,
@@ -10053,7 +10094,7 @@
   },
   {
     "name": "Wall Ball",
-    "id": "wiiu421",
+    "id": "wiiu422",
     "igdbId": 40681,
     "gbId": 57516,
     "gbGuid": "3030-57516",
@@ -10077,7 +10118,7 @@
   },
   {
     "name": "Warriors Orochi 3: Hyper",
-    "id": "wiiu422",
+    "id": "wiiu423",
     "igdbId": 28368,
     "gbId": 37022,
     "gbGuid": "3030-37022",
@@ -10101,7 +10142,7 @@
   },
   {
     "name": "Wicked Monsters Blast! HD PLUS",
-    "id": "wiiu423",
+    "id": "wiiu424",
     "igdbId": 85482,
     "gbId": null,
     "gbGuid": null,
@@ -10124,7 +10165,7 @@
   },
   {
     "name": "Wii Fit U",
-    "id": "wiiu424",
+    "id": "wiiu425",
     "igdbId": 5325,
     "gbId": 38546,
     "gbGuid": "3030-38546",
@@ -10148,7 +10189,7 @@
   },
   {
     "name": "Wii Party U",
-    "id": "wiiu425",
+    "id": "wiiu426",
     "igdbId": 3106,
     "gbId": 41350,
     "gbGuid": "3030-41350",
@@ -10178,14 +10219,15 @@
           "gbId": 139,
           "gbGuid": "3045-139",
           "tgdbId": 38
-        }
+        },
+        "category": "hits"
       }
     ],
     "misprintsErrors": []
   },
   {
     "name": "Wii Sports Club",
-    "id": "wiiu426",
+    "id": "wiiu427",
     "igdbId": 23518,
     "gbId": 43957,
     "gbGuid": "3030-43957",
@@ -10218,7 +10260,7 @@
   },
   {
     "name": "Wii Street U",
-    "id": "wiiu427",
+    "id": "wiiu428",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -10241,7 +10283,7 @@
   },
   {
     "name": "Wii U Panorama View",
-    "id": "wiiu428",
+    "id": "wiiu429",
     "igdbId": 78866,
     "gbId": 38559,
     "gbGuid": "3030-38559",
@@ -10264,7 +10306,7 @@
   },
   {
     "name": "Wind-up Knight 2",
-    "id": "wiiu429",
+    "id": "wiiu430",
     "igdbId": 61757,
     "gbId": 46144,
     "gbGuid": "3030-46144",
@@ -10287,7 +10329,7 @@
   },
   {
     "name": "Wings of Magloryx",
-    "id": "wiiu430",
+    "id": "wiiu431",
     "igdbId": 85492,
     "gbId": null,
     "gbGuid": null,
@@ -10310,7 +10352,7 @@
   },
   {
     "name": "Wipeout 3",
-    "id": "wiiu431",
+    "id": "wiiu432",
     "igdbId": 28355,
     "gbId": 38829,
     "gbGuid": "3030-38829",
@@ -10334,7 +10376,7 @@
   },
   {
     "name": "Wooden Sen'SeY",
-    "id": "wiiu432",
+    "id": "wiiu433",
     "igdbId": 10341,
     "gbId": 43457,
     "gbGuid": "3030-43457",
@@ -10358,7 +10400,7 @@
   },
   {
     "name": "Word Party",
-    "id": "wiiu433",
+    "id": "wiiu434",
     "igdbId": 96133,
     "gbId": null,
     "gbGuid": null,
@@ -10381,7 +10423,7 @@
   },
   {
     "name": "Word Puzzles by POWGI",
-    "id": "wiiu434",
+    "id": "wiiu435",
     "igdbId": 59522,
     "gbId": 51526,
     "gbGuid": "3030-51526",
@@ -10404,7 +10446,7 @@
   },
   {
     "name": "WordsUp! Academy",
-    "id": "wiiu435",
+    "id": "wiiu436",
     "igdbId": 84961,
     "gbId": null,
     "gbGuid": null,
@@ -10427,7 +10469,7 @@
   },
   {
     "name": "World Logic by POWGI",
-    "id": "wiiu436",
+    "id": "wiiu437",
     "igdbId": null,
     "gbId": null,
     "gbGuid": null,
@@ -10450,7 +10492,7 @@
   },
   {
     "name": "XType Plus",
-    "id": "wiiu437",
+    "id": "wiiu438",
     "igdbId": 61248,
     "gbId": 47108,
     "gbGuid": "3030-47108",
@@ -10473,7 +10515,7 @@
   },
   {
     "name": "Xavier",
-    "id": "wiiu438",
+    "id": "wiiu439",
     "igdbId": 84959,
     "gbId": null,
     "gbGuid": null,
@@ -10496,7 +10538,7 @@
   },
   {
     "name": "Xenoblade Chronicles X",
-    "id": "wiiu439",
+    "id": "wiiu440",
     "igdbId": 2366,
     "gbId": 41347,
     "gbGuid": "3030-41347",
@@ -10520,7 +10562,7 @@
   },
   {
     "name": "Y.A.S.G",
-    "id": "wiiu440",
+    "id": "wiiu441",
     "igdbId": 84935,
     "gbId": null,
     "gbGuid": null,
@@ -10543,7 +10585,7 @@
   },
   {
     "name": "Year Walk",
-    "id": "wiiu441",
+    "id": "wiiu442",
     "igdbId": 6171,
     "gbId": 41728,
     "gbGuid": "3030-41728",
@@ -10567,7 +10609,7 @@
   },
   {
     "name": "Yo-kai Watch Dance: Just Dance Special Edition",
-    "id": "wiiu442",
+    "id": "wiiu443",
     "igdbId": null,
     "gbId": 50545,
     "gbGuid": "3030-50545",
@@ -10590,7 +10632,7 @@
   },
   {
     "name": "Yoshi's Woolly World",
-    "id": "wiiu443",
+    "id": "wiiu444",
     "igdbId": 7343,
     "gbId": 41349,
     "gbGuid": "3030-41349",
@@ -10614,7 +10656,7 @@
   },
   {
     "name": "Your Shape: Fitness Evolved 2013",
-    "id": "wiiu444",
+    "id": "wiiu445",
     "igdbId": 28347,
     "gbId": 38551,
     "gbGuid": "3030-38551",
@@ -10648,7 +10690,7 @@
   },
   {
     "name": "ZaciSa's Last Stand",
-    "id": "wiiu445",
+    "id": "wiiu446",
     "igdbId": 84957,
     "gbId": null,
     "gbGuid": null,
@@ -10671,7 +10713,7 @@
   },
   {
     "name": "ZombiU",
-    "id": "wiiu446",
+    "id": "wiiu447",
     "igdbId": 1591,
     "gbId": 35619,
     "gbGuid": "3030-35619",
@@ -10695,7 +10737,7 @@
   },
   {
     "name": "Zombie Brigade: No Brain No Gain",
-    "id": "wiiu447",
+    "id": "wiiu448",
     "igdbId": 84931,
     "gbId": null,
     "gbGuid": null,
@@ -10718,7 +10760,7 @@
   },
   {
     "name": "psyscrolr",
-    "id": "wiiu448",
+    "id": "wiiu449",
     "igdbId": 85351,
     "gbId": null,
     "gbGuid": null,
@@ -10741,7 +10783,7 @@
   },
   {
     "name": "uWordsmith",
-    "id": "wiiu449",
+    "id": "wiiu450",
     "igdbId": 85466,
     "gbId": null,
     "gbGuid": null,

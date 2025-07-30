@@ -37,6 +37,8 @@ const n3ds = require('../../../extra/consoleSpecificGameData/Nintendo3DS.json');
 const vita = require('../../../extra/consoleSpecificGameData/SonyPlaystationVita.json');
 const gcom = require('../../../extra/consoleSpecificGameData/GameCom.json');
 const lynx = require('../../../extra/consoleSpecificGameData/AtariLynx.json');
+const ns2 = require('../../../extra/consoleSpecificGameData/NintendoSwitch2.json');
+const neoGeo = require('../../../extra/consoleSpecificGameData/NeoGeoAES.json');
 
 const igdbIdToFile = {
   18: nes,
@@ -77,7 +79,9 @@ const igdbIdToFile = {
   87: nvb,
   46: vita,
   379: gcom,
-  61: lynx
+  61: lynx,
+  508: ns2,
+  80: neoGeo
 };
 
 module.exports.getFileRef = id => {
@@ -86,6 +90,7 @@ module.exports.getFileRef = id => {
 
 module.exports.extraDataLists = () => {
   return Object.keys(igdbIdToFile).map(key => {
+    // eslint-disable-next-line eqeqeq
     const otherData = consoleIds.find(con => con.id == key);
     otherData.data = igdbIdToFile[key];
     return otherData;

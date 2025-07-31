@@ -52,8 +52,8 @@ const FilterBar: FunctionComponent<IProps> = ({ data }: IProps) => {
 
   const locationArr = [
     { label: 'No Preference', value: null },
-    { label: 'Upstairs', value: 'upstairs' },
-    { label: 'Downstairs', value: 'downstairs' },
+    { label: 'Game Room', value: 'game room' },
+    { label: 'Living Room', value: 'living room' },
     { label: 'Both/Either', value: 'both' }
   ];
 

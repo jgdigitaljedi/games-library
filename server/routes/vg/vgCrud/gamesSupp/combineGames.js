@@ -139,17 +139,17 @@ module.exports.combine = function () {
 
       const withLocations = dedupe.map((game, index) => {
         const location = game.consoleArr.map(con => {
-          return game.location || 'upstairs';
+          return game.location || 'game room';
         });
         if (
-          (location.indexOf('upstairs') >= 0 && location.indexOf('downstairs') >= 0) ||
+          (location.indexOf('game room') >= 0 && location.indexOf('living room') >= 0) ||
           location.indexOf('both') >= 0
         ) {
           game.location = 'both';
-        } else if (location.indexOf('upstairs') >= 0) {
-          game.location = 'upstairs';
+        } else if (location.indexOf('game room') >= 0) {
+          game.location = 'game room';
         } else {
-          game.location = 'downstairs';
+          game.location = 'living room';
         }
         return game;
       });

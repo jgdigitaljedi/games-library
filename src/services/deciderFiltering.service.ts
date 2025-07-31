@@ -70,7 +70,7 @@ export const filters = {
       const result = data.filter(d => {
         return get(d, 'location') === location;
       });
-      if (location === 'upstairs' || location === 'downstairs') {
+      if (location === 'game room' || location === 'living room') {
         const bothArr = data.filter(d => get(d, 'location') === 'both');
         return SortService.sortData([...result, ...bothArr], 'dateAdded', 'descending');
       }

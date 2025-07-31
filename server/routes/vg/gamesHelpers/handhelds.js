@@ -9,7 +9,9 @@ const handheldsArr = [
   '35', // Game Gear
   '46', // Vita
   '379', // Game.com
-  '61' // Lynx
+  '61', // Lynx
+  '130', // Nintendo Switch
+  '508' // Nintendo Switch 2
 ];
 
 const inHandheldsArr = (id, name) => {

@@ -22,14 +22,15 @@ const backwardCompatible = {
     { consoleName: 'Nintendo GameCube (Game Boy Player)', consoleId: 21 }
   ],
   20: [{ consoleName: 'Nintendo 3DS', consoleId: 37 }],
-  59: [{ consoleName: 'Atari 7800', consoleId: 60 }]
+  59: [{ consoleName: 'Atari 7800', consoleId: 60 }],
+  130: [{ consoleName: 'Nintendo Switch 2', consoleId: 508 }]
 };
 
-const xb360ToOneIds = xb360ToOne.map((c) => +c.igdbId);
-const xbTo360Ids = xboxTo360.map((c) => +c.igdbId);
-const xbToOneIds = xboxToOne.map((c) => +c.igdbId);
+const xb360ToOneIds = xb360ToOne.map(c => +c.igdbId);
+const xbTo360Ids = xboxTo360.map(c => +c.igdbId);
+const xbToOneIds = xboxToOne.map(c => +c.igdbId);
 
-module.exports.bc = (id) => {
+module.exports.bc = id => {
   return backwardCompatible[id.toString()] || [];
 };
 

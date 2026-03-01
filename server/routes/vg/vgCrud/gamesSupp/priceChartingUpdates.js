@@ -58,7 +58,9 @@ async function getDataById(item) {
 async function updateGameData(game) {
   if (game.hasOwnProperty('priceCharting')) {
     const newData = await getDataById(game);
+    console.log('newData', newData);
     const formatted = formatPcResult(newData.data, game, 'GAME');
+    console.log('formatted', formatted);
     const saveStatus = await saveUpdatedGame(game._id, {
       ...game,
       priceCharting: { ...formatted }
